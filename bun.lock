@@ -93,7 +93,7 @@
         "eslint-plugin-react": "7.37.5",
         "eslint-plugin-react-hooks": "7.1.1",
         "eslint-plugin-security": "4.2.0",
-        "gettext-parser": "9.1.1",
+        "gettext-parser": "10.0.0",
         "jose": "6.2.2",
         "js-yaml": "4.3.2",
         "jsdom": "30.1.2",
@@ -1599,7 +1599,7 @@
 
     "get-tsconfig": ["get-tsconfig@4.14.3", "", { "dependencies": { "resolve-pkg-maps": "^1.0.0" } }, "sha512-++QEw4DIY7WGoukz+/+A/8dGYPT9l9yIadnmSgZ8Rjr3YVSVDipQSO9CdnJo9ePqFqUUqh+wk9uIaoiAwsiPkA=="],
 
-    "gettext-parser": ["gettext-parser@9.1.1", "", { "dependencies": { "content-type": "^1.0.5", "encoding": "^0.1.13" } }, "sha512-ZLeqWPz9OMNrTgMuww0C22kkcNqis+e4059R94t7L7ERlZ2rUNpiDbaAUus+esBC6uBAQWbS9N+R5vJIJg//lw=="],
+    "gettext-parser": ["gettext-parser@10.0.0", "", { "dependencies": { "content-type": "^1.0.5", "encoding": "^0.1.13" } }, "sha512-hELgK4pFrOrqFiUOo4GQ6kFg0ywhlEJXN6R22cgZ1dxzZj9LUXA2NnwmyoUqxLyunm0yrSPwd6fA5bNqjuvmYA=="],
 
     "glob": ["glob@13.0.6", "", { "dependencies": { "minimatch": "^10.2.2", "minipass": "^7.1.3", "path-scurry": "^2.0.2" } }, "sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw=="],
 
