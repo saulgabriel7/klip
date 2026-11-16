@@ -1,0 +1,36 @@
+youtube-podcast: A 3.6-hour YouTube podcast episode
+Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502 · 13016 s · card says "1280x720" · 45 formats
+
+Video (picked for Balanced 720p •):
+       SDR AV1          SDR VP9                         SDR H.264
+1080p  AV1 499.7 MiB    VP9 [Enhanced bitrate] 7.1 GiB  H.264 4.9 GiB
+720p   AV1 246.2 MiB •  VP9 2.5 GiB                     H.264 1.7 GiB
+480p   AV1 156.3 MiB    VP9 1.3 GiB                     H.264 1019.4 MiB
+360p   AV1 97.8 MiB     VP9 890.2 MiB                   H.264 744.8 MiB
+240p   AV1 52.8 MiB     VP9 382.4 MiB                   H.264 339.0 MiB
+144p   AV1 58.0 MiB     VP9 370.4 MiB                   H.264 254.3 MiB
+
+Audio:
+Opus: 138 kbps DRC 213.5 MiB DRC | 132 kbps 204.5 MiB • | 79 kbps DRC 123.1 MiB DRC | 76 kbps 117.7 MiB | 52 kbps 81.2 MiB DRC | 52 kbps 80.1 MiB
+AAC: 129 kbps 200.8 MiB DRC | 129 kbps 200.8 MiB | 49 kbps 22.05 kHz 75.6 MiB DRC | 49 kbps 22.05 kHz 75.6 MiB
+DRC switch shown
+convert from: mp3 ← 251 re-encode · m4a ← 140 copy 129 kbps · opus ← 251 copy 132 kbps · wav ← 251 re-encode
+
+Profile picks:
+best-quality: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+best-2160: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"2160","picked":1080})
+best-1440: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"1440","picked":1080})
+hd-1080: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+balanced: 398 (1280x720, mp4) + audio 251 (audio only, webm)
+small-file: 397 (854x480, mp4) + audio 251 (audio only, webm)
+mp4-1080: 137 (1920x1080, mp4) + audio 140 (audio only, m4a)
+mp4-720: 136 (1280x720, mp4) + audio 140 (audio only, m4a)
+mp4-480: 135 (854x480, mp4) + audio 140 (audio only, m4a)
+audio-only: audio 251 (audio only, webm)
+low-240: 395 (426x240, mp4) + audio 251 (audio only, webm)
+low-144: 394 (256x144, mp4) + audio 251 (audio only, webm)
+
+Subtitles: en
+Auto captions: en-orig
+Subtitle picks (manual-first | manual-and-auto):
+en: en | en + en-orig

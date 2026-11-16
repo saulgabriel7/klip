@@ -1,0 +1,5277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "情報"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "サードパーティ通知を表示"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "公式サイト"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "許可"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "AI アップスケールを許可"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube は一部の古い動画を、AI で作ったサイズでも提供しています。「スキップ」では元のストリームを使います。アップスケール版を手動で選ぶこともできます。"
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "AI アップスケールのストリーム"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "スキップ"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "フィードバック"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "Klipを楽しんでくれてる?ぜひ感想を聞かせて! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "ログ"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "診断ファイルを保存"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "ログとアプリの情報を「ダウンロード」フォルダー内の1つのファイルにまとめます。GitHub の Issue にそのまま添付できます。ユーザーフォルダー名は削除されますが、動画のリンクとタイトルは残ります。"
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "新機能：ここでオーロラかミニマルを選べます"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "テーマ"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "拡大"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "縮小"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "戻る"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "続行"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "読み込み中…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "最初からやり直す"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klipは実行を続け、アクティブなダウンロードを完了します。詳細設定で変更できます。"
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "トレイに格納"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "閉じるときにKlipをシステムトレイに格納しますか？"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "終了"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "次回から表示しない"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "キューは保持され、次回 Klip を開いたときに、ダウンロードは中断した位置から再開されます。"
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "ダウンロードを続ける"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "ダウンロード{{count}}件を実行中"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "終了"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "レンダラープロセスがクラッシュしました ({{reason}})。再読み込みしてもう一度お試しください。"
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klipで問題が発生しました"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "終了"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "再読み込み"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "コピーしました！"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "アドレスをコピー"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip は無料のオープンソースで、広告も有料プランもありません。寄付は任意で、ロードマップへの影響力は得られません。"
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "寄付"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Klip を支援"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "{{coin}} 寄付アドレスの QR コード"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Klip を支援"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "暗号資産の送金は取り消せません。表示されたネットワークでのみ送金し、アドレス全体を照合してください。"
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "この動画には、{{languages}}の字幕がありません。"
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "この動画は年齢制限があり、ログインアカウントなしではダウンロードできません。"
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "サイトのボット対策により、このダウンロードが停止されました。しばらく待ってからもう一度お試しいただくか、一度にダウンロードする動画の数を減らしてください。それでも失敗する場合は、サイト側の一時的な変更の可能性があります。Klip は起動時にダウンロードエンジンを更新するため、修正がリリースされれば自動的に適用されます。"
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "サーバーがストリームの途中で接続を何度も切断し、Klipは再試行を繰り返した末に断念しました。最も大きなビデオフォーマット（4K HDR / 高ビットレート VP9）で起こりやすい問題です。再試行するか、ネットワークまたは VPN を切り替えるか、解像度の低いフォーマットを選択してください。"
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "この動画はDRM保護されています。KlipはDRMを解除できないため、ファイルをダウンロードできません。"
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "この動画では、選択したフォーマットが利用できなくなりました。リンクをもう一度貼り付けて、現在利用できるフォーマットから選択してください。"
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "この動画はあなたの地域では視聴できません。"
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "サイトがこの接続からのリクエストをブロックしています。しばらくしてからもう一度お試しください。"
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "この動画にはサインイン済みのアカウントが必要です。"
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "KlipがFFmpegまたはFFprobeを見つけられませんでした。セットアップをもう一度実行するか、FFmpegの場所を指定してから、ダウンロードをやり直してください。"
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "ネットワークエラーです。接続を確認して再試行してください。"
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "この動画には、リクエストされた言語の字幕がありません。"
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "ディスク容量が不足しています。空き容量を増やして再試行してください。"
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip がダウンロードフォルダーに書き込めません。フォルダーが読み取り専用か、ロックされたドライブ上にあるか、システムのプライバシー設定でブロックされている可能性があります。別のフォルダーを選ぶかアクセスを許可してから、再試行してください。"
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "サイトからの応答を解析できませんでした。サイト側で動画の配信方法が変わった可能性があります。Klip は起動時にダウンロードエンジンを自動更新します — 修正が配信されるまで数分待ってから再試行してください。"
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "ダウンロードは完了しましたが、後処理（マージ / mux / 変換）に失敗しました。多くの場合、これは一時的な ffmpeg の問題です。再試行し、それでも続く場合は別のフォーマットの組み合わせを試してください。"
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "サイトがこの接続からのリクエストを制限しています。"
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "この動画は利用できません — 非公開、削除済み、または地域制限の可能性があります。"
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "ダウンロードに失敗しました。下の生の出力を確認してください。"
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klipはこの URL に対応していません。別のサイトのリンクを試してください。"
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "接続を確認して、もう一度お試しください。"
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "このページを読み込めませんでした"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "設定を開く"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "設定でプロキシを確認して、もう一度お試しください。"
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "「探索」はプロキシ経由で接続できません"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "ページ内の動画・プレイリスト・チャンネルのリンクを右クリックすると、アクティブなプロフィールでダウンロードしたり、別のプロフィールを選んだり、インタラクティブダウンロードを開いたりできます。"
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "リンクを右クリックしてダウンロード"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "アルバムをバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "高く評価した動画をバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "ミックスをバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "プレイリストをバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "アップロード動画をバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "「後で見る」をバックグラウンドでダウンロード"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "リンクをコピー"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "最初の{{count}}件をダウンロード"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "この動画をダウンロード · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "プロフィールでダウンロード"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "このアルバムから"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "高く評価した動画から"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "このミックスから"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "このプレイリストから"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "このチャンネルのアップロード動画から"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "「後で見る」から"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "インタラクティブダウンロード…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "この動画を次のプロフィールで"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "新着"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "YouTubeなどのサイトで動画を見つけて、リンクをコピーせずにここからダウンロードできます。アカウントが必要な動画をダウンロードするには、ここでサイトにログインしてください。"
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "続行"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "YouTubeなどのサイトは、Klipのようなダウンロードツールで使われたアカウントにフラグを立てたり、場合によってはBANしたりすることがあります。メインのアカウントではなく、失ってもよいアカウントを使ってください。"
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "サブアカウントでログインしてください"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "Klip内でWebを閲覧"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "ダウンロードには「探索」のログインではなく、ブラウザのCookieが使われます。"
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "ダウンロードには「探索」のログインではなく、Cookieファイルが使われます。"
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "後で"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Cookieがオフのため、ダウンロードに「探索」のログインは使われません。"
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "「探索」のログインを使う"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "Klip内でYouTubeなどのサイトを閲覧し、アカウントが必要な動画のためにログインできます。"
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "離れている間にメモリを解放"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "別のタブで 5 分経つと、YouTube のホームまたは検索ページを閉じます。戻ると再読み込みされ、数秒かかります。"
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "検索エンジン"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "アドレスバーに入力したテキストの検索先です。リンクは入力どおりに開きます。"
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "「探索」タブを表示"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "オフにすると、ダウンロードでも「探索」のログインが使われなくなります。"
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "「探索」からログアウト"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "ログアウト"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "「探索」内のすべてのサイトのログイン情報と閲覧データを消去します。アカウントが必要なダウンロードは、再度ログインするまで失敗します。"
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "「探索」からログアウトしますか?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "「探索」内のすべてのサイトのログイン情報と閲覧データを消去します。"
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "探索"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "探索"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "サインイン中のアカウントでは、YouTube が広告ブロックに対抗することがあります。"
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "広告ブロック"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "広告ブロック: オフ — クリックでオンにする"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "広告ブロック: オン — クリックでオフにする"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "広告ブロック: 起動中 — クリックでオフにする"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "広告ブロック: 利用できません（フィルターリストをダウンロードできませんでした）— クリックでオフにする"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "アドレス"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "{{engine}}を検索、または任意のサイトを開く (Vimeo、Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "現在のページ"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "戻る"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "コンパクト表示"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "ダウンロード · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "進む"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "通常の表示に戻す"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "動画、プレイリスト、チャンネルを開くとダウンロードできます"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "YouTubeホーム"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "インタラクティブダウンロード：形式や字幕などを選択…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "「探索」ではそのアドレスを開けません。"
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "再読み込み"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "検索語が長すぎます。"
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "この動画だけ"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "この動画だけを {{profileName}} でダウンロード"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "ページのズーム: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "拡大"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "ページのズーム"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "縮小"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "ズーム率"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "ズームを100%に戻す"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "ダウンロードしたファイルの名前の付け方を選びます。トークンをクリックすると挿入されます。/ を使うとフォルダーに振り分けられます。"
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "ファイル名テンプレートを入力してください。"
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "余分な / を削除してください。フォルダーには名前が必要です。"
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "ファイル名に使えない文字を削除してください: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "そのフォルダー名は使えません。. や ..、CON などの予約名は避けてください。"
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "ダウンロードごとに固有の名前になるよう、ファイル名に {title} または {id} を追加してください。"
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} はフォルダー名にできません。画質はダウンロード開始まで分からないためです。"
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ または } が閉じられていません — トークンは {title} のように書きます。"
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "テンプレートが長すぎます。"
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "不明なトークン {{token}} です。"
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "名前の末尾を [{id}] にすると、Klip がダウンロード済みのプレイリスト項目を検出し、.m3u プレイリストを作成できます。"
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "ファイル名テンプレート"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "ファイル名テンプレートが [{id}] で終わっていないか、ダウンロードをフォルダーに振り分けているため使えません。"
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "プレイリスト内"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "単体の動画"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "空欄のままにすると全体のテンプレートを引き継ぎます。"
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "ファイル名テンプレート"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "自動"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "自動 (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "選ばれたストリームに合わせてファイル形式が決まります。"
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "どのコーデックも格納できます。一部のテレビやスマホでは開けません。"
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "ほとんどの環境で再生できます。MP4 内の VP9 は QuickTime で映像が再生されません。"
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "ブラウザ向けのオープン形式です。VP9 または AV1 と Opus のみ格納できます。"
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "MP4 内の AV1 を QuickTime で再生するには、比較的新しい Mac が必要です。H.264 ならどこでも再生できます。"
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "MP4 内の VP9 は QuickTime で映像が再生されません。H.264 ならどこでも再生できます。"
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "プロフィール"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "スマートTVでは WebM は選べません。H.264 を格納できないためです。"
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM では {{codec}} を格納できません。MKV か MP4 を選んでください。"
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "音声"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "音声のみ · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "自動"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "「自動」は、この画面が HDR を表示できる場合は HDR、そうでなければ SDR を選びます。HDR は通常の画面では色あせて見えます。"
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "HDR 動画"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "言語"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "「探索」でサインインしました — {{count}} 件のリンクを再試行中"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "「探索」からログアウトできませんでした。もう一度お試しください。"
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "このフォルダーはシステムに対して階層が深すぎます。ダウンロードは失敗する可能性があります — もっと短いフォルダーを選んでください。"
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "この動画の名前はテンプレートのすべての部分に収まらないため、既定の名前を使用しました。"
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "フォルダー選択を開けませんでした。"
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "すでにキューにあります — 追加されていません"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "Klip で Cookie の設定を完了してから、もう一度お試しください"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "クリップボードにリンクがありません — 先にコピーしてください"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "複数のリンクがコピーされました — Klipの「一括 URL」を使ってください"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "このリンクは選択が必要です — Klip の「ダウンロード」を確認してください"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "クリップボードからダウンロードを追加しました"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "そのリンクを追加できませんでした — Klipでもう一度お試しください"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "このフォルダーはこのプレイリストには使用できません。"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} 件の動画はすでにキューにあるため、スキップしました"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "追加しました: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "すでにキューにあります"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} 件のリンクをダウンロードに追加しました"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} 件はすでにキューにあります"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} 件のリンクを追加できませんでした"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} 件を追加できませんでした"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "このリストに動画が {{count}} 本 — ダウンロードするものを選択してください"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "動画が {{count}} 本以上 — 本数を選択"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "{{title}} を準備できませんでした"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "リンクを追加できませんでした — もう一度お試しください"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "表示"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "設定を保存できませんでした。"
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "開けませんでした。"
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "セットアップが完了していません。完了するまで一部のダウンロードが失敗する場合があります。"
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "音声（最高）"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "音声 ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "最高のネイティブ音声、再エンコードなし"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "M4A (AAC) に変換"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "MP3 に変換"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Opus に変換"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "YouTube では 1080p 超の H.264 は利用できません — 自動的に 1080p に制限されます"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "保存方法"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "保存先フォルダーに直接"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "言語"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "続行するには少なくとも1つの言語を選択してください。"
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "各動画について字幕ファイルのみを保存します — 動画や音声はダウンロードされません。"
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "ソース"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "最大 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "最大 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "最大 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "最大 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "最大 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "最大 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "最大 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "最大 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "最高品質"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "1080p までに制限し、項目ごとに下位へフォールバック"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "最小のファイル"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "2K までに制限し、項目ごとに下位へフォールバック"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "2160p までに制限し、項目ごとに下位へフォールバック"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "非常に小さいファイル、低画質"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "帯域が狭い場合向けの小さいファイル"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "低帯域向け"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "小さめのファイル、広い互換性"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "各項目で利用可能な最高の動画 + 音声"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "音声"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "動画"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "最高のネイティブ形式"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "スマートTV H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "各項目で利用可能な最高のコーデック"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "H.264 + AAC を優先、MP4 コンテナ · 可能な範囲で"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "関連ファイル"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "説明"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "メディア"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "見つかりません"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "字幕"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "ファイル"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} 件のダウンロードで確認が必要です"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "各ダウンロードを完了の数秒後に一覧から外します。ファイルはフォルダーに残ります。"
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "完了後に自動クリア"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "すべてのアクティブおよび保留中のダウンロードをキャンセル"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "すべての動画"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "このプレイリストには動画が {{count}} 本を超えています。すべてダウンロードするか、最初の {{count}} 本だけにするか、確認して選べます。"
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "最初の {{count}} 本"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "アルバム"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "高く評価した動画"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "ミックス"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "プレイリスト"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "アップロード動画すべて"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "「後で見る」"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "その中から選ぶ…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "確認"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "このリンクは動画 {{count}} 本のリストです。すべてダウンロードするか、確認して選べます。"
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "この動画"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "このリンクはアルバム内の動画です。動画だけをダウンロードしますか？ それともアルバムをダウンロードしますか？"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "このリンクは高く評価した動画に含まれる動画です。動画だけをダウンロードしますか？ それとも高く評価した動画すべてをダウンロードしますか？"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "このリンクはミックス内の動画です。動画だけをダウンロードしますか？ それともミックスをダウンロードしますか？"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "このリンクはプレイリスト内の動画です。動画だけをダウンロードしますか？ それともプレイリストをダウンロードしますか？"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "このリンクはチャンネルのアップロード動画に含まれる動画です。動画だけをダウンロードしますか？ それともアップロード動画すべてをダウンロードしますか？"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "このリンクは「後で見る」リスト内の動画です。動画だけをダウンロードしますか？ それともリスト全体をダウンロードしますか？"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "完了したダウンロードをクリア"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "キューに入れたダウンロードがここに表示されます"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "すべて"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "キュー状態フィルター"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "すべての項目"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "ダウンロード"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "音声は削除されていません"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "音声は削除されていません · 一部の字幕が失敗"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "ダウンロード失敗"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "保存先フォルダーを開く"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "一時停止"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "保留中のみ"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "今すぐ開始 — キューをスキップ"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "{{height}}pに制限"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "{{height}}pに制限 · 一部の字幕が失敗"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "削除"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "再開"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "自動的に再試行中（{{attempt}} 回目）"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "場所を設定"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "場所を設定するには保留中の項目を選択してください。"
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "キャンセル済み"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "保留中"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "選択が必要"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "一時停止"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "待機中"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "詳細を取得中"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "ダウンロード中"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "{{languages}}の字幕がありません"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "{{site}} のため {{time}} まで待機"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} がこの接続のリクエストを制限しています。制限が解除されるよう、Klip は {{time}} 以降にこのリンクの詳細を取得します。"
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "アルバムから"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "高く評価した動画から"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "ミックスから"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "プレイリストから"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "チャンネルのアップロード動画から"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "「後で見る」から"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "アルバム全体を取得"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "高く評価した動画をすべて取得"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "ミックス全体を取得"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "プレイリスト全体を取得"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "アップロード動画をすべて取得"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "「後で見る」をすべて取得"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "リストを独立した行として追加します。この動画は含まれません。"
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "すべてのアクティブなダウンロードを一時停止"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "キューは一時停止中です — 待機中の項目は再開するまで開始されません"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "一時停止中のダウンロードを再開し、キューを続行します"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "キューを再開"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "選択した項目"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} 件選択 · 合計 {{total}} 件"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "ダウンロード"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "追加日時"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "生成ファイル"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "{{column}}列を配置しました。"
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "{{column}}列の移動をキャンセルしました。"
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "{{column}}列が{{target}}の上にあります。"
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "{{column}}列をつかみました。"
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "列"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "完了"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "{{title}} のファイルを非表示"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "移動可能な列"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "列を移動するには、スペースキーまたはEnterキーを押し、矢印キーで移動してから、スペースキーまたはEnterキーを押して配置します。キャンセルするにはEscキーを押します。"
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "出力先"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "進行状況"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "列をリセット"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "{{column}}列の幅を変更"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "{{title}} のファイルを表示"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "サイズ"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "{{label}} で並べ替え"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "状態"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "タイトル"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "ダウンロードは ダウンロード タブに移動しました — 進行状況はいつでもここで確認できます。"
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "続行"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "新しいアップデートを実行中です。主な変更点はこちらです。"
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "完全なリリースノート ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Klip {{version}} の新機能"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "実行ファイルを選択"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "Homebrew でインストール"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "WinGet でインストール"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "依存関係フォルダーを開く"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "デフォルトにリセット"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "もう一度試す"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "セットアップログを表示"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "もう一度お試しください。それでも失敗する場合は、下で動作するコピーを選んでください。"
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "ツールが正しく動作していません"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "ウイルス対策ソフトまたは SmartScreen で Klip を許可してから、もう一度お試しください。"
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "ウイルス対策ソフトがツールをブロックしました"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "インターネット接続を確認して、もう一度お試しください。"
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "Klip に必要なものをダウンロードできませんでした"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "もう一度試して、ダウンロードし直してください。"
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "ダウンロードしたファイルが壊れていました"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "もう一度試して、ダウンロードし直してください。"
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "ダウンロードしたファイルのチェックサムが一致しませんでした"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "下で両方を選ぶか、デフォルトにリセットしてください。"
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg と FFprobe は一緒に設定する必要があります"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "もう一度お試しください。それでも失敗する場合は、下で信頼できるコピーを選んでください。"
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "システムが Klip によるツールの実行を許可していません"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "もう一度お試しください。それでも失敗する場合は、下で動作するコピーを選んでください。"
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "ツールが見つからないか、起動できません"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "初回起動時のセキュリティスキャンが原因のことがよくあります。もう一度お試しください。"
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "ツールの応答に時間がかかりすぎました"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "もう一度お試しいただくか、セットアップログで詳細を確認してください。"
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "セットアップ中に問題が発生しました"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "ダウンロードエンジン"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "メディアツール"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "Homebrew でインストール中…数分かかることがあります。"
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "WinGet でインストール中…数分かかることがあります。"
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "すでにお持ちのコピーを Klip に指定するか、別の方法でインストールしてください。"
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "パッケージマネージャーで yt-dlp と ffmpeg をインストールしてから、「もう一度試す」をクリックすることもできます。"
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "手動でセットアップする"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "もう一度試すか、下ですでにお持ちのツールを Klip に指定してください。"
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "セットアップが停止しました"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "セットアップにサポートが必要です"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "このプロフィールの選び方"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "AAC 音声"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "MP4 プレーヤーに対応"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "AAC 音声"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "どこでも再生可能"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1、次に VP9、次に H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "同じサイズで最も鮮明"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264、次に VP9、次に AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "このプロフィールのコーデック"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9、次に H.264、次に AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "このプロフィールのコーデック"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "最高フレームレート"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "動きがなめらか"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "H.264 映像"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "どの端末でも再生可能"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "SDR より HDR を優先"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "HDR 対応の画面でより豊かな色"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "この画面が HDR に対応"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "HDR より SDR を優先"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "どの画面でも自然に見える"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "この画面が HDR 非対応"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "MP4 ストリーム"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "MP4 ファイル向け"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "ステレオ音声"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "このプロフィール"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "設定から"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "サラウンド音声 (提供されている場合)"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Opus 音声"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "WebM に対応"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "AI アップスケール版ではなく元のストリーム"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "アップスケール版は解像度が高くても実際の細部は増えない"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "ダイレクトダウンロードをストリーミングより優先"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "同じ画質でより高速にダウンロード"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "最大 {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "指定した上限"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "最高解像度"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "上限なし"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "サイトが優先度を下げていないストリーム"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "破損・透かし入り・代替用のコピーを除外"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "大きいファイル"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "同じ設定でより高精細"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "高ビットレートを優先"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "同じ解像度でより高精細"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "ファイル形式はストリームに合わせる"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr ".{{ext}} で保存"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "最高画質"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "どの端末でも再生可能"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "なぜこれ?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "プロフィールがこれを選んだ理由"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "コピーしました！"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "リンクをコピー"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — Windows・macOS・Linux 向けの無料オープンソース動画ダウンローダー。YouTube、Vimeo、Twitch、2000 以上のサイトに対応。\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klipは無料でオープンソースです。シェアすることでより多くの人に届けることができます。"
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "共有"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Klip を共有"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Klip を共有"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Klipをシェア"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "うまくいきませんか？手動で設定する"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "やあ、おかえり!"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "残り約 {{count}} 分"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "残り1分未満"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "すべて動作するか確認中"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "接続中…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "メディアツールを展開中"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "ダウンロードエンジンを展開中"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "Klip のツールを更新中"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "ダウンロードエンジンを更新中"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "初回セットアップ"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "メディアツールを更新中"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "このバージョンの初回チェックです。これは時間がかかり、通常は1分ほどです。"
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "{{binary}} を確認中…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "ダウンロードを準備中…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "セットアップに失敗しました。セットアップログを開いて詳細を確認してください。"
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "ビデオは音声付きで保存されました — 音声を削除できませんでした"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "ビデオは音声付きで保存されました — 音声を削除できず、一部の字幕もダウンロードできませんでした"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "ダウンロードがキャンセルされました"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "ダウンロード完了"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "動画を変換中…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "ディスク空き容量が不足しています — {{required}} 必要ですが、空きは {{free}} のみです"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "バイナリ {{name}} をダウンロード中…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "ビデオと音声をダウンロード中…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "メタデータを埋め込み中…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "「探索」からログアウトしました — もう一度ログインしてください"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "音声を変換中…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "SponsorBlock に接続中…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "字幕を取得中…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "音声とビデオを結合中…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "YouTube のダウンロードを準備中…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "ファイルを移動中…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "{{languages}}の字幕がありません"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "{{dir}} に保存できません — Klip にはそこへの書き込みが許可されていません"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "バイナリを準備中…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "{{height}}pで保存しました — YouTubeがこのダウンロードで高画質を提供しませんでした。時間をおいて再試行すると改善する場合があります。"
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "{{height}}pで保存しました — YouTubeがこのダウンロードで高画質を提供せず、一部の字幕もダウンロードできませんでした。時間をおいて再試行すると改善する場合があります。"
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "YouTube のダウンロードを再度準備中…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock が利用できません、再試行中 ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "接続が停滞、再試行中 ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "「探索」のアカウントでログインしています…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "レート制限回避のため{{seconds}}秒待機中…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "ダウンロードエンジンを起動中…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "この動画には、{{languages}}の字幕がありません。動画は字幕なしで保存されました。"
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "この動画には、{{languages}}の字幕がありません。その他の言語は保存されました。"
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "ビデオは保存されました — 一部の字幕をダウンロードできませんでした"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "ダウンロード開始時に不明なエラーが発生しました"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "簡易抽出モードでダウンロードしました — より確実にするには cookies.txt の設定をおすすめします"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "ダウンロードエンジンがコード{{code}}で終了しました"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "ダウンロードエンジンのエラー: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "ダークモード"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "ライトモード"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "システム設定に従う"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "最大化"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "最小化"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "元に戻す"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "クリップボードからダウンロード"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}}件ダウンロード中 · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "アイドル"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "コマンドをクリップボードにコピーしました"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "コマンドをクリップボードにコピー"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "更新通知を閉じる"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "ダウンロード ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "DMG をダウンロード ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "ダウンロード中…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "インストールして再起動"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "更新に失敗しました"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} が利用可能です — 現在は {{currentVersion}} です。"
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} が利用可能です — Homebrew で更新してください。"
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} が利用可能です — 新しい DMG をダウンロードしてください。"
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} が利用可能です — DMG をダウンロードするか、Homebrew に切り替えてください。"
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} が利用可能です — 新しいビルドをダウンロードしてください。"
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "実行して再起動"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "アップグレード中…"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} チャプター"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "読み込み中…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "H.264 を優先"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "動画コーデック"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "スマートTVでは常に H.264 を選びます。"
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "VP9 を優先"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "準備完了"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "動画、プレイリスト、チャンネル、検索、または音声の URL を貼り付けてください。Klip はキューに追加する前に重複を整理します。"
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "一括内容を確認するには、URL を 1 件以上貼り付けてください。"
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "無視"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "続行するには、対応している URL を少なくとも 1 件追加してください。"
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "重複"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "URL リスト"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "一括 URL"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ キュー"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "他のダウンロードが終わってから開始 — 帯域幅をフル活用"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "全{{total}}本中{{count}}本"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "全{{total}}曲中{{count}}曲"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{total}} 件中 {{count}} 件の URL"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "音声"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "一括 URL"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "件数"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "プレイリスト"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "プリセット"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "保存先"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "サイズ"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "動画"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "ファイルの保存先:"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "下の{{count}}件の保存先に保存されます"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "「字幕のみ」プロフィールが有効ですが、字幕の言語が選択されていません — 何もダウンロードされません。"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} 件"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "このバッチのプロフィール"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "取得! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "すぐ開始 — 他のアクティブなダウンロードと並行実行"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "ダウンロード準備完了!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "不明"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Subtitle embed を sidecar に変更しました — 音声トラックには字幕ストリームの埋め込みをサポートしていません。"
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "動画内に字幕を埋め込むには MKV ファイルが必要なので、.mkv で保存されます。"
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Thumbnail embed をスキップしました — 出力 container がこの機能をサポートしていません。"
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "カスタム…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "デスクトップ"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "ドキュメント"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "ダウンロード"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "保存先"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "ホーム"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "ミュージック"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "ピクチャ"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "フォルダ名に無効な文字が含まれています"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "例: 講義"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "サブフォルダーに保存"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "ムービー"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "音声"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "音声の言語"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} 言語"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "ビットレート {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Cookieは設定されていますが無効になっています。有効にして再試行すると完全な一覧を取得できます。または、ネットワークを変えて再試行してください。"
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Cookieを使用していても、YouTubeがこの取得を制限しました。しばらくしてから再試行するか、ネットワークを切り替えてください。"
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTubeがこのリクエストを制限しました。しばらくしてから再試行するか、ネットワークを切り替えてください。"
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "フォーマット一覧が不完全な可能性があります。詳細設定でCookieを設定するか、ネットワークを変えて再試行してください。"
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Cookieを有効にして再試行"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "YouTubeがこの取得を制限しました"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "ビットレート"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "すでに {{target}} の音声は、元のストリームとビットレートを保ったまま、再エンコードせずにコピーされます。"
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps、再エンコードなし"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}、再エンコードなし"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps(元の音声のまま):ストリームはすでに {{target}} のため、再エンコードせずコピーします"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "元の音声のまま:ストリームはすでに {{target}} のため、再エンコードせずコピーします"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "変換"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "元の音声は {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (非圧縮)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "ブラウザ"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "「探索」のログイン"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "ファイル"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Cookieのソース"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp ドキュメント (issue #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127以降、Windows上では他のアプリが読み取れない方法でCookieが暗号化されています。以下のいずれかの回避策をお試しください。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "ブラウザ拡張機能を使ってChromeからCookieをエクスポートし、このアプリをファイルモードに切り替えてエクスポートしたファイルを選択してください。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "cookies.txtをエクスポート"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "FirefoxはApp-Bound Encryptionを使用しません。Cookie設定を開き、ブラウザ一覧からFirefoxを選択してください。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Firefoxに切り替える"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Chromeの起動ショートカットに --disable-features=LockProfileCookieDatabase を追加してください。警告: これにより以前に暗号化されたCookieが無効になり、すべてのサイトからサインアウトされるため、再度ログインが必要になります。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "App-Bound Encryptionを無効にしてChromeを起動"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "ChromeのCookieがWindowsの暗号化によりブロックされています"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Cookieはブラウザから直接読み込まれます。ブラウザが起動中の場合、Cookieデータベースがロックされている可能性があります (Chromiumファミリー)。ブラウザがYouTubeにサインインしている必要もあります。ブラウザを閉じる、別のブラウザに切り替える、ファイルモードに変更する、またはCookieをオフにしてみてください。"
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "Cookieファイルが空・期限切れ・または形式が正しくない可能性があります (Klip には Netscape cookies.txt 形式のファイルが必要です)。Cookieを再エクスポートするか、別のファイルを選ぶか、ブラウザモードに切り替えるか、Cookieをオフにしてみてください。"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "「探索」でサインインすると、Klip が再試行します。"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "「探索」でサインイン"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "この動画には YouTube アカウントが必要かもしれません"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klipは「探索」のログインを使ってすでに試したため、もう一度ログインしても解決しません。サイト側に問題があるか、このアカウントでは開けない可能性があります。しばらくしてから再試行してください。"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "「探索」でログインしていても、サイトに拒否されました"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "「探索」にはサインインしていますが、現在ダウンロードではそのサインインが使われていません。"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "「探索」のサインインを使って再試行"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "この動画には YouTube アカウントが必要かもしれません"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "この動画にアカウントが必要な場合、Klipは「探索」のログインを自動的に使用します。別の理由で利用できない可能性があります。"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "「探索」にログイン済み"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "この動画にYouTubeアカウントが必要な場合は、「探索」でログインしてから再試行してください。Klipは、ダウンロードに必要なときだけそのログインを使用します。"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "「探索」でログイン"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "この動画にはYouTubeアカウントが必要かもしれません"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "このリンクには {{host}} のアカウントが必要かもしれません"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "「探索」で {{host}} にサインインしてから再試行してください。"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "「探索」で {{host}} にログインしてから再試行してください。Klipは、ダウンロードに必要なときだけそのログインを使用します。"
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Cookieが原因かもしれません"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klipは認証なしでこの動画にアクセスできませんでした。詳細設定でCookieを設定してください — すでにサインイン済みのブラウザを指定するか、cookies.txtファイルをインポートしてください。"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "このサイトはサインインが必要です"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "Cookie設定を開く"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "代わりに Cookie ファイルまたはブラウザーを使う…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "大きな音を抑え、小さな音を持ち上げます。スピーカーや騒がしい場所向けです。"
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "音量を均一にする（DRC）"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "音量均一"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "プロフィールはスマートTV (H.264) です。この動画には H.264 がないため、最も近いストリームが選ばれています。"
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "このリンクには映像がないため、音声を選択しました。"
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "プロフィールでは {{languages}} の字幕が指定されていますが、この動画にはありません。"
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "プロフィールでは {{wanted}}p が指定されていますが、この動画にはそれより小さいものがないため、{{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "プロフィールでは {{wanted}}p が指定されていますが、この動画にあるそれより小さいストリームはプロフィールのほかの設定に合わないため、{{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "プロフィールでは {{wanted}}p が指定されていますが、この動画には使用できる {{wanted}}p がないため、{{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "プロフィールでは {{wanted}}p が指定されていますが、この動画の {{wanted}}p は AI でアップスケールされたものなので、元の {{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "プロフィールでは H.264 の {{wanted}}p が指定されていますが、この動画の {{wanted}}p はほかのコーデックのみのため、H.264 の {{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "プロフィールでは {{wanted}}p が指定されていますが、この動画の {{wanted}}p はプロフィールのほかの設定に合わないため、{{picked}}p を選択しました。"
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "プロフィールは WebM を指定しています。この動画で選ばれたストリームには WebM に格納できない {{codec}} が含まれるため、ファイル形式は自動になります。"
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "開始せずにキューに追加"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "その他のダウンロードオプション"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "字幕の言語を1つ以上選択してください。"
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "そのまま保持"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "内蔵音声"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "音声のみ"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "ダウンロードする内容"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "字幕のみ"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "動画 + 音声"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "動画、音声なし"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "形式を読み込み中"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "解析が完了するまでお待ちください。プレイリストや検索には時間がかかる場合があります。"
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "AI 吹き替え"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "AI アップスケール"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "音声解説"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "破損"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "高ビットレート"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "オリジナル"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "空間オーディオ"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "透かし入り"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "音声なし"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "アクティブなプロフィールが、ストリームをあらかじめ選んでくれます。メニューからプロフィールを切り替えたり、鉛筆アイコンでこのダウンロードを離れずにプロフィールを調整したりできます。"
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "フォーマットはプロフィールから始まります"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "プロフィールに最も近い"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "{{name}} を編集"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "変更を残す"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "このダウンロードだけに適用されます。デフォルトのプロフィールは変わりません。"
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "事前選択元:"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "すべてリセット"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "このダウンロードの{{areas}}を変更しました。どちらの場合も、動画と音声は「{{profile}}」が選びます。ほかの変更を残しますか? それともすべてプロフィールの設定に戻しますか?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "プロフィールを切り替えますか?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "プロフィール"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "このダウンロードの{{areas}}を変更しました。どちらの場合も、動画と音声は更新したプロフィールが選びます。ほかの変更を残しますか? それともすべてプロフィールの設定に戻しますか?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "更新したプロフィールを使いますか?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "高品質"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "低品質"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "中品質"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} がこの接続を制限しています"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "形式の一覧が不完全な可能性があります。"
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} は今のところこのリクエストを受け付けませんでした。"
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "再試行"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} はこの制限を最大 1 時間続けることがあります。"
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "今すぐ試す"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "待機時間が終わりました。もう一度お試しください。"
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "制限が解けるよう、Klip は {{time}} まで待ってから {{site}} に再度問い合わせます。"
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "解像度不明"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "保存形式"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM では {{codec}} を格納できないため、ファイル形式を自動に戻しました。"
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "サイズ不明"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "確認へスキップ"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "残りのすべてのステップに保存済みの設定を使用します。設定を変更するには、ステップごとに進んでください — 選択内容は次回のために保存されます。"
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "あなたに最適な形式を探しています…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "合計"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "動画"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "音声付き"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "{{profileName}} を使用します。動画が {{count}} 本を超える場合は、ダウンロードで本数を確認します。"
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "バックグラウンドでダウンロード"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc でキャンセルします。"
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "先頭の {{count}} 本だけを {{profileName}} で。"
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "先頭からダウンロード："
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "先頭の {{count}} 本から選び（本数は次のステップで変更できます）、そのあとダウンロードを設定します。"
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "インタラクティブダウンロード…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "リストから取得する動画の本数です。1つ目の選択肢はこの本数を超えると確認し、2つ目はちょうどこの本数を取得します。設定の「スキャンするプレイリストの項目数」と同じです。"
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "上限"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "ミックスは開くたびに内容が変わります。"
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "本の動画から選びます。"
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "最初の"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "次のステップで変更できます。"
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "このアルバムから選ぶ"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "高く評価した動画から選ぶ"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "このミックスから選ぶ"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "このプレイリストから選ぶ"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "このチャンネルのアップロード動画から選ぶ"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "「後で見る」から選ぶ"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "このアルバムからダウンロード"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "高く評価した動画からダウンロード"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "このミックスからダウンロード"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "このプレイリストからダウンロード"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "このチャンネルのアップロード動画からダウンロード"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "「後で見る」からダウンロード"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "開いた動画だけを {{profileName}} で。リストは読み込みません。"
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "この動画だけ"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "開いた動画だけを設定します。リストは読み込みません。"
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "{{profileName}} を使用"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "現代のプレーヤーでナビゲートできるチャプターマーカー。"
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "チャプターを埋め込む"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "チャプター"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "タイトル、アーティスト、説明、アップロード日をファイルに書き込みます。"
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "メタデータを埋め込む"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "メタデータ"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "ファイル内のカバーアート。WebM動画はMKVに再パッケージされます。字幕を埋め込む場合はスキップ。"
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "サムネイルを埋め込む"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "カバーアート"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "動画の説明を .description テキストファイルとしてダウンロードの隣に保存します。"
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "説明を保存"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "説明ファイル"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "動画の横に .m3u プレイリストを保存し、メディアプレーヤーで順番に開けるようにします。"
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr ".m3u プレイリストファイルを生成"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "サムネイルを .jpg 画像ファイルとしてダウンロードの隣に保存します。"
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "サムネイルを保存"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "サムネイルファイル"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "動画カードで「一部」に切り替えると、開始と終了、またはチャプターを選んで、その区間だけをダウンロードできます。"
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "動画の一部だけをダウンロード"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "チャプター"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "チャプター {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "一部のダウンロードは ffmpeg を使うため、ダウンロード接続数とペース設定は適用されません。"
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "先に一部の開始と終了を修正してください。"
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "終了"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "この動画は {{duration}} で終わります。"
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "終了時刻を h:mm:ss、m:ss、または秒数で入力してください。"
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "開始時刻を h:mm:ss、m:ss、または秒数で入力してください。"
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "開始は終了より前にしてください。"
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "オフ：各カットは最も近いキーフレームで切られるため、入力した時刻から数秒ずれることがあります。"
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "正確なカット（再エンコード、低速）"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{duration}}のうち{{length}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "一部"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "動画の一部"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "開始"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "動画全体"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "一部 {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "動画の範囲"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss、m:ss、または秒数"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "一部（推定）"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "この動画は長さの情報がないため、全体のみダウンロードできます。"
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "字幕は常に動画全体が対象です。"
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "リンクの開始位置は {{time}} です"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "開始位置に使う"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "動画全体"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "トラック全体"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "続行するには復元してください。"
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "すべてのアイテムが削除されました"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "ダウンロード済み"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "これらにはまだ動画があります。本数を選ぶには、リンクを 1 件ずつ貼り付けてください。"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} 件のリストは各 {{limit}} 本で打ち切られます"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "一括 URL"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "待つ必要はありません — 今キューに追加したファイルも、ダウンロード時には正式な名前になります。"
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "動画の詳細を取得中… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "詳細を取得できません"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "詳細を取得中"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "待機中"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "ライブ"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Playlist アイテム"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "ダウンロードする動画"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} 本の動画"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} 曲"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} 件の URL"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Playlist を取得中…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "動画を取得中…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "最初の {{count}} 件に制限"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} ページが見つかりました"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "動画を収集中"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "チャンネルページをスキャン中"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "アイテムごとにプロフィールを割り当て"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "画質、SponsorBlock、出力、保存先をスキップ — 代わりにアイテムごとにダウンロードプロフィールを割り当てます"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "プレイリスト"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "このうち {{count}} 件は動画ではなくプレイリストです — ダウンロードするにはリンクを 1 つずつ貼り付けてください。"
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "続行するには少なくとも1本の動画を選択してください"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Klip は {{count}} 件を超えるアイテムを検出しましたが、現在のスキャン上限により残りは表示されていません。"
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "プレイリストのスキャンが上限に達しました"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "スキャン上限に達しました"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "範囲を適用"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "開始"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "終了"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} 件削除済み"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "リストから{{count}}件削除"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "元に戻す"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "すべて選択"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} 件選択中"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "すべて解除"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "プレイリスト順"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "アップロード日を取得中…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "並べ替え"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "古い順"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "新しい順"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "同期を適用"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "フォルダーを変更…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "これらの動画のうち {{n}} 件はすでに {{dir}} にあります。新しいものだけをダウンロードするために同期しますか？"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "すでにフォルダー内にあります"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "このプレイリストの動画は {{dir}} で見つかりませんでした。"
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "{{dir}} にこのソースの動画は見つかりませんでした。"
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "まだダウンロードされていません"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "フォルダーを確認中…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "動画サムネイル"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "バッチの画質を選択"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} 件"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "各動画が選択した画質ティアを独立して解決します — 異なる動画が混在するPlaylistも問題なく処理できます。"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "{{count}} 本の動画に割り当て"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "プロフィールを割り当て"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "再生時間"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "プロフィール"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "{{name}} を編集"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "このフィルターに一致する項目はありません"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "プロフィールフィルター"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "ダウンロードプロフィールを割り当て"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "これら {{count}} 本の動画のプロフィールを選択します。"
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{total}} 件中 {{selected}} 件を選択"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "全体設定を変更"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "保存先フォルダーを選択"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "プロフィールアイコンを選択"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "{{code}}を削除"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "プロフィールをリセット"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "このプロフィールはすでに組み込みの設定を使用しています"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "組み込みのプロフィール設定に戻す"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "プロフィールを保存"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "プロフィール個別設定を指定"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "個別設定を指定"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "全体の既定値を使う"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "言語コード「{{code}}」を使用"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "詳細設定"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "アプリの設定を使う ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "最高"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "最大 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "最大 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "最大 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "最高品質"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "新しいプロフィール"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "既定のダウンロードフォルダー"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "既定のダウンロードフォルダー / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "全体の保存先"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "使用中"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "継承"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "プロフィール個別設定"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "フォルダーを選択"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "個別設定なし"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "個別設定はありません。このプロフィールは上の全体の保存先を使います。"
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "全体設定を上書き"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "このプロフィールは、サブフォルダーが追加される前に、独自のルートフォルダーに保存します。"
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "最終的な保存先"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "クイックダウンロード、一括URL、プレイリストで使い回せる設定です。"
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "ダウンロードプロフィール"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "全体の保存先を変更できませんでした。"
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "フォルダー選択を開けませんでした。パスを手動で入力してください。"
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "プロフィール設定をリセットできませんでした。"
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "プロフィール設定を保存できませんでした。"
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "保存方法"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "ファイル形式"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "最適化の対象"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "プロフィールアイコン"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "言語"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "プロフィール名"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "プロフィール名とアイコン"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "ネイティブ音声"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "プロフィール個別設定のパス"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "品質"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "解像度"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "ソース"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "サブフォルダー名"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "字幕のダウンロード"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "プロフィールは言語コードで指定します。利用できるかは URL ごとに判定されます。"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "同じサイズで最も鮮明です。古いテレビ、QuickTime、一部の編集ソフトでは再生できません。"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "最高画質"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "テレビ、スマホ、WhatsApp、QuickTime、動画編集ソフトで再生できます。YouTube が H.264 を提供するのは 1080p までです。"
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "スマートTV"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "アーカイブ"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "音声"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "字幕"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "講座"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "クリップ"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "コントロール"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "音楽"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "ポッドキャスト"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "動画"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "音楽やポッドキャスト"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "字幕ファイルのみ"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "通常の動画ファイル"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "音声なしの動画のみ"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "自動字幕は ASS ではなく SRT として保存されます。"
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "一致する言語はありません"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "このプロフィールでは字幕ファイルも埋め込み字幕トラックも取得しません。"
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "言語名またはコードで検索"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "この出力形式ではスキップされます。"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "少なくとも1つの言語を選択してください。"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "少なくとも1つの言語を選択するか、字幕のダウンロードをオフにしてください。"
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "このプロフィールは字幕ファイルのみをキューに追加します。動画、音声、SponsorBlock、メディア変換はスキップされます。"
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "プロフィール個別設定を指定しない限り、全体の保存先が引き継がれます。"
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "詳細オプション"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "主にどの方法でダウンロードするかを選びます。"
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "ダウンロードの種類"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "クイックダウンロード、一括URL、プロフィール一覧に表示される名前とアイコンです。"
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "プロフィール情報"
+
+#. Plural form "other" for ja: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} 件有効"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "出力オプション"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "このプロフィール用のフォルダーを選択"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "スキップ"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "スポンサー区間をチャプターとして記録します（ファイルは変更しません）。"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock なし — 動画はアップロードされたまま再生されます。"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "FFmpeg でスポンサー区間を動画から切り取ります。"
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "自動生成のみ"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "手動と自動"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "まず手動、次に自動"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "手動のみ"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "{{label}}のヘルプ"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "追加項目"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "ファイル名"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "形式"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "フォルダー"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "字幕、SponsorBlock、サムネイルなどの追加項目、フォルダー、ファイル名は、以前は別々のステップでした。行をクリックすると変更できます。"
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "その他の設定はすべてこのページに移りました"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "{{profile}} からの変更: {{areas}}。このダウンロードにのみ適用されます。"
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "{{profile}} からの変更:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "形式を変更"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "プロフィールとして保存"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}}（編集済み）"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "このダウンロードでは編集した設定を使いました。次回も使いますか?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "変更を取り消して「{{profile}}」に戻す"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "追加項目"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "ファイル名"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "保存先"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "その他すべて"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "プロフィールを保存"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "この設定を、次回選べるプロフィールとして保存します。クイックダウンロードのプロフィールは変わりません。"
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "プロフィールを保存できませんでした。"
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "プロフィール名"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "プロフィール「{{name}}」として保存しました"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "プロフィールとして保存"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "新しいプロフィールとして保存"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "プロフィールを更新"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "これは組み込みのプロフィールです。元の設定は「プロフィール」タブで復元できます。"
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "今後、このプロフィールを使うすべてのダウンロードで新しい設定が使われます。"
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "「{{profile}}」を更新しますか?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "プロフィール「{{name}}」を更新しました"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "この変更で「{{profile}}」を更新"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "なし"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "フィラー"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "イントロ"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "音楽（無関係）"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "アウトロ"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "自己宣伝"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "スポンサー"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "カテゴリ"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "チャプターとしてマーク"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "セグメントを削除"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "スポンサーフィルター"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "スポンサーセグメントをチャプターとしてマークします（非破壊的）。"
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlockなし — 動画はアップロードされた通りに再生されます。"
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "FFmpegを使用してスポンサーセグメントを削除します。"
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "確認"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "保存先"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "出力"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "プレイリスト"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "動画"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "画質"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "プロフィール"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "確認"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "自動字幕は ASS ではなく SRT として保存されます — YouTube のローリング・キュー重複を常にクリーンアップしますが、現状 ASS コンバーターではこれを再現できません。"
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "自動"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "すべて削除"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "埋め込みモードでは、字幕トラックを確実に埋め込むため出力は .mkv で保存されます。"
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "形式"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "この動画には字幕がありません"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "言語が見つかりません"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "字幕が選択されていません"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "{{name}}を削除"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "動画に埋め込む"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "保存方法"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "動画と同じ場所"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "ダウンロードフォルダー内"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ サブフォルダー"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "言語を検索…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "自動生成"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "ダウンロードプロフィールナビゲーション"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "詳細設定"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "ダウンロードが完了して数秒後に、「ダウンロード」の一覧から外します。ファイルはフォルダーに残ります。失敗または取り消されたダウンロードは一覧に残ります。"
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "完了したダウンロードを自動で削除"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "ネットワークやサーバーの一時的な問題のあと、自動的に再試行します。試行ごとに待ち時間が長くなります。サイトにブロックされたダウンロードは自動再試行されません。"
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "失敗したダウンロードを再試行"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "回"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "一括 URL"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "複数の URL を追加してキューに入れます。"
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "URLをクリア"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "クリップボードからリンクを追加しました"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "複数のリンクがコピーされました —「一括 URL」で追加できます"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "クリップボードにリンクがありません"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "クリップボードを読み取れませんでした — 代わりにリンクを入力欄に貼り付けてください"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "コピーしたリンクに置き換えました"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "クリップボードを監視"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "YouTubeのリンクをコピーすると自動的にURLフィールドに入力します。"
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "元に戻す"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "閉じるときにトレイに格納"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "ウィンドウを閉じた後もバックグラウンドでダウンロードを続けます。"
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "キュー内の項目を同時にいくつダウンロードするか。同時数を増やすと長いキューが早く終わりますが、サイトから制限される可能性が高まります。"
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "同時ダウンロード数"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "件"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "ダウンロード前に、Klip が同時に詳細を取得するリンクの数です。少ないほど、混み合った接続をブロックするサイトに優しくなります。インタラクティブダウンロードで開いたリンクは、常に最優先で処理されます。"
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "同時に確認するリンク数"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "件"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "注意: YouTubeなどのサイトでは、KlipのようなダウンロードツールがCookieを使ったアカウントにフラグが立てられたり、稀にBANされることがあります。可能なら使い捨てアカウントを使ってください。"
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "ブラウザから直接Cookieを読み込みます。Chromiumベースのブラウザはブラウザを閉じた状態で使用してください。"
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "ブラウザ"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "ブラウザを選択…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "選択…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "クリア"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "Cookieを使うにはブラウザを選択してください"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "Cookieを使うにはファイルを選択してください"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "「探索」タブがオフのため、ダウンロードに「探索」のログインは使われません。下の「探索」でオンにしてください。"
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "cookies.txt をローカルで取得 (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Cookieファイル"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "Cookieを書き出す方法は?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "「探索」を開く"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "ファイルが選択されていません"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "おすすめ"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "注意: cookies.txt にはそのブラウザのすべてのログイン情報が含まれます — 取り扱いに注意してください。"
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "ブラウザ"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "「探索」のログイン"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "ファイル"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Cookieのソース"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "非公開動画など、ご自分のアカウントで視聴できる動画で役立ちます。"
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "動画の複数の部分を同時に取得して、大きなダウンロードを高速化します。値を大きくすると、サイトから制限される可能性が高まります。"
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "ダウンロード接続数"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "接続"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "アルバムをダウンロード…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "高く評価した動画をダウンロード…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "ミックスをダウンロード…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "プレイリストをダウンロード…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "アップロード動画をダウンロード…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "「後で見る」をダウンロード…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "音声のみ"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000以上のサイト"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "音楽プレイリスト"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "動画"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "動画プレイリスト"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klipで取得できるもの"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "チャンネル"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "音楽"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "プレイリスト"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "ポッドキャスト"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "動画"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "ステップごとのウィザード。形式、品質などを選択します。"
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "URL からダウンロード"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "ショートカットを変更"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "このショートカットは別のアプリで使用中です — 別のものを選んでください。"
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "グローバルショートカット"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "キーを押してください…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "デフォルトにリセット"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "コピーしたリンクを、Klip を開かずにどのアプリからでもダウンロードします。"
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "グローバルホットキー"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "テスト"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "グローバルホットキーを有効にする"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "どのアプリでも動画リンクをコピーしてこのショートカットを押すと、ウィンドウを切り替えずに、Klip が現在のプロフィールでキューに追加します。プレイリスト内の動画へのリンクは、その動画だけをダウンロードします。"
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "インタラクティブダウンロード"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "インタラクティブダウンロード…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "進行中のダウンロードは現在の制限を保持します。適用するには一時停止して再開してください。"
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "カスタム…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "例: 750K または 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "メディアダウンロードの帯域を制限します。下のリクエスト間隔のほうが強い制限になることが多いです。"
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "K または M を付けた数値を使ってください（例: 500K、1.5M）"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "ダウンロード速度制限"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "バックグラウンドでダウンロード中… マルチタスクは得意なんだ 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "クイックダウンロードは読み込んだ項目を{{profileName}}でキューに追加します。インタラクティブダウンロードなら、先に項目を確認・選択できます。"
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "リンクを入れて、あとは Klip に引っぱってもらおう ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "クイックダウンロードは{{profileName}}で1件のダウンロードを開始します。その場限りの変更にはインタラクティブダウンロードを使ってください。"
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "このリンクは動画と、それが含まれるリストを指しています。動画だけをダウンロードするか、リストをダウンロードするか選んでください。"
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "互換性重視のステレオ"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "プロフィールがネイティブ音声を選ぶときのステレオまたはサラウンドです。プロフィールごとに上書きできます。"
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "ネイティブ音声の設定"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "サラウンド / Dolby を優先"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "各ダウンロード中に小さな待機を追加して、Klip がサイトに過度にアクセスしないようにします。値は秒単位です。"
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "メディア開始前の一時停止：最大"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "メディア開始前の一時停止：最小"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "メタデータチェック間の待機"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "字幕ファイル前の待機"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "やさしいダウンロード"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip はどのくらい慎重にしますか？"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "バランス"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "慎重"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "カスタム"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "オフ"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "待機：{{requests}} チェック間、{{downloads}} メディア開始前、{{subtitles}} 字幕ファイル前。"
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "これらの待機は各ダウンロードの内部で発生します。同時に実行するダウンロード数は「同時ダウンロード数」で別に設定します。"
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "デフォルト。リクエストの間とメディア開始前に短い一時停止を追加します。"
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "大きなプレイリストや頻繁に制限に引っかかるネットワーク向けに長い一時停止を追加します。"
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "ダウンロードごとの高度なコントロールを自分で調整します。"
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Klipがメディアと字幕のために保持している小さなベースライン一時停止のみを使用します。"
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "秒"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "リンクをKlipで開きました"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "Klipで開いたリンクに置き換えました"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "リンクを貼り付け"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "現在の上限：{{count}} 件"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "カスタム…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "{{min}} から {{max}} の整数を入力してください。"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "上限を保存"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "カスタムプレイリストスキャン上限"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "カスタム：{{count}} 件"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "プレイリスト、チャンネル、または検索結果を開いたときに Klip が読み込む最大エントリ数。"
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "1 から 5000 の整数を入力してください"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "スキャンするプレイリストの項目数"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} 件"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "アプリの上限を使用: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "適用"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "プレイリストの範囲を適用できませんでした: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "適用して再読み込み"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "変更"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "このプレイリストでKlipが読み込む内容を選択します。"
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "プレイリストの範囲"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "この範囲に動画はありません"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "最初"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "1〜{{max}}の整数を指定してください。開始は終了以下にしてください。"
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "読み込む項目"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "プレイリストの範囲"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "範囲"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "再読み込み中..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "リセット"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "最初の{{count}}件を読み込み"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "最初の{{count}}件を読み込み"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "項目 {{from}}-{{to}} を読み込み"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "〜"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "アクティブなプロフィール"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "組み込み"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "カスタム"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "非表示"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "変更済み"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "音声のみ"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "バランス 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "最高品質"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "最低画質 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "データ節約 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "スマートTV 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "スマートTV 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "スマートTV 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "小容量 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "字幕のみ"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "グローバル保存先を変更"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "グローバル保存先を使用"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "グローバル保存先 + プロフィールのサブフォルダーを使用"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "プロフィール個別設定を使用"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "プロフィール個別設定 + プロフィールのサブフォルダーを使用"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "保存先を変更するには、プロフィールを編集してください。"
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "保存先"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "編集"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "アクティブなプロフィールを編集"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "非表示のプロフィールはここに残りますが、すべてのピッカーから消えます。"
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "ピッカーでプロフィールを表示: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "少なくとも1つのプロフィールを有効にしてください。"
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "プロフィールを管理"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "クイックダウンロード、一括 URL、プレイリストで使うアクティブなプロフィールを変更します。"
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "プロフィールを切り替え"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "移動可能なプロフィール"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "移動をキャンセルしました。{{profileName}}は{{count}}件中{{position}}番目のままです。"
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "{{profileName}}を{{count}}件中{{position}}番目に配置しました。"
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "{{profileName}}を移動"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "プロフィールを移動するには、スペースキーまたはEnterキーを押し、矢印キーで移動してから、スペースキーまたはEnterキーを押して配置します。キャンセルするにはEscキーを押します。"
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}}は{{count}}件中{{position}}番目の位置の上にあります。"
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "{{profileName}}をつかみました。{{count}}件中{{position}}番目の位置です。"
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "新しいプロフィール"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "このプロフィールの保存先フォルダーが設定されていません。プロフィールでフォルダーを選ぶか、既定に戻してください。"
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "再利用できるダウンロード設定を作成、選択、編集、削除します。"
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "ダウンロードプロフィール"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "削除"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "プロフィールをドラッグして移動します。すべてのピッカーがこの順序に従います。"
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "リセット"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "保存先"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "ダウンロードプロフィールを切り替え: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "ダウンロードプロフィールを切り替え"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "クリア"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "プロキシサーバー経由でトラフィックを転送します。"
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "プロキシ URL"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "クイックダウンロード"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "{{profileName}} を使用してダウンロードします"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "追加できませんでした: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "キュー項目を準備できませんでした"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "準備中"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "解析に失敗しました"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "開始するには、動画、プレイリスト、チャンネル、検索の URL を貼り付けてください。"
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "匿名のハートビートとセットアップレポートを送信"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "トラッキングはありません。1日1回、匿名のハートビートでアプリのバージョン、インストール方法、OS、言語、国、Klipをインストールしてからのおおよその期間を送信し、アクティブユーザーと新規ユーザーの数を数えます。Klip がダウンロードエンジンやメディアツールをセットアップまたは更新したときは、成功したかどうかとおおよその所要時間も報告します。ID、URL、動画タイトル、ファイル名は含まれません。"
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "プロフィールによるダウンロードにも影響する全体の動作です。"
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "ダウンロードの動作"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "入力"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "動く空の上にガラスのパネルが浮かびます。グラフィックスアクセラレーションが必要です。"
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "オーロラ"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "ソリッドで落ち着いた画面。どのパソコンでも軽く動きます。"
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "ミニマル"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "どちらのスタイルもライトとダークに対応しています。"
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "スタイル"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Klipの見た目です。ライトとダークはフッターで切り替えられます。"
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "外観"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}}にはグラフィックスアクセラレーションが必要ですが、今は使えないため、Klipは{{fallback}}を表示しています。"
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "プロフィール"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "設定"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "この動画だけ"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "この動画だけを {{profileName}} でダウンロードします"

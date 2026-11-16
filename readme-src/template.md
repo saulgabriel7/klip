@@ -1,0 +1,617 @@
+<div align="center">
+  <img src="{{BANNER_IMAGE}}" alt="{{hero_image_alt}}" width="1200" />
+
+# Klip
+
+{{title}}
+
+> **Atribuição / Attribution:** Baseado na arquitetura open-source do projeto [Arroxy (antonio-orionus/Arroxy)](https://github.com/antonio-orionus/Arroxy) sob licença GNU GPL v3.0.
+
+<p>
+  <img src="https://img.shields.io/badge/{{chip_browser_encoded}}-30363d?style=flat" alt="{{chip_browser}}" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_signin_encoded}}-30363d?style=flat" alt="{{chip_signin}}" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_resolution_encoded}}-30363d?style=flat" alt="{{chip_resolution}}" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_framerate_encoded}}-30363d?style=flat" alt="{{chip_framerate}}" height="22" />
+  <img src="https://img.shields.io/badge/HDR-30363d?style=flat" alt="HDR" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_dolby_encoded}}-30363d?style=flat" alt="{{chip_dolby}}" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_clip_encoded}}-30363d?style=flat" alt="{{chip_clip}}" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_playlists_encoded}}-30363d?style=flat" alt="{{chip_playlists}}" height="22" />
+  <img src="https://img.shields.io/badge/Shorts-30363d?style=flat" alt="Shorts" height="22" />
+  <img src="https://img.shields.io/badge/MP3-30363d?style=flat" alt="MP3" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_subtitles_encoded}}-30363d?style=flat" alt="{{chip_subtitles}}" height="22" />
+  <img src="https://img.shields.io/badge/SponsorBlock-30363d?style=flat" alt="SponsorBlock" height="22" />
+  <img src="https://img.shields.io/badge/{{chip_sites_encoded}}-30363d?style=flat" alt="{{chip_sites}}" height="22" />
+</p>
+
+[**{{cta_latest}}**](#install) &nbsp;·&nbsp; [**{{cta_website}}**]({{website_url}})
+
+[{{dl_win_first_h3}}](#windows-first-launch) · [{{dl_macos_first_h3}}](#macos-first-launch) · [{{dl_linux_first_h3}}](#linux-first-launch)
+
+[![{{badge_release_alt}}](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![{{badge_build_alt}}](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![{{badge_license_alt}}](https://img.shields.io/badge/license-GPLv3-blue) ![{{badge_i18n_alt}}](https://img.shields.io/badge/i18n-{{LANG_COUNT}}_languages-blue)
+
+**{{read_in_label}}** {{LANG_NAV}}
+
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+  </tr>
+</table>
+
+{{hero_promise}}
+
+[![{{discord_badge_text}}](https://img.shields.io/badge/{{discord_badge_encoded}}-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
+
+{{star_cta}}
+
+</div>
+
+## {{intro_workflow_h2}}
+
+{{intro_workflow}}
+
+{{intro_signin}}
+
+_{{last_updated}}_
+
+{{ai_notice}}
+
+---
+
+## {{toc_heading}}
+
+- [✨ {{features_h2}}](#features)
+- [📥 {{dl_h2}}](#install)
+  - [{{dl_win_first_h3}}](#windows-first-launch)
+  - [{{dl_macos_first_h3}}](#macos-first-launch)
+  - [{{dl_warning_h3}}](#why-warning)
+  - [{{dl_linux_first_h3}}](#linux-first-launch)
+  - [{{dl_verify_h3}}](#verify)
+- [⚖️ {{why_h2}}](#why)
+- [🔒 {{privacy_h2}}](#privacy)
+- [❓ {{faq_h2}}](#faq)
+- [🗺️ {{roadmap_h2}}](#roadmap)
+- [💖 {{support_h2}}](#support)
+- [🛠️ {{tech_h2}}](#tech)
+- [📜 {{tos_h2}}](#terms)
+
+---
+
+## <a id="features"></a>✨ {{features_h2}}
+
+<table align="center" width="100%">
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot8_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot9_cap}}</sub></td>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot10_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot11_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot14_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub>{{shot12_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub>{{shot13_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="build/Global-hotkey-dark.png" /><img src="build/Global-hotkey.png" alt="{{hotkey_fig_alt}}" width="760" /></picture><br/><sub>{{hotkey_fig_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" align="center"><img src="build/screenshots/en/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub>{{shot7_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub>{{shot1_cap}}</sub></td>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub>{{shot2_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub>{{shot3_cap}}</sub></td>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub>{{shot4_cap}}</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub>{{shot5_cap}}</sub></td>
+    <td width="50%" valign="top" align="center"><img src="build/screenshots/en/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub>{{shot6_cap}}</sub></td>
+  </tr>
+</table>
+
+<details open>
+<summary><strong>🧭 {{feat_explore_h3}}</strong></summary>
+
+- {{feat_explore_1}}
+- {{feat_explore_6}}
+- {{feat_explore_7}}
+- {{feat_explore_2}}
+- {{feat_explore_3}}
+- {{feat_explore_4}}
+- {{feat_explore_5}}
+
+</details>
+
+<details>
+<summary><strong>🎞️ {{feat_quality_h3}}</strong></summary>
+
+- {{feat_quality_1}}
+- {{feat_quality_2}}
+- {{feat_quality_3}}
+- {{feat_quality_4}}
+- {{feat_quality_5}}
+- {{feat_quality_6}}
+
+</details>
+
+<details>
+<summary><strong>🛡️ {{feat_privacy_h3}}</strong></summary>
+
+- {{feat_privacy_1}}
+- {{feat_privacy_2}}
+- {{feat_privacy_3}}
+
+</details>
+
+<details>
+<summary><strong>⚡ {{feat_workflow_h3}}</strong></summary>
+
+- {{feat_workflow_12}}
+- {{feat_workflow_1}}
+- {{feat_workflow_2}}
+- {{feat_workflow_3}}
+- {{feat_workflow_4}}
+- {{feat_workflow_5}}
+- {{feat_workflow_6}}
+- {{feat_workflow_7}}
+- {{feat_workflow_8}}
+- {{feat_workflow_9}}
+- {{feat_workflow_10}}
+- {{feat_workflow_11}}
+- {{feat_workflow_13}}
+- {{feat_workflow_14}}
+- {{feat_workflow_15}}
+- {{feat_workflow_16}}
+- {{feat_workflow_17}}
+- {{feat_workflow_18}}
+- {{feat_workflow_19}}
+- {{feat_workflow_20}}
+
+</details>
+
+<details>
+<summary><strong>📝 {{feat_post_h3}}</strong></summary>
+
+- {{feat_post_1}}
+- {{feat_post_2}}
+- {{feat_post_5}}
+- {{feat_post_3}}
+- {{feat_post_4}}
+
+</details>
+
+<details>
+<summary><strong>🌐 {{feat_sites_h3}}</strong></summary>
+
+- {{feat_sites_1}}
+- {{feat_sites_2}}
+- {{feat_sites_3}}
+- {{feat_sites_4}}
+
+</details>
+
+---
+
+## <a id="install"></a>📥 {{dl_h2}}
+
+{{dl_requirements}}
+
+**Windows**
+
+```bash
+winget install AntonioOrionus.Arroxy
+```
+
+**macOS**
+
+```bash
+brew install --cask antonio-orionus/arroxy/arroxy
+```
+
+**Linux**
+
+AppImage:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
+```
+
+Flatpak:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
+```
+
+{{dl_oneline_note}}
+
+| {{dl_platform_col}} | {{dl_format_col}} |
+| --- | --- |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+
+[**{{dl_grab}}**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+
+<details>
+<summary><strong><a id="windows-first-launch"></a>🪟 {{dl_win_first_h3}}</strong></summary>
+
+{{dl_win_smartscreen_intro}}
+
+<div align="center">
+  <img src="build/win-smartscreen-more-info.png" width="46%" alt="{{shot_smartscreen_more_alt}}" />
+  <img src="build/win-smartscreen-run-anyway.png" width="46%" alt="{{shot_smartscreen_run_alt}}" />
+</div>
+
+1. {{dl_win_smartscreen_step1}}
+2. {{dl_win_smartscreen_step2}}
+
+#### {{dl_win_defender_h4}}
+
+{{dl_win_defender_p}}
+
+> {{dl_win_smartscreen_official}}
+
+{{dl_win_scoop}}
+
+</details>
+
+<details>
+<summary><strong><a id="macos-first-launch"></a>🍎 {{dl_macos_first_h3}}</strong></summary>
+
+{{dl_macos_intro}}
+
+<div align="center">
+  <img src="build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
+</div>
+
+1. {{dl_macos_sequoia_step1}}
+2. {{dl_macos_sequoia_step2}}
+
+```bash
+xattr -dr com.apple.quarantine /Applications/Arroxy.app
+open /Applications/Arroxy.app
+```
+
+{{dl_macos_damaged_p}}
+
+{{dl_macos_arch_note}}
+
+> {{dl_macos_note}}
+
+</details>
+
+<details>
+<summary><strong><a id="why-warning"></a>⚠️ {{dl_warning_h3}}</strong></summary>
+
+{{dl_warning_p1}}
+
+{{dl_warning_p2}}
+
+</details>
+
+<details>
+<summary><strong><a id="linux-first-launch"></a>🐧 {{dl_linux_first_h3}}</strong></summary>
+
+{{dl_linux_intro}}
+
+{{dl_linux_m1_text}}
+
+**{{dl_linux_m2_h4}}**
+
+```bash
+chmod +x Arroxy-linux-x64.AppImage
+./Arroxy-linux-x64.AppImage
+```
+
+{{dl_linux_fuse_text}}
+
+```bash
+./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+```
+
+{{dl_linux_appimagelauncher}}
+
+**{{dl_linux_targz_h4}}**
+
+{{dl_linux_targz_text}}
+
+```bash
+tar xzf Arroxy-linux-x64.tar.gz
+./Arroxy-linux-x64/arroxy
+```
+
+{{dl_linux_arch_note}}
+
+</details>
+
+<details>
+<summary><strong><a id="verify"></a>🔐 {{dl_verify_h3}}</strong></summary>
+
+{{dl_verify_intro}}
+
+**{{dl_verify_win_label}}**
+
+```powershell
+certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+```
+
+**{{dl_verify_mac_label}}**
+
+```bash
+shasum -a 256 Arroxy-mac-arm64.dmg
+```
+
+**{{dl_verify_linux_label}}**
+
+```bash
+sha256sum Arroxy-linux-x64.AppImage
+```
+
+{{dl_verify_vt_text}}
+
+</details>
+
+<details>
+<summary><strong>📦 {{dl_win_h3}}</strong></summary>
+
+|               | {{dl_win_col_installer}} | {{dl_win_col_portable}} |
+| ------------- | :----------------------: | :---------------------: |
+| {{dl_win_r1}} | {{dl_win_r1_installer}}  | {{dl_win_r1_portable}}  |
+| {{dl_win_r2}} | {{dl_win_r2_installer}}  | {{dl_win_r2_portable}}  |
+| {{dl_win_r3}} | {{dl_win_r3_installer}}  | {{dl_win_r3_portable}}  |
+| {{dl_win_r4}} |            ✅            |           ❌            |
+| {{dl_win_r5}} |            ✅            | {{dl_win_r5_portable}}  |
+
+{{dl_win_rec}}
+
+</details>
+
+---
+
+## <a id="why"></a>⚖️ {{why_h2}}
+
+{{why_intro}}
+
+|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+| ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
+| {{why_r8}} |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
+| {{why_r9}} |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
+| {{why_r1}} |   ✅   |           ✅            |         ⚠️          |     ✅      |             ⚠️             |         ⚠️         |
+| {{why_r2}} |   ✅   |           ✅            |         ❌          |     ❌      |             ❌             |         ⚠️         |
+| {{why_r3}} |   ✅   |           ✅            |         ✅          |     ✅      |             ❌             |         ✅         |
+| {{why_r5}} |   ✅   |           ✅            |         ⚠️          |     ✅      |             🚫             |         ⚠️         |
+| {{why_r6}} |   ✅   |           ⚠️            |         ✅          |     ✅      |            N/A             |         ❌         |
+| {{why_r7}} |   ✅   |           ⚠️            |         ⚠️          |     ❌      |             ❌             |         ❌         |
+
+{{why_table_note}}
+
+{{why_summary}}
+
+### <a id="why-explore"></a>🧭 {{why_explore_h3}}
+
+{{why_explore_intro}}
+
+- {{why_explore_1}}
+- {{why_explore_4}}
+- {{why_explore_5}}
+
+---
+
+## <a id="privacy"></a>🔒 {{privacy_h2}}
+
+{{privacy_p1}}
+
+{{privacy_anonymous_reports}}
+
+{{privacy_explore_sign_ins}}
+
+---
+
+## <a id="faq"></a>❓ {{faq_h2}}
+
+<details>
+<summary><strong>{{faq_q1}}</strong></summary>
+
+{{faq_a1}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q11}}</strong></summary>
+
+{{faq_a11}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q2}}</strong></summary>
+
+{{faq_a2}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q3}}</strong></summary>
+
+{{faq_a3}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q4}}</strong></summary>
+
+{{faq_a4}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q5}}</strong></summary>
+
+{{faq_a5}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q6}}</strong></summary>
+
+{{faq_a6}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q7}}</strong></summary>
+
+{{faq_a7}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q8}}</strong></summary>
+
+{{faq_a8}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q9}}</strong></summary>
+
+{{faq_a9}}
+
+</details>
+
+<details>
+<summary><strong>{{faq_q10}}</strong></summary>
+
+{{faq_a10}}
+
+</details>
+
+---
+
+## <a id="roadmap"></a>🗺️ {{roadmap_h2}}
+
+{{plan_intro}}
+
+| {{plan_col1}}    | {{plan_col2}}    |
+| ---------------- | ---------------- |
+| {{plan_r1_name}} | {{plan_r1_desc}} |
+| {{plan_r2_name}} | {{plan_r2_desc}} |
+| {{plan_r3_name}} | {{plan_r3_desc}} |
+| {{plan_r4_name}} | {{plan_r4_desc}} |
+| {{plan_r5_name}} | {{plan_r5_desc}} |
+| {{plan_r9_name}} | {{plan_r9_desc}} |
+
+{{plan_cta}}
+
+---
+
+## <a id="support"></a>💖 {{support_h2}}
+
+{{support_line}}
+
+<a href="DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
+
+---
+
+## <a id="tech"></a>🛠️ {{tech_h2}}
+
+{{tech_content}}
+
+---
+
+## <a id="troubleshooting"></a>🩺 Troubleshooting
+
+<details>
+<summary><strong>🖥️ App won't open / no window appears</strong></summary>
+
+The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+
+**1. Check the log.** It records startup, GPU info, and any crash. Path:
+
+| Platform | Path                             |
+| -------- | -------------------------------- |
+| Windows  | `%APPDATA%\arroxy\logs\main.log` |
+| macOS    | `~/Library/Logs/arroxy/main.log` |
+| Linux    | `~/.config/arroxy/logs/main.log` |
+
+**2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
+
+```bash
+# Windows (Portable) — PowerShell, run from the folder containing the exe
+.\Arroxy-win-x64-Portable.exe --disable-gpu
+
+# Windows (Portable) — Command Prompt (cmd.exe), from the same folder
+Arroxy-win-x64-Portable.exe --disable-gpu
+
+# Windows (Installed) — works in both PowerShell and cmd.exe
+"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+
+# macOS
+/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+
+# Linux (AppImage)
+./Arroxy-linux-x64.AppImage --disable-gpu
+```
+
+If that works, the GPU/driver is the cause. Make the change permanent (next step).
+
+**3. Persist the flag via `argv.json`.** Create the file at:
+
+| Platform | Path                                             |
+| -------- | ------------------------------------------------ |
+| Windows  | `%APPDATA%\arroxy\argv.json`                     |
+| macOS    | `~/Library/Application Support/arroxy/argv.json` |
+| Linux    | `~/.config/arroxy/argv.json`                     |
+
+On Flatpak, both `main.log` and `argv.json` live under
+`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
+(for example `logs/main.log`).
+
+With contents:
+
+```json
+{ "disable-hardware-acceleration": true }
+```
+
+Arroxy reads this before opening any window, so it works even when the window never appeared.
+
+**4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
+
+**5. Stale window position.** If the window may be opening off-screen (multi-monitor change since last run), delete `<userData>\window-state.json` and relaunch.
+
+**6. Still stuck?** Open an issue with your OS version and any output from running with `--enable-logging --v=1`. If the app window does open, attach the file from **Settings → Save diagnostics file**: it holds both logs and your app details, with your user folder name removed. Otherwise attach `main.log`.
+
+</details>
+
+---
+
+## <a id="terms"></a>📜 {{tos_h2}}
+
+{{tos_note}}
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+ </picture>
+</a>
+
+<div align="center">
+  <sub>{{footer_credit}}</sub>
+  <br/>
+  <sub>Baseado na arquitetura open-source do projeto <a href="https://github.com/antonio-orionus/Arroxy">Arroxy (antonio-orionus/Arroxy)</a> sob licença GNU GPL v3.0.</sub>
+</div>

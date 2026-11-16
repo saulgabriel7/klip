@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title">
+  <title id="title">Klip logo (small size)</title>
+  <g id="symbol">
+    <path fill="#18181b" fill-rule="evenodd" d="M 32 32 H 84 V 224 H 32 Z M 162 32 H 224 L 146 110 H 120 V 74 Z M 120 146 H 146 L 224 224 H 162 L 120 182 Z"/>
+  </g>
+</svg>

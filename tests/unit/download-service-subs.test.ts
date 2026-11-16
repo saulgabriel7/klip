@@ -1,0 +1,513 @@
+import {describe, expect, it, vi, beforeEach, afterEach} from 'vite-plus/test'
+import {appendFileSync, mkdtempSync, readFileSync, writeFileSync, rmSync} from 'node:fs'
+import {tmpdir} from 'node:os'
+import {join, resolve} from 'node:path'
+
+vi.unmock('node:fs/promises')
+
+import {DownloadService} from '@main/services/DownloadService.js'
+import {YtDlp} from '@main/services/YtDlp.js'
+import {createHangingProcess, createTranscriptProcess, type TranscriptProcess} from '../helpers/processTranscript.js'
+
+vi.mock('@main/utils/process', async importOriginal => {
+	const actual = await importOriginal<typeof import('@main/utils/process.js')>()
+	return {...actual, spawnYtDlp: vi.fn(), spawnFFmpeg: vi.fn()}
+})
+
+vi.mock('@main/utils/diskSpace', () => ({checkDiskSpace: vi.fn().mockResolvedValue({ok: true, freeBytes: 1e12, requiredBytes: 0})}))
+
+import {spawnYtDlp, spawnFFmpeg} from '@main/utils/process.js'
+import type {QueueArtifactEvent, RecentJob, StatusEvent, StatusKey} from '@shared/types.js'
+import type {PreparedJob, EmbedOptions, SponsorBlockOptions} from '@shared/preparedJob.js'
+import type {SubtitleFormat, SubtitleMode} from '@shared/schemas.js'
+import type {SubtitleRequest} from '@shared/subtitleTracks.js'
+
+const EMBED_OFF: EmbedOptions = {chapters: false, metadata: false, thumbnail: false, description: false, thumbnailSidecar: false}
+const SB_OFF: SponsorBlockOptions = {mode: 'off'}
+const YOUTUBE_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+
+beforeEach(() => {
+	vi.clearAllMocks()
+})
+
+function makeProcess(exitCode: number, stderr = '') {
+	return createTranscriptProcess(stderr ? [{stream: 'stderr', data: stderr}, {close: exitCode}] : [{close: exitCode}])
+}
+
+function makeJob(opts: {formatId?: string; remuxVideo?: string; subtitles?: {request: SubtitleRequest; mode?: SubtitleMode; format?: SubtitleFormat}} = {}): PreparedJob {
+	if (!opts.formatId && opts.subtitles) {
+		return {kind: 'subtitle-only', extractor: 'youtube', extractorKey: 'Youtube', subtitles: {request: opts.subtitles.request, mode: opts.subtitles.mode ?? 'sidecar', format: opts.subtitles.format ?? 'srt'}}
+	}
+	return {
+		kind: 'single-format',
+		extractor: 'youtube',
+		extractorKey: 'Youtube',
+		formatId: opts.formatId ?? '137+251',
+		...(opts.remuxVideo ? {remuxVideo: opts.remuxVideo} : {}),
+		sponsorBlock: SB_OFF,
+		embed: EMBED_OFF,
+		subtitles: opts.subtitles ? {request: opts.subtitles.request, mode: opts.subtitles.mode ?? 'sidecar', format: opts.subtitles.format ?? 'srt'} : undefined
+	}
+}
+
+function captureStatuses(service: {on: (e: 'status', cb: (e: StatusEvent) => void) => void}): StatusEvent[] {
+	const events: StatusEvent[] = []
+	service.on('status', e => events.push(e))
+	return events
+}
+
+function statusKeys(events: StatusEvent[]): StatusKey[] {
+	return events.map(e => e.statusKey)
+}
+
+// `finished` settles when finalize() writes the job's RecentJob entry, its last
+// step: by then every phase, ffmpeg run, status and temp-file cleanup is done.
+// Tests await it rather than poll, so a slow runner cannot outlast a deadline.
+function makeService() {
+	const tokenService = {getToken: vi.fn().mockResolvedValue({token: 'mock-token', visitorData: 'mock-visitor'}), invalidateCache: vi.fn()}
+	const binaryManager = {ensureYtDlp: vi.fn().mockResolvedValue('/usr/bin/yt-dlp'), ensureFFmpeg: vi.fn().mockResolvedValue('/usr/bin/ffmpeg'), ensureFFprobe: vi.fn().mockResolvedValue(null)}
+	const recorded = Promise.withResolvers<void>()
+	const recentJobsStore = {
+		push: vi.fn((_job: RecentJob) => {
+			recorded.resolve()
+			return Promise.resolve()
+		})
+	}
+	const settingsStore = {get: vi.fn().mockResolvedValue({})}
+	const ytDlp = new YtDlp(binaryManager as never, tokenService as never, settingsStore)
+	const service = new DownloadService(ytDlp, recentJobsStore as never, false)
+	return {service, recentJobsStore, finished: recorded.promise}
+}
+
+// finalize() reads the final files' sizes in the background, apart from
+// recording the job, and emits them in one batch: once the first sized event
+// arrives, the whole batch is in.
+function sizedArtifacts(service: DownloadService): Promise<void> {
+	return new Promise(resolve => {
+		const onArtifact = (event: QueueArtifactEvent): void => {
+			if (event.sizeBytes === undefined) return
+			service.off('artifact', onArtifact)
+			resolve()
+		}
+		service.on('artifact', onArtifact)
+	})
+}
+
+// What real yt-dlp does for a subtitle phase's two runs. A listing (`-J`)
+// prints the video's info-json on stdout. A subtitle run writes the file the
+// test names for each key it is asked for (`--sub-langs`) and appends
+// `requested_subtitles` to the report it is asked for (`--print-to-file
+// after_video:…`), whose path is relative to the folder it runs in. Any other
+// run is the media's: null, for the test's own transcript.
+const VIDEO_INFO = {id: 'dQw4w9WgXcQ', title: 'Title', subtitles: {en: [{ext: 'srt'}]}, automatic_captions: {'en-orig': [{ext: 'srt'}], en: [{ext: 'srt'}]}}
+
+function subtitleRun(args: readonly string[], cwd: string | undefined, files: Record<string, {path: string; content?: string}>): TranscriptProcess | null {
+	if (args.includes('--dump-single-json')) return createTranscriptProcess([{stream: 'stdout', data: JSON.stringify(VIDEO_INFO)}, {close: 0}])
+	if (!args.includes('--skip-download')) return null
+	const keys = (args[args.indexOf('--sub-langs') + 1] ?? '').split(',').map(entry => entry.replace(/^\(\?-i:(.*)\)$/, '$1').replace(/\\(.)/g, '$1'))
+	return createTranscriptProcess([{close: 0}], {
+		beforeStart: () => {
+			const report: Record<string, {ext: string; filepath: string}> = {}
+			for (const key of keys) {
+				const file = files[key]
+				if (!file) continue
+				if (file.content !== undefined) writeFileSync(file.path, file.content)
+				report[key] = {ext: 'srt', filepath: file.path}
+			}
+			const at = args.findIndex((arg, index) => arg === '--print-to-file' && args[index + 1]?.startsWith('after_video:'))
+			const reportFile = at === -1 ? undefined : args[at + 2]?.replace(/%\(_absent\|(.)\)s/g, '$1')
+			if (reportFile) appendFileSync(resolve(cwd ?? '.', reportFile), `${JSON.stringify(report)}\n`)
+		}
+	})
+}
+
+describe('DownloadService — subtitle soft-fail finalization', () => {
+	it('emits final media and subtitle artifacts when a job completes', async () => {
+		const videoPath = '/tmp/video.mkv'
+		const subPath = '/tmp/video.en.srt'
+		vi.mocked(spawnYtDlp).mockImplementation(((_bin: string, args: string[], _ffmpeg: string | null, options?: {cwd?: string}) => subtitleRun(args, options?.cwd, {en: {path: subPath}}) ?? makeProcess(0, `[download] Destination: ${videoPath}\n`)) as never)
+		const {service, recentJobsStore, finished} = makeService()
+		const artifacts: QueueArtifactEvent[] = []
+		service.on('artifact', event => artifacts.push(event))
+
+		await service.start({url: YOUTUBE_URL, outputDir: '/tmp', job: makeJob({formatId: '137+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: false}]}}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		expect(artifacts.map(({path, kind}) => ({path, kind}))).toEqual([
+			{path: videoPath, kind: 'media'},
+			// The reported track comes back as an absolute path for this platform (a drive letter on Windows).
+			{path: resolve(subPath), kind: 'subtitle'}
+		])
+		// Neither file exists on disk here, so no size is reported.
+		expect(artifacts.every(artifact => artifact.sizeBytes === undefined)).toBe(true)
+	})
+
+	it('emits subtitlesFailed and records the job as completed when the sidecar subtitle listing fails', async () => {
+		let callIndex = 0
+		vi.mocked(spawnYtDlp).mockImplementation(() => {
+			const exitCode = callIndex === 0 ? 0 : 1
+			callIndex++
+			return makeProcess(exitCode) as never
+		})
+
+		const {service, recentJobsStore, finished} = makeService()
+		const events = captureStatuses(service)
+
+		await service.start({url: YOUTUBE_URL, outputDir: '/tmp', job: makeJob({formatId: '137+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: false}]}}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		const final = events[events.length - 1]
+		expect(final.statusKey).toBe('subtitlesFailed')
+		expect(final.stage).toBe('done')
+		expect(statusKeys(events)).not.toContain('complete')
+		expect(recentJobsStore.push.mock.calls[0][0].status).toBe('completed')
+	})
+})
+
+describe('DownloadService — sidecar mux after Merger + MoveFiles regressions', () => {
+	let workDir: string
+
+	beforeEach(() => {
+		workDir = mkdtempSync(join(tmpdir(), 'arroxy-merger-move-'))
+	})
+
+	afterEach(() => {
+		rmSync(workDir, {recursive: true, force: true})
+	})
+
+	function makeMergerMoveSpawn(tempVideoPath: string, finalVideoPath: string, subPath: string, subContent: string) {
+		return (_bin: string, args: string[], _ffmpeg: string | null, options?: {cwd?: string}) =>
+			subtitleRun(args, options?.cwd, {en: {path: subPath, content: subContent}}) ??
+			createTranscriptProcess([{stream: 'stderr', data: `[Merger] Merging formats into "${tempVideoPath}"\n[Metadata] Adding metadata to "${tempVideoPath}"\n[MoveFiles] Moving file "${tempVideoPath}" to "${finalVideoPath}"\n`}, {close: 0}], {
+				beforeStart: () => {
+					writeFileSync(finalVideoPath, 'fake-merged-bytes')
+				}
+			})
+	}
+
+	it('reports thumbnail and description sidecars with their sizes when the job completes', async () => {
+		const videoPath = join(workDir, 'Title.mp4')
+		const tempThumbPath = join(workDir, '.arroxy-temp', 'Title.webp')
+		const thumbPath = join(workDir, 'Title.webp')
+		const descriptionPath = join(workDir, 'Title.description')
+		vi.mocked(spawnYtDlp).mockImplementation((() =>
+			createTranscriptProcess([{stream: 'stderr', data: `[info] Writing video description to: ${descriptionPath}\n[info] Writing video thumbnail 1 to: ${tempThumbPath}\n[download] Destination: ${videoPath}\n[MoveFiles] Moving file "${tempThumbPath}" to "${thumbPath}"\n`}, {close: 0}], {
+				beforeStart: () => {
+					writeFileSync(videoPath, 'v'.repeat(30))
+					writeFileSync(thumbPath, 't'.repeat(20))
+					writeFileSync(descriptionPath, 'd'.repeat(10))
+				}
+			})) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		const artifacts: QueueArtifactEvent[] = []
+		service.on('artifact', event => artifacts.push(event))
+		const sized = sizedArtifacts(service)
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '22'})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		await sized
+		expect(new Map(artifacts.filter(artifact => artifact.sizeBytes !== undefined).map(artifact => [artifact.path, artifact.sizeBytes]))).toEqual(
+			new Map([
+				[videoPath, 30],
+				[thumbPath, 20],
+				[descriptionPath, 10]
+			])
+		)
+	})
+
+	it('leaves out a thumbnail yt-dlp deleted after embedding it', async () => {
+		const videoPath = join(workDir, 'Title.mp4')
+		const embeddedThumbPath = join(workDir, 'Title.webp')
+		vi.mocked(spawnYtDlp).mockImplementation((() =>
+			createTranscriptProcess([{stream: 'stderr', data: `[info] Writing video thumbnail 1 to: ${embeddedThumbPath}\n[download] Destination: ${videoPath}\n`}, {close: 0}], {
+				beforeStart: () => {
+					writeFileSync(videoPath, 'v'.repeat(30))
+				}
+			})) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		const artifacts: QueueArtifactEvent[] = []
+		service.on('artifact', event => artifacts.push(event))
+		const sized = sizedArtifacts(service)
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '22'})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		await sized
+		expect(artifacts.some(artifact => artifact.sizeBytes === 30)).toBe(true)
+		expect(new Set(artifacts.map(artifact => artifact.path))).toEqual(new Set([videoPath]))
+	})
+
+	it('passes the post-MoveFiles final path to ffmpeg, not the .arroxy-temp Merger path', async () => {
+		const tempVideoPath = join(workDir, '.arroxy-temp', 'abc1234', 'Title.mkv')
+		const finalVideoPath = join(workDir, 'Title.mkv')
+		const subPath = join(workDir, 'Title.en.srt')
+		vi.mocked(spawnYtDlp).mockImplementation(makeMergerMoveSpawn(tempVideoPath, finalVideoPath, subPath, 'sub-bytes') as never)
+
+		const ffmpegCalls: string[][] = []
+		vi.mocked(spawnFFmpeg).mockImplementation(((_bin: string, args: string[]) => {
+			ffmpegCalls.push(args)
+			return createTranscriptProcess([{close: 0}], {
+				beforeStart: () => {
+					writeFileSync(args[args.length - 1], 'muxed-bytes')
+				}
+			})
+		}) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '330+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en-orig', auto: true}]}, mode: 'embed', format: 'srt'}})})
+		// Waiting for the whole job also lets finalize() drain its tempDir and mux
+		// disposables before afterEach() rmSync()s workDir, which would otherwise
+		// race the cleanup and intermittently throw ENOTEMPTY.
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+		expect(ffmpegCalls).toHaveLength(1)
+
+		const args = ffmpegCalls[0]
+		const firstInputIdx = args.indexOf('-i')
+		expect(args[firstInputIdx + 1]).toBe(finalVideoPath)
+		expect(args[firstInputIdx + 1]).not.toBe(tempVideoPath)
+	})
+
+	it('passes the post-"already been downloaded" path to ffmpeg when the merged file pre-exists', async () => {
+		const finalVideoPath = join(workDir, 'Title.mkv')
+		const subPath = join(workDir, 'Title.en.srt')
+
+		vi.mocked(spawnYtDlp).mockImplementation(
+			((_bin: string, args: string[], _ffmpeg: string | null, options?: {cwd?: string}) =>
+				subtitleRun(args, options?.cwd, {en: {path: subPath, content: 'sub-bytes'}}) ??
+				createTranscriptProcess([{stream: 'stderr', data: `[download] ${finalVideoPath} has already been downloaded\n`}, {close: 0}], {
+					beforeStart: () => {
+						writeFileSync(finalVideoPath, 'fake-existing-bytes')
+					}
+				})) as never
+		)
+
+		const ffmpegCalls: string[][] = []
+		vi.mocked(spawnFFmpeg).mockImplementation(((_bin: string, args: string[]) => {
+			ffmpegCalls.push(args)
+			return createTranscriptProcess([{close: 0}], {
+				beforeStart: () => {
+					writeFileSync(args[args.length - 1], 'muxed-bytes')
+				}
+			})
+		}) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '330+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en-orig', auto: true}]}, mode: 'embed', format: 'srt'}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+		expect(ffmpegCalls).toHaveLength(1)
+
+		const args = ffmpegCalls[0]
+		expect(args[args.indexOf('-i') + 1]).toBe(finalVideoPath)
+	})
+})
+
+describe('DownloadService — embed+auto muxing after subtitle dedupe', () => {
+	let workDir: string
+
+	beforeEach(() => {
+		workDir = mkdtempSync(join(tmpdir(), 'arroxy-mux-'))
+	})
+
+	afterEach(() => {
+		rmSync(workDir, {recursive: true, force: true})
+	})
+
+	function makeTwoPhaseSpawn(videoPath: string, subPath: string, subContent: string) {
+		return (_bin: string, args: string[], _ffmpeg: string | null, options?: {cwd?: string}) =>
+			subtitleRun(args, options?.cwd, {en: {path: subPath, content: subContent}}) ??
+			createTranscriptProcess([{stream: 'stderr', data: `[download] Destination: ${videoPath}\n`}, {close: 0}], {
+				beforeStart: () => {
+					writeFileSync(videoPath, 'fake-video-bytes')
+				}
+			})
+	}
+
+	function mockSuccessfulMux(ffmpegCalls: string[][] = []): void {
+		vi.mocked(spawnFFmpeg).mockImplementation(((_bin: string, args: string[]) => {
+			ffmpegCalls.push(args)
+			return createTranscriptProcess([{close: 0}], {
+				beforeStart: () => {
+					writeFileSync(args[args.length - 1], 'muxed-bytes')
+				}
+			})
+		}) as never)
+	}
+
+	it('runs ffmpeg with the deduped subtitle and renames the muxed output to the final mkv path', async () => {
+		const rolling = readFileSync(join(__dirname, '../fixtures/subtitles/copilot-died.en-rolling.srt'), 'utf8')
+		const videoPath = join(workDir, 'Title.mp4')
+		const subPath = join(workDir, 'Title.en.srt')
+		vi.mocked(spawnYtDlp).mockImplementation(makeTwoPhaseSpawn(videoPath, subPath, rolling) as never)
+
+		const ffmpegCalls: string[][] = []
+		mockSuccessfulMux(ffmpegCalls)
+
+		const {service, recentJobsStore, finished} = makeService()
+		const artifacts: QueueArtifactEvent[] = []
+		service.on('artifact', event => artifacts.push(event))
+		const sized = sizedArtifacts(service)
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '137+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: true}]}, mode: 'embed', format: 'srt'}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+		expect(ffmpegCalls).toHaveLength(1)
+
+		const args = ffmpegCalls[0]
+		const inputIdxs = args.reduce<number[]>((acc, v, i) => (v === '-i' ? [...acc, i] : acc), [])
+		expect(args[inputIdxs[0] + 1]).toBe(videoPath)
+		expect(args[inputIdxs[1] + 1]).toBe(subPath)
+
+		const finalMkv = join(workDir, 'Title.mkv')
+		expect(readFileSync(finalMkv, 'utf8')).toBe('muxed-bytes')
+		expect(() => readFileSync(videoPath)).toThrow()
+		expect(() => readFileSync(subPath)).toThrow()
+		// Announced at completion, then sent again with its size read after the mux.
+		await sized
+		expect(artifacts.map(({path, kind, sizeBytes}) => ({path, kind, sizeBytes}))).toEqual([
+			{path: finalMkv, kind: 'media', sizeBytes: undefined},
+			{path: finalMkv, kind: 'media', sizeBytes: 'muxed-bytes'.length}
+		])
+	})
+
+	it('emits mergingFormats status when the mux phase starts', async () => {
+		const rolling = readFileSync(join(__dirname, '../fixtures/subtitles/copilot-died.en-rolling.srt'), 'utf8')
+		const videoPath = join(workDir, 'Title.mp4')
+		const subPath = join(workDir, 'Title.en.srt')
+		vi.mocked(spawnYtDlp).mockImplementation(makeTwoPhaseSpawn(videoPath, subPath, rolling) as never)
+		mockSuccessfulMux()
+
+		const {service, recentJobsStore, finished} = makeService()
+		const events = captureStatuses(service)
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '137+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: true}]}, mode: 'embed', format: 'srt'}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		const keys = statusKeys(events)
+		expect(keys).toContain('mergingFormats')
+		const fetchIdx = keys.lastIndexOf('fetchingSubtitles')
+		const mergeIdx = keys.lastIndexOf('mergingFormats')
+		expect(mergeIdx).toBeGreaterThan(fetchIdx)
+	})
+
+	it('cancel during ffmpeg mux kills the ffmpeg process and removes the .muxing.mkv temp file', async () => {
+		const rolling = readFileSync(join(__dirname, '../fixtures/subtitles/copilot-died.en-rolling.srt'), 'utf8')
+		const videoPath = join(workDir, 'Title.mp4')
+		const subPath = join(workDir, 'Title.en.srt')
+		vi.mocked(spawnYtDlp).mockImplementation(makeTwoPhaseSpawn(videoPath, subPath, rolling) as never)
+
+		// The mux calls onSpawn as soon as spawnFFmpeg returns, so by the time this
+		// settles the job holds the process and cancel() can kill it.
+		const ffmpegSpawned = Promise.withResolvers<TranscriptProcess>()
+		vi.mocked(spawnFFmpeg).mockImplementation(((_bin: string, args: string[]) => {
+			const proc = createHangingProcess({closeOnKill: null, closeDelayMs: 5})
+			writeFileSync(args[args.length - 1], 'partial-bytes')
+			ffmpegSpawned.resolve(proc)
+			return proc
+		}) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		const startResult = await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '137+251', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: true}]}, mode: 'embed', format: 'srt'}})})
+		expect(startResult.ok).toBe(true)
+		if (!startResult.ok) return
+
+		const ffmpegProc = await ffmpegSpawned.promise
+		await service.cancel(startResult.data.job.id)
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		expect(ffmpegProc.kill).toHaveBeenCalled()
+		expect(() => readFileSync(join(workDir, 'Title.muxing.mkv'))).toThrow()
+	})
+})
+
+// What real yt-dlp does with `--print-to-file after_move:filepath FILE`: once
+// every postprocessor and the move have run, it appends the final path to FILE.
+// FILE is an output template relative to the folder the run happens in, so a
+// literal sign arrives as an absent field that defaults to it.
+function printFinalPath(args: readonly string[], finalPath: string, cwd: string): void {
+	const at = args.indexOf('--print-to-file')
+	if (at === -1 || args[at + 1] !== 'after_move:filepath') return
+	const file = args[at + 2]?.replace(/%\(_absent\|(.)\)s/g, '$1')
+	if (file) appendFileSync(resolve(cwd, file), `${finalPath}\n`)
+}
+
+describe('DownloadService — final media path after --remux-video', () => {
+	let workDir: string
+
+	beforeEach(() => {
+		workDir = mkdtempSync(join(tmpdir(), 'arroxy-remux-'))
+	})
+
+	afterEach(() => {
+		rmSync(workDir, {recursive: true, force: true})
+	})
+
+	// yt-dlp's own output for a muxed MP4 saved as MKV: the remuxer names its
+	// destination after a "Remuxing video from …;" prefix, deletes the MP4 and
+	// the move carries the .mkv out of the temp folder.
+	function makeRemuxSpawn(paths: {tempMp4: string; tempMkv: string; finalMkv: string; subPath: string}) {
+		return ((_bin: string, args: string[], _ffmpeg: string | null, options?: {cwd?: string}) => {
+			const subtitles = subtitleRun(args, options?.cwd, {en: {path: paths.subPath, content: '1\n00:00:00,000 --> 00:00:01,000\nHi\n'}})
+			if (subtitles) return subtitles
+			const media = [`[download] Destination: ${paths.tempMp4}`, `[VideoRemuxer] Remuxing video from mp4 to mkv; Destination: ${paths.tempMkv}`, `Deleting original file ${paths.tempMp4} (pass -k to keep)`, `[MoveFiles] Moving file "${paths.tempMkv}" to "${paths.finalMkv}"`].join('\n')
+			return createTranscriptProcess([{stream: 'stdout', data: `${media}\n`}, {close: 0}], {
+				beforeStart: () => {
+					writeFileSync(paths.finalMkv, 'remuxed-bytes')
+					printFinalPath(args, paths.finalMkv, workDir)
+				}
+			})
+		}) as never
+	}
+
+	function remuxPaths() {
+		const tempDir = join(workDir, '.arroxy-temp', 'abc1234')
+		return {tempMp4: join(tempDir, 'Clip.mp4'), tempMkv: join(tempDir, 'Clip.mkv'), finalMkv: join(workDir, 'Clip.mkv'), subPath: join(workDir, 'Clip.en.srt')}
+	}
+
+	it('reports the moved .mkv as the media, not the deleted pre-remux file', async () => {
+		const paths = remuxPaths()
+		vi.mocked(spawnYtDlp).mockImplementation(makeRemuxSpawn(paths))
+		const {service, recentJobsStore, finished} = makeService()
+		const artifacts: QueueArtifactEvent[] = []
+		service.on('artifact', event => artifacts.push(event))
+		const sized = sizedArtifacts(service)
+
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '18', remuxVideo: 'mkv'})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+
+		await sized
+		expect(artifacts.some(artifact => artifact.kind === 'media' && artifact.sizeBytes !== undefined)).toBe(true)
+		const media = artifacts.filter(artifact => artifact.kind === 'media' && artifact.fromPath === undefined)
+		expect(new Set(media.map(artifact => artifact.path))).toEqual(new Set([paths.finalMkv]))
+	})
+
+	it('embeds subtitles into the moved .mkv after a remux', async () => {
+		const paths = remuxPaths()
+		vi.mocked(spawnYtDlp).mockImplementation(makeRemuxSpawn(paths))
+		const ffmpegCalls: string[][] = []
+		vi.mocked(spawnFFmpeg).mockImplementation(((_bin: string, args: string[]) => {
+			ffmpegCalls.push(args)
+			return createTranscriptProcess([{close: 0}], {
+				beforeStart: () => {
+					writeFileSync(args[args.length - 1], 'muxed-bytes')
+				}
+			})
+		}) as never)
+
+		const {service, recentJobsStore, finished} = makeService()
+		await service.start({url: YOUTUBE_URL, outputDir: workDir, job: makeJob({formatId: '18', remuxVideo: 'mkv', subtitles: {request: {kind: 'tracks', tracks: [{key: 'en', auto: false}]}, mode: 'embed', format: 'srt'}})})
+		await finished
+		expect(recentJobsStore.push).toHaveBeenCalledOnce()
+		expect(ffmpegCalls).toHaveLength(1)
+
+		const args = ffmpegCalls[0]
+		expect(args[args.indexOf('-i') + 1]).toBe(paths.finalMkv)
+	})
+})

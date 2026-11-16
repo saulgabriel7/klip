@@ -1,0 +1,162 @@
+import type {ChildProcessWithoutNullStreams} from 'node:child_process'
+import {copyFile} from 'node:fs/promises'
+import {join} from 'node:path'
+import log from 'electron-log/main.js'
+import {compileFilenameTemplate, DEFAULT_FILENAME_TEMPLATE} from '@shared/filenameTemplate.js'
+import {STATUS_KEY} from '@shared/schemas.js'
+import {exploreCookieScopeFor} from '@shared/sites/exploreCookieScope.js'
+import type {LocalizedError} from '@shared/types.js'
+import type {YtDlpRequest, YtDlpSignal} from '../YtDlp.js'
+import {forgetOnExit, stopJobProcess} from '../download/processControl.js'
+import type {ActiveJob, PhaseContext, PhaseOutcome} from './types.js'
+
+// The info-json a media run writes into the job's temp dir: replayed on resume,
+// and read by the subtitle phase for the video's tracks.
+export const INFO_JSON_NAME = '_arroxy.info.json'
+
+const logger = log.scope('downloads')
+
+// The probe's info-json lives in the app's cache, outside the job's folder.
+// yt-dlp expands a `$NAME` or `%NAME%` in any path it reads, so every run that
+// loads it reads a copy in the job's temp folder, which the bridge passes
+// relative to the folder yt-dlp runs in (ADR 0015). Without a temp folder, or
+// when the copy fails, there is no probe info-json: the cache path never
+// reaches yt-dlp.
+const PROBE_INFO_JSON_NAME = '_arroxy.probe.info.json'
+
+export async function probeInfoJsonInTemp(probeInfoJsonPath: string | undefined, tempDir: string | undefined, jobId: string): Promise<string | undefined> {
+	if (!probeInfoJsonPath) return undefined
+	if (!tempDir) {
+		logger.info("no temp folder for a copy of the probe's info-json; extracting afresh", {jobId})
+		return undefined
+	}
+	const copy = join(tempDir, PROBE_INFO_JSON_NAME)
+	return copyFile(probeInfoJsonPath, copy).then(
+		() => copy,
+		(error: unknown) => {
+			logger.warn("could not copy the probe's info-json into the temp folder; extracting afresh", {jobId, code: error instanceof Error && 'code' in error ? String(error.code) : null})
+			return undefined
+		}
+	)
+}
+
+// An escalated job runs on the Explore session or not at all: before each of
+// its spawns the gate is asked again, so signing out, leaving explore mode or
+// the kill switch stop it instead of letting it run anonymously. A sign-out
+// the site itself confirmed earlier in the job stops it too, whatever cookies
+// the partition still holds. Anonymous jobs pass without a lookup. A job its
+// site started signed in (ADR 0022) lost nothing it needs: it goes on anonymous.
+export async function canSpawnSignedIn(ctx: PhaseContext): Promise<boolean> {
+	const {input} = ctx.active
+	if (input.auth !== 'exploreSession') return true
+	const scope = exploreCookieScopeFor(input.url)
+	const allowed = (await ctx.active.exploreSessionCheck) !== 'signedOut' && scope !== null && (await ctx.exploreGate.canEscalate(scope)).allowed
+	if (allowed || input.authBasis !== 'siteDefault') return allowed
+	logger.info('Explore sign-in no longer usable for a job its site started signed in; running anonymous', {jobId: ctx.active.job.id})
+	continueAnonymous(ctx.active)
+	return true
+}
+
+// A subtitle fetch that re-extracts instead of loading its listing: for a job
+// that went on anonymous after its listing was extracted on the account, whose
+// subtitle URLs may be the account's.
+export function withoutListing(req: YtDlpRequest): YtDlpRequest {
+	if (req.kind !== 'subtitles') return req
+	const {loadInfoJsonPath: _listing, ...rest} = req
+	return rest
+}
+
+// A job its site started signed in goes on anonymous, for the rest of the job
+// and after a pause: the probe's info-json was extracted on the account, so it
+// is forgotten rather than replayed without it.
+export function continueAnonymous(active: ActiveJob): void {
+	const {authBasis: _basis, probeInfoJsonPath: _probe, probeFormatsWithheld: _withheld, ...rest} = active.input
+	active.input = {...rest, auth: 'anonymous'}
+}
+
+// The outcome of a pause or cancel that landed on the job, else null. Pause wins
+// over cancel, like everywhere else a phase checks both; a paused job parks
+// rather than failing because its session is gone.
+export function interruptedOutcome(active: ActiveJob): PhaseOutcome | null {
+	return active.pauseRequested ? {kind: 'paused'} : active.cancelRequested ? {kind: 'cancelled'} : null
+}
+
+// The hard failure for an escalated job whose Explore session is gone.
+export function exploreSignedOut(ctx: PhaseContext): PhaseOutcome {
+	const error: LocalizedError = {kind: 'loginRequired', raw: 'Signed out of the Explore session'}
+	ctx.emitStatus('error', STATUS_KEY.exploreSignedOut, undefined, error)
+	return {kind: 'hard-failed', error}
+}
+
+// Single-spawn phases: the failed outcome when the spawn may not run, else null.
+export async function guardSignedInSpawn(ctx: PhaseContext): Promise<PhaseOutcome | null> {
+	return (await canSpawnSignedIn(ctx)) ? null : exploreSignedOut(ctx)
+}
+
+// Shared yt-dlp signal handlers used by every phase that spawns yt-dlp:
+//   - assign `active.ytDlpProcess` on spawn, and clear it when the child exits
+//   - stop the tree at once if cancel was requested before spawn returned
+//   - register a tree-stop disposable for finalize-time drain
+//   - pipe stdout/stderr into ctx.safeConsume
+//   - cancel through the job's signal; pause stops a run that has not spawned
+//     yet (a running process is paused by DownloadService)
+//
+// Phases can override or extend any handler via `extra`. When both this helper
+// and `extra` define `onSpawn`, the default runs first and then `extra.onSpawn`.
+export function buildYtDlpSignal(ctx: PhaseContext, active: ActiveJob, extra: Omit<YtDlpSignal, 'onStdout' | 'onStderr'> & {onStdout?: YtDlpSignal['onStdout']; onStderr?: YtDlpSignal['onStderr']} = {}): YtDlpSignal {
+	const {onSpawn: extraOnSpawn, onStdout: extraOnStdout, onStderr: extraOnStderr, ...rest} = extra
+	return {
+		abortSignal: active.signal,
+		pauseSignal: active.pauseController?.signal,
+		...rest,
+		onSpawn: (proc, cwd) => {
+			active.ytDlpProcess = proc
+			active.ytDlpCwd = cwd
+			forgetOnExit(proc, () => {
+				if (active.ytDlpProcess === proc) active.ytDlpProcess = undefined
+			})
+			if (active.cancelRequested) stopJobProcess(proc)
+			ctx.register(() => {
+				stopJobProcess(proc)
+			})
+			extraOnSpawn?.(proc, cwd)
+		},
+		onStdout: extraOnStdout ?? (text => ctx.safeConsume(text)),
+		onStderr: extraOnStderr ?? (text => ctx.safeConsume(text))
+	}
+}
+
+// The ffmpeg counterpart of buildYtDlpSignal's onSpawn, for the phases that
+// run ffmpeg on the downloaded file: hold the process on the job so pause and
+// cancel reach it, stop its tree if cancel came first, and drain it at finalize.
+export function trackFfmpegProcess(ctx: PhaseContext, active: ActiveJob): (proc: ChildProcessWithoutNullStreams) => void {
+	return proc => {
+		active.ffmpegProcess = proc
+		forgetOnExit(proc, () => {
+			if (active.ffmpegProcess === proc) active.ffmpegProcess = undefined
+		})
+		if (active.cancelRequested) stopJobProcess(proc)
+		ctx.register(() => {
+			stopJobProcess(proc)
+		})
+	}
+}
+
+/**
+ * Compile a job's Arroxy filename template into the yt-dlp output template that
+ * reaches `-o`. Owned by main, not the renderer: `-o` accepts absolute paths and
+ * `../`, so compiling here means the only strings that can ever reach it are
+ * built from the allowlisted token grammar.
+ *
+ * Anything that fails to parse falls back to the built-in default rather than
+ * emitting a broken argument or failing the download — a persisted template can
+ * go stale through hand-edited config or a token removed in a later release.
+ */
+export function compiledOutputTemplate(filenameTemplate: string | undefined): string | undefined {
+	if (filenameTemplate === undefined) return undefined
+	const compiled = compileFilenameTemplate(filenameTemplate)
+	if (compiled.ok) return compiled.template
+	const fallback = compileFilenameTemplate(DEFAULT_FILENAME_TEMPLATE)
+	if (!fallback.ok) throw new Error('invariant: the default filename template must compile')
+	return fallback.template
+}

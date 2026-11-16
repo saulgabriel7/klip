@@ -1,0 +1,83 @@
+{
+	"name": "ytdlp-errors",
+	"version": "2.0.0",
+	"description": "Classify yt-dlp stderr into a closed taxonomy of error kinds (botBlock, ipBlock, rateLimit, ageRestricted, drmProtected, ...). Zero deps, pure regex, ESM + CJS.",
+	"keywords": [
+		"cjs",
+		"classifier",
+		"downloader",
+		"error",
+		"error-classifier",
+		"error-handling",
+		"errors",
+		"esm",
+		"media-download",
+		"nodejs",
+		"parser",
+		"regex",
+		"stderr",
+		"stderr-parser",
+		"taxonomy",
+		"typescript",
+		"video-download",
+		"youtube-dl",
+		"yt-dlp",
+		"yt-dlp-wrapper",
+		"ytdlp",
+		"zero-dependencies"
+	],
+	"homepage": "https://github.com/antonio-orionus/Arroxy/tree/main/packages/ytdlp-errors#readme",
+	"bugs": {
+		"url": "https://github.com/antonio-orionus/Arroxy/issues"
+	},
+	"license": "MIT",
+	"author": "Antonio Orionus",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/antonio-orionus/Arroxy.git",
+		"directory": "packages/ytdlp-errors"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		},
+		"./package.json": "./package.json"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"test": "vp test run",
+		"build": "vp pack",
+		"prepack": "bun run typecheck && bun run test && bun run build",
+		"pack:dry-run": "bun pm pack --dry-run"
+	},
+	"devDependencies": {
+		"@types/node": "26.6.5",
+		"typescript": "6.0.3",
+		"vite-plus": "catalog:"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"packageManager": "bun@1.4.2"
+}

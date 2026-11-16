@@ -1,0 +1,262 @@
+import {useMemo, type ReactNode} from 'react'
+import {createColumnHelper, type ColumnDef} from '@tanstack/react-table'
+import type {TFunction} from 'i18next'
+import {AlertTriangle, Ban, Captions, CheckCircle2, ChevronDown, CircleHelp, Clock, Loader2, Pause, PauseCircle, X, XCircle} from 'lucide-react'
+import {QUEUE_STATUS, STATUS_KEY, type StatusKey} from '@shared/schemas.js'
+import type {HeldProbe, QueueItem, QueueItemStatus, SiteCooldown} from '@shared/types.js'
+import {visibleQueueArtifacts} from '@shared/queueArtifacts.js'
+import {compactSize} from '@shared/format.js'
+import {i18next} from '@shared/i18n/index.js'
+import {cn} from '@renderer/lib/utils.js'
+import {formatLocalizedError, formatStatus, useAppStore} from '../../store/useAppStore.js'
+import {formatLanguageList} from '@renderer/lib/subtitleLabel.js'
+import {Badge} from '../ui/badge.js'
+import {Button} from '../ui/button.js'
+import type {QueueTableFeatures} from './queueTableFeatures.js'
+import {queueItemFilesMissing, queueItemSizeBytes} from './queueFileSize.js'
+import {Hint} from '../shared/Hint.js'
+import {QueueDateCell} from './QueueDateCell.js'
+import {QueueProgressCell} from './QueueProgressCell.js'
+import {QueueMetadataCell} from './QueueMetadataCell.js'
+import {QUEUE_STATUS_LABEL_KEYS} from './queueManagerActions.js'
+import {requestSiteFor} from '@shared/sites/index.js'
+import {cooldownEndLabel, siteLabel, useRunningCooldowns} from '../shared/useRunningCooldowns.js'
+
+// A row main holds for a rate-limit cooldown: the site it waits on and until
+// when, and which hint explains it. A probing row waits only while probe slots
+// hold its probe, on the site a redirect may have led it to. A queued row waits
+// whenever its link's site cools down (QueueSiteCooldown), unless the whole
+// queue is paused and would not start it anyway. Null for any other row.
+interface SiteWait {
+	site: string
+	time: string
+	hint: 'queue.item.waitingHint' | 'queue.item.waitingHintDownload'
+}
+
+function waitingFor(item: QueueItem, heldProbes: readonly HeldProbe[], cooldowns: readonly SiteCooldown[], schedulerPaused: boolean): SiteWait | null {
+	const waits = (site: string | undefined, hint: SiteWait['hint']): SiteWait | null => {
+		const cooldown = site === undefined ? undefined : cooldowns.find(entry => entry.site === site)
+		return cooldown ? {site: siteLabel(cooldown.site), time: cooldownEndLabel(cooldown, i18next.language), hint} : null
+	}
+	if (item.status === QUEUE_STATUS.probing) return waits(heldProbes.find(probe => probe.owner === item.id)?.site, 'queue.item.waitingHint')
+	if (item.status === QUEUE_STATUS.pending && !schedulerPaused) return waits(requestSiteFor(item.url), 'queue.item.waitingHintDownload')
+	return null
+}
+
+const STATUS_META: Record<QueueItemStatus, {variant: 'secondary' | 'info' | 'warning' | 'success' | 'destructive'; icon: ReactNode}> = {
+	probing: {variant: 'secondary', icon: <Loader2 size={12} className="animate-spin" aria-hidden />},
+	'needs-choice': {variant: 'warning', icon: <CircleHelp size={12} aria-hidden />},
+	pending: {variant: 'secondary', icon: <Clock size={12} aria-hidden />},
+	running: {variant: 'info', icon: <Loader2 size={12} className="animate-spin" aria-hidden />},
+	'paused-held': {variant: 'warning', icon: <PauseCircle size={12} aria-hidden />},
+	'paused-active': {variant: 'warning', icon: <Pause size={12} aria-hidden />},
+	done: {variant: 'success', icon: <CheckCircle2 size={12} aria-hidden />},
+	error: {variant: 'destructive', icon: <XCircle size={12} aria-hidden />},
+	cancelled: {variant: 'secondary', icon: <Ban size={12} aria-hidden />}
+}
+
+const columnHelper = createColumnHelper<QueueTableFeatures, QueueItem>()
+
+function sortableHeader(label: string, column: {getIsSorted: () => false | 'asc' | 'desc'; toggleSorting: (desc?: boolean) => void}, t: TFunction): ReactNode {
+	const sorted = column.getIsSorted()
+	return (
+		<button type="button" aria-label={t('queue.table.sortBy', {label})} className="inline-flex items-center gap-1 rounded-md text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" onClick={() => column.toggleSorting(sorted === 'asc')}>
+			{label}
+			<ChevronDown size={11} className={cn('transition-transform opacity-60', sorted === 'asc' && 'rotate-180', !sorted && 'opacity-25')} aria-hidden />
+		</button>
+	)
+}
+
+function statusText(item: QueueItem, t: TFunction): string {
+	return t(QUEUE_STATUS_LABEL_KEYS[item.status])
+}
+
+function rowStatusDetail(item: QueueItem, t: TFunction): string {
+	if (item.status === 'error') {
+		const message = formatLocalizedError(item.error) || t('queue.item.defaultError')
+		// A scheduled auto-retry otherwise reads as a dead failure. Say that
+		// Arroxy is going to act, so the user does not retry it by hand.
+		return item.retryAt ? `${message} — ${t('queue.item.retryingSoon', {attempt: item.retryCount})}` : message
+	}
+	if (item.status === 'running' || item.status === 'paused-active') return item.progressDetail ?? formatStatus(item.lastStatus)
+	const notice = doneNotice(item)
+	if (notice) return notice.label(item, t)
+	return ''
+}
+
+interface DoneNotice {
+	testId: string
+	// Rows are a fixed single line, so a long notice gets a short label and
+	// keeps its full explanation (the part the user can act on) in the tooltip.
+	label: (item: QueueItem, t: TFunction) => string
+}
+
+const heightParam = (item: QueueItem): string | number => item.lastStatus?.params?.height ?? ''
+
+function missingLanguagesLabel(item: QueueItem, t: TFunction): string {
+	const codes = item.lastStatus?.params?.languageCodes
+	return t('queue.item.subtitleLanguagesMissing', {languages: typeof codes === 'string' ? formatLanguageList(codes.split(','), i18next.language, 'disjunction') : ''})
+}
+
+// A finished row still carries a notice when something about the result needs
+// the user's attention; each kind keeps its own test id.
+const DONE_NOTICES: Partial<Record<StatusKey, DoneNotice>> = {
+	subtitlesFailed: {testId: 'queue-subs-warning', label: item => formatStatus(item.lastStatus)},
+	qualityLimited: {testId: 'queue-quality-warning', label: (item, t) => t('queue.item.qualityLimited', {height: heightParam(item)})},
+	qualityLimitedSubtitlesFailed: {testId: 'queue-quality-warning', label: (item, t) => t('queue.item.qualityLimitedSubtitlesFailed', {height: heightParam(item)})},
+	audioKept: {testId: 'queue-audio-warning', label: (_item, t) => t('queue.item.audioKept')},
+	audioKeptSubtitlesFailed: {testId: 'queue-audio-warning', label: (_item, t) => t('queue.item.audioKeptSubtitlesFailed')},
+	subtitleLanguagesMissing: {testId: 'queue-subs-warning', label: missingLanguagesLabel},
+	subtitleLanguagesMissingOthersSaved: {testId: 'queue-subs-warning', label: missingLanguagesLabel}
+}
+
+function doneNotice(item: QueueItem): DoneNotice | undefined {
+	return item.status === 'done' && item.lastStatus ? DONE_NOTICES[item.lastStatus.key] : undefined
+}
+
+// A notice about the video itself (kept sound, limited quality) carries the
+// subtitle languages the video lacks; they get the line they have on a row of
+// their own.
+function missingLanguagesBeside(item: QueueItem): string | null {
+	const status = item.lastStatus
+	const codes = status?.params?.languageCodes
+	if (!doneNotice(item) || status?.key === STATUS_KEY.subtitleLanguagesMissing || status?.key === STATUS_KEY.subtitleLanguagesMissingOthersSaved) return null
+	return typeof codes === 'string' ? codes : null
+}
+
+// `onCancelProbing`: a probing row's own Cancel, which aborts its probe and drops the row.
+export function useQueueManagerColumns({expandedIds, onToggleExpanded, onCancelProbing, t}: {expandedIds: ReadonlySet<string>; onToggleExpanded: (itemId: string) => void; onCancelProbing: (itemId: string) => void; t: TFunction}): ColumnDef<QueueTableFeatures, QueueItem>[] {
+	const siteCooldowns = useRunningCooldowns()
+	const heldProbes = useAppStore(state => state.heldProbes)
+	const schedulerPaused = useAppStore(state => state.schedulerPaused)
+	return useMemo(
+		() =>
+			columnHelper.columns([
+				columnHelper.accessor('title', {
+					header: ({column}) => sortableHeader(t('queue.table.title'), column, t),
+					enableHiding: false,
+					cell: info => {
+						const item = info.row.original
+						return (
+							<div className="flex min-w-0 items-center gap-2">
+								<div className="size-11 shrink-0 overflow-hidden rounded-md border border-border/60 bg-secondary">{item.thumbnail ? <img src={item.thumbnail} alt="" aria-hidden referrerPolicy="no-referrer" className="size-full object-cover" /> : <div className="thumb-shimmer size-full" aria-hidden />}</div>
+								<div className="min-w-0">
+									<p className="truncate text-sm font-medium tracking-tight text-foreground" data-testid="queue-title">
+										{item.title}
+									</p>
+									<p className="truncate text-caption text-subtle-foreground">{item.url}</p>
+								</div>
+							</div>
+						)
+					}
+				}),
+				columnHelper.accessor('status', {
+					header: ({column}) => sortableHeader(t('queue.table.status'), column, t),
+					enableHiding: false,
+					cell: info => {
+						const item = info.row.original
+						const meta = STATUS_META[item.status]
+						const waiting = waitingFor(item, heldProbes, siteCooldowns, schedulerPaused)
+						const detail = waiting ? t('queue.item.waitingForSite', {site: waiting.site, time: waiting.time}) : rowStatusDetail(item, t)
+						const missingCodes = missingLanguagesBeside(item)
+						return (
+							<div className="flex min-w-0 flex-col gap-1">
+								<div className="flex min-w-0 flex-nowrap items-center gap-1">
+									{/* A status wider than its column wraps at a word boundary: shown whole, never cut. */}
+									<Badge variant={meta.variant} size="sm" className="h-auto min-h-4.5 max-w-full min-w-0 shrink justify-start whitespace-normal py-0.5 text-start leading-tight uppercase tracking-wide">
+										{meta.icon}
+										<span data-slot="badge-label" className="min-w-0">
+											{statusText(item, t)}
+										</span>
+									</Badge>
+									{item.status === 'probing' ? (
+										<Hint label={t('queue.item.cancel')}>
+											<Button
+												type="button"
+												variant="ghost"
+												size="icon-xs"
+												aria-label={t('queue.item.cancel')}
+												onClick={event => {
+													event.stopPropagation()
+													onCancelProbing(item.id)
+												}}
+												data-testid={`queue-cancel-probing-${item.id}`}
+											>
+												<X aria-hidden />
+											</Button>
+										</Hint>
+									) : null}
+								</div>
+								{detail ? (
+									<Hint label={waiting ? t(waiting.hint, {site: waiting.site, time: waiting.time}) : doneNotice(item) ? formatStatus(item.lastStatus) : detail} reveal={!doneNotice(item)}>
+										<span data-testid={waiting ? 'queue-site-waiting' : item.status === 'error' ? 'queue-error-msg' : doneNotice(item)?.testId} className={cn('max-w-48 truncate text-caption', item.status === 'error' ? 'text-destructive' : doneNotice(item) ? 'text-warning' : 'text-subtle-foreground')}>
+											{detail}
+										</span>
+									</Hint>
+								) : null}
+								{missingCodes ? (
+									<Hint label={formatStatus({key: STATUS_KEY.subtitleLanguagesMissing, params: {languageCodes: missingCodes}})}>
+										<span data-testid="queue-subs-warning" className="max-w-48 truncate text-caption text-warning">
+											{missingLanguagesLabel(item, t)}
+										</span>
+									</Hint>
+								) : null}
+							</div>
+						)
+					}
+				}),
+				columnHelper.accessor('progressPercent', {header: ({column}) => sortableHeader(t('queue.table.progress'), column, t), cell: info => <QueueProgressCell value={info.getValue()} />}),
+				columnHelper.accessor('formatLabel', {header: ({column}) => sortableHeader(t('queue.table.format'), column, t), cell: info => <QueueMetadataCell value={info.getValue()} className="block truncate text-xs text-muted-foreground" />}),
+				columnHelper.accessor('outputDir', {header: ({column}) => sortableHeader(t('queue.table.outputTarget'), column, t), cell: info => <QueueMetadataCell value={info.getValue()} className="block max-w-56 truncate font-mono text-caption text-muted-foreground" />}),
+				columnHelper.accessor('artifacts', {
+					header: ({column}) => sortableHeader(t('queue.table.artifacts'), column, t),
+					sortFn: (rowA, rowB) => visibleQueueArtifacts(rowA.original.artifacts).length - visibleQueueArtifacts(rowB.original.artifacts).length,
+					cell: info => {
+						const item = info.row.original
+						const count = visibleQueueArtifacts(item.artifacts).length
+						const expanded = expandedIds.has(item.id)
+						return (
+							<Button
+								type="button"
+								variant="ghost"
+								size="xs"
+								disabled={count === 0}
+								aria-expanded={expanded}
+								aria-label={t(expanded ? 'queue.table.hideArtifactsFor' : 'queue.table.showArtifactsFor', {title: item.title})}
+								onClick={event => {
+									event.stopPropagation()
+									onToggleExpanded(item.id)
+								}}
+								className="h-7 gap-1 px-2 text-caption"
+							>
+								<Captions size={12} aria-hidden />
+								{count}
+								<ChevronDown size={12} className={cn('transition-transform', expanded && 'rotate-180')} aria-hidden />
+							</Button>
+						)
+					}
+				}),
+				columnHelper.accessor(row => queueItemSizeBytes(row.artifacts), {
+					id: 'fileSize',
+					header: ({column}) => sortableHeader(t('queue.table.size'), column, t),
+					// Rows without a known size sort below the smallest file.
+					sortFn: (rowA, rowB) => (rowA.getValue<number | null>('fileSize') ?? -1) - (rowB.getValue<number | null>('fileSize') ?? -1),
+					cell: info => {
+						const sizeBytes = info.getValue()
+						if (sizeBytes === null && queueItemFilesMissing(info.row.original.artifacts)) {
+							return (
+								<span className="flex min-w-0 items-center gap-1 text-caption text-destructive">
+									<AlertTriangle size={11} className="shrink-0" aria-hidden />
+									<span className="truncate">{t('queue.artifact.missing')}</span>
+								</span>
+							)
+						}
+						return <span className="block truncate whitespace-nowrap font-mono text-caption text-muted-foreground">{sizeBytes === null ? t('queue.table.notAvailable') : compactSize(sizeBytes, i18next.language)}</span>
+					}
+				}),
+				columnHelper.accessor('addedAt', {header: ({column}) => sortableHeader(t('queue.table.added'), column, t), cell: info => <QueueDateCell value={info.getValue()} t={t} />}),
+				columnHelper.accessor('finishedAt', {header: ({column}) => sortableHeader(t('queue.table.finished'), column, t), cell: info => <QueueDateCell value={info.getValue()} t={t} />})
+			]),
+		[expandedIds, heldProbes, onCancelProbing, onToggleExpanded, schedulerPaused, siteCooldowns, t]
+	)
+}

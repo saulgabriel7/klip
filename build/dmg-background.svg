@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-label="Drag Klip to Applications">
+  <rect width="600" height="360" fill="#09090b"/>
+  <rect x="24" y="24" width="552" height="312" rx="14" fill="#111113" stroke="#27272a" stroke-width="1"/>
+  <g transform="translate(284 44) scale(0.125)">
+    <path fill="#fafafa" fill-rule="evenodd" d="M 36 36 H 92 V 220 H 36 Z M 152 36 H 220 L 138 118 H 116 V 72 Z M 116 138 H 138 L 220 220 H 152 L 116 184 Z"/>
+  </g>
+  <text x="300" y="96" text-anchor="middle" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="-0.02em">Drag Klip to Applications</text>
+  <text x="300" y="116" text-anchor="middle" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="12" font-weight="400">then launch it from your Applications folder</text>
+
+  <g opacity="0.85">
+    <path d="M266 222H332" fill="none" stroke="#a1a1aa" stroke-width="2" stroke-linecap="round"/>
+    <path d="M322 212L334 222L322 232" fill="none" stroke="#a1a1aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="83" y="136" width="174" height="174" rx="28" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+  <rect x="343" y="136" width="174" height="174" rx="28" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+</svg>

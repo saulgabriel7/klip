@@ -1,0 +1,29 @@
+tiktok: TikTok: bytevc1 and H.264 at the same heights, several bitrates each
+#foryou #fyp #foru #foryoupage #foryoupageofficiall #memes #meme #viral · 12 s · card says "720x1280" · 12 formats
+
+Video (picked for Balanced 720p •):
+                    SDR HEVC                 SDR H.264
+720p                HEVC 520.1 KiB • +audio  ·
+480p                HEVC 477.7 KiB +audio    H.264 532.0 KiB +audio
+Unknown resolution  ·                        H.264 [Watermarked] no size +audio
+
+Audio:
+AAC: m4a 949.5 KiB
+convert from: mp3 ← audio re-encode · m4a ← audio copy · opus ← audio re-encode · wav ← audio re-encode
+
+Profile picks:
+best-quality: bytevc1_720p_336791-1 (720x1280, mp4) + audio none
+best-2160: bytevc1_720p_336791-1 (720x1280, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"2160","picked":720})
+best-1440: bytevc1_720p_336791-1 (720x1280, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"1440","picked":720})
+hd-1080: bytevc1_720p_336791-1 (720x1280, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"1080","picked":720})
+balanced: bytevc1_720p_336791-1 (720x1280, mp4) + audio none
+small-file: bytevc1_540p_309336-1 (576x1024, mp4) + audio none
+mp4-1080: h264_540p_344464-1 (576x1024, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"1080","picked":480})
+mp4-720: h264_540p_344464-1 (576x1024, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"720","picked":480,"passedOver":"h264"})
+mp4-480: h264_540p_344464-1 (576x1024, mp4) + audio none
+audio-only: audio audio (audio only, m4a)
+low-240: bytevc1_540p_309336-1 (576x1024, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"240","picked":480})
+low-144: bytevc1_540p_309336-1 (576x1024, mp4) + audio none (notices: {"kind":"video-tier-fallback","wanted":"144","picked":480})
+
+Subtitles: none
+Auto captions: none

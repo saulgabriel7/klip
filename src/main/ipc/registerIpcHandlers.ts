@@ -1,0 +1,105 @@
+import {app, nativeTheme, type BrowserWindow} from 'electron'
+import type {SupportedLang} from '@shared/i18n/types.js'
+import {currentRuntimeFacts, describeSessionContext} from '@main/utils/sessionContext.js'
+import type {GraphicsPolicy} from '@shared/types.js'
+import type {DownloadService} from '@main/services/DownloadService.js'
+import type {ProbeService} from '@main/services/ProbeService.js'
+import type {BinaryManager} from '@main/services/BinaryManager.js'
+import type {TokenService} from '@main/services/TokenService.js'
+import type {SettingsStore} from '@main/stores/SettingsStore.js'
+import type {QueueService} from '@main/services/QueueService.js'
+import type {ClipboardWatcher} from '@main/services/ClipboardWatcher.js'
+import type {HotkeyService} from '@main/services/HotkeyService.js'
+import type {ExploreViewHost} from '@main/services/explore/ExploreViewHost.js'
+import type {PlaylistManifestStore} from '@main/stores/PlaylistManifestStore.js'
+import type {LaunchGate} from '@main/services/LaunchGate.js'
+import type {ProbeSlots} from '@main/services/ProbeSlots.js'
+import type {IntakeService} from '@main/intake/IntakeService.js'
+import {DownloadEventBridge} from '@main/services/DownloadEventBridge.js'
+import {QueueEventBridge} from '@main/services/QueueEventBridge.js'
+import {ProbeEventBridge} from '@main/services/ProbeEventBridge.js'
+import {WarmupService, type WarmupRunObserver} from '@main/services/WarmupService.js'
+import {applyNativeThemeSource} from '@main/windowPresentation.js'
+import {registerAppHandlers} from './appHandlers.js'
+import {registerWindowHandlers} from './windowHandlers.js'
+import {registerDownloadHandlers} from './downloadHandlers.js'
+import {registerSettingsHandlers} from './settingsHandlers.js'
+import {registerFileHandlers} from './fileHandlers.js'
+import {registerHotkeyHandlers} from './hotkeyHandlers.js'
+import {registerQueueHandlers} from './queueHandlers.js'
+import {registerDiagnosticsHandlers} from './diagnosticsHandlers.js'
+import {registerPlaylistHandlers} from './playlistHandlers.js'
+import {registerExploreHandlers} from './exploreHandlers.js'
+import {registerSiteRequestHandlers} from './siteRequestHandlers.js'
+import {registerSignInHandlers} from './signInHandlers.js'
+import type {SuspectSignIns} from '@main/services/SuspectSignIns.js'
+import {registerIntakeHandlers} from './intakeHandlers.js'
+
+export interface IpcDependencies {
+	mainWindow: BrowserWindow
+	downloadService: DownloadService
+	probeService: ProbeService
+	settingsStore: SettingsStore
+	queueService: QueueService
+	binaryManager: BinaryManager
+	tokenService: TokenService
+	languageRef: {current: SupportedLang}
+	clipboardWatcher: ClipboardWatcher
+	hotkeyService: HotkeyService
+	playlistManifestStore: PlaylistManifestStore
+	exploreView: ExploreViewHost
+	launchGate: Pick<LaunchGate, 'snapshot' | 'onChange' | 'allowOnce' | 'routeChanged'>
+	probeSlots: ProbeSlots
+	suspectSignIns: Pick<SuspectSignIns, 'list' | 'useAgain' | 'onChange'>
+	graphicsPolicyProvider: () => Promise<GraphicsPolicy>
+	intakeService: IntakeService
+	// Rebuilds the native application menu (macOS) after a language, style, theme, or speed-limit change.
+	refreshAppMenu?: () => void
+	// Watches each warmup run; the warmup report is one.
+	warmupObserver?: WarmupRunObserver
+}
+
+let activeDownloadBridge: DownloadEventBridge | null = null
+let activeQueueBridge: QueueEventBridge | null = null
+let activeProbeBridge: ProbeEventBridge | null = null
+
+export function registerIpcHandlers(deps: IpcDependencies): void {
+	const {mainWindow, downloadService, probeService, settingsStore, queueService, binaryManager, tokenService, languageRef, clipboardWatcher, hotkeyService, playlistManifestStore, exploreView, launchGate, probeSlots, suspectSignIns, graphicsPolicyProvider, intakeService, refreshAppMenu, warmupObserver} = deps
+
+	const warmupService = new WarmupService({binaryManager, tokenService, window: mainWindow, observer: warmupObserver})
+	registerAppHandlers({warmupService, binaryManager, languageRef, graphicsPolicyProvider, onLanguageChanged: refreshAppMenu})
+	registerWindowHandlers(mainWindow)
+	registerDownloadHandlers({downloadService, probeService, settingsStore})
+	registerSettingsHandlers({
+		settingsStore,
+		clipboardWatcher,
+		queueService,
+		hotkeyService,
+		exploreView,
+		onProxyChanged: () => launchGate.routeChanged(),
+		onMenuStateChanged: refreshAppMenu,
+		onThemeChanged: theme => applyNativeThemeSource(nativeTheme, theme),
+		onConcurrentProbesChanged: limit => probeSlots.setBackgroundLimit(limit)
+	})
+	registerFileHandlers(mainWindow, binaryManager, () => describeSessionContext(currentRuntimeFacts(app.getVersion()), settingsStore.getSync(), tokenService.lastWarmUp()))
+	registerHotkeyHandlers({hotkeyService})
+	registerQueueHandlers(queueService, probeService)
+	registerDiagnosticsHandlers()
+	registerPlaylistHandlers(playlistManifestStore, settingsStore)
+	registerExploreHandlers({exploreView})
+	registerSiteRequestHandlers(launchGate, probeSlots, mainWindow)
+	registerSignInHandlers(suspectSignIns, mainWindow)
+	registerIntakeHandlers(intakeService)
+
+	activeDownloadBridge?.detach()
+	activeDownloadBridge = new DownloadEventBridge(downloadService, mainWindow)
+	activeDownloadBridge.attach()
+
+	activeProbeBridge?.detach()
+	activeProbeBridge = new ProbeEventBridge(probeService, mainWindow)
+	activeProbeBridge.attach()
+
+	activeQueueBridge?.detach()
+	activeQueueBridge = new QueueEventBridge(queueService, mainWindow)
+	activeQueueBridge.attach()
+}

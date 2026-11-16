@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "ስለ",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "የሦስተኛ ወገን ማስታወቂያዎችን ይመልከቱ",
+		"websiteLink": "ድረ-ገጽ"
+	},
+	"aiUpscaled": {
+		"allow": "ፍቀድ",
+		"allowedSummary": "በAI የተሰፉ ዥረቶች ተፈቅደዋል",
+		"description": "YouTube አንዳንድ የቆዩ ቪዲዮዎችን በAI በተሠሩ መጠኖች ያቀርባል። ዝለል የመጀመሪያዎቹን ዥረቶች ይይዛል፤ በAI የተሰፋውን ዥረት ግን አሁንም በእጅ መምረጥ ይችላሉ።",
+		"label": "በAI የተሰፉ ዥረቶች",
+		"skip": "ዝለል"
+	},
+	"app": {
+		"feedback": "አስተያየት",
+		"feedbackNudge": "Klip ደስ ይለዎታል? አስተያየትዎን ማካፈል ይፈልጋሉ! 💬",
+		"logs": "ምዝግቦች",
+		"saveDiagnostics": "የምርመራ ፋይል አስቀምጥ",
+		"saveDiagnosticsDescription": "ምዝግቦችዎን እና የመተግበሪያ ዝርዝሮችን በDownloads አቃፊ ውስጥ ወዳለ አንድ ፋይል ያስቀምጣል፤ ከGitHub issue ጋር ለማያያዝ ዝግጁ ነው። የተጠቃሚ አቃፊዎ ስም ይወገዳል፤ የቪዲዮ አገናኞች እና ርዕሶች ይቀራሉ።",
+		"styleHint": "አዲስ፦ Aurora ወይም ቀላል እዚህ ይምረጡ",
+		"theme": "ገጽታ",
+		"zoomIn": "አቅርብ",
+		"zoomOut": "አርቅ"
+	},
+	"common": {
+		"back": "ተመለስ",
+		"cancel": "ሰርዝ",
+		"close": "ዝጋ",
+		"continue": "ቀጥል",
+		"loading": "በመጫን ላይ…",
+		"retry": "እንደገና ሞክር",
+		"startOver": "ከመጀመሪያ ጀምር"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip ይሰራ ይቆያል ዳውንሎዶቹንም ያጠናቅቃል። ይህን ወደ ኋላ በከፍተኛ ቅንብሮች ይቀይሩ።",
+			"hide": "ወደ ትሬ ደብቅ",
+			"message": "Klip ሲዘጋ ወደ ትሬ ደብቅ?",
+			"quit": "ዝጋ",
+			"remember": "እንደገና አትጠይቅ"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "ወረፋዎ ተጠብቆ ይቆያል፤ Klipን በሚቀጥለው ጊዜ ሲከፍቱ ውርዶች ካቆሙበት ይቀጥላሉ።",
+			"keep": "ዳውንሎዱን ቀጥል",
+			"message_one": "{{count}} ዳውንሎድ እየሄደ ነው",
+			"message_other": "{{count}} ዳውንሎዶች እየሄዱ ናቸው",
+			"quit": "ዝጋ"
+		},
+		"rendererCrashed": {
+			"detail": "የተቀጣጣሪ ሂደት ተቋርጧል ({{reason}})። ለማደስ ዳግም ጫን።",
+			"message": "Klip ችግር አጋጥሟል",
+			"quit": "ዝጋ",
+			"reload": "ዳግም ጫን"
+		}
+	},
+	"donate": {
+		"copied": "ተቀድቷል!",
+		"copyAddress": "አድራሻውን ቅዳ",
+		"description": "Klip ነፃ እና ክፍት ምንጭ ነው፤ ምንም ማስታወቂያ ወይም የክፍያ ዕቅድ የለውም። ልገሳ በፈቃድ ነው፤ በፍኖተ ካርታው ላይ ምንም ተጽዕኖ አይሰጥም።",
+		"footerLabel": "ይለግሱ",
+		"footerTooltip": "Klipን ይደግፉ",
+		"qrAlt": "የ{{coin}} መለገሻ አድራሻ QR ኮድ",
+		"title": "Klipን ይደግፉ",
+		"warning": "የክሪፕቶ ክፍያዎች ሊመለሱ አይችሉም። በታየው አውታረ መረብ ብቻ ይላኩ እና አድራሻውን ሙሉ በሙሉ ያመሳስሉ።"
+	},
+	"errors": {
+		"noSubtitlesIn": "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}።",
+		"ytdlp": {
+			"ageRestricted": "ይህ ቪዲዮ ዕድሜ-ተገደቧል ያለ የገቡ መለያ ሊዳውንሎድ አይችልም።",
+			"botBlock": "የጣቢያው የቦት መከላከያ ይህን ውርድ አቆመው። ትንሽ ቆይተው እንደገና ይሞክሩ፣ ወይም በአንድ ጊዜ ጥቂት ቪዲዮዎችን ያውርዱ። አሁንም ካልሰራ፣ ይህ ጊዜያዊ የጣቢያ ወገን ለውጥ ሊሆን ይችላል — Klip በጅምር የማውረጃ ሞተሩን ያዘምናል፣ ስለዚህ ማስተካከያው ሲወጣ ራሱ ይደርሳል።",
+			"chunkTransferFailure": "አገልጋዩ ውርዱን በመካከል ደጋግሞ አቋረጠ፣ Klip ደግሞ እንደገና ከሞከረ በኋላ ተወው። ይህ ብዙ ጊዜ ትልቁን የቪዲዮ ቅርጸቶች (4K HDR / ከፍተኛ bitrate VP9) ይነካል። እንደገና ሞክሩ፣ አውታረ መረብ/VPN ይቀይሩ፣ ወይም ዝቅተኛ ጥራት ቅርጸት ይምረጡ።",
+			"drmProtected": "ይህ ቪዲዮ DRM የተጠበቀ ነው። Klip DRM ን ማስወገድ አይችልም፣ ስለዚህ ፋይሉ ሊወርድ አይችልም።",
+			"formatUnavailable": "ይህ ቪዲዮ የመረጡትን ቅርጸት ከእንግዲህ አያቀርብም። አገናኙን እንደገና ይለጥፉ እና አሁን ከሚቀርቡት ቅርጸቶች ይምረጡ።",
+			"geoBlocked": "ይህ ቪዲዮ በክልልዎ አይገኝም።",
+			"ipBlock": "ጣቢያው ከዚህ ግንኙነት የሚመጡ ጥያቄዎችን እየከለከለ ነው። ቆይተው እንደገና ይሞክሩ።",
+			"loginRequired": "ይህ ቪዲዮ የገባ መለያ ያስፈልገዋል።",
+			"missingDependency": "Klip FFmpeg ወይም FFprobe ማግኘት አልቻለም። ማዋቀሩን እንደገና ያሂዱ ወይም የFFmpeg ቦታ ያዘጋጁ፣ ከዚያ ማውረዱን እንደገና ይሞክሩ።",
+			"network": "የአውታረ መረብ ስህተት። ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።",
+			"noSubtitles": "ይህ ቪዲዮ በተጠየቁት ቋንቋዎች ንዑስ ርዕሶች የሉትም።",
+			"outOfDiskSpace": "በቂ ዲስክ ቦታ የለም። ቦታ ፍቱ እና እንደገና ሞክሩ።",
+			"outputNotWritable": "Klip ወደ ማውረጃ አቃፊው መጻፍ አልቻለም። አቃፊው ለንባብ ብቻ የሆነ፣ በተቆለፈ ድራይቭ ላይ ያለ ወይም በሲስተምዎ የግላዊነት ቅንብሮች የታገደ ሊሆን ይችላል። ሌላ አቃፊ ይምረጡ ወይም መዳረሻ ይፍቀዱ፣ ከዚያ እንደገና ይሞክሩ።",
+			"parse": "ከጣቢያው የተመለሰውን ምላሽ መተንተን አልተቻለም። ጣቢያው ቪዲዮዎችን የሚያቀርብበትን መንገድ ቀይሮ ሊሆን ይችላል። Klip በሚነሳበት ጊዜ የማውረጃ ሞተሩን ያዘምናል — ማስተካከያው ሲወጣ በጥቂት ደቂቃዎች ውስጥ እንደገና ሞክሩ።",
+			"postprocessFailure": "ማውረዱ ተጠናቅቋል ነገር ግን ድህረ-ሂደት (merge / mux / convert) አልተሳካም። ብዙውን ጊዜ ይህ ጊዜያዊ የffmpeg ችግር ነው — እንደገና ሞክሩ፣ ችግሩ ከቀጠለ ሌላ የቅርጸት ጥምረት ሞክሩ።",
+			"rateLimit": "ጣቢያው ከዚህ ግንኙነት የሚመጡ ጥያቄዎችን እየገደበ ነው።",
+			"unavailable": "ይህ ቪዲዮ አይገኝም — ምናልባት የግል፣ ተሰርዟል ወይም ክልል-ተዘግቷል።",
+			"unknown": "ማውረድ አልተሳካም። ከታች ያለውን raw output ይመልከቱ።",
+			"unsupportedUrl": "Klip ይህን URL አይደግፍም። ከሌላ ጣቢያ አገናኝ ይሞክሩ።"
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "ግንኙነትዎን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።",
+			"loadTitle": "ይህ ገጽ አልተጫነም",
+			"openSettings": "ቅንብሮችን ክፈት",
+			"proxyBody": "በቅንብሮች ውስጥ ፕሮክሲውን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።",
+			"proxyTitle": "ዳሰሳ በፕሮክሲዎ በኩል መገናኘት አልቻለም",
+			"retry": "እንደገና ሞክር"
+		},
+		"linkCallout": {
+			"body": "በገጹ ላይ ማንኛውንም የቪዲዮ፣ የቪዲዮ ዝርዝር ወይም የቻናል አገናኝ በቀኝ ጠቅ በማድረግ በንቁ መገለጫዎ ያውርዱት፣ ሌላ መገለጫ ይምረጡ ወይም በይነተገናኝ ማውረድን ይክፈቱ።",
+			"title": "ለማውረድ አገናኝ ላይ በቀኝ ጠቅ ያድርጉ"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "አልበሙን በዳራ ያውርዱ",
+				"liked": "የወደዷቸውን ቪዲዮዎች በዳራ ያውርዱ",
+				"mix": "Mixን በዳራ ያውርዱ",
+				"playlist": "የቪዲዮ ዝርዝሩን በዳራ ያውርዱ",
+				"uploads": "ሰቀላዎቹን በዳራ ያውርዱ",
+				"watchLater": "“በኋላ ይመልከቱ”ን በዳራ ያውርዱ"
+			},
+			"copyLink": "ሊንክ ቅዳ",
+			"downloadFirst": "የመጀመሪያዎቹን {{count}} ያውርዱ",
+			"downloadThisVideo": "ይህን ቪዲዮ ያውርዱ · {{profileName}}",
+			"downloadWith": "በመገለጫ አውርድ",
+			"fromList": {
+				"album": "ከዚህ አልበም",
+				"liked": "ከወደዷቸው ቪዲዮዎች",
+				"mix": "ከዚህ Mix",
+				"playlist": "ከዚህ የቪዲዮ ዝርዝር",
+				"uploads": "ከዚህ ቻናል ሰቀላዎች",
+				"watchLater": "ከ“በኋላ ይመልከቱ”"
+			},
+			"interactive": "በይነተገናኝ ማውረድ…",
+			"thisVideoWith": "ይህ ቪዲዮ በ"
+		},
+		"newBadge": "አዲስ",
+		"notice": {
+			"body": "በYouTube ወይም በማንኛውም ሌላ ጣቢያ ላይ ቪዲዮ ያግኙና ከዚህ ያውርዱ — አገናኞችን መቅዳት አያስፈልግም። መለያ የሚያስፈልጋቸውን ቪዲዮዎች ለማውረድ እዚህ ወደ ጣቢያ ይግቡ።",
+			"continue": "ቀጥል",
+			"riskBody": "እንደ YouTube ያሉ ጣቢያዎች እንደ Klip ካሉ የማውረጃ መሣሪያዎች ጋር የሚጠቀሙ መለያዎችን ሊጠቁሙ — እና አንዳንድ ጊዜ ሊያግዱ — ይችላሉ። ማጣት የማይከብድዎትን መለያ ይጠቀሙ፣ ዋና መለያዎን አይደለም።",
+			"riskTitle": "በሁለተኛ መለያ ይግቡ",
+			"title": "ድሩን በKlip ውስጥ ያስሱ"
+		},
+		"nudge": {
+			"browser": "ውርዶች የአሳሽዎን cookies ይጠቀማሉ፣ የዳሰሳ መግቢያዎን አይደለም።",
+			"file": "ውርዶች የcookies ፋይልዎን ይጠቀማሉ፣ የዳሰሳ መግቢያዎን አይደለም።",
+			"notNow": "አሁን አይደለም",
+			"off": "Cookies ጠፍተዋል፣ ስለዚህ ውርዶች የዳሰሳ መግቢያዎን አይጠቀሙም።",
+			"useExplore": "የዳሰሳ መግቢያ ተጠቀም"
+		},
+		"settings": {
+			"description": "YouTubeን ወይም ማንኛውንም ሌላ ጣቢያ በKlip ውስጥ ያስሱ፣ መለያ ለሚያስፈልጋቸው ቪዲዮዎችም ይግቡ።",
+			"idleUnload": "በሌሉበት ጊዜ ማህደረ ትውስታን ነጻ አድርግ",
+			"idleUnloadDescription": "በሌላ ትር ላይ ከ5 ደቂቃ በኋላ የYouTube መነሻ ወይም የፍለጋ ገጽን ይዘጋል። ሲመለሱ እንደገና ይጫናል፣ ይህም ጥቂት ሰከንዶች ይወስዳል።",
+			"searchEngine": "የፍለጋ ሞተር",
+			"searchEngineDescription": "በአድራሻ አሞሌ የተጻፈ ጽሑፍ የሚፈለገው የት እንደሆነ። አገናኞች እንደተጻፉ ይከፈታሉ።",
+			"showTab": "የዳሰሳ ትርን አሳይ",
+			"showTabDescription": "ማጥፋት ውርዶችም የዳሰሳ መግቢያዎን እንዳይጠቀሙ ያደርጋል።",
+			"signOut": "ከዳሰሳ ውጣ",
+			"signOutConfirm": "ውጣ",
+			"signOutConfirmBody": "ይህ በዳሰሳ ውስጥ በሁሉም ጣቢያዎች ላይ ያሉ መግቢያዎችዎን እና የማሰስ ውሂብዎን ያጸዳል። መለያ የሚያስፈልጋቸው ውርዶች እንደገና እስኪገቡ ድረስ አይሳኩም።",
+			"signOutConfirmTitle": "ከዳሰሳ ይውጡ?",
+			"signOutDescription": "በዳሰሳ ውስጥ በሁሉም ጣቢያዎች ላይ ያሉ መግቢያዎችዎን እና የማሰስ ውሂብዎን ያጸዳል።",
+			"title": "ዳሰሳ"
+		},
+		"tabLabel": "ዳሰሳ",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube ለገቡ መለያዎች የማስታወቂያ ማገጃዎችን ሊቋቋም ይችላል።",
+				"aria": "የማስታወቂያ ማገጃ",
+				"off": "የማስታወቂያ ማገጃ፦ ጠፍቷል — ለማብራት ጠቅ ያድርጉ",
+				"on": "የማስታወቂያ ማገጃ፦ በርቷል — ለማጥፋት ጠቅ ያድርጉ",
+				"starting": "የማስታወቂያ ማገጃ፦ በመጀመር ላይ — ለማጥፋት ጠቅ ያድርጉ",
+				"unavailable": "የማስታወቂያ ማገጃ፦ አይገኝም፣ የማጣሪያ ዝርዝሮቹ ሊወርዱ አልቻሉም — ለማጥፋት ጠቅ ያድርጉ"
+			},
+			"addressAria": "አድራሻ",
+			"addressPlaceholder": "{{engine}} ላይ ፈልግ ወይም ማንኛውንም ጣቢያ ክፈት (Vimeo፣ Instagram…)",
+			"aria": "የዳሰሳ አሳሽ መቆጣጠሪያዎች",
+			"back": "ተመለስ",
+			"compactLayout": "የታመቀ አቀማመጥ",
+			"download": "ማውረድ",
+			"downloadWithProfile": "አውርድ · {{profileName}}",
+			"forward": "ወደፊት",
+			"fullLayout": "ሙሉ አቀማመጥ አሳይ",
+			"grabUnavailable": "ለማውረድ ቪዲዮ፣ የቪዲዮ ዝርዝር ወይም ቻናል ይክፈቱ",
+			"home": "የYouTube መነሻ",
+			"interactiveHint": "በይነተገናኝ ማውረድ፦ ቅርጸት፣ ንዑስ ርዕሶች እና ሌሎችን ምረጥ…",
+			"refusedHint": "ዳሰሳ ያንን አድራሻ መክፈት አይችልም።",
+			"reload": "ዳግም ጫን",
+			"searchTooLong": "ያ ፍለጋ በጣም ረጅም ነው።",
+			"thisVideo": "ይህ ቪዲዮ",
+			"thisVideoHint": "ይህን ቪዲዮ ብቻ በ{{profileName}} ያውርዱ",
+			"zoom": {
+				"hint": "የገጽ ማጉላት፦ {{percent}}%",
+				"in": "አቅርብ",
+				"label": "የገጽ ማጉላት",
+				"out": "አርቅ",
+				"percent": "የማጉላት መቶኛ",
+				"reset": "ማጉላትን ወደ 100% መልስ"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "ራስ-ሰር",
+		"autoValue": "ራስ-ሰር (.{{ext}})",
+		"description": {
+			"auto": "የተመረጡት ዥረቶች የፋይሉን አይነት ይወስናሉ።",
+			"mkv": "ማንኛውንም codec ይይዛል። አንዳንድ ቲቪዎችና ስልኮች ሊከፍቱት አይችሉም።",
+			"mp4": "በሁሉም ቦታ ማለት ይቻላል ይጫወታል። በMP4 ውስጥ ያለ VP9 በQuickTime ውስጥ ቪዲዮ አያሳይም።",
+			"webm": "ለአሳሾች የተዘጋጀ ክፍት ቅርጸት። VP9 ወይም AV1 ከOpus ጋር ብቻ ይይዛል።"
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "በMP4 ውስጥ ያለ AV1 በQuickTime ለመጫወት አዲስ Mac ያስፈልገዋል። H.264 በሁሉም ቦታ ይጫወታል።",
+		"mp4CaveatVp9": "በMP4 ውስጥ ያለ VP9 በQuickTime ውስጥ ቪዲዮ አያሳይም። H.264 በሁሉም ቦታ ይጫወታል።",
+		"profileMark": "መገለጫ",
+		"smartTvNoWebm": "WebM ከስማርት TV ጋር አይቀርብም፦ H.264 መያዝ አይችልም።",
+		"webm": "WebM",
+		"webmBlocked": "WebM {{codec}} መያዝ አይችልም። MKV ወይም MP4 ይምረጡ።"
+	},
+	"filenameTemplate": {
+		"description": "የወረዱ ፋይሎች እንዴት እንደሚሰየሙ ይምረጡ። ለማስገባት ቶክን ይጫኑ። ውርዶችን በአቃፊዎች ለመደርደር / ይጠቀሙ።",
+		"error": {
+			"empty": "የፋይል ስም አብነት ያስገቡ።",
+			"empty-segment": "ተጨማሪውን / ያስወግዱ — እያንዳንዱ አቃፊ ስም ያስፈልገዋል።",
+			"forbidden-char": "በፋይል ስሞች ውስጥ የማይፈቀዱ ቁምፊዎችን ያስወግዱ: \\ : * ? \" < > |",
+			"invalid-segment": "ይህ የአቃፊ ስም አይፈቀድም። . እና .. እንዲሁም እንደ CON ያሉ የተያዙ ስሞችን ያስወግዱ።",
+			"no-unique-token": "እያንዳንዱ ውርድ የራሱ ስም እንዲኖረው በፋይል ስሙ ላይ {title} ወይም {id} ያክሉ።",
+			"resolution-in-dir": "{resolution} አቃፊ መሰየም አይችልም — ጥራቱ ውርዱ እስኪጀምር ድረስ አይታወቅም።",
+			"stray-brace": "ያልተዘጋ { ወይም } — ምልክቶችን እንደ {title} ይጻፉ።",
+			"too-long": "አብነቱ በጣም ረጅም ነው።",
+			"unknown-token": "ያልታወቀ ምልክት {{token}}።"
+		},
+		"idEndingWarning": "Klip አስቀድመው የወረዱ የዝርዝር ንጥሎችን እንዲለይና .m3u ዝርዝሮችን እንዲፈጥር ስሙን በ[{id}] ያጠናቅቁ።",
+		"label": "የፋይል ስም አብነት",
+		"m3uDisabledIdEnding": "አይገኝም ምክንያቱም የፋይል ስም አብነትዎ በ[{id}] አያልቅም ወይም ውርዶችን በአቃፊዎች ይደረድራል።",
+		"previewPlaylist": "በአጫዋች ዝርዝር ውስጥ",
+		"previewSingle": "ነጠላ ቪዲዮ",
+		"profileOverrideDescription": "አጠቃላይ አብነቱን ለመጠቀም ባዶ ይተውት።",
+		"profileOverrideLabel": "የፋይል ስም አብነት"
+	},
+	"formatLabel": {
+		"audioFallback": "ድምጽ",
+		"audioOnlyDot": "ድምጽ ብቻ · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "ራስ-ሰር",
+		"description": "ራስ-ሰር ይህ ስክሪን HDR ማሳየት ከቻለ HDRን ይመርጣል፣ ካልቻለ ደግሞ SDRን። HDR በተለመዱ ስክሪኖች ላይ የደበዘዘ ይመስላል።",
+		"hdr": "HDR",
+		"label": "HDR ቪዲዮ",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "ቋንቋ"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "በዳሰሳ ገብተዋል — 1 አገናኝ እንደገና በመሞከር ላይ",
+		"exploreSignInRetrying_other": "በዳሰሳ ገብተዋል — {{count}} አገናኞች እንደገና በመሞከር ላይ",
+		"exploreSignOutFailed": "ከዳሰሳ መውጣት አልተቻለም። እንደገና ይሞክሩ።",
+		"filenameFolderTooDeep": "ይህ አቃፊ ለስርዓትዎ በጣም ጥልቅ ነው። ማውረዱ አሁንም ሊሳካ ይችላል — አጭር አቃፊ ይምረጡ።",
+		"filenameTemplateCannotFit": "የዚህ ቪዲዮ ስም የአብነትዎን እያንዳንዱን ክፍል አይይዝም፣ ስለዚህ ነባሪው ስም ጥቅም ላይ ውሏል።",
+		"folderSelectFailed": "የአቃፊ መምረጫን መክፈት አልተቻለም።",
+		"hotkey": {
+			"alreadyQueued": "ቀድሞ በወረፋ ውስጥ ነው — ቅጂ አልተጨመረም",
+			"cookiesSetup": "በKlip ውስጥ የCookies ማዋቀሩን ይጨርሱ፣ ከዚያ እንደገና ይሞክሩ",
+			"invalidClipboard": "በቅጂ ሰሌዳ ላይ አገናኝ የለም — መጀመሪያ አንዱን ይቅዱ",
+			"multipleUrls": "ብዙ አገናኞች ተቀድተዋል — በKlip ውስጥ «ብዙ URLዎች»ን ይጠቀሙ",
+			"needsReview": "ይህ አገናኝ ምርጫዎን ይፈልጋል — በKlip ውስጥ «ዳውንሎዶች»ን ይመልከቱ",
+			"queued": "ከቅጂ ሰሌዳ ማውረጃ ተጨምሯል",
+			"submissionFailed": "ያ አገናኝ ማከል አልተቻለም — በKlip ውስጥ እንደገና ይሞክሩ"
+		},
+		"playlistFolderRejected": "ያ አቃፊ ለዚህ የአጫዋች ዝርዝር መጠቀም አይቻልም።",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} ቪዲዮ ቀድሞ በወረፋ ውስጥ ነው — ተዘሏል",
+			"skippedAlreadyQueued_other": "{{count}} ቪዲዮዎች ቀድሞ በወረፋ ውስጥ ናቸው — ተዘለዋል"
+		},
+		"quickDownload": {
+			"added": "ተጨምሯል፦ {{title}}",
+			"alreadyQueued": "ቀድሞ በወረፋ ውስጥ ነው",
+			"batchAdded_one": "{{count}} አገናኝ ወደ ዳውንሎዶች ታክሏል",
+			"batchAdded_other": "{{count}} አገናኞች ወደ ዳውንሎዶች ታክለዋል",
+			"batchAlreadyQueued_one": "{{count}} ቀድሞ በወረፋ ውስጥ ነው",
+			"batchAlreadyQueued_other": "{{count}} ቀድሞ በወረፋ ውስጥ ናቸው",
+			"batchNoneAdded_one": "{{count}} አገናኝ ሊታከል አልቻለም",
+			"batchNoneAdded_other": "{{count}} አገናኞች ሊታከሉ አልቻሉም",
+			"batchNotAdded_one": "{{count}} ሊታከል አልቻለም",
+			"batchNotAdded_other": "{{count}} ሊታከሉ አልቻሉም",
+			"chooseFromList_one": "በዚህ ዝርዝር ውስጥ {{count}} ቪዲዮ — የሚወርደውን ይምረጡ",
+			"chooseFromList_other": "በዚህ ዝርዝር ውስጥ {{count}} ቪዲዮዎች — የሚወርዱትን ይምረጡ",
+			"chooseHowMany_one": "{{count}}+ ቪዲዮ — ምን ያህል እንደሚወርድ ይምረጡ",
+			"chooseHowMany_other": "{{count}}+ ቪዲዮዎች — ምን ያህል እንደሚወርድ ይምረጡ",
+			"failed": "{{title}}ን ማዘጋጀት አልተቻለም",
+			"notAdded": "ያን አገናኝ ማከል አልተቻለም — እንደገና ይሞክሩ",
+			"view": "ይመልከቱ"
+		},
+		"settingsSaveFailed": "ቅንብሮችዎን ማስቀመጥ አልተቻለም።",
+		"shellActionFailed": "ያንን መክፈት አልተቻለም።",
+		"warmupFailed": "ማዋቀር አልተጠናቀቀም። እስኪጠናቀቅ ድረስ አንዳንድ ማውረዶች ሊሳኩ ይችላሉ።"
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "ድምጽ (ምርጥ)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "ድምጽ ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "ምርጥ ነባር ድምጽ፣ ዳግም ኮድ አይደረግም",
+			"m4a": "ወደ M4A (AAC) ቀይር",
+			"mp3": "ወደ MP3 ቀይር",
+			"opus": "ወደ Opus ቀይር"
+		},
+		"mp4Cap": "H.264 ከ1080p በላይ በYouTube ላይ አይገኝም — በራስ-ሰር ወደ 1080p ይገደባል",
+		"subtitles": {
+			"deliveryHeading": "እንደ አስቀምጥ",
+			"deliveryLoose": "በቀጥታ በማስቀመጫ አቃፊ ውስጥ",
+			"languages": "ቋንቋዎች",
+			"languagesRequired": "ለመቀጠል ቢያንስ አንድ ቋንቋ ይምረጡ።",
+			"note": "ለእያንዳንዱ ቪዲዮ የንዑስ ርዕስ ፋይሎች ብቻ ይቀመጣሉ — ቪዲዮም ሆነ ድምጽ አይወርድም።",
+			"source": "ምንጭ"
+		},
+		"tier": {
+			"144": "እስከ 144p",
+			"240": "እስከ 240p",
+			"360": "እስከ 360p",
+			"480": "እስከ 480p",
+			"720": "እስከ 720p",
+			"1080": "እስከ 1080p",
+			"1440": "እስከ 1440p",
+			"2160": "እስከ 4K",
+			"best": "ምርጥ ጥራት"
+		},
+		"tierDesc": {
+			"144": "በጣም ትንሽ ሊሆኑ የሚችሉ ፋይሎች",
+			"240": "በጣም ትንሽ ፋይሎች፣ ዝቅተኛ ጥራት",
+			"360": "ለጠባብ ባንድዊድዝ ትንሽ ፋይሎች",
+			"480": "ዝቅተኛ ባንድዊድዝ",
+			"720": "ትንሽ ፋይሎች፣ ሰፊ ተኳኋኝነት",
+			"1080": "በ1080p ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል",
+			"1440": "በ2K ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል",
+			"2160": "በ2160p ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል",
+			"best": "ለእያንዳንዱ ንጥል ምርጥ ቪዲዮ + ድምጽ"
+		},
+		"type": {
+			"audio": "ድምጽ",
+			"subtitles": "ንዑስ ርዕሶች",
+			"video": "ቪዲዮ"
+		},
+		"videoFormat": {
+			"best": "ምርጥ ኦሪጅናል",
+			"mp4": "ስማርት TV H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "ለእያንዳንዱ ንጥል የሚገኝ ከፍተኛ codec",
+			"mp4": "H.264 + AAC ይመረጣል፣ MP4 ኮንቴነር · በተቻለ መጠን"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "ተጓዳኝ ፋይል",
+			"description": "መግለጫ",
+			"media": "ሚዲያ",
+			"missing": "ጠፍቷል",
+			"subtitle": "ንዑስ ርዕስ",
+			"thumbnail": "አነስተኛ ምስል",
+			"unknown": "ፋይል"
+		},
+		"attentionBadge_one": "ትኩረት የሚሹ፦ {{count}}",
+		"attentionBadge_other": "ትኩረት የሚሹ፦ {{count}}",
+		"autoRemoveCompleted": {
+			"hint": "እያንዳንዱን ዳውንሎድ ከተጠናቀቀ ከጥቂት ሰከንዶች በኋላ ከዝርዝሩ ያስወግደዋል። ፋይሎቹ በአቃፊዎ ውስጥ ይቀራሉ።",
+			"label": "ሲጠናቀቅ በራስ-ሰር አጽዳ"
+		},
+		"cancelAllTitle": "ሁሉንም ንቁ እና በመጠባበቅ ላይ ያሉ ዳውንሎዶችን ሰርዝ",
+		"choice": {
+			"all": "ሁሉም ቪዲዮዎች",
+			"cappedBody_one": "በዚህ የቪዲዮ ዝርዝር ውስጥ ከ{{count}} በላይ ቪዲዮ አለ። ሁሉንም፣ የመጀመሪያዎቹን {{count}} ያውርዱ፣ ወይም በግምገማ ይምረጡ።",
+			"cappedBody_other": "በዚህ የቪዲዮ ዝርዝር ውስጥ ከ{{count}} በላይ ቪዲዮዎች አሉ። ሁሉንም፣ የመጀመሪያዎቹን {{count}} ያውርዱ፣ ወይም በግምገማ ይምረጡ።",
+			"first": "የመጀመሪያዎቹ {{count}}",
+			"list": {
+				"album": "አልበሙ",
+				"liked": "የወደዷቸው ቪዲዮዎች",
+				"mix": "ይህ Mix",
+				"playlist": "የቪዲዮ ዝርዝሩ",
+				"uploads": "ሁሉም ሰቀላዎች",
+				"watchLater": "“በኋላ ይመልከቱ”"
+			},
+			"pick": "ከእሱ ይምረጡ…",
+			"review": "ግምገማ",
+			"uncappedBody_one": "ይህ አገናኝ የ{{count}} ቪዲዮ ዝርዝር ነው። ያውርዱት፣ ወይም በግምገማ ይምረጡ።",
+			"uncappedBody_other": "ይህ አገናኝ የ{{count}} ቪዲዮዎች ዝርዝር ነው። ሁሉንም ያውርዱ፣ ወይም በግምገማ ይምረጡ።",
+			"video": "ይህ ቪዲዮ",
+			"videoOrList": {
+				"album": "ይህ አገናኝ በአንድ አልበም ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ አልበሙን ያውርዱ?",
+				"liked": "ይህ አገናኝ ከወደዷቸው ቪዲዮዎች ውስጥ አንዱ ነው። ቪዲዮውን ብቻ ወይስ የወደዷቸውን ሁሉንም ቪዲዮዎች ያውርዱ?",
+				"mix": "ይህ አገናኝ በአንድ Mix ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ Mixን ያውርዱ?",
+				"playlist": "ይህ አገናኝ በአንድ የቪዲዮ ዝርዝር ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ የቪዲዮ ዝርዝሩን ያውርዱ?",
+				"uploads": "ይህ አገናኝ በአንድ ቻናል ሰቀላዎች ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ ሁሉንም ሰቀላዎች ያውርዱ?",
+				"watchLater": "ይህ አገናኝ በ“በኋላ ይመልከቱ” ዝርዝርዎ ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ ሙሉውን ዝርዝር ያውርዱ?"
+			}
+		},
+		"clearTitle": "የተጠናቀቁ ዳውንሎዶችን አጽዳ",
+		"empty": "በወረፋ የተጨመሩ ማውረዶች እዚህ ይታያሉ",
+		"filterAll": "ሁሉም",
+		"filtersLabel": "የወረፋ ሁኔታ ማጣሪያዎች",
+		"globalActionsLabel": "ሁሉም ንጥሎች",
+		"header": "ዳውንሎዶች",
+		"item": {
+			"audioKept": "ድምፅ አልተወገደም",
+			"audioKeptSubtitlesFailed": "ድምፅ አልተወገደም · አንዳንድ ንዑስ ርዕሶች አልተሳኩም",
+			"cancel": "ሰርዝ",
+			"defaultError": "ዳውንሎድ ወድቋል",
+			"openDestinationFolder": "የመድረሻ አቃፊን ክፈት",
+			"pause": "አቋርጥ",
+			"pendingOnly": "በመጠባበቅ ላይ ያሉ ብቻ",
+			"pullNow": "አሁን አውርድ — ወረፋን ዝለል",
+			"qualityLimited": "በ{{height}}p ተገድቧል",
+			"qualityLimitedSubtitlesFailed": "በ{{height}}p ተገድቧል · አንዳንድ ንዑስ ርዕሶች አልተሳኩም",
+			"remove": "አስወግድ",
+			"resume": "ቀጥል",
+			"retry": "እንደገና ሞክር",
+			"retryingSoon": "በራስ-ሰር እየሞከረ ነው (ሙከራ {{attempt}})",
+			"setLocation": "ቦታ አዘጋጅ",
+			"setLocationHint": "ቦታ ለማዘጋጀት በመጠበቅ ላይ ያሉ ንጥሎችን ይምረጡ።",
+			"statusCancelled": "ተሰርዟል",
+			"statusDone": "ተጠናቋል",
+			"statusError": "ስህተት",
+			"statusHeld": "ተይዟል",
+			"statusNeedsChoice": "ምርጫዎን ይፈልጋል",
+			"statusPaused": "ቆሟል",
+			"statusPending": "በመጠበቅ ላይ",
+			"statusProbing": "ዝርዝሮች በመ 가져오는 ላይ",
+			"statusRunning": "በማውረድ ላይ",
+			"subtitleLanguagesMissing": "ንዑስ ርዕሶች የሉም፦ {{languages}}",
+			"waitingForSite": "{{site}}ን እስከ {{time}} ይጠብቃል",
+			"waitingHint": "{{site}} የዚህን ግንኙነት ጥያቄዎች እየገደበ ነው። ገደቡ እንዲነሳ Klip የዚህን አገናኝ ዝርዝሮች ከ{{time}} በኋላ ያመጣል።"
+		},
+		"listOffer": {
+			"dismiss": "ዝጋ",
+			"from": {
+				"album": "ከአንድ አልበም",
+				"liked": "ከወደዷቸው ቪዲዮዎች",
+				"mix": "ከአንድ Mix",
+				"playlist": "ከአንድ የቪዲዮ ዝርዝር",
+				"uploads": "ከአንድ ቻናል ሰቀላዎች",
+				"watchLater": "ከ“በኋላ ይመልከቱ”"
+			},
+			"get": {
+				"album": "ሙሉውን አልበም ያግኙ",
+				"liked": "ሁሉንም የወደዷቸውን ቪዲዮዎች ያግኙ",
+				"mix": "ሙሉውን Mix ያግኙ",
+				"playlist": "ሙሉውን የቪዲዮ ዝርዝር ያግኙ",
+				"uploads": "ሁሉንም ሰቀላዎች ያግኙ",
+				"watchLater": "ሁሉንም የ“በኋላ ይመልከቱ” ያግኙ"
+			},
+			"hint": "ዝርዝሩን እንደ የራሱ ረድፍ ያክላል። ይህ ቪዲዮ አይካተትም።"
+		},
+		"pauseAllTitle": "ሁሉንም ንቁ ዳውንሎዶችን አቁም",
+		"pausedBanner": "ወረፋው ላይ ነው — በመጠባበቅ ላይ ያሉ ማውረጃዎች እስኪ ወረፋውን እስኪያስቀጥሉት አይጀምሩም",
+		"resumeAllTitle": "የቆሙ ማውረዶችን ቀጥል እና ወረፋውን እንዲቀጥል ፍቀድ",
+		"resumeQueueAction": "ወረፋውን ቀጥል",
+		"selectedActionsLabel": "የተመረጡ ንጥሎች",
+		"selectionSummary": "{{selected}} ተመርጧል · {{total}} ጠቅላላ",
+		"tabLabel": "ዳውንሎዶች",
+		"tabTip": "ዳውንሎዶች አሁን በዳውንሎዶች ትር ውስጥ ይገኛሉ — ሂደታቸውን ለመከታተል ማንኛውም ጊዜ ይክፈቱት።",
+		"table": {
+			"added": "ታክሏል",
+			"artifacts": "የውጤት ፋይሎች",
+			"columnDropped": "የ{{column}} ዓምድ ተጥሏል።",
+			"columnMoveCancelled": "የ{{column}} ዓምድ ማንቀሳቀስ ተሰርዟል።",
+			"columnMovedOver": "የ{{column}} ዓምድ በ{{target}} ላይ ነው።",
+			"columnPickedUp": "የ{{column}} ዓምድ ተነሳ።",
+			"columns": "ዓምዶች",
+			"finished": "ተጠናቋል",
+			"format": "ቅርጸት",
+			"hideArtifactsFor": "የ{{title}} ፋይሎችን ደብቅ",
+			"movableColumn": "ተንቀሳቃሽ ዓምድ",
+			"moveColumnInstructions": "ዓምድን ለማንቀሳቀስ ስፔስ ወይም ኤንተር ይጫኑ፣ በቀስት ቁልፎች ያንቀሳቅሱት፣ ከዚያ ለመጣል እንደገና ስፔስ ወይም ኤንተር ይጫኑ። ለመሰረዝ ኤስኬፕ ይጫኑ።",
+			"notAvailable": "—",
+			"outputTarget": "የውጤት መድረሻ",
+			"progress": "ሂደት",
+			"resetColumns": "ዓምዶችን ዳግም አስጀምር",
+			"resizeColumn": "የ{{column}} ዓምድ መጠን ቀይር",
+			"showArtifactsFor": "የ{{title}} ፋይሎችን አሳይ",
+			"size": "መጠን",
+			"sortBy": "በ{{label}} ደርድር",
+			"status": "ሁኔታ",
+			"title": "ርዕስ"
+		}
+	},
+	"releaseNotes": {
+		"continue": "ቀጥል",
+		"description": "አዲስ ዝማኔ እያስኬዱ ነው። ዋና ዋና ነጥቦቹ እነሆ።",
+		"fullNotes": "ሙሉ የልቀት ማስታወሻዎች ↗",
+		"title": "በKlip {{version}} ውስጥ ምን አዲስ ነገር አለ"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "ሰርዝ",
+			"chooseExecutable": "ፈፃሚ ፋይል ምረጥ",
+			"installWithHomebrew": "በHomebrew ጫን",
+			"installWithWinget": "በWinGet ጫን",
+			"openDependencyFolder": "የጥገኝነት አቃፊ ክፈት",
+			"resetToDefault": "ወደ ነባሪ መልስ",
+			"retrySetup": "እንደገና ሞክር",
+			"viewSetupLog": "የማዋቀሪያ ምዝግብ ፋይል ተመልከት"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚሰራ ቅጂ ይምረጡ።",
+				"title": "አንድ መሣሪያ በትክክል እየሠራ አይደለም"
+			},
+			"blockedOrQuarantined": {
+				"body": "Klipን በፀረ-ቫይረስዎ ወይም በSmartScreen ውስጥ ይፍቀዱ፣ ከዚያ እንደገና ይሞክሩ።",
+				"title": "ፀረ-ቫይረስዎ አንድ መሣሪያ አግዷል"
+			},
+			"downloadFailed": {
+				"body": "የኢንተርኔት ግንኙነትዎን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።",
+				"title": "Klip የሚፈልገውን ማውረድ አልተቻለም"
+			},
+			"extractFailed": {
+				"body": "እንደገና አዲስ ለማውረድ ይሞክሩ።",
+				"title": "የወረደው ፋይል ተበላሽቶ ደርሷል"
+			},
+			"hashFailed": {
+				"body": "እንደገና አዲስ ለማውረድ ይሞክሩ።",
+				"title": "የወረደው ፋይል ከቼክሰሙ ጋር አልተዛመደም"
+			},
+			"pairIncomplete": {
+				"body": "ሁለቱንም ከታች ይምረጡ፣ ወይም ወደ ነባሪ ይመልሷቸው።",
+				"title": "FFmpeg እና FFprobe አብረው መዘጋጀት አለባቸው"
+			},
+			"permissionDenied": {
+				"body": "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚያምኑትን ቅጂ ይምረጡ።",
+				"title": "ሲስተምዎ Klip አንድ መሣሪያ እንዲያሄድ አይፈቅድም"
+			},
+			"spawnFailed": {
+				"body": "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚሰራ ቅጂ ይምረጡ።",
+				"title": "አንድ መሣሪያ ይጎድላል ወይም አይጀምርም"
+			},
+			"timeout": {
+				"body": "ይህ ብዙ ጊዜ በመጀመሪያ ጊዜ በሚደረግ የደህንነት ፍተሻ ምክንያት ነው። እንደገና ይሞክሩ።",
+				"title": "አንድ መሣሪያ ለመመለስ በጣም ረጅም ጊዜ ወሰደ"
+			},
+			"unknown": {
+				"body": "እንደገና ይሞክሩ፣ ወይም ለዝርዝር የማዋቀሪያ ምዝግብ ፋይሉን ይክፈቱ።",
+				"title": "በማዋቀር ወቅት የሆነ ችግር ተፈጥሯል"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "የማውረጃ ሞተር",
+			"media": "የሚዲያ መሣሪያዎች"
+		},
+		"installing": {
+			"homebrew": "በHomebrew በመጫን ላይ… ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።",
+			"winget": "በWinGet በመጫን ላይ… ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።"
+		},
+		"manual": {
+			"intro": "Klipን አስቀድመው ወዳሉዎት ቅጂዎች ያመልክቱ፣ ወይም በሌላ መንገድ ይጫኗቸው።",
+			"linuxHint": "በተጨማሪም yt-dlp እና ffmpegን በጥቅል አስተዳዳሪዎ መጫን ይችላሉ፣ ከዚያ እንደገና ሞክር የሚለውን ይጫኑ።",
+			"toggle": "በእጅ ያዋቅሩት"
+		},
+		"stopped": {
+			"body": "እንደገና ይሞክሩ፣ ወይም Klipን ከታች አስቀድመው ወዳሉዎት መሣሪያዎች ያመልክቱ።",
+			"title": "ማዋቀሩ ቆሟል"
+		},
+		"title": "ማዋቀሩ እርዳታዎን ይፈልጋል"
+	},
+	"selectionOrder": {
+		"editorTitle": "ይህ መገለጫ እንዴት እንደሚመርጥ",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC ድምጽ",
+				"reason": "ለMP4 ማጫወቻዎች ተስማሚ"
+			},
+			"aacSmartTv": {
+				"label": "AAC ድምጽ",
+				"reason": "በሁሉም ቦታ ይጫወታል"
+			},
+			"codec": {
+				"label": "AV1፣ ከዚያ VP9፣ ከዚያ H.264",
+				"reason": "በተመሳሳይ መጠን በጣም ጥርት ያለ"
+			},
+			"codecH264First": {
+				"label": "H.264፣ ከዚያ VP9፣ ከዚያ AV1",
+				"reason": "የዚህ መገለጫ ኮዴክ"
+			},
+			"codecVp9First": {
+				"label": "VP9፣ ከዚያ H.264፣ ከዚያ AV1",
+				"reason": "የዚህ መገለጫ ኮዴክ"
+			},
+			"fps": {
+				"label": "ከፍተኛው የፍሬም መጠን",
+				"reason": "ይበልጥ ለስላሳ እንቅስቃሴ"
+			},
+			"h264": {
+				"label": "H.264 ቪዲዮ",
+				"reason": "በሁሉም መሣሪያ ላይ ይጫወታል"
+			},
+			"hdrFirst": {
+				"label": "HDR ከSDR በፊት",
+				"reason": "በHDR ስክሪኖች ላይ የበለጸገ ቀለም",
+				"reasonScreen": "ይህ ስክሪን HDR ያሳያል"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR ከHDR በፊት",
+				"reason": "በማንኛውም ስክሪን ላይ ትክክል ይመስላል",
+				"reasonScreen": "ይህ ስክሪን HDR አያሳይም"
+			},
+			"mp4Streams": {
+				"label": "MP4 ዥረቶች",
+				"reason": "ለMP4 ፋይል ዝግጁ"
+			},
+			"nativeCompatible": {
+				"label": "ስቴሪዮ ድምጽ"
+			},
+			"nativeSource": {
+				"profile": "ይህ መገለጫ",
+				"settings": "ከቅንብሮች"
+			},
+			"nativeSurround": {
+				"label": "ሲገኝ surround ድምጽ"
+			},
+			"opus": {
+				"label": "Opus ድምጽ",
+				"reason": "ለWebM ተስማሚ"
+			},
+			"original": {
+				"label": "የመጀመሪያዎቹ ዥረቶች፣ በAI የተሰፉት አይደሉም",
+				"reason": "የተሰፋ ቅጂ ይረዝማል ግን እውነተኛ ዝርዝር አይጨምርም"
+			},
+			"protocol": {
+				"label": "ቀጥተኛ ውርዶች ከዥረት ቅጂዎች በፊት",
+				"reason": "ተመሳሳይ ምስል፣ ፈጣን ማውረድ"
+			},
+			"resolution": {
+				"label": "እስከ {{tier}}p",
+				"reason": "የእርስዎ ገደብ"
+			},
+			"resolutionBest": {
+				"label": "ከፍተኛው ጥራት መጠን",
+				"reason": "ገደብ አልተቀመጠም"
+			},
+			"sitePreference": {
+				"label": "ጣቢያው ዝቅ ያላደረጋቸው ዥረቶች",
+				"reason": "የተበላሹ፣ የውሃ ምልክት ያላቸውን እና ተጠባባቂ ቅጂዎችን ይዘላል"
+			},
+			"size": {
+				"label": "ትልቅ ፋይል",
+				"reason": "በተመሳሳይ ቅንብሮች ተጨማሪ ዝርዝር"
+			},
+			"source": {
+				"label": "የተሻሻለ ቢትሬት ያላቸው ዥረቶች መጀመሪያ",
+				"reason": "በተመሳሳይ ጥራት ተጨማሪ ዝርዝር"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "የፋይል አይነት ከዥረቶቹ",
+				"explicit": "እንደ .{{ext}} ይቀመጣል"
+			},
+			"goal": {
+				"bestPicture": "ምርጥ ምስል",
+				"smartTv": "በማንኛውም መሣሪያ ይጫወታል"
+			}
+		},
+		"whyLabel": "ለምን ይህ?",
+		"whyTitle": "መገለጫው ይህን ለምን መረጠ"
+	},
+	"share": {
+		"copied": "ተቀድቷል!",
+		"copyLink": "ሊንክ ቅዳ",
+		"defaultMessage": "Klip — ነፃ እና ክፍት-ምንጭ የቪዲዮ አውራጅ ለ Windows፣ macOS እና Linux። ከ YouTube፣ Vimeo፣ Twitch እና ከ2000+ ሌሎች ጣቢያዎች ጋር ይሰራል።\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
+		"description": "Klip ነፃ እና ክፍት ምንጭ ነው። ማጋራት ብዙ ሰዎች እንዲያገኙት ይረዳቸዋል።",
+		"footerLabel": "አጋራ",
+		"footerTooltip": "Klip አጋራ",
+		"shareAction": "Klip አጋራ",
+		"title": "Klip ያጋሩ"
+	},
+	"splash": {
+		"cancel": "ችግር አለ? በእጅ ያዋቅሩት",
+		"greeting": "እንኳን ደህና መጡ!",
+		"setup": {
+			"left": {
+				"minutes_one": "ወደ {{count}} ደቂቃ ይቀራል",
+				"minutes_other": "ወደ {{count}} ደቂቃዎች ይቀራል",
+				"underMinute": "ከአንድ ደቂቃ በታች ይቀራል"
+			},
+			"stage": {
+				"checking": "ሁሉም ነገር እየሰራ መሆኑን በማረጋገጥ ላይ",
+				"connecting": "በመገናኘት ላይ…",
+				"unpacking": "የሚዲያ መሣሪያዎችን በመክፈት ላይ",
+				"unpackingEngine": "የማውረጃ ሞተሩን በመክፈት ላይ"
+			},
+			"title": {
+				"both": "የ Klip መሣሪያዎችን በማዘመን ላይ",
+				"engine": "የማውረጃ ሞተሩን በማዘመን ላይ",
+				"firstRun": "የመጀመሪያ ጊዜ ማዋቀር",
+				"media": "የሚዲያ መሣሪያዎችን በማዘመን ላይ"
+			}
+		},
+		"verifyFirstCheck": "የዚህ ስሪት የመጀመሪያ ምርመራ — ይህኛው ዘገምተኛ ነው። አብዛኛውን ጊዜ አንድ ደቂቃ ያህል ይወስዳል።",
+		"verifying": "{{binary}} እየተመረመረ ነው…",
+		"warmup": "ውርዶችን በማዘጋጀት ላይ…",
+		"warmupFailedNoDiag": "ማዋቀር አልተሳካም። ዝርዝሮችን ለማየት የማዋቀሪያ ምዝግብ ፋይሉን ይክፈቱ።"
+	},
+	"status": {
+		"audioKept": "ቪዲዮ ከድምፁ ጋር ተቀምጧል — ድምፁን ማስወገድ አልተቻለም",
+		"audioKeptSubtitlesFailed": "ቪዲዮ ከድምፁ ጋር ተቀምጧል — ድምፁን ማስወገድ አልተቻለም፣ አንዳንድ ንዑስ ርዕሶችም ሊዳውንሎድ አልቻሉም",
+		"cancelled": "ዳውንሎድ ተሰርዟል",
+		"complete": "ዳውንሎድ ተጠናቅቋል",
+		"convertingVideo": "ቪዲዮ እየቀየሩ…",
+		"diskSpaceInsufficient": "በቂ የዲስክ ቦታ የለም — {{required}} ያስፈልጋል፣ {{free}} ብቻ አለ",
+		"downloadingBinary": "{{name}} ሁለዮሽ ፋይል እያወረዱ…",
+		"downloadingMedia": "ቪዲዮ እና ድምጽ እያወረዱ…",
+		"embeddingMetadata": "ሜታዳታ እያካተቱ…",
+		"exploreSignedOut": "ከዳሰሳ ወጥተዋል — እንደገና ይግቡ",
+		"extractingAudio": "ድምጽ እየቀየሩ…",
+		"fetchingSponsorBlock": "SponsorBlock እያነጋገሩ…",
+		"fetchingSubtitles": "ንዑስ ርዕሶችን እያምጡ…",
+		"mergingFormats": "ድምጽ እና ቪዲዮ እያዋሃዱ…",
+		"mintingToken": "የYouTube ውርድን በማዘጋጀት ላይ…",
+		"movingFiles": "ፋይሎችን እያዘዋወሩ…",
+		"noSubtitles": "ንዑስ ርዕሶች የሉም፦ {{languages}}",
+		"outputNotWritable": "ወደ {{dir}} ማስቀመጥ አይቻልም — Klip እዚያ እንዲጽፍ አልተፈቀደለትም",
+		"preparingBinaries": "ሁለዮሽ ፋይሎችን እያዘጋጁ…",
+		"qualityLimited": "በ{{height}}p ተቀምጧል — YouTube ለዚህ ማውረድ ከፍተኛ ጥራቶችን ከልክሏል። ቆይተው እንደገና መሞከር ሊረዳ ይችላል።",
+		"qualityLimitedSubtitlesFailed": "በ{{height}}p ተቀምጧል — YouTube ለዚህ ማውረድ ከፍተኛ ጥራቶችን ከልክሏል፣ እና አንዳንድ ንዑስ ርዕሶች ሊወርዱ አልቻሉም። ቆይተው እንደገና መሞከር ሊረዳ ይችላል።",
+		"remintingToken": "የYouTube ውርድን እንደገና በማዘጋጀት ላይ…",
+		"retryingSponsorBlock": "SponsorBlock አይገኝም፣ እንደገና እየሞከሩ ({{attempt}}/{{total}})…",
+		"retryingTransfer": "ግንኙነት ተቋርጧል፣ እንደገና በመሞከር ላይ ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "በዳሰሳ መለያዎ በመግባት ላይ…",
+		"sleepingBetweenRequests": "ፍጥነት ላለማቀዝ {{seconds}} ሰከንድ እየጠበቁ…",
+		"startingYtdlp": "የማውረጃ ሞተሩን በመጀመር ላይ…",
+		"subtitleLanguagesMissing": "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}። ቪዲዮው ያለ እነሱ ተቀምጧል።",
+		"subtitleLanguagesMissingOthersSaved": "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}። ሌሎቹ ቋንቋዎች ተቀምጠዋል።",
+		"subtitlesFailed": "ቪዲዮ ተቀምጧል — አንዳንድ ንዑስ ርዕሶች ሊዳውንሎድ አልቻሉም",
+		"unknownStartupFailure": "ያልታወቀ ዳውንሎድ መጀመሪያ ወደቀ",
+		"usedExtractorFallback": "ቀልל ቅናሽ ሞዴ ዳውንሎድ ተደርጓል — ይበልጥ አስተማማኝ ዳውንሎዶች ለማግኘት cookies.txt አዘጋጅ",
+		"ytdlpExitCode": "የማውረጃ ሞተሩ በኮድ {{code}} ወጥቷል",
+		"ytdlpProcessError": "የማውረጃ ሞተር ስህተት፦ {{error}}"
+	},
+	"theme": {
+		"dark": "ጨለማ ሁነታ",
+		"light": "ብርሃን ሁነታ",
+		"system": "የስርዓት ነባሪ"
+	},
+	"titleBar": {
+		"close": "ዝጋ",
+		"maximize": "አሰፋ",
+		"minimize": "አሳንስ",
+		"restore": "መልስ"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "ከቅጂ ሰሌዳ ይውረዱ",
+			"statusActive_one": "1 እያወረደ · {{percent}}%",
+			"statusActive_other": "{{count}} እያወረዱ · {{percent}}%",
+			"statusIdle": "ሥራ አልባ"
+		}
+	},
+	"update": {
+		"copied": "ትዕዛዝ ወደ ቅጂ ሰሌዳ ተቀድቷል",
+		"copy": "ትዕዛዝ ወደ ቅጂ ሰሌዳ ቅዳ",
+		"dismiss": "የዝማኔ ሰሌዳ ዝጋ",
+		"download": "ያውርዱ ↗",
+		"downloadDmg": "DMG ያውርዱ ↗",
+		"downloading": "እያወረዱ…",
+		"install": "ጫን እና ዳግም ጀምር",
+		"installFailed": "ዝማኔ አልተሳካም",
+		"message": {
+			"generic": "Klip {{version}} ይገኛል — {{currentVersion}} አለዎት።",
+			"homebrew": "Klip {{version}} ይገኛል — በHomebrew ያዘምኑ።",
+			"macosDirect": "Klip {{version}} ይገኛል — አዲሱን DMG ያውርዱ።",
+			"macosDirectHomebrew": "Klip {{version}} ይገኛል — DMG ያውርዱ ወይም ወደ Homebrew ይቀይሩ።",
+			"portable": "Klip {{version}} ይገኛል — አዲሱን build ያውርዱ።"
+		},
+		"retry": "እንደገና ሞክር",
+		"runAndRestart": "አሂድ እና ዳግም ጀምር",
+		"upgrading": "በማዘመን ላይ…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} ምዕራፍ",
+		"chapters_other": "{{count}} ምዕራፎች",
+		"titlePlaceholder": "በመጫን ላይ…"
+	},
+	"videoCodec": {
+		"h264": "H.264 መጀመሪያ",
+		"label": "የቪዲዮ ኮዴክ",
+		"smartTv": "ስማርት TV ሁልጊዜ H.264ን ይመርጣል።",
+		"vp9": "VP9 መጀመሪያ"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "ዝግጁ",
+			"description": "የቪዲዮ፣ የplaylist፣ የchannel፣ የፍለጋ፣ ወይም የድምጽ URLዎችን ለጥፍ። Klip ወደ ወረፋ ከማከል በፊት ተደጋጋሚዎችን ያጸዳል።",
+			"emptyPreview": "ቡድኑን ለማየት አንድ ወይም ከዚያ በላይ URLዎች ለጥፍ።",
+			"ignoredCount": "ተተው",
+			"needsAtLeastOne": "ለመቀጠል ቢያንስ አንድ የሚደገፍ URL ጨምር።",
+			"reject": {
+				"duplicate": "ተደጋጋሚ"
+			},
+			"textareaLabel": "የURL ዝርዝር",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "ብዙ URLዎች"
+		},
+		"confirm": {
+			"addToQueue": "+ ወረፋ",
+			"addToQueueTooltip": "ሌሎች ዳውንሎዶች ሲጠናቀቁ ይጀምራል — ሙሉ ባንድዊድዝ ያገኛል",
+			"itemsValueAudio_one": "{{count}} ከ {{total}} ዘፈን",
+			"itemsValueAudio_other": "{{count}} ከ {{total}} ዘፈኖች",
+			"itemsValueBulk_one": "{{count}} ከ{{total}} URL",
+			"itemsValueBulk_other": "{{count}} ከ{{total}} URLዎች",
+			"itemsValue_one": "{{count}} ከ {{total}} ቪዲዮ",
+			"itemsValue_other": "{{count}} ከ {{total}} ቪዲዮዎች",
+			"labelAudio": "ድምጽ",
+			"labelBulk": "ብዙ URLዎች",
+			"labelItems": "ቁጥር",
+			"labelPlaylist": "የቪዲዮ ዝርዝር",
+			"labelPreset": "ቅድመ-ቅንብር",
+			"labelSaveTo": "አስቀምጥ ወደ",
+			"labelSize": "መጠን",
+			"labelSubtitles": "ንዑስ ርዕሶች",
+			"labelVideo": "ቪዲዮ",
+			"landIn": "ፋይልዎ እዚህ ይወርዳል",
+			"landInMultiProfile_one": "ከታች ወዳለው መድረሻ ይወርዳል",
+			"landInMultiProfile_other": "{{count}} መድረሻዎች ከታች ይወርዳሉ",
+			"nothingToDownload": "“ንዑስ ርዕሶች ብቻ” መገለጫ ንቁ ነው፣ ነገር ግን ምንም የንዑስ ርዕስ ቋንቋ አልተመረጠም — ምንም አይወርድም።",
+			"profileBreakdownCount_one": "{{count}} ንጥል",
+			"profileBreakdownCount_other": "{{count}} ንጥሎች",
+			"profileBreakdownHeading": "በዚህ ስብስብ ውስጥ ያሉ መገለጫዎች",
+			"pullIt": "ሳቡት! ↓",
+			"pullItTooltip": "ወዲያው ይጀምራል — ከሌሎች ዳውንሎዶች ጋር ይሰራል",
+			"readyHeadline": "ለመሳብ ዝግጁ!",
+			"sizeUnknown": "አይታወቅም",
+			"subtitleEmbedAudioOnly": "Subtitle embed ወደ sidecar ተቀይሯል — የድምጽ ትራኮች ውስጣዊ subtitle ዥረቶችን አይደግፉም።",
+			"subtitleEmbedForcesMkv": "በቪዲዮው ውስጥ የሚካተቱ ንዑስ ርዕሶች MKV ፋይል ያስፈልጋቸዋል፣ ስለዚህ ይህ ማውረድ እንደ .mkv ይቀመጣል።",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Thumbnail embed ተዘሏል — የውፅዓት container አይደግፈውም።"
+		},
+		"folder": {
+			"custom": "ብጁ…",
+			"desktop": "ዴስክቶፕ",
+			"documents": "ሰነዶች",
+			"downloads": "ዳውንሎዶች",
+			"heading": "አስቀምጥ ወደ",
+			"home": "መነሻ",
+			"music": "ሙዚቃ",
+			"pictures": "ስዕሎች",
+			"subfolder": {
+				"invalid": "የአቃፊ ስም ልቅ ቁምፊዎች አሉ",
+				"placeholder": "ለምሳሌ፦ ትምህርቶች",
+				"toggle": "ውስጥ ንዑስ አቃፊ አስቀምጥ"
+			},
+			"videos": "ፊልሞች"
+		},
+		"formats": {
+			"audio": "ድምጽ",
+			"audioLanguage": "የድምፅ ቋንቋ",
+			"audioLanguageCount_one": "{{count}} ቋንቋ",
+			"audioLanguageCount_other": "{{count}} ቋንቋዎች",
+			"bitrateValue": "ቢትሬት {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Cookies ተዘጋጅቷል ነገር ግን ጠፍ ነው። ያስቡ እና እንደገና ሞክሩ፣ ወይም አውታረ መረብ ቀይሩ።",
+				"bodyEnabled": "Cookies ቢኖርም YouTube ይህን ምርምር ገደበ። ቆይቶ ዳግም ሞክሩ ወይም አውታረ መረብ ቀይሩ።",
+				"bodyExplore": "YouTube ይህን ጥያቄ ገድቧል። ቆይተው እንደገና ይሞክሩ ወይም አውታረ መረብ ይቀይሩ።",
+				"bodyUnconfigured": "የቅርጸት ዝርዝሩ ሙሉ ላይሆን ይችላል። Cookies በከፍተኛ ቅንብሮች ያዘጋጁ፣ ወይም አውታረ መረብ ቀይሩ እና እንደገና ሞክሩ።",
+				"enableRetryCta": "Cookies አስቻል እና እንደገና ሞክር",
+				"heading": "YouTube ይህን ምርምር ገደበ",
+				"retryCta": "እንደገና ሞክር"
+			},
+			"convert": {
+				"bitrate": "ቢትሬት",
+				"bitrateCopyHint": "አስቀድሞ {{target}} የሆነ ምንጭ የራሱን ዥረትና ቢትሬት ይይዛል፦ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም።",
+				"copyLabel": "{{target}} {{bitrate}} kbps፣ ዳግም ኮድ አይደረግም",
+				"copyLabelNoBitrate": "{{target}}፣ ዳግም ኮድ አይደረግም",
+				"copyNote": "{{kbps}} kbps፣ ምንጩ እንዳለው፦ ዥረቱ አስቀድሞ {{target}} ስለሆነ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም",
+				"copyNoteNoBitrate": "ምንጩ እንዳለው፦ ዥረቱ አስቀድሞ {{target}} ስለሆነ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም",
+				"label": "ቀይር",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "ምንጩ {{kbps}} kbps ነው",
+				"wavLabel": "WAV (ያልተጨመቀ)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "አሳሽ",
+				"currentModeExplore": "የዳሰሳ መግቢያ",
+				"currentModeFile": "ፋይል",
+				"currentModeLabel": "Cookies ምንጭ",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp ሰነዶች (ጉዳይ #10927)",
+					"explanation": "Chrome 127 እና ከዚያ በኋላ ያሉ ስሪቶች cookies ን በ Windows ላይ ሌሎች አፕሊኬሽኖች ሊያነቡ በማይችሉ መንገድ ያመስጥሩታል። ከዚህ በታች ያሉ አንዱን መፍትሄ ይሞክሩ።",
+					"fixFileBody": "Cookies ን ከ Chrome በ browser extension ወደ ውጭ ላክ፣ ከዚያ ይህን አፕ ወደ ፋይል ሁነታ ቀይር እና የወጣውን ፋይል ምረጥ።",
+					"fixFileLabel": "cookies.txt ወደ ውጭ ላክ",
+					"fixFirefoxBody": "Firefox App-Bound Encryption አይጠቀምም። የ Cookies ቅንብሮቹን ክፈት እና ከአሳሽ ዝርዝሩ Firefox ን ምረጥ።",
+					"fixFirefoxLabel": "ወደ Firefox ቀይር",
+					"fixUnsafeBody": "Chrome ን ለማስጀምር --disable-features=LockProfileCookieDatabase ወደ ቅርበት አክል። ማስጠንቀቂያ: ይህ ቀደም ሲል የተመሰጠሩ cookies ን ስለሚያወድም ከሁሉም ጣቢያዎች ይወጣሉ እና ዳግም መግባት ይኖርብዎታል።",
+					"fixUnsafeLabel": "Chrome ን App-Bound Encryption አሰናክሎ ጀምር",
+					"heading": "Chrome cookies በ Windows ምስጠራ ታግደዋል"
+				},
+				"explanationBrowser": "Cookies ቀጥታ ከአሳሹ ይነበባሉ። አሳሹ አሁን እየሰራ ከሆነ፣ የ cookie ዳታቤዝ ተቆልፎ ሊሆን ይችላል (Chromium-ቤተሰብ)። አሳሹ ወደ YouTube ገብቶ መሆን አለበት። አሳሹን ለመዝጋት፣ ወደ ሌላ አሳሽ ለመቀየር፣ ወደ ፋይል ሁነታ ለመቀየር፣ ወይም Cookies ለማጥፋት ይሞክሩ።",
+				"explanationFile": "የ Cookies ፋይልዎ ባዶ፣ ጊዜው ያለፈ፣ ወይም ትክክለኛ ቅርጸት ላይሆን ይችላል (Klip Netscape cookies.txt ፋይል ይፈልጋል)። Cookies ዳግም ወደ ውጭ ለማሳደር፣ ሌላ ፋይል ለመምረጥ፣ ወደ አሳሽ ሁነታ ለመቀየር፣ ወይም Cookies ለማጥፋት ይሞክሩ።",
+				"exploreOffer": {
+					"body": "በዳሰሳ ይግቡ፣ Klip ደግሞ እንደገና ይሞክረዋል።",
+					"cta": "በዳሰሳ ይግቡ",
+					"heading": "ይህ ቪዲዮ የYouTube መለያ ሊፈልግ ይችላል"
+				},
+				"exploreRefused": {
+					"body": "Klip አስቀድሞ በዳሰሳ በኩል ገብቶ ሞክሯል፣ ስለዚህ እንደገና መግባት አይረዳም። ጣቢያው ችግር ላይ ሊሆን ይችላል፣ ወይም ይህ መለያ ሊከፍተው አይችልም። ቆይተው እንደገና ይሞክሩ።",
+					"heading": "ጣቢያው በዳሰሳ ውስጥ በገቡበት መግቢያም ይህን አልተቀበለም"
+				},
+				"exploreReuse": {
+					"body": "በዳሰሳ ገብተዋል፣ ነገር ግን ማውረዶች አሁን ያንን መግቢያ እየተጠቀሙ አይደሉም።",
+					"cta": "የዳሰሳ መግቢያን ተጠቀም እና እንደገና ሞክር",
+					"heading": "ይህ ቪዲዮ የYouTube መለያ ሊፈልግ ይችላል"
+				},
+				"exploreSignIn": {
+					"body": "ይህ ቪዲዮ የYouTube መለያ የሚያስፈልገው ከሆነ በዳሰሳ ውስጥ ይግቡና እንደገና ይሞክሩ። Klip ይህን መግቢያ የሚጠቀመው ውርድ ሲፈልገው ብቻ ነው።",
+					"cta": "በዳሰሳ ውስጥ ይግቡ",
+					"heading": "ይህ ቪዲዮ የYouTube መለያ ሊያስፈልገው ይችላል"
+				},
+				"exploreSignedIn": {
+					"body": "ይህ ቪዲዮ መለያ የሚያስፈልገው ከሆነ Klip የዳሰሳ መግቢያዎን በራስ-ሰር ይጠቀማል። በሌላ ምክንያት ላይገኝ ይችላል።",
+					"heading": "ወደ ዳሰሳ ገብተዋል"
+				},
+				"exploreSite": {
+					"heading": "ይህ አገናኝ {{host}} ላይ መለያ ሊፈልግ ይችላል",
+					"offerBody": "{{host}} ላይ በዳሰሳ ይግቡና እንደገና ይሞክሩ።",
+					"signInBody": "{{host}} ላይ በዳሰሳ ውስጥ ይግቡና እንደገና ይሞክሩ። Klip ይህን መግቢያ የሚጠቀመው ውርድ ሲፈልገው ብቻ ነው።"
+				},
+				"heading": "Cookies ምክንያቱ ሊሆን ይችላል",
+				"needsCookies": {
+					"body": "Klip ያለ ማረጋገጫ ይህን ቪዲዮ ማግኘት አልቻለም። Cookies በከፍተኛ ቅንብሮች ያዋቅሩ — አስቀድመው ወደ ገቡበት አሳሽ ያመልክቱ ወይም cookies.txt ፋይል ያስመጡ።",
+					"heading": "ይህ ጣቢያ መግባትን ያስፈልጋል"
+				},
+				"openSettingsCta": "የ Cookies ቅንብሮችን ክፈት",
+				"otherCookiesCta": "በምትኩ የCookies ፋይል ወይም አሳሽ ይጠቀሙ…"
+			},
+			"drc": {
+				"description": "ጮክ ያሉ ክፍሎችን ያለዝባል፣ ዝቅተኛዎቹን ያጎላል፤ ለስፒከሮችና ጫጫታ ላለባቸው ክፍሎች።",
+				"label": "የድምፅ መጠንን አስተካክል (DRC)",
+				"tag": "እኩል የድምፅ መጠን"
+			},
+			"fit": {
+				"mp4Unavailable": "መገለጫዎ ስማርት TV (H.264) ነው። ይህ ቪዲዮ H.264 አያቀርብም፣ ስለዚህ በጣም ቅርብ የሆነው ዥረት ተመርጧል።",
+				"noVideo": "ይህ አገናኝ ቪዲዮ የለውም፣ ስለዚህ ድምጽ ተመርጧል።",
+				"subtitlesMissing": "መገለጫዎ በ{{languages}} ንዑስ ርዕሶችን ይጠይቃል። ይህ ቪዲዮ የለውም።",
+				"tierAbove": "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ይህን ያህል ትንሽ ነገር የለውም፣ ስለዚህ {{picked}}p ተመርጧል።",
+				"tierAbovePassedOver": "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ያሉት ያነሱ ዥረቶች ከቀረው የመገለጫዎ ጋር አይስማሙም፣ ስለዚህ {{picked}}p ተመርጧል።",
+				"tierBelowTakeable": "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ሊወሰድ የሚችል {{wanted}}p የለውም፣ ስለዚህ {{picked}}p ተመርጧል።",
+				"tierPassedOverAiUpscaled": "መገለጫዎ {{wanted}}p ይጠይቃል። የዚህ ቪዲዮ {{wanted}}p በAI የተሰፋ ነው፣ ስለዚህ የመጀመሪያው {{picked}}p ተመርጧል።",
+				"tierPassedOverH264": "መገለጫዎ በH.264 {{wanted}}p ይጠይቃል። ይህ ቪዲዮ {{wanted}}p ያለው በሌሎች ኮዴኮች ብቻ ነው፣ ስለዚህ በH.264 {{picked}}p ተመርጧል።",
+				"tierPassedOverProfile": "መገለጫዎ {{wanted}}p ይጠይቃል። የዚህ ቪዲዮ {{wanted}}p ከቀረው የመገለጫዎ ጋር አይስማማም፣ ስለዚህ {{picked}}p ተመርጧል።",
+				"webmUnavailable": "መገለጫዎ WebM ይጠይቃል። የዚህ ቪዲዮ የተመረጡ ዥረቶች WebM ሊይዘው የማይችለውን {{codec}} ያካትታሉ፣ ስለዚህ የፋይሉ አይነት ራስ-ሰር ነው።"
+			},
+			"footer": {
+				"addToQueue": "ሳይጀምር ወደ ወረፋ ጨምር",
+				"download": "ማውረድ",
+				"moreActions": "ተጨማሪ የማውረድ አማራጮች",
+				"subtitlesRequired": "ቢያንስ አንድ የንዑስ ርዕስ ቋንቋ ይምረጡ።"
+			},
+			"keepAudio": "እንዳለ ቀጥል",
+			"keepAudioMeta": "ቀደም ሲል የተካተተ ድምጽ",
+			"kind": {
+				"audio": "ድምፅ ብቻ",
+				"label": "ምን ማውረድ ይፈልጋሉ",
+				"subtitles": "ንዑስ ርዕሶች ብቻ",
+				"video": "ቪዲዮ + ድምፅ",
+				"videoOnly": "ቪዲዮ፣ ያለ ድምፅ"
+			},
+			"loadingAria": "ቅርጸቶችን በመጫን ላይ",
+			"loadingHint": "ምርምሩ እስኪጠናቀቅ ይጠብቁ — playlist ዎች እና ፍለጋዎች ጊዜ ሊወስዱ ይችላሉ።",
+			"marker": {
+				"aiDubbed": "በAI የተተረጎመ",
+				"aiUpscaled": "በAI የተሰፋ",
+				"audioDescription": "የድምፅ መግለጫ",
+				"damaged": "የተበላሸ",
+				"enhancedBitrate": "የተሻሻለ ቢትሬት",
+				"original": "ኦሪጅናል",
+				"spatialAudio": "ስፓሻል ድምፅ",
+				"vr": "360° / VR",
+				"watermarked": "የውሃ ምልክት ያለው"
+			},
+			"noAudio": "ምንም ድምጽ የለም",
+			"profile": {
+				"calloutBody": "ንቁ መገለጫዎ ዥረቶችን አስቀድሞ ይመርጥልዎታል። መገለጫዎችን ከምናሌው ይቀይሩ፣ ወይም ከዚህ ማውረድ ሳይወጡ አንዱን ለማስተካከል እርሳሱን ይጠቀሙ።",
+				"calloutTitle": "ቅርጸቶች ከመገለጫዎ ይጀምራሉ",
+				"closestTag": "ለመገለጫው ቅርብ",
+				"edit": "{{name}} አርትዕ",
+				"keepEdits": "ለውጦቼን አቆይ",
+				"menuDescription": "ለዚህ ማውረድ ብቻ። ነባሪ መገለጫዎ እንዳለ ይቆያል።",
+				"preselected": "አስቀድሞ የተመረጠ፣ ምንጭ፦",
+				"resetAll": "ሁሉንም ዳግም አስጀምር",
+				"switchBody": "ለዚህ ማውረድ {{areas}} ቀይረዋል። “{{profile}}” በማንኛውም ሁኔታ ቪዲዮውን እና ድምፁን ይመርጣል። ሌሎች ለውጦችዎን ያቆዩ ወይስ ሁሉንም ወደ መገለጫው ዳግም ያስጀምሩ?",
+				"switchTitle": "መገለጫ ይቀየር?",
+				"tag": "መገለጫ",
+				"updatedBody": "ለዚህ ማውረድ {{areas}} ቀይረዋል። የተዘመነው መገለጫ በማንኛውም ሁኔታ ቪዲዮውን እና ድምፁን ይመርጣል። ሌሎች ለውጦችዎን ያቆዩ ወይስ ሁሉንም ወደ መገለጫው ዳግም ያስጀምሩ?",
+				"updatedTitle": "የተዘመነውን መገለጫ ይጠቀሙ?"
+			},
+			"quality": {
+				"high": "ከፍተኛ ጥራት",
+				"low": "ዝቅተኛ ጥራት",
+				"medium": "መካከለኛ ጥራት"
+			},
+			"rateLimit": {
+				"heading": "{{site}} ይህን ግንኙነት እየገደበ ነው",
+				"leadDegraded": "የቅርጸቶች ዝርዝሩ ያልተሟላ ሊሆን ይችላል።",
+				"leadFailed": "{{site}} ይህን ጥያቄ ለአሁን አልተቀበለውም።",
+				"retryCta": "እንደገና ሞክር",
+				"sessionNote": "{{site}} ይህን ገደብ እስከ አንድ ሰዓት ሊያቆየው ይችላል።",
+				"tryNowCta": "አሁን ሞክር",
+				"waitOver": "መጠበቁ አልቋል፣ ስለዚህ እንደገና መሞከር ይችላሉ።",
+				"waitUntil": "ገደቡ እንዲነሳ Klip {{site}}ን እንደገና ከመጠየቁ በፊት እስከ {{time}} ይጠብቃል።"
+			},
+			"resolutionUnknown": "ጥራት መጠን አይታወቅም",
+			"savesAs": {
+				"label": "የሚቀመጠው እንደ",
+				"reset": "WebM {{codec}} መያዝ ስለማይችል የፋይሉ አይነት ወደ ራስ-ሰር ተመልሷል።"
+			},
+			"sizeUnknown": "መጠን አይታወቅም",
+			"skipToConfirm": "ወደ ማረጋገጫ ዝለል",
+			"skipToConfirmTooltip": "ለቀሩት ሁሉም ደረጃዎች የተቀመጡ ምርጫዎችዎን ይጠቀማል። አንድ ቅንብር ለመለወጥ ደረጃ በደረጃ ቀጥሉ — ምርጫዎ ለሚቀጥለው ጊዜ ይቀመጣል።",
+			"sniffing": "ምርጥ ቅርጸቶችን ለእርስዎ እየፈለጉ…",
+			"total": "ጠቅላላ",
+			"video": "ቪዲዮ",
+			"withAudio": "ከድምፅ ጋር"
+		},
+		"listPrompt": {
+			"backgroundHint": "ከ{{profileName}} ጋር። ከ{{count}} ቪዲዮዎች በላይ ካለው ዳውንሎዶች ስንት እንደሚወርድ ይጠይቃል።",
+			"backgroundLabel": "በዳራ ያውርዱ",
+			"escOnly": "Esc ይሰርዛል።",
+			"firstHint": "በትክክል የመጀመሪያዎቹ {{count}}፣ ከ{{profileName}} ጋር።",
+			"firstLabel": "የመጀመሪያዎቹን ያውርዱ",
+			"interactiveHint": "ከመጀመሪያዎቹ {{count}} ቪዲዮዎች ይምረጡ (ወይም ቁጥሩን በሚቀጥለው ደረጃ ይቀይሩ)፣ ከዚያ ውርዱን ያዋቅሩ።",
+			"interactiveLabel": "በይነተገናኝ ማውረድ…",
+			"limitHint": "ከዝርዝሩ ስንት ቪዲዮዎች እንደሚወሰዱ፦ የመጀመሪያው አማራጭ ከዚያ በላይ ይጠይቃል፣ ሁለተኛው በትክክል ያን ያህል ይወስዳል። ከቅንብሮች › ሊቃኙ የ Playlist ንጥሎች ጋር ተመሳሳይ ነው።",
+			"limitLabel": "ገደብ",
+			"mixNote": "Mix በከፈቱት ቁጥር ይለወጣል።",
+			"pickLoadAfter": "ለመምረጥ ይጫኑ።",
+			"pickLoadBefore": "የመጀመሪያዎቹን",
+			"pickLoadNote": "በሚቀጥለው ደረጃ መቀየር ይችላሉ።",
+			"pickTitle": {
+				"album": "ከዚህ አልበም ይምረጡ",
+				"liked": "ከወደዷቸው ቪዲዮዎች ይምረጡ",
+				"mix": "ከዚህ Mix ይምረጡ",
+				"playlist": "ከዚህ የቪዲዮ ዝርዝር ይምረጡ",
+				"uploads": "ከዚህ ቻናል ሰቀላዎች ይምረጡ",
+				"watchLater": "ከ“በኋላ ይመልከቱ” ይምረጡ"
+			},
+			"title": {
+				"album": "ከዚህ አልበም ያውርዱ",
+				"liked": "ከወደዷቸው ቪዲዮዎች ያውርዱ",
+				"mix": "ከዚህ Mix ያውርዱ",
+				"playlist": "ከዚህ የቪዲዮ ዝርዝር ያውርዱ",
+				"uploads": "ከዚህ ቻናል ሰቀላዎች ያውርዱ",
+				"watchLater": "ከ“በኋላ ይመልከቱ” ያውርዱ"
+			},
+			"videoHint": "የከፈቱት ቪዲዮ ብቻ፣ ከ{{profileName}} ጋር። ዝርዝሩ አልተጫነም።",
+			"videoLabel": "ይህን ቪዲዮ ብቻ",
+			"videoPickHint": "የከፈቱትን ቪዲዮ ብቻ ያዋቅሩ። ዝርዝሩ አልተጫነም።",
+			"withProfile": "ከ{{profileName}} ጋር"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "ምዕራፍ ምልክቶች በማናቸውም ዘመናዊ ተጫዋች ሊሰሩ ይችላሉ።",
+				"label": "ምዕራፎች ክተት",
+				"short": "ምዕራፎች"
+			},
+			"embedMetadata": {
+				"description": "ርዕስ፣ አርቲስት፣ መግለጫ እና የቀን ቀን ወደ ፋይሉ ይፃፋሉ።",
+				"label": "ሜታዳታ ክተት",
+				"short": "ሜታዳታ"
+			},
+			"embedThumbnail": {
+				"description": "የሽፋን ስዕል ውስጥ ፋይሉ። WebM ቪዲዮ ወደ MKV ይቀየራል፤ ንዑስ ርዕሶቹ ሲካተቱ ይዘለሉ።",
+				"label": "ድንክ ምስል ክተት",
+				"short": "የሽፋን ስዕል"
+			},
+			"writeDescription": {
+				"description": "የቪዲዮ መግለጫን እንደ .description የጽሑፍ ፋይል ከዳውንሎዱ ጎን ያስቀምጣል።",
+				"label": "መግለጫ አስቀምጥ",
+				"short": "የመግለጫ ፋይል"
+			},
+			"writeM3u": {
+				"description": "ቪዲዮዎች በሚዲያ አጫዋች በቅደም ተከተል እንዲከፈቱ .m3u playlist ከእነሱ ጋር ያስቀምጣል።",
+				"label": ".m3u playlist ፋይል ፍጠር"
+			},
+			"writeThumbnail": {
+				"description": "ድንክ ምስሉን እንደ .jpg ምስል ፋይል ከዳውንሎዱ ጎን ያስቀምጣል።",
+				"label": "ድንክ ምስል አስቀምጥ",
+				"short": "የድንክ ምስል ፋይል"
+			}
+		},
+		"part": {
+			"calloutBody": "በቪዲዮ ካርዱ ላይ «ክፍል»ን ይምረጡ፤ መጀመሪያና መጨረሻ ወይም ምዕራፍ መርጠው ያንን ክፍል ብቻ ያውርዱ።",
+			"calloutTitle": "የቪዲዮውን ክፍል ብቻ ያውርዱ",
+			"chapterUntitled": "ምዕራፍ {{number}}",
+			"chapters": "ምዕራፎች",
+			"connectionsNote": "ክፍል የሚወርደው በffmpeg በኩል ነው፣ ስለዚህ የዳውንሎድ ግንኙነቶችዎ እና የጥያቄ እረፍት ቅንብሮች አይመለከቱትም።",
+			"downloadBlocked": "መጀመሪያ የክፍሉን መጀመሪያና መጨረሻ ያስተካክሉ።",
+			"end": "መጨረሻ",
+			"error": {
+				"endBeyondDuration": "ቪዲዮው የሚያበቃው በ{{duration}} ነው።",
+				"endInvalid": "መጨረሻውን እንደ h:mm:ss, m:ss ወይም ሰከንዶች ያስገቡ።",
+				"startInvalid": "መጀመሪያውን እንደ h:mm:ss, m:ss ወይም ሰከንዶች ያስገቡ።",
+				"startNotBeforeEnd": "መጀመሪያው ከመጨረሻው በፊት መሆን አለበት።"
+			},
+			"exactCut": {
+				"hint": "ጠፍቶ ሲሆን፦ እያንዳንዱ ቁረጣ በቅርቡ ባለው ቁልፍ ፍሬም ላይ ያርፋል፤ ይህም ከጻፉት ጊዜ ጥቂት ሰከንዶች ሊርቅ ይችላል።",
+				"label": "ትክክለኛ ቁረጣ (ዳግም ኮድ ያደርጋል፣ ቀርፋፋ)"
+			},
+			"length": "{{length}} ከ{{duration}}",
+			"part": "ክፍል",
+			"rangeLabel": "የቪዲዮው ክፍል",
+			"start": "መጀመሪያ",
+			"subtitlesFullLength": "ሙሉ ቪዲዮ",
+			"summary": "ክፍል {{start}}–{{end}}",
+			"switchLabel": "ከቪዲዮው ምን ያህል",
+			"timeHint": "h:mm:ss, m:ss ወይም ሰከንዶች",
+			"totalEstimate": "ክፍል፣ ግምት",
+			"unavailableDuration": "ይህ ቪዲዮ ርዝመቱን አይነግርም፣ ስለዚህ ሙሉውን ብቻ ማውረድ ይቻላል።",
+			"unavailableSubtitles": "ንዑስ ርዕሶች ሁልጊዜ ሙሉውን ቪዲዮ ይሸፍናሉ።",
+			"urlStart": "አገናኝዎ የሚጀምረው በ{{time}} ነው",
+			"useUrlStart": "እንደ መጀመሪያ ተጠቀም",
+			"whole": "ሙሉ ቪዲዮ",
+			"wholeTrack": "ሙሉ ትራክ"
+		},
+		"playlist": {
+			"allRemovedDescription": "ለመቀጠል መልሳቸው።",
+			"allRemovedTitle": "ሁሉም ንጥሎች ተወግደዋል",
+			"alreadyDownloaded": "ቀድሞ ወርዷል",
+			"bulkCappedDesc_one": "ተጨማሪ አለው። ስንት እንደሚወርድ ለመምረጥ አገናኙን ለብቻው ይለጥፉ።",
+			"bulkCappedDesc_other": "ተጨማሪ አላቸው። ስንት እንደሚወርድ ለመምረጥ እያንዳንዱን አገናኝ ለብቻው ይለጥፉ።",
+			"bulkCappedTitle_one": "“{{title}}” በ{{limit}} ቪዲዮዎች ተቆርጧል",
+			"bulkCappedTitle_other": "{{count}} ዝርዝሮች እያንዳንዳቸው በ{{limit}} ቪዲዮዎች ተቆርጠዋል",
+			"bulkHeading": "ብዙ URLዎች",
+			"bulkMetadataOptional": "መጠበቅ አያስፈልግም — አሁን ወደ ሰልፍ የገቡ ፋይሎች ሲወርዱ ትክክለኛ ስሞቻቸውን ያገኛሉ።",
+			"bulkMetadataResolving": "የቪዲዮ ዝርዝሮች በመ 가져오는 ላይ… {{done}}/{{total}}",
+			"bulkRowFailed": "ዝርዝሮች አይገኙም",
+			"bulkRowResolving": "ዝርዝሮች በመ 가져오는 ላይ",
+			"bulkRowWaiting": "በመጠባበቅ ላይ",
+			"durationUnknown": "ቀጥታ",
+			"heading": "የ Playlist ቪዲዮዎች",
+			"headingGeneric": "የሚወርዱ ቪዲዮዎች",
+			"itemCountAudio_one": "{{count}} ዘፈን",
+			"itemCountAudio_other": "{{count}} ዘፈኖች",
+			"itemCountBulk_one": "{{count}} አገናኝ",
+			"itemCountBulk_other": "{{count}} URLዎች",
+			"itemCount_one": "{{count}} ቪዲዮ",
+			"itemCount_other": "{{count}} ቪዲዮዎች",
+			"loadingItems": "Playlist እየጫኑ…",
+			"loadingItemsGeneric": "ቪዲዮዎችን በማምጣት ላይ…",
+			"loadingLimitHint": "ለመጀመሪያዎቹ {{count}} ንጥሎች ብቻ ተገድቧል",
+			"loadingPagesFound_one": "{{count}} ገጽ ተገኝቷል",
+			"loadingPagesFound_other": "{{count}} ገጾች ተገኝተዋል",
+			"loadingPhaseItems": "ቪዲዮዎችን በመሰብሰብ ላይ",
+			"loadingPhasePages": "የቻናል ገጾችን በመፈተሽ ላይ",
+			"multiProfileEntry": "ለእያንዳንዱ ንጥል መገለጫ መድብ",
+			"multiProfileEntryTooltip": "ጥራት፣ SponsorBlock፣ ውፅዓት እና አስቀምጥን ይዘላል — በምትኩ ለእያንዳንዱ ንጥል የማውረድ መገለጫ ይመድቡ",
+			"nestedPlaylistBadge": "የቪዲዮ ዝርዝር",
+			"nestedPlaylistHint_one": "ከእነዚህ ውስጥ {{count}} የቪዲዮ ዝርዝር ነው፣ ቪዲዮ አይደለም — ለማውረድ አገናኙን ብቻውን ይለጥፉ።",
+			"nestedPlaylistHint_other": "ከእነዚህ ውስጥ {{count}} የቪዲዮ ዝርዝሮች ናቸው፣ ቪዲዮዎች አይደሉም — ለማውረድ አገናኞቻቸውን አንድ በአንድ ይለጥፉ።",
+			"noSelection": "ለመቀጠል ቢያንስ አንድ ቪዲዮ ምረጥ",
+			"probeLimitAlertDesc": "Klip ከ {{count}} በላይ ንጥሎችን አግኝቷል፣ ስለዚህ የአሁኑ ቃኝት ገደብ የቀሩትን እየደበቀ ነው።",
+			"probeLimitAlertTitle": "የ Playlist ቃኝት ተገድቧል",
+			"probeLimitAlertTitleGeneric": "ፍተሻው ተገድቧል",
+			"rangeApply": "ክልል ተጠቀም",
+			"rangeFrom": "ከ",
+			"rangeTo": "እስከ",
+			"removeFromListCount_one": "{{count}} ከዝርዝሩ አስወግድ",
+			"removeFromListCount_other": "{{count}} ከዝርዝሩ አስወግድ",
+			"removedCount_one": "{{count}} ተወግደዋል",
+			"removedCount_other": "{{count}} ተወግደዋል",
+			"restore": "መልስ",
+			"selectAll": "ሁሉ ምረጥ",
+			"selectNone": "ምንም አትምረጥ",
+			"selectedCount_one": "{{count}} ተመርጧል",
+			"selectedCount_other": "{{count}} ተመርጠዋል",
+			"sortApi": "የቪዲዮ ዝርዝር ቅደም",
+			"sortFetchingDates": "የአፕሎድ ቀናት እየጫኑ…",
+			"sortLabel": "ደርድር",
+			"sortUploadAsc": "የቆዩት መጀመሪያ",
+			"sortUploadDesc": "አዳዲሶቹ መጀመሪያ",
+			"syncApply": "ማመሳሰልን ተግብር",
+			"syncChange": "ፎልደር ቀይር…",
+			"syncFoundDesc": "{{n}} ከእነዚህ ቪዲዮዎች በ{{dir}} ውስጥ ቀድሞውኑ አሉ። አዳዲሶቹን ብቻ ለማውረድ ይመሳሰል?",
+			"syncFoundTitle": "ቀድሞ በፎልደር ውስጥ",
+			"syncNoneDesc": "ከዚህ አጫዋች ዝርዝር ውስጥ ምንም ቪዲዮ በ{{dir}} ውስጥ አልተገኘም።",
+			"syncNoneDescGeneric": "ከዚህ ምንጭ የመጡ ቪዲዮዎች በ{{dir}} ውስጥ አልተገኙም።",
+			"syncNoneTitle": "እስካሁን ምንም አልወረደም",
+			"syncScanning": "ፎልደር በመፈተሽ ላይ…",
+			"thumbnailAlt": "የቪዲዮ ድንክ ምስል"
+		},
+		"playlistPresets": {
+			"heading": "ለቡድኑ ጥራት ይምረጡ",
+			"itemCount_one": "{{count}} ንጥል",
+			"itemCount_other": "{{count}} ንጥሎች",
+			"subhead": "እያንዳንዱ ቪዲዮ የተመረጠውን ደረጃ ራሱን ችሎ ይፈታል — የተለያዩ playlists ያለ ችግር ይሰራሉ።"
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "መገለጫ መድብ",
+			"assignTrigger_one": "ለ{{count}} ቪዲዮ መድብ",
+			"assignTrigger_other": "ለ{{count}} ቪዲዮዎች መድብ",
+			"columnDuration": "ቆይታ",
+			"columnProfile": "መገለጫ",
+			"editProfile": "{{name}}ን አርትዕ",
+			"empty": "ከዚህ ማጣሪያ ጋር የሚዛመድ ንጥል የለም",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "የመገለጫ ማጣሪያዎች",
+			"heading": "የማውረድ መገለጫዎችን መድብ",
+			"menuDescription_one": "ለዚህ ቪዲዮ መገለጫውን ይምረጡ።",
+			"menuDescription_other": "ለእነዚህ {{count}} ቪዲዮዎች መገለጫውን ይምረጡ።",
+			"selectedSummary": "ከ{{total}} ውስጥ {{selected}} ተመርጠዋል"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "አጠቃላይን ቀይር",
+				"chooseFolder": "የመድረሻ አቃፊ ይምረጡ",
+				"chooseIcon": "የመገለጫ አዶ ይምረጡ",
+				"removeLanguage": "{{code}} አስወግድ",
+				"reset": "መገለጫ ዳግም አስጀምር",
+				"resetDisabledHint": "ይህ መገለጫ አስቀድሞ አብሮገነብ ቅንብሮችን ይጠቀማል",
+				"resetHint": "አብሮገነብ የመገለጫ ቅንብሮችን ወደነበሩበት መልስ",
+				"save": "መገለጫ አስቀምጥ",
+				"setOverride": "የመገለጫ ተሻሪ አዘጋጅ",
+				"setOverrideShort": "ተሻሪ አዘጋጅ",
+				"useGlobalDefault": "አጠቃላይ ነባሪን ተጠቀም",
+				"useLanguageCode": "“{{code}}” የቋንቋ ኮድ ተጠቀም"
+			},
+			"advanced": "ከፍተኛ",
+			"appSetting": "የመተግበሪያውን ቅንብር ተጠቀም ({{value}})",
+			"audioFormat": {
+				"best": "ምርጥ",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "እስከ 128K",
+				"192": "እስከ 192K",
+				"320": "እስከ 320K",
+				"best": "ምርጥ ጥራት"
+			},
+			"defaultName": "አዲስ መገለጫ",
+			"destination": {
+				"defaultFolder": "ነባሪ የውርዶች አቃፊ",
+				"defaultFolderWithSubfolder": "ነባሪ የውርዶች አቃፊ / {{subfolder}}",
+				"global": "አጠቃላይ መድረሻ",
+				"globalActive": "ንቁ",
+				"globalInherited": "የተወረሰ",
+				"override": "የመገለጫ ተሻሪ",
+				"overrideChoosing": "አቃፊ ይምረጡ",
+				"overrideNone": "ተሻሪ አልተዘጋጀም",
+				"overrideNoneNote": "ተሻሪ አልተዘጋጀም። ይህ መገለጫ ከላይ ያለውን አጠቃላይ መድረሻ ይጠቀማል።",
+				"overrideSet": "አጠቃላዩን ይተካል",
+				"overrideSetNote": "ይህ መገለጫ ንዑስ አቃፊው ከመጨመሩ በፊት በራሱ ስር አቃፊ ያስቀምጣል።",
+				"resolved": "የመጨረሻ መድረሻ"
+			},
+			"dialogDescription": "ለፈጣን ማውረድ፣ ለጅምላ አድራሻዎች እና ለዝርዝሮች የሚያገለግል አንድ ተደጋጋሚ ቅንብር።",
+			"dialogTitle": "የማውረድ መገለጫ",
+			"error": {
+				"changeGlobalDestination": "አጠቃላይ መድረሻን መቀየር አልተቻለም።",
+				"folderPicker": "የአቃፊ መምረጫን መክፈት አልተቻለም። መንገዱን በእጅ ያስገቡ።",
+				"reset": "የመገለጫ ቅንብሮችን ዳግም ማስጀመር አልተቻለም።",
+				"save": "የመገለጫ ቅንብሮችን ማስቀመጥ አልተቻለም።"
+			},
+			"field": {
+				"delivery": "የማስቀመጫ መንገድ",
+				"fileType": "የፋይል አይነት",
+				"goal": "ቅድሚያ የሚሰጠው",
+				"icon": "የመገለጫ አዶ",
+				"languages": "ቋንቋዎች",
+				"name": "የመገለጫ ስም",
+				"nameAndIcon": "የመገለጫ ስም እና አዶ",
+				"nativeAudio": "የተፈጥሯዊ ድምፅ",
+				"overridePath": "የመገለጫ ተሻሪ መንገድ",
+				"quality": "ጥራት",
+				"resolution": "ጥራት መጠን",
+				"source": "ምንጭ",
+				"subfolderName": "የንዑስ አቃፊ ስም",
+				"subtitleDownloads": "የትርጉም ጽሑፍ ማውረዶች",
+				"subtitleDownloadsDescription": "መገለጫዎች የቋንቋ ኮዶችን ይጠይቃሉ፤ መገኘታቸው ለእያንዳንዱ URL ይወሰናል።"
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "በተመሳሳይ መጠን በጣም ጥርት ያለ። የቆዩ ቲቪዎች፣ QuickTime እና አንዳንድ አርታዒዎች ሊያጫውቱት አይችሉም።",
+					"name": "ምርጥ ምስል",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "በቲቪዎች፣ በስልኮች፣ በWhatsApp፣ በQuickTime እና በቪዲዮ አርታዒዎች ይጫወታል። YouTube H.264ን የሚያቀርበው እስከ 1080p ብቻ ነው።",
+					"name": "ስማርት TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "መዝገብ",
+				"audio": "ድምፅ",
+				"captions": "መግለጫ ጽሑፎች",
+				"classes": "ትምህርቶች",
+				"clip": "ቁራጭ",
+				"controls": "መቆጣጠሪያዎች",
+				"download": "ማውረድ",
+				"music": "ሙዚቃ",
+				"podcast": "ፖድካስት",
+				"video": "ቪዲዮ"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "ሙዚቃ ወይም ፖድካስት"
+				},
+				"subtitlesOnly": {
+					"description": "የመግለጫ ጽሑፍ ፋይሎች ብቻ"
+				},
+				"videoAudio": {
+					"description": "መደበኛ የቪዲዮ ፋይሎች"
+				},
+				"videoOnly": {
+					"description": "ድምፅ የሌለው ቪዲዮ ብቻ"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "ራስ-ሰር መግለጫ ጽሑፎች በASS ፋንታ በSRT ይቀመጣሉ።",
+				"noLanguageMatches": "የሚዛመድ ቋንቋ የለም",
+				"noSubtitles": "ለዚህ መገለጫ ምንም የትርጉም ጽሑፍ ፋይል ወይም የተካተተ የትርጉም ትራክ አይጠየቅም።",
+				"searchLanguages": "በቋንቋ ስም ወይም ኮድ ፈልግ",
+				"skippedForOutputType": "ለዚህ የውጤት ዓይነት ተዘሏል።",
+				"subtitleLanguagesRequired": "ቢያንስ አንድ ቋንቋ ይምረጡ።",
+				"subtitleLanguagesRequiredOrOff": "ቢያንስ አንድ ቋንቋ ይምረጡ፣ ወይም የትርጉም ጽሑፍ ማውረድን ያጥፉ።",
+				"subtitlesOnly": "ይህ መገለጫ የትርጉም ጽሑፍ ፋይሎችን ብቻ ወደ ወረፋ ያስገባል። ቪዲዮ፣ ድምፅ፣ SponsorBlock እና የሚዲያ ልወጣ ይዘለላሉ።"
+			},
+			"panel": {
+				"advanced": {
+					"description": "የመገለጫ ተሻሪ ካላዘጋጁ በስተቀር መገለጫዎች አጠቃላይ መድረሻውን ይወርሳሉ።",
+					"title": "የላቁ አማራጮች"
+				},
+				"downloadType": {
+					"description": "በዋናነት እንዴት ማውረድ እንደሚፈልጉ ይምረጡ።",
+					"title": "የማውረድ ዓይነት"
+				},
+				"identity": {
+					"description": "በፈጣን ማውረድ፣ በጅምላ አድራሻዎች እና በመገለጫ ዝርዝሮች ውስጥ የሚታዩ ስም እና አዶ።",
+					"title": "የመገለጫ ማንነት"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} ነቅቷል",
+					"enabledCount_other": "{{count}} ነቅቷል",
+					"title": "የውጤት አማራጮች"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "ለዚህ መገለጫ አቃፊ ይምረጡ"
+			},
+			"skipped": "ተዘሏል",
+			"sponsorBlockHint": {
+				"mark": "የስፖንሰር ክፍሎችን እንደ ምዕራፎች ምልክት ያደርጋል (ፋይሉን አይለውጥም)።",
+				"off": "SponsorBlock የለም — ቪዲዮው እንደተጫነ ይጫወታል።",
+				"remove": "በFFmpeg የስፖንሰር ክፍሎችን ከቪዲዮው ይቆርጣል።"
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "ራስ-ሰር የተፈጠሩ ብቻ",
+				"manualAndAuto": "በእጅ እና ራስ-ሰር",
+				"manualFirst": "መጀመሪያ በእጅ፣ ከዚያ ራስ-ሰር",
+				"manualOnly": "በእጅ ብቻ"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "{{label}} እገዛ"
+		},
+		"review": {
+			"areas": {
+				"extras": "ተጨማሪዎች",
+				"fileName": "የፋይል ስም",
+				"format": "ቅርጸት",
+				"saveTo": "አቃፊ",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "ንዑስ ርዕሶች"
+			},
+			"callout": {
+				"body": "ንዑስ ርዕሶች፣ SponsorBlock፣ እንደ ድንክ ምስል ያሉ ተጨማሪዎች፣ አቃፊ እና የፋይል ስም ቀደም ሲል የተለያዩ ደረጃዎች ነበሩ። ለመቀየር አንድ ረድፍ ጠቅ ያድርጉ።",
+				"title": "ሌሎቹ ቅንብሮች ሁሉ አሁን በዚህ ገጽ ላይ ናቸው"
+			},
+			"changeFormat": "ቅርጸት ቀይር",
+			"changed": "ከ{{profile}} ተቀይሯል፦ {{areas}}። ለዚህ ማውረድ ብቻ ይሠራል።",
+			"changedFrom": "ከ{{profile}} ተቀይሯል፦",
+			"nextTime": {
+				"action": "እንደ መገለጫ አስቀምጥ",
+				"defaultName": "{{profile}} (የተስተካከለ)",
+				"title": "ይህ ማውረድ የተስተካከሉ ቅንብሮችን ተጠቅሟል። ለሚቀጥለው ጊዜ ይጠቀሙባቸው?"
+			},
+			"reset": "ለውጦቹን ቀልብስ፣ ወደ “{{profile}}” ተመለስ",
+			"rows": {
+				"extras": "ተጨማሪዎች",
+				"fileName": "የፋይል ስም",
+				"saveTo": "አስቀምጥ ወደ",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "ንዑስ ርዕሶች"
+			},
+			"rowsHeading": "ሌላው ሁሉ",
+			"save": {
+				"action": "መገለጫ አስቀምጥ",
+				"description": "እነዚህን ቅንብሮች በሚቀጥለው ጊዜ መምረጥ የሚችሉት መገለጫ አድርጎ ያስቀምጣል። የፈጣን ማውረድ መገለጫዎ እንዳለ ይቆያል።",
+				"failed": "መገለጫውን ማስቀመጥ አልተቻለም።",
+				"nameLabel": "የመገለጫ ስም",
+				"saved": "እንደ መገለጫ “{{name}}” ተቀምጧል",
+				"title": "እንደ መገለጫ አስቀምጥ"
+			},
+			"saveAsProfile": "እንደ አዲስ መገለጫ አስቀምጥ",
+			"update": {
+				"action": "መገለጫ አዘምን",
+				"builtinNote": "ይህ አብሮገነብ መገለጫ ነው። የመጀመሪያ ቅንብሮቹን በመገለጫዎች ትር ውስጥ መመለስ ይችላሉ።",
+				"description": "ከአሁን ጀምሮ በዚህ መገለጫ የሚደረግ እያንዳንዱ ማውረድ አዲሶቹን ቅንብሮች ይጠቀማል።",
+				"rows": {
+					"format": "ቅርጸት"
+				},
+				"title": "“{{profile}}” ይዘመን?",
+				"updated": "መገለጫ “{{name}}” ተዘምኗል"
+			},
+			"updateProfile": "“{{profile}}”ን በእነዚህ ለውጦች አዘምን",
+			"value": {
+				"extrasNone": "ምንም",
+				"sponsorBlockOff": "ጠፍ",
+				"subtitlesOff": "ጠፍ"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "መሙያ",
+				"intro": "መግቢያ",
+				"music_offtopic": "ከርዕስ ውጭ ሙዚቃ",
+				"outro": "መዝጊያ",
+				"preview": "ቅድመ እይታ",
+				"selfpromo": "ራስን ማስተዋወቅ",
+				"sponsor": "ስፖንሰር"
+			},
+			"categoriesHeading": "ምድቦች",
+			"mode": {
+				"mark": "እንደ ምዕራፎች ምልክት አድርግ",
+				"off": "ጠፍ",
+				"remove": "ክፍሎችን አስወግድ"
+			},
+			"modeHeading": "ስፖንሰር ማጣሪያ",
+			"modeHint": {
+				"mark": "የስፖንሰር ክፍሎችን እንደ ምዕራፎች ምልክት ያደርጋል (አጥፊ ያልሆነ)።",
+				"off": "ምንም SponsorBlock የለም — ቪዲዮ እንደ ተሰቀለ ይጫወታል።",
+				"remove": "FFmpeg ተጠቅሞ የስፖንሰር ክፍሎችን ይቆርጣል።"
+			}
+		},
+		"steps": {
+			"confirm": "አረጋግጥ",
+			"folder": "አስቀምጥ",
+			"formats": "ቅርጸት",
+			"output": "ውፅዓት",
+			"playlistItems": "የቪዲዮ ዝርዝር",
+			"playlistItemsGeneric": "ቪዲዮዎች",
+			"playlistPresets": "ጥራት",
+			"playlistProfiles": "መገለጫዎች",
+			"review": "ግምገማ",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "ንዑስ ርዕሶች",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "ራስ-ሰር ስዕሎቹ እንደ ASS ሳይሆን SRT ሆነው ይቀመጣሉ — ከ YouTube ሩጫ-ፍንጮቹ ያለ ቅጂ ሁልጊዜ ይጸዳሉ።",
+			"autoBadge": "ራስ-ሰር",
+			"clearAll": "ሁሉ አጽዳ",
+			"embedNote": "ክተት ሁነታ ውፅዓቱን እንደ .mkv ያስቀምጣል ስለዚህ ንዑስ ርዕሶቹ አስተማማኝ ሆነው ይካተታሉ።",
+			"format": {
+				"heading": "ቅርጸት"
+			},
+			"noLanguages": "ለዚህ ቪዲዮ ምንም ንዑስ ርዕሶች የሉም",
+			"noMatches": "ምንም ቋንቋ አልተዛመደም",
+			"noSelected": "ምንም ንዑስ ርዕስ አልተመረጠም",
+			"removeLanguage": "{{name}} አስወግድ",
+			"saveMode": {
+				"embed": "ወደ ቪዲዮ ክተት",
+				"heading": "እንደ አስቀምጥ",
+				"sidecar": "ከቪዲዮው ጎን",
+				"sidecarNoVideo": "በውርዶች አቃፊ ውስጥ",
+				"subfolder": "subtitles/ ንዑስ አቃፊ"
+			},
+			"searchPlaceholder": "ቋንቋዎችን ፈልግ…",
+			"sectionAuto": "ራስ-ሰር ተፈጠረ",
+			"sectionManual": "እጅ ሰራ"
+		},
+		"tabsNavAria": "የማውረድ መገለጫ አሰሳ",
+		"url": {
+			"advanced": "ከፍተኛ",
+			"autoRemoveCompleted": {
+				"description": "ዳውንሎድ ከተጠናቀቀ ከጥቂት ሰከንዶች በኋላ ከዳውንሎዶች ዝርዝር ያስወግደዋል። ፋይሎቹ በአቃፊዎ ውስጥ ይቀራሉ፤ ያልተሳኩና የተሰረዙ ዳውንሎዶች በዝርዝሩ ውስጥ ይቆያሉ።",
+				"label": "የተጠናቀቁ ዳውንሎዶችን በራስ-ሰር አስወግድ"
+			},
+			"autoRetry": {
+				"description": "ከኔትወርክ ወይም ከሰርቨር ችግር በኋላ በራስ-ሰር እንደገና ይሞክራል፣ በእያንዳንዱ ሙከራ መካከል ረዘም ብሎ ይጠብቃል። በጣቢያው የታገዱ ዳውንሎዶች በራስ-ሰር አይሞከሩም።",
+				"label": "ያልተሳኩ ዳውንሎዶችን እንደገና ሞክር",
+				"unit": "ጊዜ"
+			},
+			"bulkButton": "ብዙ URLዎች",
+			"bulkTooltip": "ብዙ URLዎችን ያክሉ እና ወረፋ ውስጥ ያስገቡ።",
+			"clearAria": "URL አጽዳ",
+			"clipboard": {
+				"autofilledLink": "አገናኝ ከቅንጥብ ሰሌዳ ታክሏል",
+				"bulkHint": "ብዙ አገናኞች ተቀድተዋል — ለመጨመር «ብዙ URLዎች»ን ይጠቀሙ",
+				"dialog": {
+					"cancelButton": "ሰርዝ"
+				},
+				"noLink": "በቅጂ ሰሌዳ ላይ አገናኝ የለም",
+				"readFailed": "ቅጂ ሰሌዳውን ማንበብ አልተቻለም — በምትኩ አገናኙን በመስኩ ውስጥ ይለጥፉ",
+				"replacedLink": "በተቀዳው አገናኝ ተተክቷል",
+				"toggle": "ቅጂ ሰሌዳ ተቆጣጠር",
+				"toggleDescription": "YouTube አገናኝ ሲቀዱ የ URL መስክን በራስ ሞላ።",
+				"undo": "ቀልብስ"
+			},
+			"closeToTray": {
+				"toggle": "ሲዘጋ ወደ ትሬ ደብቅ",
+				"toggleDescription": "መስኮት ሲዘጋ ዳውንሎዶችን ዳራ ቀጥል።"
+			},
+			"concurrentDownloads": {
+				"description": "በተመሳሳይ ጊዜ ስንት የተሰለፉ ንጥሎች እንደሚወርዱ። ብዙ በአንድ ጊዜ ረጅም ሰልፍን ቶሎ ይጨርሳል፣ ነገር ግን ጣቢያው እንዲገድብዎ ዕድሉን ይጨምራል።",
+				"label": "በአንድ ጊዜ ዳውንሎዶች",
+				"unit": "ዳውንሎዶች"
+			},
+			"concurrentProbes": {
+				"description": "Klip ከመውረዳቸው በፊት በአንድ ጊዜ ለስንት አገናኞች ዝርዝር እንደሚያመጣ። ያነሰ ቁጥር ስራ የበዛባቸውን ግንኙነቶች ለሚከለክሉ ጣቢያዎች የተሻለ ነው። በበይነተገናኝ ማውረድ የከፈቱት አገናኝ ሁልጊዜ ቀድሞ ይሄዳል።",
+				"label": "በአንድ ጊዜ የሚፈተሹ አገናኞች",
+				"unit": "አገናኞች"
+			},
+			"cookies": {
+				"banWarning": "እንደ YouTube ያሉ ጣቢያዎች Cookies-ቸው እንደ Klip ባሉ የማውረጃ መሣሪያዎች የሚጠቀሙባቸውን መለያዎች ሊጠቁሙ — እና አንዳንድ ጊዜ ሊያግዱ — ይችላሉ። ከተቻለ የሚጣል መለያ ይጠቀሙ።",
+				"browserHelp": "Cookies ቀጥታ ከአሳሹ ያነባል። Chromium-ቤተሰብ አሳሾች ሲጠቀሙ አሳሹ ዝጋ።",
+				"browserLabel": "አሳሽ",
+				"browserPlaceholder": "አሳሽ ምረጥ…",
+				"choose": "ምረጥ…",
+				"clear": "አጽዳ",
+				"enabledButNoBrowser": "cookies ለመጠቀም አሳሽ ምረጥ",
+				"enabledButNoFile": "cookies ለመጠቀም ፋይል ምረጥ",
+				"exploreDisabled": "የዳሰሳ ትር ጠፍቷል፣ ስለዚህ ውርዶች የዳሰሳ መግቢያዎን አይጠቀሙም። ከታች ባለው የዳሰሳ ክፍል ውስጥ ያብሩት።",
+				"extensionChrome": "cookies.txt በቦታህ ላይ ሰበሰብ (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Cookies ፋይል",
+				"helpLink": "cookies ስዴት እንዴት ነው?",
+				"openExplore": "ዳሰሳን ክፈት",
+				"placeholder": "ምንም ፋይል አልተመረጠም",
+				"recommended": "የሚመከር",
+				"risk": "አደጋ: cookies.txt ለዚያ አሳሽ ሁሉንም የገቡ ስሬቶች ይዟል — ይጠብቁ።",
+				"sourceBrowser": "አሳሽ",
+				"sourceExplore": "የዳሰሳ መግቢያ",
+				"sourceFile": "ፋይል",
+				"sourceLabel": "የ Cookies ምንጭ",
+				"sourceOff": "ጠፍ",
+				"toggleDescription": "የራስዎ መለያ ሊመለከታቸው ለሚችላቸው ቪዲዮዎች፣ ለምሳሌ የግል ቪዲዮዎችዎ ይረዳል።"
+			},
+			"downloadConnections": {
+				"description": "የቪዲዮን በርካታ ክፍሎች በአንድ ጊዜ በማውረድ ትላልቅ ዳውንሎዶችን ያፋጥናል። ከፍ ያለ ዋጋ ጣቢያው እንዲገድብዎ ዕድሉን ይጨምራል።",
+				"label": "የዳውንሎድ ግንኙነቶች",
+				"unit": "ግንኙነቶች"
+			},
+			"downloadList": {
+				"album": "አልበሙን ያውርዱ…",
+				"liked": "የወደዷቸውን ቪዲዮዎች ያውርዱ…",
+				"mix": "Mixን ያውርዱ…",
+				"playlist": "የቪዲዮ ዝርዝሩን ያውርዱ…",
+				"uploads": "ሰቀላዎቹን ያውርዱ…",
+				"watchLater": "“በኋላ ይመልከቱ”ን ያውርዱ…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "ድምጽ ብቻ",
+					"subtitles": "ንዑስ ርዕሶች"
+				},
+				"anySite": {
+					"heading": "2000+ ጣቢያዎች",
+					"musicPlaylist": "የሙዚቃ playlists",
+					"video": "ቪዲዮዎች",
+					"videoPlaylist": "የቪዲዮ playlists"
+				},
+				"heading": "Klip ምን ሊያወርድ ይችላል",
+				"youtube": {
+					"channel": "ቻናሎች",
+					"heading": "YouTube",
+					"music": "ሙዚቃ",
+					"playlist": "የቪዲዮ ዝርዝሮች",
+					"podcast": "ፖድካስቶች",
+					"short": "Shorts",
+					"video": "ቪዲዮዎች"
+				}
+			},
+			"fetchFormatsTooltip": "ደረጃ-በደረጃ አጋዥ። ቅርጸት፣ ጥራት እና ሌሎችን ይምረጡ።",
+			"heading": "ከURL አውርድ",
+			"hotkey": {
+				"changeShortcut": "አቋራጩን ቀይር",
+				"conflict": "ይህ አቋራጭ በሌላ መተግበሪያ ተይዟል — ሌላ ይምረጡ።",
+				"globalLabel": "አለም አቀፍ አቋራጭ",
+				"recording": "ቁልፎችን ይታጠፉ…",
+				"reset": "ወደ ነባሪ መልስ",
+				"sectionDescription": "የተቀዱትን አገናኞች ከማንኛውም መተግበሪያ ያለ Klip መክፈት ያውርዱ።",
+				"sectionTitle": "አለም አቀፍ ፈጣን ቁልፍ",
+				"test": "ፈትሽ",
+				"toggle": "አለም አቀፍ ፈጣን ቁልፍ አንቃ",
+				"toggleDescriptionDetail": "በማንኛውም መተግበሪያ ውስጥ የቪዲዮ አገናኝ ይቅዱ እና አቋራጩን ይጫኑ፦ Klip መስኮቶችን ሳይቀይሩ ከነቃው መገለጫዎ ጋር ወደ ወረፋ ያስገባዋል። በቪዲዮ ዝርዝር ውስጥ ያለ ቪዲዮ አገናኝ ቪዲዮውን ያወርዳል።"
+			},
+			"interactiveDownload": "በይነተገናኝ ማውረድ",
+			"interactiveDownloadAsks": "በይነተገናኝ ማውረድ…",
+			"limitRate": {
+				"activeWarning": "ንቁ ማውረዶች አሁን ያላቸውን ገደብ ይይዛሉ። ለማስፈጸም አቁም + ቀጥል።",
+				"custom": "ብጁ…",
+				"customPlaceholder": "ለምሳሌ 750K ወይም 1.5M",
+				"description": "ለሚዲያ ማውረዶች ባንድዊድዝ ይገድቡ። ከታች ያለው የጥያቄ እረፍት ብዙ ጊዜ የበለጠ ጠንካራ መቆጣጠሪያ ነው።",
+				"invalid": "K ወይም M የሚከተለውን ቁጥር ይጠቀሙ (ለምሳሌ 500K, 1.5M)",
+				"label": "የማውረድ ፍጥነት ገደብ",
+				"off": "ጠፍቷል"
+			},
+			"mascotBusy": "በዳራ ዳውንሎድ እያደረጉ ነው… ብዙ ስራ አሰራ 😎",
+			"mascotCollection": "ፈጣን ማውረድ የተጫኑትን ንጥሎች {{profileName}} በመጠቀም ወደ ወረፋ ያስገባል። በይነተገናኝ ማውረድ መጀመሪያ ንጥሎችን እንዲመረምሩ ወይም እንዲመርጡ ያስችልዎታል።",
+			"mascotIdle": "አገናኝ ጣል፣ Klip እንዲያወርደው ተወው ✨",
+			"mascotSingle": "ፈጣን ማውረድ {{profileName}} በመጠቀም አንድ ማውረድ ይጀምራል። ለአንድ ጊዜ ለውጦች በይነተገናኝ ማውረድ ይጠቀሙ።",
+			"mascotVideoInList": "ይህ አገናኝ ቪዲዮውንና የያዘውን ዝርዝር ይጠቅሳል፦ ቪዲዮውን ብቻ ያውርዱ፣ ወይም ዝርዝሩን።",
+			"nativeAudioPreference": {
+				"compatible": "ተኳኋኝ ስቴሪዮ",
+				"description": "መገለጫ የተፈጥሯዊ ድምፅ ሲመርጥ ስቴሪዮ ወይም surround። መገለጫ ይህን ሊሽረው ይችላል።",
+				"label": "የተፈጥሯዊ ድምፅ ምርጫ",
+				"surround": "surround / Dolby ን ይመርጡ"
+			},
+			"networkPacing": {
+				"description": "Klip ጣቢያን ከልክ ያለፈ ጥያቄ እንዳያደርግ እያንዳንዱ ዳውንሎድ ላይ ትናንሽ መጠበቂያዎችን ያክላል። ዋጋዎች በሰከንድ ናቸው።",
+				"fields": {
+					"maxSleepInterval": "ሚዲያ ከመጀመሩ በፊት እረፍት: ከፍ.",
+					"sleepInterval": "ሚዲያ ከመጀመሩ በፊት እረፍት: ዝቅ.",
+					"sleepRequests": "ምርምሮች መካከል መጠበቂያ",
+					"sleepSubtitles": "ከንዑስ ጽሑፍ ፋይሎች በፊት ጠብቅ"
+				},
+				"heading": "ለዝቅ ያሉ ዳውንሎዶች",
+				"presetLabel": "Klip ምን ያህል ጥንቃቄ ያድርግ?",
+				"presets": {
+					"balanced": "ሚዛናዊ",
+					"careful": "ጥንቁቅ",
+					"custom": "ብጁ",
+					"off": "ጠፍ"
+				},
+				"summary": "መጠበቂያ: {{requests}} ምርምሮች መካከል፣ {{downloads}} ሚዲያ ከመጀመሩ በፊት፣ {{subtitles}} ንዑስ ርዕስ ፋይሎች በፊት።",
+				"tooltip": "እነዚህ ጥበቃዎች በእያንዳንዱ ዳውንሎድ ውስጥ ይከሰታሉ። በአንድ ጊዜ ስንት ዳውንሎዶች እንደሚሄዱ በ«በአንድ ጊዜ ዳውንሎዶች» ስር ለየብቻ ይዘጋጃል።",
+				"tooltips": {
+					"balanced": "ነባሪ። በጥያቄዎች መካከል እና ሚዲያ ከመጀመሩ በፊት አጫጭር እረፍቶችን ያክላል።",
+					"careful": "ለትልልቅ playlists ወይም ቶሎ ቶሎ ገደብ ለሚያጋጥማቸው አውታሮች ረዥም እረፍቶችን ያክላል።",
+					"custom": "የከፍተኛ ዳውንሎድ መቆጣጠሪያዎችን እራስዎ ያስተካክሉ።",
+					"off": "Klip ለሚዲያ እና ንዑስ ርዕሶች የሚያቆየውን ትንሽ መሰረታዊ እረፍት ብቻ ይጠቀማል።"
+				},
+				"units": {
+					"seconds": "ሰከንድ"
+				}
+			},
+			"openedLink": {
+				"added": "አገናኝ በKlip ተከፍቷል",
+				"replaced": "በKlip በተከፈተው አገናኝ ተተክቷል"
+			},
+			"pasteLink": "አገናኝ ይለጥፉ",
+			"placeholder": "https://www.youtube.com/watch?v=...",
+			"playlistProbeLimit": {
+				"current": "የአሁን ገደብ: {{count}} ንጥሎች",
+				"custom": "ብጁ…",
+				"customDialogCancel": "ሰርዝ",
+				"customDialogDescription": "ከ {{min}} እስከ {{max}} ሙሉ ቁጥር ይጠቀሙ።",
+				"customDialogSave": "ገደብ አስቀምጥ",
+				"customDialogTitle": "ብጁ የ Playlist ቃኝት ገደብ",
+				"customValue": "ብጁ: {{count}} ንጥሎች",
+				"description": "Klip playlist፣ ቻናል፣ ወይም የፍለጋ ውጤት ሲከፍት የሚጭነው ከፍተኛ ቁጥር።",
+				"invalid": "ከ1 እስከ 5000 ሙሉ ቁጥር ይጠቀሙ",
+				"label": "ሊቃኙ የ Playlist ንጥሎች",
+				"option": "{{count}} ንጥሎች"
+			},
+			"playlistScope": {
+				"appLimit": "የመተግበሪያውን ገደብ ተጠቀም፦ {{count}}",
+				"apply": "ተግብር",
+				"applyError": "ያንን የ Playlist ወሰን መተግበር አልተቻለም፦ {{message}}",
+				"applyReload": "ተግብር እና ዳግም ጫን",
+				"cancel": "ሰርዝ",
+				"change": "ቀይር",
+				"dialogDescription": "Klip ለዚህ playlist የሚጭነውን ይምረጡ።",
+				"dialogTitle": "የ Playlist ወሰን",
+				"emptyTitle": "በዚህ ወሰን ውስጥ ምንም ቪዲዮ የለም",
+				"first": "የመጀመሪያ",
+				"invalid": "ከ1 እስከ {{max}} ያሉ ሙሉ ቁጥሮችን ተጠቀም፤ ጅምሩ ከመጨረሻው አይበልጥ።",
+				"itemsLabel": "የሚጫኑ ንጥሎች",
+				"label": "የ Playlist ወሰን",
+				"range": "ክልል",
+				"reloading": "ዳግም እየተጫነ ነው...",
+				"reset": "ዳግም አስጀምር",
+				"summaryAppLimit": "የመጀመሪያዎቹን ንጥሎች ጫን፦ {{count}}",
+				"summaryFirst": "የመጀመሪያዎቹን ንጥሎች ጫን፦ {{count}}",
+				"summaryRange": "ንጥሎች {{from}}-{{to}} ጫን",
+				"to": "እስከ"
+			},
+			"profile": {
+				"activeLabel": "ንቁ መገለጫ",
+				"badgeBuiltIn": "አብሮገነብ",
+				"badgeCustom": "ብጁ",
+				"badgeDisabled": "የተደበቀ",
+				"badgeModified": "ተቀይሯል",
+				"builtinName": {
+					"audio-only": "ድምፅ ብቻ",
+					"balanced": "ሚዛናዊ 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "ምርጥ ጥራት",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "ዝቅተኛ ጥራት 144p",
+					"low-240": "አነስተኛ ዳታ 240p",
+					"mp4-1080": "ስማርት TV 1080p",
+					"mp4-480": "ስማርት TV 480p",
+					"mp4-720": "ስማርት TV 720p",
+					"small-file": "ትንሽ ፋይል 480p",
+					"subtitles-only": "ንዑስ ርዕሶች ብቻ"
+				},
+				"changeGlobalDestination": "አጠቃላይ መዳረሻ ቀይር",
+				"destinationDetail": {
+					"global": "አጠቃላይ መዳረሻ በመጠቀም",
+					"globalSubfolder": "አጠቃላይ መዳረሻ + የመገለጫ ንዑስ አቃፊ በመጠቀም",
+					"override": "የመገለጫ ተሻሪ በመጠቀም",
+					"overrideSubfolder": "የመገለጫ ተሻሪ + የመገለጫ ንዑስ አቃፊ በመጠቀም"
+				},
+				"destinationEditHint": "የሚቀመጥበትን ቦታ ለመቀየር መገለጫውን ያርትዑ።",
+				"destinationFallback": "መዳረሻ",
+				"edit": "አርትዕ",
+				"editActive": "ንቁ መገለጫ አርትዕ",
+				"enableHint": "የተደበቁ መገለጫዎች እዚህ ይቆያሉ ግን ከእያንዳንዱ መምረጫ ይጠፋሉ።",
+				"enableToggleAria": "መገለጫውን በመምረጫዎች ውስጥ አሳይ: {{profileName}}",
+				"lastEnabledHint": "ቢያንስ አንድ መገለጫ ያስቀምጡ።",
+				"manageProfiles": "መገለጫዎችን አስተዳድር",
+				"menuDescription": "ለፈጣን ማውረድ፣ ለብዙ URL-ዎች እና ለአጫዋች ዝርዝሮች ንቁውን መገለጫ ቀይር።",
+				"menuTitle": "መገለጫ ቀይር",
+				"movableProfile": "ተንቀሳቃሽ መገለጫ",
+				"moveCancelled": "ማንቀሳቀስ ተሰርዟል። {{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ይቆያል።",
+				"moveDropped": "{{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ተጥሏል።",
+				"moveHandleAria": "{{profileName}}ን አንቀሳቅስ",
+				"moveInstructions": "መገለጫን ለማንቀሳቀስ ስፔስ ወይም ኤንተር ይጫኑ፣ በቀስት ቁልፎች ያንቀሳቅሱት፣ ከዚያ ለመጣል እንደገና ስፔስ ወይም ኤንተር ይጫኑ። ለመሰረዝ ኤስኬፕ ይጫኑ።",
+				"moveOver": "{{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ነው።",
+				"movePickedUp": "{{profileName}} ተነሳ። ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ነው።",
+				"newProfile": "አዲስ መገለጫ",
+				"outputMissing": "ይህ መገለጫ ያልተዘጋጀ አቃፊ ውስጥ ያስቀምጣል። በመገለጫው ውስጥ አቃፊ ይምረጡ፣ ወይም ወደ ነባሪው ይመልሱት።",
+				"panelDescription": "እንደገና ሊጠቀሙባቸው የሚችሉ የማውረድ ቅንብሮችን ይፍጠሩ፣ ይምረጡ፣ ያርትዑ ወይም ያስወግዱ።",
+				"panelTitle": "የማውረድ መገለጫዎች",
+				"remove": "አስወግድ",
+				"reorderHint": "መገለጫን ለማንቀሳቀስ ይጎትቱት። እያንዳንዱ መገለጫ መምረጫ ይህን ቅደም ተከተል ይከተላል።",
+				"reset": "ዳግም አስጀምር",
+				"savesTo": "የሚቀመጥበት",
+				"switchAria": "የማውረጃ መገለጫ ቀይር፦ {{profileName}}",
+				"switchTitle": "የማውረጃ መገለጫ ቀይር"
+			},
+			"proxy": {
+				"clear": "አጽዳ",
+				"description": "ትራፊክን በፕሮክሲ አገልጋይ ያስተላልፉ።",
+				"label": "የፕሮክሲ አድራሻ",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "ፈጣን ማውረድ",
+			"quickDownloadTooltip": "{{profileName}} በመጠቀም ይወርዳል",
+			"quickFailed": "ይህን ማከል አልተቻለም፦ {{error}}",
+			"quickPrepareFailed": "የወረፋ ንጥል ማዘጋጀት አልተቻለም",
+			"quickPreparing": "በመዘጋጀት ላይ",
+			"quickProbeFailed": "መፈተሹ አልተሳካም",
+			"quickSingleOnly": "ለመጀመር የቪዲዮ፣ playlist፣ channel ወይም ፍለጋ URL ይለጥፉ።",
+			"reports": {
+				"toggle": "ስም-አልባ ምልክትና የማዋቀር ሪፖርቶችን መላክ",
+				"toggleDescription": "ክትትል የለም። በቀን አንድ ጊዜ ስም-አልባ ምልክት የመተግበሪያውን ስሪት፣ የመጫኛ ቻናል፣ OS፣ ቋንቋ፣ ሀገር እና Klip ከተጫነ ወዲህ በግምት ምን ያህል ጊዜ እንደሆነ ይልካል፤ ንቁና አዲስ ተጠቃሚዎችን ለመቁጠር። Klip የማውረጃ ሞተሩን ወይም የሚዲያ መሣሪያዎችን ሲያዋቅር ወይም ሲያዘምን፣ ስኬታማ መሆን አለመሆኑንና በግምት ምን ያህል ጊዜ እንደወሰደ ያሳውቃል። ምንም መታወቂያ፣ URL፣ የቪዲዮ ርዕሶች ወይም የፋይል ስሞች የሉም።"
+			},
+			"settings": {
+				"behaviorDescription": "ከመገለጫዎች ጋር የሙመና ዳውንሎዶችን የሚጨብጥ ዓለም አቀሚ ባህሪ.",
+				"behaviorHeading": "የዳውንሎድ ባህሪ",
+				"inputHeading": "ግብዓት"
+			},
+			"style": {
+				"aurora": {
+					"description": "በሚንቀሳቀስ ሰማይ ላይ የመስታወት ፓነሎች። የግራፊክስ ማፍጠኛ ያስፈልጋል።",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "ጠንካራና ጸጥ ያሉ ገጽታዎች። በማንኛውም ኮምፒውተር ላይ ቀላል ሆኖ ይሰራል።",
+					"label": "ቀላል"
+				},
+				"modeDescription": "ሁለቱም ዘይቤዎች በብርሃን እና በጨለማ ይገኛሉ።",
+				"modeLabel": "ዘይቤ",
+				"panelDescription": "Klip እንዴት እንደሚታይ። በግርጌው ውስጥ በብርሃን እና በጨለማ መካከል ይቀያይሩ።",
+				"panelTitle": "ገጽታ",
+				"unavailableNotice": "{{style}} የግራፊክስ ማፍጠኛ ያስፈልገዋል፣ እሱ ግን አሁን አይገኝም። ስለዚህ Klip {{fallback}}ን እያሳየ ነው።"
+			},
+			"tabs": {
+				"profiles": "መገለጫዎች",
+				"settings": "ቅንብሮች"
+			},
+			"thisVideo": "ይህ ቪዲዮ",
+			"thisVideoTooltip": "ይህን ቪዲዮ ብቻ በ{{profileName}} ያወርዳል"
+		}
+	}
+}

@@ -1,0 +1,1763 @@
+{
+	"about": {
+		"button": "Giới thiệu",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Xem thông báo bên thứ ba",
+		"websiteLink": "Trang web"
+	},
+	"aiUpscaled": {
+		"allow": "Cho phép",
+		"allowedSummary": "Cho phép nâng cấp bằng AI",
+		"description": "YouTube cung cấp một số video cũ ở các kích thước được tạo bằng AI. Bỏ qua sẽ giữ các luồng gốc; bạn vẫn có thể tự chọn một luồng đã nâng cấp.",
+		"label": "Luồng nâng cấp bằng AI",
+		"skip": "Bỏ qua"
+	},
+	"app": {
+		"feedback": "Phản hồi",
+		"feedbackNudge": "Bạn thích Klip không? Tôi rất muốn nghe ý kiến của bạn! 💬",
+		"logs": "Nhật ký",
+		"saveDiagnostics": "Lưu tệp chẩn đoán",
+		"saveDiagnosticsDescription": "Gom nhật ký và thông tin ứng dụng vào một tệp trong thư mục Tải xuống, sẵn sàng đính kèm vào issue trên GitHub. Tên thư mục người dùng của bạn sẽ được xóa; liên kết và tiêu đề video vẫn được giữ lại.",
+		"styleHint": "Mới: chọn Aurora hoặc Tối giản tại đây",
+		"theme": "Giao diện",
+		"zoomIn": "Phóng to",
+		"zoomOut": "Thu nhỏ"
+	},
+	"common": {
+		"back": "Quay lại",
+		"cancel": "Hủy",
+		"close": "Đóng",
+		"continue": "Tiếp tục",
+		"loading": "Đang tải…",
+		"retry": "Thử lại",
+		"startOver": "Bắt đầu lại"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip vẫn tiếp tục chạy và hoàn thành các tải xuống đang hoạt động. Thay đổi điều này sau trong cài đặt Nâng cao.",
+			"hide": "Ẩn xuống khay",
+			"message": "Ẩn Klip xuống khay hệ thống khi đóng?",
+			"quit": "Thoát",
+			"remember": "Không hỏi lại"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Hàng đợi của bạn được giữ nguyên, và các lượt tải sẽ tiếp tục từ chỗ đã dừng vào lần tới bạn mở Klip.",
+			"keep": "Tiếp tục tải xuống",
+			"message_other": "{{count}} tải xuống đang tiến hành",
+			"quit": "Thoát"
+		},
+		"rendererCrashed": {
+			"detail": "Tiến trình renderer bị crash ({{reason}}). Tải lại để thử lại.",
+			"message": "Klip đã gặp sự cố",
+			"quit": "Thoát",
+			"reload": "Tải lại"
+		}
+	},
+	"donate": {
+		"copied": "Đã sao chép!",
+		"copyAddress": "Sao chép địa chỉ",
+		"description": "Klip miễn phí và mã nguồn mở, không quảng cáo, không gói trả phí. Quyên góp là tùy chọn và không mang lại ảnh hưởng đến lộ trình phát triển.",
+		"footerLabel": "Ủng hộ",
+		"footerTooltip": "Ủng hộ Klip",
+		"qrAlt": "Mã QR địa chỉ quyên góp {{coin}}",
+		"title": "Ủng hộ Klip",
+		"warning": "Thanh toán bằng tiền mã hóa không thể hoàn lại. Chỉ gửi qua mạng được hiển thị và so sánh toàn bộ địa chỉ."
+	},
+	"errors": {
+		"noSubtitlesIn": "Video này không có phụ đề bằng {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Video này bị giới hạn độ tuổi và không thể tải xuống nếu không có tài khoản đã đăng nhập.",
+			"botBlock": "Cơ chế chống bot của trang web đã chặn lượt tải này. Hãy chờ một lúc rồi thử lại, hoặc tải ít video cùng lúc hơn. Nếu vẫn thất bại, đây có thể là thay đổi tạm thời từ phía trang web — Klip cập nhật bộ máy tải xuống khi khởi động, vì vậy bản sửa lỗi sẽ tự động áp dụng ngay khi được phát hành.",
+			"chunkTransferFailure": "Máy chủ liên tục ngắt kết nối giữa chừng và Klip đã bỏ cuộc sau nhiều lần thử lại. Lỗi này thường xảy ra với các định dạng video lớn nhất (4K HDR / VP9 bitrate cao). Hãy thử lại, đổi mạng/VPN, hoặc chọn định dạng độ phân giải thấp hơn.",
+			"drmProtected": "Video này được bảo vệ bởi DRM. Klip không thể gỡ DRM, vì vậy tệp không thể được tải xuống.",
+			"formatUnavailable": "Video này không còn cung cấp định dạng bạn đã chọn. Hãy dán lại liên kết và chọn từ các định dạng hiện có.",
+			"geoBlocked": "Video này không có sẵn ở khu vực của bạn.",
+			"ipBlock": "Trang web đang chặn các yêu cầu từ kết nối này. Hãy thử lại sau.",
+			"loginRequired": "Video này cần một tài khoản đã đăng nhập.",
+			"missingDependency": "Klip không tìm thấy FFmpeg hoặc FFprobe. Hãy chạy lại thiết lập hoặc chọn vị trí FFmpeg, rồi thử tải lại.",
+			"network": "Lỗi mạng. Hãy kiểm tra kết nối và thử lại.",
+			"noSubtitles": "Video này không có phụ đề bằng các ngôn ngữ đã yêu cầu.",
+			"outOfDiskSpace": "Không đủ dung lượng đĩa. Hãy giải phóng dung lượng rồi thử lại.",
+			"outputNotWritable": "Klip không thể ghi vào thư mục tải xuống. Thư mục có thể chỉ cho phép đọc, nằm trên ổ đĩa bị khóa, hoặc bị chặn bởi cài đặt quyền riêng tư của hệ thống. Hãy chọn thư mục khác hoặc cho phép truy cập rồi thử lại.",
+			"parse": "Không thể phân tích phản hồi từ trang web. Trang web có thể đã thay đổi cách cung cấp video. Klip cập nhật bộ máy tải xuống khi khởi động — hãy thử lại sau vài phút khi bản sửa lỗi được phát hành.",
+			"postprocessFailure": "Đã tải xong nhưng quá trình xử lý hậu kỳ (gộp / mux / chuyển đổi) bị lỗi. Thường đây là sự cố tạm thời của ffmpeg — hãy thử lại, và nếu vẫn lỗi thì thử một tổ hợp định dạng khác.",
+			"rateLimit": "Trang web đang giới hạn yêu cầu từ kết nối này.",
+			"unavailable": "Video này không khả dụng — có thể là riêng tư, đã bị xóa hoặc bị chặn theo khu vực.",
+			"unknown": "Tải xuống thất bại. Xem đầu ra thô bên dưới.",
+			"unsupportedUrl": "Klip không hỗ trợ URL này. Hãy thử liên kết từ một trang web khác."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Hãy kiểm tra kết nối của bạn rồi thử lại.",
+			"loadTitle": "Trang này không tải được",
+			"openSettings": "Mở Cài đặt",
+			"proxyBody": "Hãy kiểm tra proxy trong Cài đặt rồi thử lại.",
+			"proxyTitle": "Tab Khám phá không thể kết nối qua proxy của bạn",
+			"retry": "Thử lại"
+		},
+		"linkCallout": {
+			"body": "Nhấp chuột phải vào bất kỳ liên kết video, danh sách phát hoặc kênh nào trên trang để tải xuống bằng hồ sơ đang dùng, chọn hồ sơ khác hoặc mở Tải tương tác.",
+			"title": "Nhấp chuột phải vào liên kết để tải xuống"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Tải album ở chế độ nền",
+				"liked": "Tải video đã thích của bạn ở chế độ nền",
+				"mix": "Tải Mix ở chế độ nền",
+				"playlist": "Tải danh sách phát ở chế độ nền",
+				"uploads": "Tải các video đã tải lên ở chế độ nền",
+				"watchLater": "Tải Xem sau ở chế độ nền"
+			},
+			"copyLink": "Sao chép liên kết",
+			"downloadFirst": "Tải {{count}} video đầu",
+			"downloadThisVideo": "Tải video này · {{profileName}}",
+			"downloadWith": "Tải xuống với",
+			"fromList": {
+				"album": "Từ album này",
+				"liked": "Từ video đã thích của bạn",
+				"mix": "Từ Mix này",
+				"playlist": "Từ danh sách phát này",
+				"uploads": "Từ video đã tải lên của kênh này",
+				"watchLater": "Từ Xem sau"
+			},
+			"interactive": "Tải tương tác…",
+			"thisVideoWith": "Tải video này với"
+		},
+		"newBadge": "Mới",
+		"notice": {
+			"body": "Tìm video trên YouTube hoặc bất kỳ trang nào khác và tải xuống ngay tại đây — không cần sao chép liên kết. Đăng nhập vào trang tại đây để tải các video cần tài khoản.",
+			"continue": "Tiếp tục",
+			"riskBody": "Các trang như YouTube có thể gắn cờ — và đôi khi cấm — các tài khoản dùng với công cụ tải xuống như Klip. Hãy dùng tài khoản bạn có thể chấp nhận mất, không phải tài khoản chính.",
+			"riskTitle": "Đăng nhập bằng tài khoản phụ",
+			"title": "Duyệt web ngay trong Klip"
+		},
+		"nudge": {
+			"browser": "Tải xuống dùng cookies của trình duyệt, không dùng đăng nhập Khám phá của bạn.",
+			"file": "Tải xuống dùng tệp cookies của bạn, không dùng đăng nhập Khám phá.",
+			"notNow": "Để sau",
+			"off": "Cookies đang tắt nên tải xuống không dùng đăng nhập Khám phá của bạn.",
+			"useExplore": "Dùng đăng nhập Khám phá"
+		},
+		"settings": {
+			"description": "Duyệt YouTube hoặc bất kỳ trang nào khác trong Klip và đăng nhập để xem các video cần tài khoản.",
+			"idleUnload": "Giải phóng bộ nhớ khi vắng mặt",
+			"idleUnloadDescription": "Sau 5 phút ở thẻ khác, đóng trang chủ hoặc trang tìm kiếm YouTube. Khi quay lại, trang sẽ tải lại, mất vài giây.",
+			"searchEngine": "Công cụ tìm kiếm",
+			"searchEngineDescription": "Văn bản nhập vào thanh địa chỉ sẽ được tìm bằng công cụ này. Liên kết được mở đúng như đã nhập.",
+			"showTab": "Hiện tab Khám phá",
+			"showTabDescription": "Tắt tab này cũng khiến tải xuống ngừng dùng đăng nhập Khám phá của bạn.",
+			"signOut": "Đăng xuất khỏi Khám phá",
+			"signOutConfirm": "Đăng xuất",
+			"signOutConfirmBody": "Thao tác này xóa các lượt đăng nhập và dữ liệu duyệt web của bạn trong Khám phá, trên mọi trang. Các lượt tải cần tài khoản sẽ thất bại cho đến khi bạn đăng nhập lại.",
+			"signOutConfirmTitle": "Đăng xuất khỏi Khám phá?",
+			"signOutDescription": "Xóa các lượt đăng nhập và dữ liệu duyệt web của bạn trong Khám phá, trên mọi trang.",
+			"title": "Khám phá"
+		},
+		"tabLabel": "Khám phá",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube có thể chống lại trình chặn quảng cáo với các tài khoản đã đăng nhập.",
+				"aria": "Trình chặn quảng cáo",
+				"off": "Trình chặn quảng cáo: tắt — nhấp để bật",
+				"on": "Trình chặn quảng cáo: bật — nhấp để tắt",
+				"starting": "Trình chặn quảng cáo: đang khởi động — nhấp để tắt",
+				"unavailable": "Trình chặn quảng cáo: không khả dụng, không tải được danh sách bộ lọc — nhấp để tắt"
+			},
+			"addressAria": "Địa chỉ",
+			"addressPlaceholder": "Tìm bằng {{engine}} hoặc mở bất kỳ trang web nào (Vimeo, Instagram…)",
+			"aria": "Điều khiển trình duyệt Khám phá",
+			"back": "Quay lại",
+			"compactLayout": "Bố cục thu gọn",
+			"download": "Tải xuống",
+			"downloadWithProfile": "Tải xuống · {{profileName}}",
+			"forward": "Tiến tới",
+			"fullLayout": "Hiện bố cục đầy đủ",
+			"grabUnavailable": "Mở một video, danh sách phát hoặc kênh để tải xuống",
+			"home": "Trang chủ YouTube",
+			"interactiveHint": "Tải tương tác: chọn định dạng, phụ đề và hơn thế…",
+			"refusedHint": "Tab Khám phá không thể mở địa chỉ đó.",
+			"reload": "Tải lại",
+			"searchTooLong": "Cụm tìm kiếm quá dài.",
+			"thisVideo": "Video này",
+			"thisVideoHint": "Chỉ tải video này với {{profileName}}",
+			"zoom": {
+				"hint": "Thu phóng trang: {{percent}}%",
+				"in": "Phóng to",
+				"label": "Thu phóng trang",
+				"out": "Thu nhỏ",
+				"percent": "Phần trăm thu phóng",
+				"reset": "Đặt lại thu phóng về 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Tự động",
+		"autoValue": "Tự động (.{{ext}})",
+		"description": {
+			"auto": "Các luồng đã chọn quyết định loại tệp.",
+			"mkv": "Chứa được mọi codec. Một số TV và điện thoại không mở được.",
+			"mp4": "Phát được trên hầu hết mọi nơi. VP9 trong MP4 sẽ không phát được hình trong QuickTime.",
+			"webm": "Định dạng mở cho trình duyệt. Chỉ chứa VP9 hoặc AV1 với Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 trong MP4 cần Mac đời mới để phát trong QuickTime. H.264 phát được ở mọi nơi.",
+		"mp4CaveatVp9": "VP9 trong MP4 sẽ không phát được hình trong QuickTime. H.264 phát được ở mọi nơi.",
+		"profileMark": "Hồ sơ",
+		"smartTvNoWebm": "WebM không có cho TV thông minh: nó không chứa được H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM không chứa được {{codec}}. Hãy chọn MKV hoặc MP4."
+	},
+	"filenameTemplate": {
+		"description": "Chọn cách đặt tên tệp đã tải. Nhấp vào một token để chèn. Dùng / để sắp xếp tệp tải về vào các thư mục.",
+		"error": {
+			"empty": "Hãy nhập mẫu tên tệp.",
+			"empty-segment": "Bỏ dấu / thừa — mỗi thư mục đều cần một tên.",
+			"forbidden-char": "Bỏ các ký tự không được phép trong tên tệp: \\ : * ? \" < > |",
+			"invalid-segment": "Tên thư mục đó không được phép. Tránh . và .. cùng các tên dành riêng như CON.",
+			"no-unique-token": "Thêm {title} hoặc {id} vào tên tệp để mỗi lần tải có tên riêng.",
+			"resolution-in-dir": "{resolution} không thể đặt tên thư mục — chỉ biết chất lượng khi bắt đầu tải.",
+			"stray-brace": "{ hoặc } chưa đóng — hãy viết thẻ như {title}.",
+			"too-long": "Mẫu quá dài.",
+			"unknown-token": "Thẻ không xác định {{token}}."
+		},
+		"idEndingWarning": "Hãy kết thúc tên bằng [{id}] để Klip nhận biết các mục danh sách phát đã tải và tạo danh sách phát .m3u.",
+		"label": "Mẫu tên tệp",
+		"m3uDisabledIdEnding": "Không khả dụng vì mẫu tên tệp của bạn không kết thúc bằng [{id}] hoặc phân loại các lượt tải vào thư mục.",
+		"previewPlaylist": "Trong danh sách phát",
+		"previewSingle": "Video đơn",
+		"profileOverrideDescription": "Để trống để dùng mẫu chung.",
+		"profileOverrideLabel": "Mẫu tên tệp"
+	},
+	"formatLabel": {
+		"audioFallback": "Âm thanh",
+		"audioOnlyDot": "Chỉ âm thanh · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Tự động",
+		"description": "Tự động sẽ chọn HDR khi màn hình này hiển thị được HDR, nếu không thì chọn SDR. HDR trông bị nhạt trên màn hình thông thường.",
+		"hdr": "HDR",
+		"label": "Video HDR",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Ngôn ngữ"
+	},
+	"notifications": {
+		"exploreSignInRetrying_other": "Đã đăng nhập qua Khám phá — đang thử lại {{count}} liên kết",
+		"exploreSignOutFailed": "Không thể đăng xuất khỏi Khám phá. Hãy thử lại.",
+		"filenameFolderTooDeep": "Thư mục này quá sâu đối với hệ thống của bạn. Việc tải xuống vẫn có thể thất bại — hãy chọn thư mục ngắn hơn.",
+		"filenameTemplateCannotFit": "Tên video này không vừa với mọi phần trong mẫu của bạn, nên tên mặc định đã được dùng.",
+		"folderSelectFailed": "Không thể mở trình chọn thư mục.",
+		"hotkey": {
+			"alreadyQueued": "Đã có trong hàng đợi — không thêm bản sao",
+			"cookiesSetup": "Hãy hoàn tất thiết lập cookie trong Klip rồi thử lại",
+			"invalidClipboard": "Không có liên kết nào trong bảng nhớ tạm — hãy sao chép một liên kết trước",
+			"multipleUrls": "Đã sao chép nhiều liên kết — dùng “URL hàng loạt” trong Klip",
+			"needsReview": "Liên kết này cần bạn chọn — xem mục Tải xuống trong Klip",
+			"queued": "Đã thêm tải xuống từ bảng nhớ tạm",
+			"submissionFailed": "Không thể thêm liên kết đó — thử lại trong Klip"
+		},
+		"playlistFolderRejected": "Không thể dùng thư mục đó cho danh sách phát này.",
+		"queue": {
+			"skippedAlreadyQueued_other": "{{count}} video đã có trong hàng đợi — đã bỏ qua"
+		},
+		"quickDownload": {
+			"added": "Đã thêm: {{title}}",
+			"alreadyQueued": "Đã có trong hàng đợi",
+			"batchAdded_other": "Đã thêm {{count}} liên kết vào Tải xuống",
+			"batchAlreadyQueued_other": "{{count}} đã có trong hàng đợi",
+			"batchNoneAdded_other": "Không thể thêm {{count}} liên kết",
+			"batchNotAdded_other": "Không thể thêm {{count}}",
+			"chooseFromList_other": "Danh sách này có {{count}} video — hãy chọn video cần tải",
+			"chooseHowMany_other": "{{count}}+ video — chọn số lượng",
+			"failed": "Không thể chuẩn bị {{title}}",
+			"notAdded": "Không thể thêm liên kết này — hãy thử lại",
+			"view": "Xem"
+		},
+		"settingsSaveFailed": "Không thể lưu cài đặt của bạn.",
+		"shellActionFailed": "Không thể mở mục đó.",
+		"warmupFailed": "Thiết lập chưa hoàn tất. Một số lượt tải xuống có thể thất bại cho đến khi hoàn tất."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Âm thanh (tốt nhất)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Âm thanh ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Âm thanh gốc tốt nhất, không mã hóa lại",
+			"m4a": "Chuyển sang M4A (AAC)",
+			"mp3": "Chuyển sang MP3",
+			"opus": "Chuyển sang Opus"
+		},
+		"mp4Cap": "H.264 trên 1080p không có trên YouTube — tự động giới hạn ở 1080p",
+		"subtitles": {
+			"deliveryHeading": "Lưu dưới dạng",
+			"deliveryLoose": "Trực tiếp trong thư mục lưu",
+			"languages": "Ngôn ngữ",
+			"languagesRequired": "Chọn ít nhất một ngôn ngữ để tiếp tục.",
+			"note": "Chỉ lưu các tệp phụ đề cho mỗi video — không tải xuống video hay âm thanh.",
+			"source": "Nguồn"
+		},
+		"tier": {
+			"144": "Tối đa 144p",
+			"240": "Tối đa 240p",
+			"360": "Tối đa 360p",
+			"480": "Tối đa 480p",
+			"720": "Tối đa 720p",
+			"1080": "Tối đa 1080p",
+			"1440": "Tối đa 1440p",
+			"2160": "Tối đa 4K",
+			"best": "Chất lượng tốt nhất"
+		},
+		"tierDesc": {
+			"144": "Tệp nhỏ nhất có thể",
+			"240": "Tệp rất nhỏ, chất lượng thấp",
+			"360": "Tệp nhỏ cho băng thông hạn chế",
+			"480": "Băng thông thấp",
+			"720": "Tệp nhỏ hơn, tương thích rộng",
+			"1080": "Giới hạn 1080p, hạ xuống theo từng mục nếu cần",
+			"1440": "Giới hạn 2K, hạ xuống theo từng mục nếu cần",
+			"2160": "Giới hạn 2160p, hạ xuống theo từng mục nếu cần",
+			"best": "Video + âm thanh tốt nhất có sẵn cho từng mục"
+		},
+		"type": {
+			"audio": "Âm thanh",
+			"subtitles": "Phụ đề",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Định dạng gốc tốt nhất",
+			"mp4": "TV thông minh H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "Codec cao nhất có sẵn cho từng mục",
+			"mp4": "Ưu tiên H.264 + AAC, vùng chứa MP4 · cố gắng tốt nhất"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Tệp đi kèm",
+			"description": "Mô tả",
+			"media": "Phương tiện",
+			"missing": "Thiếu",
+			"subtitle": "Phụ đề",
+			"thumbnail": "Hình thu nhỏ",
+			"unknown": "Tệp"
+		},
+		"attentionBadge_other": "{{count}} lượt tải cần bạn chú ý",
+		"autoRemoveCompleted": {
+			"hint": "Gỡ từng mục tải xuống khỏi danh sách vài giây sau khi hoàn tất. Tệp vẫn nằm trong thư mục của bạn.",
+			"label": "Tự xóa khi xong"
+		},
+		"cancelAllTitle": "Hủy tất cả các tải xuống đang hoạt động và đang chờ",
+		"choice": {
+			"all": "Tất cả video",
+			"cappedBody_other": "Danh sách phát này có hơn {{count}} video. Hãy tải tất cả, {{count}} video đầu tiên, hoặc xem lại để tự chọn.",
+			"first": "{{count}} video đầu",
+			"list": {
+				"album": "Album",
+				"liked": "Video đã thích",
+				"mix": "Mix",
+				"playlist": "Danh sách phát",
+				"uploads": "Tất cả video đã tải lên",
+				"watchLater": "Xem sau"
+			},
+			"pick": "Chọn từ đó…",
+			"review": "Xem lại",
+			"uncappedBody_other": "Liên kết này là một danh sách {{count}} video. Hãy tải tất cả, hoặc xem lại để tự chọn.",
+			"video": "Video này",
+			"videoOrList": {
+				"album": "Liên kết này là một video trong album. Chỉ tải video, hay tải cả album?",
+				"liked": "Liên kết này là một video trong danh sách video đã thích của bạn. Chỉ tải video, hay tải tất cả video đã thích?",
+				"mix": "Liên kết này là một video trong Mix. Chỉ tải video, hay tải cả Mix?",
+				"playlist": "Liên kết này là một video trong danh sách phát. Chỉ tải video, hay tải cả danh sách phát?",
+				"uploads": "Liên kết này là một video trong các video đã tải lên của một kênh. Chỉ tải video, hay tải tất cả video đã tải lên?",
+				"watchLater": "Liên kết này là một video trong danh sách Xem sau của bạn. Chỉ tải video, hay tải cả danh sách?"
+			}
+		},
+		"clearTitle": "Xóa các tải xuống đã hoàn tất",
+		"empty": "Các lượt tải đã xếp hàng sẽ xuất hiện ở đây",
+		"filterAll": "Tất cả",
+		"filtersLabel": "Bộ lọc trạng thái hàng đợi",
+		"globalActionsLabel": "Tất cả mục",
+		"header": "Tải xuống",
+		"item": {
+			"audioKept": "Không xóa được âm thanh",
+			"audioKeptSubtitlesFailed": "Không xóa được âm thanh · một số phụ đề bị lỗi",
+			"cancel": "Hủy",
+			"defaultError": "Tải xuống thất bại",
+			"openDestinationFolder": "Mở thư mục đích",
+			"pause": "Tạm dừng",
+			"pendingOnly": "Chỉ mục đang chờ",
+			"pullNow": "Tải ngay — bỏ qua hàng đợi",
+			"qualityLimited": "Giới hạn ở {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Giới hạn ở {{height}}p · một số phụ đề bị lỗi",
+			"remove": "Xóa",
+			"resume": "Tiếp tục",
+			"retry": "Thử lại",
+			"retryingSoon": "đang tự động thử lại (lần {{attempt}})",
+			"setLocation": "Đặt vị trí",
+			"setLocationHint": "Chọn các mục đang chờ để đặt vị trí.",
+			"statusCancelled": "Đã hủy",
+			"statusDone": "Xong",
+			"statusError": "Lỗi",
+			"statusHeld": "Đang giữ",
+			"statusNeedsChoice": "Cần bạn chọn",
+			"statusPaused": "Tạm dừng",
+			"statusPending": "Đang chờ",
+			"statusProbing": "Đang lấy chi tiết",
+			"statusRunning": "Đang tải",
+			"subtitleLanguagesMissing": "Không có phụ đề bằng {{languages}}",
+			"waitingForSite": "Chờ {{site}} đến {{time}}",
+			"waitingHint": "{{site}} đang giới hạn tốc độ yêu cầu của kết nối này. Klip sẽ lấy chi tiết của liên kết này sau {{time}}, để giới hạn có thể được gỡ."
+		},
+		"listOffer": {
+			"dismiss": "Đóng",
+			"from": {
+				"album": "Từ một album",
+				"liked": "Từ video đã thích của bạn",
+				"mix": "Từ một Mix",
+				"playlist": "Từ một danh sách phát",
+				"uploads": "Từ video đã tải lên của một kênh",
+				"watchLater": "Từ Xem sau"
+			},
+			"get": {
+				"album": "Lấy cả album",
+				"liked": "Lấy tất cả video đã thích",
+				"mix": "Lấy cả Mix",
+				"playlist": "Lấy cả danh sách phát",
+				"uploads": "Lấy tất cả video đã tải lên",
+				"watchLater": "Lấy toàn bộ Xem sau"
+			},
+			"hint": "Thêm danh sách thành một hàng riêng. Video này được bỏ ra ngoài."
+		},
+		"pauseAllTitle": "Tạm dừng tất cả các tải xuống đang hoạt động",
+		"pausedBanner": "Hàng đợi đang tạm dừng — các mục đang chờ sẽ không bắt đầu cho đến khi bạn tiếp tục",
+		"resumeAllTitle": "Tiếp tục các tải xuống đã tạm dừng và cho hàng đợi chạy tiếp",
+		"resumeQueueAction": "Tiếp tục hàng đợi",
+		"selectedActionsLabel": "Mục đã chọn",
+		"selectionSummary": "Đã chọn {{selected}} · tổng {{total}}",
+		"tabLabel": "Tải xuống",
+		"tabTip": "Các lượt tải xuống giờ nằm trong tab Tải xuống — mở bất cứ lúc nào để theo dõi tiến trình.",
+		"table": {
+			"added": "Đã thêm",
+			"artifacts": "Tệp đầu ra",
+			"columnDropped": "Đã thả cột {{column}}.",
+			"columnMoveCancelled": "Đã hủy việc di chuyển cột {{column}}.",
+			"columnMovedOver": "Cột {{column}} đang ở trên {{target}}.",
+			"columnPickedUp": "Đã nhấc cột {{column}}.",
+			"columns": "Cột",
+			"finished": "Đã hoàn tất",
+			"format": "Định dạng",
+			"hideArtifactsFor": "Ẩn tệp của {{title}}",
+			"movableColumn": "cột có thể di chuyển",
+			"moveColumnInstructions": "Để di chuyển một cột, nhấn Space hoặc Enter, di chuyển bằng các phím mũi tên, rồi nhấn Space hoặc Enter để thả. Nhấn Escape để hủy.",
+			"notAvailable": "—",
+			"outputTarget": "Đích đầu ra",
+			"progress": "Tiến trình",
+			"resetColumns": "Đặt lại cột",
+			"resizeColumn": "Đổi kích thước cột {{column}}",
+			"showArtifactsFor": "Hiện tệp của {{title}}",
+			"size": "Kích thước",
+			"sortBy": "Sắp xếp theo {{label}}",
+			"status": "Trạng thái",
+			"title": "Tiêu đề"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Tiếp tục",
+		"description": "Bạn đang dùng bản cập nhật mới. Đây là các điểm nổi bật.",
+		"fullNotes": "Ghi chú phát hành đầy đủ ↗",
+		"title": "Có gì mới trong Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Hủy",
+			"chooseExecutable": "Chọn tệp thực thi",
+			"installWithHomebrew": "Cài bằng Homebrew",
+			"installWithWinget": "Cài bằng WinGet",
+			"openDependencyFolder": "Mở thư mục phụ thuộc",
+			"resetToDefault": "Đặt lại về mặc định",
+			"retrySetup": "Thử lại",
+			"viewSetupLog": "Xem nhật ký thiết lập"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Hãy thử lại. Nếu vẫn lỗi, hãy chọn một bản hoạt động tốt bên dưới.",
+				"title": "Một công cụ không hoạt động đúng"
+			},
+			"blockedOrQuarantined": {
+				"body": "Hãy cho phép Klip trong phần mềm diệt virus hoặc SmartScreen, rồi thử lại.",
+				"title": "Phần mềm diệt virus đã chặn một công cụ"
+			},
+			"downloadFailed": {
+				"body": "Hãy kiểm tra kết nối internet của bạn rồi thử lại.",
+				"title": "Không thể tải về những gì Klip cần"
+			},
+			"extractFailed": {
+				"body": "Hãy thử lại để tải về bản mới.",
+				"title": "Một tệp tải về bị hỏng"
+			},
+			"hashFailed": {
+				"body": "Hãy thử lại để tải về bản mới.",
+				"title": "Một tệp tải về không khớp mã kiểm tra"
+			},
+			"pairIncomplete": {
+				"body": "Hãy chọn cả hai bên dưới, hoặc đặt lại về mặc định.",
+				"title": "FFmpeg và FFprobe phải được thiết lập cùng nhau"
+			},
+			"permissionDenied": {
+				"body": "Hãy thử lại. Nếu vẫn lỗi, hãy chọn một bản mà bạn tin tưởng bên dưới.",
+				"title": "Hệ thống không cho phép Klip chạy một công cụ"
+			},
+			"spawnFailed": {
+				"body": "Hãy thử lại. Nếu vẫn lỗi, hãy chọn một bản hoạt động tốt bên dưới.",
+				"title": "Một công cụ bị thiếu hoặc không khởi động được"
+			},
+			"timeout": {
+				"body": "Điều này thường do quét bảo mật ở lần chạy đầu tiên. Hãy thử lại.",
+				"title": "Một công cụ phản hồi quá lâu"
+			},
+			"unknown": {
+				"body": "Hãy thử lại, hoặc mở nhật ký thiết lập để xem chi tiết.",
+				"title": "Đã xảy ra sự cố trong lúc thiết lập"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Bộ máy tải xuống",
+			"media": "Công cụ đa phương tiện"
+		},
+		"installing": {
+			"homebrew": "Đang cài đặt bằng Homebrew… Việc này có thể mất vài phút.",
+			"winget": "Đang cài đặt bằng WinGet… Việc này có thể mất vài phút."
+		},
+		"manual": {
+			"intro": "Chỉ cho Klip những bản bạn đã có, hoặc cài đặt bằng cách khác.",
+			"linuxHint": "Bạn cũng có thể cài yt-dlp và ffmpeg bằng trình quản lý gói, rồi nhấn Thử lại.",
+			"toggle": "Thiết lập thủ công"
+		},
+		"stopped": {
+			"body": "Hãy thử lại, hoặc chỉ cho Klip những công cụ bạn đã có bên dưới.",
+			"title": "Thiết lập đã dừng"
+		},
+		"title": "Thiết lập cần sự giúp đỡ của bạn"
+	},
+	"selectionOrder": {
+		"editorTitle": "Cách hồ sơ này chọn",
+		"rank": {
+			"aacFileType": {
+				"label": "Âm thanh AAC",
+				"reason": "hợp với trình phát MP4"
+			},
+			"aacSmartTv": {
+				"label": "Âm thanh AAC",
+				"reason": "phát được ở mọi nơi"
+			},
+			"codec": {
+				"label": "AV1, rồi VP9, rồi H.264",
+				"reason": "nét nhất ở cùng dung lượng"
+			},
+			"codecH264First": {
+				"label": "H.264, rồi VP9, rồi AV1",
+				"reason": "codec của hồ sơ này"
+			},
+			"codecVp9First": {
+				"label": "VP9, rồi H.264, rồi AV1",
+				"reason": "codec của hồ sơ này"
+			},
+			"fps": {
+				"label": "Tốc độ khung hình cao nhất",
+				"reason": "chuyển động mượt hơn"
+			},
+			"h264": {
+				"label": "Video H.264",
+				"reason": "phát được trên mọi thiết bị"
+			},
+			"hdrFirst": {
+				"label": "HDR trước SDR",
+				"reason": "màu sắc rực rỡ hơn trên màn hình HDR",
+				"reasonScreen": "màn hình này hiển thị được HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR trước HDR",
+				"reason": "hiển thị đúng trên mọi màn hình",
+				"reasonScreen": "màn hình này không phải HDR"
+			},
+			"mp4Streams": {
+				"label": "Luồng MP4",
+				"reason": "sẵn sàng cho tệp MP4"
+			},
+			"nativeCompatible": {
+				"label": "Âm thanh stereo"
+			},
+			"nativeSource": {
+				"profile": "hồ sơ này",
+				"settings": "từ Cài đặt"
+			},
+			"nativeSurround": {
+				"label": "Âm thanh vòm nếu có"
+			},
+			"opus": {
+				"label": "Âm thanh Opus",
+				"reason": "hợp với WebM"
+			},
+			"original": {
+				"label": "Luồng gốc, không phải luồng nâng cấp bằng AI",
+				"reason": "bản nâng cấp có độ phân giải cao hơn nhưng không thêm chi tiết thật"
+			},
+			"protocol": {
+				"label": "Ưu tiên tải xuống trực tiếp hơn bản sao luồng",
+				"reason": "cùng hình ảnh, tải nhanh hơn"
+			},
+			"resolution": {
+				"label": "Tối đa {{tier}}p",
+				"reason": "giới hạn của bạn"
+			},
+			"resolutionBest": {
+				"label": "Độ phân giải cao nhất",
+				"reason": "không đặt giới hạn"
+			},
+			"sitePreference": {
+				"label": "Luồng không bị trang web hạ ưu tiên",
+				"reason": "bỏ qua bản bị hỏng, có hình mờ và bản dự phòng"
+			},
+			"size": {
+				"label": "Tệp lớn hơn",
+				"reason": "nhiều chi tiết hơn với cùng cài đặt"
+			},
+			"source": {
+				"label": "Ưu tiên luồng có tốc độ bit nâng cao",
+				"reason": "nhiều chi tiết hơn với cùng độ phân giải"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "loại tệp theo các luồng",
+				"explicit": "lưu thành .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "hình ảnh đẹp nhất",
+				"smartTv": "phát được trên mọi thiết bị"
+			}
+		},
+		"whyLabel": "Vì sao chọn cái này?",
+		"whyTitle": "Vì sao hồ sơ chọn cái này"
+	},
+	"share": {
+		"copied": "Đã sao chép!",
+		"copyLink": "Sao chép liên kết",
+		"defaultMessage": "Klip — trình tải video miễn phí, mã nguồn mở cho Windows, macOS và Linux. Hoạt động với YouTube, Vimeo, Twitch và hơn 2000 trang web.\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
+		"description": "Klip miễn phí và mã nguồn mở. Chia sẻ giúp nhiều người hơn khám phá ra nó.",
+		"footerLabel": "Chia sẻ",
+		"footerTooltip": "Chia sẻ Klip",
+		"shareAction": "Chia sẻ Klip",
+		"title": "Chia sẻ Klip"
+	},
+	"splash": {
+		"cancel": "Gặp sự cố? Thiết lập thủ công",
+		"greeting": "Xin chào, chào mừng bạn quay lại!",
+		"setup": {
+			"left": {
+				"minutes_other": "còn khoảng {{count}} phút",
+				"underMinute": "còn chưa đến một phút"
+			},
+			"stage": {
+				"checking": "Đang kiểm tra mọi thứ hoạt động",
+				"connecting": "Đang kết nối…",
+				"unpacking": "Đang giải nén công cụ đa phương tiện",
+				"unpackingEngine": "Đang giải nén bộ máy tải xuống"
+			},
+			"title": {
+				"both": "Đang cập nhật công cụ của Klip",
+				"engine": "Đang cập nhật bộ máy tải xuống",
+				"firstRun": "Thiết lập lần đầu",
+				"media": "Đang cập nhật công cụ đa phương tiện"
+			}
+		},
+		"verifyFirstCheck": "Lần kiểm tra đầu tiên của phiên bản này — lần này chậm. Thường mất khoảng một phút.",
+		"verifying": "Đang kiểm tra {{binary}}…",
+		"warmup": "Đang chuẩn bị tải xuống…",
+		"warmupFailedNoDiag": "Thiết lập thất bại. Mở nhật ký thiết lập để xem chi tiết."
+	},
+	"status": {
+		"audioKept": "Đã lưu video kèm âm thanh — không thể xóa âm thanh",
+		"audioKeptSubtitlesFailed": "Đã lưu video kèm âm thanh — không thể xóa âm thanh và một số phụ đề không thể tải xuống",
+		"cancelled": "Đã hủy tải xuống",
+		"complete": "Tải xuống hoàn tất",
+		"convertingVideo": "Đang chuyển đổi video…",
+		"diskSpaceInsufficient": "Không đủ dung lượng đĩa — cần {{required}}, chỉ còn {{free}}",
+		"downloadingBinary": "Đang tải xuống tệp nhị phân {{name}}…",
+		"downloadingMedia": "Đang tải xuống video & âm thanh…",
+		"embeddingMetadata": "Đang nhúng metadata…",
+		"exploreSignedOut": "Đã đăng xuất khỏi Khám phá — hãy đăng nhập lại",
+		"extractingAudio": "Đang chuyển đổi âm thanh…",
+		"fetchingSponsorBlock": "Đang kết nối SponsorBlock…",
+		"fetchingSubtitles": "Đang tải phụ đề…",
+		"mergingFormats": "Đang ghép âm thanh và video…",
+		"mintingToken": "Đang chuẩn bị tải xuống từ YouTube…",
+		"movingFiles": "Đang di chuyển tệp…",
+		"noSubtitles": "Không có phụ đề bằng {{languages}}",
+		"outputNotWritable": "Không thể lưu vào {{dir}} — Klip không được phép ghi vào đó",
+		"preparingBinaries": "Đang chuẩn bị các tệp nhị phân…",
+		"qualityLimited": "Đã lưu ở {{height}}p — YouTube đã giữ lại các chất lượng cao hơn cho lượt tải này. Thử lại sau có thể sẽ hiệu quả.",
+		"qualityLimitedSubtitlesFailed": "Đã lưu ở {{height}}p — YouTube đã giữ lại các chất lượng cao hơn cho lượt tải này, và không thể tải một số phụ đề. Thử lại sau có thể sẽ hiệu quả.",
+		"remintingToken": "Đang chuẩn bị lại tải xuống từ YouTube…",
+		"retryingSponsorBlock": "SponsorBlock không khả dụng, đang thử lại ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Kết nối bị treo, đang thử lại ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Đang đăng nhập bằng tài khoản của bạn trong Khám phá…",
+		"sleepingBetweenRequests": "Đang chờ {{seconds}}s để tránh giới hạn tốc độ…",
+		"startingYtdlp": "Đang khởi động bộ máy tải xuống…",
+		"subtitleLanguagesMissing": "Video này không có phụ đề bằng {{languages}}. Video đã được lưu mà không có phụ đề.",
+		"subtitleLanguagesMissingOthersSaved": "Video này không có phụ đề bằng {{languages}}. Các ngôn ngữ khác đã được lưu.",
+		"subtitlesFailed": "Đã lưu video — một số phụ đề không thể tải xuống",
+		"unknownStartupFailure": "Lỗi khởi động tải xuống không xác định",
+		"usedExtractorFallback": "Đã tải xuống với trình trích xuất dự phòng — thiết lập cookies.txt để tải xuống đáng tin cậy hơn",
+		"ytdlpExitCode": "Bộ máy tải xuống đã thoát với mã {{code}}",
+		"ytdlpProcessError": "Lỗi bộ máy tải xuống: {{error}}"
+	},
+	"theme": {
+		"dark": "Chế độ tối",
+		"light": "Chế độ sáng",
+		"system": "Mặc định hệ thống"
+	},
+	"titleBar": {
+		"close": "Đóng",
+		"maximize": "Phóng to",
+		"minimize": "Thu nhỏ",
+		"restore": "Khôi phục"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Tải từ bảng nhớ tạm",
+			"statusActive_other": "{{count}} đang tải · {{percent}}%",
+			"statusIdle": "Đang chờ"
+		}
+	},
+	"update": {
+		"copied": "Đã sao chép lệnh vào bộ nhớ tạm",
+		"copy": "Sao chép lệnh vào bộ nhớ tạm",
+		"dismiss": "Ẩn thông báo cập nhật",
+		"download": "Tải xuống ↗",
+		"downloadDmg": "Tải DMG ↗",
+		"downloading": "Đang tải xuống…",
+		"install": "Cài đặt & Khởi động lại",
+		"installFailed": "Cập nhật thất bại",
+		"message": {
+			"generic": "Klip {{version}} đã có — bạn đang dùng {{currentVersion}}.",
+			"homebrew": "Klip {{version}} đã có — cập nhật bằng Homebrew.",
+			"macosDirect": "Klip {{version}} đã có — tải DMG mới.",
+			"macosDirectHomebrew": "Klip {{version}} đã có — tải DMG hoặc chuyển sang Homebrew.",
+			"portable": "Klip {{version}} đã có — tải bản dựng mới."
+		},
+		"retry": "Thử lại",
+		"runAndRestart": "Chạy & Khởi động lại",
+		"upgrading": "Đang nâng cấp…"
+	},
+	"videoCard": {
+		"chapters_other": "{{count}} chương",
+		"titlePlaceholder": "Đang tải…"
+	},
+	"videoCodec": {
+		"h264": "Ưu tiên H.264",
+		"label": "Codec video",
+		"smartTv": "TV thông minh luôn lấy H.264.",
+		"vp9": "Ưu tiên VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Sẵn sàng",
+			"description": "Dán URL video, danh sách phát, kênh, tìm kiếm hoặc âm thanh. Klip sẽ loại bỏ trùng lặp trước khi đưa vào hàng đợi.",
+			"emptyPreview": "Dán một hoặc nhiều URL để xem trước lô.",
+			"ignoredCount": "Bị bỏ qua",
+			"needsAtLeastOne": "Thêm ít nhất một URL được hỗ trợ để tiếp tục.",
+			"reject": {
+				"duplicate": "Trùng lặp"
+			},
+			"textareaLabel": "Danh sách URL",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "URL hàng loạt"
+		},
+		"confirm": {
+			"addToQueue": "+ Hàng đợi",
+			"addToQueueTooltip": "Bắt đầu khi các tải xuống khác hoàn tất — sử dụng toàn bộ băng thông",
+			"itemsValueAudio_other": "{{count}} trong {{total}} bản nhạc",
+			"itemsValueBulk_other": "{{count}} trên {{total}} URL",
+			"itemsValue_other": "{{count}} trong {{total}} video",
+			"labelAudio": "Âm thanh",
+			"labelBulk": "URL hàng loạt",
+			"labelItems": "Mục",
+			"labelPlaylist": "Danh sách phát",
+			"labelPreset": "Cài đặt sẵn",
+			"labelSaveTo": "Lưu vào",
+			"labelSize": "Kích thước",
+			"labelSubtitles": "Phụ đề",
+			"labelVideo": "Video",
+			"landIn": "Tệp của bạn sẽ được lưu vào",
+			"landInMultiProfile_other": "Sẽ được lưu vào {{count}} điểm đến bên dưới",
+			"nothingToDownload": "Hồ sơ “Chỉ phụ đề” đang hoạt động nhưng chưa chọn ngôn ngữ phụ đề nào — sẽ không có gì được tải xuống.",
+			"profileBreakdownCount_other": "{{count}} mục",
+			"profileBreakdownHeading": "Hồ sơ trong lô này",
+			"pullIt": "Tải về! ↓",
+			"pullItTooltip": "Bắt đầu ngay lập tức — chạy song song với các tải xuống đang hoạt động",
+			"readyHeadline": "Sẵn sàng tải về!",
+			"sizeUnknown": "Không xác định",
+			"subtitleEmbedAudioOnly": "Subtitle embed đã chuyển sang sidecar — các track âm thanh không hỗ trợ luồng phụ đề được nhúng.",
+			"subtitleEmbedForcesMkv": "Phụ đề nằm trong video cần tệp MKV, nên bản tải này được lưu thành .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Thumbnail embed bị bỏ qua — container đầu ra không hỗ trợ tính năng này."
+		},
+		"folder": {
+			"custom": "Tùy chỉnh…",
+			"desktop": "Màn hình desktop",
+			"documents": "Tài liệu",
+			"downloads": "Tải xuống",
+			"heading": "Lưu vào",
+			"home": "Thư mục gốc",
+			"music": "Nhạc",
+			"pictures": "Hình ảnh",
+			"subfolder": {
+				"invalid": "Tên thư mục chứa ký tự không hợp lệ",
+				"placeholder": "vd: bài giảng",
+				"toggle": "Lưu trong thư mục con"
+			},
+			"videos": "Phim"
+		},
+		"formats": {
+			"audio": "Âm thanh",
+			"audioLanguage": "Ngôn ngữ âm thanh",
+			"audioLanguageCount_other": "{{count}} ngôn ngữ",
+			"bitrateValue": "Tốc độ bit {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Cookies đã được cấu hình nhưng đang tắt. Bật lên và thử lại để có danh sách đầy đủ, hoặc đổi mạng và thử lại.",
+				"bodyEnabled": "Ngay cả với cookies, YouTube vẫn giới hạn lần kiểm tra này. Hãy thử lại sau hoặc đổi mạng.",
+				"bodyExplore": "YouTube đã giới hạn yêu cầu này. Hãy thử lại sau hoặc đổi mạng.",
+				"bodyUnconfigured": "Danh sách định dạng có thể không đầy đủ. Thiết lập cookies trong cài đặt nâng cao, hoặc đổi mạng và thử lại.",
+				"enableRetryCta": "Bật cookies và thử lại",
+				"heading": "YouTube đã giới hạn lần kiểm tra này",
+				"retryCta": "Thử lại"
+			},
+			"convert": {
+				"bitrate": "Tốc độ bit",
+				"bitrateCopyHint": "Nguồn đã là {{target}} sẽ giữ nguyên luồng và tốc độ bit của nó: được sao chép, không mã hóa lại.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, không mã hóa lại",
+				"copyLabelNoBitrate": "{{target}}, không mã hóa lại",
+				"copyNote": "{{kbps}} kbps, giữ nguyên như nguồn: luồng đã là {{target}} nên được sao chép, không mã hóa lại",
+				"copyNoteNoBitrate": "Giữ nguyên như nguồn: luồng đã là {{target}} nên được sao chép, không mã hóa lại",
+				"label": "Chuyển đổi",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "Nguồn là {{kbps}} kbps",
+				"wavLabel": "WAV (không nén)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Trình duyệt",
+				"currentModeExplore": "Đăng nhập Khám phá",
+				"currentModeFile": "Tệp",
+				"currentModeLabel": "Nguồn cookies",
+				"dpapi": {
+					"docsLinkLabel": "Tài liệu yt-dlp (issue #10927)",
+					"explanation": "Chrome 127 trở lên mã hóa cookies theo cách mà các ứng dụng khác không thể đọc trên Windows. Hãy thử một trong các cách khắc phục bên dưới.",
+					"fixFileBody": "Xuất cookies từ Chrome bằng tiện ích mở rộng trình duyệt, sau đó chuyển ứng dụng này sang chế độ Tệp và chọn tệp đã xuất.",
+					"fixFileLabel": "Xuất cookies.txt",
+					"fixFirefoxBody": "Firefox không sử dụng App-Bound Encryption. Mở cài đặt cookies và chọn Firefox từ danh sách trình duyệt.",
+					"fixFirefoxLabel": "Chuyển sang Firefox",
+					"fixUnsafeBody": "Thêm --disable-features=LockProfileCookieDatabase vào shortcut khởi chạy Chrome. Cảnh báo: điều này sẽ làm mất hiệu lực các cookies đã mã hóa trước đó, khiến bạn bị đăng xuất khỏi mọi trang web và cần đăng nhập lại.",
+					"fixUnsafeLabel": "Khởi chạy Chrome với App-Bound Encryption đã tắt",
+					"heading": "Cookies của Chrome bị chặn bởi mã hóa Windows"
+				},
+				"explanationBrowser": "Cookies được đọc trực tiếp từ trình duyệt. Nếu trình duyệt đang mở, cơ sở dữ liệu cookies có thể bị khóa (Chromium-family). Trình duyệt cũng phải đã đăng nhập vào YouTube. Hãy thử đóng trình duyệt, chuyển sang trình duyệt khác, chuyển sang chế độ Tệp hoặc tắt cookies.",
+				"explanationFile": "Tệp cookies của bạn có thể trống, đã hết hạn hoặc sai định dạng (Klip yêu cầu tệp Netscape cookies.txt). Hãy thử xuất lại cookies, chọn tệp khác, chuyển sang chế độ Trình duyệt hoặc tắt cookies.",
+				"exploreOffer": {
+					"body": "Đăng nhập qua Khám phá và Klip sẽ thử lại.",
+					"cta": "Đăng nhập qua Khám phá",
+					"heading": "Video này có thể cần tài khoản YouTube"
+				},
+				"exploreRefused": {
+					"body": "Klip đã thử khi đăng nhập qua Khám phá rồi, nên đăng nhập lại cũng không giúp được. Có thể trang web đang gặp sự cố, hoặc tài khoản này không mở được. Hãy thử lại sau.",
+					"heading": "Trang web từ chối dù bạn đã đăng nhập trong Khám phá"
+				},
+				"exploreReuse": {
+					"body": "Bạn đã đăng nhập trong Khám phá, nhưng hiện các lượt tải chưa dùng đăng nhập đó.",
+					"cta": "Dùng đăng nhập Khám phá của tôi và thử lại",
+					"heading": "Video này có thể cần tài khoản YouTube"
+				},
+				"exploreSignIn": {
+					"body": "Nếu video này cần tài khoản YouTube, hãy đăng nhập trong Khám phá rồi thử lại. Klip chỉ dùng đăng nhập đó khi một lượt tải cần đến.",
+					"cta": "Đăng nhập trong Khám phá",
+					"heading": "Video này có thể cần tài khoản YouTube"
+				},
+				"exploreSignedIn": {
+					"body": "Nếu video này cần tài khoản, Klip sẽ tự dùng đăng nhập Khám phá của bạn. Video cũng có thể không khả dụng vì lý do khác.",
+					"heading": "Đã đăng nhập trong Khám phá"
+				},
+				"exploreSite": {
+					"heading": "Liên kết này có thể cần tài khoản trên {{host}}",
+					"offerBody": "Hãy đăng nhập {{host}} qua Khám phá rồi thử lại.",
+					"signInBody": "Hãy đăng nhập {{host}} trong Khám phá rồi thử lại. Klip chỉ dùng đăng nhập đó khi một lượt tải cần đến."
+				},
+				"heading": "Cookies có thể là nguyên nhân",
+				"needsCookies": {
+					"body": "Klip không thể truy cập video này mà không xác thực. Hãy cấu hình cookies trong cài đặt nâng cao — trỏ đến trình duyệt bạn đã đăng nhập, hoặc nhập tệp cookies.txt.",
+					"heading": "Trang web này yêu cầu đăng nhập"
+				},
+				"openSettingsCta": "Mở cài đặt cookies",
+				"otherCookiesCta": "Dùng tệp cookie hoặc trình duyệt thay thế…"
+			},
+			"drc": {
+				"description": "Giảm đoạn to, tăng đoạn nhỏ, hợp với loa ngoài và nơi ồn ào.",
+				"label": "Cân bằng âm lượng (DRC)",
+				"tag": "Âm lượng đều"
+			},
+			"fit": {
+				"mp4Unavailable": "Hồ sơ của bạn là TV thông minh (H.264). Video này không có H.264, nên luồng gần nhất được chọn.",
+				"noVideo": "Liên kết này không có video nên âm thanh được chọn.",
+				"subtitlesMissing": "Hồ sơ của bạn yêu cầu phụ đề bằng: {{languages}}. Video này không có phụ đề đó.",
+				"tierAbove": "Hồ sơ của bạn yêu cầu {{wanted}}p. Video này không có độ phân giải thấp như vậy nên {{picked}}p được chọn.",
+				"tierAbovePassedOver": "Hồ sơ của bạn yêu cầu {{wanted}}p. Các luồng nhỏ hơn của video này không khớp với phần còn lại của hồ sơ, nên {{picked}}p được chọn.",
+				"tierBelowTakeable": "Hồ sơ của bạn yêu cầu {{wanted}}p. Video này không có bản {{wanted}}p nào dùng được, nên {{picked}}p được chọn.",
+				"tierPassedOverAiUpscaled": "Hồ sơ của bạn yêu cầu {{wanted}}p. Bản {{wanted}}p của video này được nâng cấp bằng AI, nên bản gốc {{picked}}p được chọn.",
+				"tierPassedOverH264": "Hồ sơ của bạn yêu cầu {{wanted}}p ở H.264. Video này chỉ có {{wanted}}p ở các codec khác, nên {{picked}}p ở H.264 được chọn.",
+				"tierPassedOverProfile": "Hồ sơ của bạn yêu cầu {{wanted}}p. Bản {{wanted}}p của video này không khớp với phần còn lại của hồ sơ, nên {{picked}}p được chọn.",
+				"webmUnavailable": "Hồ sơ của bạn yêu cầu WebM. Các luồng đã chọn của video này có {{codec}}, mà WebM không chứa được, nên loại tệp là Tự động."
+			},
+			"footer": {
+				"addToQueue": "Thêm vào hàng đợi mà không bắt đầu",
+				"download": "Tải xuống",
+				"moreActions": "Thêm tùy chọn tải xuống",
+				"subtitlesRequired": "Chọn ít nhất một ngôn ngữ phụ đề."
+			},
+			"keepAudio": "Giữ nguyên",
+			"keepAudioMeta": "Âm thanh tích hợp",
+			"kind": {
+				"audio": "Chỉ âm thanh",
+				"label": "Tải gì",
+				"subtitles": "Chỉ phụ đề",
+				"video": "Video + âm thanh",
+				"videoOnly": "Video, không âm thanh"
+			},
+			"loadingAria": "Đang tải định dạng",
+			"loadingHint": "Vui lòng chờ cho đến khi quá trình kiểm tra hoàn tất — playlist và tìm kiếm có thể mất một lúc.",
+			"marker": {
+				"aiDubbed": "Lồng tiếng AI",
+				"aiUpscaled": "Nâng cấp AI",
+				"audioDescription": "Mô tả âm thanh",
+				"damaged": "Bị hỏng",
+				"enhancedBitrate": "Tốc độ bit nâng cao",
+				"original": "Gốc",
+				"spatialAudio": "Âm thanh không gian",
+				"vr": "360° / VR",
+				"watermarked": "Có hình mờ"
+			},
+			"noAudio": "Không có âm thanh",
+			"profile": {
+				"calloutBody": "Hồ sơ đang dùng sẽ chọn sẵn các luồng cho bạn. Đổi hồ sơ từ menu, hoặc dùng biểu tượng bút chì để chỉnh một hồ sơ mà không rời khỏi lần tải này.",
+				"calloutTitle": "Định dạng bắt đầu từ hồ sơ của bạn",
+				"closestTag": "Gần nhất với hồ sơ",
+				"edit": "Sửa {{name}}",
+				"keepEdits": "Giữ thay đổi của tôi",
+				"menuDescription": "Chỉ cho lượt tải này. Hồ sơ mặc định của bạn vẫn giữ nguyên.",
+				"preselected": "Chọn sẵn từ",
+				"resetAll": "Đặt lại tất cả",
+				"switchBody": "Bạn đã thay đổi {{areas}} cho lượt tải này. Dù thế nào, “{{profile}}” vẫn chọn video và âm thanh. Giữ các thay đổi khác của bạn, hay đặt lại mọi thứ theo hồ sơ?",
+				"switchTitle": "Đổi hồ sơ?",
+				"tag": "Hồ sơ",
+				"updatedBody": "Bạn đã thay đổi {{areas}} cho lượt tải này. Dù thế nào, hồ sơ đã cập nhật vẫn chọn video và âm thanh. Giữ các thay đổi khác của bạn, hay đặt lại mọi thứ theo hồ sơ?",
+				"updatedTitle": "Dùng hồ sơ đã cập nhật?"
+			},
+			"quality": {
+				"high": "Chất lượng cao",
+				"low": "Chất lượng thấp",
+				"medium": "Chất lượng trung bình"
+			},
+			"rateLimit": {
+				"heading": "{{site}} đang giới hạn kết nối này",
+				"leadDegraded": "Danh sách định dạng có thể chưa đầy đủ.",
+				"leadFailed": "{{site}} tạm thời từ chối yêu cầu này.",
+				"retryCta": "Thử lại",
+				"sessionNote": "{{site}} có thể duy trì giới hạn này đến một giờ.",
+				"tryNowCta": "Thử ngay",
+				"waitOver": "Đã hết thời gian chờ, bạn có thể thử lại.",
+				"waitUntil": "Klip sẽ chờ đến {{time}} rồi mới hỏi lại {{site}}, để giới hạn kịp gỡ bỏ."
+			},
+			"resolutionUnknown": "Không rõ độ phân giải",
+			"savesAs": {
+				"label": "Lưu thành",
+				"reset": "WebM không chứa được {{codec}}, nên loại tệp đã quay về Tự động."
+			},
+			"sizeUnknown": "Không biết kích thước",
+			"skipToConfirm": "Bỏ qua đến xác nhận",
+			"skipToConfirmTooltip": "Sử dụng tùy chọn đã lưu của bạn cho tất cả các bước còn lại. Để thay đổi một cài đặt, hãy tiếp tục từng bước — lựa chọn của bạn sẽ được lưu cho lần sau.",
+			"sniffing": "Đang tìm định dạng tốt nhất cho bạn…",
+			"total": "Tổng cộng",
+			"video": "Video",
+			"withAudio": "có âm thanh"
+		},
+		"listPrompt": {
+			"backgroundHint": "Dùng {{profileName}}. Nếu có hơn {{count}} video, mục Tải xuống sẽ hỏi lấy bao nhiêu.",
+			"backgroundLabel": "Tải ở chế độ nền",
+			"escOnly": "Esc để hủy.",
+			"firstHint": "Đúng {{count}} video đầu, dùng {{profileName}}.",
+			"firstLabel": "Tải các video đầu tiên:",
+			"interactiveHint": "Chọn từ {{count}} video đầu (hoặc đổi số lượng ở bước tiếp theo), rồi thiết lập lượt tải.",
+			"interactiveLabel": "Tải tương tác…",
+			"limitHint": "Lấy bao nhiêu video từ danh sách: tùy chọn đầu hỏi khi vượt quá số này, tùy chọn thứ hai lấy đúng số đó. Giống Cài đặt › Số mục playlist cần quét.",
+			"limitLabel": "Giới hạn",
+			"mixNote": "Mix thay đổi mỗi lần bạn mở.",
+			"pickLoadAfter": "video đầu để chọn.",
+			"pickLoadBefore": "Tải",
+			"pickLoadNote": "Bạn có thể đổi số này ở bước tiếp theo.",
+			"pickTitle": {
+				"album": "Chọn từ album này",
+				"liked": "Chọn từ video đã thích của bạn",
+				"mix": "Chọn từ Mix này",
+				"playlist": "Chọn từ danh sách phát này",
+				"uploads": "Chọn từ video đã tải lên của kênh này",
+				"watchLater": "Chọn từ Xem sau"
+			},
+			"title": {
+				"album": "Tải xuống từ album này",
+				"liked": "Tải xuống từ video đã thích của bạn",
+				"mix": "Tải xuống từ Mix này",
+				"playlist": "Tải xuống từ danh sách phát này",
+				"uploads": "Tải xuống từ video đã tải lên của kênh này",
+				"watchLater": "Tải xuống từ Xem sau"
+			},
+			"videoHint": "Chỉ video bạn đã mở, dùng {{profileName}}. Danh sách không được tải.",
+			"videoLabel": "Chỉ video này",
+			"videoPickHint": "Chỉ thiết lập video bạn đã mở. Danh sách không được tải.",
+			"withProfile": "Dùng {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Các mốc chương có thể điều hướng trong mọi trình phát hiện đại.",
+				"label": "Nhúng chương",
+				"short": "Chương"
+			},
+			"embedMetadata": {
+				"description": "Tiêu đề, nghệ sĩ, mô tả và ngày tải lên được ghi vào tệp.",
+				"label": "Nhúng metadata",
+				"short": "Metadata"
+			},
+			"embedThumbnail": {
+				"description": "Ảnh bìa bên trong tệp. Video WebM sẽ được remux sang MKV; bỏ qua khi có phụ đề được nhúng.",
+				"label": "Nhúng hình thu nhỏ",
+				"short": "Ảnh bìa"
+			},
+			"writeDescription": {
+				"description": "Lưu mô tả video dưới dạng tệp văn bản .description cạnh tệp tải xuống.",
+				"label": "Lưu mô tả",
+				"short": "Tệp mô tả"
+			},
+			"writeM3u": {
+				"description": "Lưu playlist .m3u cạnh các video để mở đúng thứ tự trong trình phát.",
+				"label": "Tạo tệp playlist .m3u"
+			},
+			"writeThumbnail": {
+				"description": "Lưu hình thu nhỏ dưới dạng tệp ảnh .jpg cạnh tệp tải xuống.",
+				"label": "Lưu hình thu nhỏ",
+				"short": "Tệp hình thu nhỏ"
+			}
+		},
+		"part": {
+			"calloutBody": "Chuyển sang «Một đoạn» trên thẻ video để chọn điểm bắt đầu và kết thúc, hoặc một chương, rồi chỉ tải đoạn đó.",
+			"calloutTitle": "Chỉ tải một đoạn của video",
+			"chapterUntitled": "Chương {{number}}",
+			"chapters": "Chương",
+			"connectionsNote": "Một đoạn được tải qua ffmpeg, nên số kết nối tải xuống và cài đặt nhịp độ của bạn không áp dụng cho nó.",
+			"downloadBlocked": "Hãy sửa điểm bắt đầu và kết thúc của đoạn trước.",
+			"end": "Kết thúc",
+			"error": {
+				"endBeyondDuration": "Video kết thúc ở {{duration}}.",
+				"endInvalid": "Nhập thời điểm kết thúc theo dạng h:mm:ss, m:ss hoặc giây.",
+				"startInvalid": "Nhập thời điểm bắt đầu theo dạng h:mm:ss, m:ss hoặc giây.",
+				"startNotBeforeEnd": "Điểm bắt đầu phải trước điểm kết thúc."
+			},
+			"exactCut": {
+				"hint": "Tắt: mỗi điểm cắt rơi vào keyframe gần nhất, có thể lệch vài giây so với thời gian bạn nhập.",
+				"label": "Cắt chính xác (mã hóa lại, chậm hơn)"
+			},
+			"length": "{{length}} trên {{duration}}",
+			"part": "Một đoạn",
+			"rangeLabel": "Đoạn của video",
+			"start": "Bắt đầu",
+			"subtitlesFullLength": "toàn bộ video",
+			"summary": "Đoạn {{start}}–{{end}}",
+			"switchLabel": "Tải bao nhiêu video",
+			"timeHint": "h:mm:ss, m:ss hoặc giây",
+			"totalEstimate": "Đoạn, ước tính",
+			"unavailableDuration": "Video này không cho biết độ dài, nên chỉ có thể tải toàn bộ.",
+			"unavailableSubtitles": "Phụ đề luôn áp dụng cho toàn bộ video.",
+			"urlStart": "Liên kết của bạn bắt đầu từ {{time}}",
+			"useUrlStart": "Dùng làm điểm bắt đầu",
+			"whole": "Toàn bộ video",
+			"wholeTrack": "Toàn bộ âm thanh"
+		},
+		"playlist": {
+			"allRemovedDescription": "Khôi phục để tiếp tục.",
+			"allRemovedTitle": "Tất cả mục đã bị xóa",
+			"alreadyDownloaded": "Đã tải xuống",
+			"bulkCappedDesc_other": "Vẫn còn nhiều hơn. Để chọn số lượng, hãy dán riêng từng liên kết.",
+			"bulkCappedTitle_other": "{{count}} danh sách bị cắt ở {{limit}} video mỗi danh sách",
+			"bulkHeading": "URL hàng loạt",
+			"bulkMetadataOptional": "Không cần chờ — các tệp cho vào hàng đợi bây giờ vẫn sẽ có tên thật khi tải xuống.",
+			"bulkMetadataResolving": "Đang lấy chi tiết video… {{done}}/{{total}}",
+			"bulkRowFailed": "Không có chi tiết",
+			"bulkRowResolving": "Đang lấy chi tiết",
+			"bulkRowWaiting": "Đang chờ",
+			"durationUnknown": "live",
+			"heading": "Các mục Playlist",
+			"headingGeneric": "Video để tải xuống",
+			"itemCountAudio_other": "{{count}} bản nhạc",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCount_other": "{{count}} video",
+			"loadingItems": "Đang tải Playlist…",
+			"loadingItemsGeneric": "Đang tải video…",
+			"loadingLimitHint": "Giới hạn ở {{count}} mục đầu tiên",
+			"loadingPagesFound_other": "Đã tìm thấy {{count}} trang",
+			"loadingPhaseItems": "Đang thu thập video",
+			"loadingPhasePages": "Đang quét các trang kênh",
+			"multiProfileEntry": "Gán hồ sơ cho từng mục",
+			"multiProfileEntryTooltip": "Bỏ qua Chất lượng, SponsorBlock, Đầu ra và Lưu — thay vào đó gán hồ sơ tải xuống cho từng mục",
+			"nestedPlaylistBadge": "Danh sách phát",
+			"nestedPlaylistHint_other": "{{count}} trong số này là danh sách phát, không phải video — dán từng liên kết một để tải xuống.",
+			"noSelection": "Chọn ít nhất một video để tiếp tục",
+			"probeLimitAlertDesc": "Klip tìm thấy nhiều hơn {{count}} mục, vì vậy giới hạn quét hiện tại đang ẩn phần còn lại.",
+			"probeLimitAlertTitle": "Quét playlist đã bị giới hạn",
+			"probeLimitAlertTitleGeneric": "Quét đã bị giới hạn",
+			"rangeApply": "Áp dụng phạm vi",
+			"rangeFrom": "Từ",
+			"rangeTo": "Đến",
+			"removeFromListCount_other": "Xóa {{count}} mục khỏi danh sách",
+			"removedCount_other": "{{count}} đã xóa",
+			"restore": "Khôi phục",
+			"selectAll": "Chọn tất cả",
+			"selectNone": "Bỏ chọn tất cả",
+			"selectedCount_other": "{{count}} đã chọn",
+			"sortApi": "Thứ tự danh sách phát",
+			"sortFetchingDates": "Đang tải ngày tải lên…",
+			"sortLabel": "Sắp xếp",
+			"sortUploadAsc": "Cũ nhất trước",
+			"sortUploadDesc": "Mới nhất trước",
+			"syncApply": "Áp dụng đồng bộ",
+			"syncChange": "Đổi thư mục…",
+			"syncFoundDesc": "{{n}} video trong số này đã có trong {{dir}}. Đồng bộ để chỉ tải các video mới?",
+			"syncFoundTitle": "Đã có trong thư mục",
+			"syncNoneDesc": "Không tìm thấy video nào từ danh sách phát này trong {{dir}}.",
+			"syncNoneDescGeneric": "Không tìm thấy video nào từ nguồn này trong {{dir}}.",
+			"syncNoneTitle": "Chưa có gì được tải xuống",
+			"syncScanning": "Đang kiểm tra thư mục…",
+			"thumbnailAlt": "Hình thu nhỏ video"
+		},
+		"playlistPresets": {
+			"heading": "Chọn chất lượng cho lô",
+			"itemCount_other": "{{count}} mục",
+			"subhead": "Mỗi video tự xử lý cấp độ đã chọn một cách độc lập — danh sách phát không đồng nhất hoạt động mượt mà."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Gán hồ sơ",
+			"assignTrigger_other": "Gán cho {{count}} video",
+			"columnDuration": "Thời lượng",
+			"columnProfile": "Hồ sơ",
+			"editProfile": "Sửa {{name}}",
+			"empty": "Không có mục nào khớp với bộ lọc này",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Bộ lọc hồ sơ",
+			"heading": "Gán hồ sơ tải xuống",
+			"menuDescription_other": "Chọn hồ sơ cho {{count}} video này.",
+			"selectedSummary": "Đã chọn {{selected}}/{{total}}"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Đổi mặc định chung",
+				"chooseFolder": "Chọn thư mục đích",
+				"chooseIcon": "Chọn biểu tượng hồ sơ",
+				"removeLanguage": "Xóa {{code}}",
+				"reset": "Đặt lại hồ sơ",
+				"resetDisabledHint": "Hồ sơ này đã dùng cài đặt tích hợp",
+				"resetHint": "Khôi phục cài đặt hồ sơ tích hợp",
+				"save": "Lưu hồ sơ",
+				"setOverride": "Đặt ghi đè hồ sơ",
+				"setOverrideShort": "Đặt ghi đè",
+				"useGlobalDefault": "Dùng mặc định chung",
+				"useLanguageCode": "Dùng mã ngôn ngữ “{{code}}”"
+			},
+			"advanced": "Nâng cao",
+			"appSetting": "Dùng cài đặt của ứng dụng ({{value}})",
+			"audioFormat": {
+				"best": "Tốt nhất",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Tối đa 128K",
+				"192": "Tối đa 192K",
+				"320": "Tối đa 320K",
+				"best": "Chất lượng tốt nhất"
+			},
+			"defaultName": "Hồ sơ mới",
+			"destination": {
+				"defaultFolder": "Thư mục tải xuống mặc định",
+				"defaultFolderWithSubfolder": "Thư mục tải xuống mặc định / {{subfolder}}",
+				"global": "Đích chung",
+				"globalActive": "Đang dùng",
+				"globalInherited": "Được kế thừa",
+				"override": "Ghi đè hồ sơ",
+				"overrideChoosing": "Chọn thư mục",
+				"overrideNone": "Chưa đặt ghi đè",
+				"overrideNoneNote": "Chưa đặt ghi đè. Hồ sơ này dùng đích chung ở trên.",
+				"overrideSet": "Ghi đè đích chung",
+				"overrideSetNote": "Hồ sơ này lưu vào thư mục gốc riêng trước khi thêm thư mục con.",
+				"resolved": "Đích cuối cùng"
+			},
+			"dialogDescription": "Một thiết lập dùng lại được cho Tải nhanh, URL hàng loạt và danh sách phát.",
+			"dialogTitle": "Hồ sơ tải xuống",
+			"error": {
+				"changeGlobalDestination": "Không thể đổi đích chung.",
+				"folderPicker": "Không thể mở trình chọn thư mục. Hãy nhập đường dẫn thủ công.",
+				"reset": "Không thể đặt lại cài đặt hồ sơ.",
+				"save": "Không thể lưu cài đặt hồ sơ."
+			},
+			"field": {
+				"delivery": "Cách lưu",
+				"fileType": "Loại tệp",
+				"goal": "Tối ưu cho",
+				"icon": "Biểu tượng hồ sơ",
+				"languages": "Ngôn ngữ",
+				"name": "Tên hồ sơ",
+				"nameAndIcon": "Tên và biểu tượng hồ sơ",
+				"nativeAudio": "Âm thanh gốc",
+				"overridePath": "Đường dẫn ghi đè hồ sơ",
+				"quality": "Chất lượng",
+				"resolution": "Độ phân giải",
+				"source": "Nguồn",
+				"subfolderName": "Tên thư mục con",
+				"subtitleDownloads": "Tải phụ đề",
+				"subtitleDownloadsDescription": "Hồ sơ yêu cầu mã ngôn ngữ; khả năng có sẵn được xác định cho từng URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Nét nhất ở cùng dung lượng. TV đời cũ, QuickTime và một số trình chỉnh sửa không phát được.",
+					"name": "Hình ảnh đẹp nhất",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Phát được trên TV, điện thoại, WhatsApp, QuickTime và trình chỉnh sửa video. YouTube chỉ có H.264 đến 1080p.",
+					"name": "TV thông minh",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Lưu trữ",
+				"audio": "Âm thanh",
+				"captions": "Phụ đề",
+				"classes": "Lớp học",
+				"clip": "Đoạn phim",
+				"controls": "Điều khiển",
+				"download": "Tải xuống",
+				"music": "Nhạc",
+				"podcast": "Podcast",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Nhạc hoặc podcast"
+				},
+				"subtitlesOnly": {
+					"description": "Chỉ tệp phụ đề"
+				},
+				"videoAudio": {
+					"description": "Tệp video thông thường"
+				},
+				"videoOnly": {
+					"description": "Chỉ video không tiếng"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Phụ đề tự động sẽ được lưu dưới dạng SRT thay vì ASS.",
+				"noLanguageMatches": "Không có ngôn ngữ phù hợp",
+				"noSubtitles": "Hồ sơ này sẽ không yêu cầu tệp phụ đề hay bản phụ đề nhúng nào.",
+				"searchLanguages": "Tìm theo tên hoặc mã ngôn ngữ",
+				"skippedForOutputType": "Đã bỏ qua với loại đầu ra này.",
+				"subtitleLanguagesRequired": "Chọn ít nhất một ngôn ngữ.",
+				"subtitleLanguagesRequiredOrOff": "Chọn ít nhất một ngôn ngữ hoặc tắt tải phụ đề.",
+				"subtitlesOnly": "Hồ sơ này chỉ đưa tệp phụ đề vào hàng đợi. Video, âm thanh, SponsorBlock và chuyển đổi phương tiện đều bị bỏ qua."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Hồ sơ kế thừa đích chung trừ khi bạn đặt ghi đè hồ sơ.",
+					"title": "Tùy chọn nâng cao"
+				},
+				"downloadType": {
+					"description": "Chọn cách tải xuống chính mà bạn muốn.",
+					"title": "Kiểu tải xuống"
+				},
+				"identity": {
+					"description": "Tên và biểu tượng hiển thị trong Tải nhanh, URL hàng loạt và danh sách hồ sơ.",
+					"title": "Danh tính hồ sơ"
+				},
+				"output": {
+					"enabledCount_other": "Đã bật {{count}}",
+					"title": "Tùy chọn đầu ra"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Chọn một thư mục cho hồ sơ này"
+			},
+			"skipped": "Đã bỏ qua",
+			"sponsorBlockHint": {
+				"mark": "Đánh dấu đoạn tài trợ thành chương (không sửa tệp).",
+				"off": "Không dùng SponsorBlock — video phát nguyên như khi tải lên.",
+				"remove": "Cắt các đoạn tài trợ khỏi video bằng FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Chỉ tự động tạo",
+				"manualAndAuto": "Thủ công và tự động",
+				"manualFirst": "Thủ công trước, rồi tự động",
+				"manualOnly": "Chỉ thủ công"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Trợ giúp {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "bổ sung",
+				"fileName": "tên tệp",
+				"format": "định dạng",
+				"saveTo": "thư mục",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "phụ đề"
+			},
+			"callout": {
+				"body": "Phụ đề, SponsorBlock, các mục bổ sung như hình thu nhỏ, thư mục và tên tệp trước đây là các bước riêng. Nhấp vào một hàng để thay đổi.",
+				"title": "Mọi cài đặt khác giờ nằm trên trang này"
+			},
+			"changeFormat": "Đổi định dạng",
+			"changed": "Khác với {{profile}}: {{areas}}. Chỉ áp dụng cho lượt tải này.",
+			"changedFrom": "Khác với {{profile}}:",
+			"nextTime": {
+				"action": "Lưu thành hồ sơ",
+				"defaultName": "{{profile}} (đã sửa)",
+				"title": "Lượt tải này dùng cài đặt đã chỉnh sửa. Dùng chúng cho lần sau?"
+			},
+			"reset": "Hoàn tác thay đổi, quay lại “{{profile}}”",
+			"rows": {
+				"extras": "Bổ sung",
+				"fileName": "Tên tệp",
+				"saveTo": "Lưu vào",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Phụ đề"
+			},
+			"rowsHeading": "Mọi thứ khác",
+			"save": {
+				"action": "Lưu hồ sơ",
+				"description": "Lưu các cài đặt này thành hồ sơ để bạn chọn lần sau. Hồ sơ Tải nhanh của bạn không thay đổi.",
+				"failed": "Không thể lưu hồ sơ.",
+				"nameLabel": "Tên hồ sơ",
+				"saved": "Đã lưu thành hồ sơ “{{name}}”",
+				"title": "Lưu thành hồ sơ"
+			},
+			"saveAsProfile": "Lưu thành hồ sơ mới",
+			"update": {
+				"action": "Cập nhật hồ sơ",
+				"builtinNote": "Đây là hồ sơ tích hợp. Bạn có thể khôi phục cài đặt gốc của nó trong thẻ Hồ sơ.",
+				"description": "Từ giờ, mọi lượt tải dùng hồ sơ này sẽ dùng cài đặt mới.",
+				"rows": {
+					"format": "Định dạng"
+				},
+				"title": "Cập nhật “{{profile}}”?",
+				"updated": "Đã cập nhật hồ sơ “{{name}}”"
+			},
+			"updateProfile": "Cập nhật “{{profile}}” với các thay đổi này",
+			"value": {
+				"extrasNone": "Không có",
+				"sponsorBlockOff": "Tắt",
+				"subtitlesOff": "Tắt"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Nội dung phụ",
+				"intro": "Mở đầu",
+				"music_offtopic": "Nhạc ngoài chủ đề",
+				"outro": "Kết thúc",
+				"preview": "Xem trước",
+				"selfpromo": "Tự quảng cáo",
+				"sponsor": "Nhà tài trợ"
+			},
+			"categoriesHeading": "Danh mục",
+			"mode": {
+				"mark": "Đánh dấu là chương",
+				"off": "Tắt",
+				"remove": "Xóa đoạn"
+			},
+			"modeHeading": "Lọc nhà tài trợ",
+			"modeHint": {
+				"mark": "Đánh dấu các đoạn nhà tài trợ là chương (không phá hủy).",
+				"off": "Không dùng SponsorBlock — video phát như khi tải lên.",
+				"remove": "Cắt các đoạn nhà tài trợ khỏi video bằng FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Xác nhận",
+			"folder": "Lưu",
+			"formats": "Định dạng",
+			"output": "Đầu ra",
+			"playlistItems": "Danh sách phát",
+			"playlistItemsGeneric": "Video",
+			"playlistPresets": "Chất lượng",
+			"playlistProfiles": "Hồ sơ",
+			"review": "Xem lại",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Phụ đề",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Phụ đề tự động tạo sẽ được lưu dưới dạng SRT thay vì ASS — chúng luôn được làm sạch dữ liệu lặp rolling-cue của YouTube, điều mà trình chuyển đổi ASS của chúng tôi chưa hỗ trợ.",
+			"autoBadge": "Tự động",
+			"clearAll": "Xóa tất cả",
+			"embedNote": "Chế độ nhúng lưu đầu ra dưới dạng .mkv để các track phụ đề nhúng được đáng tin cậy.",
+			"format": {
+				"heading": "Định dạng"
+			},
+			"noLanguages": "Không có phụ đề nào cho video này",
+			"noMatches": "Không tìm thấy ngôn ngữ nào",
+			"noSelected": "Chưa chọn phụ đề nào",
+			"removeLanguage": "Xóa {{name}}",
+			"saveMode": {
+				"embed": "Nhúng vào video",
+				"heading": "Lưu dưới dạng",
+				"sidecar": "Cạnh video",
+				"sidecarNoVideo": "Trong thư mục tải xuống",
+				"subfolder": "Thư mục con subtitles/"
+			},
+			"searchPlaceholder": "Tìm ngôn ngữ…",
+			"sectionAuto": "Tự động tạo",
+			"sectionManual": "Thủ công"
+		},
+		"tabsNavAria": "Điều hướng hồ sơ tải xuống",
+		"url": {
+			"advanced": "Nâng cao",
+			"autoRemoveCompleted": {
+				"description": "Gỡ một mục tải xuống khỏi danh sách Tải xuống vài giây sau khi hoàn tất. Tệp vẫn nằm trong thư mục của bạn; các mục thất bại và đã hủy vẫn ở lại danh sách.",
+				"label": "Tự động gỡ các mục tải xuống đã xong"
+			},
+			"autoRetry": {
+				"description": "Tự động thử lại sau sự cố mạng hoặc máy chủ, chờ lâu hơn trước mỗi lần thử. Các mục bị trang web chặn sẽ không bao giờ được tự động thử lại.",
+				"label": "Thử lại các mục tải thất bại",
+				"unit": "lần"
+			},
+			"bulkButton": "URL hàng loạt",
+			"bulkTooltip": "Thêm và xếp hàng nhiều URL.",
+			"clearAria": "Xóa URL",
+			"clipboard": {
+				"autofilledLink": "Đã thêm liên kết từ bảng nhớ tạm",
+				"bulkHint": "Đã sao chép nhiều liên kết — thêm chúng qua “URL hàng loạt”",
+				"dialog": {
+					"cancelButton": "Hủy"
+				},
+				"noLink": "Không có liên kết trong bộ nhớ tạm",
+				"readFailed": "Không đọc được bộ nhớ tạm — hãy dán liên kết vào ô nhập thay thế",
+				"replacedLink": "Đã thay bằng liên kết đã sao chép",
+				"toggle": "Theo dõi bộ nhớ tạm",
+				"toggleDescription": "Tự động điền vào trường URL khi bạn sao chép một liên kết YouTube.",
+				"undo": "Hoàn tác"
+			},
+			"closeToTray": {
+				"toggle": "Ẩn xuống khay khi đóng",
+				"toggleDescription": "Tiếp tục tải xuống trong nền sau khi đóng cửa sổ."
+			},
+			"concurrentDownloads": {
+				"description": "Bao nhiêu mục trong hàng đợi được tải cùng lúc. Nhiều hơn giúp hàng đợi dài xong sớm hơn, nhưng làm tăng khả năng trang web giới hạn bạn.",
+				"label": "Tải cùng lúc",
+				"unit": "mục"
+			},
+			"concurrentProbes": {
+				"description": "Số liên kết mà Klip lấy chi tiết cùng lúc, trước khi tải. Ít hơn sẽ nhẹ nhàng hơn với các trang chặn kết nối bận. Liên kết bạn mở trong Tải tương tác luôn được ưu tiên.",
+				"label": "Số liên kết kiểm tra cùng lúc",
+				"unit": "liên kết"
+			},
+			"cookies": {
+				"banWarning": "Các trang như YouTube có thể gắn cờ — và đôi khi cấm — các tài khoản có cookies được dùng bởi công cụ tải xuống như Klip. Hãy dùng tài khoản phụ khi có thể.",
+				"browserHelp": "Đọc cookies trực tiếp từ trình duyệt. Trình duyệt phải được đóng đối với các trình duyệt thuộc dòng Chromium.",
+				"browserLabel": "Trình duyệt",
+				"browserPlaceholder": "Chọn trình duyệt…",
+				"choose": "Chọn…",
+				"clear": "Xóa",
+				"enabledButNoBrowser": "Chọn một trình duyệt để dùng cookies",
+				"enabledButNoFile": "Chọn một tệp để dùng cookies",
+				"exploreDisabled": "Tab Khám phá đang tắt nên tải xuống không dùng đăng nhập Khám phá của bạn. Hãy bật ở mục Khám phá bên dưới.",
+				"extensionChrome": "Lấy cookies.txt TRÊN MÁY (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Tệp Cookies",
+				"helpLink": "Cách xuất cookies?",
+				"openExplore": "Mở Khám phá",
+				"placeholder": "Chưa chọn tệp",
+				"recommended": "Khuyên dùng",
+				"risk": "Rủi ro: một cookies.txt chứa mọi phiên đăng nhập của trình duyệt đó — hãy giữ bí mật.",
+				"sourceBrowser": "Trình duyệt",
+				"sourceExplore": "Đăng nhập Khám phá",
+				"sourceFile": "Tệp",
+				"sourceLabel": "Nguồn cookies",
+				"sourceOff": "Tắt",
+				"toggleDescription": "Hữu ích với các video mà chính tài khoản của bạn xem được, như video riêng tư của bạn."
+			},
+			"downloadConnections": {
+				"description": "Tăng tốc các tệp tải lớn bằng cách lấy nhiều phần của video cùng lúc. Giá trị cao hơn làm tăng khả năng trang web giới hạn bạn.",
+				"label": "Kết nối tải xuống",
+				"unit": "kết nối"
+			},
+			"downloadList": {
+				"album": "Tải album…",
+				"liked": "Tải video đã thích…",
+				"mix": "Tải Mix…",
+				"playlist": "Tải danh sách phát…",
+				"uploads": "Tải video đã tải lên…",
+				"watchLater": "Tải Xem sau…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Chỉ âm thanh",
+					"subtitles": "Phụ đề"
+				},
+				"anySite": {
+					"heading": "2000+ trang web",
+					"musicPlaylist": "Danh sách phát nhạc",
+					"video": "Video",
+					"videoPlaylist": "Danh sách phát video"
+				},
+				"heading": "Klip có thể tải gì",
+				"youtube": {
+					"channel": "Kênh",
+					"heading": "YouTube",
+					"music": "Nhạc",
+					"playlist": "Danh sách phát",
+					"podcast": "Podcast",
+					"short": "Shorts",
+					"video": "Video"
+				}
+			},
+			"fetchFormatsTooltip": "Trình hướng dẫn từng bước. Chọn định dạng, chất lượng và hơn nữa.",
+			"heading": "Tải xuống từ URL",
+			"hotkey": {
+				"changeShortcut": "Đổi tổ hợp phím",
+				"conflict": "Tổ hợp phím này đã bị ứng dụng khác dùng — hãy chọn tổ hợp khác.",
+				"globalLabel": "Phím tắt toàn cục",
+				"recording": "Nhấn phím…",
+				"reset": "Đặt lại về mặc định",
+				"sectionDescription": "Tải xuống bất kỳ liên kết bạn sao chép, từ bất kỳ ứng dụng nào, không cần mở Klip.",
+				"sectionTitle": "Phím tắt toàn cục",
+				"test": "Kiểm tra",
+				"toggle": "Bật phím tắt toàn cục",
+				"toggleDescriptionDetail": "Sao chép liên kết video ở bất kỳ ứng dụng nào rồi nhấn phím tắt: Klip sẽ xếp nó vào hàng đợi bằng hồ sơ đang dùng của bạn, không cần chuyển cửa sổ. Liên kết tới một video trong danh sách phát sẽ tải video đó."
+			},
+			"interactiveDownload": "Tải tương tác",
+			"interactiveDownloadAsks": "Tải tương tác…",
+			"limitRate": {
+				"activeWarning": "Tải xuống đang chạy giữ giới hạn hiện tại. Tạm dừng + Tiếp tục để áp dụng.",
+				"custom": "Tùy chỉnh…",
+				"customPlaceholder": "vd. 750K hoặc 1.5M",
+				"description": "Giới hạn băng thông cho tải media. Nhịp yêu cầu bên dưới thường là đòn bẩy giới hạn mạnh hơn.",
+				"invalid": "Dùng một số theo sau bởi K hoặc M (vd. 500K, 1.5M)",
+				"label": "Giới hạn tốc độ tải",
+				"off": "Tắt"
+			},
+			"mascotBusy": "Đang tải xuống trong nền… Tôi có thể làm nhiều việc cùng lúc 😎",
+			"mascotCollection": "Tải nhanh xếp các mục đã tải vào hàng đợi với {{profileName}}. Tải tương tác cho phép bạn xem hoặc chọn các mục trước.",
+			"mascotIdle": "Thả một liên kết và để Klip kéo về ✨",
+			"mascotSingle": "Tải nhanh bắt đầu một lượt tải với {{profileName}}. Dùng Tải tương tác để thay đổi một lần.",
+			"mascotVideoInList": "Liên kết này nêu cả một video lẫn danh sách chứa nó: chỉ tải video, hoặc tải danh sách.",
+			"nativeAudioPreference": {
+				"compatible": "Stereo tương thích",
+				"description": "Stereo hoặc vòm khi hồ sơ chọn âm thanh gốc. Hồ sơ có thể ghi đè.",
+				"label": "Tùy chọn âm thanh gốc",
+				"surround": "Ưu tiên surround / Dolby"
+			},
+			"networkPacing": {
+				"description": "Thêm khoảng dừng nhỏ trong mỗi lần tải xuống để Klip không truy cập trang web quá mức. Giá trị tính bằng giây.",
+				"fields": {
+					"maxSleepInterval": "Dừng trước khi media bắt đầu: tối đa",
+					"sleepInterval": "Dừng trước khi media bắt đầu: tối thiểu",
+					"sleepRequests": "Chờ giữa các lần kiểm tra metadata",
+					"sleepSubtitles": "Chờ trước tệp phụ đề"
+				},
+				"heading": "Tải xuống nhẹ nhàng",
+				"presetLabel": "Klip nên thận trọng mức nào?",
+				"presets": {
+					"balanced": "Cân bằng",
+					"careful": "Cẩn thận",
+					"custom": "Tùy chỉnh",
+					"off": "Tắt"
+				},
+				"summary": "Chờ: {{requests}} giữa các lần kiểm tra, {{downloads}} trước khi media bắt đầu, {{subtitles}} trước các tệp phụ đề.",
+				"tooltip": "Các khoảng chờ này diễn ra bên trong mỗi lần tải. Số lượng tải chạy cùng lúc được đặt riêng, ở «Tải cùng lúc».",
+				"tooltips": {
+					"balanced": "Mặc định. Thêm các khoảng dừng ngắn giữa các yêu cầu và trước khi media bắt đầu.",
+					"careful": "Thêm khoảng dừng dài hơn cho danh sách phát lớn hoặc mạng thường xuyên bị giới hạn.",
+					"custom": "Tự điều chỉnh các điều khiển tải xuống nâng cao.",
+					"off": "Chỉ sử dụng các khoảng dừng cơ bản nhỏ mà Klip duy trì cho media và phụ đề."
+				},
+				"units": {
+					"seconds": "giây"
+				}
+			},
+			"openedLink": {
+				"added": "Đã mở liên kết trong Klip",
+				"replaced": "Đã thay bằng liên kết được mở trong Klip"
+			},
+			"pasteLink": "Dán liên kết",
+			"placeholder": "https://www.youtube.com/watch?v=...",
+			"playlistProbeLimit": {
+				"current": "Giới hạn hiện tại: {{count}} mục",
+				"custom": "Tùy chỉnh…",
+				"customDialogCancel": "Hủy",
+				"customDialogDescription": "Nhập số nguyên từ {{min}} đến {{max}}.",
+				"customDialogSave": "Lưu giới hạn",
+				"customDialogTitle": "Giới hạn quét playlist tùy chỉnh",
+				"customValue": "Tùy chỉnh: {{count}} mục",
+				"description": "Số mục tối đa Klip tải khi mở một playlist, kênh hoặc kết quả tìm kiếm.",
+				"invalid": "Nhập số nguyên từ 1 đến 5000",
+				"label": "Số mục playlist cần quét",
+				"option": "{{count}} mục"
+			},
+			"playlistScope": {
+				"appLimit": "Dùng giới hạn của ứng dụng: {{count}}",
+				"apply": "Áp dụng",
+				"applyError": "Không thể áp dụng phạm vi danh sách phát đó: {{message}}",
+				"applyReload": "Áp dụng và tải lại",
+				"cancel": "Hủy",
+				"change": "Thay đổi",
+				"dialogDescription": "Chọn nội dung Klip tải cho danh sách phát này.",
+				"dialogTitle": "Phạm vi danh sách phát",
+				"emptyTitle": "Không có video trong phạm vi này",
+				"first": "Đầu tiên",
+				"invalid": "Dùng số mục nguyên từ 1 đến {{max}}, với điểm bắt đầu không lớn hơn điểm kết thúc.",
+				"itemsLabel": "Mục cần tải",
+				"label": "Phạm vi danh sách phát",
+				"range": "Khoảng",
+				"reloading": "Đang tải lại...",
+				"reset": "Đặt lại",
+				"summaryAppLimit": "Tải {{count}} mục đầu tiên",
+				"summaryFirst": "Tải {{count}} mục đầu tiên",
+				"summaryRange": "Tải các mục {{from}}-{{to}}",
+				"to": "đến"
+			},
+			"profile": {
+				"activeLabel": "Hồ sơ đang dùng",
+				"badgeBuiltIn": "Tích hợp",
+				"badgeCustom": "Tùy chỉnh",
+				"badgeDisabled": "Đã ẩn",
+				"badgeModified": "Đã sửa",
+				"builtinName": {
+					"audio-only": "Chỉ âm thanh",
+					"balanced": "Cân bằng 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Chất lượng tốt nhất",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Chất lượng thấp nhất 144p",
+					"low-240": "Ít dữ liệu 240p",
+					"mp4-1080": "TV thông minh 1080p",
+					"mp4-480": "TV thông minh 480p",
+					"mp4-720": "TV thông minh 720p",
+					"small-file": "Tệp nhỏ 480p",
+					"subtitles-only": "Chỉ phụ đề"
+				},
+				"changeGlobalDestination": "Đổi thư mục lưu chung",
+				"destinationDetail": {
+					"global": "Đang dùng thư mục lưu chung",
+					"globalSubfolder": "Đang dùng thư mục lưu chung + thư mục con của hồ sơ",
+					"override": "Đang dùng ghi đè hồ sơ",
+					"overrideSubfolder": "Đang dùng ghi đè hồ sơ + thư mục con của hồ sơ"
+				},
+				"destinationEditHint": "Để đổi nơi lưu, hãy chỉnh sửa hồ sơ.",
+				"destinationFallback": "Đích lưu",
+				"edit": "Sửa",
+				"editActive": "Sửa hồ sơ đang dùng",
+				"enableHint": "Hồ sơ ẩn vẫn ở đây nhưng biến mất khỏi mọi bộ chọn.",
+				"enableToggleAria": "Hiện hồ sơ trong bộ chọn: {{profileName}}",
+				"lastEnabledHint": "Giữ ít nhất một hồ sơ khả dụng.",
+				"manageProfiles": "Quản lý hồ sơ",
+				"menuDescription": "Đổi hồ sơ đang dùng cho Tải nhanh, URL hàng loạt và playlist.",
+				"menuTitle": "Đổi hồ sơ",
+				"movableProfile": "hồ sơ có thể di chuyển",
+				"moveCancelled": "Đã hủy di chuyển. Hồ sơ {{profileName}} vẫn ở vị trí {{position}} trên {{count}}.",
+				"moveDropped": "Đã thả hồ sơ {{profileName}} ở vị trí {{position}} trên {{count}}.",
+				"moveHandleAria": "Di chuyển {{profileName}}",
+				"moveInstructions": "Để di chuyển một hồ sơ, nhấn Space hoặc Enter, di chuyển bằng các phím mũi tên, rồi nhấn Space hoặc Enter để thả. Nhấn Escape để hủy.",
+				"moveOver": "Hồ sơ {{profileName}} đang ở trên vị trí {{position}} trên {{count}}.",
+				"movePickedUp": "Đã nhấc hồ sơ {{profileName}}. Hồ sơ đang ở vị trí {{position}} trên {{count}}.",
+				"newProfile": "Hồ sơ mới",
+				"outputMissing": "Hồ sơ này lưu vào một thư mục chưa được đặt. Hãy chọn thư mục trong hồ sơ, hoặc đặt lại về mặc định.",
+				"panelDescription": "Tạo, chọn, chỉnh sửa hoặc xóa các thiết lập tải xuống có thể dùng lại.",
+				"panelTitle": "Hồ sơ tải xuống",
+				"remove": "Xóa",
+				"reorderHint": "Kéo một hồ sơ để di chuyển. Mọi bộ chọn hồ sơ đều theo thứ tự này.",
+				"reset": "Đặt lại",
+				"savesTo": "Lưu vào",
+				"switchAria": "Đổi hồ sơ tải xuống: {{profileName}}",
+				"switchTitle": "Đổi hồ sơ tải xuống"
+			},
+			"proxy": {
+				"clear": "Xóa",
+				"description": "Định tuyến lưu lượng qua một máy chủ proxy.",
+				"label": "URL Proxy",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Tải nhanh",
+			"quickDownloadTooltip": "Sẽ tải xuống bằng: {{profileName}}",
+			"quickFailed": "Không thể thêm mục này: {{error}}",
+			"quickPrepareFailed": "Không thể chuẩn bị mục hàng đợi",
+			"quickPreparing": "Đang chuẩn bị",
+			"quickProbeFailed": "Thăm dò thất bại",
+			"quickSingleOnly": "Dán URL video, danh sách phát, kênh hoặc tìm kiếm để bắt đầu.",
+			"reports": {
+				"toggle": "Gửi tín hiệu ẩn danh và báo cáo thiết lập",
+				"toggleDescription": "Không theo dõi. Mỗi ngày một lần, một tín hiệu ẩn danh gửi phiên bản ứng dụng, kênh cài đặt, hệ điều hành, ngôn ngữ, quốc gia và khoảng thời gian đã trôi qua kể từ khi cài đặt Klip để chúng tôi đếm số người dùng đang hoạt động và người dùng mới. Khi Klip thiết lập hoặc cập nhật bộ máy tải xuống hoặc công cụ đa phương tiện, nó cũng báo cáo việc đó có thành công hay không và mất khoảng bao lâu. Không có ID, URL, tiêu đề video hay tên tệp."
+			},
+			"settings": {
+				"behaviorDescription": "Hành vi toàn cục cũng ảnh hưởng đến các tải xuống do hồ sơ điều khiển.",
+				"behaviorHeading": "Hành vi tải xuống",
+				"inputHeading": "Đầu vào"
+			},
+			"style": {
+				"aurora": {
+					"description": "Các bảng kính trên bầu trời chuyển động. Cần tăng tốc đồ họa.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Bề mặt đặc, yên tĩnh. Chạy nhẹ trên mọi máy tính.",
+					"label": "Tối giản"
+				},
+				"modeDescription": "Cả hai kiểu giao diện đều có bản sáng và tối.",
+				"modeLabel": "Kiểu giao diện",
+				"panelDescription": "Giao diện của Klip. Chuyển giữa sáng và tối ở chân trang.",
+				"panelTitle": "Giao diện",
+				"unavailableNotice": "{{style}} cần tăng tốc đồ họa, hiện không khả dụng nên Klip đang hiển thị {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Hồ sơ",
+				"settings": "Cài đặt"
+			},
+			"thisVideo": "Video này",
+			"thisVideoTooltip": "Chỉ tải video này với {{profileName}}"
+		}
+	}
+}

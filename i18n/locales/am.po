@@ -1,0 +1,5452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: am\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "ስለ"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "የሦስተኛ ወገን ማስታወቂያዎችን ይመልከቱ"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "ድረ-ገጽ"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "ፍቀድ"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "በAI የተሰፉ ዥረቶች ተፈቅደዋል"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube አንዳንድ የቆዩ ቪዲዮዎችን በAI በተሠሩ መጠኖች ያቀርባል። ዝለል የመጀመሪያዎቹን ዥረቶች ይይዛል፤ በAI የተሰፋውን ዥረት ግን አሁንም በእጅ መምረጥ ይችላሉ።"
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "በAI የተሰፉ ዥረቶች"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "ዝለል"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "አስተያየት"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "Klip ደስ ይለዎታል? አስተያየትዎን ማካፈል ይፈልጋሉ! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "ምዝግቦች"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "የምርመራ ፋይል አስቀምጥ"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "ምዝግቦችዎን እና የመተግበሪያ ዝርዝሮችን በDownloads አቃፊ ውስጥ ወዳለ አንድ ፋይል ያስቀምጣል፤ ከGitHub issue ጋር ለማያያዝ ዝግጁ ነው። የተጠቃሚ አቃፊዎ ስም ይወገዳል፤ የቪዲዮ አገናኞች እና ርዕሶች ይቀራሉ።"
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "አዲስ፦ Aurora ወይም ቀላል እዚህ ይምረጡ"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "ገጽታ"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "አቅርብ"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "አርቅ"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "ተመለስ"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "ዝጋ"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "ቀጥል"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "በመጫን ላይ…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "ከመጀመሪያ ጀምር"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip ይሰራ ይቆያል ዳውንሎዶቹንም ያጠናቅቃል። ይህን ወደ ኋላ በከፍተኛ ቅንብሮች ይቀይሩ።"
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "ወደ ትሬ ደብቅ"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "Klip ሲዘጋ ወደ ትሬ ደብቅ?"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "ዝጋ"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "እንደገና አትጠይቅ"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "ወረፋዎ ተጠብቆ ይቆያል፤ Klipን በሚቀጥለው ጊዜ ሲከፍቱ ውርዶች ካቆሙበት ይቀጥላሉ።"
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "ዳውንሎዱን ቀጥል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} ዳውንሎድ እየሄደ ነው"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} ዳውንሎዶች እየሄዱ ናቸው"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "ዝጋ"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "የተቀጣጣሪ ሂደት ተቋርጧል ({{reason}})። ለማደስ ዳግም ጫን።"
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip ችግር አጋጥሟል"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "ዝጋ"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "ዳግም ጫን"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "ተቀድቷል!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "አድራሻውን ቅዳ"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip ነፃ እና ክፍት ምንጭ ነው፤ ምንም ማስታወቂያ ወይም የክፍያ ዕቅድ የለውም። ልገሳ በፈቃድ ነው፤ በፍኖተ ካርታው ላይ ምንም ተጽዕኖ አይሰጥም።"
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "ይለግሱ"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Klipን ይደግፉ"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "የ{{coin}} መለገሻ አድራሻ QR ኮድ"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Klipን ይደግፉ"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "የክሪፕቶ ክፍያዎች ሊመለሱ አይችሉም። በታየው አውታረ መረብ ብቻ ይላኩ እና አድራሻውን ሙሉ በሙሉ ያመሳስሉ።"
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}።"
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "ይህ ቪዲዮ ዕድሜ-ተገደቧል ያለ የገቡ መለያ ሊዳውንሎድ አይችልም።"
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "የጣቢያው የቦት መከላከያ ይህን ውርድ አቆመው። ትንሽ ቆይተው እንደገና ይሞክሩ፣ ወይም በአንድ ጊዜ ጥቂት ቪዲዮዎችን ያውርዱ። አሁንም ካልሰራ፣ ይህ ጊዜያዊ የጣቢያ ወገን ለውጥ ሊሆን ይችላል — Klip በጅምር የማውረጃ ሞተሩን ያዘምናል፣ ስለዚህ ማስተካከያው ሲወጣ ራሱ ይደርሳል።"
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "አገልጋዩ ውርዱን በመካከል ደጋግሞ አቋረጠ፣ Klip ደግሞ እንደገና ከሞከረ በኋላ ተወው። ይህ ብዙ ጊዜ ትልቁን የቪዲዮ ቅርጸቶች (4K HDR / ከፍተኛ bitrate VP9) ይነካል። እንደገና ሞክሩ፣ አውታረ መረብ/VPN ይቀይሩ፣ ወይም ዝቅተኛ ጥራት ቅርጸት ይምረጡ።"
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "ይህ ቪዲዮ DRM የተጠበቀ ነው። Klip DRM ን ማስወገድ አይችልም፣ ስለዚህ ፋይሉ ሊወርድ አይችልም።"
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "ይህ ቪዲዮ የመረጡትን ቅርጸት ከእንግዲህ አያቀርብም። አገናኙን እንደገና ይለጥፉ እና አሁን ከሚቀርቡት ቅርጸቶች ይምረጡ።"
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "ይህ ቪዲዮ በክልልዎ አይገኝም።"
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "ጣቢያው ከዚህ ግንኙነት የሚመጡ ጥያቄዎችን እየከለከለ ነው። ቆይተው እንደገና ይሞክሩ።"
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "ይህ ቪዲዮ የገባ መለያ ያስፈልገዋል።"
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip FFmpeg ወይም FFprobe ማግኘት አልቻለም። ማዋቀሩን እንደገና ያሂዱ ወይም የFFmpeg ቦታ ያዘጋጁ፣ ከዚያ ማውረዱን እንደገና ይሞክሩ።"
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "የአውታረ መረብ ስህተት። ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።"
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "ይህ ቪዲዮ በተጠየቁት ቋንቋዎች ንዑስ ርዕሶች የሉትም።"
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "በቂ ዲስክ ቦታ የለም። ቦታ ፍቱ እና እንደገና ሞክሩ።"
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip ወደ ማውረጃ አቃፊው መጻፍ አልቻለም። አቃፊው ለንባብ ብቻ የሆነ፣ በተቆለፈ ድራይቭ ላይ ያለ ወይም በሲስተምዎ የግላዊነት ቅንብሮች የታገደ ሊሆን ይችላል። ሌላ አቃፊ ይምረጡ ወይም መዳረሻ ይፍቀዱ፣ ከዚያ እንደገና ይሞክሩ።"
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "ከጣቢያው የተመለሰውን ምላሽ መተንተን አልተቻለም። ጣቢያው ቪዲዮዎችን የሚያቀርብበትን መንገድ ቀይሮ ሊሆን ይችላል። Klip በሚነሳበት ጊዜ የማውረጃ ሞተሩን ያዘምናል — ማስተካከያው ሲወጣ በጥቂት ደቂቃዎች ውስጥ እንደገና ሞክሩ።"
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "ማውረዱ ተጠናቅቋል ነገር ግን ድህረ-ሂደት (merge / mux / convert) አልተሳካም። ብዙውን ጊዜ ይህ ጊዜያዊ የffmpeg ችግር ነው — እንደገና ሞክሩ፣ ችግሩ ከቀጠለ ሌላ የቅርጸት ጥምረት ሞክሩ።"
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "ጣቢያው ከዚህ ግንኙነት የሚመጡ ጥያቄዎችን እየገደበ ነው።"
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "ይህ ቪዲዮ አይገኝም — ምናልባት የግል፣ ተሰርዟል ወይም ክልል-ተዘግቷል።"
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "ማውረድ አልተሳካም። ከታች ያለውን raw output ይመልከቱ።"
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip ይህን URL አይደግፍም። ከሌላ ጣቢያ አገናኝ ይሞክሩ።"
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "ግንኙነትዎን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።"
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "ይህ ገጽ አልተጫነም"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "ቅንብሮችን ክፈት"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "በቅንብሮች ውስጥ ፕሮክሲውን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።"
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "ዳሰሳ በፕሮክሲዎ በኩል መገናኘት አልቻለም"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "በገጹ ላይ ማንኛውንም የቪዲዮ፣ የቪዲዮ ዝርዝር ወይም የቻናል አገናኝ በቀኝ ጠቅ በማድረግ በንቁ መገለጫዎ ያውርዱት፣ ሌላ መገለጫ ይምረጡ ወይም በይነተገናኝ ማውረድን ይክፈቱ።"
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "ለማውረድ አገናኝ ላይ በቀኝ ጠቅ ያድርጉ"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "አልበሙን በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "የወደዷቸውን ቪዲዮዎች በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Mixን በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "የቪዲዮ ዝርዝሩን በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "ሰቀላዎቹን በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "“በኋላ ይመልከቱ”ን በዳራ ያውርዱ"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "ሊንክ ቅዳ"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "የመጀመሪያዎቹን {{count}} ያውርዱ"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "ይህን ቪዲዮ ያውርዱ · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "በመገለጫ አውርድ"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "ከዚህ አልበም"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "ከወደዷቸው ቪዲዮዎች"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "ከዚህ Mix"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "ከዚህ የቪዲዮ ዝርዝር"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "ከዚህ ቻናል ሰቀላዎች"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "ከ“በኋላ ይመልከቱ”"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "በይነተገናኝ ማውረድ…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "ይህ ቪዲዮ በ"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "አዲስ"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "በYouTube ወይም በማንኛውም ሌላ ጣቢያ ላይ ቪዲዮ ያግኙና ከዚህ ያውርዱ — አገናኞችን መቅዳት አያስፈልግም። መለያ የሚያስፈልጋቸውን ቪዲዮዎች ለማውረድ እዚህ ወደ ጣቢያ ይግቡ።"
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "ቀጥል"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "እንደ YouTube ያሉ ጣቢያዎች እንደ Klip ካሉ የማውረጃ መሣሪያዎች ጋር የሚጠቀሙ መለያዎችን ሊጠቁሙ — እና አንዳንድ ጊዜ ሊያግዱ — ይችላሉ። ማጣት የማይከብድዎትን መለያ ይጠቀሙ፣ ዋና መለያዎን አይደለም።"
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "በሁለተኛ መለያ ይግቡ"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "ድሩን በKlip ውስጥ ያስሱ"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "ውርዶች የአሳሽዎን cookies ይጠቀማሉ፣ የዳሰሳ መግቢያዎን አይደለም።"
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "ውርዶች የcookies ፋይልዎን ይጠቀማሉ፣ የዳሰሳ መግቢያዎን አይደለም።"
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "አሁን አይደለም"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Cookies ጠፍተዋል፣ ስለዚህ ውርዶች የዳሰሳ መግቢያዎን አይጠቀሙም።"
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "የዳሰሳ መግቢያ ተጠቀም"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "YouTubeን ወይም ማንኛውንም ሌላ ጣቢያ በKlip ውስጥ ያስሱ፣ መለያ ለሚያስፈልጋቸው ቪዲዮዎችም ይግቡ።"
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "በሌሉበት ጊዜ ማህደረ ትውስታን ነጻ አድርግ"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "በሌላ ትር ላይ ከ5 ደቂቃ በኋላ የYouTube መነሻ ወይም የፍለጋ ገጽን ይዘጋል። ሲመለሱ እንደገና ይጫናል፣ ይህም ጥቂት ሰከንዶች ይወስዳል።"
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "የፍለጋ ሞተር"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "በአድራሻ አሞሌ የተጻፈ ጽሑፍ የሚፈለገው የት እንደሆነ። አገናኞች እንደተጻፉ ይከፈታሉ።"
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "የዳሰሳ ትርን አሳይ"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "ማጥፋት ውርዶችም የዳሰሳ መግቢያዎን እንዳይጠቀሙ ያደርጋል።"
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "ከዳሰሳ ውጣ"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "ውጣ"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "ይህ በዳሰሳ ውስጥ በሁሉም ጣቢያዎች ላይ ያሉ መግቢያዎችዎን እና የማሰስ ውሂብዎን ያጸዳል። መለያ የሚያስፈልጋቸው ውርዶች እንደገና እስኪገቡ ድረስ አይሳኩም።"
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "ከዳሰሳ ይውጡ?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "በዳሰሳ ውስጥ በሁሉም ጣቢያዎች ላይ ያሉ መግቢያዎችዎን እና የማሰስ ውሂብዎን ያጸዳል።"
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "ዳሰሳ"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "ዳሰሳ"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube ለገቡ መለያዎች የማስታወቂያ ማገጃዎችን ሊቋቋም ይችላል።"
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "የማስታወቂያ ማገጃ"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "የማስታወቂያ ማገጃ፦ ጠፍቷል — ለማብራት ጠቅ ያድርጉ"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "የማስታወቂያ ማገጃ፦ በርቷል — ለማጥፋት ጠቅ ያድርጉ"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "የማስታወቂያ ማገጃ፦ በመጀመር ላይ — ለማጥፋት ጠቅ ያድርጉ"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "የማስታወቂያ ማገጃ፦ አይገኝም፣ የማጣሪያ ዝርዝሮቹ ሊወርዱ አልቻሉም — ለማጥፋት ጠቅ ያድርጉ"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "አድራሻ"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "{{engine}} ላይ ፈልግ ወይም ማንኛውንም ጣቢያ ክፈት (Vimeo፣ Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "የዳሰሳ አሳሽ መቆጣጠሪያዎች"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "ተመለስ"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "የታመቀ አቀማመጥ"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "ማውረድ"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "አውርድ · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "ወደፊት"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "ሙሉ አቀማመጥ አሳይ"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "ለማውረድ ቪዲዮ፣ የቪዲዮ ዝርዝር ወይም ቻናል ይክፈቱ"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "የYouTube መነሻ"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "በይነተገናኝ ማውረድ፦ ቅርጸት፣ ንዑስ ርዕሶች እና ሌሎችን ምረጥ…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "ዳሰሳ ያንን አድራሻ መክፈት አይችልም።"
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "ዳግም ጫን"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "ያ ፍለጋ በጣም ረጅም ነው።"
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "ይህ ቪዲዮ"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "ይህን ቪዲዮ ብቻ በ{{profileName}} ያውርዱ"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "የገጽ ማጉላት፦ {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "አቅርብ"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "የገጽ ማጉላት"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "አርቅ"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "የማጉላት መቶኛ"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "ማጉላትን ወደ 100% መልስ"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "የወረዱ ፋይሎች እንዴት እንደሚሰየሙ ይምረጡ። ለማስገባት ቶክን ይጫኑ። ውርዶችን በአቃፊዎች ለመደርደር / ይጠቀሙ።"
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "የፋይል ስም አብነት ያስገቡ።"
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "ተጨማሪውን / ያስወግዱ — እያንዳንዱ አቃፊ ስም ያስፈልገዋል።"
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "በፋይል ስሞች ውስጥ የማይፈቀዱ ቁምፊዎችን ያስወግዱ: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "ይህ የአቃፊ ስም አይፈቀድም። . እና .. እንዲሁም እንደ CON ያሉ የተያዙ ስሞችን ያስወግዱ።"
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "እያንዳንዱ ውርድ የራሱ ስም እንዲኖረው በፋይል ስሙ ላይ {title} ወይም {id} ያክሉ።"
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} አቃፊ መሰየም አይችልም — ጥራቱ ውርዱ እስኪጀምር ድረስ አይታወቅም።"
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "ያልተዘጋ { ወይም } — ምልክቶችን እንደ {title} ይጻፉ።"
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "አብነቱ በጣም ረጅም ነው።"
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "ያልታወቀ ምልክት {{token}}።"
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "Klip አስቀድመው የወረዱ የዝርዝር ንጥሎችን እንዲለይና .m3u ዝርዝሮችን እንዲፈጥር ስሙን በ[{id}] ያጠናቅቁ።"
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "የፋይል ስም አብነት"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "አይገኝም ምክንያቱም የፋይል ስም አብነትዎ በ[{id}] አያልቅም ወይም ውርዶችን በአቃፊዎች ይደረድራል።"
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "በአጫዋች ዝርዝር ውስጥ"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "ነጠላ ቪዲዮ"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "አጠቃላይ አብነቱን ለመጠቀም ባዶ ይተውት።"
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "የፋይል ስም አብነት"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "ራስ-ሰር"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "ራስ-ሰር (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "የተመረጡት ዥረቶች የፋይሉን አይነት ይወስናሉ።"
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "ማንኛውንም codec ይይዛል። አንዳንድ ቲቪዎችና ስልኮች ሊከፍቱት አይችሉም።"
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "በሁሉም ቦታ ማለት ይቻላል ይጫወታል። በMP4 ውስጥ ያለ VP9 በQuickTime ውስጥ ቪዲዮ አያሳይም።"
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "ለአሳሾች የተዘጋጀ ክፍት ቅርጸት። VP9 ወይም AV1 ከOpus ጋር ብቻ ይይዛል።"
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "በMP4 ውስጥ ያለ AV1 በQuickTime ለመጫወት አዲስ Mac ያስፈልገዋል። H.264 በሁሉም ቦታ ይጫወታል።"
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "በMP4 ውስጥ ያለ VP9 በQuickTime ውስጥ ቪዲዮ አያሳይም። H.264 በሁሉም ቦታ ይጫወታል።"
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "መገለጫ"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM ከስማርት TV ጋር አይቀርብም፦ H.264 መያዝ አይችልም።"
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM {{codec}} መያዝ አይችልም። MKV ወይም MP4 ይምረጡ።"
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "ድምጽ"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "ድምጽ ብቻ · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "ራስ-ሰር"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "ራስ-ሰር ይህ ስክሪን HDR ማሳየት ከቻለ HDRን ይመርጣል፣ ካልቻለ ደግሞ SDRን። HDR በተለመዱ ስክሪኖች ላይ የደበዘዘ ይመስላል።"
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "HDR ቪዲዮ"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "ቋንቋ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "በዳሰሳ ገብተዋል — 1 አገናኝ እንደገና በመሞከር ላይ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "በዳሰሳ ገብተዋል — {{count}} አገናኞች እንደገና በመሞከር ላይ"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "ከዳሰሳ መውጣት አልተቻለም። እንደገና ይሞክሩ።"
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "ይህ አቃፊ ለስርዓትዎ በጣም ጥልቅ ነው። ማውረዱ አሁንም ሊሳካ ይችላል — አጭር አቃፊ ይምረጡ።"
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "የዚህ ቪዲዮ ስም የአብነትዎን እያንዳንዱን ክፍል አይይዝም፣ ስለዚህ ነባሪው ስም ጥቅም ላይ ውሏል።"
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "የአቃፊ መምረጫን መክፈት አልተቻለም።"
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "ቀድሞ በወረፋ ውስጥ ነው — ቅጂ አልተጨመረም"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "በKlip ውስጥ የCookies ማዋቀሩን ይጨርሱ፣ ከዚያ እንደገና ይሞክሩ"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "በቅጂ ሰሌዳ ላይ አገናኝ የለም — መጀመሪያ አንዱን ይቅዱ"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "ብዙ አገናኞች ተቀድተዋል — በKlip ውስጥ «ብዙ URLዎች»ን ይጠቀሙ"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "ይህ አገናኝ ምርጫዎን ይፈልጋል — በKlip ውስጥ «ዳውንሎዶች»ን ይመልከቱ"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "ከቅጂ ሰሌዳ ማውረጃ ተጨምሯል"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "ያ አገናኝ ማከል አልተቻለም — በKlip ውስጥ እንደገና ይሞክሩ"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "ያ አቃፊ ለዚህ የአጫዋች ዝርዝር መጠቀም አይቻልም።"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} ቪዲዮ ቀድሞ በወረፋ ውስጥ ነው — ተዘሏል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} ቪዲዮዎች ቀድሞ በወረፋ ውስጥ ናቸው — ተዘለዋል"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "ተጨምሯል፦ {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "ቀድሞ በወረፋ ውስጥ ነው"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "{{count}} አገናኝ ወደ ዳውንሎዶች ታክሏል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} አገናኞች ወደ ዳውንሎዶች ታክለዋል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} ቀድሞ በወረፋ ውስጥ ነው"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} ቀድሞ በወረፋ ውስጥ ናቸው"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "{{count}} አገናኝ ሊታከል አልቻለም"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} አገናኞች ሊታከሉ አልቻሉም"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} ሊታከል አልቻለም"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} ሊታከሉ አልቻሉም"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "በዚህ ዝርዝር ውስጥ {{count}} ቪዲዮ — የሚወርደውን ይምረጡ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "በዚህ ዝርዝር ውስጥ {{count}} ቪዲዮዎች — የሚወርዱትን ይምረጡ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ ቪዲዮ — ምን ያህል እንደሚወርድ ይምረጡ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ ቪዲዮዎች — ምን ያህል እንደሚወርድ ይምረጡ"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "{{title}}ን ማዘጋጀት አልተቻለም"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "ያን አገናኝ ማከል አልተቻለም — እንደገና ይሞክሩ"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "ይመልከቱ"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "ቅንብሮችዎን ማስቀመጥ አልተቻለም።"
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "ያንን መክፈት አልተቻለም።"
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "ማዋቀር አልተጠናቀቀም። እስኪጠናቀቅ ድረስ አንዳንድ ማውረዶች ሊሳኩ ይችላሉ።"
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "ድምጽ (ምርጥ)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "ድምጽ ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "ምርጥ ነባር ድምጽ፣ ዳግም ኮድ አይደረግም"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "ወደ M4A (AAC) ቀይር"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "ወደ MP3 ቀይር"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "ወደ Opus ቀይር"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "H.264 ከ1080p በላይ በYouTube ላይ አይገኝም — በራስ-ሰር ወደ 1080p ይገደባል"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "እንደ አስቀምጥ"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "በቀጥታ በማስቀመጫ አቃፊ ውስጥ"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "ቋንቋዎች"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "ለመቀጠል ቢያንስ አንድ ቋንቋ ይምረጡ።"
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "ለእያንዳንዱ ቪዲዮ የንዑስ ርዕስ ፋይሎች ብቻ ይቀመጣሉ — ቪዲዮም ሆነ ድምጽ አይወርድም።"
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "ምንጭ"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "እስከ 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "እስከ 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "እስከ 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "እስከ 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "እስከ 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "እስከ 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "እስከ 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "እስከ 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "ምርጥ ጥራት"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "በ1080p ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "በጣም ትንሽ ሊሆኑ የሚችሉ ፋይሎች"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "በ2K ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "በ2160p ይገደባል፣ ለእያንዳንዱ ንጥል ዝቅ ይላል"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "በጣም ትንሽ ፋይሎች፣ ዝቅተኛ ጥራት"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "ለጠባብ ባንድዊድዝ ትንሽ ፋይሎች"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "ዝቅተኛ ባንድዊድዝ"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "ትንሽ ፋይሎች፣ ሰፊ ተኳኋኝነት"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "ለእያንዳንዱ ንጥል ምርጥ ቪዲዮ + ድምጽ"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "ድምጽ"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "ቪዲዮ"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "ምርጥ ኦሪጅናል"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "ስማርት TV H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "ለእያንዳንዱ ንጥል የሚገኝ ከፍተኛ codec"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "H.264 + AAC ይመረጣል፣ MP4 ኮንቴነር · በተቻለ መጠን"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "ተጓዳኝ ፋይል"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "መግለጫ"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "ሚዲያ"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "ጠፍቷል"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "ንዑስ ርዕስ"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "አነስተኛ ምስል"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "ፋይል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "ትኩረት የሚሹ፦ {{count}}"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "ትኩረት የሚሹ፦ {{count}}"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "እያንዳንዱን ዳውንሎድ ከተጠናቀቀ ከጥቂት ሰከንዶች በኋላ ከዝርዝሩ ያስወግደዋል። ፋይሎቹ በአቃፊዎ ውስጥ ይቀራሉ።"
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "ሲጠናቀቅ በራስ-ሰር አጽዳ"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "ሁሉንም ንቁ እና በመጠባበቅ ላይ ያሉ ዳውንሎዶችን ሰርዝ"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "ሁሉም ቪዲዮዎች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "በዚህ የቪዲዮ ዝርዝር ውስጥ ከ{{count}} በላይ ቪዲዮ አለ። ሁሉንም፣ የመጀመሪያዎቹን {{count}} ያውርዱ፣ ወይም በግምገማ ይምረጡ።"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "በዚህ የቪዲዮ ዝርዝር ውስጥ ከ{{count}} በላይ ቪዲዮዎች አሉ። ሁሉንም፣ የመጀመሪያዎቹን {{count}} ያውርዱ፣ ወይም በግምገማ ይምረጡ።"
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "የመጀመሪያዎቹ {{count}}"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "አልበሙ"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "የወደዷቸው ቪዲዮዎች"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "ይህ Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "የቪዲዮ ዝርዝሩ"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "ሁሉም ሰቀላዎች"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "“በኋላ ይመልከቱ”"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "ከእሱ ይምረጡ…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "ግምገማ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "ይህ አገናኝ የ{{count}} ቪዲዮ ዝርዝር ነው። ያውርዱት፣ ወይም በግምገማ ይምረጡ።"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "ይህ አገናኝ የ{{count}} ቪዲዮዎች ዝርዝር ነው። ሁሉንም ያውርዱ፣ ወይም በግምገማ ይምረጡ።"
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "ይህ ቪዲዮ"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "ይህ አገናኝ በአንድ አልበም ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ አልበሙን ያውርዱ?"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "ይህ አገናኝ ከወደዷቸው ቪዲዮዎች ውስጥ አንዱ ነው። ቪዲዮውን ብቻ ወይስ የወደዷቸውን ሁሉንም ቪዲዮዎች ያውርዱ?"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "ይህ አገናኝ በአንድ Mix ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ Mixን ያውርዱ?"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "ይህ አገናኝ በአንድ የቪዲዮ ዝርዝር ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ የቪዲዮ ዝርዝሩን ያውርዱ?"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "ይህ አገናኝ በአንድ ቻናል ሰቀላዎች ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ ሁሉንም ሰቀላዎች ያውርዱ?"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "ይህ አገናኝ በ“በኋላ ይመልከቱ” ዝርዝርዎ ውስጥ ያለ ቪዲዮ ነው። ቪዲዮውን ብቻ ወይስ ሙሉውን ዝርዝር ያውርዱ?"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "የተጠናቀቁ ዳውንሎዶችን አጽዳ"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "በወረፋ የተጨመሩ ማውረዶች እዚህ ይታያሉ"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "ሁሉም"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "የወረፋ ሁኔታ ማጣሪያዎች"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "ሁሉም ንጥሎች"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "ዳውንሎዶች"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "ድምፅ አልተወገደም"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "ድምፅ አልተወገደም · አንዳንድ ንዑስ ርዕሶች አልተሳኩም"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "ዳውንሎድ ወድቋል"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "የመድረሻ አቃፊን ክፈት"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "አቋርጥ"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "በመጠባበቅ ላይ ያሉ ብቻ"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "አሁን አውርድ — ወረፋን ዝለል"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "በ{{height}}p ተገድቧል"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "በ{{height}}p ተገድቧል · አንዳንድ ንዑስ ርዕሶች አልተሳኩም"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "አስወግድ"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "ቀጥል"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "በራስ-ሰር እየሞከረ ነው (ሙከራ {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "ቦታ አዘጋጅ"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "ቦታ ለማዘጋጀት በመጠበቅ ላይ ያሉ ንጥሎችን ይምረጡ።"
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "ተሰርዟል"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "ተጠናቋል"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "ስህተት"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "ተይዟል"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "ምርጫዎን ይፈልጋል"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "ቆሟል"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "በመጠበቅ ላይ"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "ዝርዝሮች በመ 가져오는 ላይ"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "በማውረድ ላይ"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "ንዑስ ርዕሶች የሉም፦ {{languages}}"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "{{site}}ን እስከ {{time}} ይጠብቃል"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} የዚህን ግንኙነት ጥያቄዎች እየገደበ ነው። ገደቡ እንዲነሳ Klip የዚህን አገናኝ ዝርዝሮች ከ{{time}} በኋላ ያመጣል።"
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "ዝጋ"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "ከአንድ አልበም"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "ከወደዷቸው ቪዲዮዎች"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "ከአንድ Mix"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "ከአንድ የቪዲዮ ዝርዝር"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "ከአንድ ቻናል ሰቀላዎች"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "ከ“በኋላ ይመልከቱ”"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "ሙሉውን አልበም ያግኙ"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "ሁሉንም የወደዷቸውን ቪዲዮዎች ያግኙ"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "ሙሉውን Mix ያግኙ"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "ሙሉውን የቪዲዮ ዝርዝር ያግኙ"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "ሁሉንም ሰቀላዎች ያግኙ"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "ሁሉንም የ“በኋላ ይመልከቱ” ያግኙ"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "ዝርዝሩን እንደ የራሱ ረድፍ ያክላል። ይህ ቪዲዮ አይካተትም።"
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "ሁሉንም ንቁ ዳውንሎዶችን አቁም"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "ወረፋው ላይ ነው — በመጠባበቅ ላይ ያሉ ማውረጃዎች እስኪ ወረፋውን እስኪያስቀጥሉት አይጀምሩም"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "የቆሙ ማውረዶችን ቀጥል እና ወረፋውን እንዲቀጥል ፍቀድ"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "ወረፋውን ቀጥል"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "የተመረጡ ንጥሎች"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} ተመርጧል · {{total}} ጠቅላላ"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "ዳውንሎዶች"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "ታክሏል"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "የውጤት ፋይሎች"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "የ{{column}} ዓምድ ተጥሏል።"
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "የ{{column}} ዓምድ ማንቀሳቀስ ተሰርዟል።"
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "የ{{column}} ዓምድ በ{{target}} ላይ ነው።"
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "የ{{column}} ዓምድ ተነሳ።"
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "ዓምዶች"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "ተጠናቋል"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "ቅርጸት"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "የ{{title}} ፋይሎችን ደብቅ"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "ተንቀሳቃሽ ዓምድ"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "ዓምድን ለማንቀሳቀስ ስፔስ ወይም ኤንተር ይጫኑ፣ በቀስት ቁልፎች ያንቀሳቅሱት፣ ከዚያ ለመጣል እንደገና ስፔስ ወይም ኤንተር ይጫኑ። ለመሰረዝ ኤስኬፕ ይጫኑ።"
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "የውጤት መድረሻ"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "ሂደት"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "ዓምዶችን ዳግም አስጀምር"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "የ{{column}} ዓምድ መጠን ቀይር"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "የ{{title}} ፋይሎችን አሳይ"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "መጠን"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "በ{{label}} ደርድር"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "ሁኔታ"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "ርዕስ"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "ዳውንሎዶች አሁን በዳውንሎዶች ትር ውስጥ ይገኛሉ — ሂደታቸውን ለመከታተል ማንኛውም ጊዜ ይክፈቱት።"
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "ቀጥል"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "አዲስ ዝማኔ እያስኬዱ ነው። ዋና ዋና ነጥቦቹ እነሆ።"
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "ሙሉ የልቀት ማስታወሻዎች ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "በKlip {{version}} ውስጥ ምን አዲስ ነገር አለ"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "ፈፃሚ ፋይል ምረጥ"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "በHomebrew ጫን"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "በWinGet ጫን"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "የጥገኝነት አቃፊ ክፈት"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "ወደ ነባሪ መልስ"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "እንደገና ሞክር"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "የማዋቀሪያ ምዝግብ ፋይል ተመልከት"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚሰራ ቅጂ ይምረጡ።"
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "አንድ መሣሪያ በትክክል እየሠራ አይደለም"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "Klipን በፀረ-ቫይረስዎ ወይም በSmartScreen ውስጥ ይፍቀዱ፣ ከዚያ እንደገና ይሞክሩ።"
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "ፀረ-ቫይረስዎ አንድ መሣሪያ አግዷል"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "የኢንተርኔት ግንኙነትዎን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።"
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "Klip የሚፈልገውን ማውረድ አልተቻለም"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "እንደገና አዲስ ለማውረድ ይሞክሩ።"
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "የወረደው ፋይል ተበላሽቶ ደርሷል"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "እንደገና አዲስ ለማውረድ ይሞክሩ።"
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "የወረደው ፋይል ከቼክሰሙ ጋር አልተዛመደም"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "ሁለቱንም ከታች ይምረጡ፣ ወይም ወደ ነባሪ ይመልሷቸው።"
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg እና FFprobe አብረው መዘጋጀት አለባቸው"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚያምኑትን ቅጂ ይምረጡ።"
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "ሲስተምዎ Klip አንድ መሣሪያ እንዲያሄድ አይፈቅድም"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "እንደገና ይሞክሩ። አሁንም ካልሰራ፣ ከታች የሚሰራ ቅጂ ይምረጡ።"
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "አንድ መሣሪያ ይጎድላል ወይም አይጀምርም"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "ይህ ብዙ ጊዜ በመጀመሪያ ጊዜ በሚደረግ የደህንነት ፍተሻ ምክንያት ነው። እንደገና ይሞክሩ።"
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "አንድ መሣሪያ ለመመለስ በጣም ረጅም ጊዜ ወሰደ"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "እንደገና ይሞክሩ፣ ወይም ለዝርዝር የማዋቀሪያ ምዝግብ ፋይሉን ይክፈቱ።"
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "በማዋቀር ወቅት የሆነ ችግር ተፈጥሯል"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "የማውረጃ ሞተር"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "የሚዲያ መሣሪያዎች"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "በHomebrew በመጫን ላይ… ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።"
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "በWinGet በመጫን ላይ… ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።"
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Klipን አስቀድመው ወዳሉዎት ቅጂዎች ያመልክቱ፣ ወይም በሌላ መንገድ ይጫኗቸው።"
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "በተጨማሪም yt-dlp እና ffmpegን በጥቅል አስተዳዳሪዎ መጫን ይችላሉ፣ ከዚያ እንደገና ሞክር የሚለውን ይጫኑ።"
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "በእጅ ያዋቅሩት"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "እንደገና ይሞክሩ፣ ወይም Klipን ከታች አስቀድመው ወዳሉዎት መሣሪያዎች ያመልክቱ።"
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "ማዋቀሩ ቆሟል"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "ማዋቀሩ እርዳታዎን ይፈልጋል"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "ይህ መገለጫ እንዴት እንደሚመርጥ"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "AAC ድምጽ"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "ለMP4 ማጫወቻዎች ተስማሚ"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "AAC ድምጽ"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "በሁሉም ቦታ ይጫወታል"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1፣ ከዚያ VP9፣ ከዚያ H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "በተመሳሳይ መጠን በጣም ጥርት ያለ"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264፣ ከዚያ VP9፣ ከዚያ AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "የዚህ መገለጫ ኮዴክ"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9፣ ከዚያ H.264፣ ከዚያ AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "የዚህ መገለጫ ኮዴክ"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "ከፍተኛው የፍሬም መጠን"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "ይበልጥ ለስላሳ እንቅስቃሴ"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "H.264 ቪዲዮ"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "በሁሉም መሣሪያ ላይ ይጫወታል"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR ከSDR በፊት"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "በHDR ስክሪኖች ላይ የበለጸገ ቀለም"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "ይህ ስክሪን HDR ያሳያል"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR ከHDR በፊት"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "በማንኛውም ስክሪን ላይ ትክክል ይመስላል"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "ይህ ስክሪን HDR አያሳይም"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "MP4 ዥረቶች"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "ለMP4 ፋይል ዝግጁ"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "ስቴሪዮ ድምጽ"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "ይህ መገለጫ"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "ከቅንብሮች"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "ሲገኝ surround ድምጽ"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Opus ድምጽ"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "ለWebM ተስማሚ"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "የመጀመሪያዎቹ ዥረቶች፣ በAI የተሰፉት አይደሉም"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "የተሰፋ ቅጂ ይረዝማል ግን እውነተኛ ዝርዝር አይጨምርም"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "ቀጥተኛ ውርዶች ከዥረት ቅጂዎች በፊት"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "ተመሳሳይ ምስል፣ ፈጣን ማውረድ"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "እስከ {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "የእርስዎ ገደብ"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "ከፍተኛው ጥራት መጠን"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "ገደብ አልተቀመጠም"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "ጣቢያው ዝቅ ያላደረጋቸው ዥረቶች"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "የተበላሹ፣ የውሃ ምልክት ያላቸውን እና ተጠባባቂ ቅጂዎችን ይዘላል"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "ትልቅ ፋይል"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "በተመሳሳይ ቅንብሮች ተጨማሪ ዝርዝር"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "የተሻሻለ ቢትሬት ያላቸው ዥረቶች መጀመሪያ"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "በተመሳሳይ ጥራት ተጨማሪ ዝርዝር"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "የፋይል አይነት ከዥረቶቹ"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "እንደ .{{ext}} ይቀመጣል"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "ምርጥ ምስል"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "በማንኛውም መሣሪያ ይጫወታል"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "ለምን ይህ?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "መገለጫው ይህን ለምን መረጠ"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "ተቀድቷል!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "ሊንክ ቅዳ"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — ነፃ እና ክፍት-ምንጭ የቪዲዮ አውራጅ ለ Windows፣ macOS እና Linux። ከ YouTube፣ Vimeo፣ Twitch እና ከ2000+ ሌሎች ጣቢያዎች ጋር ይሰራል።\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip ነፃ እና ክፍት ምንጭ ነው። ማጋራት ብዙ ሰዎች እንዲያገኙት ይረዳቸዋል።"
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "አጋራ"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Klip አጋራ"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Klip አጋራ"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Klip ያጋሩ"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "ችግር አለ? በእጅ ያዋቅሩት"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "እንኳን ደህና መጡ!"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "ወደ {{count}} ደቂቃ ይቀራል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "ወደ {{count}} ደቂቃዎች ይቀራል"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "ከአንድ ደቂቃ በታች ይቀራል"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "ሁሉም ነገር እየሰራ መሆኑን በማረጋገጥ ላይ"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "በመገናኘት ላይ…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "የሚዲያ መሣሪያዎችን በመክፈት ላይ"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "የማውረጃ ሞተሩን በመክፈት ላይ"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "የ Klip መሣሪያዎችን በማዘመን ላይ"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "የማውረጃ ሞተሩን በማዘመን ላይ"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "የመጀመሪያ ጊዜ ማዋቀር"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "የሚዲያ መሣሪያዎችን በማዘመን ላይ"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "የዚህ ስሪት የመጀመሪያ ምርመራ — ይህኛው ዘገምተኛ ነው። አብዛኛውን ጊዜ አንድ ደቂቃ ያህል ይወስዳል።"
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "{{binary}} እየተመረመረ ነው…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "ውርዶችን በማዘጋጀት ላይ…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "ማዋቀር አልተሳካም። ዝርዝሮችን ለማየት የማዋቀሪያ ምዝግብ ፋይሉን ይክፈቱ።"
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "ቪዲዮ ከድምፁ ጋር ተቀምጧል — ድምፁን ማስወገድ አልተቻለም"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "ቪዲዮ ከድምፁ ጋር ተቀምጧል — ድምፁን ማስወገድ አልተቻለም፣ አንዳንድ ንዑስ ርዕሶችም ሊዳውንሎድ አልቻሉም"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "ዳውንሎድ ተሰርዟል"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "ዳውንሎድ ተጠናቅቋል"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "ቪዲዮ እየቀየሩ…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "በቂ የዲስክ ቦታ የለም — {{required}} ያስፈልጋል፣ {{free}} ብቻ አለ"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "{{name}} ሁለዮሽ ፋይል እያወረዱ…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "ቪዲዮ እና ድምጽ እያወረዱ…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "ሜታዳታ እያካተቱ…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "ከዳሰሳ ወጥተዋል — እንደገና ይግቡ"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "ድምጽ እየቀየሩ…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "SponsorBlock እያነጋገሩ…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "ንዑስ ርዕሶችን እያምጡ…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "ድምጽ እና ቪዲዮ እያዋሃዱ…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "የYouTube ውርድን በማዘጋጀት ላይ…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "ፋይሎችን እያዘዋወሩ…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "ንዑስ ርዕሶች የሉም፦ {{languages}}"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "ወደ {{dir}} ማስቀመጥ አይቻልም — Klip እዚያ እንዲጽፍ አልተፈቀደለትም"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "ሁለዮሽ ፋይሎችን እያዘጋጁ…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "በ{{height}}p ተቀምጧል — YouTube ለዚህ ማውረድ ከፍተኛ ጥራቶችን ከልክሏል። ቆይተው እንደገና መሞከር ሊረዳ ይችላል።"
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "በ{{height}}p ተቀምጧል — YouTube ለዚህ ማውረድ ከፍተኛ ጥራቶችን ከልክሏል፣ እና አንዳንድ ንዑስ ርዕሶች ሊወርዱ አልቻሉም። ቆይተው እንደገና መሞከር ሊረዳ ይችላል።"
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "የYouTube ውርድን እንደገና በማዘጋጀት ላይ…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock አይገኝም፣ እንደገና እየሞከሩ ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "ግንኙነት ተቋርጧል፣ እንደገና በመሞከር ላይ ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "በዳሰሳ መለያዎ በመግባት ላይ…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "ፍጥነት ላለማቀዝ {{seconds}} ሰከንድ እየጠበቁ…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "የማውረጃ ሞተሩን በመጀመር ላይ…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}። ቪዲዮው ያለ እነሱ ተቀምጧል።"
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "ይህ ቪዲዮ በእነዚህ ቋንቋዎች ንዑስ ርዕሶች የሉትም፦ {{languages}}። ሌሎቹ ቋንቋዎች ተቀምጠዋል።"
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "ቪዲዮ ተቀምጧል — አንዳንድ ንዑስ ርዕሶች ሊዳውንሎድ አልቻሉም"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "ያልታወቀ ዳውንሎድ መጀመሪያ ወደቀ"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "ቀልל ቅናሽ ሞዴ ዳውንሎድ ተደርጓል — ይበልጥ አስተማማኝ ዳውንሎዶች ለማግኘት cookies.txt አዘጋጅ"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "የማውረጃ ሞተሩ በኮድ {{code}} ወጥቷል"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "የማውረጃ ሞተር ስህተት፦ {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "ጨለማ ሁነታ"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "ብርሃን ሁነታ"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "የስርዓት ነባሪ"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "ዝጋ"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "አሰፋ"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "አሳንስ"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "መልስ"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "ከቅጂ ሰሌዳ ይውረዱ"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "1 እያወረደ · {{percent}}%"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} እያወረዱ · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "ሥራ አልባ"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "ትዕዛዝ ወደ ቅጂ ሰሌዳ ተቀድቷል"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "ትዕዛዝ ወደ ቅጂ ሰሌዳ ቅዳ"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "የዝማኔ ሰሌዳ ዝጋ"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "ያውርዱ ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "DMG ያውርዱ ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "እያወረዱ…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "ጫን እና ዳግም ጀምር"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "ዝማኔ አልተሳካም"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} ይገኛል — {{currentVersion}} አለዎት።"
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} ይገኛል — በHomebrew ያዘምኑ።"
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} ይገኛል — አዲሱን DMG ያውርዱ።"
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} ይገኛል — DMG ያውርዱ ወይም ወደ Homebrew ይቀይሩ።"
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} ይገኛል — አዲሱን build ያውርዱ።"
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "አሂድ እና ዳግም ጀምር"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "በማዘመን ላይ…"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} ምዕራፍ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} ምዕራፎች"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "በመጫን ላይ…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "H.264 መጀመሪያ"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "የቪዲዮ ኮዴክ"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "ስማርት TV ሁልጊዜ H.264ን ይመርጣል።"
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "VP9 መጀመሪያ"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "ዝግጁ"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "የቪዲዮ፣ የplaylist፣ የchannel፣ የፍለጋ፣ ወይም የድምጽ URLዎችን ለጥፍ። Klip ወደ ወረፋ ከማከል በፊት ተደጋጋሚዎችን ያጸዳል።"
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "ቡድኑን ለማየት አንድ ወይም ከዚያ በላይ URLዎች ለጥፍ።"
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "ተተው"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "ለመቀጠል ቢያንስ አንድ የሚደገፍ URL ጨምር።"
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "ተደጋጋሚ"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "የURL ዝርዝር"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "ብዙ URLዎች"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ ወረፋ"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "ሌሎች ዳውንሎዶች ሲጠናቀቁ ይጀምራል — ሙሉ ባንድዊድዝ ያገኛል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{count}} ከ {{total}} ቪዲዮ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} ከ {{total}} ቪዲዮዎች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{count}} ከ {{total}} ዘፈን"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} ከ {{total}} ዘፈኖች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{count}} ከ{{total}} URL"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} ከ{{total}} URLዎች"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "ድምጽ"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "ብዙ URLዎች"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "ቁጥር"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "የቪዲዮ ዝርዝር"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "ቅድመ-ቅንብር"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "አስቀምጥ ወደ"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "መጠን"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "ቪዲዮ"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "ፋይልዎ እዚህ ይወርዳል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "ከታች ወዳለው መድረሻ ይወርዳል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "{{count}} መድረሻዎች ከታች ይወርዳሉ"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "“ንዑስ ርዕሶች ብቻ” መገለጫ ንቁ ነው፣ ነገር ግን ምንም የንዑስ ርዕስ ቋንቋ አልተመረጠም — ምንም አይወርድም።"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} ንጥል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} ንጥሎች"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "በዚህ ስብስብ ውስጥ ያሉ መገለጫዎች"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "ሳቡት! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "ወዲያው ይጀምራል — ከሌሎች ዳውንሎዶች ጋር ይሰራል"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "ለመሳብ ዝግጁ!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "አይታወቅም"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Subtitle embed ወደ sidecar ተቀይሯል — የድምጽ ትራኮች ውስጣዊ subtitle ዥረቶችን አይደግፉም።"
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "በቪዲዮው ውስጥ የሚካተቱ ንዑስ ርዕሶች MKV ፋይል ያስፈልጋቸዋል፣ ስለዚህ ይህ ማውረድ እንደ .mkv ይቀመጣል።"
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Thumbnail embed ተዘሏል — የውፅዓት container አይደግፈውም።"
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "ብጁ…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "ዴስክቶፕ"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "ሰነዶች"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "ዳውንሎዶች"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "አስቀምጥ ወደ"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "መነሻ"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "ሙዚቃ"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "ስዕሎች"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "የአቃፊ ስም ልቅ ቁምፊዎች አሉ"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "ለምሳሌ፦ ትምህርቶች"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "ውስጥ ንዑስ አቃፊ አስቀምጥ"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "ፊልሞች"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "ድምጽ"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "የድምፅ ቋንቋ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} ቋንቋ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} ቋንቋዎች"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "ቢትሬት {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Cookies ተዘጋጅቷል ነገር ግን ጠፍ ነው። ያስቡ እና እንደገና ሞክሩ፣ ወይም አውታረ መረብ ቀይሩ።"
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Cookies ቢኖርም YouTube ይህን ምርምር ገደበ። ቆይቶ ዳግም ሞክሩ ወይም አውታረ መረብ ቀይሩ።"
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube ይህን ጥያቄ ገድቧል። ቆይተው እንደገና ይሞክሩ ወይም አውታረ መረብ ይቀይሩ።"
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "የቅርጸት ዝርዝሩ ሙሉ ላይሆን ይችላል። Cookies በከፍተኛ ቅንብሮች ያዘጋጁ፣ ወይም አውታረ መረብ ቀይሩ እና እንደገና ሞክሩ።"
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Cookies አስቻል እና እንደገና ሞክር"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "YouTube ይህን ምርምር ገደበ"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "ቢትሬት"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "አስቀድሞ {{target}} የሆነ ምንጭ የራሱን ዥረትና ቢትሬት ይይዛል፦ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም።"
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps፣ ዳግም ኮድ አይደረግም"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}፣ ዳግም ኮድ አይደረግም"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps፣ ምንጩ እንዳለው፦ ዥረቱ አስቀድሞ {{target}} ስለሆነ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "ምንጩ እንዳለው፦ ዥረቱ አስቀድሞ {{target}} ስለሆነ ይገለበጣል እንጂ ዳግም ኮድ አይደረግም"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "ቀይር"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "ምንጩ {{kbps}} kbps ነው"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (ያልተጨመቀ)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "አሳሽ"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "የዳሰሳ መግቢያ"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "ፋይል"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Cookies ምንጭ"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp ሰነዶች (ጉዳይ #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 እና ከዚያ በኋላ ያሉ ስሪቶች cookies ን በ Windows ላይ ሌሎች አፕሊኬሽኖች ሊያነቡ በማይችሉ መንገድ ያመስጥሩታል። ከዚህ በታች ያሉ አንዱን መፍትሄ ይሞክሩ።"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "Cookies ን ከ Chrome በ browser extension ወደ ውጭ ላክ፣ ከዚያ ይህን አፕ ወደ ፋይል ሁነታ ቀይር እና የወጣውን ፋይል ምረጥ።"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "cookies.txt ወደ ውጭ ላክ"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox App-Bound Encryption አይጠቀምም። የ Cookies ቅንብሮቹን ክፈት እና ከአሳሽ ዝርዝሩ Firefox ን ምረጥ።"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "ወደ Firefox ቀይር"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Chrome ን ለማስጀምር --disable-features=LockProfileCookieDatabase ወደ ቅርበት አክል። ማስጠንቀቂያ: ይህ ቀደም ሲል የተመሰጠሩ cookies ን ስለሚያወድም ከሁሉም ጣቢያዎች ይወጣሉ እና ዳግም መግባት ይኖርብዎታል።"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Chrome ን App-Bound Encryption አሰናክሎ ጀምር"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Chrome cookies በ Windows ምስጠራ ታግደዋል"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Cookies ቀጥታ ከአሳሹ ይነበባሉ። አሳሹ አሁን እየሰራ ከሆነ፣ የ cookie ዳታቤዝ ተቆልፎ ሊሆን ይችላል (Chromium-ቤተሰብ)። አሳሹ ወደ YouTube ገብቶ መሆን አለበት። አሳሹን ለመዝጋት፣ ወደ ሌላ አሳሽ ለመቀየር፣ ወደ ፋይል ሁነታ ለመቀየር፣ ወይም Cookies ለማጥፋት ይሞክሩ።"
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "የ Cookies ፋይልዎ ባዶ፣ ጊዜው ያለፈ፣ ወይም ትክክለኛ ቅርጸት ላይሆን ይችላል (Klip Netscape cookies.txt ፋይል ይፈልጋል)። Cookies ዳግም ወደ ውጭ ለማሳደር፣ ሌላ ፋይል ለመምረጥ፣ ወደ አሳሽ ሁነታ ለመቀየር፣ ወይም Cookies ለማጥፋት ይሞክሩ።"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "በዳሰሳ ይግቡ፣ Klip ደግሞ እንደገና ይሞክረዋል።"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "በዳሰሳ ይግቡ"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "ይህ ቪዲዮ የYouTube መለያ ሊፈልግ ይችላል"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip አስቀድሞ በዳሰሳ በኩል ገብቶ ሞክሯል፣ ስለዚህ እንደገና መግባት አይረዳም። ጣቢያው ችግር ላይ ሊሆን ይችላል፣ ወይም ይህ መለያ ሊከፍተው አይችልም። ቆይተው እንደገና ይሞክሩ።"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "ጣቢያው በዳሰሳ ውስጥ በገቡበት መግቢያም ይህን አልተቀበለም"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "በዳሰሳ ገብተዋል፣ ነገር ግን ማውረዶች አሁን ያንን መግቢያ እየተጠቀሙ አይደሉም።"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "የዳሰሳ መግቢያን ተጠቀም እና እንደገና ሞክር"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "ይህ ቪዲዮ የYouTube መለያ ሊፈልግ ይችላል"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "ይህ ቪዲዮ መለያ የሚያስፈልገው ከሆነ Klip የዳሰሳ መግቢያዎን በራስ-ሰር ይጠቀማል። በሌላ ምክንያት ላይገኝ ይችላል።"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "ወደ ዳሰሳ ገብተዋል"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "ይህ ቪዲዮ የYouTube መለያ የሚያስፈልገው ከሆነ በዳሰሳ ውስጥ ይግቡና እንደገና ይሞክሩ። Klip ይህን መግቢያ የሚጠቀመው ውርድ ሲፈልገው ብቻ ነው።"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "በዳሰሳ ውስጥ ይግቡ"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "ይህ ቪዲዮ የYouTube መለያ ሊያስፈልገው ይችላል"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "ይህ አገናኝ {{host}} ላይ መለያ ሊፈልግ ይችላል"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "{{host}} ላይ በዳሰሳ ይግቡና እንደገና ይሞክሩ።"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "{{host}} ላይ በዳሰሳ ውስጥ ይግቡና እንደገና ይሞክሩ። Klip ይህን መግቢያ የሚጠቀመው ውርድ ሲፈልገው ብቻ ነው።"
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Cookies ምክንያቱ ሊሆን ይችላል"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip ያለ ማረጋገጫ ይህን ቪዲዮ ማግኘት አልቻለም። Cookies በከፍተኛ ቅንብሮች ያዋቅሩ — አስቀድመው ወደ ገቡበት አሳሽ ያመልክቱ ወይም cookies.txt ፋይል ያስመጡ።"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "ይህ ጣቢያ መግባትን ያስፈልጋል"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "የ Cookies ቅንብሮችን ክፈት"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "በምትኩ የCookies ፋይል ወይም አሳሽ ይጠቀሙ…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "ጮክ ያሉ ክፍሎችን ያለዝባል፣ ዝቅተኛዎቹን ያጎላል፤ ለስፒከሮችና ጫጫታ ላለባቸው ክፍሎች።"
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "የድምፅ መጠንን አስተካክል (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "እኩል የድምፅ መጠን"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "መገለጫዎ ስማርት TV (H.264) ነው። ይህ ቪዲዮ H.264 አያቀርብም፣ ስለዚህ በጣም ቅርብ የሆነው ዥረት ተመርጧል።"
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "ይህ አገናኝ ቪዲዮ የለውም፣ ስለዚህ ድምጽ ተመርጧል።"
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "መገለጫዎ በ{{languages}} ንዑስ ርዕሶችን ይጠይቃል። ይህ ቪዲዮ የለውም።"
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ይህን ያህል ትንሽ ነገር የለውም፣ ስለዚህ {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ያሉት ያነሱ ዥረቶች ከቀረው የመገለጫዎ ጋር አይስማሙም፣ ስለዚህ {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "መገለጫዎ {{wanted}}p ይጠይቃል። ይህ ቪዲዮ ሊወሰድ የሚችል {{wanted}}p የለውም፣ ስለዚህ {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "መገለጫዎ {{wanted}}p ይጠይቃል። የዚህ ቪዲዮ {{wanted}}p በAI የተሰፋ ነው፣ ስለዚህ የመጀመሪያው {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "መገለጫዎ በH.264 {{wanted}}p ይጠይቃል። ይህ ቪዲዮ {{wanted}}p ያለው በሌሎች ኮዴኮች ብቻ ነው፣ ስለዚህ በH.264 {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "መገለጫዎ {{wanted}}p ይጠይቃል። የዚህ ቪዲዮ {{wanted}}p ከቀረው የመገለጫዎ ጋር አይስማማም፣ ስለዚህ {{picked}}p ተመርጧል።"
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "መገለጫዎ WebM ይጠይቃል። የዚህ ቪዲዮ የተመረጡ ዥረቶች WebM ሊይዘው የማይችለውን {{codec}} ያካትታሉ፣ ስለዚህ የፋይሉ አይነት ራስ-ሰር ነው።"
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "ሳይጀምር ወደ ወረፋ ጨምር"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "ማውረድ"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "ተጨማሪ የማውረድ አማራጮች"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "ቢያንስ አንድ የንዑስ ርዕስ ቋንቋ ይምረጡ።"
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "እንዳለ ቀጥል"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "ቀደም ሲል የተካተተ ድምጽ"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "ድምፅ ብቻ"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "ምን ማውረድ ይፈልጋሉ"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "ንዑስ ርዕሶች ብቻ"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "ቪዲዮ + ድምፅ"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "ቪዲዮ፣ ያለ ድምፅ"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "ቅርጸቶችን በመጫን ላይ"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "ምርምሩ እስኪጠናቀቅ ይጠብቁ — playlist ዎች እና ፍለጋዎች ጊዜ ሊወስዱ ይችላሉ።"
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "በAI የተተረጎመ"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "በAI የተሰፋ"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "የድምፅ መግለጫ"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "የተበላሸ"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "የተሻሻለ ቢትሬት"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "ኦሪጅናል"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "ስፓሻል ድምፅ"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "የውሃ ምልክት ያለው"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "ምንም ድምጽ የለም"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "ንቁ መገለጫዎ ዥረቶችን አስቀድሞ ይመርጥልዎታል። መገለጫዎችን ከምናሌው ይቀይሩ፣ ወይም ከዚህ ማውረድ ሳይወጡ አንዱን ለማስተካከል እርሳሱን ይጠቀሙ።"
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "ቅርጸቶች ከመገለጫዎ ይጀምራሉ"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "ለመገለጫው ቅርብ"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "{{name}} አርትዕ"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "ለውጦቼን አቆይ"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "ለዚህ ማውረድ ብቻ። ነባሪ መገለጫዎ እንዳለ ይቆያል።"
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "አስቀድሞ የተመረጠ፣ ምንጭ፦"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "ሁሉንም ዳግም አስጀምር"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "ለዚህ ማውረድ {{areas}} ቀይረዋል። “{{profile}}” በማንኛውም ሁኔታ ቪዲዮውን እና ድምፁን ይመርጣል። ሌሎች ለውጦችዎን ያቆዩ ወይስ ሁሉንም ወደ መገለጫው ዳግም ያስጀምሩ?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "መገለጫ ይቀየር?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "መገለጫ"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "ለዚህ ማውረድ {{areas}} ቀይረዋል። የተዘመነው መገለጫ በማንኛውም ሁኔታ ቪዲዮውን እና ድምፁን ይመርጣል። ሌሎች ለውጦችዎን ያቆዩ ወይስ ሁሉንም ወደ መገለጫው ዳግም ያስጀምሩ?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "የተዘመነውን መገለጫ ይጠቀሙ?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "ከፍተኛ ጥራት"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "ዝቅተኛ ጥራት"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "መካከለኛ ጥራት"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} ይህን ግንኙነት እየገደበ ነው"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "የቅርጸቶች ዝርዝሩ ያልተሟላ ሊሆን ይችላል።"
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} ይህን ጥያቄ ለአሁን አልተቀበለውም።"
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "እንደገና ሞክር"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} ይህን ገደብ እስከ አንድ ሰዓት ሊያቆየው ይችላል።"
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "አሁን ሞክር"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "መጠበቁ አልቋል፣ ስለዚህ እንደገና መሞከር ይችላሉ።"
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "ገደቡ እንዲነሳ Klip {{site}}ን እንደገና ከመጠየቁ በፊት እስከ {{time}} ይጠብቃል።"
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "ጥራት መጠን አይታወቅም"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "የሚቀመጠው እንደ"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM {{codec}} መያዝ ስለማይችል የፋይሉ አይነት ወደ ራስ-ሰር ተመልሷል።"
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "መጠን አይታወቅም"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "ወደ ማረጋገጫ ዝለል"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "ለቀሩት ሁሉም ደረጃዎች የተቀመጡ ምርጫዎችዎን ይጠቀማል። አንድ ቅንብር ለመለወጥ ደረጃ በደረጃ ቀጥሉ — ምርጫዎ ለሚቀጥለው ጊዜ ይቀመጣል።"
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "ምርጥ ቅርጸቶችን ለእርስዎ እየፈለጉ…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "ጠቅላላ"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "ቪዲዮ"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "ከድምፅ ጋር"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "ከ{{profileName}} ጋር። ከ{{count}} ቪዲዮዎች በላይ ካለው ዳውንሎዶች ስንት እንደሚወርድ ይጠይቃል።"
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "በዳራ ያውርዱ"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc ይሰርዛል።"
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "በትክክል የመጀመሪያዎቹ {{count}}፣ ከ{{profileName}} ጋር።"
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "የመጀመሪያዎቹን ያውርዱ"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "ከመጀመሪያዎቹ {{count}} ቪዲዮዎች ይምረጡ (ወይም ቁጥሩን በሚቀጥለው ደረጃ ይቀይሩ)፣ ከዚያ ውርዱን ያዋቅሩ።"
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "በይነተገናኝ ማውረድ…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "ከዝርዝሩ ስንት ቪዲዮዎች እንደሚወሰዱ፦ የመጀመሪያው አማራጭ ከዚያ በላይ ይጠይቃል፣ ሁለተኛው በትክክል ያን ያህል ይወስዳል። ከቅንብሮች › ሊቃኙ የ Playlist ንጥሎች ጋር ተመሳሳይ ነው።"
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "ገደብ"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Mix በከፈቱት ቁጥር ይለወጣል።"
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "ለመምረጥ ይጫኑ።"
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "የመጀመሪያዎቹን"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "በሚቀጥለው ደረጃ መቀየር ይችላሉ።"
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "ከዚህ አልበም ይምረጡ"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "ከወደዷቸው ቪዲዮዎች ይምረጡ"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "ከዚህ Mix ይምረጡ"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "ከዚህ የቪዲዮ ዝርዝር ይምረጡ"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "ከዚህ ቻናል ሰቀላዎች ይምረጡ"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "ከ“በኋላ ይመልከቱ” ይምረጡ"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "ከዚህ አልበም ያውርዱ"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "ከወደዷቸው ቪዲዮዎች ያውርዱ"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "ከዚህ Mix ያውርዱ"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "ከዚህ የቪዲዮ ዝርዝር ያውርዱ"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "ከዚህ ቻናል ሰቀላዎች ያውርዱ"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "ከ“በኋላ ይመልከቱ” ያውርዱ"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "የከፈቱት ቪዲዮ ብቻ፣ ከ{{profileName}} ጋር። ዝርዝሩ አልተጫነም።"
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "ይህን ቪዲዮ ብቻ"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "የከፈቱትን ቪዲዮ ብቻ ያዋቅሩ። ዝርዝሩ አልተጫነም።"
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "ከ{{profileName}} ጋር"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "ምዕራፍ ምልክቶች በማናቸውም ዘመናዊ ተጫዋች ሊሰሩ ይችላሉ።"
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "ምዕራፎች ክተት"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "ምዕራፎች"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "ርዕስ፣ አርቲስት፣ መግለጫ እና የቀን ቀን ወደ ፋይሉ ይፃፋሉ።"
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "ሜታዳታ ክተት"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "ሜታዳታ"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "የሽፋን ስዕል ውስጥ ፋይሉ። WebM ቪዲዮ ወደ MKV ይቀየራል፤ ንዑስ ርዕሶቹ ሲካተቱ ይዘለሉ።"
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "ድንክ ምስል ክተት"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "የሽፋን ስዕል"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "የቪዲዮ መግለጫን እንደ .description የጽሑፍ ፋይል ከዳውንሎዱ ጎን ያስቀምጣል።"
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "መግለጫ አስቀምጥ"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "የመግለጫ ፋይል"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "ቪዲዮዎች በሚዲያ አጫዋች በቅደም ተከተል እንዲከፈቱ .m3u playlist ከእነሱ ጋር ያስቀምጣል።"
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr ".m3u playlist ፋይል ፍጠር"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "ድንክ ምስሉን እንደ .jpg ምስል ፋይል ከዳውንሎዱ ጎን ያስቀምጣል።"
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "ድንክ ምስል አስቀምጥ"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "የድንክ ምስል ፋይል"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "በቪዲዮ ካርዱ ላይ «ክፍል»ን ይምረጡ፤ መጀመሪያና መጨረሻ ወይም ምዕራፍ መርጠው ያንን ክፍል ብቻ ያውርዱ።"
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "የቪዲዮውን ክፍል ብቻ ያውርዱ"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "ምዕራፎች"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "ምዕራፍ {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "ክፍል የሚወርደው በffmpeg በኩል ነው፣ ስለዚህ የዳውንሎድ ግንኙነቶችዎ እና የጥያቄ እረፍት ቅንብሮች አይመለከቱትም።"
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "መጀመሪያ የክፍሉን መጀመሪያና መጨረሻ ያስተካክሉ።"
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "መጨረሻ"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "ቪዲዮው የሚያበቃው በ{{duration}} ነው።"
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "መጨረሻውን እንደ h:mm:ss, m:ss ወይም ሰከንዶች ያስገቡ።"
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "መጀመሪያውን እንደ h:mm:ss, m:ss ወይም ሰከንዶች ያስገቡ።"
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "መጀመሪያው ከመጨረሻው በፊት መሆን አለበት።"
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "ጠፍቶ ሲሆን፦ እያንዳንዱ ቁረጣ በቅርቡ ባለው ቁልፍ ፍሬም ላይ ያርፋል፤ ይህም ከጻፉት ጊዜ ጥቂት ሰከንዶች ሊርቅ ይችላል።"
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "ትክክለኛ ቁረጣ (ዳግም ኮድ ያደርጋል፣ ቀርፋፋ)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} ከ{{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "ክፍል"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "የቪዲዮው ክፍል"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "መጀመሪያ"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "ሙሉ ቪዲዮ"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "ክፍል {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "ከቪዲዮው ምን ያህል"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss ወይም ሰከንዶች"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "ክፍል፣ ግምት"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "ይህ ቪዲዮ ርዝመቱን አይነግርም፣ ስለዚህ ሙሉውን ብቻ ማውረድ ይቻላል።"
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "ንዑስ ርዕሶች ሁልጊዜ ሙሉውን ቪዲዮ ይሸፍናሉ።"
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "አገናኝዎ የሚጀምረው በ{{time}} ነው"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "እንደ መጀመሪያ ተጠቀም"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "ሙሉ ቪዲዮ"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "ሙሉ ትራክ"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "ለመቀጠል መልሳቸው።"
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "ሁሉም ንጥሎች ተወግደዋል"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "ቀድሞ ወርዷል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "ተጨማሪ አለው። ስንት እንደሚወርድ ለመምረጥ አገናኙን ለብቻው ይለጥፉ።"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "ተጨማሪ አላቸው። ስንት እንደሚወርድ ለመምረጥ እያንዳንዱን አገናኝ ለብቻው ይለጥፉ።"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "“{{title}}” በ{{limit}} ቪዲዮዎች ተቆርጧል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} ዝርዝሮች እያንዳንዳቸው በ{{limit}} ቪዲዮዎች ተቆርጠዋል"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "ብዙ URLዎች"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "መጠበቅ አያስፈልግም — አሁን ወደ ሰልፍ የገቡ ፋይሎች ሲወርዱ ትክክለኛ ስሞቻቸውን ያገኛሉ።"
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "የቪዲዮ ዝርዝሮች በመ 가져오는 ላይ… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "ዝርዝሮች አይገኙም"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "ዝርዝሮች በመ 가져오는 ላይ"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "በመጠባበቅ ላይ"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "ቀጥታ"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "የ Playlist ቪዲዮዎች"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "የሚወርዱ ቪዲዮዎች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} ቪዲዮ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} ቪዲዮዎች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} ዘፈን"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} ዘፈኖች"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} አገናኝ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} URLዎች"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Playlist እየጫኑ…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "ቪዲዮዎችን በማምጣት ላይ…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "ለመጀመሪያዎቹ {{count}} ንጥሎች ብቻ ተገድቧል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "{{count}} ገጽ ተገኝቷል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} ገጾች ተገኝተዋል"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "ቪዲዮዎችን በመሰብሰብ ላይ"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "የቻናል ገጾችን በመፈተሽ ላይ"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "ለእያንዳንዱ ንጥል መገለጫ መድብ"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "ጥራት፣ SponsorBlock፣ ውፅዓት እና አስቀምጥን ይዘላል — በምትኩ ለእያንዳንዱ ንጥል የማውረድ መገለጫ ይመድቡ"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "የቪዲዮ ዝርዝር"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "ከእነዚህ ውስጥ {{count}} የቪዲዮ ዝርዝር ነው፣ ቪዲዮ አይደለም — ለማውረድ አገናኙን ብቻውን ይለጥፉ።"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "ከእነዚህ ውስጥ {{count}} የቪዲዮ ዝርዝሮች ናቸው፣ ቪዲዮዎች አይደሉም — ለማውረድ አገናኞቻቸውን አንድ በአንድ ይለጥፉ።"
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "ለመቀጠል ቢያንስ አንድ ቪዲዮ ምረጥ"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Klip ከ {{count}} በላይ ንጥሎችን አግኝቷል፣ ስለዚህ የአሁኑ ቃኝት ገደብ የቀሩትን እየደበቀ ነው።"
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "የ Playlist ቃኝት ተገድቧል"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "ፍተሻው ተገድቧል"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "ክልል ተጠቀም"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "ከ"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "እስከ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} ተወግደዋል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} ተወግደዋል"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "{{count}} ከዝርዝሩ አስወግድ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "{{count}} ከዝርዝሩ አስወግድ"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "መልስ"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "ሁሉ ምረጥ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} ተመርጧል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} ተመርጠዋል"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "ምንም አትምረጥ"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "የቪዲዮ ዝርዝር ቅደም"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "የአፕሎድ ቀናት እየጫኑ…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "ደርድር"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "የቆዩት መጀመሪያ"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "አዳዲሶቹ መጀመሪያ"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "ማመሳሰልን ተግብር"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "ፎልደር ቀይር…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "{{n}} ከእነዚህ ቪዲዮዎች በ{{dir}} ውስጥ ቀድሞውኑ አሉ። አዳዲሶቹን ብቻ ለማውረድ ይመሳሰል?"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "ቀድሞ በፎልደር ውስጥ"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "ከዚህ አጫዋች ዝርዝር ውስጥ ምንም ቪዲዮ በ{{dir}} ውስጥ አልተገኘም።"
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "ከዚህ ምንጭ የመጡ ቪዲዮዎች በ{{dir}} ውስጥ አልተገኙም።"
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "እስካሁን ምንም አልወረደም"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "ፎልደር በመፈተሽ ላይ…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "የቪዲዮ ድንክ ምስል"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "ለቡድኑ ጥራት ይምረጡ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} ንጥል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} ንጥሎች"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "እያንዳንዱ ቪዲዮ የተመረጠውን ደረጃ ራሱን ችሎ ይፈታል — የተለያዩ playlists ያለ ችግር ይሰራሉ።"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "ለ{{count}} ቪዲዮ መድብ"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "ለ{{count}} ቪዲዮዎች መድብ"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "መገለጫ መድብ"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "ቆይታ"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "መገለጫ"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "{{name}}ን አርትዕ"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "ከዚህ ማጣሪያ ጋር የሚዛመድ ንጥል የለም"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "የመገለጫ ማጣሪያዎች"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "የማውረድ መገለጫዎችን መድብ"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "ለዚህ ቪዲዮ መገለጫውን ይምረጡ።"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "ለእነዚህ {{count}} ቪዲዮዎች መገለጫውን ይምረጡ።"
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "ከ{{total}} ውስጥ {{selected}} ተመርጠዋል"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "አጠቃላይን ቀይር"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "የመድረሻ አቃፊ ይምረጡ"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "የመገለጫ አዶ ይምረጡ"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "{{code}} አስወግድ"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "መገለጫ ዳግም አስጀምር"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "ይህ መገለጫ አስቀድሞ አብሮገነብ ቅንብሮችን ይጠቀማል"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "አብሮገነብ የመገለጫ ቅንብሮችን ወደነበሩበት መልስ"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "መገለጫ አስቀምጥ"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "የመገለጫ ተሻሪ አዘጋጅ"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "ተሻሪ አዘጋጅ"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "አጠቃላይ ነባሪን ተጠቀም"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "“{{code}}” የቋንቋ ኮድ ተጠቀም"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "ከፍተኛ"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "የመተግበሪያውን ቅንብር ተጠቀም ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "ምርጥ"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "እስከ 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "እስከ 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "እስከ 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "ምርጥ ጥራት"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "አዲስ መገለጫ"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "ነባሪ የውርዶች አቃፊ"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "ነባሪ የውርዶች አቃፊ / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "አጠቃላይ መድረሻ"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "ንቁ"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "የተወረሰ"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "የመገለጫ ተሻሪ"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "አቃፊ ይምረጡ"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "ተሻሪ አልተዘጋጀም"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "ተሻሪ አልተዘጋጀም። ይህ መገለጫ ከላይ ያለውን አጠቃላይ መድረሻ ይጠቀማል።"
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "አጠቃላዩን ይተካል"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "ይህ መገለጫ ንዑስ አቃፊው ከመጨመሩ በፊት በራሱ ስር አቃፊ ያስቀምጣል።"
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "የመጨረሻ መድረሻ"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "ለፈጣን ማውረድ፣ ለጅምላ አድራሻዎች እና ለዝርዝሮች የሚያገለግል አንድ ተደጋጋሚ ቅንብር።"
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "የማውረድ መገለጫ"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "አጠቃላይ መድረሻን መቀየር አልተቻለም።"
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "የአቃፊ መምረጫን መክፈት አልተቻለም። መንገዱን በእጅ ያስገቡ።"
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "የመገለጫ ቅንብሮችን ዳግም ማስጀመር አልተቻለም።"
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "የመገለጫ ቅንብሮችን ማስቀመጥ አልተቻለም።"
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "የማስቀመጫ መንገድ"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "የፋይል አይነት"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "ቅድሚያ የሚሰጠው"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "የመገለጫ አዶ"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "ቋንቋዎች"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "የመገለጫ ስም"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "የመገለጫ ስም እና አዶ"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "የተፈጥሯዊ ድምፅ"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "የመገለጫ ተሻሪ መንገድ"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "ጥራት"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "ጥራት መጠን"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "ምንጭ"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "የንዑስ አቃፊ ስም"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "የትርጉም ጽሑፍ ማውረዶች"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "መገለጫዎች የቋንቋ ኮዶችን ይጠይቃሉ፤ መገኘታቸው ለእያንዳንዱ URL ይወሰናል።"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "በተመሳሳይ መጠን በጣም ጥርት ያለ። የቆዩ ቲቪዎች፣ QuickTime እና አንዳንድ አርታዒዎች ሊያጫውቱት አይችሉም።"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "ምርጥ ምስል"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "በቲቪዎች፣ በስልኮች፣ በWhatsApp፣ በQuickTime እና በቪዲዮ አርታዒዎች ይጫወታል። YouTube H.264ን የሚያቀርበው እስከ 1080p ብቻ ነው።"
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "ስማርት TV"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "መዝገብ"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "ድምፅ"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "መግለጫ ጽሑፎች"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "ትምህርቶች"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "ቁራጭ"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "መቆጣጠሪያዎች"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "ማውረድ"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "ሙዚቃ"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "ፖድካስት"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "ቪዲዮ"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "ሙዚቃ ወይም ፖድካስት"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "የመግለጫ ጽሑፍ ፋይሎች ብቻ"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "መደበኛ የቪዲዮ ፋይሎች"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "ድምፅ የሌለው ቪዲዮ ብቻ"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "ራስ-ሰር መግለጫ ጽሑፎች በASS ፋንታ በSRT ይቀመጣሉ።"
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "የሚዛመድ ቋንቋ የለም"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "ለዚህ መገለጫ ምንም የትርጉም ጽሑፍ ፋይል ወይም የተካተተ የትርጉም ትራክ አይጠየቅም።"
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "በቋንቋ ስም ወይም ኮድ ፈልግ"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "ለዚህ የውጤት ዓይነት ተዘሏል።"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "ቢያንስ አንድ ቋንቋ ይምረጡ።"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "ቢያንስ አንድ ቋንቋ ይምረጡ፣ ወይም የትርጉም ጽሑፍ ማውረድን ያጥፉ።"
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "ይህ መገለጫ የትርጉም ጽሑፍ ፋይሎችን ብቻ ወደ ወረፋ ያስገባል። ቪዲዮ፣ ድምፅ፣ SponsorBlock እና የሚዲያ ልወጣ ይዘለላሉ።"
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "የመገለጫ ተሻሪ ካላዘጋጁ በስተቀር መገለጫዎች አጠቃላይ መድረሻውን ይወርሳሉ።"
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "የላቁ አማራጮች"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "በዋናነት እንዴት ማውረድ እንደሚፈልጉ ይምረጡ።"
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "የማውረድ ዓይነት"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "በፈጣን ማውረድ፣ በጅምላ አድራሻዎች እና በመገለጫ ዝርዝሮች ውስጥ የሚታዩ ስም እና አዶ።"
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "የመገለጫ ማንነት"
+
+#. Plural form "one" for am: used for counts like 0, 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} ነቅቷል"
+
+#. Plural form "other" for am: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} ነቅቷል"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "የውጤት አማራጮች"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "ለዚህ መገለጫ አቃፊ ይምረጡ"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "ተዘሏል"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "የስፖንሰር ክፍሎችን እንደ ምዕራፎች ምልክት ያደርጋል (ፋይሉን አይለውጥም)።"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock የለም — ቪዲዮው እንደተጫነ ይጫወታል።"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "በFFmpeg የስፖንሰር ክፍሎችን ከቪዲዮው ይቆርጣል።"
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "ራስ-ሰር የተፈጠሩ ብቻ"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "በእጅ እና ራስ-ሰር"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "መጀመሪያ በእጅ፣ ከዚያ ራስ-ሰር"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "በእጅ ብቻ"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "{{label}} እገዛ"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "ተጨማሪዎች"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "የፋይል ስም"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "ቅርጸት"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "አቃፊ"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "ንዑስ ርዕሶች፣ SponsorBlock፣ እንደ ድንክ ምስል ያሉ ተጨማሪዎች፣ አቃፊ እና የፋይል ስም ቀደም ሲል የተለያዩ ደረጃዎች ነበሩ። ለመቀየር አንድ ረድፍ ጠቅ ያድርጉ።"
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "ሌሎቹ ቅንብሮች ሁሉ አሁን በዚህ ገጽ ላይ ናቸው"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "ከ{{profile}} ተቀይሯል፦ {{areas}}። ለዚህ ማውረድ ብቻ ይሠራል።"
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "ከ{{profile}} ተቀይሯል፦"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "ቅርጸት ቀይር"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "እንደ መገለጫ አስቀምጥ"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (የተስተካከለ)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "ይህ ማውረድ የተስተካከሉ ቅንብሮችን ተጠቅሟል። ለሚቀጥለው ጊዜ ይጠቀሙባቸው?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "ለውጦቹን ቀልብስ፣ ወደ “{{profile}}” ተመለስ"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "ተጨማሪዎች"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "የፋይል ስም"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "አስቀምጥ ወደ"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "ሌላው ሁሉ"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "መገለጫ አስቀምጥ"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "እነዚህን ቅንብሮች በሚቀጥለው ጊዜ መምረጥ የሚችሉት መገለጫ አድርጎ ያስቀምጣል። የፈጣን ማውረድ መገለጫዎ እንዳለ ይቆያል።"
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "መገለጫውን ማስቀመጥ አልተቻለም።"
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "የመገለጫ ስም"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "እንደ መገለጫ “{{name}}” ተቀምጧል"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "እንደ መገለጫ አስቀምጥ"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "እንደ አዲስ መገለጫ አስቀምጥ"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "መገለጫ አዘምን"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "ይህ አብሮገነብ መገለጫ ነው። የመጀመሪያ ቅንብሮቹን በመገለጫዎች ትር ውስጥ መመለስ ይችላሉ።"
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "ከአሁን ጀምሮ በዚህ መገለጫ የሚደረግ እያንዳንዱ ማውረድ አዲሶቹን ቅንብሮች ይጠቀማል።"
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "ቅርጸት"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "“{{profile}}” ይዘመን?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "መገለጫ “{{name}}” ተዘምኗል"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "“{{profile}}”ን በእነዚህ ለውጦች አዘምን"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "ምንም"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "ጠፍ"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "ጠፍ"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "መሙያ"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "መግቢያ"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "ከርዕስ ውጭ ሙዚቃ"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "መዝጊያ"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "ቅድመ እይታ"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "ራስን ማስተዋወቅ"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "ስፖንሰር"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "ምድቦች"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "እንደ ምዕራፎች ምልክት አድርግ"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "ጠፍ"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "ክፍሎችን አስወግድ"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "ስፖንሰር ማጣሪያ"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "የስፖንሰር ክፍሎችን እንደ ምዕራፎች ምልክት ያደርጋል (አጥፊ ያልሆነ)።"
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "ምንም SponsorBlock የለም — ቪዲዮ እንደ ተሰቀለ ይጫወታል።"
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "FFmpeg ተጠቅሞ የስፖንሰር ክፍሎችን ይቆርጣል።"
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "አረጋግጥ"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "አስቀምጥ"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "ቅርጸት"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "ውፅዓት"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "የቪዲዮ ዝርዝር"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "ቪዲዮዎች"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "ጥራት"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "መገለጫዎች"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "ግምገማ"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "ራስ-ሰር ስዕሎቹ እንደ ASS ሳይሆን SRT ሆነው ይቀመጣሉ — ከ YouTube ሩጫ-ፍንጮቹ ያለ ቅጂ ሁልጊዜ ይጸዳሉ።"
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "ራስ-ሰር"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "ሁሉ አጽዳ"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "ክተት ሁነታ ውፅዓቱን እንደ .mkv ያስቀምጣል ስለዚህ ንዑስ ርዕሶቹ አስተማማኝ ሆነው ይካተታሉ።"
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "ቅርጸት"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "ለዚህ ቪዲዮ ምንም ንዑስ ርዕሶች የሉም"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "ምንም ቋንቋ አልተዛመደም"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "ምንም ንዑስ ርዕስ አልተመረጠም"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "{{name}} አስወግድ"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "ወደ ቪዲዮ ክተት"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "እንደ አስቀምጥ"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "ከቪዲዮው ጎን"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "በውርዶች አቃፊ ውስጥ"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ ንዑስ አቃፊ"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "ቋንቋዎችን ፈልግ…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "ራስ-ሰር ተፈጠረ"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "እጅ ሰራ"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "የማውረድ መገለጫ አሰሳ"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "ከፍተኛ"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "ዳውንሎድ ከተጠናቀቀ ከጥቂት ሰከንዶች በኋላ ከዳውንሎዶች ዝርዝር ያስወግደዋል። ፋይሎቹ በአቃፊዎ ውስጥ ይቀራሉ፤ ያልተሳኩና የተሰረዙ ዳውንሎዶች በዝርዝሩ ውስጥ ይቆያሉ።"
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "የተጠናቀቁ ዳውንሎዶችን በራስ-ሰር አስወግድ"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "ከኔትወርክ ወይም ከሰርቨር ችግር በኋላ በራስ-ሰር እንደገና ይሞክራል፣ በእያንዳንዱ ሙከራ መካከል ረዘም ብሎ ይጠብቃል። በጣቢያው የታገዱ ዳውንሎዶች በራስ-ሰር አይሞከሩም።"
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "ያልተሳኩ ዳውንሎዶችን እንደገና ሞክር"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "ጊዜ"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "ብዙ URLዎች"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "ብዙ URLዎችን ያክሉ እና ወረፋ ውስጥ ያስገቡ።"
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "URL አጽዳ"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "አገናኝ ከቅንጥብ ሰሌዳ ታክሏል"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "ብዙ አገናኞች ተቀድተዋል — ለመጨመር «ብዙ URLዎች»ን ይጠቀሙ"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "በቅጂ ሰሌዳ ላይ አገናኝ የለም"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "ቅጂ ሰሌዳውን ማንበብ አልተቻለም — በምትኩ አገናኙን በመስኩ ውስጥ ይለጥፉ"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "በተቀዳው አገናኝ ተተክቷል"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "ቅጂ ሰሌዳ ተቆጣጠር"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "YouTube አገናኝ ሲቀዱ የ URL መስክን በራስ ሞላ።"
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "ቀልብስ"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "ሲዘጋ ወደ ትሬ ደብቅ"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "መስኮት ሲዘጋ ዳውንሎዶችን ዳራ ቀጥል።"
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "በተመሳሳይ ጊዜ ስንት የተሰለፉ ንጥሎች እንደሚወርዱ። ብዙ በአንድ ጊዜ ረጅም ሰልፍን ቶሎ ይጨርሳል፣ ነገር ግን ጣቢያው እንዲገድብዎ ዕድሉን ይጨምራል።"
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "በአንድ ጊዜ ዳውንሎዶች"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "ዳውንሎዶች"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Klip ከመውረዳቸው በፊት በአንድ ጊዜ ለስንት አገናኞች ዝርዝር እንደሚያመጣ። ያነሰ ቁጥር ስራ የበዛባቸውን ግንኙነቶች ለሚከለክሉ ጣቢያዎች የተሻለ ነው። በበይነተገናኝ ማውረድ የከፈቱት አገናኝ ሁልጊዜ ቀድሞ ይሄዳል።"
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "በአንድ ጊዜ የሚፈተሹ አገናኞች"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "አገናኞች"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "እንደ YouTube ያሉ ጣቢያዎች Cookies-ቸው እንደ Klip ባሉ የማውረጃ መሣሪያዎች የሚጠቀሙባቸውን መለያዎች ሊጠቁሙ — እና አንዳንድ ጊዜ ሊያግዱ — ይችላሉ። ከተቻለ የሚጣል መለያ ይጠቀሙ።"
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "Cookies ቀጥታ ከአሳሹ ያነባል። Chromium-ቤተሰብ አሳሾች ሲጠቀሙ አሳሹ ዝጋ።"
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "አሳሽ"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "አሳሽ ምረጥ…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "ምረጥ…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "አጽዳ"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "cookies ለመጠቀም አሳሽ ምረጥ"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "cookies ለመጠቀም ፋይል ምረጥ"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "የዳሰሳ ትር ጠፍቷል፣ ስለዚህ ውርዶች የዳሰሳ መግቢያዎን አይጠቀሙም። ከታች ባለው የዳሰሳ ክፍል ውስጥ ያብሩት።"
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "cookies.txt በቦታህ ላይ ሰበሰብ (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Cookies ፋይል"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "cookies ስዴት እንዴት ነው?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "ዳሰሳን ክፈት"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "ምንም ፋይል አልተመረጠም"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "የሚመከር"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "አደጋ: cookies.txt ለዚያ አሳሽ ሁሉንም የገቡ ስሬቶች ይዟል — ይጠብቁ።"
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "አሳሽ"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "የዳሰሳ መግቢያ"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "ፋይል"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "የ Cookies ምንጭ"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "ጠፍ"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "የራስዎ መለያ ሊመለከታቸው ለሚችላቸው ቪዲዮዎች፣ ለምሳሌ የግል ቪዲዮዎችዎ ይረዳል።"
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "የቪዲዮን በርካታ ክፍሎች በአንድ ጊዜ በማውረድ ትላልቅ ዳውንሎዶችን ያፋጥናል። ከፍ ያለ ዋጋ ጣቢያው እንዲገድብዎ ዕድሉን ይጨምራል።"
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "የዳውንሎድ ግንኙነቶች"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "ግንኙነቶች"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "አልበሙን ያውርዱ…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "የወደዷቸውን ቪዲዮዎች ያውርዱ…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Mixን ያውርዱ…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "የቪዲዮ ዝርዝሩን ያውርዱ…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "ሰቀላዎቹን ያውርዱ…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "“በኋላ ይመልከቱ”ን ያውርዱ…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "ድምጽ ብቻ"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "ንዑስ ርዕሶች"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ ጣቢያዎች"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "የሙዚቃ playlists"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "ቪዲዮዎች"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "የቪዲዮ playlists"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klip ምን ሊያወርድ ይችላል"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "ቻናሎች"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "ሙዚቃ"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "የቪዲዮ ዝርዝሮች"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "ፖድካስቶች"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "ቪዲዮዎች"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "ደረጃ-በደረጃ አጋዥ። ቅርጸት፣ ጥራት እና ሌሎችን ይምረጡ።"
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "ከURL አውርድ"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "አቋራጩን ቀይር"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "ይህ አቋራጭ በሌላ መተግበሪያ ተይዟል — ሌላ ይምረጡ።"
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "አለም አቀፍ አቋራጭ"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "ቁልፎችን ይታጠፉ…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "ወደ ነባሪ መልስ"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "የተቀዱትን አገናኞች ከማንኛውም መተግበሪያ ያለ Klip መክፈት ያውርዱ።"
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "አለም አቀፍ ፈጣን ቁልፍ"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "ፈትሽ"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "አለም አቀፍ ፈጣን ቁልፍ አንቃ"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "በማንኛውም መተግበሪያ ውስጥ የቪዲዮ አገናኝ ይቅዱ እና አቋራጩን ይጫኑ፦ Klip መስኮቶችን ሳይቀይሩ ከነቃው መገለጫዎ ጋር ወደ ወረፋ ያስገባዋል። በቪዲዮ ዝርዝር ውስጥ ያለ ቪዲዮ አገናኝ ቪዲዮውን ያወርዳል።"
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "በይነተገናኝ ማውረድ"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "በይነተገናኝ ማውረድ…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "ንቁ ማውረዶች አሁን ያላቸውን ገደብ ይይዛሉ። ለማስፈጸም አቁም + ቀጥል።"
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "ብጁ…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "ለምሳሌ 750K ወይም 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "ለሚዲያ ማውረዶች ባንድዊድዝ ይገድቡ። ከታች ያለው የጥያቄ እረፍት ብዙ ጊዜ የበለጠ ጠንካራ መቆጣጠሪያ ነው።"
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "K ወይም M የሚከተለውን ቁጥር ይጠቀሙ (ለምሳሌ 500K, 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "የማውረድ ፍጥነት ገደብ"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "ጠፍቷል"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "በዳራ ዳውንሎድ እያደረጉ ነው… ብዙ ስራ አሰራ 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "ፈጣን ማውረድ የተጫኑትን ንጥሎች {{profileName}} በመጠቀም ወደ ወረፋ ያስገባል። በይነተገናኝ ማውረድ መጀመሪያ ንጥሎችን እንዲመረምሩ ወይም እንዲመርጡ ያስችልዎታል።"
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "አገናኝ ጣል፣ Klip እንዲያወርደው ተወው ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "ፈጣን ማውረድ {{profileName}} በመጠቀም አንድ ማውረድ ይጀምራል። ለአንድ ጊዜ ለውጦች በይነተገናኝ ማውረድ ይጠቀሙ።"
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "ይህ አገናኝ ቪዲዮውንና የያዘውን ዝርዝር ይጠቅሳል፦ ቪዲዮውን ብቻ ያውርዱ፣ ወይም ዝርዝሩን።"
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "ተኳኋኝ ስቴሪዮ"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "መገለጫ የተፈጥሯዊ ድምፅ ሲመርጥ ስቴሪዮ ወይም surround። መገለጫ ይህን ሊሽረው ይችላል።"
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "የተፈጥሯዊ ድምፅ ምርጫ"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "surround / Dolby ን ይመርጡ"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "Klip ጣቢያን ከልክ ያለፈ ጥያቄ እንዳያደርግ እያንዳንዱ ዳውንሎድ ላይ ትናንሽ መጠበቂያዎችን ያክላል። ዋጋዎች በሰከንድ ናቸው።"
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "ሚዲያ ከመጀመሩ በፊት እረፍት: ከፍ."
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "ሚዲያ ከመጀመሩ በፊት እረፍት: ዝቅ."
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "ምርምሮች መካከል መጠበቂያ"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "ከንዑስ ጽሑፍ ፋይሎች በፊት ጠብቅ"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "ለዝቅ ያሉ ዳውንሎዶች"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip ምን ያህል ጥንቃቄ ያድርግ?"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "ሚዛናዊ"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "ጥንቁቅ"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "ብጁ"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "ጠፍ"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "መጠበቂያ: {{requests}} ምርምሮች መካከል፣ {{downloads}} ሚዲያ ከመጀመሩ በፊት፣ {{subtitles}} ንዑስ ርዕስ ፋይሎች በፊት።"
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "እነዚህ ጥበቃዎች በእያንዳንዱ ዳውንሎድ ውስጥ ይከሰታሉ። በአንድ ጊዜ ስንት ዳውንሎዶች እንደሚሄዱ በ«በአንድ ጊዜ ዳውንሎዶች» ስር ለየብቻ ይዘጋጃል።"
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "ነባሪ። በጥያቄዎች መካከል እና ሚዲያ ከመጀመሩ በፊት አጫጭር እረፍቶችን ያክላል።"
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "ለትልልቅ playlists ወይም ቶሎ ቶሎ ገደብ ለሚያጋጥማቸው አውታሮች ረዥም እረፍቶችን ያክላል።"
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "የከፍተኛ ዳውንሎድ መቆጣጠሪያዎችን እራስዎ ያስተካክሉ።"
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Klip ለሚዲያ እና ንዑስ ርዕሶች የሚያቆየውን ትንሽ መሰረታዊ እረፍት ብቻ ይጠቀማል።"
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "ሰከንድ"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "አገናኝ በKlip ተከፍቷል"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "በKlip በተከፈተው አገናኝ ተተክቷል"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "አገናኝ ይለጥፉ"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "የአሁን ገደብ: {{count}} ንጥሎች"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "ብጁ…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "ከ {{min}} እስከ {{max}} ሙሉ ቁጥር ይጠቀሙ።"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "ገደብ አስቀምጥ"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "ብጁ የ Playlist ቃኝት ገደብ"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "ብጁ: {{count}} ንጥሎች"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "Klip playlist፣ ቻናል፣ ወይም የፍለጋ ውጤት ሲከፍት የሚጭነው ከፍተኛ ቁጥር።"
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "ከ1 እስከ 5000 ሙሉ ቁጥር ይጠቀሙ"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "ሊቃኙ የ Playlist ንጥሎች"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} ንጥሎች"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "የመተግበሪያውን ገደብ ተጠቀም፦ {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "ተግብር"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "ያንን የ Playlist ወሰን መተግበር አልተቻለም፦ {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "ተግብር እና ዳግም ጫን"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "ቀይር"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "Klip ለዚህ playlist የሚጭነውን ይምረጡ።"
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "የ Playlist ወሰን"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "በዚህ ወሰን ውስጥ ምንም ቪዲዮ የለም"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "የመጀመሪያ"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "ከ1 እስከ {{max}} ያሉ ሙሉ ቁጥሮችን ተጠቀም፤ ጅምሩ ከመጨረሻው አይበልጥ።"
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "የሚጫኑ ንጥሎች"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "የ Playlist ወሰን"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "ክልል"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "ዳግም እየተጫነ ነው..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "ዳግም አስጀምር"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "የመጀመሪያዎቹን ንጥሎች ጫን፦ {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "የመጀመሪያዎቹን ንጥሎች ጫን፦ {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "ንጥሎች {{from}}-{{to}} ጫን"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "እስከ"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "ንቁ መገለጫ"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "አብሮገነብ"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "ብጁ"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "የተደበቀ"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "ተቀይሯል"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "ድምፅ ብቻ"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "ሚዛናዊ 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "ምርጥ ጥራት"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "ዝቅተኛ ጥራት 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "አነስተኛ ዳታ 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "ስማርት TV 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "ስማርት TV 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "ስማርት TV 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "ትንሽ ፋይል 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "ንዑስ ርዕሶች ብቻ"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "አጠቃላይ መዳረሻ ቀይር"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "አጠቃላይ መዳረሻ በመጠቀም"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "አጠቃላይ መዳረሻ + የመገለጫ ንዑስ አቃፊ በመጠቀም"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "የመገለጫ ተሻሪ በመጠቀም"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "የመገለጫ ተሻሪ + የመገለጫ ንዑስ አቃፊ በመጠቀም"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "የሚቀመጥበትን ቦታ ለመቀየር መገለጫውን ያርትዑ።"
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "መዳረሻ"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "አርትዕ"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "ንቁ መገለጫ አርትዕ"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "የተደበቁ መገለጫዎች እዚህ ይቆያሉ ግን ከእያንዳንዱ መምረጫ ይጠፋሉ።"
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "መገለጫውን በመምረጫዎች ውስጥ አሳይ: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "ቢያንስ አንድ መገለጫ ያስቀምጡ።"
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "መገለጫዎችን አስተዳድር"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "ለፈጣን ማውረድ፣ ለብዙ URL-ዎች እና ለአጫዋች ዝርዝሮች ንቁውን መገለጫ ቀይር።"
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "መገለጫ ቀይር"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "ተንቀሳቃሽ መገለጫ"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "ማንቀሳቀስ ተሰርዟል። {{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ይቆያል።"
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "{{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ተጥሏል።"
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "{{profileName}}ን አንቀሳቅስ"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "መገለጫን ለማንቀሳቀስ ስፔስ ወይም ኤንተር ይጫኑ፣ በቀስት ቁልፎች ያንቀሳቅሱት፣ ከዚያ ለመጣል እንደገና ስፔስ ወይም ኤንተር ይጫኑ። ለመሰረዝ ኤስኬፕ ይጫኑ።"
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ነው።"
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "{{profileName}} ተነሳ። ከ{{count}} ውስጥ በ{{position}}ኛ ቦታ ላይ ነው።"
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "አዲስ መገለጫ"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "ይህ መገለጫ ያልተዘጋጀ አቃፊ ውስጥ ያስቀምጣል። በመገለጫው ውስጥ አቃፊ ይምረጡ፣ ወይም ወደ ነባሪው ይመልሱት።"
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "እንደገና ሊጠቀሙባቸው የሚችሉ የማውረድ ቅንብሮችን ይፍጠሩ፣ ይምረጡ፣ ያርትዑ ወይም ያስወግዱ።"
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "የማውረድ መገለጫዎች"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "አስወግድ"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "መገለጫን ለማንቀሳቀስ ይጎትቱት። እያንዳንዱ መገለጫ መምረጫ ይህን ቅደም ተከተል ይከተላል።"
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "ዳግም አስጀምር"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "የሚቀመጥበት"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "የማውረጃ መገለጫ ቀይር፦ {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "የማውረጃ መገለጫ ቀይር"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "አጽዳ"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "ትራፊክን በፕሮክሲ አገልጋይ ያስተላልፉ።"
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "የፕሮክሲ አድራሻ"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "ፈጣን ማውረድ"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "{{profileName}} በመጠቀም ይወርዳል"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "ይህን ማከል አልተቻለም፦ {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "የወረፋ ንጥል ማዘጋጀት አልተቻለም"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "በመዘጋጀት ላይ"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "መፈተሹ አልተሳካም"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "ለመጀመር የቪዲዮ፣ playlist፣ channel ወይም ፍለጋ URL ይለጥፉ።"
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "ስም-አልባ ምልክትና የማዋቀር ሪፖርቶችን መላክ"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "ክትትል የለም። በቀን አንድ ጊዜ ስም-አልባ ምልክት የመተግበሪያውን ስሪት፣ የመጫኛ ቻናል፣ OS፣ ቋንቋ፣ ሀገር እና Klip ከተጫነ ወዲህ በግምት ምን ያህል ጊዜ እንደሆነ ይልካል፤ ንቁና አዲስ ተጠቃሚዎችን ለመቁጠር። Klip የማውረጃ ሞተሩን ወይም የሚዲያ መሣሪያዎችን ሲያዋቅር ወይም ሲያዘምን፣ ስኬታማ መሆን አለመሆኑንና በግምት ምን ያህል ጊዜ እንደወሰደ ያሳውቃል። ምንም መታወቂያ፣ URL፣ የቪዲዮ ርዕሶች ወይም የፋይል ስሞች የሉም።"
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "ከመገለጫዎች ጋር የሙመና ዳውንሎዶችን የሚጨብጥ ዓለም አቀሚ ባህሪ."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "የዳውንሎድ ባህሪ"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "ግብዓት"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "በሚንቀሳቀስ ሰማይ ላይ የመስታወት ፓነሎች። የግራፊክስ ማፍጠኛ ያስፈልጋል።"
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "ጠንካራና ጸጥ ያሉ ገጽታዎች። በማንኛውም ኮምፒውተር ላይ ቀላል ሆኖ ይሰራል።"
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "ቀላል"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "ሁለቱም ዘይቤዎች በብርሃን እና በጨለማ ይገኛሉ።"
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "ዘይቤ"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Klip እንዴት እንደሚታይ። በግርጌው ውስጥ በብርሃን እና በጨለማ መካከል ይቀያይሩ።"
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "ገጽታ"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} የግራፊክስ ማፍጠኛ ያስፈልገዋል፣ እሱ ግን አሁን አይገኝም። ስለዚህ Klip {{fallback}}ን እያሳየ ነው።"
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "መገለጫዎች"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "ቅንብሮች"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "ይህ ቪዲዮ"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "ይህን ቪዲዮ ብቻ በ{{profileName}} ያወርዳል"

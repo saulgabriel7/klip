@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title">
+  <title id="title">Klip stacked logo</title>
+  <g id="symbol" transform="translate(128 32)">
+    <path fill="#18181b" fill-rule="evenodd" d="M 36 36 H 92 V 220 H 36 Z M 152 36 H 220 L 138 118 H 116 V 72 Z M 116 138 H 138 L 220 220 H 152 L 116 184 Z"/>
+  </g>
+  <g id="wordmark" transform="translate(-89 266) scale(0.75)">
+    <path fill="#18181b" fill-rule="evenodd" d="M 276 42 H 304 V 104 L 366 42 H 404 L 330 116 L 404 190 H 366 L 304 128 V 190 H 276 Z M 432 42 H 458 V 190 H 432 Z M 486 42 H 512 V 68 H 486 Z M 486 86 H 512 V 190 H 486 Z M 540 86 H 592 A 52 52 0 1 1 592 190 H 566 V 220 H 540 Z M 592 112 A 26 26 0 1 0 592 164 A 26 26 0 1 0 592 112 Z"/>
+  </g>
+</svg>

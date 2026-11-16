@@ -1,0 +1,40 @@
+youtube-autodub: YouTube AI auto-dubbed audio tracks ("dubbed-auto") beside the original
+Make Your Film Sound 3D SPATIAL in Fairlight | DaVinci Resolve 360 & VR180 Ambisonic Masterclass · 1901 s · card says "1280x720" · 63 formats
+
+Video (picked for Balanced 720p •):
+          SDR AV1         SDR VP9        SDR H.264
+2160p 4K  AV1 636.8 MiB   VP9 3.3 GiB    ·
+1440p 2K  AV1 333.9 MiB   VP9 1.8 GiB    ·
+1080p     AV1 150.8 MiB   VP9 569.7 MiB  H.264 1.0 GiB
+720p      AV1 89.9 MiB •  VP9 326.5 MiB  H.264 582.8 MiB
+480p      AV1 50.8 MiB    VP9 207.5 MiB  H.264 307.4 MiB
+360p      AV1 31.7 MiB    VP9 134.5 MiB  H.264 182.3 MiB
+240p      AV1 17.2 MiB    VP9 75.2 MiB   H.264 89.2 MiB
+144p      AV1 9.8 MiB     VP9 42.2 MiB   H.264 47.0 MiB
+
+Audio:
+tracks (English (US) original (default) shown): Spanish (United States) · AI dubbed, Brazilian Portuguese · AI dubbed, American English · Original
+Opus: 113 kbps 25.5 MiB DRC | 113 kbps 25.5 MiB • | 62 kbps 14.0 MiB DRC | 62 kbps 14.0 MiB | 50 kbps 11.4 MiB DRC | 50 kbps 11.3 MiB
+AAC: 129 kbps 29.3 MiB DRC | 129 kbps 29.3 MiB | 49 kbps 22.05 kHz 11.0 MiB
+DRC switch shown
+convert from: mp3 ← 251-2 re-encode · m4a ← 140-2 copy 129 kbps · opus ← 251-2 copy 113 kbps · wav ← 251-2 re-encode
+
+Profile picks:
+best-quality: 401 (3840x2160, mp4) + audio 251-2 (audio only, webm)
+best-2160: 401 (3840x2160, mp4) + audio 251-2 (audio only, webm)
+best-1440: 400 (2560x1440, mp4) + audio 251-2 (audio only, webm)
+hd-1080: 399 (1920x1080, mp4) + audio 251-2 (audio only, webm)
+balanced: 398 (1280x720, mp4) + audio 251-2 (audio only, webm)
+small-file: 397 (854x480, mp4) + audio 251-2 (audio only, webm)
+mp4-1080: 137 (1920x1080, mp4) + audio 140-2 (audio only, m4a)
+mp4-720: 136 (1280x720, mp4) + audio 140-2 (audio only, m4a)
+mp4-480: 135 (854x480, mp4) + audio 140-2 (audio only, m4a)
+audio-only: audio 251-2 (audio only, webm)
+low-240: 395 (426x240, mp4) + audio 251-2 (audio only, webm)
+low-144: 394 (256x144, mp4) + audio 251-2 (audio only, webm)
+
+Subtitles: zh, en
+Auto captions: en-orig
+Subtitle picks (manual-first | manual-and-auto):
+zh: zh | zh
+en: en | en + en-orig

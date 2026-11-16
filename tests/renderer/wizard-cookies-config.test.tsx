@@ -1,0 +1,410 @@
+// @vitest-environment jsdom
+import {fireEvent, render, screen, waitFor, within} from '@testing-library/react'
+import {beforeEach, describe, expect, it, vi} from 'vite-plus/test'
+import {StepUrlInput} from '@renderer/components/wizard/StepUrlInput.js'
+import {MixedUrlPromptDialog} from '@renderer/components/wizard/MixedUrlPromptDialog.js'
+import {TooltipProvider} from '@renderer/components/ui/tooltip.js'
+import {useAppStore} from '@renderer/store/useAppStore.js'
+import {buildMockAppApi} from '../shared/mockAppApi.js'
+import {defaultAppSettings} from '@shared/constants.js'
+import type {AppApi, SettingsPatch} from '@shared/api.js'
+import type {AppSettings, GraphicsPolicy} from '@shared/types.js'
+import {ok} from '../shared/fixtures.js'
+
+const SINGLE_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+const MIXED_URL = `${SINGLE_URL}&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf`
+
+let mockApi: AppApi
+
+const WEBGL_BLOCKED_GRAPHICS_POLICY: GraphicsPolicy = {backdrop: {webglBlocked: true, softwareWebglAllowed: false, fallbackReason: 'gpu-feature-disabled'}}
+
+function buildSettings(common: Partial<AppSettings['common']> = {}): AppSettings {
+	const base = defaultAppSettings('/tmp')
+	return {...base, common: {...base.common, rememberLastOutputDir: false, clipboardWatchEnabled: false, cookiesMode: 'off', cookiesPath: '', ...common}}
+}
+
+function resetStore(settings: AppSettings): void {
+	useAppStore.setState({
+		initialized: true,
+		initializing: false,
+		settings,
+		wizardStep: 'url',
+		wizardMode: 'single',
+		formatsLoading: false,
+		playlistProbeLoading: false,
+		wizardUrl: '',
+		wizardTitle: '',
+		wizardThumbnail: '',
+		wizardDuration: undefined,
+		wizardFormats: [],
+		wizardFormatsDegraded: null,
+		wizardExtractor: '',
+		wizardExtractorKey: '',
+		wizardWebpageUrl: '',
+		advancedAutoOpen: false,
+		advancedAutoTarget: 'cookies',
+		selectedVideoFormatId: '',
+		audioSelection: {kind: 'none'},
+		lastConvertBitrate: 192,
+		wizardMediaKind: 'video',
+		wizardOutputDir: '',
+		wizardError: null,
+		wizardErrorOrigin: null,
+		wizardSubtitles: {},
+		wizardAutomaticCaptions: {},
+		wizardSubtitleLanguages: [],
+		wizardSubtitleMode: 'sidecar',
+		wizardSubtitleFormat: 'srt',
+		wizardSubfolderEnabled: false,
+		wizardSubfolderName: '',
+		wizardSponsorBlockMode: 'off',
+		wizardSponsorBlockCategories: ['sponsor', 'selfpromo'],
+		wizardEmbedChapters: true,
+		wizardEmbedMetadata: true,
+		wizardEmbedThumbnail: false,
+		wizardWriteDescription: false,
+		wizardWriteThumbnail: false,
+		playlistItems: [],
+		selectedPlaylistItemIds: [],
+		playlistTitle: '',
+		playlistId: '',
+		playlistIsMultiVideo: false,
+		cookiesConfigDialogIssue: null,
+		playlistSelection: null,
+		queue: [],
+		graphicsPolicy: null,
+		uiStyle: 'aurora',
+		backdropFailed: false
+	})
+}
+
+beforeEach(() => {
+	window.history.replaceState(null, '', '/')
+	mockApi = buildMockAppApi()
+	mockApi.settings.update = vi.fn(async (input: SettingsPatch) => {
+		const current = useAppStore.getState().settings ?? buildSettings()
+		const next: AppSettings = {common: {...current.common, ...(input.common ?? {})}, playlist: {...current.playlist, ...(input.playlist ?? {})}, profiles: {...current.profiles, ...(input.profiles ?? {})}}
+		return ok(next)
+	})
+	window.appApi = mockApi
+	window.platform = 'linux'
+	resetStore(buildSettings())
+})
+
+function openSettingsTab(): void {
+	fireEvent.click(screen.getByRole('tab', {name: 'Settings'}))
+}
+
+function enterUrlAndStartInteractiveDownload(): void {
+	fireEvent.change(screen.getByTestId('profiles-main-input'), {target: {value: SINGLE_URL}})
+	fireEvent.click(screen.getByTestId('profiles-interactive-download'))
+}
+
+describe('advanced network settings', () => {
+	it('renders and saves the playlist probe limit control', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.getByTestId('network-pacing-section')).toBeInTheDocument()
+		const playlistLimitSection = screen.getByTestId('playlist-probe-limit-section')
+		expect(within(playlistLimitSection).getByTestId('profiles-settings-playlist-probe-limit-trigger')).toHaveTextContent('100 items')
+		expect(within(playlistLimitSection).queryByTestId('profiles-settings-playlist-probe-limit-current')).not.toBeInTheDocument()
+
+		fireEvent.click(screen.getByTestId('profiles-settings-playlist-probe-limit-trigger'))
+		fireEvent.click(await screen.findByTestId('profiles-settings-playlist-probe-limit-option-250'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {playlistProbeLimit: 250}})
+		})
+	})
+
+	it('saves an edited filename template', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: '{uploader} - {title}'}})
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {filenameTemplate: '{uploader} - {title}'}})
+		})
+	})
+
+	it('inserts a token when its chip is clicked', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: ''}})
+		fireEvent.click(screen.getByTestId('filename-token-uploader'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {filenameTemplate: '{uploader}'}})
+		})
+	})
+
+	it('shows one preview when a template resolves identically for a single video and a playlist', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: '{title} [{id}]'}})
+
+		await waitFor(() => {
+			expect(screen.getByTestId('filename-template-preview')).toHaveTextContent('Big Buck Bunny [YE7VzlLtp-4].mp4')
+		})
+		expect(screen.queryByTestId('filename-template-preview-playlist')).toBeNull()
+	})
+
+	it('shows both previews when a folder collapses for a single video', async () => {
+		// The whole point of the second preview: `{playlist_title}/` builds a folder
+		// for playlist items and none at all for a standalone video, and the user
+		// should see that before downloading rather than after.
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: '{playlist_title}/{title} [{id}]'}})
+
+		await waitFor(() => {
+			expect(screen.getByTestId('filename-template-preview')).toHaveTextContent('Big Buck Bunny [YE7VzlLtp-4].mp4')
+		})
+		expect(screen.getByTestId('filename-template-preview-playlist')).toHaveTextContent('Nature Docs/Big Buck Bunny [YE7VzlLtp-4].mp4')
+	})
+
+	it('rejects {resolution} as a folder and explains why', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: '{resolution}/{title}'}})
+
+		await waitFor(() => {
+			expect(screen.getByTestId('filename-template-error').textContent).toMatch(/quality isn't known/i)
+		})
+		expect(screen.queryByTestId('filename-template-preview')).toBeNull()
+	})
+
+	it('offers the playlist folder token as a chip', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		fireEvent.change(screen.getByTestId('filename-template-input'), {target: {value: ''}})
+		fireEvent.click(screen.getByTestId('filename-token-playlist_title'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {filenameTemplate: '{playlist_title}'}})
+		})
+	})
+
+	it('saves the global native audio preference', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.getByTestId('native-audio-preference')).toHaveTextContent('Compatible stereo')
+		expect(screen.getByTestId('native-audio-preference')).toHaveTextContent('Prefer surround / Dolby')
+		fireEvent.click(screen.getByTestId('native-audio-preference-surround'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {nativeAudioPreference: 'surround'}})
+		})
+	})
+
+	it('saves the global HDR video preference, Auto by default', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.getByTestId('hdr-preference-auto')).toHaveAttribute('aria-pressed', 'true')
+		expect(screen.getByTestId('hdr-preference')).toHaveTextContent('Auto')
+		expect(screen.getByTestId('hdr-preference')).toHaveTextContent('SDR')
+		fireEvent.click(screen.getByTestId('hdr-preference-hdr'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {hdrPreference: 'hdr'}})
+		})
+	})
+
+	it('lists every style and saves the one picked', async () => {
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		const options = within(screen.getByTestId('profiles-settings-style')).getAllByRole('button')
+		expect(options.map(option => option.textContent)).toEqual([expect.stringContaining('Aurora'), expect.stringContaining('Minimal')])
+		expect(screen.getByTestId('profiles-settings-style-aurora')).toHaveAttribute('aria-pressed', 'true')
+		expect(screen.queryByTestId('profiles-settings-style-fallback')).not.toBeInTheDocument()
+
+		fireEvent.click(screen.getByTestId('profiles-settings-style-minimal'))
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {uiStyle: 'minimal'}})
+		})
+		expect(useAppStore.getState().uiStyle).toBe('minimal')
+	})
+
+	it('explains why a style that needs the GPU is showing the base style instead', async () => {
+		useAppStore.setState({graphicsPolicy: WEBGL_BLOCKED_GRAPHICS_POLICY})
+
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.getByTestId('profiles-settings-style-fallback')).toHaveTextContent("Aurora needs graphics acceleration, which isn't available right now, so Klip is showing Minimal.")
+		expect(screen.getByTestId('profiles-settings-style-aurora')).toHaveAttribute('aria-pressed', 'true')
+	})
+
+	it('shows no fallback notice for a style that needs no GPU', async () => {
+		useAppStore.setState({graphicsPolicy: WEBGL_BLOCKED_GRAPHICS_POLICY, uiStyle: 'minimal'})
+
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.queryByTestId('profiles-settings-style-fallback')).not.toBeInTheDocument()
+	})
+
+	it('mixed URL dialog shows the load limit inside the list option and changes it inline', async () => {
+		resetStore(buildSettings({playlistProbeLimit: 250}))
+		useAppStore.setState({mixedUrlPromptOpen: true, mixedUrlPending: MIXED_URL, mixedUrlPromptSource: 'wizard'})
+
+		render(
+			<TooltipProvider>
+				<MixedUrlPromptDialog />
+			</TooltipProvider>
+		)
+
+		expect(screen.getByTestId('mixed-playlist-probe-limit-trigger')).toHaveTextContent('250')
+		expect(screen.queryByTestId('mixed-open-advanced')).not.toBeInTheDocument()
+		fireEvent.click(screen.getByTestId('mixed-playlist-probe-limit-trigger'))
+		fireEvent.click(await screen.findByTestId('mixed-playlist-probe-limit-option-500'))
+
+		await waitFor(() => {
+			expect(mockApi.settings.update).toHaveBeenCalledWith({common: {playlistProbeLimit: 500}})
+		})
+		expect(useAppStore.getState().mixedUrlPromptOpen).toBe(true)
+		expect(useAppStore.getState().advancedAutoOpen).toBe(false)
+	})
+
+	it('keeps the mixed URL dialog close button working after closing the custom limit dialog', async () => {
+		resetStore(buildSettings({playlistProbeLimit: 250}))
+		useAppStore.setState({mixedUrlPromptOpen: true, mixedUrlPending: MIXED_URL})
+
+		render(
+			<TooltipProvider>
+				<MixedUrlPromptDialog />
+			</TooltipProvider>
+		)
+
+		fireEvent.click(screen.getByTestId('mixed-playlist-probe-limit-trigger'))
+		fireEvent.click(await screen.findByTestId('mixed-playlist-probe-limit-option-custom'))
+
+		const customDialog = await screen.findByTestId('mixed-playlist-probe-limit-custom-dialog')
+		fireEvent.click(within(customDialog).getByRole('button', {name: 'Close'}))
+
+		await waitFor(() => {
+			expect(screen.queryByTestId('mixed-playlist-probe-limit-custom-dialog')).not.toBeInTheDocument()
+		})
+
+		fireEvent.click(screen.getByRole('button', {name: 'Close'}))
+
+		await waitFor(() => {
+			expect(useAppStore.getState().mixedUrlPromptOpen).toBe(false)
+			expect(useAppStore.getState().mixedUrlPending).toBeNull()
+		})
+	})
+})
+
+describe('incomplete cookies config guard', () => {
+	it('shows cookie export help and the cookies.txt risk only in file mode', () => {
+		resetStore(buildSettings({cookiesMode: 'file'}))
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.getByTestId('cookies-help-link')).toBeInTheDocument()
+		expect(screen.getByTestId('cookies-firefox-link')).toBeInTheDocument()
+		expect(screen.getByTestId('cookies-chrome-link')).toBeInTheDocument()
+		expect(screen.getByText(/a cookies\.txt contains every logged-in session/)).toBeInTheDocument()
+	})
+
+	it.each(['explore', 'browser', 'off'] as const)('hides cookie export help and the cookies.txt risk in %s mode', cookiesMode => {
+		resetStore(buildSettings({cookiesMode, cookiesBrowser: 'firefox'}))
+		render(<StepUrlInput />)
+		openSettingsTab()
+
+		expect(screen.queryByTestId('cookies-help-link')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('cookies-firefox-link')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('cookies-chrome-link')).not.toBeInTheDocument()
+		expect(screen.queryByText(/a cookies\.txt contains every logged-in session/)).not.toBeInTheDocument()
+	})
+
+	it('blocks fetch and opens a modal when file mode has no path', async () => {
+		resetStore(buildSettings({cookiesMode: 'file', cookiesPath: '   '}))
+		render(<StepUrlInput />)
+
+		enterUrlAndStartInteractiveDownload()
+
+		expect(await screen.findByTestId('cookies-config-dialog')).toBeInTheDocument()
+		expect(mockApi.downloads.probe).not.toHaveBeenCalled()
+		expect(useAppStore.getState().wizardStep).toBe('url')
+		expect(useAppStore.getState().cookiesConfigDialogIssue).toBe('file-missing-path')
+	})
+
+	it('blocks fetch and opens a modal when browser mode has no browser', async () => {
+		resetStore(buildSettings({cookiesMode: 'browser'}))
+		render(<StepUrlInput />)
+
+		enterUrlAndStartInteractiveDownload()
+
+		expect(await screen.findByTestId('cookies-config-dialog')).toBeInTheDocument()
+		expect(mockApi.downloads.probe).not.toHaveBeenCalled()
+		expect(useAppStore.getState().cookiesConfigDialogIssue).toBe('browser-missing-selection')
+	})
+
+	it('opens the Advanced cookies section from the modal primary action', async () => {
+		resetStore(buildSettings({cookiesMode: 'file', cookiesPath: ''}))
+		render(<StepUrlInput />)
+
+		enterUrlAndStartInteractiveDownload()
+		expect(screen.queryByTestId('profiles-settings-tab')).not.toBeInTheDocument()
+
+		fireEvent.click(await screen.findByTestId('cookies-config-dialog-open-settings'))
+
+		await waitFor(() => {
+			expect(screen.getByTestId('profiles-settings-tab')).toBeInTheDocument()
+		})
+		expect(screen.getByTestId('cookies-source')).toBeInTheDocument()
+		expect(screen.queryByTestId('cookies-config-dialog')).not.toBeInTheDocument()
+	})
+
+	it('clears the dialog issue when dismissed via Cancel and re-blocks submit until config is fixed', async () => {
+		resetStore(buildSettings({cookiesMode: 'file', cookiesPath: ''}))
+		render(<StepUrlInput />)
+
+		enterUrlAndStartInteractiveDownload()
+
+		expect(await screen.findByTestId('cookies-config-dialog')).toBeInTheDocument()
+
+		fireEvent.click(screen.getByTestId('cookies-config-dialog-cancel'))
+
+		await waitFor(() => {
+			expect(screen.queryByTestId('cookies-config-dialog')).not.toBeInTheDocument()
+		})
+		expect(useAppStore.getState().cookiesConfigDialogIssue).toBeNull()
+		expect(mockApi.downloads.probe).not.toHaveBeenCalled()
+
+		fireEvent.click(screen.getByTestId('profiles-interactive-download'))
+
+		expect(await screen.findByTestId('cookies-config-dialog')).toBeInTheDocument()
+		expect(useAppStore.getState().cookiesConfigDialogIssue).toBe('file-missing-path')
+		expect(useAppStore.getState().wizardStep).toBe('url')
+		expect(mockApi.downloads.probe).not.toHaveBeenCalled()
+	})
+
+	it('clears the dialog issue when dismissed via ESC and keeps submit blocked', async () => {
+		resetStore(buildSettings({cookiesMode: 'browser'}))
+		render(<StepUrlInput />)
+
+		enterUrlAndStartInteractiveDownload()
+
+		const dialog = await screen.findByTestId('cookies-config-dialog')
+		fireEvent.keyDown(dialog, {key: 'Escape', code: 'Escape'})
+
+		await waitFor(() => {
+			expect(screen.queryByTestId('cookies-config-dialog')).not.toBeInTheDocument()
+		})
+		expect(useAppStore.getState().cookiesConfigDialogIssue).toBeNull()
+		expect(useAppStore.getState().wizardStep).toBe('url')
+		expect(mockApi.downloads.probe).not.toHaveBeenCalled()
+	})
+})

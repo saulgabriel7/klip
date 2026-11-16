@@ -1,0 +1,5452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "درباره"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "مشاهدهٔ اعلان‌های شخص ثالث"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "وب‌سایت"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "اجازه دادن"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "جریان‌های ارتقایافته با هوش مصنوعی مجازند"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube برخی ویدیوهای قدیمی را در اندازه‌هایی ارائه می‌کند که با هوش مصنوعی ساخته است. «رد کردن» جریان‌های اصلی را نگه می‌دارد؛ همچنان می‌توانید یک جریان ارتقایافته را دستی انتخاب کنید."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "جریان‌های ارتقایافته با هوش مصنوعی"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "رد کردن"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "بازخورد"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "از Klip لذت می‌برید؟ خوشحال می‌شوم نظرتان را بدانم! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "گزارش‌ها"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "ذخیرهٔ فایل عیب‌یابی"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "گزارش‌ها و جزئیات برنامه را در یک فایل در پوشهٔ Downloads قرار می‌دهد تا آمادهٔ پیوست به یک issue در GitHub باشد. نام پوشهٔ کاربری شما حذف می‌شود؛ پیوندها و عنوان‌های ویدیو باقی می‌مانند."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "جدید: اینجا آرورا یا مینیمال را انتخاب کنید"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "پوسته"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "بزرگ‌نمایی"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "کوچک‌نمایی"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "بازگشت"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "بستن"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "ادامه"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "در حال بارگیری"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "شروع دوباره"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip همچنان اجرا می‌شود و دانلودهای فعال را به پایان می‌رساند. بعداً می‌توانید این گزینه را در تنظیمات پیشرفته تغییر دهید."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "پنهان کردن در سینی سیستم"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "هنگام بستن، Klip در سینی سیستم پنهان شود؟"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "خروج"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "دیگر نپرس"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "صف شما حفظ می‌شود و دانلودها دفعهٔ بعد که Klip را باز کنید از همان جایی که متوقف شدند ادامه می‌یابند."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "ادامهٔ دانلود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} دانلود در حال انجام است"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} دانلود در حال انجام است"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "خروج"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "فرایند رندرکننده از کار افتاد ({{reason}}). برای تلاش دوباره، بارگیری مجدد کنید."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip با مشکلی روبه‌رو شد"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "خروج"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "بارگیری مجدد"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "کپی شد!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "کپی نشانی"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip رایگان و متن‌باز است، بدون تبلیغات و بدون طرح پولی. کمک مالی اختیاری است و تأثیری بر نقشه راه ندارد."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "حمایت مالی"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "حمایت از Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "کد QR نشانی کمک مالی {{coin}}"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "حمایت از Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "پرداخت‌های رمزارزی بازگشت‌ناپذیرند. فقط از طریق شبکه نمایش‌داده‌شده ارسال کنید و کل نشانی را مقایسه کنید."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "این ویدیو زیرنویسی به {{languages}} ندارد."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "این ویدیو محدودیت سنی دارد و بدون حساب واردشده قابل دانلود نیست."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "محافظت ضد ربات سایت این دانلود را متوقف کرد. کمی صبر کنید و دوباره تلاش کنید، یا هم‌زمان ویدیوهای کمتری دانلود کنید. اگر همچنان ناموفق بود، ممکن است تغییری موقت در سمت سایت باشد — Klip هنگام اجرا موتور دانلود خود را به‌روزرسانی می‌کند، پس به‌محض انتشار اصلاح، خودکار اعمال می‌شود."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "سرور پیوسته دانلود را در میانه قطع کرد و Klip پس از تلاش‌های دوباره منصرف شد. این مشکل معمولاً برای بزرگ‌ترین قالب‌های ویدیو (4K HDR / VP9 با نرخ بیت بالا) رخ می‌دهد. دوباره تلاش کنید، شبکه/VPN را عوض کنید یا قالبی با وضوح پایین‌تر برگزینید."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "این ویدیو با DRM محافظت می‌شود. Klip نمی‌تواند DRM را حذف کند، بنابراین فایل قابل دانلود نیست."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "این ویدیو دیگر قالبی را که انتخاب کرده‌اید ارائه نمی‌دهد. پیوند را دوباره جای‌گذاری کنید و از میان قالب‌هایی که اکنون ارائه می‌دهد انتخاب کنید."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "این ویدیو در منطقهٔ شما در دسترس نیست."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "سایت درخواست‌های این اتصال را مسدود می‌کند. بعداً دوباره تلاش کنید."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "این ویدیو به یک حساب واردشده نیاز دارد."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip نتوانست FFmpeg یا FFprobe را پیدا کند. راه‌اندازی را دوباره اجرا کنید یا محل FFmpeg را تنظیم کنید، سپس دانلود را دوباره امتحان کنید."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "خطای شبکه. اتصال خود را بررسی کنید و دوباره تلاش کنید."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "این ویدیو زیرنویسی به زبان‌های درخواستی ندارد."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "فضای دیسک کافی نیست. مقداری فضا آزاد کنید و دوباره تلاش کنید."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip نمی‌تواند در پوشهٔ دانلود بنویسد. ممکن است فقط‌خواندنی باشد، روی درایوی قفل‌شده باشد یا تنظیمات حریم خصوصی سیستم شما جلوی آن را گرفته باشد. پوشهٔ دیگری انتخاب کنید یا اجازهٔ دسترسی بدهید و دوباره تلاش کنید."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "پاسخ سایت قابل تجزیه نبود. ممکن است سایت شیوهٔ ارائهٔ ویدیوها را تغییر داده باشد. Klip هنگام اجرا موتور دانلود خود را به‌روزرسانی می‌کند — چند دقیقه پس از انتشار اصلاح دوباره تلاش کنید."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "دانلود تمام شد، اما پردازش نهایی (ادغام / مالتی‌پلکس / تبدیل) ناموفق بود. اغلب مشکلی گذرا در ffmpeg است — دوباره تلاش کنید و اگر ادامه داشت، ترکیب قالب دیگری را امتحان کنید."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "سایت درخواست‌های این اتصال را محدود می‌کند."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "این ویدیو در دسترس نیست — ممکن است خصوصی، حذف‌شده یا در منطقهٔ شما مسدود باشد."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "دانلود ناموفق بود. خروجی خام زیر را ببینید."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip از این URL پشتیبانی نمی‌کند. پیوندی از سایت دیگر را امتحان کنید."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "اتصال خود را بررسی کنید و دوباره تلاش کنید."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "این صفحه بارگیری نشد"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "باز کردن تنظیمات"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "پروکسی را در تنظیمات بررسی کنید و دوباره تلاش کنید."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "«کاوش» نمی‌تواند از طریق پروکسی شما متصل شود"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "روی هر پیوند ویدیو، فهرست پخش یا کانال در صفحه راست‌کلیک کنید تا با نمایهٔ فعال دانلود شود، نمایهٔ دیگری انتخاب کنید یا دانلود تعاملی را باز کنید."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "برای دانلود، روی پیوند راست‌کلیک کنید"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "دانلود آلبوم در پس‌زمینه"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "دانلود ویدیوهای پسندیدهٔ شما در پس‌زمینه"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "دانلود میکس در پس‌زمینه"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "دانلود فهرست پخش در پس‌زمینه"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "دانلود ویدیوهای بارگذاری‌شده در پس‌زمینه"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "دانلود «تماشا در آینده» در پس‌زمینه"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "کپی پیوند"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "دانلود {{count}} مورد نخست"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "دانلود این ویدیو · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "دانلود با"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "از این آلبوم"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "از ویدیوهای پسندیدهٔ شما"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "از این میکس"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "از این فهرست پخش"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "از ویدیوهای بارگذاری‌شدهٔ این کانال"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "از «تماشا در آینده»"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "دانلود تعاملی…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "این ویدیو با"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "جدید"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "ویدیویی را در YouTube یا هر سایت دیگری پیدا کنید و از همین‌جا دانلود کنید — بدون کپی کردن پیوند. برای دانلود ویدیوهایی که به حساب نیاز دارند، همین‌جا وارد یک سایت شوید."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "ادامه"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "سایت‌هایی مانند YouTube ممکن است حساب‌هایی را که با ابزارهای دانلود مانند Klip استفاده می‌شوند علامت‌گذاری و گاهی مسدود کنند. از حسابی استفاده کنید که از دست دادنش مهم نیست، نه حساب اصلی‌تان."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "با یک حساب ثانویه وارد شوید"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "وب را مستقیم داخل Klip مرور کنید"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "دانلودها از کوکی‌های مرورگر شما استفاده می‌کنند، نه از ورود شما در «کاوش»."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "دانلودها از فایل کوکی شما استفاده می‌کنند، نه از ورود شما در «کاوش»."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "حالا نه"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "کوکی‌ها خاموش‌اند، پس دانلودها از ورود شما در «کاوش» استفاده نمی‌کنند."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "استفاده از ورود «کاوش»"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "YouTube یا هر سایت دیگری را داخل Klip مرور کنید و برای ویدیوهایی که به حساب نیاز دارند وارد شوید."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "آزادسازی حافظه هنگام دوری"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "پس از ۵ دقیقه در برگه‌ای دیگر، صفحهٔ اصلی یا صفحهٔ جستجوی YouTube را می‌بندد. با بازگشت، دوباره بارگیری می‌شود که چند ثانیه طول می‌کشد."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "موتور جستجو"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "متنی که در نوار نشانی تایپ می‌شود در این موتور جستجو می‌شود. پیوندها همان‌طور که تایپ شده‌اند باز می‌شوند."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "نمایش زبانهٔ «کاوش»"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "خاموش کردن آن باعث می‌شود دانلودها هم از ورود شما در «کاوش» استفاده نکنند."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "خروج از «کاوش»"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "خروج"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "با این کار ورودهای شما و داده‌های مرور در «کاوش»، در همهٔ سایت‌ها پاک می‌شود. دانلودهایی که به حساب نیاز دارند تا ورود دوباره ناموفق خواهند بود."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "از «کاوش» خارج می‌شوید؟"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "ورودهای شما و داده‌های مرور را در «کاوش»، در همهٔ سایت‌ها پاک می‌کند."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "کاوش"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "کاوش"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube ممکن است برای حساب‌های واردشده در برابر مسدودکننده‌های تبلیغات مقاومت کند."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "مسدودکنندهٔ تبلیغات"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "مسدودکنندهٔ تبلیغات: خاموش — برای روشن‌کردن کلیک کنید"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "مسدودکنندهٔ تبلیغات: روشن — برای خاموش‌کردن کلیک کنید"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "مسدودکنندهٔ تبلیغات: در حال راه‌اندازی — برای خاموش‌کردن کلیک کنید"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "مسدودکنندهٔ تبلیغات: در دسترس نیست، فهرست‌های فیلتر آن دانلود نشد — برای خاموش‌کردن کلیک کنید"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "نشانی"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "جستجو در {{engine}} یا باز کردن هر سایت (Vimeo، Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "کنترل‌های مرورگر «کاوش»"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "بازگشت"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "چیدمان فشرده"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "دانلود"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "دانلود · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "جلو"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "نمایش چیدمان کامل"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "برای دانلود، یک ویدیو، فهرست پخش یا کانال را باز کنید"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "صفحهٔ اصلی YouTube"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "دانلود تعاملی: انتخاب قالب، زیرنویس و موارد دیگر…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "«کاوش» نمی‌تواند این نشانی را باز کند."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "بارگیری مجدد"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "این عبارت جست‌وجو بیش از حد طولانی است."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "فقط این ویدیو"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "دانلود فقط همین ویدیو با {{profileName}}"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "بزرگ‌نمایی صفحه: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "بزرگ‌نمایی"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "بزرگ‌نمایی صفحه"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "کوچک‌نمایی"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "درصد بزرگ‌نمایی"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "بازنشانی بزرگ‌نمایی به 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "روش نام‌گذاری فایل‌های دانلودشده را انتخاب کنید. برای درج هر نشانه روی آن کلیک کنید. برای مرتب‌کردن دانلودها در پوشه‌ها از / استفاده کنید."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "یک الگوی نام فایل وارد کنید."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "/ اضافی را حذف کنید — هر پوشه باید نام داشته باشد."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "نویسه‌های غیرمجاز در نام فایل را حذف کنید: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "این نام پوشه مجاز نیست. از . و .. و نام‌های رزروشده‌ای مانند CON استفاده نکنید."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "{title} یا {id} را به نام فایل اضافه کنید تا هر دانلود نام ویژهٔ خود را داشته باشد."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} نمی‌تواند نام پوشه باشد — کیفیت تا شروع دانلود مشخص نیست."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ یا } بدون جفت است — نشانه‌ها را مانند {title} در آکولاد قرار دهید."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "الگو بیش از حد طولانی است."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "نشانهٔ ناشناختهٔ {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "نام را با [{id}] به پایان برسانید تا Klip بتواند موارد از پیش دانلودشدهٔ فهرست پخش را تشخیص دهد و فهرست‌های پخش .m3u بسازد."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "الگوی نام فایل"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "در دسترس نیست، زیرا الگوی نام فایل شما با [{id}] تمام نمی‌شود یا دانلودها را در پوشه‌ها مرتب می‌کند."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "در یک فهرست پخش"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "ویدیوی تکی"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "برای به‌ارث‌بردن الگوی سراسری خالی بگذارید."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "الگوی نام فایل"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "خودکار"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "خودکار (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "جریان‌های انتخاب‌شده نوع فایل را تعیین می‌کنند."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "هر کدکی را در خود جا می‌دهد. برخی تلویزیون‌ها و گوشی‌ها نمی‌توانند آن را باز کنند."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "تقریباً همه‌جا پخش می‌شود. ویدیوی VP9 در MP4 در QuickTime پخش نمی‌شود."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "قالبی باز برای مرورگرها. فقط VP9 یا AV1 همراه با Opus را در خود جا می‌دهد."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "پخش AV1 در MP4 با QuickTime به یک Mac جدید نیاز دارد. H.264 همه‌جا پخش می‌شود."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "ویدیوی VP9 در MP4 در QuickTime پخش نمی‌شود. H.264 همه‌جا پخش می‌شود."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "نمایه"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM برای تلویزیون هوشمند ارائه نمی‌شود: نمی‌تواند H.264 را در خود جا دهد."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM نمی‌تواند {{codec}} را در خود جا دهد. MKV یا MP4 را انتخاب کنید."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "صدا"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "فقط صدا · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "خودکار"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "حالت خودکار اگر این صفحه‌نمایش بتواند HDR را نشان دهد، HDR را برمی‌گزیند وگرنه SDR را. HDR در صفحه‌نمایش‌های معمولی رنگ‌پریده دیده می‌شود."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "ویدیوی HDR"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "زبان"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "با «کاوش» وارد شدید — تلاش دوباره برای 1 پیوند"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "با «کاوش» وارد شدید — تلاش دوباره برای {{count}} پیوند"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "خروج از «کاوش» انجام نشد. دوباره تلاش کنید."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "مسیر این پوشه برای سیستم شما بیش از حد عمیق است. ممکن است دانلود همچنان ناموفق باشد — پوشه‌ای با مسیر کوتاه‌تر انتخاب کنید."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "نام این ویدیو در همهٔ بخش‌های الگو جا نمی‌شد، بنابراین نام پیش‌فرض استفاده شد."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "انتخابگر پوشه باز نشد."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "از قبل در صف است — نسخه‌ای افزوده نشد"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "تنظیم کوکی‌ها را در Klip کامل کنید و دوباره تلاش کنید"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "پیوندی در کلیپ‌بورد نیست — ابتدا یک پیوند کپی کنید"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "چند پیوند کپی شده است — از «URLهای گروهی» در Klip استفاده کنید"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "این پیوند به انتخاب شما نیاز دارد — «دانلودها» را در Klip ببینید"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "دانلود از کلیپ‌بورد به صف افزوده شد"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "این پیوند افزوده نشد — دوباره در Klip تلاش کنید"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "این پوشه برای این فهرست پخش قابل استفاده نیست."
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} ویدیو از قبل در صف است — نادیده گرفته شد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} ویدیو از قبل در صف هستند — نادیده گرفته شدند"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "افزوده شد: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "از قبل در صف است"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "{{count}} پیوند به دانلودها افزوده شد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} پیوند به دانلودها افزوده شد"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} مورد از قبل در صف است"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} مورد از قبل در صف است"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "افزودن {{count}} پیوند ممکن نبود"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "افزودن {{count}} پیوند ممکن نبود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "افزودن {{count}} مورد ممکن نبود"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "افزودن {{count}} مورد ممکن نبود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "{{count}} ویدیو در این فهرست — انتخاب کنید چه چیزی دانلود شود"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "{{count}} ویدیو در این فهرست — انتخاب کنید چه چیزی دانلود شود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ ویدیو — تعداد را انتخاب کنید"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ ویدیو — تعداد را انتخاب کنید"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "آماده‌سازی {{title}} ممکن نشد"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "این پیوند افزوده نشد — دوباره تلاش کنید"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "نمایش"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "تنظیمات ذخیره نشد."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "باز نشد."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "راه‌اندازی کامل نشد. تا زمان تکمیل آن ممکن است برخی دانلودها ناموفق باشند."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "صدا (بهترین)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "صدا ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "بهترین صدای اصلی، بدون کدگذاری دوباره"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "تبدیل به M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "تبدیل به MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "تبدیل به Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "H.264 بالاتر از 1080p در YouTube در دسترس نیست — به‌طور خودکار به 1080p محدود شد"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "ذخیره با قالب"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "مستقیماً در پوشهٔ ذخیره"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "زبان‌ها"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "برای ادامه حداقل یک زبان انتخاب کنید."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "برای هر ویدیو فقط فایل‌های زیرنویس ذخیره می‌شود — هیچ ویدیو یا صدایی دانلود نمی‌شود."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "منبع"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "تا 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "تا 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "تا 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "تا 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "تا 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "تا 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "تا 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "تا 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "بهترین کیفیت"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "محدود به 1080p؛ برای هر مورد در صورت نیاز وضوح پایین‌تری انتخاب می‌شود"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "کوچک‌ترین فایل‌های ممکن"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "محدود به 2K؛ برای هر مورد در صورت نیاز وضوح پایین‌تری انتخاب می‌شود"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "محدود به 2160p؛ برای هر مورد در صورت نیاز وضوح پایین‌تری انتخاب می‌شود"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "فایل‌های بسیار کوچک، کیفیت پایین"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "فایل‌های کوچک برای پهنای باند محدود"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "پهنای باند کم"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "فایل‌های کوچک‌تر، سازگاری گسترده"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "بالاترین کیفیت ویدیو و صدای موجود برای هر مورد"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "صدا"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "ویدیو"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "بهترین نسخهٔ اصلی"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "MP4 با H.264 برای تلویزیون هوشمند"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "بهترین محفظه و کدک‌های موجود برای هر مورد"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "در صورت امکان، ویدیوی H.264 و صدای AAC در MP4 ترجیح داده شود"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "فایل همراه"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "توضیحات"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "رسانه"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "مفقود"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "تصویر بندانگشتی"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "فایل خروجی"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "نیازمند توجه شما: {{count}}"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "نیازمند توجه شما: {{count}}"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "هر دانلود را چند ثانیه پس از پایان از فهرست برمی‌دارد. فایل‌ها در پوشه‌ی شما می‌مانند."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "پاک‌سازی خودکار پس از پایان"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "لغو همهٔ دانلودهای فعال و در انتظار"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "همهٔ ویدیوها"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "بیش از {{count}} ویدیو در این فهرست پخش هست. همه را، {{count}} ویدیوی اول را دانلود کنید یا در مرور انتخاب کنید."
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "بیش از {{count}} ویدیو در این فهرست پخش هست. همه را، {{count}} ویدیوی اول را دانلود کنید یا در مرور انتخاب کنید."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "{{count}} ویدیوی اول"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "آلبوم"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "ویدیوهای پسندیده"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "میکس"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "فهرست پخش"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "همهٔ ویدیوهای بارگذاری‌شده"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "تماشا در آینده"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "انتخاب از آن…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "مرور"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "این پیوند فهرستی از {{count}} ویدیو است. آن را دانلود کنید یا در یک مرور انتخاب کنید."
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "این پیوند فهرستی از {{count}} ویدیو است. همه را دانلود کنید یا در یک مرور انتخاب کنید."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "این ویدیو"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "این پیوند ویدیویی در یک آلبوم است. فقط ویدیو را دانلود کنید یا آلبوم را؟"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "این پیوند ویدیویی در ویدیوهای پسندیدهٔ شما است. فقط ویدیو را دانلود کنید یا همهٔ ویدیوهای پسندیده را؟"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "این پیوند ویدیویی در یک میکس است. فقط ویدیو را دانلود کنید یا میکس را؟"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "این پیوند ویدیویی در یک فهرست پخش است. فقط ویدیو را دانلود کنید یا فهرست پخش را؟"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "این پیوند ویدیویی در ویدیوهای بارگذاری‌شدهٔ یک کانال است. فقط ویدیو را دانلود کنید یا همهٔ ویدیوهای بارگذاری‌شده را؟"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "این پیوند ویدیویی در فهرست «تماشا در آینده» شما است. فقط ویدیو را دانلود کنید یا کل فهرست را؟"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "پاک کردن دانلودهای کامل‌شده"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "دانلودهای صف‌شده اینجا نمایش داده می‌شوند"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "همه"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "فیلترهای وضعیت صف"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "همهٔ موارد"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "دانلودها"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "صدا حذف نشد"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "صدا حذف نشد · برخی زیرنویس‌ها ناموفق بودند"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "دانلود ناموفق بود"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "باز کردن پوشهٔ مقصد"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "مکث"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "فقط در انتظار"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "اکنون دانلود شود — بدون صف"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "محدود به {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "محدود به {{height}}p · برخی زیرنویس‌ها ناموفق بودند"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "حذف"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "ادامه"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "تلاش دوبارهٔ خودکار (تلاش {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "تنظیم محل"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "برای تنظیم محل، موارد در انتظار را انتخاب کنید."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "لغوشده"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "انجام‌شده"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "خطا"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "نگه‌داشته‌شده"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "نیازمند انتخاب شما"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "مکث‌شده"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "در انتظار"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "در حال دریافت جزئیات"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "در حال دانلود"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "زیرنویسی به {{languages}} وجود ندارد"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "در انتظار {{site}} تا {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} تعداد درخواست‌های این اتصال را محدود کرده است. Klip جزئیات این پیوند را پس از {{time}} می‌گیرد تا محدودیت برطرف شود."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "بستن"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "از یک آلبوم"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "از ویدیوهای پسندیدهٔ شما"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "از یک میکس"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "از یک فهرست پخش"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "از ویدیوهای بارگذاری‌شدهٔ یک کانال"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "از «تماشا در آینده»"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "دریافت کل آلبوم"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "دریافت همهٔ ویدیوهای پسندیده"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "دریافت کل میکس"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "دریافت کل فهرست پخش"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "دریافت همهٔ ویدیوهای بارگذاری‌شده"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "دریافت همهٔ «تماشا در آینده»"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "فهرست را به‌صورت ردیفی جداگانه اضافه می‌کند. این ویدیو کنار گذاشته می‌شود."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "مکث همهٔ دانلودهای فعال و جلوگیری از شروع دانلودهای جدید"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "صف مکث شده است — موارد در انتظار تا ادامه‌دادن صف شروع نمی‌شوند"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "ادامهٔ دانلودهای مکث‌شده و حرکت صف"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "ادامهٔ صف"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "موارد انتخاب‌شده"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} انتخاب‌شده · در مجموع {{total}}"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "دانلودها"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "افزوده‌شده"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "فایل‌های خروجی"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "ستون {{column}} رها شد."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "جابه‌جایی ستون {{column}} لغو شد."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "ستون {{column}} روی {{target}} قرار دارد."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "ستون {{column}} برداشته شد."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "ستون‌ها"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "پایان‌یافته"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "قالب"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "پنهان کردن فایل‌های خروجی {{title}}"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "ستون قابل جابه‌جایی"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "برای جابه‌جایی یک ستون، Space یا Enter را فشار دهید، با کلیدهای جهت‌نما آن را حرکت دهید، سپس برای رها کردن دوباره Space یا Enter را فشار دهید. برای لغو، Escape را فشار دهید."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "مقصد خروجی"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "پیشرفت"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "بازنشانی ستون‌ها"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "تغییر اندازهٔ ستون {{column}}"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "نمایش فایل‌های خروجی {{title}}"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "اندازه"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "مرتب‌سازی بر اساس {{label}}"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "عنوان"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "اکنون دانلودها در زبانهٔ «دانلودها» هستند — هر زمان خواستید آن را باز کنید و پیشرفت را ببینید."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "ادامه"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "نسخه‌ای تازه به‌روزشده اجرا می‌کنید. این‌ها مهم‌ترین تغییرات هستند."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "یادداشت‌های کامل انتشار ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "تازه‌های Klip {{version}}"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "انتخاب فایل اجرایی"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "نصب با Homebrew"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "نصب با WinGet"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "باز کردن پوشهٔ وابستگی‌ها"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "بازنشانی به پیش‌فرض"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "دوباره تلاش کنید"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "مشاهدهٔ گزارش راه‌اندازی"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "دوباره تلاش کنید. اگر باز هم ناموفق بود، از پایین یک نسخهٔ سالم انتخاب کنید."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "یکی از ابزارها درست کار نمی‌کند"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "در آنتی‌ویروس یا SmartScreen به Klip اجازه بدهید، سپس دوباره تلاش کنید."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "آنتی‌ویروس شما یکی از ابزارها را مسدود کرد"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "اتصال اینترنت خود را بررسی کنید، سپس دوباره تلاش کنید."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "آنچه Klip نیاز دارد دانلود نشد"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "برای دانلود دوبارهٔ آن، دوباره تلاش کنید."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "یکی از دانلودها خراب رسید"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "برای دانلود دوبارهٔ آن، دوباره تلاش کنید."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "یکی از دانلودها با کد بررسی خود مطابقت نداشت"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "از پایین هر دو را انتخاب کنید، یا آن‌ها را به پیش‌فرض بازنشانی کنید."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg و FFprobe باید با هم تنظیم شوند"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "دوباره تلاش کنید. اگر باز هم ناموفق بود، از پایین نسخه‌ای که به آن اعتماد دارید انتخاب کنید."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "سیستم شما اجازهٔ اجرای یکی از ابزارها را به Klip نمی‌دهد"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "دوباره تلاش کنید. اگر باز هم ناموفق بود، از پایین یک نسخهٔ سالم انتخاب کنید."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "یکی از ابزارها وجود ندارد یا اجرا نمی‌شود"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "این اغلب به‌خاطر یک بررسی امنیتی در اولین اجراست. دوباره تلاش کنید."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "یکی از ابزارها دیر پاسخ داد"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "دوباره تلاش کنید، یا برای جزئیات گزارش راه‌اندازی را باز کنید."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "در راه‌اندازی مشکلی پیش آمد"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "موتور دانلود"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "ابزارهای رسانه"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "در حال نصب با Homebrew… ممکن است چند دقیقه طول بکشد."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "در حال نصب با WinGet… ممکن است چند دقیقه طول بکشد."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Klip را به نسخه‌هایی که از قبل دارید راهنمایی کنید، یا آن‌ها را به روش دیگری نصب کنید."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "همچنین می‌توانید yt-dlp و ffmpeg را با مدیر بستهٔ سیستم نصب کنید، سپس روی «دوباره تلاش کنید» کلیک کنید."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "راه‌اندازی دستی"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "دوباره تلاش کنید، یا از پایین Klip را به ابزارهایی که از قبل دارید راهنمایی کنید."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "راه‌اندازی متوقف شد"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "راه‌اندازی به کمک شما نیاز دارد"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "این نمایه چگونه انتخاب می‌کند"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "صدای AAC"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "مناسب پخش‌کننده‌های MP4"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "صدای AAC"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "همه‌جا پخش می‌شود"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1، سپس VP9، سپس H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "واضح‌ترین در حجم یکسان"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264، سپس VP9، سپس AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "کدک این نمایه"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9، سپس H.264، سپس AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "کدک این نمایه"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "بیشترین نرخ فریم"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "حرکت روان‌تر"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "ویدیوی H.264"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "روی هر دستگاهی پخش می‌شود"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR پیش از SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "رنگ‌های غنی‌تر در صفحه‌نمایش‌های HDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "این صفحه‌نمایش HDR را نشان می‌دهد"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR پیش از HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "در هر صفحه‌نمایشی درست دیده می‌شود"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "این صفحه‌نمایش HDR ندارد"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "جریان‌های MP4"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "آماده برای فایل MP4"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "صدای استریو"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "این نمایه"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "از تنظیمات"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "صدای فراگیر در صورت وجود"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "صدای Opus"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "مناسب WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "جریان‌های اصلی، نه ارتقایافته با هوش مصنوعی"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "نسخهٔ ارتقایافته بلندتر است اما جزئیات واقعی اضافه نمی‌کند"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "دانلود مستقیم پیش از نسخه‌های جریانی"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "همان تصویر، دانلود سریع‌تر"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "تا {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "محدودیت شما"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "بیشترین وضوح"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "بدون محدودیت"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "جریان‌هایی که سایت رتبه‌شان را پایین نمی‌آورد"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "نسخه‌های آسیب‌دیده، واترمارک‌دار و جایگزین را رد می‌کند"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "فایل بزرگ‌تر"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "جزئیات بیشتر با همان تنظیمات"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "ابتدا جریان‌های با نرخ بیت بهبودیافته"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "جزئیات بیشتر با همان رزولوشن"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "نوع فایل بر اساس جریان‌ها"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "ذخیره به‌صورت .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "بهترین تصویر"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "روی هر دستگاهی پخش می‌شود"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "چرا این؟"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "چرا نمایه این را انتخاب کرد"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "کپی شد!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "کپی پیوند"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — دانلودر ویدیوی رایگان و متن‌باز برای Windows، macOS و Linux. با YouTube، Vimeo، Twitch و بیش از ۲۰۰۰ سایت کار می‌کند.\n"
+"4K · HDR · MP3 · Shorts · زیرنویس · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip رایگان و متن‌باز است. هم‌رسانی آن کمک می‌کند افراد بیشتری پیدایش کنند."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "هم‌رسانی"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "هم‌رسانی Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "هم‌رسانی Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "هم‌رسانی Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "مشکلی دارید؟ دستی راه‌اندازی کنید"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "سلام، خوش آمدید!"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "حدود {{count}} دقیقه مانده"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "حدود {{count}} دقیقه مانده"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "کمتر از یک دقیقه مانده"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "در حال بررسی اینکه همه‌چیز کار می‌کند"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "در حال اتصال…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "در حال بازکردن ابزارهای رسانه"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "در حال بازکردن موتور دانلود"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "به‌روزرسانی ابزارهای Klip"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "به‌روزرسانی موتور دانلود"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "راه‌اندازی اولیه"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "به‌روزرسانی ابزارهای رسانه"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "این نخستین بررسی این نسخه است و کمی طول می‌کشد. معمولاً حدود یک دقیقه زمان می‌برد."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "در حال بررسی {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "در حال آماده‌سازی دانلودها…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "راه‌اندازی ناموفق بود. برای جزئیات، گزارش راه‌اندازی را باز کنید."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "ویدیو با صدا ذخیره شد — حذف صدا ممکن نشد"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "ویدیو با صدا ذخیره شد — حذف صدا ممکن نشد و برخی زیرنویس‌ها دانلود نشدند"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "دانلود لغو شد"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "دانلود کامل شد"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "در حال تبدیل ویدیو…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "فضای دیسک کافی نیست — {{required}} لازم است و فقط {{free}} در دسترس است"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "در حال دانلود فایل اجرایی {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "در حال دانلود ویدیو و صدا…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "در حال جاسازی فراداده…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "از «کاوش» خارج شده‌اید — دوباره وارد شوید"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "در حال تبدیل صدا…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "در حال تماس با SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "در حال دریافت زیرنویس‌ها…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "در حال ادغام صدا و ویدیو…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "در حال آماده‌سازی دانلود YouTube…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "در حال جابه‌جایی فایل‌ها…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "زیرنویسی به {{languages}} وجود ندارد"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "ذخیره در {{dir}} ممکن نیست — Klip اجازهٔ نوشتن در آنجا را ندارد"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "در حال آماده‌سازی فایل‌های اجرایی…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "با کیفیت {{height}}p ذخیره شد — YouTube کیفیت‌های بالاتر را برای این دانلود دریغ کرد. تلاش دوباره در زمانی دیگر ممکن است کمک کند."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "با کیفیت {{height}}p ذخیره شد — YouTube کیفیت‌های بالاتر را برای این دانلود دریغ کرد و برخی زیرنویس‌ها دانلود نشدند. تلاش دوباره در زمانی دیگر ممکن است کمک کند."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "در حال آماده‌سازی دوبارهٔ دانلود YouTube…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock در دسترس نیست، تلاش دوباره ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "اتصال متوقف شد، تلاش دوباره ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "در حال ورود با حساب شما در «کاوش»…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "برای جلوگیری از محدودیت درخواست، {{seconds}} ثانیه صبر می‌شود…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "در حال راه‌اندازی موتور دانلود…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "این ویدیو زیرنویسی به {{languages}} ندارد. ویدیو بدون آن‌ها ذخیره شد."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "این ویدیو زیرنویسی به {{languages}} ندارد. زبان‌های دیگر ذخیره شدند."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "ویدیو ذخیره شد — برخی زیرنویس‌ها دانلود نشدند"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "خطای ناشناخته در شروع دانلود"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "با استخراج‌گر آسان‌گیر دانلود شد — برای دانلودهای مطمئن‌تر cookies.txt تنظیم کنید"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "موتور دانلود با کد {{code}} پایان یافت"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "خطای موتور دانلود: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "حالت تیره"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "حالت روشن"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "پیش‌فرض سیستم"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "بستن"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "بیشینه کردن"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "کمینه کردن"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "بازگردانی"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "دانلود از کلیپ‌بورد"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "۱ دانلود · {{percent}}٪"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} دانلود · {{percent}}٪"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "بی‌کار"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "فرمان در کلیپ‌بورد کپی شد"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "کپی فرمان در کلیپ‌بورد"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "بستن اعلان به‌روزرسانی"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "دانلود ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "دانلود DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "در حال دانلود…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "نصب و راه‌اندازی دوباره"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "به‌روزرسانی ناموفق بود"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} در دسترس است — نسخهٔ شما {{currentVersion}} است."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} در دسترس است — با Homebrew به‌روزرسانی کنید."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} در دسترس است — DMG جدید را دانلود کنید."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} در دسترس است — DMG را دانلود کنید یا به Homebrew بروید."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} در دسترس است — ساخت جدید را دانلود کنید."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "اجرا و راه‌اندازی دوباره"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "در حال ارتقا…"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} فصل"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} فصل"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "در حال بارگیری…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "اول H.264"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "کدک ویدیو"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "تلویزیون هوشمند همیشه H.264 را برمی‌دارد."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "اول VP9"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "آماده"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "URL ویدیو، فهرست پخش، کانال، جستجو یا صدا را جای‌گذاری کنید. Klip پیش از افزودن به صف موارد تکراری را پاک می‌کند."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "برای پیش‌نمایش گروه، یک یا چند URL جای‌گذاری کنید."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "نادیده گرفته‌شده"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "برای ادامه دست‌کم یک URL پشتیبانی‌شده اضافه کنید."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "تکراری"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "فهرست URLها"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "URLهای گروهی"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ صف"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "به صف اضافه می‌کند — پس از پایان دانلود فعال شروع می‌شود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{count}} از {{total}} ویدیو"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} از {{total}} ویدیو"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{count}} از {{total}} قطعه"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} از {{total}} قطعه"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{count}} از {{total}} URL"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} از {{total}} URL"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "صدا"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "گروه"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "موارد"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "فهرست پخش"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "پیش‌تنظیم"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "ذخیره در"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "اندازه"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "ویدیو"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "فایل شما ذخیره می‌شود در"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "در مقصد زیر ذخیره می‌شود"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "در {{count}} مقصد زیر ذخیره می‌شوند"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "نمایهٔ «فقط زیرنویس» فعال است، اما هیچ زبان زیرنویسی انتخاب نشده — چیزی دانلود نخواهد شد."
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} مورد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} مورد"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "نمایه‌های این گروه"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "دانلود! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "بدون صف، همین حالا شروع می‌شود و در کنار دانلودهای فعال دیگر اجرا می‌شود"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "برای دانلود آماده است!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "جاسازی زیرنویس به فایل جداگانه تغییر کرد — قطعه‌های صوتی از جریان زیرنویس جاسازی‌شده پشتیبانی نمی‌کنند."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "زیرنویس داخل ویدیو به فایل MKV نیاز دارد، پس این دانلود با قالب .mkv ذخیره می‌شود."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "جاسازی تصویر بندانگشتی انجام نشد — محفظهٔ خروجی از آن پشتیبانی نمی‌کند."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "دسکتاپ"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "اسناد"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "دانلودها"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "ذخیره در"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "خانه"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "موسیقی"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "تصاویر"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "نام پوشه نویسه‌های نامعتبر دارد"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "مثلاً سخنرانی‌ها"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "ذخیره در زیرپوشه"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "فیلم‌ها"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "صدا"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "زبان صدا"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} زبان"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} زبان"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "نرخ بیت {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "کوکی‌ها تنظیم شده‌اند اما خاموش‌اند. برای دریافت فهرست کامل آن‌ها را فعال و دوباره تلاش کنید، یا شبکه را تغییر دهید."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "حتی با کوکی‌ها، YouTube این بررسی را محدود کرد. بعداً دوباره تلاش کنید یا شبکه را تغییر دهید."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube این درخواست را محدود کرد. بعداً دوباره تلاش کنید یا شبکه را تغییر دهید."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "ممکن است فهرست قالب‌ها ناقص باشد. در تنظیمات پیشرفته کوکی‌ها را تنظیم کنید یا شبکه را تغییر دهید و دوباره تلاش کنید."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "فعال‌کردن کوکی‌ها و تلاش دوباره"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "بررسی محدود شد"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "نرخ بیت"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "منبعی که از قبل {{target}} است، جریان و نرخ بیت خودش را نگه می‌دارد: کپی می‌شود و دوباره کدگذاری نمی‌شود."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} کیلوبیت‌برثانیه، بدون کدگذاری دوباره"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}، بدون کدگذاری دوباره"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} کیلوبیت‌برثانیه مانند منبع: جریان از قبل {{target}} است، پس کپی می‌شود و دوباره کدگذاری نمی‌شود"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "مانند منبع: جریان از قبل {{target}} است، پس کپی می‌شود و دوباره کدگذاری نمی‌شود"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "تبدیل"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} کیلوبیت‌برثانیه"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "منبع {{kbps}} kbps است"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (بدون فشرده‌سازی)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "مرورگر"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "ورود «کاوش»"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "فایل"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "منبع کوکی‌ها"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "مستندات yt-dlp (issue شمارهٔ 10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 و جدیدتر، کوکی‌ها را در Windows به روشی رمزگذاری می‌کنند که برنامه‌های دیگر نمی‌توانند بخوانند. یکی از راه‌حل‌های زیر را امتحان کنید."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "با یک افزونهٔ مرورگر، کوکی‌ها را از Chrome صادر کنید؛ سپس برنامه را روی حالت «فایل» بگذارید و فایل صادرشده را انتخاب کنید."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "صدور cookies.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox از App-Bound Encryption استفاده نمی‌کند. تنظیمات کوکی را باز کنید و Firefox را از فهرست مرورگرها برگزینید."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "تغییر به Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "--disable-features=LockProfileCookieDatabase را به میان‌بر اجرای Chrome اضافه کنید. هشدار: این کار کوکی‌های رمزگذاری‌شدهٔ پیشین را نامعتبر می‌کند، بنابراین از همهٔ سایت‌ها خارج می‌شوید و باید دوباره وارد شوید."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "اجرای Chrome با App-Bound Encryption غیرفعال"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "کوکی‌های Chrome به‌دلیل رمزگذاری Windows مسدود شده‌اند"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "کوکی‌ها مستقیماً از مرورگر خوانده می‌شوند. اگر مرورگر در حال اجراست، ممکن است پایگاه دادهٔ کوکی آن قفل باشد (خانوادهٔ Chromium). مرورگر همچنین باید وارد YouTube شده باشد. مرورگر را ببندید، مرورگر دیگری برگزینید، به حالت «فایل» بروید یا کوکی‌ها را خاموش کنید."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "ممکن است فایل کوکی خالی، منقضی یا با قالب نادرست باشد (Klip به فایل Netscape cookies.txt نیاز دارد). کوکی‌ها را دوباره صادر کنید، فایل دیگری برگزینید، به حالت «مرورگر» بروید یا کوکی‌ها را خاموش کنید."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "با «کاوش» وارد شوید تا Klip دوباره تلاش کند."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "ورود با «کاوش»"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "ممکن است این ویدیو به حساب YouTube نیاز داشته باشد"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip قبلاً با ورود از طریق «کاوش» آن را امتحان کرده است، پس ورود دوباره کمکی نمی‌کند. ممکن است سایت مشکل داشته باشد یا این حساب نتواند آن را باز کند. بعداً دوباره تلاش کنید."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "سایت حتی با ورود شما در «کاوش» این را رد کرد"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "شما در «کاوش» وارد شده‌اید، اما دانلودها فعلاً از این ورود استفاده نمی‌کنند."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "استفاده از ورود «کاوش» و تلاش دوباره"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "ممکن است این ویدیو به حساب YouTube نیاز داشته باشد"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "اگر این ویدیو به حساب نیاز دارد، Klip به‌طور خودکار از ورود شما در «کاوش» استفاده می‌کند. ممکن است به دلیل دیگری در دسترس نباشد."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "وارد «کاوش» شده‌اید"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "اگر این ویدیو به حساب YouTube نیاز دارد، در «کاوش» وارد شوید و دوباره تلاش کنید. Klip فقط وقتی دانلود لازم داشته باشد از این ورود استفاده می‌کند."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "ورود در «کاوش»"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "این ویدیو ممکن است به حساب YouTube نیاز داشته باشد"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "ممکن است این پیوند به حساب {{host}} نیاز داشته باشد"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "با «کاوش» وارد {{host}} شوید و دوباره تلاش کنید."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "در «کاوش» وارد {{host}} شوید و دوباره تلاش کنید. Klip فقط وقتی دانلود لازم داشته باشد از این ورود استفاده می‌کند."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "ممکن است کوکی‌ها علت باشند"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip بدون احراز هویت نتوانست به این ویدیو دسترسی پیدا کند. کوکی‌ها را در تنظیمات پیشرفته پیکربندی کنید — مرورگری را انتخاب کنید که از قبل در آن وارد شده‌اید، یا فایل cookies.txt را وارد کنید."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "این سایت نیاز به ورود دارد"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "باز کردن تنظیمات کوکی"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "به‌جای آن از فایل کوکی یا مرورگر استفاده کنید…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "بخش‌های بلند را آرام‌تر و بخش‌های آرام را بلندتر می‌کند، برای بلندگو و محیط‌های پرسروصدا."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "یکسان‌سازی بلندی صدا (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "صدای یکنواخت"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "نمایهٔ شما تلویزیون هوشمند (H.264) است. این ویدیو H.264 ارائه نمی‌دهد، پس نزدیک‌ترین جریان انتخاب شد."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "این پیوند ویدیو ندارد، پس صدا انتخاب شد."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "نمایهٔ شما زیرنویس را به زبان {{languages}} می‌خواهد. این ویدیو آن را ندارد."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "نمایهٔ شما {{wanted}}p را می‌خواهد. این ویدیو چیزی به این کوچکی ندارد، پس {{picked}}p انتخاب شد."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "نمایهٔ شما {{wanted}}p را می‌خواهد. جریان‌های کوچک‌تری که این ویدیو دارد با بقیهٔ نمایهٔ شما سازگار نیستند، پس {{picked}}p انتخاب شد."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "نمایهٔ شما {{wanted}}p را می‌خواهد. این ویدیو {{wanted}}pای ندارد که قابل دریافت باشد، پس {{picked}}p انتخاب شد."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "نمایهٔ شما {{wanted}}p را می‌خواهد. نسخهٔ {{wanted}}p این ویدیو با هوش مصنوعی ارتقا یافته است، پس {{picked}}p اصلی انتخاب شد."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "نمایهٔ شما {{wanted}}p را با H.264 می‌خواهد. این ویدیو {{wanted}}p را فقط با کدک‌های دیگر دارد، پس {{picked}}p با H.264 انتخاب شد."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "نمایهٔ شما {{wanted}}p را می‌خواهد. {{wanted}}p این ویدیو با بقیهٔ نمایهٔ شما سازگار نیست، پس {{picked}}p انتخاب شد."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "نمایهٔ شما WebM می‌خواهد. جریان‌های انتخاب‌شدهٔ این ویدیو شامل {{codec}} هستند که WebM نمی‌تواند آن را در خود جا دهد، پس نوع فایل خودکار است."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "افزودن به صف بدون شروع"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "دانلود"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "گزینه‌های بیشتر دانلود"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "حداقل یک زبان زیرنویس انتخاب کنید."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "بدون تغییر نگه‌دار"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "صدای داخلی"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "فقط صدا"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "چه چیزی دانلود شود"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "فقط زیرنویس"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "ویدیو + صدا"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "ویدیو، بدون صدا"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "در حال بارگیری قالب‌ها"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "تا پایان بررسی صبر کنید — فهرست‌های پخش و جستجوها ممکن است زمان ببرند."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "دوبله با هوش مصنوعی"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "ارتقا با هوش مصنوعی"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "توصیف صوتی"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "آسیب‌دیده"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "نرخ بیت بهبودیافته"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "اصلی"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "صدای فضایی"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "واترمارک‌دار"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "بدون صدا"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "نمایهٔ فعال شما جریان‌ها را از پیش برایتان انتخاب می‌کند. از منو نمایه را عوض کنید یا با مداد یکی را بدون خروج از این دانلود تنظیم کنید."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "قالب‌ها از نمایهٔ شما شروع می‌شوند"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "نزدیک‌ترین به نمایه"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "ویرایش {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "تغییراتم حفظ شود"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "فقط برای این دانلود. نمایهٔ پیش‌فرض شما همان‌طور می‌ماند."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "پیش‌انتخاب‌شده از"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "بازنشانی همه"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "شما {{areas}} را برای این دانلود تغییر دادید. «{{profile}}» در هر صورت ویدیو و صدا را انتخاب می‌کند. تغییرات دیگرتان را نگه می‌دارید یا همه‌چیز را به نمایه بازنشانی می‌کنید؟"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "تغییر نمایه؟"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "نمایه"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "شما {{areas}} را برای این دانلود تغییر دادید. نمایهٔ به‌روزشده در هر صورت ویدیو و صدا را انتخاب می‌کند. تغییرات دیگرتان را نگه می‌دارید یا همه‌چیز را به نمایه بازنشانی می‌کنید؟"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "از نمایهٔ به‌روزشده استفاده شود؟"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "کیفیت بالا"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "کیفیت پایین"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "کیفیت متوسط"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} درخواست‌های این اتصال را محدود می‌کند"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "ممکن است فهرست قالب‌ها کامل نباشد."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} فعلاً این درخواست را رد کرد."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} ممکن است این محدودیت را تا یک ساعت نگه دارد."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "همین حالا امتحان کن"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "زمان انتظار تمام شد، می‌توانید دوباره تلاش کنید."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip تا {{time}} صبر می‌کند و بعد دوباره از {{site}} درخواست می‌کند تا محدودیت برداشته شود."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "وضوح نامشخص"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "ذخیره به‌صورت"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM نمی‌تواند {{codec}} را در خود جا دهد، پس نوع فایل به خودکار برگشت."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "اندازه نامشخص"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "رفتن به تأیید"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "برای همهٔ مرحله‌های باقی‌مانده از ترجیحات ذخیره‌شده استفاده می‌کند. برای تغییر یک تنظیم، مرحله‌به‌مرحله ادامه دهید — انتخاب شما برای دفعهٔ بعد ذخیره می‌شود."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "در حال یافتن بهترین قالب‌ها برای شما…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "مجموع"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "ویدیو"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "همراه صدا"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "با {{profileName}}. اگر بیش از {{count}} ویدیو داشته باشد، «دانلودها» می‌پرسد چند تا."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "دانلود در پس‌زمینه"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc لغو می‌کند."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "دقیقاً {{count}} مورد نخست، با {{profileName}}."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "دانلود نخستین"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "از میان {{count}} ویدیوی نخست انتخاب کنید (یا تعداد را در مرحلهٔ بعد تغییر دهید)، سپس دانلود را تنظیم کنید."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "دانلود تعاملی…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "چند ویدیو از فهرست برداشته شود: گزینهٔ اول از آن تعداد به بعد می‌پرسد، گزینهٔ دوم دقیقاً همان تعداد را برمی‌دارد. همان تنظیم «موارد فهرست پخش برای بررسی» در تنظیمات است."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "حد"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "میکس هر بار که آن را باز می‌کنید تغییر می‌کند."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "مورد برای انتخاب."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "بارگذاری نخستین"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "می‌توانید آن را در مرحلهٔ بعد تغییر دهید."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "انتخاب از این آلبوم"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "انتخاب از ویدیوهای پسندیدهٔ شما"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "انتخاب از این میکس"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "انتخاب از این فهرست پخش"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "انتخاب از ویدیوهای بارگذاری‌شدهٔ این کانال"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "انتخاب از «تماشا در آینده»"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "دانلود از این آلبوم"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "دانلود از ویدیوهای پسندیدهٔ شما"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "دانلود از این میکس"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "دانلود از این فهرست پخش"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "دانلود از ویدیوهای بارگذاری‌شدهٔ این کانال"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "دانلود از «تماشا در آینده»"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "فقط ویدیویی که باز کردید، با {{profileName}}. فهرست بارگذاری نمی‌شود."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "فقط این ویدیو"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "فقط ویدیویی را که باز کردید تنظیم کنید. فهرست بارگذاری نمی‌شود."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "با {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "نشانگرهای فصل که در هر پخش‌کنندهٔ جدیدی قابل پیمایش‌اند."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "جاسازی فصل‌ها"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "فصل‌ها"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "عنوان، هنرمند، توضیحات و تاریخ بارگذاری در فایل نوشته می‌شوند."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "جاسازی فراداده"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "فراداده"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "تصویر جلد داخل فایل. ویدیوی WebM به MKV بازبسته‌بندی می‌شود؛ هنگام جاسازی زیرنویس نادیده گرفته می‌شود."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "جاسازی تصویر بندانگشتی"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "تصویر جلد"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "توضیحات ویدیو را به‌صورت فایل متنی .description کنار دانلود ذخیره می‌کند."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "ذخیرهٔ توضیحات"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "فایل توضیحات"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "یک فهرست پخش .m3u کنار ویدیوها ذخیره می‌کند تا در پخش‌کننده به‌ترتیب باز شوند."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "ساخت فایل فهرست پخش .m3u"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "تصویر بندانگشتی را به‌صورت فایل .jpg کنار دانلود ذخیره می‌کند."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "ذخیرهٔ تصویر بندانگشتی"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "فایل تصویر بندانگشتی"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "در کارت ویدیو روی «بخش» بروید، شروع و پایان یا یک فصل را انتخاب کنید و فقط همان قسمت را دانلود کنید."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "فقط بخشی از ویدیو را دانلود کنید"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "فصل‌ها"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "فصل {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "یک بخش از طریق ffmpeg دانلود می‌شود، بنابراین اتصال‌های دانلود و تنظیمات سرعت شما برای آن اعمال نمی‌شوند."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "ابتدا شروع و پایان بخش را اصلاح کنید."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "پایان"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "ویدیو در {{duration}} تمام می‌شود."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "پایان را به‌صورت h:mm:ss، m:ss یا ثانیه وارد کنید."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "شروع را به‌صورت h:mm:ss، m:ss یا ثانیه وارد کنید."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "شروع باید قبل از پایان باشد."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "خاموش: هر برش روی نزدیک‌ترین کی‌فریم قرار می‌گیرد که ممکن است چند ثانیه با زمانی که وارد کرده‌اید فاصله داشته باشد."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "برش دقیق (دوباره کدگذاری می‌شود، کندتر)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} از {{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "بخش"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "بخشی از ویدیو"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "شروع"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "کل ویدیو"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "بخش {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "چه مقدار از ویدیو"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss، m:ss یا ثانیه"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "بخش، تخمینی"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "این ویدیو طول خود را اعلام نمی‌کند، بنابراین فقط به‌صورت کامل قابل دانلود است."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "زیرنویس‌ها همیشه کل ویدیو را پوشش می‌دهند."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "پیوند شما از {{time}} شروع می‌شود"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "استفاده به‌عنوان شروع"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "کل ویدیو"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "کل قطعه"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "برای ادامه آن‌ها را بازگردانید."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "همهٔ موارد حذف شدند"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "از قبل دانلودشده"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "بیش از این دارد. برای انتخاب تعداد، پیوند آن را جداگانه جای‌گذاری کنید."
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "بیش از این دارند. برای انتخاب تعداد، پیوند هرکدام را جداگانه جای‌گذاری کنید."
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "«{{title}}» در {{limit}} ویدیو بریده شده است"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} فهرست هرکدام در {{limit}} ویدیو بریده شده‌اند"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "URLهای گروهی"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "نیازی به صبر نیست — فایل‌هایی که اکنون به صف می‌افزایید هنگام دانلود نام واقعی خود را می‌گیرند."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "در حال دریافت جزئیات ویدیو… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "جزئیات در دسترس نیست"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "در حال دریافت جزئیات"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "در انتظار"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "زنده"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "موارد فهرست پخش"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "ویدیوهای قابل دانلود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} ویدیو"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} ویدیو"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} قطعه"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} قطعه"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} پیوند"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} پیوند"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "در حال دریافت فهرست پخش…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "در حال دریافت ویدیوها…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "محدود به {{count}} مورد نخست"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "{{count}} صفحه پیدا شد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} صفحه پیدا شد"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "در حال گردآوری ویدیوها"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "در حال بررسی صفحه‌های کانال"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "اختصاص نمایه برای هر مورد"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "از کیفیت، SponsorBlock، خروجی و ذخیره می‌گذرد — به‌جای آن برای هر مورد یک نمایهٔ دانلود اختصاص دهید"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "فهرست پخش"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "{{count}} مورد از این‌ها فهرست پخش است، نه ویدیو — برای دانلود، پیوندش را جداگانه جای‌گذاری کنید."
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} مورد از این‌ها فهرست پخش هستند، نه ویدیو — برای دانلود، پیوندهایشان را یکی‌یکی جای‌گذاری کنید."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "برای ادامه دست‌کم یک ویدیو انتخاب کنید"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "{{count}} مورد نخست نمایش داده می‌شوند. برای دیدن موارد بیشتر، سقف بارگیری را افزایش دهید."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "بررسی فهرست پخش سقف دارد"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "بررسی سقف دارد"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "اعمال بازه"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "از"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "تا"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} مورد حذف شد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} مورد حذف شد"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "حذف {{count}} مورد از فهرست"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "حذف {{count}} مورد از فهرست"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "بازگردانی"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "انتخاب همه"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} مورد انتخاب شد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} مورد انتخاب شد"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "لغو انتخاب همه"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "ترتیب فهرست پخش"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "در حال دریافت تاریخ‌های بارگذاری…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "قدیمی‌ترین ابتدا"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "جدیدترین ابتدا"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "اعمال همگام‌سازی"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "تغییر پوشه…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "{{n}} مورد از این ویدیوها از قبل در {{dir}} هستند. همگام‌سازی شود تا فقط موارد جدید دانلود شوند؟"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "از قبل در پوشه است"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "هیچ ویدیویی از این فهرست پخش در {{dir}} پیدا نشد."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "هیچ ویدیویی از این منبع در {{dir}} پیدا نشد."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "هنوز چیزی دانلود نشده"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "در حال بررسی پوشه…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "تصویر بندانگشتی ویدیو"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "انتخاب کیفیت برای گروه"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} مورد"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} مورد"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "هر ویدیو سطح انتخابی را جداگانه تعیین می‌کند — فهرست‌های پخش ناهمگون بدون غافلگیری کار می‌کنند."
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "اختصاص به {{count}} ویدیو"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "اختصاص به {{count}} ویدیو"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "اختصاص نمایه"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "مدت"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "نمایه"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "ویرایش {{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "هیچ موردی با این فیلتر مطابقت ندارد"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "فیلترهای نمایه"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "اختصاص نمایه‌های دانلود"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "نمایهٔ این ویدیو را انتخاب کنید."
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "نمایهٔ این {{count}} ویدیو را انتخاب کنید."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{selected}} از {{total}} انتخاب‌شده"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "تغییر تنظیم سراسری"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "انتخاب پوشهٔ مقصد"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "انتخاب نماد نمایه"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "حذف {{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "بازنشانی نمایه"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "این نمایه از قبل از تنظیمات داخلی استفاده می‌کند"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "بازگرداندن تنظیمات داخلی نمایه"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "ذخیرهٔ نمایه"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "تنظیم جایگزینی نمایه"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "تنظیم جایگزینی"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "استفاده از پیش‌فرض سراسری"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "استفاده از کد زبان «{{code}}»"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "استفاده از تنظیم برنامه ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "بهترین"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "تا 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "تا 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "تا 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "بهترین کیفیت"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "نمایهٔ جدید"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "پوشهٔ دانلودهای پیش‌فرض"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "پوشهٔ دانلودهای پیش‌فرض / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "مقصد سراسری"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "فعال"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "ارث‌بری‌شده"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "جایگزینی نمایه"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "انتخاب پوشه"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "بدون جایگزینی"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "جایگزینی تنظیم نشده است. این نمایه از مقصد سراسری بالا استفاده می‌کند."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "جایگزین سراسری"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "این نمایه پیش از افزودن زیرپوشه، در ریشهٔ مخصوص خود ذخیره می‌کند."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "مقصد نهایی"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "یک راه‌اندازی قابل استفادهٔ دوباره برای دانلود سریع، URLهای گروهی و فهرست‌های پخش."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "نمایهٔ دانلود"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "مقصد سراسری تغییر نکرد."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "باز کردن انتخابگر پوشه ممکن نشد. مسیر را دستی وارد کنید."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "تنظیمات نمایه بازنشانی نشد."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "تنظیمات نمایه ذخیره نشد."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "تحویل"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "نوع فایل"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "بهینه‌سازی برای"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "نماد نمایه"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "زبان‌ها"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "نام نمایه"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "نام و نماد نمایه"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "صدای اصلی"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "مسیر جایگزین نمایه"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "کیفیت"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "وضوح"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "منبع"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "نام زیرپوشه"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "دانلود زیرنویس"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "پروفایل‌ها کدهای زبان را درخواست می‌کنند؛ دسترس‌پذیری برای هر URL جداگانه بررسی می‌شود."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "واضح‌ترین در حجم یکسان. تلویزیون‌های قدیمی، QuickTime و برخی ویرایشگرها نمی‌توانند آن را پخش کنند."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "بهترین تصویر"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "روی تلویزیون، گوشی، WhatsApp، QuickTime و ویرایشگرهای ویدیو پخش می‌شود. YouTube کدک H.264 را فقط تا 1080p ارائه می‌دهد."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "تلویزیون هوشمند"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "بایگانی"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "صدا"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "کلاس‌ها"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "کلیپ"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "کنترل‌ها"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "دانلود"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "موسیقی"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "پادکست"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "ویدیو"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "موسیقی یا پادکست"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "فقط فایل‌های زیرنویس"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "فایل‌های ویدیویی معمولی"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "فقط ویدیوی بی‌صدا"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "زیرنویس‌های خودکار به‌جای ASS با قالب SRT ذخیره می‌شوند."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "هیچ زبان منطبقی وجود ندارد"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "برای این نمایه هیچ فایل زیرنویس یا قطعهٔ زیرنویس جاسازی‌شده‌ای درخواست نمی‌شود."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "جستجو بر اساس نام یا کد زبان"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "برای این نوع خروجی نادیده گرفته می‌شود."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "حداقل یک زبان انتخاب کنید."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "حداقل یک زبان انتخاب کنید، یا دانلود زیرنویس را خاموش کنید."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "این نمایه فقط فایل‌های زیرنویس را به صف می‌افزاید. ویدیو، صدا، SponsorBlock و تبدیل رسانه انجام نمی‌شوند."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "نمایه‌ها مقصد سراسری را به ارث می‌برند، مگر اینکه جایگزینی برای نمایه تنظیم کنید."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "گزینه‌های پیشرفته"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "روش اصلی دانلود را انتخاب کنید."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "نوع دانلود"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "نام و نمادی که در دانلود سریع، URLهای گروهی و فهرست نمایه‌ها نمایش داده می‌شود."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "مشخصات نمایه"
+
+#. Plural form "one" for fa: used for counts like 0, 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} فعال"
+
+#. Plural form "other" for fa: used for counts like 2, 3, 4, 5, 6, 7.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} فعال"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "گزینه‌های خروجی"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "انتخاب پوشه برای این نمایه"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "نادیده گرفته‌شده"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "بخش‌های اسپانسری را به‌عنوان فصل علامت می‌زند (بدون تغییر محتوا)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "بدون SponsorBlock — ویدیو همان‌طور که بارگذاری شده پخش می‌شود."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "بخش‌های اسپانسری را با FFmpeg از ویدیو می‌بُرد."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "فقط تولیدشدهٔ خودکار"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "دستی و خودکار"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "ابتدا دستی، سپس خودکار"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "فقط دستی"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "راهنمای {{label}}"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "موارد اضافی"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "نام فایل"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "قالب"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "پوشه"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "زیرنویس‌ها، SponsorBlock، موارد اضافی مثل تصویر بندانگشتی، پوشه و نام فایل قبلاً مرحله‌های جداگانه بودند. برای تغییر هر مورد روی ردیف آن کلیک کنید."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "همهٔ تنظیمات دیگر حالا در همین صفحه است"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "تغییر نسبت به {{profile}}: {{areas}}. فقط برای این دانلود اعمال می‌شود."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "تغییر نسبت به {{profile}}:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "تغییر قالب"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "ذخیره به‌عنوان نمایه"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (ویرایش‌شده)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "این دانلود از تنظیمات ویرایش‌شده استفاده کرد. دفعهٔ بعد هم از آن‌ها استفاده شود؟"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "واگرد تغییرات، بازگشت به «{{profile}}»"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "موارد اضافی"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "نام فایل"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "ذخیره در"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "سایر موارد"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "ذخیرهٔ نمایه"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "این تنظیمات را به‌عنوان نمایه‌ای ذخیره می‌کند که دفعهٔ بعد می‌توانید انتخاب کنید. نمایهٔ دانلود سریع شما بدون تغییر می‌ماند."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "نمایه ذخیره نشد."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "نام نمایه"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "به‌عنوان نمایهٔ «{{name}}» ذخیره شد"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "ذخیره به‌عنوان نمایه"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "ذخیره به‌عنوان نمایهٔ جدید"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "به‌روزرسانی نمایه"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "این یک نمایهٔ داخلی است. می‌توانید تنظیمات اصلی آن را در زبانهٔ «نمایه‌ها» بازگردانید."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "از این به بعد، هر دانلود با این نمایه از تنظیمات جدید استفاده می‌کند."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "قالب"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "«{{profile}}» به‌روز شود؟"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "نمایهٔ «{{name}}» به‌روز شد"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "به‌روزرسانی «{{profile}}» با این تغییرات"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "محتوای پرکننده"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "مقدمه"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "موسیقی نامرتبط"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "پایان‌بندی"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "خودتبلیغی"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "اسپانسر"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "دسته‌ها"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "علامت‌گذاری به‌عنوان فصل"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "حذف بخش‌ها"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "فیلتر اسپانسر"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "بخش‌های اسپانسری را به‌عنوان فصل علامت می‌زند (بدون تغییر محتوا)."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "بدون SponsorBlock — ویدیو همان‌طور که بارگذاری شده پخش می‌شود."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "بخش‌های اسپانسری را با FFmpeg از ویدیو می‌بُرد."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "تأیید"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "ذخیره"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "قالب"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "خروجی"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "فهرست پخش"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "ویدیوها"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "کیفیت"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "نمایه‌ها"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "مرور"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "زیرنویس‌های خودکار به‌جای ASS با قالب SRT ذخیره می‌شوند — برای ویدیوهای YouTube تکرار متن‌های روان پاک می‌شود، کاری که مبدل ASS ما هنوز نمی‌تواند انجام دهد."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "خودکار"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "پاک کردن همه"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "حالت جاسازی خروجی را با قالب .mkv ذخیره می‌کند تا قطعه‌های زیرنویس با اطمینان جاسازی شوند."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "قالب"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "برای این ویدیو زیرنویسی در دسترس نیست"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "هیچ زبان مطابقی نیست"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "هیچ زیرنویسی انتخاب نشده"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "حذف {{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "جاسازی در ویدیو"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "ذخیره با قالب"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "کنار ویدیو"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "در پوشهٔ دانلود"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "زیرپوشهٔ subtitles/"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "جستجوی زبان‌ها…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "تولیدشدهٔ خودکار"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "دستی"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "پیمایش نمایهٔ دانلود"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "چند ثانیه پس از پایان، دانلود را از فهرست دانلودها برمی‌دارد. فایل‌ها در پوشه‌ی شما می‌مانند؛ دانلودهای ناموفق و لغوشده در فهرست باقی می‌مانند."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "حذف خودکار دانلودهای کامل‌شده"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "پس از اختلال شبکه یا سرور، با فاصلهٔ بیشتر میان تلاش‌ها خودکار دوباره تلاش می‌کند. دانلودهایی که سایت مسدود کرده هرگز خودکار تکرار نمی‌شوند."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "تلاش دوباره برای دانلودهای ناموفق"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "بار"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "URLهای گروهی"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "چند URL را اضافه و صف‌بندی کنید."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "پاک کردن URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "پیوند از کلیپ‌بورد افزوده شد"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "چند پیوند کپی شده است — برای افزودنشان از URLهای گروهی استفاده کنید"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "پیوندی در کلیپ‌بورد نیست"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "خواندن کلیپ‌بورد ممکن نشد — به‌جای آن پیوند را در کادر جای‌گذاری کنید"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "با پیوند کپی‌شده جایگزین شد"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "پایش کلیپ‌بورد"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "هنگام کپی پیوند ویدیو، کادر URL را خودکار پر می‌کند."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "واگرد"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "پنهان‌کردن در سینی هنگام بستن"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "پس از بستن پنجره، دانلودها در پس‌زمینه ادامه پیدا کنند."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "تعداد موارد صف که هم‌زمان دانلود می‌شوند. دانلودهای هم‌زمان بیشتر صف طولانی را زودتر تمام می‌کنند، اما احتمال محدودشدن از سوی سایت را افزایش می‌دهند."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "دانلودهای هم‌زمان"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "دانلود"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "تعداد پیوندهایی که Klip پیش از دانلود، هم‌زمان جزئیاتشان را می‌گیرد. تعداد کمتر برای سایت‌هایی که اتصال‌های شلوغ را مسدود می‌کنند ملایم‌تر است. پیوندی که در «دانلود تعاملی» باز می‌کنید همیشه اول می‌رود."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "پیوندهای بررسی‌شده هم‌زمان"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "پیوند"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "سایت‌هایی مانند YouTube ممکن است حساب‌هایی را که کوکی آن‌ها توسط ابزارهای دانلود مانند Klip استفاده می‌شود علامت‌گذاری یا حتی مسدود کنند. در صورت امکان از حساب موقت استفاده کنید."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "کوکی‌ها را مستقیماً از مرورگر می‌خواند. مرورگرهای خانوادهٔ Chromium باید بسته باشند."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "مرورگر"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "انتخاب مرورگر…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "انتخاب…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "پاک کردن"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "انتخاب مرورگر برای استفاده از کوکی‌ها"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "انتخاب فایل کوکی"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "زبانهٔ «کاوش» خاموش است، پس دانلودها از ورود شما در «کاوش» استفاده نمی‌کنند. آن را پایین‌تر، در بخش «کاوش» روشن کنید."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "دریافت محلی cookies.txt (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "فایل کوکی"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "چگونه کوکی‌ها را صادر کنم؟"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "باز کردن «کاوش»"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "هیچ فایلی انتخاب نشده"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "پیشنهادی"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "خطر: فایل cookies.txt همهٔ نشست‌های واردشدهٔ آن مرورگر را در خود دارد — آن را خصوصی نگه دارید."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "مرورگر"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "ورود «کاوش»"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "فایل"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "منبع کوکی‌ها"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "برای ویدیوهایی که حساب خودتان می‌تواند ببیند، مثل ویدیوهای خصوصی شما، کمک می‌کند."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "با دریافت هم‌زمان چند بخش ویدیو، دانلودهای بزرگ را سریع‌تر می‌کند. مقدار بیشتر احتمال محدودشدن از سوی سایت را بالا می‌برد."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "اتصال‌های دانلود"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "اتصال"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "دانلود آلبوم…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "دانلود ویدیوهای پسندیده…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "دانلود میکس…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "دانلود فهرست پخش…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "دانلود ویدیوهای بارگذاری‌شده…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "دانلود «تماشا در آینده»…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "فقط صدا"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "زیرنویس‌ها"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "بیش از ۲۰۰۰ سایت"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "فهرست‌های پخش موسیقی"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "ویدیوها"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "فهرست‌های پخش ویدیو"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klip چه چیزهایی می‌تواند دانلود کند"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "کانال‌ها"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "موسیقی"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "فهرست‌های پخش"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "پادکست‌ها"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "ویدیوها"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "راهنمای گام‌به‌گام. قالب، کیفیت و موارد دیگر را انتخاب کنید."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "دانلود از URL"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "تغییر میان‌بر"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "این میان‌بر در برنامهٔ دیگری استفاده می‌شود — مورد دیگری را انتخاب کنید."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "میان‌بر سراسری"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "کلیدها را فشار دهید…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "بازنشانی به پیش‌فرض"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "هر پیوندی را که در هر برنامه‌ای کپی می‌کنید بدون بازکردن Klip دانلود کنید."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "میان‌بر سراسری"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "آزمایش"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "فعال‌کردن میان‌بر سراسری"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "پیوند ویدیویی را در هر برنامه‌ای کپی کنید و میان‌بر را فشار دهید: Klip آن را بدون تعویض پنجره با نمایهٔ فعال شما به صف می‌افزاید. پیوند ویدیویی در یک فهرست پخش، همان ویدیو را دانلود می‌کند."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "دانلود تعاملی"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "دانلود تعاملی…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "دانلودهای فعال محدودیت فعلی را نگه می‌دارند. برای اعمال تغییرات، آن‌ها را مکث و دوباره ادامه دهید."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "مثلاً 750K یا 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "پهنای باند دانلود رسانه را محدود می‌کند. فاصله‌گذاری درخواست‌ها در پایین معمولاً ابزار مؤثرتری برای جلوگیری از محدودیت است."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "از عددی همراه K یا M استفاده کنید (مثلاً 500K، 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "محدودیت سرعت دانلود"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "در حال دانلود در پس‌زمینه… من چندکاره‌ام 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "دانلود سریع موارد بارگذاری‌شده را با {{profileName}} در صف قرار می‌دهد. دانلود تعاملی به شما اجازه می‌دهد ابتدا موارد را بررسی یا انتخاب کنید."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "یک پیوند بدهید و بگذارید Klip آن را دانلود کند ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "دانلود سریع یک دانلود را با {{profileName}} شروع می‌کند. برای تغییرات یک‌باره از دانلود تعاملی استفاده کنید."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "این پیوند یک ویدیو و فهرستی را که در آن است نام می‌برد: فقط ویدیو را دانلود کنید یا فهرست را."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "استریوی سازگار"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "استریو یا فراگیر، وقتی نمایه صدای اصلی را انتخاب می‌کند. نمایه می‌تواند آن را تغییر دهد."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "ترجیح صدای اصلی"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "ترجیح صدای فراگیر / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "در هر دانلود مکث‌های کوتاهی اضافه می‌کند تا Klip بیش از حد به سایت درخواست نفرستد. مقدارها بر حسب ثانیه هستند."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "مکث پیش از شروع رسانه: حداکثر"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "مکث پیش از شروع رسانه: حداقل"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "انتظار میان بررسی‌های فراداده"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "انتظار پیش از فایل‌های زیرنویس"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "دانلود ملایم"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip چقدر محتاط باشد؟"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "متعادل"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "محتاط"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "سفارشی"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "خاموش"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "مکث‌ها: {{requests}} میان بررسی‌ها، {{downloads}} پیش از شروع رسانه، {{subtitles}} پیش از فایل‌های زیرنویس."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "این مکث‌ها درون هر دانلود رخ می‌دهند. تعداد دانلودهای هم‌زمان جداگانه در بخش «دانلودهای هم‌زمان» تنظیم می‌شود."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "پیش‌فرض. میان درخواست‌ها و پیش از شروع رسانه مکث‌های کوتاه می‌افزاید."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "برای فهرست‌های پخش بزرگ یا شبکه‌هایی که اغلب محدود می‌شوند مکث‌های طولانی‌تری می‌افزاید."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "کنترل‌های پیشرفتهٔ هر دانلود را خودتان تنظیم کنید."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "فقط از مکث‌های پایهٔ کوتاه Klip برای رسانه و زیرنویس استفاده می‌کند."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "ثانیه"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "پیوند در Klip باز شد"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "با پیوندِ بازشده در Klip جایگزین شد"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "جای‌گذاری پیوند"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "محدودیت فعلی: {{count}} مورد"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "سفارشی…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "یک عدد صحیح از {{min}} تا {{max}} وارد کنید."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "ذخیرهٔ محدودیت"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "محدودیت سفارشی بررسی فهرست پخش"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "سفارشی: {{count}} مورد"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "بیشترین تعداد مواردی که Klip هنگام بازکردن فهرست پخش، کانال یا نتیجهٔ جستجو بارگیری می‌کند."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "یک عدد صحیح از ۱ تا ۵۰۰۰ وارد کنید"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "موارد فهرست پخش برای بررسی"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} مورد"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "استفاده از محدودیت برنامه: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "اعمال"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "اعمال این محدوده فهرست پخش ممکن نشد: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "اعمال و بارگیری مجدد"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "تغییر"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "مشخص کنید Klip چه چیزی از این فهرست پخش بارگیری کند."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "محدوده فهرست پخش"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "هیچ ویدیویی در این محدوده نیست"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "نخست"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "از اعداد صحیح 1 تا {{max}} استفاده کنید و شروع از پایان بزرگ‌تر نباشد."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "موارد برای بارگیری"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "محدوده فهرست پخش"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "بازه"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "در حال بارگیری مجدد..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "بازنشانی"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "بارگیری {{count}} مورد نخست"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "بارگیری {{count}} مورد نخست"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "بارگیری موارد {{from}}-{{to}}"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "تا"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "نمایهٔ فعال"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "داخلی"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "سفارشی"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "پنهان"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "تغییریافته"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "فقط صدا"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "متعادل 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "بهترین کیفیت موجود"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "کمترین کیفیت 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "مصرف کم داده 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "تلویزیون هوشمند 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "تلویزیون هوشمند 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "تلویزیون هوشمند 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "فایل کوچک 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "فقط زیرنویس"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "تغییر مقصد سراسری"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "استفاده از مقصد سراسری"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "استفاده از مقصد سراسری + زیرپوشهٔ نمایه"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "استفاده از جایگزینی نمایه"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "استفاده از جایگزینی نمایه + زیرپوشهٔ نمایه"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "برای تغییر محل ذخیره، نمایه را ویرایش کنید."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "مقصد"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "ویرایش"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "ویرایش نمایهٔ فعال"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "نمایه‌های پنهان اینجا می‌مانند، اما از همهٔ انتخابگرهای نمایه ناپدید می‌شوند."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "نمایش نمایه در انتخابگرها: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "دست‌کم یک نمایه را در دسترس نگه دارید."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "مدیریت نمایه‌ها"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "نمایهٔ فعال دانلود سریع، URLهای گروهی و فهرست‌های پخش را تغییر دهید."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "تغییر نمایه"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "نمایهٔ قابل جابه‌جایی"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "جابه‌جایی لغو شد. {{profileName}} در جایگاه {{position}} از {{count}} باقی می‌ماند."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "{{profileName}} در جایگاه {{position}} از {{count}} رها شد."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "جابه‌جایی {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "برای جابه‌جایی یک نمایه، Space یا Enter را فشار دهید، با کلیدهای جهت‌نما آن را حرکت دهید، سپس برای رها کردن دوباره Space یا Enter را فشار دهید. برای لغو، Escape را فشار دهید."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} روی جایگاه {{position}} از {{count}} قرار دارد."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "{{profileName}} برداشته شد. در جایگاه {{position}} از {{count}} است."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "نمایهٔ جدید"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "این نمایه در پوشه‌ای ذخیره می‌کند که تنظیم نشده است. در نمایه یک پوشه انتخاب کنید یا آن را به پیش‌فرض برگردانید."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "راه‌اندازی‌های دانلود قابل استفادهٔ دوباره را بسازید، انتخاب کنید، ویرایش یا حذف کنید."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "نمایه‌های دانلود"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "حذف"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "برای جابه‌جایی یک نمایه، آن را بکشید. همهٔ انتخابگرهای نمایه از این ترتیب پیروی می‌کنند."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "بازنشانی"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "ذخیره در"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "تغییر نمایهٔ دانلود: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "تغییر نمایهٔ دانلود"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "پاک کردن"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "عبور ترافیک از یک سرور پراکسی."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "URL پراکسی"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "دانلود سریع"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "دانلود با: {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "این مورد افزوده نشد: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "مورد صف آماده نشد"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "در حال آماده‌سازی"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "بررسی ناموفق بود"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "برای شروع URL ویدیو، فهرست پخش، کانال یا جستجو را جای‌گذاری کنید."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "ارسال سیگنال ناشناس فعال‌بودن و گزارش‌های راه‌اندازی"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "بدون ردیابی. روزی یک بار، یک سیگنال ناشناس نسخهٔ برنامه، کانال نصب، سیستم‌عامل، زبان، کشور و حدوداً مدت زمانی که از نصب Klip می‌گذرد را می‌فرستد تا بتوانیم کاربران فعال و جدید را بشماریم. وقتی Klip موتور دانلود یا ابزارهای رسانهٔ خود را راه‌اندازی یا به‌روزرسانی می‌کند، گزارش هم می‌دهد که موفق بود یا نه و حدوداً چقدر طول کشید. هیچ شناسه، URL، عنوان ویدیو یا نام فایلی فرستاده نمی‌شود."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "رفتار سراسری که بر دانلودهای مبتنی بر نمایه نیز اثر می‌گذارد."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "رفتار دانلود"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "ورودی"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "پنل‌های شیشه‌ای روی آسمانی متحرک. به شتاب‌دهی گرافیکی نیاز دارد."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "آرورا"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "سطح‌های ساده و آرام. روی هر رایانه‌ای سبک اجرا می‌شود."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "مینیمال"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "هر دو سبک در حالت روشن و تیره موجودند."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "سبک"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "ظاهر Klip. در پایین پنجره می‌توانید بین حالت روشن و تیره جابه‌جا شوید."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "ظاهر"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} به شتاب‌دهی گرافیکی نیاز دارد که اکنون در دسترس نیست، برای همین Klip از {{fallback}} استفاده می‌کند."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "نمایه‌ها"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "این ویدیو"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "فقط این ویدیو را با {{profileName}} دانلود می‌کند"

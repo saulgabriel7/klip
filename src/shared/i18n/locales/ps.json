@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "د اړوند",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "د دریم ډلې خبرتیاوې وګورئ",
+		"websiteLink": "ویب پاڼه"
+	},
+	"aiUpscaled": {
+		"allow": "اجازه ورکړئ",
+		"allowedSummary": "د AI په مرسته لوی شوي سټریمونه اجازه شوي دي",
+		"description": "YouTube ځینې زاړه ویډیوګانې په داسې اندازو وړاندې کوي چې د مصنوعي ځیرکتیا (AI) په مرسته یې جوړې کړې دي. “پرېښودل” اصلي سټریمونه ساتي؛ تاسو لا هم کولی شئ یو لوی شوی سټریم په لاس غوره کړئ.",
+		"label": "د AI په مرسته لوی شوي سټریمونه",
+		"skip": "پرېښودل"
+	},
+	"app": {
+		"feedback": "نظر",
+		"feedbackNudge": "ایا Klip خوند درکوي؟ ستاسو د اورولو شوق لرم! 💬",
+		"logs": "لاګونه",
+		"saveDiagnostics": "د تشخیص فایل خوندي کړئ",
+		"saveDiagnosticsDescription": "ستاسو لاګونه او د اپ جزئیات د Downloads په فولډر کې په یوه فایل کې راټولوي، چې GitHub issue ته د ضمیمه کولو لپاره چمتو وي. ستاسو د کارن فولډر نوم لرې کیږي؛ د ویډیو لینکونه او سرلیکونه پاتې کیږي.",
+		"styleHint": "نوی: دلته اورورا یا ساده غوره کړئ",
+		"theme": "تم",
+		"zoomIn": "لویول",
+		"zoomOut": "کوچنیول"
+	},
+	"common": {
+		"back": "شاته",
+		"cancel": "لغوه کړئ",
+		"close": "تړل",
+		"continue": "دوام ورکړه",
+		"loading": "بارول…",
+		"retry": "بیا هڅه وکړه",
+		"startOver": "له سره پیل کړه"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip کار کوي او فعال ډاونلوډونه بشپړوي. دا وروسته د پرمختللو تنظیماتو کې بدل کړئ.",
+			"hide": "ټرې ته پټول",
+			"message": "ایا د تړولو پر وخت Klip سیسټم ټرې ته پټ کړو؟",
+			"quit": "وتل",
+			"remember": "بیا مه پوښتئ"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "ستاسو قطار ساتل کیږي، او ډاونلوډونه بله ځل چې Klip پرانیزئ هلته له سره پیلیږي چېرته چې ودرېدل.",
+			"keep": "ډاونلوډ دوام کړه",
+			"message_one": "{{count}} ډاونلوډ روان دی",
+			"message_other": "{{count}} ډاونلوډونه روان دي",
+			"quit": "وتل"
+		},
+		"rendererCrashed": {
+			"detail": "د رینډرر پروسه کریش شوه ({{reason}}). بیا هڅه کولو لپاره بیا بار کړئ.",
+			"message": "Klip ستونزې سره مخ شو",
+			"quit": "وتل",
+			"reload": "بیا بار کړئ"
+		}
+	},
+	"donate": {
+		"copied": "کاپي شو!",
+		"copyAddress": "پته کاپي کړئ",
+		"description": "Klip وړیا او خلاص‌سرچینه دی، بې اعلانونو او بې د پیسو پلان. مرستې اختیاري دي او د پرمختګ پلان باندې اغېز نه لري.",
+		"footerLabel": "مرسته",
+		"footerTooltip": "له Klip ملاتړ وکړئ",
+		"qrAlt": "د {{coin}} د مرستې پتې QR کوډ",
+		"title": "له Klip ملاتړ وکړئ",
+		"warning": "د کریپټو تادیې بیرته نه راګرځي. یوازې د ښودل شوې شبکې له لارې ولېږئ او ټوله پته پرتله کړئ."
+	},
+	"errors": {
+		"noSubtitlesIn": "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري.",
+		"ytdlp": {
+			"ageRestricted": "دا ویډیو د عمر محدودیت لري او پرته د ننوتلي حساب نه شي ډاونلوډ کیدی.",
+			"botBlock": "د سایټ د bot ساتنې دا ډاونلوډ ودراوه. یو څه انتظار وکړئ او بیا هڅه وکړئ، یا په یو وخت کې لږ ویډیوګانې ډاونلوډ کړئ. که بیا هم ناکام شو، ښایي د سایټ له لوري موقتي بدلون وي — Klip د پیل پر مهال خپل د ډاونلوډ انجن تازه کوي، نو اصلاح چې خپره شي په اتوماتیک ډول رارسیږي.",
+			"chunkTransferFailure": "سرور د ډاونلوډ پرمهال وصل کول پرې کاوه او Klip د بیا هڅولو وروسته پریښود. دا معمولاً د ترټولو لوی ویډیو فارمیټونو (4K HDR / لوړ بیټ ریټ VP9) سره پیښیږي. بیا هڅه وکړئ، شبکه/VPN بدل کړئ، یا ټیټ ریزولوشن فارمیټ غوره کړئ.",
+			"drmProtected": "دا ویډیو د DRM لخوا خوندي ده. Klip نشي کولی DRM لیرې کړي، نو فایل نشي ډاونلوډ کیدی.",
+			"formatUnavailable": "دا ویډیو نور هغه بڼه نه وړاندې کوي چې تاسو غوره کړې وه. لینک بیا ونښلوئ او له هغو بڼو څخه یوه غوره کړئ چې اوس وړاندې کیږي.",
+			"geoBlocked": "دا ویډیو ستاسو سیمه کې شتون نلري.",
+			"ipBlock": "سایټ د دې اتصال غوښتنې بندوي. وروسته بیا هڅه وکړئ.",
+			"loginRequired": "دا ویډیو ننوتي اکاونټ ته اړتیا لري.",
+			"missingDependency": "Klip FFmpeg یا FFprobe ونه موند. نصب بیا چل کړئ یا د FFmpeg ځای وټاکئ، بیا ډاونلوډ بیا وازمایئ.",
+			"network": "د شبکې تېروتنه. خپله اړیکه وګورئ او بیا هڅه وکړئ.",
+			"noSubtitles": "دا ویډیو په غوښتل شویو ژبو کې ژباړلیکونه نه لري.",
+			"outOfDiskSpace": "د ډیسک کافي ځای نشته. ځای خالي کړئ او بیا هڅه وکړئ.",
+			"outputNotWritable": "Klip د ډاونلوډ فولډر ته نشي لیکلی. کېدای شي یوازې د لوستلو وړ وي، په تړل شوي ډرایو کې وي، یا ستاسو د سیسټم د محرمیت تنظیماتو بند کړی وي. بل فولډر وټاکئ یا لاسرسی ورکړئ، بیا هڅه وکړئ.",
+			"parse": "د سایټ ځواب پارس نه شو. سایټ ممکن د ویډیوګانو د وړاندې کولو طریقه بدله کړې وي. Klip په پیلیدو سره خپل د ډاونلوډ انجن تازه کوي — څو دقیقې وروسته بیا هڅه وکړئ کله چې اصلاح راشي.",
+			"postprocessFailure": "ډاونلوډ بشپړ شو، خو وروستی پروسس (یوځای کول / mux / بدلون) ناکام شو. ډیری وختونه دا د ffmpeg لنډمهاله ستونزه ده — بیا هڅه وکړئ، او که دوام ولري، بل فارمیټ ترکیب وازمویئ.",
+			"rateLimit": "سایټ د دې اتصال غوښتنې محدودوي.",
+			"unavailable": "دا ویډیو شتون نلري — ممکن شخصي، حذف شوې، یا سیمه بنده وي.",
+			"unknown": "ډاونلوډ ناکام شو. لاندې خام محصول وګورئ.",
+			"unsupportedUrl": "Klip دا URL نه ملاتړ کوي. د بل سایټ لینک وازمویئ."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "خپل اتصال وګورئ، ورپسې بیا هڅه وکړئ.",
+			"loadTitle": "دا پاڼه بار نه شوه",
+			"openSettings": "امستنې پرانیزئ",
+			"proxyBody": "په امستنو کې پراکسي وګورئ، ورپسې بیا هڅه وکړئ.",
+			"proxyTitle": "سپړنه ستاسو د پراکسي له لارې نه شي نښلېدای",
+			"retry": "بیا هڅه وکړه"
+		},
+		"linkCallout": {
+			"body": "په پاڼه کې د هر ویډیو، پلې‌لېست یا چینل پر لینک ښي کلیک وکړئ ترڅو د فعال پروفایل سره یې ډاونلوډ کړئ، بل پروفایل وټاکئ یا تعاملي ډاونلوډ پرانیزئ.",
+			"title": "د ډاونلوډ لپاره پر لینک ښي کلیک وکړئ"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "البم په شاتهپرده کې ډاونلوډ کړئ",
+				"liked": "ستاسو د خوښې ویډیوګانې په شاتهپرده کې ډاونلوډ کړئ",
+				"mix": "Mix په شاتهپرده کې ډاونلوډ کړئ",
+				"playlist": "پلې‌لېست په شاتهپرده کې ډاونلوډ کړئ",
+				"uploads": "پورته شوې ویډیوګانې په شاتهپرده کې ډاونلوډ کړئ",
+				"watchLater": "“وروسته کتل” په شاتهپرده کې ډاونلوډ کړئ"
+			},
+			"copyLink": "لینک کاپي کړئ",
+			"downloadFirst": "لومړني {{count}} ډاونلوډ کړئ",
+			"downloadThisVideo": "دا ویډیو ډاونلوډ کړئ · {{profileName}}",
+			"downloadWith": "په پروفایل ډاونلوډ",
+			"fromList": {
+				"album": "له دې البم څخه",
+				"liked": "ستاسو د خوښې ویډیوګانو څخه",
+				"mix": "له دې Mix څخه",
+				"playlist": "له دې پلې‌لېست څخه",
+				"uploads": "د دې چینل له پورته شویو ویډیوګانو څخه",
+				"watchLater": "له “وروسته کتل” څخه"
+			},
+			"interactive": "تعاملي ډاونلوډ…",
+			"thisVideoWith": "دا ویډیو له پروفایل سره"
+		},
+		"newBadge": "نوی",
+		"notice": {
+			"body": "په YouTube یا بل هر سایټ کې یو ویډیو ومومئ او له همدې ځایه یې ښکته کړئ — پرته له لینک کاپي کولو. هغه ویډیوګانې ښکته کولو لپاره چې حساب غواړي دلته په یو سایټ کې ننوځئ.",
+			"continue": "دوام ورکړه",
+			"riskBody": "YouTube غوندې سایټونه ممکن هغه حسابونه چې د Klip غوندې د ښکته کولو وسیلو سره کارول کیږي نښه کړي او ځینې وختونه بنده کړي. هغه حساب وکاروئ چې له لاسه ورکول یې مهم نه وي، نه خپل اصلي حساب.",
+			"riskTitle": "په دویم حساب ننوځئ",
+			"title": "ویب د Klip دننه وګورئ"
+		},
+		"nudge": {
+			"browser": "ښکته کول ستاسو د براوزر کوکیز کاروي، نه ستاسو د سپړنې ننوتل.",
+			"file": "ښکته کول ستاسو د کوکیز فایل کاروي، نه ستاسو د سپړنې ننوتل.",
+			"notNow": "اوس نه",
+			"off": "کوکیز بند دي، نو ښکته کول ستاسو د سپړنې ننوتل نه کاروي.",
+			"useExplore": "د سپړنې ننوتل وکاروئ"
+		},
+		"settings": {
+			"description": "YouTube یا بل هر سایټ د Klip دننه وګورئ او هغو ویډیوګانو لپاره ننوځئ چې حساب غواړي.",
+			"idleUnload": "د نشتوالي پر مهال حافظه آزاده کړئ",
+			"idleUnloadDescription": "په بل ټب کې له ۵ دقیقو وروسته، د YouTube کور یا لټون پاڼه بندوي. د بېرته راتګ پر مهال بیا پورته کېږي، چې څو ثانیې وخت نیسي.",
+			"searchEngine": "د لټون انجن",
+			"searchEngineDescription": "هغه ځای چې په پته بار کې لیکل شوی متن پکې لټول کېږي. لینکونه لکه څنګه چې لیکل شوي، همداسې پرانیستل کېږي.",
+			"showTab": "د سپړنې ټب ښکاره کړئ",
+			"showTabDescription": "که یې بند کړئ، ښکته کول به هم ستاسو د سپړنې ننوتل ونه کاروي.",
+			"signOut": "له سپړنې څخه وتل",
+			"signOutConfirm": "وتل",
+			"signOutConfirmBody": "دا په سپړنه کې په ټولو سایټونو کې ستاسو ننوتل او د کتلو معلومات پاکوي. هغه ښکته کول چې حساب غواړي به تر بیا ننوتلو ناکام وي.",
+			"signOutConfirmTitle": "له سپړنې څخه وځئ؟",
+			"signOutDescription": "په سپړنه کې په ټولو سایټونو کې ستاسو ننوتل او د کتلو معلومات پاکوي.",
+			"title": "سپړنه"
+		},
+		"tabLabel": "سپړنه",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube کېدای شي د ننوتلو اکاونټونو لپاره د اعلان بلاکرونو پروړاندې مقاومت وکړي.",
+				"aria": "د اعلان بلاکر",
+				"off": "د اعلان بلاکر: بند — د چالانولو لپاره کلیک وکړئ",
+				"on": "د اعلان بلاکر: چالان — د بندولو لپاره کلیک وکړئ",
+				"starting": "د اعلان بلاکر: پیلېږي — د بندولو لپاره کلیک وکړئ",
+				"unavailable": "د اعلان بلاکر: شتون نلري، د دې د فلټر لیستونه ډاونلوډ نشول — د بندولو لپاره کلیک وکړئ"
+			},
+			"addressAria": "پته",
+			"addressPlaceholder": "په {{engine}} کې وپلټئ یا هر سایټ پرانیزئ (Vimeo, Instagram…)",
+			"aria": "د سپړنې د براوزر کنټرولونه",
+			"back": "شاته",
+			"compactLayout": "کمپیکټ ترتیب",
+			"download": "ډاونلوډ",
+			"downloadWithProfile": "ډاونلوډ · {{profileName}}",
+			"forward": "مخکې",
+			"fullLayout": "بشپړ ترتیب ښکاره کړئ",
+			"grabUnavailable": "د ښکته کولو لپاره یو ویډیو، پلې‌لېست یا چینل پرانیزئ",
+			"home": "د YouTube کور",
+			"interactiveHint": "تعاملي ډاونلوډ: فارمټ، ساب ټایټلونه او نور وټاکئ…",
+			"refusedHint": "سپړنه دغه پته نه شي پرانیستلای.",
+			"reload": "بیا بار کړئ",
+			"searchTooLong": "دا لټون ډېر اوږد دی.",
+			"thisVideo": "یوازې دا ویډیو",
+			"thisVideoHint": "یوازې دا ویډیو د {{profileName}} سره ډاونلوډ کړئ",
+			"zoom": {
+				"hint": "د پاڼې لویول: {{percent}}%",
+				"in": "لویول",
+				"label": "د پاڼې لویول",
+				"out": "کوچنیول",
+				"percent": "د لویولو سلنه",
+				"reset": "لویول بیرته 100% ته تنظیم کړه"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "اتوماتیک",
+		"autoValue": "اتوماتیک (.{{ext}})",
+		"description": {
+			"auto": "غوره شوي سټریمونه د فایل ډول ټاکي.",
+			"mkv": "هر codec ساتلی شي. ځینې تلویزیونونه او تلیفونونه یې نشي پرانیستلی.",
+			"mp4": "نږدې هر ځای چلیږي. په MP4 کې VP9 په QuickTime کې ویډیو نه ښيي.",
+			"webm": "د براوزرونو لپاره خلاص فارمټ. یوازې VP9 یا AV1 له Opus سره ساتي."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "په MP4 کې AV1 په QuickTime کې د چلولو لپاره نوی Mac ته اړتیا لري. H.264 هر ځای چلیږي.",
+		"mp4CaveatVp9": "په MP4 کې VP9 په QuickTime کې ویډیو نه ښيي. H.264 هر ځای چلیږي.",
+		"profileMark": "پروفایل",
+		"smartTvNoWebm": "WebM له سمارټ TV سره نه وړاندې کیږي: H.264 نشي ساتلی.",
+		"webm": "WebM",
+		"webmBlocked": "WebM نشي کولی {{codec}} وساتي. MKV یا MP4 غوره کړئ."
+	},
+	"filenameTemplate": {
+		"description": "وټاکئ چې ښکته شوې فایلونه څنګه نومول کیږي. د ننوتلو لپاره یوه ټوکن کلیک کړئ. د ډاونلوډونو د پوښیو په بڼه ترتیبولو لپاره / وکاروئ.",
+		"error": {
+			"empty": "د دوتنې نوم بېلګه ولیکئ.",
+			"empty-segment": "اضافي / لرې کړئ — هر پوښۍ ته نوم پکار دی.",
+			"forbidden-char": "هغه توري لرې کړئ چې د فایل په نوم کې اجازه نلري: \\ : * ? \" < > |",
+			"invalid-segment": "دا د پوښۍ نوم اجازه نلري. له . او .. او د CON په څېر خوندي نومونو ډډه وکړئ.",
+			"no-unique-token": "د فایل نوم ته {title} یا {id} ورزیات کړئ ترڅو هر ډاونلوډ خپل نوم ولري.",
+			"resolution-in-dir": "{resolution} د پوښۍ نوم نشي کېدای — کیفیت یوازې د ډاونلوډ په پیل معلومیږي.",
+			"stray-brace": "نه تړل شوې { یا } — نښې لکه {title} ولیکئ.",
+			"too-long": "بېلګه ډېره اوږده ده.",
+			"unknown-token": "ناڅرګنده نښه {{token}}."
+		},
+		"idEndingWarning": "نوم په [{id}] پای ته ورسوئ ترڅو Klip مخکې ډاونلوډ شوي د پلې‌لېست توکي وپیژني او .m3u پلې‌لېستونه جوړ کړي.",
+		"label": "د دوتنې نوم بېلګه",
+		"m3uDisabledIdEnding": "شتون نلري ځکه ستاسو د فایل نوم بېلګه په [{id}] نه پای ته رسیږي یا ډاونلوډونه په پوښو کې ترتیبوي.",
+		"previewPlaylist": "په پلی لیست کې",
+		"previewSingle": "یوازینی ویډیو",
+		"profileOverrideDescription": "خالي یې پرېږدئ چې ټولیزه بېلګه وکارول شي.",
+		"profileOverrideLabel": "د دوتنې نوم بېلګه"
+	},
+	"formatLabel": {
+		"audioFallback": "غږ",
+		"audioOnlyDot": "یوازې غږ · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "اتوماتیک",
+		"description": "اتوماتیک HDR غوره کوي کله چې دا سکرین یې ښودلی شي، که نه نو SDR. HDR په عادي سکرینونو کې کمرنګه ښکاري.",
+		"hdr": "HDR",
+		"label": "HDR ویډیو",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "ژبه"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "د سپړنې له لارې ننوتل بریالی شو — 1 لینک بیا هڅول کېږي",
+		"exploreSignInRetrying_other": "د سپړنې له لارې ننوتل بریالی شو — {{count}} لینکونه بیا هڅول کېږي",
+		"exploreSignOutFailed": "له سپړنې څخه نه شوای وتلی. بیا هڅه وکړئ.",
+		"filenameFolderTooDeep": "دا پوښۍ ستاسو د سیسټم لپاره ډېره ژوره ده. ښکته کول بیا هم ناکام کېدی شي — لنډه پوښۍ وټاکئ.",
+		"filenameTemplateCannotFit": "د دې ویډیو نوم ستاسو د بېلګې په هره برخه کې نه ځایېږي، نو ځکه اصلي نوم وکارول شو.",
+		"folderSelectFailed": "د پوښۍ ټاکونکی نه شو پرانیستل کېدی.",
+		"hotkey": {
+			"alreadyQueued": "لا دمخې کې شته — کاپي نه ده اضافه شوې",
+			"cookiesSetup": "په Klip کې د کوکیزو تنظیم بشپړ کړئ، بیا هڅه وکړئ",
+			"invalidClipboard": "په کاپي بورد کې لینک نشته — لومړی یو کاپي کړئ",
+			"multipleUrls": "ډېر لینکونه کاپي شوي دي — په Klip کې «ډېر URLونه» وکاروئ",
+			"needsReview": "دا لینک ستاسو ټاکنې ته اړتیا لري — په Klip کې «ډاونلوډونه» وګورئ",
+			"queued": "له کاپي بورد څخه ډاونلوډ اضافه شو",
+			"submissionFailed": "دا لینک اضافه نشو کیدی — په Klip کې بیا هڅه وکړئ"
+		},
+		"playlistFolderRejected": "هغه پوښۍ د دې غږیز لړ لپاره نه شي کارېدی.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} ویډیو لا دمخې په قطار کې دی — پرېښودل شو",
+			"skippedAlreadyQueued_other": "{{count}} ویډیوګانې لا دمخې په قطار کې دي — پرېښودل شوې"
+		},
+		"quickDownload": {
+			"added": "اضافه شو: {{title}}",
+			"alreadyQueued": "لا دمخې په قطار کې دی",
+			"batchAdded_one": "{{count}} لینک ډاونلوډونو ته اضافه شو",
+			"batchAdded_other": "{{count}} لینکونه ډاونلوډونو ته اضافه شول",
+			"batchAlreadyQueued_one": "{{count}} لا دمخې په قطار کې دی",
+			"batchAlreadyQueued_other": "{{count}} لا دمخې په قطار کې دي",
+			"batchNoneAdded_one": "{{count}} لینک اضافه نشو کیدی",
+			"batchNoneAdded_other": "{{count}} لینکونه اضافه نشول کیدی",
+			"batchNotAdded_one": "{{count}} اضافه نشو کیدی",
+			"batchNotAdded_other": "{{count}} اضافه نشول کیدی",
+			"chooseFromList_one": "په دې لیست کې {{count}} ویډیو — وټاکئ څه ډاونلوډ کړئ",
+			"chooseFromList_other": "په دې لیست کې {{count}} ویډیوګانې — وټاکئ څه ډاونلوډ کړئ",
+			"chooseHowMany_one": "{{count}}+ ویډیو — وټاکئ څومره",
+			"chooseHowMany_other": "{{count}}+ ویډیوګانې — وټاکئ څومره",
+			"failed": "د {{title}} چمتو کول ناکام شول",
+			"notAdded": "دا لینک اضافه نشو کیدی — بیا هڅه وکړئ",
+			"view": "کتل"
+		},
+		"settingsSaveFailed": "ستاسو تنظیمات نه شول خوندي کېدی.",
+		"shellActionFailed": "هغه نه شو پرانیستل کېدی.",
+		"warmupFailed": "چمتووالی نه دی بشپړ شوی. تر هغه پورې ځینې ښکته کول ناکام کېدی شي."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "غږ (غوره)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "غږ ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "غوره اصلي غږ، بیا کوډ نه کېږي",
+			"m4a": "M4A (AAC) ته بدلول",
+			"mp3": "MP3 ته بدلول",
+			"opus": "Opus ته بدلول"
+		},
+		"mp4Cap": "په YouTube کې له 1080p پورته H.264 نشته — په اتومات ډول 1080p ته محدودېږي",
+		"subtitles": {
+			"deliveryHeading": "د خوندي کولو بڼه",
+			"deliveryLoose": "مستقیم د خوندي کولو فولډر کې",
+			"languages": "ژبې",
+			"languagesRequired": "د دوام لپاره لږ تر لږه یوه ژبه غوره کړئ.",
+			"note": "د هرې ویډیو لپاره یوازې د ژباړلیک فایلونه خوندي کیږي — هیڅ ویډیو یا غږ نه ډاونلوډیږي.",
+			"source": "سرچینه"
+		},
+		"tier": {
+			"144": "تر 144p پورې",
+			"240": "تر 240p پورې",
+			"360": "تر 360p پورې",
+			"480": "تر 480p پورې",
+			"720": "تر 720p پورې",
+			"1080": "تر 1080p پورې",
+			"1440": "تر 1440p پورې",
+			"2160": "تر 4K پورې",
+			"best": "غوره کیفیت"
+		},
+		"tierDesc": {
+			"144": "تر ټولو کوچني ممکن فایلونه",
+			"240": "ډېر کوچني فایلونه، ټیټ کیفیت",
+			"360": "د محدود بینډوډت لپاره کوچني فایلونه",
+			"480": "ټیټ بینډوډت",
+			"720": "کوچني فایلونه، پراخه سازګاري",
+			"1080": "تر 1080p محدود، د هر توکي لپاره ښکته راځي",
+			"1440": "تر 2K محدود، د هر توکي لپاره ښکته راځي",
+			"2160": "تر 2160p محدود، د هر توکي لپاره ښکته راځي",
+			"best": "د هر توکي لپاره غوره ویډیو + غږ"
+		},
+		"type": {
+			"audio": "غږ",
+			"subtitles": "ژباړلیکونه",
+			"video": "ویډیو"
+		},
+		"videoFormat": {
+			"best": "غوره اصلي",
+			"mp4": "سمارټ TV H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "د هر توکي لپاره تر ټولو لوړ موجود codec",
+			"mp4": "H.264 + AAC غوره، MP4 کانتینر · تر وسه ښه"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "ملګری فایل",
+			"description": "تفصیل",
+			"media": "رسنۍ",
+			"missing": "ورک",
+			"subtitle": "ژباړلیک",
+			"thumbnail": "وړه انځور",
+			"unknown": "فایل"
+		},
+		"attentionBadge_one": "{{count}} ډاونلوډ ستاسو پاملرنې ته اړتیا لري",
+		"attentionBadge_other": "{{count}} ډاونلوډونه ستاسو پاملرنې ته اړتیا لري",
+		"autoRemoveCompleted": {
+			"hint": "هر ډاونلوډ د بشپړېدو څو ثانیې وروسته له لېست څخه لرې کوي. فایلونه ستاسو په فولډر کې پاتې کېږي.",
+			"label": "د بشپړېدو پر مهال اتوماتيک پاکول"
+		},
+		"cancelAllTitle": "ټول فعال او انتظار کې ډاونلوډونه لغوه کړئ",
+		"choice": {
+			"all": "ټولې ویډیوګانې",
+			"cappedBody_one": "په دې پلې‌لېست کې له {{count}} ډېر ویډیو دي. ټول ډاونلوډ کړئ، لومړي {{count}}، یا په بیاکتنه کې وټاکئ.",
+			"cappedBody_other": "په دې پلې‌لېست کې له {{count}} ډېر ویډیوګانې دي. ټولې ډاونلوډ کړئ، لومړي {{count}}، یا په بیاکتنه کې وټاکئ.",
+			"first": "لومړي {{count}}",
+			"list": {
+				"album": "البم",
+				"liked": "خوښې ویډیوګانې",
+				"mix": "دا Mix",
+				"playlist": "پلې‌لېست",
+				"uploads": "ټولې پورته شوې ویډیوګانې",
+				"watchLater": "وروسته کتل"
+			},
+			"pick": "له هغې غوره کړئ…",
+			"review": "بیاکتنه",
+			"uncappedBody_one": "دا لینک د {{count}} ویډیو لیست دی. ډاونلوډ یې کړئ، یا په بیاکتنه کې غوره کړئ.",
+			"uncappedBody_other": "دا لینک د {{count}} ویډیوګانو لیست دی. ټولې ډاونلوډ کړئ، یا په بیاکتنه کې غوره کړئ.",
+			"video": "دا ویډیو",
+			"videoOrList": {
+				"album": "دا لینک د یو البم یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که البم؟",
+				"liked": "دا لینک ستاسو د خوښې ویډیوګانو یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ستاسو ټولې خوښې ویډیوګانې؟",
+				"mix": "دا لینک د Mix یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که Mix؟",
+				"playlist": "دا لینک د پلې‌لېست یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که پلې‌لېست؟",
+				"uploads": "دا لینک د یو چینل د پورته شویو ویډیوګانو یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ټولې پورته شوې ویډیوګانې؟",
+				"watchLater": "دا لینک ستاسو د “وروسته کتل” لیست یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ټول لیست؟"
+			}
+		},
+		"clearTitle": "بشپړ شوي ډاونلوډونه پاکول",
+		"empty": "په کتار کې ډاونلوډونه به دلته ښکاره شي",
+		"filterAll": "ټول",
+		"filtersLabel": "د کتار حالت چاڼګرونه",
+		"globalActionsLabel": "ټول توکي",
+		"header": "ډاونلوډونه",
+		"item": {
+			"audioKept": "غږ نه دی لرې شوی",
+			"audioKeptSubtitlesFailed": "غږ نه دی لرې شوی · ځینې ژباړلیکونه ناکام شول",
+			"cancel": "لغوه کول",
+			"defaultError": "ډاونلوډ ناکام شو",
+			"openDestinationFolder": "د مقصد پوښۍ پرانیزئ",
+			"pause": "درول",
+			"pendingOnly": "یوازې پاتې",
+			"pullNow": "اوس ډاونلوډ — قطار پرېږدئ",
+			"qualityLimited": "په {{height}}p پورې محدود",
+			"qualityLimitedSubtitlesFailed": "په {{height}}p پورې محدود · ځینې ژباړلیکونه ناکام شول",
+			"remove": "لیرې کول",
+			"resume": "دوام",
+			"retry": "بیا هڅه وکړئ",
+			"retryingSoon": "په اتوماتيک ډول بیا هڅه کیږي (هڅه {{attempt}})",
+			"setLocation": "ځای وټاکئ",
+			"setLocationHint": "د ځای ټاکلو لپاره په تمه توکي وټاکئ.",
+			"statusCancelled": "لغوه شوی",
+			"statusDone": "بشپړ",
+			"statusError": "تېروتنه",
+			"statusHeld": "ساتل شوی",
+			"statusNeedsChoice": "ستاسو ټاکنې ته اړتیا ده",
+			"statusPaused": "درول شوی",
+			"statusPending": "په تمه",
+			"statusProbing": "جزییات راوړل کېږي",
+			"statusRunning": "ډاونلوډ کېږي",
+			"subtitleLanguagesMissing": "په {{languages}} ژبو کې ژباړلیکونه نشته",
+			"waitingForSite": "د {{site}} انتظار تر {{time}} پورې",
+			"waitingHint": "{{site}} د دې اتصال سرعت محدودوي. Klip د دې لینک جزییات د {{time}} وروسته راوړي ترڅو محدودیت لرې شي."
+		},
+		"listOffer": {
+			"dismiss": "بندول",
+			"from": {
+				"album": "له یو البم څخه",
+				"liked": "ستاسو د خوښې ویډیوګانو څخه",
+				"mix": "له یو Mix څخه",
+				"playlist": "له یو پلې‌لېست څخه",
+				"uploads": "د یو چینل له پورته شویو ویډیوګانو څخه",
+				"watchLater": "له “وروسته کتل” څخه"
+			},
+			"get": {
+				"album": "ټول البم ترلاسه کړئ",
+				"liked": "ټولې خوښې ویډیوګانې ترلاسه کړئ",
+				"mix": "ټول Mix ترلاسه کړئ",
+				"playlist": "ټول پلې‌لېست ترلاسه کړئ",
+				"uploads": "ټولې پورته شوې ویډیوګانې ترلاسه کړئ",
+				"watchLater": "د “وروسته کتل” ټول ترلاسه کړئ"
+			},
+			"hint": "لیست د جلا ننوتنې په توګه زیاتوي. دا ویډیو پرېښودل کیږي."
+		},
+		"pauseAllTitle": "ټول فعال ډاونلوډونه ودروئ",
+		"pausedBanner": "قطار ودروې دی — انتظار کوونکي ډاونلوډونه تر هغه چې قطار بیا پیل نه شي، نه پیلېږي",
+		"resumeAllTitle": "درول شوي ډاونلوډونه دوام کړئ او قطار روان پرېږدئ",
+		"resumeQueueAction": "قطار بیا پیل کړه",
+		"selectedActionsLabel": "ټاکل شوي توکي",
+		"selectionSummary": "{{selected}} ټاکل شوي · ټول {{total}}",
+		"tabLabel": "ډاونلوډونه",
+		"tabTip": "ډاونلوډونه اوس د ډاونلوډونو ټب کې دي — د پرمختګ د کتلو لپاره یې هر وخت پرانیزئ.",
+		"table": {
+			"added": "زیات شو",
+			"artifacts": "وتلې فایلونه",
+			"columnDropped": "د {{column}} ستنه پرېښودل شوه.",
+			"columnMoveCancelled": "د {{column}} ستنې خوځول لغوه شول.",
+			"columnMovedOver": "د {{column}} ستنه د {{target}} پر سر ده.",
+			"columnPickedUp": "د {{column}} ستنه پورته شوه.",
+			"columns": "ستنې",
+			"finished": "بشپړ شو",
+			"format": "بڼه",
+			"hideArtifactsFor": "د {{title}} فایلونه پټ کړه",
+			"movableColumn": "د حرکت وړ ستنه",
+			"moveColumnInstructions": "د ستنې د خوځولو لپاره Space یا Enter کېکاږئ، بیا یې د غشو کیلیدونو سره وخوځوئ، او د پرېښودو لپاره بیا Space یا Enter کېکاږئ. د لغوه کولو لپاره Escape کېکاږئ.",
+			"notAvailable": "—",
+			"outputTarget": "د وتلو هدف",
+			"progress": "پرمختګ",
+			"resetColumns": "ستنې بیا تنظیمول",
+			"resizeColumn": "د {{column}} ستنې اندازه بدله کړئ",
+			"showArtifactsFor": "د {{title}} فایلونه وښیه",
+			"size": "اندازه",
+			"sortBy": "د {{label}} له مخې ترتیب کړه",
+			"status": "حالت",
+			"title": "سرلیک"
+		}
+	},
+	"releaseNotes": {
+		"continue": "دوام ورکړه",
+		"description": "تاسو تازه اوسمهال کاروئ. دلته مهم ټکي دي.",
+		"fullNotes": "بشپړ د خپرونې یادښتونه ↗",
+		"title": "په Klip {{version}} کې څه نوي دي"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "لغوه کړئ",
+			"chooseExecutable": "د اجرا وړ فایل غوره کړئ",
+			"installWithHomebrew": "په Homebrew نصب کړئ",
+			"installWithWinget": "په WinGet نصب کړئ",
+			"openDependencyFolder": "د dependency فولډر خلاص کړئ",
+			"resetToDefault": "ډیفالټ ته بیرته شئ",
+			"retrySetup": "بیا هڅه وکړئ",
+			"viewSetupLog": "د نصب لاګ وګورئ"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه سمه کاپي وټاکئ.",
+				"title": "یوه وسیله سمه کار نه کوي"
+			},
+			"blockedOrQuarantined": {
+				"body": "په خپل انټي ویروس یا SmartScreen کې Klip ته اجازه ورکړئ، بیا بیا هڅه وکړئ.",
+				"title": "ستاسو انټي ویروس یوه وسیله بنده کړه"
+			},
+			"downloadFailed": {
+				"body": "خپل انټرنټ اړیکه وګورئ، بیا بیا هڅه وکړئ.",
+				"title": "هغه څه ډاونلوډ نه شول چې Klip ورته اړتیا لري"
+			},
+			"extractFailed": {
+				"body": "د نوي ډاونلوډ لپاره بیا هڅه وکړئ.",
+				"title": "یو ډاونلوډ خراب راغی"
+			},
+			"hashFailed": {
+				"body": "د نوي ډاونلوډ لپاره بیا هڅه وکړئ.",
+				"title": "یو ډاونلوډ د خپل چیکسم سره سمون نه خوړ"
+			},
+			"pairIncomplete": {
+				"body": "لاندې دواړه وټاکئ، یا یې ډیفالټ ته بیرته کړئ.",
+				"title": "FFmpeg او FFprobe باید یو ځای وټاکل شي"
+			},
+			"permissionDenied": {
+				"body": "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه باوري کاپي وټاکئ.",
+				"title": "ستاسو سیسټم Klip ته د یوې وسیلې چلولو اجازه نه ورکوي"
+			},
+			"spawnFailed": {
+				"body": "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه سمه کاپي وټاکئ.",
+				"title": "یوه وسیله نشته یا نه پیلیږي"
+			},
+			"timeout": {
+				"body": "دا ډیری وخت په لومړي ځل چلولو کې د امنیتي سکین له امله وي. بیا هڅه وکړئ.",
+				"title": "یوې وسیلې د ځواب ورکولو لپاره ډیر وخت ونیو"
+			},
+			"unknown": {
+				"body": "بیا هڅه وکړئ، یا د توضیحاتو لپاره د نصب لاګ خلاص کړئ.",
+				"title": "د نصب پر مهال یوه ستونزه رامنځته شوه"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "د ډاونلوډ انجن",
+			"media": "د رسنۍ وسیلې"
+		},
+		"installing": {
+			"homebrew": "د Homebrew په مرسته نصب کیږي… دا ښایي څو دقیقې ونیسي.",
+			"winget": "د WinGet په مرسته نصب کیږي… دا ښایي څو دقیقې ونیسي."
+		},
+		"manual": {
+			"intro": "Klip هغو کاپیو ته وروښیاست چې تاسو یې لرئ، یا یې په بل ډول نصب کړئ.",
+			"linuxHint": "تاسو کولای شئ yt-dlp او ffmpeg د خپل پکیج مدیر په مرسته هم نصب کړئ، بیا «بیا هڅه وکړئ» کلیک کړئ.",
+			"toggle": "په لاس سره نصب کړئ"
+		},
+		"stopped": {
+			"body": "بیا هڅه وکړئ، یا لاندې Klip هغو وسیلو ته وروښیاست چې تاسو یې لرئ.",
+			"title": "نصب ودرول شو"
+		},
+		"title": "نصب ستاسو مرستې ته اړتیا لري"
+	},
+	"selectionOrder": {
+		"editorTitle": "دا پروفایل څنګه غوره کوي",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC غږ",
+				"reason": "د MP4 پلیرونو سره برابر"
+			},
+			"aacSmartTv": {
+				"label": "AAC غږ",
+				"reason": "هر ځای چلیږي"
+			},
+			"codec": {
+				"label": "AV1، بیا VP9، بیا H.264",
+				"reason": "په ورته اندازه تر ټولو روښانه"
+			},
+			"codecH264First": {
+				"label": "H.264، بیا VP9، بیا AV1",
+				"reason": "د دې پروفایل کوډک"
+			},
+			"codecVp9First": {
+				"label": "VP9، بیا H.264، بیا AV1",
+				"reason": "د دې پروفایل کوډک"
+			},
+			"fps": {
+				"label": "تر ټولو لوړ فریم ریټ",
+				"reason": "نرم حرکت"
+			},
+			"h264": {
+				"label": "H.264 ویډیو",
+				"reason": "په هره وسیله چلیږي"
+			},
+			"hdrFirst": {
+				"label": "HDR تر SDR مخکې",
+				"reason": "په HDR سکرینونو کې بډایه رنګونه",
+				"reasonScreen": "دا سکرین HDR ښیي"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR تر HDR مخکې",
+				"reason": "په هره سکرین کې سم ښکاري",
+				"reasonScreen": "دا سکرین HDR نه ښیي"
+			},
+			"mp4Streams": {
+				"label": "MP4 سټریمونه",
+				"reason": "د MP4 فایل لپاره چمتو"
+			},
+			"nativeCompatible": {
+				"label": "سټېریو غږ"
+			},
+			"nativeSource": {
+				"profile": "دا پروفایل",
+				"settings": "له امستنو"
+			},
+			"nativeSurround": {
+				"label": "surround غږ کله چې موجود وي"
+			},
+			"opus": {
+				"label": "Opus غږ",
+				"reason": "له WebM سره برابر"
+			},
+			"original": {
+				"label": "اصلي سټریمونه، نه د AI لوی شوي",
+				"reason": "لوی شوې کاپي لوړه ده خو ریښتیني جزئیات نه زیاتوي"
+			},
+			"protocol": {
+				"label": "مستقیم ډاونلوډونه د سټریم شویو کاپيو څخه مخکې",
+				"reason": "ورته انځور، ګړندی ډاونلوډ"
+			},
+			"resolution": {
+				"label": "تر {{tier}}p پورې",
+				"reason": "ستاسو حد"
+			},
+			"resolutionBest": {
+				"label": "تر ټولو لوړ ریزولوشن",
+				"reason": "هیڅ حد نه دی ټاکل شوی"
+			},
+			"sitePreference": {
+				"label": "هغه سټریمونه چې سایټ یې ټیټ نه ګڼي",
+				"reason": "زیانمنې، واټرمارک لرونکې او بدیلې کاپۍ پرېږدي"
+			},
+			"size": {
+				"label": "لوی فایل",
+				"reason": "په ورته امستنو کې ډېر جزئیات"
+			},
+			"source": {
+				"label": "لومړی ښه شوی بټ ریټ سټریمونه",
+				"reason": "په ورته ریزولوشن کې ډېر جزئیات"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "د فایل ډول له سټریمونو",
+				"explicit": "د .{{ext}} په توګه خوندي کیږي"
+			},
+			"goal": {
+				"bestPicture": "غوره انځور",
+				"smartTv": "په هره وسیله چلیږي"
+			}
+		},
+		"whyLabel": "ولې دا؟",
+		"whyTitle": "پروفایل ولې دا غوره کړ"
+	},
+	"share": {
+		"copied": "کاپي شو!",
+		"copyLink": "لینک کاپي کړئ",
+		"defaultMessage": "Klip — د Windows، macOS او Linux لپاره وړیا او خلاص-سرچینه ویډیو ډاونلوډر. له YouTube، Vimeo، Twitch او 2000+ سایټونو سره کار کوي.\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
+		"description": "Klip وړیا او خلاص سرچینه دی. شریکول نورو خلکو سره مرسته کوي چې ومومي.",
+		"footerLabel": "شریک کړئ",
+		"footerTooltip": "Klip شریک کړئ",
+		"shareAction": "Klip شریک کړئ",
+		"title": "Klip شریک کړئ"
+	},
+	"splash": {
+		"cancel": "ستونزه لرئ؟ په لاسي ډول یې تنظیم کړئ",
+		"greeting": "سلام، ښه راغلاست!",
+		"setup": {
+			"left": {
+				"minutes_one": "نږدې {{count}} دقیقه پاتې ده",
+				"minutes_other": "نږدې {{count}} دقیقې پاتې دي",
+				"underMinute": "له یوې دقیقې کم پاتې دي"
+			},
+			"stage": {
+				"checking": "کتل کیږي چې هرڅه کار کوي",
+				"connecting": "نښلول کیږي…",
+				"unpacking": "د رسنۍ وسیلې خلاصیږي",
+				"unpackingEngine": "د ډاونلوډ انجن خلاصیږي"
+			},
+			"title": {
+				"both": "د Klip وسایل تازه کیږي",
+				"engine": "د ډاونلوډ انجن تازه کیږي",
+				"firstRun": "د لومړي ځل نصب",
+				"media": "د رسنۍ وسیلې تازه کیږي"
+			}
+		},
+		"verifyFirstCheck": "د دې نسخې لومړنۍ کتنه — دا یوه ورو ده. معمولاً شاوخوا یوه دقیقه نیسي.",
+		"verifying": "{{binary}} چیک کیږي…",
+		"warmup": "ډاونلوډونه چمتو کېږي…",
+		"warmupFailedNoDiag": "نصب ناکام شو. د توضیحاتو لپاره د نصب لاګ خلاص کړئ."
+	},
+	"status": {
+		"audioKept": "ویډیو له غږ سره خوندي شوه — غږ لرې نه شو",
+		"audioKeptSubtitlesFailed": "ویډیو له غږ سره خوندي شوه — غږ لرې نه شو، او ځینې ژباړلیکونه ډاونلوډ نه شول",
+		"cancelled": "ډاونلوډ لغوه شو",
+		"complete": "ډاونلوډ بشپړ شو",
+		"convertingVideo": "ویډیو بدلیږي…",
+		"diskSpaceInsufficient": "د ډیسک ځای کافي نه دی — {{required}} ته اړتیا ده، یوازې {{free}} شتون لري",
+		"downloadingBinary": "{{name}} بائنري ډاونلوډیږي…",
+		"downloadingMedia": "ویډیو او غږ ډاونلوډیږي…",
+		"embeddingMetadata": "میټاډیټا ځای پر ځای کیږي…",
+		"exploreSignedOut": "له سپړنې څخه وتلي یاست — بیا ننوځئ",
+		"extractingAudio": "غږ بدلیږي…",
+		"fetchingSponsorBlock": "SponsorBlock سره اړیکه نیول کیږي…",
+		"fetchingSubtitles": "ژباړلیکونه ترلاسه کیږي…",
+		"mergingFormats": "غږ او ویډیو یوځای کیږي…",
+		"mintingToken": "د YouTube ډاونلوډ چمتو کېږي…",
+		"movingFiles": "فایلونه لیږدول کیږي…",
+		"noSubtitles": "په {{languages}} ژبو کې ژباړلیکونه نشته",
+		"outputNotWritable": "په {{dir}} کې خوندي کول ممکن نه دي — Klip ته هلته د لیکلو اجازه نشته",
+		"preparingBinaries": "بائنري فایلونه چمتو کیږي…",
+		"qualityLimited": "په {{height}}p خوندي شو — YouTube د دې ډاونلوډ لپاره لوړې کیفیتونه ودرول. وروسته بیا هڅه کولی شي مرسته وکړي.",
+		"qualityLimitedSubtitlesFailed": "په {{height}}p خوندي شو — YouTube د دې ډاونلوډ لپاره لوړې کیفیتونه ودرول، او ځینې ژباړلیکونه ډاونلوډ نشول. وروسته بیا هڅه کولی شي مرسته وکړي.",
+		"remintingToken": "د YouTube ډاونلوډ بیا چمتو کېږي…",
+		"retryingSponsorBlock": "SponsorBlock شتون نلري، بیا هڅه کیږي ({{attempt}}/{{total}})…",
+		"retryingTransfer": "اړیکه بنده شوه، بیا هڅه کیږي ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "ستاسو د سپړنې حساب سره ننوتل روان دي…",
+		"sleepingBetweenRequests": "د نرخ محدودیتونو مخنیوي لپاره {{seconds}} ثانیې انتظار…",
+		"startingYtdlp": "د ډاونلوډ انجن پیلیږي…",
+		"subtitleLanguagesMissing": "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري. ویډیو پرته له دوی خوندي شو.",
+		"subtitleLanguagesMissingOthersSaved": "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري. نورې ژبې خوندي شوې.",
+		"subtitlesFailed": "ویډیو خوندي شوه — ځینې ژباړلیکونه ډاونلوډ نه شول",
+		"unknownStartupFailure": "نامعلومه د پیل ناکامي",
+		"usedExtractorFallback": "د آزاد ایکسټریکټر سره ډاونلوډ شو — د باوري ډاونلوډونو لپاره cookies.txt تنظیم کړئ",
+		"ytdlpExitCode": "د ډاونلوډ انجن د {{code}} کوډ سره ووت",
+		"ytdlpProcessError": "د ډاونلوډ انجن تېروتنه: {{error}}"
+	},
+	"theme": {
+		"dark": "تیاره حالت",
+		"light": "رڼا حالت",
+		"system": "د سیسټم ډیفالټ"
+	},
+	"titleBar": {
+		"close": "تړل",
+		"maximize": "لوی کول",
+		"minimize": "کوچنی کول",
+		"restore": "بیرته راوستل"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "له کاپي بورد څخه ډاونلوډ",
+			"statusActive_one": "1 ډاونلوډیږي · {{percent}}%",
+			"statusActive_other": "{{count}} ډاونلوډیږي · {{percent}}%",
+			"statusIdle": "بیکار"
+		}
+	},
+	"update": {
+		"copied": "امر کلیپبورډ ته کاپي شو",
+		"copy": "امر کلیپبورډ ته کاپي کړئ",
+		"dismiss": "د تازه کولو بنر وتړئ",
+		"download": "ډاونلوډ ↗",
+		"downloadDmg": "DMG ډاونلوډ کړئ ↗",
+		"downloading": "ډاونلوډیږي…",
+		"install": "نصب کړه او بیا پیل کړه",
+		"installFailed": "تازه کول ناکام شو",
+		"message": {
+			"generic": "Klip {{version}} شته — تاسو {{currentVersion}} لرئ.",
+			"homebrew": "Klip {{version}} شته — د Homebrew له لارې يې تازه کړئ.",
+			"macosDirect": "Klip {{version}} شته — نوی DMG ډاونلوډ کړئ.",
+			"macosDirectHomebrew": "Klip {{version}} شته — DMG ډاونلوډ کړئ یا Homebrew ته واوړئ.",
+			"portable": "Klip {{version}} شته — نوې build ډاونلوډ کړئ."
+		},
+		"retry": "بیا هڅه وکړئ",
+		"runAndRestart": "چلوه او بیا پیل کړه",
+		"upgrading": "تازه کېږي…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} فصل",
+		"chapters_other": "{{count}} فصلونه",
+		"titlePlaceholder": "بارول…"
+	},
+	"videoCodec": {
+		"h264": "لومړی H.264",
+		"label": "ویډیو کوډک",
+		"smartTv": "سمارټ TV تل H.264 اخلي.",
+		"vp9": "لومړی VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "چمتو",
+			"description": "د ویډیو، playlist، channel، لټون، یا غږ URLونه پیسټ کړئ. Klip به تر قطار ته کولو مخکې تکراري لینکونه پاک کړي.",
+			"emptyPreview": "د ډلې د کتلو لپاره یو یا زیات URLونه ونښلوئ.",
+			"ignoredCount": "له پامه غورځول شوي",
+			"needsAtLeastOne": "د دوام لپاره لږ تر لږه یو ملاتړ شوی URL زیات کړئ.",
+			"reject": {
+				"duplicate": "تکراري"
+			},
+			"textareaLabel": "د URL لست",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "ډېر URLونه"
+		},
+		"confirm": {
+			"addToQueue": "+ قطار",
+			"addToQueueTooltip": "کله چې نور ډاونلوډونه پای ته ورسیږي پیل کیږي — بشپړ بینډوډت ترلاسه کوي",
+			"itemsValueAudio_one": "{{count}} له {{total}} ټریک",
+			"itemsValueAudio_other": "{{count}} له {{total}} ټریکونه",
+			"itemsValueBulk_one": "{{count}} له {{total}} URL",
+			"itemsValueBulk_other": "{{count}} له {{total}} URLونو",
+			"itemsValue_one": "{{count}} له {{total}} ویډیو",
+			"itemsValue_other": "{{count}} له {{total}} ویډیوګانې",
+			"labelAudio": "غږ",
+			"labelBulk": "ډېر URLونه",
+			"labelItems": "توکي",
+			"labelPlaylist": "د غږولو لړليک",
+			"labelPreset": "مخکې تنظیم",
+			"labelSaveTo": "خوندي کولو ځای",
+			"labelSize": "اندازه",
+			"labelSubtitles": "ژباړلیکونه",
+			"labelVideo": "ویډیو",
+			"landIn": "ستاسو فایل به دلته ځای پر ځای شي",
+			"landInMultiProfile_one": "دا به لاندې ځای ته ورسیږي",
+			"landInMultiProfile_other": "دا به لاندې {{count}} ځایونو ته ورسیږي",
+			"nothingToDownload": "د “یوازې ژباړلیکونه” پروفایل فعال دی، خو د ژباړلیک هېڅ ژبه نه ده غوره شوې — هېڅ شی به ډاونلوډ نه شي.",
+			"profileBreakdownCount_one": "{{count}} توکی",
+			"profileBreakdownCount_other": "{{count}} توکي",
+			"profileBreakdownHeading": "په دې ډله کې پروفایلونه",
+			"pullIt": "راکش یې کړه! ↓",
+			"pullItTooltip": "سمدلاسه پیل کیږي — د نورو فعالو ډاونلوډونو سره یوځای چلیږي",
+			"readyHeadline": "د راکشولو لپاره چمتو!",
+			"sizeUnknown": "نامعلومه",
+			"subtitleEmbedAudioOnly": "د ژباړلیک embed sidecar ته بدل شو — د غږ ټریکونه د embed شوو ژباړلیک سټریمونو ملاتړ نه کوي.",
+			"subtitleEmbedForcesMkv": "په ویډیو کې دننه ژباړلیکونه MKV فایل ته اړتیا لري، نو دا ډاونلوډ د .mkv په توګه خوندي کیږي.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "د Thumbnail embed پریښودل شو — د محصول container یې نه ملاتړي."
+		},
+		"folder": {
+			"custom": "دودیز…",
+			"desktop": "ډیسکټاپ",
+			"documents": "سندونه",
+			"downloads": "ډاونلوډونه",
+			"heading": "خوندي کولو ځای",
+			"home": "کور",
+			"music": "موسیقي",
+			"pictures": "انځورونه",
+			"subfolder": {
+				"invalid": "د فولډر نوم کې غلط حروف شتون لري",
+				"placeholder": "د بېلګې په توګه لیکچرونه",
+				"toggle": "فرعي فولډر کې خوندي کړه"
+			},
+			"videos": "فلمونه"
+		},
+		"formats": {
+			"audio": "غږ",
+			"audioLanguage": "د غږ ژبه",
+			"audioLanguageCount_one": "{{count}} ژبه",
+			"audioLanguageCount_other": "{{count}} ژبې",
+			"bitrateValue": "بټ ریټ {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "کوکیز تنظیم شوي خو بند دي. د بشپړ لیست لپاره کوکیز فعال کړئ او بیا هڅه وکړئ، یا شبکه بدله کړئ او بیا هڅه وکړئ.",
+				"bodyEnabled": "حتی د کوکیزو سره، YouTube دا پلټنه محدوده کړه. وروسته بیا هڅه وکړئ یا شبکه بدله کړئ.",
+				"bodyExplore": "YouTube دا غوښتنه محدوده کړه. وروسته بیا هڅه وکړئ یا شبکه بدله کړئ.",
+				"bodyUnconfigured": "د بڼو لیست ممکن نامکمل وي. د پرمختللو تنظیماتو کې کوکیز تنظیم کړئ، یا شبکه بدله کړئ او بیا هڅه وکړئ.",
+				"enableRetryCta": "کوکیز فعال کړئ او بیا هڅه وکړئ",
+				"heading": "YouTube دا پلټنه محدوده کړه",
+				"retryCta": "بیا هڅه وکړئ"
+			},
+			"convert": {
+				"bitrate": "بټ ریټ",
+				"bitrateCopyHint": "هغه سرچینه چې لا دمخه {{target}} وي خپل جریان او بټ ریټ ساتي: کاپي کېږي، بیا کوډ نه کېږي.",
+				"copyLabel": "{{target}} {{bitrate}} kbps، بیا کوډ نه کېږي",
+				"copyLabelNoBitrate": "{{target}}، بیا کوډ نه کېږي",
+				"copyNote": "{{kbps}} kbps، لکه په سرچینه کې: جریان لا دمخه {{target}} دی، نو کاپي کېږي، بیا کوډ نه کېږي",
+				"copyNoteNoBitrate": "لکه په سرچینه کې: جریان لا دمخه {{target}} دی، نو کاپي کېږي، بیا کوډ نه کېږي",
+				"label": "بدلول",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "سرچینه {{kbps}} kbps ده",
+				"wavLabel": "WAV (بې فشارولو)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "براوزر",
+				"currentModeExplore": "د سپړنې ننوتل",
+				"currentModeFile": "فایل",
+				"currentModeLabel": "د کوکیزو سرچینه",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp اسناد (مسئله #10927)",
+					"explanation": "Chrome 127 او نوي نسخې کوکیز داسې کوډ کوي چې نور اپلیکیشنونه یې د Windows کې لوستلی نشي. لاندې یو له حلونو هڅه وکړئ.",
+					"fixFileBody": "د براوزر د توسیع سره له Chrome نه کوکیز صادر کړئ، بیا دا اپلیکیشن د فایل حالت ته بدل کړئ او صادر شوی فایل غوره کړئ.",
+					"fixFileLabel": "cookies.txt صادر کړئ",
+					"fixFirefoxBody": "Firefox د App-Bound Encryption نه کاروي. د کوکیزو تنظیمات پرانیستل او د براوزر له لیست نه Firefox غوره کړئ.",
+					"fixFirefoxLabel": "Firefox ته بدل شئ",
+					"fixUnsafeBody": "د Chrome د پیل شارټ کټ کې --disable-features=LockProfileCookieDatabase اضافه کړئ. خبرداری: دا مخکې کوډ شوي کوکیز باطلوي، نو تاسو به له هر سایټ وتلئ او بیا ننوتل ضروري دي.",
+					"fixUnsafeLabel": "Chrome د App-Bound Encryption غیر فعاله سره پیل کړئ",
+					"heading": "Chrome کوکیز د Windows د کوډ کولو لخوا بند شوي"
+				},
+				"explanationBrowser": "کوکیز مستقیم له براوزر نه لوستل کیږي. که براوزر اوس مهال چلیږي، د کوکیزو ډیټابیس ممکن بند وي (Chromium کورنۍ). براوزر باید YouTube ته ننوتلی وي. هڅه وکړئ براوزر وتړئ، بل براوزر ته بدل شئ، د فایل حالت ته بدل شئ، یا کوکیز بند کړئ.",
+				"explanationFile": "ستاسو د کوکیزو فایل ممکن خالي، پخوانی، یا د غلط بڼې وي (Klip Netscape cookies.txt فایل ته اړتیا لري). هڅه وکړئ کوکیز بیا صادر کړئ، بل فایل غوره کړئ، د براوزر حالت ته بدل شئ، یا کوکیز بند کړئ.",
+				"exploreOffer": {
+					"body": "د سپړنې په مرسته ننوځئ او Klip به بیا هڅه وکړي.",
+					"cta": "د سپړنې په مرسته ننوځئ",
+					"heading": "کېدای شي دا ویډیو د YouTube اکاونټ ته اړتیا ولري"
+				},
+				"exploreRefused": {
+					"body": "Klip مخکې د سپړنې له ننوتلو سره هڅه کړې ده، نو بیا ننوتل به مرسته ونه کړي. شاید سایټ ستونزه ولري، یا دا حساب یې نشي خلاصولی. وروسته بیا هڅه وکړئ.",
+					"heading": "سایټ دا رد کړ، حتی د سپړنې له ننوتلو سره هم"
+				},
+				"exploreReuse": {
+					"body": "تاسو په سپړنه کې ننوتلي یاست، خو ډاونلوډونه همدا اوس دا ننوتل نه کاروي.",
+					"cta": "د سپړنې ننوتل وکاروئ او بیا هڅه وکړئ",
+					"heading": "کېدای شي دا ویډیو د YouTube اکاونټ ته اړتیا ولري"
+				},
+				"exploreSignIn": {
+					"body": "که دا ویډیو د YouTube حساب غواړي، په سپړنه کې ننوځئ او بیا هڅه وکړئ. Klip دا ننوتل یوازې هغه وخت کاروي چې ښکته کول ورته اړتیا ولري.",
+					"cta": "په سپړنه کې ننوځئ",
+					"heading": "دا ویډیو ښايي د YouTube حساب وغواړي"
+				},
+				"exploreSignedIn": {
+					"body": "که دا ویډیو حساب غواړي، Klip ستاسو د سپړنې ننوتل په اتومات ډول کاروي. ښايي د بل دلیل له امله شتون ونه لري.",
+					"heading": "په سپړنه کې ننوتلي یاست"
+				},
+				"exploreSite": {
+					"heading": "کېدای شي دا لینک د {{host}} حساب ته اړتیا ولري",
+					"offerBody": "د سپړنې په مرسته د {{host}} حساب ته ننوځئ او بیا هڅه وکړئ.",
+					"signInBody": "په سپړنه کې د {{host}} حساب ته ننوځئ او بیا هڅه وکړئ. Klip دا ننوتل یوازې هغه وخت کاروي چې ښکته کول ورته اړتیا ولري."
+				},
+				"heading": "کوکیز ممکن لامل وي",
+				"needsCookies": {
+					"body": "Klip پرته له تصدیق نه شو کولی دې ویډیو ته لاسرسی ومومي. د پرمختللو تنظیماتو کې کوکیز تنظیم کړئ — هغه براوزر ته اشاره وکړئ چې مو ورسره ننوتلي یئ، یا یو cookies.txt فایل واردوئ.",
+					"heading": "دا سایټ ننوتل ته اړتیا لري"
+				},
+				"openSettingsCta": "د کوکیزو تنظیمات پرانیستل",
+				"otherCookiesCta": "پرځای یې د کوکیزو فایل یا براوزر وکاروئ…"
+			},
+			"drc": {
+				"description": "لوړې برخې ورو او ورو برخې لوړې کوي، د سپیکرونو او شور لرونکو ځایونو لپاره.",
+				"label": "د غږ کچه برابره کړئ (DRC)",
+				"tag": "برابر غږ"
+			},
+			"fit": {
+				"mp4Unavailable": "ستاسو پروفایل سمارټ TV (H.264) دی. دا ویډیو H.264 نه وړاندې کوي، نو تر ټولو نږدې سټریم غوره شوی.",
+				"noVideo": "دا لینک ویډیو نلري، نو غږ غوره شو.",
+				"subtitlesMissing": "ستاسو پروفایل په {{languages}} کې ژباړلیکونه غواړي. دا ویډیو یې نلري.",
+				"tierAbove": "ستاسو پروفایل {{wanted}}p غواړي. دا ویډیو دومره کوچنی څه نلري، نو {{picked}}p غوره شو.",
+				"tierAbovePassedOver": "ستاسو پروفایل {{wanted}}p غواړي. هغه کوچني سټریمونه چې دا ویډیو یې لري ستاسو د پروفایل له پاتې برخې سره نه ښه کیږي، نو {{picked}}p غوره شو.",
+				"tierBelowTakeable": "ستاسو پروفایل {{wanted}}p غواړي. دا ویډیو هیڅ {{wanted}}p نلري چې واخیستل شي، نو {{picked}}p غوره شو.",
+				"tierPassedOverAiUpscaled": "ستاسو پروفایل {{wanted}}p غواړي. د دې ویډیو {{wanted}}p د AI له لارې لوړ شوی دی، نو اصلي {{picked}}p غوره شو.",
+				"tierPassedOverH264": "ستاسو پروفایل په H.264 کې {{wanted}}p غواړي. دا ویډیو {{wanted}}p یوازې په نورو کوډیکونو کې لري، نو په H.264 کې {{picked}}p غوره شو.",
+				"tierPassedOverProfile": "ستاسو پروفایل {{wanted}}p غواړي. د دې ویډیو {{wanted}}p ستاسو د پروفایل له پاتې برخې سره نه ښه کیږي، نو {{picked}}p غوره شو.",
+				"webmUnavailable": "ستاسو پروفایل WebM غواړي. د دې ویډیو غوره شوي سټریمونه {{codec}} لري، چې WebM یې نشي ساتلی، نو د فایل ډول اتوماتیک دی."
+			},
+			"footer": {
+				"addToQueue": "پرته له پیل کولو قطار ته زیاتول",
+				"download": "ښکته کول",
+				"moreActions": "نور د ښکته کولو انتخابونه",
+				"subtitlesRequired": "لږ تر لږه یوه د ژباړلیک ژبه غوره کړئ."
+			},
+			"keepAudio": "لکه چې دی وساتئ",
+			"keepAudioMeta": "ورته غږ",
+			"kind": {
+				"audio": "یوازې غږ",
+				"label": "څه ښکته کړو",
+				"subtitles": "یوازې ژباړلیکونه",
+				"video": "ویډیو + غږ",
+				"videoOnly": "ویډیو، پرته له غږه"
+			},
+			"loadingAria": "بڼې بارول",
+			"loadingHint": "مهرباني وکړئ انتظار وکړئ تر پلټنه پای ته ورسیږي — Playlistونه او لټونونه ممکن یو څه وخت ونیسي.",
+			"marker": {
+				"aiDubbed": "AI ډوب شوی",
+				"aiUpscaled": "AI لوی شوی",
+				"audioDescription": "غږیز تشریح",
+				"damaged": "زیانمن",
+				"enhancedBitrate": "ښه شوی بټ ریټ",
+				"original": "اصلي",
+				"spatialAudio": "فضايي غږ",
+				"vr": "360° / VR",
+				"watermarked": "واټرمارک لري"
+			},
+			"noAudio": "غږ نشته",
+			"profile": {
+				"calloutBody": "ستاسو فعال پروفایل ستاسو لپاره سټریمونه مخکې غوره کوي. له مېنو څخه پروفایل بدل کړئ، یا د دې ډاونلوډ پرېښودو پرته د پنسل په کارولو سره یو تنظیم کړئ.",
+				"calloutTitle": "بڼې ستاسو له پروفایل پیل کیږي",
+				"closestTag": "پروفایل ته نږدې",
+				"edit": "{{name}} سمول",
+				"keepEdits": "زما بدلونونه وساتئ",
+				"menuDescription": "یوازې د دې ښکته کولو لپاره. ستاسو اصلي پروفایل همداسې پاتې کیږي.",
+				"preselected": "مخکې غوره شوی، سرچینه:",
+				"resetAll": "ټول بیا تنظیمول",
+				"switchBody": "تاسو د دې ښکته کولو لپاره {{areas}} بدل کړل. “{{profile}}” په هر حال ویډیو او غږ غوره کوي. خپل نور بدلونونه ساتئ، که هر څه پروفایل ته بیا تنظیموئ؟",
+				"switchTitle": "پروفایل بدل کړو؟",
+				"tag": "پروفایل",
+				"updatedBody": "تاسو د دې ښکته کولو لپاره {{areas}} بدل کړل. تازه شوی پروفایل په هر حال ویډیو او غږ غوره کوي. خپل نور بدلونونه ساتئ، که هر څه پروفایل ته بیا تنظیموئ؟",
+				"updatedTitle": "تازه شوی پروفایل وکاروئ؟"
+			},
+			"quality": {
+				"high": "لوړ کیفیت",
+				"low": "ټیټ کیفیت",
+				"medium": "منځنی کیفیت"
+			},
+			"rateLimit": {
+				"heading": "{{site}} د دې اتصال غوښتنې محدودوي",
+				"leadDegraded": "د بڼو لړلیک ښايي بشپړ نه وي.",
+				"leadFailed": "{{site}} دا غوښتنه اوس مهال رد کړه.",
+				"retryCta": "بیا هڅه وکړئ",
+				"sessionNote": "{{site}} کولی شي دا محدودیت تر یو ساعت پورې وساتي.",
+				"tryNowCta": "اوس یې وازمایه",
+				"waitOver": "انتظار پای ته ورسید، اوس بیا هڅه کولی شئ.",
+				"waitUntil": "Klip تر {{time}} پورې انتظار کوي او بیا له {{site}} څخه غوښتنه کوي، څو محدودیت لرې شي."
+			},
+			"resolutionUnknown": "ریزولوشن نامعلوم",
+			"savesAs": {
+				"label": "د خوندي کولو بڼه",
+				"reset": "WebM نشي کولی {{codec}} وساتي، نو د فایل ډول بېرته اتوماتیک ته واوښت."
+			},
+			"sizeUnknown": "اندازه نامعلومه",
+			"skipToConfirm": "تایید ته پریږدئ",
+			"skipToConfirmTooltip": "ستاسو خوندي کړل شوي غوره توبونه د ټولو پاتې مرحلو لپاره کاروي. د ترتیب بدلولو لپاره، پرځای یې ګام پر ګام دوام وکړئ — ستاسو انتخاب به د راتلونکي ځل لپاره خوندي شي.",
+			"sniffing": "ستاسو لپاره غوره بڼې لټوم…",
+			"total": "ټول",
+			"video": "ویډیو",
+			"withAudio": "له غږ سره"
+		},
+		"listPrompt": {
+			"backgroundHint": "د {{profileName}} سره. که له {{count}} ډېر ویډیوګانې ولري، ډاونلوډونه پوښتي څومره.",
+			"backgroundLabel": "په شاتهپرده کې ډاونلوډ",
+			"escOnly": "Esc لغوه کوي.",
+			"firstHint": "دقیقاً لومړني {{count}}، د {{profileName}} سره.",
+			"firstLabel": "لومړني ډاونلوډ کړئ",
+			"interactiveHint": "له لومړنیو {{count}} ویډیوګانو غوره کړئ (یا په راتلونکي ګام کې شمېر بدل کړئ)، بیا ډاونلوډ تنظیم کړئ.",
+			"interactiveLabel": "تعاملي ډاونلوډ…",
+			"limitHint": "له لیست څخه څومره ویډیوګانې واخیستل شي: لومړی انتخاب له هغه وروسته پوښتي، دوهم دقیقاً همدومره اخلي. دا د تنظیماتو «د سکین لپاره د Playlist توکي» په څېر دی.",
+			"limitLabel": "حد",
+			"mixNote": "Mix هر ځل چې یې پرانیزئ بدلیږي.",
+			"pickLoadAfter": "توکي د غوره کولو لپاره بار کړئ.",
+			"pickLoadBefore": "لومړني",
+			"pickLoadNote": "تاسو یې په راتلونکي ګام کې بدلولی شئ.",
+			"pickTitle": {
+				"album": "له دې البم څخه غوره کړئ",
+				"liked": "ستاسو له خوښې ویډیوګانو غوره کړئ",
+				"mix": "له دې Mix څخه غوره کړئ",
+				"playlist": "له دې پلې‌لېست څخه غوره کړئ",
+				"uploads": "د دې چینل له پورته شویو ویډیوګانو غوره کړئ",
+				"watchLater": "له “وروسته کتل” غوره کړئ"
+			},
+			"title": {
+				"album": "له دې البم څخه ډاونلوډ",
+				"liked": "ستاسو د خوښې ویډیوګانو څخه ډاونلوډ",
+				"mix": "له دې Mix څخه ډاونلوډ",
+				"playlist": "له دې د غږولو لړليک څخه ډاونلوډ",
+				"uploads": "د دې چینل له پورته شویو ویډیوګانو څخه ډاونلوډ",
+				"watchLater": "له “وروسته کتل” څخه ډاونلوډ"
+			},
+			"videoHint": "یوازې هغه ویډیو چې تاسو پرانیسته، د {{profileName}} سره. لیست نه بارېږي.",
+			"videoLabel": "یوازې دا ویډیو",
+			"videoPickHint": "یوازې هغه ویډیو تنظیم کړئ چې تاسو پرانیسته. لیست نه بارېږي.",
+			"withProfile": "د {{profileName}} سره"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "د هر عصري پلیر کې د ناوي وړ فصل نښانکیان.",
+				"label": "فصلونه ځای پر ځای کړه",
+				"short": "فصلونه"
+			},
+			"embedMetadata": {
+				"description": "سرلیک، هنرمند، توضیحات، او د اپلوډ نیټه فایل کې لیکل کیږي.",
+				"label": "میټاډیټا ځای پر ځای کړه",
+				"short": "میټاډیټا"
+			},
+			"embedThumbnail": {
+				"description": "د فایل دننه د پوښ انځور. د WebM ویډیو به MKV ته بیا بسته شي؛ کله چې ژباړلیکونه ځای پر ځای شوي وي، پرېښودل کیږي.",
+				"label": "تھمبنیل ځای پر ځای کړه",
+				"short": "د پوښ انځور"
+			},
+			"writeDescription": {
+				"description": "د ویډیو توضیح د ډاونلوډ سره یوځای د .description متن فایل بڼه کې خوندي کوي.",
+				"label": "توضیح خوندي کړه",
+				"short": "د توضیح فایل"
+			},
+			"writeM3u": {
+				"description": "د ویډیوګانو ترڅنګ .m3u پلی‌لېسټ ساتي چې په میډیا پلیر کې په ترتیب خلاص شي.",
+				"label": "د .m3u پلی‌لېسټ فایل جوړول"
+			},
+			"writeThumbnail": {
+				"description": "تھمبنیل د ډاونلوډ سره یوځای د .jpg انځور فایل بڼه کې خوندي کوي.",
+				"label": "تھمبنیل خوندي کړه",
+				"short": "د تھمبنیل فایل"
+			}
+		},
+		"part": {
+			"calloutBody": "د ویډیو په کارت کې «برخه» ته واړوئ، پیل او پای یا یو څپرکی وټاکئ، او یوازې همدا برخه ډاونلوډ کړئ.",
+			"calloutTitle": "د ویډیو یوازې یوه برخه ډاونلوډ کړئ",
+			"chapterUntitled": "فصل {{number}}",
+			"chapters": "فصلونه",
+			"connectionsNote": "یوه برخه د ffmpeg له لارې ډاونلوډېږي، نو ستاسو د ډاونلوډ ارتباطات او د سرعت تنظیمات پرې نه تطبیقېږي.",
+			"downloadBlocked": "لومړی د برخې پیل او پای سم کړئ.",
+			"end": "پای",
+			"error": {
+				"endBeyondDuration": "ویډیو په {{duration}} کې پای ته رسېږي.",
+				"endInvalid": "پای د h:mm:ss، m:ss یا ثانیو په بڼه ولیکئ.",
+				"startInvalid": "پیل د h:mm:ss، m:ss یا ثانیو په بڼه ولیکئ.",
+				"startNotBeforeEnd": "پیل باید له پای مخکې وي."
+			},
+			"exactCut": {
+				"hint": "بند: هر پرې کول نږدې کیفریم ته رسېږي، چې ممکن له هغه وخت څخه څو ثانیې لرې وي چې تاسو لیکلی.",
+				"label": "دقیق پرې کول (بیا کوډ کوي، ورو)"
+			},
+			"length": "{{length}} له {{duration}} څخه",
+			"part": "برخه",
+			"rangeLabel": "د ویډیو برخه",
+			"start": "پیل",
+			"subtitlesFullLength": "ټوله ویډیو",
+			"summary": "برخه {{start}}–{{end}}",
+			"switchLabel": "د ویډیو څومره برخه",
+			"timeHint": "h:mm:ss، m:ss یا ثانیې",
+			"totalEstimate": "برخه، اټکل شوی",
+			"unavailableDuration": "دا ویډیو خپل اوږدوالی نه راپور کوي، نو یوازې ټوله ډاونلوډ کېدی شي.",
+			"unavailableSubtitles": "ژباړلیکونه تل ټوله ویډیو پوښي.",
+			"urlStart": "ستاسو لینک په {{time}} پیلېږي",
+			"useUrlStart": "د پیل په توګه یې وکاروه",
+			"whole": "ټوله ویډیو",
+			"wholeTrack": "ټول ټریک"
+		},
+		"playlist": {
+			"allRemovedDescription": "د دوام لپاره یې بیرته راولئ.",
+			"allRemovedTitle": "ټول توکي لرې شوي",
+			"alreadyDownloaded": "مخکې ډاونلوډ شوی",
+			"bulkCappedDesc_one": "نور هم لري. د شمېر ټاکلو لپاره یې لینک جلا پیسټ کړئ.",
+			"bulkCappedDesc_other": "نور هم لري. د شمېر ټاکلو لپاره د هر یو لینک جلا پیسټ کړئ.",
+			"bulkCappedTitle_one": "“{{title}}” په {{limit}} ویډیوګانو پرې شوی",
+			"bulkCappedTitle_other": "{{count}} لیستونه هر یو په {{limit}} ویډیوګانو پرې شوي",
+			"bulkHeading": "ډېر URLونه",
+			"bulkMetadataOptional": "انتظار ته اړتیا نشته — هغه فایلونه چې اوس کتار ته اچوئ، د ښکته کولو پر مهال به خپل اصلي نومونه ترلاسه کړي.",
+			"bulkMetadataResolving": "د ویډیو جزییات راوړل کېږي… {{done}}/{{total}}",
+			"bulkRowFailed": "جزییات نشته",
+			"bulkRowResolving": "جزییات راوړل کېږي",
+			"bulkRowWaiting": "انتظار",
+			"durationUnknown": "ژوندی",
+			"heading": "د Playlist توکي",
+			"headingGeneric": "د ډاونلوډ لپاره ویډیوګانې",
+			"itemCountAudio_one": "{{count}} ټریک",
+			"itemCountAudio_other": "{{count}} ټریکونه",
+			"itemCountBulk_one": "{{count}} لینک",
+			"itemCountBulk_other": "{{count}} URLونه",
+			"itemCount_one": "{{count}} ویډیو",
+			"itemCount_other": "{{count}} ویډیوګانې",
+			"loadingItems": "Playlist ترلاسه کیږي…",
+			"loadingItemsGeneric": "ویډیوګانې راوړل کېږي…",
+			"loadingLimitHint": "یوازې لومړیو {{count}} توکو ته محدود",
+			"loadingPagesFound_one": "{{count}} پاڼه وموندل شوه",
+			"loadingPagesFound_other": "{{count}} پاڼې وموندل شوې",
+			"loadingPhaseItems": "ویډیوګانې راټولېږي",
+			"loadingPhasePages": "د چینل پاڼې کتل کېږي",
+			"multiProfileEntry": "د هرې توکي لپاره پروفایلونه وټاکئ",
+			"multiProfileEntryTooltip": "کیفیت, SponsorBlock, محصول، او خوندي کول پریږدي — پرځای یې د هرې توکي لپاره د ډاونلوډ پروفایل وټاکئ",
+			"nestedPlaylistBadge": "د غږولو لړليک",
+			"nestedPlaylistHint_one": "له دې څخه {{count}} د غږولو لړليک دی، ویډیو نه — د ښکته کولو لپاره یې لینک په جلا توګه پیسټ کړئ.",
+			"nestedPlaylistHint_other": "له دې څخه {{count}} د غږولو لړليکونه دي، ویډیوګانې نه — د ښکته کولو لپاره یې لینکونه یو په یو پیسټ کړئ.",
+			"noSelection": "دوام کولو لپاره لږترلږه یو ویډیو غوره کړئ",
+			"probeLimitAlertDesc": "Klip له {{count}} څخه زیات توکي وموندل، نو اوسنی سکین حد پاتې توکي پټوي.",
+			"probeLimitAlertTitle": "د Playlist سکین محدود دی",
+			"probeLimitAlertTitleGeneric": "سکن محدود دی",
+			"rangeApply": "سلسله پلي کړئ",
+			"rangeFrom": "له",
+			"rangeTo": "تر",
+			"removeFromListCount_one": "{{count}} له لیستې لیرې کړئ",
+			"removeFromListCount_other": "{{count}} له لیستې لیرې کړئ",
+			"removedCount_one": "{{count}} لرې شوي",
+			"removedCount_other": "{{count}} لرې شوي",
+			"restore": "بیرته راوستل",
+			"selectAll": "ټول غوره کړئ",
+			"selectNone": "هیڅ غوره مه کوئ",
+			"selectedCount_one": "{{count}} غوره شوی",
+			"selectedCount_other": "{{count}} غوره شوي",
+			"sortApi": "د غږولو لړليک ترتیب",
+			"sortFetchingDates": "د اپلوډ نېټې ترلاسه کیږي…",
+			"sortLabel": "ترتیب",
+			"sortUploadAsc": "تر ټولو زاړه لومړی",
+			"sortUploadDesc": "تر ټولو نوي لومړی",
+			"syncApply": "همغږي پلي کړه",
+			"syncChange": "فولډر بدل کړه…",
+			"syncFoundDesc": "له دې ویډیوګانو څخه {{n}} مخکې په {{dir}} کې شته. یوازې نوي ډاونلوډولو لپاره همغږي کوې؟",
+			"syncFoundTitle": "مخکې په فولډر کې شته",
+			"syncNoneDesc": "د دې پلی‌لېست هېڅ ویډیو په {{dir}} کې ونه موندل شوه.",
+			"syncNoneDescGeneric": "په {{dir}} کې له دې سرچینې څخه ویډیوګانې ونه موندل شوې.",
+			"syncNoneTitle": "تر اوسه هېڅ نه دي ډاونلوډ شوي",
+			"syncScanning": "فولډر کتل کېږي…",
+			"thumbnailAlt": "د ویډیو تھمبنیل"
+		},
+		"playlistPresets": {
+			"heading": "د بیچ لپاره کیفیت وټاکئ",
+			"itemCount_one": "{{count}} توکی",
+			"itemCount_other": "{{count}} توکي",
+			"subhead": "هر ویډیو خپلواکه د غوره شوي کچې سره حل کوي — مخلوط Playlist ونه بیا پرته له مشکل کار کوي."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "پروفایل وټاکئ",
+			"assignTrigger_one": "{{count}} ویډیو ته وټاکئ",
+			"assignTrigger_other": "{{count}} ویډیوګانو ته وټاکئ",
+			"columnDuration": "موده",
+			"columnProfile": "پروفایل",
+			"editProfile": "{{name}} سمول",
+			"empty": "هیڅ توکی له دې فلټر سره سمون نه خوري",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "د پروفایل فلټرونه",
+			"heading": "د ډاونلوډ پروفایلونه وټاکئ",
+			"menuDescription_one": "د دې ویډیو لپاره پروفایل غوره کړئ.",
+			"menuDescription_other": "د دې {{count}} ویډیوګانو لپاره پروفایل غوره کړئ.",
+			"selectedSummary": "{{selected}} د {{total}} څخه غوره شوي"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "ټولیز بدلول",
+				"chooseFolder": "د موخې پوښۍ وټاکئ",
+				"chooseIcon": "د پروفایل نښه وټاکئ",
+				"removeLanguage": "{{code}} لرې کړئ",
+				"reset": "پروفایل بیا تنظیمول",
+				"resetDisabledHint": "دا پروفایل دمخه دننه جوړې ترتیبات کاروي",
+				"resetHint": "د پروفایل دننه جوړې ترتیبات بیرته راوګرځوئ",
+				"save": "پروفایل خوندي کول",
+				"setOverride": "د پروفایل بدیل وټاکئ",
+				"setOverrideShort": "بدیل وټاکئ",
+				"useGlobalDefault": "ټولیزه اصلي ارزښت وکاروئ",
+				"useLanguageCode": "د ژبې کوډ “{{code}}” وکاروئ"
+			},
+			"advanced": "پرمختللي",
+			"appSetting": "د اپ امستنه وکاروئ ({{value}})",
+			"audioFormat": {
+				"best": "غوره",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "تر ۱۲۸K پورې",
+				"192": "تر ۱۹۲K پورې",
+				"320": "تر ۳۲۰K پورې",
+				"best": "غوره کیفیت"
+			},
+			"defaultName": "نوی پروفایل",
+			"destination": {
+				"defaultFolder": "د ډاونلوډ اصلي پوښۍ",
+				"defaultFolderWithSubfolder": "د ډاونلوډ اصلي پوښۍ / {{subfolder}}",
+				"global": "ټولیزه موخه",
+				"globalActive": "فعاله",
+				"globalInherited": "میراثي",
+				"override": "د پروفایل بدیل",
+				"overrideChoosing": "پوښۍ وټاکئ",
+				"overrideNone": "هېڅ بدیل نه دی ټاکل شوی",
+				"overrideNoneNote": "هېڅ بدیل نه دی ټاکل شوی. دا پروفایل پورتنۍ ټولیزه موخه کاروي.",
+				"overrideSet": "ټولیز بدلوي",
+				"overrideSetNote": "دا پروفایل د فرعي پوښۍ له اضافه کېدو مخکې خپلې ریښې پوښۍ ته ساتي.",
+				"resolved": "وروستۍ موخه"
+			},
+			"dialogDescription": "د چټک ښکته کولو، ډله ییزو پتو او لړونو لپاره یو بیا کارېدونکی تنظیم.",
+			"dialogTitle": "د ښکته کولو پروفایل",
+			"error": {
+				"changeGlobalDestination": "ټولیزه موخه بدله نه شوه.",
+				"folderPicker": "د پوښۍ ټاکونکی نه شو پرانیستل کېدی. لاره په لاس ولیکئ.",
+				"reset": "د پروفایل تنظیمات بیا تنظیم نه شول.",
+				"save": "د پروفایل تنظیمات خوندي نه شول."
+			},
+			"field": {
+				"delivery": "د خوندي کولو لاره",
+				"fileType": "د فایل ډول",
+				"goal": "لومړیتوب",
+				"icon": "د پروفایل نښه",
+				"languages": "ژبې",
+				"name": "د پروفایل نوم",
+				"nameAndIcon": "د پروفایل نوم او نښه",
+				"nativeAudio": "اصلي آډیو",
+				"overridePath": "د پروفایل د بدیل لاره",
+				"quality": "کیفیت",
+				"resolution": "ریزولوشن",
+				"source": "سرچینه",
+				"subfolderName": "د فرعي پوښۍ نوم",
+				"subtitleDownloads": "د سرلیکونو ښکته کول",
+				"subtitleDownloadsDescription": "پروفایلونه د ژبې کوډونه غواړي؛ شتون یې د هر URL لپاره جلا ټاکل کېږي."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "په ورته اندازه تر ټولو روښانه. زاړه تلویزیونونه، QuickTime او ځینې اډیټرونه یې نشي چلولی.",
+					"name": "غوره انځور",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "په تلویزیونونو، تلیفونونو، WhatsApp، QuickTime او ویډیو اډیټرونو کې چلیږي. YouTube یوازې تر 1080p پورې H.264 وړاندې کوي.",
+					"name": "سمارټ TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "آرشیف",
+				"audio": "غږ",
+				"captions": "سرلیکونه",
+				"classes": "ټولګي",
+				"clip": "ټوټه",
+				"controls": "کنټرولونه",
+				"download": "ښکته کول",
+				"music": "موسیقي",
+				"podcast": "پډکاست",
+				"video": "ویډیو"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "موسیقي یا پډکاست"
+				},
+				"subtitlesOnly": {
+					"description": "یوازې د سرلیکونو دوتنې"
+				},
+				"videoAudio": {
+					"description": "عادي ویډیو دوتنې"
+				},
+				"videoOnly": {
+					"description": "یوازې بې غږه ویډیو"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "خودکار سرلیکونه به د ASS پر ځای د SRT په توګه خوندي شي.",
+				"noLanguageMatches": "هېڅ سمون لرونکې ژبه نشته",
+				"noSubtitles": "د دې پروفایل لپاره به نه د سرلیکونو دوتنې او نه ځای پر ځای شوي سرلیک لارې وغوښتل شي.",
+				"searchLanguages": "د ژبې د نوم یا کوډ له مخې ولټوئ",
+				"skippedForOutputType": "د دې وتنې ډول لپاره پرېښودل شوی.",
+				"subtitleLanguagesRequired": "لږ تر لږه یوه ژبه غوره کړئ.",
+				"subtitleLanguagesRequiredOrOff": "لږ تر لږه یوه ژبه غوره کړئ، یا د سرلیکونو ښکته کول بند کړئ.",
+				"subtitlesOnly": "دا پروفایل یوازې د سرلیکونو دوتنې په کتار کې اچوي. ویډیو، غږ، SponsorBlock او د رسنیو اړول پرېښودل کېږي."
+			},
+			"panel": {
+				"advanced": {
+					"description": "پروفایلونه ټولیزه موخه په میراث وړي، پرته له دې چې تاسو د پروفایل بدیل وټاکئ.",
+					"title": "پرمختللي انتخابونه"
+				},
+				"downloadType": {
+					"description": "وټاکئ چې تاسو په اصل کې څنګه ښکته کول غواړئ.",
+					"title": "د ښکته کولو ډول"
+				},
+				"identity": {
+					"description": "هغه نوم او نښه چې په چټک ښکته کولو، ډله ییزو پتو او د پروفایلونو لیستونو کې ښکاري.",
+					"title": "د پروفایل پېژندنه"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} فعال",
+					"enabledCount_other": "{{count}} فعال",
+					"title": "د وتنې انتخابونه"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "د دې پروفایل لپاره یوه پوښۍ وټاکئ"
+			},
+			"skipped": "پرېښودل شوی",
+			"sponsorBlockHint": {
+				"mark": "سپانسر برخې د څپرکو په توګه په نښه کوي (دوتنه نه بدلوي).",
+				"off": "SponsorBlock نشته — ویډیو لکه څنګه چې پورته شوې همداسې غږېږي.",
+				"remove": "د FFmpeg په مرسته سپانسر برخې له ویډیو څخه پرې کوي."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "یوازې په خودکار ډول جوړ شوي",
+				"manualAndAuto": "لاسي او خودکار",
+				"manualFirst": "لومړی لاسي، بیا خودکار",
+				"manualOnly": "یوازې لاسي"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "{{label}} مرسته"
+		},
+		"review": {
+			"areas": {
+				"extras": "اضافي",
+				"fileName": "د دوتنې نوم",
+				"format": "بڼه",
+				"saveTo": "پوښۍ",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "ژباړلیکونه"
+			},
+			"callout": {
+				"body": "ژباړلیکونه، SponsorBlock، اضافي توکي لکه وړه انځور، پوښۍ او د دوتنې نوم پخوا جلا ګامونه وو. د بدلولو لپاره پر یوې کرښې کلیک وکړئ.",
+				"title": "نور ټول تنظیمات اوس په همدې پاڼه کې دي"
+			},
+			"changeFormat": "بڼه بدله کړئ",
+			"changed": "له {{profile}} څخه بدل شو: {{areas}}. یوازې پر دې ښکته کولو پلي کیږي.",
+			"changedFrom": "له {{profile}} څخه بدل شو:",
+			"nextTime": {
+				"action": "د پروفایل په توګه خوندي کړئ",
+				"defaultName": "{{profile}} (ایډیټ شوی)",
+				"title": "دې ښکته کولو ایډیټ شوي تنظیمات کارول. بل ځل یې وکاروئ؟"
+			},
+			"reset": "بدلونونه بېرته راګرځول، “{{profile}}” ته ستنېدل",
+			"rows": {
+				"extras": "اضافي",
+				"fileName": "د دوتنې نوم",
+				"saveTo": "خوندي کولو ځای",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "ژباړلیکونه"
+			},
+			"rowsHeading": "نور هرڅه",
+			"save": {
+				"action": "پروفایل خوندي کول",
+				"description": "دا تنظیمات د پروفایل په توګه خوندي کوي چې بل ځل یې غوره کولی شئ. ستاسو د چټک ډاونلوډ پروفایل ورته پاتې کیږي.",
+				"failed": "پروفایل خوندي نه شو.",
+				"nameLabel": "د پروفایل نوم",
+				"saved": "د پروفایل په توګه “{{name}}” خوندي شو",
+				"title": "د پروفایل په توګه خوندي کړئ"
+			},
+			"saveAsProfile": "د نوي پروفایل په توګه خوندي کړئ",
+			"update": {
+				"action": "پروفایل تازه کول",
+				"builtinNote": "دا یو جوړ شوی پروفایل دی. تاسو کولی شئ د هغه اصلي تنظیمات په “پروفایلونه” ټب کې بېرته راولئ.",
+				"description": "له اوس وروسته، د دې پروفایل هر ښکته کول نوي تنظیمات کاروي.",
+				"rows": {
+					"format": "بڼه"
+				},
+				"title": "“{{profile}}” تازه کړو؟",
+				"updated": "پروفایل “{{name}}” تازه شو"
+			},
+			"updateProfile": "“{{profile}}” په دې بدلونونو تازه کړئ",
+			"value": {
+				"extrasNone": "هیڅ",
+				"sponsorBlockOff": "بند",
+				"subtitlesOff": "بند"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "ډکول",
+				"intro": "پیژندنه",
+				"music_offtopic": "له موضوع بهر موسیقي",
+				"outro": "پای",
+				"preview": "پریویو",
+				"selfpromo": "ځان پروموشن",
+				"sponsor": "سپانسر"
+			},
+			"categoriesHeading": "کټګورۍ",
+			"mode": {
+				"mark": "د فصلونو په توګه نښه کړه",
+				"off": "بند",
+				"remove": "برخې لیرې کړه"
+			},
+			"modeHeading": "د سپانسر فلټر کول",
+			"modeHint": {
+				"mark": "د سپانسر برخې د فصلونو (غیر ویجاړونکي) په توګه نښه کوي.",
+				"off": "SponsorBlock نشته — ویډیو لکه اپلوډ شوي بیا کیږي.",
+				"remove": "FFmpeg سره د سپانسر برخې له ویډیو څخه غوڅوي."
+			}
+		},
+		"steps": {
+			"confirm": "تایید کړه",
+			"folder": "خوندي کړه",
+			"formats": "بڼه",
+			"output": "محصول",
+			"playlistItems": "د غږولو لړليک",
+			"playlistItemsGeneric": "ویډیوګانې",
+			"playlistPresets": "کیفیت",
+			"playlistProfiles": "پروفایلونه",
+			"review": "بیاکتنه",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "ژباړلیکونه",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "اتوماتیک کیپشنونه به د ASS پر ځای SRT بڼه کې خوندي شي — دوی تل د YouTube د رولینګ کیو تکرار پاکیږي، کوم چې زموږ ASS کنورتر لا نه شي تقلید کولی.",
+			"autoBadge": "اتوماتیک",
+			"clearAll": "ټول پاکول",
+			"embedNote": "د Embed حالت محصول د .mkv په توګه خوندي کوي ترڅو د ژباړلیکونو ټریکونه باوري طریقه سره ځای پر ځای شي.",
+			"format": {
+				"heading": "بڼه"
+			},
+			"noLanguages": "د دې ویډیو لپاره هیڅ ژباړلیک شتون نلري",
+			"noMatches": "هیڅ ژبه سره برابره نه ده",
+			"noSelected": "هیڅ ژباړلیک غوره نه دی شوی",
+			"removeLanguage": "{{name}} لرې کړئ",
+			"saveMode": {
+				"embed": "ویډیو کې ځای پر ځای کړه",
+				"heading": "د خوندي کولو بڼه",
+				"sidecar": "د ویډیو سره یوځای",
+				"sidecarNoVideo": "د ډاونلوډ په پوښۍ کې",
+				"subfolder": "subtitles/ فرعي فولډر"
+			},
+			"searchPlaceholder": "ژبې لټول…",
+			"sectionAuto": "اتوماتیک جوړ شوی",
+			"sectionManual": "لاسي"
+		},
+		"tabsNavAria": "د ښکته کولو پروفایل ناوېګیشن",
+		"url": {
+			"advanced": "پرمختللي",
+			"autoRemoveCompleted": {
+				"description": "د بشپړېدو څو ثانیې وروسته ډاونلوډ د ډاونلوډونو له لېست څخه لرې کوي. فایلونه ستاسو په فولډر کې پاتې کېږي؛ ناکام او لغوه شوي ډاونلوډونه په لېست کې پاتې کېږي.",
+				"label": "بشپړ شوي ډاونلوډونه په اتوماتيک ډول لرې کړئ"
+			},
+			"autoRetry": {
+				"description": "د شبکې یا سرور ستونزې وروسته په اتوماتيک ډول بیا هڅه کوي، د هرې هڅې تر منځ اوږد انتظار کوي. هغه ډاونلوډونه چې سایټ یې بندوي هیڅکله په اتوماتيک ډول بیا نه هڅول کیږي.",
+				"label": "ناکام ډاونلوډونه بیا هڅه کړئ",
+				"unit": "ځله"
+			},
+			"bulkButton": "ډېر URLونه",
+			"bulkTooltip": "څو URLونه زیات او کتار ته یې واچوئ.",
+			"clearAria": "URL پاکول",
+			"clipboard": {
+				"autofilledLink": "لینک له کلېپبورډه زیات شو",
+				"bulkHint": "ډېر لینکونه کاپي شوي دي — د اضافه کولو لپاره «ډېر URLونه» وکاروئ",
+				"dialog": {
+					"cancelButton": "لغوه کړه"
+				},
+				"noLink": "په کلیپبورډ کې لینک نشته",
+				"readFailed": "کلیپبورډ ونه لوستل شو — لینک پر ځای یې په ساحه کې ونښلوئ",
+				"replacedLink": "په کاپي شوي لینک بدل شو",
+				"toggle": "کلیپبورډ وګورئ",
+				"toggleDescription": "کله چې تاسو یو YouTube لینک کاپي کړئ، د URL ساحه اتوماتیک ډکه کړئ.",
+				"undo": "بېرته راګرځول"
+			},
+			"closeToTray": {
+				"toggle": "د تړولو پر وخت ټرې ته پټ کړه",
+				"toggleDescription": "د کړکۍ د تړولو وروسته شاتهپرده ډاونلوډونه دوام کړئ."
+			},
+			"concurrentDownloads": {
+				"description": "د کتار څو توکي په یو وخت کې ډاونلوډ شي. په یو وخت کې ډیر د اوږد کتار ژر پای ته رسوي، خو دا چانس زیاتوي چې سایټ مو محدود کړي.",
+				"label": "یو ځای ډاونلوډونه",
+				"unit": "ډاونلوډونه"
+			},
+			"concurrentProbes": {
+				"description": "Klip له ډاونلوډ مخکې په یو وخت څو لینکونو جزییات راوړي. لږ شمېر د هغو سایټونو لپاره نرم دی چې بوخت اتصالونه بندوي. هغه لینک چې په تعاملي ډاونلوډ کې یې پرانیزئ تل لومړی ځي.",
+				"label": "په یو وخت کې چک شوي لینکونه",
+				"unit": "لینکونه"
+			},
+			"cookies": {
+				"banWarning": "YouTube غوندې سایټونه ممکن هغه حسابونه نښه کړي — او ځینې وختونه بنده — چې کوکیز یې د Klip غوندې د ښکته کولو وسیلو لخوا کارول کیږي. کله چې ممکنه وي یو لنډمهاله حساب وکاروئ.",
+				"browserHelp": "کوکیز مستقیم له براوزر نه لولي. د Chromium کورنۍ براوزرونو لپاره براوزر بند باید وي.",
+				"browserLabel": "براوزر",
+				"browserPlaceholder": "براوزر غوره کړئ…",
+				"choose": "غوره کړئ…",
+				"clear": "پاکول",
+				"enabledButNoBrowser": "د کوکیزو کارولو لپاره یو براوزر غوره کړئ",
+				"enabledButNoFile": "د کوکیزو کارولو لپاره یو فایل غوره کړئ",
+				"exploreDisabled": "د سپړنې ټب بند دی، نو ښکته کول ستاسو د سپړنې ننوتل نه کاروي. لاندې د سپړنې په برخه کې یې چالان کړئ.",
+				"extensionChrome": "cookies.txt ځایی ترلاسه کړئ (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "کوکیز فایل",
+				"helpLink": "کوکیز څنګه صادر کړم؟",
+				"openExplore": "سپړنه پرانیزئ",
+				"placeholder": "هیڅ فایل غوره نه دی شوی",
+				"recommended": "وړاندیز شوی",
+				"risk": "خطر: cookies.txt د هغه براوزر هر ننوتلی سیشن لري — دا خصوصي وساتئ.",
+				"sourceBrowser": "براوزر",
+				"sourceExplore": "د سپړنې ننوتل",
+				"sourceFile": "فایل",
+				"sourceLabel": "د کوکیزو سرچینه",
+				"sourceOff": "بند",
+				"toggleDescription": "د هغو ویډیوګانو سره مرسته کوي چې ستاسو خپل اکاونټ یې لیدلی شي، لکه ستاسو شخصي ویډیوګانې."
+			},
+			"downloadConnections": {
+				"description": "د ویډیو څو برخې په یو وخت کې راښکته کوي او لوی ډاونلوډونه ګړندي کوي. لوړ ارزښتونه دا چانس زیاتوي چې سایټ مو محدود کړي.",
+				"label": "د ډاونلوډ اتصالونه",
+				"unit": "اتصالونه"
+			},
+			"downloadList": {
+				"album": "البم ډاونلوډ کړئ…",
+				"liked": "خوښې ویډیوګانې ډاونلوډ کړئ…",
+				"mix": "Mix ډاونلوډ کړئ…",
+				"playlist": "پلې‌لېست ډاونلوډ کړئ…",
+				"uploads": "پورته شوې ویډیوګانې ډاونلوډ کړئ…",
+				"watchLater": "“وروسته کتل” ډاونلوډ کړئ…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "یوازې غږونه",
+					"subtitles": "ژباړلیکونه"
+				},
+				"anySite": {
+					"heading": "2000+ سایټونه",
+					"musicPlaylist": "د موسیقۍ Playlistونه",
+					"video": "ویډیوګانې",
+					"videoPlaylist": "د ویډیو Playlistونه"
+				},
+				"heading": "Klip څه ډاونلوډ کولی شي",
+				"youtube": {
+					"channel": "چینلونه",
+					"heading": "YouTube",
+					"music": "موسیقي",
+					"playlist": "د غږولو لړليکونه",
+					"podcast": "Podcastونه",
+					"short": "Shorts",
+					"video": "ویډیوګانې"
+				}
+			},
+			"fetchFormatsTooltip": "ګام په ګام لارښود. بڼه، کیفیت او نور وټاکئ.",
+			"heading": "له URL څخه ډاونلوډ",
+			"hotkey": {
+				"changeShortcut": "شارټکټ بدل کړئ",
+				"conflict": "دا شارټکټ بلې اپلیکیشن نیولی — بل یې وټاکه.",
+				"globalLabel": "نړیوال هاټ کی",
+				"recording": "کیليونه کېکاږئ…",
+				"reset": "ډیفالټ ته بیرته شئ",
+				"sectionDescription": "هر کاپي شوی لینک له هرې اپلیکیشن څخه ډاونلوډ کړئ، پرته له دې چې Klip پرانیزئ.",
+				"sectionTitle": "نړیوال هاټ کی",
+				"test": "ازمویل",
+				"toggle": "نړیوال هاټ کي فعاله کړئ",
+				"toggleDescriptionDetail": "په هر اپ کې د ویډیو لینک کاپي کړئ او شارټ کټ ټک کړئ: Klip یې ستاسو له فعال پروفایل سره، پرته له دې چې کړکۍ بدلې شي، قطار ته اچوي. په پلې‌لېست کې د ویډیو لینک یوازې همدا ویډیو ډاونلوډوي."
+			},
+			"interactiveDownload": "تعاملي ډاونلوډ",
+			"interactiveDownloadAsks": "تعاملي ډاونلوډ…",
+			"limitRate": {
+				"activeWarning": "فعال ډاونلوډونه خپل اوسنی حد ساتي. د پلي کولو لپاره ودرول + دوام وکاروئ.",
+				"custom": "ځانګړی…",
+				"customPlaceholder": "لکه 750K یا 1.5M",
+				"description": "د رسنیو د ډاونلوډونو بینډوېډت محدودوي. لاندې د غوښتنو تمپو عموماً پیاوړی محدودوونکی دی.",
+				"invalid": "له K یا M سره عدد وکاروئ (لکه 500K، 1.5M)",
+				"label": "د ډاونلوډ سرعت حد",
+				"off": "بند"
+			},
+			"mascotBusy": "شاتهپرده ډاونلوډ کیږي… زه کولی شم له ډیرو کارونو سره معامله وکړم 😎",
+			"mascotCollection": "چټک ډاونلوډ بار شوي توکي د {{profileName}} سره کتار ته اچوي. تعاملي ډاونلوډ تاسو ته اجازه درکوي چې لومړی توکي وګورئ یا وټاکئ.",
+			"mascotIdle": "لینک واچوئ او Klip پرېږدئ چې یې راکښته کړي ✨",
+			"mascotSingle": "چټک ډاونلوډ د {{profileName}} سره یو ډاونلوډ پیلوي. د یو ځل بدلونونو لپاره تعاملي ډاونلوډ وکاروئ.",
+			"mascotVideoInList": "دا لینک یوه ویډیو او هغه لیست چې پکې ده نوموي: یوازې ویډیو ډاونلوډ کړئ، که لیست.",
+			"nativeAudioPreference": {
+				"compatible": "سازګار سټېریو",
+				"description": "سټېریو یا surround کله چې یو پروفایل اصلي آډیو غوره کړي. پروفایل کولی شي دا بدل کړي.",
+				"label": "د اصلي آډیو غوره توب",
+				"surround": "surround / Dolby ته لومړیتوب ورکړئ"
+			},
+			"networkPacing": {
+				"description": "د هر ډاونلوډ پرمهال کوچني انتظارونه اضافه کړئ ترڅو Klip سایټ ته ډیره زیاته فشار ونه وري. ارزښتونه په ثانیو کې دي.",
+				"fields": {
+					"maxSleepInterval": "د میډیا د پیلیدو دمخه وقفه: ډیره",
+					"sleepInterval": "د میډیا د پیلیدو دمخه وقفه: لږه",
+					"sleepRequests": "د میټاډیټا چکونو تر مینځ انتظار",
+					"sleepSubtitles": "د ژباړلیک فایلونو دمخه انتظار"
+				},
+				"heading": "آرامه ډاونلوډونه",
+				"presetLabel": "Klip باید څومره احتیاطي وي؟",
+				"presets": {
+					"balanced": "متوازن",
+					"careful": "احتیاطي",
+					"custom": "دودیز",
+					"off": "بند"
+				},
+				"summary": "انتظارونه: {{requests}} د چکونو تر مینځ، {{downloads}} د میډیا د پیلیدو دمخه، {{subtitles}} د ژباړلیک فایلونو دمخه.",
+				"tooltip": "دا انتظارونه د هر ډاونلوډ دننه پیښیږي. دا چې څو ډاونلوډونه په یو وخت کې روان وي، په «یو ځای ډاونلوډونه» کې جلا ټاکل کیږي.",
+				"tooltips": {
+					"balanced": "ډیفالټ. د غوښتنو ترمنځ او د میډیا له پیل دمخه لنډې وقفې اضافه کوي.",
+					"careful": "د لویو Playlistونو یا هغو شبکو لپاره اوږده وقفې اضافه کوي چې ډیری وار محدودیتونو سره مخ کیږي.",
+					"custom": "د ډاونلوډ د پرمختللو کنټرولونو ترتیب پخپله وکړئ.",
+					"off": "یوازې هغه کوچني اساسي وقفې کاروي چې Klip د میډیا او ژباړلیکونو لپاره ساتي."
+				},
+				"units": {
+					"seconds": "ثا"
+				}
+			},
+			"openedLink": {
+				"added": "لینک په Klip کې پرانیستل شو",
+				"replaced": "په Klip کې له پرانیستل شوي لینک سره بدل شو"
+			},
+			"pasteLink": "لینک ونښلوئ",
+			"placeholder": "https://www.youtube.com/watch?v=...",
+			"playlistProbeLimit": {
+				"current": "اوسنی حد: {{count}} توکي",
+				"custom": "دودیز…",
+				"customDialogCancel": "لغوه کړئ",
+				"customDialogDescription": "د {{min}} نه تر {{max}} پورې بشپړ عدد وکاروئ.",
+				"customDialogSave": "حد خوندي کړئ",
+				"customDialogTitle": "دودیز د Playlist سکین حد",
+				"customValue": "دودیز: {{count}} توکي",
+				"description": "هغه اعظمي ننوتونه چې Klip د یوه playlist، چینل، یا د لټون پایله خلاصیدو پرمهال بارومه.",
+				"invalid": "د 1 نه تر 5000 پورې بشپړ عدد وکاروئ",
+				"label": "د سکین لپاره د Playlist توکي",
+				"option": "{{count}} توکي"
+			},
+			"playlistScope": {
+				"appLimit": "د اپ حد وکاروئ: {{count}}",
+				"apply": "پلي کړئ",
+				"applyError": "د پلې‌لېست ساحه پلي نه شوه: {{message}}",
+				"applyReload": "پلي کړئ او بیا بار کړئ",
+				"cancel": "لغوه کړئ",
+				"change": "بدل کړئ",
+				"dialogDescription": "وټاکئ چې Klip د دې پلې‌لېست لپاره څه بار کړي.",
+				"dialogTitle": "د پلې‌لېست ساحه",
+				"emptyTitle": "په دې ساحه کې هیڅ ویډیو نشته",
+				"first": "لومړي",
+				"invalid": "له 1 څخه تر {{max}} پورې بشپړې شمېرې وکاروئ، پیل باید له پای څخه لوی نه وي.",
+				"itemsLabel": "د بارولو توکي",
+				"label": "د پلې‌لېست ساحه",
+				"range": "ساحه",
+				"reloading": "بیا بارېږي...",
+				"reset": "بیا تنظیمول",
+				"summaryAppLimit": "لومړي {{count}} توکي بارول",
+				"summaryFirst": "لومړي {{count}} توکي بارول",
+				"summaryRange": "توکي {{from}}-{{to}} بارول",
+				"to": "تر"
+			},
+			"profile": {
+				"activeLabel": "فعال پروفایل",
+				"badgeBuiltIn": "دننه جوړ",
+				"badgeCustom": "دودیز",
+				"badgeDisabled": "پټ",
+				"badgeModified": "بدل شوی",
+				"builtinName": {
+					"audio-only": "یوازې غږ",
+					"balanced": "متوازن 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "تر ټولو غوره کیفیت",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "تر ټولو ټیټ کیفیت 144p",
+					"low-240": "لږ ډاټا 240p",
+					"mp4-1080": "سمارټ TV 1080p",
+					"mp4-480": "سمارټ TV 480p",
+					"mp4-720": "سمارټ TV 720p",
+					"small-file": "کوچنی فایل 480p",
+					"subtitles-only": "یوازې ژباړلیکونه"
+				},
+				"changeGlobalDestination": "عمومي موخه بدله کړئ",
+				"destinationDetail": {
+					"global": "عمومي موخه کاروي",
+					"globalSubfolder": "عمومي موخه + د پروفایل فرعي فولډر کاروي",
+					"override": "د پروفایل بدیل کاروي",
+					"overrideSubfolder": "د پروفایل بدیل + د پروفایل فرعي فولډر کاروي"
+				},
+				"destinationEditHint": "د خوندي کولو ځای بدلولو لپاره، پروفایل سم کړئ.",
+				"destinationFallback": "موخه",
+				"edit": "سمول",
+				"editActive": "فعال پروفایل سمول",
+				"enableHint": "پټ پروفایلونه دلته پاتې کېږي خو له هر غوره کوونکي څخه ورکېږي.",
+				"enableToggleAria": "پروفایل په غوره کوونکو کې وښایاست: {{profileName}}",
+				"lastEnabledHint": "لږ تر لږه یو پروفایل شتون ولرئ.",
+				"manageProfiles": "پروفایلونه اداره کړئ",
+				"menuDescription": "د چټک ډاونلوډ، ګڼو URLونو او پلی‌لیستونو لپاره فعال پروفایل بدل کړئ.",
+				"menuTitle": "پروفایل بدل کړئ",
+				"movableProfile": "د حرکت وړ پروفایل",
+				"moveCancelled": "خوځول لغوه شول. {{profileName}} د {{count}} څخه په {{position}} موقعیت کې پاتې کېږي.",
+				"moveDropped": "{{profileName}} د {{count}} څخه په {{position}} موقعیت کې پرېښودل شو.",
+				"moveHandleAria": "{{profileName}} وخوځوئ",
+				"moveInstructions": "د پروفایل د خوځولو لپاره Space یا Enter کېکاږئ، بیا یې د غشو کیلیدونو سره وخوځوئ، او د پرېښودو لپاره بیا Space یا Enter کېکاږئ. د لغوه کولو لپاره Escape کېکاږئ.",
+				"moveOver": "{{profileName}} د {{count}} څخه د {{position}} موقعیت پر سر دی.",
+				"movePickedUp": "{{profileName}} پورته شو. دا د {{count}} څخه په {{position}} موقعیت کې دی.",
+				"newProfile": "نوی پروفایل",
+				"outputMissing": "دا پروفایل داسې پوښۍ ته خوندي کوي چې نه ده ټاکل شوې. په پروفایل کې یوه پوښۍ وټاکئ، یا یې بېرته اصلي ته راولئ.",
+				"panelDescription": "د بیا کارولو وړ د ډاونلوډ امستنې جوړې، غوره، سمې یا لرې کړئ.",
+				"panelTitle": "د ډاونلوډ پروفایلونه",
+				"remove": "لرې کول",
+				"reorderHint": "د خوځولو لپاره پروفایل راکاږئ. د پروفایل ټول غوره کوونکي دا ترتیب تعقیبوي.",
+				"reset": "بیا تنظیمول",
+				"savesTo": "خوندي کیږي په",
+				"switchAria": "د ډاونلوډ پروفایل بدل کړئ: {{profileName}}",
+				"switchTitle": "د ډاونلوډ پروفایل بدل کړئ"
+			},
+			"proxy": {
+				"clear": "پاکول",
+				"description": "ټرافیک د پراکسي سرور له لارې لیږي.",
+				"label": "د پراکسي پته",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "چټک ډاونلوډ",
+			"quickDownloadTooltip": "د {{profileName}} په کارولو سره به ډاونلوډ شي",
+			"quickFailed": "دا ونه زیاتېدل: {{error}}",
+			"quickPrepareFailed": "د قطار توکی چمتو نه شو",
+			"quickPreparing": "چمتو کېږي",
+			"quickProbeFailed": "کتنه ناکامه شوه",
+			"quickSingleOnly": "د پیل لپاره د ویډیو، پلې‌لېست، چینل یا لټون URL ونښلوئ.",
+			"reports": {
+				"toggle": "ناپیژندلی هارټ بیټ او د تنظیم راپورونه واستوئ",
+				"toggleDescription": "هیڅ تعقیب نشته. په ورځ کې یو ځل، یو ناپیژندلی هارټ بیټ د اپ نسخه، د نصب چینل، OS، ژبه، هېواد او تقریباً دا چې Klip څومره وخت مخکې نصب شوی لیږي، ترڅو موږ فعال او نوي کاروونکي وشمېرو. کله چې Klip خپل د ډاونلوډ انجن یا د رسنۍ وسایل تنظیموي یا تازه کوي، دا هم راپور ورکوي چې ایا بریالی شو او تقریباً څومره وخت یې ونیو. هیڅ ID، URL، د ویډیو سرلیک یا د فایل نوم نشته."
+			},
+			"settings": {
+				"behaviorDescription": "عمومی سلوک چې د پروفایل له لارې رابېشتلي ډاونلوډ هم اغېزمن کوي.",
+				"behaviorHeading": "د ښوتنې (ډاونلوډ) چلند",
+				"inputHeading": "ورودی"
+			},
+			"style": {
+				"aurora": {
+					"description": "د خوځېدونکي اسمان پر سر د شیشې پټې. د ګرافیک چټکتیا ته اړتیا لري.",
+					"label": "اورورا"
+				},
+				"minimal": {
+					"description": "جامد او آرامې سطحې. په هر کمپیوټر کې سپک چلېږي.",
+					"label": "ساده"
+				},
+				"modeDescription": "دواړه ډولونه رڼا او تیاره حالت لري.",
+				"modeLabel": "ډول",
+				"panelDescription": "Klip څنګه ښکاري. رڼا او تیاره حالت د ښکتنۍ پټې په برخه کې بدل کړئ.",
+				"panelTitle": "بڼه",
+				"unavailableNotice": "{{style}} ته د ګرافیک چټکتیا اړینه ده، چې همدا اوس شتون نلري، نو Klip {{fallback}} ښیي."
+			},
+			"tabs": {
+				"profiles": "پروفایلونه",
+				"settings": "امستنې"
+			},
+			"thisVideo": "دا ویډیو",
+			"thisVideoTooltip": "یوازې دا ویډیو د {{profileName}} سره ډاونلوډوي"
+		}
+	}
+}

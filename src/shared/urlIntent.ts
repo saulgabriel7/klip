@@ -1,0 +1,192 @@
+import type {BulkUrlKind, ListKind} from './schemas.js'
+import {isYouTubeContainerId} from './sites/youtube.js'
+import {isYouTubeHostname} from './sites/youtubeHost.js'
+import {listKindForUrl} from './sites/youtubeListKind.js'
+
+export type UrlIntent = {kind: 'obvious-single'; url: string; site: 'youtube' | 'other'} | {kind: 'obvious-collection'; url: string; collection: 'playlist' | 'channel' | 'search'} | {kind: 'mixed'; url: string; reason: 'youtube-video-with-list'} | {kind: 'unknown'; url: string}
+
+export type UrlIntentHomeLabel = 'Single URL' | 'Playlist URL' | 'Channel URL' | 'Search URL' | 'Mixed URL' | 'URL'
+
+function parseUrl(url: string): URL | null {
+	try {
+		return new URL(url)
+	} catch {
+		return null
+	}
+}
+
+function youtubePathSegments(parsed: URL): string[] {
+	return parsed.pathname.split('/').filter(Boolean)
+}
+
+// Two-segment paths that address exactly one video. `/embed/` is the current
+// embed player; `/v/` and `/e/` are its legacy Flash-era equivalents, both of
+// which yt-dlp still resolves.
+const YOUTUBE_VIDEO_PATH_PREFIXES = new Set(['shorts', 'live', 'clip', 'embed', 'v', 'e'])
+
+// `/embed/videoseries?list=…` wears the same shape as a video embed but plays a
+// playlist — there is no video behind it, so it must not read as a single.
+const EMBED_PLAYLIST_SEGMENT = 'videoseries'
+
+function isYouTubeVideoSegmentPath(segments: string[]): boolean {
+	const [prefix, id] = segments
+	if (segments.length !== 2 || !prefix || !id) return false
+	if (!YOUTUBE_VIDEO_PATH_PREFIXES.has(prefix)) return false
+	return !(prefix === 'embed' && id === EMBED_PLAYLIST_SEGMENT)
+}
+
+function isYouTubeVideoPath(host: string, segments: string[], searchParams: URLSearchParams): boolean {
+	return (host === 'youtu.be' && segments.length === 1 && !!segments[0]) || (segments[0] === 'watch' && !!searchParams.get('v')) || isYouTubeVideoSegmentPath(segments)
+}
+
+function isYouTubeChannelPath(segments: string[]): boolean {
+	return segments[0]?.startsWith('@') === true || segments[0] === 'channel' || segments[0] === 'c' || segments[0] === 'user'
+}
+
+// `music.youtube.com/browse/MPREb…` is an album and `/browse/VLPL…` a playlist,
+// but a browse URL carries no `list=` param and no recognisable path segment —
+// nothing in its shape says "collection". Left unclassified it reads as a plain
+// URL all the way to the queue, where yt-dlp expands the whole release under
+// the single filename the job carries. The id prefix is the only tell.
+function isYouTubeBrowseCollectionPath(segments: string[]): boolean {
+	return segments.length === 2 && segments[0] === 'browse' && isYouTubeContainerId(segments[1] ?? '')
+}
+
+// What was Radio before a Mix became a list to offer: any `RD…` list
+// (`RDCLAK…` included). `start_radio` is not a tell: yt-dlp never reads it, and a
+// Mix always has an `RD` id. Only Bulk URLs still reads such a link as the video
+// alone (classifyBulkUrlIntent).
+function isFormerRadioLink(searchParams: URLSearchParams): boolean {
+	return searchParams.get('list')?.startsWith('RD') === true
+}
+
+// A search, whose query is free text: `/results` or `/search` with
+// `search_query=` or `q=`, the links yt-dlp's two search extractors take
+// (YouTube Music's included).
+function isYouTubeSearchPath(segments: string[], searchParams: URLSearchParams): boolean {
+	return (segments[0] === 'results' || segments[0] === 'search') && (searchParams.has('search_query') || searchParams.has('q'))
+}
+
+export function isYouTubeSearchLink(url: string): boolean {
+	const parsed = parseUrl(url)
+	return parsed !== null && isYouTubeHostname(parsed.hostname) && isYouTubeSearchPath(youtubePathSegments(parsed), parsed.searchParams)
+}
+
+export function classifyUrlIntent(url: string): UrlIntent {
+	const parsed = parseUrl(url)
+	if (!parsed || !isYouTubeHostname(parsed.hostname)) return {kind: 'unknown', url}
+
+	const host = parsed.hostname.toLowerCase()
+	const segments = youtubePathSegments(parsed)
+	const hasList = parsed.searchParams.has('list')
+	const hasConcreteVideo = isYouTubeVideoPath(host, segments, parsed.searchParams)
+
+	// A clip is one video even with a list: yt-dlp's clip extractor ignores it.
+	if (hasConcreteVideo && segments[0] === 'clip') return {kind: 'obvious-single', url, site: 'youtube'}
+	// A video with any list names both: a Mix (`RD…`) and a
+	// YouTube Music playlist (`RDCLAK…`) included. Each entry point decides.
+	if (hasConcreteVideo && hasList) return {kind: 'mixed', url, reason: 'youtube-video-with-list'}
+	if (isYouTubeSearchPath(segments, parsed.searchParams)) return {kind: 'obvious-collection', url, collection: 'search'}
+	if (isYouTubeChannelPath(segments)) return {kind: 'obvious-collection', url, collection: 'channel'}
+	if (isYouTubeBrowseCollectionPath(segments)) return {kind: 'obvious-collection', url, collection: 'playlist'}
+	if (hasList) return {kind: 'obvious-collection', url, collection: 'playlist'}
+	if (hasConcreteVideo) return {kind: 'obvious-single', url, site: 'youtube'}
+	return {kind: 'unknown', url}
+}
+
+// The kind of list a YouTube link names beside its video, or null when it
+// names only one of them (or is not YouTube). The download controls read it to
+// offer This video beside the list.
+export function videoListKind(url: string): ListKind | null {
+	return classifyUrlIntent(url).kind === 'mixed' ? listKindForUrl(url) : null
+}
+
+// Bulk URLs' reading of a link. Bulk is out of the video-or-list question: a
+// link that was Radio before stays the video alone there, with its id and
+// label, while a plain mixed link still diverts the batch to the Bulk review.
+export function classifyBulkUrlIntent(url: string): UrlIntent {
+	const intent = classifyUrlIntent(url)
+	if (intent.kind !== 'mixed') return intent
+	const parsed = parseUrl(url)
+	return parsed && isFormerRadioLink(parsed.searchParams) ? {kind: 'obvious-single', url, site: 'youtube'} : intent
+}
+
+export function isObviousSingleUrlIntent(intent: UrlIntent): intent is Extract<UrlIntent, {kind: 'obvious-single'}> {
+	return intent.kind === 'obvious-single'
+}
+
+export function isMixedUrlIntent(intent: UrlIntent): intent is Extract<UrlIntent, {kind: 'mixed'}> {
+	return intent.kind === 'mixed'
+}
+
+/**
+ * Whether this URL addresses a set of videos rather than one video.
+ *
+ * A download job always runs with `--no-playlist`, but yt-dlp defines that flag
+ * as "download only the video, if the URL refers to a video *and* a playlist" —
+ * so on a bare `/playlist?list=…`, `@channel` or `/results?search_query=…` it is
+ * inert and yt-dlp fetches every entry under the one filename the job carries.
+ * A video-with-list URL is deliberately excluded: there `--no-playlist` does
+ * exactly what it says.
+ *
+ * This is a lower bound, not a decision procedure. It reads URL shape only, so
+ * containers with no distinguishing shape (`music.youtube.com/browse/MPRE…`) read
+ * as `unknown` and pass. Those are caught at probe time instead, by id prefix.
+ */
+export function isCollectionUrl(url: string): boolean {
+	return classifyUrlIntent(url).kind === 'obvious-collection'
+}
+
+export function urlIntentHomeLabel(intent: UrlIntent): UrlIntentHomeLabel {
+	if (intent.kind === 'obvious-single') return 'Single URL'
+	if (intent.kind === 'mixed') return 'Mixed URL'
+	if (intent.kind === 'obvious-collection') {
+		if (intent.collection === 'playlist') return 'Playlist URL'
+		if (intent.collection === 'channel') return 'Channel URL'
+		return 'Search URL'
+	}
+	return 'URL'
+}
+
+export function urlIntentBulkLabel(intent: UrlIntent): BulkUrlKind {
+	if (intent.kind === 'obvious-single') return 'single'
+	if (intent.kind === 'mixed') return 'mixed'
+	if (intent.kind === 'obvious-collection') return intent.collection
+	return 'unknown'
+}
+
+// Every video path shape above except `/clip/`, whose slug identifies the clip
+// rather than the video — the real id only arrives with the probe metadata.
+// Returning null keeps a clip slug out of `{id}` filenames and `[videoId]` file
+// matching instead of seeding them with something that was never a video id.
+const YOUTUBE_ID_BEARING_PREFIXES = new Set(['shorts', 'live', 'embed', 'v', 'e'])
+
+export function extractUrlIntentYouTubeVideoId(intent: UrlIntent): string | null {
+	if (intent.kind !== 'obvious-single' || intent.site !== 'youtube') return null
+	return youtubeLinkVideoId(intent.url)
+}
+
+// The video a YouTube link names, whether or not it also names a list.
+export function youtubeLinkVideoId(url: string): string | null {
+	const parsed = parseUrl(url)
+	if (!parsed || !isYouTubeHostname(parsed.hostname)) return null
+
+	const host = parsed.hostname.toLowerCase()
+	const segments = youtubePathSegments(parsed)
+	if (host === 'youtu.be') return segments[0] ?? null
+	if (segments[0] === 'watch') return parsed.searchParams.get('v')
+	if (YOUTUBE_ID_BEARING_PREFIXES.has(segments[0] ?? '')) return segments[1] ?? null
+	return null
+}
+
+// A Bulk row's placeholder label, read as Bulk URLs reads the link.
+export function deriveUrlIntentLabel(url: string): string | null {
+	const parsed = parseUrl(url)
+	if (!parsed) return null
+
+	const videoId = extractUrlIntentYouTubeVideoId(classifyBulkUrlIntent(url))
+	if (videoId) return `YouTube ${videoId}`
+
+	const path = parsed.pathname.replace(/\/+$/g, '').split('/').filter(Boolean).slice(-2).join('/')
+	return path ? `${parsed.hostname}/${path}` : parsed.hostname
+}

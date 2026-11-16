@@ -1,0 +1,795 @@
+import path from 'node:path'
+import fs from 'node:fs'
+import os from 'node:os'
+import {app, BrowserWindow, clipboard, dialog, Menu, nativeTheme, powerMonitor, safeStorage} from 'electron'
+import log from 'electron-log/main.js'
+import {IPC_CHANNELS} from '@shared/ipc.js'
+import type {GraphicsPolicy} from '@shared/types.js'
+import {TrayManager} from '@main/services/TrayManager.js'
+import {mainT} from '@main/i18n.js'
+import {installAppMenu} from '@main/installAppMenu.js'
+import {pickLanguage, pickSystemLanguage} from '@shared/i18n/language.js'
+import type {SupportedLang} from '@shared/i18n/types.js'
+import {resolvePlaylistProbeLimit} from '@shared/networkPacing.js'
+import {registerIpcHandlers} from '@main/ipc/registerIpcHandlers.js'
+import {registerLocalClientHandlers} from '@main/ipc/localClientHandlers.js'
+import {registerUpdaterHandlers} from '@main/ipc/registerUpdaterHandlers.js'
+import {counterscaleSender, createHeartbeat, HEARTBEAT_SITE_ID, heartbeatUrl, osLocale} from '@main/services/heartbeat.js'
+import {holdQuitForWarmupReport, startWarmupReporting, warmupReportCollector} from '@main/warmupReporting.js'
+import {sharedQuitHooks} from '@main/sharedQuitHooks.js'
+import {detectInstallChannel} from '@main/installChannel.js'
+import {installChannelArg, systemLanguageArg} from '@shared/runtimeInfo.js'
+import {BinaryManager} from '@main/services/BinaryManager.js'
+import {buildGraphicsPolicy, isGpuAccessDenied} from '@main/services/GraphicsPolicy.js'
+import {DownloadService} from '@main/services/DownloadService.js'
+import {ExploreSessionService} from '@main/services/ExploreSessionService.js'
+import {ExploreViewHost} from '@main/services/explore/ExploreViewHost.js'
+import {ExploreEventBridge} from '@main/services/explore/ExploreEventBridge.js'
+import {exploreLinkMenuTemplate} from '@main/services/explore/exploreLinkMenu.js'
+import {ExploreAdBlocker} from '@main/services/explore/ExploreAdBlocker.js'
+import {loadFilterListEngine, loadPrebuiltEngine, refreshPrebuiltEngine} from '@main/services/explore/exploreAdBlockEngine.js'
+import {EXPLORE_ADBLOCK_PRELOAD_FILE} from '@main/services/explore/exploreAdBlockPreload.js'
+import {siteById} from '@shared/sites/index.js'
+import {EXPLORE_SIGN_IN_PAGES} from '@shared/sites/signInPages.js'
+import {createExploreGate} from '@main/services/exploreGate.js'
+import {SignedInPacer} from '@main/services/SignedInPacer.js'
+import {signedInPacingFor} from '@shared/sites/signedInPacing.js'
+import {LaunchGate} from '@main/services/LaunchGate.js'
+import {createExploreSignIns} from '@main/services/exploreSignIns.js'
+import {QueueService} from '@main/services/QueueService.js'
+import {ProbeService} from '@main/services/ProbeService.js'
+import {fetchHeadLength, lookUpMissingSizes} from '@main/services/formatSizeLookup.js'
+import {nonEmpty} from '@shared/format.js'
+import type {YtDlpFormat} from 'yt-dlp-bridge/info'
+import {ProbeInfoJsonCache} from '@main/services/ProbeInfoJsonCache.js'
+import {TokenService} from '@main/services/TokenService.js'
+import {YtDlp} from '@main/services/YtDlp.js'
+import {SiteRequestState} from '@main/services/SiteRequestState.js'
+import {ProbeSlots} from '@main/services/ProbeSlots.js'
+import {proxyRouteKey} from '@main/utils/proxyUrl.js'
+import {RecentJobsStore} from '@main/stores/RecentJobsStore.js'
+import {SettingsStore} from '@main/stores/SettingsStore.js'
+import {QueueStore} from '@main/stores/QueueStore.js'
+import {PlaylistManifestStore} from '@main/stores/PlaylistManifestStore.js'
+import {writePlaylistM3u} from '@main/services/playlistM3u.js'
+import {collectLiveTempDirs, sweepStaleTempDirs} from '@main/services/download/startupTempSweep.js'
+import {ClipboardWatcher, watcherWindowFromBrowserWindow} from '@main/services/ClipboardWatcher.js'
+import {HotkeyService, hotkeyWindowFromBrowserWindow, electronShortcutRegistry} from '@main/services/HotkeyService.js'
+import {createHotkeyOsNotifier} from '@main/services/hotkeyOsNotifier.js'
+import {routeHotkeyOutcome} from '@main/services/hotkeyFeedback.js'
+import {createIntakeService} from '@main/intake/createIntakeService.js'
+import {binaryReadiness} from '@main/control/binaryReadiness.js'
+import {FileLocalClientStore, LOCAL_CLIENTS_FILE_NAME} from '@main/control/clients/localClientStore.js'
+import {safeStorageCipher} from '@main/control/clients/secretCipher.js'
+import {autoAllowsClients, localClientCipher, startAgentControl, stopAgentControlOnQuit} from '@main/control/startAgentControl.js'
+import {HiddenWindowTokenProvider} from '@main/token/providers/HiddenWindowTokenProvider.js'
+import {configureLogFile, mainLogPath} from '@main/utils/logFile.js'
+import {applyUserDataOverride} from '@main/userDataOverride.js'
+import {currentRuntimeFacts, describeSessionContext} from '@main/utils/sessionContext.js'
+import {MockTokenProvider} from '@main/token/providers/MockTokenProvider.js'
+import {DEFAULT_CONCURRENT_PROBES, defaultAppSettings, DEFAULTS, NORMAL_LANE_CAP, WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT, WINDOW_DEFAULT_WIDTH, WINDOW_DEFAULT_HEIGHT, WINDOWS_APP_USER_MODEL_ID} from '@shared/constants.js'
+import {readSmokeUrl, runSmokeMode} from '@main/smoke.js'
+import {readDownloadSmokeConfig} from '@main/downloadSmokeConfig.js'
+import {reportDownloadSmokeConfigError, runDownloadSmokeMode} from '@main/downloadSmoke.js'
+import {readRuntimeSmokeEnabled, runRuntimeSmokeMode, exitWithCode} from '@main/runtimeSmoke.js'
+import {createQuitGate} from '@main/quitGate.js'
+import {decideCloseAction, decideRendererCrashAction, normalizeCloseBehavior} from '@main/windowLifecycle.js'
+import {applyNativeThemeSource, resolveMainWindowBackgroundColor, watchSystemThemeBackground} from '@main/windowPresentation.js'
+import {registerPreloadDiagnostics, resolveMainWindowPreloadPath} from '@main/preloadDiagnostics.js'
+import {registerResponsivenessDiagnostics} from '@main/windowResponsiveness.js'
+import {isHeadlessWindowRequested, resolveE2eHarnessMode} from '@main/e2eHarness.js'
+import {attachLinkInbox} from '@main/linkScheme/attachLinkInbox.js'
+import {registerLinkScheme} from '@main/linkScheme/registerLinkScheme.js'
+import {watchInitialGpuInfoUpdate} from '@main/gpuInfoReadiness.js'
+import {applyChromiumSwitches, applyChromiumSwitchesFromEnv, chromiumSwitchesForRuntime, chromiumSwitchLogSummary} from '@main/chromiumSwitches.js'
+import contextMenu from 'electron-context-menu'
+import windowStateKeeper from 'electron-window-state'
+
+log.initialize()
+
+// Settle the profile and point electron-log at its main.log before the first
+// log line. Otherwise early lines go to electron-log's own default file: the
+// real install's main.log on Windows even when ELECTRON_USER_DATA moves this
+// run elsewhere, and a separate ~/Library/Logs file on macOS that bug reports
+// never include. Session context is read lazily, so a rotation before the
+// stores exist says so instead of guessing.
+const runtimeFacts = currentRuntimeFacts(app.getVersion())
+let contextSources: {settingsStore: SettingsStore; tokenService: TokenService} | null = null
+const sessionContext = (): Record<string, unknown> => describeSessionContext(runtimeFacts, contextSources?.settingsStore.getSync() ?? null, contextSources?.tokenService.lastWarmUp() ?? null)
+const userDataPath = applyUserDataOverride(app, process.env)
+configureLogFile(log.transports.file, {logPath: mainLogPath(userDataPath), onRotated: () => log.info('Log file rotated', sessionContext())})
+
+// Catch fatal main-process errors that would otherwise crash silently before
+// any window appears — without these, pre-ready bugs leave no diagnostic trail.
+// Deliberately non-fatal: killing the app on every uncaught main-process error
+// would turn survivable faults into a hard crash for the user. The phase marker
+// is what makes the log actionable — "died before the window existed" and
+// "threw during a download" are very different bugs that otherwise look alike.
+let lifecyclePhase: 'pre-ready' | 'ready' = 'pre-ready'
+process.on('uncaughtException', err => {
+	log.error('uncaughtException', {phase: lifecyclePhase}, err)
+})
+process.on('unhandledRejection', reason => {
+	log.error('unhandledRejection', {phase: lifecyclePhase}, reason)
+})
+
+// Log platform identity at top-level (NOT inside whenReady) so a pre-ready
+// hang still produces a log line we can read in bug reports.
+log.info('boot', {platform: process.platform, arch: process.arch, release: os.release(), electron: process.versions.electron, chrome: process.versions.chrome, node: process.versions.node, argv: process.argv.slice(1)})
+
+const isMockBackend = process.env.MOCK_BACKEND === '1'
+// Throwing at module scope leaves the exit code to module-evaluation semantics.
+// E2E-only path, but a harness that misconfigures itself should say so and exit
+// non-zero rather than fail in a way the runner has to guess at.
+const e2eMode = ((): ReturnType<typeof resolveE2eHarnessMode> => {
+	try {
+		return resolveE2eHarnessMode(process.env, {isPackaged: app.isPackaged})
+	} catch (err) {
+		log.error('E2E harness configuration is invalid', err)
+		app.exit(1)
+		throw err
+	}
+})()
+const gpuMode = process.env.ARROXY_GPU_MODE
+
+for (const commandLineSwitch of e2eMode.commandLineSwitches) {
+	app.commandLine.appendSwitch(commandLineSwitch)
+}
+
+const runtimeChromiumSwitches = applyChromiumSwitches(chromiumSwitchesForRuntime({platform: process.platform, release: os.release()}), app.commandLine)
+if (runtimeChromiumSwitches.length > 0) {
+	log.info('runtime Chromium switches applied', {switches: runtimeChromiumSwitches})
+}
+
+const envChromiumSwitches = applyChromiumSwitchesFromEnv(process.env, app.commandLine)
+if (envChromiumSwitches.length > 0) {
+	log.info('env Chromium switches applied', chromiumSwitchLogSummary(envChromiumSwitches))
+}
+
+if (gpuMode === 'force') {
+	const switches = applyChromiumSwitches(['ignore-gpu-blocklist', 'enable-gpu-rasterization'], app.commandLine)
+	log.info('gpu mode applied', {mode: gpuMode, switches})
+} else if (gpuMode === 'swiftshader') {
+	const switches = applyChromiumSwitches(['ignore-gpu-blocklist', 'enable-unsafe-swiftshader', 'use-angle=swiftshader'], app.commandLine)
+	log.info('gpu mode applied', {mode: gpuMode, switches})
+} else if (gpuMode === 'software') {
+	app.disableHardwareAcceleration()
+	log.info('gpu mode applied', {mode: gpuMode})
+} else if (gpuMode && gpuMode !== 'auto') {
+	log.warn('unknown ARROXY_GPU_MODE ignored', {value: gpuMode})
+}
+
+// Pre-flight runtime args. Lets users recover from GPU/driver hangs that prevent
+// the window from ever appearing — they edit argv.json by hand, no UI needed.
+// Mirrors VS Code's `argv.json` pattern.
+try {
+	const argvPath = path.join(userDataPath, 'argv.json')
+	if (fs.existsSync(argvPath)) {
+		const raw = fs.readFileSync(argvPath, 'utf8')
+		const cfg = JSON.parse(raw) as {'disable-hardware-acceleration'?: boolean}
+		if (cfg['disable-hardware-acceleration']) {
+			if (gpuMode === 'force' || gpuMode === 'swiftshader') {
+				log.info('argv.json hardware acceleration disable ignored because ARROXY_GPU_MODE overrides it', {mode: gpuMode})
+			} else {
+				app.disableHardwareAcceleration()
+				log.info('argv.json applied', {'disable-hardware-acceleration': true})
+			}
+		}
+	}
+} catch (err) {
+	log.warn('argv.json read failed', err)
+}
+
+// Windows toast notifications are matched against the AUMID the process
+// declares, not the bundle metadata. Without this, Electron runs under the
+// implicit executable-derived id while the NSIS installer registered the Start
+// Menu shortcut under `com.arroxy.app`, so the ids never match and the OS drops
+// every toast without raising an error. Must run before the first Notification;
+// safe pre-`whenReady`, and a no-op off Windows.
+app.setName('Klip')
+
+if (process.platform === 'win32') {
+	app.setAppUserModelId(WINDOWS_APP_USER_MODEL_ID)
+}
+
+// Sandbox every BrowserWindow without per-window opt-in. Matches vscode +
+// element-desktop. Must run before BrowserWindow construction; safe to call
+// pre-`whenReady`. contextIsolation + nodeIntegration:false stay declared on
+// each BrowserWindow because they're orthogonal guarantees that
+// app.enableSandbox() does not subsume.
+app.enableSandbox()
+
+const hasSingleInstanceLock = app.requestSingleInstanceLock()
+
+if (!hasSingleInstanceLock) {
+	app.quit()
+}
+
+// Listens before `ready`: macOS sends the link that launched the app early,
+// and a second launch can arrive while startup still awaits its reads.
+const linkInbox = hasSingleInstanceLock
+	? registerLinkScheme({
+			onOpenUrl: listener =>
+				app.on('open-url', (event, url) => {
+					event.preventDefault()
+					listener(url)
+				}),
+			onSecondInstance: listener => app.on('second-instance', (_event, argv) => listener(argv)),
+			argv: process.argv,
+			log
+		})
+	: null
+
+const GPU_INFO_BUDGET_MS = 2_500
+const HEARTBEAT_CHECK_INTERVAL_MS = 60 * 60 * 1000
+
+// Attach now so an early `gpu-info-update` cannot be missed; the budget only
+// starts at app-ready (see whenReady below) so it measures Chromium's reporting
+// latency rather than however long the main process took to boot.
+const gpuInfoReadiness = hasSingleInstanceLock ? watchInitialGpuInfoUpdate(app) : null
+
+function createMainWindow(backgroundColor: string, systemLanguage: SupportedLang): BrowserWindow {
+	const winState = windowStateKeeper({defaultWidth: WINDOW_DEFAULT_WIDTH, defaultHeight: WINDOW_DEFAULT_HEIGHT})
+	const preloadPath = resolveMainWindowPreloadPath(import.meta.dirname)
+
+	// Electron has no Chrome-style `--headless`, and xvfb only helps on Linux —
+	// on macOS every E2E launch otherwise pops a real window and steals focus.
+	// An unshown window still loads, renders, and accepts CDP input, so Playwright
+	// drives it exactly the same; it just never appears or activates.
+	// Background throttling has to be off or a hidden window's timers stall and
+	// progress-driven waits time out. This covers the whole fixture harness,
+	// not just headless: CI runs the suite visible (xvfb) and the hidden-window
+	// specs hide() mid-run — with throttling on, the starved runner stalls the
+	// renderer pipeline past any sane assertion window.
+	const headless = isHeadlessWindowRequested(process.env)
+
+	const mainWindow = new BrowserWindow({
+		x: winState.x,
+		y: winState.y,
+		width: winState.width,
+		height: winState.height,
+		minWidth: WINDOW_MIN_WIDTH,
+		minHeight: WINDOW_MIN_HEIGHT,
+		title: 'Klip',
+		frame: false,
+		titleBarStyle: 'hidden',
+		autoHideMenuBar: true,
+		backgroundColor,
+		show: !headless,
+		webPreferences: {preload: preloadPath, contextIsolation: true, nodeIntegration: false, backgroundThrottling: !(e2eMode.enabled || headless), additionalArguments: [installChannelArg(detectInstallChannel(app.getName())), systemLanguageArg(systemLanguage)]}
+	})
+
+	registerPreloadDiagnostics(mainWindow, preloadPath)
+	registerResponsivenessDiagnostics(mainWindow, {gpuFeatureStatus: () => app.getGPUFeatureStatus()})
+	winState.manage(mainWindow)
+
+	mainWindow.on('maximize', () => mainWindow.webContents.send(IPC_CHANNELS.windowMaximizedChange, true))
+	mainWindow.on('unmaximize', () => mainWindow.webContents.send(IPC_CHANNELS.windowMaximizedChange, false))
+
+	mainWindow.webContents.setWindowOpenHandler(() => ({action: 'deny'}))
+	mainWindow.webContents.on('will-navigate', event => {
+		event.preventDefault()
+	})
+
+	if (process.env.ELECTRON_RENDERER_URL) {
+		const rendererUrl = new URL(process.env.ELECTRON_RENDERER_URL)
+		void mainWindow.loadURL(rendererUrl.toString())
+	} else {
+		void mainWindow.loadFile(path.join(import.meta.dirname, '../renderer/index.html'))
+	}
+
+	return mainWindow
+}
+
+if (hasSingleInstanceLock) {
+	// macOS keeps a hidden window's app in the dock and lets it steal focus on
+	// activate. 'accessory' makes the process background-only, so an E2E run
+	// cannot pull focus away from whatever the developer is doing.
+	if (isHeadlessWindowRequested(process.env) && process.platform === 'darwin') {
+		app.setActivationPolicy('accessory')
+	}
+
+	void app.whenReady().then(async () => {
+		lifecyclePhase = 'ready'
+		if (process.platform === 'darwin' && !isHeadlessWindowRequested(process.env)) {
+			app.dock?.setIcon(path.join(import.meta.dirname, '../../build/icon.png'))
+		}
+		gpuInfoReadiness?.startBudget(GPU_INFO_BUDGET_MS)
+		log.info('Session started', sessionContext())
+		let graphicsPolicyPromise: Promise<GraphicsPolicy> | null = null
+		const graphicsPolicyProvider = async (): Promise<GraphicsPolicy> => {
+			graphicsPolicyPromise ??= (async () => {
+				const gpuInfoUpdated = (await gpuInfoReadiness?.whenUpdated) ?? false
+				const gpuFeatureStatus: Partial<Record<string, string>> = {}
+				for (const [feature, status] of Object.entries(app.getGPUFeatureStatus())) {
+					if (typeof status === 'string') gpuFeatureStatus[feature] = status
+				}
+				log.info('gpu features', {gpuInfoUpdated, status: gpuFeatureStatus})
+				let gpuInfo: unknown
+				try {
+					gpuInfo = await app.getGPUInfo('basic')
+					log.info('gpu info', gpuInfo)
+				} catch (err: unknown) {
+					if (isGpuAccessDenied(err)) log.info('gpu info unavailable', {reason: err.message})
+					else log.warn('gpu info failed', err)
+					gpuInfo = undefined
+				}
+				const policy = buildGraphicsPolicy({isPackaged: app.isPackaged, env: process.env, featureStatus: gpuFeatureStatus, featureStatusUsable: gpuInfoUpdated, gpuInfo, gpuInfoUnavailable: gpuInfo === undefined})
+				log.info('graphics policy', policy)
+				return policy
+			})()
+			return graphicsPolicyPromise
+		}
+
+		const baseSettings = defaultAppSettings(app.getPath('downloads'))
+		const settingsStore = new SettingsStore(userDataPath, e2eMode.applyAppSettingsDefaults(baseSettings))
+		let initialSettings = await settingsStore.get()
+		const e2eShouldDisableClipboardWatch = e2eMode.enabled && !e2eMode.allowClipboardWatch && initialSettings.common.clipboardWatchEnabled
+		if (e2eMode.enabled && (e2eShouldDisableClipboardWatch || initialSettings.common.analyticsEnabled !== false)) {
+			initialSettings = await settingsStore.update({common: {clipboardWatchEnabled: e2eMode.allowClipboardWatch ? initialSettings.common.clipboardWatchEnabled : false, analyticsEnabled: false}})
+		}
+		const isDev = !!process.env.ELECTRON_RENDERER_URL || isMockBackend || e2eMode.enabled || !!process.env.ARROXY_SMOKE_URL || readRuntimeSmokeEnabled()
+		// The OS's own preference list, not app.getLocale(): Chromium clamps that to the
+		// locales it ships, so km, my, uz, ps and om all read as en-US.
+		const systemLanguage = pickSystemLanguage(app.getPreferredSystemLanguages())
+		const languageRef: {current: SupportedLang} = {current: pickLanguage(initialSettings.common.language ?? systemLanguage)}
+		const recentJobsStore = new RecentJobsStore(userDataPath)
+		const queueStore = new QueueStore(userDataPath, {playlistLoadLimit: () => resolvePlaylistProbeLimit(settingsStore.getSync().common)})
+		const playlistManifestStore = new PlaylistManifestStore(userDataPath)
+		const probeInfoJsonCache = new ProbeInfoJsonCache(userDataPath)
+		await probeInfoJsonCache.sweepExpired()
+		const binaryManager = new BinaryManager(userDataPath, {overridesProvider: () => settingsStore.getSync().common.binaryOverrides})
+
+		// Packaged runtime smoke mode — exercises Electron-as-Node and managed
+		// yt-dlp before any renderer window or queue lifecycle can interfere.
+		if (readRuntimeSmokeEnabled()) {
+			const code = await runRuntimeSmokeMode({binaryManager})
+			exitWithCode(code)
+			return
+		}
+
+		// Download smoke — production media request with one input varied, stops
+		// at format selection. Runs before the token service and queue exist so
+		// it cannot start the user's persisted downloads.
+		const downloadSmoke = readDownloadSmokeConfig(process.env)
+		if (downloadSmoke) {
+			const code = downloadSmoke.ok ? await runDownloadSmokeMode({config: downloadSmoke.config, binaryManager, settingsStore, e2eMode}) : reportDownloadSmokeConfigError(downloadSmoke.error)
+			exitWithCode(code)
+			return
+		}
+
+		const tokenProvider = isMockBackend || e2eMode.useMockTokenProvider ? new MockTokenProvider() : new HiddenWindowTokenProvider(() => settingsStore.getSync().common.proxyUrl)
+		const tokenService = new TokenService(tokenProvider)
+		contextSources = {settingsStore, tokenService}
+		log.info('Session context', sessionContext())
+		// Live settings on every read: a changed proxy or UA token is applied the next time the Explore session is requested, no restart needed.
+		const exploreSession = new ExploreSessionService(() => {
+			const {exploreUserAgent, proxyUrl} = settingsStore.getSync().common
+			return {uaToken: exploreUserAgent, proxyUrl}
+		})
+		// Jars never outlive their spawn; anything left is from a crashed session.
+		// Awaited (it never rejects and is cheap) so the sweep is over before the
+		// queue's boot-time spawn pass can write a live jar it would delete.
+		await exploreSession.sweepJars()
+		if (e2eMode.exploreCookies) await exploreSession.seedForE2e(e2eMode.exploreCookies)
+		const signIns = await createExploreSignIns({userDataPath, session: exploreSession, settings: () => settingsStore.getSync().common, ...(e2eMode.extraSignIns ? {extraSignIns: e2eMode.extraSignIns} : {})})
+		const exploreGate = createExploreGate({settings: settingsStore, session: exploreSession, suspects: signIns.suspects})
+		// One launch gate for the whole app: one rate-limit cooldown per site and network route,
+		// shared by probes, queued jobs and automatic retries, and the signed-in pacing of each site.
+		const launchGate = new LaunchGate({
+			cooldowns: new SiteRequestState({route: () => proxyRouteKey(settingsStore.getSync().common.proxyUrl)}),
+			signedIn: new SignedInPacer({
+				pacing: site => {
+					const pacing = signedInPacingFor(site, settingsStore.getSync().common.networkPacingPreset ?? 'balanced')
+					return e2eMode.exploreSpawnSpacingMs === undefined ? pacing : {...pacing, spacingMs: e2eMode.exploreSpawnSpacingMs, jitterMs: 0}
+				}
+			})
+		})
+		const ytDlp = new YtDlp(binaryManager, tokenService, settingsStore, {e2eMode, sessionJars: exploreSession, launchGate, sessionAuth: exploreGate})
+		const downloadService = new DownloadService(ytDlp, recentJobsStore, isMockBackend, undefined, {exploreGate, exploreSession, launchGate, signInEvidence: signIns.recordEvidence})
+		// Sizes a site leaves out come from one HEAD request per file. Not through a
+		// proxy (these requests would bypass it) and not under the E2E harness.
+		const formatSizes = isMockBackend || e2eMode.enabled ? undefined : (formats: readonly YtDlpFormat[], signal: AbortSignal) => (nonEmpty(settingsStore.getSync().common.proxyUrl?.trim()) ? Promise.resolve(new Map<string, number>()) : lookUpMissingSizes(formats, fetchHeadLength, signal))
+		// How many probes run at once: background ones wait their turn and wait out their site's cooldown.
+		const probeSlots = new ProbeSlots({backgroundLimit: initialSettings.common.concurrentProbes ?? DEFAULT_CONCURRENT_PROBES, cooldown: launchGate})
+		const probeService = new ProbeService(ytDlp, isMockBackend, probeInfoJsonCache, {exploreGate, exploreSession, slots: probeSlots, listingCharges: launchGate, startIdentity: signIns.decideStart, signInEvidence: signIns.recordEvidence, ...(formatSizes ? {formatSizes} : {})})
+		const queueService = new QueueService(queueStore, downloadService, undefined, undefined, {manifestStore: playlistManifestStore, writeM3u: writePlaylistM3u}, probeInfoJsonCache, launchGate, {decide: signIns.decideStart, onChange: listener => void signIns.onStartChange(listener)})
+		// Apply the persisted concurrency before init() runs its boot-time spawn
+		// pass, so a restart honors the user's limit instead of falling back to
+		// the built-in cap for the first batch.
+		queueService.setConcurrentDownloads(initialSettings.common.concurrentDownloads ?? NORMAL_LANE_CAP)
+		// Must precede init() too — init re-arms retries persisted across the
+		// restart, and does nothing unless auto-retry is already configured.
+		queueService.setAutoRetryAttempts(initialSettings.common.autoRetryAttempts ?? 0)
+		queueService.setAutoRemoveCompleted(initialSettings.common.autoRemoveCompleted ?? false)
+		await queueService.init()
+
+		// Reclaim scratch directories a crashed or force-quit session left behind.
+		// Deliberately not awaited: nothing downstream depends on it, and an
+		// output folder on a slow network mount must not hold up the window. The
+		// keep set is read from the queue that init() just restored, so it is
+		// complete before the sweep starts, and init()'s own boot-time spawn pass
+		// can only create directories that are seconds old — far inside the age
+		// gate that already protects a second running instance.
+		void sweepStaleTempDirs({outputDirs: [...queueService.snapshot().map(item => item.outputDir), initialSettings.common.defaultOutputDir], keep: collectLiveTempDirs(queueService.snapshot())})
+
+		// Headless smoke mode — exercises PoT scrape + retry ladder against real
+		// YouTube using production services, then exits. No window created.
+		const smokeUrl = readSmokeUrl()
+		if (smokeUrl) {
+			const code = await runSmokeMode({url: smokeUrl, binaryManager, tokenService, probeService, ytDlp})
+			tokenService.dispose()
+			exitWithCode(code)
+			return
+		}
+
+		await settingsStore.recordLaunch()
+		const collectorUrl = heartbeatUrl({isPackaged: app.isPackaged, isDev, envUrl: process.env.ARROXY_HEARTBEAT_URL})
+		if (collectorUrl && !e2eMode.disableAnalytics) {
+			const installChannel = detectInstallChannel(app.getName())
+			const heartbeat = createHeartbeat({
+				send: counterscaleSender(collectorUrl, HEARTBEAT_SITE_ID),
+				now: () => new Date(),
+				isEnabled: () => settingsStore.getSync().common.analyticsEnabled ?? true,
+				snapshot: () => ({appVersion: app.getVersion(), platform: process.platform, arch: process.arch, osVersion: process.getSystemVersion(), installChannel, appLocale: languageRef.current, osLocale: osLocale(app.getPreferredSystemLanguages(), app.getLocale())}),
+				history: () => {
+					const {firstHeartbeatDay, lastHeartbeatDay} = settingsStore.getSync().common
+					return {firstDay: firstHeartbeatDay, lastDay: lastHeartbeatDay}
+				},
+				hasEarlierInstall: () =>
+					binaryManager.hasManagedInstall().catch((error: unknown) => {
+						// The heartbeat then counts the install as existing; say why.
+						log.warn('Heartbeat could not read the binary cache', {error: error instanceof Error ? error.message : String(error)})
+						throw error
+					}),
+				record: history => settingsStore.recordHeartbeat(history),
+				onError: error => log.warn('Heartbeat skipped for today', {error: error instanceof Error ? error.message : String(error)}),
+				onSent: sent => log.info('Heartbeat sent', sent)
+			})
+			void heartbeat.maybeSend()
+			// Hourly re-check: a session left running in the tray is counted on each new UTC day.
+			setInterval(() => void heartbeat.maybeSend(), HEARTBEAT_CHECK_INTERVAL_MS).unref()
+		}
+		const warmupCollectorUrl = e2eMode.disableAnalytics ? undefined : warmupReportCollector(collectorUrl)
+		const warmupReporter = warmupCollectorUrl
+			? startWarmupReporting({
+					collectorUrl: warmupCollectorUrl,
+					userDataPath,
+					binaryManager,
+					isEnabled: () => settingsStore.getSync().common.analyticsEnabled ?? true,
+					context: () => ({appVersion: app.getVersion(), platform: process.platform, arch: process.arch, osLocale: osLocale(app.getPreferredSystemLanguages(), app.getLocale())})
+				})
+			: undefined
+		// One quit hold for everything that delays a quit, so none exits under another.
+		const quitHooks = sharedQuitHooks(app)
+		if (warmupReporter) holdQuitForWarmupReport(quitHooks, warmupReporter)
+
+		// Before the window exists, so the first paint and the Explore view agree with the saved theme.
+		applyNativeThemeSource(nativeTheme, initialSettings.common.uiTheme)
+		const mainWindow = createMainWindow(resolveMainWindowBackgroundColor(initialSettings.common.uiTheme, nativeTheme.shouldUseDarkColors), systemLanguage)
+
+		// Linux resolves the desktop colour scheme through xdg-desktop-portal over
+		// D-Bus, which is activated on demand, so a cold start can create the window
+		// before the answer arrives. Recording the value sampled at creation and any
+		// later correction (with its delay) is what makes a "wrong theme on first
+		// launch" report diagnosable from a user's log instead of guesswork.
+		log.info('theme:startup', {uiTheme: initialSettings.common.uiTheme ?? null, systemPrefersDark: nativeTheme.shouldUseDarkColors, themeSource: nativeTheme.themeSource, msSinceProcessStart: Math.round(process.uptime() * 1000)})
+		const stopThemeWatch = watchSystemThemeBackground(
+			mainWindow,
+			nativeTheme,
+			() => settingsStore.getSync().common.uiTheme,
+			systemPrefersDark => {
+				log.info('theme:systemChanged', {systemPrefersDark, uiTheme: settingsStore.getSync().common.uiTheme ?? null, msSinceProcessStart: Math.round(process.uptime() * 1000)})
+			}
+		)
+		mainWindow.on('closed', stopThemeWatch)
+
+		contextMenu({window: mainWindow.webContents, showSaveImageAs: true, showCopyImageAddress: true, showInspectElement: !app.isPackaged})
+
+		// Off until the user turns it on (isExploreAdBlockOn); nothing is loaded or fetched before then.
+		const {exploreAdBlockFilters} = e2eMode
+		const youtubeExplore = siteById('youtube').explore
+		const scriptletFreeDomains = youtubeExplore?.scriptletFreeDomains ?? []
+		const prebuiltLists = {session: exploreSession, cachePath: path.join(app.getPath('userData'), 'explore-adblock', 'engine.bin'), scriptletFreeDomains}
+		const exploreAdBlocker = new ExploreAdBlocker({
+			session: () => exploreSession.getSession(),
+			preloadPath: path.join(import.meta.dirname, EXPLORE_ADBLOCK_PRELOAD_FILE),
+			signInPages: EXPLORE_SIGN_IN_PAGES,
+			// The E2E harness's fixed filter list is never refreshed.
+			...(exploreAdBlockFilters === undefined ? {loadEngine: () => loadPrebuiltEngine(prebuiltLists), refreshEngine: () => refreshPrebuiltEngine(prebuiltLists)} : {loadEngine: () => loadFilterListEngine(exploreAdBlockFilters, scriptletFreeDomains)})
+		})
+		// Created lazily on first show; state changes reach the renderer through the event bridge.
+		const exploreEvents = new ExploreEventBridge(mainWindow)
+		const exploreView = new ExploreViewHost({
+			window: mainWindow,
+			session: exploreSession,
+			settings: () => settingsStore.getSync().common,
+			saveLastPage: url => void settingsStore.update({common: {exploreLastUrl: url}}),
+			adBlock: exploreAdBlocker,
+			homeUrlOverride: e2eMode.exploreHomeUrl,
+			idleUnloadDelayMs: e2eMode.exploreIdleUnloadMs,
+			isPackaged: app.isPackaged,
+			emit: state => exploreEvents.emit(state),
+			pointerEntered: () => exploreEvents.pointerInView(),
+			// Native, so it paints over the page; a link the flow cannot take only copies.
+			linkMenu: linkURL => {
+				const template = exploreLinkMenuTemplate(linkURL, {
+					profiles: () => settingsStore.getSync().profiles,
+					lang: () => languageRef.current,
+					playlistLimit: () => resolvePlaylistProbeLimit(settingsStore.getSync().common),
+					send: action => exploreEvents.linkAction(action),
+					copy: text => {
+						clipboard.writeText(text).catch((err: unknown) => log.warn('explore link menu could not copy the link', {error: err instanceof Error ? err.name : 'unknown'}))
+					}
+				})
+				if (template && !mainWindow.isDestroyed()) Menu.buildFromTemplate(template).popup({window: mainWindow})
+			}
+		})
+		// Only a sign-out the site confirmed during a download or a probe marks the view; gate refusals do not.
+		downloadService.onExploreVerifiedSignedOut(() => exploreView.markSignedOutAfterVerify())
+		probeService.onExploreVerifiedSignedOut(() => exploreView.markSignedOutAfterVerify())
+		exploreView.readSignedIn()
+
+		app.on('second-instance', () => {
+			if (mainWindow.isDestroyed()) return
+			if (mainWindow.isMinimized()) mainWindow.restore()
+			mainWindow.focus()
+		})
+
+		// Declare tray before the close handler so the handler can reference it.
+		let tray: TrayManager | null = null
+
+		mainWindow.on('close', event => {
+			// The approved quit closes the windows: let it, tray or not.
+			if (quitGate.approved) return
+			const hasTray = tray !== null
+
+			if (process.platform === 'darwin' || !hasTray) {
+				// No tray: allow if idle (the last window closing quits the app),
+				// else keep the window and let the quit gate ask.
+				if (downloadService.runningJobCount === 0) return
+				event.preventDefault()
+				app.quit()
+				return
+			}
+
+			// Tray present: always intercept; read persisted behavior async
+			event.preventDefault()
+			void settingsStore
+				.get()
+				.then(async settings => {
+					const action = decideCloseAction({platform: process.platform, hasTray, closeBehavior: normalizeCloseBehavior(settings.common.closeBehavior), runningCount: downloadService.runningJobCount})
+
+					if (action === 'hide') {
+						mainWindow.hide()
+						return
+					}
+					if (action === 'quit-direct') {
+						app.quit()
+						return
+					}
+					if (action === 'warn-and-quit') {
+						app.quit()
+						return
+					}
+
+					// 'ask-tray': active downloads present — offer the first-time tray dialog
+					const lang = languageRef.current
+					const {response, checkboxChecked} = await dialog.showMessageBox(mainWindow, {
+						type: 'question',
+						buttons: [mainT(lang, 'dialogs.closeToTray.hide'), mainT(lang, 'dialogs.closeToTray.quit')],
+						defaultId: 0,
+						cancelId: 1,
+						message: mainT(lang, 'dialogs.closeToTray.message'),
+						detail: mainT(lang, 'dialogs.closeToTray.detail'),
+						checkboxLabel: mainT(lang, 'dialogs.closeToTray.remember'),
+						checkboxChecked: false
+					})
+					const choice = response === 0 ? 'tray' : 'quit'
+					if (checkboxChecked) {
+						await settingsStore.update({common: {closeBehavior: choice}})
+					}
+					if (choice === 'tray') {
+						mainWindow.hide()
+					} else {
+						app.quit()
+					}
+				})
+				// preventDefault() above already vetoed this close. Without a fallback, a
+				// rejected settings read or dialog leaves the window permanently
+				// unclosable — the user clicks X and nothing at all happens. Hiding is the
+				// non-destructive recovery: nothing is lost and the tray brings it back.
+				.catch((err: unknown) => {
+					log.error('Close handler failed — hiding to tray instead', err)
+					if (!mainWindow.isDestroyed()) mainWindow.hide()
+				})
+		})
+
+		const clipboardWatcher = new ClipboardWatcher(watcherWindowFromBrowserWindow(mainWindow))
+		clipboardWatcher.setEnabled(initialSettings.common.clipboardWatchEnabled)
+		if (linkInbox) attachLinkInbox(linkInbox, mainWindow, {clipboard: clipboardWatcher, headless: isHeadlessWindowRequested(process.env)})
+
+		// `tray` is assigned further down, so read it lazily rather than capturing
+		// the null it holds right now.
+		const hotkeyOsNotifier = createHotkeyOsNotifier(mainWindow, {balloonHost: {displayBalloon: body => tray?.displayBalloon(body) ?? false}, installChannel: detectInstallChannel(app.getName())})
+		const hotkeyWindow = hotkeyWindowFromBrowserWindow(mainWindow)
+		// Intake runs in main for the window and the hotkey alike. The hotkey's
+		// outcomes are routed when they happen, by which time `hotkeyService`
+		// (created next, since it hands presses to this intake) exists.
+		const {
+			intake: intakeService,
+			hotkey: hotkeyIntake,
+			control: controlOutcomes
+		} = createIntakeService({
+			probeService,
+			queueService,
+			settingsStore,
+			playlistManifestStore,
+			languageRef,
+			mainWindow,
+			hotkeyFeedback: event => routeHotkeyOutcome(event, {lang: languageRef.current, window: hotkeyWindow, osNotifier: hotkeyOsNotifier, rendererReady: hotkeyService.isRendererReady()})
+		})
+		// Placeholder rows still probing when the app quit probe again, paced by
+		// the probe slots, once the window has reported its screen and folder.
+		void intakeService.resumePlaceholderProbes()
+		const hotkeyService = new HotkeyService(hotkeyWindow, hotkeyIntake, electronShortcutRegistry())
+		hotkeyService.apply(initialSettings.common.hotkeyEnabled, initialSettings.common.hotkeyAccelerator ?? DEFAULTS.hotkeyAccelerator)
+		// A future main-frame navigation/reload destroys the renderer listener.
+		// This event precedes loading, so attaching during the initial load cannot
+		// consume a late initial event and revoke a completed ready handshake.
+		mainWindow.webContents.on('did-start-navigation', (_event, _url, isInPlace, isMainFrame) => {
+			if (isMainFrame && !isInPlace) hotkeyService.setRendererReady(false)
+		})
+		if (e2eMode.enabled) {
+			// Lets the hotkey spec drive the registered-chord path directly —
+			// the OS owns real chords and contested-chord coverage stays manual.
+			;(globalThis as Record<string, unknown>).__arroxyHotkeyService = hotkeyService
+		}
+		// Keeps the tray item in sync with the chord's registration state; the
+		// tray may not exist yet (it is created later), hence the lazy read.
+		const syncHotkeyTrayItem = (): void => tray?.setHotkeyUsable(hotkeyService.getState().registered)
+		hotkeyService.onStateChange(syncHotkeyTrayItem)
+
+		// Every quit passes this gate (see quitGate.ts). Its before-quit listener
+		// is prepended so it runs before every hold on quitHooks, which skip a
+		// quit the gate holds.
+		const quitGate = createQuitGate({
+			runningCount: () => downloadService.runningJobCount,
+			askToQuit: async count => {
+				const lang = languageRef.current
+				const options = {
+					type: 'warning' as const,
+					buttons: [mainT(lang, 'dialogs.quitWithActiveDownloads.keep'), mainT(lang, 'dialogs.quitWithActiveDownloads.quit')],
+					defaultId: 0,
+					cancelId: 0,
+					message: mainT(lang, 'dialogs.quitWithActiveDownloads.message', {count}),
+					detail: mainT(lang, 'dialogs.quitWithActiveDownloads.continueDetail')
+				}
+				const {response} = await (mainWindow.isDestroyed() ? dialog.showMessageBox(options) : dialog.showMessageBox(mainWindow, options))
+				return response === 1
+			},
+			suspendQueue: () => {
+				// Probes stop with the app (their yt-dlp would outlive it); their rows stay probing and resume at the next launch.
+				intakeService.stopForExit()
+				probeService.closeForExit()
+				return queueService.suspendForExit()
+			},
+			dispose: () => {
+				tray?.destroy()
+				tray = null
+				clipboardWatcher.dispose()
+				hotkeyService.dispose()
+				tokenService.dispose()
+			},
+			quit: () => app.quit(),
+			log: {info: (message, meta) => (meta ? log.info(message, meta) : log.info(message)), warn: (message, meta) => (meta ? log.warn(message, meta) : log.warn(message))}
+		})
+		app.prependListener('before-quit', (event: Electron.Event) => quitGate.onBeforeQuit(event))
+		// The OS ending the session never waits on a dialog. macOS and Linux
+		// announce it here; Windows sends no before-quit for it, only these.
+		// preventDefault makes the OS wait (Linux keeps logind's delay inhibitor)
+		// until the gate's app.quit(); Electron's typings omit the event.
+		powerMonitor.on('shutdown', (event?: Electron.Event) => {
+			event?.preventDefault()
+			quitGate.sessionEnding()
+		})
+		mainWindow.on('query-session-end', () => quitGate.sessionEnding())
+		mainWindow.on('session-end', () => quitGate.sessionEnding())
+
+		const appMenu = installAppMenu({settingsStore, languageRef, getWindow: () => mainWindow})
+
+		registerIpcHandlers({
+			mainWindow,
+			binaryManager,
+			downloadService,
+			probeService,
+			settingsStore,
+			queueService,
+			tokenService,
+			languageRef,
+			clipboardWatcher,
+			hotkeyService,
+			playlistManifestStore,
+			exploreView,
+			launchGate,
+			probeSlots,
+			suspectSignIns: signIns.suspects,
+			graphicsPolicyProvider,
+			intakeService,
+			refreshAppMenu: appMenu.refresh,
+			warmupObserver: warmupReporter
+		})
+
+		if (!e2eMode.disableUpdater) {
+			registerUpdaterHandlers(mainWindow, quitGate)
+		}
+
+		// Agent control (release flag agentControl): the local socket arroxy-mcp drives the app through.
+		// Building the store and cipher touches nothing; with the flag off neither is used.
+		const controlGate = {e2eHarness: e2eMode.enabled, isPackaged: app.isPackaged}
+		const clientCipher = localClientCipher(controlGate, () => safeStorageCipher(safeStorage, process.platform))
+		// Before agent control starts, so the window's calls answer not_running until the clients load, and after a failed start. Registers nothing with the flag off.
+		const localClients = registerLocalClientHandlers(mainWindow)
+		const agentControl = startAgentControl({
+			queueService,
+			intake: intakeService,
+			outcomes: controlOutcomes,
+			settingsStore,
+			launchGate,
+			binaries: binaryReadiness(binaryManager),
+			languageRef,
+			userDataDir: userDataPath,
+			appVersion: app.getVersion(),
+			platform: process.platform,
+			env: process.env,
+			autoAllowClients: autoAllowsClients(controlGate, process.env),
+			clientStore: new FileLocalClientStore({filePath: path.join(userDataPath, LOCAL_CLIENTS_FILE_NAME), cipher: clientCipher, log: log.scope('control')}),
+			secretsStorable: () => clientCipher.available(),
+			localClients,
+			log: log.scope('control')
+		})
+		stopAgentControlOnQuit(quitHooks, agentControl, log.scope('control'))
+
+		app.on('render-process-gone', (_event, webContents, details) => {
+			// An Explore page crash is the open web's, not the app's: the view shows
+			// its own error and logs it.
+			if (exploreView.ownsWebContents(webContents)) return
+			log.error(`Renderer process gone: reason=${details.reason} exitCode=${details.exitCode}`)
+			if (details.reason === 'clean-exit') return
+			const isMainWindow = webContents === mainWindow.webContents
+			if (isMainWindow) hotkeyService.setRendererReady(false)
+			if (!isMainWindow) return
+			const lang = languageRef.current
+			const opts = {type: 'error' as const, buttons: [mainT(lang, 'dialogs.rendererCrashed.reload'), mainT(lang, 'dialogs.rendererCrashed.quit')], defaultId: 0, cancelId: 1, message: mainT(lang, 'dialogs.rendererCrashed.message'), detail: mainT(lang, 'dialogs.rendererCrashed.detail', {reason: details.reason})}
+			void (mainWindow.isDestroyed() ? dialog.showMessageBox(opts) : dialog.showMessageBox(mainWindow, opts)).then(({response}) => {
+				const action = decideRendererCrashAction({reason: details.reason, isMainWindow: true, dialogResponse: response})
+				if (action === 'reload' && !mainWindow.isDestroyed()) mainWindow.reload()
+				else app.quit()
+			})
+		})
+
+		app.on('child-process-gone', (_event, details) => {
+			if (details.reason === 'clean-exit') return
+			log.warn(`Child process gone: type=${details.type} reason=${details.reason} exitCode=${details.exitCode} name=${details.name ?? 'unknown'} serviceName=${details.serviceName ?? 'unknown'}`)
+		})
+
+		if (process.platform !== 'darwin') {
+			try {
+				tray = new TrayManager(mainWindow, queueService, languageRef, () => app.quit(), hotkeyService)
+				tray.start()
+				// Keep the tray item honest: it must appear/disappear with the
+				// chord's actual registration state.
+				syncHotkeyTrayItem()
+			} catch (e) {
+				log.warn(`Tray init failed — running without tray: ${String(e)}`)
+				tray = null
+			}
+		}
+	})
+}
+
+app.on('window-all-closed', () => {
+	// In smoke modes, hidden windows can churn before the runner calls app.exit().
+	if (readSmokeUrl() || readRuntimeSmokeEnabled()) return
+	app.quit()
+})

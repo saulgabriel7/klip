@@ -1,0 +1,5277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "Tentang"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "Lihat pemberitahuan pihak ketiga"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "Situs web"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "Izinkan"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "Upscale AI diizinkan"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube menyediakan beberapa video lama dalam ukuran yang dibuat dengan AI. Lewati mempertahankan stream asli; Anda tetap bisa memilih stream hasil upscale secara manual."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "Stream hasil upscale AI"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "Lewati"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "Masukan"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "Menikmati Klip? Saya ingin mendengar pendapat Anda! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "Log"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "Simpan file diagnostik"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "Menggabungkan log dan detail aplikasi ke dalam satu file di folder Unduhan, siap dilampirkan ke issue GitHub. Nama folder pengguna dihapus; tautan dan judul video tetap ada."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "Baru: pilih Aurora atau Minimalis di sini"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "Tema"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "Perbesar"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "Perkecil"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "Kembali"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "Tutup"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "Melanjutkan"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "Memuat…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "Mulai dari awal"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip terus berjalan dan menyelesaikan pengunduhan aktif. Ubah ini nanti di Pengaturan lanjutan."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "Sembunyikan ke baki"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "Sembunyikan Klip ke baki sistem saat menutup?"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "Berhenti"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "Jangan bertanya lagi"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "Antrean Anda tetap tersimpan, dan unduhan dilanjutkan dari titik terakhir saat Anda membuka Klip lagi."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "Terus Mengunduh"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "Pengunduhan {{count}} sedang berlangsung"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "Berhenti"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "Proses penyaji macet ({{reason}}). Muat ulang untuk mencoba lagi."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip mengalami masalah"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "Berhenti"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "Muat ulang"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "Disalin!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "Salin alamat"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip gratis dan open source, tanpa iklan maupun paket berbayar. Donasi bersifat opsional dan tidak memberi pengaruh pada roadmap."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "Donasi"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Dukung Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "Kode QR alamat donasi {{coin}}"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Dukung Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "Pembayaran kripto tidak dapat dibatalkan. Kirim hanya melalui jaringan yang ditampilkan dan bandingkan seluruh alamat."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "Video ini tidak memiliki subtitle dalam bahasa: {{languages}}."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "Video ini dikenai pembatasan usia dan tidak dapat diunduh tanpa akun yang masuk."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "Perlindungan bot situs menghentikan unduhan ini. Tunggu beberapa saat lalu coba lagi, atau unduh lebih sedikit video sekaligus. Jika terus gagal, ini mungkin perubahan sementara di sisi situs — Klip memperbarui mesin pengunduhnya saat peluncuran, sehingga perbaikan diterapkan secara otomatis setelah dirilis."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "Server terus memotong unduhan di tengah-tengah streaming dan Klip menyerah setelah mencoba lagi. Ini biasanya mengenai format video terbesar (4K HDR / VP9 dengan kecepatan bit tinggi). Coba lagi, ganti jaringan/VPN, atau pilih format resolusi lebih rendah."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "Video ini dilindungi DRM. Klip tidak dapat menghapus DRM, sehingga file tidak dapat diunduh."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "Video ini tidak lagi menawarkan format yang Anda pilih. Tempel tautan itu lagi, lalu pilih dari format yang tersedia sekarang."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "Video ini tidak tersedia di wilayah Anda."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "Situs memblokir permintaan dari koneksi ini. Coba lagi nanti."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "Video ini memerlukan akun yang sudah masuk."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip tidak dapat menemukan FFmpeg atau FFprobe. Jalankan penyiapan lagi atau tentukan lokasi FFmpeg, lalu coba unduh lagi."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "Kesalahan jaringan. Periksa koneksi Anda dan coba lagi."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "Video ini tidak memiliki subtitle dalam bahasa yang diminta."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "Ruang disk tidak cukup. Kosongkan ruang dan coba lagi."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip tidak dapat menulis ke folder unduhan. Folder itu mungkin hanya-baca, berada di drive yang terkunci, atau diblokir oleh pengaturan privasi sistem Anda. Pilih folder lain atau izinkan akses, lalu coba lagi."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "Tidak dapat menguraikan respons dari situs. Situs mungkin telah mengubah cara menyajikan video. Klip memperbarui mesin pengunduhnya saat peluncuran — coba lagi dalam beberapa menit setelah perbaikan dirilis."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "Unduhan selesai, tetapi pasca pemrosesan (penggabungan/mux/konversi) gagal. Seringkali ini merupakan masalah ffmpeg yang bersifat sementara — coba lagi, dan jika masalah terus berlanjut, coba kombinasi format lain."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "Situs ini membatasi permintaan dari koneksi ini."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "Video ini tidak tersedia — mungkin bersifat pribadi, dihapus, atau dikunci wilayahnya."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "Pengunduhan gagal. Lihat keluaran mentahnya di bawah."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip tidak mendukung URL ini. Coba tautan dari situs lain."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "Periksa koneksi Anda, lalu coba lagi."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "Halaman ini tidak termuat"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "Buka Pengaturan"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "Periksa proxy di Pengaturan, lalu coba lagi."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "Jelajahi tidak dapat terhubung melalui proxy Anda"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "Klik kanan tautan video, playlist, atau kanal mana pun di halaman untuk mengunduhnya dengan profil aktif, memilih profil lain, atau membuka Unduhan Interaktif."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "Klik kanan tautan untuk mengunduhnya"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "Unduh album di latar belakang"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "Unduh video yang Anda sukai di latar belakang"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Unduh Mix di latar belakang"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "Unduh daftar putar di latar belakang"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "Unduh unggahan di latar belakang"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "Unduh Tonton nanti di latar belakang"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "Salin tautan"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "Unduh {{count}} pertama"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "Unduh video ini · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "Unduh dengan"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "Dari album ini"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "Dari video yang Anda sukai"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "Dari Mix ini"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "Dari daftar putar ini"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "Dari unggahan saluran ini"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "Dari Tonton nanti"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "Unduhan Interaktif…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "Video ini dengan"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "Baru"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "Temukan video di YouTube atau situs lain dan unduh langsung dari sini — tanpa menyalin tautan. Masuk ke suatu situs di sini untuk mengunduh video yang memerlukan akun."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "Lanjutkan"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "Situs seperti YouTube dapat menandai — dan terkadang memblokir — akun yang dipakai dengan alat pengunduh seperti Klip. Gunakan akun yang rela Anda kehilangan, bukan akun utama."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "Masuk dengan akun sekunder"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "Jelajahi web langsung di dalam Klip"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "Unduhan memakai cookie peramban Anda, bukan login Jelajahi."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "Unduhan memakai berkas cookie Anda, bukan login Jelajahi."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "Nanti saja"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Cookie nonaktif, jadi unduhan tidak memakai login Jelajahi Anda."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "Pakai login Jelajahi"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "Jelajahi YouTube atau situs lain di dalam Klip, dan masuk untuk video yang memerlukan akun."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "Kosongkan memori saat ditinggal"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "Setelah 5 menit di tab lain, menutup halaman beranda atau penelusuran YouTube. Saat kembali, halaman dimuat ulang, yang memakan waktu beberapa detik."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "Mesin pencari"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "Tempat teks yang diketik di bilah alamat dicari. Tautan dibuka sesuai yang diketik."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "Tampilkan tab Jelajahi"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "Menonaktifkannya juga menghentikan unduhan memakai login Jelajahi Anda."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "Keluar dari Jelajahi"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "Keluar"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "Ini menghapus login dan data penjelajahan Anda di Jelajahi, di semua situs. Unduhan yang memerlukan akun akan gagal sampai Anda masuk lagi."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "Keluar dari Jelajahi?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "Menghapus login dan data penjelajahan Anda di Jelajahi, di semua situs."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "Jelajahi"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "Jelajahi"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube mungkin menolak pemblokir iklan untuk akun yang sudah masuk."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "Pemblokir iklan"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "Pemblokir iklan: nonaktif — klik untuk mengaktifkan"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "Pemblokir iklan: aktif — klik untuk menonaktifkan"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "Pemblokir iklan: memulai — klik untuk menonaktifkan"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "Pemblokir iklan: tidak tersedia, daftar filternya tidak dapat diunduh — klik untuk menonaktifkan"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "Alamat"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "Cari di {{engine}} atau buka situs apa pun (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "Kontrol peramban Jelajahi"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "Kembali"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "Tata letak ringkas"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "Unduh"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "Unduh · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "Maju"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "Tampilkan tata letak penuh"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "Buka video, playlist, atau kanal untuk mengunduhnya"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "Beranda YouTube"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "Unduhan Interaktif: pilih format, subtitle, dan lainnya…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "Jelajahi tidak dapat membuka alamat itu."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "Muat ulang"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "Pencarian itu terlalu panjang."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "Video ini"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "Unduh hanya video ini dengan {{profileName}}"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "Zoom halaman: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "Perbesar"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "Zoom halaman"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "Perkecil"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "Persentase zoom"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "Setel ulang zoom ke 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "Pilih cara penamaan berkas yang diunduh. Klik token untuk menyisipkannya. Gunakan / untuk memilah unduhan ke dalam folder."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "Masukkan templat nama berkas."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "Hapus / yang berlebih — setiap folder butuh nama."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "Hapus karakter yang tidak diizinkan dalam nama berkas: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "Nama folder itu tidak diizinkan. Hindari . dan .. serta nama khusus seperti CON."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "Tambahkan {title} atau {id} ke nama berkas agar setiap unduhan punya nama sendiri."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} tidak bisa menamai folder — kualitas baru diketahui saat unduhan dimulai."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ atau } tidak berpasangan — tulis token seperti {title}."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "Templat terlalu panjang."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "Token tidak dikenal {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "Akhiri nama dengan [{id}] agar Klip dapat mendeteksi item daftar putar yang sudah diunduh dan membuat daftar putar .m3u."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "Templat nama berkas"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "Tidak tersedia karena templat nama file Anda tidak diakhiri dengan [{id}] atau mengurutkan unduhan ke dalam folder."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "Dalam playlist"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "Video tunggal"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "Biarkan kosong untuk mengikuti templat global."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "Templat nama berkas"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "Otomatis"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "Otomatis (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "Stream yang dipilih menentukan jenis file."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "Mendukung codec apa pun. Sebagian TV dan ponsel tidak bisa membukanya."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "Bisa diputar di hampir semua perangkat. VP9 dalam MP4 tidak akan menampilkan video di QuickTime."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "Format terbuka untuk browser. Hanya mendukung VP9 atau AV1 dengan Opus."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "AV1 dalam MP4 memerlukan Mac yang cukup baru agar bisa diputar di QuickTime. H.264 bisa diputar di mana saja."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "VP9 dalam MP4 tidak akan menampilkan video di QuickTime. H.264 bisa diputar di mana saja."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM tidak tersedia untuk TV Pintar: tidak mendukung H.264."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM tidak mendukung {{codec}}. Pilih MKV atau MP4."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "Audio saja · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "Otomatis"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "Otomatis memilih HDR jika layar ini bisa menampilkannya, jika tidak memakai SDR. HDR tampak pucat di layar biasa."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "Video HDR"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "Bahasa"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "Masuk dengan Jelajahi — mencoba ulang {{count}} tautan"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "Tidak dapat keluar dari Jelajahi. Coba lagi."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "Folder ini terlalu dalam untuk sistem Anda. Unduhan mungkin tetap gagal — pilih folder yang lebih pendek."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "Nama video ini tidak muat di setiap bagian templat Anda, jadi nama bawaan digunakan."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "Tidak dapat membuka pemilih folder."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "Sudah ada di antrean — tidak ada salinan ditambahkan"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "Selesaikan penyiapan cookie di Klip, lalu coba lagi"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "Tidak ada tautan di papan klip — salin satu dulu"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "Beberapa tautan disalin — gunakan “URL massal” di Klip"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "Tautan itu perlu pilihan Anda — lihat Unduhan di Klip"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "Unduhan ditambahkan dari papan klip"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "Tautan itu tidak bisa ditambahkan — coba lagi di Klip"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "Folder itu tidak dapat digunakan untuk playlist ini."
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} video sudah ada di antrean — dilewati"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "Ditambahkan: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "Sudah ada di antrean"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} tautan ditambahkan ke Unduhan"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} sudah ada di antrean"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} tautan tidak dapat ditambahkan"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} tidak dapat ditambahkan"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "{{count}} video di daftar ini — pilih yang akan diunduh"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ video — pilih jumlahnya"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "Tidak dapat menyiapkan {{title}}"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "Tautan itu tidak bisa ditambahkan — coba lagi"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "Lihat"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "Tidak dapat menyimpan pengaturan Anda."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "Tidak dapat membuka itu."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "Penyiapan belum selesai. Beberapa unduhan mungkin gagal sampai selesai."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "Audio (terbaik)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "Audio ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "Audio asli terbaik, tanpa pengkodean ulang"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "Konversikan ke M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "Konversikan ke MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Konversikan ke Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "H.264 di atas 1080p tidak tersedia di YouTube — dibatasi hingga 1080p secara otomatis"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "Simpan sebagai"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "Langsung di folder penyimpanan"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "Bahasa"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "Pilih setidaknya satu bahasa untuk melanjutkan."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "Hanya file subtitle yang disimpan untuk setiap video — video dan audio tidak diunduh."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "Sumber"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "Hingga 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "Hingga 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "Hingga 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "Hingga 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "Hingga 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "Hingga 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "Hingga 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "Hingga 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "Kualitas terbaik"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "Dibatasi pada 1080p, turun kembali ke lebih rendah per item"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "File terkecil yang memungkinkan"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "Dibatasi pada 2K, turun kembali ke lebih rendah per item"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "Dibatasi pada 2160p, turun kembali ke lebih rendah per item"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "File sangat kecil, kualitas rendah"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "File kecil untuk bandwidth terbatas"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "Bandwidth rendah"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "File lebih kecil, kompatibilitas luas"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "Video + audio tertinggi yang tersedia per item"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "Subtitle"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "Asli terbaik"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "TV Pintar H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "Wadah dan codec terbaik yang tersedia per item"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "Lebih suka video H.264 + audio AAC dalam MP4 jika memungkinkan"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "Pendamping"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "Keterangan"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "Hilang"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "Subjudul"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "gambar kecil"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "Artefak"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} unduhan memerlukan perhatian Anda"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "Menghapus setiap unduhan dari daftar beberapa detik setelah selesai. File tetap ada di folder Anda."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "Bersihkan otomatis"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "Batalkan semua unduhan yang aktif dan tertunda"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "Semua video"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Lebih dari {{count}} video di playlist ini. Unduh semuanya, {{count}} yang pertama, atau pilih lewat tinjauan."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "{{count}} pertama"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "Album"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "Video yang disukai"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "Daftar putar"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "Semua unggahan"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "Tonton nanti"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "Pilih dari daftar…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "Tinjau"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "Tautan ini adalah daftar berisi {{count}} video. Unduh semuanya, atau pilih lewat tinjauan."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "Video ini"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "Tautan ini adalah video dalam sebuah album. Unduh videonya saja, atau albumnya?"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "Tautan ini adalah video dalam daftar video yang Anda sukai. Unduh videonya saja, atau semua video yang Anda sukai?"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "Tautan ini adalah video dalam sebuah Mix. Unduh videonya saja, atau Mix-nya?"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "Tautan ini adalah video dalam sebuah daftar putar. Unduh videonya saja, atau daftar putarnya?"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "Tautan ini adalah video dalam unggahan sebuah saluran. Unduh videonya saja, atau semua unggahannya?"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "Tautan ini adalah video dalam daftar Tonton nanti Anda. Unduh videonya saja, atau seluruh daftarnya?"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "Hapus unduhan yang sudah selesai"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "Unduhan yang antri akan muncul di sini"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "Semua"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "Filter status antrian"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "Semua item"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "Unduhan"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "Suara tidak dihapus"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "Suara tidak dihapus · beberapa subtitle gagal"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "Pengunduhan gagal"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "Buka folder tujuan"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "Berhenti sebentar"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "Hanya menunggu keputusan"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "Tarik sekarang — lewati antrian"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "Dibatasi ke {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "Dibatasi ke {{height}}p · beberapa subtitle gagal"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "Menghapus"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "Melanjutkan"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "mencoba lagi otomatis (percobaan {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "Tetapkan lokasi"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "Pilih item yang tertunda untuk mengatur lokasi."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "Selesai"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "Kesalahan"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "Dipegang"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "Perlu pilihan Anda"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "Dijeda"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "Menunggu"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "Mengambil detail"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "Mengunduh"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "Tidak ada subtitle dalam bahasa: {{languages}}"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "Menunggu {{site}} hingga {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} membatasi permintaan dari koneksi ini. Klip mengambil detail tautan ini setelah {{time}}, agar batasnya bisa hilang."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "Tutup"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "Dari sebuah album"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "Dari video yang Anda sukai"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "Dari sebuah Mix"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "Dari sebuah daftar putar"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "Dari unggahan sebuah saluran"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "Dari Tonton nanti"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "Ambil seluruh album"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "Ambil semua video yang disukai"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "Ambil seluruh Mix"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "Ambil seluruh daftar putar"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "Ambil semua unggahan"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "Ambil seluruh Tonton nanti"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "Menambahkan daftar sebagai barisnya sendiri. Video ini tidak disertakan."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "Jeda setiap pengunduhan aktif dan hentikan pengunduhan baru"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "Antrean dijeda — item yang menunggu tidak akan dimulai sampai Anda melanjutkannya"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "Lanjutkan unduhan yang dijeda dan biarkan antrean terus berjalan"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "Lanjutkan antrean"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "Item yang dipilih"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} dipilih · {{total}} total"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "Unduhan"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "Ditambahkan"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "Artefak"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "Kolom {{column}} dilepas."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "Pemindahan kolom {{column}} dibatalkan."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "Kolom {{column}} berada di atas {{target}}."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "Kolom {{column}} diangkat."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "Kolom"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "Selesai"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "Sembunyikan artefak untuk {{title}}"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "kolom yang dapat dipindahkan"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Untuk memindahkan kolom, tekan Spasi atau Enter, geser dengan tombol panah, lalu tekan Spasi atau Enter untuk melepaskannya. Tekan Escape untuk membatalkan."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "Sasaran keluaran"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "Kemajuan"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "Atur ulang kolom"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "Ubah ukuran kolom {{column}}"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "Tampilkan artefak untuk {{title}}"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "Ukuran"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "Urutkan berdasarkan {{label}}"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "Judul"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "Unduhan langsung ada di tab Unduhan sekarang — buka kapan saja untuk melacak kemajuan."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "Melanjutkan"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "Anda menjalankan pembaruan baru. Berikut adalah hal-hal penting."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "Catatan rilis lengkap ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Apa yang baru di Klip {{version}}"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "Pilih yang dapat dieksekusi"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "Instal dengan Homebrew"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "Instal dengan WinGet"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "Buka folder ketergantungan"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "Atur ulang ke default"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "Coba lagi"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "Lihat log pengaturan"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Coba lagi. Jika terus gagal, pilih salinan yang berfungsi di bawah."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "Sebuah alat tidak berfungsi dengan benar"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "Izinkan Klip di antivirus atau SmartScreen Anda, lalu coba lagi."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "Antivirus Anda memblokir sebuah alat"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "Periksa koneksi internet Anda, lalu coba lagi."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "Tidak dapat mengunduh yang dibutuhkan Klip"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Coba lagi untuk mengunduhnya ulang."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "Unduhan tiba dalam keadaan rusak"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Coba lagi untuk mengunduhnya ulang."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "Unduhan tidak cocok dengan checksum-nya"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "Pilih keduanya di bawah, atau atur ulang ke default."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg dan FFprobe harus diatur bersamaan"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "Coba lagi. Jika terus gagal, pilih salinan yang Anda percaya di bawah."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "Sistem Anda tidak mengizinkan Klip menjalankan sebuah alat"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Coba lagi. Jika terus gagal, pilih salinan yang berfungsi di bawah."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "Sebuah alat hilang atau tidak bisa dimulai"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "Ini sering terjadi karena pemindaian keamanan saat pertama kali dijalankan. Coba lagi."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "Sebuah alat terlalu lama merespons"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "Coba lagi, atau buka log pengaturan untuk detailnya."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "Terjadi kesalahan saat penyiapan"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "penyelidikan FF"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "Mesin pengunduh"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "Alat media"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "Menginstal dengan Homebrew… Ini bisa memakan waktu beberapa menit."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "Menginstal dengan WinGet… Ini bisa memakan waktu beberapa menit."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Arahkan Klip ke salinan yang sudah Anda miliki, atau instal dengan cara lain."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "Anda juga bisa menginstal yt-dlp dan ffmpeg lewat pengelola paket, lalu klik Coba lagi."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "Atur secara manual"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "Coba lagi, atau arahkan Klip ke alat yang sudah Anda miliki di bawah."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "Penyiapan dihentikan"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "Penyiapan membutuhkan bantuan Anda"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "Cara profil ini memilih"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "Audio AAC"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "cocok untuk pemutar MP4"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "Audio AAC"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "bisa diputar di mana saja"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1, lalu VP9, lalu H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "paling tajam pada ukuran yang sama"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264, lalu VP9, lalu AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "codec profil ini"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9, lalu H.264, lalu AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "codec profil ini"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "Frame rate tertinggi"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "gerakan lebih halus"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "Video H.264"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "bisa diputar di semua perangkat"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR sebelum SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "warna lebih kaya di layar HDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "layar ini menampilkan HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR sebelum HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "tampil baik di layar apa pun"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "layar ini bukan HDR"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "Stream MP4"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "siap untuk file MP4"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "Audio stereo"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "profil ini"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "dari Pengaturan"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "Audio surround jika tersedia"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Audio Opus"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "cocok untuk WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "Stream asli, bukan hasil upscale AI"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "salinan upscale lebih tinggi tetapi tidak menambah detail nyata"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "Unduhan langsung sebelum salinan stream"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "gambar yang sama, diunduh lebih cepat"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "Hingga {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "batas Anda"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "Resolusi tertinggi"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "tanpa batas"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "Stream yang tidak diberi prioritas rendah oleh situs"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "melewati salinan rusak, bertanda air, dan cadangan"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "File lebih besar"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "detail lebih banyak pada pengaturan yang sama"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "Stream dengan bitrate ditingkatkan lebih dulu"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "detail lebih banyak pada resolusi yang sama"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "jenis file mengikuti stream"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "disimpan sebagai .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "gambar terbaik"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "bisa diputar di perangkat apa pun"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "Mengapa ini?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "Mengapa profil memilih ini"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "Disalin!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "Salin tautan"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — pengunduh video sumber terbuka gratis untuk Windows, macOS & Linux. Bekerja dengan situs YouTube, Vimeo, Twitch, dan 2000+.\n"
+"4K · HDR · MP3 · Shorts · Terjemahan · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip gratis dan bersumber terbuka. Berbagi membantu lebih banyak orang menemukannya."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "Membagikan"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Bagikan Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Bagikan Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Bagikan Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "Ada masalah? Atur secara manual"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "Hei, selamat datang kembali!"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "sisa sekitar {{count}} mnt"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "sisa kurang dari semenit"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "Memeriksa semuanya berfungsi"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "Menghubungkan…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "Mengekstrak alat media"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "Mengekstrak mesin pengunduh"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "Memperbarui alat Klip"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "Memperbarui mesin pengunduh"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "Penyiapan pertama kali"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "Memperbarui alat media"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "Pemeriksaan pertama versi ini — yang ini lambat. Biasanya sekitar satu menit."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "Memeriksa {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "Mempersiapkan unduhan…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "Penyiapan gagal. Buka log pengaturan untuk mengetahui detailnya."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "Video disimpan beserta suaranya — audio tidak dapat dihapus"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "Video disimpan beserta suaranya — audio tidak dapat dihapus, dan beberapa subtitle tidak dapat diunduh"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "Pengunduhan dibatalkan"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "Pengunduhan selesai"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "Mengonversi video…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "Ruang disk tidak cukup — memerlukan {{required}}, hanya tersedia {{free}}"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "Mengunduh biner {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "Mengunduh video & audio…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "Menyematkan metadata…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "Keluar dari Jelajahi — masuk lagi"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "Mengonversi audio…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "Menghubungi SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "Mengambil subtitle…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "Menggabungkan audio dan video…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "Menyiapkan unduhan YouTube…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "Memindahkan file…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "Tidak ada subtitle dalam bahasa: {{languages}}"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "Tidak dapat menyimpan ke {{dir}} — Klip tidak diizinkan menulis di sana"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "Mempersiapkan biner…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "Disimpan pada {{height}}p — YouTube menahan kualitas yang lebih tinggi untuk unduhan ini. Mencoba lagi nanti mungkin membantu."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "Disimpan pada {{height}}p — YouTube menahan kualitas yang lebih tinggi untuk unduhan ini, dan beberapa subtitle tidak dapat diunduh. Mencoba lagi nanti mungkin membantu."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "Menyiapkan ulang unduhan YouTube…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock tidak tersedia, coba lagi ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "Koneksi macet, mencoba lagi ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "Masuk dengan akun Jelajahi Anda…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "Menunggu {{seconds}} untuk menghindari batas kecepatan…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "Memulai mesin pengunduh…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "Video ini tidak memiliki subtitle dalam bahasa: {{languages}}. Video disimpan tanpa subtitle tersebut."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "Video ini tidak memiliki subtitle dalam bahasa: {{languages}}. Bahasa lainnya telah disimpan."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "Video disimpan — beberapa subtitle tidak dapat diunduh"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "Kegagalan startup pengunduhan yang tidak diketahui"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "Diunduh dengan ekstraktor santai — siapkan cookies.txt untuk pengunduhan yang lebih andal"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "Mesin pengunduh keluar dengan kode {{code}}"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "Kesalahan mesin pengunduh: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "Mode gelap"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "Modus ringan"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "Bawaan sistem"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "Menutup"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "Maksimalkan"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "Memperkecil"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "Memulihkan"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "Unduh dari papan klip"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "Pengunduhan {{count}} · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "Menganggur"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "Perintah disalin ke clipboard"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "Salin perintah ke clipboard"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "Tutup spanduk pembaruan"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "Unduh ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "Unduh DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "Mengunduh…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "Instal & Mulai Ulang"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "Pembaruan gagal"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} tersedia — Anda memiliki {{currentVersion}}."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} tersedia — perbarui dengan Homebrew."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} tersedia — unduh DMG baru."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} tersedia — unduh DMG atau beralih ke Homebrew."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} tersedia — unduh build baru."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "Jalankan & Mulai Ulang"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "Memperbarui…"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} bab"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "Memuat…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "H.264 dulu"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "Codec video"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "TV Pintar selalu memakai H.264."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "VP9 dulu"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "Siap"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "Tempelkan URL video, daftar putar, saluran, penelusuran, atau audio. Klip akan membersihkan duplikat sebelum mengantri."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "Tempelkan satu atau lebih URL untuk melihat pratinjau kumpulan."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "Diabaikan"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "Tambahkan setidaknya satu URL yang didukung untuk melanjutkan."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "Duplikat"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "Daftar URL"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://contoh.id/video-1\n"
+"https://contoh.id/video-2\n"
+"https://contoh.id/video-3"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "URL massal"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ Antrian"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "Menambah antrian — dimulai saat pengunduhan aktif selesai"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} dari video {{total}}"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} dari trek {{total}}"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} dari URL {{total}}"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "Kelompok"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "Barang"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "Daftar putar"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "Prasetel"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "Simpan ke"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "Ukuran"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "Subtitle"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "File Anda akan masuk"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "Akan masuk ke {{count}} tujuan di bawah"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "Profil Hanya subtitle aktif, tetapi tidak ada bahasa subtitle yang dipilih — tidak ada yang akan diunduh."
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "item {{count}}"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "Profil dalam batch ini"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "Tarik! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "Melewati antrean — dimulai sekarang, berjalan bersama unduhan aktif lainnya"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "Siap untuk menariknya!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "Tidak dikenal"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Penyematan subtitle diubah menjadi sidecar — trek audio tidak mendukung aliran subtitle yang disematkan."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "Subtitle di dalam video memerlukan file MKV, jadi unduhan ini disimpan sebagai .mkv."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Penyematan gambar mini dilewati — wadah keluaran tidak mendukungnya."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "Kebiasaan…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "Desktop"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "Dokumen"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "Unduhan"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "Simpan ke"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "Rumah"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "Musik"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "Gambar"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "Nama folder memiliki karakter yang tidak valid"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "mis. kuliah"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "Simpan di dalam subfolder"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "Film"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "Bahasa audio"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} bahasa"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "Kecepatan bit {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Cookie dikonfigurasikan tetapi dimatikan. Aktifkan dan coba lagi untuk mendapatkan daftar lengkap, atau ubah jaringan dan coba lagi."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Bahkan dengan cookie, YouTube membatasi penyelidikan ini. Coba lagi nanti atau ganti jaringan."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube membatasi permintaan ini. Coba lagi nanti atau ganti jaringan."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "Daftar format mungkin tidak lengkap. Siapkan cookie di pengaturan lanjutan, atau ubah jaringan dan coba lagi."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Aktifkan cookie dan coba lagi"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "Penyelidikan terbatas"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "Kecepatan bit"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "Sumber yang sudah berformat {{target}} mempertahankan stream dan bitrate-nya sendiri: disalin tanpa pengkodean ulang."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps, tanpa pengkodean ulang"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}, tanpa pengkodean ulang"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps, sesuai sumbernya: stream sudah berformat {{target}}, jadi disalin tanpa pengkodean ulang"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "Sesuai sumbernya: stream sudah berformat {{target}}, jadi disalin tanpa pengkodean ulang"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "Mengubah"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "Sumber {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (tidak terkompresi)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "Peramban"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "Login Jelajahi"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "Berkas"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Sumber cookie"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "Dokumen yt-dlp (terbitan #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 dan yang lebih baru mengenkripsi cookie dengan cara yang tidak dapat dibaca oleh aplikasi lain di Windows. Cobalah salah satu solusi di bawah ini."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "Ekspor cookie dari Chrome dengan ekstensi browser, lalu alihkan aplikasi ini ke mode File dan pilih file yang diekspor."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "Ekspor cookie.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox tidak menggunakan Enkripsi Terikat Aplikasi. Buka pengaturan cookie dan pilih Firefox dari daftar browser."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Beralih ke Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Tambahkan --disable-features=LockProfileCookieDatabase ke pintasan peluncuran Chrome. Peringatan: ini akan membatalkan cookie yang dienkripsi sebelumnya, jadi Anda akan keluar dari setiap situs dan harus masuk lagi."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Luncurkan Chrome dengan Enkripsi Terikat Aplikasi dinonaktifkan"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Cookie Chrome diblokir oleh enkripsi Windows"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Cookie dibaca langsung dari browser. Jika browser sedang berjalan, database cookie-nya mungkin terkunci (keluarga Chromium). Browser juga harus masuk ke YouTube. Coba tutup browser, beralih ke browser lain, beralih ke mode File, atau matikan cookie."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "File cookie Anda mungkin kosong, kedaluwarsa, atau dalam format yang salah (Klip memerlukan file Netscape cookies.txt). Coba ekspor ulang cookie, pilih file lain, alihkan ke mode Browser, atau matikan cookie."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "Masuk di Jelajahi dan Klip akan mencobanya lagi."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "Masuk di Jelajahi"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "Video ini mungkin memerlukan akun YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip sudah mencobanya dalam keadaan masuk lewat Jelajahi, jadi masuk lagi tidak akan membantu. Situs mungkin sedang bermasalah, atau akun ini tidak bisa membukanya. Coba lagi nanti."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "Situs menolaknya meski Anda sudah masuk di Jelajahi"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "Anda sudah masuk di Jelajahi, tetapi unduhan sedang tidak memakai login itu."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "Pakai login Jelajahi saya dan coba lagi"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "Video ini mungkin memerlukan akun YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "Jika video ini memerlukan akun, Klip otomatis memakai login Jelajahi Anda. Video mungkin juga tidak tersedia karena alasan lain."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "Sudah masuk ke Jelajahi"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "Jika video ini memerlukan akun YouTube, masuk di Jelajahi lalu coba lagi. Klip hanya memakai login itu saat unduhan membutuhkannya."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "Masuk di Jelajahi"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "Video ini mungkin memerlukan akun YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "Tautan ini mungkin memerlukan akun {{host}}"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "Masuk ke {{host}} dengan Jelajahi lalu coba lagi."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "Masuk ke {{host}} di Jelajahi lalu coba lagi. Klip hanya memakai login itu saat unduhan membutuhkannya."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Cookie mungkin menjadi penyebabnya"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip tidak dapat mengakses video ini tanpa autentikasi. Konfigurasikan cookie dalam pengaturan lanjutan — arahkan cookie ke browser yang sudah Anda masuki, atau impor file cookies.txt."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "Situs ini memerlukan proses masuk"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "Buka pengaturan cookie"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "Gunakan file cookie atau peramban sebagai gantinya…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "Bagian keras jadi lebih pelan dan bagian pelan lebih keras, untuk speaker dan ruangan bising."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "Ratakan volume (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "Volume rata"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "Profil Anda adalah TV Pintar (H.264). Video ini tidak menyediakan H.264, jadi stream terdekat yang dipilih."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "Tautan ini tidak memiliki video, jadi audio dipilih."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "Profil Anda meminta subtitle dalam bahasa {{languages}}. Video ini tidak memilikinya."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "Profil Anda meminta {{wanted}}p. Video ini tidak punya yang sekecil itu, jadi {{picked}}p dipilih."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Profil Anda meminta {{wanted}}p. Stream yang lebih kecil di video ini tidak cocok dengan bagian profil Anda yang lain, jadi {{picked}}p dipilih."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "Profil Anda meminta {{wanted}}p. Video ini tidak punya {{wanted}}p yang bisa diambil, jadi {{picked}}p dipilih."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "Profil Anda meminta {{wanted}}p. {{wanted}}p video ini hasil peningkatan skala AI, jadi {{picked}}p asli yang dipilih."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "Profil Anda meminta {{wanted}}p dalam H.264. Video ini hanya punya {{wanted}}p dalam codec lain, jadi {{picked}}p dalam H.264 dipilih."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Profil Anda meminta {{wanted}}p. {{wanted}}p video ini tidak cocok dengan bagian profil Anda yang lain, jadi {{picked}}p dipilih."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "Profil Anda meminta WebM. Stream terpilih video ini mencakup {{codec}}, yang tidak didukung WebM, jadi jenis file diatur ke Otomatis."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "Tambahkan ke antrean tanpa memulai"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "Unduh"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "Opsi unduhan lainnya"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "Pilih setidaknya satu bahasa subtitle."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "Tetap apa adanya"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "Audio bawaan"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "Hanya audio"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "Yang diunduh"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "Hanya subtitle"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "Video + audio"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "Video, tanpa audio"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "Memuat format"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "Harap tunggu hingga pemeriksaan selesai — daftar putar dan penelusuran dapat memakan waktu cukup lama."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "Sulih suara AI"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "Upscale AI"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "Deskripsi audio"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "Rusak"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "Bitrate ditingkatkan"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "Asli"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "Audio spasial"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "Bertanda air"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "Tidak ada audio"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "Profil aktif Anda memilihkan stream lebih dulu. Ganti profil lewat menu, atau pakai ikon pensil untuk menyesuaikan satu profil tanpa keluar dari unduhan ini."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "Format dimulai dari profil Anda"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "Terdekat dengan profil"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "Edit {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "Pertahankan perubahan saya"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "Hanya untuk unduhan ini. Profil default Anda tetap seperti semula."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "Dipilih sebelumnya dari"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "Atur ulang semua"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Anda mengubah {{areas}} untuk unduhan ini. “{{profile}}” tetap memilih video dan audio. Pertahankan perubahan lain, atau atur ulang semuanya ke profil?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "Ganti profil?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Anda mengubah {{areas}} untuk unduhan ini. Profil yang diperbarui tetap memilih video dan audio. Pertahankan perubahan lain, atau atur ulang semuanya ke profil?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "Gunakan profil yang diperbarui?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "Kualitas tinggi"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "Kualitas rendah"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "Kualitas sedang"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} membatasi koneksi ini"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "Daftar format mungkin tidak lengkap."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} menolak permintaan ini untuk sementara."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} dapat mempertahankan batas ini hingga satu jam."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "Coba sekarang"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "Waktu tunggu sudah habis, Anda bisa mencoba lagi."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip menunggu sampai {{time}} sebelum menghubungi {{site}} lagi, agar batasnya sempat pulih."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "Resolusi tidak diketahui"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "Simpan sebagai"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM tidak mendukung {{codec}}, jadi jenis file kembali ke Otomatis."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "Ukuran tidak diketahui"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "Lewati untuk mengonfirmasi"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "Menggunakan preferensi tersimpan Anda untuk semua langkah selanjutnya. Untuk mengubah pengaturan, lanjutkan langkah demi langkah — pilihan Anda akan disimpan untuk waktu berikutnya."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "Menemukan format terbaik untuk Anda…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "dengan audio"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "Dengan {{profileName}}. Jika berisi lebih dari {{count}} video, Unduhan akan bertanya berapa banyak."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "Unduh di latar belakang"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc membatalkan."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "Tepat {{count}} pertama, dengan {{profileName}}."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "Unduh yang pertama:"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "Pilih dari {{count}} video pertama (atau ubah jumlahnya di langkah berikutnya), lalu atur unduhannya."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "Unduhan Interaktif…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "Berapa banyak video yang diambil dari daftar: opsi pertama bertanya jika melebihi jumlah ini, opsi kedua mengambil persis sejumlah itu. Sama dengan Pengaturan › Item daftar putar untuk dipindai."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "Batas"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Mix berubah setiap kali Anda membukanya."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "pertama untuk dipilih."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "Muat"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "Anda dapat mengubahnya di langkah berikutnya."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "Pilih dari album ini"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "Pilih dari video yang Anda sukai"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "Pilih dari Mix ini"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "Pilih dari daftar putar ini"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "Pilih dari unggahan saluran ini"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "Pilih dari Tonton nanti"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "Unduh dari album ini"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "Unduh dari video yang Anda sukai"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "Unduh dari Mix ini"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "Unduh dari daftar putar ini"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "Unduh dari unggahan saluran ini"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "Unduh dari Tonton nanti"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "Hanya video yang Anda buka, dengan {{profileName}}. Daftar tidak dimuat."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "Hanya video ini"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "Atur hanya video yang Anda buka. Daftar tidak dimuat."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "Dengan {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "Penanda bab dapat dinavigasi di pemain modern mana pun."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "Sematkan bab"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "Bab"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "Judul, artis, deskripsi, dan tanggal upload ditulis ke dalam file."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "Sematkan metadata"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "Metadata"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "Sampul seni di dalam file. Video WebM akan di-remix ke MKV; dilewati ketika subtitle tertanam."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "Sematkan gambar mini"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "Sampul"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "Menyimpan deskripsi video sebagai file teks .description di sebelah unduhan."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "Simpan deskripsi"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "File deskripsi"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "Simpan daftar putar .m3u di samping video agar dapat dibuka secara berurutan di pemutar media Anda."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "Hasilkan file daftar putar .m3u"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "Menyimpan thumbnail sebagai file gambar .jpg di sebelah unduhan."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "Simpan gambar kecil"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "File gambar mini"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "Beralih ke «Bagian» di kartu video untuk memilih awal dan akhir, atau satu bab, lalu unduh potongan itu saja."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "Unduh sebagian video saja"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "Bab"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "Bab {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "Sebuah bagian diunduh melalui ffmpeg, jadi koneksi unduhan dan pengaturan kecepatan Anda tidak berlaku."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "Perbaiki dulu waktu mulai dan selesai bagian tersebut."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "Selesai"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "Video berakhir pada {{duration}}."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "Masukkan waktu selesai sebagai h:mm:ss, m:ss, atau detik."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "Masukkan waktu mulai sebagai h:mm:ss, m:ss, atau detik."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "Waktu mulai harus sebelum waktu selesai."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "Nonaktif: setiap potongan jatuh di keyframe terdekat, yang bisa berselisih beberapa detik dari waktu yang Anda ketik."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "Potongan tepat (encode ulang, lebih lambat)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} dari {{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "Bagian"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "Bagian video"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "Mulai"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "seluruh video"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "Bagian {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "Seberapa banyak video"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss, atau detik"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "Bagian, perkiraan"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "Video ini tidak melaporkan durasinya, jadi hanya bisa diunduh utuh."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "Subtitle selalu mencakup seluruh video."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "Tautan Anda dimulai pada {{time}}"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "Gunakan sebagai awal"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "Seluruh video"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "Seluruh trek"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "Pulihkan untuk melanjutkan."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "Semua item telah dihapus"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "Sudah diunduh"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "Masih ada lebih banyak. Untuk memilih jumlahnya, tempel tautan masing-masing secara terpisah."
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} daftar dipotong pada {{limit}} video masing-masing"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "URL massal"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "Tidak perlu menunggu — file yang antre sekarang tetap mendapatkan nama aslinya saat diunduh."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "Mengambil detail video… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "Detail tidak tersedia"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "Mengambil detail"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "Menunggu"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "hidup"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Item daftar putar"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "Video untuk diunduh"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "video {{count}}"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "trek {{count}}"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "URL {{count}}"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Mengambil daftar putar…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "Mengambil video…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "Terbatas untuk item {{count}} pertama"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} halaman ditemukan"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "Mengumpulkan video"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "Memindai halaman saluran"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "Tetapkan profil per item"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "Melewati Kualitas, SponsorBlock, Keluaran, dan Simpan — tetapkan profil unduhan per item sebagai gantinya"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "Daftar putar"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} di antaranya adalah daftar putar, bukan video — tempel tautannya satu per satu untuk mengunduhnya."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "Pilih setidaknya satu video untuk melanjutkan"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Menampilkan item {{count}} pertama. Tingkatkan batas muatan untuk melihat lebih banyak."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "Pemindaian daftar putar dibatasi"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "Pemindaian dibatasi"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "Terapkan rentang"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "Dari"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "Ke"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} dihapus"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "Hapus {{count}} dari daftar"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "Pulihkan"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "Pilih semua"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} dipilih"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "Pilih tidak ada"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "Urutan daftar putar"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "Mengambil tanggal unggah…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "Urutkan"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "Terlama dulu"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "Terbaru dulu"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "Terapkan sinkronisasi"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "Ganti map…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "{{n}} dari video ini sudah ada di {{dir}}. Sinkronkan untuk hanya mengunduh yang baru?"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "Sudah ada di folder"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "Tidak ada video dari daftar putar ini yang ditemukan di {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "Tidak ada video dari sumber ini yang ditemukan di {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "Belum ada yang diunduh"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "Memeriksa folder…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "Gambar kecil video"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "Pilih kualitas untuk batch tersebut"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "item {{count}}"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "Setiap video menyelesaikan tingkatan yang dipilih secara independen — daftar putar yang heterogen berfungsi tanpa kejutan."
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "Tetapkan ke {{count}} video"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "Tetapkan profil"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "Durasi"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "Edit {{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "Tidak ada item yang cocok dengan filter ini"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "Filter profil"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "Tetapkan profil unduhan"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "Pilih profil untuk {{count}} video ini."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{selected}} dari {{total}} dipilih"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "Ubah global"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "Pilih folder tujuan"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "Pilih ikon profil"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "Hapus {{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "Setel ulang profil"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "Profil ini sudah menggunakan pengaturan bawaan"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "Pulihkan pengaturan profil bawaan"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "Simpan profil"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "Atur penggantian profil"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "Atur penggantian"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "Gunakan default global"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "Gunakan kode bahasa “{{code}}”"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "Canggih"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "Gunakan pengaturan aplikasi ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "Terbaik"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "Hingga 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "Hingga 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "Hingga 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "Kualitas terbaik"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "Profil baru"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "Folder unduhan default"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "Folder unduhan default / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "Tujuan global"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "Aktif"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "Diwarisi"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "Penggantian profil"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "Pilih folder"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "Tanpa penggantian"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "Penggantian belum diatur. Profil ini memakai tujuan global di atas."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "Menggantikan global"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "Profil ini menyimpan ke root-nya sendiri sebelum subfolder ditambahkan."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "Tujuan akhir"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "Satu pengaturan yang dapat dipakai ulang untuk Unduh Cepat, URL Massal, dan playlist."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "Profil unduhan"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "Tidak dapat mengubah tujuan global."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "Tidak dapat membuka pemilih folder. Masukkan jalur secara manual."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "Tidak dapat menyetel ulang pengaturan profil."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "Tidak dapat menyimpan pengaturan profil."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "Cara penyimpanan"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "Jenis file"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "Optimalkan untuk"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "Ikon profil"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "Bahasa"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "Nama profil"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "Nama dan ikon profil"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "Audio asli"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "Jalur penggantian profil"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "Kualitas"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "Resolusi"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "Sumber"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "Nama subfolder"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "Unduhan subtitel"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "Profil meminta kode bahasa; ketersediaannya ditentukan untuk setiap URL."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "Paling tajam pada ukuran yang sama. TV lama, QuickTime, dan sebagian editor tidak bisa memutarnya."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "Gambar terbaik"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "Bisa diputar di TV, ponsel, WhatsApp, QuickTime, dan editor video. YouTube hanya menyediakan H.264 hingga 1080p."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "TV Pintar"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "Arsip"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "Teks"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "Kelas"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "Klip"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "Kontrol"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "Unduh"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "Musik"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "Podcast"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "Musik atau podcast"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "Hanya berkas teks"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "Berkas video biasa"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "Hanya video tanpa suara"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "Teks otomatis akan disimpan sebagai SRT, bukan ASS."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "Tidak ada bahasa yang cocok"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "Profil ini tidak akan meminta berkas subtitel maupun trek subtitel tersemat."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "Cari berdasarkan nama atau kode bahasa"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "Dilewati untuk jenis keluaran ini."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "Pilih setidaknya satu bahasa."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "Pilih setidaknya satu bahasa, atau nonaktifkan unduhan subtitel."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "Profil ini hanya mengantrekan berkas subtitel. Video, audio, SponsorBlock, dan konversi media dilewati."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "Profil mewarisi tujuan global kecuali Anda mengatur penggantian profil."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "Opsi lanjutan"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "Pilih cara utama Anda ingin mengunduh."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "Jenis unduhan"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "Nama dan ikon yang tampil di Unduh Cepat, URL Massal, dan daftar profil."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "Identitas profil"
+
+#. Plural form "other" for id: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} aktif"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "Opsi keluaran"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "Pilih folder untuk profil ini"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "Dilewati"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Menandai segmen sponsor sebagai bab (tanpa mengubah berkas)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Tanpa SponsorBlock — video diputar apa adanya."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Memotong segmen sponsor dari video menggunakan FFmpeg."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "Hanya hasil otomatis"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "Manual dan otomatis"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "Manual dulu, lalu otomatis"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "Hanya manual"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "Bantuan {{label}}"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "tambahan"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "nama file"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "format"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "folder"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "subtitle"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "Subtitle, SponsorBlock, tambahan seperti gambar kecil, folder, dan nama file dulu merupakan langkah terpisah. Klik baris untuk mengubahnya."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "Semua pengaturan lainnya kini ada di halaman ini"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "Diubah dari {{profile}}: {{areas}}. Hanya berlaku untuk unduhan ini."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "Diubah dari {{profile}}:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "Ubah format"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "Simpan sebagai profil"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (diedit)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "Unduhan ini memakai pengaturan yang diedit. Pakai lagi lain kali?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "Urungkan perubahan, kembali ke “{{profile}}”"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "Tambahan"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "Nama file"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "Simpan ke"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "Subtitle"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "Lainnya"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "Simpan profil"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "Menyimpan pengaturan ini sebagai profil yang bisa Anda pilih lain kali. Profil Unduh Cepat Anda tidak berubah."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "Tidak dapat menyimpan profil."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "Nama profil"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "Disimpan sebagai profil “{{name}}”"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "Simpan sebagai profil"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "Simpan sebagai profil baru"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "Perbarui profil"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "Ini profil bawaan. Anda dapat memulihkan pengaturan aslinya di tab Profil."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "Mulai sekarang, setiap unduhan dengan profil ini memakai pengaturan baru."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "Perbarui “{{profile}}”?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "Profil “{{name}}” diperbarui"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "Perbarui “{{profile}}” dengan perubahan ini"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "Tidak ada"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "Pengisi"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "Pendahuluan"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "Musik di luar topik"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "luar"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "Pratinjau"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "Promosi diri"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "Sponsor"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "Kategori"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "Tandai sebagai bab"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "Hapus segmen"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "Penyaringan sponsor"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Menandai segmen sponsor sebagai bab (tidak merusak)."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Tidak ada SponsorBlock — video diputar saat diunggah."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Memotong segmen sponsor dari video menggunakan FFmpeg."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "Mengonfirmasi"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "Menyimpan"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "Keluaran"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "Daftar putar"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "Video"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "Kualitas"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "Profil"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "Tinjau"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "Subtitle"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "Teks otomatis akan disimpan sebagai SRT, bukan ASS — untuk video YouTube, teks tersebut dibersihkan dari duplikasi isyarat, yang belum dapat ditiru oleh konverter ASS kami."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "Otomatis"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "Hapus semuanya"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "Mode penyematan menyimpan keluaran sebagai .mkv sehingga trek subtitle dapat disematkan dengan andal."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "Tidak ada subtitle yang tersedia untuk video ini"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "Tidak ada bahasa yang cocok"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "Tidak ada subtitle yang dipilih"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "Hapus {{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "Sematkan ke dalam video"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "Simpan sebagai"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "Di sebelah video"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "Di folder unduhan"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitle/subfolder"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "Cari bahasa…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "Dibuat secara otomatis"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "Navigasi profil unduhan"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "Canggih"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "Menghapus unduhan dari daftar Unduhan beberapa detik setelah selesai. File tetap ada di folder Anda; unduhan yang gagal dan dibatalkan tetap ada di daftar."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "Hapus otomatis unduhan yang selesai"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "Otomatis mencoba lagi setelah gangguan jaringan atau server, menunggu lebih lama sebelum tiap percobaan. Unduhan yang diblokir situs tidak pernah dicoba ulang otomatis."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "Coba lagi unduhan yang gagal"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "kali"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "URL massal"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "Tambahkan dan antri beberapa URL."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "Hapus URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "Tautan ditambahkan dari clipboard"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "Beberapa tautan disalin — tambahkan lewat “URL massal”"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "Tidak ada tautan di clipboard"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "Tidak dapat membaca clipboard — tempel tautan langsung ke kolom"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "Diganti dengan tautan yang disalin"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "Tonton papan klip"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "Isi otomatis bidang URL saat Anda menyalin tautan video."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "Urungkan"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "Sembunyikan ke baki saat ditutup"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "Lanjutkan pengunduhan di latar belakang setelah menutup jendela."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "Berapa banyak item antrean yang diunduh bersamaan. Lebih banyak sekaligus menyelesaikan antrean panjang lebih cepat, tetapi meningkatkan kemungkinan situs membatasi Anda."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "Unduhan sekaligus"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "unduhan"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Berapa banyak tautan yang detailnya diambil Klip secara bersamaan, sebelum diunduh. Lebih sedikit lebih ramah bagi situs yang memblokir koneksi yang sibuk. Tautan yang Anda buka di Unduhan Interaktif selalu didahulukan."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "Tautan yang diperiksa bersamaan"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "tautan"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "Situs seperti YouTube mungkin menandai — dan terkadang melarang — akun yang cookie-nya digunakan oleh alat pengunduh seperti Klip. Gunakan akun sekali pakai jika memungkinkan."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "Membaca cookie langsung dari browser. Browser harus ditutup untuk browser keluarga Chromium."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "Peramban"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "Pilih peramban…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "Memilih…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "Jernih"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "Pilih browser untuk menggunakan cookie"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "Pilih file untuk menggunakan cookie"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "Tab Jelajahi nonaktif, jadi unduhan tidak memakai login Jelajahi Anda. Aktifkan di bagian Jelajahi di bawah."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "Dapatkan cookies.txt SECARA LOKAL (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookie.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "File cookie"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "Bagaimana cara mengekspor cookie?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "Buka Jelajahi"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "Tidak ada berkas yang dipilih"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "Disarankan"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "Risiko: cookies.txt berisi setiap sesi login untuk browser tersebut — jaga kerahasiaannya."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "Peramban"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "Login Jelajahi"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "Mengajukan"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Sumber cookie"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "Membantu untuk video yang bisa ditonton akun Anda sendiri, seperti video privat Anda."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "Mempercepat unduhan besar dengan mengambil beberapa bagian video sekaligus. Nilai lebih tinggi meningkatkan kemungkinan situs membatasi Anda."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "Koneksi unduhan"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "koneksi"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "Unduh album…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "Unduh video yang disukai…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Unduh Mix…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "Unduh daftar putar…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "Unduh unggahan…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "Unduh Tonton nanti…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "Hanya audio"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "Subtitle"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ situs"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "Daftar putar musik"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "Video"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "Daftar putar video"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Apa yang bisa ditarik Klip"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "Saluran"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "Musik"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "Daftar Putar"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "Podcast"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "Video"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "Panduan langkah demi langkah. Pilih format, kualitas, dan lainnya."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "Unduh dari URL"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "Ubah pintasan"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "Pintasan ini dipakai aplikasi lain — pilih yang lain."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "Pintasan global"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "Tekan tombol…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "Atur ulang ke default"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "Unduh tautan apa pun yang Anda salin, dari aplikasi mana pun, tanpa membuka Klip."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "Pintasan global"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "Uji"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "Aktifkan pintasan global"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "Salin tautan video di aplikasi mana pun lalu tekan pintasan: Klip memasukkannya ke antrean dengan profil aktif Anda, tanpa berpindah jendela. Tautan ke video dalam daftar putar mengunduh videonya."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "Unduhan Interaktif"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "Unduhan Interaktif…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "Unduhan aktif mempertahankan batasnya saat ini. Jeda + Lanjutkan untuk menerapkan perubahan."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "Kebiasaan…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "misalnya 750K atau 1,5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "Batasi bandwidth untuk pengunduhan media. Kecepatan permintaan di bawah biasanya merupakan tuas batas tarif yang lebih kuat."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "Gunakan angka yang diikuti K atau M (misalnya 500K, 1,5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "Batas kecepatan unduh"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "Mengunduh di latar belakang… Saya bisa melakukan banyak tugas 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "Unduh Cepat mengantrekan item yang dimuat dengan {{profileName}}. Unduhan Interaktif memungkinkan Anda memeriksa atau memilih item terlebih dahulu."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "Letakkan tautan dan biarkan Klip menariknya ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "Unduh Cepat memulai satu unduhan dengan {{profileName}}. Gunakan Unduhan Interaktif untuk perubahan sekali pakai."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "Tautan ini menyebut sebuah video dan daftar tempatnya berada: unduh videonya saja, atau daftarnya."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "Stereo yang kompatibel"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "Stereo atau surround saat profil memilih audio asli. Profil bisa menimpanya."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "Preferensi audio asli"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "Lebih suka surround / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "Tambahkan sedikit waktu tunggu setiap kali mengunduh sehingga Klip tidak masuk ke situs terlalu agresif. Nilai dalam detik."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "Jeda sebelum media dimulai: maks"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "Jeda sebelum media dimulai: min"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "Tunggu di antara pemeriksaan metadata"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "Tunggu sebelum file subtitle"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "Unduhan yang lembut"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Seberapa hati-hati Klip?"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "Seimbang"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "Hati-hati"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "Kebiasaan"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "Mati"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "Menunggu: {{requests}} di antara pemeriksaan, {{downloads}} sebelum media dimulai, {{subtitles}} sebelum file subtitle."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "Waktu tunggu ini terjadi di dalam setiap unduhan. Berapa banyak unduhan yang berjalan bersamaan diatur terpisah, di «Unduhan sekaligus»."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "Bawaan. Menambahkan jeda singkat antar permintaan dan sebelum media dimulai."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "Menambahkan jeda lebih lama untuk daftar putar besar atau jaringan yang sering mencapai batas."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "Sesuaikan sendiri kontrol per-unduhan tingkat lanjut."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Hanya menggunakan jeda dasar kecil yang disimpan Klip untuk media dan subtitle."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "detik"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "Tautan dibuka di Klip"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "Diganti dengan tautan yang dibuka di Klip"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "Tempel tautan"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "Batas saat ini: item {{count}}"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "Kebiasaan…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "Gunakan bilangan bulat dari {{min}} hingga {{max}}."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "Simpan batas"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "Batas pemindaian daftar putar khusus"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "Kustom: item {{count}}"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "Entri maksimum Klip dimuat saat daftar putar, saluran, atau hasil pencarian dibuka."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "Gunakan bilangan bulat dari 1 hingga 5000"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "Item daftar putar untuk dipindai"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "item {{count}}"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "Gunakan batas aplikasi: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "Terapkan"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "Tidak dapat menerapkan cakupan daftar putar itu: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "Terapkan dan muat ulang"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "Ubah"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "Pilih apa yang dimuat Klip untuk daftar putar ini."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "Cakupan daftar putar"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "Tidak ada video dalam cakupan itu"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "Pertama"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "Gunakan bilangan bulat dari 1 hingga {{max}}, dengan awal tidak lebih besar dari akhir."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "Item yang dimuat"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "Cakupan daftar putar"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "Rentang"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "Memuat ulang..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "Atur ulang"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "Muat {{count}} item pertama"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "Muat {{count}} item pertama"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "Muat item {{from}}-{{to}}"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "sampai"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "Profil aktif"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "Bawaan"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "Kebiasaan"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "Disembunyikan"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "Dimodifikasi"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "Hanya audio"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "Seimbang 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "Kualitas terbaik"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "Terendah 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "Hemat data 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "TV Pintar 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "TV Pintar 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "TV Pintar 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "File kecil 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "Hanya subtitle"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "Ubah tujuan global"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "Memakai tujuan global"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "Memakai tujuan global + subfolder profil"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "Memakai penggantian profil"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "Memakai penggantian profil + subfolder profil"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "Untuk mengubah lokasi penyimpanan, edit profilnya."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "Tujuan"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "Sunting"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "Edit profil aktif"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "Profil tersembunyi tetap di sini tetapi hilang dari semua pemilih."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "Tampilkan profil di pemilih: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "Pertahankan setidaknya satu profil tersedia."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "Kelola profil"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "Ubah profil aktif untuk Unduhan Cepat, URL Massal, dan daftar putar."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "Ganti profil"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "profil yang dapat dipindahkan"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "Pemindahan dibatalkan. Profil {{profileName}} tetap di posisi {{position}} dari {{count}}."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "Profil {{profileName}} dilepas di posisi {{position}} dari {{count}}."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "Pindahkan {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Untuk memindahkan profil, tekan Spasi atau Enter, geser dengan tombol panah, lalu tekan Spasi atau Enter untuk melepaskannya. Tekan Escape untuk membatalkan."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "Profil {{profileName}} berada di atas posisi {{position}} dari {{count}}."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "Profil {{profileName}} diangkat. Posisinya {{position}} dari {{count}}."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "Profil baru"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "Profil ini menyimpan ke folder yang belum diatur. Pilih folder di profil, atau kembalikan ke default."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "Buat, pilih, edit, atau hapus pengaturan unduhan yang dapat digunakan kembali."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "Unduh Profil"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "Menghapus"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "Seret profil untuk memindahkannya. Semua pemilih profil mengikuti urutan ini."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "Mengatur ulang"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "Disimpan ke"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "Ganti profil unduhan: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "Ganti profil unduhan"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "Jernih"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "Arahkan lalu lintas melalui server proksi."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "URL proksi"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "Unduh Cepat"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "Akan diunduh menggunakan: {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "Tidak dapat menambahkan yang ini: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "Item antrean tidak dapat disiapkan"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "Mempersiapkan"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "Penyelidikan gagal"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "Tempelkan video, daftar putar, saluran, atau URL pencarian untuk memulai."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "Kirim sinyal anonim dan laporan penyiapan"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "Tanpa pelacakan. Sekali sehari, sinyal anonim mengirim versi aplikasi, saluran instalasi, OS, bahasa, negara, dan kira-kira sudah berapa lama Klip terpasang agar kami bisa menghitung pengguna aktif dan baru. Saat Klip menyiapkan atau memperbarui mesin pengunduh atau alat media, Klip juga melaporkan apakah berhasil dan kira-kira berapa lama. Tanpa ID, URL, judul video, atau nama file."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "Perilaku global yang juga memengaruhi unduhan yang digerakkan oleh profil."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "Perilaku unduhan"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "Masukan"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "Panel kaca di atas langit yang bergerak. Butuh akselerasi grafis."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "Permukaan polos yang tenang. Ringan dijalankan di komputer apa pun."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "Minimalis"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "Kedua gaya tersedia dalam mode terang dan gelap."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "Gaya"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Tampilan Klip. Beralih antara terang dan gelap di footer."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "Tampilan"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} butuh akselerasi grafis, yang saat ini tidak tersedia, jadi Klip menampilkan {{fallback}}."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "Profil"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "Video ini"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "Mengunduh hanya video ini dengan {{profileName}}"

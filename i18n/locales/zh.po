@@ -1,0 +1,5277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "关于"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "查看第三方声明"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "官网"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "允许"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "已允许 AI 放大"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube 会为部分老视频提供用 AI 生成的尺寸。选择“跳过”会保留原始流；你仍可手动选择放大后的流。"
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "AI 放大的流"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "跳过"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "反馈"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "喜欢 Klip 吗?我很想听听你的想法! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "日志"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "保存诊断文件"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "将日志和应用信息汇总到“下载”文件夹中的一个文件里，可直接附加到 GitHub issue。你的用户文件夹名称会被移除；视频链接和标题会保留。"
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "新功能：在这里选择 Aurora 或极简"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "主题"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "放大"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "缩小"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "继续"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "加载中…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "重新开始"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip 将继续运行并完成活动下载。可在高级设置中更改。"
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "最小化到托盘"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "关闭时将 Klip 最小化到系统托盘？"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "不再询问"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "你的队列会被保留，下次打开 Klip 时，下载会从中断处继续。"
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "继续下载"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "正在进行 {{count}} 个下载"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "渲染进程崩溃（{{reason}}）。请重新加载以重试。"
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip 遇到了一个问题"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "重新加载"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "已复制！"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "复制地址"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip 免费开源，没有广告，也没有付费版本。捐赠完全自愿，不会换取对路线图的任何影响。"
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "捐赠"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "支持 Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "{{coin}} 捐赠地址二维码"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "支持 Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "加密货币转账不可撤销。请仅通过所示网络发送，并核对完整地址。"
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "此视频没有{{languages}}的字幕。"
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "该视频有年龄限制,未登录账号无法下载。"
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "该网站的机器人防护阻止了此次下载。请稍等片刻后重试，或一次少下载几个视频。如果持续失败，这可能是网站端临时性的变动——Klip 会在启动时更新其下载引擎，一旦修复发布，会自动生效。"
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "服务器在传输过程中反复中断下载，Klip 多次重试后放弃。此问题通常出现在最大的视频格式（4K HDR / 高码率 VP9）上。请重试、切换网络或 VPN，或选择分辨率较低的格式。"
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "该视频受 DRM 保护。Klip 无法去除 DRM，因此无法下载该文件。"
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "该视频已不再提供您所选的格式。请重新粘贴链接，并从当前提供的格式中选择。"
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "该视频在你所在的地区不可用。"
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "该网站正在拦截来自此连接的请求。请稍后重试。"
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "此视频需要已登录的账号。"
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip 找不到 FFmpeg 或 FFprobe。请重新运行设置，或指定 FFmpeg 位置，然后重试下载。"
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "网络错误。请检查你的连接并重试。"
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "此视频没有所请求语言的字幕。"
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "磁盘空间不足。请清理空间后重试。"
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip 无法写入下载文件夹。该文件夹可能是只读的、位于已锁定的驱动器上，或被系统的隐私设置阻止。请选择其他文件夹或允许访问，然后重试。"
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "无法解析网站的响应。网站可能已更改提供视频的方式。Klip 会在启动时更新其下载引擎——请几分钟后再重试，等待修复发布。"
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "下载已完成，但后处理（合并 / mux / 转换）失败。这通常是 ffmpeg 的临时问题——请重试，如果仍然失败，请尝试其他格式组合。"
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "网站正在限制来自此连接的请求。"
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "该视频不可用 — 可能是私有、已删除或受地区限制。"
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "下载失败。请查看下方的原始输出。"
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip 不支持此 URL。请尝试其他网站的链接。"
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "请检查网络连接，然后重试。"
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "此页面未能加载"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "打开设置"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "请在设置中检查代理，然后重试。"
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "“探索”无法通过你的代理连接"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "在页面上任意视频、播放列表或频道链接上点击右键，即可用活动配置下载、改选其他配置，或打开交互式下载。"
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "右键点击链接即可下载"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "在后台下载专辑"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "在后台下载你赞过的视频"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "在后台下载合辑"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "在后台下载播放列表"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "在后台下载上传内容"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "在后台下载“稍后观看”"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "复制链接"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "下载前 {{count}} 个"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "下载此视频 · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "使用配置下载"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "来自此专辑"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "来自你赞过的视频"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "来自此合辑"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "来自此播放列表"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "来自此频道的上传内容"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "来自“稍后观看”"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "交互式下载…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "此视频，使用"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "新"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "在 YouTube 或任何其他网站上查找视频，无需复制链接，直接在这里下载。在这里登录网站，即可下载需要账号的视频。"
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "继续"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "YouTube 等网站可能会标记、有时甚至封禁用于 Klip 等下载工具的账号。请使用可以失去的账号，而不是你的主账号。"
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "请使用备用账号登录"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "在 Klip 中直接浏览网页"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "下载使用的是浏览器的 Cookies，而不是你在“探索”中的登录。"
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "下载使用的是你的 Cookies 文件，而不是你在“探索”中的登录。"
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "暂不"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Cookies 已关闭，因此下载不会使用你在“探索”中的登录。"
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "使用“探索”中的登录"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "在 Klip 中浏览 YouTube 或任何其他网站，并登录以访问需要账号的视频。"
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "离开时释放内存"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "在其他标签页停留 5 分钟后，关闭 YouTube 首页或搜索页。返回时会重新加载，需要几秒钟。"
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "搜索引擎"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "在地址栏输入的文字将使用此搜索引擎搜索；链接则按输入内容直接打开。"
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "显示“探索”标签页"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "关闭后，下载也将不再使用你在“探索”中的登录。"
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "退出“探索”登录"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "退出登录"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "这将清除“探索”中所有网站的登录信息和浏览数据。需要账号的下载将失败，直到你重新登录。"
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "退出“探索”登录？"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "清除“探索”中所有网站的登录信息和浏览数据。"
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "探索"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "探索"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "对于已登录的账号，YouTube 可能会抵制广告拦截。"
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "广告拦截"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "广告拦截：已关闭 — 点击开启"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "广告拦截：已开启 — 点击关闭"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "广告拦截：启动中 — 点击关闭"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "广告拦截：不可用，无法下载其过滤列表 — 点击关闭"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "地址"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "使用 {{engine}} 搜索或打开任意网站（Vimeo、Instagram…）"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "当前页面"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "后退"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "紧凑布局"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "下载"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "下载 · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "前进"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "显示完整布局"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "打开视频、播放列表或频道即可下载"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "YouTube 首页"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "交互式下载：选择格式、字幕等…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "“探索”无法打开该地址。"
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "重新加载"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "搜索内容太长。"
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "此视频"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "使用 {{profileName}} 仅下载此视频"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "页面缩放：{{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "放大"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "页面缩放"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "缩小"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "缩放百分比"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "将缩放重置为 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "选择下载文件的命名方式。点击标记即可插入。使用 / 可将下载内容分类到文件夹。"
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "请输入文件名模板。"
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "请删除多余的 / — 每个文件夹都需要名称。"
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "请删除文件名中不允许的字符: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "该文件夹名称不被允许。请避免 . 和 .. 以及 CON 之类的保留名称。"
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "请在文件名中加入 {title} 或 {id}，让每个下载都有自己的名称。"
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} 不能用作文件夹名称 — 画质要到下载开始后才能确定。"
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ 或 } 未配对 — 标记请写成 {title} 这样的形式。"
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "模板过长。"
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "未知标记 {{token}}。"
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "请让文件名以 [{id}] 结尾，这样 Klip 才能检测已下载的播放列表项，并生成 .m3u 播放列表。"
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "文件名模板"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "不可用，因为你的文件名模板没有以 [{id}] 结尾，或会将下载内容分类到文件夹中。"
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "在播放列表中"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "单个视频"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "留空则沿用全局模板。"
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "文件名模板"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "自动"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "自动 (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "由所选的流决定文件类型。"
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "可容纳任何编码。部分电视和手机无法打开。"
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "几乎在所有设备上都能播放。MP4 中的 VP9 在 QuickTime 中无法播放画面。"
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "面向浏览器的开放格式。只能容纳 VP9 或 AV1 搭配 Opus。"
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "MP4 中的 AV1 需要较新的 Mac 才能在 QuickTime 中播放。H.264 在任何地方都能播放。"
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "MP4 中的 VP9 在 QuickTime 中无法播放画面。H.264 在任何地方都能播放。"
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "配置"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "智能电视不提供 WebM：它无法容纳 H.264。"
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM 无法容纳 {{codec}}。请选择 MKV 或 MP4。"
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "仅音频 · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "自动"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "自动模式会在此屏幕能显示 HDR 时选择 HDR，否则选择 SDR。HDR 在普通屏幕上看起来会发灰。"
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "HDR 视频"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "语言"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "已通过“探索”登录 — 正在重试 {{count}} 个链接"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "无法退出“探索”登录，请重试。"
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "此文件夹层级对你的系统来说太深。下载仍可能失败 — 请选择更短的文件夹。"
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "此视频的名称无法容纳模板的每个部分，因此使用了默认名称。"
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "无法打开文件夹选择器。"
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "已在队列中 — 未重复添加"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "请先在 Klip 中完成 Cookie 设置，然后再试"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "剪贴板中没有链接 — 请先复制一个"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "已复制多个链接 — 请在 Klip 中使用「批量 URL」"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "此链接需要你来选择 — 请在 Klip 中查看“下载”"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "已从剪贴板添加下载"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "无法添加该链接 — 请在 Klip 中重试"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "该文件夹无法用于此播放列表。"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} 个视频已在队列中 — 已跳过"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "已添加：{{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "已在队列中"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "已将 {{count}} 个链接添加到“下载”"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} 个已在队列中"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} 个链接无法添加"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} 个无法添加"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "此列表中有 {{count}} 个视频 — 请选择要下载的内容"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ 个视频 — 选择数量"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "无法准备 {{title}}"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "无法添加该链接 — 请重试"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "查看"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "无法保存你的设置。"
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "无法打开该项目。"
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "初始化未完成。在完成之前，部分下载可能会失败。"
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "音频（最佳）"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "音频 ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "最佳原生音频，不重新编码"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "转换为 M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "转换为 MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "转换为 Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "YouTube 不提供 1080p 以上的 H.264 — 自动限制为 1080p"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "保存方式"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "直接保存在保存文件夹中"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "语言"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "请至少选择一种语言以继续。"
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "每个视频仅保存字幕文件 — 不下载视频或音频。"
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "来源"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "最高 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "最高 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "最高 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "最高 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "最高 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "最高 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "最高 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "最高 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "最佳质量"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "限制为 1080p，每项必要时降级"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "最小的文件"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "限制为 2K，每项必要时降级"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "限制为 2160p，每项必要时降级"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "非常小的文件，低画质"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "带宽紧张时的小文件"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "低带宽"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "文件更小，兼容性广"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "每个项目可用的最佳视频 + 音频"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "视频"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "最佳原生格式"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "智能电视 H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "每个项目可用的最高编解码器"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "优先 H.264 + AAC，MP4 容器 · 尽力匹配"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "伴随文件"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "描述"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "媒体"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "缺失"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "字幕"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "文件"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} 个下载需要你处理"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "每个下载完成几秒后，自动从列表中移除。文件仍保留在你的文件夹中。"
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "完成后自动清除"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "取消所有正在进行和等待中的下载"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "所有视频"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "此播放列表中的视频超过 {{count}} 个。可以全部下载、只下载前 {{count}} 个，或在查看中自行挑选。"
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "前 {{count}} 个"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "整张专辑"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "赞过的视频"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "整个合辑"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "整个播放列表"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "全部上传内容"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "“稍后观看”"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "从中挑选…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "查看"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "此链接是包含 {{count}} 个视频的列表。可以全部下载，或在查看中自行挑选。"
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "此视频"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "此链接是专辑中的一个视频。只下载该视频，还是下载整张专辑？"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "此链接是你赞过的视频中的一个视频。只下载该视频，还是下载你赞过的所有视频？"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "此链接是合辑中的一个视频。只下载该视频，还是下载整个合辑？"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "此链接是播放列表中的一个视频。只下载该视频，还是下载整个播放列表？"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "此链接是某个频道上传内容中的一个视频。只下载该视频，还是下载全部上传内容？"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "此链接是你的“稍后观看”列表中的一个视频。只下载该视频，还是下载整个列表？"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "清除已完成的下载"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "排队的下载会显示在这里"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "全部"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "队列状态筛选"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "所有项目"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "下载"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "未移除声音"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "未移除声音 · 部分字幕未能下载"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "下载失败"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "打开目标文件夹"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "暂停"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "仅待处理"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "立即下载 — 跳过队列"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "限制为 {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "限制为 {{height}}p · 部分字幕未能下载"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "继续"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "正在自动重试（第 {{attempt}} 次）"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "设置位置"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "选择待处理项目以设置位置。"
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "已取消"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "完成"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "错误"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "已挂起"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "需要你来选择"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "已暂停"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "等待中"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "正在获取详情"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "下载中"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "没有{{languages}}的字幕"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "等待 {{site}}，直到 {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} 正在限制此连接的请求频率。Klip 会在 {{time}} 后获取此链接的详情，以便让限制解除。"
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "关闭"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "来自专辑"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "来自你赞过的视频"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "来自合辑"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "来自播放列表"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "来自频道的上传内容"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "来自“稍后观看”"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "获取整张专辑"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "获取所有赞过的视频"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "获取整个合辑"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "获取整个播放列表"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "获取全部上传内容"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "获取“稍后观看”的全部内容"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "将列表作为单独一行添加。此视频不包含在内。"
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "暂停所有正在进行的下载"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "队列已暂停 — 等待中的任务在恢复队列之前不会开始"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "继续已暂停的下载并让队列继续运行"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "恢复队列"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "已选项目"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "已选择 {{selected}} · 共 {{total}}"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "下载"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "已添加"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "输出文件"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "已放下 {{column}} 列。"
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "已取消移动 {{column}} 列。"
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "{{column}} 列悬停在 {{target}} 列上。"
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "已拿起 {{column}} 列。"
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "列"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "已完成"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "格式"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "隐藏 {{title}} 的文件"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "可移动的列"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "要移动列，请按空格键或 Enter 键，用方向键移动，然后再按空格键或 Enter 键放下。按 Esc 键取消。"
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "输出目标"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "进度"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "重置列"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "调整 {{column}} 列的宽度"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "显示 {{title}} 的文件"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "大小"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "按 {{label}} 排序"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "标题"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "下载现在都在下载标签页中 — 随时打开即可查看进度。"
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "继续"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "你正在运行新的更新。以下是亮点。"
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "完整发行说明 ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Klip {{version}} 新增内容"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "选择可执行文件"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "使用 Homebrew 安装"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "使用 WinGet 安装"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "打开依赖文件夹"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "恢复默认"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "重试"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "查看设置日志"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "请重试。如果仍然失败，请在下方选择一个可用的副本。"
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "某个工具运行不正常"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "请在杀毒软件或 SmartScreen 中允许 Klip，然后重试。"
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "杀毒软件拦截了某个工具"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "请检查网络连接，然后重试。"
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "无法下载 Klip 所需的内容"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "请重试，重新下载一次。"
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "下载的文件已损坏"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "请重试，重新下载一次。"
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "下载的文件校验未通过"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "请在下方同时选择两者，或将它们恢复为默认。"
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg 和 FFprobe 必须一起设置"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "请重试。如果仍然失败，请在下方选择一个你信任的副本。"
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "系统不允许 Klip 运行某个工具"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "请重试。如果仍然失败，请在下方选择一个可用的副本。"
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "某个工具缺失或无法启动"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "首次运行时常因安全扫描而变慢。请重试。"
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "某个工具响应时间过长"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "请重试，或打开设置日志查看详情。"
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "设置过程中出了点问题"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "下载引擎"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "媒体工具"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "正在通过 Homebrew 安装…可能需要几分钟。"
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "正在通过 WinGet 安装…可能需要几分钟。"
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "指定你已有的副本，或通过其他方式安装。"
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "你也可以用包管理器安装 yt-dlp 和 ffmpeg，然后点击“重试”。"
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "手动设置"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "请重试，或在下方指定你已有的工具。"
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "设置已停止"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "初始化需要你的帮助"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "此配置的选择方式"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "AAC 音频"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "适配 MP4 播放器"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "AAC 音频"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "随处可播放"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "先 AV1，再 VP9，最后 H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "相同大小下最清晰"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "先 H.264，再 VP9，最后 AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "此配置的编解码器"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "先 VP9，再 H.264，最后 AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "此配置的编解码器"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "最高帧率"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "动作更流畅"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "H.264 视频"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "所有设备都能播放"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR 优先于 SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "在 HDR 屏幕上色彩更丰富"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "此屏幕支持显示 HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR 优先于 HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "在任何屏幕上都显示正常"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "此屏幕不支持 HDR"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "MP4 流"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "适合 MP4 文件"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "立体声音频"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "此配置"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "来自设置"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "环绕声音频（如有）"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Opus 音频"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "适配 WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "原始流，而非 AI 放大的流"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "放大版分辨率更高，但没有增加真实细节"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "优先选择直接下载，而非流式副本"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "相同画面，下载更快"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "最高 {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "你的上限"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "最高分辨率"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "未设上限"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "网站未降级的流"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "跳过损坏、带水印和备用的副本"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "更大的文件"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "相同设置下细节更多"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "优先选择增强比特率流"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "相同分辨率下细节更多"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "文件类型由流决定"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "保存为 .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "最佳画质"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "所有设备都能播放"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "为什么选这个？"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "配置为什么选了这个"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "已复制！"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "复制链接"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — 适用于 Windows、macOS 和 Linux 的免费开源视频下载器。支持 YouTube、Vimeo、Twitch 及 2000+ 个网站。\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip 免费且开源。分享它可以帮助更多人发现它。"
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "分享"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "分享 Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "分享 Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "分享 Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "遇到问题？手动设置"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "嘿,欢迎回来!"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "约剩 {{count}} 分钟"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "不到 1 分钟"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "正在检查一切是否正常"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "正在连接…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "正在解压媒体工具"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "正在解压下载引擎"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "正在更新 Klip 的工具"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "正在更新下载引擎"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "首次设置"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "正在更新媒体工具"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "本版本的首次检查——这次会比较慢，通常需要一分钟左右。"
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "正在检查 {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "正在准备下载…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "初始化失败。打开设置日志查看详情。"
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "视频已连同声音保存 — 未能移除音频"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "视频已连同声音保存 — 未能移除音频，且部分字幕未能下载"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "下载已取消"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "下载完成"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "正在转换视频…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "磁盘空间不足 — 需要 {{required}}，当前仅剩 {{free}}"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "正在下载二进制 {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "正在下载视频和音频…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "正在嵌入元数据…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "已退出“探索”登录 — 请重新登录"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "正在转换音频…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "正在连接 SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "正在获取字幕…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "正在合并音视频…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "正在准备 YouTube 下载…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "正在移动文件…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "没有{{languages}}的字幕"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "无法保存到 {{dir}} — Klip 没有在该处写入的权限"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "正在准备二进制文件…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "已以 {{height}}p 保存 — YouTube 未提供本次下载的更高画质。稍后重试可能会有帮助。"
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "已以 {{height}}p 保存 — YouTube 未提供本次下载的更高画质，且部分字幕未能下载。稍后重试可能会有帮助。"
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "正在重新准备 YouTube 下载…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock 暂时不可用，正在重试 ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "连接停滞，正在重试 ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "正在使用你在“探索”中的账号登录…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "等待 {{seconds}} 秒以避免限流…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "正在启动下载引擎…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "此视频没有{{languages}}的字幕。视频已保存，但不含这些字幕。"
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "此视频没有{{languages}}的字幕。其他语言已保存。"
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "视频已保存 — 部分字幕未能下载"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "启动下载时出现未知错误"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "已使用简化提取模式完成下载 — 配置 cookies.txt 可让下载更稳定"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "下载引擎以代码 {{code}} 退出"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "下载引擎错误：{{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "深色模式"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "浅色模式"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "跟随系统"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "最大化"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "最小化"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "还原"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "从剪贴板下载"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}}个下载中 · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "空闲"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "命令已复制到剪贴板"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "复制命令到剪贴板"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "关闭更新提示"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "下载 ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "下载 DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "下载中…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "安装并重启"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "更新失败"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} 可用 — 当前为 {{currentVersion}}。"
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} 可用 — 请用 Homebrew 更新。"
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} 可用 — 下载新的 DMG。"
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} 可用 — 下载 DMG 或改用 Homebrew。"
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} 可用 — 下载新的构建。"
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "运行并重启"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "升级中…"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} 个章节"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "加载中…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "优先 H.264"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "视频编解码器"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "智能电视始终采用 H.264。"
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "优先 VP9"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "就绪"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "粘贴视频、播放列表、频道、搜索或音频 URL。Klip 会在加入队列前清理重复项。"
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "粘贴一个或多个 URL 以预览批次。"
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "已忽略"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "至少添加一个受支持的 URL 才能继续。"
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "重复"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "URL 列表"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "批量 URL"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ 队列"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "其他下载完成后开始 — 享受全部带宽"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{total}} 个视频中的 {{count}} 个"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{total}} 首曲目中的 {{count}} 首"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} / {{total}} 个 URL"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "批量 URL"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "项目"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "播放列表"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "预设"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "保存位置"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "大小"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "视频"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "文件将保存至"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "将保存到下方的 {{count}} 个目标位置"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "已启用“仅字幕”配置，但未选择任何字幕语言 — 不会下载任何内容。"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} 项"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "此批次中的配置"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "开始下载! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "立即开始 — 与其他活动下载并行运行"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "已经准备好下载!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Subtitle embed 已改为 sidecar — 纯音频轨道不支持嵌入字幕流。"
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "将字幕嵌入视频需要 MKV 文件，因此此下载将保存为 .mkv。"
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Thumbnail embed 已跳过 — 输出 container 不支持此功能。"
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "自定义…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "桌面"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "文档"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "下载"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "保存到"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "主目录"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "音乐"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "图片"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "文件夹名包含无效字符"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "例如：讲座"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "保存到子文件夹"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "影片"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "音频语言"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} 种语言"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "比特率 {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Cookies 已配置但未启用。启用后重试可获取完整列表，或更换网络后重试。"
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "即使使用了 cookies，YouTube 仍然限制了本次探测。请稍后重试或更换网络。"
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube 限制了此请求。请稍后重试或切换网络。"
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "格式列表可能不完整。请在高级设置中配置 cookies，或更换网络后重试。"
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "启用 cookies 并重试"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "YouTube 限制了本次探测"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "比特率"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "已是 {{target}} 的源会保留自身的流和比特率：直接复制，不重新编码。"
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps，不重新编码"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}，不重新编码"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps，与源一致：流已是 {{target}}，因此直接复制，不重新编码"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "与源一致：流已是 {{target}}，因此直接复制，不重新编码"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "转换"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "源为 {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (未压缩)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "浏览器"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "“探索”登录"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "文件"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Cookies 来源"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp 文档（issue #10927）"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 及更新版本以其他应用在 Windows 上无法读取的方式加密 cookies。请尝试以下任一解决方法。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "使用浏览器扩展从 Chrome 导出 cookies，然后将此应用切换到文件模式并选择导出的文件。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "导出 cookies.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox 不使用 App-Bound Encryption。打开 cookies 设置，从浏览器列表中选择 Firefox。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "切换到 Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "在 Chrome 的启动快捷方式中添加 --disable-features=LockProfileCookieDatabase。警告：这将使之前加密的 cookies 失效，你将被所有网站登出，需要重新登录。"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "以禁用 App-Bound Encryption 的方式启动 Chrome"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Chrome Cookies 被 Windows 加密阻止"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Cookies 直接从浏览器读取。如果浏览器当前正在运行，其 cookie 数据库可能已被锁定（Chromium-family）。浏览器还必须已登录 YouTube。请尝试关闭浏览器、切换到其他浏览器、切换到文件模式或关闭 cookies。"
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "你的 cookies 文件可能为空、已过期或格式不正确（Klip 需要 Netscape cookies.txt 格式）。请尝试重新导出 cookies、选择其他文件、切换到浏览器模式或关闭 cookies。"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "通过“探索”登录后，Klip 会重试。"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "通过“探索”登录"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "此视频可能需要 YouTube 账号"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip 已经使用你在“探索”中的登录试过了，再次登录也无济于事。可能是网站出现问题，或此账号无法打开。请稍后再试。"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "即使已在“探索”中登录，网站仍拒绝了此请求"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "你已在“探索”中登录，但下载目前没有使用该登录。"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "使用我在“探索”中的登录并重试"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "此视频可能需要 YouTube 账号"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "如果此视频需要账号，Klip 会自动使用你在“探索”中的登录。也可能因其他原因而无法使用。"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "已在“探索”中登录"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "如果此视频需要 YouTube 账号，请在“探索”中登录后重试。Klip 仅在下载需要时才使用该登录。"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "在“探索”中登录"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "此视频可能需要 YouTube 账号"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "此链接可能需要 {{host}} 的账号"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "请通过“探索”登录 {{host}} 后重试。"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "请在“探索”中登录 {{host}} 后重试。Klip 仅在下载需要时才使用该登录。"
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Cookies 可能是原因所在"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip 无法在未经认证的情况下访问此视频。请在高级设置中配置 cookies——指向你已登录的浏览器，或导入 cookies.txt 文件。"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "此网站需要登录"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "打开 cookies 设置"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "改用 Cookie 文件或浏览器…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "压低响亮的部分、提升安静的部分，适合扬声器和嘈杂环境。"
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "均衡音量（DRC）"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "音量均衡"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "你的配置是智能电视 (H.264)。此视频不提供 H.264，因此选择了最接近的流。"
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "此链接没有视频，已选择音频。"
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "配置要求 {{languages}} 字幕，但此视频没有。"
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "配置要求 {{wanted}}p，但此视频没有这么低的画质，已选择 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "配置要求 {{wanted}}p。此视频中较小的流与配置的其余部分不匹配，因此已选择 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "配置要求 {{wanted}}p。此视频没有可用的 {{wanted}}p，因此已选择 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "配置要求 {{wanted}}p。此视频的 {{wanted}}p 是 AI 放大的，因此已选择原始的 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "配置要求 H.264 的 {{wanted}}p。此视频只有其他编码的 {{wanted}}p，因此已选择 H.264 的 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "配置要求 {{wanted}}p。此视频的 {{wanted}}p 与配置的其余部分不匹配，因此已选择 {{picked}}p。"
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "你的配置要求 WebM。此视频所选的流包含 WebM 无法容纳的 {{codec}}，因此文件类型为自动。"
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "加入队列但不开始"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "下载"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "更多下载选项"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "请至少选择一种字幕语言。"
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "保持原样"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "内置音频"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "仅音频"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "下载内容"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "仅字幕"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "视频 + 音频"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "视频，无音频"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "正在加载格式"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "请等待探测完成，播放列表和搜索可能需要一些时间。"
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "AI 配音"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "AI 放大"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "音频描述"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "已损坏"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "增强比特率"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "原声"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "空间音频"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "带水印"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "无音频"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "活动配置会为你预先选好流。可从菜单切换配置，或用铅笔图标在不离开本次下载的情况下调整配置。"
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "格式从你的配置开始"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "最接近配置"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "编辑“{{name}}”"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "保留我的更改"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "仅用于本次下载。你的默认配置保持不变。"
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "预选自"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "全部重置"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "你为本次下载更改了{{areas}}。无论哪种方式，视频和音频都由“{{profile}}”选择。保留其他更改，还是全部重置为配置的设置？"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "切换配置？"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "配置"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "你为本次下载更改了{{areas}}。无论哪种方式，视频和音频都由更新后的配置选择。保留其他更改，还是全部重置为配置的设置？"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "使用更新后的配置？"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "高质量"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "低质量"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "中等质量"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} 正在限制此连接的请求"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "格式列表可能不完整。"
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} 暂时拒绝了此请求。"
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "重试"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} 可能会将此限制保持长达一小时。"
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "立即尝试"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "等待时间已过，你可以再试一次。"
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip 会等到 {{time}} 再向 {{site}} 发出请求，以便限制解除。"
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "分辨率未知"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "保存为"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM 无法容纳 {{codec}}，因此文件类型已改回自动。"
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "大小未知"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "跳至确认"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "使用您保存的偏好设置完成所有剩余步骤。若要更改某项设置，请逐步继续操作——您的选择将在下次保存。"
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "正在为你寻找最佳格式…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "总计"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "视频"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "含音频"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "使用 {{profileName}}。如果超过 {{count}} 个视频，“下载”会询问下载多少个。"
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "在后台下载"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "按 Esc 取消。"
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "恰好是前 {{count}} 个，使用 {{profileName}}。"
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "下载前"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "从前 {{count}} 个视频中挑选（或在下一步更改数量），然后设置下载。"
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "交互式下载…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "从列表中取多少个视频：第一个选项会在超出该数量时询问，第二个则恰好取这么多。与“设置 › 要扫描的播放列表项目数”相同。"
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "数量上限"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "合辑每次打开时内容都会变化。"
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "个视频供挑选。"
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "加载前"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "你可以在下一步更改。"
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "从此专辑中选择"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "从你赞过的视频中选择"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "从此合辑中选择"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "从此播放列表中选择"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "从此频道的上传内容中选择"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "从“稍后观看”中选择"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "从此专辑下载"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "从你赞过的视频下载"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "从此合辑下载"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "从此播放列表下载"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "从此频道的上传内容下载"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "从“稍后观看”下载"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "仅限你打开的视频，使用 {{profileName}}。不会加载列表。"
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "仅此视频"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "仅设置你打开的视频。不会加载列表。"
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "使用 {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "可在任何现代播放器中导航的章节标记。"
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "嵌入章节"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "章节"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "将标题、艺术家、描述和上传日期写入文件。"
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "嵌入元数据"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "元数据"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "文件内封面图。WebM 视频将重新封装为 MKV；嵌入字幕时跳过。"
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "嵌入缩略图"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "封面"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "将视频描述保存为 .description 文本文件，放在下载文件旁边。"
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "保存描述"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "描述文件"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "在视频旁保存 .m3u 播放列表，以便播放器按顺序打开。"
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "生成 .m3u 播放列表文件"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "将缩略图保存为 .jpg 图片文件，放在下载文件旁边。"
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "保存缩略图"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "缩略图文件"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "在视频卡片上切换到“片段”，选择起点和终点或某个章节，即可只下载那一段。"
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "只下载视频的一部分"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "章节"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "章节 {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "片段通过 ffmpeg 下载，因此您的下载连接数和节奏设置不适用于片段。"
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "请先修正片段的开始和结束时间。"
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "结束"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "视频在 {{duration}} 结束。"
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "请以 h:mm:ss、m:ss 或秒数输入结束时间。"
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "请以 h:mm:ss、m:ss 或秒数输入开始时间。"
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "开始时间必须早于结束时间。"
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "关闭时，每个剪辑点会落在最近的关键帧上，可能与您输入的时间相差几秒。"
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "精确剪辑（重新编码，较慢）"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{duration}} 中的 {{length}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "片段"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "视频片段"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "开始"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "整个视频"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "片段 {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "下载多少视频"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss、m:ss 或秒数"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "片段，预估"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "此视频未提供时长，因此只能整个下载。"
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "字幕始终覆盖整个视频。"
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "您的链接从 {{time}} 开始"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "用作开始时间"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "整个视频"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "整个音轨"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "恢复它们以继续。"
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "所有项目均已移除"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "已下载"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "它们还有更多视频。要选择数量，请分别粘贴每个链接。"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} 个列表各只取前 {{limit}} 个视频"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "批量 URL"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "无需等待 — 现在加入队列的文件在下载时仍会使用真实文件名。"
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "正在获取视频详情… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "详情不可用"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "正在获取详情"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "等待中"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "直播"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Playlist 视频"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "要下载的视频"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} 个视频"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} 首曲目"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} 个 URL"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "正在获取 Playlist…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "正在获取视频…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "仅限前 {{count}} 个项目"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "找到 {{count}} 个页面"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "正在收集视频"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "正在扫描频道页面"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "为每一项分配配置"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "跳过画质、SponsorBlock、输出和保存 — 改为为每一项分配下载配置"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "播放列表"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "其中 {{count}} 项是播放列表，不是视频 — 逐个粘贴它们的链接即可下载。"
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "请至少选择一个视频以继续"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Klip 发现超过 {{count}} 个项目，当前扫描上限隐藏了其余内容。"
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "播放列表扫描已达上限"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "扫描已达上限"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "应用范围"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "从"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "到"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "已移除 {{count}} 项"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "从列表中移除 {{count}} 项"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "还原"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "全选"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "已选 {{count}} 个"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "取消全选"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "播放列表顺序"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "正在获取上传日期…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "最旧优先"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "最新优先"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "应用同步"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "更改文件夹…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "这些视频中有 {{n}} 个已在 {{dir}} 中。要同步以仅下载新视频吗？"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "已在文件夹中"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "在 {{dir}} 中未找到此播放列表的视频。"
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "在 {{dir}} 中未找到来自此来源的视频。"
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "尚未下载任何内容"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "正在检查文件夹…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "视频缩略图"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "选择批量下载画质"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} 项"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "每个视频独立匹配所选画质档位——混合内容的播放列表也能正常处理，无意外。"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "分配给 {{count}} 个视频"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "分配配置"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "时长"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "配置"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "编辑{{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "没有符合此筛选条件的项目"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "配置筛选"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "分配下载配置"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "为这 {{count}} 个视频选择配置。"
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "已选择 {{total}} 项中的 {{selected}} 项"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "更改全局"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "选择目标文件夹"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "选择配置图标"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "移除{{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "重置配置"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "此配置已使用内置设置"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "恢复内置配置设置"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "保存配置"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "设置配置覆盖"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "设置覆盖"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "使用全局默认值"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "使用语言代码“{{code}}”"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "高级"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "使用应用设置（{{value}}）"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "最佳"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "最高 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "最高 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "最高 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "最佳质量"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "新建配置"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "默认下载文件夹"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "默认下载文件夹 / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "全局保存位置"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "使用中"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "已沿用"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "配置覆盖"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "选择文件夹"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "未设置覆盖"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "未设置覆盖。此配置使用上方的全局保存位置。"
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "覆盖全局"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "此配置会先保存到自己的根目录，再添加子文件夹。"
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "最终保存位置"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "一份可复用的设置，适用于快速下载、批量链接和播放列表。"
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "下载配置"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "无法更改全局保存位置。"
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "无法打开文件夹选择器，请手动输入路径。"
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "无法重置配置设置。"
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "无法保存配置设置。"
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "保存方式"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "文件类型"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "优化目标"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "配置图标"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "语言"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "配置名称"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "配置名称和图标"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "原生音频"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "配置覆盖路径"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "质量"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "分辨率"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "来源"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "子文件夹名称"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "字幕下载"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "配置按语言代码请求字幕；是否可用会针对每个 URL 单独判断。"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "相同大小下最清晰。较旧的电视、QuickTime 和部分编辑器无法播放。"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "最佳画质"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "可在电视、手机、WhatsApp、QuickTime 和视频编辑器中播放。YouTube 仅在 1080p 及以下提供 H.264。"
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "智能电视"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "存档"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "字幕"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "课程"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "片段"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "控制"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "下载"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "音乐"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "播客"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "视频"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "音乐或播客"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "仅字幕文件"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "普通视频文件"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "仅无声视频"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "自动字幕将保存为 SRT 而非 ASS。"
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "没有匹配的语言"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "此配置不会请求任何字幕文件或内嵌字幕轨道。"
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "按语言名称或代码搜索"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "此输出类型已跳过。"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "请至少选择一种语言。"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "请至少选择一种语言，或关闭字幕下载。"
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "此配置仅将字幕文件加入队列。视频、音频、SponsorBlock 和媒体转换均会跳过。"
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "除非你设置配置覆盖，否则配置将沿用全局保存位置。"
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "高级选项"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "选择你希望使用的主要下载方式。"
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "下载类型"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "在快速下载、批量链接和配置列表中显示的名称和图标。"
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "配置标识"
+
+#. Plural form "other" for zh: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "已启用 {{count}} 项"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "输出选项"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "为此配置选择一个文件夹"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "已跳过"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "将赞助片段标记为章节（不修改文件）。"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "不使用 SponsorBlock — 视频按上传原样播放。"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "使用 FFmpeg 从视频中剪除赞助片段。"
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "仅自动生成"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "手动和自动"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "先手动，后自动"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "仅手动"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "{{label}}帮助"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "附加项"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "文件名"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "格式"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "文件夹"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "字幕、SponsorBlock、缩略图等附加项、文件夹和文件名以前是单独的步骤。点击某一行即可更改。"
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "其他所有设置现在都在此页面"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "与 {{profile}} 相比有更改：{{areas}}。仅应用于本次下载。"
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "与 {{profile}} 相比的更改："
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "更改格式"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "另存为配置"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}}（已编辑）"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "本次下载使用了编辑后的设置。下次继续使用吗？"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "撤销更改，恢复为“{{profile}}”"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "附加项"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "文件名"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "保存位置"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "其他设置"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "保存配置"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "将这些设置保存为配置，下次可直接选择。快速下载配置保持不变。"
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "无法保存配置。"
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "配置名称"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "已保存为配置“{{name}}”"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "另存为配置"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "另存为新配置"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "更新配置"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "这是内置配置。你可以在“配置”标签页中恢复其原始设置。"
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "从现在起，使用此配置的每次下载都将使用新设置。"
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "格式"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "更新“{{profile}}”？"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "已更新配置“{{name}}”"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "用这些更改更新“{{profile}}”"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "无"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "填充内容"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "片头"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "与音乐无关"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "片尾"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "预览"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "自我宣传"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "赞助商"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "类别"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "标记为章节"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "删除片段"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "赞助商过滤"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "将赞助商片段标记为章节（非破坏性）。"
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "不使用 SponsorBlock — 视频按上传状态播放。"
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "使用 FFmpeg 从视频中删除赞助商片段。"
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "确认"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "保存"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "格式"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "输出"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "播放列表"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "画质"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "配置"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "查看"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "链接"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "自动字幕将保存为 SRT 而非 ASS —— 它们会被清除 YouTube 的滚动重复字幕，但我们的 ASS 转换器目前还无法做到这一点。"
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "自动"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "清除全部"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "嵌入模式将输出保存为 .mkv，以便可靠地嵌入字幕轨道。"
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "格式"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "该视频没有字幕"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "没有匹配的语言"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "未选择字幕"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "移除{{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "嵌入到视频"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "保存方式"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "与视频同位置"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "在下载文件夹中"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ 子文件夹"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "搜索语言…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "自动生成"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "手动"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "下载配置导航"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "高级"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "下载完成几秒后，将其从“下载”列表中移除。文件仍保留在你的文件夹中；失败和已取消的下载会留在列表中。"
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "自动移除已完成的下载"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "在网络或服务器故障后自动重试，每次尝试之间等待更久。被网站拦截的下载永远不会自动重试。"
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "重试失败的下载"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "次"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "批量 URL"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "添加多个 URL 并加入队列。"
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "清除 URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "已从剪贴板添加链接"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "已复制多个链接 — 使用「批量 URL」添加"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "剪贴板中没有链接"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "无法读取剪贴板 — 请改为将链接粘贴到输入框中"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "已替换为复制的链接"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "监听剪贴板"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "复制 YouTube 链接时自动填充 URL 字段。"
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "撤销"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "关闭时最小化到托盘"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "关闭窗口后继续在后台下载。"
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "队列中同时下载的项目数量。同时越多，长队列完成越快，但被网站限制的可能性越大。"
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "同时下载数"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "个"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Klip 在下载前同时获取详情的链接数量。数量越少，对会拦截繁忙连接的网站越温和。你在“交互式下载”中打开的链接始终优先。"
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "同时检查的链接数"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "个链接"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "YouTube 等网站可能会标记、有时甚至封禁 Cookie 被 Klip 等下载工具使用的账号。建议尽量使用临时小号。"
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "直接从浏览器读取 cookies。Chromium 系列浏览器使用时必须先关闭。"
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "浏览器"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "选择浏览器…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "选择…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "清除"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "请选择一个浏览器以使用 Cookie"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "请选择一个文件以使用 Cookie"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "“探索”标签页已关闭，因此下载不会使用你在“探索”中的登录。请在下方的“探索”中开启。"
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "本地获取 cookies.txt (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Cookie 文件"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "如何导出 Cookie?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "打开“探索”"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "未选择文件"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "推荐"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "风险: cookies.txt 包含该浏览器所有已登录的会话 — 请妥善保管。"
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "浏览器"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "“探索”登录"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "文件"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Cookies 来源"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "有助于下载你的账号可观看的视频，例如你的私享视频。"
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "同时获取视频的多个部分，加快大文件下载。数值越高，被网站限制的可能性越大。"
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "下载连接数"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "个连接"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "下载专辑…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "下载赞过的视频…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "下载合辑…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "下载播放列表…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "下载上传内容…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "下载“稍后观看”…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "仅音频"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "字幕"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ 个网站"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "音乐播放列表"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "视频播放列表"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klip 能下载什么"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "频道"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "音乐"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "播放列表"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "播客"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "分步向导。选择格式、质量等选项。"
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "从 URL 下载"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "更改快捷键"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "此快捷键已被其他应用占用 — 请另选一个。"
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "全局快捷键"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "请按键…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "恢复默认"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "在任意应用复制链接即可下载，无需打开 Klip。"
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "全局快捷键"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "测试"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "启用全局快捷键"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "在任意应用中复制视频链接并按下快捷键：Klip 会使用当前配置将其加入队列，无需切换窗口。播放列表中的视频链接只会下载该视频。"
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "交互式下载"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "交互式下载…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "正在进行的下载会保留当前限制。暂停再继续即可应用更改。"
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "自定义…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "例如 750K 或 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "限制媒体下载的带宽。下面的请求节奏通常是更强的限速手段。"
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "使用数字并加上 K 或 M（例如 500K、1.5M）"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "下载速度限制"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "正在后台下载… 我可以同时处理多个任务 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "快速下载会用 {{profileName}} 将已加载的项目加入队列。交互式下载可让你先查看或选择项目。"
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "丢个链接，让 Klip 来拉取 ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "快速下载会用 {{profileName}} 开始一次下载。需要临时调整时，请使用交互式下载。"
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "此链接同时指向一个视频及其所在的列表：请选择只下载该视频，还是下载整个列表。"
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "兼容立体声"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "配置选择原生音频时使用立体声还是环绕声。配置可单独覆盖。"
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "原生音频偏好"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "优先环绕声 / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "在每次下载时添加小等待，使 Klip 不会过于频繁地访问网站。数值单位为秒。"
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "媒体开始前暂停：最大值"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "媒体开始前暂停：最小值"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "元数据检查之间的等待"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "字幕文件前等待"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "温和下载"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip 应该多谨慎？"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "均衡"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "谨慎"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "关闭"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "等待：{{requests}} 次检查间隔，{{downloads}} 媒体开始前，{{subtitles}} 字幕文件前。"
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "这些等待发生在每次下载内部。同时进行的下载数量在「同时下载数」中单独设置。"
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "默认。在请求之间和媒体开始前添加短暂停顿。"
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "为大型播放列表或经常触达限制的网络添加更长的暂停。"
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "自行调整每次下载的高级控制参数。"
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "仅使用 Klip 为媒体和字幕保留的小基准暂停。"
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "秒"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "已在 Klip 中打开链接"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "已替换为在 Klip 中打开的链接"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "粘贴链接"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "当前上限：{{count}} 个项目"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "自定义…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "请输入 {{min}} 到 {{max}} 之间的整数。"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "保存上限"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "自定义播放列表扫描上限"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "自定义：{{count}} 个项目"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "打开播放列表、频道或搜索结果时，Klip 最多加载的条目数。"
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "请输入 1 到 5000 之间的整数"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "要扫描的播放列表项目数"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} 个项目"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "使用应用上限：{{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "应用"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "无法应用该播放列表范围：{{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "应用并重新加载"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "更改"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "选择 Klip 为此播放列表加载的内容。"
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "播放列表范围"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "该范围内没有视频"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "前"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "请使用 1 到 {{max}} 之间的整数项目编号，且起始编号不能大于结束编号。"
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "要加载的项目"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "播放列表范围"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "范围"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "正在重新加载..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "加载前 {{count}} 个项目"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "加载前 {{count}} 个项目"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "加载第 {{from}}-{{to}} 个项目"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "至"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "活动配置"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "内置"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "已隐藏"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "已修改"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "仅音频"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "均衡 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "最佳质量"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "最低画质 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "省流量 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "智能电视 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "智能电视 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "智能电视 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "小文件 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "仅字幕"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "更改全局保存位置"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "使用全局保存位置"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "使用全局保存位置 + 配置子文件夹"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "使用配置覆盖"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "使用配置覆盖 + 配置子文件夹"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "要更改保存位置，请编辑配置。"
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "保存位置"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "编辑"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "编辑活动配置"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "隐藏的配置保留在此，但会从所有选择器中消失。"
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "在选择器中显示配置：{{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "请至少保留一个可用的配置。"
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "管理配置"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "更改用于快速下载、批量 URL 和播放列表的活动配置。"
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "切换配置"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "可移动的配置"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "已取消移动。{{profileName}} 仍位于第 {{position}} 个，共 {{count}} 个。"
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "已将 {{profileName}} 放在第 {{position}} 个，共 {{count}} 个。"
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "移动 {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "要移动配置，请按空格键或 Enter 键，用方向键移动，然后再按空格键或 Enter 键放下。按 Esc 键取消。"
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} 悬停在第 {{position}} 个上，共 {{count}} 个。"
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "已拿起 {{profileName}}。当前位于第 {{position}} 个，共 {{count}} 个。"
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "新建配置"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "此配置保存到的文件夹尚未设置。请在配置中选择一个文件夹，或将其恢复为默认值。"
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "创建、选择、编辑或移除可重复使用的下载设置。"
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "下载配置"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "移除"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "拖动配置即可移动。所有配置选择器都会按此顺序排列。"
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "重置"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "保存到"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "切换下载配置：{{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "切换下载配置"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "清除"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "通过代理服务器路由流量。"
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "代理 URL"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "快速下载"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "将使用以下配置下载：{{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "无法添加此项：{{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "无法准备队列项目"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "正在准备"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "探测失败"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "粘贴视频、播放列表、频道或搜索 URL 以开始。"
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "发送匿名心跳和设置报告"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "不追踪。每天一次，匿名心跳会发送应用版本、安装渠道、操作系统、语言、国家/地区，以及 Klip 大约是多久前安装的，用于统计活跃用户和新用户。Klip 设置或更新其下载引擎或媒体工具时，还会报告是否成功以及大约耗时。不包含 ID、URL、视频标题或文件名。"
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "全局行为，同样影响由配置驱动的下载。"
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "下载行为"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "输入"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "动态天空上的玻璃面板。需要图形加速。"
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "纯色、安静的界面。在任何电脑上都运行流畅。"
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "极简"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "两种风格都有浅色和深色。"
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "风格"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Klip 的外观。可在底部栏切换浅色和深色。"
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "外观"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} 需要图形加速，但目前不可用，所以 Klip 正在显示{{fallback}}。"
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "配置"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "此视频"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "使用 {{profileName}} 仅下载此视频"

@@ -1,0 +1,139 @@
+name: Dev Smoke
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  # A pull request cancels its superseded runs. Every other run (each push to
+  # main, each tag) gets a group of its own and always finishes, so every main
+  # commit gets a verdict the release script can read.
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}${{ github.event_name != 'pull_request' && format('-{0}', github.sha) || '' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+  BUN_VERSION: '1.4.2'
+
+permissions:
+  contents: read
+
+jobs:
+  # Skips this suite on a change that cannot affect it; see
+  # .github/actions/app-changes for what counts.
+  changes:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      pull-requests: read
+    outputs:
+      run: ${{ steps.changes.outputs.run }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/actions
+      - id: changes
+        uses: ./.github/actions/app-changes
+        with:
+          scope: browser
+
+  dev-smoke:
+    name: Dev smoke (${{ matrix.label }})
+    needs: changes
+    if: ${{ needs.changes.outputs.run == 'true' }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - os: windows-latest
+            label: windows
+          - os: macos-latest
+            label: macos-arm64
+          - os: ubuntu-latest
+            label: linux
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version-file: .node-version
+
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Cache bun dependencies
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ matrix.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: ${{ matrix.os }}-bun-
+
+      # Bootstrap fetches the host's ffmpeg/ffprobe from outside GitHub (macOS:
+      # ffmpeg.martin-riedl.de), and an outage there used to fail every PR.
+      # Keyed on the pin, so only a pin change needs the network; a restored
+      # payload stamped with another pin is refetched by bootstrap anyway.
+      - name: Restore embedded ffmpeg
+        id: embedded-cache
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+        with:
+          path: build/embedded
+          key: ${{ runner.os }}-${{ runner.arch }}-embedded-${{ hashFiles('scripts/build/embeddedPin.ts', 'scripts/build/btbnResolver.ts', 'scripts/build/fetch-embedded.sh') }}
+
+      - name: Bootstrap checkout
+        env:
+          BTBN_GITHUB_TOKEN: ${{ github.token }}
+        run: bun run bootstrap
+
+      # Saved here rather than at job end, so a failing smoke still keeps it.
+      - name: Save embedded ffmpeg
+        if: steps.embedded-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+        with:
+          path: build/embedded
+          key: ${{ steps.embedded-cache.outputs.cache-primary-key }}
+
+      - name: Inspect checkout readiness
+        run: bun run doctor
+
+      - name: Run browser-mock dev smoke
+        run: bun run test:browser:smoke
+
+      - name: Upload browser smoke artifacts
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: dev-smoke-playwright-${{ matrix.label }}
+          path: |
+            test-results
+            tests/browser/screenshots
+          if-no-files-found: ignore
+          retention-days: 7
+
+  # The required check: passes only when the filter ran and, if the suite had
+  # to run, every job above passed (see .github/actions/suite-gate).
+  gate:
+    name: Dev smoke gate
+    needs: [changes, dev-smoke]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/actions
+      - uses: ./.github/actions/suite-gate
+        with:
+          suite: Dev smoke
+          needs: ${{ toJSON(needs) }}
+          run: ${{ needs.changes.outputs.run }}

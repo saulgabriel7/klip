@@ -1,0 +1,65 @@
+// Browser-mock stand-in for main's rate-limit cooldowns (SiteRequestState): a
+// rate-limited mock probe starts a 60 s cooldown for its site, and "Try now"
+// lets the next probe there through cleanly, which ends it. A scenario names
+// the Downloads rows whose probe the cooldown holds (ProbeSlots).
+
+import {requestSiteFor} from '@shared/sites/index.js'
+import type {AppApi} from '@shared/api.js'
+import type {HeldProbe, RateLimitEvidence, SiteCooldown} from '@shared/types.js'
+
+const MOCK_COOLDOWN_MS = 60_000
+
+export interface SiteRequestsMock {
+	api: AppApi['siteRequests']
+	// A mock probe saw a rate limit for `url`.
+	rateLimited(url: string, evidence?: RateLimitEvidence, ms?: number): void
+	// Whether a "Try now" pass lets this probe through; spends the pass and ends the cooldown.
+	passesTryNow(url: string): boolean
+	// The rows whose probe the cooldown holds.
+	hold(probes: HeldProbe[]): void
+}
+
+export function createSiteRequestsMock(): SiteRequestsMock {
+	let cooldowns: SiteCooldown[] = []
+	const passes = new Set<string>()
+	const listeners = new Set<(cooldowns: SiteCooldown[]) => void>()
+	let held: HeldProbe[] = []
+	const heldListeners = new Set<(held: HeldProbe[]) => void>()
+	const publish = (next: SiteCooldown[]): void => {
+		cooldowns = next
+		for (const listener of listeners) listener(cooldowns)
+	}
+
+	return {
+		api: {
+			getCooldowns: () => Promise.resolve({ok: true, data: cooldowns}),
+			tryNow: site => {
+				passes.add(site)
+				return Promise.resolve({ok: true, data: undefined})
+			},
+			onCooldownsChanged: listener => {
+				listeners.add(listener)
+				return () => listeners.delete(listener)
+			},
+			getHeldProbes: () => Promise.resolve({ok: true, data: held}),
+			onHeldProbesChanged: listener => {
+				heldListeners.add(listener)
+				return () => heldListeners.delete(listener)
+			}
+		},
+		rateLimited: (url, evidence = 'rateLimited', ms = MOCK_COOLDOWN_MS) => {
+			const site = requestSiteFor(url)
+			publish([...cooldowns.filter(entry => entry.site !== site), {site, until: new Date(Date.now() + ms).toISOString(), evidence}])
+		},
+		passesTryNow: url => {
+			const site = requestSiteFor(url)
+			if (!passes.delete(site)) return false
+			publish(cooldowns.filter(entry => entry.site !== site))
+			return true
+		},
+		hold: probes => {
+			held = probes
+			for (const listener of heldListeners) listener(held)
+		}
+	}
+}

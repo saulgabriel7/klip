@@ -1,0 +1,79 @@
+{
+  "appId": "com.saulgabriel.klip",
+  "productName": "Klip",
+  "executableName": "klip",
+  "afterPack": "./build/afterPack.mjs",
+  "beforeBuild": "./build/beforeBuild.mjs",
+  "toolsets": {
+    "appimage": "1.0.3"
+  },
+  "appImage": {
+    "artifactName": "${productName}-linux-x64.${ext}"
+  },
+  "electronFuses": {
+    "runAsNode": true
+  },
+  "directories": {
+    "output": "dist",
+    "buildResources": "build"
+  },
+  "files": ["out/**/*", "!node_modules/**/*"],
+  "extraResources": [
+    {
+      "from": "build/icon-tray.png",
+      "to": "icon-tray.png"
+    },
+    {
+      "from": "THIRD_PARTY_NOTICES.txt",
+      "to": "THIRD_PARTY_NOTICES.txt"
+    }
+  ],
+  "win": {
+    "target": [
+      { "target": "nsis", "arch": ["x64"] },
+      { "target": "portable", "arch": ["x64"] }
+    ]
+  },
+  "nsis": {
+    "oneClick": true,
+    "perMachine": false,
+    "allowElevation": false,
+    "artifactName": "${productName}-win-${arch}-Setup.${ext}"
+  },
+  "portable": {
+    "artifactName": "${productName}-win-${arch}-Portable.${ext}"
+  },
+  "dmg": {
+    "background": "build/dmg-background.png",
+    "icon": null,
+    "title": "${productName} Installer",
+    "iconSize": 108,
+    "iconTextSize": 13,
+    "window": {"width": 600, "height": 360},
+    "contents": [
+      {"x": 170, "y": 222, "type": "file"},
+      {"x": 430, "y": 222, "type": "link", "path": "/Applications"}
+    ]
+  },
+  "mac": {
+    "identity": null,
+    "target": [{ "target": "dmg", "arch": ["arm64", "x64"] }],
+    "extendInfo": {
+      "NSBluetoothAlwaysUsageDescription": "Klip uses Bluetooth so you can sign in to Explore with a security key (passkey)."
+    },
+    "artifactName": "${productName}-mac-${arch}.${ext}"
+  },
+  "linux": {
+    "target": [
+      { "target": "AppImage", "arch": ["x64"] },
+      { "target": "tar.gz", "arch": ["x64"] }
+    ],
+    "artifactName": "${productName}-linux-${arch}.${ext}",
+    "syncDesktopName": true
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "antonio-orionus",
+    "repo": "Arroxy"
+  }
+}

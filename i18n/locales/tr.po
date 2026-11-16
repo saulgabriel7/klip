@@ -1,0 +1,5452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "Hakkında"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "Üçüncü taraf bildirimlerini görüntüle"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "Web sitesi"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "İzin ver"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "YZ ile büyütülenlere izin verildi"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube bazı eski videoları yapay zekâyla oluşturduğu boyutlarda sunar. Atla, orijinal akışları korur; büyütülmüş bir akışı yine de elle seçebilirsiniz."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "YZ ile büyütülmüş akışlar"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "Atla"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "Geri bildirim"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "Klip hoşuna gidiyor mu? Senden haber almak isterim! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "Günlükler"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "Tanılama dosyasını kaydet"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "Günlükleri ve uygulama bilgilerini İndirilenler klasöründe tek bir dosyada toplar; dosya bir GitHub issue'suna eklenmeye hazırdır. Kullanıcı klasörünüzün adı kaldırılır; video bağlantıları ve başlıkları korunur."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "Yeni: Aurora veya Minimal'i buradan seçin"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "Tema"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "Yakınlaştır"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "Uzaklaştır"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "Geri"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "Kapat"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "Devam et"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "Yükleniyor…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "Baştan başla"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip çalışmaya devam eder ve etkin indirmeleri bitirir. Bunu daha sonra Gelişmiş ayarlardan değiştirebilirsin."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "Tepsiye gizle"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "Kapatırken Klip sistem tepsisine gizlensin mi?"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "Çık"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "Bir daha sorma"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "Kuyruğun korunur; indirmeler, Klip’yi bir sonraki açışında kaldıkları yerden devam eder."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "İndirmeye Devam Et"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} indirme sürüyor"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} indirme sürüyor"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "Çık"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "Renderer süreci çöktü ({{reason}}). Tekrar denemek için yeniden yükle."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip bir sorunla karşılaştı"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "Çık"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "Yeniden yükle"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "Adresi kopyala"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip ücretsiz ve açık kaynaklıdır; reklam ve ücretli plan yoktur. Bağışlar isteğe bağlıdır ve yol haritası üzerinde etki sağlamaz."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "Bağış yap"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Klip'yi destekle"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "{{coin}} bağış adresi QR kodu"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Klip'yi destekle"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "Kripto ödemeleri geri alınamaz. Yalnızca gösterilen ağ üzerinden gönderin ve adresin tamamını karşılaştırın."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "Bu videoda {{languages}} altyazı yok."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "Bu video yaş kısıtlamalı ve oturum açılmış hesap olmadan indirilemez."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "Sitenin bot koruması bu indirmeyi durdurdu. Bir süre bekleyip yeniden dene ya da aynı anda daha az video indir. Sorun sürerse bu geçici bir site tarafı değişikliği olabilir — Klip açılışta indirme motorunu günceller, bu yüzden düzeltme yayınlandığında çözüm otomatik gelir."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "Sunucu indirmeyi akış ortasında kesmeye devam etti ve Klip tekrar denemelerden sonra vazgeçti. Bu genelde en büyük video biçimlerinde görülür (4K HDR / yüksek bit hızlı VP9). Tekrar dene, ağı/VPN’i değiştir veya daha düşük çözünürlük seç."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "Bu video DRM korumalı. Klip DRM’i kaldıramaz, bu yüzden dosya indirilemez."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "Bu video artık seçtiğin biçimi sunmuyor. Bağlantıyı tekrar yapıştır ve şu anda sunulan biçimlerden birini seç."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "Bu video bölgenizde kullanılamıyor."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "Site bu bağlantıdan gelen istekleri engelliyor. Daha sonra yeniden dene."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "Bu video, oturum açılmış bir hesap gerektiriyor."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip, FFmpeg veya FFprobe’u bulamadı. Kurulumu yeniden çalıştır ya da bir FFmpeg konumu belirle, ardından indirmeyi tekrar dene."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "Ağ hatası. Bağlantını kontrol edip tekrar dene."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "Bu videoda istenen dillerde altyazı yok."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "Yeterli disk alanı yok. Yer açıp tekrar dene."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip indirme klasörüne yazamıyor. Klasör salt okunur olabilir, kilitli bir sürücüde olabilir ya da sisteminin gizlilik ayarları tarafından engelleniyor olabilir. Başka bir klasör seç veya erişime izin ver, sonra tekrar dene."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "Siteden gelen yanıt ayrıştırılamadı. Site videoları sunma biçimini değiştirmiş olabilir. Klip açılışta indirme motorunu günceller — düzeltme yayınlandıktan birkaç dakika sonra tekrar dene."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "İndirme tamamlandı ama son işleme (birleştirme / mux / dönüştürme) başarısız oldu. Çoğu zaman geçici bir ffmpeg sorunudur — tekrar dene; sürerse farklı bir biçim kombinasyonu dene."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "Site bu bağlantıdan gelen istekleri sınırlıyor."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "Bu video kullanılamıyor — özel, silinmiş veya bölge kilitli olabilir."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "İndirme başarısız oldu. Aşağıdaki ham çıktıya bak."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip bu URL’yi desteklemiyor. Farklı bir siteden bir bağlantı dene."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "Bağlantını kontrol et, sonra tekrar dene."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "Bu sayfa yüklenmedi"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "Ayarları aç"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "Ayarlar'daki proxy'yi kontrol et, sonra tekrar dene."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "Keşfet, proxy'n üzerinden bağlanamıyor"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "Sayfadaki herhangi bir video, oynatma listesi veya kanal bağlantısına sağ tıklayarak etkin profilinle indirebilir, başka bir profil seçebilir veya Etkileşimli İndirme'yi açabilirsin."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "İndirmek için bir bağlantıya sağ tıkla"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "Albümü arka planda indir"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "Beğendiğin videoları arka planda indir"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Mix’i arka planda indir"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "Oynatma listesini arka planda indir"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "Yüklemeleri arka planda indir"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "“Daha sonra izle”yi arka planda indir"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "Bağlantıyı kopyala"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "İlk {{count}} öğeyi indir"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "Bu videoyu indir · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "Profille indir"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "Bu albümden"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "Beğendiğin videolardan"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "Bu Mix’ten"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "Bu oynatma listesinden"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "Bu kanalın yüklemelerinden"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "“Daha sonra izle”den"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "Etkileşimli İndirme…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "Bu videoyu profille indir"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "Yeni"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "YouTube'da veya başka herhangi bir sitede bir video bul ve buradan indir — bağlantı kopyalamadan. Hesap gerektiren videoları indirmek için burada bir sitede oturum aç."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "Devam et"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "YouTube gibi siteler, Klip gibi indirme araçlarıyla kullanılan hesapları işaretleyebilir ve bazen yasaklayabilir. Ana hesabını değil, kaybetmeyi göze alabileceğin bir hesap kullan."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "İkincil bir hesapla oturum aç"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "Web'de doğrudan Klip içinde gez"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "İndirmeler Keşfet oturumunu değil, tarayıcının çerezlerini kullanır."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "İndirmeler Keşfet oturumunu değil, çerez dosyanı kullanır."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "Şimdi değil"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Çerezler kapalı, bu yüzden indirmeler Keşfet oturumunu kullanmaz."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "Keşfet oturumunu kullan"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "YouTube'da veya başka herhangi bir sitede Klip içinde gez ve hesap gerektiren videolar için oturum aç."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "Uzaktayken belleği boşalt"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "Başka bir sekmede 5 dakika geçince YouTube ana sayfasını veya arama sayfasını kapatır. Geri döndüğünde yeniden yüklenir, bu birkaç saniye sürer."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "Arama motoru"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "Adres çubuğuna yazılan metin bu arama motorunda aranır. Bağlantılar yazıldığı gibi açılır."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "Keşfet sekmesini göster"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "Kapatmak, indirmelerin Keşfet oturumunu kullanmasını da durdurur."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "Keşfet'ten çıkış yap"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "Çıkış yap"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "Bu, Keşfet'teki oturumlarını ve gezinme verilerini her sitede temizler. Hesap gerektiren indirmeler, yeniden oturum açana kadar başarısız olur."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "Keşfet'ten çıkış yapılsın mı?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "Keşfet'teki oturumlarını ve gezinme verilerini her sitede temizler."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "Keşfet"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "Keşfet"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube, giriş yapılmış hesaplarda reklam engelleyicilere karşı önlem alabilir."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "Reklam engelleyici"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "Reklam engelleyici: kapalı — açmak için tıkla"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "Reklam engelleyici: açık — kapatmak için tıkla"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "Reklam engelleyici: başlıyor — kapatmak için tıkla"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "Reklam engelleyici: kullanılamıyor, filtre listeleri indirilemedi — kapatmak için tıkla"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "{{engine}} ile ara veya herhangi bir siteyi aç (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "Keşfet tarayıcı denetimleri"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "Geri"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "Kompakt düzen"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "İndir"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "İndir · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "İleri"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "Tam düzeni göster"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "İndirmek için bir video, oynatma listesi veya kanal aç"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "YouTube ana sayfası"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "Etkileşimli İndirme: biçim, altyazı ve daha fazlasını seç…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "Keşfet bu adresi açamıyor."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "Yeniden yükle"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "Bu arama çok uzun."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "Bu video"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "Yalnızca bu videoyu {{profileName}} ile indir"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "Sayfa yakınlaştırma: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "Yakınlaştır"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "Sayfa yakınlaştırma"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "Uzaklaştır"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "Yakınlaştırma yüzdesi"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "Yakınlaştırmayı %100'e sıfırla"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "İndirilen dosyaların nasıl adlandırılacağını seç. Eklemek için bir simgeye tıkla. İndirmeleri klasörlere ayırmak için / kullan."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "Bir dosya adı şablonu girin."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "Fazladan / işaretini kaldır — her klasörün bir adı olmalı."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "Dosya adlarında izin verilmeyen karakterleri kaldır: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "Bu klasör adına izin verilmiyor. . ve .. ile CON gibi ayrılmış adlardan kaçın."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "Her indirmenin kendi adı olması için dosya adına {title} veya {id} ekle."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} bir klasöre ad olamaz — kalite ancak indirme başlayınca belli olur."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "Eşleşmeyen { veya } — belirteçleri {title} gibi yazın."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "Şablon çok uzun."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "Bilinmeyen belirteç {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "Klip’nin daha önce indirilmiş oynatma listesi öğelerini algılayıp .m3u oynatma listeleri oluşturabilmesi için adı [{id}] ile bitir."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "Dosya adı şablonu"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "Kullanılamıyor çünkü dosya adı şablonun [{id}] ile bitmiyor ya da indirmeleri klasörlere ayırıyor."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "Oynatma listesinde"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "Tek video"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "Genel şablonu kullanmak için boş bırakın."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "Dosya adı şablonu"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "Otomatik"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "Otomatik (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "Dosya türünü seçilen akışlar belirler."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "Her kodeği barındırır. Bazı TV’ler ve telefonlar açamaz."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "Neredeyse her yerde oynatılır. MP4 içindeki VP9, QuickTime’da görüntü oynatmaz."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "Tarayıcılar için açık biçim. Yalnızca VP9 veya AV1 ile Opus barındırır."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "MP4 içindeki AV1’i QuickTime’da oynatmak için yeni bir Mac gerekir. H.264 her yerde oynatılır."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "MP4 içindeki VP9, QuickTime’da görüntü oynatmaz. H.264 her yerde oynatılır."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM, Akıllı TV ile sunulmaz: H.264’ü barındıramaz."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM, {{codec}} barındıramaz. MKV veya MP4 seçin."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "Ses"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "Yalnızca ses · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "Otomatik"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "Otomatik, bu ekran HDR gösterebiliyorsa HDR’yi, değilse SDR’yi seçer. HDR, normal ekranlarda soluk görünür."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "HDR video"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "Dil"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "Keşfet ile oturum açıldı — 1 bağlantı yeniden deneniyor"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "Keşfet ile oturum açıldı — {{count}} bağlantı yeniden deneniyor"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "Keşfet'ten çıkış yapılamadı. Tekrar dene."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "Bu klasör sisteminiz için çok derin. İndirme yine de başarısız olabilir — daha kısa bir klasör seçin."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "Bu videonun adı şablonunuzun her parçasına sığmıyor, bu yüzden varsayılan ad kullanıldı."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "Klasör seçici açılamadı."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "Zaten kuyrukta — kopya eklenmedi"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "Klip'de çerez kurulumunu bitir, sonra yeniden dene"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "Panoda bağlantı yok — önce bir tane kopyalayın"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "Birden fazla bağlantı kopyalandı — Klip'de Toplu URL'leri kullanın"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "Bu bağlantı için seçim yapman gerekiyor — Klip'de İndirmeler'e bak"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "İndirme panodan eklendi"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "Bu bağlantı eklenemedi — Klip'de yeniden deneyin"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "Bu klasör bu oynatma listesi için kullanılamaz."
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} video zaten kuyrukta — atlandı"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} video zaten kuyrukta — atlandı"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "Eklendi: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "Zaten kuyrukta"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "{{count}} bağlantı İndirmeler’e eklendi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} bağlantı İndirmeler’e eklendi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} zaten kuyrukta"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} zaten kuyrukta"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "{{count}} bağlantı eklenemedi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} bağlantı eklenemedi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} eklenemedi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} eklenemedi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "Bu listede {{count}} video var — neyi indireceğini seç"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "Bu listede {{count}} video var — neyi indireceğini seç"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ video — kaç tane olacağını seç"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ video — kaç tane olacağını seç"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "{{title}} hazırlanamadı"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "Bu bağlantı eklenemedi — yeniden dene"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "Görüntüle"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "Ayarların kaydedilemedi."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "Bu açılamadı."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "Kurulum tamamlanmadı. Tamamlanana kadar bazı indirmeler başarısız olabilir."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "Ses (en iyi)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "Ses ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "Yerel en iyi ses, yeniden kodlama yok"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "M4A’ya (AAC) dönüştür"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "MP3’e dönüştür"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Opus’a dönüştür"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "YouTube’da 1080p üzeri H.264 kullanılamaz — otomatik olarak 1080p ile sınırlanır"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "Kaydetme biçimi"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "Doğrudan kayıt klasörüne"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "Diller"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "Devam etmek için en az bir dil seçin."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "Her video için yalnızca altyazı dosyaları kaydedilir — video veya ses indirilmez."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "Kaynak"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "1080p’ye kadar"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "144p’ye kadar"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "1440p’ye kadar"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "4K’ya kadar"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "240p’ye kadar"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "360p’ye kadar"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "480p’ye kadar"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "720p’ye kadar"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "En iyi kalite"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "1080p ile sınırlı, her öğede daha düşüğe düşebilir"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "Mümkün olan en küçük dosyalar"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "2K ile sınırlı, her öğede daha düşüğe düşebilir"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "2160p ile sınırlı, her öğede daha düşüğe düşebilir"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "Çok küçük dosyalar, düşük kalite"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "Kısıtlı bant genişliği için küçük dosyalar"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "Düşük bant genişliği"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "Daha küçük dosyalar, geniş uyumluluk"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "Her öğe için en yüksek kullanılabilir video + ses"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "Ses"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "Altyazılar"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "En iyi yerel"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "Akıllı TV H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "Her öğe için en iyi kullanılabilir kapsayıcı ve kodekler"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "Mümkün olduğunda MP4 içinde H.264 video + AAC ses tercih et"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "Eşlikçi"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "Açıklama"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "Medya"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "Eksik"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "Altyazı"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "Küçük resim"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "Çıktı"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "{{count}} indirme dikkatini bekliyor"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} indirme dikkatini bekliyor"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "Her indirmeyi bittikten birkaç saniye sonra listeden kaldırır. Dosyalar klasörünüzde kalır."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "Bitenleri otomatik temizle"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "Tüm etkin ve bekleyen indirmeleri iptal et"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "Tüm videolar"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Bu oynatma listesinde {{count}} videodan fazlası var. Hepsini, ilk {{count}} videoyu indir ya da bir inceleme ile seç."
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Bu oynatma listesinde {{count}} videodan fazlası var. Hepsini, ilk {{count}} videoyu indir ya da bir inceleme ile seç."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "İlk {{count}}"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "Albüm"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "Beğenilen videolar"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "Oynatma listesi"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "Tüm yüklemeler"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "“Daha sonra izle”"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "Aralarından seç…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "Gözden geçir"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "Bu bağlantı {{count}} videoluk bir liste. İndir ya da bir inceleme ile seç."
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "Bu bağlantı {{count}} videoluk bir liste. Hepsini indir ya da bir inceleme ile seç."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "Bu video"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "Bu bağlantı bir albümdeki bir video. Yalnızca videoyu mu indirelim, albümü mü?"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "Bu bağlantı, beğendiğin videolar arasındaki bir video. Yalnızca videoyu mu indirelim, beğendiğin tüm videoları mı?"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "Bu bağlantı bir Mix’teki bir video. Yalnızca videoyu mu indirelim, Mix’i mi?"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "Bu bağlantı bir oynatma listesindeki bir video. Yalnızca videoyu mu indirelim, oynatma listesini mi?"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "Bu bağlantı bir kanalın yüklemelerindeki bir video. Yalnızca videoyu mu indirelim, tüm yüklemeleri mi?"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "Bu bağlantı “Daha sonra izle” listendeki bir video. Yalnızca videoyu mu indirelim, listenin tamamını mı?"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "Tamamlanan indirmeleri temizle"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "Kuyruktaki indirmeler burada görünecek"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "Tümü"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "Kuyruk durumu filtreleri"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "Tüm öğeler"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "İndirmeler"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "Ses kaldırılamadı"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "Ses kaldırılamadı · bazı altyazılar indirilemedi"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "İndirme başarısız oldu"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "Hedef klasörü aç"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "Duraklat"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "Yalnızca bekleyenler"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "Şimdi çek — kuyruğu atla"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "{{height}}p ile sınırlı"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "{{height}}p ile sınırlı · bazı altyazılar indirilemedi"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "Kaldır"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "Sürdür"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "otomatik yeniden deneniyor (deneme {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "Konum ayarla"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "Konum ayarlamak için bekleyen öğeleri seç."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "Tamamlandı"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "Hata"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "Bekletildi"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "Seçimini bekliyor"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "Duraklatıldı"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "Bekliyor"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "Ayrıntılar alınıyor"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "{{languages}} altyazı yok"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "{{site}} için {{time}} saatine kadar bekliyor"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} bu bağlantıdan gelen istekleri sınırlıyor. Sınırın kalkabilmesi için Klip bu bağlantının ayrıntılarını {{time}} sonrasında alır."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "Kapat"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "Bir albümden"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "Beğendiğin videolardan"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "Bir Mix’ten"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "Bir oynatma listesinden"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "Bir kanalın yüklemelerinden"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "“Daha sonra izle”den"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "Albümün tamamını al"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "Beğenilen tüm videoları al"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "Mix’in tamamını al"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "Oynatma listesinin tamamını al"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "Tüm yüklemeleri al"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "“Daha sonra izle”nin tamamını al"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "Listeyi ayrı bir satır olarak ekler. Bu video dışarıda kalır."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "Tüm etkin indirmeleri duraklat ve yenilerinin başlamasını durdur"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "Kuyruk duraklatıldı — bekleyen indirmeler, kuyruğu sürdürene kadar başlamaz"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "Duraklatılan indirmeleri sürdür ve kuyruğun devam etmesine izin ver"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "Kuyruğu sürdür"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "Seçili öğeler"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} seçili · {{total}} toplam"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "İndirmeler"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "Eklendi"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "Çıktılar"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "{{column}} sütunu bırakıldı."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "{{column}} sütununu taşıma iptal edildi."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "{{column}} sütunu {{target}} sütununun üzerinde."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "{{column}} sütunu alındı."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "Sütunlar"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "Bitti"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "Biçim"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "{{title}} için çıktıları gizle"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "taşınabilir sütun"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Bir sütunu taşımak için Boşluk veya Enter tuşuna basın, ok tuşlarıyla taşıyın, ardından bırakmak için tekrar Boşluk veya Enter tuşuna basın. İptal etmek için Esc tuşuna basın."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "Çıktı hedefi"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "İlerleme"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "Sütunları sıfırla"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "{{column}} sütununu yeniden boyutlandır"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "{{title}} için çıktıları göster"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "Boyut"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "{{label}} ile sırala"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "Durum"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "Başlık"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "İndirmeler artık İndirmeler sekmesinde — ilerlemeyi izlemek için istediğin zaman aç."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "Devam et"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "Yeni bir güncelleme kullanıyorsun. Öne çıkanlar burada."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "Tam sürüm notları ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Klip {{version}} sürümündeki yenilikler"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "Yürütülebilir dosya seç"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "Homebrew ile yükle"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "WinGet ile yükle"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "Bağımlılık klasörünü aç"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "Tekrar dene"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "Kurulum günlüğünü görüntüle"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Tekrar deneyin. Yine olmazsa aşağıdan çalışan bir kopya seçin."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "Bir araç düzgün çalışmıyor"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "Virüsten koruma yazılımınızda veya SmartScreen'de Klip'ye izin verin, ardından tekrar deneyin."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "Virüsten koruma yazılımınız bir aracı engelledi"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "İnternet bağlantınızı kontrol edin, ardından tekrar deneyin."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "Klip'nin ihtiyacı olanlar indirilemedi"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Yeniden indirmek için tekrar deneyin."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "Bir indirme bozuk geldi"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Yeniden indirmek için tekrar deneyin."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "Bir indirme sağlama toplamıyla eşleşmedi"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "Aşağıdan ikisini de seçin veya varsayılana sıfırlayın."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg ve FFprobe birlikte ayarlanmalı"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "Tekrar deneyin. Yine olmazsa aşağıdan güvendiğiniz bir kopya seçin."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "Sisteminiz Klip'nin bir aracı çalıştırmasına izin vermiyor"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Tekrar deneyin. Yine olmazsa aşağıdan çalışan bir kopya seçin."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "Bir araç eksik ya da başlamıyor"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "Bu genellikle ilk çalıştırmadaki bir güvenlik taramasından kaynaklanır. Tekrar deneyin."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "Bir aracın yanıt vermesi çok uzun sürdü"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "Tekrar deneyin veya ayrıntılar için kurulum günlüğünü açın."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "Kurulum sırasında bir şeyler ters gitti"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "İndirme motoru"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "Medya araçları"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "Homebrew ile kuruluyor… Bu birkaç dakika sürebilir."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "WinGet ile kuruluyor… Bu birkaç dakika sürebilir."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Klip'yi zaten sahip olduğunuz kopyalara yönlendirin veya başka bir yolla kurun."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "yt-dlp ve ffmpeg'i paket yöneticinizle de kurabilir, ardından Tekrar dene'ye tıklayabilirsiniz."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "Elle kur"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "Tekrar deneyin veya aşağıdan Klip'yi zaten sahip olduğunuz araçlara yönlendirin."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "Kurulum durduruldu"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "Kurulum yardımına ihtiyaç duyuyor"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "Bu profil nasıl seçer"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "AAC ses"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "MP4 oynatıcılara uyar"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "AAC ses"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "her yerde oynar"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1, sonra VP9, sonra H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "aynı boyutta en net"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264, sonra VP9, sonra AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "bu profilin kodeği"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9, sonra H.264, sonra AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "bu profilin kodeği"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "En yüksek kare hızı"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "daha akıcı hareket"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "H.264 video"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "her cihazda oynar"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR, SDR’den önce"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "HDR ekranlarda daha zengin renkler"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "bu ekran HDR gösteriyor"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR, HDR’den önce"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "her ekranda doğru görünür"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "bu ekran HDR göstermiyor"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "MP4 akışları"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "MP4 dosyasına hazır"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "Stereo ses"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "bu profil"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "Ayarlar’dan"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "Varsa surround ses"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Opus ses"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "WebM’e uyar"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "YZ ile büyütülmüş değil, orijinal akışlar"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "büyütülmüş kopya daha yüksektir ama gerçek ayrıntı eklemez"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "Doğrudan indirmeler akış kopyalarından önce"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "aynı görüntü, daha hızlı iner"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "{{tier}}p’ye kadar"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "sınırınız"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "En yüksek çözünürlük"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "sınır yok"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "Sitenin geri plana atmadığı akışlar"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "hasarlı, filigranlı ve yedek kopyaları atlar"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "Daha büyük dosya"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "aynı ayarlarda daha fazla ayrıntı"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "Gelişmiş bit hızlı akışlar önce"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "aynı çözünürlükte daha fazla ayrıntı"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "akışlardan dosya türü"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr ".{{ext}} olarak kaydeder"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "en iyi görüntü"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "her cihazda oynar"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "Neden bu?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "Profil bunu neden seçti"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "Bağlantıyı kopyala"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — Windows, macOS ve Linux için ücretsiz, açık kaynaklı video indirici. YouTube, Vimeo, Twitch ve 2000+ siteyle çalışır.\n"
+"4K · HDR · MP3 · Shorts · Altyazılar · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip ücretsiz ve açık kaynaklıdır. Paylaşmak daha fazla kişinin keşfetmesine yardımcı olur."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "Paylaş"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Klip’yi paylaş"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Klip’yi paylaş"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Klip’yi paylaş"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "Sorun mu var? Elle kurun"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "Selam, tekrar hoş geldin!"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "yaklaşık {{count}} dk kaldı"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "yaklaşık {{count}} dk kaldı"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "bir dakikadan az kaldı"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "Her şeyin çalıştığı kontrol ediliyor"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "Bağlanılıyor…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "Medya araçları açılıyor"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "İndirme motoru açılıyor"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "Klip’nin araçları güncelleniyor"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "İndirme motoru güncelleniyor"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "İlk kurulum"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "Medya araçları güncelleniyor"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "Bu sürümün ilk denetimi — bu yavaş ilerler. Genellikle bir dakika kadar sürer."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "{{binary}} denetleniyor…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "İndirmeler hazırlanıyor…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "Kurulum başarısız oldu. Ayrıntılar için kurulum günlüğünü aç."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "Video sesiyle birlikte kaydedildi — ses kaldırılamadı"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "Video sesiyle birlikte kaydedildi — ses kaldırılamadı ve bazı altyazılar indirilemedi"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "İndirme iptal edildi"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "İndirme tamamlandı"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "Video dönüştürülüyor…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "Yeterli disk alanı yok — {{required}} gerekiyor, yalnızca {{free}} kullanılabilir"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "{{name}} ikili dosyası indiriliyor…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "Video ve ses indiriliyor…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "Meta veriler gömülüyor…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "Keşfet oturumu kapandı — yeniden oturum aç"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "Ses dönüştürülüyor…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "SponsorBlock ile iletişim kuruluyor…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "Altyazılar alınıyor…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "Ses ve video birleştiriliyor…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "YouTube indirmesi hazırlanıyor…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "Dosyalar taşınıyor…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "{{languages}} altyazı yok"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "{{dir}} konumuna kaydedilemiyor — Klip'nin oraya yazma izni yok"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "İkili dosyalar hazırlanıyor…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "{{height}}p olarak kaydedildi — YouTube bu indirme için daha yüksek kaliteleri vermedi. Daha sonra yeniden denemek işe yarayabilir."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "{{height}}p olarak kaydedildi — YouTube bu indirme için daha yüksek kaliteleri vermedi ve bazı altyazılar indirilemedi. Daha sonra yeniden denemek işe yarayabilir."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "YouTube indirmesi yeniden hazırlanıyor…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock kullanılamıyor, tekrar deneniyor ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "Bağlantı takıldı, yeniden deneniyor ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "Keşfet hesabınla oturum açılıyor…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "Hız sınırlarından kaçınmak için {{seconds}} sn bekleniyor…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "İndirme motoru başlatılıyor…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "Bu videoda {{languages}} altyazı yok. Video bunlar olmadan kaydedildi."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "Bu videoda {{languages}} altyazı yok. Diğer diller kaydedildi."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "Video kaydedildi — bazı altyazılar indirilemedi"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "Bilinmeyen indirme başlatma hatası"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "Gevşetilmiş çıkarıcıyla indirildi — daha güvenilir indirmeler için cookies.txt kur"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "İndirme motoru {{code}} koduyla çıktı"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "İndirme motoru hatası: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "Koyu mod"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "Açık mod"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "Sistem varsayılanı"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "Kapat"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "Büyüt"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "Simge durumuna küçült"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "Geri yükle"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "Panodan indir"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "1 indiriliyor · {{percent}}%"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} indiriliyor · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "Boşta"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "Komut panoya kopyalandı"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "Komutu panoya kopyala"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "Güncelleme bandını kapat"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "İndir ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "DMG indir ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "İndiriliyor…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "Yükle ve Yeniden Başlat"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "Güncelleme başarısız oldu"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} kullanılabilir — sende {{currentVersion}} var."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} kullanılabilir — Homebrew ile güncelle."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} kullanılabilir — yeni DMG’yi indir."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} kullanılabilir — DMG’yi indir veya Homebrew’a geç."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} kullanılabilir — yeni derlemeyi indir."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "Çalıştır ve Yeniden Başlat"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "Yükseltiliyor…"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} bölüm"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} bölüm"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "Yükleniyor…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "Önce H.264"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "Video kodeği"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "Akıllı TV her zaman H.264 alır."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "Önce VP9"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "Hazır"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "Video, oynatma listesi, kanal, arama veya ses URL’leri yapıştır. Klip kuyruğa almadan önce yinelenenleri temizler."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "Toplu listeyi önizlemek için bir veya daha fazla URL yapıştır."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "Yoksayıldı"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "Devam etmek için en az bir desteklenen URL ekle."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "Yinelenen"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "URL listesi"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://ornek.com/video-1\n"
+"https://ornek.com/video-2\n"
+"https://ornek.com/video-3"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "Toplu URL’ler"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ Kuyruk"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "Kuyruğa ekler — etkin indirme bittiğinde başlar"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{total}} videodan {{count}} tanesi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{total}} videodan {{count}} tanesi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{total}} parçadan {{count}} tanesi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{total}} parçadan {{count}} tanesi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{total}} URL’den {{count}} tanesi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{total}} URL’den {{count}} tanesi"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "Ses"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "Toplu"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "Öğeler"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "Oynatma listesi"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "Ön ayar"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "Boyut"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "Altyazılar"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "Dosyan şuraya düşecek"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "Aşağıdaki hedefe inecek"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "Aşağıdaki {{count}} hedefe inecek"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "Yalnızca altyazı profili etkin ama altyazı dili seçilmedi — indirilecek bir şey yok."
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} öğe"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} öğe"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "Bu gruptaki profiller"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "Çek! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "Kuyruğu atlar — şimdi başlar, diğer etkin indirmelerle birlikte çalışır"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "Çekmeye hazır!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Altyazı gömme yan dosyaya çevrildi — ses parçaları gömülü altyazı akışlarını desteklemez."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "Video içindeki altyazılar MKV dosyası gerektirir, bu yüzden bu indirme .mkv olarak kaydedilir."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Küçük resim gömme atlandı — çıktı kapsayıcısı bunu desteklemiyor."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "Özel…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "Masaüstü"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "Belgeler"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "İndirilenler"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "Ev"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "Müzik"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "Resimler"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "Klasör adında geçersiz karakterler var"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "ör. dersler"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "Alt klasör içine kaydet"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "Filmler"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "Ses"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "Ses dili"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} dil"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} dil"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "Bit hızı {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Çerezler yapılandırılmış ama kapalı. Tam listeyi almak için etkinleştirip tekrar dene ya da ağı değiştirip tekrar dene."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Çerezlerle bile YouTube bu denetimi sınırladı. Daha sonra tekrar dene veya ağı değiştir."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube bu isteği sınırladı. Daha sonra tekrar dene veya ağı değiştir."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "Biçim listesi eksik olabilir. Gelişmiş ayarlarda çerezleri kur veya ağı değiştirip tekrar dene."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Çerezleri etkinleştir ve tekrar dene"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "Denetim sınırlandı"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "Bit hızı"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "Zaten {{target}} olan bir kaynak kendi akışını ve bit hızını korur: yeniden kodlanmaz, kopyalanır."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kb/sn, yeniden kodlama yok"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}, yeniden kodlama yok"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kb/sn, kaynaktaki gibi: akış zaten {{target}}, bu yüzden yeniden kodlanmadan kopyalanır"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "Kaynaktaki gibi: akış zaten {{target}}, bu yüzden yeniden kodlanmadan kopyalanır"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "Dönüştür"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kb/sn"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "Kaynak {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (sıkıştırılmamış)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "Tarayıcı"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "Keşfet oturumu"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "Dosya"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Çerez kaynağı"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp belgeleri (issue #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 ve daha yenisi çerezleri Windows’ta diğer uygulamaların okuyamayacağı şekilde şifreler. Aşağıdaki geçici çözümlerden birini dene."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "Chrome’dan bir tarayıcı uzantısıyla çerezleri dışa aktar, sonra bu uygulamayı Dosya moduna geçirip dışa aktarılan dosyayı seç."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "cookies.txt dışa aktar"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox App-Bound Encryption kullanmaz. Çerez ayarlarını aç ve tarayıcı listesinden Firefox’u seç."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Firefox’a geç"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Chrome başlatma kısayoluna --disable-features=LockProfileCookieDatabase ekle. Uyarı: bu, daha önce şifrelenmiş çerezleri geçersiz kılar; tüm sitelerden çıkış yapılır ve yeniden giriş yapman gerekir."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Chrome’u App-Bound Encryption devre dışı başlat"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Chrome çerezleri Windows şifrelemesi tarafından engellendi"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Çerezler doğrudan tarayıcıdan okunur. Tarayıcı şu anda çalışıyorsa çerez veritabanı kilitli olabilir (Chromium ailesi). Tarayıcıda YouTube oturumu da açık olmalıdır. Tarayıcıyı kapatmayı, farklı bir tarayıcıya geçmeyi, Dosya moduna geçmeyi veya çerezleri kapatmayı dene."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "Çerez dosyan boş, süresi dolmuş veya yanlış biçimde olabilir (Klip bir Netscape cookies.txt dosyasına ihtiyaç duyar). Çerezleri yeniden dışa aktarmayı, farklı bir dosya seçmeyi, Tarayıcı moduna geçmeyi veya çerezleri kapatmayı dene."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "Keşfet'te oturum aç, Klip yeniden denesin."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "Keşfet'te oturum aç"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "Bu video bir YouTube hesabı gerektirebilir"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip bunu Keşfet üzerinden oturum açmış halde zaten denedi, bu yüzden tekrar oturum açmak işe yaramaz. Sitede sorun olabilir ya da bu hesap içeriği açamıyor olabilir. Daha sonra tekrar dene."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "Site, Keşfet'teki oturumunla bile bunu reddetti"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "Keşfet'te oturum açtın ama indirmeler şu anda bu oturumu kullanmıyor."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "Keşfet oturumumu kullan ve yeniden dene"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "Bu video bir YouTube hesabı gerektirebilir"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "Bu video hesap gerektiriyorsa Klip, Keşfet oturumunu otomatik olarak kullanır. Başka bir nedenle kullanılamıyor olabilir."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "Keşfet'te oturum açıldı"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "Bu video bir YouTube hesabı gerektiriyorsa Keşfet'te oturum aç ve tekrar dene. Klip bu oturumu yalnızca bir indirme gerektirdiğinde kullanır."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "Keşfet'te oturum aç"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "Bu video bir YouTube hesabı gerektirebilir"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "Bu bağlantı {{host}} sitesinde bir hesap gerektirebilir"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "Keşfet'te {{host}} sitesinde oturum aç ve tekrar dene."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "Keşfet'te {{host}} sitesinde oturum aç ve tekrar dene. Klip bu oturumu yalnızca bir indirme gerektirdiğinde kullanır."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Neden çerezler olabilir"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip bu videoya kimlik doğrulaması olmadan erişemedi. Gelişmiş ayarlarda çerezleri yapılandır — zaten oturum açtığın bir tarayıcıyı göster veya bir cookies.txt dosyası içe aktar."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "Bu site oturum açmayı gerektiriyor"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "Çerez ayarlarını aç"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "Bunun yerine bir çerez dosyası veya tarayıcı kullan…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "Yüksek yerleri kısar, alçak yerleri açar; hoparlörler ve gürültülü ortamlar için."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "Ses düzeyini eşitle (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "Eşit ses"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "Profiliniz Akıllı TV (H.264). Bu videoda H.264 yok, bu yüzden en yakın akış seçildi."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "Bu bağlantıda video yok, bu yüzden ses seçildi."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "Profiliniz şu dillerde altyazı istiyor: {{languages}}. Bu videoda bunlar yok."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "Profiliniz {{wanted}}p istiyor. Bu videoda bu kadar düşük çözünürlük yok, bu yüzden {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Profiliniz {{wanted}}p istiyor. Bu videodaki daha küçük akışlar profilinizin geri kalanına uymuyor, bu yüzden {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "Profiliniz {{wanted}}p istiyor. Bu videoda alınabilecek bir {{wanted}}p yok, bu yüzden {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "Profiliniz {{wanted}}p istiyor. Bu videonun {{wanted}}p akışı yapay zekâyla yükseltilmiş, bu yüzden orijinal {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "Profiliniz H.264 ile {{wanted}}p istiyor. Bu videoda {{wanted}}p yalnızca başka kodeklerde var, bu yüzden H.264 ile {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Profiliniz {{wanted}}p istiyor. Bu videonun {{wanted}}p akışı profilinizin geri kalanına uymuyor, bu yüzden {{picked}}p seçildi."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "Profiliniz WebM istiyor. Bu videoda seçilen akışlar WebM’in barındıramadığı {{codec}} içeriyor, bu yüzden dosya türü Otomatik."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "Başlatmadan kuyruğa ekle"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "İndir"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "Diğer indirme seçenekleri"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "En az bir altyazı dili seçin."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "Olduğu gibi tut"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "Yerleşik ses"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "Yalnızca ses"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "Ne indirilsin"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "Yalnızca altyazılar"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "Video + ses"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "Video, sessiz"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "Biçimler yükleniyor"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "Lütfen denetim bitene kadar bekle — oynatma listeleri ve aramalar biraz sürebilir."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "YZ dublajı"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "YZ ile büyütüldü"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "Sesli betimleme"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "Hasarlı"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "Gelişmiş bit hızı"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "Orijinal"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "Uzamsal ses"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "Filigranlı"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "Ses yok"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "Etkin profilin akışları senin için önceden seçer. Profilleri menüden değiştir ya da bu indirmeden çıkmadan bir profili ayarlamak için kalemi kullan."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "Biçimler profilinle başlar"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "Profile en yakın"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "Düzenle: {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "Değişikliklerimi koru"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "Yalnızca bu indirme için. Varsayılan profiliniz olduğu gibi kalır."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "Şuradan önceden seçildi:"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "Tümünü sıfırla"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Bu indirme için değiştirdikleriniz: {{areas}}. “{{profile}}” her durumda videoyu ve sesi seçer. Diğer değişiklikleriniz korunsun mu, yoksa her şey profile göre sıfırlansın mı?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "Profil değiştirilsin mi?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Bu indirme için değiştirdikleriniz: {{areas}}. Güncellenen profil her durumda videoyu ve sesi seçer. Diğer değişiklikleriniz korunsun mu, yoksa her şey profile göre sıfırlansın mı?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "Güncellenen profil kullanılsın mı?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "Yüksek kalite"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "Düşük kalite"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "Orta kalite"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} bu bağlantıyı sınırlıyor"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "Biçim listesi eksik olabilir."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} bu isteği şimdilik geri çevirdi."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "Tekrar dene"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} bu sınırı bir saate kadar sürdürebilir."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "Şimdi dene"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "Bekleme bitti, yeniden deneyebilirsin."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip, sınırın kalkması için {{site}} sitesine yeniden sormadan önce {{time}} saatine kadar bekler."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "Boyut bilinmiyor"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "Şu olarak kaydedilir"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM, {{codec}} barındıramadığı için dosya türü Otomatik’e döndü."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "Boyut bilinmiyor"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "Onaya atla"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "Kalan tüm adımlar için kayıtlı tercihlerini kullanır. Bir ayarı değiştirmek için adım adım devam et — seçimin bir sonraki sefer için kaydedilir."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "Senin için en iyi biçimler aranıyor…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "Toplam"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "sesli"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "{{profileName}} ile. {{count}} videodan fazlası varsa İndirmeler kaç tanesini alacağını sorar."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "Arka planda indir"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc iptal eder."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "Tam olarak ilk {{count}}, {{profileName}} ile."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "İndir: ilk"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "İlk {{count}} videodan seç (ya da sayıyı sonraki adımda değiştir), sonra indirmeyi ayarla."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "Etkileşimli İndirme…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "Listeden kaç video alınacağı: ilk seçenek bu sayıdan sonrasını sorar, ikincisi tam olarak o kadarını alır. Ayarlar’daki Taranacak oynatma listesi öğeleri ile aynıdır."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "Sınır"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Mix her açıldığında değişir."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "öğeyi seçim için yükle."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "İlk"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "Bunu sonraki adımda değiştirebilirsin."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "Bu albümden seç"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "Beğendiğin videolardan seç"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "Bu Mix’ten seç"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "Bu oynatma listesinden seç"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "Bu kanalın yüklemelerinden seç"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "“Daha sonra izle”den seç"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "Bu albümden indir"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "Beğendiğin videolardan indir"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "Bu Mix’ten indir"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "Bu oynatma listesinden indir"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "Bu kanalın yüklemelerinden indir"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "“Daha sonra izle”den indir"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "Yalnızca açtığın video, {{profileName}} ile. Liste yüklenmez."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "Yalnızca bu video"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "Yalnızca açtığın videoyu ayarla. Liste yüklenmez."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "{{profileName}} ile"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "Her modern oynatıcıda gezilebilir bölüm işaretleri."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "Bölümleri göm"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "Bölümler"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "Başlık, sanatçı, açıklama ve yükleme tarihi dosyaya yazılır."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "Meta verileri göm"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "Meta veriler"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "Dosyanın içinde kapak görseli. WebM video MKV’ye yeniden paketlenir; altyazılar gömülüyse atlanır."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "Küçük resmi göm"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "Kapak resmi"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "Video açıklamasını indirmenin yanına .description metin dosyası olarak kaydeder."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "Açıklamayı kaydet"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "Açıklama dosyası"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "Videoların medya oynatıcında sırayla açılması için yanlarına bir .m3u oynatma listesi kaydet."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr ".m3u oynatma listesi dosyası oluştur"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "Küçük resmi indirmenin yanına .jpg görüntü dosyası olarak kaydeder."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "Küçük resmi kaydet"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "Küçük resim dosyası"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "Video kartında «Kısım»a geçin, bir başlangıç ve bitiş ya da bir bölüm seçin ve yalnızca o aralığı indirin."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "Videonun yalnızca bir kısmını indirin"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "Bölümler"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "Bölüm {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "Bir kısım ffmpeg ile indirilir, bu yüzden indirme bağlantıların ve hız ayarların ona uygulanmaz."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "Önce kısmın başlangıç ve bitişini düzelt."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "Bitiş"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "Video {{duration}} noktasında bitiyor."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "Bitişi h:mm:ss, m:ss veya saniye olarak gir."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "Başlangıcı h:mm:ss, m:ss veya saniye olarak gir."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "Başlangıç, bitişten önce olmalı."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "Kapalı: her kesim en yakın anahtar kareye denk gelir; bu, yazdığın zamandan birkaç saniye farklı olabilir."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "Tam kesim (yeniden kodlar, daha yavaş)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{duration}} içinden {{length}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "Kısım"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "Videonun bir kısmı"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "Başlangıç"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "tüm video"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "Kısım {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "Videonun ne kadarı"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss veya saniye"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "Kısım, tahmini"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "Bu video süresini bildirmiyor, bu yüzden yalnızca tamamı indirilebilir."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "Altyazılar her zaman videonun tamamını kapsar."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "Bağlantın {{time}} noktasında başlıyor"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "Başlangıç olarak kullan"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "Tüm video"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "Tüm parça"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "Devam etmek için onları geri yükleyin."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "Tüm öğeler kaldırıldı"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "Zaten indirildi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "Daha fazlası var. Kaç tane alacağını seçmek için bağlantısını tek başına yapıştır."
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "Bunların daha fazlası var. Kaç tane alacağını seçmek için her bağlantıyı tek başına yapıştır."
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "“{{title}}” {{limit}} videoda kesildi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} liste, her biri {{limit}} videoda kesildi"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "Toplu URL’ler"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "Beklemenize gerek yok — şimdi kuyruğa eklenen dosyalar indirilirken yine de gerçek adlarını alır."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "Video ayrıntıları alınıyor… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "Ayrıntılar kullanılamıyor"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "Ayrıntılar alınıyor"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "Bekliyor"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "canlı"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Oynatma listesi öğeleri"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "İndirilecek videolar"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} video"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} video"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} parça"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} parça"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} URL"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} URL"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Oynatma listesi alınıyor…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "Videolar alınıyor…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "İlk {{count}} öğeyle sınırlandı"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "{{count}} sayfa bulundu"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} sayfa bulundu"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "Videolar toplanıyor"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "Kanal sayfaları taranıyor"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "Öğe başına profil ata"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "Kalite, SponsorBlock, Çıktı ve Kaydet adımlarını atlar — bunun yerine öğe başına bir indirme profili atar"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "Oynatma listesi"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "Bunlardan {{count}} tanesi video değil, oynatma listesi — indirmek için bağlantısını tek başına yapıştırın."
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "Bunlardan {{count}} tanesi video değil, oynatma listesi — indirmek için bağlantılarını teker teker yapıştırın."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "Devam etmek için en az bir video seç"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "İlk {{count}} öğe gösteriliyor. Daha fazlasını görmek için yükleme sınırını artır."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "Oynatma listesi taraması sınırlandı"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "Tarama sınırlandı"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "Aralığı uygula"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "Başlangıç"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "Bitiş"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} kaldırıldı"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} kaldırıldı"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "Listeden {{count}} öğe kaldır"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "Listeden {{count}} öğe kaldır"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "Geri yükle"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "Tümünü seç"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} seçildi"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} seçildi"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "Hiçbirini seçme"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "Oynatma listesi sırası"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "Yükleme tarihleri alınıyor…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "Sıralama"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "Önce en eskiler"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "Önce en yeniler"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "Eşitlemeyi uygula"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "Klasörü değiştir…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "Bu videolardan {{n}} tanesi zaten {{dir}} içinde. Yalnızca yenileri indirmek için eşitlensin mi?"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "Zaten klasörde"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "{{dir}} içinde bu oynatma listesinden video bulunamadı."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "{{dir}} içinde bu kaynaktan video bulunamadı."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "Henüz indirilmiş bir şey yok"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "Klasör kontrol ediliyor…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "Video küçük resmi"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "Toplu indirme için kalite seç"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} öğe"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} öğe"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "Her video seçilen kalite düzeyini bağımsız çözer — karışık oynatma listeleri sorunsuz çalışır."
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "{{count}} videoya ata"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "{{count}} videoya ata"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "Profil ata"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "Süre"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "{{name}} düzenle"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "Bu filtreyle eşleşen öğe yok"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "Profil filtreleri"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "İndirme profillerini ata"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "Bu video için profili seçin."
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "Bu {{count}} video için profili seçin."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{total}} öğeden {{selected}} tanesi seçildi"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "Geneli değiştir"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "Hedef klasörü seç"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "Profil simgesini seç"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "{{code}} kaldır"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "Profili sıfırla"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "Bu profil zaten yerleşik ayarları kullanıyor"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "Yerleşik profil ayarlarını geri yükle"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "Profili kaydet"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "Profil geçersiz kılmasını ayarla"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "Geçersiz kılmayı ayarla"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "Genel varsayılanı kullan"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "“{{code}}” dil kodunu kullan"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "Uygulama ayarını kullan ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "En iyi"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "128K'ya kadar"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "192K'ya kadar"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "320K'ya kadar"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "En iyi kalite"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "Yeni profil"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "Varsayılan indirme klasörü"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "Varsayılan indirme klasörü / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "Genel hedef"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "Etkin"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "Devralındı"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "Profil geçersiz kılma"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "Klasör seç"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "Geçersiz kılma yok"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "Geçersiz kılma ayarlanmadı. Bu profil yukarıdaki genel hedefi kullanır."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "Genel hedefi geçersiz kılar"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "Bu profil, alt klasör eklenmeden önce kendi kök klasörüne kaydeder."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "Sonuçlanan hedef"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "Hızlı İndirme, Toplu URL ve oynatma listeleri için yeniden kullanılabilir tek bir yapılandırma."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "İndirme profili"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "Genel hedef değiştirilemedi."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "Klasör seçici açılamadı. Yolu elle girin."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "Profil ayarları sıfırlanamadı."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "Profil ayarları kaydedilemedi."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "Kaydetme biçimi"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "Dosya türü"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "Şunun için optimize et"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "Profil simgesi"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "Diller"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "Profil adı"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "Profil adı ve simgesi"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "Yerel ses"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "Profil geçersiz kılma yolu"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "Kalite"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "Kaynak"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "Alt klasör adı"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "Altyazı indirmeleri"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "Profiller dil kodları ister; kullanılabilirlik her URL için ayrı belirlenir."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "Aynı boyutta en net olanı. Eski TV’ler, QuickTime ve bazı düzenleyiciler oynatamaz."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "En iyi görüntü"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "TV’lerde, telefonlarda, WhatsApp’ta, QuickTime’da ve video düzenleyicilerde oynar. YouTube H.264’ü yalnızca 1080p’ye kadar sunar."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "Akıllı TV"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "Arşiv"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "Ses"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "Altyazı"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "Dersler"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "Klip"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "Denetimler"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "İndirme"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "Müzik"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "Podcast"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "Müzik veya podcast"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "Yalnızca altyazı dosyaları"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "Normal video dosyaları"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "Yalnızca sessiz video"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "Otomatik altyazılar ASS yerine SRT olarak kaydedilecek."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "Eşleşen dil yok"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "Bu profil için altyazı dosyası veya gömülü altyazı izi istenmeyecek."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "Dil adı veya koduna göre ara"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "Bu çıktı türü için atlandı."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "En az bir dil seçin."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "En az bir dil seçin veya altyazı indirmelerini kapatın."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "Bu profil yalnızca altyazı dosyalarını kuyruğa alır. Video, ses, SponsorBlock ve medya dönüştürme atlanır."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "Profil için bir geçersiz kılma ayarlamadığınız sürece profiller genel hedefi devralır."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "Gelişmiş seçenekler"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "Öncelikli olarak nasıl indirmek istediğinizi seçin."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "İndirme türü"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "Hızlı İndirme, Toplu URL ve profil listelerinde görünen ad ve simge."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "Profil kimliği"
+
+#. Plural form "one" for tr: used for counts like 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} etkin"
+
+#. Plural form "other" for tr: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} etkin"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "Çıktı seçenekleri"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "Bu profil için bir klasör seçin"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "Atlandı"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Sponsor bölümlerini bölüm olarak işaretler (dosyayı değiştirmez)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock yok — video yüklendiği gibi oynatılır."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Sponsor bölümlerini FFmpeg ile videodan keser."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "Yalnızca otomatik oluşturulan"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "Elle ve otomatik"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "Önce elle, sonra otomatik"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "Yalnızca elle"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "{{label}} yardımı"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "ekstralar"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "dosya adı"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "biçim"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "klasör"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "altyazılar"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "Altyazılar, SponsorBlock, küçük resim gibi ekstralar, klasör ve dosya adı eskiden ayrı adımlardı. Değiştirmek için bir satıra tıklayın."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "Diğer tüm ayarlar artık bu sayfada"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "Değişenler ({{profile}} profiline göre): {{areas}}. Yalnızca bu indirme için geçerli."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "Değişenler ({{profile}} profiline göre):"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "Biçimi değiştir"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "Profil olarak kaydet"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (düzenlendi)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "Bu indirme düzenlenmiş ayarları kullandı. Bir dahaki sefere de kullanılsın mı?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "Değişiklikleri geri al, “{{profile}}” profiline dön"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "Ekstralar"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "Dosya adı"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "Şuraya kaydet"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "Altyazılar"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "Diğer her şey"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "Profili kaydet"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "Bu ayarları bir dahaki sefere seçebileceğiniz bir profil olarak kaydeder. Hızlı İndirme profiliniz aynı kalır."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "Profil kaydedilemedi."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "Profil adı"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "“{{name}}” profili olarak kaydedildi"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "Profil olarak kaydet"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "Yeni profil olarak kaydet"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "Profili güncelle"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "Bu yerleşik bir profil. Orijinal ayarlarını Profiller sekmesinden geri yükleyebilirsiniz."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "Bundan sonra bu profille yapılan her indirme yeni ayarları kullanır."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "Biçim"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "“{{profile}}” güncellensin mi?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "“{{name}}” profili güncellendi"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "“{{profile}}” profilini bu değişikliklerle güncelle"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "Yok"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "Dolgu"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "Giriş"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "Konu dışı müzik"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "Çıkış"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "Önizleme"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "Öz tanıtım"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "Sponsor"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "Kategoriler"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "Bölüm olarak işaretle"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "Segmentleri kaldır"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "Sponsor filtreleme"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Sponsor segmentlerini bölüm olarak işaretler (yıkıcı değildir)."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock yok — video yüklendiği gibi oynar."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "FFmpeg kullanarak sponsor segmentlerini videodan keser."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "Onayla"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "Kaydet"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "Biçim"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "Çıktı"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "Oynatma listesi"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "Videolar"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "Kalite"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "Profiller"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "Gözden geçir"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "Altyazılar"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "Otomatik altyazılar ASS yerine SRT olarak kaydedilecek — YouTube videolarında kayan ipucu yinelemeleri temizlenir; ASS dönüştürücümüz bunu henüz aynı şekilde yapamıyor."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "Otomatik"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "Tümünü temizle"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "Gömme modu çıktıyı .mkv olarak kaydeder, böylece altyazı parçaları güvenilir şekilde gömülür."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "Biçim"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "Bu video için altyazı yok"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "Eşleşen dil yok"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "Altyazı seçilmedi"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "{{name}} kaldır"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "Videoya göm"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "Kaydetme biçimi"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "Videonun yanına"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "İndirme klasöründe"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ alt klasörü"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "Dillerde ara…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "Otomatik oluşturulan"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "Manuel"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "İndirme profili gezinmesi"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "Bir indirmeyi bittikten birkaç saniye sonra İndirmeler listesinden kaldırır. Dosyalar klasörünüzde kalır; başarısız ve iptal edilen indirmeler listede kalır."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "Biten indirmeleri otomatik kaldır"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "Ağ veya sunucu kaynaklı bir aksaklıktan sonra otomatik olarak yeniden dener ve her denemeden önce daha uzun bekler. Sitenin engellediği indirmeler asla otomatik olarak yeniden denenmez."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "Başarısız indirmeleri yeniden dene"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "kez"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "Toplu URL’ler"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "Birden fazla URL ekle ve kuyruğa al."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "URL’yi temizle"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "Bağlantı panodan eklendi"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "Birden fazla bağlantı kopyalandı — eklemek için Toplu URL’leri kullanın"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "Panoda bağlantı yok"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "Pano okunamadı — bunun yerine bağlantıyı alana yapıştır"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "Kopyalanan bağlantıyla değiştirildi"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "Panoyu izle"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "Bir video bağlantısı kopyaladığında URL alanını otomatik doldur."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "Geri al"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "Kapatınca tepsiye gizle"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "Pencere kapandıktan sonra indirmeleri arka planda sürdür."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "Kuyruktaki kaç öğenin aynı anda indirileceği. Aynı anda daha fazlası uzun bir kuyruğu daha çabuk bitirir, ancak sitenin sizi sınırlama ihtimalini artırır."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "Aynı anda indirme"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "indirme"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Klip’nin indirmeden önce aynı anda kaç bağlantının ayrıntılarını aldığı. Daha az olması, yoğun bağlantıları engelleyen sitelere karşı daha nazik. Etkileşimli İndirme’de açtığın bağlantı her zaman öne geçer."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "Aynı anda kontrol edilen bağlantı"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "bağlantı"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "YouTube gibi siteler, çerezleri Klip gibi indirme araçları tarafından kullanılan hesapları işaretleyebilir ve bazen yasaklayabilir. Mümkünse geçici bir hesap kullan."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "Çerezleri doğrudan tarayıcıdan okur. Chromium ailesi tarayıcılar için tarayıcı kapalı olmalıdır."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "Tarayıcı"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "Bir tarayıcı seç…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "Seç…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "Temizle"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "Çerezleri kullanmak için bir tarayıcı seç"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "Çerezleri kullanmak için bir dosya seç"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "Keşfet sekmesi kapalı, bu yüzden indirmeler Keşfet oturumunu kullanmaz. Aşağıdaki Keşfet bölümünden aç."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "cookies.txt dosyasını YEREL olarak al (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Çerez dosyası"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "Çerezleri nasıl dışa aktarırım?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "Keşfet'i aç"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "Dosya seçilmedi"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "Önerilen"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "Risk: cookies.txt, o tarayıcıdaki tüm oturum açmış oturumları içerir — gizli tut."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "Tarayıcı"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "Keşfet oturumu"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "Dosya"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Çerez kaynağı"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "Hesabının izleyebildiği videolarda, örneğin özel videolarında işe yarar."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "Bir videonun birkaç parçasını aynı anda alarak büyük indirmeleri hızlandırır. Yüksek değerler sitenin sizi sınırlama ihtimalini artırır."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "İndirme bağlantıları"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "bağlantı"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "Albümü indir…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "Beğenilen videoları indir…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Mix’i indir…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "Oynatma listesini indir…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "Yüklemeleri indir…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "“Daha sonra izle”yi indir…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "Yalnızca ses"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "Altyazılar"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ site"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "Müzik oynatma listeleri"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "Videolar"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "Video oynatma listeleri"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klip neleri çekebilir"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "Kanallar"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "Music"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "Oynatma listeleri"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "Podcast’ler"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "Videolar"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "Adım adım sihirbaz. Biçimi, kaliteyi ve daha fazlasını seç."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "URL’den indir"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "Kısayolu değiştir"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "Bu kısayol başka bir uygulamada kullanılıyor — başka bir tane seçin."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "Genel kısayol"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "Tuşlara basın…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "Kopyaladığınız bağlantıyı, Klip’yi açmadan herhangi bir uygulamadan indirin."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "Genel kısayol"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "Test et"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "Genel kısayolu etkinleştir"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "Herhangi bir uygulamada bir video bağlantısı kopyalayın ve kısayola basın: Klip onu etkin profilinizle kuyruğa ekler, pencere değiştirmeniz gerekmez. Bir oynatma listesindeki videonun bağlantısı videoyu indirir."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "Etkileşimli İndirme"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "Etkileşimli İndirme…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "Etkin indirmeler mevcut sınırını korur. Değişiklikleri uygulamak için Duraklat + Sürdür."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "Özel…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "örn. 750K veya 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "Medya indirmeleri için bant genişliğini sınırla. Aşağıdaki istek aralığı genelde daha güçlü hız sınırlama aracıdır."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "K veya M ile biten bir sayı kullan (örn. 500K, 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "İndirme hızı sınırı"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "Arka planda indiriliyor… Aynı anda birkaç işi halledebilirim 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "Hızlı İndirme, yüklenen öğeleri {{profileName}} profiliyle kuyruğa ekler. Etkileşimli İndirme ise öğeleri önce incelemeni veya seçmeni sağlar."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "Bir bağlantı bırak, Klip onu çeksin ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "Hızlı İndirme, {{profileName}} profiliyle tek bir indirme başlatır. Tek seferlik değişiklikler için Etkileşimli İndirme'yi kullan."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "Bu bağlantı hem bir videoyu hem de içinde olduğu listeyi belirtiyor: yalnızca videoyu indir ya da listeyi."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "Uyumlu stereo"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "Profil yerel sesi seçtiğinde stereo veya surround. Profil bunu değiştirebilir."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "Yerel ses tercihi"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "Surround / Dolby tercih et"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "Klip’nin siteye fazla agresif davranmaması için her indirme sırasında küçük beklemeler ekle. Değerler saniye cinsindendir."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "Medya başlamadan önce duraklama: maks"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "Medya başlamadan önce duraklama: min"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "Meta veri kontrolleri arasında bekle"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "Altyazı dosyalarından önce bekle"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "Nazik indirmeler"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip ne kadar temkinli olsun?"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "Dengeli"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "Temkinli"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "Kapalı"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "Beklemeler: kontroller arasında {{requests}}, medya başlamadan önce {{downloads}}, altyazı dosyalarından önce {{subtitles}}."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "Bu beklemeler her indirmenin içinde gerçekleşir. Aynı anda kaç indirmenin çalışacağı ayrı olarak «Aynı anda indirme» altında ayarlanır."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "Varsayılan. İstekler arasında ve medya başlamadan önce kısa duraklamalar ekler."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "Büyük oynatma listeleri veya sık sınırla karşılaşan ağlar için daha uzun duraklamalar ekler."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "Gelişmiş indirme başına kontrolleri kendin ayarla."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Klip’nin medya ve altyazılar için tuttuğu küçük temel duraklamaları kullanır."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "sn"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "Bağlantı Klip’de açıldı"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "Klip’de açılan bağlantıyla değiştirildi"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "Bağlantıyı yapıştır"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "Geçerli sınır: {{count}} öğe"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "Özel…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "{{min}} ile {{max}} arasında bir tam sayı kullan."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "Sınırı kaydet"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "Özel oynatma listesi tarama sınırı"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "Özel: {{count}} öğe"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "Bir oynatma listesi, kanal veya arama sonucu açıldığında Klip’nin yükleyeceği en fazla kayıt sayısı."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "1 ile 5000 arasında bir tam sayı kullan"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "Taranacak oynatma listesi öğeleri"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} öğe"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "Uygulama sınırını kullan: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "Uygula"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "Bu oynatma listesi kapsamı uygulanamadı: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "Uygula ve yeniden yükle"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "İptal"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "Değiştir"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "Klip’nin bu oynatma listesi için neyi yükleyeceğini seç."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "Oynatma listesi kapsamı"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "Bu kapsamda video yok"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "İlk"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "1 ile {{max}} arasında tam sayı öğe numaraları kullan; başlangıç bitişten büyük olmasın."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "Yüklenecek öğeler"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "Oynatma listesi kapsamı"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "Aralık"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "Yeniden yükleniyor..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "İlk {{count}} öğeyi yükle"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "İlk {{count}} öğeyi yükle"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "{{from}}-{{to}} arası öğeleri yükle"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "ile"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "Etkin profil"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "Yerleşik"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "Özel"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "Gizli"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "Değiştirildi"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "Yalnızca ses"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "Dengeli 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "En iyi kalite"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "En düşük kalite 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "Düşük veri 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "Akıllı TV 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "Akıllı TV 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "Akıllı TV 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "Küçük dosya 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "Yalnızca altyazılar"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "Genel hedefi değiştir"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "Genel hedef kullanılıyor"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "Genel hedef + profil alt klasörü kullanılıyor"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "Profil geçersiz kılması kullanılıyor"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "Profil geçersiz kılması + profil alt klasörü kullanılıyor"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "Kaydedildiği yeri değiştirmek için profili düzenle."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "Hedef"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "Düzenle"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "Etkin profili düzenle"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "Gizli profiller burada kalır, ancak tüm seçicilerden kaybolur."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "Profili seçicilerde göster: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "En az bir profili kullanılabilir tut."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "Profilleri yönet"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "Hızlı İndirme, Toplu URL’ler ve oynatma listeleri için etkin profili değiştir."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "Profili değiştir"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "taşınabilir profil"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "Taşıma iptal edildi. {{profileName}} profili {{count}} içinde {{position}}. sırada kalıyor."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "{{profileName}} profili {{count}} içinde {{position}}. sıraya bırakıldı."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "{{profileName}} profilini taşı"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Bir profili taşımak için Boşluk veya Enter tuşuna basın, ok tuşlarıyla taşıyın, ardından bırakmak için tekrar Boşluk veya Enter tuşuna basın. İptal etmek için Esc tuşuna basın."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} profili {{count}} içinde {{position}}. sıranın üzerinde."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "{{profileName}} profili alındı. {{count}} içinde {{position}}. sırada."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "Yeni profil"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "Bu profil, ayarlanmamış bir klasöre kaydediyor. Profilde bir klasör seç ya da varsayılana döndür."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "Yeniden kullanılabilir indirme kurulumları oluştur, seç, düzenle veya kaldır."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "İndirme Profilleri"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "Kaldır"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "Bir profili taşımak için sürükleyin. Tüm profil seçiciler bu sırayı izler."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "Kaydedildiği yer"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "İndirme profilini değiştir: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "İndirme profilini değiştir"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "Temizle"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "Trafiği bir proxy sunucusu üzerinden yönlendir."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "Proxy URL’si"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "Hızlı İndirme"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "Şununla indirilecek: {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "Bu öğe eklenemedi: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "Kuyruk öğesi hazırlanamadı"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "Hazırlanıyor"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "Denetim başarısız oldu"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "Başlamak için bir video, oynatma listesi, kanal veya arama URL’si yapıştır."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "Anonim sinyal ve kurulum raporları gönder"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "Takip yok. Günde bir kez anonim bir sinyal, uygulama sürümünü, kurulum kanalını, işletim sistemini, dili, ülkeyi ve Klip’nin yaklaşık ne kadar önce kurulduğunu gönderir; böylece etkin ve yeni kullanıcıları sayabiliriz. Klip indirme motorunu veya medya araçlarını kurduğunda ya da güncellediğinde bunun işe yarayıp yaramadığını ve yaklaşık ne kadar sürdüğünü de bildirir. Kimlik, URL, video başlığı veya dosya adı gönderilmez."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "Profil kaynaklı indirmeleri de etkileyen genel davranış."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "İndirme davranışı"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "Giriş"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "Hareket eden bir gökyüzünün üzerinde cam paneller. Grafik hızlandırma gerekir."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "Düz, sakin yüzeyler. Her bilgisayarda hafif çalışır."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "Minimal"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "İki stil de açık ve koyu modda gelir."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Klip'nin görünümü. Açık ve koyu mod arasında alt bilgi alanından geçiş yapabilirsiniz."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "Görünüm"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} grafik hızlandırma gerektirir, ama şu an kullanılamıyor; bu yüzden Klip {{fallback}} gösteriyor."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "Profiller"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "Bu video"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "Yalnızca bu videoyu {{profileName}} ile indirir"

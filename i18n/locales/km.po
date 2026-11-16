@@ -1,0 +1,5277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: km\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "អំពី"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "មើលសេចក្តីជូនដំណឹងភាគីទីបី"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "គេហទំព័រ"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "អនុញ្ញាត"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "អនុញ្ញាតការពង្រីកដោយ AI"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube ផ្តល់វីដេអូចាស់ៗខ្លះក្នុងទំហំដែលបង្កើតដោយ AI។ រំលង រក្សាស្ទ្រីមដើម ប៉ុន្តែអ្នកនៅតែអាចជ្រើសស្ទ្រីមដែលពង្រីកដោយ AI ដោយដៃបាន។"
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "ស្ទ្រីមដែលពង្រីកដោយ AI"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "រំលង"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "មតិកែលម្អ"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "ចូលចិត្ត Klip ទេ? ខ្ញុំចង់ឮពីអ្នកណាស់! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "កំណត់ហេតុ"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "រក្សាទុកឯកសាររោគវិនិច្ឆ័យ"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "ដាក់កំណត់ហេតុ និងព័ត៌មានកម្មវិធីរបស់អ្នកទៅក្នុងឯកសារតែមួយក្នុង Downloads ដែលរួចរាល់សម្រាប់ភ្ជាប់ទៅ GitHub issue។ ឈ្មោះថតអ្នកប្រើរបស់អ្នកត្រូវបានលុបចេញ ប៉ុន្តែតំណ និងចំណងជើងវីដេអូនៅដដែល។"
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "ថ្មី៖ ជ្រើសរើស អូរ៉ូរ៉ា ឬ សាមញ្ញ នៅទីនេះ"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "ធីម"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "ពង្រីក"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "បង្រួម"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "ថយក្រោយ"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "បិទ"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "បន្ត"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "កំពុងផ្ទុក"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "ចាប់ផ្តើមឡើងវិញ"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip បន្តដំណើរការ ហើយបញ្ចប់ការទាញយកសកម្ម។ ប្តូរវានៅពេលក្រោយក្នុងការកំណត់កម្រិតខ្ពស់។"
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "លាក់ទៅថាស"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "លាក់ Klip ទៅថាសប្រព័ន្ធនៅពេលបិទ?"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "ចាកចេញ"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "កុំសួរម្តងទៀត"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "ជួររបស់អ្នកនឹងត្រូវបានរក្សាទុក ហើយការទាញយកនឹងបន្តពីកន្លែងដែលវាឈប់ នៅពេលអ្នកបើក Klip លើកក្រោយ។"
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "បន្តទាញយក"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "ការទាញយក {{count}} កំពុងដំណើរការ"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "ចាកចេញ"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "ដំណើរការ renderer បានគាំង ({{reason}})។ ផ្ទុកឡើងវិញដើម្បីព្យាយាមម្តងទៀត។"
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip បានជួបបញ្ហា"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "ចាកចេញ"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "ផ្ទុកឡើងវិញ"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "បានចម្លង!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "ចម្លងអាសយដ្ឋាន"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip ឥតគិតថ្លៃ និងជាប្រភពកូដចំហ គ្មានផ្សាយពាណិជ្ជកម្ម ឬកញ្ចប់បង់ប្រាក់។ ការបរិច្ចាគជាជម្រើស ហើយមិនផ្តល់ឥទ្ធិពលលើផែនទីបង្ហាញផ្លូវឡើយ។"
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "បរិច្ចាគ"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "គាំទ្រ Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "កូដ QR នៃអាសយដ្ឋានបរិច្ចាគ {{coin}}"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "គាំទ្រ Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "ការទូទាត់គ្រីបតូមិនអាចត្រឡប់វិញបានទេ។ សូមផ្ញើតែតាមបណ្តាញដែលបង្ហាញ ហើយប្រៀបធៀបអាសយដ្ឋានទាំងមូល។"
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "វីដេអូនេះមិនមានអក្សររត់ជាភាសា {{languages}} ទេ។"
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "វីដេអូនេះត្រូវបានកំណត់អាយុ ហើយមិនអាចទាញយកបានដោយគ្មានគណនីដែលបានចូលទេ។"
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "ការការពារ bot របស់គេហទំព័របានបញ្ឈប់ការទាញយកនេះ។ សូមរង់ចាំមួយរយៈ ហើយព្យាយាមម្តងទៀត ឬទាញយកវីដេអូតិចជាងមុនក្នុងពេលតែមួយ។ ប្រសិនបើនៅតែបរាជ័យ នេះអាចជាការផ្លាស់ប្តូរបណ្តោះអាសន្នពីផ្នែកគេហទំព័រ — Klip ធ្វើបច្ចុប្បន្នភាពម៉ាស៊ីនទាញយករបស់វានៅពេលបើក ដូច្នេះការជួសជុលនឹងមកដល់ដោយស្វ័យប្រវត្តិនៅពេលវាចេញផ្សាយ។"
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "ម៉ាស៊ីនមេបានកាត់ការទាញយកពាក់កណ្តាលស្ទ្រីមជាបន្តបន្ទាប់ ហើយ Klip បានឈប់បន្ទាប់ពីព្យាយាមម្តងទៀត។ នេះជាធម្មតាកើតឡើងចំពោះទម្រង់វីដេអូធំបំផុត (4K HDR / VP9 bitrate ខ្ពស់)។ ព្យាយាមម្តងទៀត ប្តូរបណ្តាញ/VPN ឬជ្រើសរើសទម្រង់គុណភាពបង្ហាញទាបជាង។"
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "វីដេអូនេះត្រូវបានការពារដោយ DRM។ Klip មិនអាចដក DRM បានទេ ដូច្នេះឯកសារមិនអាចទាញយកបានទេ។"
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "វីដេអូនេះលែងផ្តល់ទម្រង់ដែលអ្នកបានជ្រើសរើសទៀតហើយ។ សូមបិទភ្ជាប់តំណម្តងទៀត រួចជ្រើសរើសពីទម្រង់ដែលវាផ្តល់ជូនឥឡូវនេះ។"
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "វីដេអូនេះមិនមាននៅក្នុងតំបន់របស់អ្នកទេ។"
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "គេហទំព័របានរារាំងសំណើពីការភ្ជាប់នេះ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។"
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "វីដេអូនេះត្រូវការគណនីដែលបានចូល។"
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip រកមិនឃើញ FFmpeg ឬ FFprobe ទេ។ សូមដំណើរការការរៀបចំម្ដងទៀត ឬកំណត់ទីតាំង FFmpeg រួចព្យាយាមទាញយកម្ដងទៀត។"
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "កំហុសបណ្តាញ។ ពិនិត្យការតភ្ជាប់របស់អ្នក ហើយព្យាយាមម្តងទៀត។"
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "វីដេអូនេះមិនមានអក្សររត់ជាភាសាដែលបានស្នើសុំទេ។"
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "ទំហំថាសមិនគ្រប់គ្រាន់។ សម្អាតទំហំ ហើយព្យាយាមម្តងទៀត។"
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip មិនអាចសរសេរទៅថតទាញយកបានទេ។ វាអាចជាបានតែអាន នៅលើដ្រាយដែលបានចាក់សោ ឬត្រូវបានទប់ស្កាត់ដោយការកំណត់ឯកជនភាពនៃប្រព័ន្ធរបស់អ្នក។ ជ្រើសរើសថតផ្សេង ឬអនុញ្ញាតការចូលប្រើ បន្ទាប់មកព្យាយាមម្តងទៀត។"
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "មិនអាចញែកការឆ្លើយតបពីគេហទំព័របានទេ។ គេហទំព័រអាចបានផ្លាស់ប្តូរវិធីផ្តល់វីដេអូ។ Klip ធ្វើបច្ចុប្បន្នភាពម៉ាស៊ីនទាញយករបស់វានៅពេលបើក — ព្យាយាមម្តងទៀតក្នុងរយៈពេលពីរបីនាទីនៅពេលការជួសជុលចេញផ្សាយ។"
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "ការទាញយកបានបញ្ចប់ ប៉ុន្តែការដំណើរការក្រោយ (បញ្ចូល / mux / បម្លែង) បានបរាជ័យ។ ជាញឹកញាប់នេះជាបញ្ហា ffmpeg បណ្តោះអាសន្ន — ព្យាយាមម្តងទៀត ហើយប្រសិនបើវានៅតែកើតឡើង សាកល្បងបន្សំទម្រង់ផ្សេង។"
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "គេហទំព័រកំពុងកំណត់សំណើពីការភ្ជាប់នេះ។"
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "វីដេអូនេះមិនអាចប្រើបាន — វាអាចជាឯកជន ត្រូវបានលុប ឬត្រូវបានចាក់សោតាមតំបន់។"
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "ការទាញយកបានបរាជ័យ។ មើលលទ្ធផលដើមខាងក្រោម។"
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip មិនគាំទ្រ URL នេះទេ។ សាកល្បងតំណពីគេហទំព័រផ្សេង។"
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "ពិនិត្យការតភ្ជាប់របស់អ្នក បន្ទាប់មកព្យាយាមម្តងទៀត។"
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "ទំព័រនេះមិនបានផ្ទុកទេ"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "បើកការកំណត់"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "ពិនិត្យប្រូកស៊ីក្នុងការកំណត់ បន្ទាប់មកព្យាយាមម្តងទៀត។"
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "«រកមើល» មិនអាចតភ្ជាប់តាមប្រូកស៊ីរបស់អ្នកបានទេ"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "ចុចខាងស្តាំលើតំណវីដេអូ បញ្ជីចាក់ ឬប៉ុស្តិ៍ណាមួយនៅលើទំព័រ ដើម្បីទាញយកដោយប្រើប្រវត្តិរូបសកម្ម ជ្រើសរើសប្រវត្តិរូបផ្សេង ឬបើកការទាញយកអន្តរកម្ម។"
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "ចុចខាងស្តាំលើតំណដើម្បីទាញយក"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "ទាញយកអាល់ប៊ុមនៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "ទាញយកវីដេអូដែលអ្នកចូលចិត្តនៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "ទាញយក Mix នៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "ទាញយកបញ្ជីចាក់នៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "ទាញយកការផ្ទុកឡើងនៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "ទាញយក «មើលពេលក្រោយ» នៅផ្ទៃខាងក្រោយ"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "ចម្លងតំណ"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "ទាញយក {{count}} ដំបូង"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "ទាញយកវីដេអូនេះ · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "ទាញយកដោយប្រើ"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "ពីអាល់ប៊ុមនេះ"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "ពីវីដេអូដែលអ្នកចូលចិត្ត"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "ពី Mix នេះ"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "ពីបញ្ជីចាក់នេះ"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "ពីការផ្ទុកឡើងរបស់ប៉ុស្តិ៍នេះ"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "ពី «មើលពេលក្រោយ»"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "ទាញយកអន្តរកម្ម…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "វីដេអូនេះដោយប្រើ"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "ថ្មី"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "ស្វែងរកវីដេអូនៅលើ YouTube ឬគេហទំព័រផ្សេងទៀត ហើយទាញយកវាពីទីនេះ — មិនចាំបាច់ចម្លងតំណទេ។ ចូលគណនីគេហទំព័រមួយនៅទីនេះដើម្បីទាញយកវីដេអូដែលត្រូវការគណនី។"
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "បន្ត"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "គេហទំព័រដូចជា YouTube អាចសម្គាល់ — ហើយពេលខ្លះហាមឃាត់ — គណនីដែលប្រើជាមួយឧបករណ៍ទាញយកដូចជា Klip។ ប្រើគណនីដែលអ្នកអាចបាត់បង់បាន មិនមែនគណនីចម្បងរបស់អ្នកទេ។"
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "ចូលគណនីជាមួយគណនីបន្ទាប់បន្សំ"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "រុករកគេហទំព័រនៅក្នុង Klip ផ្ទាល់"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "ការទាញយកប្រើ cookies របស់កម្មវិធីរុករក មិនមែនការចូលគណនី «រកមើល» ទេ។"
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "ការទាញយកប្រើឯកសារ cookies របស់អ្នក មិនមែនការចូលគណនី «រកមើល» ទេ។"
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "មិនមែនឥឡូវទេ"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Cookies ត្រូវបានបិទ ដូច្នេះការទាញយកមិនប្រើការចូលគណនី «រកមើល» របស់អ្នកទេ។"
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "ប្រើការចូលគណនី «រកមើល»"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "រុករក YouTube ឬគេហទំព័រផ្សេងទៀតនៅក្នុង Klip ហើយចូលគណនីសម្រាប់វីដេអូដែលត្រូវការគណនី។"
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "បញ្ចេញអង្គចងចាំពេលអ្នកមិននៅ"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "បន្ទាប់ពី 5 នាទីនៅលើផ្ទាំងផ្សេង វាបិទទំព័រដើម ឬទំព័រស្វែងរករបស់ YouTube។ ពេលត្រឡប់មកវិញ វាផ្ទុកឡើងវិញ ដែលចំណាយពេលពីរបីវិនាទី។"
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "ម៉ាស៊ីនស្វែងរក"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "កន្លែងដែលអត្ថបទដែលបានវាយក្នុងរបារអាសយដ្ឋានត្រូវបានស្វែងរក។ តំណបើកតាមដែលបានវាយ។"
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "បង្ហាញផ្ទាំង «រកមើល»"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "ការបិទវាក៏បញ្ឈប់ការទាញយកពីការប្រើការចូលគណនី «រកមើល» របស់អ្នកដែរ។"
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "ចាកចេញពី «រកមើល»"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "ចាកចេញ"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "វាសម្អាតការចូលគណនី និងទិន្នន័យរុករករបស់អ្នកក្នុង «រកមើល» នៅគ្រប់គេហទំព័រ។ ការទាញយកដែលត្រូវការគណនីនឹងបរាជ័យរហូតដល់អ្នកចូលគណនីម្តងទៀត។"
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "ចាកចេញពី «រកមើល»?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "សម្អាតការចូលគណនី និងទិន្នន័យរុករករបស់អ្នកក្នុង «រកមើល» នៅគ្រប់គេហទំព័រ។"
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "រកមើល"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "រកមើល"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube អាចប្រឆាំងនឹងកម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្មសម្រាប់គណនីដែលបានចូល។"
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "កម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្ម"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "កម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្ម៖ បិទ — ចុចដើម្បីបើក"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "កម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្ម៖ បើក — ចុចដើម្បីបិទ"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "កម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្ម៖ កំពុងចាប់ផ្តើម — ចុចដើម្បីបិទ"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "កម្មវិធីទប់ស្កាត់ពាណិជ្ជកម្ម៖ មិនអាចប្រើបាន បញ្ជីតម្រងរបស់វាមិនអាចទាញយកបានទេ — ចុចដើម្បីបិទ"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "អាសយដ្ឋាន"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "ស្វែងរកក្នុង {{engine}} ឬបើកគេហទំព័រណាមួយ (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "ការគ្រប់គ្រងកម្មវិធីរុករក «រកមើល»"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "ថយក្រោយ"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "ប្លង់បង្រួម"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "ទាញយក"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "ទាញយក · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "ទៅមុខ"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "បង្ហាញប្លង់ពេញ"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "បើកវីដេអូ បញ្ជីចាក់ ឬប៉ុស្តិ៍ដើម្បីទាញយកវា"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "ទំព័រដើម YouTube"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "ទាញយកអន្តរកម្ម៖ ជ្រើសរើសទម្រង់ អក្សររត់ និងច្រើនទៀត…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "«រកមើល» មិនអាចបើកអាសយដ្ឋាននោះបានទេ។"
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "ផ្ទុកឡើងវិញ"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "ការស្វែងរកនោះវែងពេក។"
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "តែវីដេអូនេះ"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "ទាញយកតែវីដេអូនេះដោយប្រើ {{profileName}}"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "ការពង្រីកទំព័រ៖ {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "ពង្រីក"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "ការពង្រីកទំព័រ"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "បង្រួម"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "ភាគរយនៃការពង្រីក"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "កំណត់ការពង្រីកឡើងវិញត្រឡប់ទៅ 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "ជ្រើសរើសរបៀបដាក់ឈ្មោះឯកសារដែលបានទាញយក។ ចុចលើ token ដើម្បីបញ្ចូលវា។ ប្រើ / ដើម្បីតម្រៀបការទាញយកទៅក្នុងថត។"
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "បញ្ចូលគំរូឈ្មោះឯកសារ។"
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "លុប / ដែលលើស — ថតនីមួយៗត្រូវការឈ្មោះ។"
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "លុបតួអក្សរដែលមិនត្រូវបានអនុញ្ញាតក្នុងឈ្មោះឯកសារ៖ \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "ឈ្មោះថតនោះមិនត្រូវបានអនុញ្ញាតទេ។ ជៀសវាង . និង .. និងឈ្មោះបម្រុងទុកដូចជា CON។"
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "បន្ថែម {title} ឬ {id} ទៅឈ្មោះឯកសារ ដើម្បីឱ្យការទាញយកនីមួយៗមានឈ្មោះផ្ទាល់ខ្លួន។"
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} មិនអាចដាក់ឈ្មោះថតបានទេ — គុណភាពមិនត្រូវបានដឹងរហូតដល់ការទាញយកចាប់ផ្តើម។"
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ ឬ } មិនត្រូវគ្នា — រុំ token ដូចជា {title}។"
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "គំរូវែងពេក។"
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "token មិនស្គាល់ {{token}}។"
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "ឱ្យឈ្មោះបញ្ចប់ដោយ [{id}] ដើម្បីឱ្យ Klip អាចរកឃើញធាតុបញ្ជីចាក់ដែលបានទាញយករួច និងបង្កើតបញ្ជីចាក់ .m3u។"
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "គំរូឈ្មោះឯកសារ"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "មិនអាចប្រើបាន ដោយសារគំរូឈ្មោះឯកសាររបស់អ្នកមិនបញ្ចប់ដោយ [{id}] ឬតម្រៀបការទាញយកទៅក្នុងថត។"
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "ក្នុងបញ្ជីចាក់"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "វីដេអូតែមួយ"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "ទុកទទេដើម្បីទទួលយកគំរូសកល។"
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "គំរូឈ្មោះឯកសារ"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "ស្វ័យប្រវត្តិ"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "ស្វ័យប្រវត្តិ (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "ស្ទ្រីមដែលបានជ្រើសរើសកំណត់ប្រភេទឯកសារ។"
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "ផ្ទុក codec បានគ្រប់ប្រភេទ។ ទូរទស្សន៍ និងទូរស័ព្ទមួយចំនួនមិនអាចបើកវាបានទេ។"
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "ចាក់បានស្ទើរតែគ្រប់ទីកន្លែង។ VP9 ក្នុង MP4 មិនបង្ហាញវីដេអូក្នុង QuickTime ទេ។"
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "ទម្រង់បើកចំហសម្រាប់កម្មវិធីរុករក។ ផ្ទុកតែ VP9 ឬ AV1 ជាមួយ Opus ប៉ុណ្ណោះ។"
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "AV1 ក្នុង MP4 ត្រូវការ Mac ថ្មីៗ ដើម្បីចាក់ក្នុង QuickTime។ H.264 ចាក់បានគ្រប់ទីកន្លែង។"
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "VP9 ក្នុង MP4 មិនបង្ហាញវីដេអូក្នុង QuickTime ទេ។ H.264 ចាក់បានគ្រប់ទីកន្លែង។"
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "ប្រវត្តិរូប"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM មិនមានជាមួយ Smart TV ទេ: វាមិនអាចផ្ទុក H.264 បានទេ។"
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM មិនអាចផ្ទុក {{codec}} បានទេ។ សូមជ្រើស MKV ឬ MP4។"
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "សំឡេង"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "តែសំឡេង · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "ស្វ័យប្រវត្តិ"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "ស្វ័យប្រវត្តិជ្រើស HDR នៅពេលអេក្រង់នេះអាចបង្ហាញវាបាន បើមិនដូច្នោះទេ SDR។ HDR មើលទៅស្លេកលើអេក្រង់ធម្មតា។"
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "វីដេអូ HDR"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "ភាសា"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "បានចូលគណនីជាមួយ «រកមើល» — កំពុងព្យាយាមតំណ {{count}} ម្តងទៀត"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "មិនអាចចាកចេញពី «រកមើល» បានទេ។ ព្យាយាមម្តងទៀត។"
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "ថតនេះជ្រៅពេកសម្រាប់ប្រព័ន្ធរបស់អ្នក។ ការទាញយកនៅតែអាចបរាជ័យ — ជ្រើសរើសថតដែលខ្លីជាង។"
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "ឈ្មោះវីដេអូនេះមិនអាចដាក់គ្រប់ផ្នែកនៃគំរូរបស់អ្នកបានទេ ដូច្នេះឈ្មោះលំនាំដើមត្រូវបានប្រើ។"
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "មិនអាចបើកផ្ទាំងជ្រើសរើសថតបានទេ។"
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "មានក្នុងជួររួចហើយ — មិនបានបន្ថែមច្បាប់ចម្លងទេ"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "បញ្ចប់ការរៀបចំ cookies ក្នុង Klip បន្ទាប់មកព្យាយាមម្តងទៀត"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "គ្មានតំណក្នុងក្តារតម្បៀតខ្ទាស់របស់អ្នកទេ — ចម្លងមួយជាមុនសិន"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "បានចម្លងតំណច្រើន — ប្រើ URL ច្រើនក្នុង Klip"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "តំណនោះត្រូវការជម្រើសរបស់អ្នក — មើល ការទាញយក ក្នុង Klip"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "បានដាក់ការទាញយកក្នុងជួរពីក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "មិនអាចបន្ថែមតំណនោះបានទេ — ព្យាយាមម្តងទៀតក្នុង Klip"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "ថតនោះមិនអាចប្រើសម្រាប់បញ្ជីចាក់នេះបានទេ។"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "វីដេអូ {{count}} មានក្នុងជួររួចហើយ — បានរំលង"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "បានបន្ថែម៖ {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "មានក្នុងជួររួចហើយ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "បានបន្ថែមតំណ {{count}} ទៅការទាញយក"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} មានក្នុងជួររួចហើយ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "មិនអាចបន្ថែមតំណ {{count}} បានទេ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "មិនអាចបន្ថែម {{count}} បានទេ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "វីដេអូ {{count}} ក្នុងបញ្ជីនេះ — ជ្រើសរើសអ្វីដែលត្រូវទាញយក"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "វីដេអូ {{count}}+ — ជ្រើសរើសចំនួន"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "មិនអាចរៀបចំ {{title}} បានទេ"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "មិនអាចបន្ថែមតំណនោះបានទេ — ព្យាយាមម្តងទៀត"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "មើល"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "មិនអាចរក្សាទុកការកំណត់របស់អ្នកបានទេ។"
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "មិនអាចបើកវាបានទេ។"
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "ការរៀបចំមិនបានបញ្ចប់ទេ។ ការទាញយកមួយចំនួនអាចបរាជ័យរហូតដល់វាបញ្ចប់។"
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "សំឡេង (ល្អបំផុត)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "សំឡេង ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "សំឡេងដើមល្អបំផុត គ្មានការអ៊ិនកូដឡើងវិញ"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "បម្លែងទៅ M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "បម្លែងទៅ MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "បម្លែងទៅ Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "H.264 លើសពី 1080p មិនមាននៅលើ YouTube ទេ — កំណត់ត្រឹម 1080p ដោយស្វ័យប្រវត្តិ"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "រក្សាទុកជា"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "ដោយផ្ទាល់ក្នុងថតរក្សាទុក"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "ភាសា"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "ជ្រើសរើសភាសាយ៉ាងហោចណាស់មួយដើម្បីបន្ត។"
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "មានតែឯកសារអក្សររត់ប៉ុណ្ណោះដែលត្រូវបានរក្សាទុកសម្រាប់វីដេអូនីមួយៗ — គ្មានវីដេអូ ឬសំឡេងត្រូវបានទាញយកទេ។"
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "ប្រភព"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "រហូតដល់ 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "រហូតដល់ 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "រហូតដល់ 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "រហូតដល់ 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "រហូតដល់ 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "រហូតដល់ 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "រហូតដល់ 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "រហូតដល់ 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "គុណភាពល្អបំផុត"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "កំណត់ត្រឹម 1080p ធ្លាក់ចុះទាបជាងតាមធាតុនីមួយៗ"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "ឯកសារតូចបំផុតតាមដែលអាចធ្វើបាន"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "កំណត់ត្រឹម 2K ធ្លាក់ចុះទាបជាងតាមធាតុនីមួយៗ"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "កំណត់ត្រឹម 2160p ធ្លាក់ចុះទាបជាងតាមធាតុនីមួយៗ"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "ឯកសារតូចណាស់ គុណភាពទាប"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "ឯកសារតូចសម្រាប់កម្រិតបញ្ជូនតិច"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "កម្រិតបញ្ជូនទាប"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "ឯកសារតូចជាង ត្រូវគ្នាបានទូលំទូលាយ"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "វីដេអូ + សំឡេងខ្ពស់បំផុតដែលមានសម្រាប់ធាតុនីមួយៗ"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "សំឡេង"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "វីដេអូ"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "ល្អបំផុតដើម"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "H.264 MP4 សម្រាប់ Smart TV"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "Container និង codec ល្អបំផុតដែលមានសម្រាប់ធាតុនីមួយៗ"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "ចូលចិត្តវីដេអូ H.264 + សំឡេង AAC ក្នុង MP4 នៅពេលអាចធ្វើបាន"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "ឯកសារភ្ជាប់"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "ការពិពណ៌នា"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "មេឌៀ"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "បាត់"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "អក្សររត់"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "រូបភាពតូច"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "ឯកសារលទ្ធផល"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "ការទាញយក {{count}} ត្រូវការការយកចិត្តទុកដាក់ពីអ្នក"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "ដកការទាញយកនីមួយៗចេញពីបញ្ជី ប៉ុន្មានវិនាទីបន្ទាប់ពីវាបញ្ចប់។ ឯកសារនៅតែមាននៅក្នុងថតរបស់អ្នក។"
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "សម្អាតដោយស្វ័យប្រវត្តិ"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "បោះបង់ការទាញយកសកម្ម និងកំពុងរង់ចាំទាំងអស់"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "វីដេអូទាំងអស់"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "មានវីដេអូច្រើនជាង {{count}} ក្នុងបញ្ជីចាក់នេះ។ ទាញយកទាំងអស់ {{count}} ដំបូង ឬជ្រើសរើសក្នុងការពិនិត្យ។"
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "{{count}} ដំបូង"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "អាល់ប៊ុម"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "វីដេអូដែលអ្នកចូលចិត្ត"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "Mix នេះ"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "បញ្ជីចាក់"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "ការផ្ទុកឡើងទាំងអស់"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "«មើលពេលក្រោយ»"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "ជ្រើសរើសពីវា…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "ពិនិត្យ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "តំណនេះជាបញ្ជីនៃវីដេអូ {{count}}។ ទាញយកទាំងអស់ ឬជ្រើសរើសក្នុងការពិនិត្យ។"
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "វីដេអូនេះ"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "តំណនេះជាវីដេអូក្នុងអាល់ប៊ុម។ ទាញយកតែវីដេអូ ឬអាល់ប៊ុម?"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "តំណនេះជាវីដេអូក្នុងវីដេអូដែលអ្នកចូលចិត្ត។ ទាញយកតែវីដេអូ ឬវីដេអូដែលអ្នកចូលចិត្តទាំងអស់?"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "តំណនេះជាវីដេអូក្នុង Mix។ ទាញយកតែវីដេអូ ឬ Mix?"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "តំណនេះជាវីដេអូក្នុងបញ្ជីចាក់។ ទាញយកតែវីដេអូ ឬបញ្ជីចាក់?"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "តំណនេះជាវីដេអូក្នុងការផ្ទុកឡើងរបស់ប៉ុស្តិ៍។ ទាញយកតែវីដេអូ ឬការផ្ទុកឡើងទាំងអស់?"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "តំណនេះជាវីដេអូក្នុងបញ្ជី «មើលពេលក្រោយ» របស់អ្នក។ ទាញយកតែវីដេអូ ឬបញ្ជីទាំងមូល?"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "សម្អាតការទាញយកដែលបានបញ្ចប់"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "ការទាញយកក្នុងជួរនឹងបង្ហាញនៅទីនេះ"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "ទាំងអស់"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "តម្រងស្ថានភាពជួរ"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "ធាតុទាំងអស់"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "ការទាញយក"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "មិនបានដកសំឡេងចេញ"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "មិនបានដកសំឡេងចេញ · អក្សររត់មួយចំនួនបានបរាជ័យ"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "ការទាញយកបានបរាជ័យ"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "បើកថតទីតាំងរក្សាទុក"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "ផ្អាក"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "តែកំពុងរង់ចាំ"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "ទាញយកឥឡូវ — រំលងជួរ"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "កំណត់ត្រឹម {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "កំណត់ត្រឹម {{height}}p · អក្សររត់មួយចំនួនបានបរាជ័យ"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "លុប"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "បន្ត"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "កំពុងព្យាយាមម្តងទៀតដោយស្វ័យប្រវត្តិ (ការព្យាយាមលើកទី {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "កំណត់ទីតាំង"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "ជ្រើសរើសធាតុដែលកំពុងរង់ចាំដើម្បីកំណត់ទីតាំង។"
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "បានបោះបង់"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "រួចរាល់"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "កំហុស"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "បានរង់ចាំទុក"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "ត្រូវការជម្រើសរបស់អ្នក"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "បានផ្អាក"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "កំពុងរង់ចាំ"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "កំពុងទាញយកព័ត៌មានលម្អិត"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "កំពុងទាញយក"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "គ្មានអក្សររត់ជាភាសា {{languages}}"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "រង់ចាំ {{site}} រហូតដល់ {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} កំពុងកំណត់អត្រាសំណើនៃការភ្ជាប់នេះ។ Klip នឹងទាញយកព័ត៌មានលម្អិតរបស់តំណនេះបន្ទាប់ពី {{time}} ដើម្បីឱ្យការកំណត់នោះរលុបបាត់។"
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "បិទ"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "ពីអាល់ប៊ុម"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "ពីវីដេអូដែលអ្នកចូលចិត្ត"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "ពី Mix"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "ពីបញ្ជីចាក់"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "ពីការផ្ទុកឡើងរបស់ប៉ុស្តិ៍"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "ពី «មើលពេលក្រោយ»"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "យកអាល់ប៊ុមទាំងមូល"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "យកវីដេអូដែលអ្នកចូលចិត្តទាំងអស់"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "យក Mix ទាំងមូល"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "យកបញ្ជីចាក់ទាំងមូល"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "យកការផ្ទុកឡើងទាំងអស់"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "យក «មើលពេលក្រោយ» ទាំងអស់"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "បន្ថែមបញ្ជីជាជួរដាច់ដោយឡែក។ វីដេអូនេះត្រូវបានទុកចេញ។"
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "ផ្អាករាល់ការទាញយកសកម្ម ហើយបញ្ឈប់ការទាញយកថ្មីពីការចាប់ផ្តើម"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "ជួរត្រូវបានផ្អាក — ធាតុដែលកំពុងរង់ចាំនឹងមិនចាប់ផ្តើមរហូតដល់អ្នកបន្តវា"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "បន្តការទាញយកដែលបានផ្អាក ហើយឱ្យជួរបន្តដំណើរការ"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "បន្តជួរ"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "ធាតុដែលបានជ្រើសរើស"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "បានជ្រើសរើស {{selected}} · សរុប {{total}}"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "ការទាញយក"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "បានបន្ថែម"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "ឯកសារលទ្ធផល"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "បានទម្លាក់ជួរឈរ {{column}}។"
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "ការផ្លាស់ទីជួរឈរ {{column}} ត្រូវបានបោះបង់។"
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "ជួរឈរ {{column}} នៅលើ {{target}}។"
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "បានលើកជួរឈរ {{column}}។"
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "ជួរឈរ"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "បានបញ្ចប់"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "ទម្រង់"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "លាក់ឯកសារលទ្ធផលសម្រាប់ {{title}}"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "ជួរឈរដែលអាចផ្លាស់ទីបាន"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "ដើម្បីផ្លាស់ទីជួរឈរ សូមចុច Space ឬ Enter ផ្លាស់ទីវាដោយប្រើគ្រាប់ចុចព្រួញ បន្ទាប់មកចុច Space ឬ Enter ដើម្បីទម្លាក់។ ចុច Escape ដើម្បីបោះបង់។"
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "គោលដៅលទ្ធផល"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "វឌ្ឍនភាព"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "កំណត់ជួរឈរឡើងវិញ"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "ប្តូរទំហំជួរឈរ {{column}}"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "បង្ហាញឯកសារលទ្ធផលសម្រាប់ {{title}}"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "ទំហំ"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "តម្រៀបតាម {{label}}"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "ចំណងជើង"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "ការទាញយកឥឡូវនៅក្នុងផ្ទាំង ការទាញយក — បើកវាគ្រប់ពេលដើម្បីតាមដានវឌ្ឍនភាព។"
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "បន្ត"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "អ្នកកំពុងប្រើការធ្វើបច្ចុប្បន្នភាពថ្មី។ នេះជាចំណុចសំខាន់ៗ។"
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "កំណត់ចំណាំការចេញផ្សាយពេញលេញ ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "អ្វីថ្មីក្នុង Klip {{version}}"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "ជ្រើសរើសឯកសារដំណើរការ"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "ដំឡើងជាមួយ Homebrew"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "ដំឡើងជាមួយ WinGet"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "បើកថតឯកសារពឹងផ្អែក"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "កំណត់ទៅលំនាំដើមវិញ"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "ព្យាយាមម្ដងទៀត"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "មើលកំណត់ហេតុការរៀបចំ"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "សូមព្យាយាមម្ដងទៀត។ បើនៅតែបរាជ័យ សូមជ្រើសរើសច្បាប់ចម្លងដែលដំណើរការបាននៅខាងក្រោម។"
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "ឧបករណ៍មួយមិនដំណើរការត្រឹមត្រូវ"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "សូមអនុញ្ញាតឱ្យ Klip នៅក្នុងកម្មវិធីប្រឆាំងមេរោគ ឬ SmartScreen របស់អ្នក រួចព្យាយាមម្ដងទៀត។"
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "កម្មវិធីប្រឆាំងមេរោគរបស់អ្នកបានទប់ស្កាត់ឧបករណ៍មួយ"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "សូមពិនិត្យការតភ្ជាប់អ៊ីនធឺណិតរបស់អ្នក រួចព្យាយាមម្ដងទៀត។"
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "មិនអាចទាញយកអ្វីដែល Klip ត្រូវការបានទេ"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "សូមព្យាយាមម្ដងទៀត ដើម្បីទាញយកវាថ្មី។"
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "ឯកសារដែលបានទាញយកមួយខូច"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "សូមព្យាយាមម្ដងទៀត ដើម្បីទាញយកវាថ្មី។"
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "ឯកសារដែលបានទាញយកមួយមិនត្រូវនឹង checksum របស់វា"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "សូមជ្រើសរើសទាំងពីរនៅខាងក្រោម ឬកំណត់ឱ្យត្រឡប់ទៅលំនាំដើមវិញ។"
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg និង FFprobe ត្រូវតែកំណត់ជាមួយគ្នា"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "សូមព្យាយាមម្ដងទៀត។ បើនៅតែបរាជ័យ សូមជ្រើសរើសច្បាប់ចម្លងដែលអ្នកទុកចិត្តនៅខាងក្រោម។"
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "ប្រព័ន្ធរបស់អ្នកមិនអនុញ្ញាតឱ្យ Klip ដំណើរការឧបករណ៍មួយទេ"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "សូមព្យាយាមម្ដងទៀត។ បើនៅតែបរាជ័យ សូមជ្រើសរើសច្បាប់ចម្លងដែលដំណើរការបាននៅខាងក្រោម។"
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "ឧបករណ៍មួយបាត់ ឬមិនចាប់ផ្ដើម"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "ជារឿយៗនេះគឺដោយសារការស្កេនសុវត្ថិភាពនៅពេលដំណើរការលើកដំបូង។ សូមព្យាយាមម្ដងទៀត។"
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "ឧបករណ៍មួយឆ្លើយតបយូរពេក"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "សូមព្យាយាមម្ដងទៀត ឬបើកកំណត់ហេតុការរៀបចំដើម្បីមើលព័ត៌មានលម្អិត។"
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "មានអ្វីមួយមិនប្រក្រតីអំឡុងពេលរៀបចំ"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "ម៉ាស៊ីនទាញយក"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "ឧបករណ៍មេឌៀ"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "កំពុងដំឡើងជាមួយ Homebrew… នេះអាចចំណាយពេលពីរបីនាទី។"
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "កំពុងដំឡើងជាមួយ WinGet… នេះអាចចំណាយពេលពីរបីនាទី។"
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "ចង្អុលឱ្យ Klip ទៅកាន់ច្បាប់ចម្លងដែលអ្នកមានរួចហើយ ឬដំឡើងវាតាមវិធីផ្សេង។"
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "អ្នកក៏អាចដំឡើង yt-dlp និង ffmpeg ដោយប្រើកម្មវិធីគ្រប់គ្រងកញ្ចប់របស់អ្នក រួចចុច \"ព្យាយាមម្ដងទៀត\"។"
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "រៀបចំដោយខ្លួនឯង"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "សូមព្យាយាមម្ដងទៀត ឬចង្អុលឱ្យ Klip ទៅកាន់ឧបករណ៍ដែលអ្នកមានរួចហើយនៅខាងក្រោម។"
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "ការរៀបចំបានឈប់"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "ការរៀបចំត្រូវការជំនួយពីអ្នក"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "របៀបដែលប្រវត្តិរូបនេះជ្រើសរើស"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "សំឡេង AAC"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "សមនឹងកម្មវិធីចាក់ MP4"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "សំឡេង AAC"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "ចាក់បានគ្រប់ទីកន្លែង"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1 បន្ទាប់មក VP9 បន្ទាប់មក H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "ច្បាស់បំផុតក្នុងទំហំដូចគ្នា"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264 បន្ទាប់មក VP9 បន្ទាប់មក AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "កូឌិករបស់ប្រវត្តិរូបនេះ"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9 បន្ទាប់មក H.264 បន្ទាប់មក AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "កូឌិករបស់ប្រវត្តិរូបនេះ"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "អត្រាស៊ុមខ្ពស់បំផុត"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "ចលនារលូនជាង"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "វីដេអូ H.264"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "ចាក់បានលើគ្រប់ឧបករណ៍"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR មុន SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "ពណ៌សម្បូរជាងលើអេក្រង់ HDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "អេក្រង់នេះបង្ហាញ HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR មុន HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "មើលទៅត្រឹមត្រូវលើគ្រប់អេក្រង់"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "អេក្រង់នេះមិនបង្ហាញ HDR"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "ស្ទ្រីម MP4"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "រួចរាល់សម្រាប់ឯកសារ MP4"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "សំឡេង Stereo"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "ប្រវត្តិរូបនេះ"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "ពីការកំណត់"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "សំឡេង Surround នៅពេលមាន"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "សំឡេង Opus"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "សមនឹង WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "ស្ទ្រីមដើម មិនមែនស្ទ្រីមដែលពង្រីកដោយ AI"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "ច្បាប់ដែលពង្រីកខ្ពស់ជាង ប៉ុន្តែមិនបន្ថែមលម្អិតពិតទេ"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "ការទាញយកដោយផ្ទាល់ មុនច្បាប់ចម្លងស្ទ្រីម"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "រូបភាពដូចគ្នា ទាញយកលឿនជាង"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "រហូតដល់ {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "ដែនកំណត់របស់អ្នក"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "គុណភាពបង្ហាញខ្ពស់បំផុត"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "មិនបានកំណត់ដែនកំណត់"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "ស្ទ្រីមដែលគេហទំព័រមិនដាក់ចំណាត់ថ្នាក់ទាប"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "រំលងច្បាប់ខូច ច្បាប់មានវ៉ាត់ម៉ាក និងច្បាប់បម្រុង"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "ឯកសារធំជាង"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "លម្អិតជាងនៅការកំណត់ដូចគ្នា"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "ស្ទ្រីម Bitrate ប្រសើរជាង មុនគេ"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "លម្អិតជាងនៅគុណភាពបង្ហាញដូចគ្នា"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "ប្រភេទឯកសារតាមស្ទ្រីម"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "រក្សាទុកជា .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "រូបភាពល្អបំផុត"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "ចាក់បានលើគ្រប់ឧបករណ៍"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "ហេតុអ្វីជាមួយនេះ?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "ហេតុអ្វីប្រវត្តិរូបជ្រើសរើសមួយនេះ"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "បានចម្លង!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "ចម្លងតំណ"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — កម្មវិធីទាញយកវីដេអូឥតគិតថ្លៃ និងកូដចំហសម្រាប់ Windows, macOS និង Linux។ ដំណើរការជាមួយ YouTube, Vimeo, Twitch និងគេហទំព័រជាង 2000។\n"
+"4K · HDR · MP3 · Shorts · អក្សររត់ · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip ឥតគិតថ្លៃ និងជាកូដចំហ។ ការចែករំលែកជួយឱ្យមនុស្សកាន់តែច្រើនស្គាល់វា។"
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "ចែករំលែក"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "ចែករំលែក Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "ចែករំលែក Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "ចែករំលែក Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "មានបញ្ហា? រៀបចំដោយដៃ"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "សួស្តី សូមស្វាគមន៍ការត្រឡប់មកវិញ!"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "នៅសល់ប្រហែល {{count}} នាទី"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "នៅសល់តិចជាងមួយនាទី"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "កំពុងពិនិត្យថាអ្វីៗដំណើរការល្អ"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "កំពុងតភ្ជាប់…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "កំពុងបកឧបករណ៍មេឌៀ"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "កំពុងបកម៉ាស៊ីនទាញយក"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "កំពុងធ្វើបច្ចុប្បន្នភាពឧបករណ៍របស់ Klip"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "កំពុងធ្វើបច្ចុប្បន្នភាពម៉ាស៊ីនទាញយក"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "ការរៀបចំលើកដំបូង"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "កំពុងធ្វើបច្ចុប្បន្នភាពឧបករណ៍មេឌៀ"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "ការពិនិត្យលើកដំបូងនៃកំណែនេះ — វាយឺតបន្តិច។ ជាធម្មតាប្រហែលមួយនាទី។"
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "កំពុងពិនិត្យ {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "កំពុងរៀបចំការទាញយក…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "ការរៀបចំបានបរាជ័យ។ បើកកំណត់ហេតុការរៀបចំសម្រាប់ព័ត៌មានលម្អិត។"
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "បានរក្សាទុកវីដេអូជាមួយសំឡេង — មិនអាចដកសំឡេងចេញបានទេ"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "បានរក្សាទុកវីដេអូជាមួយសំឡេង — មិនអាចដកសំឡេងចេញបាន ហើយអក្សររត់មួយចំនួនមិនអាចទាញយកបានទេ"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "បានបោះបង់ការទាញយក"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "ការទាញយកបានបញ្ចប់"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "កំពុងបម្លែងវីដេអូ…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "ទំហំថាសមិនគ្រប់គ្រាន់ — ត្រូវការ {{required}} មានតែ {{free}} ប៉ុណ្ណោះ"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "កំពុងទាញយកឯកសារ binary {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "កំពុងទាញយកវីដេអូ និងសំឡេង…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "កំពុងបង្កប់ទិន្នន័យមេតា…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "បានចាកចេញពី «រកមើល» — ចូលគណនីម្តងទៀត"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "កំពុងបម្លែងសំឡេង…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "កំពុងទាក់ទង SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "កំពុងទាញយកអក្សររត់…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "កំពុងបញ្ចូលសំឡេង និងវីដេអូ…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "កំពុងរៀបចំការទាញយក YouTube…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "កំពុងផ្លាស់ទីឯកសារ…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "គ្មានអក្សររត់ជាភាសា {{languages}}"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "មិនអាចរក្សាទុកទៅ {{dir}} បានទេ — Klip មិនត្រូវបានអនុញ្ញាតឱ្យសរសេរនៅទីនោះទេ"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "កំពុងរៀបចំឯកសារ binary…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "បានរក្សាទុកនៅ {{height}}p — YouTube បានរារាំងគុណភាពខ្ពស់ជាងនេះសម្រាប់ការទាញយកនេះ។ ការព្យាយាមម្តងទៀតនៅពេលក្រោយអាចជួយបាន។"
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "បានរក្សាទុកនៅ {{height}}p — YouTube បានរារាំងគុណភាពខ្ពស់ជាងនេះសម្រាប់ការទាញយកនេះ ហើយអក្សររត់មួយចំនួនមិនអាចទាញយកបានទេ។ ការព្យាយាមម្តងទៀតនៅពេលក្រោយអាចជួយបាន។"
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "កំពុងរៀបចំការទាញយក YouTube ម្តងទៀត…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock មិនអាចប្រើបាន កំពុងព្យាយាមម្តងទៀត ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "ការតភ្ជាប់បានជាប់គាំង កំពុងព្យាយាមម្តងទៀត ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "កំពុងចូលគណនីជាមួយគណនី «រកមើល» របស់អ្នក…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "កំពុងរង់ចាំ {{seconds}} វិនាទីដើម្បីជៀសវាងដែនកំណត់អត្រា…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "កំពុងចាប់ផ្តើមម៉ាស៊ីនទាញយក…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "វីដេអូនេះមិនមានអក្សររត់ជាភាសា {{languages}} ទេ។ វីដេអូត្រូវបានរក្សាទុកដោយគ្មានវា។"
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "វីដេអូនេះមិនមានអក្សររត់ជាភាសា {{languages}} ទេ។ ភាសាផ្សេងទៀតត្រូវបានរក្សាទុក។"
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "បានរក្សាទុកវីដេអូ — អក្សររត់មួយចំនួនមិនអាចទាញយកបានទេ"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "ការចាប់ផ្តើមទាញយកបរាជ័យដោយមិនស្គាល់មូលហេតុ"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "បានទាញយកដោយប្រើ extractor បន្ធូរបន្ថយ — រៀបចំ cookies.txt សម្រាប់ការទាញយកដែលអាចទុកចិត្តបានជាង"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "ម៉ាស៊ីនទាញយកបានចេញជាមួយលេខកូដ {{code}}"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "កំហុសម៉ាស៊ីនទាញយក៖ {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "របៀបងងឹត"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "របៀបភ្លឺ"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "លំនាំដើមប្រព័ន្ធ"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "បិទ"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "ពង្រីកអតិបរមា"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "បង្រួមអប្បបរមា"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "ស្តារ"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "ទាញយកពីក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "កំពុងទាញយក {{count}} · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "ទំនេរ"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "បានចម្លងពាក្យបញ្ជាទៅក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "ចម្លងពាក្យបញ្ជាទៅក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "បិទផ្ទាំងបដាធ្វើបច្ចុប្បន្នភាព"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "ទាញយក ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "ទាញយក DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "កំពុងទាញយក…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "ដំឡើង និងចាប់ផ្តើមឡើងវិញ"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "ការធ្វើបច្ចុប្បន្នភាពបានបរាជ័យ"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} មានហើយ — អ្នកមាន {{currentVersion}}។"
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} មានហើយ — ធ្វើបច្ចុប្បន្នភាពជាមួយ Homebrew។"
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} មានហើយ — ទាញយក DMG ថ្មី។"
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} មានហើយ — ទាញយក DMG ឬប្តូរទៅ Homebrew។"
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} មានហើយ — ទាញយកកំណែថ្មី។"
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "ដំណើរការ និងចាប់ផ្តើមឡើងវិញ"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "កំពុងដំឡើងកំណែ…"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} ជំពូក"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "កំពុងផ្ទុក…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "H.264 មុន"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "កូឌិកវីដេអូ"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "Smart TV ជ្រើស H.264 ជានិច្ច។"
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "VP9 មុន"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "រួចរាល់"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "បិទភ្ជាប់ URL វីដេអូ បញ្ជីចាក់ ប៉ុស្តិ៍ ការស្វែងរក ឬសំឡេង។ Klip នឹងសម្អាតការស្ទួនមុនពេលដាក់ក្នុងជួរ។"
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "បិទភ្ជាប់ URL មួយ ឬច្រើនដើម្បីមើលក្រុមជាមុន។"
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "បានមិនអើពើ"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "បន្ថែម URL ដែលគាំទ្រយ៉ាងហោចណាស់មួយដើម្បីបន្ត។"
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "ស្ទួន"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "បញ្ជី URL"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "URL ច្រើន"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ ជួរ"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "បន្ថែមទៅជួរ — ចាប់ផ្តើមនៅពេលការទាញយកសកម្មបញ្ចប់"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} ក្នុងចំណោម {{total}} វីដេអូ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} ក្នុងចំណោម {{total}} បទ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} ក្នុងចំណោម {{total}} URL"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "សំឡេង"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "ក្រុម"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "ធាតុ"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "បញ្ជីចាក់"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "ការកំណត់ជាមុន"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "រក្សាទុកទៅ"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "ទំហំ"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "ឯកសាររបស់អ្នកនឹងត្រូវរក្សាទុកនៅ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "ពួកវានឹងត្រូវរក្សាទុកនៅទីតាំង {{count}} ខាងក្រោម"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "ប្រវត្តិរូប «តែអក្សររត់» កំពុងសកម្ម ប៉ុន្តែមិនបានជ្រើសរើសភាសាអក្សររត់ទេ — គ្មានអ្វីនឹងត្រូវទាញយកទេ។"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} ធាតុ"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "ប្រវត្តិរូបក្នុងក្រុមនេះ"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "ទាញយកឥឡូវ! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "រំលងជួរ — ចាប់ផ្តើមឥឡូវនេះ ដំណើរការជាមួយការទាញយកសកម្មផ្សេងទៀត"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "រួចរាល់សម្រាប់ទាញយកហើយ!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "ការបង្កប់អក្សររត់ត្រូវបានប្តូរទៅឯកសារដាច់ដោយឡែក — បទសំឡេងមិនគាំទ្រស្ទ្រីមអក្សររត់បង្កប់ទេ។"
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "អក្សររត់ក្នុងវីដេអូត្រូវការឯកសារ MKV ដូច្នេះការទាញយកនេះរក្សាទុកជា .mkv។"
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "បានរំលងការបង្កប់រូបភាពតូច — ទម្រង់លទ្ធផលមិនគាំទ្រវាទេ។"
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "ផ្ទាល់ខ្លួន…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "ផ្ទៃតុ"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "ឯកសារ"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "ការទាញយក"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "រក្សាទុកទៅ"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "ថតផ្ទះ"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "តន្ត្រី"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "រូបភាព"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "ឈ្មោះថតមានតួអក្សរមិនត្រឹមត្រូវ"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "ឧ. មេរៀន"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "រក្សាទុកក្នុងថតរង"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "ភាពយន្ត"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "សំឡេង"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "ភាសាសំឡេង"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} ភាសា"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "ប៊ីតរ៉េត {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Cookies ត្រូវបានកំណត់ ប៉ុន្តែបានបិទ។ បើកវា ហើយព្យាយាមម្តងទៀតដើម្បីទទួលបានបញ្ជីពេញលេញ ឬប្តូរបណ្តាញ ហើយព្យាយាមម្តងទៀត។"
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "ទោះបីមាន cookies ក៏ដោយ YouTube បានកំណត់ការពិនិត្យនេះ។ ព្យាយាមម្តងទៀតនៅពេលក្រោយ ឬប្តូរបណ្តាញ។"
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube បានកំណត់សំណើនេះ។ ព្យាយាមម្តងទៀតនៅពេលក្រោយ ឬប្តូរបណ្តាញ។"
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "បញ្ជីទម្រង់អាចមិនពេញលេញ។ រៀបចំ cookies ក្នុងការកំណត់កម្រិតខ្ពស់ ឬប្តូរបណ្តាញ ហើយព្យាយាមម្តងទៀត។"
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "បើក cookies ហើយព្យាយាមម្តងទៀត"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "ការពិនិត្យត្រូវបានកំណត់"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "ប៊ីតរ៉េត"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "ប្រភពដែលជា {{target}} រួចហើយ រក្សាស្ទ្រីម និង bitrate របស់វា៖ វាត្រូវបានចម្លង មិនមែនអ៊ិនកូដឡើងវិញទេ។"
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps គ្មានការអ៊ិនកូដឡើងវិញ"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}} គ្មានការអ៊ិនកូដឡើងវិញ"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps ដូចប្រភព៖ ស្ទ្រីមនេះជា {{target}} រួចហើយ ដូច្នេះត្រូវបានចម្លង មិនមែនអ៊ិនកូដឡើងវិញទេ"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "ដូចប្រភព៖ ស្ទ្រីមនេះជា {{target}} រួចហើយ ដូច្នេះត្រូវបានចម្លង មិនមែនអ៊ិនកូដឡើងវិញទេ"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "បម្លែង"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "ប្រភពគឺ {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (មិនបង្ហាប់)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "កម្មវិធីរុករក"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "ការចូលគណនី «រកមើល»"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "ឯកសារ"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "ប្រភព Cookies"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "ឯកសារ yt-dlp (issue #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 និងថ្មីជាងនេះអ៊ិនគ្រីប cookies តាមរបៀបដែលកម្មវិធីផ្សេងមិនអាចអានបាននៅលើ Windows។ សាកល្បងដំណោះស្រាយមួយខាងក្រោម។"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "នាំចេញ cookies ពី Chrome ដោយប្រើផ្នែកបន្ថែមកម្មវិធីរុករក បន្ទាប់មកប្តូរកម្មវិធីនេះទៅរបៀបឯកសារ ហើយជ្រើសរើសឯកសារដែលបាននាំចេញ។"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "នាំចេញ cookies.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox មិនប្រើ App-Bound Encryption ទេ។ បើកការកំណត់ cookies ហើយជ្រើសរើស Firefox ពីបញ្ជីកម្មវិធីរុករក។"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "ប្តូរទៅ Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "បន្ថែម --disable-features=LockProfileCookieDatabase ទៅផ្លូវកាត់បើក Chrome។ ការព្រមាន៖ វាធ្វើឱ្យ cookies ដែលបានអ៊ិនគ្រីបពីមុនលែងមានសុពលភាព ដូច្នេះអ្នកនឹងត្រូវចាកចេញពីគ្រប់គេហទំព័រ ហើយត្រូវចូលគណនីម្តងទៀត។"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "បើក Chrome ដោយបិទ App-Bound Encryption"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Cookies របស់ Chrome ត្រូវបានទប់ស្កាត់ដោយការអ៊ិនគ្រីប Windows"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Cookies ត្រូវបានអានដោយផ្ទាល់ពីកម្មវិធីរុករក។ ប្រសិនបើកម្មវិធីរុករកកំពុងដំណើរការ មូលដ្ឋានទិន្នន័យ cookie របស់វាអាចត្រូវបានចាក់សោ (គ្រួសារ Chromium)។ កម្មវិធីរុករកក៏ត្រូវតែចូលគណនី YouTube ដែរ។ សាកល្បងបិទកម្មវិធីរុករក ប្តូរទៅកម្មវិធីរុករកផ្សេង ប្តូរទៅរបៀបឯកសារ ឬបិទ cookies។"
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "ឯកសារ cookies របស់អ្នកអាចទទេ ផុតកំណត់ ឬជាទម្រង់ខុស (Klip ត្រូវការឯកសារ Netscape cookies.txt)។ សាកល្បងនាំចេញ cookies ម្តងទៀត ជ្រើសរើសឯកសារផ្សេង ប្តូរទៅរបៀបកម្មវិធីរុករក ឬបិទ cookies។"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "ចូលគណនីជាមួយ «រកមើល» ហើយ Klip នឹងព្យាយាមម្តងទៀត។"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "ចូលគណនីជាមួយ «រកមើល»"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "វីដេអូនេះអាចត្រូវការគណនី YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip បានព្យាយាមរួចហើយដោយប្រើការចូលគណនីក្នុង «រកមើល» ដូច្នេះការចូលគណនីម្តងទៀតនឹងមិនជួយអ្វីទេ។ គេហទំព័រអាចមានបញ្ហា ឬគណនីនេះមិនអាចបើកវាបាន។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "គេហទំព័របានបដិសេធ ទោះបីជាបានចូលគណនីក្នុង «រកមើល» ក៏ដោយ"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "អ្នកបានចូលគណនី «រកមើល» ប៉ុន្តែការទាញយកមិនកំពុងប្រើការចូលគណនីនោះទេឥឡូវនេះ។"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "ប្រើការចូលគណនី «រកមើល» របស់ខ្ញុំ ហើយព្យាយាមម្តងទៀត"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "វីដេអូនេះអាចត្រូវការគណនី YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "ប្រសិនបើវីដេអូនេះត្រូវការគណនី Klip ប្រើការចូលគណនី «រកមើល» របស់អ្នកដោយស្វ័យប្រវត្តិ។ វាអាចមិនមានដោយសារមូលហេតុផ្សេង។"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "បានចូលគណនី «រកមើល»"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "ប្រសិនបើវីដេអូនេះត្រូវការគណនី YouTube សូមចូលគណនីក្នុង «រកមើល» ហើយព្យាយាមម្តងទៀត។ Klip ប្រើការចូលគណនីនោះតែនៅពេលការទាញយកត្រូវការវាប៉ុណ្ណោះ។"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "ចូលគណនីក្នុង «រកមើល»"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "វីដេអូនេះអាចត្រូវការគណនី YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "តំណនេះអាចត្រូវការគណនីនៅលើ {{host}}"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "សូមចូលគណនីនៅលើ {{host}} ជាមួយ «រកមើល» ហើយព្យាយាមម្តងទៀត។"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "សូមចូលគណនីនៅលើ {{host}} ក្នុង «រកមើល» ហើយព្យាយាមម្តងទៀត។ Klip ប្រើការចូលគណនីនោះតែនៅពេលការទាញយកត្រូវការវាប៉ុណ្ណោះ។"
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Cookies អាចជាមូលហេតុ"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip មិនអាចចូលប្រើវីដេអូនេះដោយគ្មានការផ្ទៀងផ្ទាត់បានទេ។ កំណត់ cookies ក្នុងការកំណត់កម្រិតខ្ពស់ — ចង្អុលទៅកម្មវិធីរុករកដែលអ្នកបានចូលគណនីរួចហើយ ឬនាំចូលឯកសារ cookies.txt។"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "គេហទំព័រនេះតម្រូវឱ្យចូលគណនី"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "បើកការកំណត់ cookies"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "ប្រើឯកសារ cookies ឬកម្មវិធីរុករកជំនួសវិញ…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "បន្ថយផ្នែកដែលលឺខ្លាំង និងបង្កើនផ្នែកដែលលឺតិច សម្រាប់ឧបករណ៍បំពងសំឡេង និងកន្លែងដែលមានសំឡេងរំខាន។"
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "ធ្វើឲ្យកម្រិតសំឡេងស្មើគ្នា (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "សំឡេងស្មើគ្នា"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកគឺ Smart TV (H.264)។ វីដេអូនេះមិនផ្តល់ H.264 ទេ ដូច្នេះស្ទ្រីមដែលជិតបំផុតត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "តំណនេះគ្មានវីដេអូទេ ដូច្នេះសំឡេងត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំអក្សររត់ជា {{languages}}។ វីដេអូនេះមិនមានវាទេ។"
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p។ វីដេអូនេះគ្មានគុណភាពតូចប៉ុណ្ណោះទេ ដូច្នេះ {{picked}}p ត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p។ ស្ទ្រីមតូចជាងដែលវីដេអូនេះមាន មិនត្រូវនឹងការកំណត់ផ្សេងទៀតនៃប្រវត្តិរូបរបស់អ្នកទេ ដូច្នេះ {{picked}}p ត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p។ វីដេអូនេះគ្មាន {{wanted}}p ដែលអាចយកបានទេ ដូច្នេះ {{picked}}p ត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p។ {{wanted}}p របស់វីដេអូនេះត្រូវបានបង្កើនគុណភាពដោយ AI ដូច្នេះ {{picked}}p ដើមត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p ជា H.264។ វីដេអូនេះមាន {{wanted}}p តែក្នុងកូដិកផ្សេងទៀត ដូច្នេះ {{picked}}p ជា H.264 ត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ {{wanted}}p។ {{wanted}}p របស់វីដេអូនេះមិនត្រូវនឹងការកំណត់ផ្សេងទៀតនៃប្រវត្តិរូបរបស់អ្នកទេ ដូច្នេះ {{picked}}p ត្រូវបានជ្រើសរើស។"
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "ប្រវត្តិរូបរបស់អ្នកស្នើសុំ WebM។ ស្ទ្រីមដែលបានជ្រើសរើសរបស់វីដេអូនេះមាន {{codec}} ដែល WebM មិនអាចផ្ទុកបាន ដូច្នេះប្រភេទឯកសារគឺស្វ័យប្រវត្តិ។"
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "បន្ថែមទៅជួរដោយមិនចាប់ផ្តើម"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "ទាញយក"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "ជម្រើសទាញយកបន្ថែម"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "ជ្រើសរើសភាសាអក្សររត់យ៉ាងហោចណាស់មួយ។"
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "រក្សាដដែល"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "សំឡេងមានស្រាប់"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "តែសំឡេង"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "អ្វីដែលត្រូវទាញយក"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "តែអក្សររត់"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "វីដេអូ + សំឡេង"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "វីដេអូ គ្មានសំឡេង"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "កំពុងផ្ទុកទម្រង់"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "សូមរង់ចាំរហូតដល់ការពិនិត្យបញ្ចប់ — បញ្ជីចាក់ និងការស្វែងរកអាចចំណាយពេលបន្តិច។"
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "បញ្ចូលសំឡេងដោយ AI"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "ពង្រីកដោយ AI"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "ការពិពណ៌នាជាសំឡេង"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "ខូច"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "Bitrate ប្រសើរជាង"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "ដើម"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "សំឡេងលំហ"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "មានវ៉ាត់ម៉ាក"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "គ្មានសំឡេង"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "ប្រវត្តិរូបសកម្មរបស់អ្នកជ្រើសរើសស្ទ្រីមជាមុនឲ្យអ្នក។ ប្តូរប្រវត្តិរូបពីម៉ឺនុយ ឬប្រើខ្មៅដៃដើម្បីកែសម្រួលមួយដោយមិនចាកចេញពីការទាញយកនេះ។"
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "ទម្រង់ចាប់ផ្តើមពីប្រវត្តិរូបរបស់អ្នក"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "ជិតបំផុតនឹងប្រវត្តិរូប"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "កែសម្រួល {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "រក្សាការផ្លាស់ប្តូររបស់ខ្ញុំ"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "សម្រាប់តែការទាញយកនេះប៉ុណ្ណោះ។ ប្រវត្តិរូបលំនាំដើមរបស់អ្នកនៅដដែល។"
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "បានជ្រើសរើសជាមុនពី"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "កំណត់ទាំងអស់ឡើងវិញ"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "អ្នកបានផ្លាស់ប្តូរ {{areas}} សម្រាប់ការទាញយកនេះ។ “{{profile}}” ជ្រើសវីដេអូ និងសំឡេងដដែលទោះយ៉ាងណាក៏ដោយ។ រក្សាការផ្លាស់ប្តូរផ្សេងទៀតរបស់អ្នក ឬកំណត់អ្វីៗទាំងអស់ឡើងវិញតាមប្រវត្តិរូប?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "ប្តូរប្រវត្តិរូប?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "ប្រវត្តិរូប"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "អ្នកបានផ្លាស់ប្តូរ {{areas}} សម្រាប់ការទាញយកនេះ។ ប្រវត្តិរូបដែលបានធ្វើបច្ចុប្បន្នភាពជ្រើសវីដេអូ និងសំឡេងដដែលទោះយ៉ាងណាក៏ដោយ។ រក្សាការផ្លាស់ប្តូរផ្សេងទៀតរបស់អ្នក ឬកំណត់អ្វីៗទាំងអស់ឡើងវិញតាមប្រវត្តិរូប?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "ប្រើប្រវត្តិរូបដែលបានធ្វើបច្ចុប្បន្នភាពឬ?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "គុណភាពខ្ពស់"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "គុណភាពទាប"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "គុណភាពមធ្យម"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} កំពុងកំណត់ការភ្ជាប់នេះ"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "បញ្ជីទម្រង់អាចមិនពេញលេញ។"
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} បានបដិសេធសំណើនេះសម្រាប់ពេលនេះ។"
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} អាចរក្សាការកំណត់នេះរហូតដល់មួយម៉ោង។"
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "សាកឥឡូវ"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "ការរង់ចាំបានចប់ហើយ អ្នកអាចព្យាយាមម្តងទៀតបាន។"
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip រង់ចាំរហូតដល់ {{time}} មុននឹងសួរ {{site}} ម្តងទៀត ដើម្បីឱ្យការកំណត់បានរលាយ។"
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "មិនដឹងគុណភាពបង្ហាញ"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "រក្សាទុកជា"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM មិនអាចផ្ទុក {{codec}} បាន ដូច្នេះប្រភេទឯកសារបានត្រឡប់ទៅស្វ័យប្រវត្តិវិញ។"
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "មិនដឹងទំហំ"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "រំលងទៅការបញ្ជាក់"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "ប្រើចំណូលចិត្តដែលបានរក្សាទុករបស់អ្នកសម្រាប់ជំហានដែលនៅសល់ទាំងអស់។ ដើម្បីប្តូរការកំណត់ សូមបន្តជាជំហានៗជំនួសវិញ — ជម្រើសរបស់អ្នកនឹងត្រូវបានរក្សាទុកសម្រាប់លើកក្រោយ។"
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "កំពុងស្វែងរកទម្រង់ល្អបំផុតសម្រាប់អ្នក…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "សរុប"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "មានសំឡេង"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "ជាមួយ {{profileName}}។ ប្រសិនបើមានវីដេអូច្រើនជាង {{count}} ការទាញយកនឹងសួរចំនួន។"
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "ទាញយកនៅផ្ទៃខាងក្រោយ"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "ចុច Esc ដើម្បីបោះបង់។"
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "ត្រឹម {{count}} ដំបូង ជាមួយ {{profileName}}។"
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "ទាញយកដំបូង"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "ជ្រើសរើសពីវីដេអូ {{count}} ដំបូង (ឬប្តូរចំនួននៅជំហានបន្ទាប់) បន្ទាប់មករៀបចំការទាញយក។"
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "ទាញយកអន្តរកម្ម…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "ចំនួនវីដេអូដែលត្រូវយកពីបញ្ជី៖ ជម្រើសទីមួយសួរនៅពេលលើសចំនួននេះ ជម្រើសទីពីរយកគ្រាន់តែប៉ុណ្ណឹង។ ដូចគ្នានឹង ការកំណត់ › ធាតុបញ្ជីចាក់ដែលត្រូវស្កេន។"
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "ដែនកំណត់"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Mix ផ្លាស់ប្តូរគ្រប់ពេលដែលអ្នកបើកវា។"
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "ដើម្បីជ្រើសរើស។"
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "ផ្ទុក"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "អ្នកអាចប្តូរវានៅជំហានបន្ទាប់។"
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "ជ្រើសរើសពីអាល់ប៊ុមនេះ"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "ជ្រើសរើសពីវីដេអូដែលអ្នកចូលចិត្ត"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "ជ្រើសរើសពី Mix នេះ"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "ជ្រើសរើសពីបញ្ជីចាក់នេះ"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "ជ្រើសរើសពីការផ្ទុកឡើងរបស់ប៉ុស្តិ៍នេះ"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "ជ្រើសរើសពី «មើលពេលក្រោយ»"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "ទាញយកពីអាល់ប៊ុមនេះ"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "ទាញយកពីវីដេអូដែលអ្នកចូលចិត្ត"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "ទាញយកពី Mix នេះ"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "ទាញយកពីបញ្ជីចាក់នេះ"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "ទាញយកពីការផ្ទុកឡើងរបស់ប៉ុស្តិ៍នេះ"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "ទាញយកពី «មើលពេលក្រោយ»"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "តែវីដេអូដែលអ្នកបានបើក ជាមួយ {{profileName}}។ បញ្ជីមិនត្រូវបានផ្ទុកទេ។"
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "តែវីដេអូនេះ"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "រៀបចំតែវីដេអូដែលអ្នកបានបើក។ បញ្ជីមិនត្រូវបានផ្ទុកទេ។"
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "ជាមួយ {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "សញ្ញាសម្គាល់ជំពូកដែលអាចរុករកបានក្នុងកម្មវិធីចាក់ទំនើបណាមួយ។"
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "បង្កប់ជំពូក"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "ជំពូក"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "ចំណងជើង សិល្បករ ការពិពណ៌នា និងកាលបរិច្ឆេទផ្ទុកឡើងត្រូវបានសរសេរចូលក្នុងឯកសារ។"
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "បង្កប់ទិន្នន័យមេតា"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "ទិន្នន័យមេតា"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "រូបក្របនៅក្នុងឯកសារ។ វីដេអូ WebM នឹងត្រូវបាន remux ទៅ MKV; រំលងនៅពេលអក្សររត់ត្រូវបានបង្កប់។"
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "បង្កប់រូបភាពតូច"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "រូបភាពគម្រប"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "រក្សាទុកការពិពណ៌នាវីដេអូជាឯកសារអត្ថបទ .description នៅជាប់ការទាញយក។"
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "រក្សាទុកការពិពណ៌នា"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "ឯកសារការពិពណ៌នា"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "រក្សាទុកបញ្ជីចាក់ .m3u ជាមួយវីដេអូ ដើម្បីឱ្យពួកវាបើកតាមលំដាប់ក្នុងកម្មវិធីចាក់មេឌៀរបស់អ្នក។"
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "បង្កើតឯកសារបញ្ជីចាក់ .m3u"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "រក្សាទុករូបភាពតូចជាឯកសាររូបភាព .jpg នៅជាប់ការទាញយក។"
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "រក្សាទុករូបភាពតូច"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "ឯកសាររូបភាពតូច"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "ប្ដូរទៅ «ផ្នែក» នៅលើកាតវីដេអូ ដើម្បីជ្រើសរើសចំណុចចាប់ផ្ដើម និងចុងបញ្ចប់ ឬជំពូកមួយ ហើយទាញយកតែផ្នែកនោះ។"
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "ទាញយកតែផ្នែកមួយនៃវីដេអូ"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "ជំពូក"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "ជំពូកទី {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "ផ្នែកមួយត្រូវបានទាញយកតាមរយៈ ffmpeg ដូច្នេះការតភ្ជាប់ទាញយក និងការកំណត់ល្បឿនរបស់អ្នកមិនអនុវត្តចំពោះវាទេ។"
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "សូមកែចំណុចចាប់ផ្តើម និងបញ្ចប់នៃផ្នែកជាមុនសិន។"
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "បញ្ចប់"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "វីដេអូបញ្ចប់នៅ {{duration}}។"
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "បញ្ចូលចំណុចបញ្ចប់ជា h:mm:ss, m:ss ឬវិនាទី។"
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "បញ្ចូលចំណុចចាប់ផ្តើមជា h:mm:ss, m:ss ឬវិនាទី។"
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "ចំណុចចាប់ផ្តើមត្រូវមកមុនចំណុចបញ្ចប់។"
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "បិទ៖ ការកាត់នីមួយៗនឹងចុះលើ keyframe ដែលនៅជិតបំផុត ដែលអាចខុសពីពេលវេលាដែលអ្នកបានវាយចំនួនប៉ុន្មានវិនាទី។"
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "កាត់ឱ្យត្រឹមត្រូវ (អ៊ិនកូដឡើងវិញ យឺតជាង)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} ក្នុងចំណោម {{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "ផ្នែក"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "ផ្នែកនៃវីដេអូ"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "ចាប់ផ្តើម"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "វីដេអូទាំងមូល"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "ផ្នែក {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "វីដេអូប៉ុន្មាន"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss ឬវិនាទី"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "ផ្នែក ប៉ាន់ស្មាន"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "វីដេអូនេះមិនបានរាយការណ៍ប្រវែងរបស់វាទេ ដូច្នេះអាចទាញយកបានតែទាំងមូលប៉ុណ្ណោះ។"
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "អក្សររត់គ្របដណ្តប់វីដេអូទាំងមូលជានិច្ច។"
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "តំណរបស់អ្នកចាប់ផ្តើមនៅ {{time}}"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "ប្រើជាចំណុចចាប់ផ្តើម"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "វីដេអូទាំងមូល"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "បទទាំងមូល"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "ស្តារពួកវាវិញដើម្បីបន្ត។"
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "ធាតុទាំងអស់ត្រូវបានដកចេញ"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "បានទាញយករួចហើយ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "ពួកវាមានច្រើនជាងនេះ។ ដើម្បីជ្រើសរើសចំនួន សូមបិទភ្ជាប់តំណនីមួយៗដាច់ដោយឡែក។"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "បញ្ជី {{count}} ត្រូវបានកាត់នៅវីដេអូ {{limit}} ក្នុងមួយបញ្ជី"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "URL ច្រើន"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "មិនចាំបាច់រង់ចាំទេ — ឯកសារដែលដាក់ក្នុងជួរឥឡូវនេះនៅតែទទួលបានឈ្មោះពិតនៅពេលទាញយក។"
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "កំពុងទាញយកព័ត៌មានលម្អិតវីដេអូ… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "មិនមានព័ត៌មានលម្អិត"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "កំពុងទាញយកព័ត៌មានលម្អិត"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "កំពុងរង់ចាំ"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "ផ្សាយផ្ទាល់"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "ធាតុក្នុងបញ្ជីចាក់"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "វីដេអូដែលត្រូវទាញយក"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} វីដេអូ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} បទ"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} តំណ"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "កំពុងទាញយកបញ្ជីចាក់…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "កំពុងទាញយកវីដេអូ…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "កំណត់ត្រឹម {{count}} ធាតុដំបូង"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "រកឃើញ {{count}} ទំព័រ"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "កំពុងប្រមូលវីដេអូ"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "កំពុងស្កេនទំព័រប៉ុស្តិ៍"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "កំណត់ប្រវត្តិរូបតាមធាតុនីមួយៗ"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "រំលងគុណភាព, SponsorBlock, លទ្ធផល និងរក្សាទុក — កំណត់ប្រវត្តិរូបទាញយកតាមធាតុនីមួយៗជំនួសវិញ"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "បញ្ជីចាក់"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} ក្នុងចំណោមទាំងនេះជាបញ្ជីចាក់ មិនមែនវីដេអូទេ — បិទភ្ជាប់តំណរបស់វាម្តងមួយៗដើម្បីទាញយក។"
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "ជ្រើសរើសវីដេអូយ៉ាងហោចណាស់មួយដើម្បីបន្ត"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "កំពុងបង្ហាញ {{count}} ធាតុដំបូង។ បង្កើនដែនកំណត់ផ្ទុកដើម្បីមើលបន្ថែម។"
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "ការស្កេនបញ្ជីចាក់ត្រូវបានកំណត់"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "ការស្កេនត្រូវបានកំណត់"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "អនុវត្តចន្លោះ"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "ពី"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "ដល់"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "បានដក {{count}}"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "ដក {{count}} ចេញពីបញ្ជី"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "ស្តារ"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "ជ្រើសរើសទាំងអស់"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "បានជ្រើសរើស {{count}}"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "មិនជ្រើសរើស"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "លំដាប់បញ្ជីចាក់"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "កំពុងទាញយកកាលបរិច្ឆេទផ្ទុកឡើង…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "តម្រៀប"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "ចាស់បំផុតមុន"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "ថ្មីបំផុតមុន"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "អនុវត្តការធ្វើសមកាលកម្ម"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "ប្តូរថត…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "វីដេអូ {{n}} ក្នុងចំណោមទាំងនេះមានក្នុង {{dir}} រួចហើយ។ ធ្វើសមកាលកម្មដើម្បីទាញយកតែវីដេអូថ្មីឬ?"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "មានក្នុងថតរួចហើយ"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "រកមិនឃើញវីដេអូពីបញ្ជីចាក់នេះក្នុង {{dir}} ទេ។"
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "រកមិនឃើញវីដេអូពីប្រភពនេះក្នុង {{dir}} ទេ។"
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "មិនទាន់បានទាញយកអ្វីនៅឡើយ"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "កំពុងពិនិត្យថត…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "រូបភាពតូចវីដេអូ"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "ជ្រើសរើសគុណភាពសម្រាប់ក្រុមទាំងមូល"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} ធាតុ"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "វីដេអូនីមួយៗកំណត់កម្រិតដែលបានជ្រើសរើសដោយឯករាជ្យ — បញ្ជីចាក់ចម្រុះដំណើរការបានដោយគ្មានការភ្ញាក់ផ្អើល។"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "កំណត់ទៅ {{count}} វីដេអូ"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "កំណត់ប្រវត្តិរូប"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "រយៈពេល"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "ប្រវត្តិរូប"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "កែសម្រួល {{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "គ្មានធាតុណាត្រូវនឹងតម្រងនេះទេ"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "តម្រងប្រវត្តិរូប"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "កំណត់ប្រវត្តិរូបទាញយក"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "ជ្រើសរើសប្រវត្តិរូបសម្រាប់វីដេអូ {{count}} ទាំងនេះ។"
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "បានជ្រើសរើស {{selected}} ក្នុងចំណោម {{total}}"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "ប្តូរសកល"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "ជ្រើសរើសថតទីតាំងរក្សាទុក"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "ជ្រើសរើសរូបតំណាងប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "លុប {{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "កំណត់ប្រវត្តិរូបឡើងវិញ"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "ប្រវត្តិរូបនេះប្រើការកំណត់ដែលមានស្រាប់រួចហើយ"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "ស្ដារការកំណត់ប្រវត្តិរូបដែលមានស្រាប់"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "រក្សាទុកប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "កំណត់ការជំនួសប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "កំណត់ការជំនួស"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "ប្រើលំនាំដើមសកល"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "ប្រើលេខកូដភាសា “{{code}}”"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "កម្រិតខ្ពស់"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "ប្រើការកំណត់កម្មវិធី ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "ល្អបំផុត"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "រហូតដល់ 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "រហូតដល់ 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "រហូតដល់ 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "គុណភាពល្អបំផុត"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "ប្រវត្តិរូបថ្មី"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "ថតទាញយកលំនាំដើម"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "ថតទាញយកលំនាំដើម / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "ទីតាំងរក្សាទុកសកល"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "កំពុងប្រើ"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "បានទទួលមរតក"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "ការជំនួសប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "ជ្រើសរើសថត"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "មិនមានការជំនួស"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "មិនបានកំណត់ការជំនួសទេ។ ប្រវត្តិរូបនេះប្រើទីតាំងរក្សាទុកសកលខាងលើ។"
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "ជំនួសទីតាំងសកល"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "ប្រវត្តិរូបនេះរក្សាទុកក្នុងថតឫសផ្ទាល់ខ្លួនរបស់វា មុនពេលបន្ថែមថតរង។"
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "ទីតាំងរក្សាទុកចុងក្រោយ"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "ការកំណត់មួយដែលអាចប្រើឡើងវិញសម្រាប់ ទាញយករហ័ស, URL ច្រើន និងបញ្ជីចាក់។"
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "ប្រវត្តិរូបទាញយក"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "មិនអាចប្តូរទីតាំងរក្សាទុកសកលបានទេ។"
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "មិនអាចបើកផ្ទាំងជ្រើសរើសថតបានទេ។ សូមបញ្ចូលផ្លូវដោយខ្លួនឯង។"
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "មិនអាចកំណត់ការកំណត់ប្រវត្តិរូបឡើងវិញបានទេ។"
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "មិនអាចរក្សាទុកការកំណត់ប្រវត្តិរូបបានទេ។"
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "របៀបរក្សាទុក"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "ប្រភេទឯកសារ"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "ផ្តោតលើ"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "រូបតំណាងប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "ភាសា"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "ឈ្មោះប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "ឈ្មោះ និងរូបតំណាងប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "សំឡេងដើម"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "ផ្លូវជំនួសរបស់ប្រវត្តិរូប"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "គុណភាព"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "គុណភាពបង្ហាញ"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "ប្រភព"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "ឈ្មោះថតរង"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "ការទាញយកអក្សររត់"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "ប្រវត្តិរូបស្នើសុំលេខកូដភាសា; ភាពអាចរកបានត្រូវបានកំណត់សម្រាប់ URL នីមួយៗ។"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "ច្បាស់បំផុតក្នុងទំហំដូចគ្នា។ ទូរទស្សន៍ចាស់ៗ QuickTime និងកម្មវិធីកែសម្រួលមួយចំនួនមិនអាចចាក់វាបានទេ។"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "រូបភាពល្អបំផុត"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "ចាក់បានលើទូរទស្សន៍ ទូរស័ព្ទ WhatsApp QuickTime និងកម្មវិធីកែសម្រួលវីដេអូ។ YouTube ផ្តល់ H.264 តែរហូតដល់ 1080p ប៉ុណ្ណោះ។"
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "ទូរទស្សន៍ឆ្លាតវៃ"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "បណ្ណសារ"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "សំឡេង"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "ថ្នាក់រៀន"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "ឃ្លីប"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "ការគ្រប់គ្រង"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "ទាញយក"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "តន្ត្រី"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "ផតខាស"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "តន្ត្រី ឬផតខាស"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "តែឯកសារអក្សររត់"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "ឯកសារវីដេអូធម្មតា"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "តែវីដេអូស្ងាត់"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "អក្សររត់ស្វ័យប្រវត្តិនឹងត្រូវបានរក្សាទុកជា SRT ជំនួសឱ្យ ASS។"
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "គ្មានភាសាដែលត្រូវគ្នា"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "គ្មានឯកសារអក្សររត់ ឬបទអក្សររត់បង្កប់ណាមួយនឹងត្រូវបានស្នើសុំសម្រាប់ប្រវត្តិរូបនេះទេ។"
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "ស្វែងរកតាមឈ្មោះភាសា ឬលេខកូដ"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "បានរំលងសម្រាប់ប្រភេទលទ្ធផលនេះ។"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "ជ្រើសរើសភាសាយ៉ាងហោចណាស់មួយ។"
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "ជ្រើសរើសភាសាយ៉ាងហោចណាស់មួយ ឬបិទការទាញយកអក្សររត់។"
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "ប្រវត្តិរូបនេះដាក់តែឯកសារអក្សររត់ក្នុងជួរ។ វីដេអូ សំឡេង SponsorBlock និងការបម្លែងមេឌៀត្រូវបានរំលង។"
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "ប្រវត្តិរូបទទួលយកទីតាំងរក្សាទុកសកល លុះត្រាតែអ្នកកំណត់ការជំនួសសម្រាប់ប្រវត្តិរូប។"
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "ជម្រើសកម្រិតខ្ពស់"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "ជ្រើសរើសវិធីចម្បងដែលអ្នកចង់ទាញយក។"
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "ប្រភេទទាញយក"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "ឈ្មោះ និងរូបតំណាងដែលបង្ហាញក្នុង ទាញយករហ័ស, URL ច្រើន និងបញ្ជីប្រវត្តិរូប។"
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "អត្តសញ្ញាណប្រវត្តិរូប"
+
+#. Plural form "other" for km: used for counts like 0, 1, 2, 3, 4, 5.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "បានបើក {{count}}"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "ជម្រើសលទ្ធផល"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "ជ្រើសរើសថតសម្រាប់ប្រវត្តិរូបនេះ"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "បានរំលង"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "សម្គាល់ផ្នែកអ្នកឧបត្ថម្ភជាជំពូក (មិនបំផ្លាញ)។"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "គ្មាន SponsorBlock — វីដេអូចាក់ដូចដែលបានផ្ទុកឡើង។"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "កាត់ផ្នែកអ្នកឧបត្ថម្ភចេញពីវីដេអូដោយប្រើ FFmpeg។"
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "តែបង្កើតដោយស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "ដោយដៃ និងស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "ដោយដៃមុន បន្ទាប់មកស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "តែដោយដៃ"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "ជំនួយ {{label}}"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "បន្ថែម"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "ឈ្មោះឯកសារ"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "ទម្រង់"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "ថត"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "អក្សររត់ SponsorBlock ការបន្ថែមដូចជារូបភាពតូច ថត និងឈ្មោះឯកសារ ធ្លាប់ជាជំហានដាច់ដោយឡែក។ ចុចលើជួរណាមួយដើម្បីប្តូរ។"
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "ការកំណត់ផ្សេងទៀតទាំងអស់ឥឡូវនៅលើទំព័រនេះ"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "បានផ្លាស់ប្តូរពី {{profile}}៖ {{areas}}។ អនុវត្តចំពោះការទាញយកនេះតែប៉ុណ្ណោះ។"
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "បានផ្លាស់ប្តូរពី {{profile}}៖"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "ប្តូរទម្រង់"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "រក្សាទុកជាប្រវត្តិរូប"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (បានកែសម្រួល)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "ការទាញយកនេះបានប្រើការកំណត់ដែលបានកែសម្រួល។ ប្រើវានៅលើកក្រោយឬ?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "បោះបង់ការផ្លាស់ប្តូរ ត្រឡប់ទៅ “{{profile}}”"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "បន្ថែម"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "ឈ្មោះឯកសារ"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "រក្សាទុកទៅ"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "អ្វីៗផ្សេងទៀត"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "រក្សាទុកប្រវត្តិរូប"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "រក្សាការកំណត់ទាំងនេះជាប្រវត្តិរូបដែលអ្នកអាចជ្រើសរើសនៅលើកក្រោយ។ ប្រវត្តិរូប ទាញយករហ័ស របស់អ្នកនៅដដែល។"
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "មិនអាចរក្សាទុកប្រវត្តិរូបបានទេ។"
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "ឈ្មោះប្រវត្តិរូប"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "បានរក្សាទុកជាប្រវត្តិរូប “{{name}}”"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "រក្សាទុកជាប្រវត្តិរូប"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "រក្សាទុកជាប្រវត្តិរូបថ្មី"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "ធ្វើបច្ចុប្បន្នភាពប្រវត្តិរូប"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "នេះជាប្រវត្តិរូបមានស្រាប់។ អ្នកអាចស្ដារការកំណត់ដើមរបស់វានៅក្នុងផ្ទាំង ប្រវត្តិរូប។"
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "ចាប់ពីពេលនេះ រាល់ការទាញយកដែលប្រើប្រវត្តិរូបនេះនឹងប្រើការកំណត់ថ្មី។"
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "ទម្រង់"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "ធ្វើបច្ចុប្បន្នភាព “{{profile}}”?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "បានធ្វើបច្ចុប្បន្នភាពប្រវត្តិរូប “{{name}}”"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "ធ្វើបច្ចុប្បន្នភាព “{{profile}}” ដោយការផ្លាស់ប្តូរទាំងនេះ"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "គ្មាន"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "ផ្នែកបំពេញ"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "ផ្នែកណែនាំ"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "តន្ត្រីក្រៅប្រធានបទ"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "ផ្នែកបញ្ចប់"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "មើលជាមុន"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "ផ្សព្វផ្សាយខ្លួនឯង"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "អ្នកឧបត្ថម្ភ"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "ប្រភេទ"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "សម្គាល់ជាជំពូក"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "លុបផ្នែក"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "ការច្រោះអ្នកឧបត្ថម្ភ"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "សម្គាល់ផ្នែកអ្នកឧបត្ថម្ភជាជំពូក (មិនបំផ្លាញ)។"
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "គ្មាន SponsorBlock — វីដេអូចាក់ដូចដែលបានផ្ទុកឡើង។"
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "កាត់ផ្នែកអ្នកឧបត្ថម្ភចេញពីវីដេអូដោយប្រើ FFmpeg។"
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "បញ្ជាក់"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "រក្សាទុក"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "ទម្រង់"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "លទ្ធផល"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "បញ្ជីចាក់"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "គុណភាព"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "ប្រវត្តិរូប"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "ពិនិត្យ"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "អក្សររត់ស្វ័យប្រវត្តិនឹងត្រូវបានរក្សាទុកជា SRT ជំនួសឱ្យ ASS — សម្រាប់វីដេអូ YouTube ពួកវាត្រូវបានសម្អាតការស្ទួនបន្ទាត់រំកិល ដែលកម្មវិធីបម្លែង ASS របស់យើងមិនទាន់អាចធ្វើតាមបាន។"
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "ស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "សម្អាតទាំងអស់"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "របៀបបង្កប់រក្សាទុកលទ្ធផលជា .mkv ដើម្បីឱ្យបទអក្សររត់បង្កប់បានត្រឹមត្រូវ។"
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "ទម្រង់"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "គ្មានអក្សររត់សម្រាប់វីដេអូនេះទេ"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "គ្មានភាសាណាត្រូវគ្នាទេ"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "មិនបានជ្រើសរើសអក្សររត់"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "លុប {{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "បង្កប់ក្នុងវីដេអូ"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "រក្សាទុកជា"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "នៅជាប់វីដេអូ"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "ក្នុងថតទាញយក"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "ថតរង subtitles/"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "ស្វែងរកភាសា…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "បង្កើតដោយស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "ដោយដៃ"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "ការរុករកប្រវត្តិរូបទាញយក"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "កម្រិតខ្ពស់"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "ដកការទាញយកចេញពីបញ្ជីការទាញយក ប៉ុន្មានវិនាទីបន្ទាប់ពីវាបញ្ចប់។ ឯកសារនៅតែមាននៅក្នុងថតរបស់អ្នក ហើយការទាញយកដែលបរាជ័យ និងត្រូវបានបោះបង់នៅតែមាននៅក្នុងបញ្ជី។"
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "ដកការទាញយកដែលបានបញ្ចប់ដោយស្វ័យប្រវត្តិ"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "ព្យាយាមម្តងទៀតដោយស្វ័យប្រវត្តិបន្ទាប់ពីបញ្ហាបណ្តាញ ឬម៉ាស៊ីនមេ ដោយរង់ចាំយូរជាងមុនរវាងការព្យាយាមនីមួយៗ។ ការទាញយកដែលត្រូវបានទប់ស្កាត់ដោយគេហទំព័រមិនដែលត្រូវបានព្យាយាមម្តងទៀតដោយស្វ័យប្រវត្តិទេ។"
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "ព្យាយាមទាញយកដែលបរាជ័យម្តងទៀត"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "ដង"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "URL ច្រើន"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "បន្ថែម និងដាក់ URL ច្រើនក្នុងជួរ។"
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "សម្អាត URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "បានបន្ថែមតំណពីក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "បានចម្លងតំណច្រើន — ប្រើ URL ច្រើនដើម្បីបន្ថែមពួកវា"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "គ្មានតំណក្នុងក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "មិនអាចអានក្តារតម្បៀតខ្ទាស់បានទេ — សូមបិទភ្ជាប់តំណក្នុងប្រអប់ជំនួសវិញ"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "បានជំនួសដោយតំណដែលបានចម្លង"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "តាមដានក្តារតម្បៀតខ្ទាស់"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "បំពេញវាល URL ដោយស្វ័យប្រវត្តិនៅពេលអ្នកចម្លងតំណវីដេអូ។"
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "មិនធ្វើវិញ"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "លាក់ទៅថាសប្រព័ន្ធពេលបិទ"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "បន្តការទាញយកនៅផ្ទៃខាងក្រោយបន្ទាប់ពីបិទផ្ទាំងបង្អួច។"
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "ចំនួនធាតុក្នុងជួរដែលទាញយកក្នុងពេលតែមួយ។ ច្រើនក្នុងពេលតែមួយបញ្ចប់ជួរវែងលឿនជាង ប៉ុន្តែបង្កើនឱកាសដែលគេហទំព័រកំណត់អ្នក។"
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "ការទាញយកក្នុងពេលតែមួយ"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "ការទាញយក"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "ចំនួនតំណដែល Klip ទាញយកព័ត៌មានលម្អិតក្នុងពេលតែមួយ មុនពេលទាញយក។ ចំនួនតិចជាងនឹងស្រាលជាងសម្រាប់គេហទំព័រដែលរារាំងការភ្ជាប់ដែលមមាញឹក។ តំណដែលអ្នកបើកក្នុងការទាញយកអន្តរកម្មតែងតែទៅមុន។"
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "តំណដែលត្រួតពិនិត្យក្នុងពេលតែមួយ"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "តំណ"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "គេហទំព័រដូចជា YouTube អាចសម្គាល់ — ហើយពេលខ្លះហាមឃាត់ — គណនីដែល cookies របស់វាត្រូវបានប្រើដោយឧបករណ៍ទាញយកដូចជា Klip។ ប្រើគណនីបណ្តោះអាសន្នពេលអាចធ្វើបាន។"
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "អាន cookies ដោយផ្ទាល់ពីកម្មវិធីរុករក។ កម្មវិធីរុករកត្រូវតែបិទសម្រាប់កម្មវិធីរុករកគ្រួសារ Chromium។"
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "កម្មវិធីរុករក"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "ជ្រើសរើសកម្មវិធីរុករក…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "ជ្រើសរើស…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "សម្អាត"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "ជ្រើសរើសកម្មវិធីរុករកដើម្បីប្រើ cookies"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "ជ្រើសរើសឯកសារដើម្បីប្រើ cookies"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "ផ្ទាំង «រកមើល» ត្រូវបានបិទ ដូច្នេះការទាញយកមិនប្រើការចូលគណនី «រកមើល» របស់អ្នកទេ។ បើកវានៅផ្នែក «រកមើល» ខាងក្រោម។"
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "ទាញយក cookies.txt ក្នុងម៉ាស៊ីន (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "ឯកសារ Cookies"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "តើខ្ញុំនាំចេញ cookies យ៉ាងដូចម្តេច?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "បើក «រកមើល»"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "មិនបានជ្រើសរើសឯកសារ"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "ណែនាំ"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "ហានិភ័យ៖ cookies.txt មានរាល់វគ្គដែលបានចូលគណនីសម្រាប់កម្មវិធីរុករកនោះ — រក្សាវាជាឯកជន។"
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "កម្មវិធីរុករក"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "ការចូលគណនី «រកមើល»"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "ឯកសារ"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "ប្រភព Cookies"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "ជួយសម្រាប់វីដេអូដែលគណនីរបស់អ្នកផ្ទាល់អាចមើលបាន ដូចជាវីដេអូឯកជនរបស់អ្នក។"
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "បង្កើនល្បឿនការទាញយកធំៗដោយទាញយកផ្នែកជាច្រើននៃវីដេអូក្នុងពេលតែមួយ។ តម្លៃខ្ពស់បង្កើនឱកាសដែលគេហទំព័រកំណត់អ្នក។"
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "ការតភ្ជាប់ទាញយក"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "ការតភ្ជាប់"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "ទាញយកអាល់ប៊ុម…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "ទាញយកវីដេអូដែលអ្នកចូលចិត្ត…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "ទាញយក Mix…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "ទាញយកបញ្ជីចាក់…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "ទាញយកការផ្ទុកឡើង…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "ទាញយក «មើលពេលក្រោយ»…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "តែសំឡេង"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "អក្សររត់"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "គេហទំព័រជាង 2000"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "បញ្ជីចាក់តន្ត្រី"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "បញ្ជីចាក់វីដេអូ"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "អ្វីដែល Klip អាចទាញយកបាន"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "ប៉ុស្តិ៍"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "តន្ត្រី"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "បញ្ជីចាក់"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "ផតខាស"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "វីដេអូ"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "អ្នកជំនួយការជាជំហានៗ។ ជ្រើសរើសទម្រង់ គុណភាព និងច្រើនទៀត។"
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "ទាញយកពី URL"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "ប្តូរផ្លូវកាត់"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "ផ្លូវកាត់នេះត្រូវបានប្រើដោយកម្មវិធីផ្សេង — ជ្រើសរើសមួយផ្សេងទៀត។"
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "ផ្លូវកាត់សកល"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "ចុចគ្រាប់ចុច…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "កំណត់ទៅលំនាំដើមវិញ"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "ទាញយកតំណណាមួយដែលអ្នកចម្លង ពីកម្មវិធីណាក៏ដោយ ដោយមិនចាំបាច់បើក Klip។"
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "គ្រាប់ចុចផ្លូវកាត់សកល"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "សាកល្បង"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "បើកគ្រាប់ចុចផ្លូវកាត់សកល"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "ចម្លងតំណវីដេអូក្នុងកម្មវិធីណាក៏ដោយ ហើយចុចផ្លូវកាត់នេះ៖ Klip ដាក់វាក្នុងជួរជាមួយប្រវត្តិរូបសកម្មរបស់អ្នក ដោយមិនចាំបាច់ប្តូរបង្អួច។ តំណទៅវីដេអូក្នុងបញ្ជីចាក់ នឹងទាញយកតែវីដេអូនោះ។"
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "ទាញយកអន្តរកម្ម"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "ទាញយកអន្តរកម្ម…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "ការទាញយកសកម្មរក្សាដែនកំណត់បច្ចុប្បន្នរបស់វា។ ផ្អាក + បន្ត ដើម្បីអនុវត្តការផ្លាស់ប្តូរ។"
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "ផ្ទាល់ខ្លួន…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "ឧ. 750K ឬ 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "កំណត់កម្រិតកម្រិតបញ្ជូនសម្រាប់ការទាញយកមេឌៀ។ ការកំណត់ល្បឿនសំណើខាងក្រោមជាធម្មតាមានប្រសិទ្ធភាពជាងសម្រាប់ដែនកំណត់អត្រា។"
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "ប្រើលេខតាមដោយ K ឬ M (ឧ. 500K, 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "ដែនកំណត់ល្បឿនទាញយក"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "កំពុងទាញយកនៅផ្ទៃខាងក្រោយ… ខ្ញុំធ្វើការច្រើនក្នុងពេលតែមួយបាន 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "ទាញយករហ័សដាក់ធាតុដែលបានផ្ទុកចូលក្នុងជួរដោយប្រើ {{profileName}}។ ទាញយកអន្តរកម្មអនុញ្ញាតឱ្យអ្នកពិនិត្យ ឬជ្រើសរើសធាតុជាមុនសិន។"
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "ទម្លាក់តំណមួយ ហើយឱ្យ Klip ទាញយកវា ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "ទាញយករហ័សចាប់ផ្តើមការទាញយកមួយដោយប្រើ {{profileName}}។ ប្រើទាញយកអន្តរកម្មសម្រាប់ការផ្លាស់ប្តូរម្តងម្កាល។"
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "តំណនេះបង្ហាញវីដេអូមួយ និងបញ្ជីដែលវាស្ថិតនៅក្នុង៖ ទាញយកតែវីដេអូ ឬទាញយកបញ្ជី។"
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "Stereo ដែលត្រូវគ្នា"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "Stereo ឬ Surround នៅពេលប្រវត្តិរូបជ្រើសសំឡេងដើម។ ប្រវត្តិរូបអាចកំណត់ជំនួសវាបាន។"
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "ចំណូលចិត្តសំឡេងដើម"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "ចូលចិត្ត Surround / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "បន្ថែមការរង់ចាំតិចតួចក្នុងការទាញយកនីមួយៗ ដើម្បីកុំឱ្យ Klip ប៉ះគេហទំព័រខ្លាំងពេក។ តម្លៃគិតជាវិនាទី។"
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "ផ្អាកមុនពេលមេឌៀចាប់ផ្តើម៖ អតិបរមា"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "ផ្អាកមុនពេលមេឌៀចាប់ផ្តើម៖ អប្បបរមា"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "រង់ចាំរវាងការពិនិត្យទិន្នន័យមេតា"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "រង់ចាំមុនឯកសារអក្សររត់"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "ការទាញយកដោយថ្នមៗ"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "តើ Klip គួរប្រុងប្រយ័ត្នកម្រិតណា?"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "មានតុល្យភាព"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "ប្រុងប្រយ័ត្ន"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "ផ្ទាល់ខ្លួន"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "បិទ"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "ការរង់ចាំ៖ {{requests}} រវាងការពិនិត្យ, {{downloads}} មុនពេលមេឌៀចាប់ផ្តើម, {{subtitles}} មុនឯកសារអក្សររត់។"
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "ការរង់ចាំទាំងនេះកើតឡើងក្នុងការទាញយកនីមួយៗ។ ចំនួនការទាញយកដែលដំណើរការក្នុងពេលតែមួយត្រូវបានកំណត់ដោយឡែក នៅក្រោម ការទាញយកក្នុងពេលតែមួយ។"
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "លំនាំដើម។ បន្ថែមការផ្អាកខ្លីៗរវាងសំណើ និងមុនពេលមេឌៀចាប់ផ្តើម។"
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "បន្ថែមការផ្អាកយូរជាងសម្រាប់បញ្ជីចាក់ធំៗ ឬបណ្តាញដែលជួបដែនកំណត់ញឹកញាប់។"
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "កែតម្រូវការគ្រប់គ្រងកម្រិតខ្ពស់សម្រាប់ការទាញយកនីមួយៗដោយខ្លួនឯង។"
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "ប្រើតែការផ្អាកមូលដ្ឋានតូចៗដែល Klip រក្សាសម្រាប់មេឌៀ និងអក្សររត់។"
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "វិនាទី"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "បានបើកតំណក្នុង Klip"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "បានជំនួសដោយតំណដែលបានបើកក្នុង Klip"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "បិទភ្ជាប់តំណ"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "ដែនកំណត់បច្ចុប្បន្ន៖ {{count}} ធាតុ"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "ផ្ទាល់ខ្លួន…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "ប្រើចំនួនគត់ពី {{min}} ដល់ {{max}}។"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "រក្សាទុកដែនកំណត់"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "ដែនកំណត់ស្កេនបញ្ជីចាក់ផ្ទាល់ខ្លួន"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "ផ្ទាល់ខ្លួន៖ {{count}} ធាតុ"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "ចំនួនធាតុអតិបរមាដែល Klip ផ្ទុកនៅពេលបើកបញ្ជីចាក់ ប៉ុស្តិ៍ ឬលទ្ធផលស្វែងរក។"
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "ប្រើចំនួនគត់ពី 1 ដល់ 5000"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "ធាតុបញ្ជីចាក់ដែលត្រូវស្កេន"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} ធាតុ"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "ប្រើដែនកំណត់កម្មវិធី៖ {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "អនុវត្ត"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "មិនអាចអនុវត្តវិសាលភាពបញ្ជីចាក់នោះបានទេ៖ {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "អនុវត្ត ហើយផ្ទុកឡើងវិញ"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "ផ្លាស់ប្តូរ"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "ជ្រើសរើសអ្វីដែល Klip ផ្ទុកសម្រាប់បញ្ជីចាក់នេះ។"
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "វិសាលភាពបញ្ជីចាក់"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "គ្មានវីដេអូក្នុងវិសាលភាពនោះទេ"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "ដំបូង"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "ប្រើលេខគត់ពី 1 ដល់ {{max}} ដោយលេខចាប់ផ្តើមមិនធំជាងលេខបញ្ចប់។"
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "ធាតុដែលត្រូវផ្ទុក"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "វិសាលភាពបញ្ជីចាក់"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "ចន្លោះ"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "កំពុងផ្ទុកឡើងវិញ..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "កំណត់ឡើងវិញ"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "ផ្ទុកធាតុ {{count}} ដំបូង"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "ផ្ទុកធាតុ {{count}} ដំបូង"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "ផ្ទុកធាតុ {{from}}-{{to}}"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "ដល់"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "ប្រវត្តិរូបសកម្ម"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "មានស្រាប់"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "ផ្ទាល់ខ្លួន"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "បានលាក់"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "បានកែប្រែ"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "តែសំឡេង"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "មានតុល្យភាព 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "គុណភាពល្អបំផុត"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "ទាបបំផុត 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "សន្សំទិន្នន័យ 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "ទូរទស្សន៍ឆ្លាតវៃ 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "ទូរទស្សន៍ឆ្លាតវៃ 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "ទូរទស្សន៍ឆ្លាតវៃ 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "ឯកសារតូច 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "តែអក្សររត់"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "ប្តូរទីតាំងរក្សាទុកសកល"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "ប្រើទីតាំងរក្សាទុកសកល"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "ប្រើទីតាំងរក្សាទុកសកល + ថតរងរបស់ប្រវត្តិរូប"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "ប្រើការជំនួសប្រវត្តិរូប"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "ប្រើការជំនួសប្រវត្តិរូប + ថតរងរបស់ប្រវត្តិរូប"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "ដើម្បីប្តូរកន្លែងរក្សាទុក សូមកែប្រវត្តិរូប។"
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "ទីតាំងរក្សាទុក"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "កែសម្រួល"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "កែសម្រួលប្រវត្តិរូបសកម្ម"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "ប្រវត្តិរូបដែលបានលាក់នៅតែនៅទីនេះ ប៉ុន្តែបាត់ពីផ្ទាំងជ្រើសរើសប្រវត្តិរូបទាំងអស់។"
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "បង្ហាញប្រវត្តិរូបក្នុងផ្ទាំងជ្រើសរើស៖ {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "រក្សាប្រវត្តិរូបយ៉ាងហោចណាស់មួយឱ្យអាចប្រើបាន។"
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "គ្រប់គ្រងប្រវត្តិរូប"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "ប្តូរប្រវត្តិរូបសកម្មសម្រាប់ ទាញយករហ័ស, URL ច្រើន និងបញ្ជីចាក់។"
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "ប្តូរប្រវត្តិរូប"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "ប្រវត្តិរូបដែលអាចផ្លាស់ទីបាន"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "ការផ្លាស់ទីត្រូវបានបោះបង់។ {{profileName}} នៅទីតាំងទី {{position}} ក្នុងចំណោម {{count}} ដដែល។"
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "បានទម្លាក់ {{profileName}} នៅទីតាំងទី {{position}} ក្នុងចំណោម {{count}}។"
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "ផ្លាស់ទី {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "ដើម្បីផ្លាស់ទីប្រវត្តិរូប សូមចុច Space ឬ Enter ផ្លាស់ទីវាដោយប្រើគ្រាប់ចុចព្រួញ បន្ទាប់មកចុច Space ឬ Enter ដើម្បីទម្លាក់។ ចុច Escape ដើម្បីបោះបង់។"
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} នៅលើទីតាំងទី {{position}} ក្នុងចំណោម {{count}}។"
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "បានលើក {{profileName}}។ វានៅទីតាំងទី {{position}} ក្នុងចំណោម {{count}}។"
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "ប្រវត្តិរូបថ្មី"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "ប្រវត្តិរូបនេះរក្សាទុកទៅថតដែលមិនទាន់កំណត់។ ជ្រើសរើសថតក្នុងប្រវត្តិរូប ឬកំណត់វាត្រឡប់ទៅលំនាំដើមវិញ។"
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "បង្កើត ជ្រើសរើស កែសម្រួល ឬលុបការកំណត់ទាញយកដែលអាចប្រើឡើងវិញ។"
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "ប្រវត្តិរូបទាញយក"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "លុប"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "អូសប្រវត្តិរូបដើម្បីផ្លាស់ទី។ ផ្ទាំងជ្រើសរើសប្រវត្តិរូបទាំងអស់ធ្វើតាមលំដាប់នេះ។"
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "កំណត់ឡើងវិញ"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "រក្សាទុកទៅ"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "ប្តូរប្រវត្តិរូបទាញយក៖ {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "ប្តូរប្រវត្តិរូបទាញយក"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "សម្អាត"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "បញ្ជូនចរាចរណ៍តាមម៉ាស៊ីនមេប្រូកស៊ី។"
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "URL ប្រូកស៊ី"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "ទាញយករហ័ស"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "នឹងទាញយកដោយប្រើ៖ {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "មិនអាចបន្ថែមមួយនេះបានទេ៖ {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "មិនអាចរៀបចំធាតុក្នុងជួរបានទេ"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "កំពុងរៀបចំ"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "ការពិនិត្យបានបរាជ័យ"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "បិទភ្ជាប់ URL វីដេអូ បញ្ជីចាក់ ប៉ុស្តិ៍ ឬការស្វែងរកដើម្បីចាប់ផ្តើម។"
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "ផ្ញើសញ្ញាអនាមិក និងរបាយការណ៍ការរៀបចំ"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "គ្មានការតាមដានទេ។ ម្តងក្នុងមួយថ្ងៃ សញ្ញាអនាមិកមួយផ្ញើកំណែកម្មវិធី ប៉ុស្តិ៍ដំឡើង ប្រព័ន្ធប្រតិបត្តិការ ភាសា ប្រទេស និងរយៈពេលប្រហែលចាប់តាំងពី Klip ត្រូវបានដំឡើង ដើម្បីឱ្យយើងអាចរាប់អ្នកប្រើសកម្ម និងអ្នកប្រើថ្មី។ នៅពេល Klip រៀបចំ ឬធ្វើបច្ចុប្បន្នភាពម៉ាស៊ីនទាញយក ឬឧបករណ៍មេឌៀរបស់វា វាក៏រាយការណ៍ថាតើវាបានជោគជ័យឬអត់ និងប្រើពេលប្រហែលប៉ុន្មានដែរ។ គ្មាន ID, URL, ចំណងជើងវីដេអូ ឬឈ្មោះឯកសារទេ។"
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "ឥរិយាបថសកលដែលប៉ះពាល់ដល់ការទាញយកតាមប្រវត្តិរូបផងដែរ។"
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "ឥរិយាបថទាញយក"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "ការបញ្ចូល"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "បន្ទះកញ្ចក់លើមេឃដែលកំពុងផ្លាស់ទី។ ត្រូវការការបង្កើនល្បឿនក្រាហ្វិក។"
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "អូរ៉ូរ៉ា"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "ផ្ទៃរឹង និងស្ងប់ស្ងាត់។ ដំណើរការស្រាលលើកុំព្យូទ័រណាក៏បាន។"
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "សាមញ្ញ"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "រចនាប័ទ្មទាំងពីរមានទាំងភ្លឺ និងងងឹត។"
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "រចនាប័ទ្ម"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "របៀបដែល Klip មើលទៅ។ ប្តូររវាងភ្លឺ និងងងឹតនៅផ្នែកខាងក្រោម។"
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "រូបរាង"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} ត្រូវការការបង្កើនល្បឿនក្រាហ្វិក ដែលមិនមាននៅពេលនេះ ដូច្នេះ Klip កំពុងបង្ហាញ {{fallback}}។"
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "ប្រវត្តិរូប"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "ការកំណត់"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "តែវីដេអូនេះ"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "ទាញយកតែវីដេអូនេះដោយប្រើ {{profileName}}"

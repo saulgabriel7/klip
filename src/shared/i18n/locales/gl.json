@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Acerca de",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Ver avisos de terceiros",
+		"websiteLink": "Sitio web"
+	},
+	"aiUpscaled": {
+		"allow": "Permitir",
+		"allowedSummary": "Fluxos escalados con IA permitidos",
+		"description": "YouTube ofrece algúns vídeos antigos en tamaños que creou con IA. Omitir mantén os fluxos orixinais; aínda podes escoller un escalado a man.",
+		"label": "Fluxos escalados con IA",
+		"skip": "Omitir"
+	},
+	"app": {
+		"feedback": "Comentarios",
+		"feedbackNudge": "Gústache Klip? Encantaríame saber a túa opinión! 💬",
+		"logs": "Rexistros",
+		"saveDiagnostics": "Gardar ficheiro de diagnóstico",
+		"saveDiagnosticsDescription": "Reúne os teus rexistros e os datos da aplicación nun só ficheiro en Descargas, listo para anexar a unha incidencia de GitHub. O nome do teu cartafol de usuario elimínase; as ligazóns e os títulos dos vídeos manteñense.",
+		"styleHint": "Novo: escolle Aurora ou Minimal aquí",
+		"theme": "Tema",
+		"zoomIn": "Ampliar",
+		"zoomOut": "Reducir"
+	},
+	"common": {
+		"back": "Atrás",
+		"cancel": "Cancelar",
+		"close": "Pechar",
+		"continue": "Continuar",
+		"loading": "Cargando",
+		"retry": "Tentar de novo",
+		"startOver": "Comezar de novo"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip segue en execución e remata as descargas activas. Podes cambialo máis tarde na configuración avanzada.",
+			"hide": "Agochar na bandexa",
+			"message": "Queres agochar Klip na bandexa do sistema ao pechar?",
+			"quit": "Saír",
+			"remember": "Non volver preguntar"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "A túa cola consérvase e as descargas continúan onde se detiveron a próxima vez que abras Klip.",
+			"keep": "Seguir descargando",
+			"message_one": "{{count}} descarga en curso",
+			"message_other": "{{count}} descargas en curso",
+			"quit": "Saír"
+		},
+		"rendererCrashed": {
+			"detail": "O proceso de renderizado fallou ({{reason}}). Recarga para tentalo de novo.",
+			"message": "Klip atopou un problema",
+			"quit": "Saír",
+			"reload": "Recargar"
+		}
+	},
+	"donate": {
+		"copied": "Copiado!",
+		"copyAddress": "Copiar enderezo",
+		"description": "Klip é gratuíto e de código aberto, sen anuncios nin nivel de pagamento. As doazóns son opcionais e non dan ningunha influencia sobre a folla de ruta.",
+		"footerLabel": "Doar",
+		"footerTooltip": "Apoiar Klip",
+		"qrAlt": "Código QR do enderezo de doazón de {{coin}}",
+		"title": "Apoiar Klip",
+		"warning": "Os pagamentos con criptomoedas son irreversibles. Envía só pola rede indicada e comproba o enderezo completo."
+	},
+	"errors": {
+		"noSubtitlesIn": "Este vídeo non ten subtítulos en {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Este vídeo ten restrición de idade e non se pode descargar sen unha conta con sesión iniciada.",
+			"botBlock": "A protección contra bots do sitio deteu esta descarga. Agarda un pouco e tenta de novo, ou descarga menos vídeos á vez. Se segue fallando, pode ser un cambio temporal no sitio: Klip actualiza o seu motor de descarga ao iniciarse, así que a corrección chegará soa en canto se publique.",
+			"chunkTransferFailure": "O servidor cortou a descarga a metade unha e outra vez, e Klip rendeuse tras reintentalo. Isto adoita pasar cos formatos de vídeo máis grandes (4K HDR / VP9 de taxa de bits alta). Tenta de novo, cambia de rede/VPN ou escolle un formato de resolución menor.",
+			"drmProtected": "Este vídeo está protexido por DRM. Klip non pode eliminar o DRM, polo que o ficheiro non se pode descargar.",
+			"formatUnavailable": "Este vídeo xa non ofrece o formato que escolliches. Pega de novo a ligazón e escolle entre os formatos que ofrece agora.",
+			"geoBlocked": "Este vídeo non está dispoñible na túa rexión.",
+			"ipBlock": "O sitio está bloqueando as solicitudes desta conexión. Tenta de novo máis tarde.",
+			"loginRequired": "Este vídeo require unha conta con sesión iniciada.",
+			"missingDependency": "Klip non atopou FFmpeg nin FFprobe. Executa de novo a configuración ou define a ubicación de FFmpeg e tenta a descarga outra vez.",
+			"network": "Erro de rede. Comproba a conexión e tenta de novo.",
+			"noSubtitles": "Este vídeo non ten subtítulos nos idiomas solicitados.",
+			"outOfDiskSpace": "Non hai espazo suficiente no disco. Libera espazo e tenta de novo.",
+			"outputNotWritable": "Klip non pode escribir no cartafol de descargas. Pode ser de só lectura, estar nunha unidade bloqueada ou ser bloqueado pola configuración de privacidade do sistema. Escolle outro cartafol ou permite o acceso e tenta de novo.",
+			"parse": "Non se puido interpretar a resposta do sitio. Pode que o sitio cambiase a forma de servir os vídeos. Klip actualiza o seu motor de descarga ao iniciarse: tenta de novo en uns minutos, cando se publique a corrección.",
+			"postprocessFailure": "A descarga rematou, pero fallou o posprocesamento (combinar / mux / converter). Moitas veces é un problema pasaxeiro de ffmpeg: tenta de novo e, se persiste, proba outra combinación de formatos.",
+			"rateLimit": "O sitio está limitando as solicitudes desta conexión.",
+			"unavailable": "Este vídeo non está dispoñible: pode ser privado, estar eliminado ou bloqueado na túa rexión.",
+			"unknown": "A descarga fallou. Consulta a saída sen procesar a continuación.",
+			"unsupportedUrl": "Klip non admite esta URL. Proba cunha ligazón doutro sitio."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Comproba a conexión e tenta de novo.",
+			"loadTitle": "Esta páxina non se cargou",
+			"openSettings": "Abrir configuración",
+			"proxyBody": "Comproba o proxy na configuración e tenta de novo.",
+			"proxyTitle": "Explorar non se pode conectar a través do teu proxy",
+			"retry": "Tentar de novo"
+		},
+		"linkCallout": {
+			"body": "Fai clic co botón dereito en calquera ligazón de vídeo, lista de reprodución ou canle da páxina para descargala co teu perfil activo, escoller outro perfil ou abrir o fluxo paso a paso.",
+			"title": "Fai clic co botón dereito nunha ligazón para descargala"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Descargar o álbum en segundo plano",
+				"liked": "Descargar os teus vídeos que che gustan en segundo plano",
+				"mix": "Descargar o Mix en segundo plano",
+				"playlist": "Descargar a lista en segundo plano",
+				"uploads": "Descargar os vídeos subidos en segundo plano",
+				"watchLater": "Descargar Ver máis tarde en segundo plano"
+			},
+			"copyLink": "Copiar ligazón",
+			"downloadFirst": "Descargar os primeiros {{count}}",
+			"downloadThisVideo": "Descargar este vídeo · {{profileName}}",
+			"downloadWith": "Descargar con",
+			"fromList": {
+				"album": "Deste álbum",
+				"liked": "Dos teus vídeos que che gustan",
+				"mix": "Deste Mix",
+				"playlist": "Desta lista",
+				"uploads": "Dos vídeos subidos desta canle",
+				"watchLater": "De Ver máis tarde"
+			},
+			"interactive": "Descarga interactiva…",
+			"thisVideoWith": "Este vídeo con"
+		},
+		"newBadge": "Novo",
+		"notice": {
+			"body": "Atopa un vídeo en YouTube ou en calquera outro sitio e descárgao desde aquí, sen copiar ligazóns. Inicia sesión nun sitio aquí para descargar vídeos que requiren unha conta.",
+			"continue": "Continuar",
+			"riskBody": "Sitios como YouTube poden marcar, e ás veces vetar, as contas usadas con ferramentas de descarga como Klip. Usa unha conta que poidas permitirte perder, non a principal.",
+			"riskTitle": "Inicia sesión cunha conta secundaria",
+			"title": "Navega pola web sen saír de Klip"
+		},
+		"nudge": {
+			"browser": "As descargas usan as cookies do teu navegador, non o teu inicio de sesión en Explorar.",
+			"file": "As descargas usan o teu ficheiro de cookies, non o teu inicio de sesión en Explorar.",
+			"notNow": "Agora non",
+			"off": "As cookies están desactivadas, así que as descargas non usan o teu inicio de sesión en Explorar.",
+			"useExplore": "Usar o inicio de sesión de Explorar"
+		},
+		"settings": {
+			"description": "Navega por YouTube ou por calquera outro sitio dentro de Klip e inicia sesión para ver vídeos que requiren unha conta.",
+			"idleUnload": "Liberar memoria cando non estea en uso",
+			"idleUnloadDescription": "Despois de 5 minutos noutra lapela, péchase a páxina de inicio ou de busca de YouTube. Ao volver recárgase, o que leva uns segundos.",
+			"searchEngine": "Buscador",
+			"searchEngineDescription": "Onde se busca o texto escrito na barra de enderezos. As ligazóns ábrense tal e como se escriben.",
+			"showTab": "Amosar a lapela Explorar",
+			"showTabDescription": "Se a desactivas, as descargas tamén deixan de usar o teu inicio de sesión en Explorar.",
+			"signOut": "Pechar sesión en Explorar",
+			"signOutConfirm": "Pechar sesión",
+			"signOutConfirmBody": "Isto borra os teus inicios de sesión e os datos de navegación en Explorar, en todos os sitios. As descargas que requiran unha conta fallarán ata que inicies sesión de novo.",
+			"signOutConfirmTitle": "Pechar sesión en Explorar?",
+			"signOutDescription": "Borra os teus inicios de sesión e os datos de navegación en Explorar, en todos os sitios.",
+			"title": "Explorar"
+		},
+		"tabLabel": "Explorar",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube pode poñer trabas aos bloqueadores de anuncios en contas con sesión iniciada.",
+				"aria": "Bloqueador de anuncios",
+				"off": "Bloqueador de anuncios: desactivado, fai clic para activalo",
+				"on": "Bloqueador de anuncios: activado, fai clic para desactivalo",
+				"starting": "Bloqueador de anuncios: iniciando, fai clic para desactivalo",
+				"unavailable": "Bloqueador de anuncios: non dispoñible, non se puideron descargar as súas listas de filtros; fai clic para desactivalo"
+			},
+			"addressAria": "Enderezo",
+			"addressPlaceholder": "Busca en {{engine}} ou abre calquera sitio (Vimeo, Instagram…)",
+			"aria": "Controis do navegador de Explorar",
+			"back": "Atrás",
+			"compactLayout": "Deseño compacto",
+			"download": "Descargar",
+			"downloadWithProfile": "Descargar · {{profileName}}",
+			"forward": "Adiante",
+			"fullLayout": "Amosar deseño completo",
+			"grabUnavailable": "Abre un vídeo, lista de reprodución ou canle para descargalo",
+			"home": "Inicio de YouTube",
+			"interactiveHint": "Descarga interactiva: escolle formato, subtítulos e máis…",
+			"refusedHint": "Explorar non pode abrir ese enderezo.",
+			"reload": "Recargar",
+			"searchTooLong": "Esa busca é demasiado longa.",
+			"thisVideo": "Este vídeo",
+			"thisVideoHint": "Descargar só este vídeo con {{profileName}}",
+			"zoom": {
+				"hint": "Zoom da páxina: {{percent}}%",
+				"in": "Ampliar",
+				"label": "Zoom da páxina",
+				"out": "Reducir",
+				"percent": "Porcentaxe de zoom",
+				"reset": "Restablecer o zoom ao 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Automático",
+		"autoValue": "Automático (.{{ext}})",
+		"description": {
+			"auto": "Os fluxos escollidos deciden o tipo de ficheiro.",
+			"mkv": "Admite calquera códec. Algúns televisores e teléfonos non o poden abrir.",
+			"mp4": "Reprodúcese case en todas partes. O VP9 nun MP4 non reproduce o vídeo en QuickTime.",
+			"webm": "Formato aberto para navegadores. Só admite VP9 ou AV1 con Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "O AV1 nun MP4 precisa un Mac recente para reproducirse en QuickTime. O H.264 reprodúcese en todas partes.",
+		"mp4CaveatVp9": "O VP9 nun MP4 non reproduce o vídeo en QuickTime. O H.264 reprodúcese en todas partes.",
+		"profileMark": "Perfil",
+		"smartTvNoWebm": "WebM non se ofrece con Smart TV: non pode conter H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM non pode conter {{codec}}. Escolle MKV ou MP4."
+	},
+	"filenameTemplate": {
+		"description": "Escolle como se nomean os ficheiros descargados. Fai clic nun token para inserilo. Usa / para ordenar as descargas en cartafoles.",
+		"error": {
+			"empty": "Introduce un modelo de nome de ficheiro.",
+			"empty-segment": "Elimina a / sobrante: cada cartafol precisa un nome.",
+			"forbidden-char": "Elimina os caracteres que non se permiten nos nomes de ficheiro: \\ : * ? \" < > |",
+			"invalid-segment": "Ese nome de cartafol non se permite. Evita . e .. e nomes reservados como CON.",
+			"no-unique-token": "Engade {title} ou {id} ao nome de ficheiro para que cada descarga teña o seu propio nome.",
+			"resolution-in-dir": "{resolution} non pode dar nome a un cartafol: a calidade non se coñece ata que comeza a descarga.",
+			"stray-brace": "{ ou } sen pechar: pecha os tokens como {title}.",
+			"too-long": "O modelo é demasiado longo.",
+			"unknown-token": "Token descoñecido {{token}}."
+		},
+		"idEndingWarning": "Remata o nome con [{id}] para que Klip poida detectar os elementos de lista xa descargados e xerar listas .m3u.",
+		"label": "Modelo de nome de ficheiro",
+		"m3uDisabledIdEnding": "Non dispoñible porque o teu modelo de nome de ficheiro non remata en [{id}] ou ordena as descargas en cartafoles.",
+		"previewPlaylist": "Nunha lista de reprodución",
+		"previewSingle": "Un só vídeo",
+		"profileOverrideDescription": "Déixao baleiro para herdar o modelo global.",
+		"profileOverrideLabel": "Modelo de nome de ficheiro"
+	},
+	"formatLabel": {
+		"audioFallback": "Audio",
+		"audioOnlyDot": "Só audio · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Automático",
+		"description": "Automático escolle HDR cando esta pantalla o pode amosar e, se non, SDR. O HDR vese deslavado nas pantallas normais.",
+		"hdr": "HDR",
+		"label": "Vídeo HDR",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Idioma"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Sesión iniciada en Explorar: tentando de novo 1 ligazón",
+		"exploreSignInRetrying_other": "Sesión iniciada en Explorar: tentando de novo {{count}} ligazóns",
+		"exploreSignOutFailed": "Non se puido pechar a sesión en Explorar. Tenta de novo.",
+		"filenameFolderTooDeep": "Este cartafol é demasiado profundo para o teu sistema. A descarga aínda pode fallar: escolle un cartafol máis curto.",
+		"filenameTemplateCannotFit": "O nome deste vídeo non cabe en todas as partes do teu modelo, así que se usou o nome predeterminado.",
+		"folderSelectFailed": "Non se puido abrir o selector de cartafoles.",
+		"hotkey": {
+			"alreadyQueued": "Xa está na cola: non se engadiu ningunha copia",
+			"cookiesSetup": "Remata a configuración das cookies en Klip e tenta de novo",
+			"invalidClipboard": "Non hai ningunha ligazón no portapapeis: copia unha primeiro",
+			"multipleUrls": "Copiáronse varias ligazóns: usa URLs en lote en Klip",
+			"needsReview": "Esa ligazón precisa a túa decisión: mira Descargas en Klip",
+			"queued": "Descarga engadida á cola desde o portapapeis",
+			"submissionFailed": "Non se puido engadir esa ligazón: tenta de novo en Klip"
+		},
+		"playlistFolderRejected": "Ese cartafol non se pode usar para esta lista de reprodución.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} vídeo xa está na cola: omitido",
+			"skippedAlreadyQueued_other": "{{count}} vídeos xa están na cola: omitidos"
+		},
+		"quickDownload": {
+			"added": "Engadido: {{title}}",
+			"alreadyQueued": "Xa está na cola",
+			"batchAdded_one": "{{count}} ligazón engadida a Descargas",
+			"batchAdded_other": "{{count}} ligazóns engadidas a Descargas",
+			"batchAlreadyQueued_one": "{{count}} xa na cola",
+			"batchAlreadyQueued_other": "{{count}} xa na cola",
+			"batchNoneAdded_one": "Non se puido engadir {{count}} ligazón",
+			"batchNoneAdded_other": "Non se puideron engadir {{count}} ligazóns",
+			"batchNotAdded_one": "Non se puido engadir {{count}}",
+			"batchNotAdded_other": "Non se puideron engadir {{count}}",
+			"chooseFromList_one": "{{count}} vídeo nesta lista: escolle que descargar",
+			"chooseFromList_other": "{{count}} vídeos nesta lista: escolle que descargar",
+			"chooseHowMany_one": "{{count}}+ vídeo: escolle cantos",
+			"chooseHowMany_other": "{{count}}+ vídeos: escolle cantos",
+			"failed": "Non se puido preparar {{title}}",
+			"notAdded": "Non se puido engadir esa ligazón: tenta de novo",
+			"view": "Ver"
+		},
+		"settingsSaveFailed": "Non se puido gardar a configuración.",
+		"shellActionFailed": "Non se puido abrir iso.",
+		"warmupFailed": "A configuración non rematou. Algunhas descargas poden fallar ata que remate."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Audio (mellor)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Audio ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Mellor audio nativo, sen recodificar",
+			"m4a": "Converter a M4A (AAC)",
+			"mp3": "Converter a MP3",
+			"opus": "Converter a Opus"
+		},
+		"mp4Cap": "H.264 por riba de 1080p non está dispoñible en YouTube: limítase automaticamente a 1080p",
+		"subtitles": {
+			"deliveryHeading": "Gardar como",
+			"deliveryLoose": "Directamente no cartafol de destino",
+			"languages": "Idiomas",
+			"languagesRequired": "Escolle polo menos un idioma para continuar.",
+			"note": "Só se gardan os ficheiros de subtítulos de cada vídeo: non se descarga vídeo nin audio.",
+			"source": "Orixe"
+		},
+		"tier": {
+			"144": "Ata 144p",
+			"240": "Ata 240p",
+			"360": "Ata 360p",
+			"480": "Ata 480p",
+			"720": "Ata 720p",
+			"1080": "Ata 1080p",
+			"1440": "Ata 1440p",
+			"2160": "Ata 4K",
+			"best": "Mellor calidade"
+		},
+		"tierDesc": {
+			"144": "Os ficheiros máis pequenos posibles",
+			"240": "Ficheiros moi pequenos, calidade baixa",
+			"360": "Ficheiros pequenos para pouca banda larga",
+			"480": "Pouca banda larga",
+			"720": "Ficheiros máis pequenos, ampla compatibilidade",
+			"1080": "Limitado a 1080p; baixa a menos resolución por elemento se fai falta",
+			"1440": "Limitado a 2K; baixa a menos resolución por elemento se fai falta",
+			"2160": "Limitado a 2160p; baixa a menos resolución por elemento se fai falta",
+			"best": "O mellor vídeo + audio dispoñible por elemento"
+		},
+		"type": {
+			"audio": "Audio",
+			"subtitles": "Subtítulos",
+			"video": "Vídeo"
+		},
+		"videoFormat": {
+			"best": "Mellor nativo",
+			"mp4": "MP4 H.264 para Smart TV"
+		},
+		"videoFormatDesc": {
+			"best": "Mellor contedor e códecs dispoñibles por elemento",
+			"mp4": "Prefire vídeo H.264 + audio AAC en MP4 cando sexa posible"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Complementario",
+			"description": "Descrición",
+			"media": "Multimedia",
+			"missing": "Falta",
+			"subtitle": "Subtítulo",
+			"thumbnail": "Miniatura",
+			"unknown": "Artefacto"
+		},
+		"attentionBadge_one": "{{count}} descarga precisa a túa atención",
+		"attentionBadge_other": "{{count}} descargas precisan a túa atención",
+		"autoRemoveCompleted": {
+			"hint": "Quita cada descarga da lista uns segundos despois de rematar. Os ficheiros quedan no teu cartafol.",
+			"label": "Limpar as feitas"
+		},
+		"cancelAllTitle": "Cancelar todas as descargas activas e pendentes",
+		"choice": {
+			"all": "Todos os vídeos",
+			"cappedBody_one": "Hai máis de {{count}} vídeo nesta lista de reprodución. Descárgaos todos, os primeiros {{count}} ou escolle nunha revisión.",
+			"cappedBody_other": "Hai máis de {{count}} vídeos nesta lista de reprodución. Descárgaos todos, os primeiros {{count}} ou escolle nunha revisión.",
+			"first": "Os primeiros {{count}}",
+			"list": {
+				"album": "O álbum",
+				"liked": "Vídeos que che gustan",
+				"mix": "O Mix",
+				"playlist": "A lista",
+				"uploads": "Todos os vídeos subidos",
+				"watchLater": "Ver máis tarde"
+			},
+			"pick": "Escoller da lista…",
+			"review": "Revisar",
+			"uncappedBody_one": "Esta ligazón é unha lista de {{count}} vídeo. Descárgaa ou escolle nunha revisión.",
+			"uncappedBody_other": "Esta ligazón é unha lista de {{count}} vídeos. Descárgaos todos ou escolle nunha revisión.",
+			"video": "Este vídeo",
+			"videoOrList": {
+				"album": "Esta ligazón é un vídeo dun álbum. Descargar só o vídeo ou o álbum?",
+				"liked": "Esta ligazón é un vídeo dos teus vídeos que che gustan. Descargar só o vídeo ou todos os vídeos que che gustan?",
+				"mix": "Esta ligazón é un vídeo dun Mix. Descargar só o vídeo ou o Mix?",
+				"playlist": "Esta ligazón é un vídeo dunha lista. Descargar só o vídeo ou a lista?",
+				"uploads": "Esta ligazón é un vídeo dos vídeos subidos dunha canle. Descargar só o vídeo ou todos os vídeos subidos?",
+				"watchLater": "Esta ligazón é un vídeo da túa lista Ver máis tarde. Descargar só o vídeo ou toda a lista?"
+			}
+		},
+		"clearTitle": "Limpar as descargas completadas",
+		"empty": "As descargas en cola aparecerán aquí",
+		"filterAll": "Todas",
+		"filtersLabel": "Filtros de estado da cola",
+		"globalActionsLabel": "Todos os elementos",
+		"header": "Descargas",
+		"item": {
+			"audioKept": "Son sen quitar",
+			"audioKeptSubtitlesFailed": "Son sen quitar · fallaron algúns subtítulos",
+			"cancel": "Cancelar",
+			"defaultError": "A descarga fallou",
+			"openDestinationFolder": "Abrir cartafol de destino",
+			"pause": "Pausar",
+			"pendingOnly": "Só pendentes",
+			"pullNow": "Descargar agora: saltar a cola",
+			"qualityLimited": "Limitado a {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Limitado a {{height}}p · fallaron algúns subtítulos",
+			"remove": "Quitar",
+			"resume": "Retomar",
+			"retry": "Tentar de novo",
+			"retryingSoon": "tentando de novo automaticamente (intento {{attempt}})",
+			"setLocation": "Definir ubicación",
+			"setLocationHint": "Selecciona elementos pendentes para definir a ubicación.",
+			"statusCancelled": "Cancelada",
+			"statusDone": "Feita",
+			"statusError": "Erro",
+			"statusHeld": "Retida",
+			"statusNeedsChoice": "Precisa a túa decisión",
+			"statusPaused": "Pausada",
+			"statusPending": "Agardando",
+			"statusProbing": "Obtendo detalles",
+			"statusRunning": "Descargando",
+			"subtitleLanguagesMissing": "Sen subtítulos en {{languages}}",
+			"waitingForSite": "Espera por {{site}} ata {{time}}",
+			"waitingHint": "{{site}} está limitando as solicitudes desta conexión. Klip obterá os datos desta ligazón despois de {{time}}, para que o límite se levante."
+		},
+		"listOffer": {
+			"dismiss": "Ignorar",
+			"from": {
+				"album": "Dun álbum",
+				"liked": "Dos teus vídeos que che gustan",
+				"mix": "Dun Mix",
+				"playlist": "Dunha lista",
+				"uploads": "Dos vídeos subidos dunha canle",
+				"watchLater": "De Ver máis tarde"
+			},
+			"get": {
+				"album": "Descargar todo o álbum",
+				"liked": "Descargar todos os vídeos que che gustan",
+				"mix": "Descargar todo o Mix",
+				"playlist": "Descargar toda a lista",
+				"uploads": "Descargar todos os vídeos subidos",
+				"watchLater": "Descargar todo Ver máis tarde"
+			},
+			"hint": "Engade a lista como unha fila propia. Este vídeo queda fóra."
+		},
+		"pauseAllTitle": "Pausar todas as descargas activas e impedir que comecen outras novas",
+		"pausedBanner": "A cola está en pausa: os elementos en espera non comezarán ata que a retomes",
+		"resumeAllTitle": "Retomar as descargas en pausa e deixar que a cola continúe",
+		"resumeQueueAction": "Retomar cola",
+		"selectedActionsLabel": "Elementos seleccionados",
+		"selectionSummary": "{{selected}} seleccionados · {{total}} en total",
+		"tabLabel": "Descargas",
+		"tabTip": "As descargas están agora na lapela Descargas: ábrea cando queiras para seguir o progreso.",
+		"table": {
+			"added": "Engadida",
+			"artifacts": "Artefactos",
+			"columnDropped": "Soltouse a columna {{column}}.",
+			"columnMoveCancelled": "Cancelouse o movemento da columna {{column}}.",
+			"columnMovedOver": "A columna {{column}} está sobre {{target}}.",
+			"columnPickedUp": "Colleuse a columna {{column}}.",
+			"columns": "Columnas",
+			"finished": "Rematada",
+			"format": "Formato",
+			"hideArtifactsFor": "Agochar artefactos de {{title}}",
+			"movableColumn": "columna móbil",
+			"moveColumnInstructions": "Para mover unha columna, preme Espazo ou Intro, móvea coas teclas de frecha e preme Espazo ou Intro para soltala. Preme Escape para cancelar.",
+			"notAvailable": "—",
+			"outputTarget": "Destino",
+			"progress": "Progreso",
+			"resetColumns": "Restablecer columnas",
+			"resizeColumn": "Cambiar o tamaño da columna {{column}}",
+			"showArtifactsFor": "Amosar artefactos de {{title}}",
+			"size": "Tamaño",
+			"sortBy": "Ordenar por {{label}}",
+			"status": "Estado",
+			"title": "Título"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Continuar",
+		"description": "Estás a usar unha actualización recente. Estes son os cambios máis destacados.",
+		"fullNotes": "Notas da versión completas ↗",
+		"title": "Novidades de Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Cancelar",
+			"chooseExecutable": "Escoller executable",
+			"installWithHomebrew": "Instalar con Homebrew",
+			"installWithWinget": "Instalar con WinGet",
+			"openDependencyFolder": "Abrir cartafol de dependencias",
+			"resetToDefault": "Restablecer o valor predeterminado",
+			"retrySetup": "Tentar de novo",
+			"viewSetupLog": "Ver rexistro de configuración"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Tenta de novo. Se segue fallando, escolle abaixo unha copia que funcione.",
+				"title": "Unha ferramenta non funciona ben"
+			},
+			"blockedOrQuarantined": {
+				"body": "Permite Klip no teu antivirus ou en SmartScreen e tenta de novo.",
+				"title": "O teu antivirus bloqueou unha ferramenta"
+			},
+			"downloadFailed": {
+				"body": "Comproba a conexión a Internet e tenta de novo.",
+				"title": "Non se puido descargar o que Klip necesita"
+			},
+			"extractFailed": {
+				"body": "Tenta de novo para descargalo outra vez desde cero.",
+				"title": "Unha descarga chegou danada"
+			},
+			"hashFailed": {
+				"body": "Tenta de novo para descargalo outra vez desde cero.",
+				"title": "Unha descarga non coincidiu coa súa suma de verificación"
+			},
+			"pairIncomplete": {
+				"body": "Escolle ambos abaixo ou restablece os valores predeterminados.",
+				"title": "FFmpeg e FFprobe teñen que definirse xuntos"
+			},
+			"permissionDenied": {
+				"body": "Tenta de novo. Se segue fallando, escolle abaixo unha copia na que confíes.",
+				"title": "O teu sistema non deixa que Klip execute unha ferramenta"
+			},
+			"spawnFailed": {
+				"body": "Tenta de novo. Se segue fallando, escolle abaixo unha copia que funcione.",
+				"title": "Falta unha ferramenta ou non se inicia"
+			},
+			"timeout": {
+				"body": "Moitas veces é unha análise de seguridade na primeira execución. Tenta de novo.",
+				"title": "Unha ferramenta tardou demasiado en responder"
+			},
+			"unknown": {
+				"body": "Tenta de novo ou abre o rexistro de configuración para ver os detalles.",
+				"title": "Algo saíu mal durante a configuración"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Motor de descarga",
+			"media": "Ferramentas multimedia"
+		},
+		"installing": {
+			"homebrew": "Instalando con Homebrew… Isto pode levar uns minutos.",
+			"winget": "Instalando con WinGet… Isto pode levar uns minutos."
+		},
+		"manual": {
+			"intro": "Indica a Klip as copias que xa tes ou instálaas doutra forma.",
+			"linuxHint": "Tamén podes instalar yt-dlp e ffmpeg co teu xestor de paquetes e despois facer clic en Tentar de novo.",
+			"toggle": "Configurar manualmente"
+		},
+		"stopped": {
+			"body": "Tenta de novo ou indica a Klip abaixo as ferramentas que xa tes.",
+			"title": "A configuración detívose"
+		},
+		"title": "A configuración necesita a túa axuda"
+	},
+	"selectionOrder": {
+		"editorTitle": "Como escolle este perfil",
+		"rank": {
+			"aacFileType": {
+				"label": "Audio AAC",
+				"reason": "axústase aos reprodutores MP4"
+			},
+			"aacSmartTv": {
+				"label": "Audio AAC",
+				"reason": "reprodúcese en todas partes"
+			},
+			"codec": {
+				"label": "AV1, despois VP9 e despois H.264",
+				"reason": "a imaxe máis nítida para un tamaño dado"
+			},
+			"codecH264First": {
+				"label": "H.264, despois VP9 e despois AV1",
+				"reason": "o códec deste perfil"
+			},
+			"codecVp9First": {
+				"label": "VP9, despois H.264 e despois AV1",
+				"reason": "o códec deste perfil"
+			},
+			"fps": {
+				"label": "Maior taxa de fotogramas",
+				"reason": "movemento máis fluído"
+			},
+			"h264": {
+				"label": "Vídeo H.264",
+				"reason": "reprodúcese en todos os dispositivos"
+			},
+			"hdrFirst": {
+				"label": "HDR antes que SDR",
+				"reason": "cor máis rica en pantallas HDR",
+				"reasonScreen": "esta pantalla amosa HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR antes que HDR",
+				"reason": "vese ben en calquera pantalla",
+				"reasonScreen": "esta pantalla non é HDR"
+			},
+			"mp4Streams": {
+				"label": "Fluxos MP4",
+				"reason": "listos para un ficheiro MP4"
+			},
+			"nativeCompatible": {
+				"label": "Audio estéreo"
+			},
+			"nativeSource": {
+				"profile": "este perfil",
+				"settings": "da configuración"
+			},
+			"nativeSurround": {
+				"label": "Audio envolvente cando se ofreza"
+			},
+			"opus": {
+				"label": "Audio Opus",
+				"reason": "axústase a WebM"
+			},
+			"original": {
+				"label": "Fluxos orixinais, non escalados con IA",
+				"reason": "unha copia escalada é máis alta, pero non engade detalle real"
+			},
+			"protocol": {
+				"label": "Descargas directas antes que copias en transmisión",
+				"reason": "a mesma imaxe, descargada máis rápido"
+			},
+			"resolution": {
+				"label": "Ata {{tier}}p",
+				"reason": "o teu límite"
+			},
+			"resolutionBest": {
+				"label": "Maior resolución",
+				"reason": "sen límite definido"
+			},
+			"sitePreference": {
+				"label": "Fluxos que o sitio non marca como inferiores",
+				"reason": "omite copias danadas, con marca de auga e de reserva"
+			},
+			"size": {
+				"label": "Ficheiro máis grande",
+				"reason": "máis detalle coa mesma configuración"
+			},
+			"source": {
+				"label": "Primeiro os fluxos de taxa de bits mellorada",
+				"reason": "máis detalle coa mesma resolución"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "tipo de ficheiro segundo os fluxos",
+				"explicit": "gárdase como .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "mellor imaxe",
+				"smartTv": "reprodúcese en calquera dispositivo"
+			}
+		},
+		"whyLabel": "Por que este?",
+		"whyTitle": "Por que o perfil escolleu isto"
+	},
+	"share": {
+		"copied": "Copiado!",
+		"copyLink": "Copiar ligazón",
+		"defaultMessage": "Klip: descargador de vídeo gratuíto e de código aberto para Windows, macOS e Linux. Funciona con YouTube, Vimeo, Twitch e máis de 2000 sitios.\n4K · HDR · MP3 · Shorts · Subtítulos · SponsorBlock",
+		"description": "Klip é gratuíto e de código aberto. Compartilo axuda a que máis xente o descubra.",
+		"footerLabel": "Compartir",
+		"footerTooltip": "Compartir Klip",
+		"shareAction": "Compartir Klip",
+		"title": "Compartir Klip"
+	},
+	"splash": {
+		"cancel": "Tes problemas? Configúrao manualmente",
+		"greeting": "Ola, benvido de novo!",
+		"setup": {
+			"left": {
+				"minutes_one": "falta aproximadamente {{count}} min",
+				"minutes_other": "faltan aproximadamente {{count}} min",
+				"underMinute": "falta menos dun minuto"
+			},
+			"stage": {
+				"checking": "Comprobando que todo funciona",
+				"connecting": "Conectando…",
+				"unpacking": "Descomprimindo as ferramentas multimedia",
+				"unpackingEngine": "Descomprimindo o motor de descarga"
+			},
+			"title": {
+				"both": "Actualizando as ferramentas de Klip",
+				"engine": "Actualizando o motor de descarga",
+				"firstRun": "Configuración inicial",
+				"media": "Actualizando as ferramentas multimedia"
+			}
+		},
+		"verifyFirstCheck": "Primeira comprobación desta versión: esta é lenta. Adoita levar un minuto.",
+		"verifying": "Comprobando {{binary}}…",
+		"warmup": "Preparando as descargas…",
+		"warmupFailedNoDiag": "A configuración fallou. Abre o rexistro de configuración para ver os detalles."
+	},
+	"status": {
+		"audioKept": "Vídeo gardado co seu son: non se puido quitar o audio",
+		"audioKeptSubtitlesFailed": "Vídeo gardado co seu son: non se puido quitar o audio e non se puideron descargar algúns subtítulos",
+		"cancelled": "Descarga cancelada",
+		"complete": "Descarga completada",
+		"convertingVideo": "Convertendo vídeo…",
+		"diskSpaceInsufficient": "Non hai espazo suficiente no disco: fan falta {{required}} e só hai {{free}} dispoñibles",
+		"downloadingBinary": "Descargando o binario de {{name}}…",
+		"downloadingMedia": "Descargando vídeo e audio…",
+		"embeddingMetadata": "Incorporando metadatos…",
+		"exploreSignedOut": "Sesión pechada en Explorar: inicia sesión de novo",
+		"extractingAudio": "Convertendo audio…",
+		"fetchingSponsorBlock": "Contactando con SponsorBlock…",
+		"fetchingSubtitles": "Obtendo subtítulos…",
+		"mergingFormats": "Combinando audio e vídeo…",
+		"mintingToken": "Preparando a descarga de YouTube…",
+		"movingFiles": "Movendo ficheiros…",
+		"noSubtitles": "Sen subtítulos en {{languages}}",
+		"outputNotWritable": "Non se pode gardar en {{dir}}: Klip non ten permiso para escribir alí",
+		"preparingBinaries": "Preparando binarios…",
+		"qualityLimited": "Gardado a {{height}}p: YouTube reservou as calidades superiores para esta descarga. Tentar de novo máis tarde pode axudar.",
+		"qualityLimitedSubtitlesFailed": "Gardado a {{height}}p: YouTube reservou as calidades superiores para esta descarga e non se puideron descargar algúns subtítulos. Tentar de novo máis tarde pode axudar.",
+		"remintingToken": "Preparando de novo a descarga de YouTube…",
+		"retryingSponsorBlock": "SponsorBlock non dispoñible, tentando de novo ({{attempt}}/{{total}})…",
+		"retryingTransfer": "A conexión quedou parada, tentando de novo ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Iniciando sesión coa túa conta de Explorar…",
+		"sleepingBetweenRequests": "Agardando {{seconds}} s para evitar límites de solicitudes…",
+		"startingYtdlp": "Iniciando o motor de descarga…",
+		"subtitleLanguagesMissing": "Este vídeo non ten subtítulos en {{languages}}. O vídeo gardouse sen subtítulos.",
+		"subtitleLanguagesMissingOthersSaved": "Este vídeo non ten subtítulos en {{languages}}. Os outros idiomas gardáronse.",
+		"subtitlesFailed": "Vídeo gardado: non se puideron descargar algúns subtítulos",
+		"unknownStartupFailure": "Erro descoñecido ao iniciar a descarga",
+		"usedExtractorFallback": "Descargado co extractor relaxado: configura un cookies.txt para descargas máis fiables",
+		"ytdlpExitCode": "O motor de descarga saíu co código {{code}}",
+		"ytdlpProcessError": "Erro do motor de descarga: {{error}}"
+	},
+	"theme": {
+		"dark": "Modo escuro",
+		"light": "Modo claro",
+		"system": "Predeterminado do sistema"
+	},
+	"titleBar": {
+		"close": "Pechar",
+		"maximize": "Maximizar",
+		"minimize": "Minimizar",
+		"restore": "Restaurar"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Descargar desde o portapapeis",
+			"statusActive_one": "1 descargando · {{percent}}%",
+			"statusActive_other": "{{count}} descargando · {{percent}}%",
+			"statusIdle": "Inactivo"
+		}
+	},
+	"update": {
+		"copied": "Comando copiado ao portapapeis",
+		"copy": "Copiar comando ao portapapeis",
+		"dismiss": "Ignorar o aviso de actualización",
+		"download": "Descargar ↗",
+		"downloadDmg": "Descargar DMG ↗",
+		"downloading": "Descargando…",
+		"install": "Instalar e reiniciar",
+		"installFailed": "A actualización fallou",
+		"message": {
+			"generic": "Klip {{version}} está dispoñible: tes a {{currentVersion}}.",
+			"homebrew": "Klip {{version}} está dispoñible: actualiza con Homebrew.",
+			"macosDirect": "Klip {{version}} está dispoñible: descarga o novo DMG.",
+			"macosDirectHomebrew": "Klip {{version}} está dispoñible: descarga o DMG ou cambia a Homebrew.",
+			"portable": "Klip {{version}} está dispoñible: descarga a nova compilación."
+		},
+		"retry": "Tentar de novo",
+		"runAndRestart": "Executar e reiniciar",
+		"upgrading": "Actualizando…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} capítulo",
+		"chapters_other": "{{count}} capítulos",
+		"titlePlaceholder": "Cargando…"
+	},
+	"videoCodec": {
+		"h264": "Primeiro H.264",
+		"label": "Códec de vídeo",
+		"smartTv": "Smart TV toma sempre H.264.",
+		"vp9": "Primeiro VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Listos",
+			"description": "Pega URLs de vídeos, listas de reprodución, canles, buscas ou audio. Klip eliminará os duplicados antes de poñer en cola.",
+			"emptyPreview": "Pega unha ou máis URLs para previsualizar o lote.",
+			"ignoredCount": "Ignorados",
+			"needsAtLeastOne": "Engade polo menos unha URL compatible para continuar.",
+			"reject": {
+				"duplicate": "Duplicado"
+			},
+			"textareaLabel": "Lista de URLs",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "URLs en lote"
+		},
+		"confirm": {
+			"addToQueue": "+ Cola",
+			"addToQueueTooltip": "Engade á cola: comeza cando remate a descarga activa",
+			"itemsValueAudio_one": "{{count}} de {{total}} pista",
+			"itemsValueAudio_other": "{{count}} de {{total}} pistas",
+			"itemsValueBulk_one": "{{count}} de {{total}} URL",
+			"itemsValueBulk_other": "{{count}} de {{total}} URLs",
+			"itemsValue_one": "{{count}} de {{total}} vídeo",
+			"itemsValue_other": "{{count}} de {{total}} vídeos",
+			"labelAudio": "Audio",
+			"labelBulk": "Lote",
+			"labelItems": "Elementos",
+			"labelPlaylist": "Lista de reprodución",
+			"labelPreset": "Calidade",
+			"labelSaveTo": "Gardar en",
+			"labelSize": "Tamaño",
+			"labelSubtitles": "Subtítulos",
+			"labelVideo": "Vídeo",
+			"landIn": "O teu ficheiro gardarase en",
+			"landInMultiProfile_one": "Gardarase no destino de abaixo",
+			"landInMultiProfile_other": "Gardaranse nos {{count}} destinos de abaixo",
+			"nothingToDownload": "O perfil Só subtítulos está activo, pero non hai ningún idioma de subtítulos seleccionado: non se descargará nada.",
+			"profileBreakdownCount_one": "{{count}} elemento",
+			"profileBreakdownCount_other": "{{count}} elementos",
+			"profileBreakdownHeading": "Perfís neste lote",
+			"pullIt": "Descárgao! ↓",
+			"pullItTooltip": "Salta a cola: comeza agora e execútase xunto coas outras descargas activas",
+			"readyHeadline": "Listo para descargar!",
+			"sizeUnknown": "Descoñecido",
+			"subtitleEmbedAudioOnly": "A incorporación de subtítulos cambiou a ficheiro á parte: as pistas de audio non admiten fluxos de subtítulos incorporados.",
+			"subtitleEmbedForcesMkv": "Os subtítulos dentro do vídeo precisan un ficheiro MKV, así que esta descarga gárdase como .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Omitiuse a incorporación da miniatura: o contedor de saída non a admite."
+		},
+		"folder": {
+			"custom": "Personalizado…",
+			"desktop": "Escritorio",
+			"documents": "Documentos",
+			"downloads": "Descargas",
+			"heading": "Gardar en",
+			"home": "Inicio",
+			"music": "Música",
+			"pictures": "Imaxes",
+			"subfolder": {
+				"invalid": "O nome do cartafol ten caracteres non válidos",
+				"placeholder": "p. ex., clases",
+				"toggle": "Gardar nun subcartafol"
+			},
+			"videos": "Películas"
+		},
+		"formats": {
+			"audio": "Audio",
+			"audioLanguage": "Idioma do audio",
+			"audioLanguageCount_one": "{{count}} idioma",
+			"audioLanguageCount_other": "{{count}} idiomas",
+			"bitrateValue": "Taxa de bits {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "As cookies están configuradas pero desactivadas. Actívaas e tenta de novo para obter a lista completa, ou cambia de rede e tenta de novo.",
+				"bodyEnabled": "Mesmo con cookies, YouTube limitou esta análise. Tenta de novo máis tarde ou cambia de rede.",
+				"bodyExplore": "YouTube limitou esta solicitude. Tenta de novo máis tarde ou cambia de rede.",
+				"bodyUnconfigured": "Pode que a lista de formatos estea incompleta. Configura as cookies na configuración avanzada ou cambia de rede e tenta de novo.",
+				"enableRetryCta": "Activar cookies e tentar de novo",
+				"heading": "A análise foi limitada",
+				"retryCta": "Tentar de novo"
+			},
+			"convert": {
+				"bitrate": "Taxa de bits",
+				"bitrateCopyHint": "Unha orixe que xa é {{target}} mantén o seu propio fluxo e taxa de bits: cópiase, non se recodifica.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, sen recodificar",
+				"copyLabelNoBitrate": "{{target}}, sen recodificar",
+				"copyNote": "{{kbps}} kbps, tal e como o ten a orixe: o fluxo xa é {{target}}, así que se copia, non se recodifica",
+				"copyNoteNoBitrate": "Tal e como o ten a orixe: o fluxo xa é {{target}}, así que se copia, non se recodifica",
+				"label": "Converter",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "A orixe é de {{kbps}} kbps",
+				"wavLabel": "WAV (sen comprimir)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Navegador",
+				"currentModeExplore": "Inicio de sesión en Explorar",
+				"currentModeFile": "Ficheiro",
+				"currentModeLabel": "Orixe das cookies",
+				"dpapi": {
+					"docsLinkLabel": "Documentación de yt-dlp (incidencia #10927)",
+					"explanation": "Chrome 127 e posteriores cifra as cookies dun xeito que outras aplicacións non poden ler en Windows. Proba unha das solucións alternativas de abaixo.",
+					"fixFileBody": "Exporta as cookies de Chrome cunha extensión do navegador, cambia esta aplicación ao modo Ficheiro e escolle o ficheiro exportado.",
+					"fixFileLabel": "Exportar cookies.txt",
+					"fixFirefoxBody": "Firefox non usa o cifrado vinculado á aplicación. Abre a configuración de cookies e escolle Firefox na lista de navegadores.",
+					"fixFirefoxLabel": "Cambiar a Firefox",
+					"fixUnsafeBody": "Engade --disable-features=LockProfileCookieDatabase ao atallo de inicio de Chrome. Aviso: isto invalida as cookies cifradas anteriormente, polo que se pechará a túa sesión en todos os sitios e terás que iniciala de novo.",
+					"fixUnsafeLabel": "Iniciar Chrome co cifrado vinculado á aplicación desactivado",
+					"heading": "Cookies de Chrome bloqueadas polo cifrado de Windows"
+				},
+				"explanationBrowser": "As cookies lense directamente do navegador. Se o navegador está en execución, a súa base de datos de cookies pode estar bloqueada (familia Chromium). Ademais, o navegador debe ter a sesión iniciada en YouTube. Proba a pechar o navegador, cambiar a outro navegador, cambiar ao modo Ficheiro ou desactivar as cookies.",
+				"explanationFile": "O teu ficheiro de cookies pode estar baleiro, caducado ou nun formato incorrecto (Klip necesita un ficheiro cookies.txt de Netscape). Proba a exportar as cookies de novo, escoller outro ficheiro, cambiar ao modo Navegador ou desactivar as cookies.",
+				"exploreOffer": {
+					"body": "Inicia sesión en Explorar e Klip tentarao de novo.",
+					"cta": "Iniciar sesión en Explorar",
+					"heading": "Este vídeo pode requirir unha conta de YouTube"
+				},
+				"exploreRefused": {
+					"body": "Klip xa o tentou coa sesión iniciada en Explorar, así que iniciar sesión outra vez non axudará. Pode que o sitio teña problemas ou que esta conta non o poida abrir. Tenta de novo máis tarde.",
+					"heading": "O sitio rexeitouno mesmo co teu inicio de sesión en Explorar"
+				},
+				"exploreReuse": {
+					"body": "Tes a sesión iniciada en Explorar, pero as descargas non están usando ese inicio de sesión agora.",
+					"cta": "Usar o meu inicio de sesión de Explorar e tentar de novo",
+					"heading": "Este vídeo pode requirir unha conta de YouTube"
+				},
+				"exploreSignIn": {
+					"body": "Se este vídeo precisa unha conta de YouTube, inicia sesión en Explorar e tenta de novo. Klip usa ese inicio de sesión só cando unha descarga o precisa.",
+					"cta": "Iniciar sesión en Explorar",
+					"heading": "Este vídeo pode requirir unha conta de YouTube"
+				},
+				"exploreSignedIn": {
+					"body": "Se este vídeo precisa unha conta, Klip usa automaticamente o teu inicio de sesión en Explorar. Pode non estar dispoñible por outro motivo.",
+					"heading": "Sesión iniciada en Explorar"
+				},
+				"exploreSite": {
+					"heading": "Esta ligazón pode requirir unha conta en {{host}}",
+					"offerBody": "Inicia sesión en {{host}} con Explorar e tenta de novo.",
+					"signInBody": "Inicia sesión en {{host}} en Explorar e tenta de novo. Klip usa ese inicio de sesión só cando unha descarga o precisa."
+				},
+				"heading": "As cookies poden ser a causa",
+				"needsCookies": {
+					"body": "Klip non puido acceder a este vídeo sen autenticación. Configura as cookies na configuración avanzada: apúntaas a un navegador no que xa teñas a sesión iniciada ou importa un ficheiro cookies.txt.",
+					"heading": "Este sitio require iniciar sesión"
+				},
+				"openSettingsCta": "Abrir configuración das cookies",
+				"otherCookiesCta": "Usar un ficheiro de cookies ou un navegador…"
+			},
+			"drc": {
+				"description": "Suaviza as partes fortes e reforza as débiles, para altofalantes e lugares con ruído.",
+				"label": "Igualar o volume (DRC)",
+				"tag": "Volume igualado"
+			},
+			"fit": {
+				"mp4Unavailable": "O teu perfil é Smart TV (H.264). Este vídeo non ofrece H.264, así que se selecciona o fluxo máis próximo.",
+				"noVideo": "Esta ligazón non ten vídeo, así que se selecciona o audio.",
+				"subtitlesMissing": "O teu perfil pide subtítulos en {{languages}}. Este vídeo non os ten.",
+				"tierAbove": "O teu perfil pide {{wanted}}p. Este vídeo non ten nada tan pequeno, así que se selecciona {{picked}}p.",
+				"tierAbovePassedOver": "O teu perfil pide {{wanted}}p. Os fluxos máis pequenos deste vídeo non encaixan co resto do teu perfil, así que se selecciona {{picked}}p.",
+				"tierBelowTakeable": "O teu perfil pide {{wanted}}p. Este vídeo non ten ningún {{wanted}}p que se poida usar, así que se selecciona {{picked}}p.",
+				"tierPassedOverAiUpscaled": "O teu perfil pide {{wanted}}p. O {{wanted}}p deste vídeo está reescalado con IA, así que se selecciona o {{picked}}p orixinal.",
+				"tierPassedOverH264": "O teu perfil pide {{wanted}}p en H.264. Este vídeo só ten {{wanted}}p noutros códecs, así que se selecciona {{picked}}p en H.264.",
+				"tierPassedOverProfile": "O teu perfil pide {{wanted}}p. O {{wanted}}p deste vídeo non encaixa co resto do teu perfil, así que se selecciona {{picked}}p.",
+				"webmUnavailable": "O teu perfil pide WebM. Os fluxos escollidos para este vídeo inclúen {{codec}}, que WebM non pode conter, así que o tipo de ficheiro é Automático."
+			},
+			"footer": {
+				"addToQueue": "Engadir á cola sen comezar",
+				"download": "Descargar",
+				"moreActions": "Máis opcións de descarga",
+				"subtitlesRequired": "Escolle polo menos un idioma de subtítulos."
+			},
+			"keepAudio": "Manter tal cal",
+			"keepAudioMeta": "Audio integrado",
+			"kind": {
+				"audio": "Só audio",
+				"label": "Que descargar",
+				"subtitles": "Só subtítulos",
+				"video": "Vídeo + audio",
+				"videoOnly": "Vídeo, sen audio"
+			},
+			"loadingAria": "Cargando formatos",
+			"loadingHint": "Agarda a que remate a análise: as listas de reprodución e as buscas poden tardar un pouco.",
+			"marker": {
+				"aiDubbed": "Dobrado con IA",
+				"aiUpscaled": "Escalado con IA",
+				"audioDescription": "Audiodescrición",
+				"damaged": "Danado",
+				"enhancedBitrate": "Taxa de bits mellorada",
+				"original": "Orixinal",
+				"spatialAudio": "Audio espacial",
+				"vr": "360° / RV",
+				"watermarked": "Con marca de auga"
+			},
+			"noAudio": "Sen audio",
+			"profile": {
+				"calloutBody": "O teu perfil activo preselecciona os fluxos por ti. Cambia de perfil desde o menú ou usa o lapis para axustar un sen saír desta descarga.",
+				"calloutTitle": "Os formatos parten do teu perfil",
+				"closestTag": "O máis próximo ao perfil",
+				"edit": "Editar {{name}}",
+				"keepEdits": "Manter os meus cambios",
+				"menuDescription": "Só para esta descarga. O teu perfil predeterminado queda como está.",
+				"preselected": "Preseleccionado desde",
+				"resetAll": "Restablecer todo",
+				"switchBody": "Cambiaches {{areas}} para esta descarga. “{{profile}}” escolle o vídeo e o audio en calquera caso. Queres manter os teus outros cambios ou restablecer todo segundo o perfil?",
+				"switchTitle": "Cambiar de perfil?",
+				"tag": "Perfil",
+				"updatedBody": "Cambiaches {{areas}} para esta descarga. O perfil actualizado escolle o vídeo e o audio en calquera caso. Queres manter os teus outros cambios ou restablecer todo segundo o perfil?",
+				"updatedTitle": "Usar o perfil actualizado?"
+			},
+			"quality": {
+				"high": "Calidade alta",
+				"low": "Calidade baixa",
+				"medium": "Calidade media"
+			},
+			"rateLimit": {
+				"heading": "{{site}} está limitando esta conexión",
+				"leadDegraded": "Pode que a lista de formatos estea incompleta.",
+				"leadFailed": "{{site}} rexeitou esta solicitude polo momento.",
+				"retryCta": "Tentar de novo",
+				"sessionNote": "{{site}} pode manter este límite ata unha hora.",
+				"tryNowCta": "Tentar agora",
+				"waitOver": "A espera rematou, así que podes tentalo de novo.",
+				"waitUntil": "Klip agarda ata as {{time}} antes de volver preguntar a {{site}}, para que o límite se levante."
+			},
+			"resolutionUnknown": "Resolución descoñecida",
+			"savesAs": {
+				"label": "Gárdase como",
+				"reset": "WebM non pode conter {{codec}}, así que o tipo de ficheiro volveu a Automático."
+			},
+			"sizeUnknown": "Tamaño descoñecido",
+			"skipToConfirm": "Ir á confirmación",
+			"skipToConfirmTooltip": "Usa as túas preferencias gardadas en todos os pasos restantes. Para cambiar unha opción, continúa paso a paso: a túa escolla gardarase para a próxima vez.",
+			"sniffing": "Buscando os mellores formatos para ti…",
+			"total": "Total",
+			"video": "Vídeo",
+			"withAudio": "con audio"
+		},
+		"listPrompt": {
+			"backgroundHint": "Con {{profileName}}. Se ten máis de {{count}} vídeos, Descargas pregunta cantos.",
+			"backgroundLabel": "Descargar en segundo plano",
+			"escOnly": "Esc cancela.",
+			"firstHint": "Exactamente os primeiros {{count}}, con {{profileName}}.",
+			"firstLabel": "Descargar os primeiros",
+			"interactiveHint": "Escolle entre os primeiros {{count}} vídeos (ou cambia a cantidade no seguinte paso) e despois configura a descarga.",
+			"interactiveLabel": "Descarga interactiva…",
+			"limitHint": "Cantos vídeos se collen da lista: a primeira opción pregunta se se supera ese número, a segunda colle exactamente esa cantidade. É o mesmo que Configuración › Elementos da lista a analizar.",
+			"limitLabel": "Límite",
+			"mixNote": "Un Mix cambia cada vez que o abres.",
+			"pickLoadAfter": "para escoller.",
+			"pickLoadBefore": "Carga os primeiros",
+			"pickLoadNote": "Podes cambialo no seguinte paso.",
+			"pickTitle": {
+				"album": "Escoller deste álbum",
+				"liked": "Escoller dos teus vídeos que che gustan",
+				"mix": "Escoller deste Mix",
+				"playlist": "Escoller desta lista",
+				"uploads": "Escoller dos vídeos subidos desta canle",
+				"watchLater": "Escoller de Ver máis tarde"
+			},
+			"title": {
+				"album": "Descargar deste álbum",
+				"liked": "Descargar dos teus vídeos que che gustan",
+				"mix": "Descargar deste Mix",
+				"playlist": "Descargar desta lista",
+				"uploads": "Descargar dos vídeos subidos desta canle",
+				"watchLater": "Descargar de Ver máis tarde"
+			},
+			"videoHint": "Só o vídeo que abriches, con {{profileName}}. A lista non se carga.",
+			"videoLabel": "Só este vídeo",
+			"videoPickHint": "Configura só o vídeo que abriches. A lista non se carga.",
+			"withProfile": "Con {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Marcadores de capítulos navegables en calquera reprodutor moderno.",
+				"label": "Incorporar capítulos",
+				"short": "capítulos"
+			},
+			"embedMetadata": {
+				"description": "Título, artista, descrición e data de publicación escritos no ficheiro.",
+				"label": "Incorporar metadatos",
+				"short": "metadatos"
+			},
+			"embedThumbnail": {
+				"description": "Portada dentro do ficheiro. O vídeo WebM remuxarase a MKV; omítese cando se incorporan subtítulos.",
+				"label": "Incorporar miniatura",
+				"short": "portada"
+			},
+			"writeDescription": {
+				"description": "Garda a descrición do vídeo nun ficheiro de texto .description xunto á descarga.",
+				"label": "Gardar descrición",
+				"short": "ficheiro de descrición"
+			},
+			"writeM3u": {
+				"description": "Garda unha lista .m3u xunto cos vídeos para que se abran en orde no teu reprodutor multimedia.",
+				"label": "Xerar ficheiro de lista .m3u"
+			},
+			"writeThumbnail": {
+				"description": "Garda a miniatura como ficheiro de imaxe .jpg xunto á descarga.",
+				"label": "Gardar miniatura",
+				"short": "ficheiro de miniatura"
+			}
+		},
+		"part": {
+			"calloutBody": "Cambia a Parte na tarxeta do vídeo para escoller un inicio e un final, ou un capítulo, e descargar só ese treito.",
+			"calloutTitle": "Descarga só unha parte dun vídeo",
+			"chapterUntitled": "Capítulo {{number}}",
+			"chapters": "Capítulos",
+			"connectionsNote": "Unha parte descárgase mediante ffmpeg, así que as túas opcións de conexións de descarga e ritmo non se lle aplican.",
+			"downloadBlocked": "Corrixe primeiro o inicio e o final da parte.",
+			"end": "Final",
+			"error": {
+				"endBeyondDuration": "O vídeo remata en {{duration}}.",
+				"endInvalid": "Introduce o final como h:mm:ss, m:ss ou segundos.",
+				"startInvalid": "Introduce o inicio como h:mm:ss, m:ss ou segundos.",
+				"startNotBeforeEnd": "O inicio debe ser anterior ao final."
+			},
+			"exactCut": {
+				"hint": "Desactivado: cada corte cae no fotograma clave máis próximo, que pode estar a uns segundos do tempo que escribiches.",
+				"label": "Corte exacto (recodifica, máis lento)"
+			},
+			"length": "{{length}} de {{duration}}",
+			"part": "Parte",
+			"rangeLabel": "Parte do vídeo",
+			"start": "Inicio",
+			"subtitlesFullLength": "vídeo completo",
+			"summary": "Parte {{start}}–{{end}}",
+			"switchLabel": "Canto do vídeo",
+			"timeHint": "h:mm:ss, m:ss ou segundos",
+			"totalEstimate": "Parte, estimado",
+			"unavailableDuration": "Este vídeo non informa da súa duración, así que só se pode descargar completo.",
+			"unavailableSubtitles": "Os subtítulos cobren sempre o vídeo completo.",
+			"urlStart": "A túa ligazón comeza en {{time}}",
+			"useUrlStart": "Usar como inicio",
+			"whole": "Vídeo completo",
+			"wholeTrack": "Pista completa"
+		},
+		"playlist": {
+			"allRemovedDescription": "Restáurao para continuar.",
+			"allRemovedTitle": "Quitáronse todos os elementos",
+			"alreadyDownloaded": "Xa descargado",
+			"bulkCappedDesc_one": "Ten máis. Para escoller cantos, pega a súa ligazón por separado.",
+			"bulkCappedDesc_other": "Teñen máis. Para escoller cantos, pega cada ligazón por separado.",
+			"bulkCappedTitle_one": "A lista “{{title}}” está limitada a {{limit}} vídeos",
+			"bulkCappedTitle_other": "{{count}} listas están limitadas a {{limit}} vídeos cada unha",
+			"bulkHeading": "URLs en lote",
+			"bulkMetadataOptional": "Non fai falta esperar: os ficheiros postos en cola agora tamén reciben os seus nomes reais ao descargarse.",
+			"bulkMetadataResolving": "Obtendo detalles dos vídeos… {{done}}/{{total}}",
+			"bulkRowFailed": "Detalles non dispoñibles",
+			"bulkRowResolving": "Obtendo detalles",
+			"bulkRowWaiting": "Agardando",
+			"durationUnknown": "en directo",
+			"heading": "Elementos da lista de reprodución",
+			"headingGeneric": "Vídeos para descargar",
+			"itemCountAudio_one": "{{count}} pista",
+			"itemCountAudio_other": "{{count}} pistas",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URLs",
+			"itemCount_one": "{{count}} vídeo",
+			"itemCount_other": "{{count}} vídeos",
+			"loadingItems": "Obtendo a lista de reprodución…",
+			"loadingItemsGeneric": "Obtendo vídeos…",
+			"loadingLimitHint": "Limitado aos primeiros {{count}} elementos",
+			"loadingPagesFound_one": "{{count}} páxina atopada",
+			"loadingPagesFound_other": "{{count}} páxinas atopadas",
+			"loadingPhaseItems": "Recompilando vídeos",
+			"loadingPhasePages": "Analizando as páxinas da canle",
+			"multiProfileEntry": "Asignar perfís por elemento",
+			"multiProfileEntryTooltip": "Omite Calidade, SponsorBlock, Saída e Gardar: asigna un perfil de descarga a cada elemento",
+			"nestedPlaylistBadge": "Lista de reprodución",
+			"nestedPlaylistHint_one": "{{count}} destes é unha lista de reprodución, non un vídeo: pega a súa ligazón soa para descargala.",
+			"nestedPlaylistHint_other": "{{count}} destes son listas de reprodución, non vídeos: pega as súas ligazóns unha a unha para descargalas.",
+			"noSelection": "Selecciona polo menos un vídeo para continuar",
+			"probeLimitAlertDesc": "Amósanse os primeiros {{count}} elementos. Aumenta o límite de carga para ver máis.",
+			"probeLimitAlertTitle": "A análise da lista de reprodución ten un límite",
+			"probeLimitAlertTitleGeneric": "A análise ten un límite",
+			"rangeApply": "Aplicar intervalo",
+			"rangeFrom": "Desde",
+			"rangeTo": "Ata",
+			"removeFromListCount_one": "Quitar {{count}} da lista",
+			"removeFromListCount_other": "Quitar {{count}} da lista",
+			"removedCount_one": "{{count}} quitado",
+			"removedCount_other": "{{count}} quitados",
+			"restore": "Restaurar",
+			"selectAll": "Seleccionar todo",
+			"selectNone": "Non seleccionar ningún",
+			"selectedCount_one": "{{count}} seleccionado",
+			"selectedCount_other": "{{count}} seleccionados",
+			"sortApi": "Orde da lista",
+			"sortFetchingDates": "Obtendo as datas de publicación…",
+			"sortLabel": "Ordenar",
+			"sortUploadAsc": "Máis antigos primeiro",
+			"sortUploadDesc": "Máis novos primeiro",
+			"syncApply": "Aplicar sincronización",
+			"syncChange": "Cambiar cartafol…",
+			"syncFoundDesc": "{{n}} destes vídeos xa están en {{dir}}. Sincronizar para descargar só os novos?",
+			"syncFoundTitle": "Xa están no cartafol",
+			"syncNoneDesc": "Non se atopou ningún vídeo desta lista de reprodución en {{dir}}.",
+			"syncNoneDescGeneric": "Non se atopou ningún vídeo desta orixe en {{dir}}.",
+			"syncNoneTitle": "Aínda non se descargou nada",
+			"syncScanning": "Comprobando o cartafol…",
+			"thumbnailAlt": "Miniatura do vídeo"
+		},
+		"playlistPresets": {
+			"heading": "Escolle a calidade do lote",
+			"itemCount_one": "{{count}} elemento",
+			"itemCount_other": "{{count}} elementos",
+			"subhead": "Cada vídeo resolve o nivel escollido por separado: as listas de reprodución heteroxéneas funcionan sen sorpresas."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Asignar perfil",
+			"assignTrigger_one": "Asignar a {{count}} vídeo",
+			"assignTrigger_other": "Asignar a {{count}} vídeos",
+			"columnDuration": "Duración",
+			"columnProfile": "Perfil",
+			"editProfile": "Editar {{name}}",
+			"empty": "Ningún elemento coincide con este filtro",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Filtros de perfil",
+			"heading": "Asignar perfís de descarga",
+			"menuDescription_one": "Escolle o perfil para este vídeo.",
+			"menuDescription_other": "Escolle o perfil para estes {{count}} vídeos.",
+			"selectedSummary": "{{selected}} de {{total}} seleccionados"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Cambiar global",
+				"chooseFolder": "Escoller cartafol de destino",
+				"chooseIcon": "Escoller icona do perfil",
+				"removeLanguage": "Quitar {{code}}",
+				"reset": "Restablecer perfil",
+				"resetDisabledHint": "Este perfil xa usa a configuración integrada",
+				"resetHint": "Restaura a configuración integrada do perfil",
+				"save": "Gardar perfil",
+				"setOverride": "Definir sobrescritura do perfil",
+				"setOverrideShort": "Definir sobrescritura",
+				"useGlobalDefault": "Usar o valor global predeterminado",
+				"useLanguageCode": "Usar o código de idioma “{{code}}”"
+			},
+			"advanced": "Avanzado",
+			"appSetting": "Usar a configuración da aplicación ({{value}})",
+			"audioFormat": {
+				"best": "Mellor",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Ata 128K",
+				"192": "Ata 192K",
+				"320": "Ata 320K",
+				"best": "Mellor calidade"
+			},
+			"defaultName": "Perfil novo",
+			"destination": {
+				"defaultFolder": "Cartafol de descargas predeterminado",
+				"defaultFolderWithSubfolder": "Cartafol de descargas predeterminado / {{subfolder}}",
+				"global": "Destino global",
+				"globalActive": "Activo",
+				"globalInherited": "Herdado",
+				"override": "Sobrescritura do perfil",
+				"overrideChoosing": "Escoller cartafol",
+				"overrideNone": "Sen sobrescritura definida",
+				"overrideNoneNote": "Sen sobrescritura definida. Este perfil usa o destino global de arriba.",
+				"overrideSet": "Substitúe o global",
+				"overrideSetNote": "Este perfil garda na súa propia raíz antes de engadir o subcartafol.",
+				"resolved": "Destino resultante"
+			},
+			"dialogDescription": "Unha configuración reutilizable para Descarga rápida, URLs en lote e listas de reprodución.",
+			"dialogTitle": "Perfil de descarga",
+			"error": {
+				"changeGlobalDestination": "Non se puido cambiar o destino global.",
+				"folderPicker": "Non se puido abrir o selector de cartafoles. Introduce unha ruta manualmente.",
+				"reset": "Non se puido restablecer a configuración do perfil.",
+				"save": "Non se puido gardar a configuración do perfil."
+			},
+			"field": {
+				"delivery": "Entrega",
+				"fileType": "Tipo de ficheiro",
+				"goal": "Optimizar para",
+				"icon": "Icona do perfil",
+				"languages": "Idiomas",
+				"name": "Nome do perfil",
+				"nameAndIcon": "Nome e icona do perfil",
+				"nativeAudio": "Audio nativo",
+				"overridePath": "Ruta de sobrescritura do perfil",
+				"quality": "Calidade",
+				"resolution": "Resolución",
+				"source": "Orixe",
+				"subfolderName": "Nome do subcartafol",
+				"subtitleDownloads": "Descargas de subtítulos",
+				"subtitleDownloadsDescription": "Os perfís piden códigos de idioma; a dispoñibilidade resólvese para cada URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "A imaxe máis nítida para un tamaño dado. Os televisores máis antigos, QuickTime e algúns editores non o poden reproducir.",
+					"name": "Mellor imaxe",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Reprodúcese en televisores, teléfonos, WhatsApp, QuickTime e editores de vídeo. YouTube ofrece H.264 só ata 1080p.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Arquivo",
+				"audio": "Audio",
+				"captions": "Subtítulos",
+				"classes": "Clases",
+				"clip": "Clip",
+				"controls": "Controis",
+				"download": "Descarga",
+				"music": "Música",
+				"podcast": "Podcast",
+				"video": "Vídeo"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Música ou podcasts"
+				},
+				"subtitlesOnly": {
+					"description": "Só ficheiros de subtítulos"
+				},
+				"videoAudio": {
+					"description": "Ficheiros de vídeo normais"
+				},
+				"videoOnly": {
+					"description": "Só vídeo sen son"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Os subtítulos automáticos gardaranse como SRT en vez de ASS.",
+				"noLanguageMatches": "Ningún idioma coincide",
+				"noSubtitles": "Non se pedirán ficheiros de subtítulos nin pistas de subtítulos incorporadas para este perfil.",
+				"searchLanguages": "Busca polo nome ou o código do idioma",
+				"skippedForOutputType": "Omitido para este tipo de saída.",
+				"subtitleLanguagesRequired": "Escolle polo menos un idioma.",
+				"subtitleLanguagesRequiredOrOff": "Escolle polo menos un idioma ou desactiva as descargas de subtítulos.",
+				"subtitlesOnly": "Este perfil pon en cola só ficheiros de subtítulos. Omítense o vídeo, o audio, SponsorBlock e a conversión multimedia."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Os perfís herdan o destino global a non ser que definas unha sobrescritura do perfil.",
+					"title": "Opcións avanzadas"
+				},
+				"downloadType": {
+					"description": "Escolle a forma principal na que queres descargar.",
+					"title": "Tipo de descarga"
+				},
+				"identity": {
+					"description": "Nome e icona que se amosan en Descarga rápida, URLs en lote e nas listas de perfís.",
+					"title": "Identidade do perfil"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} activada",
+					"enabledCount_other": "{{count}} activadas",
+					"title": "Opcións de saída"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Escolle un cartafol para este perfil"
+			},
+			"skipped": "Omitido",
+			"sponsorBlockHint": {
+				"mark": "Marca os segmentos patrocinados como capítulos (non destrutivo).",
+				"off": "Sen SponsorBlock: o vídeo reprodúcese tal e como se subiu.",
+				"remove": "Corta os segmentos patrocinados do vídeo con FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Só xerados automaticamente",
+				"manualAndAuto": "Manuais e automáticos",
+				"manualFirst": "Primeiro manuais, despois automáticos",
+				"manualOnly": "Só manuais"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Axuda de {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "extras",
+				"fileName": "nome do ficheiro",
+				"format": "formato",
+				"saveTo": "cartafol",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "subtítulos"
+			},
+			"callout": {
+				"body": "Os subtítulos, SponsorBlock, os extras como a miniatura, o cartafol e o nome do ficheiro eran antes pasos separados. Fai clic nunha fila para cambiala.",
+				"title": "Agora todas as demais opcións están nesta páxina"
+			},
+			"changeFormat": "Cambiar formato",
+			"changed": "Cambiado respecto de {{profile}}: {{areas}}. Aplícase só a esta descarga.",
+			"changedFrom": "Cambiado respecto de {{profile}}:",
+			"nextTime": {
+				"action": "Gardar como perfil",
+				"defaultName": "{{profile}} (editado)",
+				"title": "Esta descarga usou opcións editadas. Queres usalas a próxima vez?"
+			},
+			"reset": "Desfacer os cambios e volver a “{{profile}}”",
+			"rows": {
+				"extras": "Extras",
+				"fileName": "Nome do ficheiro",
+				"saveTo": "Gardar en",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Subtítulos"
+			},
+			"rowsHeading": "Todo o demais",
+			"save": {
+				"action": "Gardar perfil",
+				"description": "Garda estas opcións como un perfil que poderás escoller a próxima vez. O teu perfil de Descarga rápida queda igual.",
+				"failed": "Non se puido gardar o perfil.",
+				"nameLabel": "Nome do perfil",
+				"saved": "Gardado como perfil “{{name}}”",
+				"title": "Gardar como perfil"
+			},
+			"saveAsProfile": "Gardar como perfil novo",
+			"update": {
+				"action": "Actualizar perfil",
+				"builtinNote": "Este é un perfil integrado. Podes restaurar a súa configuración orixinal na lapela Perfís.",
+				"description": "A partir de agora, todas as descargas con este perfil usarán a nova configuración.",
+				"rows": {
+					"format": "Formato"
+				},
+				"title": "Actualizar “{{profile}}”?",
+				"updated": "Perfil “{{name}}” actualizado"
+			},
+			"updateProfile": "Actualizar “{{profile}}” con estes cambios",
+			"value": {
+				"extrasNone": "Ningún",
+				"sponsorBlockOff": "Desactivado",
+				"subtitlesOff": "Desactivados"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Recheo",
+				"intro": "Introdución",
+				"music_offtopic": "Música alleo ao tema",
+				"outro": "Peche",
+				"preview": "Avance",
+				"selfpromo": "Autopromoción",
+				"sponsor": "Patrocinio"
+			},
+			"categoriesHeading": "Categorías",
+			"mode": {
+				"mark": "Marcar como capítulos",
+				"off": "Desactivado",
+				"remove": "Quitar segmentos"
+			},
+			"modeHeading": "Filtrado de patrocinios",
+			"modeHint": {
+				"mark": "Marca os segmentos patrocinados como capítulos (non destrutivo).",
+				"off": "Sen SponsorBlock: o vídeo reprodúcese tal e como se subiu.",
+				"remove": "Corta os segmentos patrocinados do vídeo con FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Confirmar",
+			"folder": "Gardar",
+			"formats": "Formato",
+			"output": "Saída",
+			"playlistItems": "Lista",
+			"playlistItemsGeneric": "Vídeos",
+			"playlistPresets": "Calidade",
+			"playlistProfiles": "Perfís",
+			"review": "Revisión",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Subtítulos",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Os subtítulos automáticos gardaranse como SRT en vez de ASS: nos vídeos de YouTube límpanse da duplicación de pistas en cascata, algo que o noso conversor de ASS aínda non pode replicar.",
+			"autoBadge": "Auto",
+			"clearAll": "Borrar todo",
+			"embedNote": "O modo incorporado garda a saída como .mkv para que as pistas de subtítulos se incorporen de forma fiable.",
+			"format": {
+				"heading": "Formato"
+			},
+			"noLanguages": "Non hai subtítulos dispoñibles para este vídeo",
+			"noMatches": "Ningún idioma coincide",
+			"noSelected": "Ningún subtítulo seleccionado",
+			"removeLanguage": "Quitar {{name}}",
+			"saveMode": {
+				"embed": "Incorporar ao vídeo",
+				"heading": "Gardar como",
+				"sidecar": "Xunto ao vídeo",
+				"sidecarNoVideo": "No cartafol de descargas",
+				"subfolder": "Subcartafol subtitles/"
+			},
+			"searchPlaceholder": "Buscar idiomas…",
+			"sectionAuto": "Xerados automaticamente",
+			"sectionManual": "Manuais"
+		},
+		"tabsNavAria": "Navegación de perfís de descarga",
+		"url": {
+			"advanced": "Avanzado",
+			"autoRemoveCompleted": {
+				"description": "Quita unha descarga da lista de Descargas uns segundos despois de rematar. Os ficheiros quedan no teu cartafol; as descargas fallidas e canceladas quedan na lista.",
+				"label": "Quitar as descargas rematadas"
+			},
+			"autoRetry": {
+				"description": "Tenta de novo automaticamente tras un fallo de rede ou servidor, agardando máis entre cada intento. As descargas bloqueadas polo sitio nunca se reintentan automaticamente.",
+				"label": "Tentar de novo as descargas fallidas",
+				"unit": "veces"
+			},
+			"bulkButton": "URLs en lote",
+			"bulkTooltip": "Engade e pon en cola varias URLs.",
+			"clearAria": "Borrar URL",
+			"clipboard": {
+				"autofilledLink": "Ligazón engadida desde o portapapeis",
+				"bulkHint": "Copiáronse varias ligazóns: usa URLs en lote para engadilas",
+				"dialog": {
+					"cancelButton": "Cancelar"
+				},
+				"noLink": "Non hai ningunha ligazón no portapapeis",
+				"readFailed": "Non se puido ler o portapapeis: pega a ligazón no campo",
+				"replacedLink": "Substituída pola ligazón copiada",
+				"toggle": "Vixiar o portapapeis",
+				"toggleDescription": "Énchese o campo da URL automaticamente cando copias a ligazón dun vídeo.",
+				"undo": "Desfacer"
+			},
+			"closeToTray": {
+				"toggle": "Agochar na bandexa ao pechar",
+				"toggleDescription": "Continúa as descargas en segundo plano despois de pechar a xanela."
+			},
+			"concurrentDownloads": {
+				"description": "Cantos elementos da cola se descargan ao mesmo tempo. Cantos máis á vez, antes remata unha cola longa, pero hai máis risco de que un sitio te limite.",
+				"label": "Descargas simultáneas",
+				"unit": "descargas"
+			},
+			"concurrentProbes": {
+				"description": "Cantas ligazóns consulta Klip á vez para obter os seus datos, antes de descargalas. Menos é máis amable cos sitios que bloquean conexións moi activas. Unha ligazón que abras en Descarga interactiva vai sempre primeiro.",
+				"label": "Ligazóns comprobadas á vez",
+				"unit": "ligazóns"
+			},
+			"cookies": {
+				"banWarning": "Sitios como YouTube poden marcar, e ás veces vetar, as contas cuxas cookies usan ferramentas de descarga como Klip. Usa unha conta desbotable se é posible.",
+				"browserHelp": "Le as cookies directamente do navegador. O navegador debe estar pechado nos da familia Chromium.",
+				"browserLabel": "Navegador",
+				"browserPlaceholder": "Escolle un navegador…",
+				"choose": "Escoller…",
+				"clear": "Borrar",
+				"enabledButNoBrowser": "Escolle un navegador para usar cookies",
+				"enabledButNoFile": "Escolle un ficheiro para usar cookies",
+				"exploreDisabled": "A lapela Explorar está desactivada, así que as descargas non usan o teu inicio de sesión en Explorar. Actívaa en Explorar, máis abaixo.",
+				"extensionChrome": "Extensión «Get cookies.txt LOCALLY» (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Ficheiro de cookies",
+				"helpLink": "Como exporto as cookies?",
+				"openExplore": "Abrir Explorar",
+				"placeholder": "Ningún ficheiro seleccionado",
+				"recommended": "Recomendado",
+				"risk": "Risco: un cookies.txt contén todas as sesións iniciadas dese navegador; mantenno privado.",
+				"sourceBrowser": "Navegador",
+				"sourceExplore": "Inicio de sesión en Explorar",
+				"sourceFile": "Ficheiro",
+				"sourceLabel": "Orixe das cookies",
+				"sourceOff": "Desactivado",
+				"toggleDescription": "Axuda cos vídeos que a túa propia conta pode ver, como os teus vídeos privados."
+			},
+			"downloadConnections": {
+				"description": "Acelera as descargas grandes obtendo varias partes dun vídeo á vez. Os valores máis altos aumentan o risco de que un sitio te limite.",
+				"label": "Conexións de descarga",
+				"unit": "conexións"
+			},
+			"downloadList": {
+				"album": "Descargar álbum…",
+				"liked": "Descargar vídeos que che gustan…",
+				"mix": "Descargar Mix…",
+				"playlist": "Descargar lista…",
+				"uploads": "Descargar vídeos subidos…",
+				"watchLater": "Descargar Ver máis tarde…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Só audio",
+					"subtitles": "Subtítulos"
+				},
+				"anySite": {
+					"heading": "Máis de 2000 sitios",
+					"musicPlaylist": "Listas de música",
+					"video": "Vídeos",
+					"videoPlaylist": "Listas de vídeos"
+				},
+				"heading": "O que Klip pode descargar",
+				"youtube": {
+					"channel": "Canles",
+					"heading": "YouTube",
+					"music": "Música",
+					"playlist": "Listas de reprodución",
+					"podcast": "Podcasts",
+					"short": "Shorts",
+					"video": "Vídeos"
+				}
+			},
+			"fetchFormatsTooltip": "Asistente paso a paso. Escolle formato, calidade e máis.",
+			"heading": "Descargar desde unha URL",
+			"hotkey": {
+				"changeShortcut": "Cambiar atallo",
+				"conflict": "Este atallo xa o usa outra aplicación: escolle outro.",
+				"globalLabel": "Atallo global",
+				"recording": "Preme as teclas…",
+				"reset": "Restablecer o valor predeterminado",
+				"sectionDescription": "Descarga calquera ligazón que copies, desde calquera aplicación, sen abrir Klip.",
+				"sectionTitle": "Atallo global",
+				"test": "Probar",
+				"toggle": "Activar o atallo global",
+				"toggleDescriptionDetail": "Copia a ligazón dun vídeo en calquera aplicación e preme o atallo: Klip ponna en cola co teu perfil activo, sen cambiar de xanela. Unha ligazón a un vídeo dunha lista descarga o vídeo."
+			},
+			"interactiveDownload": "Descarga interactiva",
+			"interactiveDownloadAsks": "Descarga interactiva…",
+			"limitRate": {
+				"activeWarning": "As descargas activas manteñen o seu límite actual. Pausa e retoma para aplicar os cambios.",
+				"custom": "Personalizado…",
+				"customPlaceholder": "p. ex. 750K ou 1.5M",
+				"description": "Limita a largura de banda das descargas multimedia. O ritmo das solicitudes de abaixo adoita ser a ferramenta máis eficaz contra os límites.",
+				"invalid": "Usa un número seguido de K ou M (p. ex. 500K, 1.5M)",
+				"label": "Límite de velocidade de descarga",
+				"off": "Desactivado"
+			},
+			"mascotBusy": "Descargando en segundo plano… Podo facer varias cousas á vez 😎",
+			"mascotCollection": "Rápida pon en cola os elementos cargados con {{profileName}}. Interactiva permite inspeccionar ou seleccionar elementos primeiro.",
+			"mascotIdle": "Solta unha ligazón e deixa que Klip a descargue ✨",
+			"mascotSingle": "Rápida inicia unha descarga con {{profileName}}. Usa Interactiva para cambios puntuais.",
+			"mascotVideoInList": "Esta ligazón indica un vídeo e a lista na que está: descarga só o vídeo ou a lista.",
+			"nativeAudioPreference": {
+				"compatible": "Estéreo compatible",
+				"description": "Estéreo ou envolvente cando un perfil escolle audio nativo. Un perfil pode cambialo.",
+				"label": "Preferencia de audio nativo",
+				"surround": "Preferir envolvente / Dolby"
+			},
+			"networkPacing": {
+				"description": "Engade pequenas esperas durante cada descarga para que Klip non sobrecargue o sitio. Os valores están en segundos.",
+				"fields": {
+					"maxSleepInterval": "Pausa antes de que comece o multimedia: máx.",
+					"sleepInterval": "Pausa antes de que comece o multimedia: mín.",
+					"sleepRequests": "Espera entre comprobacións de metadatos",
+					"sleepSubtitles": "Espera antes dos ficheiros de subtítulos"
+				},
+				"heading": "Descargas amables",
+				"presetLabel": "Que prudente debe ser Klip?",
+				"presets": {
+					"balanced": "Equilibrado",
+					"careful": "Prudente",
+					"custom": "Personalizado",
+					"off": "Desactivado"
+				},
+				"summary": "Esperas: {{requests}} entre comprobacións, {{downloads}} antes de que comece o multimedia, {{subtitles}} antes dos ficheiros de subtítulos.",
+				"tooltip": "Estas esperas ocorren dentro de cada descarga. Cantas descargas se executan ao mesmo tempo defínese á parte, en Descargas simultáneas.",
+				"tooltips": {
+					"balanced": "Predeterminado. Engade pausas curtas entre solicitudes e antes de que comece o multimedia.",
+					"careful": "Engade pausas máis longas para listas de reprodución grandes ou redes que chegan a miúdo aos límites.",
+					"custom": "Axusta ti mesmo os controis avanzados de cada descarga.",
+					"off": "Usa só as pequenas pausas de base que Klip mantén para o multimedia e os subtítulos."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Ligazón aberta en Klip",
+				"replaced": "Substituída pola ligazón aberta en Klip"
+			},
+			"pasteLink": "Pegar ligazón",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Límite actual: {{count}} elementos",
+				"custom": "Personalizado…",
+				"customDialogCancel": "Cancelar",
+				"customDialogDescription": "Usa un número enteiro de {{min}} a {{max}}.",
+				"customDialogSave": "Gardar límite",
+				"customDialogTitle": "Límite personalizado de análise de listas",
+				"customValue": "Personalizado: {{count}} elementos",
+				"description": "Máximo de entradas que Klip carga ao abrir unha lista de reprodución, canle ou resultado de busca.",
+				"invalid": "Usa un número enteiro de 1 a 5000",
+				"label": "Elementos da lista a analizar",
+				"option": "{{count}} elementos"
+			},
+			"playlistScope": {
+				"appLimit": "Usar o límite da aplicación: {{count}}",
+				"apply": "Aplicar",
+				"applyError": "Non se puido aplicar ese ámbito da lista: {{message}}",
+				"applyReload": "Aplicar e recargar",
+				"cancel": "Cancelar",
+				"change": "Cambiar",
+				"dialogDescription": "Escolle o que Klip carga para esta lista de reprodución.",
+				"dialogTitle": "Ámbito da lista",
+				"emptyTitle": "Non hai vídeos nese ámbito",
+				"first": "Primeiros",
+				"invalid": "Usa números de elemento enteiros de 1 a {{max}}, co inicio non superior ao final.",
+				"itemsLabel": "Elementos a cargar",
+				"label": "Ámbito da lista",
+				"range": "Intervalo",
+				"reloading": "Recargando...",
+				"reset": "Restablecer",
+				"summaryAppLimit": "Cargar os primeiros elementos: {{count}}",
+				"summaryFirst": "Cargar os primeiros elementos: {{count}}",
+				"summaryRange": "Cargar os elementos {{from}}-{{to}}",
+				"to": "ata"
+			},
+			"profile": {
+				"activeLabel": "Perfil activo",
+				"badgeBuiltIn": "Integrado",
+				"badgeCustom": "Personalizado",
+				"badgeDisabled": "Oculto",
+				"badgeModified": "Modificado",
+				"builtinName": {
+					"audio-only": "Só audio",
+					"balanced": "Equilibrado 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Mellor calidade",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Calidade mínima 144p",
+					"low-240": "Poucos datos 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Ficheiro pequeno 480p",
+					"subtitles-only": "Só subtítulos"
+				},
+				"changeGlobalDestination": "Cambiar o destino global",
+				"destinationDetail": {
+					"global": "Usando o destino global",
+					"globalSubfolder": "Usando o destino global + subcartafol do perfil",
+					"override": "Usando a sobrescritura do perfil",
+					"overrideSubfolder": "Usando a sobrescritura do perfil + subcartafol do perfil"
+				},
+				"destinationEditHint": "Para cambiar onde se garda, edita o perfil.",
+				"destinationFallback": "Destino",
+				"edit": "Editar",
+				"editActive": "Editar o perfil activo",
+				"enableHint": "Os perfís ocultos quedan aquí pero desaparecen de todos os selectores de perfil.",
+				"enableToggleAria": "Amosar o perfil nos selectores: {{profileName}}",
+				"lastEnabledHint": "Mantén polo menos un perfil dispoñible.",
+				"manageProfiles": "Xestionar perfís",
+				"menuDescription": "Cambia o perfil activo para Descarga rápida, URLs en lote e listas de reprodución.",
+				"menuTitle": "Cambiar de perfil",
+				"movableProfile": "perfil móbil",
+				"moveCancelled": "Movemento cancelado. {{profileName}} queda na posición {{position}} de {{count}}.",
+				"moveDropped": "{{profileName}} soltouse na posición {{position}} de {{count}}.",
+				"moveHandleAria": "Mover {{profileName}}",
+				"moveInstructions": "Para mover un perfil, preme Espazo ou Intro, móveo coas teclas de frecha e preme Espazo ou Intro para soltalo. Preme Escape para cancelar.",
+				"moveOver": "{{profileName}} está sobre a posición {{position}} de {{count}}.",
+				"movePickedUp": "Colleuse {{profileName}}. Está na posición {{position}} de {{count}}.",
+				"newProfile": "Perfil novo",
+				"outputMissing": "Este perfil gárdase nun cartafol que non está definido. Escolle un cartafol no perfil ou volve ao predeterminado.",
+				"panelDescription": "Crea, selecciona, edita ou quita configuracións de descarga reutilizables.",
+				"panelTitle": "Perfís de descarga",
+				"remove": "Quitar",
+				"reorderHint": "Arrastra un perfil para movelo. Todos os selectores de perfil seguen esta orde.",
+				"reset": "Restablecer",
+				"savesTo": "Gárdase en",
+				"switchAria": "Cambiar o perfil de descarga: {{profileName}}",
+				"switchTitle": "Cambiar o perfil de descarga"
+			},
+			"proxy": {
+				"clear": "Borrar",
+				"description": "Encamiña o tráfico a través dun servidor proxy.",
+				"label": "URL do proxy",
+				"placeholder": "http://host:porto"
+			},
+			"quickDownload": "Descarga rápida",
+			"quickDownloadTooltip": "Descargarase con: {{profileName}}",
+			"quickFailed": "Non se puido engadir este: {{error}}",
+			"quickPrepareFailed": "Non se puido preparar o elemento da cola",
+			"quickPreparing": "Preparando",
+			"quickProbeFailed": "Fallou a análise",
+			"quickSingleOnly": "Pega a URL dun vídeo, lista de reprodución, canle ou busca para comezar.",
+			"reports": {
+				"toggle": "Enviar sinais anónimos de actividade e de configuración",
+				"toggleDescription": "Sen seguimento. Unha vez ao día, unha sinal anónima envía a versión da aplicación, a canle de instalación, o SO, o idioma, o país e aproximadamente canto tempo hai que se instalou Klip, para poder contar os usuarios activos e novos. Cando Klip configura ou actualiza o seu motor de descarga ou as ferramentas multimedia, tamén informa de se funcionou e aproximadamente canto tardou. Sen IDs, URLs, títulos de vídeos nin nomes de ficheiros."
+			},
+			"settings": {
+				"behaviorDescription": "Comportamento global que tamén afecta ás descargas guiadas por perfís.",
+				"behaviorHeading": "Comportamento das descargas",
+				"inputHeading": "Entrada"
+			},
+			"style": {
+				"aurora": {
+					"description": "Paneis de vidro sobre un ceo en movemento. Precisa aceleración gráfica.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Superficies sólidas e tranquilas. Funciona con soltura en calquera equipo.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Os dous estilos existen en claro e escuro.",
+				"modeLabel": "Estilo",
+				"panelDescription": "O aspecto de Klip. Cambia entre claro e escuro no pé.",
+				"panelTitle": "Aparencia",
+				"unavailableNotice": "{{style}} precisa aceleración gráfica, que non está dispoñible agora, así que Klip está amosando {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Perfís",
+				"settings": "Configuración"
+			},
+			"thisVideo": "Este vídeo",
+			"thisVideoTooltip": "Descarga só este vídeo con {{profileName}}"
+		}
+	}
+}

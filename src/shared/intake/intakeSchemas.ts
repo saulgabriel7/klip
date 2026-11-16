@@ -1,0 +1,64 @@
+import {z} from 'zod'
+import {downloadProfileRefSchema, probePlaylistModeSchema, quickProbeTakeSchema, webUrlSchema} from '@shared/schemas.js'
+
+// Link intake (Control API step zero): taking a link in, probing it in the
+// background and queueing what it finds runs in main. `window` is the app's
+// own window (the Download button, Explore, a row's Retry or choice);
+// `hotkey` the global hotkey; `localClient` a Control API client on this
+// machine, named by its client id.
+export const intakeOriginKindSchema = z.enum(['window', 'hotkey', 'localClient'])
+export type IntakeOriginKind = z.infer<typeof intakeOriginKindSchema>
+
+// Who takes a link in, before intake names the intake.
+const appIntakeCallerSchema = z.object({kind: intakeOriginKindSchema.exclude(['localClient'])})
+const clientIntakeCallerSchema = z.object({kind: z.literal('localClient'), clientId: z.string().min(1)})
+export type IntakeCaller = z.infer<typeof appIntakeCallerSchema> | z.infer<typeof clientIntakeCallerSchema>
+
+// Stamped on a placeholder row in main and copied onto every row it becomes.
+// Saved in the queue: a new kind is only ever added.
+const intakeIdSchema = z.string().min(1)
+export const intakeOriginSchema = z.discriminatedUnion('kind', [appIntakeCallerSchema.extend({intakeId: intakeIdSchema}), clientIntakeCallerSchema.extend({intakeId: intakeIdSchema})])
+export type IntakeOrigin = z.infer<typeof intakeOriginSchema>
+
+// The profile a placeholder row was placed with, and the folders it resolved
+// against then. Stored on the row, so a reload or restart prepares it the same way.
+export const pinnedDownloadProfileSchema = z.object({ref: downloadProfileRefSchema, outputContext: z.object({currentOutputDir: z.string().optional(), defaultOutputDir: z.string().optional()})})
+export type PinnedDownloadProfile = z.infer<typeof pinnedDownloadProfileSchema>
+
+// `requestId` names the call, so the window can match the outcome events to
+// the request that caused them.
+const intakeRequestIdSchema = z.string().min(1).max(128)
+// A page title is only the row's label until the probe knows the real one:
+// a long one is cut, never a reason to refuse the link.
+const INTAKE_TITLE_MAX = 2048
+// `profile`: the caller's active profile, which main's settings may not hold
+// yet (the window saves a pick through a queue of settings writes). `take`:
+// how much of a collection to keep, when the user already chose.
+export const intakeAddInputSchema = z.object({
+	requestId: intakeRequestIdSchema,
+	url: webUrlSchema,
+	playlistMode: probePlaylistModeSchema,
+	title: z
+		.string()
+		.transform(title => title.slice(0, INTAKE_TITLE_MAX))
+		.optional(),
+	profile: downloadProfileRefSchema.optional(),
+	take: quickProbeTakeSchema.optional(),
+	// A Bulk URLs link naming a video and a list: its row asks which before anything is probed.
+	ask: z.literal('video-or-list').optional()
+})
+export type IntakeAddInput = z.input<typeof intakeAddInputSchema>
+export const intakeRetryInputSchema = z.object({requestId: intakeRequestIdSchema, itemId: z.string().min(1)})
+// The answers a needs-choice row takes in main; Review stays in the window.
+// A list-size row takes `all` or `first`; a video-or-list row takes `video`,
+// `list` (the list in the background) or `all` (every video of the list).
+export const intakeTakeSchema = z.enum(['all', 'first', 'video', 'list'])
+export type IntakeTake = z.infer<typeof intakeTakeSchema>
+export const intakeChooseInputSchema = z.object({requestId: intakeRequestIdSchema, itemId: z.string().min(1), take: intakeTakeSchema})
+export const intakeItemInputSchema = z.object({itemId: z.string().min(1)})
+// What only the window knows and intake needs: the folder its wizard points
+// at (a profile without a fixed folder downloads there), whether its screen
+// shows HDR (which settles the Auto HDR setting), and the profile it shows as
+// active, which main's settings may not hold yet (a hotkey press pins it).
+export const intakeWindowContextSchema = z.object({currentOutputDir: z.string(), displayShowsHdr: z.boolean(), activeProfile: downloadProfileRefSchema.optional()})
+export type IntakeWindowContext = z.infer<typeof intakeWindowContextSchema>

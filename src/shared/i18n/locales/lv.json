@@ -1,0 +1,1833 @@
+{
+	"about": {
+		"button": "Par lietotni",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Skatīt trešo pušu paziņojumus",
+		"websiteLink": "Vietne"
+	},
+	"aiUpscaled": {
+		"allow": "Atļaut",
+		"allowedSummary": "Ar MI uzlabotas straumes atļautas",
+		"description": "YouTube piedāvā dažus vecus videoklipus izmēros, ko tas izveidojis ar MI. Opcija “Izlaist” saglabā oriģinālās straumes; uzlabotu straumi joprojām var izvēlēties pats.",
+		"label": "Ar MI uzlabotas straumes",
+		"skip": "Izlaist"
+	},
+	"app": {
+		"feedback": "Atsauksmes",
+		"feedbackNudge": "Patīk Klip? Labprāt uzzinātu jūsu domas! 💬",
+		"logs": "Žurnāli",
+		"saveDiagnostics": "Saglabāt diagnostikas failu",
+		"saveDiagnosticsDescription": "Ievieto žurnālus un lietotnes datus vienā failā mapē Lejupielādes, kas ir gatavs pievienošanai GitHub problēmai. Jūsu lietotāja mapes nosaukums tiek noņemts; video saites un nosaukumi paliek.",
+		"styleHint": "Jaunums: šeit izvēlieties Aurora vai Minimal",
+		"theme": "Motīvs",
+		"zoomIn": "Tuvināt",
+		"zoomOut": "Tālināt"
+	},
+	"common": {
+		"back": "Atpakaļ",
+		"cancel": "Atcelt",
+		"close": "Aizvērt",
+		"continue": "Turpināt",
+		"loading": "Notiek ielāde",
+		"retry": "Mēģināt vēlreiz",
+		"startOver": "Sākt no jauna"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip turpina darboties un pabeidz aktīvās lejupielādes. Šo var mainīt vēlāk papildu iestatījumos.",
+			"hide": "Paslēpt teknē",
+			"message": "Aizverot paslēpt Klip sistēmas teknē?",
+			"quit": "Iziet",
+			"remember": "Vairs nejautāt"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Jūsu rinda tiek saglabāta, un lejupielādes turpināsies no vietas, kur apstājās, nākamreiz atverot Klip.",
+			"keep": "Turpināt lejupielādi",
+			"message_one": "Notiek {{count}} lejupielāde",
+			"message_other": "Notiek {{count}} lejupielādes",
+			"message_zero": "Notiek {{count}} lejupielāžu",
+			"quit": "Iziet"
+		},
+		"rendererCrashed": {
+			"detail": "Renderēšanas process avarēja ({{reason}}). Pārlādējiet, lai mēģinātu vēlreiz.",
+			"message": "Klip radās problēma",
+			"quit": "Iziet",
+			"reload": "Pārlādēt"
+		}
+	},
+	"donate": {
+		"copied": "Nokopēts!",
+		"copyAddress": "Kopēt adresi",
+		"description": "Klip ir bezmaksas un atvērtā koda, bez reklāmām un maksas līmeņa. Ziedojumi ir brīvprātīgi un neietekmē attīstības plānu.",
+		"footerLabel": "Ziedot",
+		"footerTooltip": "Atbalstīt Klip",
+		"qrAlt": "{{coin}} ziedojumu adreses QR kods",
+		"title": "Atbalstīt Klip",
+		"warning": "Kriptovalūtu maksājumi ir neatgriezeniski. Sūtiet tikai norādītajā tīklā un salīdziniet visu adresi."
+	},
+	"errors": {
+		"noSubtitlesIn": "Šim video nav subtitru valodās: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Šim videoklipam ir vecuma ierobežojums, un to nevar lejupielādēt bez pierakstīta konta.",
+			"botBlock": "Vietnes aizsardzība pret robotiem apturēja šo lejupielādi. Uzgaidiet kādu laiku un mēģiniet vēlreiz vai lejupielādējiet vienlaikus mazāk video. Ja joprojām neizdodas, iespējams, tā ir īslaicīga izmaiņa vietnes pusē — Klip atjaunina savu lejupielādes dzinēju startēšanas brīdī, tāpēc labojums parādīsies automātiski, tiklīdz tas tiks izlaists.",
+			"chunkTransferFailure": "Serveris pārtrauca lejupielādi pa vidu, un Klip pēc atkārtotiem mēģinājumiem padevās. Tas parasti skar vislielākos video formātus (4K HDR / VP9 ar augstu bitrati). Mēģiniet vēlreiz, nomainiet tīklu/VPN vai izvēlieties formātu ar zemāku izšķirtspēju.",
+			"drmProtected": "Šo videoklipu aizsargā DRM. Klip nevar noņemt DRM, tāpēc failu nevar lejupielādēt.",
+			"formatUnavailable": "Šim video vairs nav jūsu izvēlētā formāta. Vēlreiz ielīmējiet saiti un izvēlieties no formātiem, kas tiek piedāvāti tagad.",
+			"geoBlocked": "Šis videoklips jūsu reģionā nav pieejams.",
+			"ipBlock": "Vietne bloķē pieprasījumus no šī savienojuma. Mēģiniet vēlreiz vēlāk.",
+			"loginRequired": "Šim videoklipam nepieciešams pierakstīts konts.",
+			"missingDependency": "Klip neatrada FFmpeg vai FFprobe. Palaidiet iestatīšanu vēlreiz vai norādiet FFmpeg atrašanās vietu, tad mēģiniet lejupielādi vēlreiz.",
+			"network": "Tīkla kļūda. Pārbaudiet savienojumu un mēģiniet vēlreiz.",
+			"noSubtitles": "Šim video nav subtitru pieprasītajās valodās.",
+			"outOfDiskSpace": "Nepietiek vietas diskā. Atbrīvojiet vietu un mēģiniet vēlreiz.",
+			"outputNotWritable": "Klip nevar rakstīt lejupielādes mapē. Tā var būt tikai lasāma, atrasties slēgtā diskā vai būt bloķēta ar sistēmas konfidencialitātes iestatījumiem. Izvēlieties citu mapi vai atļaujiet piekļuvi, tad mēģiniet vēlreiz.",
+			"parse": "Neizdevās apstrādāt vietnes atbildi. Iespējams, vietne ir mainījusi veidu, kā tā piedāvā videoklipus. Klip atjaunina savu lejupielādes dzinēju startēšanas brīdī — mēģiniet vēlreiz pēc dažām minūtēm, kad labojums būs izlaists.",
+			"postprocessFailure": "Lejupielāde pabeigta, bet pēcapstrāde (apvienošana / mux / pārvēršana) neizdevās. Bieži tā ir īslaicīga ffmpeg problēma — mēģiniet vēlreiz, un, ja tā turpinās, izmēģiniet citu formātu kombināciju.",
+			"rateLimit": "Vietne ierobežo pieprasījumu skaitu no šī savienojuma.",
+			"unavailable": "Šis videoklips nav pieejams — tas var būt privāts, dzēsts vai bloķēts reģionā.",
+			"unknown": "Lejupielāde neizdevās. Skatiet neapstrādāto izvadi zemāk.",
+			"unsupportedUrl": "Klip neatbalsta šo URL. Izmēģiniet saiti no citas vietnes."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Pārbaudiet savienojumu un mēģiniet vēlreiz.",
+			"loadTitle": "Šī lapa neielādējās",
+			"openSettings": "Atvērt iestatījumus",
+			"proxyBody": "Pārbaudiet starpniekserveri iestatījumos un mēģiniet vēlreiz.",
+			"proxyTitle": "Sadaļa Izpēte nevar izveidot savienojumu caur jūsu starpniekserveri",
+			"retry": "Mēģināt vēlreiz"
+		},
+		"linkCallout": {
+			"body": "Ar peles labo pogu noklikšķiniet uz jebkuras video, atskaņošanas saraksta vai kanāla saites lapā, lai lejupielādētu to ar aktīvo profilu, izvēlētos citu profilu vai atvērtu soli pa solim norisošo plūsmu.",
+			"title": "Ar peles labo pogu noklikšķiniet uz saites, lai to lejupielādētu"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Lejupielādēt albumu fonā",
+				"liked": "Lejupielādēt jums patikušos video fonā",
+				"mix": "Lejupielādēt Mix fonā",
+				"playlist": "Lejupielādēt atskaņošanas sarakstu fonā",
+				"uploads": "Lejupielādēt kanāla augšupielādētos video fonā",
+				"watchLater": "Lejupielādēt “Skatīties vēlāk” fonā"
+			},
+			"copyLink": "Kopēt saiti",
+			"downloadFirst": "Lejupielādēt pirmos {{count}}",
+			"downloadThisVideo": "Lejupielādēt šo video · {{profileName}}",
+			"downloadWith": "Lejupielādēt ar",
+			"fromList": {
+				"album": "No šī albuma",
+				"liked": "No jums patikušajiem video",
+				"mix": "No šī Mix",
+				"playlist": "No šī atskaņošanas saraksta",
+				"uploads": "No šī kanāla augšupielādētajiem video",
+				"watchLater": "No “Skatīties vēlāk”"
+			},
+			"interactive": "Interaktīvā lejupielāde…",
+			"thisVideoWith": "Šis video ar"
+		},
+		"newBadge": "Jauns",
+		"notice": {
+			"body": "Atrodiet videoklipu YouTube vai jebkurā citā vietnē un lejupielādējiet to no šejienes — nav jākopē saites. Pierakstieties vietnē šeit, lai lejupielādētu videoklipus, kuriem nepieciešams konts.",
+			"continue": "Turpināt",
+			"riskBody": "Tādas vietnes kā YouTube var atzīmēt — un dažkārt bloķēt — kontus, kas tiek izmantoti kopā ar lejupielādes rīkiem, piemēram, Klip. Izmantojiet kontu, ko varat atļauties pazaudēt, nevis savu galveno.",
+			"riskTitle": "Pierakstieties ar papildu kontu",
+			"title": "Pārlūkojiet tīmekli tieši Klip"
+		},
+		"nudge": {
+			"browser": "Lejupielādēs tiek izmantoti jūsu pārlūka sīkfaili, nevis pierakstīšanās sadaļā Izpēte.",
+			"file": "Lejupielādēs tiek izmantots jūsu sīkfailu fails, nevis pierakstīšanās sadaļā Izpēte.",
+			"notNow": "Ne tagad",
+			"off": "Sīkfaili ir izslēgti, tāpēc lejupielādēs netiek izmantota pierakstīšanās sadaļā Izpēte.",
+			"useExplore": "Izmantot pierakstīšanos sadaļā Izpēte"
+		},
+		"settings": {
+			"description": "Pārlūkojiet YouTube vai jebkuru citu vietni Klip iekšienē un pierakstieties, lai piekļūtu videoklipiem, kuriem nepieciešams konts.",
+			"idleUnload": "Atbrīvot atmiņu prombūtnes laikā",
+			"idleUnloadDescription": "Pēc 5 minūtēm citā cilnē aizver YouTube sākumlapu vai meklēšanas lapu. Atgriežoties tā tiek pārlādēta, kas aizņem dažas sekundes.",
+			"searchEngine": "Meklētājprogramma",
+			"searchEngineDescription": "Kur tiek meklēts adreses joslā ievadītais teksts. Saites tiek atvērtas tādas, kā ievadītas.",
+			"showTab": "Rādīt cilni Izpēte",
+			"showTabDescription": "Izslēdzot to, lejupielādēs arī vairs netiek izmantota jūsu pierakstīšanās sadaļā Izpēte.",
+			"signOut": "Izrakstīties no sadaļas Izpēte",
+			"signOutConfirm": "Izrakstīties",
+			"signOutConfirmBody": "Tas dzēš jūsu pierakstīšanās datus un pārlūkošanas datus sadaļā Izpēte visās vietnēs. Lejupielādes, kurām nepieciešams konts, neizdosies, līdz pierakstīsities vēlreiz.",
+			"signOutConfirmTitle": "Izrakstīties no sadaļas Izpēte?",
+			"signOutDescription": "Dzēš jūsu pierakstīšanās datus un pārlūkošanas datus sadaļā Izpēte visās vietnēs.",
+			"title": "Izpēte"
+		},
+		"tabLabel": "Izpēte",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube var pretoties reklāmu bloķētājiem pierakstītiem kontiem.",
+				"aria": "Reklāmu bloķētājs",
+				"off": "Reklāmu bloķētājs: izslēgts — noklikšķiniet, lai ieslēgtu",
+				"on": "Reklāmu bloķētājs: ieslēgts — noklikšķiniet, lai izslēgtu",
+				"starting": "Reklāmu bloķētājs: startē — noklikšķiniet, lai izslēgtu",
+				"unavailable": "Reklāmu bloķētājs: nav pieejams, tā filtru sarakstus neizdevās lejupielādēt — noklikšķiniet, lai izslēgtu"
+			},
+			"addressAria": "Adrese",
+			"addressPlaceholder": "Meklējiet {{engine}} vai atveriet jebkuru vietni (Vimeo, Instagram…)",
+			"aria": "Izpētes pārlūka vadīklas",
+			"back": "Atpakaļ",
+			"compactLayout": "Kompakts izkārtojums",
+			"download": "Lejupielādēt",
+			"downloadWithProfile": "Lejupielādēt · {{profileName}}",
+			"forward": "Uz priekšu",
+			"fullLayout": "Rādīt pilnu izkārtojumu",
+			"grabUnavailable": "Atveriet video, atskaņošanas sarakstu vai kanālu, lai to lejupielādētu",
+			"home": "YouTube sākums",
+			"interactiveHint": "Interaktīvā lejupielāde: izvēlieties formātu, subtitrus un citu…",
+			"refusedHint": "Sadaļa Izpēte nevar atvērt šo adresi.",
+			"reload": "Pārlādēt",
+			"searchTooLong": "Šis meklēšanas vaicājums ir pārāk garš.",
+			"thisVideo": "Šis video",
+			"thisVideoHint": "Lejupielādēt tikai šo video ar profilu {{profileName}}",
+			"zoom": {
+				"hint": "Lapas tālummaiņa: {{percent}}%",
+				"in": "Tuvināt",
+				"label": "Lapas tālummaiņa",
+				"out": "Tālināt",
+				"percent": "Tālummaiņas procenti",
+				"reset": "Atiestatīt tālummaiņu uz 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Automātiski",
+		"autoValue": "Automātiski (.{{ext}})",
+		"description": {
+			"auto": "Faila tipu nosaka izvēlētās straumes.",
+			"mkv": "Satur jebkuru kodeku. Dažos televizoros un tālruņos to nevar atvērt.",
+			"mp4": "Atskaņojas gandrīz visur. VP9 MP4 failā QuickTime video neatskaņosies.",
+			"webm": "Atvērts formāts pārlūkiem. Satur tikai VP9 vai AV1 ar Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 MP4 failā, lai atskaņotu QuickTime, nepieciešams jauns Mac. H.264 atskaņojas visur.",
+		"mp4CaveatVp9": "VP9 MP4 failā QuickTime video neatskaņosies. H.264 atskaņojas visur.",
+		"profileMark": "Profils",
+		"smartTvNoWebm": "WebM netiek piedāvāts ar Smart TV: tas nevar saturēt H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM nevar saturēt {{codec}}. Izvēlieties MKV vai MP4."
+	},
+	"filenameTemplate": {
+		"description": "Izvēlieties, kā tiek nosaukti lejupielādētie faili. Noklikšķiniet uz marķiera, lai to ievietotu. Izmantojiet /, lai šķirotu lejupielādes mapēs.",
+		"error": {
+			"empty": "Ievadiet faila nosaukuma veidni.",
+			"empty-segment": "Noņemiet lieko / — katrai mapei jābūt nosaukumam.",
+			"forbidden-char": "Noņemiet rakstzīmes, kas nav atļautas failu nosaukumos: \\ : * ? \" < > |",
+			"invalid-segment": "Šāds mapes nosaukums nav atļauts. Izvairieties no . un .. un rezervētiem nosaukumiem, piemēram, CON.",
+			"no-unique-token": "Pievienojiet faila nosaukumam {title} vai {id}, lai katrai lejupielādei būtu savs nosaukums.",
+			"resolution-in-dir": "{resolution} nevar nosaukt mapi — kvalitāte nav zināma, līdz lejupielāde sākas.",
+			"stray-brace": "Nesaskaņota { vai } — ievietojiet marķierus, piemēram, {title}, iekavās.",
+			"too-long": "Veidne ir pārāk gara.",
+			"unknown-token": "Nezināms marķieris {{token}}."
+		},
+		"idEndingWarning": "Beidziet nosaukumu ar [{id}], lai Klip varētu noteikt jau lejupielādētus atskaņošanas saraksta vienumus un izveidot .m3u atskaņošanas sarakstus.",
+		"label": "Faila nosaukuma veidne",
+		"m3uDisabledIdEnding": "Nav pieejams, jo jūsu faila nosaukuma veidne nebeidzas ar [{id}] vai šķiro lejupielādes mapēs.",
+		"previewPlaylist": "Atskaņošanas sarakstā",
+		"previewSingle": "Atsevišķs video",
+		"profileOverrideDescription": "Atstājiet tukšu, lai izmantotu globālo veidni.",
+		"profileOverrideLabel": "Faila nosaukuma veidne"
+	},
+	"formatLabel": {
+		"audioFallback": "Audio",
+		"audioOnlyDot": "Tikai audio · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Automātiski",
+		"description": "Automātiskais režīms izvēlas HDR, ja šis ekrāns to var attēlot, citādi SDR. Parastos ekrānos HDR izskatās izbalējis.",
+		"hdr": "HDR",
+		"label": "HDR video",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Valoda"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Pierakstīts sadaļā Izpēte — atkārtoti mēģina {{count}} saiti",
+		"exploreSignInRetrying_other": "Pierakstīts sadaļā Izpēte — atkārtoti mēģina {{count}} saites",
+		"exploreSignInRetrying_zero": "Pierakstīts sadaļā Izpēte — atkārtoti mēģina {{count}} saišu",
+		"exploreSignOutFailed": "Neizdevās izrakstīties no sadaļas Izpēte. Mēģiniet vēlreiz.",
+		"filenameFolderTooDeep": "Šī mape jūsu sistēmai ir pārāk dziļa. Lejupielāde joprojām var neizdoties — izvēlieties īsāku mapi.",
+		"filenameTemplateCannotFit": "Šī video nosaukums nevar ietvert visas jūsu veidnes daļas, tāpēc tika izmantots noklusējuma nosaukums.",
+		"folderSelectFailed": "Neizdevās atvērt mapes izvēles logu.",
+		"hotkey": {
+			"alreadyQueued": "Jau rindā — kopija netika pievienota",
+			"cookiesSetup": "Pabeidziet sīkfailu iestatīšanu Klip un mēģiniet vēlreiz",
+			"invalidClipboard": "Starpliktuvē nav saites — vispirms nokopējiet kādu",
+			"multipleUrls": "Nokopētas vairākas saites — izmantojiet Klip funkciju Vairāki URL",
+			"needsReview": "Šai saitei jāizvēlas jums — skatiet Lejupielādes lietotnē Klip",
+			"queued": "Lejupielāde no starpliktuves pievienota rindai",
+			"submissionFailed": "Neizdevās pievienot šo saiti — mēģiniet vēlreiz lietotnē Klip"
+		},
+		"playlistFolderRejected": "Šo mapi nevar izmantot šim atskaņošanas sarakstam.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} video jau ir rindā — izlaists",
+			"skippedAlreadyQueued_other": "{{count}} video jau ir rindā — izlaisti",
+			"skippedAlreadyQueued_zero": "{{count}} video jau ir rindā — izlaisti"
+		},
+		"quickDownload": {
+			"added": "Pievienots: {{title}}",
+			"alreadyQueued": "Jau rindā",
+			"batchAdded_one": "Cilnē Lejupielādes pievienota {{count}} saite",
+			"batchAdded_other": "Cilnē Lejupielādes pievienotas {{count}} saites",
+			"batchAdded_zero": "Cilnē Lejupielādes pievienotas {{count}} saišu",
+			"batchAlreadyQueued_one": "{{count}} jau rindā",
+			"batchAlreadyQueued_other": "{{count}} jau rindā",
+			"batchAlreadyQueued_zero": "{{count}} jau rindā",
+			"batchNoneAdded_one": "Neizdevās pievienot {{count}} saiti",
+			"batchNoneAdded_other": "Neizdevās pievienot {{count}} saites",
+			"batchNoneAdded_zero": "Neizdevās pievienot {{count}} saišu",
+			"batchNotAdded_one": "{{count}} neizdevās pievienot",
+			"batchNotAdded_other": "{{count}} neizdevās pievienot",
+			"batchNotAdded_zero": "{{count}} neizdevās pievienot",
+			"chooseFromList_one": "Šajā sarakstā ir {{count}} video — izvēlieties, ko lejupielādēt",
+			"chooseFromList_other": "Šajā sarakstā ir {{count}} video — izvēlieties, ko lejupielādēt",
+			"chooseFromList_zero": "Šajā sarakstā ir {{count}} video — izvēlieties, ko lejupielādēt",
+			"chooseHowMany_one": "{{count}}+ video — izvēlieties, cik lejupielādēt",
+			"chooseHowMany_other": "{{count}}+ video — izvēlieties, cik lejupielādēt",
+			"chooseHowMany_zero": "{{count}}+ video — izvēlieties, cik lejupielādēt",
+			"failed": "Neizdevās sagatavot: {{title}}",
+			"notAdded": "Neizdevās pievienot šo saiti — mēģiniet vēlreiz",
+			"view": "Skatīt"
+		},
+		"settingsSaveFailed": "Neizdevās saglabāt iestatījumus.",
+		"shellActionFailed": "Neizdevās to atvērt.",
+		"warmupFailed": "Iestatīšana netika pabeigta. Dažas lejupielādes var neizdoties, līdz tā tiks pabeigta."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Audio (labākais)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Audio ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Oriģinālais labākais audio, bez pārkodēšanas",
+			"m4a": "Pārvērst uz M4A (AAC)",
+			"mp3": "Pārvērst uz MP3",
+			"opus": "Pārvērst uz Opus"
+		},
+		"mp4Cap": "H.264 virs 1080p YouTube nav pieejams — automātiski ierobežots līdz 1080p",
+		"subtitles": {
+			"deliveryHeading": "Saglabāt kā",
+			"deliveryLoose": "Tieši saglabāšanas mapē",
+			"languages": "Valodas",
+			"languagesRequired": "Lai turpinātu, izvēlieties vismaz vienu valodu.",
+			"note": "Katram video tiek saglabāti tikai subtitru faili — video vai audio netiek lejupielādēts.",
+			"source": "Avots"
+		},
+		"tier": {
+			"144": "Līdz 144p",
+			"240": "Līdz 240p",
+			"360": "Līdz 360p",
+			"480": "Līdz 480p",
+			"720": "Līdz 720p",
+			"1080": "Līdz 1080p",
+			"1440": "Līdz 1440p",
+			"2160": "Līdz 4K",
+			"best": "Labākā kvalitāte"
+		},
+		"tierDesc": {
+			"144": "Pēc iespējas mazāki faili",
+			"240": "Ļoti mazi faili, zema kvalitāte",
+			"360": "Mazi faili ierobežotam joslas platumam",
+			"480": "Mazs joslas platums",
+			"720": "Mazāki faili, plaša saderība",
+			"1080": "Ierobežots līdz 1080p, atsevišķiem vienumiem pāriet uz zemāku",
+			"1440": "Ierobežots līdz 2K, atsevišķiem vienumiem pāriet uz zemāku",
+			"2160": "Ierobežots līdz 2160p, atsevišķiem vienumiem pāriet uz zemāku",
+			"best": "Augstākā pieejamā video + audio kvalitāte katram vienumam"
+		},
+		"type": {
+			"audio": "Audio",
+			"subtitles": "Subtitri",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Labākais oriģinālais",
+			"mp4": "Smart TV: H.264 MP4 formātā"
+		},
+		"videoFormatDesc": {
+			"best": "Labākais pieejamais konteiners un kodeki katram vienumam",
+			"mp4": "Pēc iespējas dot priekšroku H.264 video + AAC audio MP4 failā"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Pavadošais",
+			"description": "Apraksts",
+			"media": "Multivide",
+			"missing": "Trūkst",
+			"subtitle": "Subtitri",
+			"thumbnail": "Sīktēls",
+			"unknown": "Artefakts"
+		},
+		"attentionBadge_one": "{{count}} lejupielādei nepieciešama jūsu uzmanība",
+		"attentionBadge_other": "{{count}} lejupielādēm nepieciešama jūsu uzmanība",
+		"attentionBadge_zero": "{{count}} lejupielāžu nepieciešama jūsu uzmanība",
+		"autoRemoveCompleted": {
+			"hint": "Noņemt katru lejupielādi no saraksta dažas sekundes pēc tās pabeigšanas. Faili paliek jūsu mapē.",
+			"label": "Automātiski notīrīt pabeigtās"
+		},
+		"cancelAllTitle": "Atcelt visas aktīvās un gaidošās lejupielādes",
+		"choice": {
+			"all": "Visi video",
+			"cappedBody_one": "Šajā atskaņošanas sarakstā ir vairāk nekā {{count}} video. Lejupielādējiet visus, pirmos {{count}} vai izvēlieties pārskatā.",
+			"cappedBody_other": "Šajā atskaņošanas sarakstā ir vairāk nekā {{count}} video. Lejupielādējiet visus, pirmos {{count}} vai izvēlieties pārskatā.",
+			"cappedBody_zero": "Šajā atskaņošanas sarakstā ir vairāk nekā {{count}} video. Lejupielādējiet visus, pirmos {{count}} vai izvēlieties pārskatā.",
+			"first": "Pirmie {{count}}",
+			"list": {
+				"album": "Albums",
+				"liked": "Jums patikušie video",
+				"mix": "Mix",
+				"playlist": "Atskaņošanas saraksts",
+				"uploads": "Visi kanāla augšupielādētie video",
+				"watchLater": "“Skatīties vēlāk”"
+			},
+			"pick": "Izvēlēties no tā…",
+			"review": "Pārskatīt",
+			"uncappedBody_one": "Šī saite ir saraksts ar {{count}} video. Lejupielādējiet to vai izvēlieties pārskatā.",
+			"uncappedBody_other": "Šī saite ir saraksts ar {{count}} video. Lejupielādējiet visus vai izvēlieties pārskatā.",
+			"uncappedBody_zero": "Šī saite ir saraksts ar {{count}} video. Lejupielādējiet visus vai izvēlieties pārskatā.",
+			"video": "Šis video",
+			"videoOrList": {
+				"album": "Šī saite ir video albumā. Lejupielādēt tikai video vai albumu?",
+				"liked": "Šī saite ir video no jums patikušajiem video. Lejupielādēt tikai video vai visus jums patikušos video?",
+				"mix": "Šī saite ir video Mix sarakstā. Lejupielādēt tikai video vai Mix?",
+				"playlist": "Šī saite ir video atskaņošanas sarakstā. Lejupielādēt tikai video vai atskaņošanas sarakstu?",
+				"uploads": "Šī saite ir video no kanāla augšupielādētajiem video. Lejupielādēt tikai video vai visus augšupielādētos video?",
+				"watchLater": "Šī saite ir video no saraksta “Skatīties vēlāk”. Lejupielādēt tikai video vai visu sarakstu?"
+			}
+		},
+		"clearTitle": "Notīrīt pabeigtās lejupielādes",
+		"empty": "Rindā pievienotās lejupielādes parādīsies šeit",
+		"filterAll": "Visas",
+		"filtersLabel": "Rindas statusa filtri",
+		"globalActionsLabel": "Visi vienumi",
+		"header": "Lejupielādes",
+		"item": {
+			"audioKept": "Skaņa nav noņemta",
+			"audioKeptSubtitlesFailed": "Skaņa nav noņemta · daži subtitri neizdevās",
+			"cancel": "Atcelt",
+			"defaultError": "Lejupielāde neizdevās",
+			"openDestinationFolder": "Atvērt mērķa mapi",
+			"pause": "Pauzēt",
+			"pendingOnly": "Tikai gaidošie",
+			"pullNow": "Sākt tūlīt — izlaist rindu",
+			"qualityLimited": "Ierobežots līdz {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Ierobežots līdz {{height}}p · daži subtitri neizdevās",
+			"remove": "Noņemt",
+			"resume": "Atsākt",
+			"retry": "Mēģināt vēlreiz",
+			"retryingSoon": "mēģina automātiski vēlreiz (mēģinājums {{attempt}})",
+			"setLocation": "Iestatīt atrašanās vietu",
+			"setLocationHint": "Atlasiet gaidošos vienumus, lai iestatītu atrašanās vietu.",
+			"statusCancelled": "Atcelts",
+			"statusDone": "Pabeigts",
+			"statusError": "Kļūda",
+			"statusHeld": "Aizturēts",
+			"statusNeedsChoice": "Jāizvēlas jums",
+			"statusPaused": "Pauzēts",
+			"statusPending": "Gaida",
+			"statusProbing": "Iegūst informāciju",
+			"statusRunning": "Lejupielādē",
+			"subtitleLanguagesMissing": "Nav subtitru valodās: {{languages}}",
+			"waitingForSite": "Gaida {{site}} līdz {{time}}",
+			"waitingHint": "{{site}} ierobežo pieprasījumu skaitu no šī savienojuma. Klip iegūs šīs saites informāciju pēc {{time}}, lai ierobežojums varētu beigties."
+		},
+		"listOffer": {
+			"dismiss": "Noraidīt",
+			"from": {
+				"album": "No albuma",
+				"liked": "No jums patikušajiem video",
+				"mix": "No Mix",
+				"playlist": "No atskaņošanas saraksta",
+				"uploads": "No kanāla augšupielādētajiem video",
+				"watchLater": "No “Skatīties vēlāk”"
+			},
+			"get": {
+				"album": "Lejupielādēt visu albumu",
+				"liked": "Lejupielādēt visus patikušos video",
+				"mix": "Lejupielādēt visu Mix",
+				"playlist": "Lejupielādēt visu atskaņošanas sarakstu",
+				"uploads": "Lejupielādēt visus augšupielādētos video",
+				"watchLater": "Lejupielādēt visu no “Skatīties vēlāk”"
+			},
+			"hint": "Pievieno sarakstu kā atsevišķu rindu. Šis video netiek iekļauts."
+		},
+		"pauseAllTitle": "Pauzēt visas aktīvās lejupielādes un neļaut sākties jaunām",
+		"pausedBanner": "Rinda ir pauzēta — gaidošie vienumi nesāksies, kamēr to neatsāksiet",
+		"resumeAllTitle": "Atsākt pauzētās lejupielādes un ļaut rindai turpināt",
+		"resumeQueueAction": "Atsākt rindu",
+		"selectedActionsLabel": "Atlasītie vienumi",
+		"selectionSummary": "{{selected}} atlasīti · {{total}} kopā",
+		"tabLabel": "Lejupielādes",
+		"tabTip": "Lejupielādes tagad atrodas cilnē Lejupielādes — atveriet to jebkurā laikā, lai sekotu progresam.",
+		"table": {
+			"added": "Pievienots",
+			"artifacts": "Artefakti",
+			"columnDropped": "Kolonna {{column}} nomesta.",
+			"columnMoveCancelled": "Kolonnas {{column}} pārvietošana atcelta.",
+			"columnMovedOver": "Kolonna {{column}} atrodas virs {{target}}.",
+			"columnPickedUp": "Kolonna {{column}} pacelta.",
+			"columns": "Kolonnas",
+			"finished": "Pabeigts",
+			"format": "Formāts",
+			"hideArtifactsFor": "Paslēpt artefaktus: {{title}}",
+			"movableColumn": "pārvietojama kolonna",
+			"moveColumnInstructions": "Lai pārvietotu kolonnu, nospiediet atstarpes taustiņu vai Enter, pārvietojiet to ar bulttaustiņiem un vēlreiz nospiediet atstarpes taustiņu vai Enter, lai to nomestu. Nospiediet Escape, lai atceltu.",
+			"notAvailable": "—",
+			"outputTarget": "Mērķa mape",
+			"progress": "Progress",
+			"resetColumns": "Atiestatīt kolonnas",
+			"resizeColumn": "Mainīt kolonnas {{column}} izmēru",
+			"showArtifactsFor": "Rādīt artefaktus: {{title}}",
+			"size": "Izmērs",
+			"sortBy": "Kārtot pēc: {{label}}",
+			"status": "Statuss",
+			"title": "Nosaukums"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Turpināt",
+		"description": "Jums darbojas jauns atjauninājums. Lūk, galvenais.",
+		"fullNotes": "Pilnas laidiena piezīmes ↗",
+		"title": "Kas jauns Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Atcelt",
+			"chooseExecutable": "Izvēlēties izpildāmo failu",
+			"installWithHomebrew": "Instalēt ar Homebrew",
+			"installWithWinget": "Instalēt ar WinGet",
+			"openDependencyFolder": "Atvērt atkarību mapi",
+			"resetToDefault": "Atiestatīt uz noklusējumu",
+			"retrySetup": "Mēģināt vēlreiz",
+			"viewSetupLog": "Skatīt iestatīšanas žurnālu"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Mēģiniet vēlreiz. Ja joprojām neizdodas, zemāk izvēlieties darbojošos kopiju.",
+				"title": "Kāds rīks nedarbojas pareizi"
+			},
+			"blockedOrQuarantined": {
+				"body": "Atļaujiet Klip savā pretvīrusu programmā vai SmartScreen un mēģiniet vēlreiz.",
+				"title": "Jūsu pretvīrusu programma bloķēja rīku"
+			},
+			"downloadFailed": {
+				"body": "Pārbaudiet interneta savienojumu un mēģiniet vēlreiz.",
+				"title": "Neizdevās lejupielādēt to, kas Klip nepieciešams"
+			},
+			"extractFailed": {
+				"body": "Mēģiniet vēlreiz, lai lejupielādētu to no jauna.",
+				"title": "Lejupielāde tika saņemta bojāta"
+			},
+			"hashFailed": {
+				"body": "Mēģiniet vēlreiz, lai lejupielādētu to no jauna.",
+				"title": "Lejupielāde neatbilda savai kontrolsummai"
+			},
+			"pairIncomplete": {
+				"body": "Zemāk izvēlieties abus vai atiestatiet tos uz noklusējumu.",
+				"title": "FFmpeg un FFprobe jāiestata kopā"
+			},
+			"permissionDenied": {
+				"body": "Mēģiniet vēlreiz. Ja joprojām neizdodas, zemāk izvēlieties kopiju, kurai uzticaties.",
+				"title": "Jūsu sistēma neļauj Klip palaist rīku"
+			},
+			"spawnFailed": {
+				"body": "Mēģiniet vēlreiz. Ja joprojām neizdodas, zemāk izvēlieties darbojošos kopiju.",
+				"title": "Rīks trūkst vai nestartē"
+			},
+			"timeout": {
+				"body": "Pirmajā palaišanas reizē tā bieži ir drošības skenēšana. Mēģiniet vēlreiz.",
+				"title": "Rīks pārāk ilgi neatbildēja"
+			},
+			"unknown": {
+				"body": "Mēģiniet vēlreiz vai atveriet iestatīšanas žurnālu, lai uzzinātu sīkāk.",
+				"title": "Iestatīšanas laikā kaut kas nogāja greizi"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Lejupielādes dzinējs",
+			"media": "Multivides rīki"
+		},
+		"installing": {
+			"homebrew": "Notiek instalēšana ar Homebrew… Tas var aizņemt dažas minūtes.",
+			"winget": "Notiek instalēšana ar WinGet… Tas var aizņemt dažas minūtes."
+		},
+		"manual": {
+			"intro": "Norādiet Klip kopijas, kas jums jau ir, vai instalējiet tās citā veidā.",
+			"linuxHint": "Varat arī instalēt yt-dlp un ffmpeg ar savu pakotņu pārvaldnieku, tad noklikšķināt uz Mēģināt vēlreiz.",
+			"toggle": "Iestatīt manuāli"
+		},
+		"stopped": {
+			"body": "Mēģiniet vēlreiz vai zemāk norādiet Klip rīkus, kas jums jau ir.",
+			"title": "Iestatīšana apturēta"
+		},
+		"title": "Iestatīšanai nepieciešama jūsu palīdzība"
+	},
+	"selectionOrder": {
+		"editorTitle": "Kā šis profils izvēlas",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC audio",
+				"reason": "der MP4 atskaņotājiem"
+			},
+			"aacSmartTv": {
+				"label": "AAC audio",
+				"reason": "atskaņojas visur"
+			},
+			"codec": {
+				"label": "AV1, tad VP9, tad H.264",
+				"reason": "visskaidrākais noteiktā izmērā"
+			},
+			"codecH264First": {
+				"label": "H.264, tad VP9, tad AV1",
+				"reason": "šī profila kodeks"
+			},
+			"codecVp9First": {
+				"label": "VP9, tad H.264, tad AV1",
+				"reason": "šī profila kodeks"
+			},
+			"fps": {
+				"label": "Augstākais kadru ātrums",
+				"reason": "vienmērīgāka kustība"
+			},
+			"h264": {
+				"label": "H.264 video",
+				"reason": "atskaņojas katrā ierīcē"
+			},
+			"hdrFirst": {
+				"label": "HDR pirms SDR",
+				"reason": "bagātīgākas krāsas HDR ekrānos",
+				"reasonScreen": "šis ekrāns attēlo HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR pirms HDR",
+				"reason": "izskatās pareizi jebkurā ekrānā",
+				"reasonScreen": "šis ekrāns nav HDR"
+			},
+			"mp4Streams": {
+				"label": "MP4 straumes",
+				"reason": "gatavas MP4 failam"
+			},
+			"nativeCompatible": {
+				"label": "Stereo audio"
+			},
+			"nativeSource": {
+				"profile": "šis profils",
+				"settings": "no iestatījumiem"
+			},
+			"nativeSurround": {
+				"label": "Telpiskais audio, ja tāds ir pieejams"
+			},
+			"opus": {
+				"label": "Opus audio",
+				"reason": "der WebM"
+			},
+			"original": {
+				"label": "Oriģinālās straumes, nevis ar MI uzlabotās",
+				"reason": "uzlabotai kopijai ir lielāks augstums, bet tā nepievieno reālas detaļas"
+			},
+			"protocol": {
+				"label": "Tiešās lejupielādes pirms straumētajām kopijām",
+				"reason": "tas pats attēls, lejupielādēts ātrāk"
+			},
+			"resolution": {
+				"label": "Līdz {{tier}}p",
+				"reason": "jūsu ierobežojums"
+			},
+			"resolutionBest": {
+				"label": "Augstākā izšķirtspēja",
+				"reason": "ierobežojums nav iestatīts"
+			},
+			"sitePreference": {
+				"label": "Straumes, kuras vietne nav atzīmējusi kā sliktākas",
+				"reason": "izlaiž bojātas, ar ūdenszīmi un rezerves kopijas"
+			},
+			"size": {
+				"label": "Lielāks fails",
+				"reason": "vairāk detaļu ar tiem pašiem iestatījumiem"
+			},
+			"source": {
+				"label": "Vispirms straumes ar uzlabotu bitrati",
+				"reason": "vairāk detaļu ar to pašu izšķirtspēju"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "faila tips pēc straumēm",
+				"explicit": "saglabā kā .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "labākais attēls",
+				"smartTv": "atskaņojas jebkurā ierīcē"
+			}
+		},
+		"whyLabel": "Kāpēc šī?",
+		"whyTitle": "Kāpēc profils izvēlējās šo"
+	},
+	"share": {
+		"copied": "Nokopēts!",
+		"copyLink": "Kopēt saiti",
+		"defaultMessage": "Klip — bezmaksas atvērtā koda video lejupielādētājs operētājsistēmām Windows, macOS un Linux. Darbojas ar YouTube, Vimeo, Twitch un 2000+ vietnēm.\n4K · HDR · MP3 · Shorts · Subtitri · SponsorBlock",
+		"description": "Klip ir bezmaksas un atvērtā koda. Daloties ar to, vairāk cilvēku to atklās.",
+		"footerLabel": "Kopīgot",
+		"footerTooltip": "Kopīgot Klip",
+		"shareAction": "Kopīgot Klip",
+		"title": "Kopīgot Klip"
+	},
+	"splash": {
+		"cancel": "Rodas problēmas? Iestatiet manuāli",
+		"greeting": "Sveiki, laipni lūdzam atpakaļ!",
+		"setup": {
+			"left": {
+				"minutes_one": "atlikusi apmēram {{count}} minūte",
+				"minutes_other": "atlikušas apmēram {{count}} minūtes",
+				"minutes_zero": "atlikušas apmēram {{count}} minūšu",
+				"underMinute": "atlikusi mazāk nekā minūte"
+			},
+			"stage": {
+				"checking": "Pārbauda, vai viss darbojas",
+				"connecting": "Notiek savienošana…",
+				"unpacking": "Izpako multivides rīkus",
+				"unpackingEngine": "Izpako lejupielādes dzinēju"
+			},
+			"title": {
+				"both": "Atjaunina Klip rīkus",
+				"engine": "Atjaunina lejupielādes dzinēju",
+				"firstRun": "Pirmreizējā iestatīšana",
+				"media": "Atjaunina multivides rīkus"
+			}
+		},
+		"verifyFirstCheck": "Šīs versijas pirmā pārbaude — šī ir lēna. Parasti aptuveni minūti.",
+		"verifying": "Pārbauda {{binary}}…",
+		"warmup": "Sagatavo lejupielādes…",
+		"warmupFailedNoDiag": "Iestatīšana neizdevās. Atveriet iestatīšanas žurnālu, lai uzzinātu sīkāk."
+	},
+	"status": {
+		"audioKept": "Video saglabāts ar skaņu — audio nevarēja noņemt",
+		"audioKeptSubtitlesFailed": "Video saglabāts ar skaņu — audio nevarēja noņemt, un dažus subtitrus nevarēja lejupielādēt",
+		"cancelled": "Lejupielāde atcelta",
+		"complete": "Lejupielāde pabeigta",
+		"convertingVideo": "Pārvērš video…",
+		"diskSpaceInsufficient": "Nepietiek vietas diskā — nepieciešams {{required}}, pieejams tikai {{free}}",
+		"downloadingBinary": "Lejupielādē {{name}} bināro failu…",
+		"downloadingMedia": "Lejupielādē video un audio…",
+		"embeddingMetadata": "Iegulst metadatus…",
+		"exploreSignedOut": "Izrakstīts no sadaļas Izpēte — pierakstieties vēlreiz",
+		"extractingAudio": "Pārvērš audio…",
+		"fetchingSponsorBlock": "Sazinās ar SponsorBlock…",
+		"fetchingSubtitles": "Iegūst subtitrus…",
+		"mergingFormats": "Apvieno audio un video…",
+		"mintingToken": "Sagatavo YouTube lejupielādi…",
+		"movingFiles": "Pārvieto failus…",
+		"noSubtitles": "Nav subtitru valodās: {{languages}}",
+		"outputNotWritable": "Nevar saglabāt mapē {{dir}} — Klip nav atļaujas tur rakstīt",
+		"preparingBinaries": "Sagatavo bināros failus…",
+		"qualityLimited": "Saglabāts {{height}}p kvalitātē — YouTube šai lejupielādei atteica augstāku kvalitāti. Var palīdzēt mēģinājums vēlāk.",
+		"qualityLimitedSubtitlesFailed": "Saglabāts {{height}}p kvalitātē — YouTube šai lejupielādei atteica augstāku kvalitāti, un dažus subtitrus nevarēja lejupielādēt. Var palīdzēt mēģinājums vēlāk.",
+		"remintingToken": "Atkārtoti sagatavo YouTube lejupielādi…",
+		"retryingSponsorBlock": "SponsorBlock nav pieejams, mēģina vēlreiz ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Savienojums iesprūdis, mēģina vēlreiz ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Piesakās ar jūsu Izpētes kontu…",
+		"sleepingBetweenRequests": "Gaida {{seconds}} s, lai izvairītos no ierobežojumiem…",
+		"startingYtdlp": "Startē lejupielādes dzinēju…",
+		"subtitleLanguagesMissing": "Šim video nav subtitru valodās: {{languages}}. Video tika saglabāts bez tiem.",
+		"subtitleLanguagesMissingOthersSaved": "Šim video nav subtitru valodās: {{languages}}. Pārējās valodas tika saglabātas.",
+		"subtitlesFailed": "Video saglabāts — dažus subtitrus nevarēja lejupielādēt",
+		"unknownStartupFailure": "Nezināma lejupielādes startēšanas kļūda",
+		"usedExtractorFallback": "Lejupielādēts ar vienkāršotu ieguvēju — iestatiet cookies.txt drošākām lejupielādēm",
+		"ytdlpExitCode": "Lejupielādes dzinējs beidza darbu ar kodu {{code}}",
+		"ytdlpProcessError": "Lejupielādes dzinēja kļūda: {{error}}"
+	},
+	"theme": {
+		"dark": "Tumšais režīms",
+		"light": "Gaišais režīms",
+		"system": "Sistēmas noklusējums"
+	},
+	"titleBar": {
+		"close": "Aizvērt",
+		"maximize": "Maksimizēt",
+		"minimize": "Minimizēt",
+		"restore": "Atjaunot"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Lejupielādēt no starpliktuves",
+			"statusActive_one": "Lejupielādē: {{count}} · {{percent}}%",
+			"statusActive_other": "Lejupielādē: {{count}} · {{percent}}%",
+			"statusActive_zero": "Lejupielādē: {{count}} · {{percent}}%",
+			"statusIdle": "Dīkstāvē"
+		}
+	},
+	"update": {
+		"copied": "Komanda nokopēta starpliktuvē",
+		"copy": "Kopēt komandu starpliktuvē",
+		"dismiss": "Aizvērt atjauninājuma joslu",
+		"download": "Lejupielādēt ↗",
+		"downloadDmg": "Lejupielādēt DMG ↗",
+		"downloading": "Lejupielādē…",
+		"install": "Instalēt un restartēt",
+		"installFailed": "Atjaunināšana neizdevās",
+		"message": {
+			"generic": "Pieejams Klip {{version}} — jums ir {{currentVersion}}.",
+			"homebrew": "Pieejams Klip {{version}} — atjauniniet ar Homebrew.",
+			"macosDirect": "Pieejams Klip {{version}} — lejupielādējiet jauno DMG.",
+			"macosDirectHomebrew": "Pieejams Klip {{version}} — lejupielādējiet DMG vai pārejiet uz Homebrew.",
+			"portable": "Pieejams Klip {{version}} — lejupielādējiet jauno būvējumu."
+		},
+		"retry": "Mēģināt vēlreiz",
+		"runAndRestart": "Palaist un restartēt",
+		"upgrading": "Jaunina…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} nodaļa",
+		"chapters_other": "{{count}} nodaļas",
+		"chapters_zero": "{{count}} nodaļu",
+		"titlePlaceholder": "Notiek ielāde…"
+	},
+	"videoCodec": {
+		"h264": "Vispirms H.264",
+		"label": "Video kodeks",
+		"smartTv": "Smart TV vienmēr izvēlas H.264.",
+		"vp9": "Vispirms VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Gatavi",
+			"description": "Ielīmējiet video, atskaņošanas sarakstu, kanālu, meklēšanas vai audio URL. Klip pirms pievienošanas rindai noņems dublikātus.",
+			"emptyPreview": "Ielīmējiet vienu vai vairākus URL, lai priekšskatītu pakotni.",
+			"ignoredCount": "Ignorēti",
+			"needsAtLeastOne": "Lai turpinātu, pievienojiet vismaz vienu atbalstītu URL.",
+			"reject": {
+				"duplicate": "Dublikāts"
+			},
+			"textareaLabel": "URL saraksts",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "Vairāki URL"
+		},
+		"confirm": {
+			"addToQueue": "+ Rindā",
+			"addToQueueTooltip": "Pievieno rindai — sākas, kad aktīvā lejupielāde pabeigta",
+			"itemsValueAudio_one": "{{count}} no {{total}} celiņiem",
+			"itemsValueAudio_other": "{{count}} no {{total}} celiņiem",
+			"itemsValueAudio_zero": "{{count}} no {{total}} celiņiem",
+			"itemsValueBulk_one": "{{count}} no {{total}} URL",
+			"itemsValueBulk_other": "{{count}} no {{total}} URL",
+			"itemsValueBulk_zero": "{{count}} no {{total}} URL",
+			"itemsValue_one": "{{count}} no {{total}} video",
+			"itemsValue_other": "{{count}} no {{total}} video",
+			"itemsValue_zero": "{{count}} no {{total}} video",
+			"labelAudio": "Audio",
+			"labelBulk": "Pakotne",
+			"labelItems": "Vienumi",
+			"labelPlaylist": "Atskaņošanas saraksts",
+			"labelPreset": "Profils",
+			"labelSaveTo": "Saglabāt mapē",
+			"labelSize": "Izmērs",
+			"labelSubtitles": "Subtitri",
+			"labelVideo": "Video",
+			"landIn": "Jūsu fails nonāks mapē",
+			"landInMultiProfile_one": "Tas nonāks tālāk norādītajā galamērķī",
+			"landInMultiProfile_other": "Tie nonāks tālāk norādītajos galamērķos ({{count}})",
+			"landInMultiProfile_zero": "Tie nonāks tālāk norādītajos galamērķos ({{count}})",
+			"nothingToDownload": "Ir aktīvs profils “Tikai subtitri”, bet nav izvēlēta neviena subtitru valoda — nekas netiks lejupielādēts.",
+			"profileBreakdownCount_one": "{{count}} vienums",
+			"profileBreakdownCount_other": "{{count}} vienumi",
+			"profileBreakdownCount_zero": "{{count}} vienumu",
+			"profileBreakdownHeading": "Profili šajā pakotnē",
+			"pullIt": "Lejupielādēt ↓",
+			"pullItTooltip": "Izlaiž rindu — sākas tūlīt, darbojas līdzās citām aktīvajām lejupielādēm",
+			"readyHeadline": "Gatavs lejupielādei!",
+			"sizeUnknown": "Nezināms",
+			"subtitleEmbedAudioOnly": "Subtitru iegulšana mainīta uz atsevišķu failu — audio ierakstos iegultas subtitru straumes netiek atbalstītas.",
+			"subtitleEmbedForcesMkv": "Video iegultajiem subtitriem nepieciešams MKV fails, tāpēc šī lejupielāde tiek saglabāta kā .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Sīktēla iegulšana izlaista — izvades konteiners to neatbalsta."
+		},
+		"folder": {
+			"custom": "Pielāgot…",
+			"desktop": "Darbvirsma",
+			"documents": "Dokumenti",
+			"downloads": "Lejupielādes",
+			"heading": "Saglabāt mapē",
+			"home": "Sākums",
+			"music": "Mūzika",
+			"pictures": "Attēli",
+			"subfolder": {
+				"invalid": "Mapes nosaukumā ir nederīgas rakstzīmes",
+				"placeholder": "piem., lekcijas",
+				"toggle": "Saglabāt apakšmapē"
+			},
+			"videos": "Filmas"
+		},
+		"formats": {
+			"audio": "Audio",
+			"audioLanguage": "Audio valoda",
+			"audioLanguageCount_one": "{{count}} valoda",
+			"audioLanguageCount_other": "{{count}} valodas",
+			"audioLanguageCount_zero": "{{count}} valodu",
+			"bitrateValue": "Bitrate {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Sīkfaili ir konfigurēti, bet izslēgti. Ieslēdziet tos un mēģiniet vēlreiz, lai iegūtu pilnu sarakstu, vai nomainiet tīklu un mēģiniet vēlreiz.",
+				"bodyEnabled": "YouTube ierobežoja šo pārbaudi pat ar sīkfailiem. Mēģiniet vēlāk vai nomainiet tīklu.",
+				"bodyExplore": "YouTube ierobežoja šo pieprasījumu. Mēģiniet vēlāk vai nomainiet tīklu.",
+				"bodyUnconfigured": "Formātu saraksts var būt nepilnīgs. Iestatiet sīkfailus papildu iestatījumos vai nomainiet tīklu un mēģiniet vēlreiz.",
+				"enableRetryCta": "Ieslēgt sīkfailus un mēģināt vēlreiz",
+				"heading": "Pārbaude tika ierobežota",
+				"retryCta": "Mēģināt vēlreiz"
+			},
+			"convert": {
+				"bitrate": "Bitrate",
+				"bitrateCopyHint": "Avots, kas jau ir {{target}}, saglabā savu straumi un bitrati: tas tiek kopēts, nevis pārkodēts.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, bez pārkodēšanas",
+				"copyLabelNoBitrate": "{{target}}, bez pārkodēšanas",
+				"copyNote": "{{kbps}} kbps, kā avotam: straume jau ir {{target}}, tāpēc tā tiek kopēta, nevis pārkodēta",
+				"copyNoteNoBitrate": "Kā avotam: straume jau ir {{target}}, tāpēc tā tiek kopēta, nevis pārkodēta",
+				"label": "Pārvērst",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "Avots ir {{kbps}} kbps",
+				"wavLabel": "WAV (nesaspiests)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Pārlūks",
+				"currentModeExplore": "Pierakstīšanās sadaļā Izpēte",
+				"currentModeFile": "Fails",
+				"currentModeLabel": "Sīkfailu avots",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp dokumentācija (problēma #10927)",
+					"explanation": "Chrome 127 un jaunāks šifrē sīkfailus tā, ka citas lietotnes Windows sistēmā tos nevar nolasīt. Izmēģiniet kādu no tālāk norādītajiem risinājumiem.",
+					"fixFileBody": "Eksportējiet sīkfailus no Chrome ar pārlūka paplašinājumu, pēc tam pārslēdziet šo lietotni uz režīmu Fails un izvēlieties eksportēto failu.",
+					"fixFileLabel": "Eksportēt cookies.txt",
+					"fixFirefoxBody": "Firefox neizmanto App-Bound Encryption. Atveriet sīkfailu iestatījumus un pārlūku sarakstā izvēlieties Firefox.",
+					"fixFirefoxLabel": "Pāriet uz Firefox",
+					"fixUnsafeBody": "Pievienojiet --disable-features=LockProfileCookieDatabase Chrome palaišanas saīsnei. Brīdinājums: tas padara iepriekš šifrētos sīkfailus nederīgus, tāpēc tiksiet izrakstīts no visām vietnēm un jums būs jāpierakstās vēlreiz.",
+					"fixUnsafeLabel": "Palaist Chrome ar izslēgtu App-Bound Encryption",
+					"heading": "Chrome sīkfailus bloķē Windows šifrēšana"
+				},
+				"explanationBrowser": "Sīkfaili tiek nolasīti tieši no pārlūka. Ja pārlūks pašlaik darbojas, tā sīkfailu datubāze var būt bloķēta (Chromium saimes pārlūkiem). Pārlūkā jābūt arī pierakstītam YouTube. Mēģiniet aizvērt pārlūku, pārslēgties uz citu pārlūku, pārslēgties uz režīmu Fails vai izslēgt sīkfailus.",
+				"explanationFile": "Jūsu sīkfailu fails var būt tukšs, novecojis vai nepareizā formātā (Klip nepieciešams Netscape cookies.txt fails). Mēģiniet vēlreiz eksportēt sīkfailus, izvēlēties citu failu, pārslēgties uz režīmu Pārlūks vai izslēgt sīkfailus.",
+				"exploreOffer": {
+					"body": "Pierakstieties sadaļā Izpēte, un Klip mēģinās vēlreiz.",
+					"cta": "Pierakstīties sadaļā Izpēte",
+					"heading": "Šim videoklipam var būt nepieciešams YouTube konts"
+				},
+				"exploreRefused": {
+					"body": "Klip jau mēģināja pierakstītā stāvoklī, izmantojot Izpēti, tāpēc atkārtota pierakstīšanās nepalīdzēs. Iespējams, vietnei ir problēmas vai šis konts to nevar atvērt. Mēģiniet vēlāk.",
+					"heading": "Vietne to atteica pat ar jūsu pierakstīšanos sadaļā Izpēte"
+				},
+				"exploreReuse": {
+					"body": "Esat pierakstīts sadaļā Izpēte, taču lejupielādes šobrīd šo pierakstīšanos neizmanto.",
+					"cta": "Izmantot manu pierakstīšanos sadaļā Izpēte un mēģināt vēlreiz",
+					"heading": "Šim videoklipam var būt nepieciešams YouTube konts"
+				},
+				"exploreSignIn": {
+					"body": "Ja šim videoklipam nepieciešams YouTube konts, pierakstieties sadaļā Izpēte un mēģiniet vēlreiz. Klip izmanto šo pierakstīšanos tikai tad, kad lejupielādei tā nepieciešama.",
+					"cta": "Pierakstīties sadaļā Izpēte",
+					"heading": "Šim videoklipam var būt nepieciešams YouTube konts"
+				},
+				"exploreSignedIn": {
+					"body": "Ja šim videoklipam nepieciešams konts, Klip automātiski izmanto jūsu pierakstīšanos sadaļā Izpēte. Iespējams, tas nav pieejams cita iemesla dēļ.",
+					"heading": "Pierakstīts sadaļā Izpēte"
+				},
+				"exploreSite": {
+					"heading": "Šai saitei var būt nepieciešams konts vietnē {{host}}",
+					"offerBody": "Pierakstieties vietnē {{host}} ar sadaļu Izpēte un mēģiniet vēlreiz.",
+					"signInBody": "Pierakstieties vietnē {{host}} sadaļā Izpēte un mēģiniet vēlreiz. Klip izmanto šo pierakstīšanos tikai tad, kad lejupielādei tā nepieciešama."
+				},
+				"heading": "Cēlonis var būt sīkfaili",
+				"needsCookies": {
+					"body": "Klip nevarēja piekļūt šim videoklipam bez autentifikācijas. Konfigurējiet sīkfailus papildu iestatījumos — norādiet pārlūku, kurā jau esat pierakstījies, vai importējiet cookies.txt failu.",
+					"heading": "Šai vietnei nepieciešama pierakstīšanās"
+				},
+				"openSettingsCta": "Atvērt sīkfailu iestatījumus",
+				"otherCookiesCta": "Tā vietā izmantot sīkfailu failu vai pārlūku…"
+			},
+			"drc": {
+				"description": "Pieklusina skaļās daļas un pastiprina klusās — skaļruņiem un trokšņainām telpām.",
+				"label": "Izlīdzināt skaļumu (DRC)",
+				"tag": "Izlīdzināts skaļums"
+			},
+			"fit": {
+				"mp4Unavailable": "Jūsu profils ir Smart TV (H.264). Šim video H.264 nav pieejams, tāpēc izvēlēta tuvākā straume.",
+				"noVideo": "Šajā saitē nav video, tāpēc izvēlēts audio.",
+				"subtitlesMissing": "Jūsu profils pieprasa subtitrus valodās: {{languages}}. Šim video to nav.",
+				"tierAbove": "Jūsu profils pieprasa {{wanted}}p. Šim video nav nekā tik mazā, tāpēc izvēlēts {{picked}}p.",
+				"tierAbovePassedOver": "Jūsu profils pieprasa {{wanted}}p. Šī video mazākās straumes neatbilst pārējam jūsu profilam, tāpēc izvēlēts {{picked}}p.",
+				"tierBelowTakeable": "Jūsu profils pieprasa {{wanted}}p. Šim video nav {{wanted}}p straumes, ko varētu izmantot, tāpēc izvēlēts {{picked}}p.",
+				"tierPassedOverAiUpscaled": "Jūsu profils pieprasa {{wanted}}p. Šī video {{wanted}}p ir palielināts ar MI, tāpēc izvēlēts oriģinālais {{picked}}p.",
+				"tierPassedOverH264": "Jūsu profils pieprasa {{wanted}}p formātā H.264. Šim video {{wanted}}p ir tikai citos kodekos, tāpēc izvēlēts {{picked}}p formātā H.264.",
+				"tierPassedOverProfile": "Jūsu profils pieprasa {{wanted}}p. Šī video {{wanted}}p neatbilst pārējam jūsu profilam, tāpēc izvēlēts {{picked}}p.",
+				"webmUnavailable": "Jūsu profils pieprasa WebM. Šī video izvēlētajās straumēs ir {{codec}}, ko WebM nevar saturēt, tāpēc faila tips ir Automātiski."
+			},
+			"footer": {
+				"addToQueue": "Pievienot rindai, nesākot",
+				"download": "Lejupielādēt",
+				"moreActions": "Citas lejupielādes opcijas",
+				"subtitlesRequired": "Izvēlieties vismaz vienu subtitru valodu."
+			},
+			"keepAudio": "Atstāt kā ir",
+			"keepAudioMeta": "Iebūvētais audio",
+			"kind": {
+				"audio": "Tikai audio",
+				"label": "Ko lejupielādēt",
+				"subtitles": "Tikai subtitri",
+				"video": "Video + audio",
+				"videoOnly": "Video, bez audio"
+			},
+			"loadingAria": "Ielādē formātus",
+			"loadingHint": "Lūdzu, uzgaidiet, līdz pārbaude beidzas — atskaņošanas saraksti un meklēšanas rezultāti var aizņemt kādu laiku.",
+			"marker": {
+				"aiDubbed": "Ar MI dublēts",
+				"aiUpscaled": "Ar MI uzlabots",
+				"audioDescription": "Audio apraksts",
+				"damaged": "Bojāts",
+				"enhancedBitrate": "Uzlabota bitrate",
+				"original": "Oriģināls",
+				"spatialAudio": "Telpiskais audio",
+				"vr": "360° / VR",
+				"watermarked": "Ar ūdenszīmi"
+			},
+			"noAudio": "Bez audio",
+			"profile": {
+				"calloutBody": "Jūsu aktīvais profils jau iepriekš izvēlas straumes jūsu vietā. Pārslēdziet profilus izvēlnē vai izmantojiet zīmuli, lai pielāgotu kādu, neizejot no šīs lejupielādes.",
+				"calloutTitle": "Formāti sākas no jūsu profila",
+				"closestTag": "Tuvākais profilam",
+				"edit": "Rediģēt: {{name}}",
+				"keepEdits": "Paturēt manas izmaiņas",
+				"menuDescription": "Tikai šai lejupielādei. Jūsu noklusējuma profils paliek nemainīts.",
+				"preselected": "Iepriekš izvēlēts no",
+				"resetAll": "Atiestatīt visu",
+				"switchBody": "Jūs mainījāt {{areas}} šai lejupielādei. Profils “{{profile}}” abos gadījumos izvēlas video un audio. Paturēt pārējās izmaiņas vai atiestatīt visu uz profilu?",
+				"switchTitle": "Pārslēgt profilu?",
+				"tag": "Profils",
+				"updatedBody": "Jūs mainījāt {{areas}} šai lejupielādei. Atjauninātais profils abos gadījumos izvēlas video un audio. Paturēt pārējās izmaiņas vai atiestatīt visu uz profilu?",
+				"updatedTitle": "Izmantot atjaunināto profilu?"
+			},
+			"quality": {
+				"high": "Augsta kvalitāte",
+				"low": "Zema kvalitāte",
+				"medium": "Vidēja kvalitāte"
+			},
+			"rateLimit": {
+				"heading": "{{site}} ierobežo pieprasījumus no šī savienojuma",
+				"leadDegraded": "Formātu saraksts var būt nepilnīgs.",
+				"leadFailed": "{{site}} šobrīd noraidīja šo pieprasījumu.",
+				"retryCta": "Mēģināt vēlreiz",
+				"sessionNote": "{{site}} šo ierobežojumu var saglabāt līdz stundai.",
+				"tryNowCta": "Mēģināt tagad",
+				"waitOver": "Gaidīšana beigusies, tāpēc varat mēģināt vēlreiz.",
+				"waitUntil": "Klip gaidīs līdz {{time}}, pirms atkal vērsties pie {{site}}, lai ierobežojums varētu beigties."
+			},
+			"resolutionUnknown": "Nezināma izšķirtspēja",
+			"savesAs": {
+				"label": "Saglabā kā",
+				"reset": "WebM nevar saturēt {{codec}}, tāpēc faila tips atgriezts uz Automātiski."
+			},
+			"sizeUnknown": "Izmērs nezināms",
+			"skipToConfirm": "Pāriet uz apstiprināšanu",
+			"skipToConfirmTooltip": "Visos atlikušajos soļos izmanto jūsu saglabātos iestatījumus. Lai mainītu iestatījumu, turpiniet soli pa solim — jūsu izvēle tiks saglabāta nākamajai reizei.",
+			"sniffing": "Meklē jums labākos formātus…",
+			"total": "Kopā",
+			"video": "Video",
+			"withAudio": "ar audio"
+		},
+		"listPrompt": {
+			"backgroundHint": "Ar profilu {{profileName}}. Ja tajā ir vairāk nekā {{count}} video, cilne Lejupielādes pajautās, cik lejupielādēt.",
+			"backgroundLabel": "Lejupielādēt fonā",
+			"escOnly": "Esc atceļ.",
+			"firstHint": "Tieši pirmie {{count}} ar profilu {{profileName}}.",
+			"firstLabel": "Lejupielādēt pirmos",
+			"interactiveHint": "Izvēlieties no pirmajiem {{count}} video (vai nomainiet skaitu nākamajā darbībā), pēc tam iestatiet lejupielādi.",
+			"interactiveLabel": "Interaktīvā lejupielāde…",
+			"limitHint": "Cik video ņemt no saraksta: pirmā iespēja pajautā, ja to ir vairāk, otrā ņem tieši tik. Tas pats, kas Iestatījumi › Pārbaudāmie atskaņošanas saraksta vienumi.",
+			"limitLabel": "Ierobežojums",
+			"mixNote": "Mix mainās katru reizi, kad to atverat.",
+			"pickLoadAfter": "video, lai izvēlētos.",
+			"pickLoadBefore": "Ielādēt pirmos",
+			"pickLoadNote": "To varat mainīt nākamajā darbībā.",
+			"pickTitle": {
+				"album": "Izvēlēties no šī albuma",
+				"liked": "Izvēlēties no jums patikušajiem video",
+				"mix": "Izvēlēties no šī Mix",
+				"playlist": "Izvēlēties no šī atskaņošanas saraksta",
+				"uploads": "Izvēlēties no šī kanāla augšupielādētajiem video",
+				"watchLater": "Izvēlēties no “Skatīties vēlāk”"
+			},
+			"title": {
+				"album": "Lejupielādēt no šī albuma",
+				"liked": "Lejupielādēt no jums patikušajiem video",
+				"mix": "Lejupielādēt no šī Mix",
+				"playlist": "Lejupielādēt no šī atskaņošanas saraksta",
+				"uploads": "Lejupielādēt no šī kanāla augšupielādētajiem video",
+				"watchLater": "Lejupielādēt no “Skatīties vēlāk”"
+			},
+			"videoHint": "Tikai atvērtais video ar profilu {{profileName}}. Saraksts netiek ielādēts.",
+			"videoLabel": "Tikai šis video",
+			"videoPickHint": "Iestatiet tikai atvērto video. Saraksts netiek ielādēts.",
+			"withProfile": "Profils: {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Nodaļu atzīmes, pa kurām var pārvietoties jebkurā mūsdienu atskaņotājā.",
+				"label": "Iegult nodaļas",
+				"short": "nodaļas"
+			},
+			"embedMetadata": {
+				"description": "Nosaukums, izpildītājs, apraksts un augšupielādes datums tiek ierakstīti failā.",
+				"label": "Iegult metadatus",
+				"short": "metadati"
+			},
+			"embedThumbnail": {
+				"description": "Vāka attēls faila iekšpusē. WebM video tiks pārpakots uz MKV; izlaists, ja ir iegulti subtitri.",
+				"label": "Iegult sīktēlu",
+				"short": "vāka attēls"
+			},
+			"writeDescription": {
+				"description": "Saglabā video aprakstu .description teksta failā līdzās lejupielādei.",
+				"label": "Saglabāt aprakstu",
+				"short": "apraksta fails"
+			},
+			"writeM3u": {
+				"description": "Saglabā .m3u atskaņošanas sarakstu līdzās video, lai tie multivides atskaņotājā atvērtos pareizā secībā.",
+				"label": "Izveidot .m3u atskaņošanas saraksta failu"
+			},
+			"writeThumbnail": {
+				"description": "Saglabā sīktēlu kā .jpg attēla failu līdzās lejupielādei.",
+				"label": "Saglabāt sīktēlu",
+				"short": "sīktēla fails"
+			}
+		},
+		"part": {
+			"calloutBody": "Pārslēdzieties uz Fragments video kartītē, lai izvēlētos sākumu un beigas vai nodaļu un lejupielādētu tikai šo posmu.",
+			"calloutTitle": "Lejupielādējiet tikai video daļu",
+			"chapterUntitled": "Nodaļa {{number}}",
+			"chapters": "Nodaļas",
+			"connectionsNote": "Fragments tiek lejupielādēts ar ffmpeg, tāpēc lejupielādes savienojumu un tempa iestatījumi uz to neattiecas.",
+			"downloadBlocked": "Vispirms izlabojiet fragmenta sākumu un beigas.",
+			"end": "Beigas",
+			"error": {
+				"endBeyondDuration": "Video beidzas pie {{duration}}.",
+				"endInvalid": "Ievadiet beigas kā h:mm:ss, m:ss vai sekundes.",
+				"startInvalid": "Ievadiet sākumu kā h:mm:ss, m:ss vai sekundes.",
+				"startNotBeforeEnd": "Sākumam jābūt pirms beigām."
+			},
+			"exactCut": {
+				"hint": "Izslēgts: katrs griezums nonāk uz tuvāko atslēgkadru, kas var atšķirties par dažām sekundēm no ievadītā laika.",
+				"label": "Precīzs griezums (pārkodē, lēnāk)"
+			},
+			"length": "{{length}} no {{duration}}",
+			"part": "Fragments",
+			"rangeLabel": "Video fragments",
+			"start": "Sākums",
+			"subtitlesFullLength": "viss video",
+			"summary": "Fragments {{start}}–{{end}}",
+			"switchLabel": "Cik daudz no video",
+			"timeHint": "h:mm:ss, m:ss vai sekundes",
+			"totalEstimate": "Fragments, aptuveni",
+			"unavailableDuration": "Šis video neziņo savu garumu, tāpēc to var lejupielādēt tikai pilnībā.",
+			"unavailableSubtitles": "Subtitri vienmēr aptver visu video.",
+			"urlStart": "Jūsu saite sākas pie {{time}}",
+			"useUrlStart": "Izmantot kā sākumu",
+			"whole": "Viss video",
+			"wholeTrack": "Viss celiņš"
+		},
+		"playlist": {
+			"allRemovedDescription": "Atjaunojiet tos, lai turpinātu.",
+			"allRemovedTitle": "Visi vienumi tika noņemti",
+			"alreadyDownloaded": "Jau lejupielādēts",
+			"bulkCappedDesc_one": "Tajā ir vairāk. Lai izvēlētos, cik, ielīmējiet tā saiti atsevišķi.",
+			"bulkCappedDesc_other": "Tajos ir vairāk. Lai izvēlētos, cik, ielīmējiet katru saiti atsevišķi.",
+			"bulkCappedDesc_zero": "Tajos ir vairāk. Lai izvēlētos, cik, ielīmējiet katru saiti atsevišķi.",
+			"bulkCappedTitle_one": "“{{title}}” ir ierobežots līdz {{limit}} video",
+			"bulkCappedTitle_other": "{{count}} saraksti ir ierobežoti līdz {{limit}} video katrs",
+			"bulkCappedTitle_zero": "{{count}} sarakstu ir ierobežoti līdz {{limit}} video katrs",
+			"bulkHeading": "Vairāki URL",
+			"bulkMetadataOptional": "Nav jāgaida — tagad rindā pievienotie faili lejupielādes laikā joprojām saņem savus īstos nosaukumus.",
+			"bulkMetadataResolving": "Iegūst video informāciju… {{done}}/{{total}}",
+			"bulkRowFailed": "Informācija nav pieejama",
+			"bulkRowResolving": "Iegūst informāciju",
+			"bulkRowWaiting": "Gaida",
+			"durationUnknown": "tiešraide",
+			"heading": "Atskaņošanas saraksta vienumi",
+			"headingGeneric": "Lejupielādējamie video",
+			"itemCountAudio_one": "{{count}} celiņš",
+			"itemCountAudio_other": "{{count}} celiņi",
+			"itemCountAudio_zero": "{{count}} celiņu",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCountBulk_zero": "{{count}} URL",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} video",
+			"itemCount_zero": "{{count}} video",
+			"loadingItems": "Iegūst atskaņošanas sarakstu…",
+			"loadingItemsGeneric": "Iegūst video…",
+			"loadingLimitHint": "Ierobežots līdz pirmajiem {{count}} vienumiem",
+			"loadingPagesFound_one": "Atrasta {{count}} lapa",
+			"loadingPagesFound_other": "Atrastas {{count}} lapas",
+			"loadingPagesFound_zero": "Atrastas {{count}} lapu",
+			"loadingPhaseItems": "Vāc video",
+			"loadingPhasePages": "Pārbauda kanāla lapas",
+			"multiProfileEntry": "Piešķirt profilus katram vienumam",
+			"multiProfileEntryTooltip": "Izlaiž Kvalitāti, SponsorBlock, Izvadi un Saglabāšanu — tā vietā katram vienumam piešķiriet lejupielādes profilu",
+			"nestedPlaylistBadge": "Atskaņošanas saraksts",
+			"nestedPlaylistHint_one": "{{count}} no šiem ir atskaņošanas saraksts, nevis video — ielīmējiet tā saiti atsevišķi, lai to lejupielādētu.",
+			"nestedPlaylistHint_other": "{{count}} no šiem ir atskaņošanas saraksti, nevis video — ielīmējiet to saites pa vienai, lai tos lejupielādētu.",
+			"nestedPlaylistHint_zero": "{{count}} no šiem ir atskaņošanas saraksti, nevis video — ielīmējiet to saites pa vienai, lai tos lejupielādētu.",
+			"noSelection": "Lai turpinātu, atlasiet vismaz vienu video",
+			"probeLimitAlertDesc": "Rāda pirmos {{count}} vienumus. Palieliniet ielādes limitu, lai redzētu vairāk.",
+			"probeLimitAlertTitle": "Atskaņošanas saraksta pārbaude ir ierobežota",
+			"probeLimitAlertTitleGeneric": "Pārbaude ir ierobežota",
+			"rangeApply": "Lietot diapazonu",
+			"rangeFrom": "No",
+			"rangeTo": "Līdz",
+			"removeFromListCount_one": "Noņemt {{count}} no saraksta",
+			"removeFromListCount_other": "Noņemt {{count}} no saraksta",
+			"removeFromListCount_zero": "Noņemt {{count}} no saraksta",
+			"removedCount_one": "Noņemts {{count}}",
+			"removedCount_other": "Noņemti {{count}}",
+			"removedCount_zero": "Noņemti {{count}}",
+			"restore": "Atjaunot",
+			"selectAll": "Atlasīt visu",
+			"selectNone": "Neatlasīt neko",
+			"selectedCount_one": "Atlasīts {{count}}",
+			"selectedCount_other": "Atlasīti {{count}}",
+			"selectedCount_zero": "Atlasīti {{count}}",
+			"sortApi": "Saraksta secība",
+			"sortFetchingDates": "Iegūst augšupielādes datumus…",
+			"sortLabel": "Kārtot",
+			"sortUploadAsc": "Vispirms vecākie",
+			"sortUploadDesc": "Vispirms jaunākie",
+			"syncApply": "Lietot sinhronizāciju",
+			"syncChange": "Mainīt mapi…",
+			"syncFoundDesc": "{{n}} no šiem video jau ir mapē {{dir}}. Sinhronizēt, lai lejupielādētu tikai jaunos?",
+			"syncFoundTitle": "Jau mapē",
+			"syncNoneDesc": "Mapē {{dir}} netika atrasts neviens šī atskaņošanas saraksta video.",
+			"syncNoneDescGeneric": "Mapē {{dir}} netika atrasts neviens šī avota video.",
+			"syncNoneTitle": "Vēl nekas nav lejupielādēts",
+			"syncScanning": "Pārbauda mapi…",
+			"thumbnailAlt": "Video sīktēls"
+		},
+		"playlistPresets": {
+			"heading": "Izvēlieties pakotnes kvalitāti",
+			"itemCount_one": "{{count}} vienums",
+			"itemCount_other": "{{count}} vienumi",
+			"itemCount_zero": "{{count}} vienumu",
+			"subhead": "Katrs video izvēlēto līmeni nosaka neatkarīgi — dažādi atskaņošanas saraksti darbojas bez pārsteigumiem."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Piešķirt profilu",
+			"assignTrigger_one": "Piešķirt {{count}} video",
+			"assignTrigger_other": "Piešķirt {{count}} video",
+			"assignTrigger_zero": "Piešķirt {{count}} video",
+			"columnDuration": "Ilgums",
+			"columnProfile": "Profils",
+			"editProfile": "Rediģēt: {{name}}",
+			"empty": "Neviens vienums neatbilst šim filtram",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profilu filtri",
+			"heading": "Piešķiriet lejupielādes profilus",
+			"menuDescription_one": "Izvēlieties profilu šiem {{count}} video.",
+			"menuDescription_other": "Izvēlieties profilu šiem {{count}} video.",
+			"menuDescription_zero": "Izvēlieties profilu šiem {{count}} video.",
+			"selectedSummary": "Atlasīti {{selected}} no {{total}}"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Mainīt globālo",
+				"chooseFolder": "Izvēlēties galamērķa mapi",
+				"chooseIcon": "Izvēlēties profila ikonu",
+				"removeLanguage": "Noņemt {{code}}",
+				"reset": "Atiestatīt profilu",
+				"resetDisabledHint": "Šis profils jau izmanto iebūvētos iestatījumus",
+				"resetHint": "Atjaunot iebūvētā profila iestatījumus",
+				"save": "Saglabāt profilu",
+				"setOverride": "Iestatīt profila nepārklājumu",
+				"setOverrideShort": "Iestatīt nepārklājumu",
+				"useGlobalDefault": "Izmantot globālo noklusējumu",
+				"useLanguageCode": "Izmantot valodas kodu “{{code}}”"
+			},
+			"advanced": "Papildu",
+			"appSetting": "Izmantot lietotnes iestatījumu ({{value}})",
+			"audioFormat": {
+				"best": "Labākais",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Līdz 128K",
+				"192": "Līdz 192K",
+				"320": "Līdz 320K",
+				"best": "Labākā kvalitāte"
+			},
+			"defaultName": "Jauns profils",
+			"destination": {
+				"defaultFolder": "Noklusējuma lejupielāžu mape",
+				"defaultFolderWithSubfolder": "Noklusējuma lejupielāžu mape / {{subfolder}}",
+				"global": "Globālais galamērķis",
+				"globalActive": "Aktīvs",
+				"globalInherited": "Mantots",
+				"override": "Profila nepārklājums",
+				"overrideChoosing": "Izvēlieties mapi",
+				"overrideNone": "Nepārklājums nav iestatīts",
+				"overrideNoneNote": "Nepārklājums nav iestatīts. Šis profils izmanto iepriekš norādīto globālo galamērķi.",
+				"overrideSet": "Pārklāj globālo",
+				"overrideSetNote": "Šis profils saglabā savā saknē, pirms tiek pievienota apakšmape.",
+				"resolved": "Galīgais galamērķis"
+			},
+			"dialogDescription": "Viena atkārtoti izmantojama konfigurācija ātrajai lejupielādei, vairākiem URL un atskaņošanas sarakstiem.",
+			"dialogTitle": "Lejupielādes profils",
+			"error": {
+				"changeGlobalDestination": "Neizdevās mainīt globālo galamērķi.",
+				"folderPicker": "Neizdevās atvērt mapes izvēles logu. Ievadiet ceļu manuāli.",
+				"reset": "Neizdevās atiestatīt profila iestatījumus.",
+				"save": "Neizdevās saglabāt profila iestatījumus."
+			},
+			"field": {
+				"delivery": "Saglabāšanas veids",
+				"fileType": "Faila tips",
+				"goal": "Optimizēt",
+				"icon": "Profila ikona",
+				"languages": "Valodas",
+				"name": "Profila nosaukums",
+				"nameAndIcon": "Profila nosaukums un ikona",
+				"nativeAudio": "Oriģinālais audio",
+				"overridePath": "Profila nepārklājuma ceļš",
+				"quality": "Kvalitāte",
+				"resolution": "Izšķirtspēja",
+				"source": "Avots",
+				"subfolderName": "Apakšmapes nosaukums",
+				"subtitleDownloads": "Subtitru lejupielādes",
+				"subtitleDownloadsDescription": "Profili pieprasa valodu kodus; pieejamība tiek noteikta katram URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Visasākais noteiktā izmērā. Vecāki televizori, QuickTime un daži redaktori to neatskaņo.",
+					"name": "Labākais attēls",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Atskaņojas televizoros, tālruņos, WhatsApp, QuickTime un video redaktoros. YouTube piedāvā H.264 tikai līdz 1080p.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Arhīvs",
+				"audio": "Audio",
+				"captions": "Paraksti",
+				"classes": "Nodarbības",
+				"clip": "Klips",
+				"controls": "Vadīklas",
+				"download": "Lejupielāde",
+				"music": "Mūzika",
+				"podcast": "Podkāsts",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Mūzika vai podkāsti"
+				},
+				"subtitlesOnly": {
+					"description": "Tikai parakstu faili"
+				},
+				"videoAudio": {
+					"description": "Parasti video faili"
+				},
+				"videoOnly": {
+					"description": "Tikai video bez skaņas"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Automātiskie paraksti tiks saglabāti kā SRT, nevis ASS.",
+				"noLanguageMatches": "Nav atbilstošu valodu",
+				"noSubtitles": "Šim profilam netiks pieprasīti subtitru faili vai iegulti subtitru celiņi.",
+				"searchLanguages": "Meklēt pēc valodas nosaukuma vai koda",
+				"skippedForOutputType": "Šim izvades tipam izlaists.",
+				"subtitleLanguagesRequired": "Izvēlieties vismaz vienu valodu.",
+				"subtitleLanguagesRequiredOrOff": "Izvēlieties vismaz vienu valodu vai izslēdziet subtitru lejupielādes.",
+				"subtitlesOnly": "Šis profils rindā pievieno tikai subtitru failus. Video, audio, SponsorBlock un multivides pārvēršana tiek izlaisti."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profili manto globālo galamērķi, ja vien neiestatāt profila nepārklājumu.",
+					"title": "Papildu opcijas"
+				},
+				"downloadType": {
+					"description": "Izvēlieties galveno lejupielādes veidu.",
+					"title": "Lejupielādes veids"
+				},
+				"identity": {
+					"description": "Nosaukums un ikona, kas redzami ātrajā lejupielādē, vairākos URL un profilu sarakstos.",
+					"title": "Profila identitāte"
+				},
+				"output": {
+					"enabledCount_one": "Ieslēgts {{count}}",
+					"enabledCount_other": "Ieslēgti {{count}}",
+					"enabledCount_zero": "Ieslēgti {{count}}",
+					"title": "Izvades opcijas"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Izvēlieties šī profila mapi"
+			},
+			"skipped": "Izlaists",
+			"sponsorBlockHint": {
+				"mark": "Atzīmē sponsoru segmentus kā nodaļas (nedestruktīvi).",
+				"off": "Bez SponsorBlock — video tiek atskaņots kā augšupielādēts.",
+				"remove": "Izgriež sponsoru segmentus no video ar FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Tikai automātiski ģenerētie",
+				"manualAndAuto": "Manuālie un automātiskie",
+				"manualFirst": "Vispirms manuālie, tad automātiskie",
+				"manualOnly": "Tikai manuālie"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "{{label}} palīdzība"
+		},
+		"review": {
+			"areas": {
+				"extras": "papildu opcijas",
+				"fileName": "faila nosaukumu",
+				"format": "formātu",
+				"saveTo": "mapi",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "subtitrus"
+			},
+			"callout": {
+				"body": "Subtitri, SponsorBlock, papildu opcijas, piemēram, sīktēls, mape un faila nosaukums, agrāk bija atsevišķi soļi. Noklikšķiniet uz rindas, lai to mainītu.",
+				"title": "Visi pārējie iestatījumi tagad ir šajā lapā"
+			},
+			"changeFormat": "Mainīt formātu",
+			"changed": "Mainīts salīdzinājumā ar {{profile}}: {{areas}}. Attiecas tikai uz šo lejupielādi.",
+			"changedFrom": "Mainīts salīdzinājumā ar {{profile}}:",
+			"nextTime": {
+				"action": "Saglabāt kā profilu",
+				"defaultName": "{{profile}} (rediģēts)",
+				"title": "Šī lejupielāde izmantoja rediģētus iestatījumus. Izmantot tos nākamreiz?"
+			},
+			"reset": "Atsaukt izmaiņas, atpakaļ uz “{{profile}}”",
+			"rows": {
+				"extras": "Papildu opcijas",
+				"fileName": "Faila nosaukums",
+				"saveTo": "Saglabāt mapē",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Subtitri"
+			},
+			"rowsHeading": "Viss pārējais",
+			"save": {
+				"action": "Saglabāt profilu",
+				"description": "Saglabā šos iestatījumus kā profilu, ko varēsiet izvēlēties nākamreiz. Jūsu ātrās lejupielādes profils paliek nemainīts.",
+				"failed": "Neizdevās saglabāt profilu.",
+				"nameLabel": "Profila nosaukums",
+				"saved": "Saglabāts kā profils “{{name}}”",
+				"title": "Saglabāt kā profilu"
+			},
+			"saveAsProfile": "Saglabāt kā jaunu profilu",
+			"update": {
+				"action": "Atjaunināt profilu",
+				"builtinNote": "Šis ir iebūvēts profils. Tā sākotnējos iestatījumus varat atjaunot cilnē Profili.",
+				"description": "Turpmāk katra lejupielāde ar šo profilu izmantos jaunos iestatījumus.",
+				"rows": {
+					"format": "Formāts"
+				},
+				"title": "Atjaunināt “{{profile}}”?",
+				"updated": "Profils “{{name}}” atjaunināts"
+			},
+			"updateProfile": "Atjaunināt “{{profile}}” ar šīm izmaiņām",
+			"value": {
+				"extrasNone": "Nav",
+				"sponsorBlockOff": "Izslēgts",
+				"subtitlesOff": "Izslēgti"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Pildviela",
+				"intro": "Ievads",
+				"music_offtopic": "Mūzika ārpus tēmas",
+				"outro": "Nobeigums",
+				"preview": "Priekšskatījums",
+				"selfpromo": "Pašreklāma",
+				"sponsor": "Sponsors"
+			},
+			"categoriesHeading": "Kategorijas",
+			"mode": {
+				"mark": "Atzīmēt kā nodaļas",
+				"off": "Izslēgts",
+				"remove": "Noņemt segmentus"
+			},
+			"modeHeading": "Sponsoru filtrēšana",
+			"modeHint": {
+				"mark": "Atzīmē sponsoru segmentus kā nodaļas (nedestruktīvi).",
+				"off": "Bez SponsorBlock — video tiek atskaņots kā augšupielādēts.",
+				"remove": "Izgriež sponsoru segmentus no video ar FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Apstiprināt",
+			"folder": "Saglabāt",
+			"formats": "Formāts",
+			"output": "Izvade",
+			"playlistItems": "Saraksts",
+			"playlistItemsGeneric": "Video",
+			"playlistPresets": "Kvalitāte",
+			"playlistProfiles": "Profili",
+			"review": "Pārskats",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Subtitri",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Automātiskie paraksti tiks saglabāti kā SRT, nevis ASS — YouTube video tie tiek attīrīti no ritošo parakstu dublēšanās, ko mūsu ASS pārveidotājs vēl nespēj atveidot.",
+			"autoBadge": "Auto",
+			"clearAll": "Notīrīt visu",
+			"embedNote": "Iegulšanas režīms saglabā izvadi kā .mkv, lai subtitru celiņi tiktu iegulti uzticami.",
+			"format": {
+				"heading": "Formāts"
+			},
+			"noLanguages": "Šim video nav pieejamu subtitru",
+			"noMatches": "Nav atbilstošu valodu",
+			"noSelected": "Nav izvēlētu subtitru",
+			"removeLanguage": "Noņemt {{name}}",
+			"saveMode": {
+				"embed": "Iegult video",
+				"heading": "Saglabāt kā",
+				"sidecar": "Līdzās video",
+				"sidecarNoVideo": "Lejupielādes mapē",
+				"subfolder": "apakšmape subtitles/"
+			},
+			"searchPlaceholder": "Meklēt valodas…",
+			"sectionAuto": "Automātiski ģenerētie",
+			"sectionManual": "Manuālie"
+		},
+		"tabsNavAria": "Lejupielādes profilu navigācija",
+		"url": {
+			"advanced": "Papildu",
+			"autoRemoveCompleted": {
+				"description": "Noņem lejupielādi no sadaļas Lejupielādes dažas sekundes pēc tās pabeigšanas. Faili paliek jūsu mapē; neizdevušās un atceltās lejupielādes paliek sarakstā.",
+				"label": "Noņemt pabeigtās lejupielādes"
+			},
+			"autoRetry": {
+				"description": "Automātiski mēģina vēlreiz pēc tīkla vai servera kļūmes, katru reizi gaidot ilgāk. Vietnes bloķētas lejupielādes netiek automātiski atkārtotas.",
+				"label": "Atkārtot neizdevušās lejupielādes",
+				"unit": "reizes"
+			},
+			"bulkButton": "Vairāki URL",
+			"bulkTooltip": "Pievienot rindai vairākus URL.",
+			"clearAria": "Notīrīt URL",
+			"clipboard": {
+				"autofilledLink": "Saite pievienota no starpliktuves",
+				"bulkHint": "Nokopētas vairākas saites — izmantojiet Vairāki URL, lai tās pievienotu",
+				"dialog": {
+					"cancelButton": "Atcelt"
+				},
+				"noLink": "Starpliktuvē nav saites",
+				"readFailed": "Neizdevās nolasīt starpliktuvi — ielīmējiet saiti laukā",
+				"replacedLink": "Aizstāts ar nokopēto saiti",
+				"toggle": "Vērot starpliktuvi",
+				"toggleDescription": "Automātiski aizpilda URL lauku, kad nokopējat video saiti.",
+				"undo": "Atsaukt"
+			},
+			"closeToTray": {
+				"toggle": "Aizverot paslēpt teknē",
+				"toggleDescription": "Turpināt lejupielādes fonā pēc loga aizvēršanas."
+			},
+			"concurrentDownloads": {
+				"description": "Cik rindas vienumu tiek lejupielādēti vienlaikus. Vairāk vienlaikus ātrāk pabeidz garu rindu, bet palielina iespēju, ka vietne jūs ierobežos.",
+				"label": "Vienlaicīgas lejupielādes",
+				"unit": "lejupielādes"
+			},
+			"concurrentProbes": {
+				"description": "Cik saišu informāciju Klip iegūst vienlaikus, pirms tās tiek lejupielādētas. Mazāks skaits saudzīgāk izturas pret vietnēm, kas bloķē noslogotus savienojumus. Saite, ko atverat Interaktīvajā lejupielādē, vienmēr ir pirmā.",
+				"label": "Vienlaikus pārbaudītās saites",
+				"unit": "saites"
+			},
+			"cookies": {
+				"banWarning": "Tādas vietnes kā YouTube var atzīmēt — un dažkārt bloķēt — kontus, kuru sīkfailus izmanto lejupielādes rīki, piemēram, Klip. Ja iespējams, izmantojiet vienreizēju kontu.",
+				"browserHelp": "Nolasa sīkfailus tieši no pārlūka. Chromium saimes pārlūkiem pārlūkam jābūt aizvērtam.",
+				"browserLabel": "Pārlūks",
+				"browserPlaceholder": "Izvēlieties pārlūku…",
+				"choose": "Izvēlēties…",
+				"clear": "Notīrīt",
+				"enabledButNoBrowser": "Izvēlieties pārlūku, lai izmantotu sīkfailus",
+				"enabledButNoFile": "Izvēlieties failu, lai izmantotu sīkfailus",
+				"exploreDisabled": "Cilne Izpēte ir izslēgta, tāpēc lejupielādēs netiek izmantota jūsu pierakstīšanās sadaļā Izpēte. Ieslēdziet to zemāk sadaļā Izpēte.",
+				"extensionChrome": "Iegūt cookies.txt LOKĀLI (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Sīkfailu fails",
+				"helpLink": "Kā eksportēt sīkfailus?",
+				"openExplore": "Atvērt Izpēti",
+				"placeholder": "Fails nav izvēlēts",
+				"recommended": "Ieteicams",
+				"risk": "Risks: cookies.txt satur visas šī pārlūka pierakstītās sesijas — glabājiet to privāti.",
+				"sourceBrowser": "Pārlūks",
+				"sourceExplore": "Pierakstīšanās sadaļā Izpēte",
+				"sourceFile": "Fails",
+				"sourceLabel": "Sīkfailu avots",
+				"sourceOff": "Izslēgts",
+				"toggleDescription": "Palīdz ar video, ko var skatīties jūsu pašu konts, piemēram, ar jūsu privātajiem video."
+			},
+			"downloadConnections": {
+				"description": "Paātrina lielas lejupielādes, vienlaikus iegūstot vairākas video daļas. Augstākas vērtības palielina iespēju, ka vietne jūs ierobežos.",
+				"label": "Lejupielādes savienojumi",
+				"unit": "savienojumi"
+			},
+			"downloadList": {
+				"album": "Lejupielādēt albumu…",
+				"liked": "Lejupielādēt patikušos video…",
+				"mix": "Lejupielādēt Mix…",
+				"playlist": "Lejupielādēt atskaņošanas sarakstu…",
+				"uploads": "Lejupielādēt augšupielādētos video…",
+				"watchLater": "Lejupielādēt “Skatīties vēlāk”…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Tikai audio",
+					"subtitles": "Subtitri"
+				},
+				"anySite": {
+					"heading": "2000+ vietņu",
+					"musicPlaylist": "Mūzikas atskaņošanas saraksti",
+					"video": "Video",
+					"videoPlaylist": "Video atskaņošanas saraksti"
+				},
+				"heading": "Ko Klip var lejupielādēt",
+				"youtube": {
+					"channel": "Kanāli",
+					"heading": "YouTube",
+					"music": "Mūzika",
+					"playlist": "Atskaņošanas saraksti",
+					"podcast": "Podkāsti",
+					"short": "Shorts",
+					"video": "Video"
+				}
+			},
+			"fetchFormatsTooltip": "Soli pa solim vednis. Izvēlieties formātu, kvalitāti un citu.",
+			"heading": "Lejupielādēt no URL",
+			"hotkey": {
+				"changeShortcut": "Mainīt īsinājumtaustiņu",
+				"conflict": "Šo īsinājumtaustiņu izmanto cita lietotne — izvēlieties citu.",
+				"globalLabel": "Globālais īsinājumtaustiņš",
+				"recording": "Nospiediet taustiņus…",
+				"reset": "Atiestatīt uz noklusējumu",
+				"sectionDescription": "Lejupielādējiet jebkuru nokopēto saiti no jebkuras lietotnes, neatverot Klip.",
+				"sectionTitle": "Globālais īsinājumtaustiņš",
+				"test": "Pārbaudīt",
+				"toggle": "Ieslēgt globālo īsinājumtaustiņu",
+				"toggleDescriptionDetail": "Nokopējiet video saiti jebkurā lietotnē un nospiediet īsinājumtaustiņu: Klip pievienos to rindai ar jūsu aktīvo profilu, nepārslēdzot logus. Saite uz video atskaņošanas sarakstā lejupielādē tikai šo video."
+			},
+			"interactiveDownload": "Interaktīvā lejupielāde",
+			"interactiveDownloadAsks": "Interaktīvā lejupielāde…",
+			"limitRate": {
+				"activeWarning": "Aktīvās lejupielādes saglabā savu pašreizējo ierobežojumu. Lai piemērotu izmaiņas, pauzējiet un atsāciet.",
+				"custom": "Pielāgot…",
+				"customPlaceholder": "piem., 750K vai 1.5M",
+				"description": "Ierobežo joslas platumu multivides lejupielādēm. Zemāk esošais pieprasījumu temps parasti ir spēcīgāks ierobežošanas līdzeklis.",
+				"invalid": "Izmantojiet skaitli, kam seko K vai M (piem., 500K, 1.5M)",
+				"label": "Lejupielādes ātruma ierobežojums",
+				"off": "Izslēgts"
+			},
+			"mascotBusy": "Lejupielādēju fonā… Es protu darīt vairākas lietas vienlaikus 😎",
+			"mascotCollection": "Ātrā lejupielāde pievieno rindai ielādētos vienumus ar profilu {{profileName}}. Interaktīvā ļauj vispirms apskatīt vai atlasīt vienumus.",
+			"mascotIdle": "Ievietojiet saiti, un Klip to lejupielādēs ✨",
+			"mascotSingle": "Ātrā lejupielāde sāk vienu lejupielādi ar profilu {{profileName}}. Vienreizējām izmaiņām izmantojiet Interaktīvo.",
+			"mascotVideoInList": "Šī saite norāda uz video un sarakstu, kurā tas atrodas: lejupielādējiet tikai video vai sarakstu.",
+			"nativeAudioPreference": {
+				"compatible": "Saderīgs stereo",
+				"description": "Stereo vai telpiskais, kad profils izvēlas oriģinālo audio. Profils to var pārrakstīt.",
+				"label": "Oriģinālā audio preference",
+				"surround": "Dot priekšroku telpiskajam / Dolby"
+			},
+			"networkPacing": {
+				"description": "Pievieno nelielas gaidīšanas pauzes katras lejupielādes laikā, lai Klip pārāk agresīvi neapmeklētu vietni. Vērtības ir sekundēs.",
+				"fields": {
+					"maxSleepInterval": "Pauze pirms multivides sākuma: maks.",
+					"sleepInterval": "Pauze pirms multivides sākuma: min.",
+					"sleepRequests": "Gaidīšana starp metadatu pārbaudēm",
+					"sleepSubtitles": "Gaidīšana pirms subtitru failiem"
+				},
+				"heading": "Saudzīgas lejupielādes",
+				"presetLabel": "Cik piesardzīgam jābūt Klip?",
+				"presets": {
+					"balanced": "Līdzsvarots",
+					"careful": "Piesardzīgs",
+					"custom": "Pielāgots",
+					"off": "Izslēgts"
+				},
+				"summary": "Gaida: {{requests}} starp pārbaudēm, {{downloads}} pirms multivides sākuma, {{subtitles}} pirms subtitru failiem.",
+				"tooltip": "Šīs gaidīšanas notiek katras lejupielādes iekšienē. Cik lejupielādes darbojas vienlaikus, tiek iestatīts atsevišķi sadaļā Vienlaicīgas lejupielādes.",
+				"tooltips": {
+					"balanced": "Noklusējums. Pievieno īsas pauzes starp pieprasījumiem un pirms multivides sākuma.",
+					"careful": "Pievieno garākas pauzes lieliem atskaņošanas sarakstiem vai tīkliem, kas bieži sasniedz ierobežojumus.",
+					"custom": "Pats pielāgojiet papildu vadīklas katrai lejupielādei.",
+					"off": "Izmanto tikai nelielās pamata pauzes, ko Klip saglabā multivides un subtitru failiem."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Saite atvērta lietotnē Klip",
+				"replaced": "Aizstāts ar lietotnē Klip atvērto saiti"
+			},
+			"pasteLink": "Ielīmēt saiti",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Pašreizējais limits: {{count}} vienumi",
+				"custom": "Pielāgot…",
+				"customDialogCancel": "Atcelt",
+				"customDialogDescription": "Izmantojiet veselu skaitli no {{min}} līdz {{max}}.",
+				"customDialogSave": "Saglabāt limitu",
+				"customDialogTitle": "Pielāgots atskaņošanas saraksta pārbaudes limits",
+				"customValue": "Pielāgots: {{count}} vienumi",
+				"description": "Maksimālais ierakstu skaits, ko Klip ielādē, atverot atskaņošanas sarakstu, kanālu vai meklēšanas rezultātu.",
+				"invalid": "Izmantojiet veselu skaitli no 1 līdz 5000",
+				"label": "Pārbaudāmie atskaņošanas saraksta vienumi",
+				"option": "{{count}} vienumi"
+			},
+			"playlistScope": {
+				"appLimit": "Izmantot lietotnes limitu: {{count}}",
+				"apply": "Lietot",
+				"applyError": "Neizdevās lietot šo atskaņošanas saraksta tvērumu: {{message}}",
+				"applyReload": "Lietot un pārlādēt",
+				"cancel": "Atcelt",
+				"change": "Mainīt",
+				"dialogDescription": "Izvēlieties, ko Klip ielādē šim atskaņošanas sarakstam.",
+				"dialogTitle": "Atskaņošanas saraksta tvērums",
+				"emptyTitle": "Šajā tvērumā nav video",
+				"first": "Pirmie",
+				"invalid": "Izmantojiet veselus vienumu numurus no 1 līdz {{max}}, sākumam nebūdams lielākam par beigām.",
+				"itemsLabel": "Ielādējamie vienumi",
+				"label": "Atskaņošanas saraksta tvērums",
+				"range": "Diapazons",
+				"reloading": "Pārlādē...",
+				"reset": "Atiestatīt",
+				"summaryAppLimit": "Ielādēt pirmos vienumus: {{count}}",
+				"summaryFirst": "Ielādēt pirmos vienumus: {{count}}",
+				"summaryRange": "Ielādēt vienumus {{from}}-{{to}}",
+				"to": "līdz"
+			},
+			"profile": {
+				"activeLabel": "Aktīvais profils",
+				"badgeBuiltIn": "Iebūvēts",
+				"badgeCustom": "Pielāgots",
+				"badgeDisabled": "Paslēpts",
+				"badgeModified": "Mainīts",
+				"builtinName": {
+					"audio-only": "Tikai audio",
+					"balanced": "Sabalansēts 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Labākā kvalitāte",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Zemākā kvalitāte 144p",
+					"low-240": "Maz datu 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Mazs fails 480p",
+					"subtitles-only": "Tikai subtitri"
+				},
+				"changeGlobalDestination": "Mainīt globālo galamērķi",
+				"destinationDetail": {
+					"global": "Izmanto globālo galamērķi",
+					"globalSubfolder": "Izmanto globālo galamērķi + profila apakšmapi",
+					"override": "Izmanto profila nepārklājumu",
+					"overrideSubfolder": "Izmanto profila nepārklājumu + profila apakšmapi"
+				},
+				"destinationEditHint": "Lai mainītu saglabāšanas vietu, rediģējiet profilu.",
+				"destinationFallback": "Galamērķis",
+				"edit": "Rediģēt",
+				"editActive": "Rediģēt aktīvo profilu",
+				"enableHint": "Paslēptie profili paliek šeit, bet pazūd no katra profilu izvēles saraksta.",
+				"enableToggleAria": "Rādīt profilu izvēles sarakstos: {{profileName}}",
+				"lastEnabledHint": "Atstājiet pieejamu vismaz vienu profilu.",
+				"manageProfiles": "Pārvaldīt profilus",
+				"menuDescription": "Maina aktīvo profilu ātrajai lejupielādei, vairākiem URL un atskaņošanas sarakstiem.",
+				"menuTitle": "Pārslēgt profilu",
+				"movableProfile": "pārvietojams profils",
+				"moveCancelled": "Pārvietošana atcelta. {{profileName}} paliek pozīcijā {{position}} no {{count}}.",
+				"moveDropped": "{{profileName}} nomests pozīcijā {{position}} no {{count}}.",
+				"moveHandleAria": "Pārvietot {{profileName}}",
+				"moveInstructions": "Lai pārvietotu profilu, nospiediet atstarpes taustiņu vai Enter, pārvietojiet to ar bulttaustiņiem un vēlreiz nospiediet atstarpes taustiņu vai Enter, lai to nomestu. Nospiediet Escape, lai atceltu.",
+				"moveOver": "{{profileName}} atrodas virs pozīcijas {{position}} no {{count}}.",
+				"movePickedUp": "Pacelts {{profileName}}. Tas atrodas pozīcijā {{position}} no {{count}}.",
+				"newProfile": "Jauns profils",
+				"outputMissing": "Šis profils saglabā mapē, kas nav iestatīta. Izvēlieties mapi profilā vai atgrieziet noklusējuma mapi.",
+				"panelDescription": "Izveidojiet, izvēlieties, rediģējiet vai noņemiet atkārtoti izmantojamas lejupielādes konfigurācijas.",
+				"panelTitle": "Lejupielādes profili",
+				"remove": "Noņemt",
+				"reorderHint": "Velciet profilu, lai to pārvietotu. Visi profilu izvēles saraksti seko šai secībai.",
+				"reset": "Atiestatīt",
+				"savesTo": "Saglabā mapē",
+				"switchAria": "Pārslēgt lejupielādes profilu: {{profileName}}",
+				"switchTitle": "Pārslēgt lejupielādes profilu"
+			},
+			"proxy": {
+				"clear": "Notīrīt",
+				"description": "Novirza datplūsmu caur starpniekserveri.",
+				"label": "Starpniekservera URL",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Ātrā lejupielāde",
+			"quickDownloadTooltip": "Lejupielādēs, izmantojot: {{profileName}}",
+			"quickFailed": "Neizdevās pievienot šo: {{error}}",
+			"quickPrepareFailed": "Rindas vienumu nevarēja sagatavot",
+			"quickPreparing": "Sagatavo",
+			"quickProbeFailed": "Pārbaude neizdevās",
+			"quickSingleOnly": "Lai sāktu, ielīmējiet video, atskaņošanas saraksta, kanāla vai meklēšanas URL.",
+			"reports": {
+				"toggle": "Sūtīt anonīmus pulsa un iestatīšanas ziņojumus",
+				"toggleDescription": "Nekādas izsekošanas. Reizi dienā anonīms pulsa signāls nosūta lietotnes versiju, instalēšanas kanālu, OS, valodu, valsti un aptuveni cik sen Klip ir instalēts, lai mēs varētu saskaitīt aktīvos un jaunos lietotājus. Kad Klip iestata vai atjaunina lejupielādes dzinēju vai multivides rīkus, tas arī ziņo, vai tas izdevās un cik aptuveni ilgi tas prasīja. Bez ID, URL, video nosaukumiem vai failu nosaukumiem."
+			},
+			"settings": {
+				"behaviorDescription": "Globāla darbība, kas ietekmē arī uz profiliem balstītās lejupielādes.",
+				"behaviorHeading": "Lejupielādes darbība",
+				"inputHeading": "Ievade"
+			},
+			"style": {
+				"aurora": {
+					"description": "Stikla paneļi virs kustīgām debesīm. Nepieciešams grafikas paātrinājums.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Vienlaidu, mierīgas virsmas. Viegli darbojas jebkurā datorā.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Abi stili ir pieejami gaišajā un tumšajā variantā.",
+				"modeLabel": "Stils",
+				"panelDescription": "Kā izskatās Klip. Pārslēdzieties starp gaišo un tumšo kājenē.",
+				"panelTitle": "Izskats",
+				"unavailableNotice": "{{style}} nepieciešams grafikas paātrinājums, kas šobrīd nav pieejams, tāpēc Klip rāda {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profili",
+				"settings": "Iestatījumi"
+			},
+			"thisVideo": "Šis video",
+			"thisVideoTooltip": "Lejupielādē tikai šo video ar profilu {{profileName}}"
+		}
+	}
+}

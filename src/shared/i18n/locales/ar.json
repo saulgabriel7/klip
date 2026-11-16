@@ -1,0 +1,1938 @@
+{
+	"about": {
+		"button": "حول",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "عرض إشعارات الطرف الثالث",
+		"websiteLink": "موقع الويب"
+	},
+	"aiUpscaled": {
+		"allow": "السماح",
+		"allowedSummary": "تدفقات مُكبَّرة بالذكاء الاصطناعي مسموحة",
+		"description": "يعرض YouTube بعض الفيديوهات القديمة بأحجام صنعها بالذكاء الاصطناعي. يُبقي «تخطي» على التدفقات الأصلية؛ ولا يزال بإمكانك اختيار تدفق مُكبَّر يدويًا.",
+		"label": "تدفقات مُكبَّرة بالذكاء الاصطناعي",
+		"skip": "تخطي"
+	},
+	"app": {
+		"feedback": "ملاحظات",
+		"feedbackNudge": "هل تستمتع بـ Klip؟ يسعدني سماع رأيك! 💬",
+		"logs": "السجلات",
+		"saveDiagnostics": "حفظ ملف التشخيص",
+		"saveDiagnosticsDescription": "يجمع السجلات وتفاصيل التطبيق في ملف واحد داخل مجلد التنزيلات، جاهز لإرفاقه ببلاغ على GitHub. يُحذف اسم مجلد المستخدم الخاص بك، وتبقى روابط الفيديوهات وعناوينها.",
+		"styleHint": "جديد: اختر Aurora أو بسيط من هنا",
+		"theme": "المظهر",
+		"zoomIn": "تكبير",
+		"zoomOut": "تصغير"
+	},
+	"common": {
+		"back": "رجوع",
+		"cancel": "إلغاء",
+		"close": "إغلاق",
+		"continue": "متابعة",
+		"loading": "جارٍ التحميل…",
+		"retry": "إعادة المحاولة",
+		"startOver": "البدء من جديد"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "يستمر Klip في العمل وينهي التنزيلات النشطة. يمكنك تغيير ذلك لاحقاً في الإعدادات المتقدمة.",
+			"hide": "الإخفاء في علبة النظام",
+			"message": "هل تريد إخفاء Klip في علبة النظام عند الإغلاق؟",
+			"quit": "الخروج",
+			"remember": "لا تسألني مجدداً"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "تبقى قائمة الانتظار محفوظة، وتستأنف التنزيلات من حيث توقفت عند فتح Klip في المرة القادمة.",
+			"keep": "الاستمرار في التنزيل",
+			"message_few": "{{count}} تنزيلات قيد التقدم",
+			"message_many": "{{count}} تنزيلًا قيد التقدم",
+			"message_one": "{{count}} تنزيل قيد التقدم",
+			"message_other": "{{count}} تنزيل قيد التقدم",
+			"message_two": "تنزيلان قيد التقدم",
+			"message_zero": "لا توجد تنزيلات قيد التقدم",
+			"quit": "الخروج"
+		},
+		"rendererCrashed": {
+			"detail": "تعطّلت عملية العرض ({{reason}}). أعد التحميل للمحاولة مجدداً.",
+			"message": "واجه Klip مشكلة",
+			"quit": "الخروج",
+			"reload": "إعادة التحميل"
+		}
+	},
+	"donate": {
+		"copied": "تم النسخ!",
+		"copyAddress": "نسخ العنوان",
+		"description": "Klip مجاني ومفتوح المصدر، بلا إعلانات ولا باقة مدفوعة. التبرعات اختيارية ولا تمنح أي تأثير على خارطة الطريق.",
+		"footerLabel": "تبرّع",
+		"footerTooltip": "ادعم Klip",
+		"qrAlt": "رمز QR لعنوان التبرع بعملة {{coin}}",
+		"title": "ادعم Klip",
+		"warning": "مدفوعات العملات المشفّرة لا يمكن التراجع عنها. أرسل فقط عبر الشبكة المعروضة وقارن العنوان بالكامل."
+	},
+	"errors": {
+		"noSubtitlesIn": "لا يحتوي هذا الفيديو على ترجمات باللغات: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "هذا الفيديو مقيّد بالعمر ولا يمكن تنزيله بدون حساب مسجّل الدخول.",
+			"botBlock": "أوقفت حماية الموقع من الروبوتات هذا التنزيل. انتظر قليلًا ثم أعد المحاولة، أو نزّل عددًا أقل من الفيديوهات دفعة واحدة. إذا استمر الفشل، فقد يكون ذلك تغييرًا مؤقتًا من جهة الموقع — يحدّث Klip محرّك التنزيل عند التشغيل، فيصل الإصلاح تلقائيًا فور صدوره.",
+			"chunkTransferFailure": "ظل الخادم يقطع التنزيل في منتصفه، واستسلم Klip بعد إعادة المحاولة. يحدث هذا عادةً مع أكبر صيغ الفيديو (4K HDR / VP9 عالي معدل البت). أعد المحاولة، أو غيّر الشبكة/VPN، أو اختر صيغة بدقة أقل.",
+			"drmProtected": "هذا الفيديو محمي بـ DRM. لا يستطيع Klip إزالة DRM، لذا لا يمكن تنزيل الملف.",
+			"formatUnavailable": "لم يعد هذا الفيديو يوفّر الصيغة التي اخترتها. الصق الرابط مرة أخرى واختر من الصيغ المتاحة الآن.",
+			"geoBlocked": "هذا الفيديو غير متاح في منطقتك.",
+			"ipBlock": "يحظر الموقع الطلبات الواردة من هذا الاتصال. أعد المحاولة لاحقًا.",
+			"loginRequired": "يحتاج هذا الفيديو إلى حساب مسجَّل الدخول.",
+			"missingDependency": "تعذّر على Klip العثور على FFmpeg أو FFprobe. شغّل الإعداد مرة أخرى أو حدّد موقع FFmpeg، ثم أعد محاولة التنزيل.",
+			"network": "خطأ في الشبكة. تحقق من اتصالك وأعد المحاولة.",
+			"noSubtitles": "لا يحتوي هذا الفيديو على ترجمات باللغات المطلوبة.",
+			"outOfDiskSpace": "مساحة القرص غير كافية. أفرغ مساحة وأعد المحاولة.",
+			"outputNotWritable": "لا يستطيع Klip الكتابة في مجلد التنزيل. قد يكون للقراءة فقط، أو على محرك أقراص مقفل، أو محظورًا بإعدادات الخصوصية في نظامك. اختر مجلدًا آخر أو اسمح بالوصول، ثم أعد المحاولة.",
+			"parse": "تعذّر تحليل الاستجابة الواردة من الموقع. ربما غيّر الموقع طريقة تقديمه للفيديوهات. يُحدّث Klip محرّك التنزيل عند التشغيل — أعد المحاولة بعد بضع دقائق حالما يصدر الإصلاح.",
+			"postprocessFailure": "اكتمل التنزيل لكن المعالجة اللاحقة (دمج / mux / تحويل) فشلت. غالبًا ما تكون مشكلة ffmpeg مؤقتة — أعد المحاولة، وإذا استمرت المشكلة جرّب توليفة صيغ مختلفة.",
+			"rateLimit": "يحدّ الموقع من الطلبات القادمة من هذا الاتصال.",
+			"unavailable": "هذا الفيديو غير متاح — قد يكون خاصاً أو محذوفاً أو مقيّداً بالمنطقة.",
+			"unknown": "فشل التنزيل. راجع الإخراج الخام أدناه.",
+			"unsupportedUrl": "لا يدعم Klip هذا الرابط. جرّب رابطاً من موقع آخر."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "تحقق من اتصالك ثم حاول مرة أخرى.",
+			"loadTitle": "تعذّر تحميل هذه الصفحة",
+			"openSettings": "افتح الإعدادات",
+			"proxyBody": "تحقق من الوكيل في الإعدادات ثم حاول مرة أخرى.",
+			"proxyTitle": "يتعذّر على «استكشاف» الاتصال عبر الوكيل الخاص بك",
+			"retry": "إعادة المحاولة"
+		},
+		"linkCallout": {
+			"body": "انقر بزر الماوس الأيمن على أي رابط فيديو أو قائمة تشغيل أو قناة في الصفحة لتنزيله باستخدام ملف التعريف النشط، أو اختر ملف تعريف آخر، أو افتح التنزيل التفاعلي.",
+			"title": "انقر بزر الماوس الأيمن على رابط لتنزيله"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "تنزيل الألبوم في الخلفية",
+				"liked": "تنزيل الفيديوهات المُعجَب بها في الخلفية",
+				"mix": "تنزيل Mix في الخلفية",
+				"playlist": "تنزيل قائمة التشغيل في الخلفية",
+				"uploads": "تنزيل الفيديوهات المرفوعة في الخلفية",
+				"watchLater": "تنزيل «المشاهدة لاحقًا» في الخلفية"
+			},
+			"copyLink": "نسخ الرابط",
+			"downloadFirst": "تنزيل أول {{count}}",
+			"downloadThisVideo": "تنزيل هذا الفيديو · {{profileName}}",
+			"downloadWith": "تنزيل باستخدام",
+			"fromList": {
+				"album": "من هذا الألبوم",
+				"liked": "من الفيديوهات المُعجَب بها",
+				"mix": "من هذا Mix",
+				"playlist": "من قائمة التشغيل هذه",
+				"uploads": "من الفيديوهات المرفوعة على هذه القناة",
+				"watchLater": "من «المشاهدة لاحقًا»"
+			},
+			"interactive": "تنزيل تفاعلي…",
+			"thisVideoWith": "هذا الفيديو باستخدام"
+		},
+		"newBadge": "جديد",
+		"notice": {
+			"body": "ابحث عن فيديو على YouTube أو أي موقع آخر ونزّله من هنا — دون نسخ الروابط. سجّل الدخول إلى موقع هنا لتنزيل الفيديوهات التي تتطلب حساباً.",
+			"continue": "متابعة",
+			"riskBody": "قد تُعلّم مواقع مثل YouTube — وأحياناً تحظر — الحسابات المستخدمة مع أدوات التنزيل مثل Klip. استخدم حساباً يمكنك التضحية به، لا حسابك الرئيسي.",
+			"riskTitle": "سجّل الدخول بحساب ثانوي",
+			"title": "تصفّح الويب داخل Klip مباشرةً"
+		},
+		"nudge": {
+			"browser": "تستخدم التنزيلات كوكيز متصفحك، وليس تسجيل دخولك في «استكشاف».",
+			"file": "تستخدم التنزيلات ملف الكوكيز الخاص بك، وليس تسجيل دخولك في «استكشاف».",
+			"notNow": "ليس الآن",
+			"off": "الكوكيز متوقفة، لذا لا تستخدم التنزيلات تسجيل دخولك في «استكشاف».",
+			"useExplore": "استخدم تسجيل الدخول في «استكشاف»"
+		},
+		"settings": {
+			"description": "تصفّح YouTube أو أي موقع آخر داخل Klip، وسجّل الدخول للفيديوهات التي تتطلب حساباً.",
+			"idleUnload": "تحرير الذاكرة أثناء الابتعاد",
+			"idleUnloadDescription": "بعد 5 دقائق في علامة تبويب أخرى، تُغلَق صفحة YouTube الرئيسية أو صفحة البحث. عند العودة يُعاد تحميلها، ويستغرق ذلك بضع ثوانٍ.",
+			"searchEngine": "محرك البحث",
+			"searchEngineDescription": "المحرك الذي يُبحث فيه عن النص المكتوب في شريط العنوان. تُفتح الروابط كما كُتبت.",
+			"showTab": "إظهار تبويب «استكشاف»",
+			"showTabDescription": "إيقافه يمنع أيضاً التنزيلات من استخدام تسجيل دخولك في «استكشاف».",
+			"signOut": "تسجيل الخروج من «استكشاف»",
+			"signOutConfirm": "تسجيل الخروج",
+			"signOutConfirmBody": "سيؤدي هذا إلى مسح عمليات تسجيل دخولك وبيانات التصفح في «استكشاف»، على كل المواقع. ستفشل التنزيلات التي تتطلب حساباً حتى تسجّل الدخول مجدداً.",
+			"signOutConfirmTitle": "تسجيل الخروج من «استكشاف»؟",
+			"signOutDescription": "يمسح عمليات تسجيل دخولك وبيانات التصفح في «استكشاف»، على كل المواقع.",
+			"title": "استكشاف"
+		},
+		"tabLabel": "استكشاف",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "قد يقاوم YouTube مانعات الإعلانات للحسابات المسجَّل دخولها.",
+				"aria": "مانع الإعلانات",
+				"off": "مانع الإعلانات: متوقف — انقر للتشغيل",
+				"on": "مانع الإعلانات: يعمل — انقر للإيقاف",
+				"starting": "مانع الإعلانات: قيد البدء — انقر للإيقاف",
+				"unavailable": "مانع الإعلانات: غير متاح، تعذّر تنزيل قوائم المرشحات الخاصة به — انقر للإيقاف"
+			},
+			"addressAria": "العنوان",
+			"addressPlaceholder": "ابحث في {{engine}} أو افتح أي موقع (Vimeo وInstagram…)",
+			"aria": "عناصر تحكم متصفح «استكشاف»",
+			"back": "رجوع",
+			"compactLayout": "تخطيط مضغوط",
+			"download": "تنزيل",
+			"downloadWithProfile": "تنزيل · {{profileName}}",
+			"forward": "للأمام",
+			"fullLayout": "إظهار التخطيط الكامل",
+			"grabUnavailable": "افتح فيديو أو قائمة تشغيل أو قناة لتنزيلها",
+			"home": "الصفحة الرئيسية لـ YouTube",
+			"interactiveHint": "تنزيل تفاعلي: اختر الصيغة والترجمات وغير ذلك…",
+			"refusedHint": "لا يمكن لـ«استكشاف» فتح هذا العنوان.",
+			"reload": "إعادة التحميل",
+			"searchTooLong": "عبارة البحث هذه طويلة جدًا.",
+			"thisVideo": "هذا الفيديو فقط",
+			"thisVideoHint": "تنزيل هذا الفيديو فقط باستخدام {{profileName}}",
+			"zoom": {
+				"hint": "تكبير الصفحة: {{percent}}%",
+				"in": "تكبير",
+				"label": "تكبير الصفحة",
+				"out": "تصغير",
+				"percent": "نسبة التكبير",
+				"reset": "إعادة التكبير إلى 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "تلقائي",
+		"autoValue": "تلقائي (.{{ext}})",
+		"description": {
+			"auto": "تحدد التدفقات المختارة نوع الملف.",
+			"mkv": "يدعم أي ترميز. قد لا تفتحه بعض أجهزة التلفاز والهواتف.",
+			"mp4": "يعمل تقريبًا في كل مكان. فيديو VP9 داخل MP4 لا يُعرض في QuickTime.",
+			"webm": "يناسب المتصفحات وهو صيغة مفتوحة. يدعم VP9 أو AV1 مع Opus فقط."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "يحتاج AV1 داخل MP4 إلى جهاز Mac حديث ليُعرض في QuickTime. أما H.264 فيعمل في كل مكان.",
+		"mp4CaveatVp9": "فيديو VP9 داخل MP4 لا يُعرض في QuickTime. أما H.264 فيعمل في كل مكان.",
+		"profileMark": "ملف التعريف",
+		"smartTvNoWebm": "لا يتوفر WebM مع التلفاز الذكي لأنه لا يدعم H.264.",
+		"webm": "WebM",
+		"webmBlocked": "لا يدعم WebM الترميز {{codec}}. اختر MKV أو MP4."
+	},
+	"filenameTemplate": {
+		"description": "اختر طريقة تسمية الملفات التي يتم تنزيلها. انقر على رمز لإدراجه. استخدم / لترتيب التنزيلات في مجلدات.",
+		"error": {
+			"empty": "أدخل قالب اسم ملف.",
+			"empty-segment": "أزل الشرطة / الزائدة — كل مجلد يحتاج إلى اسم.",
+			"forbidden-char": "أزل المحارف غير المسموح بها في أسماء الملفات: \\ : * ? \" < > |",
+			"invalid-segment": "اسم المجلد هذا غير مسموح به. تجنّب . و .. والأسماء المحجوزة مثل CON.",
+			"no-unique-token": "أضف {title} أو {id} إلى اسم الملف ليحصل كل تنزيل على اسم خاص به.",
+			"resolution-in-dir": "لا يمكن تسمية مجلد باستخدام {resolution} — الجودة غير معروفة حتى يبدأ التنزيل.",
+			"stray-brace": "{ أو } غير مغلقة — اكتب الرموز مثل {title}.",
+			"too-long": "القالب طويل جدًا.",
+			"unknown-token": "رمز غير معروف {{token}}."
+		},
+		"idEndingWarning": "أنهِ الاسم بـ [{id}] ليتمكن Klip من اكتشاف عناصر قوائم التشغيل المنزَّلة سابقًا وإنشاء قوائم تشغيل .m3u.",
+		"label": "قالب اسم الملف",
+		"m3uDisabledIdEnding": "غير متاح لأن قالب اسم الملف لا ينتهي بـ [{id}] أو يوزّع التنزيلات على مجلدات.",
+		"previewPlaylist": "ضمن قائمة تشغيل",
+		"previewSingle": "مقطع واحد",
+		"profileOverrideDescription": "اتركه فارغًا لاستخدام القالب العام.",
+		"profileOverrideLabel": "قالب اسم الملف"
+	},
+	"formatLabel": {
+		"audioFallback": "صوت",
+		"audioOnlyDot": "صوت فقط · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "تلقائي",
+		"description": "يختار الوضع التلقائي HDR عندما تستطيع هذه الشاشة عرضه، وإلا يختار SDR. يبدو HDR باهتًا على الشاشات العادية.",
+		"hdr": "HDR",
+		"label": "فيديو HDR",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "اللغة"
+	},
+	"notifications": {
+		"exploreSignInRetrying_few": "تم تسجيل الدخول عبر Explore — إعادة محاولة {{count}} روابط",
+		"exploreSignInRetrying_many": "تم تسجيل الدخول عبر Explore — إعادة محاولة {{count}} رابطًا",
+		"exploreSignInRetrying_one": "تم تسجيل الدخول عبر «استكشاف» — إعادة محاولة رابط واحد",
+		"exploreSignInRetrying_other": "تم تسجيل الدخول عبر Explore — إعادة محاولة {{count}} رابط",
+		"exploreSignInRetrying_two": "تم تسجيل الدخول عبر Explore — إعادة محاولة رابطين",
+		"exploreSignInRetrying_zero": "تم تسجيل الدخول عبر Explore — لا روابط لإعادة المحاولة",
+		"exploreSignOutFailed": "تعذّر تسجيل الخروج من «استكشاف». حاول مرة أخرى.",
+		"filenameFolderTooDeep": "هذا المجلد عميق جدًا بالنسبة لنظامك. قد يفشل التنزيل رغم ذلك — اختر مجلدًا أقصر.",
+		"filenameTemplateCannotFit": "اسم هذا الفيديو لا يتّسع لكل أجزاء القالب، لذلك استُخدم الاسم الافتراضي.",
+		"folderSelectFailed": "تعذّر فتح مُحدِّد المجلدات.",
+		"hotkey": {
+			"alreadyQueued": "في قائمة الانتظار بالفعل — لم تُضف نسخة",
+			"cookiesSetup": "أكمل إعداد الكوكيز في Klip ثم حاول مجددًا",
+			"invalidClipboard": "لا يوجد رابط في الحافظة — انسخ رابطًا أولاً",
+			"multipleUrls": "تم نسخ روابط متعددة — استخدم «روابط متعددة» في Klip",
+			"needsReview": "هذا الرابط يحتاج إلى اختيارك — راجع «التنزيلات» في Klip",
+			"queued": "تمت إضافة التنزيل من الحافظة",
+			"submissionFailed": "تعذّر إضافة هذا الرابط — حاول مجددًا في Klip"
+		},
+		"playlistFolderRejected": "لا يمكن استخدام هذا المجلد لقائمة التشغيل هذه.",
+		"queue": {
+			"skippedAlreadyQueued_few": "تم تخطي {{count}} من الفيديوهات الموجودة بالفعل في قائمة الانتظار",
+			"skippedAlreadyQueued_many": "تم تخطي {{count}} من الفيديوهات الموجودة بالفعل في قائمة الانتظار",
+			"skippedAlreadyQueued_one": "تم تخطي فيديو واحد موجود بالفعل في قائمة الانتظار",
+			"skippedAlreadyQueued_other": "تم تخطي {{count}} من الفيديوهات الموجودة بالفعل في قائمة الانتظار",
+			"skippedAlreadyQueued_two": "تم تخطي فيديوهين موجودين بالفعل في قائمة الانتظار",
+			"skippedAlreadyQueued_zero": "تم تخطي {{count}} من الفيديوهات الموجودة بالفعل في قائمة الانتظار"
+		},
+		"quickDownload": {
+			"added": "تمت الإضافة: {{title}}",
+			"alreadyQueued": "في قائمة الانتظار بالفعل",
+			"batchAdded_few": "أُضيفت {{count}} روابط إلى التنزيلات",
+			"batchAdded_many": "أُضيف {{count}} رابطًا إلى التنزيلات",
+			"batchAdded_one": "أُضيف رابط واحد إلى التنزيلات",
+			"batchAdded_other": "أُضيف {{count}} رابط إلى التنزيلات",
+			"batchAdded_two": "أُضيف رابطان إلى التنزيلات",
+			"batchAdded_zero": "لم يُضَف أي رابط إلى التنزيلات",
+			"batchAlreadyQueued_few": "{{count}} في قائمة الانتظار بالفعل",
+			"batchAlreadyQueued_many": "{{count}} في قائمة الانتظار بالفعل",
+			"batchAlreadyQueued_one": "واحد في قائمة الانتظار بالفعل",
+			"batchAlreadyQueued_other": "{{count}} في قائمة الانتظار بالفعل",
+			"batchAlreadyQueued_two": "اثنان في قائمة الانتظار بالفعل",
+			"batchAlreadyQueued_zero": "لا شيء في قائمة الانتظار بالفعل",
+			"batchNoneAdded_few": "تعذّرت إضافة {{count}} روابط",
+			"batchNoneAdded_many": "تعذّرت إضافة {{count}} رابطًا",
+			"batchNoneAdded_one": "تعذّرت إضافة رابط واحد",
+			"batchNoneAdded_other": "تعذّرت إضافة {{count}} رابط",
+			"batchNoneAdded_two": "تعذّرت إضافة رابطين",
+			"batchNoneAdded_zero": "تعذّرت إضافة أي رابط",
+			"batchNotAdded_few": "تعذّرت إضافة {{count}} عناصر",
+			"batchNotAdded_many": "تعذّرت إضافة {{count}} عنصرًا",
+			"batchNotAdded_one": "تعذّرت إضافة عنصر واحد",
+			"batchNotAdded_other": "تعذّرت إضافة {{count}} عنصر",
+			"batchNotAdded_two": "تعذّرت إضافة عنصرين",
+			"batchNotAdded_zero": "تعذّرت إضافة أي عنصر",
+			"chooseFromList_few": "{{count}} فيديوهات في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseFromList_many": "{{count}} فيديو في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseFromList_one": "فيديو واحد في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseFromList_other": "{{count}} فيديو في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseFromList_two": "فيديوان في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseFromList_zero": "لا فيديوهات في هذه القائمة — اختر ما تريد تنزيله",
+			"chooseHowMany_few": "{{count}}+ فيديو — اختر العدد",
+			"chooseHowMany_many": "{{count}}+ فيديو — اختر العدد",
+			"chooseHowMany_one": "{{count}}+ فيديو — اختر العدد",
+			"chooseHowMany_other": "{{count}}+ فيديو — اختر العدد",
+			"chooseHowMany_two": "{{count}}+ فيديو — اختر العدد",
+			"chooseHowMany_zero": "{{count}}+ فيديو — اختر العدد",
+			"failed": "تعذّر تجهيز {{title}}",
+			"notAdded": "تعذّرت إضافة هذا الرابط — حاول مجددًا",
+			"view": "عرض"
+		},
+		"settingsSaveFailed": "تعذّر حفظ إعداداتك.",
+		"shellActionFailed": "تعذّر فتح ذلك.",
+		"warmupFailed": "لم يكتمل الإعداد. قد تفشل بعض التنزيلات حتى يكتمل."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "صوت (الأفضل)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "صوت ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "أفضل صوت أصلي، بلا إعادة ترميز",
+			"m4a": "تحويل إلى M4A (AAC)",
+			"mp3": "تحويل إلى MP3",
+			"opus": "تحويل إلى Opus"
+		},
+		"mp4Cap": "H.264 أعلى من 1080p غير متاح على YouTube — يحد تلقائيًا إلى 1080p",
+		"subtitles": {
+			"deliveryHeading": "حفظ بصيغة",
+			"deliveryLoose": "مباشرةً في مجلد الحفظ",
+			"languages": "اللغات",
+			"languagesRequired": "اختر لغة واحدة على الأقل للمتابعة.",
+			"note": "يتم حفظ ملفات الترجمة فقط لكل فيديو — لا يتم تنزيل أي فيديو أو صوت.",
+			"source": "المصدر"
+		},
+		"tier": {
+			"144": "حتى 144p",
+			"240": "حتى 240p",
+			"360": "حتى 360p",
+			"480": "حتى 480p",
+			"720": "حتى 720p",
+			"1080": "حتى 1080p",
+			"1440": "حتى 1440p",
+			"2160": "حتى 4K",
+			"best": "أفضل جودة"
+		},
+		"tierDesc": {
+			"144": "أصغر الملفات الممكنة",
+			"240": "ملفات صغيرة جدًا، جودة منخفضة",
+			"360": "ملفات صغيرة لعرض نطاق محدود",
+			"480": "عرض نطاق منخفض",
+			"720": "ملفات أصغر وتوافق واسع",
+			"1080": "محدود عند 1080p ويهبط لكل عنصر عند الحاجة",
+			"1440": "محدود عند 2K ويهبط لكل عنصر عند الحاجة",
+			"2160": "محدود عند 2160p ويهبط لكل عنصر عند الحاجة",
+			"best": "أفضل فيديو + صوت متاح لكل عنصر"
+		},
+		"type": {
+			"audio": "صوت",
+			"subtitles": "الترجمات",
+			"video": "فيديو"
+		},
+		"videoFormat": {
+			"best": "الأصلي الأفضل",
+			"mp4": "تلفاز ذكي H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "أعلى ترميز متاح لكل عنصر",
+			"mp4": "يفضّل H.264 + AAC، حاوية MP4 · أفضل محاولة"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "ملف مرافق",
+			"description": "الوصف",
+			"media": "وسائط",
+			"missing": "مفقود",
+			"subtitle": "ترجمة",
+			"thumbnail": "صورة مصغرة",
+			"unknown": "ملف"
+		},
+		"attentionBadge_few": "يحتاج انتباهك: {{count}}",
+		"attentionBadge_many": "يحتاج انتباهك: {{count}}",
+		"attentionBadge_one": "يحتاج انتباهك: {{count}}",
+		"attentionBadge_other": "يحتاج انتباهك: {{count}}",
+		"attentionBadge_two": "يحتاج انتباهك: {{count}}",
+		"attentionBadge_zero": "يحتاج انتباهك: {{count}}",
+		"autoRemoveCompleted": {
+			"hint": "يزيل كل تنزيل من القائمة بعد ثوانٍ قليلة من اكتماله. تبقى الملفات في مجلدك.",
+			"label": "مسح تلقائي عند الاكتمال"
+		},
+		"cancelAllTitle": "إلغاء جميع التنزيلات النشطة والمعلقة",
+		"choice": {
+			"all": "كل الفيديوهات",
+			"cappedBody_few": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"cappedBody_many": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"cappedBody_one": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"cappedBody_other": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"cappedBody_two": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"cappedBody_zero": "تحتوي قائمة التشغيل هذه على أكثر من {{count}} فيديو. نزّلها كلها أو أول {{count}} فقط أو اختر عبر المراجعة.",
+			"first": "أول {{count}}",
+			"list": {
+				"album": "الألبوم",
+				"liked": "الفيديوهات المُعجَب بها",
+				"mix": "قائمة Mix",
+				"playlist": "قائمة التشغيل",
+				"uploads": "كل الفيديوهات المرفوعة",
+				"watchLater": "المشاهدة لاحقًا"
+			},
+			"pick": "اختر منها…",
+			"review": "مراجعة",
+			"uncappedBody_few": "هذا الرابط قائمة من {{count}} فيديوهات. نزّلها كلها أو اختر في مراجعة.",
+			"uncappedBody_many": "هذا الرابط قائمة من {{count}} فيديو. نزّلها كلها أو اختر في مراجعة.",
+			"uncappedBody_one": "هذا الرابط قائمة من فيديو واحد. نزّله أو اختر في مراجعة.",
+			"uncappedBody_other": "هذا الرابط قائمة من {{count}} فيديو. نزّلها كلها أو اختر في مراجعة.",
+			"uncappedBody_two": "هذا الرابط قائمة من فيديوين. نزّلهما معًا أو اختر في مراجعة.",
+			"uncappedBody_zero": "هذا الرابط قائمة لا فيديوهات فيها. نزّلها كلها أو اختر في مراجعة.",
+			"video": "هذا الفيديو",
+			"videoOrList": {
+				"album": "هذا الرابط فيديو ضمن ألبوم. هل تنزّل الفيديو فقط أم الألبوم؟",
+				"liked": "هذا الرابط فيديو ضمن الفيديوهات المُعجَب بها. هل تنزّل الفيديو فقط أم كل الفيديوهات المُعجَب بها؟",
+				"mix": "هذا الرابط فيديو ضمن Mix. هل تنزّل الفيديو فقط أم Mix؟",
+				"playlist": "هذا الرابط فيديو ضمن قائمة تشغيل. هل تنزّل الفيديو فقط أم قائمة التشغيل؟",
+				"uploads": "هذا الرابط فيديو ضمن الفيديوهات المرفوعة على قناة. هل تنزّل الفيديو فقط أم كل الفيديوهات المرفوعة؟",
+				"watchLater": "هذا الرابط فيديو ضمن قائمة «المشاهدة لاحقًا». هل تنزّل الفيديو فقط أم القائمة كاملة؟"
+			}
+		},
+		"clearTitle": "مسح التنزيلات المكتملة",
+		"empty": "ستظهر التنزيلات الموضوعة في قائمة الانتظار هنا",
+		"filterAll": "الكل",
+		"filtersLabel": "مرشحات حالة قائمة الانتظار",
+		"globalActionsLabel": "كل العناصر",
+		"header": "التنزيلات",
+		"item": {
+			"audioKept": "لم تتم إزالة الصوت",
+			"audioKeptSubtitlesFailed": "لم تتم إزالة الصوت · تعذّر تنزيل بعض الترجمات",
+			"cancel": "إلغاء",
+			"defaultError": "فشل التنزيل",
+			"openDestinationFolder": "فتح مجلد الوجهة",
+			"pause": "إيقاف مؤقت",
+			"pendingOnly": "المعلقة فقط",
+			"pullNow": "تنزيل الآن — تجاوز القائمة",
+			"qualityLimited": "محدود بدقة {{height}}p",
+			"qualityLimitedSubtitlesFailed": "محدود بدقة {{height}}p · تعذّر تنزيل بعض الترجمات",
+			"remove": "إزالة",
+			"resume": "استئناف",
+			"retry": "إعادة المحاولة",
+			"retryingSoon": "تتم إعادة المحاولة تلقائيًا (المحاولة {{attempt}})",
+			"setLocation": "تعيين الموقع",
+			"setLocationHint": "حدّد العناصر المعلقة لتعيين الموقع.",
+			"statusCancelled": "أُلغي",
+			"statusDone": "تم",
+			"statusError": "خطأ",
+			"statusHeld": "معلّق",
+			"statusNeedsChoice": "يحتاج إلى اختيارك",
+			"statusPaused": "متوقف مؤقتًا",
+			"statusPending": "بانتظار",
+			"statusProbing": "جارٍ جلب التفاصيل",
+			"statusRunning": "جارٍ التنزيل",
+			"subtitleLanguagesMissing": "لا توجد ترجمات باللغات: {{languages}}",
+			"waitingForSite": "بانتظار {{site}} حتى {{time}}",
+			"waitingHint": "يحدّ {{site}} من معدّل الطلبات على هذا الاتصال. يجلب Klip تفاصيل هذا الرابط بعد {{time}} ليزول الحدّ."
+		},
+		"listOffer": {
+			"dismiss": "إغلاق",
+			"from": {
+				"album": "من ألبوم",
+				"liked": "من الفيديوهات المُعجَب بها",
+				"mix": "من Mix",
+				"playlist": "من قائمة تشغيل",
+				"uploads": "من الفيديوهات المرفوعة على قناة",
+				"watchLater": "من «المشاهدة لاحقًا»"
+			},
+			"get": {
+				"album": "الحصول على الألبوم كاملًا",
+				"liked": "الحصول على كل الفيديوهات المُعجَب بها",
+				"mix": "الحصول على Mix كاملًا",
+				"playlist": "الحصول على قائمة التشغيل كاملة",
+				"uploads": "الحصول على كل الفيديوهات المرفوعة",
+				"watchLater": "الحصول على كل «المشاهدة لاحقًا»"
+			},
+			"hint": "يضيف القائمة كصف مستقل. يُستثنى هذا الفيديو."
+		},
+		"pauseAllTitle": "إيقاف جميع التنزيلات النشطة مؤقتاً",
+		"pausedBanner": "القائمة متوقفة مؤقتًا — العناصر المنتظرة لن تبدأ حتى تستأنفها",
+		"resumeAllTitle": "استئناف التنزيلات المتوقفة والسماح للقائمة بالمتابعة",
+		"resumeQueueAction": "استئناف القائمة",
+		"selectedActionsLabel": "العناصر المحددة",
+		"selectionSummary": "{{selected}} محدد · {{total}} إجمالاً",
+		"tabLabel": "التنزيلات",
+		"tabTip": "أصبحت التنزيلات في تبويب التنزيلات الآن — افتحه في أي وقت لمتابعة التقدّم.",
+		"table": {
+			"added": "أُضيف",
+			"artifacts": "الملفات الناتجة",
+			"columnDropped": "تم إفلات عمود {{column}}.",
+			"columnMoveCancelled": "تم إلغاء نقل عمود {{column}}.",
+			"columnMovedOver": "عمود {{column}} فوق {{target}}.",
+			"columnPickedUp": "تم التقاط عمود {{column}}.",
+			"columns": "الأعمدة",
+			"finished": "انتهى",
+			"format": "التنسيق",
+			"hideArtifactsFor": "إخفاء ملفات {{title}}",
+			"movableColumn": "عمود قابل للنقل",
+			"moveColumnInstructions": "لنقل عمود، اضغط على المسافة أو Enter، ثم حرّكه بمفاتيح الأسهم، ثم اضغط على المسافة أو Enter لإفلاته. اضغط على Esc للإلغاء.",
+			"notAvailable": "—",
+			"outputTarget": "وجهة الإخراج",
+			"progress": "التقدم",
+			"resetColumns": "إعادة ضبط الأعمدة",
+			"resizeColumn": "تغيير حجم عمود {{column}}",
+			"showArtifactsFor": "إظهار ملفات {{title}}",
+			"size": "الحجم",
+			"sortBy": "فرز حسب {{label}}",
+			"status": "الحالة",
+			"title": "العنوان"
+		}
+	},
+	"releaseNotes": {
+		"continue": "متابعة",
+		"description": "أنت تستخدم تحديثًا جديدًا. إليك أبرز ما فيه.",
+		"fullNotes": "ملاحظات الإصدار الكاملة ↗",
+		"title": "ما الجديد في Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "إلغاء",
+			"chooseExecutable": "اختر الملف القابل للتنفيذ",
+			"installWithHomebrew": "التثبيت عبر Homebrew",
+			"installWithWinget": "التثبيت عبر WinGet",
+			"openDependencyFolder": "فتح مجلد التبعيات",
+			"resetToDefault": "إعادة إلى الافتراضي",
+			"retrySetup": "حاول مرة أخرى",
+			"viewSetupLog": "عرض سجل الإعداد"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "حاول مرة أخرى. إذا استمرت المشكلة، اختر نسخة تعمل من الأسفل.",
+				"title": "إحدى الأدوات لا تعمل بشكل صحيح"
+			},
+			"blockedOrQuarantined": {
+				"body": "اسمح لـ Klip في برنامج مكافحة الفيروسات أو SmartScreen، ثم حاول مرة أخرى.",
+				"title": "حظر برنامج مكافحة الفيروسات إحدى الأدوات"
+			},
+			"downloadFailed": {
+				"body": "تحقّق من اتصالك بالإنترنت، ثم حاول مرة أخرى.",
+				"title": "تعذّر تنزيل ما يحتاجه Klip"
+			},
+			"extractFailed": {
+				"body": "حاول مرة أخرى لتنزيله من جديد.",
+				"title": "وصل أحد التنزيلات تالفًا"
+			},
+			"hashFailed": {
+				"body": "حاول مرة أخرى لتنزيله من جديد.",
+				"title": "أحد التنزيلات لا يطابق رمز التحقق الخاص به"
+			},
+			"pairIncomplete": {
+				"body": "اختر الاثنين من الأسفل، أو أعدهما إلى الافتراضي.",
+				"title": "يجب تحديد FFmpeg وFFprobe معًا"
+			},
+			"permissionDenied": {
+				"body": "حاول مرة أخرى. إذا استمرت المشكلة، اختر نسخة تثق بها من الأسفل.",
+				"title": "نظامك لا يسمح لـ Klip بتشغيل إحدى الأدوات"
+			},
+			"spawnFailed": {
+				"body": "حاول مرة أخرى. إذا استمرت المشكلة، اختر نسخة تعمل من الأسفل.",
+				"title": "إحدى الأدوات مفقودة أو لا تبدأ"
+			},
+			"timeout": {
+				"body": "غالبًا ما يكون السبب فحصًا أمنيًا عند أول تشغيل. حاول مرة أخرى.",
+				"title": "استغرقت إحدى الأدوات وقتًا طويلًا للاستجابة"
+			},
+			"unknown": {
+				"body": "حاول مرة أخرى، أو افتح سجل الإعداد للاطلاع على التفاصيل.",
+				"title": "حدث خطأ ما أثناء الإعداد"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "محرّك التنزيل",
+			"media": "أدوات الوسائط"
+		},
+		"installing": {
+			"homebrew": "جارٍ التثبيت عبر Homebrew… قد يستغرق ذلك بضع دقائق.",
+			"winget": "جارٍ التثبيت عبر WinGet… قد يستغرق ذلك بضع دقائق."
+		},
+		"manual": {
+			"intro": "وجّه Klip إلى نسخ لديك بالفعل، أو ثبّتها بطريقة أخرى.",
+			"linuxHint": "يمكنك أيضًا تثبيت yt-dlp وffmpeg عبر مدير الحزم لديك، ثم النقر على «حاول مرة أخرى».",
+			"toggle": "الإعداد اليدوي"
+		},
+		"stopped": {
+			"body": "حاول مرة أخرى، أو وجّه Klip إلى أدوات لديك بالفعل من الأسفل.",
+			"title": "توقّف الإعداد"
+		},
+		"title": "الإعداد يحتاج مساعدتك"
+	},
+	"selectionOrder": {
+		"editorTitle": "كيف يختار ملف التعريف هذا",
+		"rank": {
+			"aacFileType": {
+				"label": "صوت AAC",
+				"reason": "مناسب لمشغلات MP4"
+			},
+			"aacSmartTv": {
+				"label": "صوت AAC",
+				"reason": "يعمل في كل مكان"
+			},
+			"codec": {
+				"label": "AV1، ثم VP9، ثم H.264",
+				"reason": "الأوضح عند الحجم نفسه"
+			},
+			"codecH264First": {
+				"label": "H.264، ثم VP9، ثم AV1",
+				"reason": "ترميز ملف التعريف هذا"
+			},
+			"codecVp9First": {
+				"label": "VP9، ثم H.264، ثم AV1",
+				"reason": "ترميز ملف التعريف هذا"
+			},
+			"fps": {
+				"label": "أعلى معدل إطارات",
+				"reason": "حركة أكثر سلاسة"
+			},
+			"h264": {
+				"label": "فيديو H.264",
+				"reason": "يعمل على كل الأجهزة"
+			},
+			"hdrFirst": {
+				"label": "HDR قبل SDR",
+				"reason": "ألوان أغنى على شاشات HDR",
+				"reasonScreen": "هذه الشاشة تعرض HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR قبل HDR",
+				"reason": "يبدو سليمًا على أي شاشة",
+				"reasonScreen": "هذه الشاشة لا تدعم HDR"
+			},
+			"mp4Streams": {
+				"label": "تدفقات MP4",
+				"reason": "جاهزة لملف MP4"
+			},
+			"nativeCompatible": {
+				"label": "صوت ستيريو"
+			},
+			"nativeSource": {
+				"profile": "ملف التعريف هذا",
+				"settings": "من الإعدادات"
+			},
+			"nativeSurround": {
+				"label": "صوت محيطي عند توفره"
+			},
+			"opus": {
+				"label": "صوت Opus",
+				"reason": "مناسب لـ WebM"
+			},
+			"original": {
+				"label": "التدفقات الأصلية، لا المُكبَّرة بالذكاء الاصطناعي",
+				"reason": "النسخة المُكبَّرة أطول لكنها لا تضيف تفاصيل حقيقية"
+			},
+			"protocol": {
+				"label": "التنزيلات المباشرة قبل النسخ المتدفقة",
+				"reason": "الصورة نفسها، وتنزيل أسرع"
+			},
+			"resolution": {
+				"label": "حتى {{tier}}p",
+				"reason": "حدّك المحدد"
+			},
+			"resolutionBest": {
+				"label": "أعلى دقة",
+				"reason": "بلا حد محدد"
+			},
+			"sitePreference": {
+				"label": "تدفقات لا يُخفّض الموقع أولويتها",
+				"reason": "يتخطى النسخ التالفة وذات العلامة المائية والاحتياطية"
+			},
+			"size": {
+				"label": "ملف أكبر",
+				"reason": "تفاصيل أكثر بالإعدادات نفسها"
+			},
+			"source": {
+				"label": "التدفقات ذات معدل بت محسّن أولاً",
+				"reason": "تفاصيل أكثر بالدقة نفسها"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "نوع الملف حسب التدفقات",
+				"explicit": "يُحفظ بصيغة .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "أفضل صورة",
+				"smartTv": "يعمل على أي جهاز"
+			}
+		},
+		"whyLabel": "لماذا هذا؟",
+		"whyTitle": "لماذا اختار ملف التعريف هذا"
+	},
+	"share": {
+		"copied": "تم النسخ!",
+		"copyLink": "نسخ الرابط",
+		"defaultMessage": "Klip — محمّل فيديوهات مجاني ومفتوح المصدر لنظام Windows وmacOS وLinux. يعمل مع YouTube وVimeo وTwitch وأكثر من 2000 موقع.\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
+		"description": "Klip مجاني ومفتوح المصدر. مشاركته تساعد المزيد من الأشخاص على اكتشافه.",
+		"footerLabel": "مشاركة",
+		"footerTooltip": "مشاركة Klip",
+		"shareAction": "مشاركة Klip",
+		"title": "مشاركة Klip"
+	},
+	"splash": {
+		"cancel": "هل تواجه مشكلة؟ قم بالإعداد يدويًا",
+		"greeting": "مرحباً، أهلاً بعودتك!",
+		"setup": {
+			"left": {
+				"minutes_few": "تبقّى نحو {{count}} دقائق",
+				"minutes_many": "تبقّى نحو {{count}} دقيقة",
+				"minutes_one": "تبقّى نحو {{count}} دقيقة",
+				"minutes_other": "تبقّى نحو {{count}} دقيقة",
+				"minutes_two": "تبقّى نحو {{count}} دقيقتين",
+				"minutes_zero": "تبقّى نحو {{count}} دقيقة",
+				"underMinute": "تبقّى أقل من دقيقة"
+			},
+			"stage": {
+				"checking": "جارٍ التحقق من أن كل شيء يعمل",
+				"connecting": "جارٍ الاتصال…",
+				"unpacking": "جارٍ فك ضغط أدوات الوسائط",
+				"unpackingEngine": "جارٍ فك ضغط محرّك التنزيل"
+			},
+			"title": {
+				"both": "تحديث أدوات Klip",
+				"engine": "تحديث محرّك التنزيل",
+				"firstRun": "الإعداد لأول مرة",
+				"media": "تحديث أدوات الوسائط"
+			}
+		},
+		"verifyFirstCheck": "أول فحص لهذا الإصدار — هذا الفحص بطيء. يستغرق عادةً حوالي دقيقة.",
+		"verifying": "جارٍ فحص {{binary}}…",
+		"warmup": "جارٍ تحضير التنزيلات…",
+		"warmupFailedNoDiag": "فشل الإعداد. افتح سجل الإعداد للاطلاع على التفاصيل."
+	},
+	"status": {
+		"audioKept": "تم حفظ الفيديو مع صوته — تعذّرت إزالة الصوت",
+		"audioKeptSubtitlesFailed": "تم حفظ الفيديو مع صوته — تعذّرت إزالة الصوت، وتعذّر تنزيل بعض الترجمات",
+		"cancelled": "تم إلغاء التنزيل",
+		"complete": "اكتمل التنزيل",
+		"convertingVideo": "جارٍ تحويل الفيديو…",
+		"diskSpaceInsufficient": "مساحة القرص غير كافية — تحتاج {{required}}، والمتاح فقط {{free}}",
+		"downloadingBinary": "جارٍ تنزيل ثنائي {{name}}…",
+		"downloadingMedia": "جارٍ تنزيل الفيديو والصوت…",
+		"embeddingMetadata": "جارٍ تضمين البيانات الوصفية…",
+		"exploreSignedOut": "تم تسجيل الخروج من «استكشاف» — سجّل الدخول مجددًا",
+		"extractingAudio": "جارٍ تحويل الصوت…",
+		"fetchingSponsorBlock": "جارٍ الاتصال بـ SponsorBlock…",
+		"fetchingSubtitles": "جارٍ جلب الترجمات…",
+		"mergingFormats": "جارٍ دمج الصوت والفيديو…",
+		"mintingToken": "جارٍ تحضير تنزيل YouTube…",
+		"movingFiles": "جارٍ نقل الملفات…",
+		"noSubtitles": "لا توجد ترجمات باللغات: {{languages}}",
+		"outputNotWritable": "تعذّر الحفظ في {{dir}} — لا يُسمح لـ Klip بالكتابة هناك",
+		"preparingBinaries": "جارٍ تحضير الثنائيات…",
+		"qualityLimited": "حُفظ بدقة {{height}}p — حجبت YouTube الجودات الأعلى عن هذا التنزيل. قد تفيد إعادة المحاولة لاحقًا.",
+		"qualityLimitedSubtitlesFailed": "حُفظ بدقة {{height}}p — حجبت YouTube الجودات الأعلى عن هذا التنزيل، وتعذّر تنزيل بعض الترجمات. قد تفيد إعادة المحاولة لاحقًا.",
+		"remintingToken": "جارٍ تحضير تنزيل YouTube مرة أخرى…",
+		"retryingSponsorBlock": "SponsorBlock غير متاح، جارٍ إعادة المحاولة ({{attempt}}/{{total}})…",
+		"retryingTransfer": "تعذّر الاتصال، جارٍ إعادة المحاولة ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "جارٍ تسجيل الدخول بحسابك في «استكشاف»…",
+		"sleepingBetweenRequests": "الانتظار {{seconds}} ثانية لتجنب تجاوز الحد…",
+		"startingYtdlp": "جارٍ بدء محرّك التنزيل…",
+		"subtitleLanguagesMissing": "لا يحتوي هذا الفيديو على ترجمات باللغات: {{languages}}. تم حفظ الفيديو بدونها.",
+		"subtitleLanguagesMissingOthersSaved": "لا يحتوي هذا الفيديو على ترجمات باللغات: {{languages}}. تم حفظ اللغات الأخرى.",
+		"subtitlesFailed": "تم حفظ الفيديو — تعذّر تنزيل بعض الترجمات",
+		"unknownStartupFailure": "فشل غير معروف في بدء التنزيل",
+		"usedExtractorFallback": "تم التنزيل باستخدام المستخرج المخفف — أعدّ cookies.txt لتنزيلات أكثر موثوقية",
+		"ytdlpExitCode": "خرج محرّك التنزيل بالرمز {{code}}",
+		"ytdlpProcessError": "خطأ في محرّك التنزيل: {{error}}"
+	},
+	"theme": {
+		"dark": "الوضع الداكن",
+		"light": "الوضع الفاتح",
+		"system": "إعداد النظام الافتراضي"
+	},
+	"titleBar": {
+		"close": "إغلاق",
+		"maximize": "تكبير",
+		"minimize": "تصغير",
+		"restore": "استعادة"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "تنزيل من الحافظة",
+			"statusActive_few": "{{count}} جارٍ التنزيل · {{percent}}%",
+			"statusActive_many": "{{count}} جارٍ التنزيل · {{percent}}%",
+			"statusActive_one": "1 جارٍ التنزيل · {{percent}}%",
+			"statusActive_other": "{{count}} جارٍ التنزيل · {{percent}}%",
+			"statusActive_two": "{{count}} جارٍ التنزيل · {{percent}}%",
+			"statusActive_zero": "{{count}} جارٍ التنزيل · {{percent}}%",
+			"statusIdle": "خامل"
+		}
+	},
+	"update": {
+		"copied": "تم نسخ الأمر إلى الحافظة",
+		"copy": "نسخ الأمر إلى الحافظة",
+		"dismiss": "إخفاء شريط التحديث",
+		"download": "تنزيل ↗",
+		"downloadDmg": "تنزيل DMG ↗",
+		"downloading": "جارٍ التنزيل…",
+		"install": "تثبيت وإعادة التشغيل",
+		"installFailed": "فشل التحديث",
+		"message": {
+			"generic": "يتوفر Klip {{version}} — لديك {{currentVersion}}.",
+			"homebrew": "يتوفر Klip {{version}} — حدّث عبر Homebrew.",
+			"macosDirect": "يتوفر Klip {{version}} — نزّل ملف DMG الجديد.",
+			"macosDirectHomebrew": "يتوفر Klip {{version}} — نزّل ملف DMG أو انتقل إلى Homebrew.",
+			"portable": "يتوفر Klip {{version}} — نزّل البناء الجديد."
+		},
+		"retry": "إعادة المحاولة",
+		"runAndRestart": "تشغيل وإعادة التشغيل",
+		"upgrading": "جارٍ الترقية…"
+	},
+	"videoCard": {
+		"chapters_few": "{{count}} فصول",
+		"chapters_many": "{{count}} فصلًا",
+		"chapters_one": "{{count}} فصل",
+		"chapters_other": "{{count}} فصل",
+		"chapters_two": "فصلان",
+		"chapters_zero": "{{count}} فصل",
+		"titlePlaceholder": "جارٍ التحميل…"
+	},
+	"videoCodec": {
+		"h264": "H.264 أولاً",
+		"label": "ترميز الفيديو",
+		"smartTv": "يعتمد «تلفاز ذكي» ترميز H.264 دائماً.",
+		"vp9": "VP9 أولاً"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "جاهزة",
+			"description": "الصق روابط فيديو أو قائمة تشغيل أو قناة أو بحث أو صوت. سيزيل Klip التكرارات قبل إضافتها إلى الطابور.",
+			"emptyPreview": "الصق رابطًا واحدًا أو أكثر لمعاينة الدفعة.",
+			"ignoredCount": "متجاهلة",
+			"needsAtLeastOne": "أضف رابطًا مدعومًا واحدًا على الأقل للمتابعة.",
+			"reject": {
+				"duplicate": "مكرر"
+			},
+			"textareaLabel": "قائمة الروابط",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "روابط متعددة"
+		},
+		"confirm": {
+			"addToQueue": "+ قائمة الانتظار",
+			"addToQueueTooltip": "يبدأ عند انتهاء التنزيلات الأخرى — يحصل على كامل عرض النطاق",
+			"itemsValueAudio_few": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueAudio_many": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueAudio_one": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueAudio_other": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueAudio_two": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueAudio_zero": "{{count}} من {{total}} مقطع صوتي",
+			"itemsValueBulk_few": "{{count}} من {{total}} رابط",
+			"itemsValueBulk_many": "{{count}} من {{total}} رابط",
+			"itemsValueBulk_one": "{{count}} من {{total}} رابط",
+			"itemsValueBulk_other": "{{count}} من {{total}} رابط",
+			"itemsValueBulk_two": "{{count}} من {{total}} رابط",
+			"itemsValueBulk_zero": "{{count}} من {{total}} رابط",
+			"itemsValue_few": "{{count}} من {{total}} فيديو",
+			"itemsValue_many": "{{count}} من {{total}} فيديو",
+			"itemsValue_one": "{{count}} من {{total}} فيديو",
+			"itemsValue_other": "{{count}} من {{total}} فيديو",
+			"itemsValue_two": "{{count}} من {{total}} فيديو",
+			"itemsValue_zero": "{{count}} من {{total}} فيديو",
+			"labelAudio": "صوت",
+			"labelBulk": "روابط متعددة",
+			"labelItems": "العناصر",
+			"labelPlaylist": "قائمة التشغيل",
+			"labelPreset": "الإعداد المسبق",
+			"labelSaveTo": "الحفظ في",
+			"labelSize": "الحجم",
+			"labelSubtitles": "الترجمات",
+			"labelVideo": "فيديو",
+			"landIn": "سيُحفظ ملفك في",
+			"landInMultiProfile_few": "سيُحفظ في {{count}} وجهات أدناه",
+			"landInMultiProfile_many": "سيُحفظ في {{count}} وجهة أدناه",
+			"landInMultiProfile_one": "سيُحفظ في الوجهة أدناه",
+			"landInMultiProfile_other": "سيُحفظ في {{count}} وجهة أدناه",
+			"landInMultiProfile_two": "سيُحفظ في الوجهتين أدناه",
+			"landInMultiProfile_zero": "سيُحفظ في {{count}} وجهة أدناه",
+			"nothingToDownload": "ملف التعريف «ترجمات فقط» مفعّل، لكن لم تُحدَّد أي لغة ترجمة — لن يُنزَّل أي شيء.",
+			"profileBreakdownCount_few": "{{count}} عناصر",
+			"profileBreakdownCount_many": "{{count}} عنصرًا",
+			"profileBreakdownCount_one": "{{count}} عنصر",
+			"profileBreakdownCount_other": "{{count}} عنصر",
+			"profileBreakdownCount_two": "عنصران",
+			"profileBreakdownCount_zero": "{{count}} عنصر",
+			"profileBreakdownHeading": "ملفات التنزيل في هذه الدفعة",
+			"pullIt": "اسحبه! ↓",
+			"pullItTooltip": "يبدأ فوراً — يعمل جنباً إلى جنب مع التنزيلات النشطة الأخرى",
+			"readyHeadline": "جاهز للتنزيل!",
+			"sizeUnknown": "غير معروف",
+			"subtitleEmbedAudioOnly": "تم تغيير Subtitle embed إلى sidecar — مسارات الصوت لا تدعم مسارات الترجمة المضمّنة.",
+			"subtitleEmbedForcesMkv": "الترجمات داخل الفيديو تحتاج ملف MKV، لذا يُحفظ هذا التنزيل بصيغة .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "تم تخطي Thumbnail embed — لا يدعمه container الإخراج."
+		},
+		"folder": {
+			"custom": "مخصص…",
+			"desktop": "سطح المكتب",
+			"documents": "المستندات",
+			"downloads": "التنزيلات",
+			"heading": "الحفظ في",
+			"home": "الرئيسية",
+			"music": "الموسيقى",
+			"pictures": "الصور",
+			"subfolder": {
+				"invalid": "اسم المجلد يحتوي على أحرف غير صالحة",
+				"placeholder": "مثال: المحاضرات",
+				"toggle": "الحفظ داخل مجلد فرعي"
+			},
+			"videos": "الأفلام"
+		},
+		"formats": {
+			"audio": "صوت",
+			"audioLanguage": "لغة الصوت",
+			"audioLanguageCount_few": "عدد اللغات: {{count}}",
+			"audioLanguageCount_many": "عدد اللغات: {{count}}",
+			"audioLanguageCount_one": "عدد اللغات: {{count}}",
+			"audioLanguageCount_other": "عدد اللغات: {{count}}",
+			"audioLanguageCount_two": "عدد اللغات: {{count}}",
+			"audioLanguageCount_zero": "عدد اللغات: {{count}}",
+			"bitrateValue": "معدل البت {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "الكوكيز مضبوطة لكنها معطّلة. فعّلها وأعد المحاولة للحصول على القائمة الكاملة، أو غيّر الشبكة وأعد المحاولة.",
+				"bodyEnabled": "حتى مع الكوكيز، قيّد YouTube هذا الفحص. حاول لاحقاً أو بدّل الشبكة.",
+				"bodyExplore": "قيّد YouTube هذا الطلب. حاول لاحقاً أو بدّل الشبكة.",
+				"bodyUnconfigured": "قائمة الصيغ قد تكون غير مكتملة. أعدّ الكوكيز في الإعدادات المتقدمة، أو غيّر الشبكة وأعد المحاولة.",
+				"enableRetryCta": "تفعيل الكوكيز وإعادة المحاولة",
+				"heading": "YouTube قيّد هذا الفحص",
+				"retryCta": "إعادة المحاولة"
+			},
+			"convert": {
+				"bitrate": "معدل البت",
+				"bitrateCopyHint": "المصدر الذي هو بصيغة {{target}} أصلًا يحتفظ بتدفقه ومعدل البت الخاص به: يُنسخ دون إعادة ترميز.",
+				"copyLabel": "{{target}} {{bitrate}} kbps، بلا إعادة ترميز",
+				"copyLabelNoBitrate": "{{target}}، بلا إعادة ترميز",
+				"copyNote": "{{kbps}} kbps كما في المصدر: التدفق بصيغة {{target}} أصلًا، لذا يُنسخ دون إعادة ترميز",
+				"copyNoteNoBitrate": "كما في المصدر: التدفق بصيغة {{target}} أصلًا، لذا يُنسخ دون إعادة ترميز",
+				"label": "تحويل",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "المصدر {{kbps}} kbps",
+				"wavLabel": "WAV (غير مضغوط)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "متصفح",
+				"currentModeExplore": "تسجيل الدخول في «استكشاف»",
+				"currentModeFile": "ملف",
+				"currentModeLabel": "مصدر الكوكيز",
+				"dpapi": {
+					"docsLinkLabel": "وثائق yt-dlp (issue #10927)",
+					"explanation": "يُشفّر Chrome 127 والإصدارات الأحدث الكوكيز بطريقة لا تستطيع التطبيقات الأخرى قراءتها على Windows. جرّب أحد الحلول البديلة أدناه.",
+					"fixFileBody": "صدّر الكوكيز من Chrome باستخدام إضافة متصفح، ثم بدّل هذا التطبيق إلى وضع الملف واختر الملف المُصدَّر.",
+					"fixFileLabel": "تصدير cookies.txt",
+					"fixFirefoxBody": "لا يستخدم Firefox تشفير App-Bound Encryption. افتح إعدادات الكوكيز واختر Firefox من قائمة المتصفحات.",
+					"fixFirefoxLabel": "التبديل إلى Firefox",
+					"fixUnsafeBody": "أضف --disable-features=LockProfileCookieDatabase إلى اختصار تشغيل Chrome. تحذير: سيؤدي ذلك إلى إبطال الكوكيز المشفّرة مسبقاً، وستُسجَّل خارجاً من جميع المواقع وستحتاج إلى تسجيل الدخول من جديد.",
+					"fixUnsafeLabel": "تشغيل Chrome مع تعطيل App-Bound Encryption",
+					"heading": "كوكيز Chrome محجوبة بسبب تشفير Windows"
+				},
+				"explanationBrowser": "تُقرأ الكوكيز مباشرةً من المتصفح. إذا كان المتصفح يعمل حالياً، فقد تكون قاعدة بيانات الكوكيز مقفلة (متصفحات عائلة Chromium). يجب أن يكون المتصفح مسجّل الدخول إلى YouTube. جرّب إغلاق المتصفح، أو التبديل إلى متصفح مختلف، أو التبديل إلى وضع الملف، أو إيقاف الكوكيز.",
+				"explanationFile": "ملف الكوكيز قد يكون فارغاً أو منتهي الصلاحية أو بتنسيق خاطئ (يحتاج Klip إلى ملف Netscape cookies.txt). جرّب إعادة تصدير الكوكيز، أو اختيار ملف مختلف، أو التبديل إلى وضع المتصفح، أو إيقاف الكوكيز.",
+				"exploreOffer": {
+					"body": "سجّل الدخول عبر «استكشاف» وسيعيد Klip المحاولة.",
+					"cta": "تسجيل الدخول عبر «استكشاف»",
+					"heading": "قد يحتاج هذا الفيديو إلى حساب YouTube"
+				},
+				"exploreRefused": {
+					"body": "جرّب Klip الطلب بالفعل بعد تسجيل الدخول عبر «استكشاف»، لذا لن يفيد تسجيل الدخول مرة أخرى. قد يواجه الموقع مشكلة، أو لا يستطيع هذا الحساب فتحه. حاول لاحقاً.",
+					"heading": "رفض الموقع هذا الطلب حتى مع تسجيل دخولك في «استكشاف»"
+				},
+				"exploreReuse": {
+					"body": "تم تسجيل دخولك إلى «استكشاف»، لكن التنزيلات لا تستخدم تسجيل الدخول هذا حاليًا.",
+					"cta": "استخدم تسجيل دخولي في «استكشاف» وأعد المحاولة",
+					"heading": "قد يحتاج هذا الفيديو إلى حساب YouTube"
+				},
+				"exploreSignIn": {
+					"body": "إذا كان هذا الفيديو يتطلب حساب YouTube، سجّل الدخول في «استكشاف» وأعد المحاولة. يستخدم Klip هذا التسجيل فقط عندما يحتاجه التنزيل.",
+					"cta": "سجّل الدخول في «استكشاف»",
+					"heading": "قد يتطلب هذا الفيديو حساب YouTube"
+				},
+				"exploreSignedIn": {
+					"body": "إذا كان هذا الفيديو يتطلب حساباً، يستخدم Klip تسجيل دخولك في «استكشاف» تلقائياً. قد يكون غير متاح لسبب آخر.",
+					"heading": "تم تسجيل الدخول إلى «استكشاف»"
+				},
+				"exploreSite": {
+					"heading": "قد يحتاج هذا الرابط إلى حساب على {{host}}",
+					"offerBody": "سجّل الدخول إلى {{host}} عبر «استكشاف» وأعد المحاولة.",
+					"signInBody": "سجّل الدخول إلى {{host}} في «استكشاف» وأعد المحاولة. يستخدم Klip هذا التسجيل فقط عندما يحتاجه التنزيل."
+				},
+				"heading": "ربما تكون الكوكيز هي السبب",
+				"needsCookies": {
+					"body": "تعذّر على Klip الوصول إلى هذا الفيديو بدون مصادقة. أعدّ الكوكيز في الإعدادات المتقدمة — وجّهها نحو متصفح سجّلت الدخول إليه مسبقاً، أو استورد ملف cookies.txt.",
+					"heading": "هذا الموقع يتطلب تسجيل الدخول"
+				},
+				"openSettingsCta": "فتح إعدادات الكوكيز",
+				"otherCookiesCta": "استخدم ملف كوكيز أو متصفحًا بدلًا من ذلك…"
+			},
+			"drc": {
+				"description": "يخفّض المقاطع العالية ويرفع الهادئة، لمكبرات الصوت والأماكن الصاخبة.",
+				"label": "توحيد مستوى الصوت (DRC)",
+				"tag": "صوت متوازن"
+			},
+			"fit": {
+				"mp4Unavailable": "ملف التعريف لديك هو تلفاز ذكي (H.264). لا يوفر هذا الفيديو H.264، لذا حُدد أقرب تدفق.",
+				"noVideo": "لا يحتوي هذا الرابط على فيديو، لذا تم اختيار الصوت.",
+				"subtitlesMissing": "يطلب ملف التعريف الخاص بك ترجمات بلغة {{languages}}. هذا الفيديو لا يحتويها.",
+				"tierAbove": "يطلب ملف التعريف الخاص بك {{wanted}}p. لا يوجد في هذا الفيديو ما هو بهذا الحجم الصغير، لذا تم اختيار {{picked}}p.",
+				"tierAbovePassedOver": "يطلب ملف التعريف لديك {{wanted}}p. التدفقات الأصغر في هذا الفيديو لا تناسب بقية ملف التعريف، لذا حُدد {{picked}}p.",
+				"tierBelowTakeable": "يطلب ملف التعريف لديك {{wanted}}p. لا يوجد في هذا الفيديو {{wanted}}p يمكن اعتماده، لذا حُدد {{picked}}p.",
+				"tierPassedOverAiUpscaled": "يطلب ملف التعريف لديك {{wanted}}p. نسخة {{wanted}}p في هذا الفيديو مُكبَّرة بالذكاء الاصطناعي، لذا حُدد {{picked}}p الأصلي.",
+				"tierPassedOverH264": "يطلب ملف التعريف لديك {{wanted}}p بترميز H.264. لا يتوفر {{wanted}}p في هذا الفيديو إلا بترميزات أخرى، لذا حُدد {{picked}}p بترميز H.264.",
+				"tierPassedOverProfile": "يطلب ملف التعريف لديك {{wanted}}p. نسخة {{wanted}}p في هذا الفيديو لا تناسب بقية ملف التعريف، لذا حُدد {{picked}}p.",
+				"webmUnavailable": "يطلب ملف التعريف لديك WebM. تتضمن التدفقات المختارة لهذا الفيديو {{codec}} ولا يدعمه WebM، لذا أصبح نوع الملف تلقائيًا."
+			},
+			"footer": {
+				"addToQueue": "إضافة إلى قائمة الانتظار دون بدء",
+				"download": "تنزيل",
+				"moreActions": "المزيد من خيارات التنزيل",
+				"subtitlesRequired": "اختر لغة ترجمة واحدة على الأقل."
+			},
+			"keepAudio": "إبقاؤه كما هو",
+			"keepAudioMeta": "الصوت المضمّن",
+			"kind": {
+				"audio": "صوت فقط",
+				"label": "ما الذي تريد تنزيله",
+				"subtitles": "ترجمات فقط",
+				"video": "فيديو + صوت",
+				"videoOnly": "فيديو، بدون صوت"
+			},
+			"loadingAria": "جارٍ تحميل الصيغ",
+			"loadingHint": "يُرجى الانتظار حتى تنتهي عملية الفحص — قوائم التشغيل والبحث قد تستغرق بعض الوقت.",
+			"marker": {
+				"aiDubbed": "مدبلج بالذكاء الاصطناعي",
+				"aiUpscaled": "مُكبَّر بالذكاء الاصطناعي",
+				"audioDescription": "وصف صوتي",
+				"damaged": "تالف",
+				"enhancedBitrate": "معدل بت محسّن",
+				"original": "أصلي",
+				"spatialAudio": "صوت مكاني",
+				"vr": "360° / VR",
+				"watermarked": "بعلامة مائية"
+			},
+			"noAudio": "بدون صوت",
+			"profile": {
+				"calloutBody": "يحدد ملف التعريف النشط المسارات لك مسبقًا. بدّل ملفات التعريف من القائمة، أو استخدم القلم لتعديل أحدها دون مغادرة هذا التنزيل.",
+				"calloutTitle": "تبدأ الصيغ من ملف التعريف الخاص بك",
+				"closestTag": "الأقرب إلى ملف التعريف",
+				"edit": "تعديل {{name}}",
+				"keepEdits": "الإبقاء على تغييراتي",
+				"menuDescription": "لهذا التنزيل فقط. يبقى ملف التعريف الافتراضي كما هو.",
+				"preselected": "محدد مسبقًا من",
+				"resetAll": "إعادة ضبط الكل",
+				"switchBody": "لقد غيّرت {{areas}} لهذا التنزيل. يختار “{{profile}}” الفيديو والصوت في كلتا الحالتين. هل تُبقي على تغييراتك الأخرى، أم تعيد ضبط كل شيء وفق ملف التعريف؟",
+				"switchTitle": "تبديل ملف التعريف؟",
+				"tag": "ملف التعريف",
+				"updatedBody": "لقد غيّرت {{areas}} لهذا التنزيل. يختار ملف التعريف المحدَّث الفيديو والصوت في كلتا الحالتين. هل تُبقي على تغييراتك الأخرى، أم تعيد ضبط كل شيء وفق ملف التعريف؟",
+				"updatedTitle": "استخدام ملف التعريف المحدَّث؟"
+			},
+			"quality": {
+				"high": "جودة عالية",
+				"low": "جودة منخفضة",
+				"medium": "جودة متوسطة"
+			},
+			"rateLimit": {
+				"heading": "يحدّ {{site}} من طلبات هذا الاتصال",
+				"leadDegraded": "قد تكون قائمة الصيغ غير مكتملة.",
+				"leadFailed": "رفض {{site}} هذا الطلب حاليًا.",
+				"retryCta": "إعادة المحاولة",
+				"sessionNote": "قد يُبقي {{site}} هذا الحد لمدة تصل إلى ساعة.",
+				"tryNowCta": "جرّب الآن",
+				"waitOver": "انتهى الانتظار، يمكنك المحاولة مجددًا.",
+				"waitUntil": "ينتظر Klip حتى {{time}} قبل أن يطلب من {{site}} مجددًا، حتى يزول الحد."
+			},
+			"resolutionUnknown": "دقة غير معروفة",
+			"savesAs": {
+				"label": "يُحفظ كـ",
+				"reset": "لا يدعم WebM الترميز {{codec}}، لذا عاد نوع الملف إلى تلقائي."
+			},
+			"sizeUnknown": "الحجم غير معروف",
+			"skipToConfirm": "تخطَّ إلى التأكيد",
+			"skipToConfirmTooltip": "يستخدم تفضيلاتك المحفوظة لجميع الخطوات المتبقية. لتغيير إعداد ما، تابع خطوةً بخطوة — وسيُحفظ اختيارك للمرة القادمة.",
+			"sniffing": "جارٍ البحث عن أفضل الصيغ لك…",
+			"total": "الإجمالي",
+			"video": "فيديو",
+			"withAudio": "مع صوت"
+		},
+		"listPrompt": {
+			"backgroundHint": "باستخدام {{profileName}}. إذا زاد عدد الفيديوهات على {{count}}، يسأل «التنزيلات» عن العدد.",
+			"backgroundLabel": "التنزيل في الخلفية",
+			"escOnly": "Esc للإلغاء.",
+			"firstHint": "أول {{count}} بالضبط، باستخدام {{profileName}}.",
+			"firstLabel": "تنزيل أول",
+			"interactiveHint": "اختر من أول {{count}} فيديو (أو غيّر العدد في الخطوة التالية)، ثم اضبط التنزيل.",
+			"interactiveLabel": "تنزيل تفاعلي…",
+			"limitHint": "عدد الفيديوهات المأخوذة من القائمة: الخيار الأول يسأل بعد هذا العدد، والثاني يأخذ هذا العدد بالضبط. وهو نفسه «عدد عناصر القائمة للفحص» في الإعدادات.",
+			"limitLabel": "الحد",
+			"mixNote": "يتغيّر Mix في كل مرة يُفتح فيها.",
+			"pickLoadAfter": "عنصر للاختيار منها.",
+			"pickLoadBefore": "تحميل أول",
+			"pickLoadNote": "يمكنك تغييره في الخطوة التالية.",
+			"pickTitle": {
+				"album": "اختر من هذا الألبوم",
+				"liked": "اختر من الفيديوهات المُعجَب بها",
+				"mix": "اختر من هذا Mix",
+				"playlist": "اختر من قائمة التشغيل هذه",
+				"uploads": "اختر من الفيديوهات المرفوعة على هذه القناة",
+				"watchLater": "اختر من «المشاهدة لاحقًا»"
+			},
+			"title": {
+				"album": "تنزيل من هذا الألبوم",
+				"liked": "تنزيل من الفيديوهات المُعجَب بها",
+				"mix": "تنزيل من هذا Mix",
+				"playlist": "تنزيل من قائمة التشغيل هذه",
+				"uploads": "تنزيل من الفيديوهات المرفوعة على هذه القناة",
+				"watchLater": "تنزيل من «المشاهدة لاحقًا»"
+			},
+			"videoHint": "الفيديو الذي فتحته فقط، باستخدام {{profileName}}. لا تُحمَّل القائمة.",
+			"videoLabel": "هذا الفيديو فقط",
+			"videoPickHint": "اضبط الفيديو الذي فتحته فقط. لا تُحمَّل القائمة.",
+			"withProfile": "باستخدام {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "علامات فصول قابلة للتنقل في أي مشغّل حديث.",
+				"label": "تضمين الفصول",
+				"short": "الفصول"
+			},
+			"embedMetadata": {
+				"description": "كتابة العنوان والفنان والوصف وتاريخ الرفع في الملف.",
+				"label": "تضمين البيانات الوصفية",
+				"short": "البيانات الوصفية"
+			},
+			"embedThumbnail": {
+				"description": "صورة الغلاف داخل الملف. سيُعاد تغليف فيديو WebM إلى MKV؛ يُتخطى عند تضمين الترجمات.",
+				"label": "تضمين الصورة المصغرة",
+				"short": "صورة الغلاف"
+			},
+			"writeDescription": {
+				"description": "يحفظ وصف الفيديو كملف نصي .description بجانب التنزيل.",
+				"label": "حفظ الوصف",
+				"short": "ملف الوصف"
+			},
+			"writeM3u": {
+				"description": "يحفظ قائمة .m3u بجانب الفيديوهات كي تفتح بالترتيب في مشغل الوسائط.",
+				"label": "إنشاء ملف قائمة تشغيل .m3u"
+			},
+			"writeThumbnail": {
+				"description": "يحفظ الصورة المصغرة كملف صورة .jpg بجانب التنزيل.",
+				"label": "حفظ الصورة المصغرة",
+				"short": "ملف الصورة المصغرة"
+			}
+		},
+		"part": {
+			"calloutBody": "بدّل إلى «جزء» في بطاقة الفيديو لتحديد البداية والنهاية أو فصل، ونزّل ذلك المقطع فقط.",
+			"calloutTitle": "نزّل جزءًا فقط من الفيديو",
+			"chapterUntitled": "الفصل {{number}}",
+			"chapters": "الفصول",
+			"connectionsNote": "يُنزَّل الجزء عبر ffmpeg، لذلك لا تنطبق عليه إعدادات اتصالات التنزيل وإيقاع الطلبات.",
+			"downloadBlocked": "صحّح بداية الجزء ونهايته أولاً.",
+			"end": "النهاية",
+			"error": {
+				"endBeyondDuration": "ينتهي الفيديو عند {{duration}}.",
+				"endInvalid": "أدخل النهاية بصيغة h:mm:ss, m:ss أو ثوانٍ.",
+				"startInvalid": "أدخل البداية بصيغة h:mm:ss, m:ss أو ثوانٍ.",
+				"startNotBeforeEnd": "يجب أن تسبق البداية النهاية."
+			},
+			"exactCut": {
+				"hint": "متوقف: يقع كل قص عند أقرب إطار رئيسي (keyframe)، وقد يبعد بضع ثوانٍ عن الوقت الذي أدخلته.",
+				"label": "قص دقيق (يعيد الترميز، أبطأ)"
+			},
+			"length": "{{length}} من {{duration}}",
+			"part": "جزء",
+			"rangeLabel": "جزء من الفيديو",
+			"start": "البداية",
+			"subtitlesFullLength": "الفيديو كاملاً",
+			"summary": "الجزء {{start}}–{{end}}",
+			"switchLabel": "مقدار الفيديو",
+			"timeHint": "h:mm:ss, m:ss أو ثوانٍ",
+			"totalEstimate": "الجزء، تقديري",
+			"unavailableDuration": "لا يُبلغ هذا الفيديو عن مدته، لذا لا يمكن تنزيله إلا كاملاً.",
+			"unavailableSubtitles": "الترجمات تغطي الفيديو كاملاً دائمًا.",
+			"urlStart": "يبدأ رابطك عند {{time}}",
+			"useUrlStart": "استخدمه كبداية",
+			"whole": "الفيديو كاملاً",
+			"wholeTrack": "المقطع الصوتي كاملاً"
+		},
+		"playlist": {
+			"allRemovedDescription": "استعدها للمتابعة.",
+			"allRemovedTitle": "تمت إزالة جميع العناصر",
+			"alreadyDownloaded": "تم تنزيله بالفعل",
+			"bulkCappedDesc_few": "فيها المزيد. لاختيار العدد، الصق رابط كل قائمة وحده.",
+			"bulkCappedDesc_many": "فيها المزيد. لاختيار العدد، الصق رابط كل قائمة وحده.",
+			"bulkCappedDesc_one": "فيها المزيد. لاختيار العدد، الصق رابطها وحده.",
+			"bulkCappedDesc_other": "فيها المزيد. لاختيار العدد، الصق رابط كل قائمة وحده.",
+			"bulkCappedDesc_two": "فيهما المزيد. لاختيار العدد، الصق رابط كل منهما وحده.",
+			"bulkCappedDesc_zero": "فيها المزيد. لاختيار العدد، الصق رابط كل قائمة وحده.",
+			"bulkCappedTitle_few": "تم اقتطاع {{count}} قوائم عند {{limit}} فيديو لكل منها",
+			"bulkCappedTitle_many": "تم اقتطاع {{count}} قائمة عند {{limit}} فيديو لكل منها",
+			"bulkCappedTitle_one": "تم اقتطاع «{{title}}» عند {{limit}} فيديو",
+			"bulkCappedTitle_other": "تم اقتطاع {{count}} قائمة عند {{limit}} فيديو لكل منها",
+			"bulkCappedTitle_two": "تم اقتطاع قائمتين عند {{limit}} فيديو لكل منهما",
+			"bulkCappedTitle_zero": "لم تُقتطع أي قائمة عند {{limit}} فيديو",
+			"bulkHeading": "روابط متعددة",
+			"bulkMetadataOptional": "لا داعي للانتظار — الملفات التي تضعها في قائمة الانتظار الآن ستحصل على أسمائها الحقيقية عند التنزيل.",
+			"bulkMetadataResolving": "جارٍ جلب تفاصيل الفيديو… {{done}}/{{total}}",
+			"bulkRowFailed": "التفاصيل غير متاحة",
+			"bulkRowResolving": "جارٍ جلب التفاصيل",
+			"bulkRowWaiting": "بانتظار",
+			"durationUnknown": "مباشر",
+			"heading": "عناصر القائمة",
+			"headingGeneric": "الفيديوهات المراد تنزيلها",
+			"itemCountAudio_few": "{{count}} مقاطع صوتية",
+			"itemCountAudio_many": "{{count}} مقطعًا صوتيًا",
+			"itemCountAudio_one": "{{count}} مقطع صوتي",
+			"itemCountAudio_other": "{{count}} مقطع صوتي",
+			"itemCountAudio_two": "مقطعان صوتيان",
+			"itemCountAudio_zero": "{{count}} مقطع صوتي",
+			"itemCountBulk_few": "{{count}} روابط",
+			"itemCountBulk_many": "{{count}} رابطًا",
+			"itemCountBulk_one": "{{count}} رابط",
+			"itemCountBulk_other": "{{count}} رابط",
+			"itemCountBulk_two": "رابطان",
+			"itemCountBulk_zero": "{{count}} رابط",
+			"itemCount_few": "{{count}} مقاطع فيديو",
+			"itemCount_many": "{{count}} فيديو",
+			"itemCount_one": "{{count}} فيديو",
+			"itemCount_other": "{{count}} فيديو",
+			"itemCount_two": "فيديوهان",
+			"itemCount_zero": "{{count}} فيديو",
+			"loadingItems": "جارٍ جلب القائمة…",
+			"loadingItemsGeneric": "جارٍ جلب الفيديوهات…",
+			"loadingLimitHint": "محدود بأول {{count}} عنصر",
+			"loadingPagesFound_few": "تم العثور على {{count}} صفحات",
+			"loadingPagesFound_many": "تم العثور على {{count}} صفحة",
+			"loadingPagesFound_one": "تم العثور على {{count}} صفحة",
+			"loadingPagesFound_other": "تم العثور على {{count}} صفحة",
+			"loadingPagesFound_two": "تم العثور على صفحتين",
+			"loadingPagesFound_zero": "تم العثور على {{count}} صفحة",
+			"loadingPhaseItems": "جارٍ جمع الفيديوهات",
+			"loadingPhasePages": "جارٍ فحص صفحات القناة",
+			"multiProfileEntry": "تعيين ملفات تنزيل لكل عنصر",
+			"multiProfileEntryTooltip": "يتخطى الجودة وSponsorBlock والإخراج والحفظ — ويُعيّن بدلاً من ذلك ملف تنزيل لكل عنصر",
+			"nestedPlaylistBadge": "قائمة التشغيل",
+			"nestedPlaylistHint_few": "{{count}} من هذه قوائم تشغيل، وليست مقاطع فيديو — الصق روابطها واحدًا تلو الآخر لتنزيلها.",
+			"nestedPlaylistHint_many": "{{count}} من هذه قوائم تشغيل، وليست مقاطع فيديو — الصق روابطها واحدًا تلو الآخر لتنزيلها.",
+			"nestedPlaylistHint_one": "{{count}} من هذه قائمة تشغيل، وليست فيديو — الصق رابطها بمفرده لتنزيلها.",
+			"nestedPlaylistHint_other": "{{count}} من هذه قوائم تشغيل، وليست مقاطع فيديو — الصق روابطها واحدًا تلو الآخر لتنزيلها.",
+			"nestedPlaylistHint_two": "اثنتان من هذه قائمتا تشغيل، وليستا مقطعي فيديو — الصق رابطيهما واحدًا تلو الآخر لتنزيلهما.",
+			"nestedPlaylistHint_zero": "{{count}} من هذه قوائم تشغيل، وليست مقاطع فيديو — الصق روابطها واحدًا تلو الآخر لتنزيلها.",
+			"noSelection": "حدد فيديو واحداً على الأقل للمتابعة",
+			"probeLimitAlertDesc": "عثر Klip على أكثر من {{count}} عنصر، لذا يُخفي حد الفحص الحالي بقية العناصر.",
+			"probeLimitAlertTitle": "فحص قائمة التشغيل محدود",
+			"probeLimitAlertTitleGeneric": "الفحص محدود",
+			"rangeApply": "تطبيق النطاق",
+			"rangeFrom": "من",
+			"rangeTo": "إلى",
+			"removeFromListCount_few": "إزالة {{count}} من القائمة",
+			"removeFromListCount_many": "إزالة {{count}} من القائمة",
+			"removeFromListCount_one": "إزالة {{count}} من القائمة",
+			"removeFromListCount_other": "إزالة {{count}} من القائمة",
+			"removeFromListCount_two": "إزالة {{count}} من القائمة",
+			"removeFromListCount_zero": "إزالة {{count}} من القائمة",
+			"removedCount_few": "تمت إزالة {{count}}",
+			"removedCount_many": "تمت إزالة {{count}}",
+			"removedCount_one": "تمت إزالة {{count}}",
+			"removedCount_other": "تمت إزالة {{count}}",
+			"removedCount_two": "تمت إزالة اثنين",
+			"removedCount_zero": "تمت إزالة {{count}}",
+			"restore": "استعادة",
+			"selectAll": "تحديد الكل",
+			"selectNone": "إلغاء تحديد الكل",
+			"selectedCount_few": "{{count}} محددة",
+			"selectedCount_many": "{{count}} محدد",
+			"selectedCount_one": "{{count}} محدد",
+			"selectedCount_other": "{{count}} محدد",
+			"selectedCount_two": "محدّدان",
+			"selectedCount_zero": "{{count}} محدد",
+			"sortApi": "ترتيب قائمة التشغيل",
+			"sortFetchingDates": "جارٍ جلب تواريخ الرفع…",
+			"sortLabel": "فرز",
+			"sortUploadAsc": "الأقدم أولاً",
+			"sortUploadDesc": "الأحدث أولاً",
+			"syncApply": "تطبيق المزامنة",
+			"syncChange": "تغيير المجلد…",
+			"syncFoundDesc": "{{n}} من هذه الفيديوهات موجودة بالفعل في {{dir}}. هل تريد المزامنة لتنزيل الجديد فقط؟",
+			"syncFoundTitle": "موجود بالفعل في المجلد",
+			"syncNoneDesc": "لم يتم العثور على أي فيديوهات من قائمة التشغيل هذه في {{dir}}.",
+			"syncNoneDescGeneric": "لم يتم العثور على فيديوهات من هذا المصدر في {{dir}}.",
+			"syncNoneTitle": "لم يتم تنزيل شيء بعد",
+			"syncScanning": "جارٍ فحص المجلد…",
+			"thumbnailAlt": "صورة مصغرة للفيديو"
+		},
+		"playlistPresets": {
+			"heading": "اختر الجودة للدفعة",
+			"itemCount_few": "{{count}} عناصر",
+			"itemCount_many": "{{count}} عنصرًا",
+			"itemCount_one": "{{count}} عنصر",
+			"itemCount_other": "{{count}} عنصر",
+			"itemCount_two": "عنصران",
+			"itemCount_zero": "{{count}} عنصر",
+			"subhead": "يحل كل فيديو المستوى المختار بشكل مستقل — قوائم التشغيل غير المتجانسة تعمل بدون مفاجآت."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "تعيين ملف تعريف",
+			"assignTrigger_few": "تعيين لمقاطع الفيديو ({{count}})",
+			"assignTrigger_many": "تعيين لمقاطع الفيديو ({{count}})",
+			"assignTrigger_one": "تعيين لـ {{count}} فيديو",
+			"assignTrigger_other": "تعيين لمقاطع الفيديو ({{count}})",
+			"assignTrigger_two": "تعيين لمقاطع الفيديو ({{count}})",
+			"assignTrigger_zero": "تعيين لمقاطع الفيديو ({{count}})",
+			"columnDuration": "المدة",
+			"columnProfile": "الملف الشخصي",
+			"editProfile": "تعديل {{name}}",
+			"empty": "لا توجد عناصر تطابق هذا الفلتر",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "عوامل تصفية الملف الشخصي",
+			"heading": "تعيين ملفات تنزيل",
+			"menuDescription_few": "اختر ملف التعريف لمقاطع الفيديو المحددة ({{count}}).",
+			"menuDescription_many": "اختر ملف التعريف لمقاطع الفيديو المحددة ({{count}}).",
+			"menuDescription_one": "اختر ملف التعريف لهذا الفيديو.",
+			"menuDescription_other": "اختر ملف التعريف لمقاطع الفيديو المحددة ({{count}}).",
+			"menuDescription_two": "اختر ملف التعريف لمقاطع الفيديو المحددة ({{count}}).",
+			"menuDescription_zero": "اختر ملف التعريف لمقاطع الفيديو المحددة ({{count}}).",
+			"selectedSummary": "تم تحديد {{selected}} من {{total}}"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "تغيير العام",
+				"chooseFolder": "اختيار مجلد الوجهة",
+				"chooseIcon": "اختيار أيقونة الملف",
+				"removeLanguage": "إزالة {{code}}",
+				"reset": "إعادة تعيين الملف",
+				"resetDisabledHint": "يستخدم هذا الملف الإعدادات المدمجة بالفعل",
+				"resetHint": "استعادة إعدادات الملف المدمجة",
+				"save": "حفظ الملف",
+				"setOverride": "تعيين تجاوز الملف",
+				"setOverrideShort": "تعيين تجاوز",
+				"useGlobalDefault": "استخدام الإعداد العام",
+				"useLanguageCode": "استخدام رمز اللغة “{{code}}”"
+			},
+			"advanced": "متقدم",
+			"appSetting": "استخدم إعداد التطبيق ({{value}})",
+			"audioFormat": {
+				"best": "الأفضل",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "حتى 128K",
+				"192": "حتى 192K",
+				"320": "حتى 320K",
+				"best": "أفضل جودة"
+			},
+			"defaultName": "ملف تعريف جديد",
+			"destination": {
+				"defaultFolder": "مجلد التنزيلات الافتراضي",
+				"defaultFolderWithSubfolder": "مجلد التنزيلات الافتراضي / {{subfolder}}",
+				"global": "الوجهة العامة",
+				"globalActive": "نشط",
+				"globalInherited": "موروث",
+				"override": "تجاوز الملف",
+				"overrideChoosing": "اختيار مجلد",
+				"overrideNone": "لا يوجد تجاوز",
+				"overrideNoneNote": "لم يتم تعيين تجاوز. يستخدم هذا الملف الوجهة العامة أعلاه.",
+				"overrideSet": "يتجاوز العام",
+				"overrideSetNote": "يحفظ هذا الملف في جذره الخاص قبل إضافة المجلد الفرعي.",
+				"resolved": "الوجهة النهائية"
+			},
+			"dialogDescription": "إعداد واحد قابل لإعادة الاستخدام للتنزيل السريع وروابط الدُفعات وقوائم التشغيل.",
+			"dialogTitle": "ملف التنزيل",
+			"error": {
+				"changeGlobalDestination": "تعذّر تغيير الوجهة العامة.",
+				"folderPicker": "تعذّر فتح مُحدِّد المجلدات. أدخل المسار يدويًا.",
+				"reset": "تعذّر إعادة تعيين إعدادات الملف.",
+				"save": "تعذّر حفظ إعدادات الملف."
+			},
+			"field": {
+				"delivery": "طريقة الحفظ",
+				"fileType": "نوع الملف",
+				"goal": "تحسين من أجل",
+				"icon": "أيقونة الملف",
+				"languages": "اللغات",
+				"name": "اسم الملف",
+				"nameAndIcon": "اسم الملف وأيقونته",
+				"nativeAudio": "الصوت الأصلي",
+				"overridePath": "مسار تجاوز الملف",
+				"quality": "الجودة",
+				"resolution": "الدقة",
+				"source": "المصدر",
+				"subfolderName": "اسم المجلد الفرعي",
+				"subtitleDownloads": "تنزيل الترجمات",
+				"subtitleDownloadsDescription": "تطلب الملفات الشخصية رموز اللغات؛ ويُحدَّد توفّرها لكل رابط على حدة."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "الأوضح عند الحجم نفسه. لا تشغّله أجهزة التلفاز الأقدم وQuickTime وبعض المحررات.",
+					"name": "أفضل صورة",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "يعمل على أجهزة التلفاز والهواتف وWhatsApp وQuickTime ومحررات الفيديو. يوفر YouTube ترميز H.264 حتى 1080p فقط.",
+					"name": "تلفاز ذكي",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "أرشيف",
+				"audio": "صوت",
+				"captions": "ترجمات",
+				"classes": "دروس",
+				"clip": "مقطع",
+				"controls": "أدوات التحكم",
+				"download": "تنزيل",
+				"music": "موسيقى",
+				"podcast": "بودكاست",
+				"video": "فيديو"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "موسيقى أو بودكاست"
+				},
+				"subtitlesOnly": {
+					"description": "ملفات ترجمة فقط"
+				},
+				"videoAudio": {
+					"description": "ملفات فيديو عادية"
+				},
+				"videoOnly": {
+					"description": "فيديو صامت فقط"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "ستُحفظ الترجمات التلقائية بصيغة SRT بدلاً من ASS.",
+				"noLanguageMatches": "لا توجد لغات مطابقة",
+				"noSubtitles": "لن يُطلب لهذا الملف أي ملفات ترجمة أو مسارات ترجمة مضمّنة.",
+				"searchLanguages": "البحث باسم اللغة أو رمزها",
+				"skippedForOutputType": "تم تخطّيه لنوع الإخراج هذا.",
+				"subtitleLanguagesRequired": "اختر لغة واحدة على الأقل.",
+				"subtitleLanguagesRequiredOrOff": "اختر لغة واحدة على الأقل، أو أوقف تنزيل الترجمات.",
+				"subtitlesOnly": "يضيف هذا الملف ملفات الترجمة فقط إلى القائمة. ويتم تخطّي الفيديو والصوت وSponsorBlock وتحويل الوسائط."
+			},
+			"panel": {
+				"advanced": {
+					"description": "ترث الملفات الوجهة العامة ما لم تُعيّن تجاوزًا للملف.",
+					"title": "خيارات متقدمة"
+				},
+				"downloadType": {
+					"description": "اختر الطريقة الأساسية التي تريد التنزيل بها.",
+					"title": "نوع التنزيل"
+				},
+				"identity": {
+					"description": "الاسم والأيقونة الظاهران في التنزيل السريع وروابط الدُفعات وقوائم الملفات.",
+					"title": "هوية الملف"
+				},
+				"output": {
+					"enabledCount_few": "{{count}} مفعّلة",
+					"enabledCount_many": "{{count}} مفعّل",
+					"enabledCount_one": "{{count}} مفعّل",
+					"enabledCount_other": "{{count}} مفعّل",
+					"enabledCount_two": "مفعّلان",
+					"enabledCount_zero": "{{count}} مفعّل",
+					"title": "خيارات الإخراج"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "اختر مجلدًا لهذا الملف"
+			},
+			"skipped": "تم التخطّي",
+			"sponsorBlockHint": {
+				"mark": "يضع علامات على المقاطع الإعلانية كفصول (دون تعديل الملف).",
+				"off": "بدون SponsorBlock — يُشغَّل الفيديو كما رُفع.",
+				"remove": "يقصّ المقاطع الإعلانية من الفيديو باستخدام FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "تلقائية فقط",
+				"manualAndAuto": "يدوية وتلقائية",
+				"manualFirst": "يدوية أولاً ثم تلقائية",
+				"manualOnly": "يدوية فقط"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "مساعدة {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "الإضافات",
+				"fileName": "اسم الملف",
+				"format": "الصيغة",
+				"saveTo": "المجلد",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "الترجمات"
+			},
+			"callout": {
+				"body": "كانت الترجمات وSponsorBlock والإضافات مثل الصورة المصغرة والمجلد واسم الملف خطوات منفصلة. انقر على صف لتغييره.",
+				"title": "كل الإعدادات الأخرى موجودة في هذه الصفحة الآن"
+			},
+			"changeFormat": "تغيير الصيغة",
+			"changed": "تغيّر عن {{profile}}: {{areas}}. ينطبق على هذا التنزيل فقط.",
+			"changedFrom": "تغيّر عن {{profile}}:",
+			"nextTime": {
+				"action": "حفظ كملف تعريف",
+				"defaultName": "{{profile}} (معدّل)",
+				"title": "استخدم هذا التنزيل إعدادات معدّلة. هل تريد استخدامها في المرة القادمة؟"
+			},
+			"reset": "التراجع عن التغييرات والعودة إلى “{{profile}}”",
+			"rows": {
+				"extras": "الإضافات",
+				"fileName": "اسم الملف",
+				"saveTo": "الحفظ في",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "الترجمات"
+			},
+			"rowsHeading": "كل شيء آخر",
+			"save": {
+				"action": "حفظ ملف التعريف",
+				"description": "يحفظ هذه الإعدادات كملف تعريف يمكنك اختياره في المرة القادمة. يبقى ملف التعريف الخاص بالتنزيل السريع كما هو.",
+				"failed": "تعذّر حفظ ملف التعريف.",
+				"nameLabel": "اسم ملف التعريف",
+				"saved": "تم الحفظ كملف تعريف “{{name}}”",
+				"title": "حفظ كملف تعريف"
+			},
+			"saveAsProfile": "حفظ كملف تعريف جديد",
+			"update": {
+				"action": "تحديث ملف التعريف",
+				"builtinNote": "هذا ملف تعريف مدمج. يمكنك استعادة إعداداته الأصلية من تبويب «الملفات الشخصية».",
+				"description": "من الآن فصاعدًا، سيستخدم كل تنزيل بملف التعريف هذا الإعدادات الجديدة.",
+				"rows": {
+					"format": "الصيغة"
+				},
+				"title": "تحديث “{{profile}}”؟",
+				"updated": "تم تحديث ملف التعريف “{{name}}”"
+			},
+			"updateProfile": "تحديث “{{profile}}” بهذه التغييرات",
+			"value": {
+				"extrasNone": "لا شيء",
+				"sponsorBlockOff": "إيقاف",
+				"subtitlesOff": "إيقاف"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "حشو",
+				"intro": "مقدمة",
+				"music_offtopic": "موسيقى خارج الموضوع",
+				"outro": "خاتمة",
+				"preview": "معاينة",
+				"selfpromo": "ترويج ذاتي",
+				"sponsor": "رعاية"
+			},
+			"categoriesHeading": "الفئات",
+			"mode": {
+				"mark": "تحديد كفصول",
+				"off": "إيقاف",
+				"remove": "إزالة المقاطع"
+			},
+			"modeHeading": "تصفية الرعاة",
+			"modeHint": {
+				"mark": "يُحدد مقاطع الرعاة كفصول (غير تدميري).",
+				"off": "لا يوجد SponsorBlock — يُشغَّل الفيديو كما رُفع.",
+				"remove": "يحذف مقاطع الرعاة من الفيديو باستخدام FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "تأكيد",
+			"folder": "حفظ",
+			"formats": "الصيغة",
+			"output": "الإخراج",
+			"playlistItems": "قائمة التشغيل",
+			"playlistItemsGeneric": "فيديوهات",
+			"playlistPresets": "الجودة",
+			"playlistProfiles": "الملفات الشخصية",
+			"review": "مراجعة",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "الترجمات",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "ستُحفظ الترجمات التلقائية بصيغة SRT بدلاً من ASS — يتم دائماً تنظيفها من تكرارات YouTube المتدحرجة التي لا يستطيع محوّل ASS لدينا إعادة إنتاجها بعد.",
+			"autoBadge": "تلقائي",
+			"clearAll": "مسح الكل",
+			"embedNote": "يحفظ وضع التضمين المخرج بصيغة .mkv لضمان تضمين مسارات الترجمة بشكل موثوق.",
+			"format": {
+				"heading": "الصيغة"
+			},
+			"noLanguages": "لا توجد ترجمات متاحة لهذا الفيديو",
+			"noMatches": "لا توجد لغات مطابقة",
+			"noSelected": "لم يتم اختيار أي ترجمة",
+			"removeLanguage": "إزالة {{name}}",
+			"saveMode": {
+				"embed": "تضمين في الفيديو",
+				"heading": "حفظ بصيغة",
+				"sidecar": "بجانب الفيديو",
+				"sidecarNoVideo": "في مجلد التنزيل",
+				"subfolder": "مجلد فرعي subtitles/"
+			},
+			"searchPlaceholder": "البحث عن لغات…",
+			"sectionAuto": "مولّد تلقائياً",
+			"sectionManual": "يدوي"
+		},
+		"tabsNavAria": "التنقل في ملفات التنزيل",
+		"url": {
+			"advanced": "متقدم",
+			"autoRemoveCompleted": {
+				"description": "يزيل التنزيل من قائمة التنزيلات بعد ثوانٍ قليلة من اكتماله. تبقى الملفات في مجلدك، وتبقى التنزيلات الفاشلة والملغاة في القائمة.",
+				"label": "إزالة التنزيلات المكتملة تلقائيًا"
+			},
+			"autoRetry": {
+				"description": "يحاول تلقائيًا مرة أخرى بعد عطل في الشبكة أو الخادم، مع انتظار أطول بين كل محاولة. التنزيلات التي يحظرها الموقع لا يُعاد محاولتها تلقائيًا أبدًا.",
+				"label": "إعادة محاولة التنزيلات الفاشلة",
+				"unit": "مرات"
+			},
+			"bulkButton": "روابط متعددة",
+			"bulkTooltip": "أضف روابط متعددة وضعها في قائمة الانتظار.",
+			"clearAria": "مسح الرابط",
+			"clipboard": {
+				"autofilledLink": "تمت إضافة الرابط من الحافظة",
+				"bulkHint": "تم نسخ روابط متعددة — استخدم «روابط متعددة» لإضافتها",
+				"dialog": {
+					"cancelButton": "إلغاء"
+				},
+				"noLink": "لا يوجد رابط في الحافظة",
+				"readFailed": "تعذّرت قراءة الحافظة — الصق الرابط في الحقل بدلاً من ذلك",
+				"replacedLink": "تم الاستبدال بالرابط المنسوخ",
+				"toggle": "مراقبة الحافظة",
+				"toggleDescription": "يملأ حقل الرابط تلقائياً عند نسخ رابط YouTube.",
+				"undo": "تراجع"
+			},
+			"closeToTray": {
+				"toggle": "الإخفاء في علبة النظام عند الإغلاق",
+				"toggleDescription": "تستمر التنزيلات في الخلفية بعد إغلاق النافذة."
+			},
+			"concurrentDownloads": {
+				"description": "كم عدد العناصر في قائمة الانتظار التي تُنزَّل في الوقت نفسه. المزيد دفعة واحدة ينهي قائمة طويلة أسرع، لكنه يزيد احتمال أن يقيّدك الموقع.",
+				"label": "التنزيلات في وقت واحد",
+				"unit": "تنزيلات"
+			},
+			"concurrentProbes": {
+				"description": "عدد الروابط التي يجلب Klip تفاصيلها في الوقت نفسه قبل تنزيلها. العدد الأقل ألطف على المواقع التي تحظر الاتصالات المزدحمة. الرابط الذي تفتحه في «تنزيل تفاعلي» يأتي دائمًا أولًا.",
+				"label": "روابط تُفحص في آنٍ واحد",
+				"unit": "روابط"
+			},
+			"cookies": {
+				"banWarning": "قد تُعلّم مواقع مثل YouTube — وأحياناً تحظر — الحسابات التي تُستخدم كوكيزها بواسطة أدوات التنزيل مثل Klip. استخدم حساباً مؤقتاً إن أمكن.",
+				"browserHelp": "يقرأ الكوكيز مباشرةً من المتصفح. يجب أن يكون المتصفح مغلقاً لمتصفحات عائلة Chromium.",
+				"browserLabel": "المتصفح",
+				"browserPlaceholder": "اختر متصفحاً…",
+				"choose": "اختيار…",
+				"clear": "مسح",
+				"enabledButNoBrowser": "اختر متصفحاً لاستخدام الكوكيز",
+				"enabledButNoFile": "اختر ملفاً لاستخدام الكوكيز",
+				"exploreDisabled": "تبويب «استكشاف» متوقف، لذا لا تستخدم التنزيلات تسجيل دخولك في «استكشاف». فعّله من قسم «استكشاف» أدناه.",
+				"extensionChrome": "احصل على cookies.txt محلياً (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "ملف الكوكيز",
+				"helpLink": "كيف أصدّر الكوكيز؟",
+				"openExplore": "افتح «استكشاف»",
+				"placeholder": "لم يتم اختيار ملف",
+				"recommended": "موصى به",
+				"risk": "تحذير: يحتوي cookies.txt على جميع جلسات تسجيل الدخول لذلك المتصفح — احتفظ به سرياً.",
+				"sourceBrowser": "متصفح",
+				"sourceExplore": "تسجيل الدخول في «استكشاف»",
+				"sourceFile": "ملف",
+				"sourceLabel": "مصدر الكوكيز",
+				"sourceOff": "إيقاف",
+				"toggleDescription": "يفيد مع الفيديوهات التي يستطيع حسابك مشاهدتها، مثل فيديوهاتك الخاصة."
+			},
+			"downloadConnections": {
+				"description": "يسرّع التنزيلات الكبيرة عبر جلب عدة أجزاء من الفيديو في وقت واحد. القيم الأعلى تزيد احتمال أن يقيّدك الموقع.",
+				"label": "اتصالات التنزيل",
+				"unit": "اتصالات"
+			},
+			"downloadList": {
+				"album": "تنزيل الألبوم…",
+				"liked": "تنزيل الفيديوهات المُعجَب بها…",
+				"mix": "تنزيل Mix…",
+				"playlist": "تنزيل قائمة التشغيل…",
+				"uploads": "تنزيل الفيديوهات المرفوعة…",
+				"watchLater": "تنزيل «المشاهدة لاحقًا»…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "الصوت فقط",
+					"subtitles": "الترجمات"
+				},
+				"anySite": {
+					"heading": "2000+ موقع",
+					"musicPlaylist": "قوائم تشغيل الموسيقى",
+					"video": "مقاطع فيديو",
+					"videoPlaylist": "قوائم تشغيل الفيديو"
+				},
+				"heading": "ما الذي يستطيع Klip سحبه",
+				"youtube": {
+					"channel": "القنوات",
+					"heading": "YouTube",
+					"music": "الموسيقى",
+					"playlist": "قوائم التشغيل",
+					"podcast": "البودكاست",
+					"short": "Shorts",
+					"video": "مقاطع فيديو"
+				}
+			},
+			"fetchFormatsTooltip": "معالج خطوة بخطوة. اختر الصيغة والجودة والمزيد.",
+			"heading": "تنزيل من رابط",
+			"hotkey": {
+				"changeShortcut": "تغيير الاختصار",
+				"conflict": "هذا الاختصار مستخدم من تطبيق آخر — اختر غيره.",
+				"globalLabel": "اختصار عام",
+				"recording": "اضغط المفاتيح…",
+				"reset": "إعادة إلى الافتراضي",
+				"sectionDescription": "نزّل أي رابط تنسخه من أي تطبيق دون فتح Klip.",
+				"sectionTitle": "اختصار عام",
+				"test": "اختبار",
+				"toggle": "تفعيل الاختصار العام",
+				"toggleDescriptionDetail": "انسخ رابط فيديو في أي تطبيق واضغط الاختصار: يضيفه Klip إلى قائمة الانتظار بملف التعريف النشط دون تبديل النوافذ. رابط فيديو ضمن قائمة تشغيل يُنزِّل الفيديو وحده."
+			},
+			"interactiveDownload": "تنزيل تفاعلي",
+			"interactiveDownloadAsks": "تنزيل تفاعلي…",
+			"limitRate": {
+				"activeWarning": "التنزيلات النشطة تحتفظ بحدها الحالي. استخدم إيقاف مؤقت + استئناف لتطبيق التغييرات.",
+				"custom": "مخصص…",
+				"customPlaceholder": "مثل 750K أو 1.5M",
+				"description": "يحد من النطاق الترددي لتنزيلات الوسائط. إيقاع الطلبات أدناه غالبًا هو أداة الحد الأقوى.",
+				"invalid": "استخدم رقمًا متبوعًا بـ K أو M (مثل 500K، 1.5M)",
+				"label": "حد سرعة التنزيل",
+				"off": "إيقاف"
+			},
+			"mascotBusy": "جارٍ التنزيل في الخلفية… أستطيع تعدد المهام 😎",
+			"mascotCollection": "يضيف التنزيل السريع العناصر المحمّلة إلى قائمة الانتظار باستخدام {{profileName}}. أما التنزيل التفاعلي فيتيح لك فحص العناصر أو تحديدها أولًا.",
+			"mascotIdle": "أرسل رابطًا ودع Klip يسحبه ✨",
+			"mascotSingle": "يبدأ التنزيل السريع تنزيلًا واحدًا باستخدام {{profileName}}. استخدم التنزيل التفاعلي لإجراء تغييرات لمرة واحدة.",
+			"mascotVideoInList": "يشير هذا الرابط إلى فيديو والقائمة التي يتبع لها: نزّل الفيديو وحده أو القائمة.",
+			"nativeAudioPreference": {
+				"compatible": "ستيريو متوافق",
+				"description": "ستيريو أو محيطي عندما يختار ملف التعريف الصوت الأصلي. يمكن لملف التعريف تجاوزه.",
+				"label": "تفضيل الصوت الأصلي",
+				"surround": "تفضيل المحيطي / Dolby"
+			},
+			"networkPacing": {
+				"description": "يضيف توقفات صغيرة أثناء كل تنزيل حتى لا يضغط Klip على الموقع بشكل مفرط. القيم بالثواني.",
+				"fields": {
+					"maxSleepInterval": "توقف قبل بدء الوسائط: الحد الأقصى",
+					"sleepInterval": "توقف قبل بدء الوسائط: الحد الأدنى",
+					"sleepRequests": "انتظار بين فحوصات البيانات الوصفية",
+					"sleepSubtitles": "انتظار قبل ملفات الترجمة"
+				},
+				"heading": "تنزيلات هادئة",
+				"presetLabel": "ما مدى حذر Klip؟",
+				"presets": {
+					"balanced": "متوازن",
+					"careful": "حذر",
+					"custom": "مخصص",
+					"off": "إيقاف"
+				},
+				"summary": "انتظار: {{requests}} بين الفحوصات، {{downloads}} قبل بدء الوسائط، {{subtitles}} قبل ملفات الترجمة.",
+				"tooltip": "تحدث هذه الانتظارات داخل كل تنزيل. عدد التنزيلات التي تعمل في الوقت نفسه يُضبط بشكل منفصل ضمن «التنزيلات في وقت واحد».",
+				"tooltips": {
+					"balanced": "الافتراضي. يضيف توقفات قصيرة بين الطلبات وقبل بدء الوسائط.",
+					"careful": "يضيف توقفات أطول لقوائم التشغيل الكبيرة أو الشبكات التي تصل إلى الحدود بشكل متكرر.",
+					"custom": "اضبط بنفسك عناصر التحكم المتقدمة لكل تنزيل.",
+					"off": "يستخدم فقط التوقفات الأساسية الصغيرة التي يحتفظ بها Klip للوسائط والترجمات."
+				},
+				"units": {
+					"seconds": "ث"
+				}
+			},
+			"openedLink": {
+				"added": "تم فتح الرابط في Klip",
+				"replaced": "تم الاستبدال بالرابط المفتوح في Klip"
+			},
+			"pasteLink": "لصق الرابط",
+			"placeholder": "https://www.youtube.com/watch?v=...",
+			"playlistProbeLimit": {
+				"current": "الحد الحالي: {{count}} عناصر",
+				"custom": "مخصص…",
+				"customDialogCancel": "إلغاء",
+				"customDialogDescription": "استخدم عدداً صحيحاً من {{min}} إلى {{max}}.",
+				"customDialogSave": "حفظ الحد",
+				"customDialogTitle": "حد مخصص لفحص القائمة",
+				"customValue": "مخصص: {{count}} عناصر",
+				"description": "الحد الأقصى للإدخالات التي يحمّلها Klip عند فتح قائمة تشغيل أو قناة أو نتيجة بحث.",
+				"invalid": "استخدم عدداً صحيحاً من 1 إلى 5000",
+				"label": "عدد عناصر القائمة للفحص",
+				"option": "{{count}} عناصر"
+			},
+			"playlistScope": {
+				"appLimit": "استخدام حد التطبيق: {{count}}",
+				"apply": "تطبيق",
+				"applyError": "تعذّر تطبيق نطاق قائمة التشغيل هذا: {{message}}",
+				"applyReload": "تطبيق وإعادة التحميل",
+				"cancel": "إلغاء",
+				"change": "تغيير",
+				"dialogDescription": "اختر ما يحمّله Klip لقائمة التشغيل هذه.",
+				"dialogTitle": "نطاق قائمة التشغيل",
+				"emptyTitle": "لا توجد فيديوهات في هذا النطاق",
+				"first": "الأول",
+				"invalid": "استخدم أعدادًا صحيحة من 1 إلى {{max}}، على ألا تتجاوز البداية النهاية.",
+				"itemsLabel": "العناصر المراد تحميلها",
+				"label": "نطاق قائمة التشغيل",
+				"range": "نطاق",
+				"reloading": "جارٍ إعادة التحميل...",
+				"reset": "إعادة ضبط",
+				"summaryAppLimit": "تحميل أول العناصر: {{count}}",
+				"summaryFirst": "تحميل أول العناصر: {{count}}",
+				"summaryRange": "تحميل العناصر {{from}}-{{to}}",
+				"to": "إلى"
+			},
+			"profile": {
+				"activeLabel": "ملف التعريف النشط",
+				"badgeBuiltIn": "مدمج",
+				"badgeCustom": "مخصص",
+				"badgeDisabled": "مخفي",
+				"badgeModified": "معدّل",
+				"builtinName": {
+					"audio-only": "صوت فقط",
+					"balanced": "متوازن 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "أفضل جودة متاحة",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "الأدنى 144p",
+					"low-240": "توفير البيانات 240p",
+					"mp4-1080": "تلفاز ذكي 1080p",
+					"mp4-480": "تلفاز ذكي 480p",
+					"mp4-720": "تلفاز ذكي 720p",
+					"small-file": "ملف صغير 480p",
+					"subtitles-only": "ترجمات فقط"
+				},
+				"changeGlobalDestination": "تغيير وجهة الحفظ العامة",
+				"destinationDetail": {
+					"global": "استخدام الوجهة العامة",
+					"globalSubfolder": "استخدام الوجهة العامة + المجلد الفرعي للملف",
+					"override": "استخدام تجاوز الملف",
+					"overrideSubfolder": "استخدام تجاوز الملف + المجلد الفرعي للملف"
+				},
+				"destinationEditHint": "لتغيير مكان الحفظ، عدّل ملف التعريف.",
+				"destinationFallback": "الوجهة",
+				"edit": "تعديل",
+				"editActive": "تعديل ملف التعريف النشط",
+				"enableHint": "تبقى الملفات المخفية هنا لكنها تختفي من كل القوائم.",
+				"enableToggleAria": "إظهار الملف في القوائم: {{profileName}}",
+				"lastEnabledHint": "أبقِ ملفًا واحدًا متاحًا على الأقل.",
+				"manageProfiles": "إدارة ملفات التعريف",
+				"menuDescription": "غيّر ملف التعريف النشط للتنزيل السريع وعناوين URL المتعددة وقوائم التشغيل.",
+				"menuTitle": "تبديل ملف التعريف",
+				"movableProfile": "ملف قابل للنقل",
+				"moveCancelled": "تم إلغاء النقل. يبقى {{profileName}} في الموضع {{position}} من {{count}}.",
+				"moveDropped": "تم إفلات {{profileName}} في الموضع {{position}} من {{count}}.",
+				"moveHandleAria": "نقل {{profileName}}",
+				"moveInstructions": "لنقل ملف، اضغط على المسافة أو Enter، ثم حرّكه بمفاتيح الأسهم، ثم اضغط على المسافة أو Enter لإفلاته. اضغط على Esc للإلغاء.",
+				"moveOver": "{{profileName}} فوق الموضع {{position}} من {{count}}.",
+				"movePickedUp": "تم التقاط {{profileName}}. موضعه {{position}} من {{count}}.",
+				"newProfile": "ملف تعريف جديد",
+				"outputMissing": "يحفظ ملف التعريف هذا في مجلد غير محدد. اختر مجلدًا في ملف التعريف، أو أعده إلى الإعداد الافتراضي.",
+				"panelDescription": "أنشئ إعدادات تنزيل قابلة لإعادة الاستخدام أو اخترها أو عدّلها أو أزلها.",
+				"panelTitle": "ملفات التنزيل الشخصية",
+				"remove": "إزالة",
+				"reorderHint": "اسحب ملفًا لنقله. تتبع كل قوائم الملفات هذا الترتيب.",
+				"reset": "إعادة ضبط",
+				"savesTo": "يُحفظ في",
+				"switchAria": "تبديل ملف تعريف التنزيل: {{profileName}}",
+				"switchTitle": "تبديل ملف تعريف التنزيل"
+			},
+			"proxy": {
+				"clear": "مسح",
+				"description": "توجيه حركة البيانات عبر خادم وكيل.",
+				"label": "عنوان الوكيل",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "تنزيل سريع",
+			"quickDownloadTooltip": "سيتم التنزيل باستخدام: {{profileName}}",
+			"quickFailed": "تعذرت إضافة هذا العنصر: {{error}}",
+			"quickPrepareFailed": "تعذر تحضير عنصر قائمة الانتظار",
+			"quickPreparing": "جارٍ التحضير",
+			"quickProbeFailed": "فشل الفحص",
+			"quickSingleOnly": "الصق رابط فيديو أو قائمة تشغيل أو قناة أو بحث للبدء.",
+			"reports": {
+				"toggle": "إرسال نبضة مجهولة وتقارير الإعداد",
+				"toggleDescription": "بلا تتبّع. مرة واحدة يوميًا، ترسل نبضة مجهولة إصدار التطبيق وقناة التثبيت ونظام التشغيل واللغة والبلد والمدة التقريبية منذ تثبيت Klip، لنتمكن من عدّ المستخدمين النشطين والجدد. وعندما يُعِدّ Klip محرّك التنزيل أو أدوات الوسائط أو يحدّثها، يبلغ أيضًا عمّا إذا نجح ذلك وكم استغرق تقريبًا. لا معرّفات ولا عناوين URL ولا عناوين فيديوهات ولا أسماء ملفات."
+			},
+			"settings": {
+				"behaviorDescription": "سلوك عام يؤثر أيضًا على التنزيلات المُدارة بواسطة الملفات الشخصية.",
+				"behaviorHeading": "سلوك التنزيل",
+				"inputHeading": "إدخال"
+			},
+			"style": {
+				"aurora": {
+					"description": "ألواح زجاجية فوق سماء متحركة. تحتاج إلى تسريع الرسومات.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "أسطح صلبة وهادئة. تعمل بخفة على أي جهاز كمبيوتر.",
+					"label": "بسيط"
+				},
+				"modeDescription": "كلا النمطين متاح بالوضع الفاتح والداكن.",
+				"modeLabel": "النمط",
+				"panelDescription": "هكذا يبدو Klip. بدّل بين الفاتح والداكن من أسفل النافذة.",
+				"panelTitle": "المظهر",
+				"unavailableNotice": "يحتاج {{style}} إلى تسريع الرسومات وهو غير متاح الآن، لذلك يعرض Klip {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "الملفات الشخصية",
+				"settings": "الإعدادات"
+			},
+			"thisVideo": "هذا الفيديو",
+			"thisVideoTooltip": "ينزّل هذا الفيديو فقط باستخدام {{profileName}}"
+		}
+	}
+}

@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Kuhusu",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Tazama notisi za wengine",
+		"websiteLink": "Tovuti"
+	},
+	"aiUpscaled": {
+		"allow": "Ruhusu",
+		"allowedSummary": "Mikondo iliyokuzwa kwa AI imeruhusiwa",
+		"description": "YouTube hutoa baadhi ya video za zamani kwa ukubwa uliotengenezwa na AI. Ruka huhifadhi mikondo asili; bado unaweza kuchagua mkondo uliokuzwa kwa mkono.",
+		"label": "Mikondo iliyokuzwa kwa AI",
+		"skip": "Ruka"
+	},
+	"app": {
+		"feedback": "Maoni",
+		"feedbackNudge": "Unafurahia Klip? Ningependa kusikia kutoka kwako! 💬",
+		"logs": "Kumbukumbu",
+		"saveDiagnostics": "Hifadhi faili la uchunguzi",
+		"saveDiagnosticsDescription": "Huweka kumbukumbu na maelezo ya programu katika faili moja ndani ya folda ya Downloads, tayari kuambatishwa kwenye issue ya GitHub. Jina la folda yako ya mtumiaji huondolewa; viungo na majina ya video hubaki.",
+		"styleHint": "Mpya: chagua Aurora au Rahisi hapa",
+		"theme": "Mandhari",
+		"zoomIn": "Kuza",
+		"zoomOut": "Punguza"
+	},
+	"common": {
+		"back": "Rudi",
+		"cancel": "Ghairi",
+		"close": "Funga",
+		"continue": "Endelea",
+		"loading": "Inapakia…",
+		"retry": "Jaribu tena",
+		"startOver": "Anza upya"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip inaendelea kufanya kazi na kukamilisha vipakuzi vinavyofanya kazi. Badilisha hii baadaye katika mipangilio ya Hali ya juu.",
+			"hide": "Ficha kwenye tray",
+			"message": "Ficha Klip kwenye tray ya mfumo ukifunga?",
+			"quit": "Toka",
+			"remember": "Usiulize tena"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Foleni yako huhifadhiwa, na vipakuliwa huendelea ulipoishia utakapofungua Klip tena.",
+			"keep": "Endelea Kupakua",
+			"message_one": "Upakuaji {{count}} unaendelea",
+			"message_other": "Vipakuzi {{count}} vinavyoendelea",
+			"quit": "Toka"
+		},
+		"rendererCrashed": {
+			"detail": "Mchakato wa uonyeshaji umeanguka ({{reason}}). Pakia upya ujaribu tena.",
+			"message": "Klip imekutana na tatizo",
+			"quit": "Toka",
+			"reload": "Pakia upya"
+		}
+	},
+	"donate": {
+		"copied": "Imenakiliwa!",
+		"copyAddress": "Nakili anwani",
+		"description": "Klip ni bure na chanzo huria, bila matangazo wala mpango wa kulipia. Michango ni ya hiari na haitoi ushawishi wowote kwenye ramani ya maendeleo.",
+		"footerLabel": "Changia",
+		"footerTooltip": "Saidia Klip",
+		"qrAlt": "Msimbo wa QR wa anwani ya mchango ya {{coin}}",
+		"title": "Saidia Klip",
+		"warning": "Malipo ya kripto hayawezi kurudishwa. Tuma kwa mtandao ulioonyeshwa pekee na linganisha anwani nzima."
+	},
+	"errors": {
+		"noSubtitlesIn": "Video hii haina manukuu katika lugha: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Video hii ina kikwazo cha umri na haiwezi kupakuliwa bila akaunti iliyoingia.",
+			"botBlock": "Ulinzi wa boti wa tovuti umesimamisha upakuaji huu. Subiri kidogo kisha ujaribu tena, au pakua video chache kwa wakati mmoja. Ikiwa itaendelea kushindwa, hii inaweza kuwa mabadiliko ya muda upande wa tovuti — Klip husasisha injini yake ya upakuaji wakati wa uzinduzi, kwa hivyo marekebisho yatafika kiotomatiki mara yakitolewa.",
+			"chunkTransferFailure": "Seva iliendelea kukatiza upakuaji katikati, na Klip ilikata tamaa baada ya kujaribu tena. Hii hutokea zaidi kwa muundo mkubwa wa video (4K HDR / VP9 ya bitrate ya juu). Jaribu tena, badilisha mtandao/VPN, au chagua muundo wa ubora wa chini.",
+			"drmProtected": "Video hii inalindwa na DRM. Klip haiwezi kuondoa DRM, kwa hivyo faili haiwezi kupakuliwa.",
+			"formatUnavailable": "Video hii haitoi tena umbizo ulilochagua. Bandika kiungo tena na uchague kutoka kwenye miundo inayotolewa sasa.",
+			"geoBlocked": "Video hii haipatikani katika eneo lako.",
+			"ipBlock": "Tovuti inazuia maombi kutoka kwa muunganisho huu. Jaribu tena baadaye.",
+			"loginRequired": "Video hii inahitaji akaunti iliyoingia.",
+			"missingDependency": "Klip haikuweza kupata FFmpeg wala FFprobe. Endesha usanidi tena au weka eneo la FFmpeg, kisha jaribu kupakua tena.",
+			"network": "Hitilafu ya mtandao. Angalia muunganisho wako na ujaribu tena.",
+			"noSubtitles": "Video hii haina manukuu katika lugha zilizoombwa.",
+			"outOfDiskSpace": "Nafasi ya diski haitoshi. Futa nafasi na ujaribu tena.",
+			"outputNotWritable": "Klip haiwezi kuandika kwenye folda ya vipakuliwa. Huenda ni ya kusoma tu, iko kwenye diski iliyofungwa, au imezuiwa na mipangilio ya faragha ya mfumo wako. Chagua folda nyingine au ruhusu ufikiaji, kisha ujaribu tena.",
+			"parse": "Haikuwezekana kuchanganua jibu kutoka tovuti. Tovuti inaweza kuwa imebadilisha jinsi inavyotoa video. Klip husasisha injini yake ya upakuaji wakati wa uzinduzi — jaribu tena baada ya dakika chache marekebisho yatakapotolewa.",
+			"postprocessFailure": "Upakuaji ulimalizika, lakini uchakataji wa baadaye (kuunganisha / mux / kubadilisha) ulishindwa. Mara nyingi hili ni tatizo la muda la ffmpeg — jaribu tena, na ikiendelea, jaribu mchanganyiko tofauti wa muundo.",
+			"rateLimit": "Tovuti inazuia maombi kutoka kwa muunganisho huu.",
+			"unavailable": "Video hii haipatikani — inaweza kuwa ya kibinafsi, imefutwa, au imezuiwa kwa mkoa.",
+			"unknown": "Upakuaji umeshindwa. Tazama matokeo ghafi hapa chini.",
+			"unsupportedUrl": "Klip haitumii URL hii. Jaribu kiungo kutoka tovuti nyingine."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Angalia muunganisho wako, kisha jaribu tena.",
+			"loadTitle": "Ukurasa huu haukupakia",
+			"openSettings": "Fungua Mipangilio",
+			"proxyBody": "Angalia proksi katika Mipangilio, kisha jaribu tena.",
+			"proxyTitle": "Gundua haiwezi kuunganisha kupitia proksi yako",
+			"retry": "Jaribu tena"
+		},
+		"linkCallout": {
+			"body": "Bofya kulia kiungo chochote cha video, orodha ya kucheza au kituo kwenye ukurasa ili kukipakua kwa wasifu unaotumika, kuchagua wasifu mwingine, au kufungua upakuaji shirikishi.",
+			"title": "Bofya kulia kiungo ili kukipakua"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Pakua albamu nyuma ya pazia",
+				"liked": "Pakua video ulizopenda nyuma ya pazia",
+				"mix": "Pakua Mix nyuma ya pazia",
+				"playlist": "Pakua playlist nyuma ya pazia",
+				"uploads": "Pakua video zilizopakiwa nyuma ya pazia",
+				"watchLater": "Pakua Tazama baadaye nyuma ya pazia"
+			},
+			"copyLink": "Nakili kiungo",
+			"downloadFirst": "Pakua {{count}} za kwanza",
+			"downloadThisVideo": "Pakua video hii · {{profileName}}",
+			"downloadWith": "Pakua kwa",
+			"fromList": {
+				"album": "Kutoka albamu hii",
+				"liked": "Kutoka video ulizopenda",
+				"mix": "Kutoka Mix hii",
+				"playlist": "Kutoka playlist hii",
+				"uploads": "Kutoka video zilizopakiwa kwenye kituo hiki",
+				"watchLater": "Kutoka Tazama baadaye"
+			},
+			"interactive": "Upakuaji shirikishi…",
+			"thisVideoWith": "Video hii kwa"
+		},
+		"newBadge": "Mpya",
+		"notice": {
+			"body": "Tafuta video kwenye YouTube au tovuti nyingine yoyote na uipakue kutoka hapa — bila kunakili viungo. Ingia kwenye tovuti hapa ili kupakua video zinazohitaji akaunti.",
+			"continue": "Endelea",
+			"riskBody": "Tovuti kama YouTube zinaweza kuweka alama — na wakati mwingine kupiga marufuku — akaunti zinazotumiwa na zana za kupakua kama Klip. Tumia akaunti usiyojali kuipoteza, si akaunti yako kuu.",
+			"riskTitle": "Ingia kwa akaunti ya pili",
+			"title": "Vinjari wavuti ndani ya Klip"
+		},
+		"nudge": {
+			"browser": "Upakuaji hutumia vidakuzi vya kivinjari chako, si kuingia kwako kwenye Gundua.",
+			"file": "Upakuaji hutumia faili yako ya vidakuzi, si kuingia kwako kwenye Gundua.",
+			"notNow": "Si sasa",
+			"off": "Vidakuzi vimezimwa, kwa hiyo upakuaji hautumii kuingia kwako kwenye Gundua.",
+			"useExplore": "Tumia kuingia kwenye Gundua"
+		},
+		"settings": {
+			"description": "Vinjari YouTube au tovuti nyingine yoyote ndani ya Klip, na uingie kwa video zinazohitaji akaunti.",
+			"idleUnload": "Achilia kumbukumbu ukiwa mbali",
+			"idleUnloadDescription": "Baada ya dakika 5 kwenye kichupo kingine, hufunga ukurasa wa mwanzo au wa utafutaji wa YouTube. Ukirudi, hupakiwa upya, jambo linalochukua sekunde chache.",
+			"searchEngine": "Injini ya utafutaji",
+			"searchEngineDescription": "Maandishi yanayoandikwa kwenye upau wa anwani hutafutwa kwa injini hii. Viungo hufunguka kama vilivyoandikwa.",
+			"showTab": "Onyesha kichupo cha Gundua",
+			"showTabDescription": "Kukizima pia kunazuia upakuaji kutumia kuingia kwako kwenye Gundua.",
+			"signOut": "Toka kwenye Gundua",
+			"signOutConfirm": "Toka",
+			"signOutConfirmBody": "Hii inafuta akaunti ulizoingia na data ya kuvinjari ndani ya Gundua, kwenye kila tovuti. Upakuaji unaohitaji akaunti utashindwa hadi uingie tena.",
+			"signOutConfirmTitle": "Utoke kwenye Gundua?",
+			"signOutDescription": "Inafuta akaunti ulizoingia na data ya kuvinjari ndani ya Gundua, kwenye kila tovuti.",
+			"title": "Gundua"
+		},
+		"tabLabel": "Gundua",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube inaweza kupinga vizuia matangazo kwa akaunti zilizoingia.",
+				"aria": "Kizuia matangazo",
+				"off": "Kizuia matangazo: kimezimwa — bofya ili kukiwasha",
+				"on": "Kizuia matangazo: kimewashwa — bofya ili kukizima",
+				"starting": "Kizuia matangazo: kinaanza — bofya ili kukizima",
+				"unavailable": "Kizuia matangazo: hakipatikani, orodha zake za vichujio hazikuweza kupakuliwa — bofya ili kukizima"
+			},
+			"addressAria": "Anwani",
+			"addressPlaceholder": "Tafuta kwenye {{engine}} au fungua tovuti yoyote (Vimeo, Instagram…)",
+			"aria": "Vidhibiti vya kivinjari cha Gundua",
+			"back": "Rudi",
+			"compactLayout": "Mpangilio mshikamano",
+			"download": "Pakua",
+			"downloadWithProfile": "Pakua · {{profileName}}",
+			"forward": "Mbele",
+			"fullLayout": "Onyesha mpangilio kamili",
+			"grabUnavailable": "Fungua video, orodha ya kucheza au kituo ili kupakua",
+			"home": "Mwanzo wa YouTube",
+			"interactiveHint": "Upakuaji shirikishi: chagua fomati, manukuu na zaidi…",
+			"refusedHint": "Gundua haiwezi kufungua anwani hiyo.",
+			"reload": "Pakia upya",
+			"searchTooLong": "Utafutaji huo ni mrefu mno.",
+			"thisVideo": "Video hii",
+			"thisVideoHint": "Pakua video hii pekee kwa {{profileName}}",
+			"zoom": {
+				"hint": "Ukuzaji wa ukurasa: {{percent}}%",
+				"in": "Kuza",
+				"label": "Ukuzaji wa ukurasa",
+				"out": "Punguza",
+				"percent": "Asilimia ya ukuzaji",
+				"reset": "Rejesha ukuzaji kuwa 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Otomatiki",
+		"autoValue": "Otomatiki (.{{ext}})",
+		"description": {
+			"auto": "Mikondo iliyochaguliwa huamua aina ya faili.",
+			"mkv": "Hubeba kodeki yoyote. Baadhi ya runinga na simu haziwezi kuifungua.",
+			"mp4": "Hucheza karibu kila mahali. VP9 ndani ya MP4 haichezi video katika QuickTime.",
+			"webm": "Umbizo huria kwa vivinjari. Hubeba VP9 au AV1 pamoja na Opus tu."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 ndani ya MP4 inahitaji Mac mpya ili icheze katika QuickTime. H.264 hucheza kila mahali.",
+		"mp4CaveatVp9": "VP9 ndani ya MP4 haichezi video katika QuickTime. H.264 hucheza kila mahali.",
+		"profileMark": "Wasifu",
+		"smartTvNoWebm": "WebM haitolewi kwa Runinga janja: haiwezi kubeba H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM haiwezi kubeba {{codec}}. Chagua MKV au MP4."
+	},
+	"filenameTemplate": {
+		"description": "Chagua jinsi faili zilizopakuliwa zinavyopewa majina. Bofya tokeni ili kuiingiza. Tumia / kupanga vipakuliwa katika folda.",
+		"error": {
+			"empty": "Weka kiolezo cha jina la faili.",
+			"empty-segment": "Ondoa / ya ziada — kila folda inahitaji jina.",
+			"forbidden-char": "Ondoa herufi zisizoruhusiwa katika majina ya faili: \\ : * ? \" < > |",
+			"invalid-segment": "Jina hilo la folda haliruhusiwi. Epuka . na .. na majina yaliyohifadhiwa kama CON.",
+			"no-unique-token": "Ongeza {title} au {id} kwenye jina la faili ili kila upakuaji upate jina lake.",
+			"resolution-in-dir": "{resolution} haiwezi kutaja folda — ubora haujulikani hadi upakuaji uanze.",
+			"stray-brace": "{ au } isiyofungwa — andika tokeni kama {title}.",
+			"too-long": "Kiolezo ni kirefu mno.",
+			"unknown-token": "Tokeni isiyojulikana {{token}}."
+		},
+		"idEndingWarning": "Malizia jina kwa [{id}] ili Klip iweze kutambua vipengee vya playlist vilivyopakuliwa tayari na kutengeneza orodha za .m3u.",
+		"label": "Kiolezo cha jina la faili",
+		"m3uDisabledIdEnding": "Haipatikani kwa sababu kiolezo chako cha jina la faili hakiishii kwa [{id}] au kinapanga vipakuliwa katika folda.",
+		"previewPlaylist": "Katika orodha ya kucheza",
+		"previewSingle": "Video moja",
+		"profileOverrideDescription": "Acha wazi ili kutumia kiolezo cha jumla.",
+		"profileOverrideLabel": "Kiolezo cha jina la faili"
+	},
+	"formatLabel": {
+		"audioFallback": "Sauti",
+		"audioOnlyDot": "Sauti peke yake · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Otomatiki",
+		"description": "Otomatiki huchagua HDR wakati skrini hii inaweza kuionyesha, vinginevyo SDR. HDR huonekana imefifia kwenye skrini za kawaida.",
+		"hdr": "HDR",
+		"label": "Video ya HDR",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Lugha"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Umeingia kwenye Gundua — inajaribu tena kiungo 1",
+		"exploreSignInRetrying_other": "Umeingia kwenye Gundua — inajaribu tena viungo {{count}}",
+		"exploreSignOutFailed": "Imeshindwa kutoka kwenye Gundua. Jaribu tena.",
+		"filenameFolderTooDeep": "Folda hii ina kina kirefu mno kwa mfumo wako. Upakuaji bado unaweza kushindwa — chagua folda fupi zaidi.",
+		"filenameTemplateCannotFit": "Jina la video hii haliwezi kutoshea kila sehemu ya kiolezo chako, kwa hivyo jina chaguo-msingi limetumika.",
+		"folderSelectFailed": "Haikuweza kufungua kichagua folda.",
+		"hotkey": {
+			"alreadyQueued": "Tayari lipo kwenye foleni — hakuna nakala iliyooongezwa",
+			"cookiesSetup": "Maliza kusanidi vidakuzi katika Klip, kisha jaribu tena",
+			"invalidClipboard": "Hakuna kiungo kwenye ubao wa kunakili — nakili moja kwanza",
+			"multipleUrls": "Viungo vingi vimenakiliwa — tumia “URL nyingi” katika Klip",
+			"needsReview": "Kiungo hicho kinahitaji chaguo lako — tazama Vipakuliwa katika Klip",
+			"queued": "Pakio limeongezwa kutoka kwenye ubao wa kunakili",
+			"submissionFailed": "Kiungo hicho hakiweza kuongezwa — jaribu tena katika Klip"
+		},
+		"playlistFolderRejected": "Folda hiyo haiwezi kutumika kwa orodha hii ya kucheza.",
+		"queue": {
+			"skippedAlreadyQueued_one": "Video {{count}} tayari iko kwenye foleni — imerukwa",
+			"skippedAlreadyQueued_other": "Video {{count}} tayari ziko kwenye foleni — zimerukwa"
+		},
+		"quickDownload": {
+			"added": "Imeongezwa: {{title}}",
+			"alreadyQueued": "Tayari kwenye foleni",
+			"batchAdded_one": "Kiungo {{count}} kimeongezwa kwenye Vipakuliwa",
+			"batchAdded_other": "Viungo {{count}} vimeongezwa kwenye Vipakuliwa",
+			"batchAlreadyQueued_one": "{{count}} tayari kwenye foleni",
+			"batchAlreadyQueued_other": "{{count}} tayari kwenye foleni",
+			"batchNoneAdded_one": "Kiungo {{count}} hakikuweza kuongezwa",
+			"batchNoneAdded_other": "Viungo {{count}} havikuweza kuongezwa",
+			"batchNotAdded_one": "Imeshindwa kuongeza {{count}}",
+			"batchNotAdded_other": "Imeshindwa kuongeza {{count}}",
+			"chooseFromList_one": "Video {{count}} kwenye orodha hii — chagua cha kupakua",
+			"chooseFromList_other": "Video {{count}} kwenye orodha hii — chagua za kupakua",
+			"chooseHowMany_one": "Video {{count}}+ — chagua ngapi",
+			"chooseHowMany_other": "Video {{count}}+ — chagua ngapi",
+			"failed": "Imeshindwa kuandaa {{title}}",
+			"notAdded": "Kiungo hicho hakikuweza kuongezwa — jaribu tena",
+			"view": "Tazama"
+		},
+		"settingsSaveFailed": "Haikuweza kuhifadhi mipangilio yako.",
+		"shellActionFailed": "Haikuweza kufungua hiyo.",
+		"warmupFailed": "Usanidi haukukamilika. Baadhi ya upakuaji unaweza kushindwa hadi ukamilike."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Sauti (bora)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Sauti ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Sauti bora asilia, bila kusimba upya",
+			"m4a": "Geuza kuwa M4A (AAC)",
+			"mp3": "Geuza kuwa MP3",
+			"opus": "Geuza kuwa Opus"
+		},
+		"mp4Cap": "H.264 zaidi ya 1080p haipatikani YouTube — hupunguzwa kiotomatiki hadi 1080p",
+		"subtitles": {
+			"deliveryHeading": "Hifadhi kama",
+			"deliveryLoose": "Moja kwa moja kwenye folda ya kuhifadhi",
+			"languages": "Lugha",
+			"languagesRequired": "Chagua angalau lugha moja ili kuendelea.",
+			"note": "Ni faili za manukuu pekee zinazohifadhiwa kwa kila video — hakuna video wala sauti inayopakuliwa.",
+			"source": "Chanzo"
+		},
+		"tier": {
+			"144": "Hadi 144p",
+			"240": "Hadi 240p",
+			"360": "Hadi 360p",
+			"480": "Hadi 480p",
+			"720": "Hadi 720p",
+			"1080": "Hadi 1080p",
+			"1440": "Hadi 1440p",
+			"2160": "Hadi 4K",
+			"best": "Ubora wa juu zaidi"
+		},
+		"tierDesc": {
+			"144": "Faili ndogo kabisa zinazowezekana",
+			"240": "Faili ndogo sana, ubora wa chini",
+			"360": "Faili ndogo kwa bandwidth finyu",
+			"480": "Bandwidth finyu",
+			"720": "Faili ndogo, upatanifu mpana",
+			"1080": "Imepunguzwa hadi 1080p, hushuka kwa kila kipengee ikihitajika",
+			"1440": "Imepunguzwa hadi 2K, hushuka kwa kila kipengee ikihitajika",
+			"2160": "Imepunguzwa hadi 2160p, hushuka kwa kila kipengee ikihitajika",
+			"best": "Video + sauti bora inayopatikana kwa kila kipengee"
+		},
+		"type": {
+			"audio": "Sauti",
+			"subtitles": "Manukuu",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Umbizo asilia bora",
+			"mp4": "Runinga janja H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "Kodeki bora inayopatikana kwa kila kipengee",
+			"mp4": "H.264 + AAC inapendelewa, kontena MP4 · juhudi bora"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Faili saidizi",
+			"description": "Maelezo",
+			"media": "Midia",
+			"missing": "Haipo",
+			"subtitle": "Manukuu",
+			"thumbnail": "Kijipicha",
+			"unknown": "Faili"
+		},
+		"attentionBadge_one": "Upakuaji {{count}} unahitaji umakini wako",
+		"attentionBadge_other": "Upakuaji {{count}} unahitaji umakini wako",
+		"autoRemoveCompleted": {
+			"hint": "Huondoa kila kipakuzi kwenye orodha sekunde chache baada ya kukamilika. Faili hubaki kwenye folda yako.",
+			"label": "Futa kiotomatiki ikikamilika"
+		},
+		"cancelAllTitle": "Ghairi vipakuzi vyote vinavyoendelea na vinavyosubiri",
+		"choice": {
+			"all": "Video zote",
+			"cappedBody_one": "Zaidi ya video {{count}} kwenye playlist hii. Zipakue zote, za kwanza {{count}}, au chagua kupitia ukaguzi.",
+			"cappedBody_other": "Zaidi ya video {{count}} kwenye playlist hii. Zipakue zote, za kwanza {{count}}, au chagua kupitia ukaguzi.",
+			"first": "{{count}} za kwanza",
+			"list": {
+				"album": "Albamu",
+				"liked": "Video ulizopenda",
+				"mix": "Mix",
+				"playlist": "Playlist",
+				"uploads": "Video zote zilizopakiwa",
+				"watchLater": "Tazama baadaye"
+			},
+			"pick": "Chagua kutoka humo…",
+			"review": "Kagua",
+			"uncappedBody_one": "Kiungo hiki ni orodha ya video {{count}}. Ipakue, au chagua kupitia ukaguzi.",
+			"uncappedBody_other": "Kiungo hiki ni orodha ya video {{count}}. Zipakue zote, au chagua kupitia ukaguzi.",
+			"video": "Video hii",
+			"videoOrList": {
+				"album": "Kiungo hiki ni video iliyo kwenye albamu. Pakua video pekee, au albamu?",
+				"liked": "Kiungo hiki ni video iliyo kwenye video ulizopenda. Pakua video pekee, au video zote ulizopenda?",
+				"mix": "Kiungo hiki ni video iliyo kwenye Mix. Pakua video pekee, au Mix?",
+				"playlist": "Kiungo hiki ni video iliyo kwenye playlist. Pakua video pekee, au playlist?",
+				"uploads": "Kiungo hiki ni video iliyopakiwa kwenye kituo. Pakua video pekee, au video zote zilizopakiwa?",
+				"watchLater": "Kiungo hiki ni video iliyo kwenye orodha yako ya Tazama baadaye. Pakua video pekee, au orodha nzima?"
+			}
+		},
+		"clearTitle": "Futa vipakuzi vilivyokamilika",
+		"empty": "Vipakuliwa vilivyowekwa kwenye foleni vitaonekana hapa",
+		"filterAll": "Zote",
+		"filtersLabel": "Vichujio vya hali ya foleni",
+		"globalActionsLabel": "Vipengee vyote",
+		"header": "Vipakuliwa",
+		"item": {
+			"audioKept": "Sauti haijaondolewa",
+			"audioKeptSubtitlesFailed": "Sauti haijaondolewa · baadhi ya manukuu yameshindwa",
+			"cancel": "Ghairi",
+			"defaultError": "Upakuaji umeshindwa",
+			"openDestinationFolder": "Fungua folda lengwa",
+			"pause": "Simamisha",
+			"pendingOnly": "Vinavyosubiri pekee",
+			"pullNow": "Pakua sasa — ruka foleni",
+			"qualityLimited": "Imedhibitiwa kwa {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Imedhibitiwa kwa {{height}}p · baadhi ya manukuu yameshindwa",
+			"remove": "Ondoa",
+			"resume": "Endelea",
+			"retry": "Jaribu tena",
+			"retryingSoon": "inajaribu tena kiotomatiki (jaribio {{attempt}})",
+			"setLocation": "Weka mahali",
+			"setLocationHint": "Chagua vipengee vinavyosubiri ili kuweka mahali.",
+			"statusCancelled": "Imeghairiwa",
+			"statusDone": "Imekamilika",
+			"statusError": "Hitilafu",
+			"statusHeld": "Imeshikiliwa",
+			"statusNeedsChoice": "Inahitaji chaguo lako",
+			"statusPaused": "Imesitishwa",
+			"statusPending": "Inasubiri",
+			"statusProbing": "Inaleta maelezo",
+			"statusRunning": "Inapakua",
+			"subtitleLanguagesMissing": "Hakuna manukuu katika lugha: {{languages}}",
+			"waitingForSite": "Inasubiri {{site}} hadi {{time}}",
+			"waitingHint": "{{site}} inabana maombi kutoka kwa muunganisho huu. Klip itapata maelezo ya kiungo hiki baada ya {{time}}, ili kikomo kiondoke."
+		},
+		"listOffer": {
+			"dismiss": "Funga",
+			"from": {
+				"album": "Kutoka albamu",
+				"liked": "Kutoka video ulizopenda",
+				"mix": "Kutoka Mix",
+				"playlist": "Kutoka playlist",
+				"uploads": "Kutoka video zilizopakiwa za kituo",
+				"watchLater": "Kutoka Tazama baadaye"
+			},
+			"get": {
+				"album": "Pata albamu nzima",
+				"liked": "Pata video zote ulizopenda",
+				"mix": "Pata Mix nzima",
+				"playlist": "Pata playlist nzima",
+				"uploads": "Pata video zote zilizopakiwa",
+				"watchLater": "Pata Tazama baadaye yote"
+			},
+			"hint": "Inaongeza orodha kama safu yake yenyewe. Video hii haijajumuishwa."
+		},
+		"pauseAllTitle": "Simamisha vipakuzi vyote vinavyoendelea",
+		"pausedBanner": "Foleni imesimamishwa — vipakuzi vinavyosubiri havitaanza hadi ukiendeleza",
+		"resumeAllTitle": "Endeleza vipakuliwa vilivyosimamishwa na ruhusu foleni iendelee",
+		"resumeQueueAction": "Endeleza foleni",
+		"selectedActionsLabel": "Vipengee vilivyochaguliwa",
+		"selectionSummary": "{{selected}} zimechaguliwa · jumla {{total}}",
+		"tabLabel": "Vipakuliwa",
+		"tabTip": "Vipakuliwa sasa viko kwenye kichupo cha Vipakuliwa — kifungue wakati wowote kufuatilia maendeleo.",
+		"table": {
+			"added": "Imeongezwa",
+			"artifacts": "Faili za matokeo",
+			"columnDropped": "Safu wima ya {{column}} imeachiwa.",
+			"columnMoveCancelled": "Kusogeza safu wima ya {{column}} kumeghairiwa.",
+			"columnMovedOver": "Safu wima ya {{column}} iko juu ya {{target}}.",
+			"columnPickedUp": "Safu wima ya {{column}} imeshikwa.",
+			"columns": "Safu wima",
+			"finished": "Imekamilika",
+			"format": "Umbizo",
+			"hideArtifactsFor": "Ficha faili za {{title}}",
+			"movableColumn": "safu wima inayoweza kusogezwa",
+			"moveColumnInstructions": "Ili kusogeza safu wima, bonyeza Spacebar au Enter, isogeze kwa vitufe vya mishale, kisha bonyeza Spacebar au Enter ili kuiachia. Bonyeza Escape ili kughairi.",
+			"notAvailable": "—",
+			"outputTarget": "Lengo la matokeo",
+			"progress": "Maendeleo",
+			"resetColumns": "Weka upya safu wima",
+			"resizeColumn": "Badilisha ukubwa wa safu wima ya {{column}}",
+			"showArtifactsFor": "Onyesha faili za {{title}}",
+			"size": "Ukubwa",
+			"sortBy": "Panga kwa {{label}}",
+			"status": "Hali",
+			"title": "Kichwa"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Endelea",
+		"description": "Unatumia sasisho jipya. Haya ndiyo mambo muhimu.",
+		"fullNotes": "Maelezo kamili ya toleo ↗",
+		"title": "Nini kipya katika Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Ghairi",
+			"chooseExecutable": "Chagua faili inayotekelezwa",
+			"installWithHomebrew": "Sakinisha kwa Homebrew",
+			"installWithWinget": "Sakinisha kwa WinGet",
+			"openDependencyFolder": "Fungua saraka ya utegemezi",
+			"resetToDefault": "Rejesha chaguo-msingi",
+			"retrySetup": "Jaribu tena",
+			"viewSetupLog": "Angalia kumbukumbu ya usanidi"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Jaribu tena. Ikiendelea kushindwa, chagua nakala inayofanya kazi hapa chini.",
+				"title": "Zana haifanyi kazi vizuri"
+			},
+			"blockedOrQuarantined": {
+				"body": "Ruhusu Klip kwenye antivirus au SmartScreen yako, kisha jaribu tena.",
+				"title": "Antivirus yako imezuia zana"
+			},
+			"downloadFailed": {
+				"body": "Angalia muunganisho wako wa intaneti, kisha jaribu tena.",
+				"title": "Imeshindwa kupakua kinachohitajika na Klip"
+			},
+			"extractFailed": {
+				"body": "Jaribu tena ili kuipakua upya.",
+				"title": "Faili iliyopakuliwa imefika ikiwa imeharibika"
+			},
+			"hashFailed": {
+				"body": "Jaribu tena ili kuipakua upya.",
+				"title": "Faili iliyopakuliwa haikulingana na checksum yake"
+			},
+			"pairIncomplete": {
+				"body": "Chagua zote mbili hapa chini, au zirejeshe kwenye chaguo-msingi.",
+				"title": "FFmpeg na FFprobe lazima ziwekwe pamoja"
+			},
+			"permissionDenied": {
+				"body": "Jaribu tena. Ikiendelea kushindwa, chagua nakala unayoiamini hapa chini.",
+				"title": "Mfumo wako hauruhusu Klip kuendesha zana"
+			},
+			"spawnFailed": {
+				"body": "Jaribu tena. Ikiendelea kushindwa, chagua nakala inayofanya kazi hapa chini.",
+				"title": "Zana haipo au haiwezi kuanza"
+			},
+			"timeout": {
+				"body": "Mara nyingi hii ni ukaguzi wa usalama unapoendesha mara ya kwanza. Jaribu tena.",
+				"title": "Zana ilichukua muda mrefu kujibu"
+			},
+			"unknown": {
+				"body": "Jaribu tena, au fungua kumbukumbu ya usanidi kwa maelezo zaidi.",
+				"title": "Hitilafu imetokea wakati wa usanidi"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Injini ya upakuaji",
+			"media": "Zana za midia"
+		},
+		"installing": {
+			"homebrew": "Inasakinisha kwa Homebrew… Hii inaweza kuchukua dakika chache.",
+			"winget": "Inasakinisha kwa WinGet… Hii inaweza kuchukua dakika chache."
+		},
+		"manual": {
+			"intro": "Elekeza Klip kwenye nakala ulizonazo tayari, au zisakinishe kwa njia nyingine.",
+			"linuxHint": "Unaweza pia kusakinisha yt-dlp na ffmpeg kwa kidhibiti cha vifurushi, kisha ubofye Jaribu tena.",
+			"toggle": "Sanidi mwenyewe"
+		},
+		"stopped": {
+			"body": "Jaribu tena, au elekeza Klip kwenye zana ulizonazo tayari hapa chini.",
+			"title": "Usanidi umesimamishwa"
+		},
+		"title": "Usanidi unahitaji msaada wako"
+	},
+	"selectionOrder": {
+		"editorTitle": "Jinsi wasifu huu unavyochagua",
+		"rank": {
+			"aacFileType": {
+				"label": "Sauti ya AAC",
+				"reason": "inafaa vichezaji vya MP4"
+			},
+			"aacSmartTv": {
+				"label": "Sauti ya AAC",
+				"reason": "hucheza kila mahali"
+			},
+			"codec": {
+				"label": "AV1, kisha VP9, kisha H.264",
+				"reason": "kali zaidi kwa ukubwa uleule"
+			},
+			"codecH264First": {
+				"label": "H.264, kisha VP9, kisha AV1",
+				"reason": "kodeki ya wasifu huu"
+			},
+			"codecVp9First": {
+				"label": "VP9, kisha H.264, kisha AV1",
+				"reason": "kodeki ya wasifu huu"
+			},
+			"fps": {
+				"label": "Kasi ya juu zaidi ya fremu",
+				"reason": "mwendo laini zaidi"
+			},
+			"h264": {
+				"label": "Video ya H.264",
+				"reason": "hucheza kwenye kila kifaa"
+			},
+			"hdrFirst": {
+				"label": "HDR kabla ya SDR",
+				"reason": "rangi angavu zaidi kwenye skrini za HDR",
+				"reasonScreen": "skrini hii inaonyesha HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR kabla ya HDR",
+				"reason": "huonekana sawa kwenye skrini yoyote",
+				"reasonScreen": "skrini hii haina HDR"
+			},
+			"mp4Streams": {
+				"label": "Mikondo ya MP4",
+				"reason": "tayari kwa faili ya MP4"
+			},
+			"nativeCompatible": {
+				"label": "Sauti ya stereo"
+			},
+			"nativeSource": {
+				"profile": "wasifu huu",
+				"settings": "kutoka Mipangilio"
+			},
+			"nativeSurround": {
+				"label": "Sauti ya surround inapopatikana"
+			},
+			"opus": {
+				"label": "Sauti ya Opus",
+				"reason": "inafaa WebM"
+			},
+			"original": {
+				"label": "Mikondo asili, si iliyokuzwa kwa AI",
+				"reason": "nakala iliyokuzwa ni ndefu zaidi lakini haiongezi maelezo halisi"
+			},
+			"protocol": {
+				"label": "Upakuaji wa moja kwa moja kwanza, kisha nakala za mitiririko",
+				"reason": "picha ileile, inapakuliwa haraka zaidi"
+			},
+			"resolution": {
+				"label": "Hadi {{tier}}p",
+				"reason": "kikomo chako"
+			},
+			"resolutionBest": {
+				"label": "Azimio la juu zaidi",
+				"reason": "hakuna kikomo kilichowekwa"
+			},
+			"sitePreference": {
+				"label": "Mikondo isiyoshushwa na tovuti",
+				"reason": "huruka nakala zilizoharibika, zenye alama-maji na za akiba"
+			},
+			"size": {
+				"label": "Faili kubwa zaidi",
+				"reason": "maelezo zaidi kwa mipangilio ileile"
+			},
+			"source": {
+				"label": "Mitiririko yenye bitrate iliyoboreshwa kwanza",
+				"reason": "maelezo zaidi kwa azimio lilelile"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "aina ya faili kutoka kwa mikondo",
+				"explicit": "huhifadhiwa kama .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "picha bora",
+				"smartTv": "hucheza kwenye kifaa chochote"
+			}
+		},
+		"whyLabel": "Kwa nini hii?",
+		"whyTitle": "Kwa nini wasifu ulichagua hii"
+	},
+	"share": {
+		"copied": "Imenakiliwa!",
+		"copyLink": "Nakili kiungo",
+		"defaultMessage": "Klip — Kipakuzi cha video cha chanzo wazi cha bure kwa Windows, macOS na Linux. Hufanya kazi na YouTube, Vimeo, Twitch na tovuti 2000+.\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
+		"description": "Klip ni ya bure na chanzo wazi. Kushiriki husaidia watu wengi zaidi kuigundua.",
+		"footerLabel": "Shiriki",
+		"footerTooltip": "Shiriki Klip",
+		"shareAction": "Shiriki Klip",
+		"title": "Shiriki Klip"
+	},
+	"splash": {
+		"cancel": "Una tatizo? Sanidi mwenyewe",
+		"greeting": "Hujambo, karibu tena!",
+		"setup": {
+			"left": {
+				"minutes_one": "takriban dakika {{count}} imesalia",
+				"minutes_other": "takriban dakika {{count}} zimesalia",
+				"underMinute": "imesalia chini ya dakika moja"
+			},
+			"stage": {
+				"checking": "Inakagua kama kila kitu kinafanya kazi",
+				"connecting": "Inaunganisha…",
+				"unpacking": "Inafungua zana za midia",
+				"unpackingEngine": "Inafungua injini ya upakuaji"
+			},
+			"title": {
+				"both": "Inasasisha zana za Klip",
+				"engine": "Inasasisha injini ya upakuaji",
+				"firstRun": "Usanidi wa mara ya kwanza",
+				"media": "Inasasisha zana za midia"
+			}
+		},
+		"verifyFirstCheck": "Ukaguzi wa kwanza wa toleo hili — huu ni wa polepole. Kwa kawaida huchukua takribani dakika moja.",
+		"verifying": "Inakagua {{binary}}…",
+		"warmup": "Inaandaa vipakuliwa…",
+		"warmupFailedNoDiag": "Usanidi umeshindwa. Fungua kumbukumbu ya usanidi kwa maelezo zaidi."
+	},
+	"status": {
+		"audioKept": "Video imehifadhiwa pamoja na sauti — sauti haikuweza kuondolewa",
+		"audioKeptSubtitlesFailed": "Video imehifadhiwa pamoja na sauti — sauti haikuweza kuondolewa, na baadhi ya manukuu hayakuweza kupakuliwa",
+		"cancelled": "Upakuaji umeghairiwa",
+		"complete": "Upakuaji umekamilika",
+		"convertingVideo": "Inabadilisha video…",
+		"diskSpaceInsufficient": "Nafasi ya diski haitoshi — inahitajika {{required}}, {{free}} tu inapatikana",
+		"downloadingBinary": "Inapakua binary ya {{name}}…",
+		"downloadingMedia": "Inapakua video na sauti…",
+		"embeddingMetadata": "Inaingiza metadata…",
+		"exploreSignedOut": "Umetoka kwenye Gundua — ingia tena",
+		"extractingAudio": "Inabadilisha sauti…",
+		"fetchingSponsorBlock": "Inawasiliana na SponsorBlock…",
+		"fetchingSubtitles": "Inapata manukuu…",
+		"mergingFormats": "Inachanganya sauti na video…",
+		"mintingToken": "Inaandaa upakuaji wa YouTube…",
+		"movingFiles": "Inahamisha faili…",
+		"noSubtitles": "Hakuna manukuu katika lugha: {{languages}}",
+		"outputNotWritable": "Haiwezekani kuhifadhi kwenye {{dir}} — Klip hairuhusiwi kuandika hapo",
+		"preparingBinaries": "Inaandaa faili za binary…",
+		"qualityLimited": "Imehifadhiwa kwa {{height}}p — YouTube ilizuia ubora wa juu zaidi kwa upakuaji huu. Kujaribu tena baadaye kunaweza kusaidia.",
+		"qualityLimitedSubtitlesFailed": "Imehifadhiwa kwa {{height}}p — YouTube ilizuia ubora wa juu zaidi kwa upakuaji huu, na baadhi ya manukuu hayakuweza kupakuliwa. Kujaribu tena baadaye kunaweza kusaidia.",
+		"remintingToken": "Inaandaa upakuaji wa YouTube tena…",
+		"retryingSponsorBlock": "SponsorBlock haipatikani, inajaribu tena ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Muunganisho umekwama, inajaribu tena ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Inaingia kwa akaunti yako ya Gundua…",
+		"sleepingBetweenRequests": "Inasubiri sekunde {{seconds}} kuepuka vikwazo vya kiwango…",
+		"startingYtdlp": "Inaanzisha injini ya upakuaji…",
+		"subtitleLanguagesMissing": "Video hii haina manukuu katika lugha: {{languages}}. Video ilihifadhiwa bila hayo.",
+		"subtitleLanguagesMissingOthersSaved": "Video hii haina manukuu katika lugha: {{languages}}. Lugha nyingine zilihifadhiwa.",
+		"subtitlesFailed": "Video imehifadhiwa — baadhi ya manukuu hayakuweza kupakuliwa",
+		"unknownStartupFailure": "Kushindwa kwa kuanzisha pasijulikane",
+		"usedExtractorFallback": "Imepakiwa kwa kiboreshaji laini — weka cookies.txt kwa upakuaji wa kuaminika zaidi",
+		"ytdlpExitCode": "Injini ya upakuaji ilitoka na msimbo {{code}}",
+		"ytdlpProcessError": "Hitilafu ya injini ya upakuaji: {{error}}"
+	},
+	"theme": {
+		"dark": "Hali ya giza",
+		"light": "Hali ya mwanga",
+		"system": "Chaguo-msingi la mfumo"
+	},
+	"titleBar": {
+		"close": "Funga",
+		"maximize": "Panua",
+		"minimize": "Punguza",
+		"restore": "Rejesha"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Pakia kutoka kwenye ubao wa kunakili",
+			"statusActive_one": "1 inapakua · {{percent}}%",
+			"statusActive_other": "{{count}} zinapakua · {{percent}}%",
+			"statusIdle": "Tulivu"
+		}
+	},
+	"update": {
+		"copied": "Amri imenakiliwa kwenye ubao wa kunakili",
+		"copy": "Nakili amri kwenye ubao wa kunakili",
+		"dismiss": "Funga bango la sasisho",
+		"download": "Download ↗",
+		"downloadDmg": "Pakua DMG ↗",
+		"downloading": "Inapakua…",
+		"install": "Sakinisha na Uanzishe Upya",
+		"installFailed": "Sasisho limeshindwa",
+		"message": {
+			"generic": "Klip {{version}} inapatikana — una {{currentVersion}}.",
+			"homebrew": "Klip {{version}} inapatikana — sasisha kwa Homebrew.",
+			"macosDirect": "Klip {{version}} inapatikana — pakua DMG mpya.",
+			"macosDirectHomebrew": "Klip {{version}} inapatikana — pakua DMG au hamia Homebrew.",
+			"portable": "Klip {{version}} inapatikana — pakua build mpya."
+		},
+		"retry": "Jaribu tena",
+		"runAndRestart": "Endesha na Uanzishe Upya",
+		"upgrading": "Inasasisha…"
+	},
+	"videoCard": {
+		"chapters_one": "Sura {{count}}",
+		"chapters_other": "Sura {{count}}",
+		"titlePlaceholder": "Inapakia…"
+	},
+	"videoCodec": {
+		"h264": "H.264 kwanza",
+		"label": "Kodeki ya video",
+		"smartTv": "Runinga janja huchukua H.264 kila wakati.",
+		"vp9": "VP9 kwanza"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Tayari",
+			"description": "Bandika URL za video, orodha ya kucheza, kituo, utafutaji, au sauti. Klip itaondoa nakala kabla ya kuweka kwenye foleni.",
+			"emptyPreview": "Bandika URL moja au zaidi ili kuona kundi.",
+			"ignoredCount": "Zimepuuzwa",
+			"needsAtLeastOne": "Ongeza angalau URL moja inayotumika ili kuendelea.",
+			"reject": {
+				"duplicate": "Imerudiwa"
+			},
+			"textareaLabel": "Orodha ya URL",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "URL nyingi"
+		},
+		"confirm": {
+			"addToQueue": "+ Queue",
+			"addToQueueTooltip": "Inaanza vipakuzi vingine vikishamaliza — inapata upanuzi kamili",
+			"itemsValueAudio_one": "{{count}} kati ya {{total}} wimbo",
+			"itemsValueAudio_other": "{{count}} kati ya {{total}} nyimbo",
+			"itemsValueBulk_one": "{{count}} kati ya {{total}} URL",
+			"itemsValueBulk_other": "{{count}} kati ya {{total}} URL",
+			"itemsValue_one": "{{count}} kati ya {{total}} video",
+			"itemsValue_other": "{{count}} kati ya {{total}} video",
+			"labelAudio": "Sauti",
+			"labelBulk": "URL nyingi",
+			"labelItems": "Vipande",
+			"labelPlaylist": "Orodha ya kucheza",
+			"labelPreset": "Mpangilio",
+			"labelSaveTo": "Hifadhi kwenye",
+			"labelSize": "Ukubwa",
+			"labelSubtitles": "Manukuu",
+			"labelVideo": "Video",
+			"landIn": "Faili yako itawekwa kwenye",
+			"landInMultiProfile_one": "Itafika kwenye lengwa lililo hapa chini",
+			"landInMultiProfile_other": "Zitafika kwenye malengwa {{count}} yaliyo hapa chini",
+			"nothingToDownload": "Wasifu wa Manukuu peke yake umewashwa lakini hakuna lugha ya manukuu iliyochaguliwa — hakuna kitakachopakuliwa.",
+			"profileBreakdownCount_one": "{{count}} kipande",
+			"profileBreakdownCount_other": "{{count}} vipande",
+			"profileBreakdownHeading": "Wasifu katika kundi hili",
+			"pullIt": "Pakua sasa! ↓",
+			"pullItTooltip": "Inaanza mara moja — inafanya kazi pamoja na vipakuzi vingine vinavyofanya kazi",
+			"readyHeadline": "Iko tayari kupakua!",
+			"sizeUnknown": "Haijulikani",
+			"subtitleEmbedAudioOnly": "Subtitle embed imebadilishwa kuwa sidecar — nyimbo za sauti hazitumii mtiririko wa manukuu uliowekwa ndani.",
+			"subtitleEmbedForcesMkv": "Manukuu ndani ya video yanahitaji faili ya MKV, kwa hivyo upakuaji huu unahifadhiwa kama .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Thumbnail embed imerukwa — container ya matokeo hauitumii."
+		},
+		"folder": {
+			"custom": "Maalum…",
+			"desktop": "Eneo kazi",
+			"documents": "Hati",
+			"downloads": "Vipakuliwa",
+			"heading": "Hifadhi kwenye",
+			"home": "Nyumbani",
+			"music": "Muziki",
+			"pictures": "Picha",
+			"subfolder": {
+				"invalid": "Jina la saraka lina herufi batili",
+				"placeholder": "mf. mihadhara",
+				"toggle": "Hifadhi ndani ya saraka ndogo"
+			},
+			"videos": "Sinema"
+		},
+		"formats": {
+			"audio": "Sauti",
+			"audioLanguage": "Lugha ya sauti",
+			"audioLanguageCount_one": "Lugha {{count}}",
+			"audioLanguageCount_other": "Lugha {{count}}",
+			"bitrateValue": "Kiwango cha biti {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Vidakuzi vimesanidiwa lakini vimezimwa. Viwashe na ujaribu tena kupata orodha kamili, au badilisha mtandao na ujaribu tena.",
+				"bodyEnabled": "Hata na vidakuzi, YouTube ilipunguza uchunguzi huu. Jaribu tena baadaye au badilisha mtandao.",
+				"bodyExplore": "YouTube imezuia ombi hili. Jaribu tena baadaye au badilisha mtandao.",
+				"bodyUnconfigured": "Orodha ya maumbo inaweza kuwa haikamilika. Sanidi vidakuzi katika mipangilio ya hali ya juu, au badilisha mtandao na ujaribu tena.",
+				"enableRetryCta": "Washa vidakuzi na ujaribu tena",
+				"heading": "YouTube ilipunguza uchunguzi huu",
+				"retryCta": "Jaribu tena"
+			},
+			"convert": {
+				"bitrate": "Kiwango cha biti",
+				"bitrateCopyHint": "Chanzo ambacho tayari ni {{target}} huhifadhi mkondo na kiwango cha biti chake: kinanakiliwa, hakisimbwi upya.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, bila kusimba upya",
+				"copyLabelNoBitrate": "{{target}}, bila kusimba upya",
+				"copyNote": "{{kbps}} kbps, kama chanzo kilivyo: mkondo tayari ni {{target}}, kwa hivyo unanakiliwa, haujasimbwa upya",
+				"copyNoteNoBitrate": "Kama chanzo kilivyo: mkondo tayari ni {{target}}, kwa hivyo unanakiliwa, haujasimbwa upya",
+				"label": "Badilisha",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "Chanzo ni {{kbps}} kbps",
+				"wavLabel": "WAV (uncompressed)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Kivinjari",
+				"currentModeExplore": "Kuingia kwenye Gundua",
+				"currentModeFile": "Faili",
+				"currentModeLabel": "Chanzo cha vidakuzi",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp nyaraka (issue #10927)",
+					"explanation": "Chrome 127 na toleo jipya zaidi husimba fiche vidakuzi kwa njia ambayo programu nyingine haziwezi kusoma kwenye Windows. Jaribu moja ya masuluhisho yaliyo hapa chini.",
+					"fixFileBody": "Safirisha vidakuzi kutoka Chrome kwa kutumia kiendelezi cha kivinjari, kisha ubadilishe programu hii hadi hali ya Faili na uchague faili iliyosafirishwa.",
+					"fixFileLabel": "Safirisha cookies.txt",
+					"fixFirefoxBody": "Firefox haitumii App-Bound Encryption. Fungua mipangilio ya vidakuzi na uchague Firefox kutoka kwenye orodha ya vivinjari.",
+					"fixFirefoxLabel": "Badilisha kwenda Firefox",
+					"fixUnsafeBody": "Ongeza --disable-features=LockProfileCookieDatabase kwenye mkato wa kuzindua Chrome. Onyo: hii inabatilisha vidakuzi vilivyosimbwa fiche hapo awali, kwa hivyo utaondolewa katika kila tovuti na itabidi uingie tena.",
+					"fixUnsafeLabel": "Zindua Chrome huku App-Bound Encryption imezimwa",
+					"heading": "Vidakuzi vya Chrome vimezuiwa na usimbaji fiche wa Windows"
+				},
+				"explanationBrowser": "Vidakuzi vinasomwa moja kwa moja kutoka kwenye kivinjari. Ikiwa kivinjari kinaendesha sasa hivi, hifadhidata yake ya vidakuzi inaweza kufungwa (familia ya Chromium). Kivinjari pia lazima kiingie katika YouTube. Jaribu kufunga kivinjari, ubadilishe hadi kivinjari tofauti, ubadilishe hadi hali ya Faili, au uzime vidakuzi.",
+				"explanationFile": "Faili yako ya vidakuzi inaweza kuwa tupu, imeisha muda wake, au iko katika umbizo lisilo sahihi (Klip inahitaji faili ya Netscape cookies.txt). Jaribu kusafirisha vidakuzi tena, chagua faili tofauti, ubadilishe hadi hali ya Kivinjari, au uzime vidakuzi.",
+				"exploreOffer": {
+					"body": "Ingia kwenye Gundua na Klip itajaribu tena.",
+					"cta": "Ingia kwenye Gundua",
+					"heading": "Video hii inaweza kuhitaji akaunti ya YouTube"
+				},
+				"exploreRefused": {
+					"body": "Klip tayari ilijaribu ukiwa umeingia kupitia Gundua, kwa hivyo kuingia tena hakutasaidia. Huenda tovuti ina hitilafu, au akaunti hii haiwezi kuifungua. Jaribu tena baadaye.",
+					"heading": "Tovuti imekataa hili hata ukiwa umeingia kwenye Gundua"
+				},
+				"exploreReuse": {
+					"body": "Umeingia kwenye Gundua, lakini upakuaji hautumii kuingia huko kwa sasa.",
+					"cta": "Tumia kuingia kwangu kwenye Gundua na ujaribu tena",
+					"heading": "Video hii inaweza kuhitaji akaunti ya YouTube"
+				},
+				"exploreSignIn": {
+					"body": "Ikiwa video hii inahitaji akaunti ya YouTube, ingia kwenye Gundua kisha ujaribu tena. Klip hutumia kuingia huko tu pale upakuaji unapohitaji.",
+					"cta": "Ingia kwenye Gundua",
+					"heading": "Video hii inaweza kuhitaji akaunti ya YouTube"
+				},
+				"exploreSignedIn": {
+					"body": "Ikiwa video hii inahitaji akaunti, Klip hutumia kuingia kwako kwenye Gundua kiotomatiki. Huenda isipatikane kwa sababu nyingine.",
+					"heading": "Umeingia kwenye Gundua"
+				},
+				"exploreSite": {
+					"heading": "Kiungo hiki kinaweza kuhitaji akaunti kwenye {{host}}",
+					"offerBody": "Ingia kwenye {{host}} katika Gundua kisha ujaribu tena.",
+					"signInBody": "Ingia kwenye {{host}} katika Gundua kisha ujaribu tena. Klip hutumia kuingia huko tu pale upakuaji unapohitaji."
+				},
+				"heading": "Vidakuzi vinaweza kuwa sababu",
+				"needsCookies": {
+					"body": "Klip haikuweza kufikia video hii bila uthibitisho. Sanidi vidakuzi katika mipangilio ya hali ya juu — ielekeze kwenye kivinjari ambacho tayari umeingia, au ingiza faili ya cookies.txt.",
+					"heading": "Tovuti hii inahitaji kuingia"
+				},
+				"openSettingsCta": "Fungua mipangilio ya vidakuzi",
+				"otherCookiesCta": "Tumia faili ya vidakuzi au kivinjari badala yake…"
+			},
+			"drc": {
+				"description": "Hupunguza sehemu zenye sauti kubwa na kuongeza zenye sauti ndogo, kwa spika na vyumba vyenye kelele.",
+				"label": "Sawazisha sauti (DRC)",
+				"tag": "Sauti sawa"
+			},
+			"fit": {
+				"mp4Unavailable": "Wasifu wako ni Runinga janja (H.264). Video hii haitoi H.264, kwa hivyo mkondo ulio karibu zaidi umechaguliwa.",
+				"noVideo": "Kiungo hiki hakina video, kwa hivyo sauti imechaguliwa.",
+				"subtitlesMissing": "Wasifu wako unaomba manukuu katika {{languages}}. Video hii haina.",
+				"tierAbove": "Wasifu wako unaomba {{wanted}}p. Video hii haina kitu kidogo hivyo, kwa hivyo {{picked}}p imechaguliwa.",
+				"tierAbovePassedOver": "Wasifu wako unaomba {{wanted}}p. Mikondo midogo ambayo video hii ina haiendani na sehemu nyingine ya wasifu wako, kwa hivyo {{picked}}p imechaguliwa.",
+				"tierBelowTakeable": "Wasifu wako unaomba {{wanted}}p. Video hii haina {{wanted}}p inayoweza kuchukuliwa, kwa hivyo {{picked}}p imechaguliwa.",
+				"tierPassedOverAiUpscaled": "Wasifu wako unaomba {{wanted}}p. {{wanted}}p ya video hii imeboreshwa kwa AI, kwa hivyo {{picked}}p halisi imechaguliwa.",
+				"tierPassedOverH264": "Wasifu wako unaomba {{wanted}}p katika H.264. Video hii ina {{wanted}}p katika kodeki nyingine pekee, kwa hivyo {{picked}}p katika H.264 imechaguliwa.",
+				"tierPassedOverProfile": "Wasifu wako unaomba {{wanted}}p. {{wanted}}p ya video hii haiendani na sehemu nyingine ya wasifu wako, kwa hivyo {{picked}}p imechaguliwa.",
+				"webmUnavailable": "Wasifu wako unaomba WebM. Mikondo iliyochaguliwa ya video hii ina {{codec}}, ambayo WebM haiwezi kubeba, kwa hivyo aina ya faili ni Otomatiki."
+			},
+			"footer": {
+				"addToQueue": "Ongeza kwenye foleni bila kuanza",
+				"download": "Pakua",
+				"moreActions": "Chaguo zaidi za upakuaji",
+				"subtitlesRequired": "Chagua angalau lugha moja ya manukuu."
+			},
+			"keepAudio": "Acha kama ilivyo",
+			"keepAudioMeta": "Sauti iliyojengwa ndani",
+			"kind": {
+				"audio": "Sauti pekee",
+				"label": "Cha kupakua",
+				"subtitles": "Manukuu peke yake",
+				"video": "Video + sauti",
+				"videoOnly": "Video, bila sauti"
+			},
+			"loadingAria": "Inapakia maumbo",
+			"loadingHint": "Tafadhali subiri hadi uchunguzi ukamilike — orodha za kuimba na utafutaji vinaweza kuchukua muda.",
+			"marker": {
+				"aiDubbed": "Imetafsiriwa na AI",
+				"aiUpscaled": "Imekuzwa kwa AI",
+				"audioDescription": "Maelezo kwa sauti",
+				"damaged": "Imeharibika",
+				"enhancedBitrate": "Bitrate iliyoboreshwa",
+				"original": "Asili",
+				"spatialAudio": "Sauti ya anga",
+				"vr": "360° / VR",
+				"watermarked": "Ina alama-maji"
+			},
+			"noAudio": "Hakuna sauti",
+			"profile": {
+				"calloutBody": "Wasifu wako unaotumika huchagua mitiririko kwa ajili yako. Badilisha wasifu kutoka kwenye menyu, au tumia penseli kurekebisha mmoja bila kuondoka kwenye upakuaji huu.",
+				"calloutTitle": "Miundo huanza na wasifu wako",
+				"closestTag": "Karibu zaidi na wasifu",
+				"edit": "Hariri {{name}}",
+				"keepEdits": "Baki na mabadiliko yangu",
+				"menuDescription": "Kwa upakuaji huu tu. Wasifu wako chaguomsingi unabaki kama ulivyo.",
+				"preselected": "Imechaguliwa awali kutoka",
+				"resetAll": "Weka upya yote",
+				"switchBody": "Ulibadilisha {{areas}} kwa upakuaji huu. “{{profile}}” huchagua video na sauti kwa vyovyote vile. Ubaki na mabadiliko yako mengine, au uweke upya kila kitu kulingana na wasifu?",
+				"switchTitle": "Badilisha wasifu?",
+				"tag": "Wasifu",
+				"updatedBody": "Ulibadilisha {{areas}} kwa upakuaji huu. Wasifu uliosasishwa huchagua video na sauti kwa vyovyote vile. Ubaki na mabadiliko yako mengine, au uweke upya kila kitu kulingana na wasifu?",
+				"updatedTitle": "Tumia wasifu uliosasishwa?"
+			},
+			"quality": {
+				"high": "Ubora wa juu",
+				"low": "Ubora wa chini",
+				"medium": "Ubora wa kati"
+			},
+			"rateLimit": {
+				"heading": "{{site}} inazuia maombi ya muunganisho huu",
+				"leadDegraded": "Orodha ya miundo inaweza kuwa haijakamilika.",
+				"leadFailed": "{{site}} imekataa ombi hili kwa sasa.",
+				"retryCta": "Jaribu tena",
+				"sessionNote": "{{site}} inaweza kudumisha kizuizi hiki hadi saa moja.",
+				"tryNowCta": "Jaribu sasa",
+				"waitOver": "Muda wa kusubiri umekwisha, unaweza kujaribu tena.",
+				"waitUntil": "Klip inasubiri hadi {{time}} kabla ya kuuliza {{site}} tena, ili kizuizi kiondoke."
+			},
+			"resolutionUnknown": "Azimio halijulikani",
+			"savesAs": {
+				"label": "Huhifadhiwa kama",
+				"reset": "WebM haiwezi kubeba {{codec}}, kwa hivyo aina ya faili imerudi kuwa Otomatiki."
+			},
+			"sizeUnknown": "Ukubwa haujulikani",
+			"skipToConfirm": "Ruka hadi uthibitisho",
+			"skipToConfirmTooltip": "Inatumia mapendeleo yako yaliyohifadhiwa kwa hatua zote zilizobaki. Ili kubadilisha mipangilio, endelea hatua kwa hatua badala yake — chaguo lako litahifadhiwa kwa wakati ujao.",
+			"sniffing": "Natafuta maumbo bora kwako…",
+			"total": "Jumla",
+			"video": "Video",
+			"withAudio": "yenye sauti"
+		},
+		"listPrompt": {
+			"backgroundHint": "Kwa {{profileName}}. Ikiwa ina video zaidi ya {{count}}, Vipakuliwa huuliza ngapi.",
+			"backgroundLabel": "Pakua nyuma ya pazia",
+			"escOnly": "Esc inaghairi.",
+			"firstHint": "Hasa {{count}} za kwanza, kwa {{profileName}}.",
+			"firstLabel": "Pakua za kwanza",
+			"interactiveHint": "Chagua kutoka video {{count}} za kwanza (au badilisha idadi katika hatua inayofuata), kisha sanidi upakuaji.",
+			"interactiveLabel": "Upakuaji shirikishi…",
+			"limitHint": "Video ngapi za kuchukua kutoka kwenye orodha: chaguo la kwanza linauliza baada ya kikomo, la pili linachukua hasa idadi hiyo. Sawa na Mipangilio › Vipande vya playlist vya kuskanisha.",
+			"limitLabel": "Kikomo",
+			"mixNote": "Mix hubadilika kila unapoifungua.",
+			"pickLoadAfter": "ili kuchagua.",
+			"pickLoadBefore": "Pakia za kwanza",
+			"pickLoadNote": "Unaweza kuibadilisha katika hatua inayofuata.",
+			"pickTitle": {
+				"album": "Chagua kutoka albamu hii",
+				"liked": "Chagua kutoka video ulizopenda",
+				"mix": "Chagua kutoka Mix hii",
+				"playlist": "Chagua kutoka playlist hii",
+				"uploads": "Chagua kutoka video zilizopakiwa kwenye kituo hiki",
+				"watchLater": "Chagua kutoka Tazama baadaye"
+			},
+			"title": {
+				"album": "Pakua kutoka albamu hii",
+				"liked": "Pakua kutoka video ulizopenda",
+				"mix": "Pakua kutoka Mix hii",
+				"playlist": "Pakua kutoka playlist hii",
+				"uploads": "Pakua kutoka video zilizopakiwa kwenye kituo hiki",
+				"watchLater": "Pakua kutoka Tazama baadaye"
+			},
+			"videoHint": "Video uliyofungua pekee, kwa {{profileName}}. Orodha haijapakiwa.",
+			"videoLabel": "Video hii tu",
+			"videoPickHint": "Sanidi video uliyofungua pekee. Orodha haijapakiwa.",
+			"withProfile": "Kwa {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Alama za sura zinazoweza kuabiriwa katika kichezaji chochote cha kisasa.",
+				"label": "Ingiza sura",
+				"short": "Sura"
+			},
+			"embedMetadata": {
+				"description": "Kichwa, msanii, maelezo, na tarehe ya kupakia vimeandikwa kwenye faili.",
+				"label": "Ingiza metadata",
+				"short": "Metadata"
+			},
+			"embedThumbnail": {
+				"description": "Sanaa ya jalada ndani ya faili. Video ya WebM itabadilishwa kuwa MKV; hupitishwa wakati manukuu yanaingizwa.",
+				"label": "Ingiza picha ndogo",
+				"short": "Picha ya jalada"
+			},
+			"writeDescription": {
+				"description": "Inahifadhi maelezo ya video kama faili ya maandishi ya .description karibu na kipakuliwa.",
+				"label": "Hifadhi maelezo",
+				"short": "Faili ya maelezo"
+			},
+			"writeM3u": {
+				"description": "Hifadhi playlist ya .m3u pamoja na video ili zifunguke kwa mpangilio kwenye kicheza media.",
+				"label": "Tengeneza faili ya playlist .m3u"
+			},
+			"writeThumbnail": {
+				"description": "Inahifadhi picha ndogo kama faili ya picha ya .jpg karibu na kipakuliwa.",
+				"label": "Hifadhi picha ndogo",
+				"short": "Faili ya picha ndogo"
+			}
+		},
+		"part": {
+			"calloutBody": "Badilisha hadi «Sehemu» kwenye kadi ya video ili kuchagua mwanzo na mwisho, au sura, kisha upakue kipande hicho tu.",
+			"calloutTitle": "Pakua sehemu tu ya video",
+			"chapterUntitled": "Sura ya {{number}}",
+			"chapters": "Sura",
+			"connectionsNote": "Sehemu hupakuliwa kupitia ffmpeg, kwa hiyo miunganisho yako ya upakuaji na mipangilio ya kasi haitumiki kwake.",
+			"downloadBlocked": "Rekebisha kwanza mwanzo na mwisho wa sehemu.",
+			"end": "Mwisho",
+			"error": {
+				"endBeyondDuration": "Video inaisha kwenye {{duration}}.",
+				"endInvalid": "Weka mwisho kama h:mm:ss, m:ss au sekunde.",
+				"startInvalid": "Weka mwanzo kama h:mm:ss, m:ss au sekunde.",
+				"startNotBeforeEnd": "Mwanzo lazima uwe kabla ya mwisho."
+			},
+			"exactCut": {
+				"hint": "Imezimwa: kila ukataji hutua kwenye fremu kuu iliyo karibu zaidi, ambayo inaweza kuwa sekunde chache kutoka muda uliouandika.",
+				"label": "Ukataji kamili (husimba upya, polepole zaidi)"
+			},
+			"length": "{{length}} kati ya {{duration}}",
+			"part": "Sehemu",
+			"rangeLabel": "Sehemu ya video",
+			"start": "Mwanzo",
+			"subtitlesFullLength": "video nzima",
+			"summary": "Sehemu {{start}}–{{end}}",
+			"switchLabel": "Kiasi cha video",
+			"timeHint": "h:mm:ss, m:ss au sekunde",
+			"totalEstimate": "Sehemu, makadirio",
+			"unavailableDuration": "Video hii haitoi urefu wake, kwa hiyo inaweza kupakuliwa nzima tu.",
+			"unavailableSubtitles": "Manukuu daima hujumuisha video nzima.",
+			"urlStart": "Kiungo chako kinaanzia {{time}}",
+			"useUrlStart": "Tumia kama mwanzo",
+			"whole": "Video nzima",
+			"wholeTrack": "Wimbo mzima"
+		},
+		"playlist": {
+			"allRemovedDescription": "Virejeshe ili kuendelea.",
+			"allRemovedTitle": "Vipengee vyote vimeondolewa",
+			"alreadyDownloaded": "Tayari imepakuliwa",
+			"bulkCappedDesc_one": "Ina zaidi. Ili kuchagua ngapi, bandika kiungo chake peke yake.",
+			"bulkCappedDesc_other": "Zina zaidi. Ili kuchagua ngapi, bandika kila kiungo peke yake.",
+			"bulkCappedTitle_one": "“{{title}}” imekatwa kwa video {{limit}}",
+			"bulkCappedTitle_other": "Orodha {{count}} zimekatwa kwa video {{limit}} kila moja",
+			"bulkHeading": "URL nyingi",
+			"bulkMetadataOptional": "Hakuna haja ya kungoja — faili zinazowekwa kwenye foleni sasa bado zitapata majina yao halisi zinapopakuliwa.",
+			"bulkMetadataResolving": "Inaleta maelezo ya video… {{done}}/{{total}}",
+			"bulkRowFailed": "Maelezo hayapatikani",
+			"bulkRowResolving": "Inaleta maelezo",
+			"bulkRowWaiting": "Inasubiri",
+			"durationUnknown": "live",
+			"heading": "Vipande vya Playlist",
+			"headingGeneric": "Video za kupakua",
+			"itemCountAudio_one": "{{count}} wimbo",
+			"itemCountAudio_other": "{{count}} nyimbo",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} video",
+			"loadingItems": "Inapata Playlist…",
+			"loadingItemsGeneric": "Inaleta video…",
+			"loadingLimitHint": "Imewekewa kikomo cha vipengee {{count}} vya kwanza",
+			"loadingPagesFound_one": "Ukurasa {{count}} umepatikana",
+			"loadingPagesFound_other": "Kurasa {{count}} zimepatikana",
+			"loadingPhaseItems": "Inakusanya video",
+			"loadingPhasePages": "Inakagua kurasa za kituo",
+			"multiProfileEntry": "Weka wasifu kwa kila kipengele",
+			"multiProfileEntryTooltip": "Inaruka Ubora, SponsorBlock, Matokeo, na Hifadhi — badala yake weka wasifu wa upakuaji kwa kila kipengele",
+			"nestedPlaylistBadge": "Orodha ya kucheza",
+			"nestedPlaylistHint_one": "{{count}} kati ya hizi ni orodha ya kucheza, si video — bandika kiungo chake peke yake ili kuipakua.",
+			"nestedPlaylistHint_other": "{{count}} kati ya hizi ni orodha za kucheza, si video — bandika viungo vyake kimoja baada ya kingine ili kuzipakua.",
+			"noSelection": "Chagua angalau video moja ili kuendelea",
+			"probeLimitAlertDesc": "Klip imepata zaidi ya vipande {{count}}, kwa hivyo kikomo cha skani cha sasa kinaficha vilivyobaki.",
+			"probeLimitAlertTitle": "Skani ya playlist imefungwa",
+			"probeLimitAlertTitleGeneric": "Uchanganuzi umewekewa kikomo",
+			"rangeApply": "Tumia masafa",
+			"rangeFrom": "Kutoka",
+			"rangeTo": "Hadi",
+			"removeFromListCount_one": "Ondoa {{count}} kwenye orodha",
+			"removeFromListCount_other": "Ondoa {{count}} kwenye orodha",
+			"removedCount_one": "{{count}} zimeondolewa",
+			"removedCount_other": "{{count}} zimeondolewa",
+			"restore": "Rejesha",
+			"selectAll": "Chagua yote",
+			"selectNone": "Futa uchaguzi wote",
+			"selectedCount_one": "{{count}} imechaguliwa",
+			"selectedCount_other": "{{count}} zimechaguliwa",
+			"sortApi": "Mpangilio wa orodha",
+			"sortFetchingDates": "Inapata tarehe za kupakia…",
+			"sortLabel": "Panga",
+			"sortUploadAsc": "Za zamani kwanza",
+			"sortUploadDesc": "Mpya kwanza",
+			"syncApply": "Tekeleza usawazishaji",
+			"syncChange": "Badilisha folda…",
+			"syncFoundDesc": "{{n}} kati ya video hizi tayari zipo kwenye {{dir}}. Sawazisha ili kupakua mpya pekee?",
+			"syncFoundTitle": "Tayari ipo kwenye folda",
+			"syncNoneDesc": "Hakuna video kutoka orodha hii ya kucheza zilizopatikana kwenye {{dir}}.",
+			"syncNoneDescGeneric": "Hakuna video kutoka chanzo hiki zilizopatikana katika {{dir}}.",
+			"syncNoneTitle": "Hakuna kilichopakuliwa bado",
+			"syncScanning": "Inakagua folda…",
+			"thumbnailAlt": "Picha ndogo ya video"
+		},
+		"playlistPresets": {
+			"heading": "Chagua ubora wa kundi",
+			"itemCount_one": "{{count}} kipande",
+			"itemCount_other": "{{count}} vipande",
+			"subhead": "Kila video inatatua kiwango kilichochaguliwa kwa kujitegemea — playlists tofauti hufanya kazi bila mshangao."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Weka wasifu",
+			"assignTrigger_one": "Weka kwa video {{count}}",
+			"assignTrigger_other": "Weka kwa video {{count}}",
+			"columnDuration": "Muda",
+			"columnProfile": "Wasifu",
+			"editProfile": "Hariri {{name}}",
+			"empty": "Hakuna vipengele vinavyolingana na kichujio hiki",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Vichujio vya wasifu",
+			"heading": "Weka wasifu wa upakuaji",
+			"menuDescription_one": "Chagua wasifu wa video hii.",
+			"menuDescription_other": "Chagua wasifu wa video hizi {{count}}.",
+			"selectedSummary": "{{selected}} kati ya {{total}} zimechaguliwa"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Badilisha ya jumla",
+				"chooseFolder": "Chagua folda lengwa",
+				"chooseIcon": "Chagua aikoni ya wasifu",
+				"removeLanguage": "Ondoa {{code}}",
+				"reset": "Weka upya wasifu",
+				"resetDisabledHint": "Wasifu huu tayari unatumia mipangilio iliyojengwa ndani",
+				"resetHint": "Rejesha mipangilio ya wasifu iliyojengwa ndani",
+				"save": "Hifadhi wasifu",
+				"setOverride": "Weka ubatilishaji wa wasifu",
+				"setOverrideShort": "Weka ubatilishaji",
+				"useGlobalDefault": "Tumia chaguo-msingi la jumla",
+				"useLanguageCode": "Tumia msimbo wa lugha “{{code}}”"
+			},
+			"advanced": "Hali ya juu",
+			"appSetting": "Tumia mpangilio wa programu ({{value}})",
+			"audioFormat": {
+				"best": "Bora",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Hadi 128K",
+				"192": "Hadi 192K",
+				"320": "Hadi 320K",
+				"best": "Ubora bora"
+			},
+			"defaultName": "Wasifu mpya",
+			"destination": {
+				"defaultFolder": "Folda chaguomsingi ya vipakuliwa",
+				"defaultFolderWithSubfolder": "Folda chaguomsingi ya vipakuliwa / {{subfolder}}",
+				"global": "Lengo la jumla",
+				"globalActive": "Inatumika",
+				"globalInherited": "Imerithiwa",
+				"override": "Ubatilishaji wa wasifu",
+				"overrideChoosing": "Chagua folda",
+				"overrideNone": "Hakuna ubatilishaji",
+				"overrideNoneNote": "Hakuna ubatilishaji uliowekwa. Wasifu huu hutumia lengo la jumla lililo juu.",
+				"overrideSet": "Inabatilisha jumla",
+				"overrideSetNote": "Wasifu huu huhifadhi kwenye mzizi wake yenyewe kabla ya folda ndogo kuongezwa.",
+				"resolved": "Lengo la mwisho"
+			},
+			"dialogDescription": "Mpangilio mmoja unaoweza kutumika tena kwa Upakuaji wa Haraka, URL za Wingi na orodha za kucheza.",
+			"dialogTitle": "Wasifu wa upakuaji",
+			"error": {
+				"changeGlobalDestination": "Imeshindwa kubadilisha lengo la jumla.",
+				"folderPicker": "Haikuweza kufungua kichagua folda. Weka njia mwenyewe.",
+				"reset": "Imeshindwa kuweka upya mipangilio ya wasifu.",
+				"save": "Imeshindwa kuhifadhi mipangilio ya wasifu."
+			},
+			"field": {
+				"delivery": "Njia ya kuhifadhi",
+				"fileType": "Aina ya faili",
+				"goal": "Boresha kwa",
+				"icon": "Aikoni ya wasifu",
+				"languages": "Lugha",
+				"name": "Jina la wasifu",
+				"nameAndIcon": "Jina na aikoni ya wasifu",
+				"nativeAudio": "Sauti asili",
+				"overridePath": "Njia ya ubatilishaji wa wasifu",
+				"quality": "Ubora",
+				"resolution": "Azimio",
+				"source": "Chanzo",
+				"subfolderName": "Jina la folda ndogo",
+				"subtitleDownloads": "Upakuaji wa manukuu",
+				"subtitleDownloadsDescription": "Wasifu huomba misimbo ya lugha; upatikanaji huamuliwa kwa kila URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Kali zaidi kwa ukubwa uleule. Runinga za zamani, QuickTime na baadhi ya vihariri haviwezi kuicheza.",
+					"name": "Picha bora",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Hucheza kwenye runinga, simu, WhatsApp, QuickTime na vihariri vya video. YouTube hutoa H.264 hadi 1080p tu.",
+					"name": "Runinga janja",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Kumbukumbu",
+				"audio": "Sauti",
+				"captions": "Manukuu",
+				"classes": "Masomo",
+				"clip": "Kipande",
+				"controls": "Vidhibiti",
+				"download": "Pakua",
+				"music": "Muziki",
+				"podcast": "Podikasti",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Muziki au podikasti"
+				},
+				"subtitlesOnly": {
+					"description": "Faili za manukuu pekee"
+				},
+				"videoAudio": {
+					"description": "Faili za kawaida za video"
+				},
+				"videoOnly": {
+					"description": "Video isiyo na sauti pekee"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Manukuu ya kiotomatiki yatahifadhiwa kama SRT badala ya ASS.",
+				"noLanguageMatches": "Hakuna lugha zinazolingana",
+				"noSubtitles": "Wasifu huu hautaomba faili za manukuu wala nyimbo za manukuu zilizopachikwa.",
+				"searchLanguages": "Tafuta kwa jina au msimbo wa lugha",
+				"skippedForOutputType": "Imerukwa kwa aina hii ya matokeo.",
+				"subtitleLanguagesRequired": "Chagua angalau lugha moja.",
+				"subtitleLanguagesRequiredOrOff": "Chagua angalau lugha moja, au zima upakuaji wa manukuu.",
+				"subtitlesOnly": "Wasifu huu huweka foleni faili za manukuu pekee. Video, sauti, SponsorBlock na ubadilishaji wa media hurukwa."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Wasifu hurithi lengo la jumla isipokuwa uweke ubatilishaji wa wasifu.",
+					"title": "Chaguo za kina"
+				},
+				"downloadType": {
+					"description": "Chagua njia kuu unayotaka kupakua.",
+					"title": "Aina ya upakuaji"
+				},
+				"identity": {
+					"description": "Jina na aikoni zinazoonyeshwa katika Upakuaji wa Haraka, URL za Wingi na orodha za wasifu.",
+					"title": "Utambulisho wa wasifu"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} zimewashwa",
+					"enabledCount_other": "{{count}} zimewashwa",
+					"title": "Chaguo za matokeo"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Chagua folda kwa wasifu huu"
+			},
+			"skipped": "Imerukwa",
+			"sponsorBlockHint": {
+				"mark": "Huweka alama sehemu za wadhamini kama sura (bila kubadilisha faili).",
+				"off": "Hakuna SponsorBlock — video hucheza kama ilivyopakiwa.",
+				"remove": "Hukata sehemu za wadhamini kutoka kwa video kwa kutumia FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Zilizotengenezwa kiotomatiki pekee",
+				"manualAndAuto": "Kwa mkono na kiotomatiki",
+				"manualFirst": "Kwanza kwa mkono, kisha kiotomatiki",
+				"manualOnly": "Kwa mkono pekee"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Msaada wa {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "vya ziada",
+				"fileName": "jina la faili",
+				"format": "umbizo",
+				"saveTo": "folda",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "manukuu"
+			},
+			"callout": {
+				"body": "Manukuu, SponsorBlock, vya ziada kama picha ndogo, folda na jina la faili zamani zilikuwa hatua tofauti. Bofya safu ili kuibadilisha.",
+				"title": "Mipangilio mingine yote sasa iko kwenye ukurasa huu"
+			},
+			"changeFormat": "Badilisha umbizo",
+			"changed": "Imebadilishwa kutoka {{profile}}: {{areas}}. Inatumika kwa upakuaji huu tu.",
+			"changedFrom": "Imebadilishwa kutoka {{profile}}:",
+			"nextTime": {
+				"action": "Hifadhi kama wasifu",
+				"defaultName": "{{profile}} (imehaririwa)",
+				"title": "Upakuaji huu ulitumia mipangilio iliyohaririwa. Itumike wakati ujao?"
+			},
+			"reset": "Tendua mabadiliko, rudi kwa “{{profile}}”",
+			"rows": {
+				"extras": "Vya ziada",
+				"fileName": "Jina la faili",
+				"saveTo": "Hifadhi kwenye",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Manukuu"
+			},
+			"rowsHeading": "Mengine yote",
+			"save": {
+				"action": "Hifadhi wasifu",
+				"description": "Huhifadhi mipangilio hii kama wasifu unaoweza kuchagua wakati ujao. Wasifu wako wa Upakuaji wa haraka hubaki vilevile.",
+				"failed": "Imeshindwa kuhifadhi wasifu.",
+				"nameLabel": "Jina la wasifu",
+				"saved": "Imehifadhiwa kama wasifu “{{name}}”",
+				"title": "Hifadhi kama wasifu"
+			},
+			"saveAsProfile": "Hifadhi kama wasifu mpya",
+			"update": {
+				"action": "Sasisha wasifu",
+				"builtinNote": "Huu ni wasifu uliojengwa ndani. Unaweza kurejesha mipangilio yake asili kwenye kichupo cha Wasifu.",
+				"description": "Kuanzia sasa, kila upakuaji kwa wasifu huu utatumia mipangilio mipya.",
+				"rows": {
+					"format": "Umbizo"
+				},
+				"title": "Sasisha “{{profile}}”?",
+				"updated": "Wasifu “{{name}}” umesasishwa"
+			},
+			"updateProfile": "Sasisha “{{profile}}” kwa mabadiliko haya",
+			"value": {
+				"extrasNone": "Hakuna",
+				"sponsorBlockOff": "Zima",
+				"subtitlesOff": "Zima"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Kijazio",
+				"intro": "Utangulizi",
+				"music_offtopic": "Music off-topic",
+				"outro": "Mwisho",
+				"preview": "Muhtasari",
+				"selfpromo": "Kujitangaza",
+				"sponsor": "Mdhamini"
+			},
+			"categoriesHeading": "Kategoria",
+			"mode": {
+				"mark": "Weka alama kama sura",
+				"off": "Zima",
+				"remove": "Ondoa sehemu"
+			},
+			"modeHeading": "Uchujaji wa mdhamini",
+			"modeHint": {
+				"mark": "Inaweka alama sehemu za mdhamini kama sura (bila uharibifu).",
+				"off": "Hakuna SponsorBlock — video inacheza kama ilivyopakiwa.",
+				"remove": "Hukata sehemu za mdhamini kutoka kwenye video kwa kutumia FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Thibitisha",
+			"folder": "Hifadhi",
+			"formats": "Umbizo",
+			"output": "Matokeo",
+			"playlistItems": "Orodha ya kucheza",
+			"playlistItemsGeneric": "Video",
+			"playlistPresets": "Ubora",
+			"playlistProfiles": "Wasifu",
+			"review": "Kagua",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Manukuu",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Maandishi ya otomatiki yatahifadhiwa kama SRT badala ya ASS — husafishwa daima kutokana na urudiaji wa kielelezo cha YouTube, ambao kibadilishaji chetu cha ASS bado hakiwezi kunakili.",
+			"autoBadge": "Otomatiki",
+			"clearAll": "Futa yote",
+			"embedNote": "Hali ya kuingiza inahifadhi matokeo kama .mkv ili nyimbo za manukuu ziingizwe kwa uaminifu.",
+			"format": {
+				"heading": "Umbizo"
+			},
+			"noLanguages": "Hakuna manukuu yanayopatikana kwa video hii",
+			"noMatches": "Hakuna lugha zinazolingana",
+			"noSelected": "Hakuna manukuu yaliyochaguliwa",
+			"removeLanguage": "Ondoa {{name}}",
+			"saveMode": {
+				"embed": "Ingiza kwenye video",
+				"heading": "Hifadhi kama",
+				"sidecar": "Karibu na video",
+				"sidecarNoVideo": "Katika folda ya vipakuliwa",
+				"subfolder": "subtitles/ saraka ndogo"
+			},
+			"searchPlaceholder": "Tafuta lugha…",
+			"sectionAuto": "Yaliyoundwa otomatiki",
+			"sectionManual": "Ya mkono"
+		},
+		"tabsNavAria": "Urambazaji wa wasifu wa upakuaji",
+		"url": {
+			"advanced": "Hali ya juu",
+			"autoRemoveCompleted": {
+				"description": "Huondoa kipakuzi kwenye orodha ya Vipakuliwa sekunde chache baada ya kukamilika. Faili hubaki kwenye folda yako; vipakuzi vilivyoshindwa na vilivyoghairiwa hubaki kwenye orodha.",
+				"label": "Ondoa kiotomatiki vipakuzi vilivyokamilika"
+			},
+			"autoRetry": {
+				"description": "Hujaribu tena kiotomatiki baada ya hitilafu ya mtandao au seva, ikisubiri muda mrefu zaidi kabla ya kila jaribio. Upakuaji uliozuiwa na tovuti haujaribiwi tena kiotomatiki.",
+				"label": "Jaribu tena upakuaji ulioshindwa",
+				"unit": "mara"
+			},
+			"bulkButton": "URL nyingi",
+			"bulkTooltip": "Ongeza na weka foleni URL nyingi.",
+			"clearAria": "Futa URL",
+			"clipboard": {
+				"autofilledLink": "Kiungo kimeongezwa kutoka ubao wa kunakili",
+				"bulkHint": "Viungo vingi vimenakiliwa — viongeze kwa kutumia “URL nyingi”",
+				"dialog": {
+					"cancelButton": "Ghairi"
+				},
+				"noLink": "Hakuna kiungo kwenye ubao wa kunakili",
+				"readFailed": "Imeshindwa kusoma ubao wa kunakili — bandika kiungo kwenye sehemu hiyo badala yake",
+				"replacedLink": "Imebadilishwa na kiungo kilichonakiliwa",
+				"toggle": "Angalia ubao wa kunakili",
+				"toggleDescription": "Jaza sehemu ya URL kiotomatiki unaponakili kiungo cha YouTube.",
+				"undo": "Tendua"
+			},
+			"closeToTray": {
+				"toggle": "Ficha kwenye tray ukifunga",
+				"toggleDescription": "Endelea kupakua nyuma ya pazia baada ya kufunga dirisha."
+			},
+			"concurrentDownloads": {
+				"description": "Ni vipengee vingapi vya foleni vinapakuliwa kwa wakati mmoja. Vingi kwa wakati mmoja humaliza foleni ndefu haraka, lakini huongeza uwezekano wa tovuti kukuwekea mipaka.",
+				"label": "Upakuaji kwa wakati mmoja",
+				"unit": "upakuaji"
+			},
+			"concurrentProbes": {
+				"description": "Viungo vingapi ambavyo Klip hupata maelezo yake kwa wakati mmoja, kabla ya kupakuliwa. Vichache ni laini zaidi kwa tovuti zinazozuia miunganisho yenye shughuli nyingi. Kiungo unachofungua kwenye Upakuaji shirikishi huenda kwanza kila wakati.",
+				"label": "Viungo vinavyokaguliwa kwa wakati mmoja",
+				"unit": "viungo"
+			},
+			"cookies": {
+				"banWarning": "Tovuti kama YouTube zinaweza kuweka alama — na wakati mwingine kupiga marufuku — akaunti ambazo vidakuzi vyake vinatumiwa na zana za kupakua kama Klip. Tumia akaunti ya majaribio iwezekanavyo.",
+				"browserHelp": "Inasoma vidakuzi moja kwa moja kutoka kwenye kivinjari. Kivinjari lazima kifungwe kwa vivinjari vya familia ya Chromium.",
+				"browserLabel": "Kivinjari",
+				"browserPlaceholder": "Chagua kivinjari…",
+				"choose": "Chagua…",
+				"clear": "Futa",
+				"enabledButNoBrowser": "Chagua kivinjari kutumia vidakuzi",
+				"enabledButNoFile": "Chagua faili kutumia vidakuzi",
+				"exploreDisabled": "Kichupo cha Gundua kimezimwa, kwa hiyo upakuaji hautumii kuingia kwako kwenye Gundua. Kiwashe katika sehemu ya Gundua hapa chini.",
+				"extensionChrome": "Pata cookies.txt NDANI YA KOMPYUTA (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Faili ya vidakuzi",
+				"helpLink": "Ninasafirisha vidakuzi vipi?",
+				"openExplore": "Fungua Gundua",
+				"placeholder": "Hakuna faili iliyochaguliwa",
+				"recommended": "Inapendekezwa",
+				"risk": "Hatari: cookies.txt ina vikao vyote vilivyoingia kwa kivinjari hicho — weka siri.",
+				"sourceBrowser": "Kivinjari",
+				"sourceExplore": "Kuingia kwenye Gundua",
+				"sourceFile": "Faili",
+				"sourceLabel": "Chanzo cha vidakuzi",
+				"sourceOff": "Zima",
+				"toggleDescription": "Husaidia kwa video ambazo akaunti yako mwenyewe inaweza kutazama, kama video zako za faragha."
+			},
+			"downloadConnections": {
+				"description": "Huharakisha upakuaji mkubwa kwa kupakua sehemu kadhaa za video kwa wakati mmoja. Thamani kubwa huongeza uwezekano wa tovuti kukuwekea mipaka.",
+				"label": "Miunganisho ya upakuaji",
+				"unit": "miunganisho"
+			},
+			"downloadList": {
+				"album": "Pakua albamu…",
+				"liked": "Pakua video ulizopenda…",
+				"mix": "Pakua Mix…",
+				"playlist": "Pakua playlist…",
+				"uploads": "Pakua video zilizopakiwa…",
+				"watchLater": "Pakua Tazama baadaye…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Sauti peke yake",
+					"subtitles": "Manukuu"
+				},
+				"anySite": {
+					"heading": "Tovuti 2000+",
+					"musicPlaylist": "Playlists za muziki",
+					"video": "Video",
+					"videoPlaylist": "Playlists za video"
+				},
+				"heading": "Klip inaweza kupakua nini",
+				"youtube": {
+					"channel": "Vituo",
+					"heading": "YouTube",
+					"music": "Muziki",
+					"playlist": "Orodha za kucheza",
+					"podcast": "Podcasts",
+					"short": "Shorts",
+					"video": "Video"
+				}
+			},
+			"fetchFormatsTooltip": "Mchawi wa hatua kwa hatua. Chagua umbizo, ubora na mengine.",
+			"heading": "Pakua kutoka URL",
+			"hotkey": {
+				"changeShortcut": "Badilisha njia ya mkato",
+				"conflict": "Njia hii ya mkato inatumika na programu nyingine — chagua nyingine.",
+				"globalLabel": "Njia ya mkato ya kimataifa",
+				"recording": "Bonyeza vitufe…",
+				"reset": "Rejesha chaguo-msingi",
+				"sectionDescription": "Pakua kiungo chochote unachonakili, kutoka programu yoyote, bila kufungua Klip.",
+				"sectionTitle": "Njia ya mkato ya kimataifa",
+				"test": "Jaribu",
+				"toggle": "Washa njia ya mkato ya kimataifa",
+				"toggleDescriptionDetail": "Nakili kiungo cha video katika programu yoyote kisha bonyeza njia ya mkato: Klip huiweka kwenye foleni kwa wasifu wako unaotumika, bila kubadilisha madirisha. Kiungo cha video iliyo kwenye playlist hupakua video hiyo."
+			},
+			"interactiveDownload": "Upakuaji shirikishi",
+			"interactiveDownloadAsks": "Upakuaji shirikishi…",
+			"limitRate": {
+				"activeWarning": "Vipakuliwa vinavyoendelea huhifadhi kikomo cha sasa. Sitisha + Endelea ili kutumia mabadiliko.",
+				"custom": "Maalum…",
+				"customPlaceholder": "mf. 750K au 1.5M",
+				"description": "Dhibiti bandwidth ya vipakuliwa vya media. Udhibiti wa maombi hapa chini mara nyingi una nguvu zaidi.",
+				"invalid": "Tumia nambari ikifuatiwa na K au M (mf. 500K, 1.5M)",
+				"label": "Kikomo cha kasi ya kupakua",
+				"off": "Imezimwa"
+			},
+			"mascotBusy": "Inapakua nyuma ya pazia… Ninaweza kufanya mambo mengi kwa wakati mmoja 😎",
+			"mascotCollection": "Upakuaji wa haraka huweka vipengee vilivyopakiwa kwenye foleni kwa kutumia {{profileName}}. Upakuaji shirikishi hukuruhusu kukagua au kuchagua vipengee kwanza.",
+			"mascotIdle": "Weka kiungo, Klip aipakue ✨",
+			"mascotSingle": "Upakuaji wa haraka huanzisha upakuaji mmoja kwa kutumia {{profileName}}. Tumia upakuaji shirikishi kwa mabadiliko ya mara moja.",
+			"mascotVideoInList": "Kiungo hiki kinataja video na orodha iliyomo: pakua video pekee, au orodha.",
+			"nativeAudioPreference": {
+				"compatible": "Stereo inayooendana",
+				"description": "Stereo au surround wasifu unapochagua sauti asili. Wasifu unaweza kubatilisha hili.",
+				"label": "Upendeleo wa sauti asili",
+				"surround": "Pendelea surround / Dolby"
+			},
+			"networkPacing": {
+				"description": "Inaongeza mapumziko madogo wakati wa kila upakuaji ili Klip isishambue tovuti. Maadili ni sekunde.",
+				"fields": {
+					"maxSleepInterval": "Pumzika kabla ya media kuanza: kiwango cha juu",
+					"sleepInterval": "Pumzika kabla ya media kuanza: kiwango cha chini",
+					"sleepRequests": "Pumzika kati ya ukaguzi wa metadata",
+					"sleepSubtitles": "Pumzika kabla ya faili za manukuu"
+				},
+				"heading": "Upakuaji wa taratibu",
+				"presetLabel": "Klip iwe makini kiasi gani?",
+				"presets": {
+					"balanced": "Uwiano",
+					"careful": "Uangalifu",
+					"custom": "Maalum",
+					"off": "Zima"
+				},
+				"summary": "Mapumziko: {{requests}} kati ya ukaguzi, {{downloads}} kabla ya media kuanza, {{subtitles}} kabla ya faili za manukuu.",
+				"tooltip": "Vipindi hivi vya kusubiri hutokea ndani ya kila upakuaji. Upakuaji mangapi unaendelea kwa wakati mmoja huwekwa kando, katika «Upakuaji kwa wakati mmoja».",
+				"tooltips": {
+					"balanced": "Chaguo-msingi. Inaongeza mapumziko mafupi kati ya maombi na kabla ya media kuanza.",
+					"careful": "Inaongeza mapumziko marefu kwa playlists kubwa au mitandao inayofikia vikwazo mara kwa mara.",
+					"custom": "Rekebisha mwenyewe udhibiti wa hali ya juu wa kila upakuaji.",
+					"off": "Inatumia mapumziko madogo ya msingi tu ambayo Klip inayashikilia kwa media na manukuu."
+				},
+				"units": {
+					"seconds": "sek"
+				}
+			},
+			"openedLink": {
+				"added": "Kiungo kimefunguliwa katika Klip",
+				"replaced": "Kimebadilishwa na kiungo kilichofunguliwa katika Klip"
+			},
+			"pasteLink": "Bandika kiungo",
+			"placeholder": "https://www.youtube.com/watch?v=...",
+			"playlistProbeLimit": {
+				"current": "Kikomo cha sasa: vipande {{count}}",
+				"custom": "Maalum…",
+				"customDialogCancel": "Ghairi",
+				"customDialogDescription": "Tumia nambari nzima kutoka {{min}} hadi {{max}}.",
+				"customDialogSave": "Hifadhi kikomo",
+				"customDialogTitle": "Kikomo maalum cha skani ya playlist",
+				"customValue": "Maalum: vipande {{count}}",
+				"description": "Idadi ya juu ya maingizo ambayo Klip hupakia wakati playlist, kituo, au matokeo ya utafutaji yanafunguliwa.",
+				"invalid": "Tumia nambari nzima kutoka 1 hadi 5000",
+				"label": "Vipande vya playlist vya kuskanisha",
+				"option": "Vipande {{count}}"
+			},
+			"playlistScope": {
+				"appLimit": "Tumia kikomo cha programu: {{count}}",
+				"apply": "Tekeleza",
+				"applyError": "Haikuweza kutekeleza wigo huo wa orodha ya kucheza: {{message}}",
+				"applyReload": "Tekeleza na upakie upya",
+				"cancel": "Ghairi",
+				"change": "Badilisha",
+				"dialogDescription": "Chagua kile ambacho Klip inapakia kwa playlist hii.",
+				"dialogTitle": "Wigo wa orodha ya kucheza",
+				"emptyTitle": "Hakuna video katika wigo huo",
+				"first": "Za kwanza",
+				"invalid": "Tumia nambari kamili za vipande kuanzia 1 hadi {{max}}, ambapo mwanzo si mkubwa kuliko mwisho.",
+				"itemsLabel": "Vipande vya kupakia",
+				"label": "Wigo wa orodha ya kucheza",
+				"range": "Masafa",
+				"reloading": "Inapakia upya...",
+				"reset": "Weka upya",
+				"summaryAppLimit": "Pakia vipande vya kwanza: {{count}}",
+				"summaryFirst": "Pakia vipande vya kwanza: {{count}}",
+				"summaryRange": "Pakia vipande {{from}}-{{to}}",
+				"to": "hadi"
+			},
+			"profile": {
+				"activeLabel": "Wasifu unaotumika",
+				"badgeBuiltIn": "Imejengwa ndani",
+				"badgeCustom": "Maalum",
+				"badgeDisabled": "Imefichwa",
+				"badgeModified": "Imebadilishwa",
+				"builtinName": {
+					"audio-only": "Sauti pekee",
+					"balanced": "Uwiano 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Ubora wa juu zaidi",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Ubora wa chini kabisa 144p",
+					"low-240": "Data ndogo 240p",
+					"mp4-1080": "Runinga janja 1080p",
+					"mp4-480": "Runinga janja 480p",
+					"mp4-720": "Runinga janja 720p",
+					"small-file": "Faili ndogo 480p",
+					"subtitles-only": "Manukuu peke yake"
+				},
+				"changeGlobalDestination": "Badilisha mahali pa kuhifadhi kwa jumla",
+				"destinationDetail": {
+					"global": "Inatumia mahali pa kuhifadhi kwa jumla",
+					"globalSubfolder": "Inatumia mahali pa kuhifadhi kwa jumla + saraka ndogo ya wasifu",
+					"override": "Inatumia ubatilishaji wa wasifu",
+					"overrideSubfolder": "Inatumia ubatilishaji wa wasifu + saraka ndogo ya wasifu"
+				},
+				"destinationEditHint": "Ili kubadilisha mahali inapohifadhiwa, hariri wasifu.",
+				"destinationFallback": "Mahali pa kuhifadhi",
+				"edit": "Hariri",
+				"editActive": "Hariri wasifu unaotumika",
+				"enableHint": "Wasifu uliofichwa unabaki hapa lakini unatoweka kwenye vichaguzi vyote.",
+				"enableToggleAria": "Onyesha wasifu kwenye vichaguzi: {{profileName}}",
+				"lastEnabledHint": "Weka angalau wasifu mmoja unapatikana.",
+				"manageProfiles": "Dhibiti wasifu",
+				"menuDescription": "Badilisha wasifu unaotumika kwa Quick Download, URL nyingi na orodha za kucheza.",
+				"menuTitle": "Badilisha wasifu",
+				"movableProfile": "wasifu unaoweza kusogezwa",
+				"moveCancelled": "Kusogeza kumeghairiwa. Wasifu wa {{profileName}} unabaki kwenye nafasi ya {{position}} kati ya {{count}}.",
+				"moveDropped": "Wasifu wa {{profileName}} umeachiwa kwenye nafasi ya {{position}} kati ya {{count}}.",
+				"moveHandleAria": "Sogeza {{profileName}}",
+				"moveInstructions": "Ili kusogeza wasifu, bonyeza Spacebar au Enter, usogeze kwa vitufe vya mishale, kisha bonyeza Spacebar au Enter ili kuuachia. Bonyeza Escape ili kughairi.",
+				"moveOver": "Wasifu wa {{profileName}} uko juu ya nafasi ya {{position}} kati ya {{count}}.",
+				"movePickedUp": "Wasifu wa {{profileName}} umeshikwa. Uko kwenye nafasi ya {{position}} kati ya {{count}}.",
+				"newProfile": "Wasifu mpya",
+				"outputMissing": "Wasifu huu huhifadhi kwenye folda ambayo haijawekwa. Chagua folda kwenye wasifu, au uirudishe kwenye chaguo-msingi.",
+				"panelDescription": "Unda, chagua, hariri, au ondoa mipangilio ya upakuaji inayoweza kutumika tena.",
+				"panelTitle": "Wasifu wa upakuaji",
+				"remove": "Ondoa",
+				"reorderHint": "Buruta wasifu ili kuusogeza. Kila kichaguzi cha wasifu kinafuata mpangilio huu.",
+				"reset": "Weka upya",
+				"savesTo": "Huhifadhi kwenye",
+				"switchAria": "Badilisha wasifu wa kupakua: {{profileName}}",
+				"switchTitle": "Badilisha wasifu wa kupakua"
+			},
+			"proxy": {
+				"clear": "Futa",
+				"description": "Elekeza trafiki kupitia seva ya proksi.",
+				"label": "Proxy URL",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Upakuaji wa haraka",
+			"quickDownloadTooltip": "Itapakua kwa kutumia: {{profileName}}",
+			"quickFailed": "Haikuweza kuongeza hii: {{error}}",
+			"quickPrepareFailed": "Kipengee cha foleni hakikuweza kuandaliwa",
+			"quickPreparing": "Inaandaa",
+			"quickProbeFailed": "Uchunguzi umeshindikana",
+			"quickSingleOnly": "Bandika URL ya video, orodha ya kucheza, kituo au utafutaji ili kuanza.",
+			"reports": {
+				"toggle": "Tuma ishara isiyo na jina na ripoti za usanidi",
+				"toggleDescription": "Hakuna ufuatiliaji. Mara moja kwa siku, ishara isiyo na jina hutuma toleo la programu, njia ya usakinishaji, mfumo wa uendeshaji, lugha, nchi na takriban muda uliopita tangu Klip iliposakinishwa, ili tuweze kuhesabu watumiaji hai na wapya. Klip inaposanidi au kusasisha injini yake ya upakuaji au zana za midia, pia huripoti kama ilifanikiwa na takriban ilichukua muda gani. Hakuna vitambulisho, URL, majina ya video wala majina ya faili."
+			},
+			"settings": {
+				"behaviorDescription": "Tabia ya jumla inayothibiti pia upakuaji unaotumia wasifu.",
+				"behaviorHeading": "Tabia ya kupakua",
+				"inputHeading": "Ingizo"
+			},
+			"style": {
+				"aurora": {
+					"description": "Paneli za kioo juu ya anga linalosogea. Zinahitaji uongezaji kasi wa michoro.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Nyuso imara na tulivu. Inafanya kazi kwa wepesi kwenye kompyuta yoyote.",
+					"label": "Rahisi"
+				},
+				"modeDescription": "Mitindo yote miwili ina toleo la mwanga na la giza.",
+				"modeLabel": "Mtindo",
+				"panelDescription": "Jinsi Klip inavyoonekana. Badilisha kati ya mwanga na giza chini ya dirisha.",
+				"panelTitle": "Mwonekano",
+				"unavailableNotice": "{{style}} inahitaji uongezaji kasi wa michoro, ambao haupatikani sasa hivi, kwa hiyo Klip inaonyesha {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Wasifu",
+				"settings": "Mipangilio"
+			},
+			"thisVideo": "Video hii",
+			"thisVideoTooltip": "Hupakua video hii pekee kwa {{profileName}}"
+		}
+	}
+}

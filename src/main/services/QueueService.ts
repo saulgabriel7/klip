@@ -1,0 +1,797 @@
+// QueueService — authoritative queue-of-record on main. Renderer is a
+// read-only projection: it sends commands and receives snapshot + diff
+// events. All mutations route through the pure transition() function from
+// @shared/queueTransition.
+//
+// Concurrency policy (lane-aware):
+//   - lane='normal' items respect the normal-lane cap and the inter-job sleep
+//     window, so back-to-back normal jobs give YouTube's rate-limit window a
+//     chance to roll over. The cap defaults to NORMAL_LANE_CAP (1) and is
+//     user-configurable via setConcurrentDownloads().
+//   - lane='priority' items bypass the cap and the sleep window — user
+//     intent is "skip the queue, pull now alongside the active job".
+//     Priority spawns are still gated by the ceiling, which keeps
+//     PRIORITY_LANE_HEADROOM slots above the normal cap so "pull now" works
+//     even with the normal lane saturated.
+//
+// Adjacent concerns live in ./download: InterJobSleep (the pacing window),
+// QueueAutoRetry (automatic retry budget + timers), QueuePlaylistM3u
+// (serialized .m3u writes).
+//
+// Mutation pipeline: every state change flows through commit() — one
+// internal seam that runs apply → persist → emit → recomputeSchedule. Inside a
+// bulk command (inBulk) persist and scheduling are deferred to the outermost
+// exit. No caller decides when to schedule; it always happens.
+
+import {EventEmitter} from 'node:events'
+import log from 'electron-log/main.js'
+import {fail, ok, type Result} from '@shared/result.js'
+import {createAppError} from '@main/utils/errorFactory.js'
+import {nowIso} from '@main/utils/clock.js'
+import type {IntakeOrigin} from '@shared/intake/intakeSchemas.js'
+import {QUEUE_STATUS, type JobAuth, type QueueChoice, type QueueLane} from '@shared/schemas.js'
+import {transition, illegalTransition, type QueueEvent} from '@shared/queueTransition.js'
+import {MAX_CONCURRENT_DOWNLOADS, NORMAL_LANE_CAP, PRIORITY_LANE_HEADROOM} from '@shared/constants.js'
+import {InterJobSleep} from './download/InterJobSleep.js'
+import {QueueAutoRemove} from './download/QueueAutoRemove.js'
+import {QueueAutoRetry} from './download/QueueAutoRetry.js'
+import {QueuePlaylistM3u} from './download/QueuePlaylistM3u.js'
+import {admitAgainstLiveQueue, findInadmissibleQueueItem} from './download/queueAdmission.js'
+import {QueueProbeLifecycle, type ProbeAnswer} from './download/QueueProbeLifecycle.js'
+import {pauseEach} from './download/queuePauseEach.js'
+import {queueForNextLaunch, suspendQueueForExit} from './download/queueSuspendForExit.js'
+import {QueueSchedulerPause} from './download/QueueSchedulerPause.js'
+import {QueueTitleBackfill, type QueueTitleBackfillDeps} from './download/queueTitleBackfill.js'
+import {ingestQueueArtifactEvent} from './download/queueTitleArtifact.js'
+import {checkQueueArtifactsOnDisk} from './download/queueArtifactDiskCheck.js'
+import {describeMutation, isProgressOnlyMutation, statusSummary, type Mutation} from './download/queueMutation.js'
+import type {ProgressEvent, QueueArtifactEvent, QueueItem, QueueOutputTargetChangeResult, QueueSchedulerCommandFailure, QueueSchedulerCommandResult, QueueSelectionAction, QueueSelectionCommandResult, QueueSnapshotPayload, StatusEvent, LocalizedError} from '@shared/types.js'
+
+import type {QueueStore} from '@main/stores/QueueStore.js'
+import type {PlaylistManifestStore} from '@main/stores/PlaylistManifestStore.js'
+import type {PlaylistManifest} from '@shared/playlistManifest.js'
+import type {DownloadService} from './DownloadService.js'
+import {QueueResumeLifecycle} from './download/QueueResumeLifecycle.js'
+import {FinalArtifactTargets} from './finalArtifactTargets.js'
+import type {ProbeInfoJsonCache} from './ProbeInfoJsonCache.js'
+import {changeQueueOutputTarget} from './queueOutputTargetMove.js'
+import {QueueArtifactCleanup} from './download/queueArtifactCleanup.js'
+import {commitPhaseStatus} from './download/queuePhaseStatus.js'
+import {QueueProgressCoalescer} from './download/QueueProgressCoalescer.js'
+import {QueueJobProgress} from './download/QueueJobProgress.js'
+import {QueueSiteHold, type QueueSiteGate, type QueueStartIdentitySource} from './download/QueueSiteHold.js'
+import {spawnQueueJob} from './download/queueJobSpawn.js'
+import {applyQueueSelectionAction} from './queueSelectionActionApply.js'
+
+const logger = log.scope('queue')
+
+export class QueueService extends EventEmitter {
+	private items: QueueItem[] = []
+	// Items currently mid-spawn (downloadService.start awaiting). recomputeSchedule
+	// counts these toward activeCount so a re-fire during the await window
+	// doesn't double-spawn the same item.
+	private readonly spawning = new Set<string>()
+	// Earliest time the next normal-lane spawn is allowed. Cleared on cancel-all
+	// or when no normal job remains. Priority spawns ignore this.
+	private readonly sleep = new InterJobSleep()
+	// Emits `scheduler` on a change the user made; restored in init().
+	private readonly scheduler = new QueueSchedulerPause(paused => this.emit('scheduler', {paused}))
+	// Rows quitting stopped; see queueForNextLaunch.
+	private readonly exitRequeued = new Set<string>()
+	private readonly jobProgress = new QueueJobProgress()
+	// Progress is lossy (latest wins per item, flushed every 100 ms); transitions
+	// bypass it via emitImmediate. See QueueProgressCoalescer.
+	private readonly progress = new QueueProgressCoalescer(item => this.emit('updated', {item}), 100)
+	// Bulk-command depth. While > 0, per-commit persist() and scheduler recompute
+	// are deferred to the outermost inBulk() exit, so a multi-item command writes
+	// queue.json once and cannot spawn a download it is about to cancel. A counter,
+	// not a boolean: bulk commands await between commits and IPC runs them
+	// concurrently, so the first one to finish must not re-enable scheduling
+	// under another that is still mid-loop.
+	private bulkDepth = 0
+	private readonly finalArtifactTargets = new FinalArtifactTargets()
+	// Owns the automatic-retry budget and timers. Writes only through commit().
+	private readonly autoRetry = new QueueAutoRetry({
+		findItem: itemId => this.findItem(itemId),
+		patch: (itemId, reason, patcher) => this.commit({kind: 'patch', itemId, reason, patcher}),
+		retryReset: itemId => this.commit({kind: 'event', itemId, evt: {kind: 'retry-reset'}}),
+		cooldownRemainingMs: item => this.siteHold.cooldownRemainingMs(item, Date.now())
+	})
+	// Takes a finished download out of the list after a short delay, when on.
+	private readonly autoRemove = new QueueAutoRemove({findItem: itemId => this.findItem(itemId), remove: itemId => this.remove(itemId, 'autoRemoved')})
+	private probeAbortHook: (itemId: string) => void = () => undefined
+	private readonly probeLifecycle = new QueueProbeLifecycle({
+		items: () => this.items,
+		patch: (itemId, reason, patcher) => this.commit({kind: 'patch', itemId, reason, patcher}),
+		commitEvent: (itemId, evt) => this.commit({kind: 'event', itemId, evt}),
+		abortProbe: itemId => this.probeAbortHook(itemId),
+		commitRemove: (itemId, reason) => this.commit({kind: 'remove', itemId, reason}),
+		commitAdd: items => this.commit({kind: 'add', items}),
+		rowsPerIntake: origin => this.intakeAdmission(origin)
+	})
+	private intakeAdmission: (origin: IntakeOrigin) => number | null = () => null
+	onProbeAbort(hook: (itemId: string) => void): void {
+		this.probeAbortHook = hook
+	}
+	onIntakeAdmission(limit: (origin: IntakeOrigin) => number | null): void {
+		this.intakeAdmission = limit
+	}
+
+	// Deferred title-backfill probe, wired at the composition root
+	// (registerQueueHandlers). Unset it resolves nothing — rows keep their
+	// flag for the artifact backstop. Same setter pattern as onProbeAbort.
+	private titleProbe: QueueTitleBackfillDeps['probeTitle'] = () => Promise.resolve({kind: 'none'})
+	private readonly titleBackfill = new QueueTitleBackfill({items: () => this.items, patch: (itemId, reason, patcher) => this.commit({kind: 'patch', itemId, reason, patcher}), probeTitle: (url, admit) => this.titleProbe(url, admit)})
+	setTitleBackfillProbe(probe: QueueTitleBackfillDeps['probeTitle']): void {
+		this.titleProbe = probe
+	}
+
+	// Assigned in the constructor, not here: a field initializer cannot safely
+	// read `this.playlist`, whose assignment order relative to field
+	// initializers depends on the parameter-property emit.
+	private readonly playlistM3u: QueuePlaylistM3u
+	// Holds starts while an item's site is rate-limiting this connection.
+	private readonly siteHold: QueueSiteHold
+
+	constructor(
+		private readonly queueStore: QueueStore,
+		private readonly downloadService: DownloadService,
+		private normalCap = NORMAL_LANE_CAP,
+		private maxConcurrent = MAX_CONCURRENT_DOWNLOADS,
+		private readonly playlist?: {manifestStore: PlaylistManifestStore; writeM3u: (manifest: PlaylistManifest) => Promise<void>},
+		private readonly probeInfoJsonCache?: ProbeInfoJsonCache,
+		launchGate?: QueueSiteGate,
+		startIdentities?: QueueStartIdentitySource
+	) {
+		super()
+		this.siteHold = new QueueSiteHold(launchGate, startIdentities)
+		this.siteHold.onChange(() => this.recomputeSchedule())
+		this.artifactCleanup = new QueueArtifactCleanup(probeInfoJsonCache)
+		this.playlistM3u = new QueuePlaylistM3u(this.playlist)
+		this.downloadService.on('status', (event: StatusEvent) => this.consumeStatusEvent(event))
+		this.downloadService.on('progress', (event: ProgressEvent) => this.consumeProgressEvent(event))
+		this.downloadService.on('artifact', (event: QueueArtifactEvent) => this.consumeArtifactEvent(event))
+	}
+
+	async init(): Promise<void> {
+		const result = await this.queueStore.load()
+		if (!result.ok) {
+			logger.error('Queue load failed — starting empty', {error: result.error.message})
+			this.items = []
+			return
+		}
+		this.items = result.data.items
+		// Direct assignment: bridge not attached yet — the renderer hydrates the flag from the boot snapshot.
+		this.scheduler.restore(result.data.schedulerPaused)
+		logger.info('Queue loaded', {count: this.items.length, schedulerPaused: this.scheduler.paused})
+		this.probeLifecycle.promoteStaleProbes(this.items)
+		this.autoRetry.rearmPersisted(this.items)
+		void checkQueueArtifactsOnDisk(this.items)
+			.then(patches => this.inBulk(() => patches.forEach(({itemId, patcher}) => this.commit({kind: 'patch', itemId, reason: 'artifact:disk-check', patcher}))))
+			.catch(err => logger.warn('artifact disk check failed', {error: err instanceof Error ? err.message : String(err)}))
+		// Boot-time spawn pass: respects maxConcurrent so persisted priority
+		// items never trigger a storm. Anything beyond the ceiling stays pending.
+		// Skipped if the user quit with the queue paused (flag persisted).
+		this.recomputeSchedule()
+	}
+
+	snapshot(): QueueItem[] {
+		return [...this.items]
+	}
+
+	// Single construction point for both snapshot hydration surfaces — the
+	// getSnapshot IPC handler and the bridge's attach-time snapshot event.
+	snapshotPayload(): QueueSnapshotPayload {
+		return {items: this.snapshot(), schedulerPaused: this.scheduler.paused}
+	}
+
+	// Probe-stage commands for a placeholder row, whose probe the renderer runs. See QueueProbeLifecycle.
+	probeFailed(itemId: string, error: LocalizedError, auth?: JobAuth): Result<void> {
+		return this.probeLifecycle.probeFailed(itemId, error, auth)
+	}
+
+	needsChoice(itemId: string, choice: QueueChoice, title: string): Result<void> {
+		return this.probeLifecycle.needsChoice(itemId, choice, title)
+	}
+
+	reprobe(itemId: string, answer?: ProbeAnswer): Result<void> {
+		return this.probeLifecycle.reprobe(itemId, answer)
+	}
+
+	clearListOffer(itemId: string): Result<void> {
+		return this.probeLifecycle.clearListOffer(itemId)
+	}
+
+	// commands ---------------------------------------------------------------
+
+	add(toAdd: QueueItem[]): Result<{ids: string[]; skippedAlreadyQueued: number}> {
+		if (toAdd.length === 0) return ok({ids: [], skippedAlreadyQueued: 0})
+		const rejected = findInadmissibleQueueItem(toAdd)
+		if (rejected) return fail(createAppError('validation', rejected.message))
+		const admission = admitAgainstLiveQueue(toAdd, this.items)
+		if (!admission.ok) return admission
+		const {admitted, skippedAlreadyQueued} = admission.data
+		this.commit({kind: 'add', items: admitted})
+		return ok({ids: admitted.map(i => i.id), skippedAlreadyQueued})
+	}
+
+	// Probe-stage swap: remove + add commit back-to-back inside one bulk scope,
+	// so the swap persists once and schedules once.
+	replaceProbing(itemId: string, items: QueueItem[]): Promise<Result<{ids: string[]; skippedAlreadyQueued: number}>> {
+		return this.inBulk(() => this.probeLifecycle.replaceProbing(itemId, items))
+	}
+
+	// Explicit-start IPC entry point. The scheduler auto-spawns pending items
+	// on add/resume/retry, so this is rarely needed from the renderer; kept
+	// for parity with the existing IPC contract and tests that drive a single
+	// item through start() directly.
+	async start(itemId: string): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+		if (item.status !== QUEUE_STATUS.pending) {
+			return fail(createAppError('validation', `cannot start item in status ${item.status}`))
+		}
+		return this.spawnViaStart(itemId, undefined)
+	}
+
+	async pause(itemId: string): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+
+		if (item.status === QUEUE_STATUS.pending) {
+			// A row Resume All left waiting for a slot still has its job parked: it
+			// goes back to paused-active, so a resume continues that job.
+			if (item.lastJobId && !this.spawning.has(itemId)) this.commit({kind: 'patch', itemId, reason: 'pause:parkedPending', patcher: prev => ({...prev, status: QUEUE_STATUS.pausedActive})})
+			else this.commit({kind: 'event', itemId, evt: {kind: 'paused-held'}})
+			return ok(undefined)
+		}
+
+		if (item.status !== QUEUE_STATUS.running) {
+			return fail(createAppError('validation', `cannot pause item in status ${item.status}`))
+		}
+		if (!item.lastJobId) return fail(createAppError('validation', 'item has no lastJobId'))
+
+		const pauseResult = await this.downloadService.pause(item.lastJobId)
+		if (!pauseResult.ok) return fail(pauseResult.error)
+		if (!pauseResult.data.paused) return ok(undefined)
+
+		this.commit({kind: 'event', itemId, evt: {kind: 'paused-active', tempDir: pauseResult.data.tempDir}})
+		return ok(undefined)
+	}
+
+	// Reports each running or starting item it paused and each one it could not.
+	async pauseAll(): Promise<QueueSchedulerCommandResult> {
+		// Flip the pause flag FIRST so per-item commits below can't re-trigger an
+		// auto-spawn of the next pending item (the "pause all → next one starts" bug).
+		this.scheduler.set(true)
+		this.sleep.clear()
+		// A row still starting (binary setup, probe cache) is pending until its start
+		// returns; pausing it holds the row, and the spawn parks the job it started.
+		const active = this.activeItemIds()
+		logger.info('pauseAll', {activeCount: active.length, total: this.items.length, snapshot: this.statusSummary()})
+		const {done, failed} = await pauseEach(active, {pause: itemId => this.pause(itemId), statusOf: itemId => this.findItem(itemId)?.status})
+		// Ensure the flag itself reaches disk even if no items needed pausing
+		// (e.g. queue had only pending items).
+		this.persist()
+		logger.info('pauseAll done', {snapshot: this.statusSummary()})
+		return this.schedulerCommandResult(done, failed)
+	}
+
+	// Global "resume queue" — counterpart to pauseAll. Clears the scheduler
+	// pause flag, transitions every paused-* item back to pending (preserving
+	// resume context like tempDir/lastJobId on paused-active rows), then lets
+	// recomputeSchedule do the spawning. Critical: must NOT call `resume(id)`
+	// per item — that path bypasses the cap (it's the explicit-user path) and
+	// would spawn every paused-active in parallel.
+	// eslint-disable-next-line @typescript-eslint/require-await -- async for IPC parity
+	async resumeAll(): Promise<QueueSchedulerCommandResult> {
+		this.scheduler.set(false)
+		const held = this.items.filter(i => i.status === QUEUE_STATUS.pausedHeld)
+		const pausedActive = this.items.filter(i => i.status === QUEUE_STATUS.pausedActive)
+		logger.info('resumeAll', {heldCount: held.length, pausedActiveCount: pausedActive.length, snapshot: this.statusSummary()})
+		for (const item of held) this.resumeHeld(item)
+		for (const item of pausedActive) {
+			// Patch (not transition) — keep lastJobId so the upcoming spawn resumes
+			// the parked job, and tempDir for a start after a restart, when no job is
+			// parked any more. retry-reset would wipe both. Going
+			// through `pending` instead of `running` is critical: it routes the
+			// spawn through recomputeSchedule, which enforces the cap. Calling
+			// `resume(id)` per item instead bypasses the cap and spawns all
+			// paused-active items in parallel — that was the "resume → 10 in
+			// parallel" bug.
+			this.commit({kind: 'patch', itemId: item.id, reason: 'resumeAll:queueResume', patcher: prev => ({...prev, status: QUEUE_STATUS.pending, progressDetail: null})})
+		}
+		// Final sweep — picks up the items that the per-item commits left on the
+		// table because the cap was already satisfied during their commit.
+		this.recomputeSchedule()
+		this.persist()
+		logger.info('resumeAll done', {snapshot: this.statusSummary()})
+		// Moving a row back to pending cannot fail, so nothing lands in `failed`.
+		const done = [...held, ...pausedActive].map(i => i.id)
+		return this.schedulerCommandResult(done, [])
+	}
+
+	suspendForExit(): Promise<void> {
+		return suspendQueueForExit({items: () => this.items, activeIds: () => this.activeItemIds(), holdScheduler: () => this.scheduler.set(true, {silent: true}), pause: id => this.pause(id), requeued: this.exitRequeued, save: () => this.saveQueue(), summary: () => this.statusSummary()})
+	}
+
+	private activeItemIds(): string[] {
+		return this.items.flatMap(i => (i.status === QUEUE_STATUS.running || (i.status === QUEUE_STATUS.pending && this.spawning.has(i.id)) ? [i.id] : []))
+	}
+
+	// Reads the flag at the end, not the intent: a resume that lands while a
+	// pause-all awaits its items leaves the scheduler running.
+	private schedulerCommandResult(done: string[], failed: QueueSchedulerCommandFailure[]): QueueSchedulerCommandResult {
+		return {scheduler: this.scheduler.paused ? 'paused' : 'running', done, failed}
+	}
+
+	// Live-applied from the settings IPC handler, so a change takes effect on
+	// the running queue without a restart. Raising it spawns waiting items
+	// immediately; lowering it only stops future spawns — running downloads are
+	// never killed, because the user asked for a smaller lane, not for work to
+	// be thrown away. The download service's own ceiling moves in lockstep or
+	// it would reject the very spawns this scheduler just authorized.
+	setConcurrentDownloads(value: number): void {
+		const cap = Math.max(1, Math.trunc(value))
+		this.normalCap = cap
+		this.maxConcurrent = cap + PRIORITY_LANE_HEADROOM
+		this.downloadService.setMaxConcurrent(this.maxConcurrent)
+		logger.info('Concurrency changed', {normalCap: this.normalCap, ceiling: this.maxConcurrent, snapshot: this.statusSummary()})
+		this.recomputeSchedule()
+	}
+
+	setAutoRetryAttempts(value: number): void {
+		this.autoRetry.setAttempts(value, this.items)
+	}
+
+	setAutoRemoveCompleted(value: boolean): void {
+		this.autoRemove.setEnabled(value)
+	}
+
+	// Best-effort artifact cleanup — see ./download/queueArtifactCleanup.
+	private readonly artifactCleanup: QueueArtifactCleanup
+
+	async resume(itemId: string): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+
+		if (item.status === QUEUE_STATUS.pausedHeld) {
+			this.resumeHeld(item)
+			return ok(undefined)
+		}
+
+		if (item.status !== QUEUE_STATUS.pausedActive) {
+			return fail(createAppError('validation', `cannot resume item in status ${item.status}`))
+		}
+
+		// Try in-session resume first; if main has no record (cross-restart),
+		// fall back to a fresh start with --continue picking up the .part.
+		if (item.lastJobId) {
+			const resumeResult = await this.downloadService.resume(item.lastJobId, {explicit: item.lane === 'priority'})
+			if (resumeResult.ok && resumeResult.data.resumed) {
+				this.commit({kind: 'event', itemId, evt: {kind: 'resumed'}})
+				return ok(undefined)
+			}
+			// The wait can be long: a cancel, remove or another resume may have moved the item on.
+			const current = this.findItem(itemId)
+			if (current?.status !== QUEUE_STATUS.pausedActive || current.lastJobId !== item.lastJobId) return ok(undefined)
+			// The old job still exists: a fresh start now would leave it running or parked as an orphan.
+			if (resumeResult.ok && resumeResult.data.jobLive) return fail(createAppError('conflict', 'The download is still pausing; resume it again in a moment'))
+		}
+
+		const tempDir = await QueueResumeLifecycle.validateTempDir(item.tempDir)
+		if (item.tempDir && !tempDir) logger.debug('resume: persisted tempDir missing — restarting fresh', {itemId, tempDir: item.tempDir})
+		return this.spawnViaStart(itemId, tempDir)
+	}
+
+	// A held row naming a job was paused while that parked job was resuming: back
+	// to pending with it, so the spawn resumes the job instead of starting another.
+	private resumeHeld(item: QueueItem): void {
+		if (item.lastJobId) this.commit({kind: 'patch', itemId: item.id, reason: 'resume:heldParked', patcher: prev => ({...prev, status: QUEUE_STATUS.pending})})
+		else this.commit({kind: 'event', itemId: item.id, evt: {kind: 'retry-reset'}})
+	}
+
+	async cancel(itemId: string | null): Promise<Result<void>> {
+		if (itemId === null) {
+			await this.downloadService.cancel()
+			const ids = this.items.flatMap(i => (i.status === QUEUE_STATUS.probing || i.status === QUEUE_STATUS.needsChoice || i.status === QUEUE_STATUS.running || i.status === QUEUE_STATUS.pausedActive || i.status === QUEUE_STATUS.pausedHeld || i.status === QUEUE_STATUS.pending ? [i.id] : []))
+			logger.info('cancelAll', {ids: ids.length, snapshot: this.statusSummary()})
+			// Suppress scheduler during the sweep. Without this guard the FIRST per-item commit fires
+			// recomputeSchedule and spawns a fresh download, which the loop then cancels while its
+			// yt-dlp child keeps downloading to disk. Silent: the guard is local to the sweep, not a
+			// user-facing pause — no renderer flicker.
+			this.sleep.clear()
+			this.autoRetry.clearAll()
+			this.scheduler.set(true, {silent: true})
+			await this.inBulk(async () => {
+				try {
+					for (const id of ids) {
+						const item = this.findItem(id)
+						if (item && this.probeLifecycle.discard(item, 'cancelled')) continue
+						if (item) await this.artifactCleanup.cleanup(item)
+						const jobId = item?.lastJobId
+						if (jobId) this.forgetProgressState(jobId)
+						this.commit({kind: 'event', itemId: id, evt: {kind: 'cancelled'}})
+					}
+				} finally {
+					// Restore "fresh slate" before the bulk exit persists and reschedules — even if a
+					// cleanup throws, the queue must not stay silently paused. Emit the unpause only
+					// when it undoes a renderer-visible pause.
+					this.scheduler.set(false, {silent: !this.scheduler.userPaused})
+				}
+			})
+			logger.info('cancelAll done', {snapshot: this.statusSummary()})
+			return ok(undefined)
+		}
+
+		const item = this.findItem(itemId)
+		if (!item || this.probeLifecycle.discard(item, 'cancelled')) return ok(undefined)
+		this.autoRetry.clear(itemId)
+
+		// A pending or held row with a job id still has a job parked or starting.
+		if ((item.status === QUEUE_STATUS.pending || item.status === QUEUE_STATUS.pausedHeld) && !item.lastJobId) {
+			await this.artifactCleanup.cleanup(item)
+			this.commit({kind: 'event', itemId, evt: {kind: 'cancelled'}})
+			return ok(undefined)
+		}
+
+		if (item.lastJobId) {
+			await this.downloadService.cancel(item.lastJobId)
+			this.forgetProgressState(item.lastJobId)
+		}
+		await this.artifactCleanup.cleanup(item)
+		this.commit({kind: 'event', itemId, evt: {kind: 'cancelled'}})
+		return ok(undefined)
+	}
+
+	async retry(itemId: string): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+		if (item.status !== QUEUE_STATUS.error && item.status !== QUEUE_STATUS.cancelled) {
+			return fail(createAppError('validation', `cannot retry item in status ${item.status}`))
+		}
+		// An unresolved probe-error row has no job to run — resetting it to
+		// pending would make the scheduler hand an unresolved job to
+		// DownloadService.start, which rejects. It stays terminal; the user can
+		// remove it and hotkey-press the link again.
+		if (item.job.kind === 'unresolved') {
+			return fail(createAppError('validation', 'cannot retry a probe-stage item — the link must be submitted again'))
+		}
+		// A manual retry supersedes any scheduled automatic one and resets the
+		// budget: the user intervened, so the item gets a fresh set of attempts
+		// rather than inheriting an exhausted count.
+		this.autoRetry.reset(itemId)
+		const resumeContext = item.status === QUEUE_STATUS.error ? await QueueResumeLifecycle.validResumeContext(item) : undefined
+		if (item.resumeContext && !resumeContext) {
+			this.commit({kind: 'patch', itemId, reason: 'retry:clearMissingResumeContext', patcher: prev => ({...prev, resumeContext: undefined})})
+		}
+		this.commit({kind: 'event', itemId, evt: {kind: 'retry-reset'}})
+		return ok(undefined)
+	}
+
+	// eslint-disable-next-line @typescript-eslint/require-await -- Result API is async
+	async setLane(itemId: string, lane: QueueLane): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+		// Lane is intent. Allow change for pre-terminal items only; flipping a
+		// done/cancelled/error item has no effect on scheduling.
+		if (item.status === QUEUE_STATUS.done || item.status === QUEUE_STATUS.cancelled || item.status === QUEUE_STATUS.error) {
+			return fail(createAppError('validation', `cannot change lane of item in status ${item.status}`))
+		}
+		if (item.lane === lane) return ok(undefined)
+		this.commit({kind: 'patch', itemId, reason: `setLane:${lane}`, patcher: prev => ({...prev, lane})})
+		return ok(undefined)
+	}
+
+	async clearCompleted(): Promise<Result<void>> {
+		const idsToRemove = this.items.flatMap(i => (i.status === QUEUE_STATUS.done || i.status === QUEUE_STATUS.cancelled || i.status === QUEUE_STATUS.error ? [i.id] : []))
+		for (const id of idsToRemove) {
+			const item = this.findItem(id)
+			if (item) await this.artifactCleanup.cleanup(item)
+		}
+		await this.inBulk(() => {
+			for (const id of idsToRemove) this.commit({kind: 'remove', itemId: id, reason: 'removed'})
+		})
+		return ok(undefined)
+	}
+
+	applySelectionAction(action: QueueSelectionAction, itemIds: string[]): Promise<Result<QueueSelectionCommandResult>> {
+		return this.inBulk(() =>
+			applyQueueSelectionAction(
+				{cancel: itemId => this.cancel(itemId), findItem: itemId => this.findItem(itemId), pause: itemId => this.pause(itemId), remove: itemId => this.remove(itemId), resume: itemId => this.resume(itemId), retry: itemId => this.retry(itemId), setLane: (itemId, lane) => this.setLane(itemId, lane)},
+				action,
+				itemIds
+			)
+		)
+	}
+
+	changeOutputTarget(itemIds: string[], outputDir: string): Promise<Result<QueueOutputTargetChangeResult>> {
+		return this.inBulk(() => changeQueueOutputTarget({findItem: itemId => this.findItem(itemId), patchItem: (itemId, reason, patcher) => this.commit({kind: 'patch', itemId, reason, patcher})}, itemIds, outputDir))
+	}
+
+	async remove(itemId: string, reason: 'removed' | 'autoRemoved' = 'removed'): Promise<Result<void>> {
+		const item = this.findItem(itemId)
+		if (!item || this.probeLifecycle.discard(item, 'removed')) return ok(undefined)
+		if (item.status === QUEUE_STATUS.running) {
+			return fail(createAppError('validation', 'cannot remove a running item — cancel it first'))
+		}
+		if ((item.status === QUEUE_STATUS.pausedActive || item.status === QUEUE_STATUS.pending || item.status === QUEUE_STATUS.pausedHeld) && item.lastJobId) {
+			const cancelResult = await this.downloadService.cancel(item.lastJobId)
+			if (!cancelResult.ok) return fail(cancelResult.error)
+			this.forgetProgressState(item.lastJobId)
+		}
+		this.autoRetry.clear(itemId)
+		this.autoRemove.clear(itemId)
+		await this.artifactCleanup.cleanup(item)
+		this.commit({kind: 'remove', itemId, reason})
+		return ok(undefined)
+	}
+
+	// event ingestion --------------------------------------------------------
+
+	consumeStatusEvent(event: StatusEvent): void {
+		const item = this.findByJobId(event.jobId)
+		if (!item) return
+		if (event.stage === 'done') {
+			this.finalArtifactTargets.remember(event.jobId, item.id)
+			this.forgetProgressState(event.jobId)
+			void this.artifactCleanup.cleanupProbeInfoJson(item)
+			// Inter-job cooldown applies only when a normal-lane job finishes —
+			// priority jobs are user-driven bursts, no need to throttle the queue
+			// after they wrap.
+			if (item.lane === 'normal') this.sleep.arm()
+			this.commit({kind: 'event', itemId: item.id, evt: {kind: 'completed', finishedAt: nowIso(), lastStatusKey: event.statusKey, params: event.params}})
+			this.autoRemove.schedule(item.id)
+			return
+		}
+		if (event.stage === 'error') {
+			this.forgetProgressState(event.jobId)
+			// Cancellation arrives as STATUS_KEY.cancelled — already projected via
+			// the cancel command path. Skip a redundant transition.
+			if (event.statusKey === 'cancelled') return
+			if (item.lane === 'normal') this.sleep.arm()
+			const error = event.error ?? {kind: 'unknown' as const, raw: ''}
+			this.commit({kind: 'event', itemId: item.id, evt: {kind: 'failed', error, resumeContext: event.resumeContext, lastStatusKey: event.statusKey, params: event.params}})
+			// Read the post-commit slot: `item` predates the transition, so its
+			// retryCount is the pre-failure snapshot.
+			const failedItem = this.findItem(item.id)
+			if (failedItem) this.autoRetry.schedule(failedItem, error)
+			return
+		}
+		// Phase transition — non-status update for "Merging…", "Embedding…", etc.
+		// Skip for terminal states to avoid stale events mutating cancelled/done.
+		if (item.status === QUEUE_STATUS.cancelled || item.status === QUEUE_STATUS.done) return
+		commitPhaseStatus({patch: (reason, patcher) => this.commit({kind: 'patch', itemId: item.id, reason, patcher}), persistNow: () => this.persist(true)}, event)
+	}
+
+	private forgetProgressState(jobId: string): void {
+		this.jobProgress.forget(jobId)
+	}
+
+	consumeProgressEvent(event: ProgressEvent): void {
+		const item = this.findByJobId(event.jobId)
+		if (!item) return
+		const update = this.jobProgress.read(item, event)
+		// A post-download phase drops the line, and with it any coalesced progress
+		// a racing event re-enqueued before the phase patch landed.
+		if (!update) {
+			this.progress.drop(item.id)
+			return
+		}
+		this.commit({kind: 'event', itemId: item.id, evt: {kind: 'progress', ...update}})
+	}
+
+	consumeArtifactEvent(event: QueueArtifactEvent): void {
+		ingestQueueArtifactEvent({items: () => this.items, finalTargets: this.finalArtifactTargets, commitPatch: (itemId, reason, patcher) => this.commit({kind: 'patch', itemId, reason, patcher})}, event)
+	}
+
+	// commit pipeline --------------------------------------------------------
+
+	// Transitions, phase patches, and any non-progress update bypass the
+	// coalescer. A pending progress emit for the same item is dropped because
+	// the transition encodes a newer state; emitting the stale progress after
+	// the transition would briefly revert UI from e.g. "merging" to "downloading
+	// 47%". Dropping is safe because progress fields ride along on every
+	// QueueItem and the transition's `next` already carries the latest values.
+	private emitImmediate(item: QueueItem): void {
+		this.progress.drop(item.id)
+		this.emit('updated', {item})
+	}
+
+	// Test seam — synchronously drain pending progress. Production code never
+	// calls this; the timer flushes naturally.
+	flushPendingProgressForTests(): void {
+		this.progress.flushNow()
+	}
+
+	private commit(mutation: Mutation): void {
+		if (!isProgressOnlyMutation(mutation)) logger.debug('commit', {mutation: describeMutation(mutation)})
+		switch (mutation.kind) {
+			case 'add': {
+				const atIdx = this.items.length
+				this.items.push(...mutation.items)
+				this.persist()
+				this.emit('added', {items: mutation.items, atIdx})
+				this.titleBackfill.enqueueForItems(mutation.items)
+				break
+			}
+			case 'event': {
+				const idx = this.items.findIndex(i => i.id === mutation.itemId)
+				if (idx < 0) return
+				const prev = this.items[idx]
+				const illegal = illegalTransition(prev, mutation.evt)
+				if (illegal) {
+					logger.debug('Skipping illegal transition', {itemId: mutation.itemId, evt: mutation.evt.kind, reason: illegal})
+					return
+				}
+				const next = transition(prev, mutation.evt)
+				this.items[idx] = next
+				// A progress update never needs a disk write: persistence demotes a running
+				// item to pending with progress reset (prepareItemForPersistence), so the
+				// file would be identical — and electron-store rewrites the whole queue
+				// synchronously on the main process, once per yt-dlp progress redraw.
+				if (!isProgressOnlyMutation(mutation)) this.persist()
+				// Write the playlist M3U incrementally after each successful item, not
+				// only when the whole group finishes: a crash, a parked (paused) item,
+				// or items spread across lanes would otherwise leave no M3U despite
+				// completed downloads. buildM3u is idempotent (scans disk, includes
+				// only files that exist), so each write grows the playlist; a fully
+				// cancelled group never triggers one, so no header-only file.
+				if (next.status === QUEUE_STATUS.done && next.playlistGroupId && next.writeM3u !== false) {
+					const groupId = next.playlistGroupId
+					void this.playlistM3u.write(groupId).catch(err => {
+						logger.error('Failed to write playlist M3U', {playlistGroupId: groupId, error: err instanceof Error ? err.message : String(err)})
+					})
+				}
+				if (mutation.evt.kind === 'progress') this.progress.enqueue(next)
+				else this.emitImmediate(next)
+				break
+			}
+			case 'patch': {
+				const idx = this.items.findIndex(i => i.id === mutation.itemId)
+				if (idx < 0) return
+				const next = mutation.patcher(this.items[idx])
+				this.items[idx] = next
+				this.persist()
+				this.emitImmediate(next)
+				break
+			}
+			case 'remove': {
+				const idx = this.items.findIndex(i => i.id === mutation.itemId)
+				if (idx < 0) return
+				this.items.splice(idx, 1)
+				this.persist()
+				this.progress.drop(mutation.itemId)
+				this.emit('removed', {itemId: mutation.itemId, reason: mutation.reason})
+				break
+			}
+		}
+		if (this.bulkDepth === 0) this.recomputeSchedule()
+	}
+
+	// scheduler --------------------------------------------------------------
+
+	private recomputeSchedule(): void {
+		// Global pause: scheduler is dormant. Per-item explicit start/resume
+		// still spawn directly via spawnViaStart — they don't go through here.
+		if (this.scheduler.paused) {
+			logger.debug('recomputeSchedule skipped (queue paused)', {snapshot: this.statusSummary()})
+			return
+		}
+		const now = Date.now()
+		let activeCount = this.spawning.size + this.items.filter(i => i.status === QUEUE_STATUS.running || i.status === QUEUE_STATUS.pausedActive).length
+		let normalRunning = this.items.filter(i => i.status === QUEUE_STATUS.running && i.lane === 'normal').length
+		for (const s of this.spawning) {
+			const item = this.findItem(s)
+			if (item?.lane === 'normal') normalRunning++
+		}
+
+		let armSleep = false
+		let earliestHold: number | null = null
+		const spawned: string[] = []
+		const held: string[] = []
+		for (const item of this.items) {
+			if (item.status !== QUEUE_STATUS.pending) continue
+			if (this.spawning.has(item.id)) continue
+			if (activeCount >= this.maxConcurrent) break
+			// Priority rows skip the normal lane's cap and pause.
+			const priority = item.lane === 'priority'
+			if (!priority && normalRunning >= this.normalCap) continue
+			if (!priority && this.sleep.blocksAt(now)) {
+				armSleep = true
+				continue
+			}
+			const start = this.siteHold.admit(item, now)
+			if (start.kind === 'hold') {
+				if (start.until !== 'full') earliestHold = Math.min(earliestHold ?? start.until, start.until)
+				held.push(item.id)
+				continue
+			}
+			this.beginSpawn(item.id, start.reservation)
+			spawned.push(item.id)
+			activeCount++
+			if (!priority) normalRunning++
+		}
+		if (spawned.length > 0 || armSleep || held.length > 0) {
+			logger.info('recomputeSchedule', {spawned, activeCount, normalRunning, normalCap: this.normalCap, ceiling: this.maxConcurrent, sleepUntil: this.sleep.deadline, armSleep, siteHeld: held, siteHoldUntil: earliestHold === null ? null : new Date(earliestHold).toISOString(), snapshot: this.statusSummary()})
+		}
+
+		this.sleep.sync(armSleep, now, () => this.recomputeSchedule())
+		this.siteHold.sync(earliestHold, now, () => this.recomputeSchedule())
+	}
+
+	private beginSpawn(itemId: string, signedInReservation: string | undefined): void {
+		if (this.spawning.has(itemId)) return
+		this.spawning.add(itemId)
+		const item = this.findItem(itemId)
+		logger.info('beginSpawn', {itemId, lane: item?.lane, hasTempDir: Boolean(item?.tempDir ?? item?.resumeContext?.tempDir), spawningSize: this.spawning.size})
+		void this.spawnViaStart(itemId, undefined, signedInReservation).catch(err => {
+			logger.error('Auto-start failed', {itemId, error: err instanceof Error ? err.message : String(err)})
+		})
+	}
+
+	private async spawnViaStart(itemId: string, tempDir: string | undefined, signedInReservation?: string): Promise<Result<void>> {
+		this.spawning.add(itemId)
+		try {
+			const item = this.findItem(itemId)
+			if (!item) return fail(createAppError('validation', `queue item ${itemId} not found`))
+			const deps = {
+				downloadService: this.downloadService,
+				probeInfoJsonCache: this.probeInfoJsonCache,
+				findItem: (id: string) => this.findItem(id),
+				commitEvent: (id: string, evt: QueueEvent) => this.commit({kind: 'event', itemId: id, evt}),
+				patch: (id: string, reason: string, patcher: (prev: QueueItem) => QueueItem) => this.commit({kind: 'patch', itemId: id, reason, patcher}),
+				settled: () => this.spawning.delete(itemId),
+				startIdentity: (row: QueueItem) => this.siteHold.startIdentity(row)
+			}
+			return await spawnQueueJob(deps, item, tempDir, signedInReservation)
+		} finally {
+			this.spawning.delete(itemId)
+		}
+	}
+
+	// helpers ----------------------------------------------------------------
+
+	private findItem(itemId: string): QueueItem | undefined {
+		return this.items.find(i => i.id === itemId)
+	}
+
+	private findByJobId(jobId: string): QueueItem | undefined {
+		return this.items.find(i => i.lastJobId === jobId)
+	}
+
+	private async inBulk<T>(run: () => T | Promise<T>): Promise<T> {
+		this.bulkDepth++
+		try {
+			return await run()
+		} finally {
+			this.bulkDepth--
+			if (this.bulkDepth === 0) {
+				this.persist()
+				this.recomputeSchedule()
+			}
+		}
+	}
+
+	// Persist gate: deferred while any bulk command is in flight — the outermost
+	// inBulk() exit writes once. Each commit() call site invokes persist()
+	// unconditionally for clarity; the guard here is the single chokepoint.
+	private persist(force = false): void {
+		if (this.bulkDepth > 0 && !force) return
+		void this.saveQueue().catch(err => {
+			logger.error('Queue persist failed', {error: err instanceof Error ? err.message : String(err)})
+		})
+	}
+
+	// The file keeps the user's pause flag, and the rows quitting stopped as pending.
+	private saveQueue(): Promise<void> {
+		return this.queueStore.save(queueForNextLaunch(this.items, this.exitRequeued), this.scheduler.userPaused)
+	}
+
+	// Diagnostic helpers — used for logging. Kept inline (not stripped under
+	// NODE_ENV) so post-mortem of a user log file is possible without a
+	// dedicated dev build.
+	private statusSummary(): Record<string, number> {
+		return statusSummary(this.items, this.spawning.size, this.scheduler.paused)
+	}
+}

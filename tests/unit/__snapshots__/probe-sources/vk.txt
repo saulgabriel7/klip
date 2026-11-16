@@ -1,0 +1,29 @@
+vk: DASH video-only and muxed MP4s of the same height, codec named on some only
+ProtivoGunz - Хуёвая песня · 195 s · card says "320x240" · 12 formats
+
+Video (picked for Balanced 720p •):
+      SDR H.264
+240p  H.264 6.9 MiB •
+144p  H.264 2.6 MiB
+
+Audio:
+AAC: 53 kbps 1.2 MiB | 37 kbps 872.1 KiB
+MP4: High quality no size •
+convert from: mp3 ← hls_fmp4-12_0-Audio re-encode · m4a ← hls_fmp4-12_0-Audio re-encode · opus ← hls_fmp4-12_0-Audio re-encode · wav ← hls_fmp4-12_0-Audio re-encode
+
+Profile picks:
+best-quality: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4)
+best-2160: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4) (notices: {"kind":"video-tier-fallback","wanted":"2160","picked":240})
+best-1440: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4) (notices: {"kind":"video-tier-fallback","wanted":"1440","picked":240})
+hd-1080: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4) (notices: {"kind":"video-tier-fallback","wanted":"1080","picked":240})
+balanced: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4) (notices: {"kind":"video-tier-fallback","wanted":"720","picked":240})
+small-file: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4) (notices: {"kind":"video-tier-fallback","wanted":"480","picked":240})
+mp4-1080: hls_fmp4-300 (320x240, mp4) + audio dash_sep-4 (audio only, m4a) (notices: {"kind":"video-tier-fallback","wanted":"1080","picked":240})
+mp4-720: hls_fmp4-300 (320x240, mp4) + audio dash_sep-4 (audio only, m4a) (notices: {"kind":"video-tier-fallback","wanted":"720","picked":240})
+mp4-480: hls_fmp4-300 (320x240, mp4) + audio dash_sep-4 (audio only, m4a) (notices: {"kind":"video-tier-fallback","wanted":"480","picked":240})
+audio-only: audio hls_fmp4-12_0-Audio (audio only, mp4)
+low-240: hls_fmp4-300 (320x240, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4)
+low-144: hls_fmp4-111 (192x144, mp4) + audio hls_fmp4-12_0-Audio (audio only, mp4)
+
+Subtitles: none
+Auto captions: none

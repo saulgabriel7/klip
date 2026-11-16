@@ -1,0 +1,453 @@
+const TECH_CONTENT = `<details>
+<summary><strong>Stack</strong></summary>
+
+- **Electron** — programu ya mezani inayofanya kazi kwenye mifumo yote
+- **React 19** + **TypeScript** — kiolesura cha mtumiaji
+- **Tailwind CSS v4** — muundo wa kuonekana
+- **Zustand** — usimamizi wa hali
+- **yt-dlp** + **ffmpeg** — injini ya kupakua na kuchanganya (zote mbili hupakuliwa wakati wa runtime: yt-dlp hudumishwa kuwa ya kisasa, ffmpeg/ffprobe husakinishwa mara moja na kubaki baada ya masasisho)
+- **Vite** + **electron-vite** — zana za ujenzi
+- **Vitest** + **Playwright** — majaribio ya kitengo na ya mwisho-hadi-mwisho
+
+</details>
+
+<details>
+<summary><strong>Jenga kutoka chanzo</strong></summary>
+
+### Mahitaji ya awali — mifumo yote
+
+| Zana    | Toleo   | Usanidi |
+| ------- | ------- | ------- |
+| Git     | yoyote  | [git-scm.com](https://git-scm.com) |
+| Node.js | 24.21.0 | \`mise install\` au \`.node-version\` |
+| Bun     | 1.4.2  | \`mise install\` au \`package.json\` \`packageManager\` |
+
+Inapendekezwa: sakinisha \`mise\`, kisha endesha \`mise install\` ndani ya checkout. Bila mise, washa Node.js kutoka \`.node-version\` na Bun kutoka \`package.json\` kabla ya \`bun run bootstrap\`.
+
+### Windows
+
+\`\`\`powershell
+powershell -c "irm bun.sh/install.ps1 | iex"
+\`\`\`
+
+Visual Studio Build Tools na Python zinaweza kuhitajika kwa rebuild za asili.
+
+### macOS
+
+\`\`\`bash
+brew install mise
+xcode-select --install
+\`\`\`
+
+Baada ya ku-clone, endesha \`mise trust && mise install\` ndani ya checkout. Ikiwa shell yako tayari inatumia \`fnm\`, \`nvm\`, au Bun ya Homebrew, wezesha mise katika \`~/.zshrc\` ili Arroxy itumie Node.js 24.21.0 na Bun 1.4.2:
+
+\`\`\`bash
+printf '\n# mise\nif command -v mise >/dev/null 2>&1; then\n  eval "$(mise activate zsh)"\nfi\n' >> ~/.zshrc
+exec zsh
+\`\`\`
+
+### Linux (Ubuntu / Debian)
+
+\`\`\`bash
+curl -fsSL https://bun.sh/install | bash
+
+# Utegemezi wa build na wakati wa utekelezaji wa Electron
+sudo apt install -y build-essential python3 tar libgtk-3-0 libnss3 libasound2t64
+
+# Majaribio ya E2E tu (Electron inahitaji skrini)
+sudo apt install -y xvfb
+\`\`\`
+
+### Clone na uendeshe
+
+\`\`\`bash
+git clone https://github.com/antonio-orionus/Arroxy
+cd Arroxy
+mise trust
+mise install           # inapendekezwa; ruka kama umewezesha zana zilizopiniwa mwenyewe
+bun run bootstrap
+bun run doctor
+bun run dev            # programu ya Electron dhidi ya Vite renderer
+\`\`\`
+
+### Jenga faili la usambazaji
+
+\`\`\`bash
+bun run build        # ukaguzi wa aina + mkusanyiko
+bun run dist         # funga kwa OS ya sasa
+bun run dist:win     # funga malengo ya Windows kwenye host inayotumika
+\`\`\`
+
+> \`bun run bootstrap\` husakinisha utegemezi, hujenga upya utegemezi wa programu ya Electron, huthibitisha Electron, huandaa ffmpeg/ffprobe zilizopachikwa kwa maendeleo, na husakinisha Playwright Chromium. Matoleo rasmi husimamia yt-dlp, ffmpeg na ffprobe wakati wa runtime kwenye folda ya data ya programu; hakuna kati yake kinachokuja ndani ya kisakinishi.
+
+</details>`;
+
+export const sw = {
+  icon_alt: "Nembo ya Arroxy",
+  hero_image_alt: "Bandika kiungo, au vinjari tu. Skrini ya URL na kivinjari kilichojengewa ndani cha Arroxy, pamoja na upakuaji unaoendelea.",
+  hero_banner_line1: "Bandika kiungo,",
+  hero_banner_line2: "au vinjari tu.",
+  title: "Kipakuzi cha bure na chanzo wazi cha YouTube na zaidi ya tovuti 2000, chenye kivinjari kilichojengewa ndani. Kwa Windows, macOS, na Linux.",
+  hero_promise: "Hakuna matangazo, vikomo vya matumizi, wala ushawishi wa kununua vipengele vya ziada.",
+  intro_workflow_h2: "Vinjari, ingia, pakua",
+  intro_workflow: "**Bandika kiungo au vinjari ndani ya programu.** Tumia kichupo cha Gundua kupakua video, orodha ya kucheza, au kituo unachotazama, au bofya kiungo kwa kitufe cha kulia ili kukipakua.",
+  intro_signin: "Ingia mara moja kwenye kila tovuti ili kupakua maudhui ambayo akaunti yako inaweza kufikia — yakiwemo video zako za faragha na orodha za Tazama Baadaye na Video Ulizopenda. Huhitaji kuhamisha vidakuzi. [Zaidi kuhusu Gundua](#why-explore).",
+  dl_requirements: "**Mahitaji:** Windows 10/11 · macOS 13+ (Intel au Apple Silicon) · Linux (AppImage, Flatpak, au tar.gz).",
+  chip_browser: "Kivinjari ndani",
+  chip_signin: "Akaunti yako mwenyewe",
+  chip_resolution: "Hadi 8K",
+  chip_framerate: "Fremu 60/s",
+  chip_dolby: "Sauti ya Dolby",
+  chip_clip: "Sehemu ya video",
+  chip_playlists: "Orodha za kucheza",
+  chip_subtitles: "Manukuu",
+  chip_sites: "+tovuti 2000",
+  privacy_anonymous_reports: "**Hakuna ufuatiliaji.** Arroxy hutuma ripoti zisizo na utambulisho pekee zinazotusaidia kuhesabu watumiaji na kurekebisha matatizo — kamwe haitumi viungo, video, faili au taarifa za akaunti zako. Unazidhibiti katika Mipangilio.",
+  privacy_explore_sign_ins: "Gundua huhifadhi taarifa zake za kuingia, tofauti na kivinjari chako, na daima unaingia kwenye ukurasa wa tovuti yenyewe. Upakuaji hutumia taarifa za kuingia kwa tovuti hiyo tu, huzisoma upya kila mara na kufuta nakala yake baada ya hapo. Kutoka kwenye akaunti za Gundua katika Mipangilio hufuta taarifa za kuingia zilizohifadhiwa.",
+  chip_browser_encoded: "Kivinjari%20ndani",
+  chip_signin_encoded: "Akaunti%20yako%20mwenyewe",
+  chip_resolution_encoded: "Hadi%208K",
+  chip_framerate_encoded: "Fremu%2060%2Fs",
+  chip_dolby_encoded: "Sauti%20ya%20Dolby",
+  chip_clip_encoded: "Sehemu%20ya%20video",
+  chip_playlists_encoded: "Orodha%20za%20kucheza",
+  chip_subtitles_encoded: "Manukuu",
+  chip_sites_encoded: "%2Btovuti%202000",
+  read_in_label: "Soma kwa:",
+  badge_release_alt: "Toleo",
+  badge_build_alt: "Ujenzi",
+  badge_license_alt: "Leseni",
+  badge_i18n_alt: "Lugha",
+  discord_badge_text: "Jiunge na jumuiya ya Discord",
+  discord_badge_encoded: "Jiunge%20na%20jumuiya%20ya%20Discord",
+  cta_latest: "↓ Sakinisha Arroxy",
+  cta_website: "Tovuti",
+  website_url: "https://arroxy.com/",
+  star_cta: "Ikiwa Arroxy inakuokoa muda, ⭐ inasaidia wengine kuipata.",
+  ai_notice: "",
+  last_updated: "Imesasishwa mara ya mwisho: {{LAST_UPDATED}}.",
+  toc_heading: "Yaliyomo",
+  why_h2: "Kwa Nini Arroxy",
+  features_h2: "Vipengele",
+  dl_h2: "Sakinisha na uzinduzi wa kwanza",
+  privacy_h2: "Faragha",
+  faq_h2: "Maswali Yanayoulizwa Mara kwa Mara",
+  roadmap_h2: "Ramani ya Barabara",
+  tech_h2: "Imejengwa na",
+  why_intro: "Ulinganisho wa pamoja na mbadala za kawaida zaidi:",
+  why_r1: "Bure, hakuna ngazi ya malipo",
+  why_r2: "Chanzo wazi",
+  why_r3: "Usindikaji wa mahali hapo tu",
+  why_r5: "Hakuna vikwazo vya matumizi",
+  why_r6: "Programu ya mezani inayofanya kazi kwenye mifumo yote",
+  why_r7: "Manukuu + SponsorBlock",
+  why_r8: "Kivinjari kilichojengewa ndani (vinjari, ingia, pakua)",
+  why_r9:
+    "Video ambazo akaunti yako inaweza kutazama, bila kuhamisha vidakuzi",
+  why_table_note:
+    "⚠️ = kwa sehemu, au kwenye kiwango cha kulipia pekee. Kuingia ndani ya programu kwa video za faragha katika 4K Video Downloader ni kipengele cha kulipia; GUI nyingi za bure za yt-dlp hukubali faili ya vidakuzi pekee au husoma vidakuzi vya kivinjari chako cha wavuti.",
+  why_summary:
+    "Arroxy imejengwa kwa jambo moja: faili safi la mahali hapo, iwe unabandika URL au unapata video katika Explore. Hakuna mauzo ya ziada, hakuna ukusanyaji wa data.",
+  why_explore_h3:
+    "Kile ambacho kifuniko cha kawaida cha yt-dlp hakiwezi: kichupo cha Explore",
+  why_explore_intro:
+    "Vipakuzi vingi vya bure vya YouTube ni kisanduku cha URL juu ya yt-dlp tu. Arroxy pia hutumia yt-dlp, lakini ina **Gundua** pia, kivinjari kilichojengwa ndani ya programu kinachofungua YouTube au tovuti nyingine yoyote. Gundua huongeza kile ambacho kisanduku cha URL hakiwezi:",
+  why_explore_1:
+    "**Video ambazo akaunti yako inaweza kutazama, bila kuhamisha vidakuzi** — video zako za faragha, orodha zako za Tazama Baadaye na Zilizopendwa, video zenye kikomo cha umri kwenye akaunti iliyothibitishwa umri, na kurasa za tovuti nyingine zinazohitaji kuingia kwako. Kifuniko cha kawaida kinahitaji faili ya cookies.txt iliyohamishwa au husoma vidakuzi vya kivinjari chako cha wavuti. Katika Arroxy unaingia mara moja katika Gundua na inashughulikia mengine yote",
+  why_explore_4:
+    "**Hakuna kunakili viungo** — tafuta video, playlist, au channel katika Explore na uipakue kwa kubofya mara moja, au bofya kulia kiungo chochote kwenye ukurasa",
+  why_explore_5:
+    "**Kizuia matangazo ukitaka** — kubofya ngao mara moja huzuia matangazo na vifuatiliaji kwenye kurasa za Explore",
+  feat_explore_h3: "Explore: vinjari wavuti ndani ya Arroxy",
+  feat_explore_1: "**Kichupo cha Explore** — vinjari YouTube au tovuti nyingine yoyote ndani ya Arroxy na upakue unachopata bila kunakili viungo. **Pakua · *wasifu wako*** huweka kwenye foleni video, playlist, au channel unayotazama; mshale ulio kando hubadilisha wasifu, na kijiti cha uchawi hufungua upakuaji wa hatua kwa hatua wa kuchagua fomati, manukuu, na zaidi",
+  feat_explore_6: "**Bofya kulia ili kupakua** — bofya kulia kiungo chochote cha video, playlist au channel katika Explore ili kukipakua kwa wasifu wako, kuchagua wasifu mwingine kutoka **Pakua kwa**, kufungua upakuaji wa hatua kwa hatua, au kunakili kiungo. Hakuna haja ya kufungua kila video kwanza",
+  feat_explore_7:
+    "**Mpangilio mshikamano** — kubofya mara moja kwenye upau wa zana wa Explore huhamishia vichupo vya Arroxy ndani yake na kuipa ukurasa nafasi zaidi",
+  feat_explore_2: "**Upau wa anwani** — andika kutafuta YouTube au andika anwani yoyote ya wavuti kufungua tovuti hiyo",
+  feat_explore_3: "**Upakuaji unaohitaji akaunti** — ingia mara moja katika Gundua na Arroxy inaweza kupakua video ambazo akaunti yako inaweza kutazama: video zako za faragha, video zenye kikomo cha umri ikiwa umri wa akaunti umethibitishwa, na orodha zako za Tazama Baadaye na Zilizopendwa. Ingia pia kwenye tovuti nyingine humo, na upakuaji wao hutumia kuingia huko pale unapohitajika. Arroxy bado hupakua kwanza bila kuingia na hutumia kuingia kwako kwa Gundua tu pale upakuaji unaposhindwa kwa njia ambayo akaunti inaweza kurekebisha",
+  feat_explore_4: "**Tumia akaunti ya pili** — skrini ya kwanza ya Explore inaeleza sababu: kupakua kwa akaunti kuna hatari fulani ya akaunti hiyo kuwekewa vikwazo. Toka kwenye Explore kupitia Mipangilio wakati wowote unapotaka kusahau kuingia kwako kote",
+  feat_explore_5: "**Kizuia matangazo** — kimezimwa kwa chaguomsingi. Kubofya ngao mara moja kwenye upau wa zana wa Explore huzuia matangazo na vifuatiliaji kwenye kurasa zake, bila kuathiri upakuaji. YouTube inaweza kupinga vizuia matangazo kwa akaunti zilizoingia",
+  feat_quality_h3: "Ubora na fomati",
+  feat_quality_1: "Hadi **8K (4320p)**, 4K UHD (2160p), 1440p, 1080p, 720p, 480p, 360p",
+  feat_quality_2:
+    "**Kiwango cha juu cha fremu na HDR** vimehifadhiwa kama vilivyo — fps 60, HDR10",
+  feat_quality_3:
+    "**Sauti** — hamisha sauti pekee kama MP3, M4A/AAC, Opus au WAV. Katika upakuaji wa mwingiliano, chagua nyimbo asili za surround/Dolby za chanzo (AC-3, E-AC-3, 5.1, DRC) zinapopatikana, au weka chaguo-msingi la jumla **Pendelea surround / Dolby**",
+  feat_quality_4:
+    "**Wasifu wenye lengo** — *Picha bora* (AV1 · VP9) au *Runinga janja* (MP4 · H.264), huhifadhiwa kama Otomatiki, MP4, MKV, au WebM bila kusimba upya. HDR ni *Otomatiki* (tu skrini yako inapoweza kuionyesha), *SDR*, au *HDR*",
+  feat_quality_5:
+    "**Kila kodeki katika kila azimio** — upakuaji wa hatua kwa hatua huorodhesha AV1, VP9 na H.264 kando kwa kando katika kila azimio, ili uchague ile ambayo TV yako au kihariri chako kinacheza",
+  feat_quality_6:
+    "**Jua mtiririko ulivyo hasa** — ukubwa ambao YouTube imekuza kwa AI, lugha za sauti zilizotafsiriwa na AI, mitiririko yenye bitrate iliyoboreshwa, video za 360° na nakala zilizoharibika au zenye alama-maji huwekewa alama. Wasifu huruka mitiririko iliyokuzwa kwa AI isipokuwa uiruhusu",
+  feat_privacy_h3: "Faragha na udhibiti",
+  feat_privacy_1:
+    "Usindikaji wa mahali hapo 100% — maudhui yanashuka moja kwa moja kutoka YouTube hadi kwenye diski yako",
+  feat_privacy_2:
+    "Hakuna kuingia, hakuna vidakuzi, hakuna akaunti ya Google iliyounganishwa",
+  feat_privacy_3: "Faili zimehifadhiwa moja kwa moja kwenye folda unayochagua",
+  feat_workflow_h3: "Mtiririko wa kazi",
+  feat_workflow_12: "**Njia ya mkato ya kupakua kwa mfumo mzima** — nakili kiungo katika programu yoyote kisha bonyeza `Ctrl+Shift+D` (`Cmd+Shift+D` kwenye macOS); Arroxy huikiweka kwenye foleni kwa wasifu wako unaotumika bila kufungua dirisha, na arifa huthibitisha. Imewashwa kwa chaguo-msingi, inaweza kubadilishwa",
+  feat_workflow_1: "**Njia rahisi za kuanza** — chagua upakuaji mmoja unaoongozwa, kichagua playlist/channel, kubandika URL nyingi, Quick Download kwa mipangilio chaguomsingi iliyohifadhiwa, au vinjari na upakue kutoka Explore",
+  feat_workflow_2:
+    "**Foleni kuu ya upakuaji** — kazi ya single, playlist, bulk, au quick yote huingia sehemu moja kwa maendeleo, kusitisha, kuendelea, kughairi, kujaribu tena, na udhibiti wa kipaumbele",
+  feat_workflow_3:
+    "**Ufuatiliaji wa ubao wa kunakili** — nakili kiungo cha video na kitajaza sehemu ya URL ukirudi kwenye Arroxy, pamoja na **Tendua** ikiwa hukukusudia. Arroxy ikiwa na shughuli, kiungo husubiri hadi urudi kwenye kichupo cha URL (kizime katika Mipangilio)",
+  feat_workflow_4:
+    "**Usafi wa URL kiotomatiki** — huondoa vigezo vya ufuatiliaji (`si`, `pp`, `utm_*`, `fbclid`, `gclid`) na kufungua viungo vya `youtube.com/redirect`",
+  feat_workflow_5:
+    "**Hali ya tray** — kufunga dirisha kunaacha maudhui kuendelea kupakuliwa nyuma ya skrini",
+  feat_workflow_6:
+    "**Lugha {{LANG_COUNT}}** — hutambua locale ya mfumo kiotomatiki, unaweza kubadilisha wakati wowote",
+  feat_workflow_7:
+    "**Usawazishaji wa orodha ya kucheza** — hukagua tena orodha ya kucheza dhidi ya folda ya ndani ili kuruka video zilizopakuliwa tayari; hutengeneza faili ya orodha ya kucheza `.m3u` inayosasishwa kila video inapopakuliwa",
+  feat_workflow_8:
+    "**Udhibiti wa kasi na pacing** — weka kikomo cha bandwidth ya upakuaji, weka ni sehemu ngapi za video zinapakuliwa kwa wakati mmoja, na ongeza ucheleweshaji wa maombi kwa mipangilio (*Zima · Uwiano · Tahadhari · Maalum*)",
+  feat_workflow_9:
+    "**Violezo vya majina ya faili** — taja upakuaji jinsi unavyotaka kwa `{title}`, `{uploader}`, `{id}`, `{date}`, `{year}`, `{resolution}`, `{site}`, `{categories}`, `{artist}`, `{album}`, `{track}` na `{playlist_index}`, kwa jumla au kwa kila wasifu wa upakuaji",
+  feat_workflow_10:
+    "**Upakuaji kwa wakati mmoja na kujaribu tena kiotomatiki** — chagua upakuaji mangapi wa foleni unaendelea kwa wakati mmoja, na acha Arroxy ajaribu tena upakuaji uliokumbwa na hitilafu ya mtandao au seva, akisubiri muda mrefu zaidi kabla ya kila jaribio",
+  feat_workflow_11:
+    "**Wasifu kwa kila kipengele cha orodha ya kucheza** — mpe kila video katika orodha ya kucheza wasifu wake wa upakuaji badala ya mpangilio mmoja kwa orodha nzima, ili pasi moja iweze kuhifadhi baadhi kwa ubora kamili na kuhifadhi zilizobaki kama sauti pekee",
+  feat_workflow_13: "**Quick Download hufanya kazi chinichini** — kiungo huonekana mara moja katika Vipakuliwa na kuandaliwa huko, ujumbe wenye **Tazama** unathibitisha, na sehemu ya URL husafishwa kwa kiungo kinachofuata. Anzisha nyingi upendavyo huku zile za awali zikiandaliwa",
+  feat_workflow_14: "**Vipakuliwa hukuambia kinachokuhitaji** — ikiwa Arroxy haiwezi kusoma kiungo, safu yake inaeleza sababu na kutoa suluhisho: Jaribu tena, washa vidakuzi, au ingia katika Explore. Vidakuzi vikiwa vimezimwa, **Ingia kwa Explore** hujaribu tena kwa ajili yako ukishaingia. Playlist ndefu kuliko kikomo chako cha kupakia husubiri kwenye safu yake ili uchague yote, za kwanza, au ukaguzi. Kichupo cha Vipakuliwa kinahesabu safu zinazokusubiri",
+  feat_workflow_15:
+    "**Pakua sehemu tu ya video** — chagua mwanzo na mwisho, au sura, kwenye skrini ya Umbizo na Arroxy huhifadhi kipindi hicho tu, kikiwa na jina lenye kipindi baada ya kitambulisho cha video. Ukataji hutua kwenye fremu kuu iliyo karibu zaidi; washa ukataji kamili ili kusimba upya badala yake",
+  feat_workflow_16:
+    "**Ondoa kiotomatiki vipakuzi vilivyokamilika** — hiari: upakuaji uliokamilika huondoka kwenye orodha baada ya sekunde 5. Faili zake hubaki kwenye diski, na upakuaji ulioshindwa hubaki kwenye orodha",
+  feat_workflow_17:
+    "**Ukubwa na Haipo katika Vipakuliwa** — safu ya **Ukubwa** inayoweza kupangwa inaonyesha kila upakuaji unatumia nafasi kiasi gani, na **Haipo** huashiria faili zilizohamishwa au kufutwa nje ya Arroxy",
+  feat_workflow_18:
+    "**Aurora au Rahisi, giza au mwanga** — paneli za kioo juu ya anga linalosogea, au nyuso tulivu thabiti; badilisha kutoka kijachini. Kompyuta zisizo na kasi ya michoro hupata Rahisi kiotomatiki",
+  feat_workflow_19:
+    "**Upau wa menyu wa Mac** — kwenye macOS, fungua Mipangilio (`Cmd+,`), weka kikomo cha kasi ya kupakua, badilisha mtindo na mandhari, na fungua kumbukumbu au hifadhi faili la uchunguzi kutoka kwenye upau wa menyu",
+  feat_workflow_20:
+    "**Badilisha wasifu kutoka kwa upakuaji wowote** — rekebisha upakuaji, kisha sasisha wasifu ulioanzia (pamoja na onyesho la kinachobadilika) au hifadhi mipangilio kama wasifu mpya. Unapobadilisha wasifu, unaulizwa kama uhifadhi mabadiliko yako",
+  feat_post_h3: "Manukuu na usindikaji wa baada ya kupakua",
+  feat_post_1:
+    "**Manukuu** katika SRT, VTT, au ASS — ya mkono au yaliyozalishwa kiotomatiki, katika lugha yoyote inayopatikana",
+  feat_post_2:
+    "Hifadhi karibu na video, ingiza ndani ya `.mkv`, au panga katika folda ndogo ya `Subtitles/`",
+  feat_post_3:
+    "**SponsorBlock** — ruka au weka alama za sehemu kwenye wadhamini, utangulizi, mwisho, matangazo binafsi",
+  feat_post_4:
+    "**Metadata iliyowekwa** — kichwa, tarehe ya kupakia, chaneli, maelezo, picha ndogo, na alama za sura zimeandikwa ndani ya faili",
+  feat_post_5:
+    "**Mafungu ya manukuu pekee** — bandika orodha ya URL au fungua orodha ya kucheza, chagua Manukuu, na upate faili za manukuu pekee kwa kila video",
+  feat_sites_h3: "YouTube + Tovuti 2000",
+  feat_sites_1:
+    "**YouTube kamili** — Video, Shorts, Vituo, Orodha za Kucheza, YouTube Music na Podikasti zinashughulikiwa kama vyanzo vya daraja la kwanza",
+  feat_sites_2:
+    "**Tovuti 2000+ nyingine** kupitia yt-dlp — Twitch, TikTok, Dailymotion, VK, SoundCloud, Bandcamp, archive.org, Streamable na nyingi zaidi",
+  feat_sites_3:
+    "**Sauti pekee na manukuu** yanafanya kazi kwenye kila tovuti inayoungwa mkono, si YouTube peke yake",
+  feat_sites_4:
+    "Tovuti ikibadilika, yt-dlp hutoa marekebisho kila wiki na Arroxy husasisha binary kiotomatiki wakati wa uzinduzi",
+  shot1_cap:
+    "<b>Ukurasa wa Upakuaji wa haraka</b><br/>Bandika URL na uipakue papo hapo kwa wasifu wako amilifu",
+  shot2_cap:
+    "<b>Wasifu wa upakuaji unaoweza kutumika tena</b><br/>Hifadhi muundo, ubora na matokeo kama mipangilio — tumia tena kwa kila upakuaji",
+  shot3_cap:
+    "<b>Nyimbo za sauti za lugha nyingi</b><br/>Chagua lugha kamili ya sauti inayokuja na video",
+  shot4_cap:
+    "<b>Sauti ya Surround / Dolby</b><br/>Nyimbo za 5.1 na Dolby zinatambuliwa na kuhifadhiwa",
+  shot5_cap:
+    "<b>Hali ya URL nyingi</b><br/>Bandika orodha, ondoa nakala kiotomatiki, panga zote kwa pamoja",
+  shot6_cap:
+    "<b>Foleni ya upakuaji sambamba</b><br/>Upakuaji kadhaa kwa wakati mmoja na maendeleo ya moja kwa moja",
+  hotkey_fig_alt: "Njia ya mkato ya kupakua kwa mfumo mzima ya Arroxy — Ctrl+Shift+D kwenye Windows na Linux, Cmd+Shift+D kwenye macOS, hupeleka kiungo kilichonakiliwa moja kwa moja kwenye foleni ya upakuaji",
+  hotkey_fig_cap: "<b>Njia ya mkato ya kupakua kwa mfumo mzima</b><br/>Nakili kiungo popote, bonyeza mara moja — huingia kwenye foleni na upakuaji huanza",
+  shot7_cap: "<b>Wasifu kwa kila kipengele cha orodha ya kucheza</b><br/>Mpe kila video wasifu wake — hifadhi baadhi kwa 4K, hifadhi zilizobaki kama sauti pekee",
+  shot8_cap: "<b>Explore</b><br/>Vinjari YouTube au tovuti nyingine yoyote ndani ya Arroxy na upakue ukurasa ulioko kwa wasifu wako unaotumika",
+  shot9_cap: "<b>Skrini ya kwanza ya Explore</b><br/>Mtazamo wa haraka wa Explore, na kwa nini akaunti ya pili ndiyo njia salama zaidi ya kuingia",
+  shot10_cap: "<b>Vipakuliwa hukuambia kinachokuhitaji</b><br/>Viungo huandaliwa chinichini; kilichoshindwa hutoa suluhisho lake, playlist ndefu husubiri chaguo lako",
+  shot11_cap: "<b>Pakua sehemu tu ya video</b><br/>Chagua mwanzo na mwisho, au sura — Arroxy huhifadhi sehemu hiyo pekee",
+  shot12_cap: "<b>Kihariri cha wasifu</b><br/>Rekebisha wasifu: aina ya faili, ubora, manukuu, mahali pa kuhifadhi, kiolezo cha jina la faili na mengineyo",
+  shot13_cap: "<b>Giza au mwanga, kioo au imara</b><br/>Mionekano minne ya kuchagua: paneli za kioo juu ya anga linalosonga au nyuso imara tulivu, kila mmoja katika giza na mwanga",
+  shot14_cap: "<b>8K HDR kwa fps 60</b><br/>Kila ubora, kodeki na mtiririko wa HDR ambao video inatoa, kando kwa kando",
+  dl_platform_col: "Jukwaa",
+  dl_format_col: "Fomati",
+  dl_oneline_note:
+    "Matoleo ni ya x86_64 pekee. Huna `curl`? Badilisha `curl -fsSL` kuwa `wget -qO-`.",
+  dl_win_scoop:
+    "Unapendelea Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`",
+  dl_win_format: "Kisanidi (NSIS) au Inayobebeka `.exe`",
+  dl_mac_format: "`.dmg` (Intel + Apple Silicon)",
+  dl_linux_format: "`.AppImage` au `.flatpak` (imewekwa sanduku)",
+  dl_grab: "Pata toleo la hivi karibuni →",
+  dl_pkg_h3: "Sanidi kupitia meneja wa pakiti",
+  dl_channel_col: "Njia",
+  dl_command_col: "Amri",
+  dl_win_h3: "Windows: Kisanidi dhidi ya Inayobebeka",
+  dl_win_col_installer: "Kisanidi cha NSIS",
+  dl_win_col_portable: "Inayobebeka `.exe`",
+  dl_win_r1: "Usanidi unahitajika",
+  dl_win_r1_installer: "Ndiyo",
+  dl_win_r1_portable: "Hapana — endesha kutoka mahali popote",
+  dl_win_r2: "Masasisho ya kiotomatiki",
+  dl_win_r2_installer: "✅ ndani ya programu",
+  dl_win_r2_portable: "❌ upakuaji wa mkono",
+  dl_win_r3: "Kasi ya uzinduzi",
+  dl_win_r3_installer: "✅ ya haraka zaidi",
+  dl_win_r3_portable: "⚠️ mwanzo wa polepole baridi",
+  dl_win_r4: "Inaongeza kwenye Menyu ya Kuanza",
+  dl_win_r5: "Kuondoa kwa urahisi",
+  dl_win_r5_portable: "❌ futa faili",
+  dl_win_rec:
+    "**Pendekezo:** tumia kisanidi cha NSIS kwa masasisho ya kiotomatiki na uzinduzi wa haraka. Tumia `.exe` inayobebeka kwa chaguo lisilo na usanidi na bila usajili.",
+  dl_win_smartscreen_h4: "Onyo la Windows SmartScreen",
+  dl_win_smartscreen_intro:
+    'Wakati wa uzinduzi wa kwanza unaweza kuona **"Windows protected your PC"** au **"Unknown publisher."** Hii inatumika kwa `Arroxy-win-x64-Setup.exe` na `Arroxy-win-x64-Portable.exe`. Arroxy ni bure na chanzo wazi, na ujenzi wa Windows haujasainiwa kwa cheti cha malipo, ndiyo maana SmartScreen huipiga bendera. Hii **haimaanishi** kiotomatiki kwamba Arroxy si salama. Ili kuendelea:',
+  dl_win_smartscreen_step1: "Bonyeza **More info**.",
+  dl_win_smartscreen_step2: "Bonyeza **Run anyway**.",
+  dl_win_smartscreen_official:
+    "Pakua Arroxy tu kutoka ukurasa rasmi wa GitHub Releases. Ukipata faili kutoka tovuti nyingine au mtu akikutumia, ifute na upakue nakala mpya kutoka chanzo rasmi. Msimbo wa chanzo ni wa umma, hivyo unaweza kuukagua au kuijenga Arroxy mwenyewe ukitaka.",
+  dl_macos_h3: "Uzinduzi wa kwanza kwenye macOS",
+  dl_macos_warning:
+    "Arroxy bado haijasainiwa kwa nambari, kwa hivyo macOS Gatekeeper inaweza kuonyesha onyo la programu kuonekana imeharibika wakati wa uzinduzi wa kwanza. Hii inatarajiwa — haimaanishi faili zimeharibika kweli.",
+  dl_macos_m1_h4: "Njia ya Terminal:",
+  dl_macos_step1:
+    "Buruta `Arroxy.app` kutoka DMG iliyofunguliwa hadi `/Applications`.",
+  dl_macos_step2:
+    "Fungua Terminal na uendeshe `sudo xattr -dr com.apple.quarantine /Applications/Arroxy.app`.",
+  dl_macos_step3: "Endesha `open /Applications/Arroxy.app`.",
+  dl_macos_step4:
+    "Ikiwa njia ya app ni tofauti, badilisha `/Applications/Arroxy.app` na njia uliyoisakinisha.",
+  dl_macos_step5:
+    "Weka nenosiri la Mac yako ikiwa `sudo` italiomba.",
+  dl_macos_after:
+    "Baada ya quarantine kuondolewa, Arroxy hufunguka kawaida.",
+  dl_macos_m2_h4: "Njia ya Terminal:",
+  dl_macos_note:
+    "Ujenzi wa macOS hufanywa kupitia CI kwenye vichakataji vya Apple Silicon na Intel. Ukipata matatizo, tafadhali [fungua tatizo](../../issues) — maoni kutoka kwa watumiaji wa macOS yanaathiri kikamilifu mzunguko wa majaribio ya macOS.",
+  dl_linux_h3: "Uzinduzi wa kwanza kwenye Linux",
+  dl_linux_intro:
+    "AppImages zinaendesha moja kwa moja — hakuna usanidi. Unahitaji tu kuweka faili kama inayoweza kutekelezwa.",
+  dl_linux_m1_text:
+    "**Kidhibiti cha faili:** bonyeza kulia `.AppImage` → **Properties** → **Permissions** → wezesha **Allow executing file as program**, kisha bonyeza mara mbili.",
+  dl_linux_m2_h4: "Terminal:",
+  dl_linux_fuse_text: "Ikiwa uzinduzi bado unashindwa, iendeshe bila kupachika — hakuna kifurushi cha FUSE kinachohitajika:",
+  dl_linux_targz_h4: "Tarball ya kawaida (hakuna FUSE, hakuna usakinishaji):",
+  dl_linux_targz_text: "Toleo la `.tar.gz` ni programu ile ile bila kifuniko cha AppImage — ifungue popote kisha uiendeshe. Hakuna kisakinishi wala kifurushi cha FUSE.",
+  dl_linux_arch_note: "**Vipakuliwa vya Linux kwenye ukurasa wa matoleo ni vya x86_64 pekee.** Kwenye mashine za ARM64 (Raspberry Pi, Asahi Linux) Flatpak husakinishwa lakini hushindwa kuanza ikitoa `bwrap: execvp ldconfig: Exec format error`.",
+  dl_warning_h3: "Kwa nini unaweza kuona onyo",
+  dl_warning_p1:
+    "Arroxy ni chanzo wazi na ina leseni ya GPLv3. Ujenzi wa Windows na macOS **haujasainiwa kwa nambari** — cheti cha Apple Developer ID na Windows EV cha kutia saini msimbo huchangia mamia ya dola kwa mwaka, ambayo mradi wa kujitegemea hulipa mfukoni mwake. Bila saini hizo, Windows SmartScreen na macOS Gatekeeper watakuonya wakati wa uzinduzi wa kwanza. Maonyo hayo yanamaanisha *mfumo wako wa uendeshaji haukuitambua kampuni inayotoa programu* — hayamaanishi kwamba Arroxy ni programu hasidi.",
+  dl_warning_p2:
+    "Njia tatu za kuthibitisha Arroxy mwenyewe, kwa uthabiti unaozidi:\n\n- **Soma msimbo wa chanzo.** Kila mstari uko kwenye [GitHub](https://github.com/antonio-orionus/Arroxy) na unaweza [kuijenga kutoka chanzo](#tech).\n- **Angalia SHA256.** Linganisha faili yako na [`SHA256SUMS`](../../releases/latest) iliyochapishwa — tazama [Thibitisha upakuaji wako](#verify) hapa chini.\n- **Fanya ukaguzi wa tatu.** Pakia faili kwenye [VirusTotal](https://www.virustotal.com).",
+
+  dl_win_first_h3: "Uzinduzi wa kwanza wa Windows",
+  shot_smartscreen_more_alt:
+    'SmartScreen "Windows protected your PC" dialog with the "More info" link highlighted',
+  shot_smartscreen_run_alt:
+    'SmartScreen dialog after expanding More info, showing the "Run anyway" button',
+  dl_win_defender_h4: "Ikiwa Windows Defender inaweka bendera au kuondoa faili",
+  dl_win_defender_p:
+    "Heuristics za Defender wakati mwingine huweka bendera kwenye visanidi visivyosainiwa vya NSIS na portable za Electron kama zinazoshukiwa. Ikiwa Defender inaweka karantini `Arroxy-win-x64-Setup.exe` au `Arroxy-win-x64-Portable.exe`, irudishe kutoka **Windows Security → Virus & threat protection → Protection history**, kisha ongeza faili inayoweza kutekelezwa ya Arroxy kama kipengele kinachoruhusiwa chini ya **Manage settings → Add or remove exclusions**. Kama ilivyo na SmartScreen, kisababishi ni saini ya mchapishaji inayokosekana, si programu hasidi iliyogunduliwa.",
+
+  dl_macos_first_h3: "Uzinduzi wa kwanza wa macOS",
+  dl_macos_intro:
+    "Arroxy bado haijasainiwa kwa macOS, kwa hivyo Gatekeeper inaweza kuonyesha ujumbe wa kutisha *\"Arroxy.app is damaged and can't be opened\"* baada ya kuisakinisha kutoka DMG. Ujumbe huo unamaanisha macOS imeweka programu isiyosainiwa kwenye quarantine; haumaanishi faili za programu zimeharibika kweli. Kwenye macOS za sasa, suluhisho la kuaminika ni Terminal:",
+  dl_macos_sequoia_h4: "Suluhisho la Terminal kwa macOS ya sasa",
+  dl_macos_sequoia_intro:
+    "Tumia Terminal baada ya kunakili Arroxy kwenda Applications:",
+  dl_macos_sequoia_step1:
+    "Buruta `Arroxy.app` kutoka kwenye DMG iliyopachikwa hadi `/Applications`.",
+  dl_macos_sequoia_step2:
+    "Fungua Terminal na uendeshe amri hizi mbili:",
+  dl_macos_sequoia_step3:
+    "Endesha `open /Applications/Arroxy.app` ili kuzindua Arroxy.",
+  dl_macos_sequoia_step4:
+    "Ikiwa njia ya app ni tofauti, badilisha `/Applications/Arroxy.app` na njia uliyoisakinisha.",
+  dl_macos_sonoma_h4: "Suluhisho la Terminal kwa macOS za zamani",
+  dl_macos_sonoma_step1:
+    "Buruta `Arroxy.app` kutoka kwenye DMG iliyopachikwa hadi `/Applications`.",
+  dl_macos_sonoma_step2:
+    "Fungua Terminal na uondoe quarantine kutoka `/Applications/Arroxy.app`.",
+  dl_macos_sonoma_step3:
+    "Zindua Arroxy kutoka Terminal au Finder baada ya quarantine kuondolewa.",
+  dl_macos_damaged_h4:
+    "Suluhisho la quarantine ya Gatekeeper",
+  dl_macos_damaged_p:
+    "Amri ya kwanza huondoa sifa ya quarantine kutoka kwenye nakala yako ya Arroxy iliyosakinishwa. Ya pili huzindua programu. `sudo` inaweza kukuuliza nenosiri la Mac yako; Terminal haitaonyesha herufi unapoliandika.",
+  dl_macos_arch_note:
+    "**Apple Silicon vs Intel:** kwenye Mac ya mfululizo wa M (M1 / M2 / M3 / M4), pakua DMG ya `arm64`. Kwenye Mac za Intel, pakua DMG ya `x64`. Kuendesha build isiyo sahihi bado kunafanya kazi kupitia Rosetta lakini ni polepole zaidi kwa kiasi kinachoonekana.",
+
+  dl_linux_first_h3: "Uzinduzi wa kwanza wa Linux",
+  dl_linux_appimagelauncher:
+    "**Uunganishaji wa hiari wa desktop:** sakinisha [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) mara moja, na AppImage yoyote unayobonyeza mara mbili itasajiliwa kiotomatiki kwenye menyu yako ya uzinduzi — hakuna faili ya `.desktop` ya mkono inayohitajika.",
+
+  dl_verify_h3: "Thibitisha upakuaji wako (SHA256)",
+  dl_verify_intro:
+    "Kila toleo linachapisha faili ya `SHA256SUMS` pamoja na faili za binary. Ili kuangalia kwamba upakuaji wako haukuharibiwa au kubadilishwa wakati wa usafirishaji, hesabu hash ya faili yako mahali hapo na ulinganishe mstari katika `SHA256SUMS`. Fungua ukurasa wa toleo la hivi karibuni → **Assets** → pakua `SHA256SUMS`.",
+  dl_verify_win_label: "Windows (PowerShell or Command Prompt):",
+  dl_verify_mac_label: "macOS (Terminal):",
+  dl_verify_linux_label: "Linux (Terminal):",
+  dl_verify_vt_text:
+    "Unataka ukaguzi wa programu hasidi wa mtu wa tatu? Pakia faili kwenye [VirusTotal](https://www.virustotal.com). Bendera chache za heuristic za jumla kutoka kwa injini ndogo ni za kawaida kwa programu za Electron zisizosainiwa; ugunduzi ulioenea kutoka kwa injini kubwa ungekuwa wasiwasi wa kweli.",
+
+  dl_pm_intro:
+    "Tayari unatumia meneja wa pakiti? Unaweza kuruka njia ya upakuaji wa mkono.",
+
+  privacy_p1:
+    "Maudhui hupakuliwa moja kwa moja kupitia [yt-dlp](https://github.com/yt-dlp/yt-dlp) kutoka YouTube hadi kwenye folda unayochagua — hakuna kitu kinachopita kwenye seva ya mtu wa tatu. Historia ya kutazama, historia ya kupakua, URL, na maudhui ya faili yanabaki kwenye kifaa chako.",
+  faq_q1: "Je, ni bure kweli kweli?",
+  faq_a1:
+    "Ndiyo — leseni ya GPLv3, hakuna ngazi ya malipo, hakuna kizuizi cha vipengele.",
+  faq_q11: "Arroxy ina tofauti gani na GUI nyingine za yt-dlp?",
+  faq_a11:
+    "GUI nyingi za bure za yt-dlp ni vifuniko vinavyopokea kiungo tu. Arroxy inaongeza **Gundua**, kivinjari kilichojengwa ndani ya programu kinachofungua YouTube au tovuti nyingine yoyote: unavinjari na kupakua bila kunakili viungo, na unaingia humo mara moja ili kupakua video ambazo akaunti yako inaweza kutazama, kama video zako za faragha na orodha zako za Tazama Baadaye na Zilizopendwa, bila kuhamisha vidakuzi. Angalia [Kwa Nini Arroxy](#why).",
+  faq_q2: "Ninaweza kupakua ubora gani wa video?",
+  faq_a2:
+    "Chochote YouTube kinatoa: 8K (4320p), 4K UHD (2160p), 1440p, 1080p, 720p, 480p, 360p, pamoja na sauti pekee. Mtiririko wa fps 60 na HDR huhifadhiwa kama ulivyo, na upakuaji wa hatua kwa hatua hukuruhusu kuchagua AV1, VP9 au H.264 katika kila azimio.",
+  faq_q3: "Je, ninaweza kutoa sauti pekee kama MP3?",
+  faq_a3:
+    "Ndiyo. Chagua *sauti pekee* kwenye menyu ya fomati kisha uchague MP3, M4A/AAC, Opus au WAV.",
+  faq_q4: "Ninawezaje kupakua video zinazohitaji akaunti ya YouTube?",
+  faq_a4: "Ingia mara moja kwenye kichupo cha Gundua. Kisha Arroxy inaweza kupakua video ambazo akaunti yako inaweza kutazama: video zako za faragha, video zenye kikomo cha umri ikiwa umri wa akaunti umethibitishwa, na orodha zako za Tazama Baadaye na Zilizopendwa. Hutumia kuingia huko tu pale upakuaji unaposhindwa kwa njia ambayo akaunti inaweza kurekebisha; kila kitu kingine hupakuliwa kama kawaida. Hili ni chaguo la **Kuingia kwa Gundua**, lililoorodheshwa kwanza na kuwekewa alama ya Inapendekezwa katika mipangilio ya vidakuzi, na Arroxy hulichagua kwa ajili yako mara ya kwanza unapofungua Gundua. Wiki ya yt-dlp inaeleza kwamba [otomatiki ya akaunti iliyoingia inaweza kuweka alama kwenye akaunti ya Google](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies); kwa hiyo akaunti ya pili ndiyo chaguo salama zaidi.",
+  faq_q5: "Je, itaendelea kufanya kazi YouTube ikibadilisha kitu?",
+  faq_a5: "yt-dlp husasishwa kiotomatiki wakati wa uzinduzi, na Arroxy hutuma marekebisho haraka YouTube inapobadilisha kitu. Upakuaji unapohitaji kuingia, Arroxy hutumia kuingia kwako kwa Gundua ikiwa umeingia huko, na vidakuzi kutoka kwenye faili au kivinjari chako vinapatikana katika mipangilio ya vidakuzi.",
+  faq_q6: "Arroxy inapatikana katika lugha zipi?",
+  faq_a6:
+    "Lugha {{LANG_COUNT}} zipo tayari: {{LANG_NAME_LIST}}. Arroxy hutambua lugha ya mfumo wako wa uendeshaji kiotomatiki inapofunguliwa mara ya kwanza, na unaweza kubadilisha wakati wowote kupitia kiteuzi cha lugha kwenye upau wa zana. Runtime locale JSON ziko src/shared/i18n/locales/, na catalog za PO kwa watafsiri ziko i18n/locales/ — fungua PR kwenye GitHub ili kuchangia.",
+  faq_q7: "Je, ninahitaji kusakinisha kitu kingine chochote?",
+  faq_a7:
+    "Hapana. yt-dlp, ffmpeg na ffprobe hupakuliwa kiotomatiki wakati wa uzinduzi wa kwanza na kuhifadhiwa kwenye kifaa chako. Baada ya hapo, hakuna usanidi wa ziada unaohitajika.",
+  faq_q8: "Je, ninaweza kupakua orodha za kucheza au vituo vyote?",
+  faq_a8:
+    "Ndiyo — zote mbili. Bandika URL ya playlist au channel (mf. `youtube.com/@handle`, `/channel/UC…`, `/c/Name`, `/user/Old`); chagua idadi ya vipengee vya kuchanganua, kisha weka orodha yote kwenye foleni au chagua video maalum. Vichujio vya tarehe vinakuja hivi karibuni.",
+  faq_q9: 'macOS inasema "programu imeharibiwa" — nifanye nini?',
+  faq_a9:
+    "Hiyo ni macOS Gatekeeper inayozuia programu isiyosainiwa, si uharibifu wa kweli. Tazama [macOS first launch](#macos-first-launch) kwa amri za Terminal zinazoondoa quarantine na kuzindua Arroxy.",
+  faq_q10: "Je, ni halali kupakua video za YouTube?",
+  faq_a10:
+    "Inategemea nchi yako na unachopakua. Pakua tu maudhui unayomiliki, maudhui yenye leseni ya kupakuliwa, au maudhui ambayo sheria ya nchi yako inakuruhusu kunakili. Unawajibika kufuata [Masharti ya Huduma](https://www.youtube.com/t/terms) ya YouTube na sheria za haki miliki za mamlaka yako. Angalia [Masharti ya matumizi](#terms).",
+  plan_intro: "Bado imepangwa — takriban kwa mpangilio wa kipaumbele:",
+  plan_col1: "Kipengele",
+  plan_col2: "Maelezo",
+  plan_r1_name: "**Vichujio vya orodha za kucheza na vituo**",
+  plan_r1_desc:
+    "Vichujio vya muda wa tarehe unapoorodhesha playlist au channel",
+  plan_r2_name: "**Mapendeleo ya track za sauti za YouTube**",
+  plan_r2_desc:
+    "Weka upendeleo wa track ya lugha ya mazungumzo kwa app nzima, na override kwa kila profile YouTube inapotoa track nyingi za sauti",
+  plan_r3_name: "**Urejeshaji imara kwa retry**",
+  plan_r3_desc:
+    "Njia mpya ya retry kwa upakuaji uliokatizwa na miunganisho ya internet isiyotegemeka au yenye matatizo",
+  plan_r4_name: "**Drawer kamili ya msimamizi wa upakuaji**",
+  plan_r4_desc:
+    "Kubadilisha queue drawer kuwa manager kamili zaidi, ikijumuisha kubadilisha folder za destination kwa vipengee vilivyo kwenye foleni",
+  plan_r5_name: "**Upakuaji uliopangwa**",
+  plan_r5_desc: "Anza foleni kwa wakati uliowekwa (uendeshaji wa usiku)",
+  plan_r9_name: "**Kifurushi cha AUR**",
+  plan_r9_desc: "Sakinisha kwenye Arch Linux na Omarchy kwa `yay -S arroxy-bin`",
+  plan_cta:
+    "Una kipengele unachofikiria? [Fungua ombi](../../issues) — maoni ya jamii huathiri kipaumbele.",
+  tech_content: TECH_CONTENT,
+  support_h2: "Saidia Arroxy",
+  support_line: "Arroxy ni bure na ina leseni ya GPLv3 — hakuna matangazo, hakuna ufuatiliaji, hakuna toleo la kulipia. Ikiwa inakuokolea muda, unaweza kusaidia maendeleo yake kwa Bitcoin, Tron au Ethereum: anwani zipo katika [DONATE.md](DONATE.md), ambacho ndicho chanzo rasmi pekee cha anwani hizo. Arroxy haitakutumia kamwe anwani kwa barua pepe au ujumbe wa moja kwa moja. Kuipa repo nyota, kuripoti hitilafu, na kuboresha tafsiri kunasaidia vivyo hivyo.",
+  tos_h2: "Masharti ya matumizi",
+  tos_note:
+    "Arroxy ni zana ya matumizi ya kibinafsi na ya faragha tu. Unawajibika peke yako kuhakikisha maudhui unayopakua yanafuata [Masharti ya Huduma](https://www.youtube.com/t/terms) ya YouTube na sheria za haki miliki za mamlaka yako. Usitumie Arroxy kupakua, kunakili, au kusambaza maudhui ambayo huna haki ya kuyatumia. Waendelezaji hawana jukumu lolote kwa matumizi mabaya.",
+  footer_credit:
+    'Leseni ya GPLv3 · Imetengenezwa kwa uangalifu na <a href="https://x.com/OrionusAI">@OrionusAI</a>',
+};

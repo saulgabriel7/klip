@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Honi buruz",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Ikusi hirugarrenen oharrak",
+		"websiteLink": "Webgunea"
+	},
+	"aiUpscaled": {
+		"allow": "Baimendu",
+		"allowedSummary": "AA bidez handitutako korronteak baimenduta",
+		"description": "YouTubek bideo zahar batzuk adimen artifizialaz sortutako tamainetan eskaintzen ditu. «Saltatu» aukerak jatorrizko korronteak mantentzen ditu; hala ere, handitutako bat eskuz aukera dezakezu.",
+		"label": "AA bidez handitutako korronteak",
+		"skip": "Saltatu"
+	},
+	"app": {
+		"feedback": "Iritzia",
+		"feedbackNudge": "Klip gustatzen zaizu? Zure iritzia entzutea maite nuke! 💬",
+		"logs": "Erregistroak",
+		"saveDiagnostics": "Gorde diagnostiko-fitxategia",
+		"saveDiagnosticsDescription": "Zure erregistroak eta aplikazioaren xehetasunak fitxategi bakar batean jartzen ditu Deskargak karpetan, GitHub-eko arazo-txosten bati erantsi ahal izateko. Zure erabiltzaile-karpetaren izena kentzen da; bideoen estekak eta izenburuak mantendu egiten dira.",
+		"styleHint": "Berria: aukeratu Aurora edo Minimal hemen",
+		"theme": "Gaia",
+		"zoomIn": "Handitu",
+		"zoomOut": "Txikitu"
+	},
+	"common": {
+		"back": "Atzera",
+		"cancel": "Utzi",
+		"close": "Itxi",
+		"continue": "Jarraitu",
+		"loading": "Kargatzen",
+		"retry": "Saiatu berriro",
+		"startOver": "Hasi berriro"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip martxan jarraitzen du eta aktibo dauden deskargak amaitzen ditu. Aldaketa hau geroago egin dezakezu Ezarpen aurreratuetan.",
+			"hide": "Ezkutatu erretiluan",
+			"message": "Klip sistema-erretiluan ezkutatu nahi duzu itxi egitean?",
+			"quit": "Irten",
+			"remember": "Ez galdetu berriro"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Zure ilara gordetzen da, eta deskargek utzi zuten tokitik jarraitzen dute Klip berriro irekitzen duzunean.",
+			"keep": "Jarraitu deskargatzen",
+			"message_one": "{{count}} deskarga abian",
+			"message_other": "{{count}} deskarga abian",
+			"quit": "Irten"
+		},
+		"rendererCrashed": {
+			"detail": "Errendatze-prozesuak huts egin du ({{reason}}). Birkargatu berriro saiatzeko.",
+			"message": "Klip-k arazo bat izan du",
+			"quit": "Irten",
+			"reload": "Birkargatu"
+		}
+	},
+	"donate": {
+		"copied": "Kopiatu da!",
+		"copyAddress": "Kopiatu helbidea",
+		"description": "Klip doakoa eta kode irekikoa da, iragarkirik eta ordainpeko mailarik gabe. Dohaintzak aukerakoak dira eta ez dute ibilbide-orrian eragin handiagorik ematen.",
+		"footerLabel": "Lagundu",
+		"footerTooltip": "Lagundu Klip",
+		"qrAlt": "Dohaintza-helbidearen QR kodea ({{coin}})",
+		"title": "Lagundu Klip",
+		"warning": "Kriptografiazko ordainketak ezin dira atzera egin. Bidali erakusten den sarean bakarrik, eta konparatu helbide osoa."
+	},
+	"errors": {
+		"noSubtitlesIn": "Bideo honek ez du azpititulurik hizkuntza hauetan: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Bideo honek adin-murrizketa du eta ezin da deskargatu saioa hasita duen konturik gabe.",
+			"botBlock": "Gunearen bot-babesak deskarga hau geldiarazi du. Itxaron pixka bat eta saiatu berriro, edo deskargatu bideo gutxiago aldi berean. Huts egiten jarraitzen badu, gunearen aldetik aldi baterako aldaketa bat izan daiteke — Klip-k abioan eguneratzen du bere deskarga-motorra, beraz konponketa automatikoki iristen da argitaratu bezain laster.",
+			"chunkTransferFailure": "Zerbitzariak deskarga erdian eten du behin eta berriz, eta Klip-k berriro saiatu ondoren amore eman du. Normalean bideo-formaturik handienetan gertatzen da (4K HDR / bit-tasa altuko VP9). Saiatu berriro, aldatu sarea/VPNa edo aukeratu bereizmen txikiagoko formatu bat.",
+			"drmProtected": "Bideo hau DRM bidez babestuta dago. Klip-k ezin du DRMa kendu, beraz fitxategia ezin da deskargatu.",
+			"formatUnavailable": "Bideo honek jada ez du aukeratu duzun formatua eskaintzen. Itsatsi esteka berriro eta aukeratu orain eskaintzen dituen formatuen artean.",
+			"geoBlocked": "Bideo hau ez dago eskuragarri zure eskualdean.",
+			"ipBlock": "Gunea konexio honen eskaerak blokeatzen ari da. Saiatu berriro geroago.",
+			"loginRequired": "Bideo honek saioa hasita duen konturen bat behar du.",
+			"missingDependency": "Klip-k ezin izan du FFmpeg edo FFprobe aurkitu. Exekutatu konfigurazioa berriro edo ezarri FFmpeg kokalekua, eta saiatu deskarga berriro.",
+			"network": "Sare-errorea. Egiaztatu konexioa eta saiatu berriro.",
+			"noSubtitles": "Bideo honek ez du azpititulurik eskatutako hizkuntzetan.",
+			"outOfDiskSpace": "Ez dago diskoan leku nahikorik. Libratu lekua eta saiatu berriro.",
+			"outputNotWritable": "Klip-k ezin du deskargen karpetan idatzi. Baliteke irakurtzeko soilik izatea, blokeatutako unitate batean egotea edo sistemaren pribatutasun-ezarpenek blokeatuta egotea. Aukeratu beste karpeta bat edo baimendu sarbidea, eta saiatu berriro.",
+			"parse": "Ezin izan da gunearen erantzuna aztertu. Baliteke gunea bideoak zerbitzatzeko modua aldatu izana. Klip-k abioan eguneratzen du deskarga-motorra — saiatu berriro minutu batzuk barru, konponbidea kaleratu ondoren.",
+			"postprocessFailure": "Deskarga amaitu da, baina postprozesuak (batzea / muxing-a / bihurketa) huts egin du. Askotan ffmpeg-eko aldi bateko arazo bat izaten da — saiatu berriro, eta jarraitzen badu, probatu formatu-konbinazio ezberdin bat.",
+			"rateLimit": "Gunea konexio honen eskaerak mugatzen ari da.",
+			"unavailable": "Bideo hau ez dago eskuragarri — baliteke pribatua izatea, ezabatua izatea edo eskualdez blokeatuta egotea.",
+			"unknown": "Deskargak huts egin du. Ikusi beheko irteera gordina.",
+			"unsupportedUrl": "Klip-k ez du URL hau onartzen. Probatu beste gune bateko esteka bat."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Egiaztatu konexioa eta saiatu berriro.",
+			"loadTitle": "Orri honek ez du kargatu",
+			"openSettings": "Ireki ezarpenak",
+			"proxyBody": "Egiaztatu proxya Ezarpenetan eta saiatu berriro.",
+			"proxyTitle": "Esploratu fitxak ezin du zure proxyaren bidez konektatu",
+			"retry": "Saiatu berriro"
+		},
+		"linkCallout": {
+			"body": "Egin klik eskuineko botoiarekin orriko edozein bideo-, erreprodukzio-zerrenda- edo kanal-estekan, aktibo duzun profilarekin deskargatzeko, beste profil bat aukeratzeko edo urratsez urratseko fluxua irekitzeko.",
+			"title": "Egin klik eskuineko botoiarekin esteka batean deskargatzeko"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Deskargatu albuma atzeko planoan",
+				"liked": "Deskargatu gustatu zaizkizun bideoak atzeko planoan",
+				"mix": "Deskargatu Mix-a atzeko planoan",
+				"playlist": "Deskargatu erreprodukzio-zerrenda atzeko planoan",
+				"uploads": "Deskargatu igotako bideoak atzeko planoan",
+				"watchLater": "Deskargatu Ikusi geroago atzeko planoan"
+			},
+			"copyLink": "Kopiatu esteka",
+			"downloadFirst": "Deskargatu lehenengo {{count}}",
+			"downloadThisVideo": "Deskargatu bideo hau · {{profileName}}",
+			"downloadWith": "Deskargatu honekin",
+			"fromList": {
+				"album": "Album honetatik",
+				"liked": "Gustatu zaizkizun bideoetatik",
+				"mix": "Mix honetatik",
+				"playlist": "Erreprodukzio-zerrenda honetatik",
+				"uploads": "Kanal honetan igotako bideoetatik",
+				"watchLater": "Ikusi geroago zerrendatik"
+			},
+			"interactive": "Deskarga interaktiboa…",
+			"thisVideoWith": "Bideo hau honekin"
+		},
+		"newBadge": "Berria",
+		"notice": {
+			"body": "Bilatu bideo bat YouTube-n edo beste edozein gunetan eta deskargatu hemendik — estekak kopiatu beharrik gabe. Hasi saioa gune batean hemen, kontu bat behar duten bideoak deskargatzeko.",
+			"continue": "Jarraitu",
+			"riskBody": "YouTube bezalako guneek Klip bezalako deskarga-tresnekin erabilitako kontuak markatu — eta batzuetan kanporatu — ditzakete. Erabili galtzeko prest zauden kontu bat, ez zure kontu nagusia.",
+			"riskTitle": "Hasi saioa bigarren mailako kontu batekin",
+			"title": "Arakatu weba Klip-ren barruan bertan"
+		},
+		"nudge": {
+			"browser": "Deskargek zure nabigatzailearen cookie-ak erabiltzen dituzte, ez Esploratu fitxako saioa.",
+			"file": "Deskargek zure cookie-fitxategia erabiltzen dute, ez Esploratu fitxako saioa.",
+			"notNow": "Ez orain",
+			"off": "Cookie-ak desaktibatuta daude, beraz deskargek ez dute Esploratu fitxako saioa erabiltzen.",
+			"useExplore": "Erabili Esploratu fitxako saioa"
+		},
+		"settings": {
+			"description": "Arakatu YouTube edo beste edozein gune Klip-ren barruan, eta hasi saioa kontu bat behar duten bideoetarako.",
+			"idleUnload": "Libratu memoria kanpoan zaudenean",
+			"idleUnloadDescription": "Beste fitxa batean 5 minutu eman ondoren, YouTube-ren hasiera- edo bilaketa-orria ixten du. Itzultzean birkargatu egiten da, eta segundo batzuk behar ditu.",
+			"searchEngine": "Bilatzailea",
+			"searchEngineDescription": "Helbide-barran idatzitako testua non bilatzen den. Estekak idatzi bezala irekitzen dira.",
+			"showTab": "Erakutsi Esploratu fitxa",
+			"showTabDescription": "Desaktibatuz gero, deskargek ere uzten diote Esploratu fitxako saioa erabiltzeari.",
+			"signOut": "Amaitu Esploratu fitxako saioa",
+			"signOutConfirm": "Amaitu saioa",
+			"signOutConfirmBody": "Honek Esploratu fitxako saioak eta nabigatze-datuak garbitzen ditu, gune guztietan. Kontu bat behar duten deskargek huts egingo dute berriro saioa hasi arte.",
+			"signOutConfirmTitle": "Esploratu fitxako saioa amaitu nahi duzu?",
+			"signOutDescription": "Esploratu fitxako saioak eta nabigatze-datuak garbitzen ditu, gune guztietan.",
+			"title": "Esploratu"
+		},
+		"tabLabel": "Esploratu",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube-k iragarki-blokeatzaileei trabak jar diezazkieke saioa hasita duten kontuetan.",
+				"aria": "Iragarki-blokeatzailea",
+				"off": "Iragarki-blokeatzailea: desaktibatuta — egin klik aktibatzeko",
+				"on": "Iragarki-blokeatzailea: aktibatuta — egin klik desaktibatzeko",
+				"starting": "Iragarki-blokeatzailea: abiarazten — egin klik desaktibatzeko",
+				"unavailable": "Iragarki-blokeatzailea: ez dago erabilgarri, bere iragazki-zerrendak ezin izan dira deskargatu — egin klik desaktibatzeko"
+			},
+			"addressAria": "Helbidea",
+			"addressPlaceholder": "Bilatu hemen: {{engine}}, edo ireki edozein gune (Vimeo, Instagram…)",
+			"aria": "Esploratu fitxako nabigatzaile-kontrolak",
+			"back": "Atzera",
+			"compactLayout": "Diseinu trinkoa",
+			"download": "Deskargatu",
+			"downloadWithProfile": "Deskargatu · {{profileName}}",
+			"forward": "Aurrera",
+			"fullLayout": "Erakutsi diseinu osoa",
+			"grabUnavailable": "Ireki bideo, erreprodukzio-zerrenda edo kanal bat deskargatzeko",
+			"home": "YouTube hasiera",
+			"interactiveHint": "Deskarga interaktiboa: aukeratu formatua, azpitituluak eta gehiago…",
+			"refusedHint": "Esploratu fitxak ezin du helbide hori ireki.",
+			"reload": "Birkargatu",
+			"searchTooLong": "Bilaketa hori luzeegia da.",
+			"thisVideo": "Bideo hau",
+			"thisVideoHint": "Deskargatu bideo hau bakarrik honekin: {{profileName}}",
+			"zoom": {
+				"hint": "Orriaren zooma: {{percent}}%",
+				"in": "Handitu",
+				"label": "Orriaren zooma",
+				"out": "Txikitu",
+				"percent": "Zoom-ehunekoa",
+				"reset": "Berrezarri zooma %100ean"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Automatikoa",
+		"autoValue": "Automatikoa (.{{ext}})",
+		"description": {
+			"auto": "Aukeratutako korronteek zehazten dute fitxategi-mota.",
+			"mkv": "Edozein kodek onartzen du. Telebista eta telefono batzuek ezin dute ireki.",
+			"mp4": "Ia nonahi erreproduzitzen da. MP4 bateko VP9 ez da bideo gisa erreproduzitzen QuickTime-n.",
+			"webm": "Nabigatzaileentzako formatu irekia. VP9 edo AV1 bakarrik onartzen du, Opus audioarekin."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "MP4 bateko AV1 erreproduzitzeko Mac berri bat behar da QuickTime-n. H.264 nonahi erreproduzitzen da.",
+		"mp4CaveatVp9": "MP4 bateko VP9 ez da bideo gisa erreproduzitzen QuickTime-n. H.264 nonahi erreproduzitzen da.",
+		"profileMark": "Profila",
+		"smartTvNoWebm": "WebM ez da eskaintzen Smart TV profilarekin: ezin du H.264 onartu.",
+		"webm": "WebM",
+		"webmBlocked": "WebM-k ezin du hau onartu: {{codec}}. Aukeratu MKV edo MP4."
+	},
+	"filenameTemplate": {
+		"description": "Aukeratu deskargatutako fitxategiek izena nola izango duten. Egin klik token batean txertatzeko. Erabili / deskargak karpetetan sailkatzeko.",
+		"error": {
+			"empty": "Idatzi fitxategi-izenaren txantiloi bat.",
+			"empty-segment": "Kendu soberako / hori — karpeta guztiek izena behar dute.",
+			"forbidden-char": "Kendu fitxategi-izenetan onartzen ez diren karaktereak: \\ : * ? \" < > |",
+			"invalid-segment": "Karpeta-izen hori ez da onartzen. Saihestu . eta .. eta CON bezalako izen erreserbatuak.",
+			"no-unique-token": "Gehitu {title} edo {id} fitxategi-izenari, deskarga bakoitzak bere izena izan dezan.",
+			"resolution-in-dir": "{resolution} ezin da karpeta baten izena izan — kalitatea ez da ezagutzen deskarga hasi arte.",
+			"stray-brace": "{ edo } parekaturik gabe — inguratu tokenak horrela: {title}.",
+			"too-long": "Txantiloia luzeegia da.",
+			"unknown-token": "Token ezezaguna: {{token}}."
+		},
+		"idEndingWarning": "Amaitu izena [{id}] jarrita, Klip-k dagoeneko deskargatutako erreprodukzio-zerrendako elementuak antzeman eta .m3u erreprodukzio-zerrendak sor ditzan.",
+		"label": "Fitxategi-izenaren txantiloia",
+		"m3uDisabledIdEnding": "Ez dago erabilgarri, zure fitxategi-izenaren txantiloiak ez duelako [{id}] amaieran edo deskargak karpetetan sailkatzen dituelako.",
+		"previewPlaylist": "Erreprodukzio-zerrenda batean",
+		"previewSingle": "Bideo bakarra",
+		"profileOverrideDescription": "Utzi hutsik txantiloi orokorra heredatzeko.",
+		"profileOverrideLabel": "Fitxategi-izenaren txantiloia"
+	},
+	"formatLabel": {
+		"audioFallback": "Audioa",
+		"audioOnlyDot": "Audioa soilik · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Automatikoa",
+		"description": "Automatikoak HDR aukeratzen du pantaila honek erakutsi ahal badu, bestela SDR. HDR itzali samarra ikusten da ohiko pantailetan.",
+		"hdr": "HDR",
+		"label": "HDR bideoa",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Hizkuntza"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Esploratu fitxan saioa hasi da — esteka 1 berriro saiatzen",
+		"exploreSignInRetrying_other": "Esploratu fitxan saioa hasi da — {{count}} esteka berriro saiatzen",
+		"exploreSignOutFailed": "Ezin izan da Esploratu fitxako saioa amaitu. Saiatu berriro.",
+		"filenameFolderTooDeep": "Karpeta hau sakonegia da zure sistemarentzat. Baliteke deskargak hala ere huts egitea — aukeratu karpeta laburragoa.",
+		"filenameTemplateCannotFit": "Bideo honen izenak ez ditu zure txantiloiaren zati guztiak hartzen, beraz izen lehenetsia erabili da.",
+		"folderSelectFailed": "Ezin izan da karpeta-hautatzailea ireki.",
+		"hotkey": {
+			"alreadyQueued": "Jada ilaran dago — ez da kopiarik gehitu",
+			"cookiesSetup": "Amaitu Klip-n cookie-en konfigurazioa eta saiatu berriro",
+			"invalidClipboard": "Ez dago estekarik arbelean — kopiatu bat lehenik",
+			"multipleUrls": "Esteka anitz kopiatu dira — erabili Klip-ko URL masiboak",
+			"needsReview": "Esteka horrek zure aukera behar du — ikusi Deskargak Klip-n",
+			"queued": "Deskarga ilaran jarri da arbeletik",
+			"submissionFailed": "Ezin izan da esteka hori gehitu — saiatu berriro Klip-n"
+		},
+		"playlistFolderRejected": "Karpeta hori ezin da erreprodukzio-zerrenda honetarako erabili.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} bideo jada ilaran dago — saltatu da",
+			"skippedAlreadyQueued_other": "{{count}} bideo jada ilaran daude — saltatu dira"
+		},
+		"quickDownload": {
+			"added": "Gehitu da: {{title}}",
+			"alreadyQueued": "Jada ilaran dago",
+			"batchAdded_one": "Esteka {{count}} gehitu da Deskargak atalean",
+			"batchAdded_other": "{{count}} esteka gehitu dira Deskargak atalean",
+			"batchAlreadyQueued_one": "{{count}} jada ilaran",
+			"batchAlreadyQueued_other": "{{count}} jada ilaran",
+			"batchNoneAdded_one": "Ezin izan da {{count}} esteka gehitu",
+			"batchNoneAdded_other": "Ezin izan da {{count}} esteka gehitu",
+			"batchNotAdded_one": "{{count}} gehitu gabe",
+			"batchNotAdded_other": "{{count}} gehitu gabe",
+			"chooseFromList_one": "{{count}} bideo zerrenda honetan — aukeratu zer deskargatu",
+			"chooseFromList_other": "{{count}} bideo zerrenda honetan — aukeratu zer deskargatu",
+			"chooseHowMany_one": "{{count}}+ bideo — aukeratu zenbat",
+			"chooseHowMany_other": "{{count}}+ bideo — aukeratu zenbat",
+			"failed": "Ezin izan da prestatu: {{title}}",
+			"notAdded": "Ezin izan da esteka hori gehitu — saiatu berriro",
+			"view": "Ikusi"
+		},
+		"settingsSaveFailed": "Ezin izan dira zure ezarpenak gorde.",
+		"shellActionFailed": "Ezin izan da hori ireki.",
+		"warmupFailed": "Konfigurazioa ez da amaitu. Baliteke deskarga batzuek huts egitea amaitu arte."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Audioa (onena)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Audioa ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Jatorrizko audio onena, birkodetu gabe",
+			"m4a": "Bihurtu M4A (AAC) formatura",
+			"mp3": "Bihurtu MP3 formatura",
+			"opus": "Bihurtu Opus formatura"
+		},
+		"mp4Cap": "H.264 formatuan 1080p gainetik ez dago eskuragarri YouTube-n — automatikoki 1080pra mugatu da",
+		"subtitles": {
+			"deliveryHeading": "Gorde honela",
+			"deliveryLoose": "Zuzenean gordetzeko karpetan",
+			"languages": "Hizkuntzak",
+			"languagesRequired": "Aukeratu gutxienez hizkuntza bat jarraitzeko.",
+			"note": "Bideo bakoitzeko azpititulu-fitxategiak bakarrik gordetzen dira — ez da bideorik edo audiorik deskargatzen.",
+			"source": "Iturria"
+		},
+		"tier": {
+			"144": "144p arte",
+			"240": "240p arte",
+			"360": "360p arte",
+			"480": "480p arte",
+			"720": "720p arte",
+			"1080": "1080p arte",
+			"1440": "1440p arte",
+			"2160": "4K arte",
+			"best": "Kalitate onena"
+		},
+		"tierDesc": {
+			"144": "Ahalik eta fitxategi txikienak",
+			"240": "Fitxategi oso txikiak, kalitate baxua",
+			"360": "Fitxategi txikiak banda-zabalera mugatuarentzat",
+			"480": "Banda-zabalera baxua",
+			"720": "Fitxategi txikiagoak, bateragarritasun zabala",
+			"1080": "1080pra mugatua, elementu bakoitzean txikiagora jaisten da behar bada",
+			"1440": "2Kra mugatua, elementu bakoitzean txikiagora jaisten da behar bada",
+			"2160": "2160pra mugatua, elementu bakoitzean txikiagora jaisten da behar bada",
+			"best": "Elementu bakoitzeko bideo + audio kalitate handiena"
+		},
+		"type": {
+			"audio": "Audioa",
+			"subtitles": "Azpitituluak",
+			"video": "Bideoa"
+		},
+		"videoFormat": {
+			"best": "Jatorrizko onena",
+			"mp4": "H.264 MP4 (Smart TV)"
+		},
+		"videoFormatDesc": {
+			"best": "Elementu bakoitzeko edukiontzi eta kodek onenak",
+			"mp4": "Lehenetsi H.264 bideoa + AAC audioa MP4n, ahal denean"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Osagarria",
+			"description": "Deskribapena",
+			"media": "Multimedia",
+			"missing": "Falta da",
+			"subtitle": "Azpititulua",
+			"thumbnail": "Miniatura",
+			"unknown": "Artefaktua"
+		},
+		"attentionBadge_one": "Zure arreta behar duen deskarga bat",
+		"attentionBadge_other": "Zure arreta behar duten deskargak: {{count}}",
+		"autoRemoveCompleted": {
+			"hint": "Kendu deskarga bakoitza zerrendatik amaitu eta segundo batzuetara. Fitxategiak zure karpetan geratzen dira.",
+			"label": "Garbitu amaituak automatikoki"
+		},
+		"cancelAllTitle": "Utzi deskarga aktibo eta zain guztiak",
+		"choice": {
+			"all": "Bideo guztiak",
+			"cappedBody_one": "{{count}} bideo baino gehiago erreprodukzio-zerrenda honetan. Deskargatu guztiak, lehenengo {{count}}, edo aukeratu berrikuspen batean.",
+			"cappedBody_other": "{{count}} bideo baino gehiago erreprodukzio-zerrenda honetan. Deskargatu guztiak, lehenengo {{count}}, edo aukeratu berrikuspen batean.",
+			"first": "Lehenengo {{count}}",
+			"list": {
+				"album": "Albuma",
+				"liked": "Gustatu zaizkizun bideoak",
+				"mix": "Mix-a",
+				"playlist": "Erreprodukzio-zerrenda",
+				"uploads": "Igotako bideo guztiak",
+				"watchLater": "Ikusi geroago"
+			},
+			"pick": "Aukeratu zerrendatik…",
+			"review": "Berrikusi",
+			"uncappedBody_one": "Esteka hau {{count}} bideoko zerrenda bat da. Deskargatu dena edo aukeratu berrikuspen batean.",
+			"uncappedBody_other": "Esteka hau {{count}} bideoko zerrenda bat da. Deskargatu guztiak edo aukeratu berrikuspen batean.",
+			"video": "Bideo hau",
+			"videoOrList": {
+				"album": "Esteka hau album bateko bideo bat da. Bideoa bakarrik deskargatu nahi duzu, ala albuma?",
+				"liked": "Esteka hau gustatu zaizkizun bideoetako bat da. Bideoa bakarrik deskargatu nahi duzu, ala gustatu zaizkizun bideo guztiak?",
+				"mix": "Esteka hau Mix bateko bideo bat da. Bideoa bakarrik deskargatu nahi duzu, ala Mix-a?",
+				"playlist": "Esteka hau erreprodukzio-zerrenda bateko bideo bat da. Bideoa bakarrik deskargatu nahi duzu, ala erreprodukzio-zerrenda?",
+				"uploads": "Esteka hau kanal bateko igotako bideo bat da. Bideoa bakarrik deskargatu nahi duzu, ala igotako bideo guztiak?",
+				"watchLater": "Esteka hau zure Ikusi geroago zerrendako bideo bat da. Bideoa bakarrik deskargatu nahi duzu, ala zerrenda osoa?"
+			}
+		},
+		"clearTitle": "Garbitu amaitutako deskargak",
+		"empty": "Ilaran jarritako deskargak hemen agertuko dira",
+		"filterAll": "Guztiak",
+		"filtersLabel": "Ilararen egoera-iragazkiak",
+		"globalActionsLabel": "Elementu guztiak",
+		"header": "Deskargak",
+		"item": {
+			"audioKept": "Soinua ez da kendu",
+			"audioKeptSubtitlesFailed": "Soinua ez da kendu · azpititulu batzuek huts egin dute",
+			"cancel": "Utzi",
+			"defaultError": "Deskargak huts egin du",
+			"openDestinationFolder": "Ireki helburuko karpeta",
+			"pause": "Eten",
+			"pendingOnly": "Zain daudenak soilik",
+			"pullNow": "Hasi orain — saltatu ilara",
+			"qualityLimited": "Mugatua: {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Mugatua: {{height}}p · azpititulu batzuek huts egin dute",
+			"remove": "Kendu",
+			"resume": "Berrekin",
+			"retry": "Saiatu berriro",
+			"retryingSoon": "automatikoki berriro saiatzen ({{attempt}}. saiakera)",
+			"setLocation": "Ezarri kokalekua",
+			"setLocationHint": "Hautatu zain dauden elementuak kokalekua ezartzeko.",
+			"statusCancelled": "Utzita",
+			"statusDone": "Eginda",
+			"statusError": "Errorea",
+			"statusHeld": "Atxikita",
+			"statusNeedsChoice": "Zure aukera behar du",
+			"statusPaused": "Etenda",
+			"statusPending": "Zain",
+			"statusProbing": "Xehetasunak eskuratzen",
+			"statusRunning": "Deskargatzen",
+			"subtitleLanguagesMissing": "Azpititulurik ez hizkuntza hauetan: {{languages}}",
+			"waitingForSite": "{{site}} gunearen zain, {{time}} arte",
+			"waitingHint": "{{site}} gunea konexio honen eskaerak mugatzen ari da. Klip-k esteka honen xehetasunak {{time}} ondoren eskuratzen ditu, muga garbitu dadin."
+		},
+		"listOffer": {
+			"dismiss": "Baztertu",
+			"from": {
+				"album": "Album batetik",
+				"liked": "Gustatu zaizkizun bideoetatik",
+				"mix": "Mix batetik",
+				"playlist": "Erreprodukzio-zerrenda batetik",
+				"uploads": "Kanal bateko igotako bideoetatik",
+				"watchLater": "Ikusi geroago zerrendatik"
+			},
+			"get": {
+				"album": "Hartu album osoa",
+				"liked": "Hartu gustatu zaizkizun bideo guztiak",
+				"mix": "Hartu Mix osoa",
+				"playlist": "Hartu erreprodukzio-zerrenda osoa",
+				"uploads": "Hartu igotako bideo guztiak",
+				"watchLater": "Hartu Ikusi geroago osoa"
+			},
+			"hint": "Zerrenda bere lerro gisa gehitzen du. Bideo hau kanpoan geratzen da."
+		},
+		"pauseAllTitle": "Eten deskarga aktibo guztiak eta eragotzi berriak hastea",
+		"pausedBanner": "Ilara etenda dago — zain dauden elementuak ez dira hasiko berrekin arte",
+		"resumeAllTitle": "Berrekin etendako deskargak eta utzi ilarari jarraitzen",
+		"resumeQueueAction": "Berrekin ilara",
+		"selectedActionsLabel": "Hautatutako elementuak",
+		"selectionSummary": "{{selected}} hautatuta · {{total}} guztira",
+		"tabLabel": "Deskargak",
+		"tabTip": "Deskargak Deskargak fitxan daude orain — ireki edonoiz aurrerapena jarraitzeko.",
+		"table": {
+			"added": "Gehituta",
+			"artifacts": "Artefaktuak",
+			"columnDropped": "Zutabea jaregin da: {{column}}.",
+			"columnMoveCancelled": "Zutabea mugitzea bertan behera utzi da: {{column}}.",
+			"columnMovedOver": "Zutabea: {{column}}, honen gainean: {{target}}.",
+			"columnPickedUp": "Zutabea hartu da: {{column}}.",
+			"columns": "Zutabeak",
+			"finished": "Amaituta",
+			"format": "Formatua",
+			"hideArtifactsFor": "Ezkutatu artefaktuak: {{title}}",
+			"movableColumn": "zutabe mugigarria",
+			"moveColumnInstructions": "Zutabe bat mugitzeko, sakatu Zuriunea edo Sartu, mugitu geziekin, eta sakatu Zuriunea edo Sartu jaregiteko. Sakatu Ihes bertan behera uzteko.",
+			"notAvailable": "—",
+			"outputTarget": "Helburua",
+			"progress": "Aurrerapena",
+			"resetColumns": "Berrezarri zutabeak",
+			"resizeColumn": "Aldatu zutabearen tamaina: {{column}}",
+			"showArtifactsFor": "Erakutsi artefaktuak: {{title}}",
+			"size": "Tamaina",
+			"sortBy": "Ordenatu honen arabera: {{label}}",
+			"status": "Egoera",
+			"title": "Izenburua"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Jarraitu",
+		"description": "Eguneratze berri bat exekutatzen ari zara. Hona hemen nabarmenenak.",
+		"fullNotes": "Bertsio-ohar osoak ↗",
+		"title": "Klip-ren berrikuntzak: {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Utzi",
+			"chooseExecutable": "Aukeratu exekutagarria",
+			"installWithHomebrew": "Instalatu Homebrew-rekin",
+			"installWithWinget": "Instalatu WinGet-ekin",
+			"openDependencyFolder": "Ireki mendekotasunaren karpeta",
+			"resetToDefault": "Berrezarri lehenetsia",
+			"retrySetup": "Saiatu berriro",
+			"viewSetupLog": "Ikusi konfigurazio-erregistroa"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Saiatu berriro. Jarraitzen badu, aukeratu beheko funtzionatzen duen kopia bat.",
+				"title": "Tresna bat ez dabil behar bezala"
+			},
+			"blockedOrQuarantined": {
+				"body": "Baimendu Klip zure antibirusean edo SmartScreen-en, eta saiatu berriro.",
+				"title": "Zure antibirusak tresna bat blokeatu du"
+			},
+			"downloadFailed": {
+				"body": "Egiaztatu zure Interneteko konexioa eta saiatu berriro.",
+				"title": "Ezin izan da Klip-k behar duena deskargatu"
+			},
+			"extractFailed": {
+				"body": "Saiatu berriro berriz deskargatzeko.",
+				"title": "Deskarga bat hondatuta iritsi da"
+			},
+			"hashFailed": {
+				"body": "Saiatu berriro berriz deskargatzeko.",
+				"title": "Deskarga bat ez dator bat bere egiaztatze-batuketarekin"
+			},
+			"pairIncomplete": {
+				"body": "Aukeratu biak behean, edo berrezarri lehenetsira.",
+				"title": "FFmpeg eta FFprobe batera ezarri behar dira"
+			},
+			"permissionDenied": {
+				"body": "Saiatu berriro. Jarraitzen badu, aukeratu behean fidagarri jotzen duzun kopia bat.",
+				"title": "Zure sistemak ez dio Klip-ri tresna bat exekutatzen uzten"
+			},
+			"spawnFailed": {
+				"body": "Saiatu berriro. Jarraitzen badu, aukeratu behean funtzionatzen duen kopia bat.",
+				"title": "Tresna bat falta da edo ez da abiatzen"
+			},
+			"timeout": {
+				"body": "Maiz, lehen exekuzioko segurtasun-azterketa bat izaten da. Saiatu berriro.",
+				"title": "Tresna bat luzaroan ez da erantzun"
+			},
+			"unknown": {
+				"body": "Saiatu berriro, edo ireki konfigurazio-erregistroa xehetasunetarako.",
+				"title": "Zerbait oker joan da konfigurazioan"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Deskarga-motorra",
+			"media": "Multimedia-tresnak"
+		},
+		"installing": {
+			"homebrew": "Homebrew-rekin instalatzen… Minutu batzuk behar ditzake.",
+			"winget": "WinGet-ekin instalatzen… Minutu batzuk behar ditzake."
+		},
+		"manual": {
+			"intro": "Zuzendu Klip dagoeneko dituzun kopietara, edo instalatu beste modu batean.",
+			"linuxHint": "yt-dlp eta ffmpeg zure pakete-kudeatzailearekin ere instala ditzakezu, eta gero egin klik «Saiatu berriro» aukeran.",
+			"toggle": "Konfiguratu eskuz"
+		},
+		"stopped": {
+			"body": "Saiatu berriro, edo zuzendu Klip behean dagoeneko dituzun tresnetara.",
+			"title": "Konfigurazioa gelditu da"
+		},
+		"title": "Konfigurazioak zure laguntza behar du"
+	},
+	"selectionOrder": {
+		"editorTitle": "Profil honek nola aukeratzen duen",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC audioa",
+				"reason": "MP4 erreproduzitzaileetara egokitzen da"
+			},
+			"aacSmartTv": {
+				"label": "AAC audioa",
+				"reason": "nonahi erreproduzitzen da"
+			},
+			"codec": {
+				"label": "AV1, gero VP9, gero H.264",
+				"reason": "zorrotzena tamaina jakin batean"
+			},
+			"codecH264First": {
+				"label": "H.264, gero VP9, gero AV1",
+				"reason": "profil honen kodeka"
+			},
+			"codecVp9First": {
+				"label": "VP9, gero H.264, gero AV1",
+				"reason": "profil honen kodeka"
+			},
+			"fps": {
+				"label": "Fotograma-tasa handiena",
+				"reason": "mugimendu leunagoa"
+			},
+			"h264": {
+				"label": "H.264 bideoa",
+				"reason": "gailu guztietan erreproduzitzen da"
+			},
+			"hdrFirst": {
+				"label": "HDR SDR baino lehen",
+				"reason": "kolore aberatsagoak HDR pantailetan",
+				"reasonScreen": "pantaila honek HDR erakusten du"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR HDR baino lehen",
+				"reason": "ondo ikusten da edozein pantailatan",
+				"reasonScreen": "pantaila hau ez da HDR"
+			},
+			"mp4Streams": {
+				"label": "MP4 korronteak",
+				"reason": "MP4 fitxategi baterako prest"
+			},
+			"nativeCompatible": {
+				"label": "Estereo audioa"
+			},
+			"nativeSource": {
+				"profile": "profil hau",
+				"settings": "Ezarpenetatik"
+			},
+			"nativeSurround": {
+				"label": "Inguruko audioa, eskaintzen denean"
+			},
+			"opus": {
+				"label": "Opus audioa",
+				"reason": "WebM formatuari egokitzen zaio"
+			},
+			"original": {
+				"label": "Jatorrizko korronteak, ez AA bidez handitutakoak",
+				"reason": "handitutako kopia altuagoa da, baina ez du benetako xehetasun gehiagorik ematen"
+			},
+			"protocol": {
+				"label": "Deskarga zuzenak, streaming bidezko kopien aurretik",
+				"reason": "irudi bera, azkarrago deskargatua"
+			},
+			"resolution": {
+				"label": "{{tier}}p arte",
+				"reason": "zure muga"
+			},
+			"resolutionBest": {
+				"label": "Bereizmen handiena",
+				"reason": "mugarik ezarri gabe"
+			},
+			"sitePreference": {
+				"label": "Gunea behera markatzen ez dituen korronteak",
+				"reason": "kopia hondatuak, ur-marka dutenak eta ordezkoak saihesten ditu"
+			},
+			"size": {
+				"label": "Fitxategi handiagoa",
+				"reason": "xehetasun gehiago ezarpen berberekin"
+			},
+			"source": {
+				"label": "Bit-tasa hobetuko korronteak lehenik",
+				"reason": "xehetasun gehiago bereizmen berean"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "fitxategi-mota korronteetatik",
+				"explicit": ".{{ext}} gisa gordetzen da"
+			},
+			"goal": {
+				"bestPicture": "irudi onena",
+				"smartTv": "edozein gailutan erreproduzitzen da"
+			}
+		},
+		"whyLabel": "Zergatik hau?",
+		"whyTitle": "Zergatik aukeratu duen hau profilak"
+	},
+	"share": {
+		"copied": "Kopiatu da!",
+		"copyLink": "Kopiatu esteka",
+		"defaultMessage": "Klip — Windows, macOS eta Linux-erako bideo-deskargatzaile librea eta kode irekikoa. YouTube, Vimeo, Twitch eta 2000+ guneekin funtzionatzen du.\n4K · HDR · MP3 · Shorts · Azpitituluak · SponsorBlock",
+		"description": "Klip doakoa eta kode irekikoa da. Partekatzeak jende gehiagok ezagutzen laguntzen du.",
+		"footerLabel": "Partekatu",
+		"footerTooltip": "Partekatu Klip",
+		"shareAction": "Partekatu Klip",
+		"title": "Partekatu Klip"
+	},
+	"splash": {
+		"cancel": "Arazoak dituzu? Konfiguratu eskuz",
+		"greeting": "Kaixo, ongi etorri berriro!",
+		"setup": {
+			"left": {
+				"minutes_one": "gutxi gorabehera min {{count}} falta dira",
+				"minutes_other": "gutxi gorabehera {{count}} min falta dira",
+				"underMinute": "minutu bat baino gutxiago falta da"
+			},
+			"stage": {
+				"checking": "Dena ondo dabilela egiaztatzen",
+				"connecting": "Konektatzen…",
+				"unpacking": "Multimedia-tresnak deskonprimatzen",
+				"unpackingEngine": "Deskarga-motorra deskonprimatzen"
+			},
+			"title": {
+				"both": "Klip-ren tresnak eguneratzen",
+				"engine": "Deskarga-motorra eguneratzen",
+				"firstRun": "Lehen aldiko konfigurazioa",
+				"media": "Multimedia-tresnak eguneratzen"
+			}
+		},
+		"verifyFirstCheck": "Bertsio honen lehen egiaztapena — hau mantsoa da. Normalean minutu bat inguru.",
+		"verifying": "Egiaztatzen: {{binary}}…",
+		"warmup": "Deskargak prestatzen…",
+		"warmupFailedNoDiag": "Konfigurazioak huts egin du. Ireki konfigurazio-erregistroa xehetasunetarako."
+	},
+	"status": {
+		"audioKept": "Bideoa soinuarekin gorde da — audioa ezin izan da kendu",
+		"audioKeptSubtitlesFailed": "Bideoa soinuarekin gorde da — audioa ezin izan da kendu, eta azpititulu batzuk ezin izan dira deskargatu",
+		"cancelled": "Deskarga utzi da",
+		"complete": "Deskarga amaitu da",
+		"convertingVideo": "Bideoa bihurtzen…",
+		"diskSpaceInsufficient": "Ez dago diskoan leku nahikorik — {{required}} behar dira, {{free}} baino ez daude erabilgarri",
+		"downloadingBinary": "Bitarra deskargatzen: {{name}}…",
+		"downloadingMedia": "Bideoa eta audioa deskargatzen…",
+		"embeddingMetadata": "Metadatuak txertatzen…",
+		"exploreSignedOut": "Esploratu fitxako saioa amaitu da — hasi saioa berriro",
+		"extractingAudio": "Audioa bihurtzen…",
+		"fetchingSponsorBlock": "SponsorBlock-ekin kontaktatzen…",
+		"fetchingSubtitles": "Azpitituluak eskuratzen…",
+		"mergingFormats": "Audioa eta bideoa batzen…",
+		"mintingToken": "YouTube-ko deskarga prestatzen…",
+		"movingFiles": "Fitxategiak mugitzen…",
+		"noSubtitles": "Azpititulurik ez hizkuntza hauetan: {{languages}}",
+		"outputNotWritable": "Ezin da gorde hemen: {{dir}} — Klip-k ez du hor idazteko baimenik",
+		"preparingBinaries": "Bitarrak prestatzen…",
+		"qualityLimited": "{{height}}p-n gorde da — YouTube-k kalitate handiagoak atxiki ditu deskarga honetarako. Geroago berriro saiatzeak lagun dezake.",
+		"qualityLimitedSubtitlesFailed": "{{height}}p-n gorde da — YouTube-k kalitate handiagoak atxiki ditu deskarga honetarako, eta azpititulu batzuk ezin izan dira deskargatu. Geroago berriro saiatzeak lagun dezake.",
+		"remintingToken": "YouTube-ko deskarga berriro prestatzen…",
+		"retryingSponsorBlock": "SponsorBlock ez dago erabilgarri, berriro saiatzen ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Konexioa gelditu da, berriro saiatzen ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Zure Esploratu fitxako kontuarekin saioa hasten…",
+		"sleepingBetweenRequests": "Itxaroten: {{seconds}} s, abiadura-mugak saihesteko…",
+		"startingYtdlp": "Deskarga-motorra abiarazten…",
+		"subtitleLanguagesMissing": "Bideo honek ez du azpititulurik hizkuntza hauetan: {{languages}}. Bideoa azpititulu gabe gorde da.",
+		"subtitleLanguagesMissingOthersSaved": "Bideo honek ez du azpititulurik hizkuntza hauetan: {{languages}}. Gainerako hizkuntzak gorde dira.",
+		"subtitlesFailed": "Bideoa gorde da — azpititulu batzuk ezin izan dira deskargatu",
+		"unknownStartupFailure": "Deskargaren abiaraztean errore ezezaguna",
+		"usedExtractorFallback": "Erauzle malguarekin deskargatu da — konfiguratu cookies.txt bat deskarga fidagarriagoetarako",
+		"ytdlpExitCode": "Deskarga-motorra irten da. Kodea: {{code}}",
+		"ytdlpProcessError": "Deskarga-motorraren errorea: {{error}}"
+	},
+	"theme": {
+		"dark": "Modu iluna",
+		"light": "Modu argia",
+		"system": "Sistemaren lehenetsia"
+	},
+	"titleBar": {
+		"close": "Itxi",
+		"maximize": "Maximizatu",
+		"minimize": "Minimizatu",
+		"restore": "Leheneratu"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Deskargatu arbeletik",
+			"statusActive_one": "1 deskargatzen · {{percent}}%",
+			"statusActive_other": "{{count}} deskargatzen · {{percent}}%",
+			"statusIdle": "Inaktibo"
+		}
+	},
+	"update": {
+		"copied": "Komandoa arbelean kopiatu da",
+		"copy": "Kopiatu komandoa arbelean",
+		"dismiss": "Baztertu eguneratze-bannerra",
+		"download": "Deskargatu ↗",
+		"downloadDmg": "Deskargatu DMG ↗",
+		"downloading": "Deskargatzen…",
+		"install": "Instalatu eta berrabiarazi",
+		"installFailed": "Eguneratzeak huts egin du",
+		"message": {
+			"generic": "Klip {{version}} erabilgarri dago — zuk {{currentVersion}} duzu.",
+			"homebrew": "Klip {{version}} erabilgarri dago — eguneratu Homebrew-rekin.",
+			"macosDirect": "Klip {{version}} erabilgarri dago — deskargatu DMG berria.",
+			"macosDirectHomebrew": "Klip {{version}} erabilgarri dago — deskargatu DMG-a edo aldatu Homebrew-ra.",
+			"portable": "Klip {{version}} erabilgarri dago — deskargatu bertsio berria."
+		},
+		"retry": "Saiatu berriro",
+		"runAndRestart": "Exekutatu eta berrabiarazi",
+		"upgrading": "Eguneratzen…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} kapitulu",
+		"chapters_other": "{{count}} kapitulu",
+		"titlePlaceholder": "Kargatzen…"
+	},
+	"videoCodec": {
+		"h264": "H.264 lehenik",
+		"label": "Bideo-kodeka",
+		"smartTv": "Smart TV profilak beti H.264 hartzen du.",
+		"vp9": "VP9 lehenik"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Prest",
+			"description": "Itsatsi bideo-, erreprodukzio-zerrenda-, kanal-, bilaketa- edo audio-URLak. Klip-k bikoizketak garbituko ditu ilaran jarri aurretik.",
+			"emptyPreview": "Itsatsi URL bat edo gehiago multzoaren aurrebista ikusteko.",
+			"ignoredCount": "Ezikusi",
+			"needsAtLeastOne": "Gehitu onartutako URL bat gutxienez jarraitzeko.",
+			"reject": {
+				"duplicate": "Bikoiztua"
+			},
+			"textareaLabel": "URL zerrenda",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "URL masiboak"
+		},
+		"confirm": {
+			"addToQueue": "+ Ilara",
+			"addToQueueTooltip": "Ilarara gehitzen du — aktibo dagoen deskarga amaitzen denean hasten da",
+			"itemsValueAudio_one": "{{count}} / {{total}} pista",
+			"itemsValueAudio_other": "{{count}} / {{total}} pista",
+			"itemsValueBulk_one": "{{count}} / {{total}} URL",
+			"itemsValueBulk_other": "{{count}} / {{total}} URL",
+			"itemsValue_one": "{{count}} / {{total}} bideo",
+			"itemsValue_other": "{{count}} / {{total}} bideo",
+			"labelAudio": "Audioa",
+			"labelBulk": "Multzoa",
+			"labelItems": "Elementuak",
+			"labelPlaylist": "Erreprodukzio-zerrenda",
+			"labelPreset": "Aurrezarpena",
+			"labelSaveTo": "Gorde hemen",
+			"labelSize": "Tamaina",
+			"labelSubtitles": "Azpitituluak",
+			"labelVideo": "Bideoa",
+			"landIn": "Zure fitxategia hemen gordeko da",
+			"landInMultiProfile_one": "Beheko helburuan gordeko da",
+			"landInMultiProfile_other": "Beheko {{count}} helburuetan gordeko dira",
+			"nothingToDownload": "«Azpitituluak soilik» profila aktibo dago, baina ez da azpititulu-hizkuntzarik hautatu — ez da ezer deskargatuko.",
+			"profileBreakdownCount_one": "{{count}} elementu",
+			"profileBreakdownCount_other": "{{count}} elementu",
+			"profileBreakdownHeading": "Multzo honetako profilak",
+			"pullIt": "Deskargatu! ↓",
+			"pullItTooltip": "Ilara saltatzen du — orain hasten da, aktibo dauden beste deskargekin batera",
+			"readyHeadline": "Deskargatzeko prest!",
+			"sizeUnknown": "Ezezaguna",
+			"subtitleEmbedAudioOnly": "Azpitituluen txertatzea alboko fitxategi bihurtu da — audio-pistek ez dute txertatutako azpititulu-korronterik onartzen.",
+			"subtitleEmbedForcesMkv": "Bideoaren barruko azpitituluek MKV fitxategi bat behar dute, beraz deskarga hau .mkv gisa gordetzen da.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Miniaturaren txertatzea saltatu da — irteerako edukiontziak ez du onartzen."
+		},
+		"folder": {
+			"custom": "Pertsonalizatua…",
+			"desktop": "Mahaigaina",
+			"documents": "Dokumentuak",
+			"downloads": "Deskargak",
+			"heading": "Gorde hemen",
+			"home": "Hasiera",
+			"music": "Musika",
+			"pictures": "Irudiak",
+			"subfolder": {
+				"invalid": "Karpeta-izenak baliogabeko karaktereak ditu",
+				"placeholder": "adib. ikastaroak",
+				"toggle": "Gorde azpikarpeta baten barruan"
+			},
+			"videos": "Filmak"
+		},
+		"formats": {
+			"audio": "Audioa",
+			"audioLanguage": "Audio-hizkuntza",
+			"audioLanguageCount_one": "{{count}} hizkuntza",
+			"audioLanguageCount_other": "{{count}} hizkuntza",
+			"bitrateValue": "Bit-tasa: {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Cookie-ak konfiguratuta daude baina desaktibatuta. Aktibatu eta saiatu berriro zerrenda osoa lortzeko, edo aldatu sarea eta saiatu berriro.",
+				"bodyEnabled": "Cookie-ekin ere, YouTube-k azterketa hau mugatu du. Saiatu berriro geroago edo aldatu sarea.",
+				"bodyExplore": "YouTube-k eskaera hau mugatu du. Saiatu berriro geroago edo aldatu sarea.",
+				"bodyUnconfigured": "Baliteke formatu-zerrenda osatu gabe egotea. Konfiguratu cookie-ak ezarpen aurreratuetan, edo aldatu sarea eta saiatu berriro.",
+				"enableRetryCta": "Aktibatu cookie-ak eta saiatu berriro",
+				"heading": "Azterketa mugatu da",
+				"retryCta": "Saiatu berriro"
+			},
+			"convert": {
+				"bitrate": "Bit-tasa",
+				"bitrateCopyHint": "Jada {{target}} den iturri batek bere korrontea eta bit-tasa mantentzen ditu: kopiatu egiten da, ez birkodetu.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, birkodetu gabe",
+				"copyLabelNoBitrate": "{{target}}, birkodetu gabe",
+				"copyNote": "{{kbps}} kbps, iturriak dituen bezala: korrontea jada {{target}} da, beraz kopiatu egiten da, ez birkodetu",
+				"copyNoteNoBitrate": "Iturriak dituen bezala: korrontea jada {{target}} da, beraz kopiatu egiten da, ez birkodetu",
+				"label": "Bihurtu",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "Iturria {{kbps}} kbps da",
+				"wavLabel": "WAV (konprimitu gabe)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Nabigatzailea",
+				"currentModeExplore": "Esploratu fitxako saioa",
+				"currentModeFile": "Fitxategia",
+				"currentModeLabel": "Cookie-en iturria",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp dokumentazioa (#10927 issue-a)",
+					"explanation": "Chrome 127 eta berriagoek cookie-ak Windows-en beste aplikazioek irakur ezin dezaketen moduan zifratzen dituzte. Probatu beheko soluzioetako bat.",
+					"fixFileBody": "Esportatu Chrome-ko cookie-ak nabigatzaile-luzapen batekin, gero aldatu aplikazio hau Fitxategia modura eta aukeratu esportatutako fitxategia.",
+					"fixFileLabel": "Esportatu cookies.txt",
+					"fixFirefoxBody": "Firefox-ek ez du App-Bound Encryption erabiltzen. Ireki cookie-en ezarpenak eta aukeratu Firefox nabigatzaile-zerrendan.",
+					"fixFirefoxLabel": "Aldatu Firefox-era",
+					"fixUnsafeBody": "Gehitu --disable-features=LockProfileCookieDatabase Chrome-ren abiarazteko lasterbidean. Kontuz: honek aurrez zifratutako cookie-ak baliogabetzen ditu, beraz gune guztietako saioa amaituko da eta berriro hasi beharko duzu.",
+					"fixUnsafeLabel": "Abiarazi Chrome App-Bound Encryption desgaituta",
+					"heading": "Windows-en zifratzeak Chrome-ko cookie-ak blokeatu ditu"
+				},
+				"explanationBrowser": "Cookie-ak zuzenean nabigatzailetik irakurtzen dira. Nabigatzailea martxan badago, baliteke bere cookie-datu-basea blokeatuta egotea (Chromium familia). Gainera, nabigatzailean YouTube-n saioa hasita egon behar da. Saiatu nabigatzailea ixten, beste nabigatzaile bat erabiltzen, Fitxategia modura aldatzen edo cookie-ak desaktibatzen.",
+				"explanationFile": "Baliteke zure cookie-fitxategia hutsik, iraungita edo formatu okerrean egotea (Klip-k Netscape cookies.txt fitxategi bat behar du). Saiatu cookie-ak berriro esportatzen, beste fitxategi bat aukeratzen, Nabigatzailea modura aldatzen edo cookie-ak desaktibatzen.",
+				"exploreOffer": {
+					"body": "Hasi saioa Esploratu fitxan eta Klip-k berriro saiatuko da.",
+					"cta": "Hasi saioa Esploratu fitxan",
+					"heading": "Baliteke bideo honek YouTube kontu bat behar izatea"
+				},
+				"exploreRefused": {
+					"body": "Klip-k jada saiatu da Esploratu fitxako saioarekin, beraz berriro saioa hasteak ez du ezer lagunduko. Baliteke gunean arazoren bat egotea, edo kontu honek ezin izatea ireki. Saiatu berriro geroago.",
+					"heading": "Gunea uko egin dio Esploratu fitxako saioarekin ere"
+				},
+				"exploreReuse": {
+					"body": "Esploratu fitxan saioa hasita duzu, baina deskargek ez dute saio hori erabiltzen une honetan.",
+					"cta": "Erabili Esploratu fitxako saioa eta saiatu berriro",
+					"heading": "Baliteke bideo honek YouTube kontu bat behar izatea"
+				},
+				"exploreSignIn": {
+					"body": "Bideo honek YouTube kontu bat behar badu, hasi saioa Esploratu fitxan eta saiatu berriro. Klip-k saio hori deskarga batek behar duenean bakarrik erabiltzen du.",
+					"cta": "Hasi saioa Esploratu fitxan",
+					"heading": "Baliteke bideo honek YouTube kontu bat behar izatea"
+				},
+				"exploreSignedIn": {
+					"body": "Bideo honek konturen bat behar badu, Klip-k automatikoki erabiltzen du Esploratu fitxako saioa. Baliteke beste arrazoi batengatik ez egotea eskuragarri.",
+					"heading": "Esploratu fitxan saioa hasita"
+				},
+				"exploreSite": {
+					"heading": "Baliteke esteka honek kontu bat behar izatea hemen: {{host}}",
+					"offerBody": "Hasi saioa Esploratu fitxan hemen: {{host}}, eta saiatu berriro.",
+					"signInBody": "Hasi saioa Esploratu fitxan hemen: {{host}}, eta saiatu berriro. Klip-k saio hori deskarga batek behar duenean bakarrik erabiltzen du."
+				},
+				"heading": "Cookie-ak izan daitezke arrazoia",
+				"needsCookies": {
+					"body": "Klip-k ezin izan du bideo hau atzitu autentifikaziorik gabe. Konfiguratu cookie-ak ezarpen aurreratuetan — zuzendu saioa hasita duzun nabigatzaile batera, edo inportatu cookies.txt fitxategi bat.",
+					"heading": "Gune honek saioa hastea eskatzen du"
+				},
+				"openSettingsCta": "Ireki cookie-en ezarpenak",
+				"otherCookiesCta": "Erabili cookie-fitxategi bat edo nabigatzaile bat…"
+			},
+			"drc": {
+				"description": "Zati ozenak baxuago eta isilak ozenago, bozgorailuentzat eta giro zaratatsuentzat.",
+				"label": "Berdindu bolumena (DRC)",
+				"tag": "Bolumen berdina"
+			},
+			"fit": {
+				"mp4Unavailable": "Zure profila Smart TV (H.264) da. Bideo honek ez du H.264 eskaintzen, beraz hurbilen dagoen korrontea hautatu da.",
+				"noVideo": "Esteka honek ez du bideorik, beraz audioa hautatu da.",
+				"subtitlesMissing": "Zure profilak azpitituluak eskatzen ditu hizkuntza hauetan: {{languages}}. Bideo honek ez ditu.",
+				"tierAbove": "Zure profilak {{wanted}}p eskatzen du. Bideo honek ez du hain txikirik, beraz {{picked}}p hautatu da.",
+				"tierAbovePassedOver": "Zure profilak {{wanted}}p eskatzen du. Bideo honen stream txikiagoak ez datoz zure profilaren gainerakoarekin, beraz {{picked}}p hautatu da.",
+				"tierBelowTakeable": "Zure profilak {{wanted}}p eskatzen du. Bideo honek ez du erabil daitekeen {{wanted}}prik, beraz {{picked}}p hautatu da.",
+				"tierPassedOverAiUpscaled": "Zure profilak {{wanted}}p eskatzen du. Bideo honen {{wanted}}p IAz handitua da, beraz jatorrizko {{picked}}p hautatu da.",
+				"tierPassedOverH264": "Zure profilak {{wanted}}p eskatzen du H.264-n. Bideo honek {{wanted}}p beste kodek batzuetan bakarrik du, beraz {{picked}}p hautatu da H.264-n.",
+				"tierPassedOverProfile": "Zure profilak {{wanted}}p eskatzen du. Bideo honen {{wanted}}p ez dator zure profilaren gainerakoarekin, beraz {{picked}}p hautatu da.",
+				"webmUnavailable": "Zure profilak WebM eskatzen du. Bideo honen hautatutako korronteen artean {{codec}} dago, eta WebM-k ezin du onartu; beraz fitxategi-mota Automatikoa da."
+			},
+			"footer": {
+				"addToQueue": "Gehitu ilarara hasi gabe",
+				"download": "Deskargatu",
+				"moreActions": "Deskarga-aukera gehiago",
+				"subtitlesRequired": "Aukeratu gutxienez azpititulu-hizkuntza bat."
+			},
+			"keepAudio": "Utzi dagoen bezala",
+			"keepAudioMeta": "Barneko audioa",
+			"kind": {
+				"audio": "Audioa soilik",
+				"label": "Zer deskargatu",
+				"subtitles": "Azpitituluak soilik",
+				"video": "Bideoa + audioa",
+				"videoOnly": "Bideoa, audiorik gabe"
+			},
+			"loadingAria": "Formatuak kargatzen",
+			"loadingHint": "Itxaron azterketa amaitu arte — erreprodukzio-zerrendek eta bilaketek denbora har dezakete.",
+			"marker": {
+				"aiDubbed": "AA bidez bikoiztua",
+				"aiUpscaled": "AA bidez handitua",
+				"audioDescription": "Audio-deskribapena",
+				"damaged": "Hondatua",
+				"enhancedBitrate": "Bit-tasa hobetua",
+				"original": "Jatorrizkoa",
+				"spatialAudio": "Audio espaziala",
+				"vr": "360° / VR",
+				"watermarked": "Ur-markarekin"
+			},
+			"noAudio": "Audiorik gabe",
+			"profile": {
+				"calloutBody": "Zure profil aktiboak korronteak aldez aurretik hautatzen ditu zuretzat. Aldatu profilak menutik, edo erabili arkatza bat doitzeko deskarga hau utzi gabe.",
+				"calloutTitle": "Formatuak zure profiletik abiatzen dira",
+				"closestTag": "Profilera hurbilena",
+				"edit": "Editatu: {{name}}",
+				"keepEdits": "Mantendu nire aldaketak",
+				"menuDescription": "Deskarga honetarako soilik. Zure profil lehenetsia ez da aldatzen.",
+				"preselected": "Aldez aurretik hautatua hemendik:",
+				"resetAll": "Berrezarri guztia",
+				"switchBody": "Deskarga honetarako hau aldatu duzu: {{areas}}. «{{profile}}» profilak bideoa eta audioa aukeratzen ditu edonola. Zure gainerako aldaketak mantendu nahi dituzu, edo dena profilera berrezarri?",
+				"switchTitle": "Profila aldatu nahi duzu?",
+				"tag": "Profila",
+				"updatedBody": "Deskarga honetarako hau aldatu duzu: {{areas}}. Eguneratutako profilak bideoa eta audioa aukeratzen ditu edonola. Zure gainerako aldaketak mantendu nahi dituzu, edo dena profilera berrezarri?",
+				"updatedTitle": "Eguneratutako profila erabili nahi duzu?"
+			},
+			"quality": {
+				"high": "Kalitate altua",
+				"low": "Kalitate baxua",
+				"medium": "Kalitate ertaina"
+			},
+			"rateLimit": {
+				"heading": "Konexio honen eskaerak mugatzen ari dira ({{site}})",
+				"leadDegraded": "Baliteke formatu-zerrenda osatu gabe egotea.",
+				"leadFailed": "Eskaera hau atzera bota dute oraingoz ({{site}}).",
+				"retryCta": "Saiatu berriro",
+				"sessionNote": "Muga honek ordubete arte iraun dezake ({{site}}).",
+				"tryNowCta": "Saiatu orain",
+				"waitOver": "Itxaronaldia amaitu da, beraz berriro saia zaitezke.",
+				"waitUntil": "Klip-k {{time}} arte itxarongo du berriro eskatu aurretik ({{site}}), muga gaindi dadin."
+			},
+			"resolutionUnknown": "Bereizmen ezezaguna",
+			"savesAs": {
+				"label": "Gordetzen da honela",
+				"reset": "WebM-k ezin du {{codec}} onartu, beraz fitxategi-mota Automatikora itzuli da."
+			},
+			"sizeUnknown": "Tamaina ezezaguna",
+			"skipToConfirm": "Saltatu berrespenera",
+			"skipToConfirmTooltip": "Gordetako lehentasunak erabiltzen ditu gainerako urrats guztietan. Ezarpen bat aldatzeko, jarraitu urratsez urrats — zure aukera hurrengo aldirako gordeko da.",
+			"sniffing": "Zuretzako formaturik onenak bilatzen…",
+			"total": "Guztira",
+			"video": "Bideoa",
+			"withAudio": "audioarekin"
+		},
+		"listPrompt": {
+			"backgroundHint": "Honekin: {{profileName}}. {{count}} bideo baino gehiago baditu, Deskargak atalak galdetuko du zenbat.",
+			"backgroundLabel": "Deskargatu atzeko planoan",
+			"escOnly": "Esc sakatuta bertan behera geratzen da.",
+			"firstHint": "Lehenengo {{count}} zehazki, honekin: {{profileName}}.",
+			"firstLabel": "Deskargatu lehenengo",
+			"interactiveHint": "Aukeratu lehenengo {{count}} bideoen artean (edo aldatu kopurua hurrengo urratsean), eta gero konfiguratu deskarga.",
+			"interactiveLabel": "Deskarga interaktiboa…",
+			"limitHint": "Zerrendatik zenbat bideo hartu: lehen aukerak muga horretatik aurrera galdetzen du, bigarrenak zehazki hainbeste hartzen ditu. Ezarpenak › Aztertzeko erreprodukzio-zerrendako elementuak aukeraren berdina da.",
+			"limitLabel": "Muga",
+			"mixNote": "Mix bat aldatu egiten da irekitzen duzun bakoitzean.",
+			"pickLoadAfter": "aukeratzeko.",
+			"pickLoadBefore": "Kargatu lehenengo",
+			"pickLoadNote": "Hurrengo urratsean alda dezakezu.",
+			"pickTitle": {
+				"album": "Aukeratu album honetatik",
+				"liked": "Aukeratu gustatu zaizkizun bideoetatik",
+				"mix": "Aukeratu Mix honetatik",
+				"playlist": "Aukeratu erreprodukzio-zerrenda honetatik",
+				"uploads": "Aukeratu kanal honetan igotako bideoetatik",
+				"watchLater": "Aukeratu Ikusi geroago zerrendatik"
+			},
+			"title": {
+				"album": "Deskargatu album honetatik",
+				"liked": "Deskargatu gustatu zaizkizun bideoetatik",
+				"mix": "Deskargatu Mix honetatik",
+				"playlist": "Deskargatu erreprodukzio-zerrenda honetatik",
+				"uploads": "Deskargatu kanal honetan igotako bideoetatik",
+				"watchLater": "Deskargatu Ikusi geroago zerrendatik"
+			},
+			"videoHint": "Ireki duzun bideoa bakarrik, honekin: {{profileName}}. Zerrenda ez da kargatzen.",
+			"videoLabel": "Bideo hau bakarrik",
+			"videoPickHint": "Konfiguratu ireki duzun bideoa bakarrik. Zerrenda ez da kargatzen.",
+			"withProfile": "Honekin: {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Edozein erreproduzitzaile modernotan nabigatu daitezkeen kapitulu-markak.",
+				"label": "Txertatu kapituluak",
+				"short": "kapituluak"
+			},
+			"embedMetadata": {
+				"description": "Izenburua, artista, deskribapena eta igotze-data fitxategian idazten dira.",
+				"label": "Txertatu metadatuak",
+				"short": "metadatuak"
+			},
+			"embedThumbnail": {
+				"description": "Azala fitxategiaren barruan. WebM bideoa MKV formatura remuxatuko da; azpitituluak txertatzen direnean saltatu egiten da.",
+				"label": "Txertatu miniatura",
+				"short": "azala"
+			},
+			"writeDescription": {
+				"description": "Bideoaren deskribapena .description testu-fitxategi gisa gordetzen du deskargaren ondoan.",
+				"label": "Gorde deskribapena",
+				"short": "deskribapen-fitxategia"
+			},
+			"writeM3u": {
+				"description": "Gorde .m3u erreprodukzio-zerrenda bat bideoen ondoan, zure multimedia-erreproduzitzailean ordenan ireki daitezen.",
+				"label": "Sortu .m3u erreprodukzio-zerrenda fitxategia"
+			},
+			"writeThumbnail": {
+				"description": "Miniatura .jpg irudi-fitxategi gisa gordetzen du deskargaren ondoan.",
+				"label": "Gorde miniatura",
+				"short": "miniatura-fitxategia"
+			}
+		},
+		"part": {
+			"calloutBody": "Aldatu Zatia aukerara bideo-txartelean, hasiera eta amaiera edo kapitulu bat aukeratzeko eta tarte hori bakarrik deskargatzeko.",
+			"calloutTitle": "Deskargatu bideoaren zati bat soilik",
+			"chapterUntitled": "{{number}}. kapitulua",
+			"chapters": "Kapituluak",
+			"connectionsNote": "Zati bat ffmpeg bidez deskargatzen da, beraz zure deskarga-konexioen eta erritmo-ezarpenak ez dira aplikatzen.",
+			"downloadBlocked": "Zuzendu lehenik zatiaren hasiera eta amaiera.",
+			"end": "Amaiera",
+			"error": {
+				"endBeyondDuration": "Bideoa hemen amaitzen da: {{duration}}.",
+				"endInvalid": "Idatzi amaiera h:mm:ss, m:ss edo segundo gisa.",
+				"startInvalid": "Idatzi hasiera h:mm:ss, m:ss edo segundo gisa.",
+				"startNotBeforeEnd": "Hasierak amaieraren aurretik egon behar du."
+			},
+			"exactCut": {
+				"hint": "Desaktibatuta: ebaki bakoitza hurbilen dagoen gako-fotogramara doa, eta idatzitako denbora baino segundo batzuetara egon daiteke.",
+				"label": "Ebaki zehatza (birkodetzen du, mantsoagoa)"
+			},
+			"length": "{{length}} / {{duration}}",
+			"part": "Zatia",
+			"rangeLabel": "Bideoaren zatia",
+			"start": "Hasiera",
+			"subtitlesFullLength": "bideo osoa",
+			"summary": "Zatia {{start}}–{{end}}",
+			"switchLabel": "Bideoaren zenbat",
+			"timeHint": "h:mm:ss, m:ss edo segundoak",
+			"totalEstimate": "Zatia, kalkulatua",
+			"unavailableDuration": "Bideo honek ez du bere luzera jakinarazten, beraz osorik soilik deskarga daiteke.",
+			"unavailableSubtitles": "Azpitituluek beti bideo osoa hartzen dute.",
+			"urlStart": "Zure esteka hemen hasten da: {{time}}",
+			"useUrlStart": "Erabili hasiera gisa",
+			"whole": "Bideo osoa",
+			"wholeTrack": "Pista osoa"
+		},
+		"playlist": {
+			"allRemovedDescription": "Leheneratu itzazu jarraitzeko.",
+			"allRemovedTitle": "Elementu guztiak kendu dira",
+			"alreadyDownloaded": "Jada deskargatuta",
+			"bulkCappedDesc_one": "Gehiago ditu. Zenbat aukeratzeko, itsatsi bere esteka bere kabuz.",
+			"bulkCappedDesc_other": "Gehiago dituzte. Zenbat aukeratzeko, itsatsi esteka bakoitza bere kabuz.",
+			"bulkCappedTitle_one": "“{{title}}” {{limit}} bideotan mozten da",
+			"bulkCappedTitle_other": "{{count}} zerrenda {{limit}} bideotan mozten dira, bakoitza",
+			"bulkHeading": "URL masiboak",
+			"bulkMetadataOptional": "Ez da itxaron beharrik — orain ilaran jarritako fitxategiek benetako izenak izango dituzte deskargatzean.",
+			"bulkMetadataResolving": "Bideoen xehetasunak eskuratzen… {{done}}/{{total}}",
+			"bulkRowFailed": "Xehetasunak ez daude erabilgarri",
+			"bulkRowResolving": "Xehetasunak eskuratzen",
+			"bulkRowWaiting": "Zain",
+			"durationUnknown": "zuzenean",
+			"heading": "Erreprodukzio-zerrendako elementuak",
+			"headingGeneric": "Deskargatzeko bideoak",
+			"itemCountAudio_one": "{{count}} pista",
+			"itemCountAudio_other": "{{count}} pista",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCount_one": "{{count}} bideo",
+			"itemCount_other": "{{count}} bideo",
+			"loadingItems": "Erreprodukzio-zerrenda eskuratzen…",
+			"loadingItemsGeneric": "Bideoak eskuratzen…",
+			"loadingLimitHint": "Lehenengo {{count}} elementuetara mugatua",
+			"loadingPagesFound_one": "{{count}} orri aurkitu da",
+			"loadingPagesFound_other": "{{count}} orri aurkitu dira",
+			"loadingPhaseItems": "Bideoak biltzen",
+			"loadingPhasePages": "Kanaleko orriak arakatzen",
+			"multiProfileEntry": "Esleitu profilak elementuko",
+			"multiProfileEntryTooltip": "Kalitatea, SponsorBlock, Irteera eta Gorde urratsak saltatzen ditu — esleitu deskarga-profil bat elementu bakoitzari",
+			"nestedPlaylistBadge": "Erreprodukzio-zerrenda",
+			"nestedPlaylistHint_one": "Hauetako {{count}} erreprodukzio-zerrenda bat da, ez bideo bat — itsatsi bere esteka bakarrik deskargatzeko.",
+			"nestedPlaylistHint_other": "Hauetako {{count}} erreprodukzio-zerrendak dira, ez bideoak — itsatsi haien estekak banan-banan deskargatzeko.",
+			"noSelection": "Hautatu bideo bat gutxienez jarraitzeko",
+			"probeLimitAlertDesc": "Lehenengo {{count}} elementuak erakusten dira. Handitu kargatze-muga gehiago ikusteko.",
+			"probeLimitAlertTitle": "Erreprodukzio-zerrendaren azterketa mugatuta dago",
+			"probeLimitAlertTitleGeneric": "Azterketa mugatuta dago",
+			"rangeApply": "Aplikatu tartea",
+			"rangeFrom": "Hemendik",
+			"rangeTo": "Hona",
+			"removeFromListCount_one": "Kendu {{count}} zerrendatik",
+			"removeFromListCount_other": "Kendu {{count}} zerrendatik",
+			"removedCount_one": "{{count}} kendu da",
+			"removedCount_other": "{{count}} kendu dira",
+			"restore": "Leheneratu",
+			"selectAll": "Hautatu guztiak",
+			"selectNone": "Ez hautatu ezer",
+			"selectedCount_one": "{{count}} hautatuta",
+			"selectedCount_other": "{{count}} hautatuta",
+			"sortApi": "Erreprodukzio-zerrendaren ordena",
+			"sortFetchingDates": "Igotze-datak eskuratzen…",
+			"sortLabel": "Ordenatu",
+			"sortUploadAsc": "Zaharrenak lehenik",
+			"sortUploadDesc": "Berrienak lehenik",
+			"syncApply": "Aplikatu sinkronizazioa",
+			"syncChange": "Aldatu karpeta…",
+			"syncFoundDesc": "Bideo hauetatik {{n}} jada hemen daude: {{dir}}. Sinkronizatu berriak soilik deskargatzeko?",
+			"syncFoundTitle": "Jada karpetan",
+			"syncNoneDesc": "Erreprodukzio-zerrenda honetako bideorik ez da aurkitu hemen: {{dir}}.",
+			"syncNoneDescGeneric": "Iturri honetako bideorik ez da aurkitu hemen: {{dir}}.",
+			"syncNoneTitle": "Oraindik ez da ezer deskargatu",
+			"syncScanning": "Karpeta egiaztatzen…",
+			"thumbnailAlt": "Bideoaren miniatura"
+		},
+		"playlistPresets": {
+			"heading": "Aukeratu multzoaren kalitatea",
+			"itemCount_one": "{{count}} elementu",
+			"itemCount_other": "{{count}} elementu",
+			"subhead": "Bideo bakoitzak aukeratutako maila bere aldetik ebazten du — erreprodukzio-zerrenda heterogeneoek ere sorpresarik gabe funtzionatzen dute."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Esleitu profila",
+			"assignTrigger_one": "Esleitu {{count}} bideori",
+			"assignTrigger_other": "Esleitu {{count}} bideori",
+			"columnDuration": "Iraupena",
+			"columnProfile": "Profila",
+			"editProfile": "Editatu: {{name}}",
+			"empty": "Ez dago iragazki honekin bat datorren elementurik",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profil-iragazkiak",
+			"heading": "Esleitu deskarga-profilak",
+			"menuDescription_one": "Aukeratu bideo honen profila.",
+			"menuDescription_other": "Aukeratu {{count}} bideo hauen profila.",
+			"selectedSummary": "{{selected}} / {{total}} hautatuta"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Aldatu orokorra",
+				"chooseFolder": "Aukeratu helburuko karpeta",
+				"chooseIcon": "Aukeratu profilaren ikonoa",
+				"removeLanguage": "Kendu {{code}}",
+				"reset": "Berrezarri profila",
+				"resetDisabledHint": "Profil honek jada integratutako ezarpenak erabiltzen ditu",
+				"resetHint": "Leheneratu integratutako profil-ezarpenak",
+				"save": "Gorde profila",
+				"setOverride": "Ezarri profilaren gainidazketa",
+				"setOverrideShort": "Ezarri gainidazketa",
+				"useGlobalDefault": "Erabili lehenetsi orokorra",
+				"useLanguageCode": "Erabili hizkuntza-kodea: «{{code}}»"
+			},
+			"advanced": "Aurreratua",
+			"appSetting": "Erabili aplikazioaren ezarpena ({{value}})",
+			"audioFormat": {
+				"best": "Onena",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "128K arte",
+				"192": "192K arte",
+				"320": "320K arte",
+				"best": "Kalitate onena"
+			},
+			"defaultName": "Profil berria",
+			"destination": {
+				"defaultFolder": "Deskargen karpeta lehenetsia",
+				"defaultFolderWithSubfolder": "Deskargen karpeta lehenetsia / {{subfolder}}",
+				"global": "Helburu orokorra",
+				"globalActive": "Aktiboa",
+				"globalInherited": "Heredatua",
+				"override": "Profilaren gainidazketa",
+				"overrideChoosing": "Aukeratu karpeta",
+				"overrideNone": "Gainidazketarik ez dago ezarrita",
+				"overrideNoneNote": "Gainidazketarik ez dago ezarrita. Profil honek goiko helburu orokorra erabiltzen du.",
+				"overrideSet": "Orokorra gainidazten du",
+				"overrideSetNote": "Profil honek bere erroan gordetzen du, azpikarpeta gehitu aurretik.",
+				"resolved": "Ebatzitako helburua"
+			},
+			"dialogDescription": "Konfigurazio berrerabilgarri bat Deskarga bizkorrerako, URL masiboetarako eta erreprodukzio-zerrendetarako.",
+			"dialogTitle": "Deskarga-profila",
+			"error": {
+				"changeGlobalDestination": "Ezin izan da helburu orokorra aldatu.",
+				"folderPicker": "Ezin izan da karpeta-hautatzailea ireki. Idatzi bide-izena eskuz.",
+				"reset": "Ezin izan dira profilaren ezarpenak berrezarri.",
+				"save": "Ezin izan dira profilaren ezarpenak gorde."
+			},
+			"field": {
+				"delivery": "Entrega",
+				"fileType": "Fitxategi-mota",
+				"goal": "Optimizatu honetarako",
+				"icon": "Profilaren ikonoa",
+				"languages": "Hizkuntzak",
+				"name": "Profilaren izena",
+				"nameAndIcon": "Profilaren izena eta ikonoa",
+				"nativeAudio": "Jatorrizko audioa",
+				"overridePath": "Profilaren gainidazketaren bide-izena",
+				"quality": "Kalitatea",
+				"resolution": "Bereizmena",
+				"source": "Iturria",
+				"subfolderName": "Azpikarpetaren izena",
+				"subtitleDownloads": "Azpititulu-deskargak",
+				"subtitleDownloadsDescription": "Profilek hizkuntza-kodeak eskatzen dituzte; erabilgarritasuna URL bakoitzerako ebazten da."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Zorrotzena tamaina jakin batean. Telebista zaharrek, QuickTime-k eta editore batzuek ezin dute erreproduzitu.",
+					"name": "Irudi onena",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Telebistetan, telefonoetan, WhatsApp-en, QuickTime-n eta bideo-editoreetan erreproduzitzen da. YouTube-k H.264 1080p-ra arte bakarrik eskaintzen du.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Artxiboa",
+				"audio": "Audioa",
+				"captions": "Azpitituluak",
+				"classes": "Klaseak",
+				"clip": "Klipa",
+				"controls": "Kontrolak",
+				"download": "Deskarga",
+				"music": "Musika",
+				"podcast": "Podcasta",
+				"video": "Bideoa"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Musika edo podcastak"
+				},
+				"subtitlesOnly": {
+					"description": "Azpititulu-fitxategiak soilik"
+				},
+				"videoAudio": {
+					"description": "Bideo-fitxategi arruntak"
+				},
+				"videoOnly": {
+					"description": "Bideo mutua soilik"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Azpititulu automatikoak SRT gisa gordeko dira ASS ordez.",
+				"noLanguageMatches": "Ez dago bat datorren hizkuntzarik",
+				"noSubtitles": "Profil honetarako ez da azpititulu-fitxategirik edo txertatutako azpititulu-pistarik eskatuko.",
+				"searchLanguages": "Bilatu hizkuntzaren izenaren edo kodearen arabera",
+				"skippedForOutputType": "Irteera-mota honetarako saltatu da.",
+				"subtitleLanguagesRequired": "Aukeratu gutxienez hizkuntza bat.",
+				"subtitleLanguagesRequiredOrOff": "Aukeratu gutxienez hizkuntza bat, edo desaktibatu azpititulu-deskargak.",
+				"subtitlesOnly": "Profil honek azpititulu-fitxategiak soilik jartzen ditu ilaran. Bideoa, audioa, SponsorBlock eta multimedia-bihurketa saltatzen dira."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profilek helburu orokorra heredatzen dute, profilaren gainidazketa bat ezartzen ez baduzu.",
+					"title": "Aukera aurreratuak"
+				},
+				"downloadType": {
+					"description": "Aukeratu deskargatzeko modu nagusia.",
+					"title": "Deskarga-mota"
+				},
+				"identity": {
+					"description": "Deskarga bizkorrean, URL masiboetan eta profil-zerrendetan erakusten den izena eta ikonoa.",
+					"title": "Profilaren identitatea"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} gaituta",
+					"enabledCount_other": "{{count}} gaituta",
+					"title": "Irteera-aukerak"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Aukeratu profil honen karpeta"
+			},
+			"skipped": "Saltatuta",
+			"sponsorBlockHint": {
+				"mark": "Babesle-zatiak kapitulu gisa markatzen ditu (suntsitzailea ez dena).",
+				"off": "SponsorBlock gabe — bideoa igo zen bezala erreproduzitzen da.",
+				"remove": "Babesle-zatiak bideotik moztu egiten ditu FFmpeg erabiliz."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Automatikoak soilik",
+				"manualAndAuto": "Eskuzkoak eta automatikoak",
+				"manualFirst": "Eskuzkoak lehenik, gero automatikoak",
+				"manualOnly": "Eskuzkoak soilik"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Laguntza: {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "gehigarriak",
+				"fileName": "fitxategi-izena",
+				"format": "formatua",
+				"saveTo": "karpeta",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "azpitituluak"
+			},
+			"callout": {
+				"body": "Azpitituluak, SponsorBlock, miniatura bezalako gehigarriak, karpeta eta fitxategi-izena urrats bereiziak ziren lehen. Egin klik lerro batean aldatzeko.",
+				"title": "Gainerako ezarpen guztiak orri honetan daude orain"
+			},
+			"changeFormat": "Aldatu formatua",
+			"changed": "Profiletik aldatuta ({{profile}}): {{areas}}. Deskarga honi soilik aplikatzen zaio.",
+			"changedFrom": "Profiletik aldatuta ({{profile}}):",
+			"nextTime": {
+				"action": "Gorde profil gisa",
+				"defaultName": "{{profile}} (editatua)",
+				"title": "Deskarga honek editatutako ezarpenak erabili ditu. Hurrengoan ere erabili nahi dituzu?"
+			},
+			"reset": "Desegin aldaketak, itzuli hona: «{{profile}}»",
+			"rows": {
+				"extras": "Gehigarriak",
+				"fileName": "Fitxategi-izena",
+				"saveTo": "Gorde hemen",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Azpitituluak"
+			},
+			"rowsHeading": "Gainerako guztia",
+			"save": {
+				"action": "Gorde profila",
+				"description": "Ezarpen hauek profil gisa gordetzen ditu, hurrengoan aukeratu ahal izateko. Zure Deskarga bizkorreko profila ez da aldatzen.",
+				"failed": "Ezin izan da profila gorde.",
+				"nameLabel": "Profilaren izena",
+				"saved": "Profil gisa gorde da: «{{name}}»",
+				"title": "Gorde profil gisa"
+			},
+			"saveAsProfile": "Gorde profil berri gisa",
+			"update": {
+				"action": "Eguneratu profila",
+				"builtinNote": "Hau integratutako profil bat da. Bere jatorrizko ezarpenak leheneratu ditzakezu Profilak fitxan.",
+				"description": "Hemendik aurrera, profil hau duen deskarga orok ezarpen berriak erabiliko ditu.",
+				"rows": {
+					"format": "Formatua"
+				},
+				"title": "Eguneratu «{{profile}}»?",
+				"updated": "Profila eguneratu da: «{{name}}»"
+			},
+			"updateProfile": "Eguneratu «{{profile}}» aldaketa hauekin",
+			"value": {
+				"extrasNone": "Batere ez",
+				"sponsorBlockOff": "Desaktibatuta",
+				"subtitlesOff": "Desaktibatuta"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Betegarria",
+				"intro": "Sarrera",
+				"music_offtopic": "Musika gaiaz kanpo",
+				"outro": "Amaiera",
+				"preview": "Aurrebista",
+				"selfpromo": "Autopromozioa",
+				"sponsor": "Babeslea"
+			},
+			"categoriesHeading": "Kategoriak",
+			"mode": {
+				"mark": "Markatu kapitulu gisa",
+				"off": "Desaktibatuta",
+				"remove": "Kendu zatiak"
+			},
+			"modeHeading": "Babesleen iragazkia",
+			"modeHint": {
+				"mark": "Babesle-zatiak kapitulu gisa markatzen ditu (suntsitzailea ez dena).",
+				"off": "SponsorBlock gabe — bideoa igo zen bezala erreproduzitzen da.",
+				"remove": "Babesle-zatiak bideotik moztu egiten ditu FFmpeg erabiliz."
+			}
+		},
+		"steps": {
+			"confirm": "Berretsi",
+			"folder": "Gorde",
+			"formats": "Formatua",
+			"output": "Irteera",
+			"playlistItems": "Zerrenda",
+			"playlistItemsGeneric": "Bideoak",
+			"playlistPresets": "Kalitatea",
+			"playlistProfiles": "Profilak",
+			"review": "Berrikusi",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Azpitituluak",
+			"url": "URLa"
+		},
+		"subtitles": {
+			"autoAssNote": "Azpititulu automatikoak SRT gisa gordeko dira ASS ordez — YouTube bideoetan errepikapen-bikoizketa kentzen zaie (rolling-cue), gure ASS bihurgailuak oraindik erreplikatu ezin duena.",
+			"autoBadge": "Auto",
+			"clearAll": "Garbitu guztiak",
+			"embedNote": "Txertatze moduak irteera .mkv gisa gordetzen du, azpititulu-pistak fidagarritasunez txertatzeko.",
+			"format": {
+				"heading": "Formatua"
+			},
+			"noLanguages": "Ez dago azpititulurik erabilgarri bideo honetarako",
+			"noMatches": "Ez dago bat datorren hizkuntzarik",
+			"noSelected": "Ez da azpititulurik hautatu",
+			"removeLanguage": "Kendu {{name}}",
+			"saveMode": {
+				"embed": "Txertatu bideoan",
+				"heading": "Gorde honela",
+				"sidecar": "Bideoaren ondoan",
+				"sidecarNoVideo": "Deskargen karpetan",
+				"subfolder": "azpikarpeta: subtitles/"
+			},
+			"searchPlaceholder": "Bilatu hizkuntzak…",
+			"sectionAuto": "Automatikoki sortuak",
+			"sectionManual": "Eskuzkoak"
+		},
+		"tabsNavAria": "Deskarga-profilen nabigazioa",
+		"url": {
+			"advanced": "Aurreratua",
+			"autoRemoveCompleted": {
+				"description": "Deskarga bat Deskargak zerrendatik kentzen du amaitu eta segundo batzuetara. Fitxategiak zure karpetan geratzen dira; huts egindako eta utzitako deskargak zerrendan geratzen dira.",
+				"label": "Kendu amaitutako deskargak"
+			},
+			"autoRetry": {
+				"description": "Automatikoki saiatzen da berriro sareko edo zerbitzariko hutsegite baten ondoren, saiakera bakoitzaren artean gero eta gehiago itxaroten. Gunearen blokeatutako deskargak ez dira inoiz automatikoki berriro saiatzen.",
+				"label": "Saiatu berriro huts egindako deskargak",
+				"unit": "aldiz"
+			},
+			"bulkButton": "URL masiboak",
+			"bulkTooltip": "Gehitu eta jarri ilaran hainbat URL.",
+			"clearAria": "Garbitu URLa",
+			"clipboard": {
+				"autofilledLink": "Esteka arbeletik gehitu da",
+				"bulkHint": "Esteka anitz kopiatu dira — erabili URL masiboak gehitzeko",
+				"dialog": {
+					"cancelButton": "Utzi"
+				},
+				"noLink": "Ez dago estekarik arbelean",
+				"readFailed": "Ezin izan da arbela irakurri — itsatsi esteka eremuan",
+				"replacedLink": "Kopiatutako estekarekin ordeztu da",
+				"toggle": "Zaindu arbela",
+				"toggleDescription": "Bete URL eremua automatikoki bideo-esteka bat kopiatzen duzunean.",
+				"undo": "Desegin"
+			},
+			"closeToTray": {
+				"toggle": "Ezkutatu erretiluan ixtean",
+				"toggleDescription": "Jarraitu deskargatzen atzeko planoan leihoa itxi ondoren."
+			},
+			"concurrentDownloads": {
+				"description": "Ilarako zenbat elementu deskargatzen diren aldi berean. Aldi berean gehiago izateak ilara luze bat lehenago amaitzen du, baina gune batek mugatzeko aukera handitzen du.",
+				"label": "Aldi berako deskargak",
+				"unit": "deskarga"
+			},
+			"concurrentProbes": {
+				"description": "Klip-k aldi berean zenbat estekaren xehetasunak eskuratzen dituen, deskargatu aurretik. Gutxiagok leunago tratatzen ditu konexio okupatuak blokeatzen dituzten guneak. Deskarga interaktiboan irekitzen duzun esteka beti lehenengo doa.",
+				"label": "Aldi berean egiaztatutako estekak",
+				"unit": "esteka"
+			},
+			"cookies": {
+				"banWarning": "YouTube bezalako guneek Klip bezalako deskarga-tresnek cookie-ak erabiltzen dituzten kontuak markatu — eta batzuetan kanporatu — ditzakete. Ahal bada, erabili behin-behineko kontu bat.",
+				"browserHelp": "Cookie-ak zuzenean nabigatzailetik irakurtzen ditu. Chromium familiako nabigatzaileetan, nabigatzailea itxita egon behar da.",
+				"browserLabel": "Nabigatzailea",
+				"browserPlaceholder": "Aukeratu nabigatzaile bat…",
+				"choose": "Aukeratu…",
+				"clear": "Garbitu",
+				"enabledButNoBrowser": "Aukeratu nabigatzaile bat cookie-ak erabiltzeko",
+				"enabledButNoFile": "Aukeratu fitxategi bat cookie-ak erabiltzeko",
+				"exploreDisabled": "Esploratu fitxa desaktibatuta dago, beraz deskargek ez dute Esploratu fitxako saioa erabiltzen. Aktibatu behean, Esploratu atalean.",
+				"extensionChrome": "Get cookies.txt LOCALLY (Chromerako)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Cookie-fitxategia",
+				"helpLink": "Nola esportatu cookie-ak?",
+				"openExplore": "Ireki Esploratu",
+				"placeholder": "Ez da fitxategirik hautatu",
+				"recommended": "Gomendatua",
+				"risk": "Arriskua: cookies.txt batek nabigatzaile horretako saio hasi guztiak dauzka — mantendu pribatu.",
+				"sourceBrowser": "Nabigatzailea",
+				"sourceExplore": "Esploratu fitxako saioa",
+				"sourceFile": "Fitxategia",
+				"sourceLabel": "Cookie-en iturria",
+				"sourceOff": "Desaktibatuta",
+				"toggleDescription": "Zure kontuak ikus ditzakeen bideoetan laguntzen du, adibidez zure bideo pribatuetan."
+			},
+			"downloadConnections": {
+				"description": "Deskarga handiak bizkortzen ditu bideo baten hainbat zati aldi berean eskuratuz. Balio altuagoek gune batek mugatzeko aukera handitzen dute.",
+				"label": "Deskarga-konexioak",
+				"unit": "konexio"
+			},
+			"downloadList": {
+				"album": "Deskargatu albuma…",
+				"liked": "Deskargatu gustatu zaizkizun bideoak…",
+				"mix": "Deskargatu Mix-a…",
+				"playlist": "Deskargatu erreprodukzio-zerrenda…",
+				"uploads": "Deskargatu igotako bideoak…",
+				"watchLater": "Deskargatu Ikusi geroago…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Audioa soilik",
+					"subtitles": "Azpitituluak"
+				},
+				"anySite": {
+					"heading": "2000+ gune",
+					"musicPlaylist": "Musika-zerrendak",
+					"video": "Bideoak",
+					"videoPlaylist": "Bideo-zerrendak"
+				},
+				"heading": "Klip-k deskarga dezakeena",
+				"youtube": {
+					"channel": "Kanalak",
+					"heading": "YouTube",
+					"music": "Musika",
+					"playlist": "Erreprodukzio-zerrendak",
+					"podcast": "Podcastak",
+					"short": "Shorts",
+					"video": "Bideoak"
+				}
+			},
+			"fetchFormatsTooltip": "Urratsez urratseko morroia. Aukeratu formatua, kalitatea eta gehiago.",
+			"heading": "Deskargatu URL batetik",
+			"hotkey": {
+				"changeShortcut": "Aldatu lasterbidea",
+				"conflict": "Lasterbide hau beste aplikazio batek hartuta dauka — aukeratu beste bat.",
+				"globalLabel": "Tekla-lasterbide globala",
+				"recording": "Sakatu teklak…",
+				"reset": "Berrezarri lehenetsia",
+				"sectionDescription": "Deskargatu kopiatzen duzun edozein esteka, edozein aplikaziotatik, Klip ireki gabe.",
+				"sectionTitle": "Tekla-lasterbide globala",
+				"test": "Probatu",
+				"toggle": "Gaitu tekla-lasterbide globala",
+				"toggleDescriptionDetail": "Kopiatu bideo-esteka bat edozein aplikaziotan eta sakatu lasterbidea: Klip-k ilaran jartzen du zure profil aktiboarekin, leihoz aldatu gabe. Erreprodukzio-zerrenda bateko bideo baten esteka batek bideoa deskargatzen du."
+			},
+			"interactiveDownload": "Deskarga interaktiboa",
+			"interactiveDownloadAsks": "Deskarga interaktiboa…",
+			"limitRate": {
+				"activeWarning": "Deskarga aktiboek uneko muga mantentzen dute. Eten + Berrekin aldaketak aplikatzeko.",
+				"custom": "Pertsonalizatua…",
+				"customPlaceholder": "adib. 750K edo 1.5M",
+				"description": "Mugatu multimedia-deskargen banda-zabalera. Beheko eskaeren erritmoa izan ohi da abiadura-muga eraginkorrena.",
+				"invalid": "Erabili zenbaki bat, ondoren K edo M (adib. 500K, 1.5M)",
+				"label": "Deskarga-abiaduraren muga",
+				"off": "Desaktibatuta"
+			},
+			"mascotBusy": "Atzeko planoan deskargatzen… zeregin asko batera egin ditzaket 😎",
+			"mascotCollection": "Deskarga bizkorrak kargatutako elementuak ilaran jartzen ditu profil honekin: {{profileName}}. Interaktiboak elementuak aurretik aztertzen edo hautatzen uzten dizu.",
+			"mascotIdle": "Jaregin esteka bat eta utzi Klip-ri deskargatzen ✨",
+			"mascotSingle": "Deskarga bizkorrak deskarga bat hasten du profil honekin: {{profileName}}. Erabili Interaktiboa behin-behineko aldaketetarako.",
+			"mascotVideoInList": "Esteka honek bideo bat eta hura duen zerrenda aipatzen ditu: deskargatu bideoa bakarrik edo zerrenda.",
+			"nativeAudioPreference": {
+				"compatible": "Estereo bateragarria",
+				"description": "Estereoa edo inguruko audioa, profil batek jatorrizko audioa aukeratzen duenean. Profil batek gainidatzi dezake.",
+				"label": "Jatorrizko audioaren lehentasuna",
+				"surround": "Lehenetsi inguruko audioa / Dolby"
+			},
+			"networkPacing": {
+				"description": "Gehitu itxaronaldi txikiak deskarga bakoitzean, Klip-k gunea gehiegi ez estutzeko. Balioak segundotan daude.",
+				"fields": {
+					"maxSleepInterval": "Eten multimedia hasi aurretik: gehienez",
+					"sleepInterval": "Eten multimedia hasi aurretik: gutxienez",
+					"sleepRequests": "Itxaron metadatu-egiaztapenen artean",
+					"sleepSubtitles": "Itxaron azpititulu-fitxategien aurretik"
+				},
+				"heading": "Deskarga leunak",
+				"presetLabel": "Zenbateko kontuz ibili behar du Klip-k?",
+				"presets": {
+					"balanced": "Orekatua",
+					"careful": "Zuhurra",
+					"custom": "Pertsonalizatua",
+					"off": "Desaktibatuta"
+				},
+				"summary": "Itxaronaldiak: {{requests}} egiaztapenen artean, {{downloads}} multimedia hasi aurretik, {{subtitles}} azpititulu-fitxategien aurretik.",
+				"tooltip": "Itxaronaldi hauek deskarga bakoitzaren barruan gertatzen dira. Aldi berean zenbat deskarga exekutatzen diren bereizita ezartzen da, Aldi berako deskargak atalean.",
+				"tooltips": {
+					"balanced": "Lehenetsia. Eten labur batzuk gehitzen ditu eskaeren artean eta multimedia hasi aurretik.",
+					"careful": "Eten luzeagoak gehitzen ditu erreprodukzio-zerrenda handietarako edo maiz mugetara iristen diren sareetarako.",
+					"custom": "Doitu zuk zeuk deskarga bakoitzeko kontrol aurreratuak.",
+					"off": "Klip-k multimedia eta azpitituluetarako gordetzen dituen oinarrizko eten txikiak soilik erabiltzen ditu."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Esteka Klip aplikazioan ireki da",
+				"replaced": "Klip aplikazioan irekitako estekarekin ordezkatu da"
+			},
+			"pasteLink": "Itsatsi esteka",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Uneko muga: {{count}} elementu",
+				"custom": "Pertsonalizatua…",
+				"customDialogCancel": "Utzi",
+				"customDialogDescription": "Erabili {{min}} eta {{max}} arteko zenbaki osoa.",
+				"customDialogSave": "Gorde muga",
+				"customDialogTitle": "Erreprodukzio-zerrendaren azterketa-muga pertsonalizatua",
+				"customValue": "Pertsonalizatua: {{count}} elementu",
+				"description": "Klip-k erreprodukzio-zerrenda, kanal edo bilaketa-emaitza bat irekitzean kargatzen duen gehieneko sarrera kopurua.",
+				"invalid": "Erabili 1 eta 5000 arteko zenbaki osoa",
+				"label": "Aztertzeko erreprodukzio-zerrendako elementuak",
+				"option": "{{count}} elementu"
+			},
+			"playlistScope": {
+				"appLimit": "Erabili aplikazioaren muga: {{count}}",
+				"apply": "Aplikatu",
+				"applyError": "Ezin izan da erreprodukzio-zerrendaren irismen hori aplikatu: {{message}}",
+				"applyReload": "Aplikatu eta birkargatu",
+				"cancel": "Utzi",
+				"change": "Aldatu",
+				"dialogDescription": "Aukeratu Klip-k erreprodukzio-zerrenda honetatik zer kargatzen duen.",
+				"dialogTitle": "Erreprodukzio-zerrendaren irismena",
+				"emptyTitle": "Ez dago bideorik irismen horretan",
+				"first": "Lehenengoak",
+				"invalid": "Erabili 1 eta {{max}} arteko elementu-zenbaki osoak, hasiera amaiera baino handiagoa izan gabe.",
+				"itemsLabel": "Kargatzeko elementuak",
+				"label": "Erreprodukzio-zerrendaren irismena",
+				"range": "Tartea",
+				"reloading": "Birkargatzen...",
+				"reset": "Berrezarri",
+				"summaryAppLimit": "Kargatu lehenengo elementuak: {{count}}",
+				"summaryFirst": "Kargatu lehenengo elementuak: {{count}}",
+				"summaryRange": "Kargatu elementuak: {{from}}-{{to}}",
+				"to": "arte"
+			},
+			"profile": {
+				"activeLabel": "Profil aktiboa",
+				"badgeBuiltIn": "Integratua",
+				"badgeCustom": "Pertsonalizatua",
+				"badgeDisabled": "Ezkutua",
+				"badgeModified": "Aldatua",
+				"builtinName": {
+					"audio-only": "Audioa soilik",
+					"balanced": "Orekatua 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Kalitate onena",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Kalitate baxuena 144p",
+					"low-240": "Datu gutxi 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Fitxategi txikia 480p",
+					"subtitles-only": "Azpitituluak soilik"
+				},
+				"changeGlobalDestination": "Aldatu helburu orokorra",
+				"destinationDetail": {
+					"global": "Helburu orokorra erabiltzen",
+					"globalSubfolder": "Helburu orokorra + profilaren azpikarpeta erabiltzen",
+					"override": "Profilaren gainidazketa erabiltzen",
+					"overrideSubfolder": "Profilaren gainidazketa + profilaren azpikarpeta erabiltzen"
+				},
+				"destinationEditHint": "Non gordetzen den aldatzeko, editatu profila.",
+				"destinationFallback": "Helburua",
+				"edit": "Editatu",
+				"editActive": "Editatu profil aktiboa",
+				"enableHint": "Ezkutuko profilak hemen geratzen dira baina profil-hautatzaile guztietatik desagertzen dira.",
+				"enableToggleAria": "Erakutsi profila hautatzaileetan: {{profileName}}",
+				"lastEnabledHint": "Mantendu gutxienez profil bat erabilgarri.",
+				"manageProfiles": "Kudeatu profilak",
+				"menuDescription": "Aldatu Deskarga bizkorreko, URL masiboetako eta erreprodukzio-zerrendetako profil aktiboa.",
+				"menuTitle": "Aldatu profila",
+				"movableProfile": "profil mugigarria",
+				"moveCancelled": "Mugimendua bertan behera utzi da. {{profileName}} bere posizioan geratzen da: {{position}} / {{count}}.",
+				"moveDropped": "Jaregin da: {{profileName}}. Posizioa: {{position}} / {{count}}.",
+				"moveHandleAria": "Mugitu: {{profileName}}",
+				"moveInstructions": "Profil bat mugitzeko, sakatu Zuriunea edo Sartu, mugitu geziekin, eta sakatu Zuriunea edo Sartu jaregiteko. Sakatu Ihes bertan behera uzteko.",
+				"moveOver": "Gainean: {{profileName}}, posizioa: {{position}} / {{count}}.",
+				"movePickedUp": "Hartu da: {{profileName}}. Posizioa: {{position}} / {{count}}.",
+				"newProfile": "Profil berria",
+				"outputMissing": "Profil honek definitu gabeko karpeta batean gordetzen du. Aukeratu karpeta bat profilean, edo itzuli lehenetsira.",
+				"panelDescription": "Sortu, hautatu, editatu edo kendu berrerabil daitezkeen deskarga-konfigurazioak.",
+				"panelTitle": "Deskarga-profilak",
+				"remove": "Kendu",
+				"reorderHint": "Arrastatu profil bat mugitzeko. Profil-hautatzaile guztiek ordena hau jarraitzen dute.",
+				"reset": "Berrezarri",
+				"savesTo": "Hemen gordetzen da",
+				"switchAria": "Aldatu deskarga-profila: {{profileName}}",
+				"switchTitle": "Aldatu deskarga-profila"
+			},
+			"proxy": {
+				"clear": "Garbitu",
+				"description": "Bideratu trafikoa proxy zerbitzari baten bidez.",
+				"label": "Proxy URLa",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Deskarga bizkorra",
+			"quickDownloadTooltip": "Honekin deskargatuko da: {{profileName}}",
+			"quickFailed": "Ezin izan da hau gehitu: {{error}}",
+			"quickPrepareFailed": "Ilarako elementua ezin izan da prestatu",
+			"quickPreparing": "Prestatzen",
+			"quickProbeFailed": "Azterketak huts egin du",
+			"quickSingleOnly": "Itsatsi bideo-, erreprodukzio-zerrenda-, kanal- edo bilaketa-URL bat hasteko.",
+			"reports": {
+				"toggle": "Bidali seinale anonimoa eta konfigurazio-txostenak",
+				"toggleDescription": "Jarraipenik ez. Egunean behin, seinale anonimo batek aplikazioaren bertsioa, instalazio-kanala, sistema eragilea, hizkuntza, herrialdea eta Klip gutxi gorabehera noiz instalatu zen bidaltzen ditu, erabiltzaile aktiboak eta berriak zenbatu ahal izateko. Klip-k deskarga-motorra edo multimedia-tresnak konfiguratzen edo eguneratzen dituenean, funtzionatu duen eta gutxi gorabehera zenbat denbora behar izan duen ere jakinarazten du. Ez da IDrik, URLrik, bideo-izenbururik edo fitxategi-izenik bidaltzen."
+			},
+			"settings": {
+				"behaviorDescription": "Profiletan oinarritutako deskargei ere eragiten dien portaera orokorra.",
+				"behaviorHeading": "Deskargen portaera",
+				"inputHeading": "Sarrera"
+			},
+			"style": {
+				"aurora": {
+					"description": "Beirazko panelak zeru higikor baten gainean. Grafiko-azelerazioa behar du.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Gainazal solido eta lasaiak. Arin dabil edozein ordenagailutan.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Bi estiloak modu argian eta ilunean daude.",
+				"modeLabel": "Estiloa",
+				"panelDescription": "Klip-k nolako itxura duen. Aldatu modu argi eta ilunaren artean oinean.",
+				"panelTitle": "Itxura",
+				"unavailableNotice": "Hautatutako estiloak ({{style}}) grafiko-azelerazioa behar du, eta ez dago erabilgarri orain, beraz Klip-k hau erakusten du: {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profilak",
+				"settings": "Ezarpenak"
+			},
+			"thisVideo": "Bideo hau",
+			"thisVideoTooltip": "Bideo hau bakarrik deskargatzen du honekin: {{profileName}}"
+		}
+	}
+}

@@ -1,0 +1,1868 @@
+{
+	"about": {
+		"button": "O aplikácii",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Zobraziť upozornenia o softvéri tretích strán",
+		"websiteLink": "Webová stránka"
+	},
+	"aiUpscaled": {
+		"allow": "Povoliť",
+		"allowedSummary": "Streamy zväčšené pomocou AI sú povolené",
+		"description": "YouTube ponúka niektoré staré videá vo veľkostiach, ktoré vytvoril pomocou AI. Možnosť Preskočiť ponechá pôvodné streamy; zväčšený stream si môžete stále vybrať ručne.",
+		"label": "Streamy zväčšené pomocou AI",
+		"skip": "Preskočiť"
+	},
+	"app": {
+		"feedback": "Spätná väzba",
+		"feedbackNudge": "Páči sa vám Klip? Rád by som sa dozvedel váš názor! 💬",
+		"logs": "Protokoly",
+		"saveDiagnostics": "Uložiť diagnostický súbor",
+		"saveDiagnosticsDescription": "Uloží vaše protokoly a údaje o aplikácii do jedného súboru v priečinku Stiahnuté súbory, pripraveného na priloženie k hláseniu na GitHube. Názov vášho používateľského priečinka sa odstráni; odkazy na videá a názvy zostanú.",
+		"styleHint": "Novinka: tu si môžete vybrať Aurora alebo Minimal",
+		"theme": "Motív",
+		"zoomIn": "Priblížiť",
+		"zoomOut": "Oddialiť"
+	},
+	"common": {
+		"back": "Späť",
+		"cancel": "Zrušiť",
+		"close": "Zavrieť",
+		"continue": "Pokračovať",
+		"loading": "Načítava sa",
+		"retry": "Skúsiť znova",
+		"startOver": "Začať odznova"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip zostane spustený a dokončí aktívne sťahovania. Zmeniť to môžete neskôr v rozšírených nastaveniach.",
+			"hide": "Skryť do lišty",
+			"message": "Skryť Klip pri zatvorení do systémovej lišty?",
+			"quit": "Ukončiť",
+			"remember": "Už sa nepýtať"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Rad zostane zachovaný a sťahovanie nadviaže tam, kde skončilo, pri ďalšom otvorení Klip.",
+			"keep": "Pokračovať v sťahovaní",
+			"message_few": "Prebiehajú {{count}} sťahovania",
+			"message_many": "Prebieha {{count}} sťahovania",
+			"message_one": "Prebieha {{count}} sťahovanie",
+			"message_other": "Prebieha {{count}} sťahovaní",
+			"quit": "Ukončiť"
+		},
+		"rendererCrashed": {
+			"detail": "Proces vykresľovania zlyhal ({{reason}}). Načítajte aplikáciu znova a skúste to ešte raz.",
+			"message": "V aplikácii Klip sa vyskytol problém",
+			"quit": "Ukončiť",
+			"reload": "Načítať znova"
+		}
+	},
+	"donate": {
+		"copied": "Skopírované!",
+		"copyAddress": "Kopírovať adresu",
+		"description": "Klip je zadarmo a s otvoreným zdrojovým kódom, bez reklám a platenej verzie. Dary sú dobrovoľné a nekupujú žiadny vplyv na plán vývoja.",
+		"footerLabel": "Prispieť",
+		"footerTooltip": "Podporiť Klip",
+		"qrAlt": "QR kód darovacej adresy {{coin}}",
+		"title": "Podporiť Klip",
+		"warning": "Platby v kryptomenách sú nevratné. Posielajte iba v zobrazenej sieti a porovnajte celú adresu."
+	},
+	"errors": {
+		"noSubtitlesIn": "Toto video nemá titulky v jazykoch: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Toto video je vekovo obmedzené a nedá sa stiahnuť bez prihláseného účtu.",
+			"botBlock": "Ochrana webu proti robotom toto sťahovanie zastavila. Chvíľu počkajte a skúste to znova, alebo sťahujte naraz menej videí. Ak to naďalej zlyháva, môže ísť o dočasnú zmenu na strane webu – Klip pri spustení aktualizuje svoj sťahovací nástroj, takže oprava sa objaví automaticky, hneď ako bude vydaná.",
+			"chunkTransferFailure": "Server opakovane prerušoval sťahovanie uprostred prenosu a Klip to po opakovaných pokusoch vzdal. Najčastejšie sa to stáva pri najväčších formátoch videa (4K HDR / VP9 s vysokou bitovou rýchlosťou). Skúste to znova, zmeňte sieť alebo VPN, alebo vyberte formát s nižším rozlíšením.",
+			"drmProtected": "Toto video je chránené pomocou DRM. Klip nedokáže odstrániť DRM, preto sa súbor nedá stiahnuť.",
+			"formatUnavailable": "Toto video už neponúka formát, ktorý ste vybrali. Vložte odkaz znova a vyberte z formátov, ktoré ponúka teraz.",
+			"geoBlocked": "Toto video nie je dostupné vo vašom regióne.",
+			"ipBlock": "Web blokuje požiadavky z tohto pripojenia. Skúste to neskôr.",
+			"loginRequired": "Toto video vyžaduje prihlásený účet.",
+			"missingDependency": "Klip nenašiel FFmpeg ani FFprobe. Spustite nastavenie znova alebo nastavte umiestnenie FFmpeg a potom skúste sťahovanie zopakovať.",
+			"network": "Chyba siete. Skontrolujte pripojenie a skúste to znova.",
+			"noSubtitles": "Toto video nemá titulky v požadovaných jazykoch.",
+			"outOfDiskSpace": "Nedostatok miesta na disku. Uvoľnite miesto a skúste to znova.",
+			"outputNotWritable": "Klip nemôže zapisovať do priečinka na sťahovanie. Môže byť iba na čítanie, na zamknutom disku alebo zablokovaný nastaveniami ochrany osobných údajov v systéme. Vyberte iný priečinok alebo povoľte prístup a skúste to znova.",
+			"parse": "Odpoveď z webu sa nepodarilo spracovať. Web mohol zmeniť spôsob poskytovania videí. Klip pri spustení aktualizuje svoj sťahovací nástroj – skúste to znova o niekoľko minút, keď sa oprava vydá.",
+			"postprocessFailure": "Sťahovanie sa dokončilo, ale následné spracovanie (zlúčenie / multiplexovanie / konverzia) zlyhalo. Často ide o prechodný problém s ffmpeg – skúste to znova a ak problém pretrváva, vyskúšajte inú kombináciu formátov.",
+			"rateLimit": "Web obmedzuje počet požiadaviek z tohto pripojenia.",
+			"unavailable": "Toto video nie je dostupné – môže byť súkromné, odstránené alebo zamknuté pre váš región.",
+			"unknown": "Sťahovanie zlyhalo. Pozrite si nespracovaný výstup nižšie.",
+			"unsupportedUrl": "Klip túto adresu URL nepodporuje. Skúste odkaz z iného webu."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Skontrolujte pripojenie a skúste to znova.",
+			"loadTitle": "Táto stránka sa nenačítala",
+			"openSettings": "Otvoriť nastavenia",
+			"proxyBody": "Skontrolujte server proxy v nastaveniach a skúste to znova.",
+			"proxyTitle": "Funkcia Preskúmať sa nemôže pripojiť cez váš server proxy",
+			"retry": "Skúsiť znova"
+		},
+		"linkCallout": {
+			"body": "Kliknite pravým tlačidlom na ľubovoľný odkaz na video, zoznam skladieb alebo kanál na stránke, aby ste ho stiahli s aktívnym profilom, vybrali iný profil alebo otvorili postup krok za krokom.",
+			"title": "Odkaz stiahnete pravým kliknutím"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Stiahnuť album na pozadí",
+				"liked": "Stiahnuť obľúbené videá na pozadí",
+				"mix": "Stiahnuť Mix na pozadí",
+				"playlist": "Stiahnuť zoznam skladieb na pozadí",
+				"uploads": "Stiahnuť nahrané videá na pozadí",
+				"watchLater": "Stiahnuť „Pozrieť neskôr“ na pozadí"
+			},
+			"copyLink": "Kopírovať odkaz",
+			"downloadFirst": "Stiahnuť prvých {{count}}",
+			"downloadThisVideo": "Stiahnuť toto video · {{profileName}}",
+			"downloadWith": "Stiahnuť s profilom",
+			"fromList": {
+				"album": "Z tohto albumu",
+				"liked": "Z vašich obľúbených videí",
+				"mix": "Z tohto Mixu",
+				"playlist": "Z tohto zoznamu skladieb",
+				"uploads": "Z nahraných videí tohto kanála",
+				"watchLater": "Z „Pozrieť neskôr“"
+			},
+			"interactive": "Interaktívne sťahovanie…",
+			"thisVideoWith": "Toto video s"
+		},
+		"newBadge": "Nové",
+		"notice": {
+			"body": "Nájdite video na YouTube alebo inom webe a stiahnite ho priamo odtiaľto – bez kopírovania odkazov. Prihláste sa na web tu a stiahnete aj videá, ktoré vyžadujú účet.",
+			"continue": "Pokračovať",
+			"riskBody": "Weby ako YouTube môžu označiť – a niekedy aj zablokovať – účty používané so sťahovacími nástrojmi, ako je Klip. Použite účet, o ktorý sa môžete pripraviť, nie ten hlavný.",
+			"riskTitle": "Prihláste sa pomocou vedľajšieho účtu",
+			"title": "Prehliadajte web priamo v aplikácii Klip"
+		},
+		"nudge": {
+			"browser": "Sťahovania používajú súbory cookie z vášho prehliadača, nie prihlásenie z Preskúmať.",
+			"file": "Sťahovania používajú váš súbor cookie, nie prihlásenie z Preskúmať.",
+			"notNow": "Teraz nie",
+			"off": "Súbory cookie sú vypnuté, preto sťahovania nepoužívajú prihlásenie z Preskúmať.",
+			"useExplore": "Použiť prihlásenie z Preskúmať"
+		},
+		"settings": {
+			"description": "Prehliadajte YouTube alebo iný web priamo v aplikácii Klip a prihláste sa kvôli videám, ktoré vyžadujú účet.",
+			"idleUnload": "Uvoľniť pamäť počas neprítomnosti",
+			"idleUnloadDescription": "Po 5 minútach na inej karte zatvorí domovskú stránku YouTube alebo stránku s výsledkami vyhľadávania. Po návrate sa načíta znova, čo trvá niekoľko sekúnd.",
+			"searchEngine": "Vyhľadávač",
+			"searchEngineDescription": "Určuje, kde sa vyhľadáva text zadaný do panela s adresou. Odkazy sa otvoria tak, ako ste ich zadali.",
+			"showTab": "Zobraziť kartu Preskúmať",
+			"showTabDescription": "Po vypnutí sa sťahovania prestanú používať aj prihlásenie z Preskúmať.",
+			"signOut": "Odhlásiť sa z Preskúmať",
+			"signOutConfirm": "Odhlásiť sa",
+			"signOutConfirmBody": "Tým sa vymažú vaše prihlásenia a údaje o prehliadaní v Preskúmať na všetkých weboch. Sťahovania, ktoré vyžadujú účet, budú zlyhávať, kým sa znova neprihlásite.",
+			"signOutConfirmTitle": "Odhlásiť sa z Preskúmať?",
+			"signOutDescription": "Vymaže vaše prihlásenia a údaje o prehliadaní v Preskúmať na všetkých weboch.",
+			"title": "Preskúmať"
+		},
+		"tabLabel": "Preskúmať",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube môže robiť problémy blokovačom reklám pri prihlásených účtoch.",
+				"aria": "Blokovač reklám",
+				"off": "Blokovač reklám: vypnutý – kliknutím zapnete",
+				"on": "Blokovač reklám: zapnutý – kliknutím vypnete",
+				"starting": "Blokovač reklám: spúšťa sa – kliknutím vypnete",
+				"unavailable": "Blokovač reklám: nedostupný, zoznamy filtrov sa nepodarilo stiahnuť – kliknutím vypnete"
+			},
+			"addressAria": "Adresa",
+			"addressPlaceholder": "Hľadajte vo vyhľadávači {{engine}} alebo otvorte ľubovoľný web (Vimeo, Instagram…)",
+			"aria": "Ovládacie prvky prehliadača Preskúmať",
+			"back": "Späť",
+			"compactLayout": "Kompaktné rozloženie",
+			"download": "Stiahnuť",
+			"downloadWithProfile": "Stiahnuť · {{profileName}}",
+			"forward": "Dopredu",
+			"fullLayout": "Zobraziť úplné rozloženie",
+			"grabUnavailable": "Otvorte video, zoznam skladieb alebo kanál, aby ste ho mohli stiahnuť",
+			"home": "Domovská stránka YouTube",
+			"interactiveHint": "Interaktívne sťahovanie: vyberte formát, titulky a ďalšie…",
+			"refusedHint": "Preskúmať túto adresu nemôže otvoriť.",
+			"reload": "Načítať znova",
+			"searchTooLong": "Toto vyhľadávanie je príliš dlhé.",
+			"thisVideo": "Toto video",
+			"thisVideoHint": "Stiahnuť iba toto video s profilom {{profileName}}",
+			"zoom": {
+				"hint": "Priblíženie stránky: {{percent}} %",
+				"in": "Priblížiť",
+				"label": "Priblíženie stránky",
+				"out": "Oddialiť",
+				"percent": "Percento priblíženia",
+				"reset": "Obnoviť priblíženie na 100 %"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Auto",
+		"autoValue": "Auto (.{{ext}})",
+		"description": {
+			"auto": "Typ súboru určia vybrané streamy.",
+			"mkv": "Pojme ľubovoľný kodek. Niektoré televízory a telefóny ho neotvoria.",
+			"mp4": "Prehrá sa takmer všade. VP9 v súbore MP4 sa v QuickTime neprehrá ako video.",
+			"webm": "Otvorený formát pre prehliadače. Pojme iba VP9 alebo AV1 s Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 v súbore MP4 sa v QuickTime prehrá iba na novšom Macu. H.264 sa prehrá všade.",
+		"mp4CaveatVp9": "VP9 v súbore MP4 sa v QuickTime neprehrá ako video. H.264 sa prehrá všade.",
+		"profileMark": "Profil",
+		"smartTvNoWebm": "WebM sa pre Smart TV nenavrhuje: nepojme H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM nepojme {{codec}}. Vyberte MKV alebo MP4."
+	},
+	"filenameTemplate": {
+		"description": "Vyberte, ako sa budú pomenúvať stiahnuté súbory. Kliknutím na token ho vložíte. Pomocou / môžete zoradiť stiahnuté súbory do priečinkov.",
+		"error": {
+			"empty": "Zadajte šablónu názvu súboru.",
+			"empty-segment": "Odstráňte nadbytočné / – každý priečinok musí mať názov.",
+			"forbidden-char": "Odstráňte znaky, ktoré nie sú v názvoch súborov povolené: \\ : * ? \" < > |",
+			"invalid-segment": "Tento názov priečinka nie je povolený. Vyhnite sa . a .. a vyhradeným názvom, ako je CON.",
+			"no-unique-token": "Pridajte do názvu súboru {title} alebo {id}, aby každé sťahovanie dostalo vlastný názov.",
+			"resolution-in-dir": "{resolution} nemôže pomenovať priečinok – kvalita nie je známa, kým sa sťahovanie nezačne.",
+			"stray-brace": "Nespárované { alebo } – tokeny ako {title} treba ohraničiť zátvorkami.",
+			"too-long": "Šablóna je príliš dlhá.",
+			"unknown-token": "Neznámy token {{token}}."
+		},
+		"idEndingWarning": "Ukončite názov reťazcom [{id}], aby Klip mohol rozpoznať už stiahnuté položky zoznamu skladieb a vytvárať zoznamy skladieb .m3u.",
+		"label": "Šablóna názvu súboru",
+		"m3uDisabledIdEnding": "Nedostupné, pretože šablóna názvu súboru nekončí na [{id}] alebo triedi sťahovania do priečinkov.",
+		"previewPlaylist": "V zozname skladieb",
+		"previewSingle": "Jedno video",
+		"profileOverrideDescription": "Ak necháte prázdne, použije sa globálna šablóna.",
+		"profileOverrideLabel": "Šablóna názvu súboru"
+	},
+	"formatLabel": {
+		"audioFallback": "Zvuk",
+		"audioOnlyDot": "Iba zvuk · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Auto",
+		"description": "Možnosť Auto vyberie HDR, keď ho táto obrazovka dokáže zobraziť, inak SDR. Na bežných obrazovkách vyzerá HDR vyblednuto.",
+		"hdr": "HDR",
+		"label": "Video HDR",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Jazyk"
+	},
+	"notifications": {
+		"exploreSignInRetrying_few": "Prihlásené cez Preskúmať – opakujú sa {{count}} odkazy",
+		"exploreSignInRetrying_many": "Prihlásené cez Preskúmať – opakuje sa {{count}} odkazu",
+		"exploreSignInRetrying_one": "Prihlásené cez Preskúmať – opakuje sa 1 odkaz",
+		"exploreSignInRetrying_other": "Prihlásené cez Preskúmať – opakuje sa {{count}} odkazov",
+		"exploreSignOutFailed": "Odhlásenie z Preskúmať sa nepodarilo. Skúste to znova.",
+		"filenameFolderTooDeep": "Tento priečinok je pre váš systém príliš hlboko vnorený. Sťahovanie môže stále zlyhať – vyberte kratšiu cestu.",
+		"filenameTemplateCannotFit": "Názov tohto videa sa nezmestí do všetkých častí vašej šablóny, preto sa použil predvolený názov.",
+		"folderSelectFailed": "Nepodarilo sa otvoriť výber priečinka.",
+		"hotkey": {
+			"alreadyQueued": "Už je v rade – kópia sa nepridala",
+			"cookiesSetup": "Dokončite nastavenie súborov cookie v aplikácii Klip a skúste to znova",
+			"invalidClipboard": "V schránke nie je žiadny odkaz – najprv ho skopírujte",
+			"multipleUrls": "Skopírovaných je viac odkazov – použite Hromadné adresy URL v aplikácii Klip",
+			"needsReview": "Tento odkaz vyžaduje váš výber – pozrite si Sťahovania v aplikácii Klip",
+			"queued": "Sťahovanie zo schránky bolo zaradené do radu",
+			"submissionFailed": "Odkaz sa nepodarilo pridať – skúste to znova v aplikácii Klip"
+		},
+		"playlistFolderRejected": "Tento priečinok sa pre tento zoznam skladieb nedá použiť.",
+		"queue": {
+			"skippedAlreadyQueued_few": "{{count}} videá už sú v rade – preskočené",
+			"skippedAlreadyQueued_many": "{{count}} videa už je v rade – preskočené",
+			"skippedAlreadyQueued_one": "{{count}} video už je v rade – preskočené",
+			"skippedAlreadyQueued_other": "{{count}} videí už je v rade – preskočené"
+		},
+		"quickDownload": {
+			"added": "Pridané: {{title}}",
+			"alreadyQueued": "Už je v rade",
+			"batchAdded_few": "Na kartu Sťahovania boli pridané {{count}} odkazy",
+			"batchAdded_many": "Na kartu Sťahovania bolo pridaných {{count}} odkazu",
+			"batchAdded_one": "Na kartu Sťahovania bol pridaný {{count}} odkaz",
+			"batchAdded_other": "Na kartu Sťahovania bolo pridaných {{count}} odkazov",
+			"batchAlreadyQueued_few": "{{count}} už sú v rade",
+			"batchAlreadyQueued_many": "{{count}} už sú v rade",
+			"batchAlreadyQueued_one": "{{count}} už je v rade",
+			"batchAlreadyQueued_other": "{{count}} už sú v rade",
+			"batchNoneAdded_few": "{{count}} odkazy sa nepodarilo pridať",
+			"batchNoneAdded_many": "{{count}} odkazu sa nepodarilo pridať",
+			"batchNoneAdded_one": "{{count}} odkaz sa nepodarilo pridať",
+			"batchNoneAdded_other": "{{count}} odkazov sa nepodarilo pridať",
+			"batchNotAdded_few": "{{count}} sa nepodarilo pridať",
+			"batchNotAdded_many": "{{count}} sa nepodarilo pridať",
+			"batchNotAdded_one": "{{count}} sa nepodarilo pridať",
+			"batchNotAdded_other": "{{count}} sa nepodarilo pridať",
+			"chooseFromList_few": "{{count}} videá v tomto zozname – vyberte, čo stiahnuť",
+			"chooseFromList_many": "{{count}} videa v tomto zozname – vyberte, čo stiahnuť",
+			"chooseFromList_one": "{{count}} video v tomto zozname – vyberte, čo stiahnuť",
+			"chooseFromList_other": "{{count}} videí v tomto zozname – vyberte, čo stiahnuť",
+			"chooseHowMany_few": "{{count}}+ videá – vyberte, koľko",
+			"chooseHowMany_many": "{{count}}+ videa – vyberte, koľko",
+			"chooseHowMany_one": "{{count}}+ video – vyberte, koľko",
+			"chooseHowMany_other": "{{count}}+ videí – vyberte, koľko",
+			"failed": "Nepodarilo sa pripraviť {{title}}",
+			"notAdded": "Odkaz sa nepodarilo pridať – skúste to znova",
+			"view": "Zobraziť"
+		},
+		"settingsSaveFailed": "Nastavenia sa nepodarilo uložiť.",
+		"shellActionFailed": "Nepodarilo sa to otvoriť.",
+		"warmupFailed": "Nastavenie sa nedokončilo. Niektoré sťahovania môžu zlyhať, kým sa nedokončí."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Zvuk (najlepší)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Zvuk ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Pôvodný najlepší zvuk, bez prekódovania",
+			"m4a": "Konvertovať na M4A (AAC)",
+			"mp3": "Konvertovať na MP3",
+			"opus": "Konvertovať na Opus"
+		},
+		"mp4Cap": "H.264 nad 1080p nie je na YouTube dostupný – automaticky obmedzené na 1080p",
+		"subtitles": {
+			"deliveryHeading": "Uložiť ako",
+			"deliveryLoose": "Priamo do priečinka na ukladanie",
+			"languages": "Jazyky",
+			"languagesRequired": "Ak chcete pokračovať, vyberte aspoň jeden jazyk.",
+			"note": "Pre každé video sa uložia iba súbory titulkov – nesťahuje sa žiadne video ani zvuk.",
+			"source": "Zdroj"
+		},
+		"tier": {
+			"144": "Až do 144p",
+			"240": "Až do 240p",
+			"360": "Až do 360p",
+			"480": "Až do 480p",
+			"720": "Až do 720p",
+			"1080": "Až do 1080p",
+			"1440": "Až do 1440p",
+			"2160": "Až do 4K",
+			"best": "Najlepšia kvalita"
+		},
+		"tierDesc": {
+			"144": "Čo najmenšie súbory",
+			"240": "Veľmi malé súbory, nízka kvalita",
+			"360": "Malé súbory pre obmedzenú šírku pásma",
+			"480": "Nízka šírka pásma",
+			"720": "Menšie súbory, široká kompatibilita",
+			"1080": "Obmedzené na 1080p, pri jednotlivých položkách sa použije nižšia kvalita",
+			"1440": "Obmedzené na 2K, pri jednotlivých položkách sa použije nižšia kvalita",
+			"2160": "Obmedzené na 2160p, pri jednotlivých položkách sa použije nižšia kvalita",
+			"best": "Najvyššia dostupná kvalita videa a zvuku pre každú položku"
+		},
+		"type": {
+			"audio": "Zvuk",
+			"subtitles": "Titulky",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Najlepší pôvodný",
+			"mp4": "MP4 H.264 pre Smart TV"
+		},
+		"videoFormatDesc": {
+			"best": "Najlepší dostupný kontajner a kodeky pre každú položku",
+			"mp4": "Ak je to možné, uprednostniť video H.264 + zvuk AAC v MP4"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Sprievodný súbor",
+			"description": "Popis",
+			"media": "Médiá",
+			"missing": "Chýba",
+			"subtitle": "Titulky",
+			"thumbnail": "Miniatúra",
+			"unknown": "Súbor"
+		},
+		"attentionBadge_few": "{{count}} sťahovania vyžadujú vašu pozornosť",
+		"attentionBadge_many": "{{count}} sťahovania vyžaduje vašu pozornosť",
+		"attentionBadge_one": "{{count}} sťahovanie vyžaduje vašu pozornosť",
+		"attentionBadge_other": "{{count}} sťahovaní vyžaduje vašu pozornosť",
+		"autoRemoveCompleted": {
+			"hint": "Odstráni každé sťahovanie zo zoznamu niekoľko sekúnd po dokončení. Súbory zostanú vo vašom priečinku.",
+			"label": "Automaticky vymazať dokončené"
+		},
+		"cancelAllTitle": "Zrušiť všetky aktívne a čakajúce sťahovania",
+		"choice": {
+			"all": "Všetky videá",
+			"cappedBody_few": "V tomto zozname skladieb je viac ako {{count}} videá. Stiahnite všetky, prvé {{count}} alebo vyberte na kontrole.",
+			"cappedBody_many": "V tomto zozname skladieb je viac ako {{count}} videa. Stiahnite všetky, prvé {{count}} alebo vyberte na kontrole.",
+			"cappedBody_one": "V tomto zozname skladieb je viac ako {{count}} video. Stiahnite všetky, prvé {{count}} alebo vyberte na kontrole.",
+			"cappedBody_other": "V tomto zozname skladieb je viac ako {{count}} videí. Stiahnite všetky, prvých {{count}} alebo vyberte na kontrole.",
+			"first": "Prvé {{count}}",
+			"list": {
+				"album": "Album",
+				"liked": "Obľúbené videá",
+				"mix": "Mix",
+				"playlist": "Zoznam skladieb",
+				"uploads": "Všetky nahrané videá",
+				"watchLater": "„Pozrieť neskôr“"
+			},
+			"pick": "Vybrať z neho…",
+			"review": "Skontrolovať",
+			"uncappedBody_few": "Tento odkaz je zoznam so {{count}} videami. Stiahnite všetky alebo vyberte na kontrole.",
+			"uncappedBody_many": "Tento odkaz je zoznam s {{count}} videami. Stiahnite všetky alebo vyberte na kontrole.",
+			"uncappedBody_one": "Tento odkaz je zoznam s {{count}} videom. Stiahnite ho alebo vyberte na kontrole.",
+			"uncappedBody_other": "Tento odkaz je zoznam s {{count}} videami. Stiahnite všetky alebo vyberte na kontrole.",
+			"video": "Toto video",
+			"videoOrList": {
+				"album": "Tento odkaz ukazuje na video v albume. Stiahnuť iba video, alebo album?",
+				"liked": "Tento odkaz ukazuje na video z vašich obľúbených videí. Stiahnuť iba video, alebo všetky obľúbené videá?",
+				"mix": "Tento odkaz ukazuje na video v Mixe. Stiahnuť iba video, alebo Mix?",
+				"playlist": "Tento odkaz ukazuje na video v zozname skladieb. Stiahnuť iba video, alebo zoznam skladieb?",
+				"uploads": "Tento odkaz ukazuje na video z nahraných videí kanála. Stiahnuť iba video, alebo všetky nahrané videá?",
+				"watchLater": "Tento odkaz ukazuje na video vo vašom zozname „Pozrieť neskôr“. Stiahnuť iba video, alebo celý zoznam?"
+			}
+		},
+		"clearTitle": "Vymazať dokončené sťahovania",
+		"empty": "Tu sa zobrazia sťahovania zaradené do radu",
+		"filterAll": "Všetky",
+		"filtersLabel": "Filtre stavu radu",
+		"globalActionsLabel": "Všetky položky",
+		"header": "Sťahovania",
+		"item": {
+			"audioKept": "Zvuk nebol odstránený",
+			"audioKeptSubtitlesFailed": "Zvuk nebol odstránený · niektoré titulky zlyhali",
+			"cancel": "Zrušiť",
+			"defaultError": "Sťahovanie zlyhalo",
+			"openDestinationFolder": "Otvoriť cieľový priečinok",
+			"pause": "Pozastaviť",
+			"pendingOnly": "Iba čakajúce",
+			"pullNow": "Stiahnuť hneď – preskočiť rad",
+			"qualityLimited": "Obmedzené na {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Obmedzené na {{height}}p · niektoré titulky zlyhali",
+			"remove": "Odstrániť",
+			"resume": "Pokračovať",
+			"retry": "Skúsiť znova",
+			"retryingSoon": "automatické opakovanie (pokus {{attempt}})",
+			"setLocation": "Nastaviť umiestnenie",
+			"setLocationHint": "Ak chcete nastaviť umiestnenie, vyberte čakajúce položky.",
+			"statusCancelled": "Zrušené",
+			"statusDone": "Hotovo",
+			"statusError": "Chyba",
+			"statusHeld": "Pozdržané",
+			"statusNeedsChoice": "Vyžaduje váš výber",
+			"statusPaused": "Pozastavené",
+			"statusPending": "Čaká",
+			"statusProbing": "Zisťujú sa podrobnosti",
+			"statusRunning": "Sťahuje sa",
+			"subtitleLanguagesMissing": "Žiadne titulky v jazykoch: {{languages}}",
+			"waitingForSite": "Čaká na {{site}} do {{time}}",
+			"waitingHint": "{{site}} obmedzuje počet požiadaviek z tohto pripojenia. Klip načíta podrobnosti tohto odkazu po {{time}}, aby sa limit mohol uvoľniť."
+		},
+		"listOffer": {
+			"dismiss": "Zavrieť",
+			"from": {
+				"album": "Z albumu",
+				"liked": "Z vašich obľúbených videí",
+				"mix": "Z Mixu",
+				"playlist": "Zo zoznamu skladieb",
+				"uploads": "Z nahraných videí kanála",
+				"watchLater": "Z „Pozrieť neskôr“"
+			},
+			"get": {
+				"album": "Stiahnuť celý album",
+				"liked": "Stiahnuť všetky obľúbené videá",
+				"mix": "Stiahnuť celý Mix",
+				"playlist": "Stiahnuť celý zoznam skladieb",
+				"uploads": "Stiahnuť všetky nahrané videá",
+				"watchLater": "Stiahnuť celý zoznam „Pozrieť neskôr“"
+			},
+			"hint": "Pridá zoznam ako samostatný riadok. Toto video sa vynechá."
+		},
+		"pauseAllTitle": "Pozastaviť všetky aktívne sťahovania a zabrániť spusteniu nových",
+		"pausedBanner": "Rad je pozastavený – čakajúce položky sa nespustia, kým ho neobnovíte",
+		"resumeAllTitle": "Obnoviť pozastavené sťahovania a nechať rad pokračovať",
+		"resumeQueueAction": "Obnoviť rad",
+		"selectedActionsLabel": "Vybrané položky",
+		"selectionSummary": "Vybrané: {{selected}} · spolu: {{total}}",
+		"tabLabel": "Sťahovania",
+		"tabTip": "Sťahovania sú teraz na karte Sťahovania – otvorte ju kedykoľvek a sledujte priebeh.",
+		"table": {
+			"added": "Pridané",
+			"artifacts": "Súbory",
+			"columnDropped": "Stĺpec {{column}} bol presunutý.",
+			"columnMoveCancelled": "Presun stĺpca {{column}} bol zrušený.",
+			"columnMovedOver": "Stĺpec {{column}} je nad stĺpcom {{target}}.",
+			"columnPickedUp": "Stĺpec {{column}} bol zdvihnutý.",
+			"columns": "Stĺpce",
+			"finished": "Dokončené",
+			"format": "Formát",
+			"hideArtifactsFor": "Skryť súbory pre {{title}}",
+			"movableColumn": "presúvateľný stĺpec",
+			"moveColumnInstructions": "Ak chcete presunúť stĺpec, stlačte medzerník alebo kláves Enter, presuňte ho pomocou klávesov so šípkami a potom ho umiestnite opätovným stlačením medzerníka alebo klávesu Enter. Zrušíte to klávesom Esc.",
+			"notAvailable": "—",
+			"outputTarget": "Cieľ výstupu",
+			"progress": "Priebeh",
+			"resetColumns": "Obnoviť stĺpce",
+			"resizeColumn": "Zmeniť veľkosť stĺpca {{column}}",
+			"showArtifactsFor": "Zobraziť súbory pre {{title}}",
+			"size": "Veľkosť",
+			"sortBy": "Zoradiť podľa: {{label}}",
+			"status": "Stav",
+			"title": "Názov"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Pokračovať",
+		"description": "Používate čerstvo aktualizovanú verziu. Tu sú hlavné novinky.",
+		"fullNotes": "Úplné poznámky k vydaniu ↗",
+		"title": "Čo je nové v aplikácii Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Zrušiť",
+			"chooseExecutable": "Vybrať spustiteľný súbor",
+			"installWithHomebrew": "Nainštalovať cez Homebrew",
+			"installWithWinget": "Nainštalovať cez WinGet",
+			"openDependencyFolder": "Otvoriť priečinok závislostí",
+			"resetToDefault": "Obnoviť predvolené",
+			"retrySetup": "Skúsiť znova",
+			"viewSetupLog": "Zobraziť protokol nastavenia"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Skúste to znova. Ak to stále zlyháva, vyberte nižšie funkčnú kópiu.",
+				"title": "Nástroj nefunguje správne"
+			},
+			"blockedOrQuarantined": {
+				"body": "Povoľte Klip v antivírusovom programe alebo vo filtri SmartScreen a skúste to znova.",
+				"title": "Váš antivírus zablokoval nástroj"
+			},
+			"downloadFailed": {
+				"body": "Skontrolujte pripojenie na internet a skúste to znova.",
+				"title": "Nepodarilo sa stiahnuť, čo Klip potrebuje"
+			},
+			"extractFailed": {
+				"body": "Skúste to znova a stiahnite ho nanovo.",
+				"title": "Stiahnutý súbor je poškodený"
+			},
+			"hashFailed": {
+				"body": "Skúste to znova a stiahnite ho nanovo.",
+				"title": "Stiahnutý súbor nezodpovedá kontrolnému súčtu"
+			},
+			"pairIncomplete": {
+				"body": "Vyberte nižšie oba, alebo ich obnovte na predvolené.",
+				"title": "FFmpeg a FFprobe sa musia nastaviť spolu"
+			},
+			"permissionDenied": {
+				"body": "Skúste to znova. Ak to stále zlyháva, vyberte nižšie kópiu, ktorej dôverujete.",
+				"title": "Váš systém nedovolí Klip spustiť nástroj"
+			},
+			"spawnFailed": {
+				"body": "Skúste to znova. Ak to stále zlyháva, vyberte nižšie funkčnú kópiu.",
+				"title": "Nástroj chýba alebo sa nespustí"
+			},
+			"timeout": {
+				"body": "Pri prvom spustení to často spôsobuje kontrola zabezpečenia. Skúste to znova.",
+				"title": "Nástroj odpovedal príliš dlho"
+			},
+			"unknown": {
+				"body": "Skúste to znova alebo si v protokole nastavenia pozrite podrobnosti.",
+				"title": "Pri nastavovaní sa niečo pokazilo"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Sťahovací nástroj",
+			"media": "Mediálne nástroje"
+		},
+		"installing": {
+			"homebrew": "Inštaluje sa cez Homebrew… Môže to trvať niekoľko minút.",
+			"winget": "Inštaluje sa cez WinGet… Môže to trvať niekoľko minút."
+		},
+		"manual": {
+			"intro": "Nasmerujte Klip na kópie, ktoré už máte, alebo ich nainštalujte iným spôsobom.",
+			"linuxHint": "yt-dlp a ffmpeg môžete nainštalovať aj pomocou správcu balíkov a potom kliknúť na Skúsiť znova.",
+			"toggle": "Nastaviť ručne"
+		},
+		"stopped": {
+			"body": "Skúste to znova alebo nižšie nasmerujte Klip na nástroje, ktoré už máte.",
+			"title": "Nastavenie sa zastavilo"
+		},
+		"title": "Nastavenie potrebuje vašu pomoc"
+	},
+	"selectionOrder": {
+		"editorTitle": "Ako tento profil vyberá",
+		"rank": {
+			"aacFileType": {
+				"label": "Zvuk AAC",
+				"reason": "vhodný pre prehrávače MP4"
+			},
+			"aacSmartTv": {
+				"label": "Zvuk AAC",
+				"reason": "prehrá sa všade"
+			},
+			"codec": {
+				"label": "AV1, potom VP9, potom H.264",
+				"reason": "najostrejší pri danej veľkosti"
+			},
+			"codecH264First": {
+				"label": "H.264, potom VP9, potom AV1",
+				"reason": "kodek tohto profilu"
+			},
+			"codecVp9First": {
+				"label": "VP9, potom H.264, potom AV1",
+				"reason": "kodek tohto profilu"
+			},
+			"fps": {
+				"label": "Najvyššia snímková frekvencia",
+				"reason": "plynulejší pohyb"
+			},
+			"h264": {
+				"label": "Video H.264",
+				"reason": "prehrá sa na každom zariadení"
+			},
+			"hdrFirst": {
+				"label": "HDR pred SDR",
+				"reason": "bohatšie farby na obrazovkách HDR",
+				"reasonScreen": "táto obrazovka zobrazuje HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR pred HDR",
+				"reason": "vyzerá správne na každej obrazovke",
+				"reasonScreen": "táto obrazovka nepodporuje HDR"
+			},
+			"mp4Streams": {
+				"label": "Streamy MP4",
+				"reason": "pripravené pre súbor MP4"
+			},
+			"nativeCompatible": {
+				"label": "Stereo zvuk"
+			},
+			"nativeSource": {
+				"profile": "tento profil",
+				"settings": "z nastavení"
+			},
+			"nativeSurround": {
+				"label": "Priestorový zvuk, ak je k dispozícii"
+			},
+			"opus": {
+				"label": "Zvuk Opus",
+				"reason": "vhodný pre WebM"
+			},
+			"original": {
+				"label": "Pôvodné streamy, nie zväčšené pomocou AI",
+				"reason": "zväčšená kópia má vyššie rozlíšenie, ale nepridáva skutočné detaily"
+			},
+			"protocol": {
+				"label": "Priame stiahnutia pred streamovanými kópiami",
+				"reason": "ten istý obraz, stiahnutý rýchlejšie"
+			},
+			"resolution": {
+				"label": "Až do {{tier}}p",
+				"reason": "váš limit"
+			},
+			"resolutionBest": {
+				"label": "Najvyššie rozlíšenie",
+				"reason": "žiadny nastavený limit"
+			},
+			"sitePreference": {
+				"label": "Streamy, ktoré web neoznačuje ako horšie",
+				"reason": "vynecháva poškodené kópie, kópie s vodoznakom a záložné kópie"
+			},
+			"size": {
+				"label": "Väčší súbor",
+				"reason": "viac detailov pri rovnakých nastaveniach"
+			},
+			"source": {
+				"label": "Najprv streamy so zvýšenou bitovou rýchlosťou",
+				"reason": "viac detailov pri rovnakom rozlíšení"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "typ súboru podľa streamov",
+				"explicit": "uloží sa ako .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "najlepší obraz",
+				"smartTv": "prehrá sa na každom zariadení"
+			}
+		},
+		"whyLabel": "Prečo tento?",
+		"whyTitle": "Prečo to profil vybral"
+	},
+	"share": {
+		"copied": "Skopírované!",
+		"copyLink": "Kopírovať odkaz",
+		"defaultMessage": "Klip – bezplatný nástroj na sťahovanie videí s otvoreným zdrojovým kódom pre Windows, macOS a Linux. Funguje s YouTube, Vimeo, Twitch a viac ako 2000 webmi.\n4K · HDR · MP3 · Shorts · Titulky · SponsorBlock",
+		"description": "Klip je bezplatný a s otvoreným zdrojovým kódom. Zdieľaním pomôžete, aby ho objavilo viac ľudí.",
+		"footerLabel": "Zdieľať",
+		"footerTooltip": "Zdieľať Klip",
+		"shareAction": "Zdieľať Klip",
+		"title": "Zdieľať Klip"
+	},
+	"splash": {
+		"cancel": "Máte problémy? Nastavte to ručne",
+		"greeting": "Vitajte späť!",
+		"setup": {
+			"left": {
+				"minutes_few": "zostáva približne {{count}} min",
+				"minutes_many": "zostáva približne {{count}} min",
+				"minutes_one": "zostáva približne {{count}} min",
+				"minutes_other": "zostáva približne {{count}} min",
+				"underMinute": "zostáva menej ako minúta"
+			},
+			"stage": {
+				"checking": "Kontroluje sa, či všetko funguje",
+				"connecting": "Pripája sa…",
+				"unpacking": "Rozbaľujú sa mediálne nástroje",
+				"unpackingEngine": "Rozbaľuje sa sťahovací nástroj"
+			},
+			"title": {
+				"both": "Aktualizujú sa nástroje Klip",
+				"engine": "Aktualizuje sa sťahovací nástroj",
+				"firstRun": "Nastavenie pri prvom spustení",
+				"media": "Aktualizujú sa mediálne nástroje"
+			}
+		},
+		"verifyFirstCheck": "Prvá kontrola tejto verzie – táto je pomalá. Zvyčajne približne minútu.",
+		"verifying": "Kontroluje sa {{binary}}…",
+		"warmup": "Pripravujú sa sťahovania…",
+		"warmupFailedNoDiag": "Nastavenie zlyhalo. Podrobnosti nájdete v protokole nastavenia."
+	},
+	"status": {
+		"audioKept": "Video bolo uložené so zvukom – zvuk sa nepodarilo odstrániť",
+		"audioKeptSubtitlesFailed": "Video bolo uložené so zvukom – zvuk sa nepodarilo odstrániť a niektoré titulky sa nepodarilo stiahnuť",
+		"cancelled": "Sťahovanie bolo zrušené",
+		"complete": "Sťahovanie je dokončené",
+		"convertingVideo": "Konvertuje sa video…",
+		"diskSpaceInsufficient": "Nedostatok miesta na disku – potrebné je {{required}}, k dispozícii je iba {{free}}",
+		"downloadingBinary": "Sťahuje sa binárny súbor {{name}}…",
+		"downloadingMedia": "Sťahuje sa video a zvuk…",
+		"embeddingMetadata": "Vkladajú sa metadáta…",
+		"exploreSignedOut": "Odhlásenie z Preskúmať – prihláste sa znova",
+		"extractingAudio": "Konvertuje sa zvuk…",
+		"fetchingSponsorBlock": "Kontaktuje sa SponsorBlock…",
+		"fetchingSubtitles": "Sťahujú sa titulky…",
+		"mergingFormats": "Zlučuje sa zvuk a video…",
+		"mintingToken": "Pripravuje sa sťahovanie z YouTube…",
+		"movingFiles": "Presúvajú sa súbory…",
+		"noSubtitles": "Žiadne titulky v jazykoch: {{languages}}",
+		"outputNotWritable": "Do priečinka {{dir}} sa nedá ukladať – Klip tam nemá povolený zápis",
+		"preparingBinaries": "Pripravujú sa binárne súbory…",
+		"qualityLimited": "Uložené v {{height}}p – YouTube pre toto sťahovanie zadržal vyššie kvality. Môže pomôcť opakovanie neskôr.",
+		"qualityLimitedSubtitlesFailed": "Uložené v {{height}}p – YouTube pre toto sťahovanie zadržal vyššie kvality a niektoré titulky sa nepodarilo stiahnuť. Môže pomôcť opakovanie neskôr.",
+		"remintingToken": "Sťahovanie z YouTube sa pripravuje znova…",
+		"retryingSponsorBlock": "SponsorBlock nie je dostupný, opakuje sa ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Pripojenie sa zaseklo, opakuje sa ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Prihlasuje sa pomocou vášho účtu z Preskúmať…",
+		"sleepingBetweenRequests": "Čaká sa {{seconds}} s, aby sa predišlo obmedzeniam rýchlosti…",
+		"startingYtdlp": "Spúšťa sa sťahovací nástroj…",
+		"subtitleLanguagesMissing": "Toto video nemá titulky v jazykoch: {{languages}}. Video bolo uložené bez nich.",
+		"subtitleLanguagesMissingOthersSaved": "Toto video nemá titulky v jazykoch: {{languages}}. Ostatné jazyky boli uložené.",
+		"subtitlesFailed": "Video bolo uložené – niektoré titulky sa nepodarilo stiahnuť",
+		"unknownStartupFailure": "Neznáma chyba pri spustení sťahovania",
+		"usedExtractorFallback": "Stiahnuté zjednodušeným extraktorom – nastavte súbor cookies.txt pre spoľahlivejšie sťahovanie",
+		"ytdlpExitCode": "Sťahovací nástroj skončil s kódom {{code}}",
+		"ytdlpProcessError": "Chyba sťahovacieho nástroja: {{error}}"
+	},
+	"theme": {
+		"dark": "Tmavý režim",
+		"light": "Svetlý režim",
+		"system": "Predvolené systémom"
+	},
+	"titleBar": {
+		"close": "Zavrieť",
+		"maximize": "Maximalizovať",
+		"minimize": "Minimalizovať",
+		"restore": "Obnoviť"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Stiahnuť zo schránky",
+			"statusActive_few": "Sťahuje sa: {{count}} · {{percent}} %",
+			"statusActive_many": "Sťahuje sa: {{count}} · {{percent}} %",
+			"statusActive_one": "Sťahuje sa: 1 · {{percent}} %",
+			"statusActive_other": "Sťahuje sa: {{count}} · {{percent}} %",
+			"statusIdle": "Nečinný"
+		}
+	},
+	"update": {
+		"copied": "Príkaz bol skopírovaný do schránky",
+		"copy": "Kopírovať príkaz do schránky",
+		"dismiss": "Zavrieť banner aktualizácie",
+		"download": "Stiahnuť ↗",
+		"downloadDmg": "Stiahnuť DMG ↗",
+		"downloading": "Sťahuje sa…",
+		"install": "Nainštalovať a reštartovať",
+		"installFailed": "Aktualizácia zlyhala",
+		"message": {
+			"generic": "Je dostupný Klip {{version}} – máte verziu {{currentVersion}}.",
+			"homebrew": "Je dostupný Klip {{version}} – aktualizujte cez Homebrew.",
+			"macosDirect": "Je dostupný Klip {{version}} – stiahnite nový súbor DMG.",
+			"macosDirectHomebrew": "Je dostupný Klip {{version}} – stiahnite súbor DMG alebo prejdite na Homebrew.",
+			"portable": "Je dostupný Klip {{version}} – stiahnite novú zostavu."
+		},
+		"retry": "Skúsiť znova",
+		"runAndRestart": "Spustiť a reštartovať",
+		"upgrading": "Aktualizuje sa…"
+	},
+	"videoCard": {
+		"chapters_few": "{{count}} kapitoly",
+		"chapters_many": "{{count}} kapitoly",
+		"chapters_one": "{{count}} kapitola",
+		"chapters_other": "{{count}} kapitol",
+		"titlePlaceholder": "Načítava sa…"
+	},
+	"videoCodec": {
+		"h264": "Najprv H.264",
+		"label": "Kodek videa",
+		"smartTv": "Smart TV vždy použije H.264.",
+		"vp9": "Najprv VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Pripravené",
+			"description": "Vložte adresy URL videí, zoznamov skladieb, kanálov, vyhľadávaní alebo zvukových súborov. Klip pred zaradením do radu odstráni duplikáty.",
+			"emptyPreview": "Vložte jednu alebo viac adries URL a zobrazte ukážku dávky.",
+			"ignoredCount": "Ignorované",
+			"needsAtLeastOne": "Ak chcete pokračovať, pridajte aspoň jednu podporovanú adresu URL.",
+			"reject": {
+				"duplicate": "Duplikát"
+			},
+			"textareaLabel": "Zoznam adries URL",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "Hromadné adresy URL"
+		},
+		"confirm": {
+			"addToQueue": "+ Rad",
+			"addToQueueTooltip": "Pridá do radu – spustí sa po dokončení aktívneho sťahovania",
+			"itemsValueAudio_few": "{{count}} z {{total}} stôp",
+			"itemsValueAudio_many": "{{count}} z {{total}} stôp",
+			"itemsValueAudio_one": "{{count}} z {{total}} stôp",
+			"itemsValueAudio_other": "{{count}} z {{total}} stôp",
+			"itemsValueBulk_few": "{{count}} z {{total}} adries URL",
+			"itemsValueBulk_many": "{{count}} z {{total}} adries URL",
+			"itemsValueBulk_one": "{{count}} z {{total}} adries URL",
+			"itemsValueBulk_other": "{{count}} z {{total}} adries URL",
+			"itemsValue_few": "{{count}} z {{total}} videí",
+			"itemsValue_many": "{{count}} z {{total}} videí",
+			"itemsValue_one": "{{count}} z {{total}} videí",
+			"itemsValue_other": "{{count}} z {{total}} videí",
+			"labelAudio": "Zvuk",
+			"labelBulk": "Dávka",
+			"labelItems": "Položky",
+			"labelPlaylist": "Zoznam skladieb",
+			"labelPreset": "Predvoľba",
+			"labelSaveTo": "Uložiť do",
+			"labelSize": "Veľkosť",
+			"labelSubtitles": "Titulky",
+			"labelVideo": "Video",
+			"landIn": "Váš súbor sa uloží do",
+			"landInMultiProfile_few": "Uložia sa do {{count}} cieľov nižšie",
+			"landInMultiProfile_many": "Uložia sa do {{count}} cieľov nižšie",
+			"landInMultiProfile_one": "Uloží sa do cieľa nižšie",
+			"landInMultiProfile_other": "Uložia sa do {{count}} cieľov nižšie",
+			"nothingToDownload": "Je aktívny profil „Iba titulky“, ale nie je vybraný žiadny jazyk titulkov – nič sa nestiahne.",
+			"profileBreakdownCount_few": "{{count}} položky",
+			"profileBreakdownCount_many": "{{count}} položky",
+			"profileBreakdownCount_one": "{{count}} položka",
+			"profileBreakdownCount_other": "{{count}} položiek",
+			"profileBreakdownHeading": "Profily v tejto dávke",
+			"pullIt": "Stiahnuť! ↓",
+			"pullItTooltip": "Preskočí rad – spustí sa hneď a beží popri ostatných aktívnych sťahovaniach",
+			"readyHeadline": "Pripravené na stiahnutie!",
+			"sizeUnknown": "Neznáma",
+			"subtitleEmbedAudioOnly": "Vloženie titulkov bolo zmenené na samostatný súbor – zvukové stopy nepodporujú vložené titulky.",
+			"subtitleEmbedForcesMkv": "Titulky vo vnútri videa vyžadujú súbor MKV, preto sa toto sťahovanie uloží ako .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Vloženie miniatúry bolo preskočené – výstupný kontajner ho nepodporuje."
+		},
+		"folder": {
+			"custom": "Vlastný…",
+			"desktop": "Plocha",
+			"documents": "Dokumenty",
+			"downloads": "Stiahnuté súbory",
+			"heading": "Uložiť do",
+			"home": "Domov",
+			"music": "Hudba",
+			"pictures": "Obrázky",
+			"subfolder": {
+				"invalid": "Názov priečinka obsahuje neplatné znaky",
+				"placeholder": "napr. prednášky",
+				"toggle": "Uložiť do podpriečinka"
+			},
+			"videos": "Filmy"
+		},
+		"formats": {
+			"audio": "Zvuk",
+			"audioLanguage": "Jazyk zvuku",
+			"audioLanguageCount_few": "{{count}} jazyky",
+			"audioLanguageCount_many": "{{count}} jazyka",
+			"audioLanguageCount_one": "{{count}} jazyk",
+			"audioLanguageCount_other": "{{count}} jazykov",
+			"bitrateValue": "Bitová rýchlosť {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Súbory cookie sú nastavené, ale vypnuté. Zapnite ich a skúste to znova, aby ste získali úplný zoznam, alebo zmeňte sieť a skúste to znova.",
+				"bodyEnabled": "YouTube obmedzil toto zisťovanie podrobností aj napriek súborom cookie. Skúste to neskôr alebo zmeňte sieť.",
+				"bodyExplore": "YouTube obmedzil túto požiadavku. Skúste to neskôr alebo zmeňte sieť.",
+				"bodyUnconfigured": "Zoznam formátov môže byť neúplný. Nastavte súbory cookie v rozšírených nastaveniach, alebo zmeňte sieť a skúste to znova.",
+				"enableRetryCta": "Zapnúť cookie a skúsiť znova",
+				"heading": "Zisťovanie podrobností bolo obmedzené",
+				"retryCta": "Skúsiť znova"
+			},
+			"convert": {
+				"bitrate": "Bitová rýchlosť",
+				"bitrateCopyHint": "Zdroj, ktorý už je {{target}}, si zachová vlastný stream a bitovú rýchlosť: skopíruje sa, neprekóduje.",
+				"copyLabel": "{{target}} {{bitrate}} kb/s, bez prekódovania",
+				"copyLabelNoBitrate": "{{target}}, bez prekódovania",
+				"copyNote": "{{kbps}} kb/s tak, ako to má zdroj: stream je už {{target}}, preto sa skopíruje, neprekóduje",
+				"copyNoteNoBitrate": "Tak, ako to má zdroj: stream je už {{target}}, preto sa skopíruje, neprekóduje",
+				"label": "Konvertovať",
+				"lossyLabel": "{{target}} {{bitrate}} kb/s",
+				"sourceKbps": "Zdroj má {{kbps}} kb/s",
+				"wavLabel": "WAV (nekomprimovaný)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Prehliadač",
+				"currentModeExplore": "Prihlásenie z Preskúmať",
+				"currentModeFile": "Súbor",
+				"currentModeLabel": "Zdroj súborov cookie",
+				"dpapi": {
+					"docsLinkLabel": "Dokumentácia yt-dlp (problém #10927)",
+					"explanation": "Chrome 127 a novší šifruje súbory cookie spôsobom, ktorý iné aplikácie vo Windows nedokážu prečítať. Vyskúšajte jedno z riešení nižšie.",
+					"fixFileBody": "Exportujte súbory cookie z Chrome pomocou rozšírenia prehliadača, potom prepnite túto aplikáciu do režimu Súbor a vyberte exportovaný súbor.",
+					"fixFileLabel": "Exportovať cookies.txt",
+					"fixFirefoxBody": "Firefox nepoužíva App-Bound Encryption. Otvorte nastavenia súborov cookie a v zozname prehliadačov vyberte Firefox.",
+					"fixFirefoxLabel": "Prepnúť na Firefox",
+					"fixUnsafeBody": "Pridajte --disable-features=LockProfileCookieDatabase do odkazu na spustenie Chrome. Upozornenie: tým sa zneplatnia predtým zašifrované súbory cookie, takže budete odhlásení zo všetkých webov a budete sa musieť znova prihlásiť.",
+					"fixUnsafeLabel": "Spustiť Chrome s vypnutým App-Bound Encryption",
+					"heading": "Súbory cookie Chrome sú zablokované šifrovaním Windows"
+				},
+				"explanationBrowser": "Súbory cookie sa čítajú priamo z prehliadača. Ak je prehliadač práve spustený, jeho databáza súborov cookie môže byť zamknutá (prehliadače založené na Chromium). Prehliadač musí byť navyše prihlásený na YouTube. Skúste zavrieť prehliadač, prepnúť na iný prehliadač, prepnúť do režimu Súbor alebo súbory cookie vypnúť.",
+				"explanationFile": "Váš súbor cookie môže byť prázdny, expirovaný alebo v nesprávnom formáte (Klip potrebuje súbor cookies.txt vo formáte Netscape). Skúste súbory cookie exportovať znova, vybrať iný súbor, prepnúť do režimu Prehliadač alebo súbory cookie vypnúť.",
+				"exploreOffer": {
+					"body": "Prihláste sa cez Preskúmať a Klip to skúsi znova.",
+					"cta": "Prihlásiť sa cez Preskúmať",
+					"heading": "Toto video môže vyžadovať účet YouTube"
+				},
+				"exploreRefused": {
+					"body": "Klip to už skúsil s prihlásením cez Preskúmať, takže ďalšie prihlásenie nepomôže. Web môže mať problémy alebo ho tento účet nemôže otvoriť. Skúste to neskôr.",
+					"heading": "Web to odmietol aj napriek vášmu prihláseniu cez Preskúmať"
+				},
+				"exploreReuse": {
+					"body": "Ste prihlásení v Preskúmať, ale sťahovania toto prihlásenie momentálne nepoužívajú.",
+					"cta": "Použiť moje prihlásenie z Preskúmať a skúsiť znova",
+					"heading": "Toto video môže vyžadovať účet YouTube"
+				},
+				"exploreSignIn": {
+					"body": "Ak toto video vyžaduje účet YouTube, prihláste sa v Preskúmať a skúste to znova. Klip toto prihlásenie použije iba vtedy, keď ho sťahovanie potrebuje.",
+					"cta": "Prihlásiť sa v Preskúmať",
+					"heading": "Toto video môže vyžadovať účet YouTube"
+				},
+				"exploreSignedIn": {
+					"body": "Ak toto video vyžaduje účet, Klip automaticky použije vaše prihlásenie z Preskúmať. Môže byť nedostupné z iného dôvodu.",
+					"heading": "Prihlásený v Preskúmať"
+				},
+				"exploreSite": {
+					"heading": "Tento odkaz môže vyžadovať účet na {{host}}",
+					"offerBody": "Prihláste sa na {{host}} cez Preskúmať a skúste to znova.",
+					"signInBody": "Prihláste sa na {{host}} v Preskúmať a skúste to znova. Klip toto prihlásenie použije iba vtedy, keď ho sťahovanie potrebuje."
+				},
+				"heading": "Príčinou môžu byť súbory cookie",
+				"needsCookies": {
+					"body": "Klip nemal k tomuto videu prístup bez overenia. Nastavte súbory cookie v rozšírených nastaveniach – nasmerujte ich na prehliadač, v ktorom ste už prihlásení, alebo importujte súbor cookies.txt.",
+					"heading": "Tento web vyžaduje prihlásenie"
+				},
+				"openSettingsCta": "Otvoriť nastavenia súborov cookie",
+				"otherCookiesCta": "Použiť radšej súbor cookie alebo prehliadač…"
+			},
+			"drc": {
+				"description": "Stíši hlasné časti a zosilní tiché, vhodné pre reproduktory a hlučné miestnosti.",
+				"label": "Vyrovnať hlasitosť (DRC)",
+				"tag": "Vyrovnaná hlasitosť"
+			},
+			"fit": {
+				"mp4Unavailable": "Váš profil je Smart TV (H.264). Toto video H.264 neponúka, preto sa vybral najbližší stream.",
+				"noVideo": "Tento odkaz neobsahuje video, preto sa vybral zvuk.",
+				"subtitlesMissing": "Váš profil vyžaduje titulky v jazykoch: {{languages}}. Toto video ich nemá.",
+				"tierAbove": "Váš profil vyžaduje {{wanted}}p. Toto video nemá nič také malé, preto sa vybralo {{picked}}p.",
+				"tierAbovePassedOver": "Váš profil vyžaduje {{wanted}}p. Menšie streamy tohto videa nepasujú k zvyšku vášho profilu, preto sa vybralo {{picked}}p.",
+				"tierBelowTakeable": "Váš profil vyžaduje {{wanted}}p. Toto video nemá použiteľné {{wanted}}p, preto sa vybralo {{picked}}p.",
+				"tierPassedOverAiUpscaled": "Váš profil vyžaduje {{wanted}}p. {{wanted}}p tohto videa je umelo zväčšené pomocou AI, preto sa vybralo pôvodné {{picked}}p.",
+				"tierPassedOverH264": "Váš profil vyžaduje {{wanted}}p v H.264. Toto video má {{wanted}}p len v iných kodekoch, preto sa vybralo {{picked}}p v H.264.",
+				"tierPassedOverProfile": "Váš profil vyžaduje {{wanted}}p. {{wanted}}p tohto videa nepasuje k zvyšku vášho profilu, preto sa vybralo {{picked}}p.",
+				"webmUnavailable": "Váš profil vyžaduje WebM. Vybrané streamy tohto videa obsahujú {{codec}}, ktorý WebM nepojme, preto je typ súboru Auto."
+			},
+			"footer": {
+				"addToQueue": "Pridať do radu bez spustenia",
+				"download": "Stiahnuť",
+				"moreActions": "Ďalšie možnosti sťahovania",
+				"subtitlesRequired": "Vyberte aspoň jeden jazyk titulkov."
+			},
+			"keepAudio": "Ponechať tak, ako je",
+			"keepAudioMeta": "Vstavaný zvuk",
+			"kind": {
+				"audio": "Iba zvuk",
+				"label": "Čo stiahnuť",
+				"subtitles": "Iba titulky",
+				"video": "Video + zvuk",
+				"videoOnly": "Video bez zvuku"
+			},
+			"loadingAria": "Načítavajú sa formáty",
+			"loadingHint": "Počkajte, kým sa dokončí zisťovanie podrobností – zoznamy skladieb a vyhľadávania môžu chvíľu trvať.",
+			"marker": {
+				"aiDubbed": "Dabing AI",
+				"aiUpscaled": "Zväčšené pomocou AI",
+				"audioDescription": "Zvukový popis",
+				"damaged": "Poškodené",
+				"enhancedBitrate": "Zvýšená bitová rýchlosť",
+				"original": "Pôvodné",
+				"spatialAudio": "Priestorový zvuk",
+				"vr": "360° / VR",
+				"watermarked": "S vodoznakom"
+			},
+			"noAudio": "Bez zvuku",
+			"profile": {
+				"calloutBody": "Váš aktívny profil vám vopred vyberie streamy. Profily môžete prepínať v ponuke alebo pomocou ceruzky upraviť jeden bez opustenia tohto sťahovania.",
+				"calloutTitle": "Formáty vychádzajú z vášho profilu",
+				"closestTag": "Najbližšie profilu",
+				"edit": "Upraviť {{name}}",
+				"keepEdits": "Ponechať moje zmeny",
+				"menuDescription": "Iba pre toto sťahovanie. Váš predvolený profil zostane nezmenený.",
+				"preselected": "Vopred vybrané z",
+				"resetAll": "Obnoviť všetko",
+				"switchBody": "Pre toto sťahovanie ste zmenili: {{areas}}. Profil „{{profile}}“ vyberie video a zvuk v oboch prípadoch. Ponechať ostatné zmeny, alebo všetko obnoviť podľa profilu?",
+				"switchTitle": "Prepnúť profil?",
+				"tag": "Profil",
+				"updatedBody": "Pre toto sťahovanie ste zmenili: {{areas}}. Aktualizovaný profil vyberie video a zvuk v oboch prípadoch. Ponechať ostatné zmeny, alebo všetko obnoviť podľa profilu?",
+				"updatedTitle": "Použiť aktualizovaný profil?"
+			},
+			"quality": {
+				"high": "Vysoká kvalita",
+				"low": "Nízka kvalita",
+				"medium": "Stredná kvalita"
+			},
+			"rateLimit": {
+				"heading": "{{site}} obmedzuje toto pripojenie",
+				"leadDegraded": "Zoznam formátov môže byť neúplný.",
+				"leadFailed": "{{site}} túto požiadavku zatiaľ odmietol.",
+				"retryCta": "Skúsiť znova",
+				"sessionNote": "{{site}} môže toto obmedzenie ponechať až hodinu.",
+				"tryNowCta": "Skúsiť teraz",
+				"waitOver": "Čakanie skončilo, môžete to skúsiť znova.",
+				"waitUntil": "Klip počká do {{time}}, kým sa znova opýta {{site}}, aby sa obmedzenie mohlo zrušiť."
+			},
+			"resolutionUnknown": "Neznáme rozlíšenie",
+			"savesAs": {
+				"label": "Uloží sa ako",
+				"reset": "WebM nepojme {{codec}}, preto sa typ súboru vrátil na Auto."
+			},
+			"sizeUnknown": "Veľkosť nie je známa",
+			"skipToConfirm": "Preskočiť na potvrdenie",
+			"skipToConfirmTooltip": "Pre všetky zostávajúce kroky použije vaše uložené predvoľby. Ak chcete zmeniť nastavenie, pokračujte radšej krok za krokom – vaša voľba sa uloží pre nabudúce.",
+			"sniffing": "Hľadajú sa pre vás najlepšie formáty…",
+			"total": "Spolu",
+			"video": "Video",
+			"withAudio": "so zvukom"
+		},
+		"listPrompt": {
+			"backgroundHint": "S profilom {{profileName}}. Ak má viac ako {{count}} videí, karta Sťahovania sa opýta, koľko ich stiahnuť.",
+			"backgroundLabel": "Stiahnuť na pozadí",
+			"escOnly": "Esc zruší.",
+			"firstHint": "Presne prvých {{count}} s profilom {{profileName}}.",
+			"firstLabel": "Stiahnuť prvých",
+			"interactiveHint": "Vyberte spomedzi prvých {{count}} videí (alebo zmeňte počet v ďalšom kroku) a potom nastavte sťahovanie.",
+			"interactiveLabel": "Interaktívne sťahovanie…",
+			"limitHint": "Koľko videí zo zoznamu vziať: prvá možnosť sa opýta, keď ich je viac, druhá vezme presne toľko. Rovnaké ako Nastavenia › Položky zoznamu skladieb na prehľadanie.",
+			"limitLabel": "Limit",
+			"mixNote": "Mix sa mení pri každom otvorení.",
+			"pickLoadAfter": "videí na výber.",
+			"pickLoadBefore": "Načítať prvých",
+			"pickLoadNote": "Môžete to zmeniť v ďalšom kroku.",
+			"pickTitle": {
+				"album": "Vybrať z tohto albumu",
+				"liked": "Vybrať z vašich obľúbených videí",
+				"mix": "Vybrať z tohto Mixu",
+				"playlist": "Vybrať z tohto zoznamu skladieb",
+				"uploads": "Vybrať z nahraných videí tohto kanála",
+				"watchLater": "Vybrať z „Pozrieť neskôr“"
+			},
+			"title": {
+				"album": "Stiahnuť z tohto albumu",
+				"liked": "Stiahnuť z obľúbených videí",
+				"mix": "Stiahnuť z tohto Mixu",
+				"playlist": "Stiahnuť z tohto zoznamu skladieb",
+				"uploads": "Stiahnuť nahrané videá tohto kanála",
+				"watchLater": "Stiahnuť z „Pozrieť neskôr“"
+			},
+			"videoHint": "Iba otvorené video, s profilom {{profileName}}. Zoznam sa nenačíta.",
+			"videoLabel": "Iba toto video",
+			"videoPickHint": "Nastavte iba otvorené video. Zoznam sa nenačíta.",
+			"withProfile": "S profilom {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Značky kapitol, v ktorých sa dá navigovať v každom modernom prehrávači.",
+				"label": "Vložiť kapitoly",
+				"short": "Kapitoly"
+			},
+			"embedMetadata": {
+				"description": "Do súboru sa zapíše názov, interpret, popis a dátum nahratia.",
+				"label": "Vložiť metadáta",
+				"short": "Metadáta"
+			},
+			"embedThumbnail": {
+				"description": "Obal vnútri súboru. Video WebM sa premuxuje do MKV; pri vložených titulkoch sa preskočí.",
+				"label": "Vložiť miniatúru",
+				"short": "Obal"
+			},
+			"writeDescription": {
+				"description": "Uloží popis videa ako textový súbor .description vedľa stiahnutého súboru.",
+				"label": "Uložiť popis",
+				"short": "Súbor s popisom"
+			},
+			"writeM3u": {
+				"description": "Uloží zoznam skladieb .m3u vedľa videí, aby sa vo vašom prehrávači otvorili v správnom poradí.",
+				"label": "Vytvoriť súbor zoznamu skladieb .m3u"
+			},
+			"writeThumbnail": {
+				"description": "Uloží miniatúru ako obrázok .jpg vedľa stiahnutého súboru.",
+				"label": "Uložiť miniatúru",
+				"short": "Súbor s miniatúrou"
+			}
+		},
+		"part": {
+			"calloutBody": "Na karte videa prepnite na Časť, vyberte začiatok a koniec alebo kapitolu a stiahnite iba daný úsek.",
+			"calloutTitle": "Stiahnite iba časť videa",
+			"chapterUntitled": "Kapitola {{number}}",
+			"chapters": "Kapitoly",
+			"connectionsNote": "Časť sa sťahuje cez ffmpeg, preto sa na ňu nevzťahujú vaše nastavenia počtu pripojení na sťahovanie a oneskorenia.",
+			"downloadBlocked": "Najprv opravte začiatok a koniec časti.",
+			"end": "Koniec",
+			"error": {
+				"endBeyondDuration": "Video končí v čase {{duration}}.",
+				"endInvalid": "Zadajte koniec vo formáte h:mm:ss, m:ss alebo v sekundách.",
+				"startInvalid": "Zadajte začiatok vo formáte h:mm:ss, m:ss alebo v sekundách.",
+				"startNotBeforeEnd": "Začiatok musí byť pred koncom."
+			},
+			"exactCut": {
+				"hint": "Vypnuté: každý strih sa zarovná na najbližší kľúčový snímok, ktorý môže byť niekoľko sekúnd od zadaného času.",
+				"label": "Presný strih (prekóduje, pomalšie)"
+			},
+			"length": "{{length}} z {{duration}}",
+			"part": "Časť",
+			"rangeLabel": "Časť videa",
+			"start": "Začiatok",
+			"subtitlesFullLength": "celé video",
+			"summary": "Časť {{start}}–{{end}}",
+			"switchLabel": "Koľko z videa",
+			"timeHint": "h:mm:ss, m:ss alebo sekundy",
+			"totalEstimate": "Časť, odhad",
+			"unavailableDuration": "Toto video neudáva svoju dĺžku, preto sa dá stiahnuť iba celé.",
+			"unavailableSubtitles": "Titulky vždy pokrývajú celé video.",
+			"urlStart": "Váš odkaz začína v čase {{time}}",
+			"useUrlStart": "Použiť ako začiatok",
+			"whole": "Celé video",
+			"wholeTrack": "Celá stopa"
+		},
+		"playlist": {
+			"allRemovedDescription": "Obnovte ich a pokračujte.",
+			"allRemovedTitle": "Všetky položky boli odstránené",
+			"alreadyDownloaded": "Už stiahnuté",
+			"bulkCappedDesc_few": "Majú ich viac. Ak chcete vybrať, koľko ich stiahnuť, vložte každý odkaz samostatne.",
+			"bulkCappedDesc_many": "Majú ich viac. Ak chcete vybrať, koľko ich stiahnuť, vložte každý odkaz samostatne.",
+			"bulkCappedDesc_one": "Má ich viac. Ak chcete vybrať, koľko ich stiahnuť, vložte jeho odkaz samostatne.",
+			"bulkCappedDesc_other": "Majú ich viac. Ak chcete vybrať, koľko ich stiahnuť, vložte každý odkaz samostatne.",
+			"bulkCappedTitle_few": "{{count}} zoznamy sú obmedzené na {{limit}} videí každý",
+			"bulkCappedTitle_many": "{{count}} zoznamu je obmedzených na {{limit}} videí každý",
+			"bulkCappedTitle_one": "„{{title}}“ je obmedzený na {{limit}} videí",
+			"bulkCappedTitle_other": "{{count}} zoznamov je obmedzených na {{limit}} videí každý",
+			"bulkHeading": "Hromadné adresy URL",
+			"bulkMetadataOptional": "Nemusíte čakať – súbory zaradené do radu teraz dostanú svoje skutočné názvy pri sťahovaní.",
+			"bulkMetadataResolving": "Zisťujú sa podrobnosti o videách… {{done}}/{{total}}",
+			"bulkRowFailed": "Podrobnosti nie sú dostupné",
+			"bulkRowResolving": "Zisťujú sa podrobnosti",
+			"bulkRowWaiting": "Čaká",
+			"durationUnknown": "naživo",
+			"heading": "Položky zoznamu skladieb",
+			"headingGeneric": "Videá na stiahnutie",
+			"itemCountAudio_few": "{{count}} stopy",
+			"itemCountAudio_many": "{{count}} stopy",
+			"itemCountAudio_one": "{{count}} stopa",
+			"itemCountAudio_other": "{{count}} stôp",
+			"itemCountBulk_few": "{{count}} adresy URL",
+			"itemCountBulk_many": "{{count}} adresy URL",
+			"itemCountBulk_one": "{{count}} adresa URL",
+			"itemCountBulk_other": "{{count}} adries URL",
+			"itemCount_few": "{{count}} videá",
+			"itemCount_many": "{{count}} videa",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} videí",
+			"loadingItems": "Načítava sa zoznam skladieb…",
+			"loadingItemsGeneric": "Načítavajú sa videá…",
+			"loadingLimitHint": "Obmedzené na prvých {{count}} položiek",
+			"loadingPagesFound_few": "Nájdené stránky: {{count}}",
+			"loadingPagesFound_many": "Nájdené stránky: {{count}}",
+			"loadingPagesFound_one": "Nájdená stránka: {{count}}",
+			"loadingPagesFound_other": "Nájdené stránky: {{count}}",
+			"loadingPhaseItems": "Zbierajú sa videá",
+			"loadingPhasePages": "Prehľadávajú sa stránky kanála",
+			"multiProfileEntry": "Priradiť profily jednotlivým položkám",
+			"multiProfileEntryTooltip": "Preskočí Kvalitu, SponsorBlock, Výstup a Uloženie – namiesto toho priradíte profil sťahovania každej položke",
+			"nestedPlaylistBadge": "Zoznam skladieb",
+			"nestedPlaylistHint_few": "{{count}} z nich sú zoznamy skladieb, nie videá – ak ich chcete stiahnuť, vložte ich odkazy po jednom.",
+			"nestedPlaylistHint_many": "{{count}} z nich sú zoznamy skladieb, nie videá – ak ich chcete stiahnuť, vložte ich odkazy po jednom.",
+			"nestedPlaylistHint_one": "{{count}} z nich je zoznam skladieb, nie video – ak ho chcete stiahnuť, vložte jeho odkaz samostatne.",
+			"nestedPlaylistHint_other": "{{count}} z nich sú zoznamy skladieb, nie videá – ak ich chcete stiahnuť, vložte ich odkazy po jednom.",
+			"noSelection": "Ak chcete pokračovať, vyberte aspoň jedno video",
+			"probeLimitAlertDesc": "Zobrazuje sa prvých {{count}} položiek. Ak chcete zobraziť viac, zvýšte limit načítania.",
+			"probeLimitAlertTitle": "Prehľadávanie zoznamu skladieb je obmedzené",
+			"probeLimitAlertTitleGeneric": "Prehľadávanie je obmedzené",
+			"rangeApply": "Použiť rozsah",
+			"rangeFrom": "Od",
+			"rangeTo": "Do",
+			"removeFromListCount_few": "Odstrániť zo zoznamu: {{count}}",
+			"removeFromListCount_many": "Odstrániť zo zoznamu: {{count}}",
+			"removeFromListCount_one": "Odstrániť zo zoznamu: {{count}}",
+			"removeFromListCount_other": "Odstrániť zo zoznamu: {{count}}",
+			"removedCount_few": "Odstránené: {{count}}",
+			"removedCount_many": "Odstránené: {{count}}",
+			"removedCount_one": "Odstránené: {{count}}",
+			"removedCount_other": "Odstránené: {{count}}",
+			"restore": "Obnoviť",
+			"selectAll": "Vybrať všetko",
+			"selectNone": "Zrušiť výber",
+			"selectedCount_few": "Vybrané: {{count}}",
+			"selectedCount_many": "Vybrané: {{count}}",
+			"selectedCount_one": "Vybrané: {{count}}",
+			"selectedCount_other": "Vybrané: {{count}}",
+			"sortApi": "Poradie v zozname skladieb",
+			"sortFetchingDates": "Zisťujú sa dátumy nahratia…",
+			"sortLabel": "Zoradiť",
+			"sortUploadAsc": "Najstaršie prvé",
+			"sortUploadDesc": "Najnovšie prvé",
+			"syncApply": "Použiť synchronizáciu",
+			"syncChange": "Zmeniť priečinok…",
+			"syncFoundDesc": "Počet týchto videí, ktoré sa už nachádzajú v {{dir}}: {{n}}. Synchronizovať a stiahnuť iba nové?",
+			"syncFoundTitle": "Už v priečinku",
+			"syncNoneDesc": "V {{dir}} sa nenašli žiadne videá z tohto zoznamu skladieb.",
+			"syncNoneDescGeneric": "V {{dir}} sa nenašli žiadne videá z tohto zdroja.",
+			"syncNoneTitle": "Zatiaľ nič nestiahnuté",
+			"syncScanning": "Kontroluje sa priečinok…",
+			"thumbnailAlt": "Miniatúra videa"
+		},
+		"playlistPresets": {
+			"heading": "Vyberte kvalitu pre dávku",
+			"itemCount_few": "{{count}} položky",
+			"itemCount_many": "{{count}} položky",
+			"itemCount_one": "{{count}} položka",
+			"itemCount_other": "{{count}} položiek",
+			"subhead": "Každé video vyhodnotí vybranú úroveň samostatne – aj nesúrodé zoznamy skladieb fungujú bez prekvapení."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Priradiť profil",
+			"assignTrigger_few": "Priradiť {{count}} videám",
+			"assignTrigger_many": "Priradiť {{count}} videám",
+			"assignTrigger_one": "Priradiť {{count}} videu",
+			"assignTrigger_other": "Priradiť {{count}} videám",
+			"columnDuration": "Dĺžka",
+			"columnProfile": "Profil",
+			"editProfile": "Upraviť {{name}}",
+			"empty": "Tomuto filtru nezodpovedajú žiadne položky",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Filtre profilov",
+			"heading": "Priradiť profily sťahovania",
+			"menuDescription_few": "Vyberte profil pre tieto {{count}} videá.",
+			"menuDescription_many": "Vyberte profil pre týchto {{count}} videa.",
+			"menuDescription_one": "Vyberte profil pre toto video.",
+			"menuDescription_other": "Vyberte profil pre týchto {{count}} videí.",
+			"selectedSummary": "Vybrané: {{selected}} z {{total}}"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Zmeniť globálne",
+				"chooseFolder": "Vybrať cieľový priečinok",
+				"chooseIcon": "Vybrať ikonu profilu",
+				"removeLanguage": "Odstrániť {{code}}",
+				"reset": "Obnoviť profil",
+				"resetDisabledHint": "Tento profil už používa vstavané nastavenia",
+				"resetHint": "Obnoviť vstavané nastavenia profilu",
+				"save": "Uložiť profil",
+				"setOverride": "Nastaviť prepísanie profilu",
+				"setOverrideShort": "Nastaviť prepísanie",
+				"useGlobalDefault": "Použiť globálnu predvoľbu",
+				"useLanguageCode": "Použiť kód jazyka „{{code}}“"
+			},
+			"advanced": "Rozšírené",
+			"appSetting": "Použiť nastavenie aplikácie ({{value}})",
+			"audioFormat": {
+				"best": "Najlepší",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Až do 128K",
+				"192": "Až do 192K",
+				"320": "Až do 320K",
+				"best": "Najlepšia kvalita"
+			},
+			"defaultName": "Nový profil",
+			"destination": {
+				"defaultFolder": "Predvolený priečinok na sťahovanie",
+				"defaultFolderWithSubfolder": "Predvolený priečinok na sťahovanie / {{subfolder}}",
+				"global": "Globálny cieľ",
+				"globalActive": "Aktívny",
+				"globalInherited": "Zdedený",
+				"override": "Prepísanie profilu",
+				"overrideChoosing": "Vybrať priečinok",
+				"overrideNone": "Žiadne prepísanie",
+				"overrideNoneNote": "Žiadne prepísanie. Tento profil používa globálny cieľ vyššie.",
+				"overrideSet": "Prepisuje globálne",
+				"overrideSetNote": "Tento profil sa ukladá do vlastného koreňového priečinka predtým, než sa pridá podpriečinok.",
+				"resolved": "Výsledný cieľ"
+			},
+			"dialogDescription": "Jedno opakovane použiteľné nastavenie pre rýchle sťahovanie, hromadné adresy URL a zoznamy skladieb.",
+			"dialogTitle": "Profil sťahovania",
+			"error": {
+				"changeGlobalDestination": "Globálny cieľ sa nepodarilo zmeniť.",
+				"folderPicker": "Výber priečinka sa nepodarilo otvoriť. Zadajte cestu ručne.",
+				"reset": "Nastavenia profilu sa nepodarilo obnoviť.",
+				"save": "Nastavenia profilu sa nepodarilo uložiť."
+			},
+			"field": {
+				"delivery": "Spôsob uloženia",
+				"fileType": "Typ súboru",
+				"goal": "Optimalizovať pre",
+				"icon": "Ikona profilu",
+				"languages": "Jazyky",
+				"name": "Názov profilu",
+				"nameAndIcon": "Názov a ikona profilu",
+				"nativeAudio": "Pôvodný zvuk",
+				"overridePath": "Cesta prepísania profilu",
+				"quality": "Kvalita",
+				"resolution": "Rozlíšenie",
+				"source": "Zdroj",
+				"subfolderName": "Názov podpriečinka",
+				"subtitleDownloads": "Sťahovanie titulkov",
+				"subtitleDownloadsDescription": "Profily žiadajú kódy jazykov; dostupnosť sa zisťuje pre každú adresu URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Najostrejší pri danej veľkosti. Staršie televízory, QuickTime a niektoré editory ho neprehrajú.",
+					"name": "Najlepší obraz",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Prehrá sa na televízoroch, telefónoch, vo WhatsApp, QuickTime a vo video editoroch. YouTube ponúka H.264 iba do 1080p.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Archív",
+				"audio": "Zvuk",
+				"captions": "Titulky",
+				"classes": "Kurzy",
+				"clip": "Klip",
+				"controls": "Ovládanie",
+				"download": "Stiahnuť",
+				"music": "Hudba",
+				"podcast": "Podcast",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Hudba alebo podcasty"
+				},
+				"subtitlesOnly": {
+					"description": "Iba súbory titulkov"
+				},
+				"videoAudio": {
+					"description": "Bežné videosúbory"
+				},
+				"videoOnly": {
+					"description": "Iba video bez zvuku"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Automatické titulky sa uložia ako SRT namiesto ASS.",
+				"noLanguageMatches": "Žiadne zodpovedajúce jazyky",
+				"noSubtitles": "Pre tento profil sa nebudú požadovať žiadne súbory titulkov ani vložené stopy titulkov.",
+				"searchLanguages": "Hľadajte podľa názvu alebo kódu jazyka",
+				"skippedForOutputType": "Pri tomto type výstupu sa preskočí.",
+				"subtitleLanguagesRequired": "Vyberte aspoň jeden jazyk.",
+				"subtitleLanguagesRequiredOrOff": "Vyberte aspoň jeden jazyk alebo vypnite sťahovanie titulkov.",
+				"subtitlesOnly": "Tento profil zaradí do radu iba súbory titulkov. Video, zvuk, SponsorBlock a konverzia médií sa preskočia."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profily dedia globálny cieľ, ak nenastavíte prepísanie profilu.",
+					"title": "Rozšírené možnosti"
+				},
+				"downloadType": {
+					"description": "Vyberte hlavný spôsob sťahovania.",
+					"title": "Typ sťahovania"
+				},
+				"identity": {
+					"description": "Názov a ikona zobrazené v rýchlom sťahovaní, hromadných adresách URL a zoznamoch profilov.",
+					"title": "Identita profilu"
+				},
+				"output": {
+					"enabledCount_few": "{{count}} zapnuté",
+					"enabledCount_many": "{{count}} zapnutej",
+					"enabledCount_one": "{{count}} zapnutá",
+					"enabledCount_other": "{{count}} zapnutých",
+					"title": "Možnosti výstupu"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Vyberte priečinok pre tento profil"
+			},
+			"skipped": "Preskočené",
+			"sponsorBlockHint": {
+				"mark": "Označí sponzorské segmenty ako kapitoly (bez zásahu do videa).",
+				"off": "Bez SponsorBlock – video sa prehráva tak, ako bolo nahrané.",
+				"remove": "Vystrihne sponzorské segmenty z videa pomocou FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Iba automaticky generované",
+				"manualAndAuto": "Ručné aj automatické",
+				"manualFirst": "Najprv ručné, potom automatické",
+				"manualOnly": "Iba ručné"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Pomocník: {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "doplnky",
+				"fileName": "názov súboru",
+				"format": "formát",
+				"saveTo": "priečinok",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "titulky"
+			},
+			"callout": {
+				"body": "Titulky, SponsorBlock, doplnky ako miniatúra, priečinok a názov súboru boli predtým samostatné kroky. Kliknutím na riadok ho zmeníte.",
+				"title": "Všetky ostatné nastavenia sú teraz na tejto stránke"
+			},
+			"changeFormat": "Zmeniť formát",
+			"changed": "Zmenené oproti profilu {{profile}}: {{areas}}. Platí iba pre toto sťahovanie.",
+			"changedFrom": "Zmenené oproti profilu {{profile}}:",
+			"nextTime": {
+				"action": "Uložiť ako profil",
+				"defaultName": "{{profile}} (upravený)",
+				"title": "Toto sťahovanie použilo upravené nastavenia. Použiť ich aj nabudúce?"
+			},
+			"reset": "Vrátiť zmeny späť na „{{profile}}“",
+			"rows": {
+				"extras": "Doplnky",
+				"fileName": "Názov súboru",
+				"saveTo": "Uložiť do",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Titulky"
+			},
+			"rowsHeading": "Všetko ostatné",
+			"save": {
+				"action": "Uložiť profil",
+				"description": "Uloží tieto nastavenia ako profil, ktorý si môžete vybrať nabudúce. Váš profil rýchleho sťahovania zostane rovnaký.",
+				"failed": "Profil sa nepodarilo uložiť.",
+				"nameLabel": "Názov profilu",
+				"saved": "Uložené ako profil „{{name}}“",
+				"title": "Uložiť ako profil"
+			},
+			"saveAsProfile": "Uložiť ako nový profil",
+			"update": {
+				"action": "Aktualizovať profil",
+				"builtinNote": "Toto je vstavaný profil. Jeho pôvodné nastavenia môžete obnoviť na karte Profily.",
+				"description": "Odteraz každé sťahovanie s týmto profilom použije nové nastavenia.",
+				"rows": {
+					"format": "Formát"
+				},
+				"title": "Aktualizovať „{{profile}}“?",
+				"updated": "Profil „{{name}}“ bol aktualizovaný"
+			},
+			"updateProfile": "Aktualizovať „{{profile}}“ týmito zmenami",
+			"value": {
+				"extrasNone": "Žiadne",
+				"sponsorBlockOff": "Vypnuté",
+				"subtitlesOff": "Vypnuté"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Výplň",
+				"intro": "Úvod",
+				"music_offtopic": "Hudba mimo témy",
+				"outro": "Záver",
+				"preview": "Ukážka",
+				"selfpromo": "Vlastná propagácia",
+				"sponsor": "Sponzor"
+			},
+			"categoriesHeading": "Kategórie",
+			"mode": {
+				"mark": "Označiť ako kapitoly",
+				"off": "Vypnuté",
+				"remove": "Odstrániť segmenty"
+			},
+			"modeHeading": "Filtrovanie sponzorov",
+			"modeHint": {
+				"mark": "Označí sponzorské segmenty ako kapitoly (bez zásahu do videa).",
+				"off": "Bez SponsorBlock – video sa prehráva tak, ako bolo nahrané.",
+				"remove": "Vystrihne sponzorské segmenty z videa pomocou FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Potvrdenie",
+			"folder": "Uloženie",
+			"formats": "Formát",
+			"output": "Výstup",
+			"playlistItems": "Zoznam skladieb",
+			"playlistItemsGeneric": "Videá",
+			"playlistPresets": "Kvalita",
+			"playlistProfiles": "Profily",
+			"review": "Kontrola",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Titulky",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Automatické titulky sa uložia ako SRT namiesto ASS – pri videách z YouTube sa očistia od duplicít plynulých titulkov, čo náš prevodník ASS zatiaľ nedokáže.",
+			"autoBadge": "Auto",
+			"clearAll": "Vymazať všetko",
+			"embedNote": "Režim vloženia uloží výstup ako .mkv, aby sa stopy titulkov vložili spoľahlivo.",
+			"format": {
+				"heading": "Formát"
+			},
+			"noLanguages": "Pre toto video nie sú k dispozícii žiadne titulky",
+			"noMatches": "Žiadny jazyk nezodpovedá hľadaniu",
+			"noSelected": "Nie sú vybrané žiadne titulky",
+			"removeLanguage": "Odstrániť {{name}}",
+			"saveMode": {
+				"embed": "Vložiť do videa",
+				"heading": "Uložiť ako",
+				"sidecar": "Vedľa videa",
+				"sidecarNoVideo": "V priečinku sťahovania",
+				"subfolder": "podpriečinok subtitles/"
+			},
+			"searchPlaceholder": "Hľadať jazyky…",
+			"sectionAuto": "Automaticky generované",
+			"sectionManual": "Ručné"
+		},
+		"tabsNavAria": "Navigácia profilov sťahovania",
+		"url": {
+			"advanced": "Rozšírené",
+			"autoRemoveCompleted": {
+				"description": "Odstráni sťahovanie zo zoznamu Sťahovania niekoľko sekúnd po jeho dokončení. Súbory zostanú vo vašom priečinku; zlyhané a zrušené sťahovania zostanú v zozname.",
+				"label": "Odstraňovať dokončené sťahovania"
+			},
+			"autoRetry": {
+				"description": "Po výpadku siete alebo servera to automaticky skúsi znova, pričom medzi pokusmi čaká stále dlhšie. Sťahovania zablokované webom sa automaticky nikdy neopakujú.",
+				"label": "Opakovať zlyhané sťahovania",
+				"unit": "krát"
+			},
+			"bulkButton": "Hromadné adresy URL",
+			"bulkTooltip": "Pridať viac adries URL a zaradiť ich do radu.",
+			"clearAria": "Vymazať adresu URL",
+			"clipboard": {
+				"autofilledLink": "Odkaz pridaný zo schránky",
+				"bulkHint": "Skopírovaných je viac odkazov – pridajte ich pomocou Hromadných adries URL",
+				"dialog": {
+					"cancelButton": "Zrušiť"
+				},
+				"noLink": "V schránke nie je žiadny odkaz",
+				"readFailed": "Schránku sa nepodarilo prečítať – vložte odkaz do poľa",
+				"replacedLink": "Nahradené skopírovaným odkazom",
+				"toggle": "Sledovať schránku",
+				"toggleDescription": "Pri skopírovaní odkazu na video automaticky vyplní pole adresy URL.",
+				"undo": "Vrátiť späť"
+			},
+			"closeToTray": {
+				"toggle": "Pri zatvorení skryť do lišty",
+				"toggleDescription": "Po zatvorení okna pokračovať v sťahovaní na pozadí."
+			},
+			"concurrentDownloads": {
+				"description": "Koľko položiek v rade sa sťahuje naraz. Viac naraz dokončí dlhý rad skôr, ale zvyšuje šancu, že vás web obmedzí.",
+				"label": "Súčasné sťahovania",
+				"unit": "sťahovania"
+			},
+			"concurrentProbes": {
+				"description": "Pre koľko odkazov Klip zisťuje podrobnosti naraz, ešte pred stiahnutím. Menej je šetrnejšie k webom, ktoré blokujú vyťažené pripojenia. Odkaz otvorený v Interaktívnom sťahovaní ide vždy prvý.",
+				"label": "Naraz kontrolované odkazy",
+				"unit": "odkazov"
+			},
+			"cookies": {
+				"banWarning": "Weby ako YouTube môžu označiť – a niekedy aj zablokovať – účty, ktorých súbory cookie používajú sťahovacie nástroje ako Klip. Ak je to možné, použite účet na jedno použitie.",
+				"browserHelp": "Číta súbory cookie priamo z prehliadača. Prehliadače založené na Chromium musia byť zatvorené.",
+				"browserLabel": "Prehliadač",
+				"browserPlaceholder": "Vyberte prehliadač…",
+				"choose": "Vybrať…",
+				"clear": "Vymazať",
+				"enabledButNoBrowser": "Ak chcete použiť súbory cookie, vyberte prehliadač",
+				"enabledButNoFile": "Ak chcete použiť súbory cookie, vyberte súbor",
+				"exploreDisabled": "Karta Preskúmať je vypnutá, preto sťahovania nepoužívajú vaše prihlásenie z Preskúmať. Zapnite ju nižšie v sekcii Preskúmať.",
+				"extensionChrome": "Získať cookies.txt LOKÁLNE (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Súbor cookie",
+				"helpLink": "Ako exportovať súbory cookie?",
+				"openExplore": "Otvoriť Preskúmať",
+				"placeholder": "Nie je vybraný žiadny súbor",
+				"recommended": "Odporúčané",
+				"risk": "Riziko: súbor cookies.txt obsahuje všetky prihlásené relácie daného prehliadača – uchovajte ho v súkromí.",
+				"sourceBrowser": "Prehliadač",
+				"sourceExplore": "Prihlásenie z Preskúmať",
+				"sourceFile": "Súbor",
+				"sourceLabel": "Zdroj súborov cookie",
+				"sourceOff": "Vypnuté",
+				"toggleDescription": "Pomáha pri videách, ktoré môže sledovať váš vlastný účet, napríklad pri súkromných videách."
+			},
+			"downloadConnections": {
+				"description": "Zrýchli veľké sťahovania tým, že načíta niekoľko častí videa naraz. Vyššie hodnoty zvyšujú šancu, že vás web obmedzí.",
+				"label": "Pripojenia na sťahovanie",
+				"unit": "pripojenia"
+			},
+			"downloadList": {
+				"album": "Stiahnuť album…",
+				"liked": "Stiahnuť obľúbené videá…",
+				"mix": "Stiahnuť Mix…",
+				"playlist": "Stiahnuť zoznam skladieb…",
+				"uploads": "Stiahnuť nahrané videá…",
+				"watchLater": "Stiahnuť „Pozrieť neskôr“…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Iba zvuk",
+					"subtitles": "Titulky"
+				},
+				"anySite": {
+					"heading": "Viac ako 2000 webov",
+					"musicPlaylist": "Hudobné zoznamy skladieb",
+					"video": "Videá",
+					"videoPlaylist": "Zoznamy videí"
+				},
+				"heading": "Čo dokáže Klip stiahnuť",
+				"youtube": {
+					"channel": "Kanály",
+					"heading": "YouTube",
+					"music": "Hudba",
+					"playlist": "Zoznamy skladieb",
+					"podcast": "Podcasty",
+					"short": "Shorts",
+					"video": "Videá"
+				}
+			},
+			"fetchFormatsTooltip": "Sprievodca krok za krokom. Vyberte formát, kvalitu a ďalšie.",
+			"heading": "Stiahnuť z adresy URL",
+			"hotkey": {
+				"changeShortcut": "Zmeniť skratku",
+				"conflict": "Túto skratku používa iná aplikácia – vyberte inú.",
+				"globalLabel": "Globálna skratka",
+				"recording": "Stlačte klávesy…",
+				"reset": "Obnoviť predvolené",
+				"sectionDescription": "Stiahnite akýkoľvek skopírovaný odkaz z ľubovoľnej aplikácie bez otvorenia Klip.",
+				"sectionTitle": "Globálna klávesová skratka",
+				"test": "Otestovať",
+				"toggle": "Povoliť globálnu klávesovú skratku",
+				"toggleDescriptionDetail": "Skopírujte odkaz na video v ľubovoľnej aplikácii a stlačte skratku: Klip ho zaradí do radu s vaším aktívnym profilom, bez prepínania okien. Odkaz na video v zozname skladieb stiahne iba toto video."
+			},
+			"interactiveDownload": "Interaktívne sťahovanie",
+			"interactiveDownloadAsks": "Interaktívne sťahovanie…",
+			"limitRate": {
+				"activeWarning": "Aktívne sťahovania si ponechajú svoj aktuálny limit. Zmeny použijete pozastavením a obnovením.",
+				"custom": "Vlastné…",
+				"customPlaceholder": "napr. 750K alebo 1.5M",
+				"description": "Obmedzí šírku pásma pre sťahovanie médií. Oneskorenie požiadaviek nižšie je zvyčajne účinnejším nástrojom proti obmedzeniu.",
+				"invalid": "Použite číslo nasledované písmenom K alebo M (napr. 500K, 1.5M)",
+				"label": "Limit rýchlosti sťahovania",
+				"off": "Vypnuté"
+			},
+			"mascotBusy": "Sťahujem na pozadí… Zvládam viac vecí naraz 😎",
+			"mascotCollection": "Rýchle sťahovanie zaradí načítané položky do radu s profilom {{profileName}}. Interaktívne vám umožní položky najprv skontrolovať alebo vybrať.",
+			"mascotIdle": "Vložte odkaz a nechajte Klip, nech ho stiahne ✨",
+			"mascotSingle": "Rýchle sťahovanie spustí jedno sťahovanie s profilom {{profileName}}. Pre jednorazové zmeny použite Interaktívne.",
+			"mascotVideoInList": "Tento odkaz označuje video aj zoznam, v ktorom sa nachádza: stiahnite iba video, alebo zoznam.",
+			"nativeAudioPreference": {
+				"compatible": "Kompatibilné stereo",
+				"description": "Stereo alebo priestorový zvuk, keď profil vyberie pôvodný zvuk. Profil to môže prepísať.",
+				"label": "Predvoľba pôvodného zvuku",
+				"surround": "Uprednostniť priestorový zvuk / Dolby"
+			},
+			"networkPacing": {
+				"description": "Pridá počas každého sťahovania krátke čakania, aby Klip príliš agresívne nezaťažoval web. Hodnoty sú v sekundách.",
+				"fields": {
+					"maxSleepInterval": "Pauza pred začiatkom médií: max",
+					"sleepInterval": "Pauza pred začiatkom médií: min",
+					"sleepRequests": "Čakanie medzi kontrolami metadát",
+					"sleepSubtitles": "Čakanie pred súbormi titulkov"
+				},
+				"heading": "Šetrné sťahovanie",
+				"presetLabel": "Aký opatrný má Klip byť?",
+				"presets": {
+					"balanced": "Vyvážené",
+					"careful": "Opatrné",
+					"custom": "Vlastné",
+					"off": "Vypnuté"
+				},
+				"summary": "Čakanie: {{requests}} medzi kontrolami, {{downloads}} pred začiatkom médií, {{subtitles}} pred súbormi titulkov.",
+				"tooltip": "Tieto čakania prebiehajú v rámci každého sťahovania. Koľko sťahovaní beží naraz, sa nastavuje samostatne v sekcii Súčasné sťahovania.",
+				"tooltips": {
+					"balanced": "Predvolené. Pridá krátke pauzy medzi požiadavkami a pred začiatkom médií.",
+					"careful": "Pridá dlhšie pauzy pre veľké zoznamy skladieb alebo siete, ktoré často narážajú na obmedzenia.",
+					"custom": "Rozšírené ovládacie prvky pre každé sťahovanie si nastavíte sami.",
+					"off": "Použijú sa iba malé základné pauzy, ktoré Klip ponecháva pre médiá a titulky."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Odkaz otvorený v Klip",
+				"replaced": "Nahradené odkazom otvoreným v Klip"
+			},
+			"pasteLink": "Vložiť odkaz",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Aktuálny limit: {{count}} položiek",
+				"custom": "Vlastné…",
+				"customDialogCancel": "Zrušiť",
+				"customDialogDescription": "Použite celé číslo od {{min}} do {{max}}.",
+				"customDialogSave": "Uložiť limit",
+				"customDialogTitle": "Vlastný limit prehľadávania zoznamu skladieb",
+				"customValue": "Vlastné: {{count}} položiek",
+				"description": "Maximálny počet položiek, ktoré Klip načíta pri otvorení zoznamu skladieb, kanála alebo výsledku vyhľadávania.",
+				"invalid": "Použite celé číslo od 1 do 5000",
+				"label": "Položky zoznamu skladieb na prehľadanie",
+				"option": "{{count}} položiek"
+			},
+			"playlistScope": {
+				"appLimit": "Použiť limit aplikácie: {{count}}",
+				"apply": "Použiť",
+				"applyError": "Tento rozsah zoznamu skladieb sa nepodarilo použiť: {{message}}",
+				"applyReload": "Použiť a načítať znova",
+				"cancel": "Zrušiť",
+				"change": "Zmeniť",
+				"dialogDescription": "Vyberte, čo Klip načíta z tohto zoznamu skladieb.",
+				"dialogTitle": "Rozsah zoznamu skladieb",
+				"emptyTitle": "V tomto rozsahu nie sú žiadne videá",
+				"first": "Prvé",
+				"invalid": "Použite celé čísla položiek od 1 do {{max}}, pričom začiatok nesmie byť vyšší ako koniec.",
+				"itemsLabel": "Položky na načítanie",
+				"label": "Rozsah zoznamu skladieb",
+				"range": "Rozsah",
+				"reloading": "Načítava sa znova...",
+				"reset": "Obnoviť",
+				"summaryAppLimit": "Načítať prvé položky: {{count}}",
+				"summaryFirst": "Načítať prvé položky: {{count}}",
+				"summaryRange": "Načítať položky {{from}}-{{to}}",
+				"to": "do"
+			},
+			"profile": {
+				"activeLabel": "Aktívny profil",
+				"badgeBuiltIn": "Vstavaný",
+				"badgeCustom": "Vlastný",
+				"badgeDisabled": "Skrytý",
+				"badgeModified": "Upravený",
+				"builtinName": {
+					"audio-only": "Iba zvuk",
+					"balanced": "Vyvážené 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Najlepšia kvalita",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Najnižšia kvalita 144p",
+					"low-240": "Úspora dát 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Malý súbor 480p",
+					"subtitles-only": "Iba titulky"
+				},
+				"changeGlobalDestination": "Zmeniť globálny cieľ",
+				"destinationDetail": {
+					"global": "Používa sa globálny cieľ",
+					"globalSubfolder": "Používa sa globálny cieľ + podpriečinok profilu",
+					"override": "Používa sa prepísanie profilu",
+					"overrideSubfolder": "Používa sa prepísanie profilu + podpriečinok profilu"
+				},
+				"destinationEditHint": "Ak chcete zmeniť, kam sa ukladá, upravte profil.",
+				"destinationFallback": "Cieľ",
+				"edit": "Upraviť",
+				"editActive": "Upraviť aktívny profil",
+				"enableHint": "Skryté profily tu zostanú, ale zmiznú zo všetkých výberov profilov.",
+				"enableToggleAria": "Zobraziť profil vo výberoch: {{profileName}}",
+				"lastEnabledHint": "Ponechajte dostupný aspoň jeden profil.",
+				"manageProfiles": "Spravovať profily",
+				"menuDescription": "Zmeňte aktívny profil pre rýchle sťahovanie, hromadné adresy URL a zoznamy skladieb.",
+				"menuTitle": "Prepnúť profil",
+				"movableProfile": "presúvateľný profil",
+				"moveCancelled": "Presun bol zrušený. {{profileName}} zostáva na pozícii {{position}} z {{count}}.",
+				"moveDropped": "{{profileName}} bol umiestnený na pozíciu {{position}} z {{count}}.",
+				"moveHandleAria": "Presunúť {{profileName}}",
+				"moveInstructions": "Ak chcete presunúť profil, stlačte medzerník alebo kláves Enter, presuňte ho pomocou klávesov so šípkami a potom ho umiestnite opätovným stlačením medzerníka alebo klávesu Enter. Zrušíte to klávesom Esc.",
+				"moveOver": "{{profileName}} je nad pozíciou {{position}} z {{count}}.",
+				"movePickedUp": "{{profileName}} bol zdvihnutý. Je na pozícii {{position}} z {{count}}.",
+				"newProfile": "Nový profil",
+				"outputMissing": "Tento profil ukladá do priečinka, ktorý nie je nastavený. Vyberte v profile priečinok alebo vráťte predvolené nastavenie.",
+				"panelDescription": "Vytvárajte, vyberajte, upravujte alebo odstraňujte opakovane použiteľné nastavenia sťahovania.",
+				"panelTitle": "Profily sťahovania",
+				"remove": "Odstrániť",
+				"reorderHint": "Presuňte profil potiahnutím. Všetky výbery profilov dodržiavajú toto poradie.",
+				"reset": "Obnoviť",
+				"savesTo": "Ukladá do",
+				"switchAria": "Prepnúť profil sťahovania: {{profileName}}",
+				"switchTitle": "Prepnúť profil sťahovania"
+			},
+			"proxy": {
+				"clear": "Vymazať",
+				"description": "Presmeruje prenos cez server proxy.",
+				"label": "Adresa URL servera proxy",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Rýchle sťahovanie",
+			"quickDownloadTooltip": "Stiahne sa pomocou profilu: {{profileName}}",
+			"quickFailed": "Túto položku sa nepodarilo pridať: {{error}}",
+			"quickPrepareFailed": "Položku radu sa nepodarilo pripraviť",
+			"quickPreparing": "Pripravuje sa",
+			"quickProbeFailed": "Zisťovanie podrobností zlyhalo",
+			"quickSingleOnly": "Ak chcete začať, vložte adresu URL videa, zoznamu skladieb, kanála alebo vyhľadávania.",
+			"reports": {
+				"toggle": "Odosielať anonymné signály o aktivite a správy o nastavení",
+				"toggleDescription": "Žiadne sledovanie. Raz denne anonymný signál o aktivite odošle verziu aplikácie, inštalačný kanál, operačný systém, jazyk, krajinu a približne ako dávno bol Klip nainštalovaný, aby sme mohli spočítať aktívnych a nových používateľov. Keď Klip nastavuje alebo aktualizuje sťahovací nástroj či mediálne nástroje, odošle aj informáciu, či sa to podarilo a približne ako dlho to trvalo. Žiadne ID, adresy URL, názvy videí ani názvy súborov."
+			},
+			"settings": {
+				"behaviorDescription": "Globálne správanie, ktoré ovplyvňuje aj sťahovania riadené profilmi.",
+				"behaviorHeading": "Správanie sťahovania",
+				"inputHeading": "Vstup"
+			},
+			"style": {
+				"aurora": {
+					"description": "Sklenené panely nad pohyblivou oblohou. Vyžaduje grafickú akceleráciu.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Plné, pokojné plochy. Beží nenáročne na každom počítači.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Oba štýly sú dostupné vo svetlom aj tmavom režime.",
+				"modeLabel": "Štýl",
+				"panelDescription": "Ako Klip vyzerá. Medzi svetlým a tmavým režimom prepínate v pätičke.",
+				"panelTitle": "Vzhľad",
+				"unavailableNotice": "{{style}} vyžaduje grafickú akceleráciu, ktorá momentálne nie je dostupná, preto Klip zobrazuje {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profily",
+				"settings": "Nastavenia"
+			},
+			"thisVideo": "Toto video",
+			"thisVideoTooltip": "Stiahne iba toto video s profilom {{profileName}}"
+		}
+	}
+}

@@ -1,0 +1,198 @@
+import {useRef, type ReactNode, type RefObject} from 'react'
+import type {TFunction} from 'i18next'
+import {useTranslation} from 'react-i18next'
+import {DndContext, PointerSensor, closestCenter, useSensor, useSensors, type Announcements, type DragEndEvent, type UniqueIdentifier} from '@dnd-kit/core'
+import {SortableContext, rectSortingStrategy, sortableKeyboardCoordinates, useSortable} from '@dnd-kit/sortable'
+import {CSS} from '@dnd-kit/utilities'
+import {GripVertical, PenLine, Plus, X} from 'lucide-react'
+import {downloadProfileOrigin} from '@shared/downloadProfiles.js'
+import type {DownloadProfile, DownloadProfilesPrefs} from '@shared/types.js'
+import {KeyboardSortSensor} from '@renderer/lib/keyboardSortSensor.js'
+import {cn} from '@renderer/lib/utils.js'
+import {Button} from '../ui/button.js'
+import {Card, CardContent, CardDescription, CardHeader, CardTitle} from '../ui/card.js'
+import {Switch} from '../ui/switch.js'
+import {Tooltip, TooltipContent, TooltipTrigger} from '../ui/tooltip.js'
+import {useProfileDisplayName} from '@renderer/lib/profileName.js'
+import {ProfileCard} from './ProfileCard.js'
+
+interface ProfilesManageTabProps {
+	activeProfile: DownloadProfile
+	onEdit: (profile: DownloadProfile | null) => void
+	onMove: (id: string, targetId: string) => void
+	onPick: (profile: DownloadProfile) => void
+	onRemove: (profile: DownloadProfile) => void
+	onToggleEnabled: (id: string, enabled: boolean) => void
+	profiles: DownloadProfile[]
+	profilesPrefs: DownloadProfilesPrefs | undefined
+}
+
+// A card drags from anywhere on it with the pointer; the keyboard picks it up
+// from its grip only, so Space and Enter on its other controls keep working.
+export function ProfilesManageTab({activeProfile, onEdit, onMove, onPick, onRemove, onToggleEnabled, profiles, profilesPrefs}: ProfilesManageTabProps): ReactNode {
+	const {t} = useTranslation()
+	const enabledCount = profiles.filter(profile => profile.enabled).length
+	// A drop that ends over the card it started on would also click what is under the pointer.
+	const suppressClickRef = useRef(false)
+	const sensors = useSensors(useSensor(PointerSensor, {activationConstraint: {distance: 6}}), useSensor(KeyboardSortSensor, {coordinateGetter: sortableKeyboardCoordinates}))
+
+	const nameOf = useProfileDisplayName()
+	const nameAt = (id: UniqueIdentifier): string => {
+		const profile = profiles.find(item => item.id === id)
+		return profile ? nameOf(profile) : String(id)
+	}
+	const placeOf = (id: UniqueIdentifier): {position: number; count: number} => ({position: profiles.findIndex(profile => profile.id === id) + 1, count: profiles.length})
+	// A pick-up is also over its own slot at once; announcing that would replace
+	// the pick-up message before a screen reader reads it.
+	const movedRef = useRef(false)
+	const announcements: Announcements = {
+		onDragStart: ({active}) => {
+			movedRef.current = false
+			return t('wizard.url.profile.movePickedUp', {profileName: nameAt(active.id), ...placeOf(active.id)})
+		},
+		onDragOver: ({active, over}) => {
+			if (!over || (over.id === active.id && !movedRef.current)) return undefined
+			movedRef.current = true
+			return t('wizard.url.profile.moveOver', {profileName: nameAt(active.id), ...placeOf(over.id)})
+		},
+		onDragEnd: ({active, over}) => t('wizard.url.profile.moveDropped', {profileName: nameAt(active.id), ...placeOf(over?.id ?? active.id)}),
+		onDragCancel: ({active}) => t('wizard.url.profile.moveCancelled', {profileName: nameAt(active.id), ...placeOf(active.id)})
+	}
+
+	const endDrag = (): void => {
+		suppressClickRef.current = true
+		window.setTimeout(() => {
+			suppressClickRef.current = false
+		}, 0)
+	}
+	const onDragEnd = ({active, over}: DragEndEvent): void => {
+		endDrag()
+		if (over && active.id !== over.id) onMove(String(active.id), String(over.id))
+	}
+
+	return (
+		<Card variant="glass" data-testid="profiles-manage-tab">
+			<CardHeader className="flex-row flex-wrap items-center justify-between gap-3">
+				<div>
+					<CardTitle className="text-xl font-semibold leading-tight">{t('wizard.url.profile.panelTitle')}</CardTitle>
+					<CardDescription className="mt-1 text-xs text-subtle-foreground">{t('wizard.url.profile.panelDescription')}</CardDescription>
+					<p className="mt-1 text-caption text-subtle-foreground">{t('wizard.url.profile.enableHint')}</p>
+					<p className="text-caption text-subtle-foreground">{t('wizard.url.profile.reorderHint')}</p>
+				</div>
+				<Button variant="glow" type="button" onClick={() => onEdit(null)}>
+					<Plus data-icon="inline-start" />
+					{t('wizard.url.profile.newProfile')}
+				</Button>
+			</CardHeader>
+			<DndContext sensors={sensors} collisionDetection={closestCenter} accessibility={{announcements, screenReaderInstructions: {draggable: t('wizard.url.profile.moveInstructions')}, container: document.body}} onDragEnd={onDragEnd} onDragCancel={endDrag}>
+				<SortableContext items={profiles.map(profile => profile.id)} strategy={rectSortingStrategy}>
+					<CardContent className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+						{profiles.map(profile => (
+							<ManagedProfileCard
+								key={profile.id}
+								t={t}
+								profile={profile}
+								active={activeProfile.id === profile.id}
+								profilesPrefs={profilesPrefs}
+								canToggleOff={profile.enabled ? enabledCount > 1 : true}
+								suppressClickRef={suppressClickRef}
+								onEdit={onEdit}
+								onPick={onPick}
+								onRemove={onRemove}
+								onToggleEnabled={onToggleEnabled}
+							/>
+						))}
+					</CardContent>
+				</SortableContext>
+			</DndContext>
+		</Card>
+	)
+}
+
+interface ManagedProfileCardProps {
+	t: TFunction
+	profile: DownloadProfile
+	active: boolean
+	profilesPrefs: DownloadProfilesPrefs | undefined
+	canToggleOff: boolean
+	suppressClickRef: RefObject<boolean>
+	onEdit: (profile: DownloadProfile) => void
+	onPick: (profile: DownloadProfile) => void
+	onRemove: (profile: DownloadProfile) => void
+	onToggleEnabled: (id: string, enabled: boolean) => void
+}
+
+function ManagedProfileCard({t, profile, active, profilesPrefs, canToggleOff, suppressClickRef, onEdit, onPick, onRemove, onToggleEnabled}: ManagedProfileCardProps): ReactNode {
+	const nameOf = useProfileDisplayName()
+	const {attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging} = useSortable({id: profile.id, attributes: {roleDescription: t('wizard.url.profile.movableProfile')}})
+	const origin = downloadProfileOrigin(profile, profilesPrefs)
+	const isCustom = origin.kind === 'custom'
+	const canRemove = isCustom || origin.overridden
+	return (
+		<ProfileCard
+			ref={setNodeRef}
+			{...listeners}
+			style={{transform: CSS.Translate.toString(transform), transition}}
+			onClickCapture={event => {
+				if (!suppressClickRef.current) return
+				event.preventDefault()
+				event.stopPropagation()
+			}}
+			data-dragging={isDragging || undefined}
+			className={cn(isDragging && 'z-20 cursor-grabbing backdrop-blur-md outline-2 outline-offset-2 outline-primary/70')}
+			profile={profile}
+			origin={origin}
+			hidden={!profile.enabled}
+			current={active}
+			onPick={() => onPick(profile)}
+			testId={`profiles-manage-card-${profile.id}`}
+			handle={
+				<Button
+					ref={setActivatorNodeRef}
+					{...attributes}
+					type="button"
+					variant="ghost"
+					size="icon-sm"
+					className={cn('shrink-0 touch-none text-subtle-foreground', isDragging ? 'cursor-grabbing' : 'cursor-grab')}
+					aria-label={t('wizard.url.profile.moveHandleAria', {profileName: nameOf(profile)})}
+					data-testid={`profiles-manage-card-${profile.id}-move`}
+				>
+					<GripVertical />
+				</Button>
+			}
+			actions={
+				<>
+					<Button type="button" variant="outline" size="sm" onClick={() => onEdit(profile)}>
+						<PenLine data-icon="inline-start" />
+						{t('wizard.url.profile.edit')}
+					</Button>
+					<Button type="button" variant="outline" size="sm" disabled={!canRemove} onClick={() => onRemove(profile)}>
+						<X data-icon="inline-start" />
+						{isCustom ? t('wizard.url.profile.remove') : t('wizard.url.profile.reset')}
+					</Button>
+				</>
+			}
+			toggle={
+				<Tooltip>
+					<TooltipTrigger
+						render={props => (
+							<span {...props} className="inline-flex">
+								<Switch
+									checked={profile.enabled}
+									disabled={!canToggleOff}
+									onCheckedChange={next => {
+										if (!canToggleOff && profile.enabled) return
+										onToggleEnabled(profile.id, next)
+									}}
+									aria-label={t('wizard.url.profile.enableToggleAria', {profileName: nameOf(profile)})}
+									data-testid={`profiles-manage-card-${profile.id}-enabled-toggle`}
+								/>
+							</span>
+						)}
+					/>
+					{!canToggleOff ? <TooltipContent>{t('wizard.url.profile.lastEnabledHint')}</TooltipContent> : null}
+				</Tooltip>
+			}
+		/>
+	)
+}

@@ -1,0 +1,36 @@
+youtube-premium: A "Premium" enhanced-bitrate 1080p (616) offered signed out
+What is Audio Description? · 133 s · card says "1280x720" · 45 formats
+
+Video (picked for Balanced 720p •):
+       SDR AV1        SDR VP9                          SDR H.264
+1080p  AV1 7.3 MiB    VP9 [Enhanced bitrate] 57.0 MiB  H.264 35.3 MiB
+720p   AV1 4.4 MiB •  VP9 14.7 MiB                     H.264 18.8 MiB
+480p   AV1 2.6 MiB    VP9 8.7 MiB                      H.264 11.0 MiB
+360p   AV1 1.7 MiB    VP9 6.4 MiB                      H.264 6.1 MiB
+240p   AV1 980.0 KiB  VP9 2.8 MiB                      H.264 2.6 MiB
+144p   AV1 589.4 KiB  VP9 1.9 MiB                      H.264 1.7 MiB
+
+Audio:
+AAC: 130 kbps 2.0 MiB DRC | 130 kbps 2.0 MiB | 49 kbps 22.05 kHz 792.8 KiB DRC | 49 kbps 22.05 kHz 792.8 KiB
+Opus: 113 kbps 1.7 MiB DRC | 112 kbps 1.7 MiB • | 62 kbps 1003.6 KiB DRC | 62 kbps 998.0 KiB | 50 kbps 814.8 KiB DRC | 50 kbps 805.9 KiB
+DRC switch shown
+convert from: mp3 ← 251 re-encode · m4a ← 140 copy 130 kbps · opus ← 251 copy 112 kbps · wav ← 251 re-encode
+
+Profile picks:
+best-quality: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+best-2160: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"2160","picked":1080})
+best-1440: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"1440","picked":1080})
+hd-1080: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+balanced: 398 (1280x720, mp4) + audio 251 (audio only, webm)
+small-file: 397 (854x480, mp4) + audio 251 (audio only, webm)
+mp4-1080: 137 (1920x1080, mp4) + audio 140 (audio only, m4a)
+mp4-720: 136 (1280x720, mp4) + audio 140 (audio only, m4a)
+mp4-480: 135 (854x480, mp4) + audio 140 (audio only, m4a)
+audio-only: audio 251 (audio only, webm)
+low-240: 395 (426x240, mp4) + audio 251 (audio only, webm)
+low-144: 394 (256x144, mp4) + audio 251 (audio only, webm)
+
+Subtitles: none
+Auto captions: en-orig
+Subtitle picks (manual-first | manual-and-auto):
+en: en-orig | en-orig

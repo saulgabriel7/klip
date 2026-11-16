@@ -1,0 +1,5627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "Acerca de"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "Ver avisos de terceros"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "Sitio web"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "Permitir"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "Streams reescalados con IA permitidos"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube ofrece algunos vídeos antiguos en tamaños creados con IA. «Omitir» conserva los streams originales; aun así puedes elegir uno reescalado a mano."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "Streams reescalados con IA"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "Omitir"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "Comentarios"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "¿Disfrutando Klip? ¡Me encantaría saber de ti! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "Registros"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "Guardar archivo de diagnóstico"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "Reúne los registros y los datos de la app en un solo archivo en Descargas, listo para adjuntarlo a un issue de GitHub. Se elimina el nombre de la carpeta de usuario; los enlaces y títulos de los videos se mantienen."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "Novedad: elige Aurora o Minimalista aquí"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "Tema"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "Acercar"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "Alejar"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "Atrás"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "Cerrar"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "Continuar"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "Cargando…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "Empezar de nuevo"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip sigue ejecutándose y termina las descargas activas. Cámbialo en Ajustes avanzados."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "Ocultar en bandeja"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "¿Ocultar Klip en la bandeja del sistema al cerrar?"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "Salir"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "No volver a preguntar"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "Tu cola se conserva y las descargas se reanudan donde se detuvieron la próxima vez que abras Klip."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "Seguir descargando"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "dialogs.quitWithActiveDownloads.message_many"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} de descargas en curso"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} descarga en curso"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} descargas en curso"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "Salir"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "El proceso de renderizado falló ({{reason}}). Recarga para intentarlo de nuevo."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip encontró un problema"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "Salir"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "Recargar"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "¡Copiado!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "Copiar dirección"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip es gratuito y de código abierto, sin anuncios ni nivel de pago. Las donaciones son opcionales y no dan ninguna influencia sobre la hoja de ruta."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "Donar"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Apoyar a Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "Código QR de la dirección de donación de {{coin}}"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Apoyar a Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "Los pagos con criptomonedas son irreversibles. Envía solo por la red indicada y compara la dirección completa."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "Este vídeo no tiene subtítulos en {{languages}}."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "Este vídeo tiene restricción de edad y no se puede descargar sin una cuenta iniciada."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "La protección contra bots del sitio detuvo esta descarga. Espera un rato y vuelve a intentarlo, o descarga menos vídeos a la vez. Si sigue fallando, puede ser un cambio temporal del sitio — Klip actualiza su motor de descarga al iniciar, por lo que la corrección llegará sola en cuanto esté disponible."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "El servidor cortó la descarga repetidamente y Klip se rindió tras varios intentos. Esto suele ocurrir con los formatos de mayor tamaño (4K HDR / VP9 de alta tasa de bits). Vuelve a intentarlo, cambia de red/VPN o elige un formato de menor resolución."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "Este vídeo está protegido con DRM. Klip no puede eliminar el DRM, por lo que el archivo no se puede descargar."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "Este vídeo ya no ofrece el formato que elegiste. Pega el enlace de nuevo y elige entre los formatos que ofrece ahora."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "Este vídeo no está disponible en tu región."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "El sitio está bloqueando las solicitudes de esta conexión. Inténtalo de nuevo más tarde."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "Este video necesita una cuenta con sesión iniciada."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip no pudo encontrar FFmpeg ni FFprobe. Vuelve a ejecutar la configuración o indica una ubicación de FFmpeg y luego reintenta la descarga."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "Error de red. Comprueba tu conexión y reintenta."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "Este vídeo no tiene subtítulos en los idiomas solicitados."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "No hay suficiente espacio en disco. Libera espacio e inténtalo de nuevo."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip no puede escribir en la carpeta de descargas. Puede que sea de solo lectura, esté en una unidad bloqueada o la bloqueen los ajustes de privacidad de tu sistema. Elige otra carpeta o permite el acceso e inténtalo de nuevo."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "No se pudo analizar la respuesta del sitio. Es posible que el sitio haya cambiado la forma en que sirve los vídeos. Klip actualiza su motor de descarga al iniciar — reintenta en unos minutos cuando llegue el arreglo."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "La descarga terminó, pero el post-procesado (mezcla / mux / conversión) falló. A menudo es un problema transitorio de ffmpeg — reintenta, y si persiste prueba con otra combinación de formatos."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "El sitio está limitando las solicitudes de esta conexión."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "Este vídeo no está disponible — puede ser privado, eliminado o estar restringido por región."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "La descarga falló. Mira la salida en bruto a continuación."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip no admite esta URL. Prueba con un enlace de otro sitio."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "Comprueba tu conexión y vuelve a intentarlo."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "Esta página no se cargó"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "Abrir Ajustes"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "Revisa el proxy en Ajustes y vuelve a intentarlo."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "Explorar no puede conectarse a través de tu proxy"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "Haz clic derecho en cualquier enlace de vídeo, lista de reproducción o canal de la página para descargarlo con tu perfil activo, elegir otro perfil o abrir la descarga interactiva."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "Haz clic derecho en un enlace para descargarlo"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "Descargar el álbum en segundo plano"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "Descargar tus vídeos que te gustan en segundo plano"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Descargar el Mix en segundo plano"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "Descargar la playlist en segundo plano"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "Descargar los vídeos subidos en segundo plano"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "Descargar Ver más tarde en segundo plano"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "Copiar enlace"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "Descargar los primeros {{count}}"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "Descargar este vídeo · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "Descargar con"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "De este álbum"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "De tus vídeos que te gustan"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "De este Mix"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "De esta playlist"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "De los vídeos subidos de este canal"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "De Ver más tarde"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "Descarga interactiva…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "Este vídeo con"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "Nuevo"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "Encuentra un vídeo en YouTube o en cualquier otro sitio y descárgalo desde aquí, sin copiar enlaces. Inicia sesión aquí en un sitio para descargar vídeos que requieren una cuenta."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "Continuar"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "Sitios como YouTube pueden marcar —y a veces bloquear— las cuentas usadas con herramientas de descarga como Klip. Usa una cuenta que puedas permitirte perder, no la principal."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "Inicia sesión con una cuenta secundaria"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "Explora la web dentro de Klip"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "Las descargas usan las cookies de tu navegador, no tu sesión de Explorar."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "Las descargas usan tu archivo de cookies, no tu sesión de Explorar."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "Ahora no"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Las cookies están desactivadas, así que las descargas no usan tu sesión de Explorar."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "Usar sesión de Explorar"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "Navega por YouTube o cualquier otro sitio dentro de Klip e inicia sesión para los vídeos que requieren una cuenta."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "Liberar memoria en segundo plano"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "Tras 5 minutos en otra pestaña, cierra la página de inicio o de búsqueda de YouTube. Al volver, se recarga, lo que tarda unos segundos."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "Motor de búsqueda"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "Dónde se busca el texto escrito en la barra de direcciones. Los enlaces se abren tal como se escriben."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "Mostrar la pestaña Explorar"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "Al desactivarla, las descargas también dejan de usar tu sesión de Explorar."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "Cerrar sesión en Explorar"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "Cerrar sesión"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "Esto borra tus sesiones y los datos de navegación en Explorar, en todos los sitios. Las descargas que requieran una cuenta fallarán hasta que vuelvas a iniciar sesión."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "¿Cerrar sesión en Explorar?"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "Borra tus sesiones y los datos de navegación en Explorar, en todos los sitios."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "Explorar"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "Explorar"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube puede oponerse a los bloqueadores de anuncios en cuentas con sesión iniciada."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "Bloqueador de anuncios"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "Bloqueador de anuncios: desactivado — haz clic para activarlo"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "Bloqueador de anuncios: activado — haz clic para desactivarlo"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "Bloqueador de anuncios: iniciando — haz clic para desactivarlo"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "Bloqueador de anuncios: no disponible, no se pudieron descargar sus listas de filtros — haz clic para desactivarlo"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "Dirección"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "Buscar en {{engine}} o abrir cualquier sitio (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "Controles del navegador de Explorar"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "Atrás"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "Diseño compacto"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "Descargar"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "Descargar · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "Adelante"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "Mostrar diseño completo"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "Abre un vídeo, una lista de reproducción o un canal para descargarlo"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "Inicio de YouTube"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "Descarga interactiva: elige formato, subtítulos y más…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "Explorar no puede abrir esa dirección."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "Recargar"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "Esa búsqueda es demasiado larga."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "Este vídeo"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "Descargar solo este vídeo con {{profileName}}"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "Zoom de la página: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "Acercar"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "Zoom de la página"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "Alejar"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "Porcentaje de zoom"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "Restablecer el zoom al 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "Elige cómo se nombran los archivos descargados. Haz clic en un token para insertarlo. Usa / para ordenar las descargas en carpetas."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "Introduce una plantilla de nombre de archivo."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "Quita la / de más: cada carpeta necesita un nombre."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "Quita los caracteres que no se permiten en nombres de archivo: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "Ese nombre de carpeta no está permitido. Evita . y .. y nombres reservados como CON."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "Añade {title} o {id} al nombre de archivo para que cada descarga tenga el suyo."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} no puede dar nombre a una carpeta: la calidad no se conoce hasta que empieza la descarga."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "{ o } sin cerrar: escribe los elementos como {title}."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "La plantilla es demasiado larga."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "Elemento desconocido {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "Termina el nombre con [{id}] para que Klip pueda detectar elementos de playlist ya descargados y generar listas .m3u."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "Plantilla de nombre de archivo"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "No disponible porque tu plantilla de nombre de archivo no termina en [{id}] o clasifica las descargas en carpetas."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "En una lista de reproducción"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "Vídeo único"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "Déjalo vacío para heredar la plantilla global."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "Plantilla de nombre de archivo"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "Auto"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "Auto (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "Los flujos elegidos determinan el tipo de archivo."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "Admite cualquier códec. Algunos televisores y teléfonos no pueden abrirlo."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "Se reproduce casi en cualquier sitio. VP9 en MP4 no muestra el vídeo en QuickTime."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "Formato abierto para navegadores. Solo admite VP9 o AV1 con Opus."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "AV1 en MP4 necesita un Mac reciente para reproducirse en QuickTime. H.264 se reproduce en todas partes."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "VP9 en MP4 no muestra el vídeo en QuickTime. H.264 se reproduce en todas partes."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "Perfil"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM no se ofrece con TV inteligente: no admite H.264."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM no admite {{codec}}. Elige MKV o MP4."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "Solo audio · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "Auto"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "Auto elige HDR si esta pantalla puede mostrarlo y, si no, SDR. El HDR se ve apagado en pantallas normales."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "Vídeo HDR"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "Idioma"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.exploreSignInRetrying_many"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "Sesión iniciada con Explore — reintentando {{count}} de enlaces"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "Sesión iniciada con Explorar — reintentando 1 enlace"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "Sesión iniciada con Explorar — reintentando {{count}} enlaces"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "No se pudo cerrar sesión en Explorar. Inténtalo de nuevo."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "Esta carpeta es demasiado profunda para tu sistema. La descarga aún podría fallar — elige una carpeta más corta."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "El nombre de este vídeo no cabe en todas las partes de tu plantilla, así que se usó el nombre predeterminado."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "No se pudo abrir el selector de carpetas."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "Ya está en la cola — no se añadió otra copia"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "Termina de configurar las cookies en Klip y vuelve a intentarlo"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "No hay ningún enlace en el portapapeles — copia uno primero"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "Se copiaron varios enlaces — usa «URLs en lote» en Klip"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "Ese enlace necesita tu elección — mira Descargas en Klip"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "Descarga añadida desde el portapapeles"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "No se pudo añadir ese enlace — inténtalo de nuevo en Klip"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "Esa carpeta no se puede usar para esta lista de reproducción."
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.queue.skippedAlreadyQueued_many"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} de vídeos ya están en la cola — omitidos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} vídeo ya está en la cola — omitido"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} vídeos ya están en la cola — omitidos"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "Añadido: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "Ya está en la cola"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.batchAdded_many"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} de enlaces añadidos a Descargas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "{{count}} enlace añadido a Descargas"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} enlaces añadidos a Descargas"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_many"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} ya en la cola"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} ya en la cola"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} ya en la cola"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.batchNoneAdded_many"
+msgid "{{count}} links couldn't be added"
+msgstr "No se pudieron añadir {{count}} de enlaces"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "No se pudo añadir {{count}} enlace"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "No se pudieron añadir {{count}} enlaces"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.batchNotAdded_many"
+msgid "{{count}} couldn't be added"
+msgstr "No se pudieron añadir {{count}}"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "No se pudo añadir {{count}}"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "No se pudieron añadir {{count}}"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.chooseFromList_many"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "{{count}} de vídeos en esta lista — elige qué descargar"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "{{count}} vídeo en esta lista — elige qué descargar"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "{{count}} vídeos en esta lista — elige qué descargar"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "notifications.quickDownload.chooseHowMany_many"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ de videos — elige cuántos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ video — elige cuántos"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ videos — elige cuántos"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "No se pudo preparar {{title}}"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "No se pudo añadir ese enlace — inténtalo de nuevo"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "Ver"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "No se pudo guardar tu configuración."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "No se pudo abrir eso."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "La configuración inicial no terminó. Algunas descargas pueden fallar hasta que lo haga."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "Audio (mejor)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "Audio ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "Mejor audio nativo, sin recodificar"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "Convertir a M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "Convertir a MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Convertir a Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "H.264 por encima de 1080p no está disponible en YouTube — se limita automáticamente a 1080p"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "Guardar como"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "Directamente en la carpeta de destino"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "Idiomas"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "Elige al menos un idioma para continuar."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "Solo se guardan los archivos de subtítulos de cada vídeo — no se descarga vídeo ni audio."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "Origen"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "Hasta 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "Hasta 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "Hasta 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "Hasta 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "Hasta 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "Hasta 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "Hasta 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "Hasta 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "Mejor calidad"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "Limitado a 1080p, baja por elemento si hace falta"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "Archivos lo más pequeños posible"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "Limitado a 2K, baja por elemento si hace falta"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "Limitado a 2160p, baja por elemento si hace falta"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "Archivos muy pequeños, baja calidad"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "Archivos pequeños para ancho de banda limitado"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "Poco ancho de banda"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "Archivos más pequeños, amplia compatibilidad"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "Mejor vídeo + audio disponible por elemento"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "Mejor formato nativo"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "TV inteligente H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "Códec más alto disponible por elemento"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "H.264 + AAC preferido, contenedor MP4 · mejor esfuerzo"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "Archivo auxiliar"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "Multimedia"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "Falta"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "Archivo"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "queue.attentionBadge_many"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} de descargas necesitan tu atención"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "{{count}} descarga necesita tu atención"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} descargas necesitan tu atención"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "Quita cada descarga de la lista unos segundos después de terminar. Los archivos se quedan en tu carpeta."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "Limpiar al terminar"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "Cancelar todas las descargas activas y pendientes"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "Todos los videos"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "queue.choice.cappedBody_many"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Más de {{count}} de videos en esta playlist. Descárgalos todos, los primeros {{count}} o elige en una revisión."
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Más de {{count}} video en esta playlist. Descárgalos todos, los primeros {{count}} o elige en una revisión."
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Más de {{count}} videos en esta playlist. Descárgalos todos, los primeros {{count}} o elige en una revisión."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "Primeros {{count}}"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "El álbum"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "Vídeos que te gustan"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "El Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "La playlist"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "Todos los vídeos subidos"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "Ver más tarde"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "Elegir de la lista…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "Revisar"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "queue.choice.uncappedBody_many"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "Este enlace es una lista de {{count}} de vídeos. Descárgalos todos o elige en una revisión."
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "Este enlace es una lista de {{count}} vídeo. Descárgala o elige en una revisión."
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "Este enlace es una lista de {{count}} vídeos. Descárgalos todos o elige en una revisión."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "Este vídeo"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "Este enlace es un vídeo de un álbum. ¿Descargar solo el vídeo o el álbum?"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "Este enlace es un vídeo de tus vídeos que te gustan. ¿Descargar solo el vídeo o todos los vídeos que te gustan?"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "Este enlace es un vídeo de un Mix. ¿Descargar solo el vídeo o el Mix?"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "Este enlace es un vídeo de una playlist. ¿Descargar solo el vídeo o la playlist?"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "Este enlace es un vídeo de los vídeos subidos de un canal. ¿Descargar solo el vídeo o todos los vídeos subidos?"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "Este enlace es un vídeo de tu lista Ver más tarde. ¿Descargar solo el vídeo o toda la lista?"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "Limpiar descargas completadas"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "Las descargas en cola aparecerán aquí"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "Filtros de estado de la cola"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "Todos los elementos"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "Descargas"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "Sonido sin quitar"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "Sonido sin quitar · algunos subtítulos fallaron"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "Falló la descarga"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "Abrir carpeta de destino"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "Pausar"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "Solo pendientes"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "Descargar ahora — saltar la cola"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "Limitado a {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "Limitado a {{height}}p · algunos subtítulos fallaron"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "Quitar"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "Reanudar"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "reintentando automáticamente (intento {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "Definir ubicación"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "Selecciona elementos pendientes para definir la ubicación."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "Cancelado"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "Listo"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "Retenido"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "Necesita tu elección"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "Pausado"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "Esperando"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "Obteniendo detalles"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "Descargando"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "Sin subtítulos en {{languages}}"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "Espera a {{site}} hasta {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} está limitando las solicitudes de esta conexión. Klip obtiene los datos de este enlace después de {{time}}, para que el límite se levante."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "Descartar"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "De un álbum"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "De tus vídeos que te gustan"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "De un Mix"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "De una playlist"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "De los vídeos subidos de un canal"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "De Ver más tarde"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "Descargar todo el álbum"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "Descargar todos los vídeos que te gustan"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "Descargar todo el Mix"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "Descargar toda la playlist"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "Descargar todos los vídeos subidos"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "Descargar todo Ver más tarde"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "Añade la lista como su propia fila. Este vídeo queda fuera."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "Pausar todas las descargas activas"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "La cola está en pausa — los elementos en espera no empezarán hasta que la reanudes"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "Reanudar descargas pausadas y dejar que la cola continúe"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "Reanudar cola"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "Elementos seleccionados"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} seleccionados · {{total}} en total"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "Descargas"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "Añadido"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "Archivos generados"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "Columna {{column}} soltada."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "Se canceló el movimiento de la columna {{column}}."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "La columna {{column}} está sobre {{target}}."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "Columna {{column}} recogida."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "Columnas"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "Finalizado"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "Ocultar archivos de {{title}}"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "columna movible"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Para mover una columna, pulsa Espacio o Intro, muévela con las teclas de flecha y vuelve a pulsar Espacio o Intro para soltarla. Pulsa Esc para cancelar."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "Destino de salida"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "Progreso"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "Restablecer columnas"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "Cambiar el tamaño de la columna {{column}}"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "Mostrar archivos de {{title}}"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "Ordenar por {{label}}"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "Título"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "Las descargas ahora viven en la pestaña Descargas — ábrela cuando quieras para seguir el progreso."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "Continuar"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "Estás usando una actualización reciente. Estos son los puntos destacados."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "Notas de la versión completas ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Novedades de Klip {{version}}"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "Elegir ejecutable"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "Instalar con Homebrew"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "Instalar con WinGet"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "Abrir carpeta de dependencias"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "Restablecer predeterminado"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "Reintentar"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "Ver registro de configuración"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Inténtalo de nuevo. Si sigue fallando, elige una copia que funcione más abajo."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "Una herramienta no funciona bien"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "Permite Klip en tu antivirus o en SmartScreen y vuelve a intentarlo."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "Tu antivirus bloqueó una herramienta"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "Comprueba tu conexión a internet y vuelve a intentarlo."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "No se pudo descargar lo que Klip necesita"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Inténtalo de nuevo para descargarlo otra vez."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "Una descarga llegó dañada"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Inténtalo de nuevo para descargarlo otra vez."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "Una descarga no coincidía con su suma de comprobación"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "Elige ambos más abajo o restablécelos a los valores predeterminados."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg y FFprobe deben configurarse juntos"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "Inténtalo de nuevo. Si sigue fallando, elige abajo una copia de confianza."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "Tu sistema no deja que Klip ejecute una herramienta"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Inténtalo de nuevo. Si sigue fallando, elige una copia que funcione más abajo."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "Falta una herramienta o no se inicia"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "Suele deberse a un análisis de seguridad en el primer arranque. Inténtalo de nuevo."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "Una herramienta tardó demasiado en responder"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "Inténtalo de nuevo o abre el registro de configuración para ver los detalles."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "Algo salió mal durante la configuración"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "Motor de descarga"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "Herramientas multimedia"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "Instalando con Homebrew… Puede tardar unos minutos."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "Instalando con WinGet… Puede tardar unos minutos."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Indica a Klip copias que ya tengas o instálalas de otra forma."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "También puedes instalar yt-dlp y ffmpeg con tu gestor de paquetes y luego hacer clic en Reintentar."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "Configurar manualmente"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "Inténtalo de nuevo o indica a Klip más abajo herramientas que ya tengas."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "Configuración detenida"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "La configuración necesita tu ayuda"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "Cómo elige este perfil"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "Audio AAC"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "apto para reproductores MP4"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "Audio AAC"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "se reproduce en todas partes"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1, luego VP9, luego H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "más nítido al mismo tamaño"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264, luego VP9, luego AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "el códec de este perfil"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9, luego H.264, luego AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "el códec de este perfil"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "Mayor tasa de fotogramas"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "movimiento más fluido"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "Vídeo H.264"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "se reproduce en cualquier dispositivo"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR antes que SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "colores más ricos en pantallas HDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "esta pantalla muestra HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR antes que HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "se ve bien en cualquier pantalla"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "esta pantalla no muestra HDR"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "Flujos MP4"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "listos para un archivo MP4"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "Audio estéreo"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "este perfil"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "desde Ajustes"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "Audio envolvente si está disponible"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Audio Opus"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "apto para WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "Streams originales, no reescalados con IA"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "una copia reescalada es más alta pero no añade detalle real"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "Descargas directas antes que copias en streaming"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "la misma imagen, descarga más rápida"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "Hasta {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "tu límite"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "Máxima resolución"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "sin límite definido"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "Streams que el sitio no penaliza"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "omite copias dañadas, con marca de agua y de respaldo"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "Archivo más grande"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "más detalle con los mismos ajustes"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "Primero los streams con tasa de bits mejorada"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "más detalle con la misma resolución"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "tipo de archivo según los flujos"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "se guarda como .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "mejor imagen"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "se reproduce en cualquier dispositivo"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "¿Por qué este?"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "Por qué el perfil eligió esto"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "¡Copiado!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "Copiar enlace"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — Descargador de vídeos gratuito y de código abierto para Windows, macOS y Linux. Funciona con YouTube, Vimeo, Twitch y más de 2000 sitios.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip es gratuito y de código abierto. Compartirlo ayuda a que más personas lo descubran."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "Compartir"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Compartir Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Compartir Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Compartir Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "¿Problemas? Configúralo manualmente"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "¡Hey, bienvenido de vuelta!"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "splash.setup.left.minutes_many"
+msgid "about {{count}} min left"
+msgstr "quedan aprox. {{count}} min"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "queda aprox. {{count}} min"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "quedan aprox. {{count}} min"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "queda menos de un minuto"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "Comprobando que todo funcione"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "Conectando…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "Descomprimiendo las herramientas multimedia"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "Descomprimiendo el motor de descarga"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "Actualizando las herramientas de Klip"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "Actualizando el motor de descarga"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "Configuración inicial"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "Actualizando las herramientas multimedia"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "Primera comprobación de esta versión: esta es lenta. Suele tardar alrededor de un minuto."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "Comprobando {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "Preparando descargas…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "Error en la configuración. Abre el registro de configuración para más detalles."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "Video guardado con su sonido — no se pudo quitar el audio"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "Video guardado con su sonido — no se pudo quitar el audio y algunos subtítulos no se pudieron descargar"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "Descarga cancelada"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "Descarga completada"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "Convirtiendo vídeo…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "Espacio en disco insuficiente — se necesitan {{required}}, solo hay {{free}} disponibles"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "Descargando binario {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "Descargando video y audio…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "Incrustando metadatos…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "Sesión de Explorar cerrada — vuelve a iniciar sesión"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "Convirtiendo audio…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "Contactando SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "Obteniendo subtítulos…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "Combinando audio y video…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "Preparando la descarga de YouTube…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "Moviendo archivos…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "Sin subtítulos en {{languages}}"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "No se puede guardar en {{dir}} — Klip no tiene permiso para escribir ahí"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "Preparando binarios…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "Guardado en {{height}}p — YouTube retuvo las calidades superiores para esta descarga. Volver a intentarlo más tarde puede ayudar."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "Guardado en {{height}}p — YouTube retuvo las calidades superiores para esta descarga y algunos subtítulos no se pudieron descargar. Volver a intentarlo más tarde puede ayudar."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "Preparando de nuevo la descarga de YouTube…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock no disponible, reintentando ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "Conexión estancada, reintentando ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "Iniciando sesión con tu cuenta de Explorar…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "Esperando {{seconds}}s para evitar límites…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "Iniciando el motor de descarga…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "Este vídeo no tiene subtítulos en {{languages}}. El vídeo se guardó sin ellos."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "Este vídeo no tiene subtítulos en {{languages}}. Los demás idiomas se guardaron."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "Video guardado — algunos subtítulos no se pudieron descargar"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "Fallo desconocido al iniciar la descarga"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "Descargado con extractor relajado — configura un cookies.txt para descargas más fiables"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "El motor de descarga terminó con código {{code}}"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "Error del motor de descarga: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "Modo oscuro"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "Modo claro"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "Predeterminado del sistema"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "Cerrar"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "Maximizar"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "Minimizar"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "Restaurar"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "Descargar del portapapeles"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "tray.menu.statusActive_many"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} descargando · {{percent}}%"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "1 descargando · {{percent}}%"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} descargando · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "Inactivo"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "Comando copiado al portapapeles"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "Copiar comando al portapapeles"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "Cerrar aviso de actualización"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "Descargar ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "Descargar DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "Descargando…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "Instalar y reiniciar"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "Actualización fallida"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} está disponible — tienes {{currentVersion}}."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} está disponible — actualiza con Homebrew."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} está disponible — descarga el nuevo DMG."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} está disponible — descarga el DMG o cambia a Homebrew."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} está disponible — descarga la nueva compilación."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "Ejecutar y reiniciar"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "Actualizando…"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "videoCard.chapters_many"
+msgid "{{count}} chapters"
+msgstr "{{count}} de capítulos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} capítulo"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} capítulos"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "Cargando…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "H.264 primero"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "Códec de vídeo"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "TV inteligente siempre elige H.264."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "VP9 primero"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "Listas"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "Pega URLs de vídeo, playlist, canal, búsqueda o audio. Klip limpiará los duplicados antes de enviarlos a la cola."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "Pega una o más URLs para previsualizar el lote."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "Ignoradas"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "Añade al menos una URL compatible para continuar."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "Duplicado"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "Lista de URLs"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "URLs en lote"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ Cola"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "Empieza cuando terminen otras descargas — usa todo el ancho de banda"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.confirm.itemsValue_many"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} de {{total}} vídeos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{count}} de {{total}} vídeo"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} de {{total}} vídeos"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.confirm.itemsValueAudio_many"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} de {{total}} pistas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{count}} de {{total}} pista"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} de {{total}} pistas"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.confirm.itemsValueBulk_many"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} de {{total}} URLs"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{count}} de {{total}} URL"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} de {{total}} URLs"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "URLs en lote"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "Elementos"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "Lista"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "Calidad"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "Tu archivo se guardará en"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.confirm.landInMultiProfile_many"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "Se guardarán en los {{count}} de destinos de abajo"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "Se guardará en el destino de abajo"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "Se guardarán en los {{count}} destinos de abajo"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "El perfil Solo subtítulos está activo, pero no hay ningún idioma de subtítulos seleccionado — no se descargará nada."
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.confirm.profileBreakdownCount_many"
+msgid "{{count}} items"
+msgstr "{{count}} de elementos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} elemento"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} elementos"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "Perfiles en este lote"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "¡Bájalo! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "Empieza al instante — corre junto a otras descargas activas"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "¡Listo para descargar!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Subtitle embed cambiado a sidecar — las pistas de audio no admiten streams de subtítulos embebidos."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "Los subtítulos dentro del vídeo necesitan un archivo MKV, así que esta descarga se guarda como .mkv."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Thumbnail embed omitido — el container de salida no lo admite."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "Personalizado…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "Escritorio"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "Documentos"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "Descargas"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "Carpeta personal"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "Imágenes"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "El nombre tiene caracteres no válidos"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "p. ej., clases"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "Guardar en subcarpeta"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "Películas"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "Idioma del audio"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.formats.audioLanguageCount_many"
+msgid "{{count}} languages"
+msgstr "{{count}} de idiomas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} idioma"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} idiomas"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "Tasa de bits {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Las cookies están configuradas pero desactivadas. Actívalas y vuelve a intentarlo para obtener la lista completa, o cambia de red e inténtalo de nuevo."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Incluso con cookies, YouTube ha limitado esta consulta. Inténtalo más tarde o cambia de red."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube limitó esta solicitud. Inténtalo más tarde o cambia de red."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "La lista de formatos puede estar incompleta. Configura las cookies en los ajustes avanzados, o cambia de red e inténtalo de nuevo."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Activar cookies y reintentar"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "YouTube ha limitado esta consulta"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "Tasa de bits"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "Una fuente que ya es {{target}} conserva su propia secuencia y su tasa de bits: se copia sin recodificar."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps, sin recodificar"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}, sin recodificar"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps, como en la fuente: la secuencia ya es {{target}}, así que se copia sin recodificar"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "Como en la fuente: la secuencia ya es {{target}}, así que se copia sin recodificar"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "Convertir"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "La fuente es de {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (uncompressed)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "Navegador"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "Sesión de Explorar"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "Archivo"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Fuente de cookies"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "Documentación de yt-dlp (issue #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 y versiones posteriores cifran las cookies de un modo que otras aplicaciones no pueden leer en Windows. Prueba una de las soluciones siguientes."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "Exporta las cookies de Chrome con una extensión del navegador, luego cambia esta aplicación al modo Archivo y selecciona el archivo exportado."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "Exportar cookies.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox no usa App-Bound Encryption. Abre los ajustes de cookies y elige Firefox en la lista de navegadores."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Cambiar a Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Añade --disable-features=LockProfileCookieDatabase al acceso directo de inicio de Chrome. Advertencia: esto invalida las cookies cifradas anteriormente, por lo que se cerrará tu sesión en todos los sitios y deberás iniciarla de nuevo."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Iniciar Chrome con App-Bound Encryption desactivada"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Cookies de Chrome bloqueadas por el cifrado de Windows"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Las cookies se leen directamente del navegador. Si el navegador está abierto en este momento, su base de datos de cookies puede estar bloqueada (familia Chromium). El navegador también debe tener la sesión de YouTube iniciada. Prueba a cerrar el navegador, cambiar a otro, cambiar al modo Archivo o desactivar las cookies."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "El archivo de cookies puede estar vacío, caducado o en un formato incorrecto (Klip necesita un archivo Netscape cookies.txt). Prueba a exportar las cookies de nuevo, elegir un archivo diferente, cambiar al modo Navegador o desactivar las cookies."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "Inicia sesión en Explorar y Klip lo reintentará."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "Iniciar sesión en Explorar"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "Este video puede necesitar una cuenta de YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip ya lo intentó con la sesión iniciada en Explorar, así que volver a iniciar sesión no ayudará. Puede que el sitio tenga problemas o que esta cuenta no pueda abrirlo. Inténtalo más tarde."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "El sitio lo rechazó incluso con tu sesión de Explorar"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "Has iniciado sesión en Explorar, pero las descargas no están usando esa sesión ahora mismo."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "Usar mi sesión de Explorar y reintentar"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "Este video puede necesitar una cuenta de YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "Si este vídeo requiere una cuenta, Klip usa automáticamente tu sesión de Explorar. Puede que no esté disponible por otro motivo."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "Sesión iniciada en Explorar"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "Si este vídeo requiere una cuenta de YouTube, inicia sesión en Explorar y vuelve a intentarlo. Klip usa esa sesión solo cuando una descarga la necesita."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "Iniciar sesión en Explorar"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "Este vídeo puede requerir una cuenta de YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "Este enlace puede necesitar una cuenta de {{host}}"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "En Explorar, inicia sesión en {{host}} y vuelve a intentarlo."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "En Explorar, inicia sesión en {{host}} y vuelve a intentarlo. Klip usa esa sesión solo cuando una descarga la necesita."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Las cookies podrían ser la causa"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip no pudo acceder a este vídeo sin autenticación. Configura las cookies en los ajustes avanzados — apúntalas a un navegador en el que ya hayas iniciado sesión o importa un archivo cookies.txt."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "Este sitio requiere inicio de sesión"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "Abrir ajustes de cookies"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "Usar un archivo de cookies o un navegador…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "Baja las partes fuertes y sube las suaves, para altavoces y sitios ruidosos."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "Igualar el volumen (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "Volumen igualado"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "Tu perfil es TV inteligente (H.264). Este vídeo no ofrece H.264, así que se selecciona el flujo más cercano."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "Este enlace no tiene vídeo, así que se selecciona el audio."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "Tu perfil pide subtítulos en {{languages}}. Este vídeo no los tiene."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "Tu perfil pide {{wanted}}p. Este vídeo no tiene nada tan pequeño, así que se selecciona {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Tu perfil pide {{wanted}}p. Los flujos más pequeños de este vídeo no encajan con el resto de tu perfil, así que se selecciona {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "Tu perfil pide {{wanted}}p. Este vídeo no tiene ningún {{wanted}}p que se pueda usar, así que se selecciona {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "Tu perfil pide {{wanted}}p. El {{wanted}}p de este vídeo está reescalado con IA, así que se selecciona el {{picked}}p original."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "Tu perfil pide {{wanted}}p en H.264. Este vídeo solo tiene {{wanted}}p en otros códecs, así que se selecciona {{picked}}p en H.264."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Tu perfil pide {{wanted}}p. El {{wanted}}p de este vídeo no encaja con el resto de tu perfil, así que se selecciona {{picked}}p."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "Tu perfil pide WebM. Los flujos elegidos de este vídeo incluyen {{codec}}, que WebM no admite, así que el tipo de archivo es Auto."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "Añadir a la cola sin iniciar"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "Descargar"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "Más opciones de descarga"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "Elige al menos un idioma de subtítulos."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "Mantener tal cual"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "Audio integrado"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "Solo audio"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "Qué descargar"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "Solo subtítulos"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "Vídeo + audio"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "Vídeo, sin audio"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "Cargando formatos"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "Espera a que termine el análisis — las listas de reproducción y búsquedas pueden tardar un momento."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "Doblado con IA"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "Reescalado con IA"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "Audiodescripción"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "Dañado"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "Tasa de bits mejorada"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "Original"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "Audio espacial"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "Con marca de agua"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "Sin audio"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "Tu perfil activo preselecciona los streams por ti. Cambia de perfil desde el menú o usa el lápiz para ajustar uno sin salir de esta descarga."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "Los formatos parten de tu perfil"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "Más cercano al perfil"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "Editar {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "Mantener mis cambios"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "Solo para esta descarga. Tu perfil predeterminado no cambia."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "Preseleccionado de"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "Restablecer todo"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Cambiaste {{areas}} para esta descarga. «{{profile}}» elige el vídeo y el audio de todos modos. ¿Mantener tus otros cambios o restablecer todo al perfil?"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "¿Cambiar de perfil?"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "Perfil"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Cambiaste {{areas}} para esta descarga. El perfil actualizado elige el vídeo y el audio de todos modos. ¿Mantener tus otros cambios o restablecer todo al perfil?"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "¿Usar el perfil actualizado?"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "Calidad alta"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "Calidad baja"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "Calidad media"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} está limitando esta conexión"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "Es posible que la lista de formatos esté incompleta."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} ha rechazado esta solicitud por ahora."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "Reintentar"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} puede mantener este límite hasta una hora."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "Probar ahora"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "La espera ha terminado, puedes volver a intentarlo."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip espera hasta las {{time}} antes de volver a consultar {{site}}, para que el límite se levante."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "Resolución desconocida"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "Guardar como"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM no admite {{codec}}, así que el tipo de archivo volvió a Auto."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "Tamaño desconocido"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "Saltar a confirmar"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "Usa tus preferencias guardadas para todos los pasos restantes. Para cambiar una opción, continúa paso a paso — tu elección se guardará para la próxima vez."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "Buscando los mejores formatos para ti…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "con audio"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "Con {{profileName}}. Si tiene más de {{count}} vídeos, Descargas pregunta cuántos."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "Descargar en segundo plano"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc cancela."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "Exactamente los primeros {{count}}, con {{profileName}}."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "Descargar los primeros"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "Elige entre los primeros {{count}} vídeos (o cambia la cantidad en el siguiente paso) y luego configura la descarga."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "Descarga interactiva…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "Cuántos vídeos tomar de la lista: la primera opción pregunta si la lista supera ese número, la segunda toma exactamente esa cantidad. Igual que Ajustes › Elementos de playlist a escanear."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "Límite"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Un Mix cambia cada vez que lo abres."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "para elegir."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "Cargar los primeros"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "Puedes cambiarlo en el siguiente paso."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "Elegir de este álbum"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "Elegir de tus vídeos que te gustan"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "Elegir de este Mix"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "Elegir de esta playlist"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "Elegir de los vídeos subidos de este canal"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "Elegir de Ver más tarde"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "Descargar de este álbum"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "Descargar de tus vídeos que te gustan"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "Descargar de este Mix"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "Descargar de esta playlist"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "Descargar de los vídeos subidos de este canal"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "Descargar de Ver más tarde"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "Solo el vídeo que abriste, con {{profileName}}. La lista no se carga."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "Solo este vídeo"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "Configura solo el vídeo que abriste. La lista no se carga."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "Con {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "Marcadores de capítulo navegables en cualquier reproductor moderno."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "Incrustar capítulos"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "capítulos"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "Título, artista, descripción y fecha de subida escritos en el archivo."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "Incrustar metadatos"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "metadatos"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "Portada dentro del archivo. El vídeo WebM se remultiplexará a MKV; se omite al incrustar subtítulos."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "Incrustar miniatura"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "carátula"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "Guarda la descripción del vídeo como archivo .description junto a la descarga."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "Guardar descripción"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "archivo de descripción"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "Guarda una playlist .m3u junto a los vídeos para abrirlos en orden en tu reproductor."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "Generar archivo de playlist .m3u"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "Guarda la miniatura como archivo .jpg junto a la descarga."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "Guardar miniatura"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "archivo de miniatura"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "Cambia a «Parte» en la tarjeta del vídeo para elegir un inicio y un final, o un capítulo, y descarga solo ese tramo."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "Descarga solo una parte de un vídeo"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "Capítulos"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "Capítulo {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "Una parte se descarga con ffmpeg, así que tus conexiones de descarga y los ajustes de ritmo no se aplican."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "Primero corrige el inicio y el fin de la parte."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "Fin"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "El vídeo termina en {{duration}}."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "Escribe el fin como h:mm:ss, m:ss o segundos."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "Escribe el inicio como h:mm:ss, m:ss o segundos."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "El inicio debe ser anterior al fin."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "Desactivado: cada corte cae en el fotograma clave más cercano, que puede estar a unos segundos del tiempo que escribiste."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "Corte exacto (recodifica, más lento)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} de {{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "Parte"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "Parte del vídeo"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "Inicio"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "vídeo completo"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "Parte {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "Qué parte del vídeo"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss o segundos"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "Parte, estimado"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "Este vídeo no indica su duración, así que solo se puede descargar completo."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "Los subtítulos siempre abarcan todo el vídeo."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "Tu enlace empieza en {{time}}"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "Usar como inicio"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "Vídeo completo"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "Pista completa"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "Restáuralos para continuar."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "Se quitaron todos los elementos"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "Ya descargado"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.bulkCappedDesc_many"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "Tienen más. Para elegir cuántos, pega cada enlace por separado."
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "Tiene más. Para elegir cuántos, pega su enlace por separado."
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "Tienen más. Para elegir cuántos, pega cada enlace por separado."
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.bulkCappedTitle_many"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} de listas están limitadas a {{limit}} vídeos cada una"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "La lista “{{title}}” está limitada a {{limit}} vídeos"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} listas están limitadas a {{limit}} vídeos cada una"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "URLs en lote"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "No hace falta esperar — los archivos que pongas en cola ahora conservarán sus nombres reales al descargarse."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "Obteniendo detalles del vídeo… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "Detalles no disponibles"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "Obteniendo detalles"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "Esperando"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "live"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Elementos de la Playlist"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "Vídeos para descargar"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.itemCount_many"
+msgid "{{count}} videos"
+msgstr "{{count}} de videos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} video"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} videos"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.itemCountAudio_many"
+msgid "{{count}} tracks"
+msgstr "{{count}} de pistas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} pista"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} pistas"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.itemCountBulk_many"
+msgid "{{count}} URLs"
+msgstr "{{count}} de URLs"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} URL"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} URLs"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Obteniendo Playlist…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "Obteniendo vídeos…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "Limitado a los primeros {{count}} elementos"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.loadingPagesFound_many"
+msgid "{{count}} pages found"
+msgstr "{{count}} de páginas encontradas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "{{count}} página encontrada"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} páginas encontradas"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "Recopilando videos"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "Escaneando páginas del canal"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "Asignar perfiles por elemento"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "Omite Calidad, SponsorBlock, Salida y Guardar — asigna en su lugar un perfil de descarga por elemento"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "Lista"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.nestedPlaylistHint_many"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} de estos son listas, no videos — pega sus enlaces de uno en uno para descargarlas."
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "{{count}} de estos es una lista, no un video — pega su enlace por separado para descargarla."
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} de estos son listas, no videos — pega sus enlaces de uno en uno para descargarlas."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "Selecciona al menos un video para continuar"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Klip encontró más de {{count}} elementos, por lo que el límite de escaneo actual está ocultando el resto."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "El escaneo de la playlist está limitado"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "El escaneo está limitado"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "Aplicar rango"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "Desde"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "Hasta"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.removedCount_many"
+msgid "{{count}} removed"
+msgstr "{{count}} quitados"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} quitados"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} quitados"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.removeFromListCount_many"
+msgid "Remove {{count}} from list"
+msgstr "Quitar {{count}} de la lista"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "Quitar {{count}} de la lista"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "Quitar {{count}} de la lista"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "Restaurar"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlist.selectedCount_many"
+msgid "{{count}} selected"
+msgstr "{{count}} seleccionados"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} seleccionado"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} seleccionados"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "Deseleccionar todo"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "Orden de la lista"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "Obteniendo fechas de subida…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "Ordenar"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "Más antiguos primero"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "Más recientes primero"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "Aplicar sincronización"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "Cambiar carpeta…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "{{n}} de estos vídeos ya están en {{dir}}. ¿Sincronizar para descargar solo los nuevos?"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "Ya está en la carpeta"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "No se encontraron vídeos de esta playlist en {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "No se encontraron vídeos de esta fuente en {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "Aún no hay nada descargado"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "Comprobando carpeta…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "Miniatura del video"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "Elige la calidad para el lote"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlistPresets.itemCount_many"
+msgid "{{count}} items"
+msgstr "{{count}} de elementos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} elemento"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} elementos"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "Cada vídeo resuelve el nivel elegido de forma independiente — las playlists heterogéneas funcionan sin sorpresas."
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlistProfiles.assignTrigger_many"
+msgid "Assign to {{count}} videos"
+msgstr "Asignar a {{count}} videos"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "Asignar a {{count}} video"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "Asignar a {{count}} videos"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "Asignar perfil"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "Duración"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "Perfil"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "Editar {{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "Ningún elemento coincide con este filtro"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "Filtros de perfil"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "Asignar perfiles de descarga"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.playlistProfiles.menuDescription_many"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "Elige el perfil para estos {{count}} videos."
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "Elige el perfil para este video."
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "Elige el perfil para estos {{count}} videos."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{selected}} de {{total}} seleccionados"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "Cambiar global"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "Elegir carpeta de destino"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "Elegir icono del perfil"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "Quitar {{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "Restablecer perfil"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "Este perfil ya usa la configuración integrada"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "Restaurar la configuración integrada del perfil"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "Guardar perfil"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "Definir anulación del perfil"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "Definir anulación"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "Usar el valor global"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "Usar el código de idioma «{{code}}»"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "Avanzado"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "Usar el ajuste de la app ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "Mejor"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "Hasta 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "Hasta 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "Hasta 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "Mejor calidad"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "Carpeta de descargas predeterminada"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "Carpeta de descargas predeterminada / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "Destino global"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "Heredado"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "Anulación del perfil"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "Elegir carpeta"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "Sin anulación"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "Sin anulación definida. Este perfil usa el destino global de arriba."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "Anula el global"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "Este perfil guarda en su propia raíz antes de añadir la subcarpeta."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "Destino resuelto"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "Una configuración reutilizable para Descarga rápida, URLs en lote y listas de reproducción."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "Perfil de descarga"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "No se pudo cambiar el destino global."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "No se pudo abrir el selector de carpetas. Escribe la ruta manualmente."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "No se pudieron restablecer los ajustes del perfil."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "No se pudieron guardar los ajustes del perfil."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "Entrega"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "Tipo de archivo"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "Optimizar para"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "Icono del perfil"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "Idiomas"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "Nombre del perfil"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "Nombre e icono del perfil"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "Audio nativo"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "Ruta de anulación del perfil"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "Calidad"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "Resolución"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "Origen"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "Nombre de la subcarpeta"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "Descargas de subtítulos"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "Los perfiles solicitan códigos de idioma; la disponibilidad se resuelve para cada URL."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "El más nítido al mismo tamaño. Los televisores antiguos, QuickTime y algunos editores no pueden reproducirlo."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "Mejor imagen"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "Se reproduce en televisores, teléfonos, WhatsApp, QuickTime y editores de vídeo. YouTube ofrece H.264 solo hasta 1080p."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "TV inteligente"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "Archivo"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "Subtítulos"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "Clases"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "Clip"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "Controles"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "Descarga"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "Pódcast"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "Vídeo"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "Música o pódcasts"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "Solo archivos de subtítulos"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "Archivos de vídeo normales"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "Solo vídeo sin sonido"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "Los subtítulos automáticos se guardarán como SRT en lugar de ASS."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "No hay idiomas coincidentes"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "Este perfil no solicitará archivos de subtítulos ni pistas de subtítulos incrustadas."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "Buscar por nombre o código de idioma"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "Omitido para este tipo de salida."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "Elige al menos un idioma."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "Elige al menos un idioma o desactiva las descargas de subtítulos."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "Este perfil solo pone en cola archivos de subtítulos. Se omiten el vídeo, el audio, SponsorBlock y la conversión de medios."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "Los perfiles heredan el destino global salvo que definas una anulación del perfil."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "Elige la forma principal en que quieres descargar."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "Tipo de descarga"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "Nombre e icono que se muestran en Descarga rápida, URLs en lote y listas de perfiles."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "Identidad del perfil"
+
+#. Plural form "many" for es: used for fractional counts and other values not covered by the other forms.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_many"
+msgid "{{count}} enabled"
+msgstr "{{count}} activadas"
+
+#. Plural form "one" for es: used for counts like 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} activadas"
+
+#. Plural form "other" for es: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} activadas"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "Opciones de salida"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "Elegir una carpeta para este perfil"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "Omitido"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Marca los segmentos patrocinados como capítulos (no destructivo)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Sin SponsorBlock: el vídeo se reproduce tal como se subió."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Corta los segmentos patrocinados del vídeo con FFmpeg."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "Solo generados automáticamente"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "Manual y automático"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "Manual primero, luego automático"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "Solo manual"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "Ayuda de {{label}}"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "extras"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "nombre de archivo"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "formato"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "carpeta"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "subtítulos"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "Los subtítulos, SponsorBlock, extras como la miniatura, la carpeta y el nombre de archivo antes eran pasos separados. Haz clic en una fila para cambiarla."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "Todos los demás ajustes están ahora en esta página"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "Cambios respecto a {{profile}}: {{areas}}. Solo se aplican a esta descarga."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "Cambios respecto a {{profile}}:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "Cambiar formato"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "Guardar como perfil"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (editado)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "Esta descarga usó ajustes editados. ¿Usarlos la próxima vez?"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "Deshacer cambios, volver a «{{profile}}»"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "Extras"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "Nombre de archivo"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "Guardar en"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "Todo lo demás"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "Guardar perfil"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "Guarda estos ajustes como un perfil que podrás elegir la próxima vez. Tu perfil de Descarga rápida no cambia."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "No se pudo guardar el perfil."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "Nombre del perfil"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "Guardado como perfil «{{name}}»"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "Guardar como perfil"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "Guardar como perfil nuevo"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "Actualizar perfil"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "Este es un perfil integrado. Puedes restaurar sus ajustes originales en la pestaña Perfiles."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "A partir de ahora, cada descarga con este perfil usará los nuevos ajustes."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "¿Actualizar «{{profile}}»?"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "Perfil «{{name}}» actualizado"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "Actualizar «{{profile}}» con estos cambios"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "Ninguno"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "Desactivado"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "Desactivados"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "Relleno"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "Intro"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "Música fuera de tema"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "Outro"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "Vista previa"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "Autopromoción"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "Patrocinio"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "Categorías"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "Marcar como capítulos"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "Desactivado"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "Eliminar segmentos"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "Filtrar patrocinadores"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Marca segmentos de sponsor como capítulos (no destructivo)."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Sin SponsorBlock — el vídeo se reproduce tal cual fue subido."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Elimina segmentos de sponsor del vídeo con FFmpeg."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "Guardar"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "Salida"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "Lista"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "Vídeos"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "Calidad"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "Perfiles"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "Revisar"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "Los subtítulos automáticos se guardarán como SRT en lugar de ASS — siempre se limpian de la duplicación de cues en cascada de YouTube, algo que nuestro convertidor ASS aún no puede replicar."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "Auto"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "Eliminar todo"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "El modo «incrustar» guarda la salida como .mkv para que las pistas de subtítulos se incrusten de forma fiable."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "No hay subtítulos disponibles para este vídeo"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "No hay idiomas que coincidan"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "Sin subtítulos seleccionados"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "Quitar {{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "Incrustar en el vídeo"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "Guardar como"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "Junto al vídeo"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "En la carpeta de descargas"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "Subcarpeta subtitles/"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "Buscar idiomas…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "Generado automáticamente"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "Navegación de perfiles de descarga"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "Avanzado"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "Quita una descarga de la lista de Descargas unos segundos después de terminar. Los archivos se quedan en tu carpeta; las descargas fallidas y canceladas siguen en la lista."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "Quitar descargas terminadas"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "Vuelve a intentarlo automáticamente tras un fallo de red o del servidor, esperando más entre cada intento. Las descargas bloqueadas por el sitio nunca se reintentan automáticamente."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "Reintentar descargas fallidas"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "veces"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "URLs en lote"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "Añade y pon en cola varias URLs."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "Borrar URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "Enlace añadido desde el portapapeles"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "Se copiaron varios enlaces — añádelos con «URLs en lote»"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "No hay ningún enlace en el portapapeles"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "No se pudo leer el portapapeles — pega el enlace en el campo"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "Reemplazado por el enlace copiado"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "Vigilar portapapeles"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "Rellena automáticamente el campo URL al copiar un enlace de YouTube."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "Deshacer"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "Minimizar a la bandeja al cerrar"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "Continuar descargas en segundo plano al cerrar la ventana."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "Cuántos elementos de la cola se descargan al mismo tiempo. Más a la vez termina antes una cola larga, pero aumenta la probabilidad de que el sitio te limite."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "Descargas a la vez"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "descargas"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Cuántos enlaces consulta Klip a la vez para obtener sus datos, antes de descargarlos. Menos es más amable con los sitios que bloquean conexiones muy activas. Un enlace que abres en Descarga interactiva siempre va primero."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "Enlaces comprobados a la vez"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "enlaces"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "Sitios como YouTube pueden marcar — y a veces banear — cuentas cuyas cookies usan herramientas de descarga como Klip. Usa una cuenta desechable cuando puedas."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "Lee las cookies directamente del navegador. El navegador debe estar cerrado para los basados en Chromium."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "Navegador"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "Elige un navegador…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "Elegir…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "Quitar"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "Elige un navegador para usar cookies"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "Selecciona un archivo para usar cookies"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "La pestaña Explorar está desactivada, así que las descargas no usan tu sesión de Explorar. Actívala abajo, en Explorar."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "Obtener cookies.txt LOCALMENTE (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Archivo de cookies"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "¿Cómo exporto las cookies?"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "Abrir Explorar"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "Sin archivo seleccionado"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "Recomendado"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "Riesgo: un cookies.txt contiene todas las sesiones iniciadas de ese navegador — guárdalo en privado."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "Navegador"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "Sesión de Explorar"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "Archivo"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Fuente de cookies"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "Desactivado"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "Ayuda con los vídeos que tu propia cuenta puede ver, como tus vídeos privados."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "Acelera las descargas grandes obteniendo varias partes de un vídeo a la vez. Los valores altos aumentan la probabilidad de que el sitio te limite."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "Conexiones de descarga"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "conexiones"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "Descargar álbum…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "Descargar vídeos que te gustan…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Descargar Mix…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "Descargar playlist…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "Descargar vídeos subidos…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "Descargar Ver más tarde…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "Solo audio"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "Subtítulos"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ sitios"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "Playlists de música"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "Vídeos"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "Playlists de vídeo"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Qué puede bajar Klip"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "Canales"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "Listas"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "Podcasts"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "Vídeos"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "Asistente paso a paso. Elige formato, calidad y más."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "Descargar desde URL"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "Cambiar atajo"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "Ese atajo ya lo usa otra aplicación — elige otro."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "Atajo global"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "Pulsa las teclas…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "Restablecer predeterminado"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "Descarga el enlace que copies, desde cualquier app, sin abrir Klip."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "Atajo global"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "Probar"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "Activar atajo global"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "Copia un enlace de vídeo en cualquier aplicación y pulsa el atajo: Klip lo añade a la cola con tu perfil activo, sin cambiar de ventana. Un enlace a un vídeo de una playlist descarga el vídeo."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "Descarga interactiva"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "Descarga interactiva…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "Las descargas activas conservan su límite actual. Pausa + Reanuda para aplicar cambios."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "Personalizado…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "p. ej. 750K o 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "Limita el ancho de banda de las descargas multimedia. El ritmo de solicitudes de abajo suele ser el control más fuerte."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "Usa un número seguido de K o M (p. ej. 500K, 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "Límite de velocidad de descarga"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "Desactivado"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "Descargando en segundo plano… puedo hacer varias cosas a la vez 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "Descarga rápida pone en cola los elementos cargados con {{profileName}}. Descarga interactiva te permite revisarlos o seleccionarlos antes."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "Suelta un enlace y deja que Klip lo traiga ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "Descarga rápida inicia una descarga con {{profileName}}. Usa Descarga interactiva para cambios puntuales."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "Este enlace indica un vídeo y la lista en la que está: descarga solo el vídeo o la lista."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "Estéreo compatible"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "Estéreo o envolvente cuando un perfil elige audio nativo. Un perfil puede anularlo."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "Preferencia de audio nativo"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "Preferir surround / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "Añade pequeñas pausas durante cada descarga para que Klip no sobrecargue el sitio. Los valores están en segundos."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "Pausa antes de iniciar el medio: máx"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "Pausa antes de iniciar el medio: mín"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "Pausa entre comprobaciones de metadatos"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "Pausa antes de archivos de subtítulos"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "Descargas suaves"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "¿Qué tan cauteloso debe ser Klip?"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "Equilibrado"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "Cuidadoso"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "Personalizado"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "Desactivado"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "Pausas: {{requests}} entre comprobaciones, {{downloads}} antes de iniciar el medio, {{subtitles}} antes de archivos de subtítulos."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "Estas pausas ocurren dentro de cada descarga. Cuántas descargas se ejecutan a la vez se configura por separado, en «Descargas a la vez»."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "Por defecto. Añade pausas cortas entre peticiones y antes de iniciar el medio."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "Añade pausas más largas para playlists grandes o redes que frecuentemente alcanzan límites."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "Ajusta tú mismo los controles avanzados por descarga."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Usa solo las pequeñas pausas base que Klip mantiene para medios y subtítulos."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "seg"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "Enlace abierto en Klip"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "Sustituido por el enlace abierto en Klip"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "Pegar enlace"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "Límite actual: {{count}} elementos"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "Personalizado…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "Usa un número entero de {{min}} a {{max}}."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "Guardar límite"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "Límite de escaneo de playlist personalizado"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "Personalizado: {{count}} elementos"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "Número máximo de entradas que Klip carga al abrir una playlist, canal o resultado de búsqueda."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "Usa un número entero del 1 al 5000"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "Elementos de playlist a escanear"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} elementos"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "Usar el límite de la app: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "Aplicar"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "No se pudo aplicar ese alcance de la lista: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "Aplicar y recargar"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "Cambiar"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "Elige qué carga Klip para esta playlist."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "Alcance de la lista"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "No hay vídeos en ese alcance"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "Primeros"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "Usa números enteros del 1 al {{max}}, con el inicio no mayor que el final."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "Elementos que cargar"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "Alcance de la lista"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "Rango"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "Recargando..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "Restablecer"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "Cargar los primeros elementos: {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "Cargar los primeros elementos: {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "Cargar elementos {{from}}-{{to}}"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "a"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "Perfil activo"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "Integrado"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "Personalizado"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "Oculto"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "Modificado"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "Solo audio"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "Equilibrado 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "Mejor calidad"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "Calidad mínima 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "Ahorro de datos 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "TV inteligente 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "TV inteligente 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "TV inteligente 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "Archivo pequeño 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "Solo subtítulos"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "Cambiar destino global"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "Usando destino global"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "Usando destino global + subcarpeta del perfil"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "Usando anulación del perfil"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "Usando anulación del perfil + subcarpeta del perfil"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "Para cambiar dónde se guarda, edita el perfil."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "Destino"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "Editar"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "Editar perfil activo"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "Los perfiles ocultos permanecen aquí, pero desaparecen de todos los selectores."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "Mostrar perfil en selectores: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "Mantén al menos un perfil disponible."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "Gestionar perfiles"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "Cambia el perfil activo para Descarga rápida, URLs en lote y listas de reproducción."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "Cambiar perfil"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "perfil movible"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "Movimiento cancelado. El perfil {{profileName}} sigue en la posición {{position}} de {{count}}."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "Perfil {{profileName}} soltado en la posición {{position}} de {{count}}."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "Mover {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Para mover un perfil, pulsa Espacio o Intro, muévelo con las teclas de flecha y vuelve a pulsar Espacio o Intro para soltarlo. Pulsa Esc para cancelar."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "El perfil {{profileName}} está sobre la posición {{position}} de {{count}}."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "Perfil {{profileName}} recogido. Está en la posición {{position}} de {{count}}."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "Este perfil guarda en una carpeta que no está definida. Elige una carpeta en el perfil o vuelve a la predeterminada."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "Crea, selecciona, edita o elimina configuraciones de descarga reutilizables."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "Perfiles de descarga"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "Eliminar"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "Arrastra un perfil para moverlo. Todos los selectores de perfil siguen este orden."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "Restablecer"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "Se guarda en"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "Cambiar perfil de descarga: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "Cambiar perfil de descarga"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "Borrar"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "Enruta el tráfico a través de un servidor proxy."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "Proxy URL"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "Descarga rápida"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "Se descargará con: {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "No se pudo añadir: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "No se pudo preparar el elemento de la cola"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "Preparando"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "Falló el análisis"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "Pega una URL de video, playlist, canal o búsqueda para empezar."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "Enviar señales anónimas de actividad y de configuración"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "Sin seguimiento. Una vez al día, una señal anónima envía la versión de la aplicación, el canal de instalación, el sistema operativo, el idioma, el país y, aproximadamente, cuánto hace que se instaló Klip, para contar los usuarios activos y nuevos. Cuando Klip configura o actualiza su motor de descarga o sus herramientas multimedia, también informa de si funcionó y, aproximadamente, cuánto tardó. Sin ID, URL, títulos de vídeo ni nombres de archivo."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "Comportamiento global que también afecta a las descargas controladas por perfiles."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "Comportamiento de descarga"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "Entrada"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "Paneles de cristal sobre un cielo en movimiento. Necesita aceleración gráfica."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "Superficies sólidas y tranquilas. Funciona con fluidez en cualquier ordenador."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "Minimalista"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "Los dos estilos tienen versión clara y oscura."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "Estilo"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Cómo se ve Klip. Cambia entre claro y oscuro en el pie de página."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} necesita aceleración gráfica, que no está disponible ahora, así que Klip muestra {{fallback}}."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "Perfiles"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "Este vídeo"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "Descarga solo este vídeo con {{profileName}}"

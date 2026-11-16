@@ -1,0 +1,800 @@
+import {z} from 'zod'
+import {validateUaToken} from './exploreUserAgent.js'
+import {EXPLORE_ZOOM_MAX, EXPLORE_ZOOM_MIN} from './exploreZoom.js'
+import {isValidSubfolder, SUBFOLDER_NAME_MAX} from './subfolder.js'
+import {autoRetryAttemptsSchema, concurrentDownloadsSchema, concurrentProbesSchema, downloadConnectionsSchema, pacingSleepSecondsSchema} from './settingLimits.js'
+import {AUDIO_CONVERT_TARGETS, type AudioConvertTarget} from './audioTargets.js'
+import {SUPPORTED_LANG_CODES} from './i18n/supportedLangCodes.js'
+import {RATE_LIMIT_EVIDENCE, YT_DLP_ERROR_KINDS, type RateLimitEvidence, type YtDlpErrorKind} from 'ytdlp-errors'
+import {SUBTITLE_FORMATS, SUBTITLE_MODES, SubtitleFormatSchema as subtitleFormatSchema, SubtitleModeSchema as subtitleModeSchema, type SubtitleFormat, type SubtitleMode} from 'yt-dlp-bridge/schemas'
+
+export type {AudioConvertTarget}
+export type {YtDlpErrorKind}
+export {YT_DLP_ERROR_KINDS}
+// yt-dlp-domain enums owned by the packages that build yt-dlp's argv and read
+// its output; re-exported so the app keeps one import site.
+export type {RateLimitEvidence, SubtitleFormat, SubtitleMode}
+export {SUBTITLE_FORMATS, SUBTITLE_MODES}
+
+// Enum schemas — single source of truth. Types below are inferred so adding
+// or removing a value never requires hand-editing a parallel union.
+
+// What a single-video interactive download produces: the Format screen's
+// Video / Audio / Subtitles switch.
+export const wizardMediaKindSchema = z.enum(['video', 'audio', 'subtitles'])
+export type WizardMediaKind = z.infer<typeof wizardMediaKindSchema>
+
+// The Format screen's switch: the download types a profile names. Video, no
+// audio is the Video kind with no audio picked and a stream that has none.
+export const formatModeSchema = z.enum(['video', 'video-only', 'audio', 'subtitles'])
+export type FormatMode = z.infer<typeof formatModeSchema>
+export const FORMAT_MODES = formatModeSchema.options
+
+// Single source for the wizard step list — previously duplicated by hand as
+// `WizardStep` (renderer store/types.ts), `WizardStepName` (shared/types.ts,
+// crosses the logStep IPC boundary) and `WIZARD_STEPS` (wizardStepGraph.ts).
+export const wizardStepNameSchema = z.enum(['url', 'playlistItems', 'playlistPresets', 'playlistProfiles', 'formats', 'sponsorblock', 'output', 'folder', 'confirm', 'error'])
+export type WizardStepName = z.infer<typeof wizardStepNameSchema>
+
+const PLAYLIST_VIDEO_TIER_VALUES = ['best', '2160', '1440', '1080', '720', '480', '360', '240', '144'] as const
+export const playlistVideoTierSchema = z.enum(PLAYLIST_VIDEO_TIER_VALUES)
+export type PlaylistVideoTier = z.infer<typeof playlistVideoTierSchema>
+// Zod v4 stores enum entries in an object, so numeric-like string keys are
+// reordered by JavaScript property ordering. Keep the intended UI order here.
+export const PLAYLIST_VIDEO_TIERS: readonly PlaylistVideoTier[] = PLAYLIST_VIDEO_TIER_VALUES
+
+const playlistVideoCodecSchema = z.enum(['best', 'mp4'])
+
+// What a profile's video is for. Decides the codec the selection order prefers:
+// Best picture keeps yt-dlp's own codec order (AV1, VP9, HEVC, H.264); Smart TV
+// puts H.264 in MP4 first, which YouTube offers only up to 1080p.
+export const videoGoalSchema = z.enum(['best-picture', 'smart-tv'])
+export type VideoGoal = z.infer<typeof videoGoalSchema>
+export const VIDEO_GOALS = videoGoalSchema.options
+
+// A codec a Best picture profile takes first among streams of one height, over
+// yt-dlp's own order (AV1 first). Absent means yt-dlp's order; Smart TV always
+// takes H.264.
+export const videoCodecPreferenceSchema = z.enum(['vp9', 'h264'])
+export type VideoCodecPreference = z.infer<typeof videoCodecPreferenceSchema>
+export const VIDEO_CODEC_PREFERENCES = videoCodecPreferenceSchema.options
+
+// The short codec names the Format screen shows on video chips and columns.
+export const videoCodecNameSchema = z.enum(['AV1', 'VP9', 'VP8', 'HEVC', 'H.264'])
+export type VideoCodecName = z.infer<typeof videoCodecNameSchema>
+
+// The Format screen's Video filter: one codec, or every codec ('all'). Kept
+// across videos; a video without the codec shows every one.
+export const videoCodecFilterSchema = z.enum(['all', ...videoCodecNameSchema.options])
+export type VideoCodecFilter = z.infer<typeof videoCodecFilterSchema>
+
+// The kind of file a video download is saved as. `auto` lets the picked
+// streams decide; the others remux (copy streams, never re-encode).
+export const videoFileTypeSchema = z.enum(['auto', 'mp4', 'mkv', 'webm'])
+export type VideoFileType = z.infer<typeof videoFileTypeSchema>
+export const VIDEO_FILE_TYPES = videoFileTypeSchema.options
+
+export const nativeAudioPreferenceSchema = z.enum(['compatible', 'surround'])
+export type NativeAudioPreference = z.infer<typeof nativeAudioPreferenceSchema>
+export const NATIVE_AUDIO_PREFERENCES = nativeAudioPreferenceSchema.options
+
+// Whether a profile takes HDR video over SDR when a height offers both. The app
+// default is Auto (see below); SDR is the fallback when the screen doesn't show
+// HDR or nothing is known, because HDR looks washed out on a screen that isn't
+// HDR. A height only offered as HDR is still taken, so the choice never costs
+// resolution.
+export const hdrPreferenceSchema = z.enum(['sdr', 'hdr'])
+export type HdrPreference = z.infer<typeof hdrPreferenceSchema>
+export const HDR_PREFERENCES = hdrPreferenceSchema.options
+
+// The app-wide setting adds `auto`: HDR first only when this screen shows HDR.
+export const hdrSettingSchema = z.enum(['auto', 'sdr', 'hdr'])
+export type HdrSetting = z.infer<typeof hdrSettingSchema>
+export const HDR_SETTINGS = hdrSettingSchema.options
+
+// Global + profile override, like the save folder and the file name: `default`
+// follows Settings, `custom` is this profile's own choice.
+export const nativeAudioChoiceSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('default')}), z.object({kind: z.literal('custom'), preference: nativeAudioPreferenceSchema})])
+export type NativeAudioChoice = z.infer<typeof nativeAudioChoiceSchema>
+
+export const playlistAudioFormatSchema = z.enum(['best', 'mp3', 'm4a', 'opus'])
+export type PlaylistAudioFormat = z.infer<typeof playlistAudioFormatSchema>
+
+export const downloadProfileAudioFormatSchema = z.enum(['best', 'mp3', 'm4a', 'opus', 'wav'])
+export type DownloadProfileAudioFormat = z.infer<typeof downloadProfileAudioFormatSchema>
+
+export const downloadProfileIconSchema = z.enum(['controls', 'download', 'video', 'captions', 'audio', 'music', 'podcast', 'classes', 'clip', 'archive'])
+export const builtinDownloadProfileIdSchema = z.enum(['best-quality', 'best-2160', 'best-1440', 'hd-1080', 'balanced', 'small-file', 'mp4-1080', 'mp4-720', 'mp4-480', 'audio-only', 'subtitles-only', 'low-240', 'low-144'])
+export type BuiltinDownloadProfileId = z.infer<typeof builtinDownloadProfileIdSchema>
+export type DownloadProfileIcon = z.infer<typeof downloadProfileIconSchema>
+export const DOWNLOAD_PROFILE_ICONS = downloadProfileIconSchema.options
+
+export const sponsorBlockModeSchema = z.enum(['off', 'mark', 'remove'])
+export type SponsorBlockMode = z.infer<typeof sponsorBlockModeSchema>
+export const SPONSORBLOCK_MODES = sponsorBlockModeSchema.options
+
+export const sponsorBlockCategorySchema = z.enum(['sponsor', 'intro', 'outro', 'selfpromo', 'music_offtopic', 'preview', 'filler'])
+export type SponsorBlockCategory = z.infer<typeof sponsorBlockCategorySchema>
+export const SPONSORBLOCK_CATEGORIES = sponsorBlockCategorySchema.options
+
+// Audio-conversion targets surfaced in the wizard's audio column. yt-dlp will
+// run --extract-audio + --audio-format <target> as a post-processor (requires
+// ffmpeg). For lossy targets (mp3/m4a/opus) the bitrate is shared via the
+// strip below the column; wav has no bitrate.
+const LOSSY_TARGET_VALUES = AUDIO_CONVERT_TARGETS.flatMap(s => (s.lossy ? [s.target] : [])) as ['mp3', 'm4a', 'opus']
+
+export const audioBitrateSchema = z.union([z.literal(128), z.literal(192), z.literal(256), z.literal(320)])
+export type AudioBitrate = z.infer<typeof audioBitrateSchema>
+export const AUDIO_BITRATES: readonly AudioBitrate[] = [128, 192, 256, 320]
+export const DEFAULT_AUDIO_BITRATE: AudioBitrate = 192
+
+export const audioTrackQualitySchema = z.enum(['low', 'medium', 'high'])
+export type AudioTrackQuality = z.infer<typeof audioTrackQualitySchema>
+export const AUDIO_TRACK_QUALITIES = audioTrackQualitySchema.options
+
+// Hard cap on subtitle languages per download — protects against argv length blow-up.
+export const MAX_SUBTITLE_LANGUAGES = 50
+
+export const PLAYLIST_PROBE_LIMIT_MIN = 1
+export const PLAYLIST_PROBE_LIMIT_MAX = 5000
+
+export const playlistProbeLimitSchema = z.number().int().min(PLAYLIST_PROBE_LIMIT_MIN).max(PLAYLIST_PROBE_LIMIT_MAX)
+
+const subfolderNameSchema = z
+	.string()
+	.max(SUBFOLDER_NAME_MAX)
+	.refine(s => s === '' || isValidSubfolder(s), {message: 'Invalid subfolder name'})
+
+// `best` is yt-dlp's `--audio-format best`: the audio extracted, its codec kept wherever yt-dlp can.
+export const audioConvertSchema = z.discriminatedUnion('target', [z.object({target: z.literal('best')}), z.object({target: z.literal('wav')}), z.object({target: z.enum(LOSSY_TARGET_VALUES), bitrateKbps: audioBitrateSchema})])
+export type AudioConvert = z.infer<typeof audioConvertSchema>
+
+// Which tracks of each language a profile or batch fetches. `manual-and-auto`
+// adds the automatic caption beside an uploaded track of the same language;
+// `manual-first` takes it only where no uploaded track exists.
+export const downloadProfileSubtitleSourceSchema = z.enum(['manual-first', 'manual-and-auto', 'manual-only', 'auto-only'])
+export type DownloadProfileSubtitleSource = z.infer<typeof downloadProfileSubtitleSourceSchema>
+
+// A subtitles-only batch has no media file to embed into, so the delivery
+// choice is narrower than the single-video wizard's SubtitleMode.
+export const playlistSubtitleModeSchema = subtitleModeSchema.exclude(['embed'])
+export type PlaylistSubtitleMode = z.infer<typeof playlistSubtitleModeSchema>
+export const PLAYLIST_SUBTITLE_MODES = playlistSubtitleModeSchema.options
+
+export const playlistSelectionSchema = z.discriminatedUnion('kind', [
+	z.object({kind: z.literal('video'), tier: playlistVideoTierSchema, codec: playlistVideoCodecSchema}),
+	z.object({kind: z.literal('audio'), format: playlistAudioFormatSchema, bitrateKbps: audioBitrateSchema.optional()}),
+	z.object({kind: z.literal('subtitles'), languages: z.array(z.string()).max(MAX_SUBTITLE_LANGUAGES), source: downloadProfileSubtitleSourceSchema, mode: playlistSubtitleModeSchema, format: subtitleFormatSchema})
+])
+export type PlaylistSelection = z.infer<typeof playlistSelectionSchema>
+export type PlaylistSubtitleSelection = Extract<PlaylistSelection, {kind: 'subtitles'}>
+export const DEFAULT_PLAYLIST_SELECTION: PlaylistSelection = {kind: 'video', tier: 'best', codec: 'best'}
+export const DEFAULT_PLAYLIST_SUBTITLE_SELECTION: PlaylistSubtitleSelection = {kind: 'subtitles', languages: [], source: 'manual-first', mode: 'sidecar', format: 'srt'}
+
+// Playlist picker sort order. View-only: `id` and `playlistIndex` are immutable
+// probe-order identity (mixes repeat videos, so ids are per-row), and sorting
+// never recomputes them. Upload-time modes need per-row `timestamp`; rows
+// without one sort last, stable in api order. No update-time option — no
+// extractor Arroxy supports provides a modified timestamp.
+export const playlistSortModeSchema = z.enum(['api', 'upload-asc', 'upload-desc'])
+export type PlaylistSortMode = z.infer<typeof playlistSortModeSchema>
+export const PLAYLIST_SORT_MODES = playlistSortModeSchema.options
+
+const downloadProfileAudioSchema = z.object({format: downloadProfileAudioFormatSchema, bitrateKbps: audioBitrateSchema.optional()})
+
+export const hdrChoiceSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('default')}), z.object({kind: z.literal('custom'), preference: hdrPreferenceSchema})])
+export type HdrChoice = z.infer<typeof hdrChoiceSchema>
+
+// Whether a profile may pick a stream the site upscaled with AI (YouTube's
+// "-sr" formats on old uploads): taller on paper, no real detail added.
+export const aiUpscaledSchema = z.enum(['skip', 'allow'])
+
+// What yt-dlp's notes say about a single stream, beyond its size and codec.
+// The Format screen tags each one, so nothing about a stream is hidden.
+const formatMarkerSchema = z.enum(['ai-upscaled', 'ai-dubbed', 'audio-description', 'spatial-audio', 'vr', 'enhanced-bitrate', 'damaged', 'watermarked'])
+export type FormatMarker = z.infer<typeof formatMarkerSchema>
+export type AiUpscaled = z.infer<typeof aiUpscaledSchema>
+export const AI_UPSCALED_CHOICES = aiUpscaledSchema.options
+
+// `hdr` absent means `default`: profiles saved before the choice existed follow
+// the app setting, which upgrades to HDR for existing installs. `aiUpscaled`
+// absent means `skip`, for profiles saved before the choice existed too.
+// `videoCodec` absent means yt-dlp's own codec order.
+const videoMediaFields = {goal: videoGoalSchema, tier: playlistVideoTierSchema, fileType: videoFileTypeSchema, hdr: hdrChoiceSchema.optional(), aiUpscaled: aiUpscaledSchema.optional(), videoCodec: videoCodecPreferenceSchema.optional()}
+const videoAudioMediaSchema = z.object({kind: z.literal('video-audio'), ...videoMediaFields, audio: z.object({native: nativeAudioChoiceSchema})})
+const videoOnlyMediaSchema = z.object({kind: z.literal('video-only'), ...videoMediaFields})
+const audioOnlyMediaSchema = z.object({kind: z.literal('audio-only'), audio: downloadProfileAudioSchema})
+
+// Profiles and queued jobs saved before the selection order existed carry
+// `codec` + `tiers` (and an `audio.format` of best/m4a). Read them once into
+// the new shape so an upgrade never drops a saved profile or a queued job:
+// mp4 → Smart TV; an AAC pick on native video → Best picture saved as MP4,
+// the file type that keeps AAC.
+const legacyVideoMediaSchema = z.looseObject({kind: z.enum(['video-audio', 'video-only']), codec: playlistVideoCodecSchema, tiers: z.array(z.string()).optional(), audio: z.object({format: z.string()}).optional()})
+
+function upgradeLegacyVideoMedia(raw: unknown): unknown {
+	const legacy = legacyVideoMediaSchema.safeParse(raw)
+	if (!legacy.success) return raw
+	const {codec, tiers, audio, ...rest} = legacy.data
+	const goal = codec === 'mp4' ? 'smart-tv' : 'best-picture'
+	const fileType = goal === 'best-picture' && audio?.format === 'm4a' ? 'mp4' : 'auto'
+	const upgraded = {...rest, goal, tier: tiers?.[0] ?? 'best', fileType}
+	return rest.kind === 'video-audio' ? {...upgraded, audio: {native: {kind: 'default'}}} : upgraded
+}
+
+export const downloadProfileMediaSchema = z.preprocess(upgradeLegacyVideoMedia, z.discriminatedUnion('kind', [videoAudioMediaSchema, videoOnlyMediaSchema, audioOnlyMediaSchema, z.object({kind: z.literal('subtitles-only')})]))
+export type DownloadProfileMedia = z.infer<typeof downloadProfileMediaSchema>
+
+export const mediaIntentSchema = z.preprocess(upgradeLegacyVideoMedia, z.discriminatedUnion('kind', [videoAudioMediaSchema, videoOnlyMediaSchema, audioOnlyMediaSchema]))
+export type MediaIntent = z.infer<typeof mediaIntentSchema>
+export type VideoMediaIntent = Extract<MediaIntent, {kind: 'video-audio' | 'video-only'}>
+
+const downloadProfileSubtitlesSchema = z.object({enabled: z.boolean(), languages: z.array(z.string()).max(MAX_SUBTITLE_LANGUAGES), source: downloadProfileSubtitleSourceSchema, mode: subtitleModeSchema, format: subtitleFormatSchema})
+
+const downloadProfileOutputSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('default')}), z.object({kind: z.literal('fixed'), dir: z.string().min(1)})])
+
+// Tokens a user may type in a filename template. The token -> yt-dlp field
+// mapping lives in filenameTemplate.ts; only the names are enumerated here.
+// `ext` is deliberately absent — the extension is always appended, never typed.
+export const filenameTokenSchema = z.enum(['title', 'uploader', 'id', 'date', 'year', 'resolution', 'site', 'categories', 'artist', 'album', 'track', 'playlist_index', 'playlist_title', 'playlist_id'])
+export type FilenameToken = z.infer<typeof filenameTokenSchema>
+export const FILENAME_TOKENS = filenameTokenSchema.options
+// Tokens only a playlist entry has a value for; a single video binds them empty.
+export const PLAYLIST_FILENAME_TOKENS = filenameTokenSchema.extract(['playlist_index', 'playlist_title', 'playlist_id']).options
+// Templates are path expressions ({uploader}/{playlist_title}/{title}), so the
+// cap covers several segments rather than one filename.
+export const FILENAME_TEMPLATE_MAX = 200
+export const DOWNLOAD_PROFILE_NAME_MAX = 80
+
+// Mirrors downloadProfileOutputSchema: `default` inherits the global filename
+// template, `custom` overrides it for this profile only.
+const downloadProfileFilenameSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('default')}), z.object({kind: z.literal('custom'), template: z.string().trim().min(1).max(FILENAME_TEMPLATE_MAX)})])
+
+export const downloadProfileSchema = z.object({
+	id: z.string().min(1),
+	// Absent only on a built-in the user never renamed: it shows the built-in's
+	// own name in the app language. A custom profile always carries one.
+	name: z.string().trim().min(1).max(DOWNLOAD_PROFILE_NAME_MAX).optional(),
+	icon: downloadProfileIconSchema,
+	// `.default` so every profile persisted before the visibility switch existed
+	// keeps parsing and lands enabled — same migration lever as `filename` below.
+	enabled: z.boolean().default(true),
+	media: downloadProfileMediaSchema,
+	subtitles: downloadProfileSubtitlesSchema,
+	output: downloadProfileOutputSchema,
+	// `.default` so profiles persisted before templates existed keep parsing
+	// instead of being dropped as invalid on upgrade.
+	filename: downloadProfileFilenameSchema.default({kind: 'default'}),
+	subfolder: z.object({enabled: z.boolean(), name: subfolderNameSchema}),
+	sponsorBlock: z.object({mode: sponsorBlockModeSchema, categories: z.array(sponsorBlockCategorySchema)}),
+	embed: z.object({chapters: z.boolean(), metadata: z.boolean(), thumbnail: z.boolean(), description: z.boolean(), thumbnailSidecar: z.boolean()}),
+	createdAt: z.string(),
+	updatedAt: z.string()
+})
+export type DownloadProfile = z.infer<typeof downloadProfileSchema>
+// Only a built-in may leave its name to the catalog.
+export const customDownloadProfileSchema = downloadProfileSchema.refine(profile => profile.name !== undefined, {message: 'A custom profile needs a name', path: ['name']})
+
+export const downloadProfileRefSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('builtin'), id: z.string().min(1)}), z.object({kind: z.literal('custom'), id: z.string().min(1)})])
+export type DownloadProfileRef = z.infer<typeof downloadProfileRefSchema>
+
+export const downloadProfilesPrefsSchema = z.object({
+	active: downloadProfileRefSchema,
+	custom: z.array(customDownloadProfileSchema),
+	overrides: z.array(downloadProfileSchema),
+	// Built-in visibility only. Keyed by built-in id; absent = use the built-in's
+	// own `enabled` default, so a later change to that default still reaches users.
+	// Custom profiles carry their own `enabled` — they are fully persisted.
+	enabledOverrides: z.record(z.string(), z.boolean()).default({}),
+	// The user's order for every profile list, built-ins and custom mixed, by id.
+	// Absent = never reordered: built-ins first, then custom profiles.
+	order: z.array(z.string()).optional()
+})
+export type DownloadProfilesPrefs = z.infer<typeof downloadProfilesPrefsSchema>
+
+// Renderer's audio-column selection: none, native, extract, and the two convert kinds.
+export const audioSelectionSchema = z.discriminatedUnion('kind', [
+	z.object({kind: z.literal('none')}),
+	z.object({kind: z.literal('native'), formatId: z.string().min(1)}),
+	// Audio mode on a site with only combined files: their audio, as it is.
+	// `formatId`: the combined file to extract, when the profile's yt-dlp pick
+	// named one; without it yt-dlp takes its own best.
+	z.object({kind: z.literal('extract'), formatId: z.string().min(1).optional()}),
+	// `sourceFormatId`: the stream to convert, set when the video has several
+	// audio languages; without it yt-dlp converts the source's default track.
+	z.object({kind: z.literal('convert-lossless'), target: z.literal('wav'), sourceFormatId: z.string().min(1).optional()}),
+	z.object({kind: z.literal('convert-lossy'), target: z.enum(LOSSY_TARGET_VALUES), bitrateKbps: audioBitrateSchema, sourceFormatId: z.string().min(1).optional()})
+])
+export type AudioSelection = z.infer<typeof audioSelectionSchema>
+
+export const supportedLangSchema = z.enum(SUPPORTED_LANG_CODES)
+export type SupportedLang = z.infer<typeof supportedLangSchema>
+export const SUPPORTED_LANGS = supportedLangSchema.options
+
+export const uiThemeSchema = z.enum(['light', 'dark', 'system'])
+export type UiTheme = z.infer<typeof uiThemeSchema>
+
+// How long ago an install sent its first heartbeat; `existing` is an install
+// counted before first days were recorded, whose age is unknown.
+export const installAgeSchema = z.enum(['new', '1-7d', '8-30d', '31-90d', 'over-90d', 'existing'])
+export type InstallAge = z.infer<typeof installAgeSchema>
+
+// Why a dependency failed to set up. `timeout` is a tool too slow to respond, or
+// a wait on another install's lock; a download that stopped moving is
+// `download_stalled`.
+export const dependencyFailureKindSchema = z.enum(['download_failed', 'extract_failed', 'hash_failed', 'spawn_failed', 'permission_denied', 'blocked_or_quarantined', 'bad_exit_code', 'timeout', 'pair_incomplete', 'download_stalled'])
+export type DependencyFailureKind = z.infer<typeof dependencyFailureKindSchema>
+export const DEPENDENCY_FAILURE_KINDS = dependencyFailureKindSchema.options
+
+// Where the binary manifest a warmup used came from.
+export const binaryManifestSourceSchema = z.enum(['local', 'remote', 'last-known-good', 'bundled'])
+export type BinaryManifestSource = z.infer<typeof binaryManifestSourceSchema>
+
+export const closeBehaviorSchema = z.enum(['ask', 'tray', 'quit'])
+export type CloseBehavior = z.infer<typeof closeBehaviorSchema>
+
+// Electron accelerator chord for the global clipboard-download hotkey:
+// modifiers + one key from Electron's accelerator key list (the keys the
+// recorder can emit). Registered via Electron's globalShortcut, which rejects
+// malformed chords at register time. Older recorders saved `Backquote`, which
+// is not an Electron key name and makes globalShortcut.register throw; it is
+// read as "`" instead of rejected, since a rejected field resets every common
+// setting on load.
+const HOTKEY_MODIFIER = '(?:CommandOrControl|Cmd|Ctrl|Alt|Option|AltGr|Shift|Super|Meta)'
+const HOTKEY_KEY = "(?:[0-9A-Z]|F(?:[1-9]|1[0-9]|2[0-4])|Space|Tab|Return|Backspace|Delete|Insert|Home|End|PageUp|PageDown|Up|Down|Left|Right|Capslock|Numlock|Scrolllock|PrintScreen|num[0-9]|numdec|numadd|numsub|nummult|numdiv|[-=\\[\\];',./\\\\`]|Backquote)"
+export const hotkeyAcceleratorSchema = z
+	.string()
+	.regex(new RegExp(`^${HOTKEY_MODIFIER}(?:\\+${HOTKEY_MODIFIER})*\\+${HOTKEY_KEY}$`), 'Use modifiers plus one key, e.g. CommandOrControl+Shift+D')
+	.transform(chord => chord.replace(/\+Backquote$/, '+`'))
+export type HotkeyAccelerator = z.infer<typeof hotkeyAcceleratorSchema>
+
+// Every hotkey press is acknowledged at once with one of these outcomes, and
+// followed up once more only when its link ends needing the user — no silent
+// paths (the OmniGet #198 lesson). Main runs the press and derives them.
+export const hotkeyOutcomeSchema = z.enum(['queued', 'already-queued', 'invalid-clipboard', 'multiple-urls', 'submission-failed', 'needs-review', 'cookies-setup'])
+export type HotkeyOutcome = z.infer<typeof hotkeyOutcomeSchema>
+
+// An outcome and the intake it belongs to (none when the press took no link
+// in), so the ack and its follow-up name the same one. Main adds its `toast`
+// verdict — focused, on-screen and listening (see hotkeyFeedback) — to the
+// event it sends the renderer, which shows the toast only then.
+export const hotkeyOutcomePayloadSchema = z.object({outcome: hotkeyOutcomeSchema, intakeId: z.string().min(1).optional()})
+export type HotkeyOutcomePayload = z.infer<typeof hotkeyOutcomePayloadSchema>
+export const hotkeyOutcomeEventSchema = hotkeyOutcomePayloadSchema.extend({toast: z.boolean()})
+export type HotkeyOutcomeEvent = z.infer<typeof hotkeyOutcomeEventSchema>
+
+// Main reads the clipboard and pre-classifies it; the hotkey's intake (in
+// main too) takes it from there.
+export const hotkeyTriggerSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('single'), url: z.string()}), z.object({kind: z.literal('multiple')}), z.object({kind: z.literal('empty')})])
+export type HotkeyTriggerPayload = z.infer<typeof hotkeyTriggerSchema>
+
+// Registration state, pulled by the settings UI (register() returns false when
+// another app owns the chord).
+export const hotkeyStateSchema = z.object({accelerator: z.string().nullable(), registered: z.boolean()})
+export type HotkeyState = z.infer<typeof hotkeyStateSchema>
+export const hotkeyRegistrationStatusSchema = z.enum(['off', 'pending', 'registered', 'conflict'])
+export type HotkeyRegistrationStatus = z.infer<typeof hotkeyRegistrationStatusSchema>
+
+// How surfaces are painted (DESIGN.md §8). Independent of the light/dark color scheme.
+export const uiStyleSchema = z.enum(['aurora', 'minimal'])
+export type UiStyle = z.infer<typeof uiStyleSchema>
+export const UI_STYLES = uiStyleSchema.options
+
+export const graphicsPolicyBackdropReasonSchema = z.enum(['gpu-feature-disabled', 'gpu-feature-software', 'virtual-or-software-renderer', 'gpu-info-unavailable'])
+export type GraphicsPolicyBackdropReason = z.infer<typeof graphicsPolicyBackdropReasonSchema>
+
+export const wizardModeSchema = z.enum(['single', 'playlist', 'bulk'])
+export type WizardMode = z.infer<typeof wizardModeSchema>
+
+export const bulkMetadataStatusSchema = z.enum(['idle', 'resolving', 'done'])
+export type BulkMetadataStatus = z.infer<typeof bulkMetadataStatusSchema>
+
+export const bulkMetadataItemStatusSchema = z.enum(['pending', 'resolving', 'done', 'failed'])
+export type BulkMetadataItemStatus = z.infer<typeof bulkMetadataItemStatusSchema>
+
+export const bulkMetadataCancelReasonSchema = z.enum(['queue-submit', 'reset', 'back-to-url', 'start-new-bulk'])
+export type BulkMetadataCancelReason = z.infer<typeof bulkMetadataCancelReasonSchema>
+
+// `deferred`: the caller declined its probe slot once granted (ProbeSlots); nothing spawned.
+export const probeOtherErrorCodeSchema = z.enum(['cancelled', 'cookies_config', 'deferred', 'invalid_url', 'no_formats', 'parse', 'playlist_empty', 'redirect_loop', 'schema', 'unknown'])
+export type ProbeOtherErrorCode = z.infer<typeof probeOtherErrorCodeSchema>
+
+// `limit`: refused by an admission limit (an intake's rows), not by the input.
+export const appErrorCodeSchema = z.enum(['validation', 'conflict', 'limit', 'token', 'binary', 'download', 'ipc', 'unknown'])
+export type AppErrorCode = z.infer<typeof appErrorCodeSchema>
+
+export const bulkUrlKindSchema = z.enum(['single', 'playlist', 'channel', 'search', 'mixed', 'unknown'])
+export type BulkUrlKind = z.infer<typeof bulkUrlKindSchema>
+
+export const bulkUrlRejectReasonSchema = z.enum(['duplicate'])
+export type BulkUrlRejectReason = z.infer<typeof bulkUrlRejectReasonSchema>
+
+export const cookiesModeSchema = z.enum(['off', 'file', 'browser', 'explore'])
+export type CookiesMode = z.infer<typeof cookiesModeSchema>
+export const COOKIES_MODES = cookiesModeSchema.options
+
+// A download's identity for yt-dlp. `exploreSession` is set only by main when a
+// run failed in a way an account can fix (escalation), and sticks to the job.
+export const jobAuthSchema = z.enum(['anonymous', 'exploreSession'])
+export type JobAuth = z.infer<typeof jobAuthSchema>
+export const JOB_AUTHS = jobAuthSchema.options
+
+// What a page load on the Explore partition says about the session. `unknown`:
+// the check could not tell (proxy, timeout, load failure, off the site).
+const exploreSignInStateSchema = z.enum(['signedIn', 'signedOut', 'unknown'])
+export type ExploreSignInState = z.infer<typeof exploreSignInStateSchema>
+
+// Why the Explore view shows its error surface: `proxy` — the proxy setting is
+// not usable, so nothing was loaded (fail closed); `load` — the page failed to load.
+const exploreViewErrorSchema = z.enum(['proxy', 'load'])
+export type ExploreViewError = z.infer<typeof exploreViewErrorSchema>
+
+// The Explore ad blocker as it stands: `off` (the setting is off), `starting` (filter lists loading),
+// `on` (blocking), `unavailable` (on, but no filter lists could be fetched and none are cached: nothing is blocked).
+const exploreAdBlockStatusSchema = z.enum(['off', 'starting', 'on', 'unavailable'])
+export type ExploreAdBlockStatus = z.infer<typeof exploreAdBlockStatusSchema>
+
+// Where plain text typed in Explore's address bar is searched; unset means DuckDuckGo (see exploreSearchEngineOf).
+const exploreSearchEngineSchema = z.enum(['duckduckgo', 'brave', 'google', 'bing', 'youtube'])
+export type ExploreSearchEngine = z.infer<typeof exploreSearchEngineSchema>
+export const EXPLORE_SEARCH_ENGINES = exploreSearchEngineSchema.options
+
+// What the renderer is told about the Explore view. Carries no cookie data: `signedIn` is a presence
+// flag, never the cookies behind it. The schema is also the outbound filter, so a field added to the
+// host's state cannot reach the renderer until it is listed here.
+export const exploreViewStateSchema = z.object({url: z.string(), title: z.string(), canGoBack: z.boolean(), canGoForward: z.boolean(), loading: z.boolean(), signedIn: z.boolean(), error: exploreViewErrorSchema.nullable(), adBlock: exploreAdBlockStatusSchema})
+export type ExploreViewState = z.infer<typeof exploreViewStateSchema>
+
+export const cookiesBrowserSchema = z.enum(['firefox', 'chromium', 'chrome', 'brave', 'edge', 'opera', 'safari', 'vivaldi', 'whale'])
+export type CookiesBrowser = z.infer<typeof cookiesBrowserSchema>
+
+export const networkPacingPresetSchema = z.enum(['off', 'balanced', 'careful', 'custom'])
+export type NetworkPacingPreset = z.infer<typeof networkPacingPresetSchema>
+
+export const runtimeBinaryIdSchema = z.enum(['yt-dlp'])
+export type RuntimeBinaryId = z.infer<typeof runtimeBinaryIdSchema>
+
+export const runtimeBinaryChannelSchema = z.enum(['nightly', 'stable', 'default'])
+export type RuntimeBinaryChannel = z.infer<typeof runtimeBinaryChannelSchema>
+
+export const runtimeBinaryProviderSchema = z.enum(['github', 'sourceforge'])
+export type RuntimeBinaryProvider = z.infer<typeof runtimeBinaryProviderSchema>
+
+export const runtimeBinaryPlatformSchema = z.enum(['win32', 'darwin', 'linux'])
+export type RuntimeBinaryPlatform = z.infer<typeof runtimeBinaryPlatformSchema>
+
+export const runtimeBinaryArchSchema = z.enum(['x64', 'arm64'])
+
+export const runtimeBinaryFormatSchema = z.enum(['raw', 'zip'])
+
+export const ffmpegPackageFormatSchema = z.enum(['tar.br'])
+
+// QueueItemStatus splits paused in two. paused-held is
+// "queued + waiting + never spawned a job" (resume = transition to pending).
+// paused-active is "had a running job, user paused it" (resume = re-spawn,
+// possibly across an app restart via persisted tempDir + lastJobId).
+// `probing` and `needs-choice` are a quick download's placeholder row before
+// it has a job: its probe is running, or its probe found something only the
+// user can decide (how much of a list to download).
+export const queueItemStatusSchema = z.enum(['probing', 'needs-choice', 'pending', 'running', 'paused-held', 'paused-active', 'done', 'error', 'cancelled'])
+export type QueueItemStatus = z.infer<typeof queueItemStatusSchema>
+
+// What a YouTube `list=` id names, read from its prefix.
+export const listKindSchema = z.enum(['playlist', 'mix', 'album', 'uploads', 'watch-later', 'liked'])
+export type ListKind = z.infer<typeof listKindSchema>
+
+// What a needs-choice row asks.
+// `list-size`: how much of a list to download. `loaded`: the videos the probe
+// kept, up to the load limit. `capped`: the list goes on past them, so
+// `loaded` is a lower bound. Answers: All and Review always, First `loaded`
+// only when capped.
+// `video-or-list`: a Bulk URLs link that names a video and a list, asked
+// before anything is probed. `list`: what kind of list it names. Answers:
+// This video, the list in the background, or Pick from it (the Review).
+export const queueChoiceSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('list-size'), loaded: z.number().int().nonnegative(), capped: z.boolean()}), z.object({kind: z.literal('video-or-list'), list: listKindSchema})])
+export type QueueChoice = z.infer<typeof queueChoiceSchema>
+// The question a probe raises (the video-or-list one is asked before any probe).
+export type ListSizeChoice = Extract<QueueChoice, {kind: 'list-size'}>
+
+// Lane controls how the scheduler treats an item. `normal` items respect the
+// single-slot cap and the inter-job sleep window — typical queue flow.
+// `priority` items spawn alongside whatever is running and bypass the sleep
+// window, gated only by the maxConcurrent ceiling. User intent: "skip the
+// queue, pull this now." Set via the wizard's "Pull it!" CTA or the Queue
+// Manager's Pull-now action.
+export const queueLaneSchema = z.enum(['normal', 'priority'])
+export type QueueLane = z.infer<typeof queueLaneSchema>
+
+export const queueArtifactKindSchema = z.enum(['media', 'subtitle', 'thumbnail', 'description', 'companion', 'unknown'])
+export type QueueArtifactKind = z.infer<typeof queueArtifactKindSchema>
+
+export const queueSelectionActionSchema = z.enum(['pause', 'resume', 'cancel', 'retry', 'remove', 'pull-now'])
+export type QueueSelectionAction = z.infer<typeof queueSelectionActionSchema>
+
+const queueActionSkippedFailureReasonSchema = z.enum(['invalid-status', 'failed'])
+const queueActionSkippedItemSchema = z.union([z.object({itemId: z.string().min(1), reason: z.literal('not-found')}), z.object({itemId: z.string().min(1), status: queueItemStatusSchema, reason: queueActionSkippedFailureReasonSchema})])
+export type QueueActionSkippedItem = z.infer<typeof queueActionSkippedItemSchema>
+
+// Where a whole-queue pause or resume left the scheduler.
+export const queueSchedulerStateSchema = z.enum(['paused', 'running'])
+export type QueueSchedulerState = z.infer<typeof queueSchedulerStateSchema>
+
+export const queueTableColumnIdSchema = z.enum(['title', 'status', 'progressPercent', 'formatLabel', 'outputDir', 'artifacts', 'fileSize', 'addedAt', 'finishedAt'])
+export type QueueTableColumnId = z.infer<typeof queueTableColumnIdSchema>
+export const QUEUE_TABLE_COLUMN_IDS = queueTableColumnIdSchema.options
+
+export const ytDlpErrorKindSchema = z.enum(YT_DLP_ERROR_KINDS)
+
+// Reified queue-status names for use in equality checks. Exact mirror of the schema.
+export const QUEUE_STATUS = {probing: 'probing', needsChoice: 'needs-choice', pending: 'pending', running: 'running', pausedHeld: 'paused-held', pausedActive: 'paused-active', done: 'done', error: 'error', cancelled: 'cancelled'} as const satisfies Record<string, QueueItemStatus>
+
+// Status keys emitted by DownloadService and consumed by the renderer for i18n.
+// Defined as a const object so call-sites can reference STATUS_KEY.X — typos
+// become compile errors and the runtime values match the i18n locale keys.
+export const STATUS_KEY = {
+	preparingBinaries: 'preparingBinaries',
+	mintingToken: 'mintingToken',
+	remintingToken: 'remintingToken',
+	startingYtdlp: 'startingYtdlp',
+	downloadingMedia: 'downloadingMedia',
+	mergingFormats: 'mergingFormats',
+	extractingAudio: 'extractingAudio',
+	convertingVideo: 'convertingVideo',
+	embeddingMetadata: 'embeddingMetadata',
+	movingFiles: 'movingFiles',
+	fetchingSubtitles: 'fetchingSubtitles',
+	sleepingBetweenRequests: 'sleepingBetweenRequests',
+	subtitlesFailed: 'subtitlesFailed',
+	qualityLimited: 'qualityLimited',
+	qualityLimitedSubtitlesFailed: 'qualityLimitedSubtitlesFailed',
+	audioKept: 'audioKept',
+	audioKeptSubtitlesFailed: 'audioKeptSubtitlesFailed',
+	subtitleLanguagesMissing: 'subtitleLanguagesMissing',
+	subtitleLanguagesMissingOthersSaved: 'subtitleLanguagesMissingOthersSaved',
+	noSubtitles: 'noSubtitles',
+	cancelled: 'cancelled',
+	complete: 'complete',
+	usedExtractorFallback: 'usedExtractorFallback',
+	ytdlpProcessError: 'ytdlpProcessError',
+	ytdlpExitCode: 'ytdlpExitCode',
+	downloadingBinary: 'downloadingBinary',
+	unknownStartupFailure: 'unknownStartupFailure',
+	diskSpaceInsufficient: 'diskSpaceInsufficient',
+	outputNotWritable: 'outputNotWritable',
+	fetchingSponsorBlock: 'fetchingSponsorBlock',
+	retryingSponsorBlock: 'retryingSponsorBlock',
+	retryingTransfer: 'retryingTransfer',
+	signingInWithExplore: 'signingInWithExplore',
+	retryingWithoutSignIn: 'retryingWithoutSignIn',
+	exploreSignedOut: 'exploreSignedOut'
+} as const
+export type StatusKey = (typeof STATUS_KEY)[keyof typeof STATUS_KEY]
+
+export const statusKeySchema = z.enum(Object.values(STATUS_KEY) as [StatusKey, ...StatusKey[]])
+
+// Zoom bounds — kept here so the schema constraint and the renderer clamp share one source.
+export const ZOOM_MIN = 0.7
+export const ZOOM_MAX = 1.5
+export const ZOOM_STEP = 0.05
+
+// Permissive http(s) URL schema. Multi-site support means we can't pre-filter
+// by host — yt-dlp itself decides whether the URL is supported (via extractor
+// match) and surfaces "Unsupported URL" via stderr if not.
+export const webUrlSchema = z.url('URL must be valid').refine(value => /^https?:\/\//i.test(value), {message: 'Only http/https URLs are supported'})
+
+const playlistScopeItemsSchema = z.discriminatedUnion('kind', [
+	z.object({kind: z.literal('app-limit')}),
+	z.object({kind: z.literal('first'), count: playlistProbeLimitSchema}),
+	z.object({kind: z.literal('range'), from: playlistProbeLimitSchema, to: playlistProbeLimitSchema}).refine(value => value.from <= value.to, {message: 'Range start must be less than or equal to range end', path: ['to']})
+])
+
+export const playlistScopeSchema = z.object({items: playlistScopeItemsSchema})
+export type PlaylistScope = z.infer<typeof playlistScopeSchema>
+
+// How much of a collection a quick download keeps: its first N entries, or all
+// of them. Chosen by the user (the intake dialog, or a needs-choice answer) and
+// kept on the placeholder row so every probe of that row honours it.
+export const quickProbeTakeSchema = z.discriminatedUnion('kind', [z.object({kind: z.literal('first'), count: playlistProbeLimitSchema}), z.object({kind: z.literal('all')})])
+export type QuickProbeTake = z.infer<typeof quickProbeTakeSchema>
+
+// Per-call probe budget override. 1s floors nonsense values, 5min caps a
+// hung-overridden probe; background hydration pins 180s. The interactive
+// default (180s) applies when the field is absent.
+const probeTimeoutMsSchema = z.number().int().min(1000).max(300_000)
+export const probePlaylistModeSchema = z.enum(['auto', 'video', 'playlist'])
+export type ProbePlaylistMode = z.infer<typeof probePlaylistModeSchema>
+
+// Who asked for a probe, which decides its probe slot (ProbeSlots): the
+// window's own probe goes first; a placeholder row's (intake) and a title
+// lookup's (backfill) are background probes that wait their turn.
+export const probeKindSchema = z.enum(['interactive', 'intake', 'backfill'])
+export type ProbeKind = z.infer<typeof probeKindSchema>
+
+export const probeSchema = z.object({url: webUrlSchema, playlistMode: probePlaylistModeSchema.optional(), playlistScope: playlistScopeSchema.optional(), ownerKey: z.string().min(1).optional(), timeoutMs: probeTimeoutMsSchema.optional()})
+
+// Why a probe that still produced a usable result is marked limited: a bot
+// check on the way, an extractor-side miss, or the site rate-limiting this
+// connection (a different remedy: wait, never cookies).
+export const probeDegradationReasonSchema = z.enum(['botWall', 'extractor', 'rateLimit'])
+export type ProbeDegradationReason = z.infer<typeof probeDegradationReasonSchema>
+
+// What a run showed about the site rate-limiting this connection, named after
+// yt-dlp's wording: an HTTP 429, or YouTube's session limit ("rate-limited by
+// YouTube for up to an hour"), which lasts much longer.
+const rateLimitEvidenceSchema = z.enum(RATE_LIMIT_EVIDENCE)
+
+// A running rate-limit cooldown on the current network route: until when new
+// requests to `site` wait. `site` is the request site key (requestSiteFor).
+const requestSiteSchema = z.string().min(1).max(253)
+export const siteCooldownSchema = z.strictObject({site: requestSiteSchema, until: z.iso.datetime(), evidence: rateLimitEvidenceSchema})
+export type SiteCooldown = z.infer<typeof siteCooldownSchema>
+export const siteTryNowSchema = z.strictObject({site: requestSiteSchema})
+// "Use my sign-in again": downloads use the site's Explore sign-in again (ADR 0022).
+export const signInUseAgainSchema = z.strictObject({site: requestSiteSchema})
+// A background probe that probe slots hold while `site` cools down. `owner` is
+// the probe's owner key: for a Downloads row, its id.
+export const heldProbeSchema = z.strictObject({owner: z.string().min(1), site: requestSiteSchema})
+export type HeldProbe = z.infer<typeof heldProbeSchema>
+
+export const cancelDownloadSchema = z.object({jobId: z.string().optional()})
+
+export const pauseResumeSchema = z.object({jobId: z.string().optional()})
+
+export const resumeSchema = z.object({jobId: z.string().min(1)})
+
+// yt-dlp `--limit-rate` syntax: integer or decimal followed by K (KB/s) or M (MB/s).
+// e.g. "500K", "1.5M". Case-insensitive. Stored verbatim — passed straight to yt-dlp.
+// Empty string is the "off" representation (same pattern as proxyUrl). YtDlp.run()
+// applies `nonEmpty(value.trim())` so empty / whitespace yields no flag.
+export const limitRateSchema = z.string().regex(/^(|\s*|\d+(\.\d+)?[KM])$/i, 'Use a number followed by K or M (e.g. 500K, 1.5M)')
+
+// What the native application menu asks the renderer to do. The renderer owns
+// UI state, so a menu pick is a request, applied through the same store actions
+// as the footer controls. A speed limit left out means no limit.
+export const menuActionSchema = z.discriminatedUnion('kind', [
+	z.object({kind: z.literal('about')}),
+	z.object({kind: z.literal('share')}),
+	z.object({kind: z.literal('feedback')}),
+	z.object({kind: z.literal('settings')}),
+	z.object({kind: z.literal('logs')}),
+	z.object({kind: z.literal('diagnostics')}),
+	z.object({kind: z.literal('speedLimit'), limitRate: limitRateSchema.optional()}),
+	z.object({kind: z.literal('style'), style: uiStyleSchema}),
+	z.object({kind: z.literal('theme'), theme: uiThemeSchema}),
+	z.object({kind: z.literal('language'), language: supportedLangSchema})
+])
+export type MenuAction = z.infer<typeof menuActionSchema>
+
+const commonPathsSchema = z.object({downloads: z.string().nullable(), videos: z.string().nullable(), desktop: z.string().nullable(), music: z.string().nullable(), documents: z.string().nullable(), pictures: z.string().nullable(), home: z.string().nullable()})
+
+const binaryOverridesSchema = z.object({ytDlp: z.string().min(1).optional(), ffmpeg: z.string().min(1).optional(), ffprobe: z.string().min(1).optional()}).partial()
+
+const commonSettingsSchema = z.object({
+	defaultOutputDir: z.string().min(1),
+	rememberLastOutputDir: z.boolean(),
+	lastSubfolderEnabled: z.boolean().optional(),
+	lastSubfolder: subfolderNameSchema.optional(),
+	// Lenient on read: a malformed value only means "not sent today" or "age
+	// unknown", and a strict check here would reset the whole common section.
+	firstHeartbeatDay: z.string().optional(),
+	// Set once edited built-ins have dropped the English names they shipped
+	// with, so a name the user types later is never taken for one.
+	builtinProfileNamesMigrated: z.literal(true).optional(),
+	lastHeartbeatDay: z.string().optional(),
+	uiZoom: z.number().min(ZOOM_MIN).max(ZOOM_MAX).optional(),
+	uiTheme: uiThemeSchema.optional(),
+	uiStyle: uiStyleSchema.optional(),
+	videoCodecFilter: videoCodecFilterSchema.optional(),
+	language: supportedLangSchema.optional(),
+	commonPaths: commonPathsSchema.optional(),
+	cookiesPath: z.string().optional(),
+	cookiesMode: cookiesModeSchema.optional(),
+	cookiesBrowser: cookiesBrowserSchema.optional(),
+	// A profile folder for the browser: a fork's own (Floorp, Helium) or a non-default one.
+	cookiesBrowserProfile: z.string().optional(),
+	proxyUrl: z.string().optional(),
+	exploreEnabled: z.boolean().optional(), // absent means enabled
+	exploreUserAgent: z.string().max(64).optional(),
+	exploreNoticeSeen: z.boolean().optional(),
+	exploreModeAutoSwitched: z.boolean().optional(),
+	exploreModeNudgeDismissedFor: cookiesModeSchema.optional(),
+	// The last site page the Explore view showed, reopened at its next start. Main owns it: written by the view
+	// host (which checks every URL before storing and again before reopening it), never by a renderer update.
+	exploreLastUrl: z.string().optional(),
+	// The Explore ad blocker; absent means off (see isExploreAdBlockOn), only true turns it on.
+	exploreAdBlock: z.boolean().optional(),
+	exploreSearchEngine: exploreSearchEngineSchema.optional(),
+	// Explore idle unload; absent means off (see isExploreIdleUnloadOn), only true turns it on.
+	exploreIdleUnload: z.boolean().optional(),
+	// Compact app chrome (icon-only tab bar, slim footer) while browsing in Explore.
+	exploreCompactChrome: z.boolean().optional(),
+	// The Explore page's zoom as a factor; absent means 100% (see exploreZoomOf).
+	exploreZoom: z.number().min(EXPLORE_ZOOM_MIN).max(EXPLORE_ZOOM_MAX).optional(),
+	nativeAudioPreference: nativeAudioPreferenceSchema.optional(),
+	hdrPreference: hdrSettingSchema.optional(),
+	limitRate: limitRateSchema.optional(),
+	playlistProbeLimit: playlistProbeLimitSchema.optional(),
+	networkPacingPreset: networkPacingPresetSchema.optional(),
+	pacingSleepRequests: pacingSleepSecondsSchema.optional(),
+	pacingSleepInterval: pacingSleepSecondsSchema.optional(),
+	pacingMaxSleepInterval: pacingSleepSecondsSchema.optional(),
+	pacingSleepSubtitles: pacingSleepSecondsSchema.optional(),
+	downloadConnections: downloadConnectionsSchema.optional(),
+	concurrentDownloads: concurrentDownloadsSchema.optional(),
+	concurrentProbes: concurrentProbesSchema.optional(),
+	autoRetryAttempts: autoRetryAttemptsSchema.optional(),
+	autoRemoveCompleted: z.boolean().optional(),
+	clipboardWatchEnabled: z.boolean(),
+	hotkeyEnabled: z.boolean(),
+	hotkeyAccelerator: hotkeyAcceleratorSchema.optional(),
+	filenameTemplate: z.string().trim().min(1).max(FILENAME_TEMPLATE_MAX).optional(),
+	closeBehavior: closeBehaviorSchema.optional(),
+	embedChapters: z.boolean().optional(),
+	embedMetadata: z.boolean().optional(),
+	embedThumbnail: z.boolean().optional(),
+	writeDescription: z.boolean().optional(),
+	writeThumbnail: z.boolean().optional(),
+	writeM3u: z.boolean().optional(),
+	lastSponsorBlockMode: sponsorBlockModeSchema.optional(),
+	lastSponsorBlockCategories: z.array(sponsorBlockCategorySchema).optional(),
+	analyticsEnabled: z.boolean().optional(),
+	firstRunCompleted: z.boolean().optional(),
+	launchCount: z.number().int().nonnegative().optional(),
+	lastReleaseNotesVersionShown: z.string().trim().min(1).optional(),
+	binaryOverrides: binaryOverridesSchema.optional(),
+	successfulDownloadCount: z.number().int().nonnegative().optional(),
+	shareInlineCardDismissed: z.boolean().optional(),
+	shareHighValueBannerDismissed: z.boolean().optional(),
+	styleHintDismissed: z.boolean().optional(),
+	videoPartCalloutDismissed: z.boolean().optional(),
+	exploreLinkCalloutDismissed: z.boolean().optional(),
+	formatProfileCalloutDismissed: z.boolean().optional(),
+	reviewCalloutDismissed: z.boolean().optional()
+})
+
+const playlistPrefsSchema = z.object({lastPlaylistSelection: playlistSelectionSchema.optional()})
+
+export const appSettingsSchema = z.object({common: commonSettingsSchema, playlist: playlistPrefsSchema, profiles: downloadProfilesPrefsSchema})
+
+// Common paths are derived from the OS, the heartbeat days are internal, and the last
+// Explore page is the view host's; none is accepted from renderer settings
+// updates. Deriving the rest keeps the patch contract in lockstep with the
+// persisted settings contract.
+// The UA token is validated on write only: a stored value the validator later
+// rejects must not invalidate the whole persisted `common` section, because the
+// reader (ExploreSessionService) already falls back to the default token.
+const commonSettingsPatchSchema = commonSettingsSchema
+	.partial()
+	.omit({commonPaths: true, builtinProfileNamesMigrated: true, firstHeartbeatDay: true, lastHeartbeatDay: true, exploreLastUrl: true})
+	.extend({
+		exploreUserAgent: z
+			.string()
+			.max(64)
+			.refine(v => validateUaToken(v) !== null, {message: 'exploreUserAgent must be a bland Name/version token'})
+			.optional()
+	})
+
+// Convention for *patch* schemas: every field is `.optional()` only — never
+// `.nullable()`. A patch is "fields the caller wants to change"; "absent" is
+// the same signal as "no change", so adding `.nullable()` introduces a third
+// state ("explicitly clear") that the merge logic in SettingsStore.deepMerge
+// doesn't actually distinguish from undefined.
+const playlistPrefsPatchSchema = z.object({lastPlaylistSelection: playlistSelectionSchema.optional()})
+
+const downloadProfilesPrefsPatchSchema = z.object({active: downloadProfileRefSchema.optional(), custom: z.array(customDownloadProfileSchema).optional(), overrides: z.array(downloadProfileSchema).optional(), enabledOverrides: z.record(z.string(), z.boolean()).optional(), order: z.array(z.string()).optional()})
+
+export const updateSettingsSchema = z.object({common: commonSettingsPatchSchema.optional(), playlist: playlistPrefsPatchSchema.optional(), profiles: downloadProfilesPrefsPatchSchema.optional()}).refine(
+	patch => {
+		const hasField = (sub: Record<string, unknown> | undefined): boolean => sub !== undefined && Object.values(sub).some(v => v !== undefined)
+		return hasField(patch.common) || hasField(patch.playlist) || hasField(patch.profiles)
+	},
+	{message: 'settings:update payload must contain at least one defined field'}
+)
+
+const playlistManifestItemSchema = z.object({videoId: z.string().nullable(), title: z.string(), duration: z.number().optional()})
+
+export const playlistManifestSchema = z.object({playlistGroupId: z.string().min(1), playlistTitle: z.string(), outputDir: z.string().min(1), items: z.array(playlistManifestItemSchema)})
+
+// yt-dlp's info_dict shape lives in `yt-dlp-bridge/info` — the spec port that
+// validates `--dump-single-json` output. Schemas here are app-internal contracts
+// (settings, prefs, queue items — the item contract is in `./queueItemSchema.ts`).

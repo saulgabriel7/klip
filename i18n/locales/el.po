@@ -1,0 +1,5452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "Σχετικά"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "Προβολή ανακοινώσεων τρίτων"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "Ιστότοπος"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "Επιτρέπεται"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "Επιτρέπονται ροές με αναβάθμιση ΤΝ"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "Το YouTube προσφέρει ορισμένα παλιά βίντεο σε μεγέθη που δημιούργησε με ΤΝ. Η «Παράλειψη» κρατά τις αρχικές ροές· μπορείτε ακόμη να επιλέξετε χειροκίνητα μια ροή με αναβάθμιση."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "Ροές με αναβάθμιση ΤΝ"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "Παράλειψη"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "Σχόλια"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "Σου αρέσει το Klip; Θα χαρώ να ακούσω τη γνώμη σου! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "Αρχεία καταγραφής"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "Αποθήκευση αρχείου διαγνωστικών"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "Συγκεντρώνει τα αρχεία καταγραφής και τις λεπτομέρειες της εφαρμογής σε ένα αρχείο στον φάκελο Λήψεις, έτοιμο για επισύναψη σε ένα issue στο GitHub. Το όνομα του φακέλου χρήστη αφαιρείται· οι σύνδεσμοι και οι τίτλοι των βίντεο παραμένουν."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "Νέο: επιλέξτε Aurora ή Μινιμαλιστικό εδώ"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "Θέμα"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "Μεγέθυνση"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "Σμίκρυνση"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "Πίσω"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "Φόρτωση…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "Επανεκκίνηση"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Το Klip συνεχίζει να εκτελείται και ολοκληρώνει τις ενεργές λήψεις. Άλλαξέ το αργότερα στις Ρυθμίσεις για προχωρημένους."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "Απόκρυψη στο δίσκο"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "Απόκρυψη Klip στο δίσκο συστήματος κατά το κλείσιμο;"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "Να μη ζητηθεί ξανά"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "Η ουρά σου διατηρείται και οι λήψεις συνεχίζονται από εκεί που σταμάτησαν την επόμενη φορά που θα ανοίξεις το Klip."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "Συνέχεια λήψεων"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} λήψη σε εξέλιξη"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} λήψεις σε εξέλιξη"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "Η διαδικασία απόδοσης κατέρρευσε ({{reason}}). Ανανέωσε για να δοκιμάσεις ξανά."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Το Klip αντιμετώπισε πρόβλημα"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "Ανανέωση"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "Αντιγράφηκε!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "Αντιγραφή διεύθυνσης"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Το Klip είναι δωρεάν και ανοιχτού κώδικα, χωρίς διαφημίσεις ή επί πληρωμή πακέτο. Οι δωρεές είναι προαιρετικές και δεν δίνουν επιρροή στον οδικό χάρτη."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "Δωρεά"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "Υποστηρίξτε το Klip"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "Κωδικός QR της διεύθυνσης δωρεάς {{coin}}"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "Υποστηρίξτε το Klip"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "Οι πληρωμές κρυπτονομισμάτων είναι μη αναστρέψιμες. Στείλτε μόνο μέσω του δικτύου που εμφανίζεται και συγκρίνετε ολόκληρη τη διεύθυνση."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "Αυτό το βίντεο δεν έχει υπότιτλους στα {{languages}}."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "Αυτό το βίντεο έχει περιορισμό ηλικίας και δεν μπορεί να ληφθεί χωρίς συνδεδεμένο λογαριασμό."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "Η προστασία του ιστότοπου από bots σταμάτησε αυτή τη λήψη. Περίμενε λίγο και δοκίμασε ξανά ή κατέβασε λιγότερα βίντεο ταυτόχρονα. Αν συνεχίζει να αποτυγχάνει, μπορεί να πρόκειται για προσωρινή αλλαγή από πλευράς του ιστότοπου — το Klip ενημερώνει τη μηχανή λήψης κατά την εκκίνηση, οπότε η επιδιόρθωση εφαρμόζεται αυτόματα μόλις κυκλοφορήσει."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "Ο διακομιστής διέκοπτε συνεχώς τη λήψη στη μέση και το Klip τα παράτησε μετά από επανειλημμένες προσπάθειες. Αυτό συμβαίνει συνήθως με τα μεγαλύτερα φορμά βίντεο (4K HDR / VP9 υψηλού ρυθμού μετάδοσης). Δοκίμασε ξανά, άλλαξε δίκτυο/VPN ή επέλεξε χαμηλότερη ανάλυση."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "Αυτό το βίντεο προστατεύεται από DRM. Το Klip δεν μπορεί να αφαιρέσει DRM, οπότε το αρχείο δεν μπορεί να ληφθεί."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "Αυτό το βίντεο δεν προσφέρει πια τη μορφή που επέλεξες. Επικόλλησε ξανά τον σύνδεσμο και διάλεξε από τις μορφές που προσφέρει τώρα."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "Αυτό το βίντεο δεν είναι διαθέσιμο στην περιοχή σου."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "Ο ιστότοπος μπλοκάρει αιτήματα από αυτή τη σύνδεση. Δοκίμασε ξανά αργότερα."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "Αυτό το βίντεο απαιτεί λογαριασμό με σύνδεση."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Το Klip δεν βρήκε το FFmpeg ή το FFprobe. Εκτέλεσε ξανά τη ρύθμιση ή όρισε μια τοποθεσία FFmpeg και μετά δοκίμασε ξανά τη λήψη."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "Σφάλμα δικτύου. Έλεγξε τη σύνδεσή σου και δοκίμασε ξανά."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "Αυτό το βίντεο δεν έχει υπότιτλους στις γλώσσες που ζητήθηκαν."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "Δεν υπάρχει αρκετός χώρος στο δίσκο. Ελευθέρωσε χώρο και δοκίμασε ξανά."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Το Klip δεν μπορεί να γράψει στον φάκελο λήψεων. Μπορεί να είναι μόνο για ανάγνωση, σε κλειδωμένη μονάδα δίσκου ή να μπλοκάρεται από τις ρυθμίσεις απορρήτου του συστήματός σου. Διάλεξε άλλον φάκελο ή επίτρεψε την πρόσβαση και δοκίμασε ξανά."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "Δεν ήταν δυνατή η ανάλυση της απάντησης από τον ιστότοπο. Ο ιστότοπος μπορεί να άλλαξε τον τρόπο με τον οποίο σερβίρει τα βίντεο. Το Klip ενημερώνει τη μηχανή λήψης κατά την εκκίνηση — δοκίμασε ξανά σε λίγα λεπτά μόλις κυκλοφορήσει η διόρθωση."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "Η λήψη ολοκληρώθηκε, αλλά η μετα-επεξεργασία (merge / mux / convert) απέτυχε. Συχνά πρόκειται για παροδικό πρόβλημα του ffmpeg — δοκίμασε ξανά και, αν επιμένει, δοκίμασε διαφορετικό συνδυασμό φορμά."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "Ο ιστότοπος περιορίζει τα αιτήματα από αυτή τη σύνδεση."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "Αυτό το βίντεο δεν είναι διαθέσιμο — μπορεί να είναι ιδιωτικό, διαγραμμένο ή κλειδωμένο ανά περιοχή."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "Η λήψη απέτυχε. Δες το raw output παρακάτω."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Το Klip δεν υποστηρίζει αυτό το URL. Δοκίμασε έναν σύνδεσμο από διαφορετικό ιστότοπο."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "Έλεγξε τη σύνδεσή σου και δοκίμασε ξανά."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "Η σελίδα δεν φορτώθηκε"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "Άνοιγμα ρυθμίσεων"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "Έλεγξε το proxy στις Ρυθμίσεις και δοκίμασε ξανά."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "Η Εξερεύνηση δεν μπορεί να συνδεθεί μέσω του proxy σου"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "Κάνε δεξί κλικ σε οποιονδήποτε σύνδεσμο βίντεο, λίστας αναπαραγωγής ή καναλιού στη σελίδα για να τον κατεβάσεις με το ενεργό προφίλ σου, να διαλέξεις άλλο προφίλ ή να ανοίξεις τη Διαδραστική λήψη."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "Κάνε δεξί κλικ σε έναν σύνδεσμο για λήψη"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "Λήψη του άλμπουμ στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "Λήψη των βίντεο που σου αρέσουν στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Λήψη του Mix στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "Λήψη της λίστας αναπαραγωγής στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "Λήψη των ανεβασμένων βίντεο στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "Λήψη της «Παρακολούθηση αργότερα» στο παρασκήνιο"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "Αντιγραφή συνδέσμου"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "Λήψη των πρώτων {{count}}"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "Λήψη αυτού του βίντεο · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "Λήψη με"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "Από αυτό το άλμπουμ"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "Από τα βίντεο που σου αρέσουν"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "Από αυτό το Mix"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "Από αυτή τη λίστα αναπαραγωγής"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "Από τα ανεβασμένα βίντεο αυτού του καναλιού"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "Από την «Παρακολούθηση αργότερα»"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "Διαδραστική λήψη…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "Αυτό το βίντεο με"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "Νέο"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "Βρες ένα βίντεο στο YouTube ή σε οποιονδήποτε άλλο ιστότοπο και κάνε λήψη από εδώ — χωρίς αντιγραφή συνδέσμων. Συνδέσου εδώ σε έναν ιστότοπο για να κατεβάζεις βίντεο που απαιτούν λογαριασμό."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "Ιστότοποι όπως το YouTube μπορεί να επισημάνουν — και μερικές φορές να αποκλείσουν — λογαριασμούς που χρησιμοποιούνται με εργαλεία λήψης όπως το Klip. Χρησιμοποίησε έναν λογαριασμό που αντέχεις να χάσεις, όχι τον κύριο."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "Συνδέσου με δευτερεύοντα λογαριασμό"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "Περιήγηση στο διαδίκτυο μέσα στο Klip"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "Οι λήψεις χρησιμοποιούν τα cookies του προγράμματος περιήγησής σου, όχι τη σύνδεσή σου στην Εξερεύνηση."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "Οι λήψεις χρησιμοποιούν το αρχείο cookies σου, όχι τη σύνδεσή σου στην Εξερεύνηση."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "Όχι τώρα"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "Τα cookies είναι απενεργοποιημένα, οπότε οι λήψεις δεν χρησιμοποιούν τη σύνδεσή σου στην Εξερεύνηση."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "Χρήση σύνδεσης Εξερεύνησης"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "Περιηγήσου στο YouTube ή σε οποιονδήποτε άλλο ιστότοπο μέσα στο Klip και συνδέσου για βίντεο που απαιτούν λογαριασμό."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "Αποδέσμευση μνήμης στο παρασκήνιο"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "Μετά από 5 λεπτά σε άλλη καρτέλα, κλείνει την αρχική σελίδα ή τη σελίδα αναζήτησης του YouTube. Με την επιστροφή, η σελίδα φορτώνεται ξανά, κάτι που διαρκεί λίγα δευτερόλεπτα."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "Μηχανή αναζήτησης"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "Πού αναζητείται το κείμενο που πληκτρολογείται στη γραμμή διευθύνσεων. Οι σύνδεσμοι ανοίγουν όπως πληκτρολογήθηκαν."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "Εμφάνιση της καρτέλας Εξερεύνηση"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "Η απενεργοποίηση σταματά επίσης τις λήψεις από το να χρησιμοποιούν τη σύνδεσή σου στην Εξερεύνηση."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "Αποσύνδεση από την Εξερεύνηση"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "Αποσύνδεση"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "Διαγράφει τις συνδέσεις σου και τα δεδομένα περιήγησης στην Εξερεύνηση, σε κάθε ιστότοπο. Οι λήψεις που απαιτούν λογαριασμό θα αποτυγχάνουν μέχρι να συνδεθείς ξανά."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "Αποσύνδεση από την Εξερεύνηση;"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "Διαγράφει τις συνδέσεις σου και τα δεδομένα περιήγησης στην Εξερεύνηση, σε κάθε ιστότοπο."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "Εξερεύνηση"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "Εξερεύνηση"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "Το YouTube μπορεί να αντιδράσει στη φραγή διαφημίσεων για συνδεδεμένους λογαριασμούς."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "Φραγή διαφημίσεων"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "Φραγή διαφημίσεων: ανενεργή — κάνε κλικ για ενεργοποίηση"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "Φραγή διαφημίσεων: ενεργή — κάνε κλικ για απενεργοποίηση"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "Φραγή διαφημίσεων: εκκίνηση — κάνε κλικ για απενεργοποίηση"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "Φραγή διαφημίσεων: μη διαθέσιμη, δεν ήταν δυνατή η λήψη των λιστών φίλτρων της — κάνε κλικ για απενεργοποίηση"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "Διεύθυνση"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "Αναζήτηση στο {{engine}} ή άνοιγμα οποιουδήποτε ιστότοπου (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "Στοιχεία ελέγχου του προγράμματος περιήγησης της Εξερεύνησης"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "Πίσω"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "Συμπαγής διάταξη"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "Λήψη"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "Λήψη · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "Μπροστά"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "Εμφάνιση πλήρους διάταξης"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "Άνοιξε ένα βίντεο, μια λίστα αναπαραγωγής ή ένα κανάλι για λήψη"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "Αρχική του YouTube"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "Διαδραστική λήψη: επίλεξε μορφή, υπότιτλους και άλλα…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "Η Εξερεύνηση δεν μπορεί να ανοίξει αυτή τη διεύθυνση."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "Ανανέωση"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "Η αναζήτηση είναι πολύ μεγάλη."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "Αυτό το βίντεο"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "Λήψη μόνο αυτού του βίντεο με το προφίλ {{profileName}}"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "Μεγέθυνση σελίδας: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "Μεγέθυνση"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "Μεγέθυνση σελίδας"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "Σμίκρυνση"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "Ποσοστό μεγέθυνσης"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "Επαναφορά μεγέθυνσης στο 100%"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "Επίλεξε πώς ονομάζονται τα ληφθέντα αρχεία. Κάνε κλικ σε ένα διακριτικό για να το εισαγάγεις. Χρησιμοποίησε / για να ταξινομείς τις λήψεις σε φακέλους."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "Εισαγάγετε ένα πρότυπο ονόματος αρχείου."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "Αφαίρεσε την περιττή / — κάθε φάκελος χρειάζεται όνομα."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "Αφαίρεσε χαρακτήρες που δεν επιτρέπονται σε ονόματα αρχείων: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "Αυτό το όνομα φακέλου δεν επιτρέπεται. Απόφυγε το . και το .. και δεσμευμένα ονόματα όπως CON."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "Πρόσθεσε {title} ή {id} στο όνομα αρχείου ώστε κάθε λήψη να έχει το δικό της όνομα."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "Το {resolution} δεν μπορεί να ονομάσει φάκελο — η ποιότητα δεν είναι γνωστή πριν ξεκινήσει η λήψη."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "Ασυμπλήρωτο { ή } — γράψτε τα στοιχεία όπως {title}."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "Το πρότυπο είναι πολύ μεγάλο."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "Άγνωστο στοιχείο {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "Τελείωσε το όνομα με [{id}] ώστε το Klip να εντοπίζει στοιχεία λίστας αναπαραγωγής που έχουν ήδη ληφθεί και να δημιουργεί λίστες .m3u."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "Πρότυπο ονόματος αρχείου"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "Μη διαθέσιμο, επειδή το πρότυπο ονόματος αρχείου είτε δεν τελειώνει με [{id}] είτε ταξινομεί τις λήψεις σε φακέλους."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "Σε λίστα αναπαραγωγής"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "Μεμονωμένο βίντεο"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "Αφήστε το κενό για να χρησιμοποιηθεί το γενικό πρότυπο."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "Πρότυπο ονόματος αρχείου"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "Αυτόματο"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "Αυτόματο (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "Οι επιλεγμένες ροές καθορίζουν τον τύπο αρχείου."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "Υποστηρίζει οποιονδήποτε κωδικοποιητή. Ορισμένες τηλεοράσεις και κινητά δεν μπορούν να το ανοίξουν."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "Παίζει σχεδόν παντού. Το VP9 σε MP4 δεν θα παίξει εικόνα στο QuickTime."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "Ανοιχτή μορφή για προγράμματα περιήγησης. Υποστηρίζει μόνο VP9 ή AV1 με Opus."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "Το AV1 σε MP4 χρειάζεται πρόσφατο Mac για να παίξει στο QuickTime. Το H.264 παίζει παντού."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "Το VP9 σε MP4 δεν θα παίξει εικόνα στο QuickTime. Το H.264 παίζει παντού."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "Το WebM δεν προσφέρεται με Έξυπνη TV: δεν υποστηρίζει H.264."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "Το WebM δεν υποστηρίζει {{codec}}. Επιλέξτε MKV ή MP4."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "Μόνο ήχος · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "Αυτόματο"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "Το Αυτόματο επιλέγει HDR όταν αυτή η οθόνη μπορεί να το εμφανίσει, αλλιώς SDR. Το HDR φαίνεται ξεθωριασμένο σε συνηθισμένες οθόνες."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "Βίντεο HDR"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "Γλώσσα"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "Συνδέθηκες μέσω Εξερεύνησης — νέα προσπάθεια για 1 σύνδεσμο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "Συνδέθηκες μέσω Εξερεύνησης — νέα προσπάθεια για {{count}} συνδέσμους"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "Δεν ήταν δυνατή η αποσύνδεση από την Εξερεύνηση. Δοκίμασε ξανά."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "Αυτός ο φάκελος είναι πολύ βαθύς για το σύστημά σας. Η λήψη μπορεί να αποτύχει παρ' όλα αυτά — επιλέξτε συντομότερο φάκελο."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "Το όνομα αυτού του βίντεο δεν χωράει σε κάθε μέρος του προτύπου σας, γι' αυτό χρησιμοποιήθηκε το προεπιλεγμένο όνομα."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "Δεν ήταν δυνατό το άνοιγμα του επιλογέα φακέλων."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "Είναι ήδη στην ουρά — δεν προστέθηκε αντίγραφο"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "Ολοκλήρωσε τη ρύθμιση των cookies στο Klip και δοκίμασε ξανά"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "Δεν υπάρχει σύνδεσμος στο πρόχειρο — αντιγράψτε έναν πρώτα"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "Αντιγράφηκαν πολλαπλοί σύνδεσμοι — χρησιμοποιήστε τα «Μαζικά URL» στο Klip"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "Αυτός ο σύνδεσμος χρειάζεται την επιλογή σου — δες τις Λήψεις στο Klip"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "Η λήψη προστέθηκε από το πρόχειρο"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "Δεν ήταν δυνατή η προσθήκη αυτού του συνδέσμου — δοκιμάστε ξανά στο Klip"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "Αυτός ο φάκελος δεν μπορεί να χρησιμοποιηθεί για αυτήν τη λίστα αναπαραγωγής."
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} βίντεο είναι ήδη στην ουρά — παραλείφθηκε"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} βίντεο είναι ήδη στην ουρά — παραλείφθηκαν"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "Προστέθηκε: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "Είναι ήδη στην ουρά"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "Προστέθηκε {{count}} σύνδεσμος στις «Λήψεις»"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "Προστέθηκαν {{count}} σύνδεσμοι στις «Λήψεις»"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} είναι ήδη στην ουρά"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} είναι ήδη στην ουρά"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "Ο {{count}} σύνδεσμος δεν μπόρεσε να προστεθεί"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "Οι {{count}} σύνδεσμοι δεν μπόρεσαν να προστεθούν"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} δεν μπόρεσε να προστεθεί"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} δεν μπόρεσαν να προστεθούν"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "{{count}} βίντεο σε αυτή τη λίστα — επίλεξε τι θα κατεβάσεις"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "{{count}} βίντεο σε αυτή τη λίστα — επίλεξε τι θα κατεβάσεις"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ βίντεο — επίλεξε πόσα"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ βίντεο — επίλεξε πόσα"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "Δεν ήταν δυνατή η προετοιμασία του {{title}}"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "Δεν ήταν δυνατή η προσθήκη του συνδέσμου — δοκίμασε ξανά"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "Προβολή"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "Δεν ήταν δυνατή η αποθήκευση των ρυθμίσεών σας."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "Δεν ήταν δυνατό το άνοιγμα."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "Η εγκατάσταση δεν ολοκληρώθηκε. Ορισμένες λήψεις ενδέχεται να αποτύχουν μέχρι να ολοκληρωθεί."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "Ήχος (καλύτερος)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "Ήχος ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "Καλύτερος εγγενής ήχος, χωρίς επανακωδικοποίηση"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "Μετατροπή σε M4A (AAC)"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "Μετατροπή σε MP3"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Μετατροπή σε Opus"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "Το H.264 πάνω από 1080p δεν είναι διαθέσιμο στο YouTube — περιορίζεται αυτόματα στα 1080p"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "Αποθήκευση ως"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "Απευθείας στον φάκελο αποθήκευσης"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "Επιλέξτε τουλάχιστον μία γλώσσα για να συνεχίσετε."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "Για κάθε βίντεο αποθηκεύονται μόνο αρχεία υποτίτλων — δεν γίνεται λήψη βίντεο ή ήχου."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "Πηγή"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "Έως 1080p"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "Έως 144p"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "Έως 1440p"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "Έως 4K"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "Έως 240p"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "Έως 360p"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "Έως 480p"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "Έως 720p"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "Καλύτερη ποιότητα"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "Περιορισμός στα 1080p, πέφτει ανά στοιχείο αν χρειαστεί"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "Τα μικρότερα δυνατά αρχεία"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "Περιορισμός στα 2K, πέφτει ανά στοιχείο αν χρειαστεί"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "Περιορισμός στα 2160p, πέφτει ανά στοιχείο αν χρειαστεί"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "Πολύ μικρά αρχεία, χαμηλή ποιότητα"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "Μικρά αρχεία για περιορισμένο εύρος ζώνης"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "Χαμηλό εύρος ζώνης"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "Μικρότερα αρχεία, ευρεία συμβατότητα"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "Καλύτερο διαθέσιμο βίντεο + ήχος ανά στοιχείο"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "Καλύτερο εγγενές"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "Έξυπνη TV H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "Υψηλότερος διαθέσιμος codec ανά στοιχείο"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "Προτιμάται H.264 + AAC, κοντέινερ MP4 · βέλτιστη προσπάθεια"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "Συνοδευτικό αρχείο"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "Πολυμέσα"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "Λείπει"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "Αρχείο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "{{count}} λήψη χρειάζεται την προσοχή σου"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} λήψεις χρειάζονται την προσοχή σου"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "Αφαιρεί κάθε λήψη από τη λίστα λίγα δευτερόλεπτα αφού ολοκληρωθεί. Τα αρχεία παραμένουν στον φάκελό σας."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "Αυτόματη εκκαθάριση"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "Ακύρωση όλων των ενεργών και εκκρεμών λήψεων"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "Όλα τα βίντεο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Περισσότερα από {{count}} βίντεο σε αυτή τη λίστα αναπαραγωγής. Κατέβασε όλα, τα πρώτα {{count}} ή διάλεξε μέσω επισκόπησης."
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "Περισσότερα από {{count}} βίντεο σε αυτή τη λίστα αναπαραγωγής. Κατέβασε όλα, τα πρώτα {{count}} ή διάλεξε μέσω επισκόπησης."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "Τα πρώτα {{count}}"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "Το άλμπουμ"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "Βίντεο που σου αρέσουν"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "Το Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "Η λίστα αναπαραγωγής"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "Όλα τα ανεβασμένα βίντεο"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "«Παρακολούθηση αργότερα»"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "Επιλογή από αυτήν…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "Επισκόπηση"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "Αυτός ο σύνδεσμος είναι λίστα με {{count}} βίντεο. Κατέβασέ το ή διάλεξε μέσω επισκόπησης."
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "Αυτός ο σύνδεσμος είναι λίστα με {{count}} βίντεο. Κατέβασε όλα ή διάλεξε μέσω επισκόπησης."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "Αυτό το βίντεο"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο σε άλμπουμ. Λήψη μόνο του βίντεο ή του άλμπουμ;"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο από τα βίντεο που σου αρέσουν. Λήψη μόνο του βίντεο ή όλων των βίντεο που σου αρέσουν;"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο σε Mix. Λήψη μόνο του βίντεο ή του Mix;"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο σε λίστα αναπαραγωγής. Λήψη μόνο του βίντεο ή της λίστας αναπαραγωγής;"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο από τα ανεβασμένα βίντεο ενός καναλιού. Λήψη μόνο του βίντεο ή όλων των ανεβασμένων βίντεο;"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "Αυτός ο σύνδεσμος είναι βίντεο στη λίστα «Παρακολούθηση αργότερα». Λήψη μόνο του βίντεο ή ολόκληρης της λίστας;"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "Εκκαθάριση ολοκληρωμένων λήψεων"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "Οι λήψεις στην ουρά θα εμφανιστούν εδώ"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "Όλα"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "Φίλτρα κατάστασης ουράς"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "Όλα τα στοιχεία"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "Λήψεις"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "Ο ήχος δεν αφαιρέθηκε"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "Ο ήχος δεν αφαιρέθηκε · ορισμένοι υπότιτλοι απέτυχαν"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "Αποτυχία λήψης"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "Άνοιγμα φακέλου προορισμού"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "Παύση"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "Μόνο σε εκκρεμότητα"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "Λήψη τώρα — παράκαμψη ουράς"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "Περιορίστηκε στα {{height}}p"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "Περιορίστηκε στα {{height}}p · ορισμένοι υπότιτλοι απέτυχαν"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "Κατάργηση"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "Συνέχεια"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "γίνεται αυτόματη επανάληψη (προσπάθεια {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "Ορισμός τοποθεσίας"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "Επιλέξτε εκκρεμή στοιχεία για να ορίσετε τοποθεσία."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "Σε κράτηση"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "Χρειάζεται την επιλογή σου"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "Σε παύση"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "Αναμονή"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "Ανάκτηση λεπτομερειών"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "Λήψη"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "Δεν υπάρχουν υπότιτλοι στα {{languages}}"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "Αναμονή για το {{site}} έως {{time}}"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "Το {{site}} περιορίζει τον ρυθμό αιτημάτων αυτής της σύνδεσης. Το Klip θα πάρει τις λεπτομέρειες αυτού του συνδέσμου μετά τις {{time}}, ώστε να προλάβει να λήξει ο περιορισμός."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "Από άλμπουμ"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "Από τα βίντεο που σου αρέσουν"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "Από Mix"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "Από λίστα αναπαραγωγής"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "Από τα ανεβασμένα βίντεο ενός καναλιού"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "Από την «Παρακολούθηση αργότερα»"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "Λήψη ολόκληρου του άλμπουμ"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "Λήψη όλων των βίντεο που σου αρέσουν"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "Λήψη ολόκληρου του Mix"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "Λήψη ολόκληρης της λίστας αναπαραγωγής"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "Λήψη όλων των ανεβασμένων βίντεο"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "Λήψη ολόκληρης της «Παρακολούθηση αργότερα»"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "Προσθέτει τη λίστα ως ξεχωριστή γραμμή. Αυτό το βίντεο δεν συμπεριλαμβάνεται."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "Παύση όλων των ενεργών λήψεων"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "Η ουρά είναι σε παύση — οι εκκρεμείς λήψεις δεν θα ξεκινήσουν μέχρι να τη συνεχίσεις"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "Συνέχισε τις λήψεις σε παύση και άφησε την ουρά να προχωρήσει"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "Συνέχιση ουράς"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "Επιλεγμένα στοιχεία"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} επιλεγμένα · {{total}} σύνολο"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "Λήψεις"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "Προστέθηκε"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "Αρχεία εξόδου"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "Η στήλη {{column}} αφέθηκε."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "Ακυρώθηκε η μετακίνηση της στήλης {{column}}."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "Η στήλη {{column}} βρίσκεται πάνω από τη στήλη {{target}}."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "Σηκώθηκε η στήλη {{column}}."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "Στήλες"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "Ολοκληρώθηκε"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "Μορφή"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "Απόκρυψη αρχείων για {{title}}"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "μετακινούμενη στήλη"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Για να μετακινήσεις μια στήλη, πάτα Space ή Enter, μετακίνησέ την με τα πλήκτρα βελών και πάτα ξανά Space ή Enter για να την αφήσεις. Πάτα Escape για ακύρωση."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "Προορισμός εξόδου"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "Πρόοδος"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "Επαναφορά στηλών"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "Αλλαγή μεγέθους στήλης {{column}}"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "Εμφάνιση αρχείων για {{title}}"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "Ταξινόμηση κατά {{label}}"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "Τίτλος"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "Οι λήψεις βρίσκονται πλέον στην καρτέλα Λήψεις — άνοιξέ τη όποτε θέλεις για να παρακολουθείς την πρόοδο."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "Χρησιμοποιείτε μια νέα ενημέρωση. Δείτε τα σημαντικότερα σημεία."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "Πλήρεις σημειώσεις έκδοσης ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "Τι νέο υπάρχει στο Klip {{version}}"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "Επιλογή εκτελέσιμου"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "Εγκατάσταση με Homebrew"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "Εγκατάσταση με WinGet"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "Άνοιγμα φακέλου εξαρτήσεων"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "Επαναφορά στις προεπιλογές"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "Δοκίμασε ξανά"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "Προβολή αρχείου καταγραφής ρύθμισης"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Δοκίμασε ξανά. Αν συνεχίσει να αποτυγχάνει, επίλεξε ένα αντίγραφο που λειτουργεί παρακάτω."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "Ένα εργαλείο δεν λειτουργεί σωστά"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "Επίτρεψε το Klip στο antivirus ή στο SmartScreen και δοκίμασε ξανά."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "Το antivirus μπλόκαρε ένα εργαλείο"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "Έλεγξε τη σύνδεσή σου στο διαδίκτυο και δοκίμασε ξανά."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "Δεν ήταν δυνατή η λήψη όσων χρειάζεται το Klip"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Δοκίμασε ξανά για νέα λήψη."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "Μια λήψη έφτασε κατεστραμμένη"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "Δοκίμασε ξανά για νέα λήψη."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "Μια λήψη δεν ταίριαζε με το άθροισμα ελέγχου"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "Επίλεξε και τα δύο παρακάτω ή επανάφερέ τα στις προεπιλογές."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "Τα FFmpeg και FFprobe πρέπει να οριστούν μαζί"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "Δοκίμασε ξανά. Αν συνεχίσει να αποτυγχάνει, επίλεξε ένα αντίγραφο που εμπιστεύεσαι παρακάτω."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "Το σύστημά σου δεν επιτρέπει στο Klip να εκτελέσει ένα εργαλείο"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "Δοκίμασε ξανά. Αν συνεχίσει να αποτυγχάνει, επίλεξε ένα αντίγραφο που λειτουργεί παρακάτω."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "Ένα εργαλείο λείπει ή δεν ξεκινά"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "Συχνά οφείλεται σε έλεγχο ασφαλείας κατά την πρώτη εκτέλεση. Δοκίμασε ξανά."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "Ένα εργαλείο άργησε πολύ να ανταποκριθεί"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "Δοκίμασε ξανά ή άνοιξε το αρχείο καταγραφής ρύθμισης για λεπτομέρειες."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "Κάτι πήγε στραβά κατά τη ρύθμιση"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "Μηχανή λήψης"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "Εργαλεία πολυμέσων"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "Εγκατάσταση με το Homebrew… Μπορεί να πάρει μερικά λεπτά."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "Εγκατάσταση με το WinGet… Μπορεί να πάρει μερικά λεπτά."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Δείξε στο Klip αντίγραφα που έχεις ήδη ή εγκατάστησέ τα με άλλον τρόπο."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "Μπορείς επίσης να εγκαταστήσεις τα yt-dlp και ffmpeg με τον διαχειριστή πακέτων σου και μετά να πατήσεις «Δοκίμασε ξανά»."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "Ρύθμιση χειροκίνητα"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "Δοκίμασε ξανά ή δείξε παρακάτω εργαλεία που έχεις ήδη."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "Η ρύθμιση σταμάτησε"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "Η ρύθμιση χρειάζεται τη βοήθειά σου"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "Πώς επιλέγει αυτό το προφίλ"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "Ήχος AAC"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "ταιριάζει σε προγράμματα αναπαραγωγής MP4"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "Ήχος AAC"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "παίζει παντού"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1, μετά VP9, μετά H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "η πιο καθαρή εικόνα στο ίδιο μέγεθος"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264, μετά VP9, μετά AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "ο κωδικοποιητής αυτού του προφίλ"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9, μετά H.264, μετά AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "ο κωδικοποιητής αυτού του προφίλ"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "Μέγιστος ρυθμός καρέ"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "πιο ομαλή κίνηση"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "Βίντεο H.264"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "παίζει σε κάθε συσκευή"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR πριν από SDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "πιο πλούσια χρώματα σε οθόνες HDR"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "αυτή η οθόνη εμφανίζει HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR πριν από HDR"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "φαίνεται σωστό σε κάθε οθόνη"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "αυτή η οθόνη δεν είναι HDR"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "Ροές MP4"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "έτοιμες για αρχείο MP4"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "Στερεοφωνικός ήχος"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "αυτό το προφίλ"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "από τις Ρυθμίσεις"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "Ήχος surround όταν προσφέρεται"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Ήχος Opus"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "ταιριάζει στο WebM"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "Αρχικές ροές, όχι με αναβάθμιση ΤΝ"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "ένα αναβαθμισμένο αντίγραφο είναι ψηλότερο αλλά δεν προσθέτει πραγματική λεπτομέρεια"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "Άμεσες λήψεις πριν από τα αντίγραφα ροής"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "η ίδια εικόνα, πιο γρήγορη λήψη"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "Έως {{tier}}p"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "το όριό σας"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "Μέγιστη ανάλυση"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "χωρίς όριο"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "Ροές που ο ιστότοπος δεν υποβαθμίζει"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "παραλείπει κατεστραμμένα, με υδατογράφημα και εφεδρικά αντίγραφα"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "Μεγαλύτερο αρχείο"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "περισσότερη λεπτομέρεια με τις ίδιες ρυθμίσεις"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "Πρώτα οι ροές με βελτιωμένο bitrate"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "περισσότερη λεπτομέρεια με την ίδια ανάλυση"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "τύπος αρχείου από τις ροές"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "αποθήκευση ως .{{ext}}"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "καλύτερη εικόνα"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "παίζει σε κάθε συσκευή"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "Γιατί αυτό;"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "Γιατί το προφίλ επέλεξε αυτό"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "Αντιγράφηκε!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "Αντιγραφή συνδέσμου"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — Δωρεάν πρόγραμμα λήψης βίντεο ανοιχτού κώδικα για Windows, macOS & Linux. Λειτουργεί με YouTube, Vimeo, Twitch και 2000+ ιστοτόπους.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Το Klip είναι δωρεάν και ανοιχτού κώδικα. Η κοινοποίηση βοηθά περισσότερους να το ανακαλύψουν."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "Κοινή χρήση"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Κοινή χρήση Klip"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Κοινή χρήση Klip"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Μοιράσου το Klip"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "Πρόβλημα; Ρυθμίστε το χειροκίνητα"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "Καλώς ήρθες πάλι!"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "απομένει περίπου {{count}} λεπτό"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "απομένουν περίπου {{count}} λεπτά"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "απομένει λιγότερο από ένα λεπτό"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "Έλεγχος ότι όλα λειτουργούν"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "Σύνδεση…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "Αποσυμπίεση των εργαλείων πολυμέσων"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "Αποσυμπίεση της μηχανής λήψης"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "Ενημέρωση των εργαλείων του Klip"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "Ενημέρωση της μηχανής λήψης"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "Αρχική ρύθμιση"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "Ενημέρωση των εργαλείων πολυμέσων"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "Πρώτος έλεγχος αυτής της έκδοσης — αυτός είναι αργός. Συνήθως περίπου ένα λεπτό."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "Έλεγχος {{binary}}…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "Προετοιμασία λήψεων…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "Η ρύθμιση απέτυχε. Άνοιξε το αρχείο καταγραφής ρύθμισης για λεπτομέρειες."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "Το βίντεο αποθηκεύτηκε με τον ήχο του — ο ήχος δεν μπόρεσε να αφαιρεθεί"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "Το βίντεο αποθηκεύτηκε με τον ήχο του — ο ήχος δεν μπόρεσε να αφαιρεθεί και ορισμένοι υπότιτλοι δεν κατέβηκαν"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "Η λήψη ακυρώθηκε"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "Η λήψη ολοκληρώθηκε"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "Μετατροπή βίντεο…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "Ανεπαρκής χώρος δίσκου — απαιτούνται {{required}}, διαθέσιμα μόνο {{free}}"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "Λήψη δυαδικού {{name}}…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "Λήψη βίντεο και ήχου…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "Ενσωμάτωση μεταδεδομένων…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "Αποσυνδέθηκες από την Εξερεύνηση — συνδέσου ξανά"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "Μετατροπή ήχου…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "Σύνδεση με το SponsorBlock…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "Λήψη υποτίτλων…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "Συγχώνευση ήχου και βίντεο…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "Προετοιμασία λήψης από το YouTube…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "Μετακίνηση αρχείων…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "Δεν υπάρχουν υπότιτλοι στα {{languages}}"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "Δεν είναι δυνατή η αποθήκευση στο {{dir}} — το Klip δεν έχει άδεια εγγραφής εκεί"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "Προετοιμασία δυαδικών…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "Αποθηκεύτηκε σε {{height}}p — το YouTube απέκρυψε υψηλότερες ποιότητες για αυτή τη λήψη. Μια νέα προσπάθεια αργότερα μπορεί να βοηθήσει."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "Αποθηκεύτηκε σε {{height}}p — το YouTube απέκρυψε υψηλότερες ποιότητες για αυτή τη λήψη και ορισμένοι υπότιτλοι δεν κατέβηκαν. Μια νέα προσπάθεια αργότερα μπορεί να βοηθήσει."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "Νέα προετοιμασία λήψης από το YouTube…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "Το SponsorBlock δεν είναι διαθέσιμο, επανάληψη ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "Η σύνδεση κόλλησε, νέα προσπάθεια ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "Σύνδεση με τον λογαριασμό σου στην Εξερεύνηση…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "Αναμονή {{seconds}} δευτ. για αποφυγή περιορισμών ρυθμού…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "Εκκίνηση της μηχανής λήψης…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "Αυτό το βίντεο δεν έχει υπότιτλους στα {{languages}}. Το βίντεο αποθηκεύτηκε χωρίς αυτούς."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "Αυτό το βίντεο δεν έχει υπότιτλους στα {{languages}}. Οι υπόλοιπες γλώσσες αποθηκεύτηκαν."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "Το βίντεο αποθηκεύτηκε — ορισμένοι υπότιτλοι δεν κατέβηκαν"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "Άγνωστη αποτυχία εκκίνησης λήψης"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "Λήψη με χαλαρό extractor — ρύθμισε cookies.txt για πιο αξιόπιστες λήψεις"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "Η μηχανή λήψης τερμάτισε με κωδικό {{code}}"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "Σφάλμα μηχανής λήψης: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "Σκούρα εμφάνιση"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "Ανοιχτόχρωμη εμφάνιση"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "Προεπιλογή συστήματος"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "Μεγιστοποίηση"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "Ελαχιστοποίηση"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "Επαναφορά"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "Λήψη από το πρόχειρο"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "1 σε λήψη · {{percent}}%"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} σε λήψη · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "Αδρανές"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "Η εντολή αντιγράφηκε στο πρόχειρο"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "Αντιγραφή εντολής στο πρόχειρο"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "Απόρριψη ειδοποίησης ενημέρωσης"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "Λήψη ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "Λήψη DMG ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "Λήψη…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "Εγκατάσταση & Επανεκκίνηση"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "Η ενημέρωση απέτυχε"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Το Klip {{version}} είναι διαθέσιμο — έχεις την {{currentVersion}}."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Το Klip {{version}} είναι διαθέσιμο — ενημέρωσε μέσω Homebrew."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Το Klip {{version}} είναι διαθέσιμο — κατέβασε το νέο DMG."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Το Klip {{version}} είναι διαθέσιμο — κατέβασε το DMG ή άλλαξε σε Homebrew."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Το Klip {{version}} είναι διαθέσιμο — κατέβασε τη νέα έκδοση."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "Εκτέλεση & Επανεκκίνηση"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "Αναβάθμιση…"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} κεφάλαιο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} κεφάλαια"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "Φόρτωση…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "Πρώτα H.264"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "Κωδικοποιητής βίντεο"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "Η Έξυπνη TV επιλέγει πάντα H.264."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "Πρώτα VP9"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "Έτοιμα"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "Επικόλλησε URL βίντεο, playlist, καναλιού, αναζήτησης ή ήχου. Το Klip θα καθαρίσει τα διπλότυπα πριν τα βάλει στην ουρά."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "Επικολλήστε ένα ή περισσότερα URL για προεπισκόπηση της παρτίδας."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "Αγνοήθηκαν"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "Προσθέστε τουλάχιστον ένα υποστηριζόμενο URL για συνέχεια."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "Διπλότυπο"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "Λίστα URL"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "Μαζικά URL"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ Ουρά"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "Ξεκινά όταν ολοκληρωθούν άλλες λήψεις — αποκτά πλήρες εύρος ζώνης"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{count}} από {{total}} βίντεο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} από {{total}} βίντεο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{count}} από {{total}} κομμάτι"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} από {{total}} κομμάτια"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{count}} από {{total}} URL"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} από {{total}} URL"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "Μαζικά URL"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "Στοιχεία"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "Λίστα αναπαραγωγής"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "Προεπιλογή"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "Το αρχείο σου θα αποθηκευτεί στο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "Θα αποθηκευτεί στον παρακάτω προορισμό"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "Θα αποθηκευτούν στους {{count}} παρακάτω προορισμούς"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "Το προφίλ «Μόνο υπότιτλοι» είναι ενεργό, αλλά δεν έχει επιλεγεί γλώσσα υποτίτλων — δεν θα γίνει καμία λήψη."
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} στοιχείο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} στοιχεία"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "Προφίλ σε αυτήν την παρτίδα"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "Κατέβασέ το! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "Ξεκινά αμέσως — εκτελείται παράλληλα με άλλες ενεργές λήψεις"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "Έτοιμο για λήψη!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "Το embed υποτίτλων άλλαξε σε sidecar — τα κομμάτια ήχου δεν υποστηρίζουν ενσωματωμένες ροές υποτίτλων."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "Οι υπότιτλοι μέσα στο βίντεο απαιτούν αρχείο MKV, οπότε αυτή η λήψη αποθηκεύεται ως .mkv."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "Το Thumbnail embed παραλείφθηκε — το container εξόδου δεν το υποστηρίζει."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "Προσαρμοσμένο…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "Έγγραφα"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "Λήψεις"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "Αρχική"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "Μουσική"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "Εικόνες"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "Το όνομα φακέλου περιέχει μη έγκυρους χαρακτήρες"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "π.χ. διαλέξεις"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "Αποθήκευση σε υποφάκελο"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "Ταινίες"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "Γλώσσα ήχου"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} γλώσσα"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} γλώσσες"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "Ρυθμός bit {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "Τα cookies είναι ρυθμισμένα αλλά απενεργοποιημένα. Ενεργοποίησέ τα και δοκίμασε ξανά για πλήρη λίστα, ή άλλαξε δίκτυο."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "Ακόμα και με cookies, το YouTube περιόρισε αυτή την ανίχνευση. Δοκίμασε αργότερα ή άλλαξε δίκτυο."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "Το YouTube περιόρισε αυτό το αίτημα. Δοκίμασε αργότερα ή άλλαξε δίκτυο."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "Η λίστα μορφών μπορεί να είναι ελλιπής. Ρύθμισε cookies στις ρυθμίσεις για προχωρημένους, ή άλλαξε δίκτυο και δοκίμασε ξανά."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "Ενεργοποίηση cookies και επανάληψη"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "Το YouTube περιόρισε αυτή την ανίχνευση"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "Ρυθμός bit"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "Μια πηγή που είναι ήδη {{target}} διατηρεί τη δική της ροή και τον ρυθμό bit της: αντιγράφεται χωρίς επανακωδικοποίηση."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps, χωρίς επανακωδικοποίηση"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}, χωρίς επανακωδικοποίηση"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps όπως στην πηγή: η ροή είναι ήδη {{target}}, οπότε αντιγράφεται χωρίς επανακωδικοποίηση"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "Όπως στην πηγή: η ροή είναι ήδη {{target}}, οπότε αντιγράφεται χωρίς επανακωδικοποίηση"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "Μετατροπή"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "Η πηγή είναι {{kbps}} kbps"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (αμετάβλητο)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "Πρόγραμμα περιήγησης"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "Σύνδεση Εξερεύνησης"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "Αρχείο"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "Πηγή cookies"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp τεκμηρίωση (ζήτημα #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Το Chrome 127 και νεότερες εκδόσεις κρυπτογραφούν τα cookies με τρόπο που άλλες εφαρμογές δεν μπορούν να διαβάσουν στα Windows. Δοκίμασε μία από τις παρακάτω λύσεις."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "Εξήγαγε τα cookies από το Chrome με ένα επέκταση προγράμματος περιήγησης, μετά άλλαξε αυτή την εφαρμογή σε λειτουργία Αρχείο και επέλεξε το εξαχθέν αρχείο."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "Εξαγωγή cookies.txt"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Το Firefox δεν χρησιμοποιεί App-Bound Encryption. Άνοιξε τις ρυθμίσεις cookies και επέλεξε Firefox από τη λίστα προγραμμάτων περιήγησης."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Μετάβαση στο Firefox"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "Πρόσθεσε --disable-features=LockProfileCookieDatabase στη συντόμευση εκκίνησης του Chrome. Προειδοποίηση: αυτό ακυρώνει τα προηγουμένως κρυπτογραφημένα cookies, οπότε θα αποσυνδεθείς από κάθε ιστότοπο και θα χρειαστεί να συνδεθείς ξανά."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Εκκίνηση Chrome με απενεργοποιημένο App-Bound Encryption"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Τα cookies του Chrome αποκλείστηκαν από την κρυπτογράφηση των Windows"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "Τα cookies διαβάζονται απευθείας από το πρόγραμμα περιήγησης. Αν τρέχει αυτή τη στιγμή, η βάση δεδομένων cookies μπορεί να είναι κλειδωμένη (οικογένεια Chromium). Το πρόγραμμα περιήγησης πρέπει επίσης να είναι συνδεδεμένο στο YouTube. Δοκίμασε να το κλείσεις, να χρησιμοποιήσεις διαφορετικό πρόγραμμα, να μεταβείς σε λειτουργία αρχείου ή να απενεργοποιήσεις τα cookies."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "Το αρχείο cookies μπορεί να είναι κενό, ληγμένο ή σε λάθος μορφή (το Klip χρειάζεται αρχείο Netscape cookies.txt). Δοκίμασε να εξάγεις ξανά τα cookies, να επιλέξεις διαφορετικό αρχείο, να μεταβείς σε λειτουργία προγράμματος περιήγησης ή να απενεργοποιήσεις τα cookies."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "Συνδέσου μέσω Εξερεύνησης και το Klip θα το ξαναδοκιμάσει."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "Σύνδεση μέσω Εξερεύνησης"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "Αυτό το βίντεο μπορεί να απαιτεί λογαριασμό YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Το Klip το δοκίμασε ήδη συνδεδεμένο μέσω της Εξερεύνησης, οπότε μια νέα σύνδεση δεν θα βοηθήσει. Ο ιστότοπος μπορεί να αντιμετωπίζει πρόβλημα ή αυτός ο λογαριασμός να μην μπορεί να τον ανοίξει. Δοκίμασε ξανά αργότερα."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "Ο ιστότοπος το απέρριψε ακόμα και με τη σύνδεσή σου στην Εξερεύνηση"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "Έχεις συνδεθεί στην Εξερεύνηση, αλλά οι λήψεις δεν χρησιμοποιούν αυτή τη σύνδεση αυτή τη στιγμή."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "Χρήση σύνδεσης Εξερεύνησης και επανάληψη"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "Αυτό το βίντεο μπορεί να απαιτεί λογαριασμό YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "Αν αυτό το βίντεο απαιτεί λογαριασμό, το Klip χρησιμοποιεί αυτόματα τη σύνδεσή σου στην Εξερεύνηση. Μπορεί να μην είναι διαθέσιμο για άλλο λόγο."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "Έχεις συνδεθεί στην Εξερεύνηση"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "Αν αυτό το βίντεο απαιτεί λογαριασμό YouTube, συνδέσου στην Εξερεύνηση και δοκίμασε ξανά. Το Klip χρησιμοποιεί αυτή τη σύνδεση μόνο όταν τη χρειάζεται μια λήψη."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "Σύνδεση στην Εξερεύνηση"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "Αυτό το βίντεο μπορεί να απαιτεί λογαριασμό YouTube"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "Αυτός ο σύνδεσμος μπορεί να απαιτεί λογαριασμό στο {{host}}"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "Συνδέσου στο {{host}} μέσω της Εξερεύνησης και δοκίμασε ξανά."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "Στην Εξερεύνηση, συνδέσου στο {{host}} και δοκίμασε ξανά. Το Klip χρησιμοποιεί αυτή τη σύνδεση μόνο όταν τη χρειάζεται μια λήψη."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "Τα cookies μπορεί να φταίνε"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Το Klip δεν μπόρεσε να αποκτήσει πρόσβαση σε αυτό το βίντεο χωρίς έλεγχο ταυτότητας. Ρύθμισε τα cookies στις ρυθμίσεις για προχωρημένους — επίλεξε πρόγραμμα περιήγησης στο οποίο είσαι ήδη συνδεδεμένος, ή εισήγαγε αρχείο cookies.txt."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "Αυτός ο ιστότοπος απαιτεί σύνδεση"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "Άνοιγμα ρυθμίσεων cookies"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "Χρήση αρχείου cookies ή προγράμματος περιήγησης…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "Χαμηλώνει τα δυνατά σημεία και δυναμώνει τα σιγανά, για ηχεία και θορυβώδεις χώρους."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "Εξίσωση έντασης (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "Εξισωμένη ένταση"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "Το προφίλ σας είναι Έξυπνη TV (H.264). Αυτό το βίντεο δεν προσφέρει H.264, οπότε επιλέχθηκε η πλησιέστερη ροή."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "Αυτός ο σύνδεσμος δεν έχει βίντεο, γι' αυτό επιλέγεται ήχος."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "Το προφίλ σας ζητά υπότιτλους στις γλώσσες: {{languages}}. Αυτό το βίντεο δεν τους έχει."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "Το προφίλ σας ζητά {{wanted}}p. Αυτό το βίντεο δεν έχει τόσο χαμηλή ποιότητα, γι' αυτό επιλέγεται το {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Το προφίλ σου ζητά {{wanted}}p. Οι μικρότερες ροές αυτού του βίντεο δεν ταιριάζουν με τις υπόλοιπες ρυθμίσεις του προφίλ σου, γι' αυτό επιλέγεται το {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "Το προφίλ σου ζητά {{wanted}}p. Αυτό το βίντεο δεν έχει {{wanted}}p που να μπορεί να χρησιμοποιηθεί, γι' αυτό επιλέγεται το {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "Το προφίλ σου ζητά {{wanted}}p. Το {{wanted}}p αυτού του βίντεο είναι αναβαθμισμένο με AI, γι' αυτό επιλέγεται το αρχικό {{picked}}p."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "Το προφίλ σου ζητά {{wanted}}p σε H.264. Αυτό το βίντεο έχει {{wanted}}p μόνο σε άλλους κωδικοποιητές, γι' αυτό επιλέγεται το {{picked}}p σε H.264."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "Το προφίλ σου ζητά {{wanted}}p. Το {{wanted}}p αυτού του βίντεο δεν ταιριάζει με τις υπόλοιπες ρυθμίσεις του προφίλ σου, γι' αυτό επιλέγεται το {{picked}}p."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "Το προφίλ σας ζητά WebM. Οι επιλεγμένες ροές αυτού του βίντεο περιλαμβάνουν {{codec}}, που το WebM δεν υποστηρίζει, οπότε ο τύπος αρχείου είναι Αυτόματο."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "Προσθήκη στην ουρά χωρίς έναρξη"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "Λήψη"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "Περισσότερες επιλογές λήψης"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "Επιλέξτε τουλάχιστον μία γλώσσα υποτίτλων."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "Διατήρηση ως έχει"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "Ενσωματωμένος ήχος"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "Μόνο ήχος"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "Τι να γίνει λήψη"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "Μόνο υπότιτλοι"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "Βίντεο + ήχος"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "Βίντεο, χωρίς ήχο"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "Φόρτωση μορφών"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "Περίμενε μέχρι να ολοκληρωθεί η ανίχνευση — οι playlist και οι αναζητήσεις μπορεί να πάρουν λίγη ώρα."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "Μεταγλώττιση ΤΝ"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "Αναβάθμιση ΤΝ"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "Ηχητική περιγραφή"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "Κατεστραμμένο"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "Βελτιωμένο bitrate"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "Πρωτότυπο"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "Χωρικός ήχος"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "Με υδατογράφημα"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "Χωρίς ήχο"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "Το ενεργό προφίλ σου προεπιλέγει τις ροές για σένα. Άλλαξε προφίλ από το μενού ή χρησιμοποίησε το μολύβι για να ρυθμίσεις ένα χωρίς να φύγεις από αυτή τη λήψη."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "Οι μορφές ξεκινούν από το προφίλ σου"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "Πλησιέστερο στο προφίλ"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "Επεξεργασία: {{name}}"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "Διατήρηση των αλλαγών μου"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "Μόνο για αυτή τη λήψη. Το προεπιλεγμένο προφίλ σας μένει ως έχει."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "Προεπιλεγμένο από"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "Επαναφορά όλων"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Αλλάξατε για αυτή τη λήψη: {{areas}}. Το «{{profile}}» επιλέγει έτσι κι αλλιώς το βίντεο και τον ήχο. Διατήρηση των υπόλοιπων αλλαγών ή επαναφορά όλων στο προφίλ;"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "Αλλαγή προφίλ;"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "Αλλάξατε για αυτή τη λήψη: {{areas}}. Το ενημερωμένο προφίλ επιλέγει έτσι κι αλλιώς το βίντεο και τον ήχο. Διατήρηση των υπόλοιπων αλλαγών ή επαναφορά όλων στο προφίλ;"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "Χρήση του ενημερωμένου προφίλ;"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "Υψηλή ποιότητα"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "Χαμηλή ποιότητα"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "Μεσαία ποιότητα"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "Το {{site}} περιορίζει αυτή τη σύνδεση"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "Η λίστα μορφών μπορεί να είναι ελλιπής."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "Το {{site}} απέρριψε προς το παρόν αυτό το αίτημα."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "Το {{site}} μπορεί να διατηρήσει αυτόν τον περιορισμό έως και μία ώρα."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "Δοκιμή τώρα"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "Η αναμονή τελείωσε, μπορείτε να δοκιμάσετε ξανά."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Το Klip περιμένει έως τις {{time}} πριν ξαναρωτήσει το {{site}}, ώστε να αρθεί ο περιορισμός."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "Άγνωστο μέγεθος"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "Αποθήκευση ως"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "Το WebM δεν υποστηρίζει {{codec}}, οπότε ο τύπος αρχείου επανήλθε σε Αυτόματο."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "Άγνωστο μέγεθος"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "Μετάβαση στην επιβεβαίωση"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "Χρησιμοποιεί τις αποθηκευμένες προτιμήσεις σας για όλα τα υπόλοιπα βήματα. Για να αλλάξετε μια ρύθμιση, συνεχίστε βήμα προς βήμα — η επιλογή σας θα αποθηκευτεί για την επόμενη φορά."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "Ανακαλύπτω τις καλύτερες μορφές για σένα…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "Σύνολο"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "με ήχο"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "Με το προφίλ {{profileName}}. Αν έχει περισσότερα από {{count}} βίντεο, οι Λήψεις θα ρωτήσουν πόσα."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "Λήψη στο παρασκήνιο"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Το Esc ακυρώνει."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "Ακριβώς τα πρώτα {{count}}, με το προφίλ {{profileName}}."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "Λήψη των πρώτων"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "Διάλεξε από τα πρώτα {{count}} βίντεο (ή άλλαξε τον αριθμό στο επόμενο βήμα) και μετά ρύθμισε τη λήψη."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "Διαδραστική λήψη…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "Πόσα βίντεο θα πάρει από τη λίστα: η πρώτη επιλογή ρωτά όταν υπάρχουν περισσότερα, η δεύτερη παίρνει ακριβώς τόσα. Το ίδιο με το Ρυθμίσεις › Στοιχεία playlist για σάρωση."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "Όριο"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Ένα Mix αλλάζει κάθε φορά που το ανοίγεις."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "για επιλογή."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "Φόρτωση των πρώτων"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "Μπορείς να το αλλάξεις στο επόμενο βήμα."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "Επιλογή από αυτό το άλμπουμ"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "Επιλογή από τα βίντεο που σου αρέσουν"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "Επιλογή από αυτό το Mix"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "Επιλογή από αυτή τη λίστα αναπαραγωγής"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "Επιλογή από τα ανεβασμένα βίντεο αυτού του καναλιού"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "Επιλογή από την «Παρακολούθηση αργότερα»"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "Λήψη από αυτό το άλμπουμ"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "Λήψη από τα βίντεο που σου αρέσουν"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "Λήψη από αυτό το Mix"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "Λήψη από αυτή τη λίστα αναπαραγωγής"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "Λήψη από τα ανεβασμένα βίντεο αυτού του καναλιού"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "Λήψη από την «Παρακολούθηση αργότερα»"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "Μόνο το βίντεο που άνοιξες, με το προφίλ {{profileName}}. Η λίστα δεν φορτώνεται."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "Μόνο αυτό το βίντεο"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "Ρύθμιση μόνο του βίντεο που άνοιξες. Η λίστα δεν φορτώνεται."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "Με το προφίλ {{profileName}}"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "Δείκτες κεφαλαίων πλοηγήσιμοι σε κάθε σύγχρονο πρόγραμμα αναπαραγωγής."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "Ενσωμάτωση κεφαλαίων"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "κεφάλαια"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "Τίτλος, καλλιτέχνης, περιγραφή και ημερομηνία ανάρτησης εγγράφονται στο αρχείο."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "Ενσωμάτωση μεταδεδομένων"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "μεταδεδομένα"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "Εξώφυλλο εντός του αρχείου. Το βίντεο WebM θα μετατραπεί σε MKV· παραλείπεται όταν ενσωματώνονται υπότιτλοι."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "Ενσωμάτωση μικρογραφίας"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "εξώφυλλο"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "Αποθηκεύει την περιγραφή του βίντεο ως αρχείο κειμένου .description δίπλα στη λήψη."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "Αποθήκευση περιγραφής"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "αρχείο περιγραφής"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "Αποθηκεύει μια playlist .m3u δίπλα στα βίντεο ώστε να ανοίγουν με σειρά στο media player."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "Δημιουργία αρχείου playlist .m3u"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "Αποθηκεύει τη μικρογραφία ως αρχείο εικόνας .jpg δίπλα στη λήψη."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "Αποθήκευση μικρογραφίας"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "αρχείο μικρογραφίας"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "Επιλέξτε «Τμήμα» στην κάρτα του βίντεο, ορίστε αρχή και τέλος ή ένα κεφάλαιο και κατεβάστε μόνο αυτό το κομμάτι."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "Κατεβάστε μόνο ένα τμήμα του βίντεο"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "Κεφάλαια"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "Κεφάλαιο {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "Ένα τμήμα λαμβάνεται μέσω ffmpeg, οπότε οι συνδέσεις λήψης και οι ρυθμίσεις ρυθμού αιτημάτων δεν ισχύουν γι' αυτό."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "Διόρθωσε πρώτα την αρχή και το τέλος του τμήματος."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "Τέλος"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "Το βίντεο τελειώνει στο {{duration}}."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "Εισήγαγε το τέλος ως h:mm:ss, m:ss ή δευτερόλεπτα."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "Εισήγαγε την αρχή ως h:mm:ss, m:ss ή δευτερόλεπτα."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "Η αρχή πρέπει να προηγείται του τέλους."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "Ανενεργό: κάθε κοπή καταλήγει στο πλησιέστερο keyframe, που μπορεί να απέχει μερικά δευτερόλεπτα από την ώρα που πληκτρολόγησες."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "Ακριβής κοπή (επανακωδικοποίηση, πιο αργή)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} από {{duration}}"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "Τμήμα"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "Τμήμα του βίντεο"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "Αρχή"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "ολόκληρο βίντεο"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "Τμήμα {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "Πόσο από το βίντεο"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss, m:ss ή δευτερόλεπτα"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "Τμήμα, εκτίμηση"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "Αυτό το βίντεο δεν αναφέρει τη διάρκειά του, οπότε μπορεί να ληφθεί μόνο ολόκληρο."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "Οι υπότιτλοι καλύπτουν πάντα ολόκληρο το βίντεο."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "Ο σύνδεσμός σου ξεκινά στο {{time}}"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "Χρήση ως αρχή"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "Ολόκληρο βίντεο"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "Ολόκληρο κομμάτι"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "Επαναφέρετέ τα για να συνεχίσετε."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "Όλα τα στοιχεία καταργήθηκαν"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "Ήδη κατεβασμένο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "Έχει περισσότερα. Για να επιλέξεις πόσα, επικόλλησε τον σύνδεσμό της μόνος του."
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "Έχουν περισσότερα. Για να επιλέξεις πόσα, επικόλλησε κάθε σύνδεσμο ξεχωριστά."
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "Το «{{title}}» περικόπτεται στα {{limit}} βίντεο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} λίστες περικόπτονται στα {{limit}} βίντεο η καθεμία"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "Μαζικά URL"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "Δεν χρειάζεται να περιμένετε — τα αρχεία που μπαίνουν στην ουρά τώρα θα πάρουν τα πραγματικά τους ονόματα κατά τη λήψη."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "Ανάκτηση λεπτομερειών βίντεο… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "Οι λεπτομέρειες δεν είναι διαθέσιμες"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "Ανάκτηση λεπτομερειών"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "Σε αναμονή"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "ζωντανά"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "Στοιχεία playlist"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "Βίντεο για λήψη"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} βίντεο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} βίντεο"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} κομμάτι"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} κομμάτια"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} σύνδεσμος"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} σύνδεσμοι"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Φόρτωση playlist…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "Λήψη βίντεο…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "Περιορισμένο στα πρώτα {{count}} στοιχεία"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "Βρέθηκε {{count}} σελίδα"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "Βρέθηκαν {{count}} σελίδες"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "Συλλογή βίντεο"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "Σάρωση σελίδων καναλιού"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "Εκχώρηση προφίλ ανά στοιχείο"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "Παρακάμπτει την Ποιότητα, το SponsorBlock, την Έξοδο και την Αποθήκευση — εκχωρεί αντ' αυτού ένα προφίλ λήψης ανά στοιχείο"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "Λίστα αναπαραγωγής"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "{{count}} από αυτά είναι λίστα αναπαραγωγής, όχι βίντεο — επικολλήστε τον σύνδεσμό της ξεχωριστά για να την κατεβάσετε."
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "{{count}} από αυτά είναι λίστες αναπαραγωγής, όχι βίντεο — επικολλήστε τους συνδέσμους τους έναν κάθε φορά για να τις κατεβάσετε."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "Επέλεξε τουλάχιστον ένα βίντεο για να συνεχίσεις"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Το Klip βρήκε περισσότερα από {{count}} στοιχεία, οπότε το τρέχον όριο σάρωσης αποκρύπτει τα υπόλοιπα."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "Η σάρωση playlist έχει περιοριστεί"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "Η σάρωση είναι περιορισμένη"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "Εφαρμογή εύρους"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "Από"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "Έως"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} καταργήθηκαν"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} καταργήθηκαν"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "Κατάργηση {{count}} από τη λίστα"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "Κατάργηση {{count}} από τη λίστα"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "Επαναφορά"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "Επιλογή όλων"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} επιλεγμένο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} επιλεγμένα"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "Αποεπιλογή όλων"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "Σειρά αναπαραγωγής"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "Φόρτωση ημερομηνιών μεταφόρτωσης…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "Ταξινόμηση"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "Παλαιότερα πρώτα"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "Νεότερα πρώτα"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "Εφαρμογή συγχρονισμού"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "Αλλαγή φακέλου…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "{{n}} από αυτά τα βίντεο υπάρχουν ήδη στο {{dir}}. Να γίνει συγχρονισμός για να κατεβούν μόνο τα νέα;"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "Ήδη στον φάκελο"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "Δεν βρέθηκαν βίντεο από αυτήν την playlist στο {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "Δεν βρέθηκαν βίντεο από αυτήν την πηγή στο {{dir}}."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "Δεν έχει κατεβεί τίποτα ακόμη"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "Έλεγχος φακέλου…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "Μικρογραφία βίντεο"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "Επιλογή ποιότητας για την ομαδική λήψη"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} στοιχείο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} στοιχεία"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "Κάθε βίντεο επιλύει το επιλεγμένο επίπεδο ανεξάρτητα — οι ανομοιογενείς playlist λειτουργούν χωρίς εκπλήξεις."
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "Εκχώρηση σε {{count}} βίντεο"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "Εκχώρηση σε {{count}} βίντεο"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "Εκχώρηση προφίλ"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "Διάρκεια"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "Προφίλ"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "Επεξεργασία {{name}}"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "Κανένα στοιχείο δεν ταιριάζει με αυτό το φίλτρο"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "Φίλτρα προφίλ"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "Εκχώρηση προφίλ λήψης"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "Επιλέξτε το προφίλ για αυτό το βίντεο."
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "Επιλέξτε το προφίλ για αυτά τα {{count}} βίντεο."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "Επιλέχθηκαν {{selected}} από {{total}}"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "Αλλαγή γενικού"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "Επιλογή φακέλου προορισμού"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "Επιλογή εικονιδίου προφίλ"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "Αφαίρεση {{code}}"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "Επαναφορά προφίλ"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "Αυτό το προφίλ χρησιμοποιεί ήδη τις ενσωματωμένες ρυθμίσεις"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "Επαναφορά των ενσωματωμένων ρυθμίσεων προφίλ"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "Αποθήκευση προφίλ"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "Ορισμός παράκαμψης προφίλ"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "Ορισμός παράκαμψης"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "Χρήση γενικής προεπιλογής"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "Χρήση του κωδικού γλώσσας «{{code}}»"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "Χρήση ρύθμισης εφαρμογής ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "Καλύτερο"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "Έως 128K"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "Έως 192K"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "Έως 320K"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "Καλύτερη ποιότητα"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "Νέο προφίλ"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "Προεπιλεγμένος φάκελος λήψεων"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "Προεπιλεγμένος φάκελος λήψεων / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "Γενικός προορισμός"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "Ενεργό"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "Κληρονομείται"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "Παράκαμψη προφίλ"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "Επιλογή φακέλου"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "Χωρίς παράκαμψη"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "Δεν έχει οριστεί παράκαμψη. Αυτό το προφίλ χρησιμοποιεί τον γενικό προορισμό παραπάνω."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "Παρακάμπτει το γενικό"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "Αυτό το προφίλ αποθηκεύει στη δική του ρίζα πριν προστεθεί ο υποφάκελος."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "Τελικός προορισμός"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "Μία επαναχρησιμοποιήσιμη ρύθμιση για Γρήγορη λήψη, Μαζικά URL και λίστες αναπαραγωγής."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "Προφίλ λήψης"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "Δεν ήταν δυνατή η αλλαγή του γενικού προορισμού."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "Δεν ήταν δυνατό το άνοιγμα του επιλογέα φακέλων. Εισαγάγετε τη διαδρομή χειροκίνητα."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "Δεν ήταν δυνατή η επαναφορά των ρυθμίσεων προφίλ."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "Δεν ήταν δυνατή η αποθήκευση των ρυθμίσεων προφίλ."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "Τρόπος αποθήκευσης"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "Τύπος αρχείου"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "Βελτιστοποίηση για"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "Εικονίδιο προφίλ"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "Όνομα προφίλ"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "Όνομα και εικονίδιο προφίλ"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "Εγγενής ήχος"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "Διαδρομή παράκαμψης προφίλ"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "Ποιότητα"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "Ανάλυση"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "Πηγή"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "Όνομα υποφακέλου"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "Λήψεις υποτίτλων"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "Τα προφίλ ζητούν κωδικούς γλώσσας· η διαθεσιμότητα ελέγχεται για κάθε URL ξεχωριστά."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "Η πιο καθαρή εικόνα στο ίδιο μέγεθος. Παλαιότερες τηλεοράσεις, το QuickTime και ορισμένοι επεξεργαστές δεν μπορούν να το αναπαραγάγουν."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "Καλύτερη εικόνα"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "Παίζει σε τηλεοράσεις, κινητά, WhatsApp, QuickTime και προγράμματα επεξεργασίας βίντεο. Το YouTube προσφέρει H.264 μόνο έως 1080p."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "Έξυπνη TV"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "Αρχείο"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "Υπότιτλοι"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "Μαθήματα"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "Απόσπασμα"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "Χειριστήρια"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "Λήψη"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "Μουσική"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "Podcast"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "Μουσική ή podcast"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "Μόνο αρχεία υποτίτλων"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "Κανονικά αρχεία βίντεο"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "Μόνο βίντεο χωρίς ήχο"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "Οι αυτόματοι υπότιτλοι θα αποθηκευτούν ως SRT αντί για ASS."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "Δεν βρέθηκαν γλώσσες που να ταιριάζουν"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "Για αυτό το προφίλ δεν θα ζητηθούν αρχεία υποτίτλων ούτε ενσωματωμένα κομμάτια υποτίτλων."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "Αναζήτηση με όνομα ή κωδικό γλώσσας"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "Παραλείπεται για αυτόν τον τύπο εξόδου."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "Επιλέξτε τουλάχιστον μία γλώσσα."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "Επιλέξτε τουλάχιστον μία γλώσσα ή απενεργοποιήστε τις λήψεις υποτίτλων."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "Αυτό το προφίλ βάζει στην ουρά μόνο αρχεία υποτίτλων. Το βίντεο, ο ήχος, το SponsorBlock και η μετατροπή μέσων παραλείπονται."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "Τα προφίλ κληρονομούν τον γενικό προορισμό εκτός αν ορίσετε παράκαμψη προφίλ."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "Σύνθετες επιλογές"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "Επιλέξτε τον κύριο τρόπο με τον οποίο θέλετε να κατεβάζετε."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "Τύπος λήψης"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "Όνομα και εικονίδιο που εμφανίζονται στη Γρήγορη λήψη, στα Μαζικά URL και στις λίστες προφίλ."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "Ταυτότητα προφίλ"
+
+#. Plural form "one" for el: used for counts like 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} ενεργά"
+
+#. Plural form "other" for el: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} ενεργά"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "Επιλογές εξόδου"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "Επιλέξτε φάκελο για αυτό το προφίλ"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "Παραλείφθηκε"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Επισημαίνει τα χορηγούμενα τμήματα ως κεφάλαια (χωρίς αλλοίωση)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Χωρίς SponsorBlock — το βίντεο παίζει όπως ανέβηκε."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Κόβει τα χορηγούμενα τμήματα από το βίντεο με FFmpeg."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "Μόνο αυτόματα"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "Χειροκίνητα και αυτόματα"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "Πρώτα χειροκίνητα, μετά αυτόματα"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "Μόνο χειροκίνητα"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "Βοήθεια για {{label}}"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "επιπλέον"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "όνομα αρχείου"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "μορφή"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "φάκελος"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "υπότιτλοι"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "Οι υπότιτλοι, το SponsorBlock, τα επιπλέον όπως η μικρογραφία, ο φάκελος και το όνομα αρχείου ήταν παλιότερα ξεχωριστά βήματα. Κάντε κλικ σε μια γραμμή για να την αλλάξετε."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "Όλες οι άλλες ρυθμίσεις βρίσκονται τώρα σε αυτή τη σελίδα"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "Αλλαγές σε σχέση με το {{profile}}: {{areas}}. Ισχύει μόνο για αυτή τη λήψη."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "Αλλαγές σε σχέση με το {{profile}}:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "Αλλαγή μορφής"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "Αποθήκευση ως προφίλ"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (τροποποιημένο)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "Αυτή η λήψη χρησιμοποίησε τροποποιημένες ρυθμίσεις. Να χρησιμοποιηθούν την επόμενη φορά;"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "Αναίρεση αλλαγών, επιστροφή στο «{{profile}}»"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "Επιπλέον"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "Όνομα αρχείου"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "Αποθήκευση σε"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "Όλα τα υπόλοιπα"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "Αποθήκευση προφίλ"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "Αποθηκεύει αυτές τις ρυθμίσεις ως προφίλ που μπορείτε να επιλέξετε την επόμενη φορά. Το προφίλ Γρήγορης λήψης μένει ως έχει."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "Δεν ήταν δυνατή η αποθήκευση του προφίλ."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "Όνομα προφίλ"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "Αποθηκεύτηκε ως προφίλ «{{name}}»"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "Αποθήκευση ως προφίλ"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "Αποθήκευση ως νέο προφίλ"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "Ενημέρωση προφίλ"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "Αυτό είναι ενσωματωμένο προφίλ. Μπορείτε να επαναφέρετε τις αρχικές ρυθμίσεις του στην καρτέλα «Προφίλ»."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "Από εδώ και πέρα, κάθε λήψη με αυτό το προφίλ χρησιμοποιεί τις νέες ρυθμίσεις."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "Μορφή"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "Ενημέρωση του «{{profile}}»;"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "Το προφίλ «{{name}}» ενημερώθηκε"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "Ενημέρωση του «{{profile}}» με αυτές τις αλλαγές"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "Κανένα"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "Παρέκβαση"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "Εισαγωγή"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "Μη μουσικό τμήμα"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "Τίτλοι τέλους"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "Αυτοπροβολή"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "Χορηγός"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "Σήμανση ως κεφάλαια"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "Αφαίρεση τμημάτων"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "Φιλτράρισμα χορηγών"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "Σημαίνει τα τμήματα χορηγών ως κεφάλαια (μη καταστροφικό)."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "Χωρίς SponsorBlock — το βίντεο παίζει όπως ανέβηκε."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "Αφαιρεί τμήματα χορηγών από το βίντεο χρησιμοποιώντας FFmpeg."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "Μορφή"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "Έξοδος"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "Λίστα αναπαραγωγής"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "Βίντεο"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "Ποιότητα"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "Προφίλ"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "Επισκόπηση"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "Οι αυτόματοι υπότιτλοι θα αποθηκευτούν ως SRT αντί για ASS — καθαρίζονται πάντα από τα επαναλαμβανόμενα cue του YouTube, τα οποία ο μετατροπέας ASS δεν μπορεί ακόμα να αναπαράγει."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "Αυτόματο"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "Εκκαθάριση όλων"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "Η λειτουργία ενσωμάτωσης αποθηκεύει την έξοδο ως .mkv ώστε τα κομμάτια υποτίτλων να ενσωματώνονται αξιόπιστα."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "Μορφή"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "Δεν υπάρχουν υπότιτλοι για αυτό το βίντεο"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "Δεν βρέθηκαν γλώσσες"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "Δεν έχουν επιλεγεί υπότιτλοι"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "Αφαίρεση {{name}}"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "Ενσωμάτωση στο βίντεο"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "Αποθήκευση ως"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "Δίπλα στο βίντεο"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "Στον φάκελο λήψεων"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ υποφάκελος"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "Αναζήτηση γλωσσών…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "Αυτόματα δημιουργημένο"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "Χειροκίνητο"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "Πλοήγηση προφίλ λήψης"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "Αφαιρεί μια λήψη από τη λίστα Λήψεις λίγα δευτερόλεπτα αφού ολοκληρωθεί. Τα αρχεία παραμένουν στον φάκελό σας· οι αποτυχημένες και οι ακυρωμένες λήψεις παραμένουν στη λίστα."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "Αυτόματη αφαίρεση ολοκληρωμένων λήψεων"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "Προσπαθεί ξανά αυτόματα μετά από πρόβλημα δικτύου ή διακομιστή, περιμένοντας περισσότερο πριν από κάθε προσπάθεια. Οι λήψεις που μπλοκάρει ο ιστότοπος δεν επαναλαμβάνονται ποτέ αυτόματα."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "Επανάληψη αποτυχημένων λήψεων"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "φορές"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "Μαζικά URL"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "Πρόσθεσε και βάλε στην ουρά πολλά URL."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "Εκκαθάριση URL"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "Προστέθηκε σύνδεσμος από το πρόχειρο"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "Αντιγράφηκαν πολλαπλοί σύνδεσμοι — προσθέστε τους μέσω «Μαζικά URL»"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "Δεν υπάρχει σύνδεσμος στο πρόχειρο"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "Δεν ήταν δυνατή η ανάγνωση του πρόχειρου — επικόλλησε τον σύνδεσμο στο πεδίο"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "Αντικαταστάθηκε με τον αντιγραμμένο σύνδεσμο"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "Παρακολούθηση πρόχειρου"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "Αυτόματη συμπλήρωση του πεδίου URL όταν αντιγράφεις σύνδεσμο YouTube."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "Αναίρεση"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "Απόκρυψη στο δίσκο κατά το κλείσιμο"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "Συνέχιση λήψεων στο παρασκήνιο μετά το κλείσιμο του παραθύρου."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "Πόσα στοιχεία της ουράς κατεβαίνουν ταυτόχρονα. Περισσότερα μαζί ολοκληρώνουν μια μεγάλη ουρά πιο γρήγορα, αλλά αυξάνουν την πιθανότητα να σας περιορίσει ο ιστότοπος."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "Ταυτόχρονες λήψεις"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "λήψεις"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Για πόσους συνδέσμους ταυτόχρονα το Klip παίρνει λεπτομέρειες πριν από τη λήψη. Λιγότεροι σημαίνει πιο ήπια συμπεριφορά προς ιστότοπους που μπλοκάρουν πολυσύχναστες συνδέσεις. Ένας σύνδεσμος που ανοίγεις στη Διαδραστική λήψη προηγείται πάντα."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "Σύνδεσμοι που ελέγχονται ταυτόχρονα"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "σύνδεσμοι"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "Ιστότοποι όπως το YouTube μπορεί να επισημάνουν — και μερικές φορές να αποκλείσουν — λογαριασμούς των οποίων τα cookies χρησιμοποιούνται από εργαλεία λήψης όπως το Klip. Χρησιμοποίησε έναν εφεδρικό λογαριασμό αν είναι δυνατόν."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "Διαβάζει cookies απευθείας από το πρόγραμμα περιήγησης. Για προγράμματα της οικογένειας Chromium, το πρόγραμμα πρέπει να είναι κλειστό."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "Πρόγραμμα περιήγησης"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "Επέλεξε πρόγραμμα περιήγησης…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "Επιλογή…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "Επέλεξε πρόγραμμα περιήγησης για χρήση cookies"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "Επέλεξε αρχείο για χρήση cookies"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "Η καρτέλα Εξερεύνηση είναι απενεργοποιημένη, οπότε οι λήψεις δεν χρησιμοποιούν τη σύνδεσή σου στην Εξερεύνηση. Ενεργοποίησέ την στην ενότητα Εξερεύνηση παρακάτω."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "Λήψη cookies.txt ΤΟΠΙΚΑ (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "Αρχείο cookies"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "Πώς εξάγω τα cookies;"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "Άνοιγμα της Εξερεύνησης"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "Δεν έχει επιλεγεί αρχείο"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "Προτεινόμενο"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "Κίνδυνος: το cookies.txt περιέχει κάθε συνδεδεμένη συνεδρία του προγράμματος περιήγησης — κράτα το ιδιωτικό."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "Πρόγραμμα περιήγησης"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "Σύνδεση Εξερεύνησης"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "Αρχείο"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "Πηγή cookies"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "Βοηθά με βίντεο που μπορεί να δει ο δικός σου λογαριασμός, όπως τα ιδιωτικά σου βίντεο."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "Επιταχύνει τις μεγάλες λήψεις κατεβάζοντας πολλά μέρη ενός βίντεο ταυτόχρονα. Οι υψηλότερες τιμές αυξάνουν την πιθανότητα να σας περιορίσει ο ιστότοπος."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "Συνδέσεις λήψης"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "συνδέσεις"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "Λήψη άλμπουμ…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "Λήψη βίντεο που σου αρέσουν…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Λήψη Mix…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "Λήψη λίστας αναπαραγωγής…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "Λήψη ανεβασμένων βίντεο…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "Λήψη «Παρακολούθηση αργότερα»…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "Μόνο ήχοι"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "Υπότιτλοι"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ ιστότοποι"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "Playlist μουσικής"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "Βίντεο"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "Playlist βίντεο"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Τι μπορεί να κατεβάσει το Klip"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "Κανάλια"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "Μουσική"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "Λίστες αναπαραγωγής"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "Podcast"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "Βίντεο"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "Οδηγός βήμα προς βήμα. Επίλεξε μορφή, ποιότητα και περισσότερα."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "Λήψη από URL"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "Αλλαγή συντόμευσης"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "Αυτή η συντόμευση χρησιμοποιείται από άλλη εφαρμογή — επιλέξτε άλλη."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "Καθολική συντόμευση"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "Πατήστε πλήκτρα…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "Επαναφορά στις προεπιλογές"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "Κατεβάστε οποιονδήποτε σύνδεσμο αντιγράψατε, από οποιαδήποτε εφαρμογή, χωρίς να ανοίξετε το Klip."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "Καθολική συντόμευση"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "Δοκιμή"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "Ενεργοποίηση καθολικής συντόμευσης"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "Αντέγραψε έναν σύνδεσμο βίντεο σε οποιαδήποτε εφαρμογή και πάτησε τη συντόμευση: το Klip τον βάζει στην ουρά με το ενεργό προφίλ σου, χωρίς να αλλάξεις παράθυρο. Ένας σύνδεσμος προς βίντεο μέσα σε λίστα αναπαραγωγής κατεβάζει το βίντεο."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "Διαδραστική λήψη"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "Διαδραστική λήψη…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "Οι ενεργές λήψεις κρατούν το τρέχον όριο. Παύση + Συνέχεια για εφαρμογή αλλαγών."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "Προσαρμογή…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "π.χ. 750K ή 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "Περιόρισε το bandwidth για λήψεις πολυμέσων. Ο ρυθμός αιτημάτων παρακάτω είναι συνήθως ισχυρότερος μοχλός ορίων."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "Χρησιμοποίησε αριθμό με K ή M (π.χ. 500K, 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "Όριο ταχύτητας λήψης"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "Ανενεργό"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "Λήψη στο παρασκήνιο… Ξέρω να κάνω πολλά μαζί 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "Η Γρήγορη λήψη βάζει στην ουρά τα φορτωμένα στοιχεία με το {{profileName}}. Η Διαδραστική λήψη σου επιτρέπει να τα ελέγξεις ή να τα επιλέξεις πρώτα."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "Ρίξε έναν σύνδεσμο και άσε το Klip να το κατεβάσει ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "Η Γρήγορη λήψη ξεκινά μία λήψη με το {{profileName}}. Χρησιμοποίησε τη Διαδραστική λήψη για εφάπαξ αλλαγές."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "Αυτός ο σύνδεσμος δείχνει ένα βίντεο και τη λίστα στην οποία ανήκει: κατέβασε μόνο το βίντεο ή τη λίστα."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "Συμβατό στερεοφωνικό"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "Στερεοφωνικός ή surround ήχος όταν ένα προφίλ επιλέγει εγγενή ήχο. Ένα προφίλ μπορεί να την αντικαταστήσει."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "Προτίμηση εγγενούς ήχου"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "Προτίμηση surround / Dolby"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "Προσθέτει μικρές παύσεις κατά τη διάρκεια κάθε λήψης ώστε το Klip να μην πιέζει υπερβολικά τον ιστότοπο. Οι τιμές είναι σε δευτερόλεπτα."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "Παύση πριν ξεκινήσει το μέσο: μέγιστο"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "Παύση πριν ξεκινήσει το μέσο: ελάχιστο"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "Αναμονή μεταξύ ελέγχων μεταδεδομένων"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "Αναμονή πριν τα αρχεία υποτίτλων"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "Ήπιες λήψεις"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Πόσο προσεκτικό πρέπει να είναι το Klip;"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "Ισορροπημένο"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "Προσεκτικό"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "Απενεργοποιημένο"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "Παύσεις: {{requests}} μεταξύ ελέγχων, {{downloads}} πριν ξεκινήσει το μέσο, {{subtitles}} πριν τα αρχεία υποτίτλων."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "Αυτές οι παύσεις συμβαίνουν μέσα σε κάθε λήψη. Πόσες λήψεις τρέχουν ταυτόχρονα ρυθμίζεται ξεχωριστά, στις «Ταυτόχρονες λήψεις»."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "Προεπιλογή. Προσθέτει σύντομες παύσεις μεταξύ αιτημάτων και πριν ξεκινήσει το μέσο."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "Προσθέτει μεγαλύτερες παύσεις για μεγάλες playlist ή δίκτυα που συχνά φτάνουν στα όρια."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "Ρύθμισε μόνος σου τους σύνθετους ελέγχους ανά λήψη."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "Χρησιμοποιεί μόνο τις μικρές βασικές παύσεις που κρατά το Klip για μέσα και υποτίτλους."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "δευτ."
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "Ο σύνδεσμος άνοιξε στο Klip"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "Αντικαταστάθηκε με τον σύνδεσμο που άνοιξε στο Klip"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "Επικόλληση συνδέσμου"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "Τρέχον όριο: {{count}} στοιχεία"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "Προσαρμοσμένο…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "Χρησιμοποίησε έναν ακέραιο από {{min}} έως {{max}}."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "Αποθήκευση ορίου"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "Προσαρμοσμένο όριο σάρωσης playlist"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "Προσαρμοσμένο: {{count}} στοιχεία"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "Μέγιστος αριθμός εγγραφών που φορτώνει το Klip όταν ανοίγει playlist, κανάλι ή αποτέλεσμα αναζήτησης."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "Χρησιμοποίησε έναν ακέραιο από 1 έως 5000"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "Στοιχεία playlist για σάρωση"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} στοιχεία"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "Χρήση ορίου εφαρμογής: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "Δεν ήταν δυνατή η εφαρμογή αυτού του εύρους playlist: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "Εφαρμογή και επαναφόρτωση"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "Αλλαγή"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "Επίλεξε τι φορτώνει το Klip για αυτή την playlist."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "Εύρος playlist"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "Δεν υπάρχουν βίντεο σε αυτό το εύρος"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "Πρώτα"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "Χρησιμοποιήστε ακέραιους αριθμούς από 1 έως {{max}}, με την αρχή όχι μεγαλύτερη από το τέλος."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "Στοιχεία για φόρτωση"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "Εύρος playlist"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "Εύρος"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "Επαναφόρτωση..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "Επαναφορά"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "Φόρτωση πρώτων στοιχείων: {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "Φόρτωση πρώτων στοιχείων: {{count}}"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "Φόρτωση στοιχείων {{from}}-{{to}}"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "έως"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "Ενεργό προφίλ"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "Ενσωματωμένο"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "Κρυφό"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "Τροποποιημένο"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "Μόνο ήχος"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "Ισορροπημένη 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "Καλύτερη ποιότητα"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "Χαμηλότερη ποιότητα 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "Οικονομία δεδομένων 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "Έξυπνη TV 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "Έξυπνη TV 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "Έξυπνη TV 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "Μικρό αρχείο 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "Μόνο υπότιτλοι"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "Αλλαγή καθολικού προορισμού"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "Χρήση καθολικού προορισμού"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "Χρήση καθολικού προορισμού + υποφακέλου προφίλ"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "Χρήση παράκαμψης προφίλ"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "Χρήση παράκαμψης προφίλ + υποφακέλου προφίλ"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "Για να αλλάξεις πού αποθηκεύεται, επεξεργάσου το προφίλ."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "Προορισμός"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "Επεξεργασία ενεργού προφίλ"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "Τα κρυφά προφίλ παραμένουν εδώ, αλλά εξαφανίζονται από κάθε επιλογέα."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "Εμφάνιση προφίλ στις επιλογές: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "Διατηρήστε τουλάχιστον ένα διαθέσιμο προφίλ."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "Διαχείριση προφίλ"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "Άλλαξε το ενεργό προφίλ για Γρήγορη λήψη, μαζικά URL και playlist."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "Αλλαγή προφίλ"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "μετακινούμενο προφίλ"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "Η μετακίνηση ακυρώθηκε. Το προφίλ {{profileName}} παραμένει στη θέση {{position}} από {{count}}."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "Το προφίλ {{profileName}} αφέθηκε στη θέση {{position}} από {{count}}."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "Μετακίνηση {{profileName}}"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "Για να μετακινήσεις ένα προφίλ, πάτα Space ή Enter, μετακίνησέ το με τα πλήκτρα βελών και πάτα ξανά Space ή Enter για να το αφήσεις. Πάτα Escape για ακύρωση."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "Το προφίλ {{profileName}} βρίσκεται πάνω από τη θέση {{position}} από {{count}}."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "Σηκώθηκε το προφίλ {{profileName}}. Βρίσκεται στη θέση {{position}} από {{count}}."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "Νέο προφίλ"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "Αυτό το προφίλ αποθηκεύει σε φάκελο που δεν έχει οριστεί. Διάλεξε έναν φάκελο στο προφίλ ή επανάφερέ το στην προεπιλογή."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "Δημιουργήστε, επιλέξτε, επεξεργαστείτε ή αφαιρέστε επαναχρησιμοποιήσιμες ρυθμίσεις λήψης."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "Προφίλ λήψης"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "Σύρε ένα προφίλ για να το μετακινήσεις. Κάθε επιλογέας προφίλ ακολουθεί αυτή τη σειρά."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "Επαναφορά"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "Αποθηκεύεται σε"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "Αλλαγή προφίλ λήψης: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "Αλλαγή προφίλ λήψης"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "Δρομολόγηση κίνησης μέσω διακομιστή proxy."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "Διεύθυνση proxy"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "Γρήγορη λήψη"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "Θα γίνει λήψη με: {{profileName}}"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "Δεν ήταν δυνατή η προσθήκη: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "Δεν ήταν δυνατή η προετοιμασία του στοιχείου ουράς"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "Προετοιμασία"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "Ο έλεγχος απέτυχε"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "Επικόλλησε URL βίντεο, playlist, καναλιού ή αναζήτησης για να ξεκινήσεις."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "Αποστολή ανώνυμου σήματος και αναφορών ρύθμισης"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "Χωρίς παρακολούθηση. Μία φορά την ημέρα, ένα ανώνυμο σήμα στέλνει την έκδοση της εφαρμογής, το κανάλι εγκατάστασης, το λειτουργικό σύστημα, τη γλώσσα, τη χώρα και περίπου πόσο καιρό πριν εγκαταστάθηκε το Klip, για να μετράμε τους ενεργούς και τους νέους χρήστες. Όταν το Klip ρυθμίζει ή ενημερώνει τη μηχανή λήψης ή τα εργαλεία πολυμέσων, αναφέρει επίσης αν τα κατάφερε και περίπου πόσο χρόνο πήρε. Χωρίς αναγνωριστικά, URL, τίτλους βίντεο ή ονόματα αρχείων."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "Γενική συμπεριφορά που επηρεάζει και τις λήψεις που ελέγχονται από προφίλ."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "Συμπεριφορά λήψης"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "Είσοδος"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "Γυάλινα πάνελ πάνω από έναν κινούμενο ουρανό. Απαιτεί επιτάχυνση γραφικών."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "Aurora"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "Συμπαγείς, ήρεμες επιφάνειες. Τρέχει ελαφριά σε κάθε υπολογιστή."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "Μινιμαλιστικό"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "Και τα δύο στιλ διατίθενται σε ανοιχτόχρωμη και σκούρα εμφάνιση."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "Στιλ"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Πώς φαίνεται το Klip. Εναλλάξου μεταξύ ανοιχτόχρωμης και σκούρας εμφάνισης στο υποσέλιδο."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "Το {{style}} χρειάζεται επιτάχυνση γραφικών, που δεν είναι διαθέσιμη αυτή τη στιγμή, γι' αυτό το Klip δείχνει {{fallback}}."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "Προφίλ"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "Αυτό το βίντεο"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "Κατεβάζει μόνο αυτό το βίντεο με το προφίλ {{profileName}}"

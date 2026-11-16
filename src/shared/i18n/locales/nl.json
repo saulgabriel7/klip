@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Info",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Kennisgevingen van derden bekijken",
+		"websiteLink": "Website"
+	},
+	"aiUpscaled": {
+		"allow": "Toestaan",
+		"allowedSummary": "Met AI opgeschaalde streams toegestaan",
+		"description": "YouTube biedt sommige oude video’s aan in formaten die het met AI heeft gemaakt. Met Overslaan blijven de originele streams behouden; je kunt een opgeschaalde stream nog steeds handmatig kiezen.",
+		"label": "Met AI opgeschaalde streams",
+		"skip": "Overslaan"
+	},
+	"app": {
+		"feedback": "Feedback",
+		"feedbackNudge": "Bevalt Klip je? Ik hoor graag van je! 💬",
+		"logs": "Logboeken",
+		"saveDiagnostics": "Diagnosebestand opslaan",
+		"saveDiagnosticsDescription": "Zet je logboeken en app-gegevens in één bestand in Downloads, klaar om aan een GitHub-issue toe te voegen. Je gebruikersmapnaam wordt verwijderd; videolinks en titels blijven staan.",
+		"styleHint": "Nieuw: kies hier Aurora of Minimal",
+		"theme": "Thema",
+		"zoomIn": "Inzoomen",
+		"zoomOut": "Uitzoomen"
+	},
+	"common": {
+		"back": "Terug",
+		"cancel": "Annuleren",
+		"close": "Sluiten",
+		"continue": "Doorgaan",
+		"loading": "Laden",
+		"retry": "Opnieuw proberen",
+		"startOver": "Opnieuw beginnen"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip blijft actief en rondt actieve downloads af. Je kunt dit later wijzigen in de geavanceerde instellingen.",
+			"hide": "Naar systeemvak",
+			"message": "Klip naar het systeemvak verbergen bij het sluiten?",
+			"quit": "Afsluiten",
+			"remember": "Niet meer vragen"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Je wachtrij blijft bewaard en downloads gaan verder waar ze waren gebleven zodra je Klip weer opent.",
+			"keep": "Doorgaan met downloaden",
+			"message_one": "{{count}} download bezig",
+			"message_other": "{{count}} downloads bezig",
+			"quit": "Afsluiten"
+		},
+		"rendererCrashed": {
+			"detail": "Het renderproces is gecrasht ({{reason}}). Laad opnieuw om het nogmaals te proberen.",
+			"message": "Er is een probleem opgetreden in Klip",
+			"quit": "Afsluiten",
+			"reload": "Opnieuw laden"
+		}
+	},
+	"donate": {
+		"copied": "Gekopieerd!",
+		"copyAddress": "Adres kopiëren",
+		"description": "Klip is gratis en open source, zonder advertenties of betaald abonnement. Donaties zijn vrijwillig en geven geen invloed op de roadmap.",
+		"footerLabel": "Doneren",
+		"footerTooltip": "Steun Klip",
+		"qrAlt": "QR-code van het {{coin}}-donatieadres",
+		"title": "Steun Klip",
+		"warning": "Cryptobetalingen zijn onomkeerbaar. Verstuur alleen via het getoonde netwerk en vergelijk het hele adres."
+	},
+	"errors": {
+		"noSubtitlesIn": "Deze video heeft geen ondertitels in {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Deze video heeft een leeftijdsbeperking en kan niet worden gedownload zonder aangemeld account.",
+			"botBlock": "De botbeveiliging van de site heeft deze download gestopt. Wacht even en probeer het opnieuw, of download minder video’s tegelijk. Blijft het mislukken, dan is er mogelijk een tijdelijke wijziging aan de kant van de site — Klip werkt zijn downloadengine bij het opstarten bij, dus de oplossing komt automatisch zodra die beschikbaar is.",
+			"chunkTransferFailure": "De server verbrak de download steeds halverwege en Klip gaf het op na meerdere pogingen. Dit gebeurt meestal bij de grootste videoformaten (4K HDR / VP9 met hoge bitrate). Probeer het opnieuw, wissel van netwerk/VPN of kies een formaat met lagere resolutie.",
+			"drmProtected": "Deze video is beveiligd met DRM. Klip kan DRM niet verwijderen, dus het bestand kan niet worden gedownload.",
+			"formatUnavailable": "Deze video biedt het formaat dat je koos niet meer aan. Plak de link opnieuw en kies uit de formaten die nu beschikbaar zijn.",
+			"geoBlocked": "Deze video is niet beschikbaar in jouw regio.",
+			"ipBlock": "De site blokkeert verzoeken van deze verbinding. Probeer het later opnieuw.",
+			"loginRequired": "Voor deze video is een aangemeld account nodig.",
+			"missingDependency": "Klip kon FFmpeg of FFprobe niet vinden. Voer de installatie opnieuw uit of stel een FFmpeg-locatie in en probeer de download daarna opnieuw.",
+			"network": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
+			"noSubtitles": "Deze video heeft geen ondertitels in de gevraagde talen.",
+			"outOfDiskSpace": "Onvoldoende schijfruimte. Maak ruimte vrij en probeer het opnieuw.",
+			"outputNotWritable": "Klip kan niet naar de downloadmap schrijven. De map is mogelijk alleen-lezen, staat op een vergrendelde schijf of wordt geblokkeerd door de privacyinstellingen van je systeem. Kies een andere map of sta toegang toe en probeer het opnieuw.",
+			"parse": "Het antwoord van de site kon niet worden verwerkt. De site heeft mogelijk gewijzigd hoe video’s worden aangeboden. Klip werkt de downloadengine bij het opstarten bij — probeer het over een paar minuten opnieuw zodra de oplossing er is.",
+			"postprocessFailure": "De download is voltooid, maar de nabewerking (samenvoegen / muxen / converteren) is mislukt. Vaak is dit een tijdelijk ffmpeg-probleem — probeer het opnieuw en probeer een andere combinatie van formaten als het blijft mislukken.",
+			"rateLimit": "De site beperkt het aantal verzoeken vanaf deze verbinding.",
+			"unavailable": "Deze video is niet beschikbaar — mogelijk is hij privé, verwijderd of vergrendeld voor jouw regio.",
+			"unknown": "Download mislukt. Zie de onbewerkte uitvoer hieronder.",
+			"unsupportedUrl": "Klip ondersteunt deze URL niet. Probeer een link van een andere site."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Controleer je verbinding en probeer het opnieuw.",
+			"loadTitle": "Deze pagina is niet geladen",
+			"openSettings": "Instellingen openen",
+			"proxyBody": "Controleer de proxy in de instellingen en probeer het opnieuw.",
+			"proxyTitle": "Verkennen kan geen verbinding maken via je proxy",
+			"retry": "Opnieuw proberen"
+		},
+		"linkCallout": {
+			"body": "Klik met de rechtermuisknop op een video-, afspeellijst- of kanaallink op de pagina om te downloaden met je actieve profiel, een ander profiel te kiezen of de stapsgewijze flow te openen.",
+			"title": "Klik met rechts op een link om te downloaden"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Het album op de achtergrond downloaden",
+				"liked": "Je video’s die je leuk vindt op de achtergrond downloaden",
+				"mix": "De Mix op de achtergrond downloaden",
+				"playlist": "De afspeellijst op de achtergrond downloaden",
+				"uploads": "De uploads op de achtergrond downloaden",
+				"watchLater": "Later bekijken op de achtergrond downloaden"
+			},
+			"copyLink": "Link kopiëren",
+			"downloadFirst": "De eerste {{count}} downloaden",
+			"downloadThisVideo": "Deze video downloaden · {{profileName}}",
+			"downloadWith": "Downloaden met",
+			"fromList": {
+				"album": "Uit dit album",
+				"liked": "Uit je video’s die je leuk vindt",
+				"mix": "Uit deze Mix",
+				"playlist": "Uit deze afspeellijst",
+				"uploads": "Uit de uploads van dit kanaal",
+				"watchLater": "Uit Later bekijken"
+			},
+			"interactive": "Interactief downloaden…",
+			"thisVideoWith": "Deze video met"
+		},
+		"newBadge": "Nieuw",
+		"notice": {
+			"body": "Zoek een video op YouTube of een andere site en download hem hier — zonder links te kopiëren. Meld je hier aan bij een site om video’s te downloaden waarvoor een account nodig is.",
+			"continue": "Doorgaan",
+			"riskBody": "Sites zoals YouTube kunnen accounts die met downloadtools als Klip worden gebruikt markeren — en soms blokkeren. Gebruik een account dat je kunt missen, niet je hoofdaccount.",
+			"riskTitle": "Meld je aan met een tweede account",
+			"title": "Surf over het web, direct in Klip"
+		},
+		"nudge": {
+			"browser": "Downloads gebruiken de cookies van je browser, niet je aanmelding in Verkennen.",
+			"file": "Downloads gebruiken je cookiebestand, niet je aanmelding in Verkennen.",
+			"notNow": "Niet nu",
+			"off": "Cookies staan uit, dus downloads gebruiken je aanmelding in Verkennen niet.",
+			"useExplore": "Aanmelding in Verkennen gebruiken"
+		},
+		"settings": {
+			"description": "Surf op YouTube of een andere site in Klip en meld je aan voor video’s waarvoor een account nodig is.",
+			"idleUnload": "Geheugen vrijgeven bij afwezigheid",
+			"idleUnloadDescription": "Na 5 minuten op een ander tabblad wordt de YouTube-startpagina of zoekpagina gesloten. Bij terugkeer wordt hij opnieuw geladen, wat een paar seconden duurt.",
+			"searchEngine": "Zoekmachine",
+			"searchEngineDescription": "Waar tekst uit de adresbalk wordt gezocht. Links worden geopend zoals ingetypt.",
+			"showTab": "Tabblad Verkennen tonen",
+			"showTabDescription": "Als je dit uitschakelt, gebruiken downloads ook je aanmelding in Verkennen niet meer.",
+			"signOut": "Afmelden bij Verkennen",
+			"signOutConfirm": "Afmelden",
+			"signOutConfirmBody": "Hiermee worden je aanmeldingen en browsegegevens in Verkennen gewist, voor alle sites. Downloads waarvoor een account nodig is, mislukken tot je je opnieuw aanmeldt.",
+			"signOutConfirmTitle": "Afmelden bij Verkennen?",
+			"signOutDescription": "Wist je aanmeldingen en browsegegevens in Verkennen, voor alle sites.",
+			"title": "Verkennen"
+		},
+		"tabLabel": "Verkennen",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube kan bij aangemelde accounts bezwaren hebben tegen advertentieblokkers.",
+				"aria": "Advertentieblokkering",
+				"off": "Advertentieblokkering: uit — klik om in te schakelen",
+				"on": "Advertentieblokkering: aan — klik om uit te schakelen",
+				"starting": "Advertentieblokkering: starten — klik om uit te schakelen",
+				"unavailable": "Advertentieblokkering: niet beschikbaar, de filterlijsten konden niet worden gedownload — klik om uit te schakelen"
+			},
+			"addressAria": "Adres",
+			"addressPlaceholder": "Zoek op {{engine}} of open een site (Vimeo, Instagram…)",
+			"aria": "Browserbediening van Verkennen",
+			"back": "Terug",
+			"compactLayout": "Compacte weergave",
+			"download": "Downloaden",
+			"downloadWithProfile": "Downloaden · {{profileName}}",
+			"forward": "Vooruit",
+			"fullLayout": "Volledige weergave tonen",
+			"grabUnavailable": "Open een video, afspeellijst of kanaal om te downloaden",
+			"home": "YouTube-startpagina",
+			"interactiveHint": "Interactief downloaden: kies formaat, ondertitels en meer…",
+			"refusedHint": "Verkennen kan dat adres niet openen.",
+			"reload": "Opnieuw laden",
+			"searchTooLong": "Die zoekopdracht is te lang.",
+			"thisVideo": "Deze video",
+			"thisVideoHint": "Alleen deze video downloaden met {{profileName}}",
+			"zoom": {
+				"hint": "Paginazoom: {{percent}}%",
+				"in": "Inzoomen",
+				"label": "Paginazoom",
+				"out": "Uitzoomen",
+				"percent": "Zoompercentage",
+				"reset": "Zoom terugzetten naar 100%"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Automatisch",
+		"autoValue": "Automatisch (.{{ext}})",
+		"description": {
+			"auto": "De gekozen streams bepalen het bestandstype.",
+			"mkv": "Kan elke codec bevatten. Sommige tv’s en telefoons kunnen het niet openen.",
+			"mp4": "Speelt vrijwel overal af. VP9 in een MP4 wordt in QuickTime zonder beeld afgespeeld.",
+			"webm": "Open formaat voor browsers. Bevat alleen VP9 of AV1 met Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 in een MP4 vereist een recente Mac om in QuickTime af te spelen. H.264 speelt overal af.",
+		"mp4CaveatVp9": "VP9 in een MP4 wordt in QuickTime zonder beeld afgespeeld. H.264 speelt overal af.",
+		"profileMark": "Profiel",
+		"smartTvNoWebm": "WebM wordt niet aangeboden bij Smart-tv: het kan geen H.264 bevatten.",
+		"webm": "WebM",
+		"webmBlocked": "WebM kan {{codec}} niet bevatten. Kies MKV of MP4."
+	},
+	"filenameTemplate": {
+		"description": "Kies hoe gedownloade bestanden worden genoemd. Klik op een token om het in te voegen. Gebruik / om downloads in mappen te sorteren.",
+		"error": {
+			"empty": "Voer een sjabloon voor de bestandsnaam in.",
+			"empty-segment": "Verwijder de extra / — elke map heeft een naam nodig.",
+			"forbidden-char": "Verwijder tekens die niet zijn toegestaan in bestandsnamen: \\ : * ? \" < > |",
+			"invalid-segment": "Die mapnaam is niet toegestaan. Vermijd . en .. en gereserveerde namen zoals CON.",
+			"no-unique-token": "Voeg {title} of {id} toe aan de bestandsnaam zodat elke download een eigen naam krijgt.",
+			"resolution-in-dir": "{resolution} kan geen map een naam geven — de kwaliteit is pas bekend zodra de download start.",
+			"stray-brace": "Niet-overeenkomende { of } — plaats tokens zoals {title} tussen accolades.",
+			"too-long": "Het sjabloon is te lang.",
+			"unknown-token": "Onbekend token {{token}}."
+		},
+		"idEndingWarning": "Laat de naam eindigen op [{id}] zodat Klip al gedownloade afspeellijstitems kan herkennen en .m3u-afspeellijsten kan maken.",
+		"label": "Sjabloon voor bestandsnaam",
+		"m3uDisabledIdEnding": "Niet beschikbaar omdat je bestandsnaamsjabloon niet eindigt op [{id}] of downloads in mappen sorteert.",
+		"previewPlaylist": "In een afspeellijst",
+		"previewSingle": "Enkele video",
+		"profileOverrideDescription": "Laat leeg om het algemene sjabloon over te nemen.",
+		"profileOverrideLabel": "Sjabloon voor bestandsnaam"
+	},
+	"formatLabel": {
+		"audioFallback": "Audio",
+		"audioOnlyDot": "Alleen audio · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Automatisch",
+		"description": "Automatisch kiest HDR als dit scherm dat kan tonen, anders SDR. HDR ziet er op gewone schermen flets uit.",
+		"hdr": "HDR",
+		"label": "HDR-video",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Taal"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Aangemeld via Verkennen — 1 link wordt opnieuw geprobeerd",
+		"exploreSignInRetrying_other": "Aangemeld via Verkennen — {{count}} links worden opnieuw geprobeerd",
+		"exploreSignOutFailed": "Afmelden bij Verkennen is niet gelukt. Probeer het opnieuw.",
+		"filenameFolderTooDeep": "Deze map zit te diep voor je systeem. De download kan nog steeds mislukken — kies een kortere map.",
+		"filenameTemplateCannotFit": "De naam van deze video past niet in elk onderdeel van je sjabloon, dus de standaardnaam is gebruikt.",
+		"folderSelectFailed": "De mapkiezer kon niet worden geopend.",
+		"hotkey": {
+			"alreadyQueued": "Staat al in de wachtrij — geen kopie toegevoegd",
+			"cookiesSetup": "Rond de cookie-instelling in Klip af en probeer het opnieuw",
+			"invalidClipboard": "Geen link op je klembord — kopieer er eerst een",
+			"multipleUrls": "Meerdere links gekopieerd — gebruik Meerdere URL’s in Klip",
+			"needsReview": "Voor die link moet je een keuze maken — zie Downloads in Klip",
+			"queued": "Download vanaf klembord in de wachtrij gezet",
+			"submissionFailed": "Die link kon niet worden toegevoegd — probeer het opnieuw in Klip"
+		},
+		"playlistFolderRejected": "Die map kan niet voor deze afspeellijst worden gebruikt.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} video staat al in de wachtrij — overgeslagen",
+			"skippedAlreadyQueued_other": "{{count}} video’s staan al in de wachtrij — overgeslagen"
+		},
+		"quickDownload": {
+			"added": "Toegevoegd: {{title}}",
+			"alreadyQueued": "Staat al in de wachtrij",
+			"batchAdded_one": "{{count}} link toegevoegd aan Downloads",
+			"batchAdded_other": "{{count}} links toegevoegd aan Downloads",
+			"batchAlreadyQueued_one": "{{count}} staat al in de wachtrij",
+			"batchAlreadyQueued_other": "{{count}} staan al in de wachtrij",
+			"batchNoneAdded_one": "{{count}} link kon niet worden toegevoegd",
+			"batchNoneAdded_other": "{{count}} links konden niet worden toegevoegd",
+			"batchNotAdded_one": "{{count}} kon niet worden toegevoegd",
+			"batchNotAdded_other": "{{count}} konden niet worden toegevoegd",
+			"chooseFromList_one": "{{count}} video in deze lijst — kies wat je wilt downloaden",
+			"chooseFromList_other": "{{count}} video’s in deze lijst — kies wat je wilt downloaden",
+			"chooseHowMany_one": "{{count}}+ video — kies hoeveel",
+			"chooseHowMany_other": "{{count}}+ video’s — kies hoeveel",
+			"failed": "{{title}} kon niet worden voorbereid",
+			"notAdded": "Die link kon niet worden toegevoegd — probeer het opnieuw",
+			"view": "Bekijken"
+		},
+		"settingsSaveFailed": "Je instellingen konden niet worden opgeslagen.",
+		"shellActionFailed": "Dat kon niet worden geopend.",
+		"warmupFailed": "De installatie is niet voltooid. Sommige downloads kunnen mislukken totdat dit is gelukt."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Audio (beste)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Audio ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Beste oorspronkelijke audio, niet opnieuw gecodeerd",
+			"m4a": "Converteren naar M4A (AAC)",
+			"mp3": "Converteren naar MP3",
+			"opus": "Converteren naar Opus"
+		},
+		"mp4Cap": "H.264 boven 1080p is niet beschikbaar op YouTube — automatisch beperkt tot 1080p",
+		"subtitles": {
+			"deliveryHeading": "Opslaan als",
+			"deliveryLoose": "Direct in de opslagmap",
+			"languages": "Talen",
+			"languagesRequired": "Kies minstens één taal om door te gaan.",
+			"note": "Voor elke video worden alleen ondertitelbestanden opgeslagen — er wordt geen video of audio gedownload.",
+			"source": "Bron"
+		},
+		"tier": {
+			"144": "Tot 144p",
+			"240": "Tot 240p",
+			"360": "Tot 360p",
+			"480": "Tot 480p",
+			"720": "Tot 720p",
+			"1080": "Tot 1080p",
+			"1440": "Tot 1440p",
+			"2160": "Tot 4K",
+			"best": "Beste kwaliteit"
+		},
+		"tierDesc": {
+			"144": "Kleinst mogelijke bestanden",
+			"240": "Zeer kleine bestanden, lage kwaliteit",
+			"360": "Kleine bestanden voor weinig bandbreedte",
+			"480": "Lage bandbreedte",
+			"720": "Kleinere bestanden, brede compatibiliteit",
+			"1080": "Beperkt tot 1080p, valt per item terug op lager",
+			"1440": "Beperkt tot 2K, valt per item terug op lager",
+			"2160": "Beperkt tot 2160p, valt per item terug op lager",
+			"best": "Hoogst beschikbare video + audio per item"
+		},
+		"type": {
+			"audio": "Audio",
+			"subtitles": "Ondertitels",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Beste oorspronkelijke",
+			"mp4": "Smart-tv H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "Best beschikbare container en codecs per item",
+			"mp4": "Bij voorkeur H.264-video + AAC-audio in MP4, indien mogelijk"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Bijbehorend",
+			"description": "Beschrijving",
+			"media": "Media",
+			"missing": "Ontbreekt",
+			"subtitle": "Ondertitel",
+			"thumbnail": "Miniatuur",
+			"unknown": "Artefact"
+		},
+		"attentionBadge_one": "{{count}} download vraagt je aandacht",
+		"attentionBadge_other": "{{count}} downloads vragen je aandacht",
+		"autoRemoveCompleted": {
+			"hint": "Verwijder elke download een paar seconden na voltooiing uit de lijst. Bestanden blijven in je map staan.",
+			"label": "Voltooide automatisch wissen"
+		},
+		"cancelAllTitle": "Alle actieve en wachtende downloads annuleren",
+		"choice": {
+			"all": "Alle video’s",
+			"cappedBody_one": "Meer dan {{count}} video in deze afspeellijst. Download ze allemaal, de eerste {{count}}, of kies via Bekijken.",
+			"cappedBody_other": "Meer dan {{count}} video’s in deze afspeellijst. Download ze allemaal, de eerste {{count}}, of kies via Bekijken.",
+			"first": "Eerste {{count}}",
+			"list": {
+				"album": "Het album",
+				"liked": "Video’s die je leuk vindt",
+				"mix": "De Mix",
+				"playlist": "De afspeellijst",
+				"uploads": "Alle uploads",
+				"watchLater": "Later bekijken"
+			},
+			"pick": "Kies eruit…",
+			"review": "Bekijken",
+			"uncappedBody_one": "Deze link is een lijst met {{count}} video. Download hem, of kies bij het bekijken.",
+			"uncappedBody_other": "Deze link is een lijst met {{count}} video’s. Download ze allemaal, of kies bij het bekijken.",
+			"video": "Deze video",
+			"videoOrList": {
+				"album": "Deze link is een video in een album. Alleen de video downloaden, of het album?",
+				"liked": "Deze link is een video uit je video’s die je leuk vindt. Alleen de video downloaden, of al je video’s die je leuk vindt?",
+				"mix": "Deze link is een video in een Mix. Alleen de video downloaden, of de Mix?",
+				"playlist": "Deze link is een video in een afspeellijst. Alleen de video downloaden, of de afspeellijst?",
+				"uploads": "Deze link is een video uit de uploads van een kanaal. Alleen de video downloaden, of alle uploads?",
+				"watchLater": "Deze link is een video uit je lijst Later bekijken. Alleen de video downloaden, of de hele lijst?"
+			}
+		},
+		"clearTitle": "Voltooide downloads wissen",
+		"empty": "Downloads in de wachtrij verschijnen hier",
+		"filterAll": "Alles",
+		"filtersLabel": "Statusfilters van de wachtrij",
+		"globalActionsLabel": "Alle items",
+		"header": "Downloads",
+		"item": {
+			"audioKept": "Geluid niet verwijderd",
+			"audioKeptSubtitlesFailed": "Geluid niet verwijderd · sommige ondertitels mislukt",
+			"cancel": "Annuleren",
+			"defaultError": "Download mislukt",
+			"openDestinationFolder": "Doelmap openen",
+			"pause": "Pauzeren",
+			"pendingOnly": "Alleen wachtende",
+			"pullNow": "Nu binnenhalen — wachtrij overslaan",
+			"qualityLimited": "Beperkt tot {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Beperkt tot {{height}}p · sommige ondertitels mislukt",
+			"remove": "Verwijderen",
+			"resume": "Hervatten",
+			"retry": "Opnieuw proberen",
+			"retryingSoon": "wordt automatisch opnieuw geprobeerd (poging {{attempt}})",
+			"setLocation": "Locatie instellen",
+			"setLocationHint": "Selecteer wachtende items om de locatie in te stellen.",
+			"statusCancelled": "Geannuleerd",
+			"statusDone": "Klaar",
+			"statusError": "Fout",
+			"statusHeld": "Vastgehouden",
+			"statusNeedsChoice": "Keuze nodig",
+			"statusPaused": "Gepauzeerd",
+			"statusPending": "Wachten",
+			"statusProbing": "Details ophalen",
+			"statusRunning": "Downloaden",
+			"subtitleLanguagesMissing": "Geen ondertitels in {{languages}}",
+			"waitingForSite": "Wacht op {{site}} tot {{time}}",
+			"waitingHint": "{{site}} beperkt deze verbinding. Klip haalt de details van deze link op na {{time}}, zodat de limiet kan verdwijnen."
+		},
+		"listOffer": {
+			"dismiss": "Sluiten",
+			"from": {
+				"album": "Uit een album",
+				"liked": "Uit je video’s die je leuk vindt",
+				"mix": "Uit een Mix",
+				"playlist": "Uit een afspeellijst",
+				"uploads": "Uit de uploads van een kanaal",
+				"watchLater": "Uit Later bekijken"
+			},
+			"get": {
+				"album": "Het hele album downloaden",
+				"liked": "Alle video’s die je leuk vindt downloaden",
+				"mix": "De hele Mix downloaden",
+				"playlist": "De hele afspeellijst downloaden",
+				"uploads": "Alle uploads downloaden",
+				"watchLater": "Alles uit Later bekijken downloaden"
+			},
+			"hint": "Voegt de lijst toe als eigen rij. Deze video blijft erbuiten."
+		},
+		"pauseAllTitle": "Alle actieve downloads pauzeren en voorkomen dat nieuwe starten",
+		"pausedBanner": "De wachtrij is gepauzeerd — wachtende items starten pas als je hervat",
+		"resumeAllTitle": "Gepauzeerde downloads hervatten en de wachtrij laten doorlopen",
+		"resumeQueueAction": "Wachtrij hervatten",
+		"selectedActionsLabel": "Geselecteerde items",
+		"selectionSummary": "{{selected}} geselecteerd · {{total}} totaal",
+		"tabLabel": "Downloads",
+		"tabTip": "Downloads staan nu op het tabblad Downloads — open het wanneer je wilt om de voortgang te volgen.",
+		"table": {
+			"added": "Toegevoegd",
+			"artifacts": "Artefacten",
+			"columnDropped": "Kolom {{column}} neergezet.",
+			"columnMoveCancelled": "Het verplaatsen van kolom {{column}} is geannuleerd.",
+			"columnMovedOver": "Kolom {{column}} staat boven {{target}}.",
+			"columnPickedUp": "Kolom {{column}} opgepakt.",
+			"columns": "Kolommen",
+			"finished": "Voltooid",
+			"format": "Formaat",
+			"hideArtifactsFor": "Artefacten van {{title}} verbergen",
+			"movableColumn": "verplaatsbare kolom",
+			"moveColumnInstructions": "Om een kolom te verplaatsen, druk je op Spatie of Enter, verplaats je hem met de pijltjestoetsen en druk je opnieuw op Spatie of Enter om hem neer te zetten. Druk op Escape om te annuleren.",
+			"notAvailable": "—",
+			"outputTarget": "Doel",
+			"progress": "Voortgang",
+			"resetColumns": "Kolommen herstellen",
+			"resizeColumn": "Grootte van kolom {{column}} aanpassen",
+			"showArtifactsFor": "Artefacten van {{title}} tonen",
+			"size": "Grootte",
+			"sortBy": "Sorteren op {{label}}",
+			"status": "Status",
+			"title": "Titel"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Doorgaan",
+		"description": "Je gebruikt een nieuwe update. Dit zijn de belangrijkste punten.",
+		"fullNotes": "Volledige release-opmerkingen ↗",
+		"title": "Nieuw in Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Annuleren",
+			"chooseExecutable": "Uitvoerbaar bestand kiezen",
+			"installWithHomebrew": "Installeren met Homebrew",
+			"installWithWinget": "Installeren met WinGet",
+			"openDependencyFolder": "Map met afhankelijkheden openen",
+			"resetToDefault": "Standaard herstellen",
+			"retrySetup": "Opnieuw proberen",
+			"viewSetupLog": "Installatielogboek bekijken"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Probeer het opnieuw. Blijft het mislukken, kies dan hieronder een werkende kopie.",
+				"title": "Een hulpprogramma werkt niet goed"
+			},
+			"blockedOrQuarantined": {
+				"body": "Sta Klip toe in je antivirusprogramma of SmartScreen en probeer het opnieuw.",
+				"title": "Je antivirusprogramma heeft een hulpprogramma geblokkeerd"
+			},
+			"downloadFailed": {
+				"body": "Controleer je internetverbinding en probeer het opnieuw.",
+				"title": "Wat Klip nodig heeft kon niet worden gedownload"
+			},
+			"extractFailed": {
+				"body": "Probeer het opnieuw om het opnieuw te downloaden.",
+				"title": "Een download is beschadigd aangekomen"
+			},
+			"hashFailed": {
+				"body": "Probeer het opnieuw om het opnieuw te downloaden.",
+				"title": "Een download kwam niet overeen met de controlesom"
+			},
+			"pairIncomplete": {
+				"body": "Kies hieronder beide, of herstel ze naar de standaard.",
+				"title": "FFmpeg en FFprobe moeten samen worden ingesteld"
+			},
+			"permissionDenied": {
+				"body": "Probeer het opnieuw. Blijft het mislukken, kies dan hieronder een kopie die je vertrouwt.",
+				"title": "Je systeem laat Klip geen hulpprogramma uitvoeren"
+			},
+			"spawnFailed": {
+				"body": "Probeer het opnieuw. Blijft het mislukken, kies dan hieronder een werkende kopie.",
+				"title": "Een hulpprogramma ontbreekt of start niet"
+			},
+			"timeout": {
+				"body": "Dit is vaak een beveiligingsscan bij het eerste gebruik. Probeer het opnieuw.",
+				"title": "Een hulpprogramma reageerde te traag"
+			},
+			"unknown": {
+				"body": "Probeer het opnieuw, of open het installatielogboek voor details.",
+				"title": "Er is iets misgegaan tijdens de installatie"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Downloadengine",
+			"media": "Mediatools"
+		},
+		"installing": {
+			"homebrew": "Installeren met Homebrew… Dit kan een paar minuten duren.",
+			"winget": "Installeren met WinGet… Dit kan een paar minuten duren."
+		},
+		"manual": {
+			"intro": "Wijs Klip naar kopieën die je al hebt, of installeer ze op een andere manier.",
+			"linuxHint": "Je kunt yt-dlp en ffmpeg ook installeren met je pakketbeheerder en daarna op Opnieuw proberen klikken.",
+			"toggle": "Handmatig instellen"
+		},
+		"stopped": {
+			"body": "Probeer het opnieuw, of wijs Klip hieronder naar hulpprogramma’s die je al hebt.",
+			"title": "Installatie gestopt"
+		},
+		"title": "De installatie heeft je hulp nodig"
+	},
+	"selectionOrder": {
+		"editorTitle": "Hoe dit profiel kiest",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC-audio",
+				"reason": "past bij MP4-spelers"
+			},
+			"aacSmartTv": {
+				"label": "AAC-audio",
+				"reason": "speelt overal af"
+			},
+			"codec": {
+				"label": "AV1, dan VP9, dan H.264",
+				"reason": "scherpst bij een gegeven grootte"
+			},
+			"codecH264First": {
+				"label": "H.264, dan VP9, dan AV1",
+				"reason": "codec van dit profiel"
+			},
+			"codecVp9First": {
+				"label": "VP9, dan H.264, dan AV1",
+				"reason": "codec van dit profiel"
+			},
+			"fps": {
+				"label": "Hoogste framerate",
+				"reason": "vloeiendere beweging"
+			},
+			"h264": {
+				"label": "H.264-video",
+				"reason": "speelt op elk apparaat af"
+			},
+			"hdrFirst": {
+				"label": "HDR vóór SDR",
+				"reason": "rijkere kleuren op HDR-schermen",
+				"reasonScreen": "dit scherm toont HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR vóór HDR",
+				"reason": "ziet er op elk scherm goed uit",
+				"reasonScreen": "dit scherm is geen HDR"
+			},
+			"mp4Streams": {
+				"label": "MP4-streams",
+				"reason": "klaar voor een MP4-bestand"
+			},
+			"nativeCompatible": {
+				"label": "Stereo-audio"
+			},
+			"nativeSource": {
+				"profile": "dit profiel",
+				"settings": "uit Instellingen"
+			},
+			"nativeSurround": {
+				"label": "Surround-audio indien aangeboden"
+			},
+			"opus": {
+				"label": "Opus-audio",
+				"reason": "past bij WebM"
+			},
+			"original": {
+				"label": "Originele streams, geen met AI opgeschaalde",
+				"reason": "een opgeschaalde kopie is groter maar voegt geen echt detail toe"
+			},
+			"protocol": {
+				"label": "Directe downloads vóór gestreamde kopieën",
+				"reason": "hetzelfde beeld, sneller gedownload"
+			},
+			"resolution": {
+				"label": "Tot {{tier}}p",
+				"reason": "jouw limiet"
+			},
+			"resolutionBest": {
+				"label": "Hoogste resolutie",
+				"reason": "geen limiet ingesteld"
+			},
+			"sitePreference": {
+				"label": "Streams die de site niet lager waardeert",
+				"reason": "slaat beschadigde, van watermerk voorziene en noodkopieën over"
+			},
+			"size": {
+				"label": "Groter bestand",
+				"reason": "meer detail bij dezelfde instellingen"
+			},
+			"source": {
+				"label": "Streams met verbeterde bitrate eerst",
+				"reason": "meer detail bij dezelfde resolutie"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "bestandstype volgt de streams",
+				"explicit": "wordt opgeslagen als .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "beste beeld",
+				"smartTv": "speelt op elk apparaat af"
+			}
+		},
+		"whyLabel": "Waarom deze?",
+		"whyTitle": "Waarom het profiel dit koos"
+	},
+	"share": {
+		"copied": "Gekopieerd!",
+		"copyLink": "Link kopiëren",
+		"defaultMessage": "Klip — gratis, open-source videodownloader voor Windows, macOS & Linux. Werkt met YouTube, Vimeo, Twitch en 2000+ sites.\n4K · HDR · MP3 · Shorts · Ondertitels · SponsorBlock",
+		"description": "Klip is gratis en open source. Door te delen ontdekken meer mensen het.",
+		"footerLabel": "Delen",
+		"footerTooltip": "Klip delen",
+		"shareAction": "Klip delen",
+		"title": "Klip delen"
+	},
+	"splash": {
+		"cancel": "Problemen? Stel het handmatig in",
+		"greeting": "Hoi, welkom terug!",
+		"setup": {
+			"left": {
+				"minutes_one": "nog ongeveer {{count}} min",
+				"minutes_other": "nog ongeveer {{count}} min",
+				"underMinute": "nog minder dan een minuut"
+			},
+			"stage": {
+				"checking": "Controleren of alles werkt",
+				"connecting": "Verbinden…",
+				"unpacking": "De mediatools uitpakken",
+				"unpackingEngine": "De downloadengine uitpakken"
+			},
+			"title": {
+				"both": "De tools van Klip bijwerken",
+				"engine": "De downloadengine bijwerken",
+				"firstRun": "Eerste installatie",
+				"media": "De mediatools bijwerken"
+			}
+		},
+		"verifyFirstCheck": "Eerste controle van deze versie — deze duurt langer. Meestal ongeveer een minuut.",
+		"verifying": "{{binary}} controleren…",
+		"warmup": "Downloads voorbereiden…",
+		"warmupFailedNoDiag": "Installatie mislukt. Open het installatielogboek voor details."
+	},
+	"status": {
+		"audioKept": "Video opgeslagen met geluid — de audio kon niet worden verwijderd",
+		"audioKeptSubtitlesFailed": "Video opgeslagen met geluid — de audio kon niet worden verwijderd en sommige ondertitels konden niet worden gedownload",
+		"cancelled": "Download geannuleerd",
+		"complete": "Download voltooid",
+		"convertingVideo": "Video converteren…",
+		"diskSpaceInsufficient": "Onvoldoende schijfruimte — {{required}} nodig, slechts {{free}} beschikbaar",
+		"downloadingBinary": "{{name}}-programma downloaden…",
+		"downloadingMedia": "Video en audio downloaden…",
+		"embeddingMetadata": "Metagegevens insluiten…",
+		"exploreSignedOut": "Afgemeld bij Verkennen — meld je opnieuw aan",
+		"extractingAudio": "Audio converteren…",
+		"fetchingSponsorBlock": "Contact maken met SponsorBlock…",
+		"fetchingSubtitles": "Ondertitels ophalen…",
+		"mergingFormats": "Audio en video samenvoegen…",
+		"mintingToken": "YouTube-download voorbereiden…",
+		"movingFiles": "Bestanden verplaatsen…",
+		"noSubtitles": "Geen ondertitels in {{languages}}",
+		"outputNotWritable": "Opslaan in {{dir}} is niet mogelijk — Klip mag daar niet schrijven",
+		"preparingBinaries": "Programma’s voorbereiden…",
+		"qualityLimited": "Opgeslagen in {{height}}p — YouTube hield hogere kwaliteiten voor deze download achter. Later opnieuw proberen kan helpen.",
+		"qualityLimitedSubtitlesFailed": "Opgeslagen in {{height}}p — YouTube hield hogere kwaliteiten voor deze download achter, en sommige ondertitels konden niet worden gedownload. Later opnieuw proberen kan helpen.",
+		"remintingToken": "YouTube-download opnieuw voorbereiden…",
+		"retryingSponsorBlock": "SponsorBlock niet beschikbaar, opnieuw proberen ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Verbinding bleef hangen, opnieuw proberen ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Aanmelden met je Verkennen-account…",
+		"sleepingBetweenRequests": "{{seconds}} s wachten om limieten te voorkomen…",
+		"startingYtdlp": "De downloadengine starten…",
+		"subtitleLanguagesMissing": "Deze video heeft geen ondertitels in {{languages}}. De video is zonder ondertitels opgeslagen.",
+		"subtitleLanguagesMissingOthersSaved": "Deze video heeft geen ondertitels in {{languages}}. De andere talen zijn opgeslagen.",
+		"subtitlesFailed": "Video opgeslagen — sommige ondertitels konden niet worden gedownload",
+		"unknownStartupFailure": "Onbekende fout bij het starten van de download",
+		"usedExtractorFallback": "Gedownload met versoepelde extractor — stel een cookies.txt in voor betrouwbaardere downloads",
+		"ytdlpExitCode": "De downloadengine is afgesloten met code {{code}}",
+		"ytdlpProcessError": "Fout in downloadengine: {{error}}"
+	},
+	"theme": {
+		"dark": "Donkere modus",
+		"light": "Lichte modus",
+		"system": "Systeemstandaard"
+	},
+	"titleBar": {
+		"close": "Sluiten",
+		"maximize": "Maximaliseren",
+		"minimize": "Minimaliseren",
+		"restore": "Herstellen"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Downloaden vanaf klembord",
+			"statusActive_one": "1 download actief · {{percent}}%",
+			"statusActive_other": "{{count}} downloads actief · {{percent}}%",
+			"statusIdle": "Inactief"
+		}
+	},
+	"update": {
+		"copied": "Opdracht naar klembord gekopieerd",
+		"copy": "Opdracht naar klembord kopiëren",
+		"dismiss": "Updatebanner sluiten",
+		"download": "Downloaden ↗",
+		"downloadDmg": "DMG downloaden ↗",
+		"downloading": "Downloaden…",
+		"install": "Installeren en opnieuw starten",
+		"installFailed": "Bijwerken mislukt",
+		"message": {
+			"generic": "Klip {{version}} is beschikbaar — je hebt {{currentVersion}}.",
+			"homebrew": "Klip {{version}} is beschikbaar — werk bij met Homebrew.",
+			"macosDirect": "Klip {{version}} is beschikbaar — download de nieuwe DMG.",
+			"macosDirectHomebrew": "Klip {{version}} is beschikbaar — download de DMG of stap over op Homebrew.",
+			"portable": "Klip {{version}} is beschikbaar — download de nieuwe build."
+		},
+		"retry": "Opnieuw proberen",
+		"runAndRestart": "Uitvoeren en opnieuw starten",
+		"upgrading": "Bijwerken…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} hoofdstuk",
+		"chapters_other": "{{count}} hoofdstukken",
+		"titlePlaceholder": "Laden…"
+	},
+	"videoCodec": {
+		"h264": "H.264 eerst",
+		"label": "Videocodec",
+		"smartTv": "Smart-tv neemt altijd H.264.",
+		"vp9": "VP9 eerst"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Klaar",
+			"description": "Plak video-, afspeellijst-, kanaal-, zoek- of audio-URL’s. Klip verwijdert duplicaten voordat ze in de wachtrij komen.",
+			"emptyPreview": "Plak een of meer URL’s om een voorbeeld van de batch te zien.",
+			"ignoredCount": "Genegeerd",
+			"needsAtLeastOne": "Voeg minstens één ondersteunde URL toe om door te gaan.",
+			"reject": {
+				"duplicate": "Duplicaat"
+			},
+			"textareaLabel": "URL-lijst",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "Meerdere URL’s"
+		},
+		"confirm": {
+			"addToQueue": "+ Wachtrij",
+			"addToQueueTooltip": "Voegt toe aan de wachtrij — start zodra de actieve download klaar is",
+			"itemsValueAudio_one": "{{count}} van {{total}} track",
+			"itemsValueAudio_other": "{{count}} van {{total}} tracks",
+			"itemsValueBulk_one": "{{count}} van {{total}} URL",
+			"itemsValueBulk_other": "{{count}} van {{total}} URL’s",
+			"itemsValue_one": "{{count}} van {{total}} video",
+			"itemsValue_other": "{{count}} van {{total}} video’s",
+			"labelAudio": "Audio",
+			"labelBulk": "Batch",
+			"labelItems": "Items",
+			"labelPlaylist": "Afspeellijst",
+			"labelPreset": "Voorinstelling",
+			"labelSaveTo": "Opslaan in",
+			"labelSize": "Grootte",
+			"labelSubtitles": "Ondertitels",
+			"labelVideo": "Video",
+			"landIn": "Je bestand komt terecht in",
+			"landInMultiProfile_one": "Het komt terecht in de bestemming hieronder",
+			"landInMultiProfile_other": "Ze komen terecht in de {{count}} bestemmingen hieronder",
+			"nothingToDownload": "Het profiel ‘Alleen ondertitels’ is actief, maar er is geen ondertiteltaal geselecteerd — er wordt niets gedownload.",
+			"profileBreakdownCount_one": "{{count}} item",
+			"profileBreakdownCount_other": "{{count}} items",
+			"profileBreakdownHeading": "Profielen in deze batch",
+			"pullIt": "Binnenhalen! ↓",
+			"pullItTooltip": "Slaat de wachtrij over — start nu, naast andere actieve downloads",
+			"readyHeadline": "Klaar om binnen te halen!",
+			"sizeUnknown": "Onbekend",
+			"subtitleEmbedAudioOnly": "Ondertitels insluiten is gewijzigd in los bestand — audiotracks ondersteunen geen ingesloten ondertitelstreams.",
+			"subtitleEmbedForcesMkv": "Ondertitels in de video vereisen een MKV-bestand, dus deze download wordt opgeslagen als .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Miniatuur insluiten overgeslagen — de uitvoercontainer ondersteunt dit niet."
+		},
+		"folder": {
+			"custom": "Aangepast…",
+			"desktop": "Bureaublad",
+			"documents": "Documenten",
+			"downloads": "Downloads",
+			"heading": "Opslaan in",
+			"home": "Persoonlijke map",
+			"music": "Muziek",
+			"pictures": "Afbeeldingen",
+			"subfolder": {
+				"invalid": "Mapnaam bevat ongeldige tekens",
+				"placeholder": "bijv. colleges",
+				"toggle": "Opslaan in submap"
+			},
+			"videos": "Films"
+		},
+		"formats": {
+			"audio": "Audio",
+			"audioLanguage": "Audiotaal",
+			"audioLanguageCount_one": "{{count}} taal",
+			"audioLanguageCount_other": "{{count}} talen",
+			"bitrateValue": "Bitrate {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Cookies zijn ingesteld maar uitgeschakeld. Schakel ze in en probeer het opnieuw voor de volledige lijst, of wissel van netwerk en probeer opnieuw.",
+				"bodyEnabled": "Zelfs met cookies heeft YouTube deze analyse beperkt. Probeer het later opnieuw of wissel van netwerk.",
+				"bodyExplore": "YouTube heeft dit verzoek beperkt. Probeer het later opnieuw of wissel van netwerk.",
+				"bodyUnconfigured": "De formatenlijst is mogelijk onvolledig. Stel cookies in bij de geavanceerde instellingen, of wissel van netwerk en probeer opnieuw.",
+				"enableRetryCta": "Cookies inschakelen en opnieuw proberen",
+				"heading": "Analyse was beperkt",
+				"retryCta": "Opnieuw proberen"
+			},
+			"convert": {
+				"bitrate": "Bitrate",
+				"bitrateCopyHint": "Een bron die al {{target}} is, behoudt zijn eigen stream en bitrate: die wordt gekopieerd, niet opnieuw gecodeerd.",
+				"copyLabel": "{{target}} {{bitrate}} kbps, niet opnieuw gecodeerd",
+				"copyLabelNoBitrate": "{{target}}, niet opnieuw gecodeerd",
+				"copyNote": "{{kbps}} kbps, zoals de bron het heeft: de stream is al {{target}}, dus hij wordt gekopieerd, niet opnieuw gecodeerd",
+				"copyNoteNoBitrate": "Zoals de bron het heeft: de stream is al {{target}}, dus hij wordt gekopieerd, niet opnieuw gecodeerd",
+				"label": "Converteren",
+				"lossyLabel": "{{target}} {{bitrate}} kbps",
+				"sourceKbps": "Bron is {{kbps}} kbps",
+				"wavLabel": "WAV (ongecomprimeerd)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Browser",
+				"currentModeExplore": "Aanmelding in Verkennen",
+				"currentModeFile": "Bestand",
+				"currentModeLabel": "Cookiebron",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp-documentatie (issue #10927)",
+					"explanation": "Chrome 127 en nieuwer versleutelt cookies op een manier die andere apps in Windows niet kunnen lezen. Probeer een van de onderstaande oplossingen.",
+					"fixFileBody": "Exporteer cookies uit Chrome met een browserextensie, schakel deze app dan over op de modus Bestand en kies het geëxporteerde bestand.",
+					"fixFileLabel": "cookies.txt exporteren",
+					"fixFirefoxBody": "Firefox gebruikt geen App-Bound Encryption. Open de cookie-instellingen en kies Firefox in de browserlijst.",
+					"fixFirefoxLabel": "Overstappen op Firefox",
+					"fixUnsafeBody": "Voeg --disable-features=LockProfileCookieDatabase toe aan de opstartsnelkoppeling van Chrome. Let op: hierdoor worden eerder versleutelde cookies ongeldig, dus je wordt overal afgemeld en moet opnieuw aanmelden.",
+					"fixUnsafeLabel": "Chrome starten met App-Bound Encryption uitgeschakeld",
+					"heading": "Chrome-cookies geblokkeerd door Windows-versleuteling"
+				},
+				"explanationBrowser": "Cookies worden rechtstreeks uit de browser gelezen. Als de browser nu draait, kan de cookiedatabase vergrendeld zijn (Chromium-familie). De browser moet ook bij YouTube zijn aangemeld. Sluit de browser, gebruik een andere browser, schakel over op de modus Bestand, of schakel cookies uit.",
+				"explanationFile": "Je cookiebestand is mogelijk leeg, verlopen of heeft het verkeerde formaat (Klip heeft een cookies.txt-bestand in Netscape-formaat nodig). Exporteer de cookies opnieuw, kies een ander bestand, schakel over op de modus Browser, of schakel cookies uit.",
+				"exploreOffer": {
+					"body": "Meld je aan via Verkennen en Klip probeert het opnieuw.",
+					"cta": "Aanmelden via Verkennen",
+					"heading": "Deze video heeft mogelijk een YouTube-account nodig"
+				},
+				"exploreRefused": {
+					"body": "Klip heeft het al aangemeld via Verkennen geprobeerd, dus opnieuw aanmelden helpt niet. De site heeft mogelijk problemen, of dit account kan het niet openen. Probeer het later opnieuw.",
+					"heading": "De site weigerde dit, zelfs met je aanmelding in Verkennen"
+				},
+				"exploreReuse": {
+					"body": "Je bent aangemeld in Verkennen, maar downloads gebruiken die aanmelding nu niet.",
+					"cta": "Mijn aanmelding in Verkennen gebruiken en opnieuw proberen",
+					"heading": "Deze video heeft mogelijk een YouTube-account nodig"
+				},
+				"exploreSignIn": {
+					"body": "Als deze video een YouTube-account nodig heeft, meld je dan aan in Verkennen en probeer het opnieuw. Klip gebruikt die aanmelding alleen wanneer een download die nodig heeft.",
+					"cta": "Aanmelden in Verkennen",
+					"heading": "Deze video heeft mogelijk een YouTube-account nodig"
+				},
+				"exploreSignedIn": {
+					"body": "Als deze video een account nodig heeft, gebruikt Klip automatisch je aanmelding in Verkennen. Mogelijk is hij om een andere reden niet beschikbaar.",
+					"heading": "Aangemeld in Verkennen"
+				},
+				"exploreSite": {
+					"heading": "Voor deze link is mogelijk een account bij {{host}} nodig",
+					"offerBody": "Meld je via Verkennen aan bij {{host}} en probeer het opnieuw.",
+					"signInBody": "Meld je in Verkennen aan bij {{host}} en probeer het opnieuw. Klip gebruikt die aanmelding alleen wanneer een download die nodig heeft."
+				},
+				"heading": "Cookies zijn mogelijk de oorzaak",
+				"needsCookies": {
+					"body": "Klip kon deze video niet openen zonder verificatie. Stel cookies in bij de geavanceerde instellingen — richt ze op een browser waarin je al bent aangemeld, of importeer een cookies.txt-bestand.",
+					"heading": "Deze site vereist aanmelden"
+				},
+				"openSettingsCta": "Cookie-instellingen openen",
+				"otherCookiesCta": "Liever een cookiebestand of browser gebruiken…"
+			},
+			"drc": {
+				"description": "Maakt harde stukken zachter en zachte stukken luider, voor luidsprekers en rumoerige ruimtes.",
+				"label": "Luidheid gelijktrekken (DRC)",
+				"tag": "Gelijke luidheid"
+			},
+			"fit": {
+				"mp4Unavailable": "Je profiel is Smart-tv (H.264). Deze video biedt geen H.264, dus de dichtstbijzijnde stream is geselecteerd.",
+				"noVideo": "Deze link bevat geen video, dus audio is geselecteerd.",
+				"subtitlesMissing": "Je profiel vraagt om ondertitels in {{languages}}. Deze video heeft ze niet.",
+				"tierAbove": "Je profiel vraagt om {{wanted}}p. Deze video heeft niets zo kleins, dus {{picked}}p is geselecteerd.",
+				"tierAbovePassedOver": "Je profiel vraagt om {{wanted}}p. De kleinere streams van deze video passen niet bij de rest van je profiel, dus {{picked}}p is geselecteerd.",
+				"tierBelowTakeable": "Je profiel vraagt om {{wanted}}p. Deze video heeft geen bruikbare {{wanted}}p, dus {{picked}}p is geselecteerd.",
+				"tierPassedOverAiUpscaled": "Je profiel vraagt om {{wanted}}p. De {{wanted}}p van deze video is met AI opgeschaald, dus het origineel in {{picked}}p is geselecteerd.",
+				"tierPassedOverH264": "Je profiel vraagt om {{wanted}}p in H.264. Deze video heeft {{wanted}}p alleen in andere codecs, dus {{picked}}p in H.264 is geselecteerd.",
+				"tierPassedOverProfile": "Je profiel vraagt om {{wanted}}p. De {{wanted}}p van deze video past niet bij de rest van je profiel, dus {{picked}}p is geselecteerd.",
+				"webmUnavailable": "Je profiel vraagt om WebM. De gekozen streams van deze video bevatten {{codec}}, wat WebM niet kan bevatten, dus het bestandstype is Automatisch."
+			},
+			"footer": {
+				"addToQueue": "Toevoegen aan wachtrij zonder te starten",
+				"download": "Downloaden",
+				"moreActions": "Meer downloadopties",
+				"subtitlesRequired": "Kies minstens één ondertiteltaal."
+			},
+			"keepAudio": "Ongewijzigd laten",
+			"keepAudioMeta": "Ingebouwde audio",
+			"kind": {
+				"audio": "Alleen audio",
+				"label": "Wat downloaden",
+				"subtitles": "Alleen ondertitels",
+				"video": "Video + audio",
+				"videoOnly": "Video, geen audio"
+			},
+			"loadingAria": "Formaten laden",
+			"loadingHint": "Wacht tot de analyse klaar is — afspeellijsten en zoekopdrachten kunnen even duren.",
+			"marker": {
+				"aiDubbed": "Met AI nagesynchroniseerd",
+				"aiUpscaled": "Met AI opgeschaald",
+				"audioDescription": "Audiobeschrijving",
+				"damaged": "Beschadigd",
+				"enhancedBitrate": "Verbeterde bitrate",
+				"original": "Origineel",
+				"spatialAudio": "Ruimtelijke audio",
+				"vr": "360° / VR",
+				"watermarked": "Met watermerk"
+			},
+			"noAudio": "Geen audio",
+			"profile": {
+				"calloutBody": "Je actieve profiel selecteert de streams alvast voor je. Wissel van profiel via het menu, of gebruik het potlood om er een aan te passen zonder deze download te verlaten.",
+				"calloutTitle": "Formaten beginnen bij je profiel",
+				"closestTag": "Dichtst bij profiel",
+				"edit": "{{name}} bewerken",
+				"keepEdits": "Mijn wijzigingen behouden",
+				"menuDescription": "Alleen voor deze download. Je standaardprofiel blijft zoals het is.",
+				"preselected": "Vooraf geselecteerd uit",
+				"resetAll": "Alles herstellen",
+				"switchBody": "Je hebt {{areas}} voor deze download gewijzigd. „{{profile}}” kiest de video en audio in elk geval. Je andere wijzigingen behouden, of alles terugzetten naar het profiel?",
+				"switchTitle": "Van profiel wisselen?",
+				"tag": "Profiel",
+				"updatedBody": "Je hebt {{areas}} voor deze download gewijzigd. Het bijgewerkte profiel kiest de video en audio in elk geval. Je andere wijzigingen behouden, of alles terugzetten naar het profiel?",
+				"updatedTitle": "Het bijgewerkte profiel gebruiken?"
+			},
+			"quality": {
+				"high": "Hoge kwaliteit",
+				"low": "Lage kwaliteit",
+				"medium": "Gemiddelde kwaliteit"
+			},
+			"rateLimit": {
+				"heading": "{{site}} beperkt deze verbinding",
+				"leadDegraded": "De formatenlijst is mogelijk onvolledig.",
+				"leadFailed": "{{site}} heeft dit verzoek voorlopig geweigerd.",
+				"retryCta": "Opnieuw proberen",
+				"sessionNote": "{{site}} kan deze beperking tot een uur handhaven.",
+				"tryNowCta": "Nu proberen",
+				"waitOver": "De wachttijd is voorbij, dus je kunt het opnieuw proberen.",
+				"waitUntil": "Klip wacht tot {{time}} voordat het {{site}} opnieuw benadert, zodat de beperking kan verdwijnen."
+			},
+			"resolutionUnknown": "Onbekende resolutie",
+			"savesAs": {
+				"label": "Opslaan als",
+				"reset": "WebM kan {{codec}} niet bevatten, dus het bestandstype is teruggezet op Automatisch."
+			},
+			"sizeUnknown": "Grootte onbekend",
+			"skipToConfirm": "Naar bevestigen",
+			"skipToConfirmTooltip": "Gebruikt je opgeslagen voorkeuren voor alle resterende stappen. Ga stap voor stap verder om een instelling te wijzigen — je keuze wordt de volgende keer onthouden.",
+			"sniffing": "De beste formaten voor je opsporen…",
+			"total": "Totaal",
+			"video": "Video",
+			"withAudio": "met audio"
+		},
+		"listPrompt": {
+			"backgroundHint": "Met {{profileName}}. Bevat de lijst meer dan {{count}} video’s, dan vraagt Downloads hoeveel.",
+			"backgroundLabel": "Op de achtergrond downloaden",
+			"escOnly": "Esc annuleert.",
+			"firstHint": "Precies de eerste {{count}}, met {{profileName}}.",
+			"firstLabel": "Download de eerste",
+			"interactiveHint": "Kies uit de eerste {{count}} video’s (of wijzig het aantal in de volgende stap) en stel dan de download in.",
+			"interactiveLabel": "Interactief downloaden…",
+			"limitHint": "Hoeveel video’s uit de lijst worden genomen: de eerste optie vraagt het als de lijst langer is, de tweede neemt precies dat aantal. Hetzelfde als Instellingen › Te scannen afspeellijstitems.",
+			"limitLabel": "Limiet",
+			"mixNote": "Een Mix verandert elke keer dat je hem opent.",
+			"pickLoadAfter": "om uit te kiezen.",
+			"pickLoadBefore": "Laad de eerste",
+			"pickLoadNote": "Je kunt dit in de volgende stap wijzigen.",
+			"pickTitle": {
+				"album": "Kies uit dit album",
+				"liked": "Kies uit je video’s die je leuk vindt",
+				"mix": "Kies uit deze Mix",
+				"playlist": "Kies uit deze afspeellijst",
+				"uploads": "Kies uit de uploads van dit kanaal",
+				"watchLater": "Kies uit Later bekijken"
+			},
+			"title": {
+				"album": "Downloaden uit dit album",
+				"liked": "Downloaden uit je video’s die je leuk vindt",
+				"mix": "Downloaden uit deze Mix",
+				"playlist": "Downloaden uit deze afspeellijst",
+				"uploads": "Downloaden uit de uploads van dit kanaal",
+				"watchLater": "Downloaden uit Later bekijken"
+			},
+			"videoHint": "Alleen de video die je hebt geopend, met {{profileName}}. De lijst wordt niet geladen.",
+			"videoLabel": "Alleen deze video",
+			"videoPickHint": "Stel alleen de video in die je hebt geopend. De lijst wordt niet geladen.",
+			"withProfile": "Met {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Hoofdstukmarkeringen waarmee je in elke moderne speler kunt navigeren.",
+				"label": "Hoofdstukken insluiten",
+				"short": "hoofdstukken"
+			},
+			"embedMetadata": {
+				"description": "Titel, artiest, beschrijving en uploaddatum worden in het bestand geschreven.",
+				"label": "Metagegevens insluiten",
+				"short": "metagegevens"
+			},
+			"embedThumbnail": {
+				"description": "Albumhoes in het bestand. WebM-video wordt omgezet naar MKV; overgeslagen wanneer ondertitels worden ingesloten.",
+				"label": "Miniatuur insluiten",
+				"short": "albumhoes"
+			},
+			"writeDescription": {
+				"description": "Slaat de videobeschrijving op als .description-tekstbestand naast de download.",
+				"label": "Beschrijving opslaan",
+				"short": "beschrijvingsbestand"
+			},
+			"writeM3u": {
+				"description": "Sla een .m3u-afspeellijst naast de video’s op zodat ze in je mediaspeler op volgorde openen.",
+				"label": ".m3u-afspeellijstbestand genereren"
+			},
+			"writeThumbnail": {
+				"description": "Slaat de miniatuur op als .jpg-afbeeldingsbestand naast de download.",
+				"label": "Miniatuur opslaan",
+				"short": "miniatuurbestand"
+			}
+		},
+		"part": {
+			"calloutBody": "Schakel op de videokaart over naar Deel om een begin en einde of een hoofdstuk te kiezen en alleen dat stuk te downloaden.",
+			"calloutTitle": "Download slechts een deel van een video",
+			"chapterUntitled": "Hoofdstuk {{number}}",
+			"chapters": "Hoofdstukken",
+			"connectionsNote": "Een deel wordt via ffmpeg gedownload, dus je instellingen voor downloadverbindingen en tempo gelden daarvoor niet.",
+			"downloadBlocked": "Corrigeer eerst het begin en einde van het deel.",
+			"end": "Einde",
+			"error": {
+				"endBeyondDuration": "De video eindigt bij {{duration}}.",
+				"endInvalid": "Voer het einde in als u:mm:ss, m:ss of seconden.",
+				"startInvalid": "Voer het begin in als u:mm:ss, m:ss of seconden.",
+				"startNotBeforeEnd": "Het begin moet vóór het einde liggen."
+			},
+			"exactCut": {
+				"hint": "Uit: elke knip komt op het dichtstbijzijnde keyframe uit, wat een paar seconden verschilt van de tijd die je typte.",
+				"label": "Exacte knip (codeert opnieuw, langzamer)"
+			},
+			"length": "{{length}} van {{duration}}",
+			"part": "Deel",
+			"rangeLabel": "Deel van de video",
+			"start": "Begin",
+			"subtitlesFullLength": "hele video",
+			"summary": "Deel {{start}}–{{end}}",
+			"switchLabel": "Hoeveel van de video",
+			"timeHint": "u:mm:ss, m:ss of seconden",
+			"totalEstimate": "Deel, geschat",
+			"unavailableDuration": "Deze video geeft zijn lengte niet door, dus hij kan alleen in zijn geheel worden gedownload.",
+			"unavailableSubtitles": "Ondertitels beslaan altijd de hele video.",
+			"urlStart": "Je link begint bij {{time}}",
+			"useUrlStart": "Als begin gebruiken",
+			"whole": "Hele video",
+			"wholeTrack": "Hele track"
+		},
+		"playlist": {
+			"allRemovedDescription": "Herstel ze om door te gaan.",
+			"allRemovedTitle": "Alle items zijn verwijderd",
+			"alreadyDownloaded": "Al gedownload",
+			"bulkCappedDesc_one": "Hij bevat er meer. Plak de link los om te kiezen hoeveel.",
+			"bulkCappedDesc_other": "Ze bevatten er meer. Plak elke link los om te kiezen hoeveel.",
+			"bulkCappedTitle_one": "„{{title}}” wordt afgekapt bij {{limit}} video’s",
+			"bulkCappedTitle_other": "{{count}} lijsten worden afgekapt bij {{limit}} video’s per lijst",
+			"bulkHeading": "Meerdere URL’s",
+			"bulkMetadataOptional": "Wachten hoeft niet — bestanden die je nu in de wachtrij zet, krijgen hun echte naam alsnog bij het downloaden.",
+			"bulkMetadataResolving": "Videodetails ophalen… {{done}}/{{total}}",
+			"bulkRowFailed": "Details niet beschikbaar",
+			"bulkRowResolving": "Details ophalen",
+			"bulkRowWaiting": "Wachten",
+			"durationUnknown": "live",
+			"heading": "Afspeellijstitems",
+			"headingGeneric": "Te downloaden video’s",
+			"itemCountAudio_one": "{{count}} track",
+			"itemCountAudio_other": "{{count}} tracks",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL’s",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} video’s",
+			"loadingItems": "Afspeellijst ophalen…",
+			"loadingItemsGeneric": "Video’s ophalen…",
+			"loadingLimitHint": "Beperkt tot de eerste {{count}} items",
+			"loadingPagesFound_one": "{{count}} pagina gevonden",
+			"loadingPagesFound_other": "{{count}} pagina’s gevonden",
+			"loadingPhaseItems": "Video’s verzamelen",
+			"loadingPhasePages": "Kanaalpagina’s scannen",
+			"multiProfileEntry": "Profielen per item toewijzen",
+			"multiProfileEntryTooltip": "Slaat Kwaliteit, SponsorBlock, Uitvoer en Opslaan over — wijs in plaats daarvan per item een downloadprofiel toe",
+			"nestedPlaylistBadge": "Afspeellijst",
+			"nestedPlaylistHint_one": "{{count}} hiervan is een afspeellijst, geen video — plak de link apart om hem te downloaden.",
+			"nestedPlaylistHint_other": "{{count}} hiervan zijn afspeellijsten, geen video’s — plak de links een voor een om ze te downloaden.",
+			"noSelection": "Selecteer minstens één video om door te gaan",
+			"probeLimitAlertDesc": "De eerste {{count}} items worden getoond. Verhoog de laadlimiet om er meer te zien.",
+			"probeLimitAlertTitle": "Scan van afspeellijst is beperkt",
+			"probeLimitAlertTitleGeneric": "Scan is beperkt",
+			"rangeApply": "Bereik toepassen",
+			"rangeFrom": "Van",
+			"rangeTo": "Tot",
+			"removeFromListCount_one": "{{count}} uit lijst verwijderen",
+			"removeFromListCount_other": "{{count}} uit lijst verwijderen",
+			"removedCount_one": "{{count}} verwijderd",
+			"removedCount_other": "{{count}} verwijderd",
+			"restore": "Herstellen",
+			"selectAll": "Alles selecteren",
+			"selectNone": "Niets selecteren",
+			"selectedCount_one": "{{count}} geselecteerd",
+			"selectedCount_other": "{{count}} geselecteerd",
+			"sortApi": "Volgorde van afspeellijst",
+			"sortFetchingDates": "Uploaddatums ophalen…",
+			"sortLabel": "Sorteren",
+			"sortUploadAsc": "Oudste eerst",
+			"sortUploadDesc": "Nieuwste eerst",
+			"syncApply": "Synchronisatie toepassen",
+			"syncChange": "Map wijzigen…",
+			"syncFoundDesc": "{{n}} van deze video’s staan al in {{dir}}. Synchroniseren om alleen de nieuwe te downloaden?",
+			"syncFoundTitle": "Al in de map",
+			"syncNoneDesc": "Er zijn geen video’s uit deze afspeellijst gevonden in {{dir}}.",
+			"syncNoneDescGeneric": "Er zijn geen video’s uit deze bron gevonden in {{dir}}.",
+			"syncNoneTitle": "Nog niets gedownload",
+			"syncScanning": "Map controleren…",
+			"thumbnailAlt": "Miniatuur van video"
+		},
+		"playlistPresets": {
+			"heading": "Kies de kwaliteit voor de batch",
+			"itemCount_one": "{{count}} item",
+			"itemCount_other": "{{count}} items",
+			"subhead": "Elke video bepaalt het gekozen niveau zelfstandig — gemengde afspeellijsten werken zonder verrassingen."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Profiel toewijzen",
+			"assignTrigger_one": "Toewijzen aan {{count}} video",
+			"assignTrigger_other": "Toewijzen aan {{count}} video’s",
+			"columnDuration": "Duur",
+			"columnProfile": "Profiel",
+			"editProfile": "{{name}} bewerken",
+			"empty": "Geen items komen overeen met dit filter",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profielfilters",
+			"heading": "Downloadprofielen toewijzen",
+			"menuDescription_one": "Kies het profiel voor deze video.",
+			"menuDescription_other": "Kies het profiel voor deze {{count}} video’s.",
+			"selectedSummary": "{{selected}} van {{total}} geselecteerd"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Algemeen wijzigen",
+				"chooseFolder": "Doelmap kiezen",
+				"chooseIcon": "Profielpictogram kiezen",
+				"removeLanguage": "{{code}} verwijderen",
+				"reset": "Profiel herstellen",
+				"resetDisabledHint": "Dit profiel gebruikt al de ingebouwde instellingen",
+				"resetHint": "De ingebouwde profielinstellingen herstellen",
+				"save": "Profiel opslaan",
+				"setOverride": "Profielvervanging instellen",
+				"setOverrideShort": "Vervanging instellen",
+				"useGlobalDefault": "Algemene standaard gebruiken",
+				"useLanguageCode": "Taalcode „{{code}}” gebruiken"
+			},
+			"advanced": "Geavanceerd",
+			"appSetting": "App-instelling gebruiken ({{value}})",
+			"audioFormat": {
+				"best": "Beste",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Tot 128K",
+				"192": "Tot 192K",
+				"320": "Tot 320K",
+				"best": "Beste kwaliteit"
+			},
+			"defaultName": "Nieuw profiel",
+			"destination": {
+				"defaultFolder": "Standaardmap voor downloads",
+				"defaultFolderWithSubfolder": "Standaardmap voor downloads / {{subfolder}}",
+				"global": "Algemene bestemming",
+				"globalActive": "Actief",
+				"globalInherited": "Overgenomen",
+				"override": "Profielvervanging",
+				"overrideChoosing": "Map kiezen",
+				"overrideNone": "Geen vervanging ingesteld",
+				"overrideNoneNote": "Geen vervanging ingesteld. Dit profiel gebruikt de algemene bestemming hierboven.",
+				"overrideSet": "Vervangt algemeen",
+				"overrideSetNote": "Dit profiel slaat op in zijn eigen hoofdmap voordat de submap wordt toegevoegd.",
+				"resolved": "Bepaalde bestemming"
+			},
+			"dialogDescription": "Eén herbruikbare configuratie voor Snel downloaden, Meerdere URL’s en afspeellijsten.",
+			"dialogTitle": "Downloadprofiel",
+			"error": {
+				"changeGlobalDestination": "De algemene bestemming kon niet worden gewijzigd.",
+				"folderPicker": "De mapkiezer kon niet worden geopend. Voer handmatig een pad in.",
+				"reset": "De profielinstellingen konden niet worden hersteld.",
+				"save": "De profielinstellingen konden niet worden opgeslagen."
+			},
+			"field": {
+				"delivery": "Aflevering",
+				"fileType": "Bestandstype",
+				"goal": "Optimaliseren voor",
+				"icon": "Profielpictogram",
+				"languages": "Talen",
+				"name": "Profielnaam",
+				"nameAndIcon": "Profielnaam en pictogram",
+				"nativeAudio": "Oorspronkelijke audio",
+				"overridePath": "Pad van profielvervanging",
+				"quality": "Kwaliteit",
+				"resolution": "Resolutie",
+				"source": "Bron",
+				"subfolderName": "Naam van submap",
+				"subtitleDownloads": "Ondertitels downloaden",
+				"subtitleDownloadsDescription": "Profielen vragen taalcodes aan; beschikbaarheid wordt per URL bepaald."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Scherpst bij een gegeven grootte. Oudere tv’s, QuickTime en sommige editors kunnen het niet afspelen.",
+					"name": "Beste beeld",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Speelt af op tv’s, telefoons, WhatsApp, QuickTime en videobewerkers. YouTube biedt H.264 alleen tot 1080p.",
+					"name": "Smart-tv",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Archief",
+				"audio": "Audio",
+				"captions": "Ondertiteling",
+				"classes": "Lessen",
+				"clip": "Clip",
+				"controls": "Bediening",
+				"download": "Download",
+				"music": "Muziek",
+				"podcast": "Podcast",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Muziek of podcasts"
+				},
+				"subtitlesOnly": {
+					"description": "Alleen ondertitelbestanden"
+				},
+				"videoAudio": {
+					"description": "Gewone videobestanden"
+				},
+				"videoOnly": {
+					"description": "Alleen stille video"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Automatische ondertitels worden opgeslagen als SRT in plaats van ASS.",
+				"noLanguageMatches": "Geen overeenkomende talen",
+				"noSubtitles": "Voor dit profiel worden geen ondertitelbestanden of ingesloten ondertiteltracks aangevraagd.",
+				"searchLanguages": "Zoek op taalnaam of code",
+				"skippedForOutputType": "Overgeslagen voor dit uitvoertype.",
+				"subtitleLanguagesRequired": "Kies minstens één taal.",
+				"subtitleLanguagesRequiredOrOff": "Kies minstens één taal, of schakel het downloaden van ondertitels uit.",
+				"subtitlesOnly": "Dit profiel zet alleen ondertitelbestanden in de wachtrij. Video, audio, SponsorBlock en mediaconversie worden overgeslagen."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profielen nemen de algemene bestemming over, tenzij je een profielvervanging instelt.",
+					"title": "Geavanceerde opties"
+				},
+				"downloadType": {
+					"description": "Kies de primaire manier waarop je wilt downloaden.",
+					"title": "Downloadtype"
+				},
+				"identity": {
+					"description": "Naam en pictogram zoals getoond bij Snel downloaden, Meerdere URL’s en in profiellijsten.",
+					"title": "Profielidentiteit"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} ingeschakeld",
+					"enabledCount_other": "{{count}} ingeschakeld",
+					"title": "Uitvoeropties"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Kies een map voor dit profiel"
+			},
+			"skipped": "Overgeslagen",
+			"sponsorBlockHint": {
+				"mark": "Markeert sponsorsegmenten als hoofdstukken (niet-destructief).",
+				"off": "Geen SponsorBlock — video speelt af zoals geüpload.",
+				"remove": "Knipt sponsorsegmenten met FFmpeg uit de video."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Alleen automatisch gegenereerd",
+				"manualAndAuto": "Handmatig en automatisch",
+				"manualFirst": "Eerst handmatig, dan automatisch",
+				"manualOnly": "Alleen handmatig"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Help bij {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "extra’s",
+				"fileName": "bestandsnaam",
+				"format": "formaat",
+				"saveTo": "map",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "ondertitels"
+			},
+			"callout": {
+				"body": "Ondertitels, SponsorBlock, extra’s zoals de miniatuur, map en bestandsnaam waren vroeger aparte stappen. Klik op een rij om hem te wijzigen.",
+				"title": "Alle andere instellingen staan nu op deze pagina"
+			},
+			"changeFormat": "Formaat wijzigen",
+			"changed": "Gewijzigd ten opzichte van {{profile}}: {{areas}}. Geldt alleen voor deze download.",
+			"changedFrom": "Gewijzigd ten opzichte van {{profile}}:",
+			"nextTime": {
+				"action": "Opslaan als profiel",
+				"defaultName": "{{profile}} (bewerkt)",
+				"title": "Deze download gebruikte bewerkte instellingen. Volgende keer opnieuw gebruiken?"
+			},
+			"reset": "Wijzigingen ongedaan maken, terug naar „{{profile}}”",
+			"rows": {
+				"extras": "Extra’s",
+				"fileName": "Bestandsnaam",
+				"saveTo": "Opslaan in",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Ondertitels"
+			},
+			"rowsHeading": "Al het andere",
+			"save": {
+				"action": "Profiel opslaan",
+				"description": "Bewaart deze instellingen als profiel dat je de volgende keer kunt kiezen. Je profiel voor Snel downloaden blijft ongewijzigd.",
+				"failed": "Het profiel kon niet worden opgeslagen.",
+				"nameLabel": "Profielnaam",
+				"saved": "Opgeslagen als profiel „{{name}}”",
+				"title": "Opslaan als profiel"
+			},
+			"saveAsProfile": "Opslaan als nieuw profiel",
+			"update": {
+				"action": "Profiel bijwerken",
+				"builtinNote": "Dit is een ingebouwd profiel. Je kunt de oorspronkelijke instellingen herstellen op het tabblad Profielen.",
+				"description": "Voortaan gebruikt elke download met dit profiel de nieuwe instellingen.",
+				"rows": {
+					"format": "Formaat"
+				},
+				"title": "„{{profile}}” bijwerken?",
+				"updated": "Profiel „{{name}}” bijgewerkt"
+			},
+			"updateProfile": "„{{profile}}” bijwerken met deze wijzigingen",
+			"value": {
+				"extrasNone": "Geen",
+				"sponsorBlockOff": "Uit",
+				"subtitlesOff": "Uit"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Opvulling",
+				"intro": "Intro",
+				"music_offtopic": "Muziek buiten het onderwerp",
+				"outro": "Outro",
+				"preview": "Voorbeeld",
+				"selfpromo": "Eigen promotie",
+				"sponsor": "Sponsor"
+			},
+			"categoriesHeading": "Categorieën",
+			"mode": {
+				"mark": "Markeren als hoofdstukken",
+				"off": "Uit",
+				"remove": "Segmenten verwijderen"
+			},
+			"modeHeading": "Sponsorfilter",
+			"modeHint": {
+				"mark": "Markeert sponsorsegmenten als hoofdstukken (niet-destructief).",
+				"off": "Geen SponsorBlock — video speelt af zoals geüpload.",
+				"remove": "Knipt sponsorsegmenten met FFmpeg uit de video."
+			}
+		},
+		"steps": {
+			"confirm": "Bevestigen",
+			"folder": "Opslaan",
+			"formats": "Formaat",
+			"output": "Uitvoer",
+			"playlistItems": "Afspeellijst",
+			"playlistItemsGeneric": "Video’s",
+			"playlistPresets": "Kwaliteit",
+			"playlistProfiles": "Profielen",
+			"review": "Controleren",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Ondertitels",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Automatische ondertitels worden opgeslagen als SRT in plaats van ASS — voor YouTube-video’s worden ze ontdaan van dubbele rollende regels, wat onze ASS-converter nog niet kan.",
+			"autoBadge": "Auto",
+			"clearAll": "Alles wissen",
+			"embedNote": "In de modus Insluiten wordt de uitvoer als .mkv opgeslagen, zodat ondertiteltracks betrouwbaar worden ingesloten.",
+			"format": {
+				"heading": "Formaat"
+			},
+			"noLanguages": "Geen ondertitels beschikbaar voor deze video",
+			"noMatches": "Geen overeenkomende talen",
+			"noSelected": "Geen ondertitels geselecteerd",
+			"removeLanguage": "{{name}} verwijderen",
+			"saveMode": {
+				"embed": "In video insluiten",
+				"heading": "Opslaan als",
+				"sidecar": "Naast de video",
+				"sidecarNoVideo": "In de downloadmap",
+				"subfolder": "Submap subtitles/"
+			},
+			"searchPlaceholder": "Talen zoeken…",
+			"sectionAuto": "Automatisch gegenereerd",
+			"sectionManual": "Handmatig"
+		},
+		"tabsNavAria": "Navigatie van downloadprofielen",
+		"url": {
+			"advanced": "Geavanceerd",
+			"autoRemoveCompleted": {
+				"description": "Haalt een download enkele seconden na voltooiing uit de lijst Downloads. De bestanden blijven in je map; mislukte en geannuleerde downloads blijven in de lijst.",
+				"label": "Voltooide downloads verwijderen"
+			},
+			"autoRetry": {
+				"description": "Probeert automatisch opnieuw na een netwerk- of serverstoring, met steeds langere wachttijd tussen pogingen. Downloads die door de site worden geblokkeerd, worden nooit automatisch opnieuw geprobeerd.",
+				"label": "Mislukte downloads opnieuw proberen",
+				"unit": "keer"
+			},
+			"bulkButton": "Meerdere URL’s",
+			"bulkTooltip": "Voeg meerdere URL’s toe en zet ze in de wachtrij.",
+			"clearAria": "URL wissen",
+			"clipboard": {
+				"autofilledLink": "Link toegevoegd vanaf klembord",
+				"bulkHint": "Meerdere links gekopieerd — gebruik Meerdere URL’s om ze toe te voegen",
+				"dialog": {
+					"cancelButton": "Annuleren"
+				},
+				"noLink": "Geen link op je klembord",
+				"readFailed": "Kon het klembord niet lezen — plak de link in plaats daarvan in het veld",
+				"replacedLink": "Vervangen door gekopieerde link",
+				"toggle": "Klembord in de gaten houden",
+				"toggleDescription": "Vult het URL-veld automatisch in wanneer je een videolink kopieert.",
+				"undo": "Ongedaan maken"
+			},
+			"closeToTray": {
+				"toggle": "Bij sluiten naar systeemvak",
+				"toggleDescription": "Downloads op de achtergrond voortzetten nadat je het venster sluit."
+			},
+			"concurrentDownloads": {
+				"description": "Hoeveel items uit de wachtrij tegelijk worden gedownload. Meer tegelijk maakt een lange wachtrij sneller af, maar vergroot de kans dat een site je beperkt.",
+				"label": "Downloads tegelijk",
+				"unit": "downloads"
+			},
+			"concurrentProbes": {
+				"description": "Voor hoeveel links Klip tegelijk de details ophaalt, voordat ze worden gedownload. Minder is vriendelijker voor sites die drukke verbindingen blokkeren. Een link die je opent in Interactief downloaden gaat altijd voor.",
+				"label": "Links tegelijk gecontroleerd",
+				"unit": "links"
+			},
+			"cookies": {
+				"banWarning": "Sites zoals YouTube kunnen accounts waarvan de cookies door downloadtools als Klip worden gebruikt markeren — en soms blokkeren. Gebruik indien mogelijk een wegwerpaccount.",
+				"browserHelp": "Leest cookies rechtstreeks uit de browser. Bij browsers uit de Chromium-familie moet de browser gesloten zijn.",
+				"browserLabel": "Browser",
+				"browserPlaceholder": "Kies een browser…",
+				"choose": "Kiezen…",
+				"clear": "Wissen",
+				"enabledButNoBrowser": "Kies een browser om cookies te gebruiken",
+				"enabledButNoFile": "Kies een bestand om cookies te gebruiken",
+				"exploreDisabled": "Het tabblad Verkennen staat uit, dus downloads gebruiken je aanmelding in Verkennen niet. Schakel het hieronder in bij Verkennen.",
+				"extensionChrome": "Extensie Get cookies.txt LOCALLY (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Cookiebestand",
+				"helpLink": "Hoe exporteer ik cookies?",
+				"openExplore": "Verkennen openen",
+				"placeholder": "Geen bestand geselecteerd",
+				"recommended": "Aanbevolen",
+				"risk": "Risico: een cookies.txt bevat elke aangemelde sessie van die browser — houd het privé.",
+				"sourceBrowser": "Browser",
+				"sourceExplore": "Aanmelding in Verkennen",
+				"sourceFile": "Bestand",
+				"sourceLabel": "Cookiebron",
+				"sourceOff": "Uit",
+				"toggleDescription": "Helpt bij video’s die je eigen account kan bekijken, zoals je privévideo’s."
+			},
+			"downloadConnections": {
+				"description": "Versnelt grote downloads door meerdere delen van een video tegelijk op te halen. Hogere waarden vergroten de kans dat een site je beperkt.",
+				"label": "Downloadverbindingen",
+				"unit": "verbindingen"
+			},
+			"downloadList": {
+				"album": "Album downloaden…",
+				"liked": "Video’s die je leuk vindt downloaden…",
+				"mix": "Mix downloaden…",
+				"playlist": "Afspeellijst downloaden…",
+				"uploads": "Uploads downloaden…",
+				"watchLater": "Later bekijken downloaden…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Alleen audio",
+					"subtitles": "Ondertitels"
+				},
+				"anySite": {
+					"heading": "2000+ sites",
+					"musicPlaylist": "Muziekafspeellijsten",
+					"video": "Video’s",
+					"videoPlaylist": "Videoafspeellijsten"
+				},
+				"heading": "Wat Klip kan binnenhalen",
+				"youtube": {
+					"channel": "Kanalen",
+					"heading": "YouTube",
+					"music": "Muziek",
+					"playlist": "Afspeellijsten",
+					"podcast": "Podcasts",
+					"short": "Shorts",
+					"video": "Video’s"
+				}
+			},
+			"fetchFormatsTooltip": "Stapsgewijze wizard. Kies formaat, kwaliteit en meer.",
+			"heading": "Downloaden vanaf URL",
+			"hotkey": {
+				"changeShortcut": "Sneltoets wijzigen",
+				"conflict": "Deze sneltoets wordt al door een andere app gebruikt — kies een andere.",
+				"globalLabel": "Algemene sneltoets",
+				"recording": "Druk op toetsen…",
+				"reset": "Standaard herstellen",
+				"sectionDescription": "Download elke link die je kopieert, vanuit elke app, zonder Klip te openen.",
+				"sectionTitle": "Algemene sneltoets",
+				"test": "Testen",
+				"toggle": "Algemene sneltoets inschakelen",
+				"toggleDescriptionDetail": "Kopieer in een willekeurige app een videolink en druk op de sneltoets: Klip zet hem met je actieve profiel in de wachtrij, zonder van venster te wisselen. Bij een link naar een video in een afspeellijst wordt de video gedownload."
+			},
+			"interactiveDownload": "Interactief downloaden",
+			"interactiveDownloadAsks": "Interactief downloaden…",
+			"limitRate": {
+				"activeWarning": "Actieve downloads behouden hun huidige limiet. Pauzeer en hervat om wijzigingen toe te passen.",
+				"custom": "Aangepast…",
+				"customPlaceholder": "bijv. 750K of 1.5M",
+				"description": "Beperk de bandbreedte voor mediadownloads. Verzoektempo hieronder is meestal de sterkere hefboom tegen limieten.",
+				"invalid": "Gebruik een getal gevolgd door K of M (bijv. 500K, 1.5M)",
+				"label": "Downloadsnelheidslimiet",
+				"off": "Uit"
+			},
+			"mascotBusy": "Bezig met downloaden op de achtergrond… ik kan multitasken 😎",
+			"mascotCollection": "Snel zet geladen items in de wachtrij met {{profileName}}. Met Interactief kun je items eerst bekijken of selecteren.",
+			"mascotIdle": "Plak een link en laat Klip hem binnenhalen ✨",
+			"mascotSingle": "Snel start één download met {{profileName}}. Gebruik Interactief voor eenmalige wijzigingen.",
+			"mascotVideoInList": "Deze link noemt een video en de lijst waarin hij staat: download alleen de video, of de lijst.",
+			"nativeAudioPreference": {
+				"compatible": "Compatibele stereo",
+				"description": "Stereo of surround wanneer een profiel oorspronkelijke audio kiest. Een profiel kan dit overschrijven.",
+				"label": "Voorkeur voor oorspronkelijke audio",
+				"surround": "Surround / Dolby verkiezen"
+			},
+			"networkPacing": {
+				"description": "Voeg kleine wachttijden toe tijdens elke download zodat Klip de site niet te agressief benadert. Waarden zijn in seconden.",
+				"fields": {
+					"maxSleepInterval": "Pauze voordat media start: max",
+					"sleepInterval": "Pauze voordat media start: min",
+					"sleepRequests": "Wachten tussen controles van metagegevens",
+					"sleepSubtitles": "Wachten voor ondertitelbestanden"
+				},
+				"heading": "Rustig downloaden",
+				"presetLabel": "Hoe voorzichtig moet Klip zijn?",
+				"presets": {
+					"balanced": "Gebalanceerd",
+					"careful": "Voorzichtig",
+					"custom": "Aangepast",
+					"off": "Uit"
+				},
+				"summary": "Wachttijden: {{requests}} tussen controles, {{downloads}} voordat media start, {{subtitles}} voor ondertitelbestanden.",
+				"tooltip": "Deze wachttijden vinden plaats binnen elke download. Hoeveel downloads tegelijk lopen, stel je apart in bij Downloads tegelijk.",
+				"tooltips": {
+					"balanced": "Standaard. Voegt korte pauzes toe tussen verzoeken en voordat media start.",
+					"careful": "Voegt langere pauzes toe voor grote afspeellijsten of netwerken die vaak limieten raken.",
+					"custom": "Stel de geavanceerde bediening per download zelf af.",
+					"off": "Gebruikt alleen de kleine basispauzes die Klip voor media en ondertitels aanhoudt."
+				},
+				"units": {
+					"seconds": "sec"
+				}
+			},
+			"openedLink": {
+				"added": "Link geopend in Klip",
+				"replaced": "Vervangen door de link die in Klip is geopend"
+			},
+			"pasteLink": "Link plakken",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Huidige limiet: {{count}} items",
+				"custom": "Aangepast…",
+				"customDialogCancel": "Annuleren",
+				"customDialogDescription": "Gebruik een geheel getal van {{min}} tot {{max}}.",
+				"customDialogSave": "Limiet opslaan",
+				"customDialogTitle": "Aangepaste scanlimiet voor afspeellijsten",
+				"customValue": "Aangepast: {{count}} items",
+				"description": "Maximaal aantal items dat Klip laadt wanneer een afspeellijst, kanaal of zoekresultaat wordt geopend.",
+				"invalid": "Gebruik een geheel getal van 1 tot 5000",
+				"label": "Te scannen afspeellijstitems",
+				"option": "{{count}} items"
+			},
+			"playlistScope": {
+				"appLimit": "App-limiet gebruiken: {{count}}",
+				"apply": "Toepassen",
+				"applyError": "Dat afspeellijstbereik kon niet worden toegepast: {{message}}",
+				"applyReload": "Toepassen en opnieuw laden",
+				"cancel": "Annuleren",
+				"change": "Wijzigen",
+				"dialogDescription": "Kies wat Klip voor deze afspeellijst laadt.",
+				"dialogTitle": "Afspeellijstbereik",
+				"emptyTitle": "Geen video’s in dat bereik",
+				"first": "Eerste",
+				"invalid": "Gebruik gehele itemnummers van 1 tot {{max}}, waarbij het begin niet hoger is dan het einde.",
+				"itemsLabel": "Te laden items",
+				"label": "Afspeellijstbereik",
+				"range": "Bereik",
+				"reloading": "Opnieuw laden...",
+				"reset": "Herstellen",
+				"summaryAppLimit": "Eerste items laden: {{count}}",
+				"summaryFirst": "Eerste items laden: {{count}}",
+				"summaryRange": "Items {{from}}-{{to}} laden",
+				"to": "tot"
+			},
+			"profile": {
+				"activeLabel": "Actief profiel",
+				"badgeBuiltIn": "Ingebouwd",
+				"badgeCustom": "Aangepast",
+				"badgeDisabled": "Verborgen",
+				"badgeModified": "Gewijzigd",
+				"builtinName": {
+					"audio-only": "Alleen audio",
+					"balanced": "Gebalanceerd 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Beste kwaliteit",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Laagste kwaliteit 144p",
+					"low-240": "Weinig data 240p",
+					"mp4-1080": "Smart-tv 1080p",
+					"mp4-480": "Smart-tv 480p",
+					"mp4-720": "Smart-tv 720p",
+					"small-file": "Klein bestand 480p",
+					"subtitles-only": "Alleen ondertitels"
+				},
+				"changeGlobalDestination": "Algemene bestemming wijzigen",
+				"destinationDetail": {
+					"global": "Algemene bestemming wordt gebruikt",
+					"globalSubfolder": "Algemene bestemming + profielsubmap wordt gebruikt",
+					"override": "Profielvervanging wordt gebruikt",
+					"overrideSubfolder": "Profielvervanging + profielsubmap wordt gebruikt"
+				},
+				"destinationEditHint": "Bewerk het profiel om te wijzigen waar het opslaat.",
+				"destinationFallback": "Bestemming",
+				"edit": "Bewerken",
+				"editActive": "Actief profiel bewerken",
+				"enableHint": "Verborgen profielen blijven hier staan maar verdwijnen uit elke profielkeuzelijst.",
+				"enableToggleAria": "Profiel tonen in keuzelijsten: {{profileName}}",
+				"lastEnabledHint": "Houd minstens één profiel beschikbaar.",
+				"manageProfiles": "Profielen beheren",
+				"menuDescription": "Wijzig het actieve profiel voor Snel downloaden, Meerdere URL’s en afspeellijsten.",
+				"menuTitle": "Van profiel wisselen",
+				"movableProfile": "verplaatsbaar profiel",
+				"moveCancelled": "Verplaatsen geannuleerd. {{profileName}} blijft op positie {{position}} van {{count}}.",
+				"moveDropped": "{{profileName}} neergezet op positie {{position}} van {{count}}.",
+				"moveHandleAria": "{{profileName}} verplaatsen",
+				"moveInstructions": "Om een profiel te verplaatsen, druk je op Spatie of Enter, verplaats je het met de pijltjestoetsen en druk je opnieuw op Spatie of Enter om het neer te zetten. Druk op Escape om te annuleren.",
+				"moveOver": "{{profileName}} staat boven positie {{position}} van {{count}}.",
+				"movePickedUp": "{{profileName}} opgepakt. Het staat op positie {{position}} van {{count}}.",
+				"newProfile": "Nieuw profiel",
+				"outputMissing": "Dit profiel slaat op in een map die niet is ingesteld. Kies een map in het profiel of zet het terug op de standaard.",
+				"panelDescription": "Maak herbruikbare downloadconfiguraties, selecteer, bewerk of verwijder ze.",
+				"panelTitle": "Downloadprofielen",
+				"remove": "Verwijderen",
+				"reorderHint": "Sleep een profiel om het te verplaatsen. Elke profielkeuzelijst volgt deze volgorde.",
+				"reset": "Herstellen",
+				"savesTo": "Slaat op in",
+				"switchAria": "Van downloadprofiel wisselen: {{profileName}}",
+				"switchTitle": "Van downloadprofiel wisselen"
+			},
+			"proxy": {
+				"clear": "Wissen",
+				"description": "Leid verkeer via een proxyserver.",
+				"label": "Proxy-URL",
+				"placeholder": "http://host:poort"
+			},
+			"quickDownload": "Snel downloaden",
+			"quickDownloadTooltip": "Downloadt met: {{profileName}}",
+			"quickFailed": "Deze kon niet worden toegevoegd: {{error}}",
+			"quickPrepareFailed": "Wachtrij-item kon niet worden voorbereid",
+			"quickPreparing": "Voorbereiden",
+			"quickProbeFailed": "Analyse mislukt",
+			"quickSingleOnly": "Plak een video-, afspeellijst-, kanaal- of zoek-URL om te beginnen.",
+			"reports": {
+				"toggle": "Anonieme heartbeat- en installatierapporten verzenden",
+				"toggleDescription": "Geen tracking. Eén keer per dag stuurt een anonieme heartbeat de appversie, het installatiekanaal, het besturingssysteem, de taal, het land en ongeveer hoe lang geleden Klip is geïnstalleerd, zodat we actieve en nieuwe gebruikers kunnen tellen. Wanneer Klip zijn downloadengine of mediatools installeert of bijwerkt, meldt het ook of dat is gelukt en ongeveer hoe lang het duurde. Geen ID’s, URL’s, videotitels of bestandsnamen."
+			},
+			"settings": {
+				"behaviorDescription": "Algemeen gedrag dat ook van invloed is op downloads via profielen.",
+				"behaviorHeading": "Downloadgedrag",
+				"inputHeading": "Invoer"
+			},
+			"style": {
+				"aurora": {
+					"description": "Glazen panelen boven een bewegende hemel. Vereist grafische versnelling.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Effen, rustige vlakken. Draait licht op elke computer.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Beide stijlen zijn beschikbaar in licht en donker.",
+				"modeLabel": "Stijl",
+				"panelDescription": "Hoe Klip eruitziet. Wissel onderaan tussen licht en donker.",
+				"panelTitle": "Weergave",
+				"unavailableNotice": "{{style}} vereist grafische versnelling, die nu niet beschikbaar is, dus Klip toont {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profielen",
+				"settings": "Instellingen"
+			},
+			"thisVideo": "Deze video",
+			"thisVideoTooltip": "Downloadt alleen deze video met {{profileName}}"
+		}
+	}
+}

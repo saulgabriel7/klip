@@ -1,0 +1,77 @@
+/* Aurora style tokens aligned with Minimal Solid Zinc (zero blur, zero neon glow). */
+
+:root[data-style='aurora'] {
+	--background: hsl(240 5% 96%);
+	--foreground: hsl(240 10% 4%);
+	--card: hsl(0 0% 100%);
+	--card-foreground: hsl(240 10% 4%);
+	--popover: hsl(0 0% 100%);
+	--popover-foreground: hsl(240 10% 4%);
+	--secondary: hsl(240 5% 93%);
+	--secondary-foreground: hsl(240 10% 4%);
+	--muted: hsl(240 5% 93%);
+	--muted-foreground: hsl(240 5% 34%);
+	--accent: hsl(240 5% 91%);
+	--accent-foreground: hsl(240 10% 4%);
+	--border: hsl(240 6% 88%);
+	--border-strong: hsl(240 5% 78%);
+	--input: hsl(240 6% 86%);
+	--text-subtle: hsl(240 5% 36%);
+	--selected-foreground: hsl(240 10% 4%);
+	--line: hsl(240 5% 82%);
+	--surface-stage: hsl(0 0% 100%);
+	--surface-tile: hsl(240 5% 98%);
+	--surface-raised: hsl(0 0% 100%);
+	--surface-bar: linear-gradient(hsl(0 0% 100%), hsl(0 0% 100%));
+	--surface-filter: none;
+	--edge-soft: linear-gradient(hsl(240 6% 88%), hsl(240 6% 88%));
+	--edge: linear-gradient(hsl(240 6% 88%), hsl(240 6% 88%));
+	--edge-hot: linear-gradient(hsl(240 5% 78%), hsl(240 5% 78%));
+	--edge-selected: linear-gradient(hsl(240 10% 10%), hsl(240 10% 10%));
+	--tint-start: transparent;
+	--tint-end: transparent;
+	--sheen: transparent;
+	--glow: transparent;
+	--shade: transparent;
+	--primary-fill: linear-gradient(hsl(221 83% 53%), hsl(221 83% 53%));
+	--selected-fill: linear-gradient(hsl(240 5% 94%), hsl(240 5% 94%));
+	--hover-brightness: 0.96;
+}
+
+:root[data-style='aurora'].dark {
+	--background: hsl(240 10% 4%);
+	--foreground: hsl(0 0% 98%);
+	--card: hsl(240 6% 7%);
+	--card-foreground: hsl(0 0% 98%);
+	--popover: hsl(240 6% 9%);
+	--popover-foreground: hsl(0 0% 98%);
+	--secondary: hsl(240 5% 12%);
+	--secondary-foreground: hsl(0 0% 98%);
+	--muted: hsl(240 5% 12%);
+	--muted-foreground: hsl(240 5% 68%);
+	--accent: hsl(240 5% 15%);
+	--accent-foreground: hsl(0 0% 98%);
+	--border: hsl(240 4% 16%);
+	--border-strong: hsl(240 5% 24%);
+	--input: hsl(240 4% 16%);
+	--text-subtle: hsl(240 5% 64%);
+	--selected-foreground: hsl(0 0% 98%);
+	--line: hsl(240 4% 18%);
+	--surface-stage: hsl(240 6% 7%);
+	--surface-tile: hsl(240 6% 9%);
+	--surface-raised: hsl(240 5% 11%);
+	--surface-bar: linear-gradient(hsl(240 6% 7%), hsl(240 6% 7%));
+	--surface-filter: none;
+	--edge-soft: linear-gradient(hsl(240 4% 16%), hsl(240 4% 16%));
+	--edge: linear-gradient(hsl(240 4% 16%), hsl(240 4% 16%));
+	--edge-hot: linear-gradient(hsl(240 5% 24%), hsl(240 5% 24%));
+	--edge-selected: linear-gradient(hsl(0 0% 98%), hsl(0 0% 98%));
+	--tint-start: transparent;
+	--tint-end: transparent;
+	--sheen: transparent;
+	--glow: transparent;
+	--shade: transparent;
+	--primary-fill: linear-gradient(hsl(221 83% 53%), hsl(221 83% 53%));
+	--selected-fill: linear-gradient(hsl(240 5% 13%), hsl(240 5% 13%));
+	--hover-brightness: 1.06;
+}

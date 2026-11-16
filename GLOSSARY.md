@@ -1,0 +1,473 @@
+# Arroxy Domain Context
+
+The canonical glossary for Arroxy. Every entry below is a domain term you can use
+to explain how the app works — in a PR, a support reply, or a translation note —
+without any code detail. It is a glossary and nothing else: no module names, no
+function names, no constants, no decisions. Implementation lives in the code (the
+source of truth); architectural decisions live in `docs/adr/`.
+
+When two words exist for one concept, the canonical word is the bold heading and
+the rejected alternatives are listed under `_Avoid_`. Use the canonical word in
+code, UI copy, docs, and every locale.
+
+## Language
+
+### Download
+
+**Job**:
+One download attempt for a single video. It runs, then ends as complete, failed, or cancelled.
+_Avoid_: task, download, pull, attempt
+
+**Phase**:
+One step inside a running job — fetching the media, merging audio and video, embedding subtitles or metadata.
+_Avoid_: stage, step
+
+**Download connections**:
+How many parts of one video Arroxy fetches in parallel. Off means a single connection. Independent of pacing, which spaces requests out in time rather than widening them. Distinct from **downloads at once**, which is about queue items.
+_Avoid_: fragments, threads, parallel downloads, concurrent fragments
+
+**Downloads at once**:
+How many queue items download simultaneously. Sets the normal-lane cap; the priority lane keeps reserved headroom above it so "pull now" still starts.
+_Avoid_: concurrency, parallel jobs, simultaneous downloads
+
+**Automatic retry**:
+Arroxy restarting a failed item on its own, after a growing delay, for transient transport failures only. Blocked and permanently-failed downloads always wait for the user. Distinct from **resume context**, which is what makes a retry pick up partial files instead of starting over.
+_Avoid_: auto-resume, self-heal, backoff retry
+
+**Rate-limit cooldown**:
+The wait Arroxy imposes on new requests to a site after that site rate-limits this connection, one per site and network route. Probes, queued downloads and automatic retries all wait it out; **Try now** lets one request through. A rate limit never brings in an account, because sites rate-limit signed-in accounts too.
+_Avoid_: backoff, throttle, ban
+
+**Launch gate**:
+The per-site check every launch passes before it starts: go, wait until a time, or blocked, each with a reason. It holds the site's **Rate-limit cooldown** and its pacing.
+_Avoid_: throttle, spawn gate
+
+**Soft failure**:
+A non-fatal miss that still leaves a usable result, so the job finishes as complete. Subtitles that could not be fetched are the typical case — the video is kept.
+_Avoid_: warning, partial failure
+
+**Hard failure**:
+A fatal error that ends a job with no usable result.
+_Avoid_: crash, fatal error
+
+**Resume context**:
+The saved state that lets a paused or failed job restart from its partial files instead of starting over. Only certain media failures are resumable.
+_Avoid_: checkpoint, savepoint, retry state
+
+**Status**:
+The labelled phase or outcome a job is currently in — preparing, downloading, merging, complete, error.
+_Avoid_: state
+
+**Progress**:
+The live percentage and detail line within the current phase. Distinct from status: status is *which* phase, progress is *how far* through it.
+_Avoid_: percent
+
+**Artifact**:
+A file produced by a queue item, such as media, sidecar subtitles, a thumbnail, a description, or a companion file. An artifact is **missing** when it is no longer on disk, for example after being moved or deleted outside the app; the queue checks this each time it loads and clears the mark when the file is back.
+_Avoid_: payload, attachment
+
+**Copied link**:
+The latest single link the clipboard watch saw while Arroxy was in front: a clipboard holding exactly one web link and nothing else. It replaces the URL field without asking, with an Undo, as soon as the Download tab is idle; until then it waits, and a newer copy takes its place.
+_Avoid_: pending link, clipboard candidate, suggested link
+
+### Queue
+
+**Queue**:
+The ordered set of jobs waiting to run, running, or finished. It survives an app restart.
+_Avoid_: list, batch
+
+**Queue item**:
+A single job's persistent entry in the queue, including its source, output target, status, and resume state.
+_Avoid_: row, entry, task
+
+**Output target**:
+The folder assigned to a queue item and its artifacts.
+_Avoid_: save path, output path
+
+**Downloads view**:
+The user-facing management surface where users inspect, filter, select, and act on queue items.
+_Avoid_: queue view, drawer, task list
+
+**Queue action**:
+A user command applied to one or more selected queue items. It applies only where valid for each queue item's current status.
+_Avoid_: bulk action, mass action
+
+**Lane**:
+The scheduling tier of a queue item. A normal-lane item respects the simultaneous-download cap and the pacing delay between starts; a priority-lane item skips the pacing delay but still respects the hard cap.
+_Avoid_: tier, track, priority level
+
+**Held pause**:
+A queue item paused before it ever started running. Resuming simply lets it start.
+_Avoid_: queued pause, idle pause
+
+**Active pause**:
+A queue item paused after its download had already begun. Resuming continues from its partial files, even across an app restart.
+_Avoid_: live pause, running pause
+
+**Quit gate**:
+The one place every way of quitting passes, from the window's close button to the end of the OS session. Quitting never cancels the queue: running items stop as an active pause would, links still being checked stop too, everything is saved, and the next launch continues it on its own, checking those links again. It asks first only when you quit while downloads run.
+_Avoid_: shutdown cancel
+
+### Wizard
+
+**Wizard**:
+The guided step flow behind Interactive Download. For a single video it is two screens, Format and Review; a playlist or batch walks its own steps to a final confirmation.
+_Avoid_: flow, stepper, form
+
+**Probe**:
+Inspecting a URL to discover its title, available formats, and metadata before any download starts.
+_Avoid_: fetch, inspect, scan, lookup
+
+**Probe slot**:
+One of the few probes main runs at once. Background probes (a placeholder row's, a title lookup's) wait their turn in arrival order, and one whose site is in a **rate-limit cooldown** waits it out without taking a slot, so links for other sites go ahead. The window's own probe goes first. How many background probes run at once is the "Links checked at once" setting.
+_Avoid_: probe queue, probe pool, concurrency
+
+**Media kind**:
+What a single-video download produces: video, audio, or subtitles only. Picked on the Format screen.
+_Avoid_: preset, mode, type
+
+**Format mode**:
+The Format screen's switch, named like a profile's media: Video + audio, Video, no audio, Audio only, Subtitles only. Video, no audio is the video media kind with no audio and a stream that has none of its own.
+_Avoid_: media type, tab
+
+**Stream marker**:
+What yt-dlp's notes say about one stream beyond its size and codec: AI upscaled, AI dubbed, audio description, spatial audio, 360° / VR, enhanced bitrate, damaged, watermarked. The Format screen tags each one.
+_Avoid_: flag, badge, quirk
+
+**Probe source**:
+A real probe of one site or kind of video, kept as a fixture so the Format screen can be checked against it without probing. Each has a text snapshot and a "Real sites" Scenario Workbench state.
+_Avoid_: sample, recording
+
+**Profile pick**:
+The streams and settings a download profile gives one particular video, shown pre-selected in the wizard. Changing anything is a per-download edit; keeping it means updating that profile or saving a new one.
+_Avoid_: default, preset, remembered choice
+
+**Part of video**:
+A time range of one video, picked on the Format screen and downloaded on its own instead of the whole video. Its file name ends in the range (`[3m40s-7m15s]`) after the video id. Never part of a download profile.
+_Avoid_: clip, trim, section, cut
+
+**Fit notice**:
+A warning that a video can't honour part of the download profile (a resolution, MP4, subtitle languages), naming what was picked instead.
+_Avoid_: fallback, mismatch error
+
+**Feature callout**:
+A one-time card in the page flow that points to a capability people may not have noticed yet, placed where that capability lives. Closing it, or using the feature, retires it for good: it does not return on another video or after a restart. Not a hover bubble, and not a warning.
+_Avoid_: tip, hint, alert, nudge, onboarding, coach mark
+
+**URL intent**:
+The classification of a pasted URL, from its shape alone, as a single video, a playlist, a mixed URL, or unknown. Arroxy recognises only YouTube's shapes, so a link from any other site is unknown until its probe shows what it holds.
+_Avoid_: URL type, URL kind
+
+**Playlist**:
+A source URL that expands into multiple videos queued together — including a channel or a search, which Arroxy treats as playlists. The URL classifier may still tag the source as playlist, channel, or search for routing.
+_Avoid_: collection, batch
+
+**List kind**:
+What kind of list a link names, read from the link itself: playlist, Mix, album, uploads, Watch later or liked. When the link doesn't say, it's a playlist.
+_Avoid_: list type, collection type
+
+**Load limit**:
+The most entries Arroxy loads from one playlist before going on; a playlist that runs past it is capped, and its count is only a lower bound. The user sets it.
+_Avoid_: scan limit, probe limit, playlist cap
+
+**Mixed URL**:
+A URL that names one video and a playlist at once, so the user's intent is genuinely ambiguous. It is the only intent settled before anything is probed or queued; every other question waits for the probe.
+_Avoid_: combo URL, dual URL, video+playlist URL
+
+**Mixed URL prompt**:
+The question a mixed URL raises before its probe, asked from the list's own control: Just this video, the list in the background (asking past the load limit), exactly the first N, or the playlist picker; from Interactive, how many to load for the picker, or Just this video. Every surface with a window also puts a This video shortcut beside the list's control, which downloads the video without asking. The global hotkey never asks it and takes the video, since a stray video is cheaper to undo than a stray playlist; Bulk URLs ask it on the link's own row instead (Needs your choice), and keep a Mix link as its video.
+_Avoid_: playlist prompt, video-or-playlist dialog
+
+**Placeholder title**:
+A fabricated row title (`Untitled · #N`) the probe emits when a flat listing gives no real title. It is a stand-in, never shown to the user as final, and is replaced the moment a real title is known.
+_Avoid_: fake title, stub title, temp title
+
+**Hydration**:
+Filling placeholder rows in with real per-row metadata through follow-up probes, while the user keeps working. Bounded concurrency, cancellable, and always optional — the user may proceed without waiting for it.
+_Avoid_: enrichment, backfilling rows, resolving
+
+**Title backfill**:
+Replacing a placeholder title on a queue item after it has already been queued, either from a late probe or from the metadata yt-dlp wrote while downloading it. Distinct from hydration, which happens before queueing.
+_Avoid_: late naming, title repair
+
+**Playlist sort mode**:
+The order the playlist picker displays rows in — probe order as given, or by upload date ascending or descending. A view concern: it never rewrites row identity, and rows with no known upload date sort last.
+_Avoid_: ordering, row order, sort key
+
+**Radio**:
+A list YouTube generates around a video, personalised and different every session; the app names it a Mix. A video link carrying one is a mixed URL, and the Mix is offered as a snapshot, read to its end. A YouTube Music playlist shares its link prefix but is a stable playlist, not radio. Bulk URLs keeps reading a radio link as its video.
+_Avoid_: autoplay queue, station
+
+### Profiles and quick download
+
+**Download profile**:
+A saved, reusable set of download settings the user applies in one click, without walking the wizard.
+_Avoid_: preset, template, config
+
+**Profile picker**:
+Any place that picks a download profile. Every one lists the user's saved order and checks the profile in use; a profile something already uses but the user has since hidden still shows, first, tagged Hidden. A grid where the pick changes the app's active profile, a list where it picks for one download or for playlist rows.
+_Avoid_: profile menu, profile switcher, profile dropdown
+
+**Selection order**:
+The ranked rules a download profile uses to choose one video and one audio stream out of everything a video offers, best first: streams the site doesn't mark down, original streams before AI-upscaled ones (unless the profile allows them), resolution limit, frame rate, HDR, the site's preferred copy (such as enhanced-bitrate streams), codec, a direct download before its streamed copy, file size, then the audio language and track. The same order drives Quick and Interactive Download, and the app shows it.
+_Avoid_: priority, hierarchy, ranking, sort
+
+**Profile goal**:
+What a download profile's video is for, which decides the codec its selection order prefers: Best picture (the newest, most efficient codecs) or Smart TV (the codec every device plays).
+_Avoid_: codec, compatibility, native
+
+**Video codec preference**:
+A Best picture profile's choice to take VP9 or H.264 first among streams of the same height, instead of the newest codec. It never costs resolution, frame rate or HDR; Smart TV has no use for it.
+_Avoid_: codec override, codec priority
+
+**File type**:
+The kind of file a download is saved as, such as MP4, MKV or WebM. Auto lets the chosen streams decide.
+_Avoid_: container, extension, format
+
+**Remux**:
+Copying streams into another file type without re-encoding them: fast and lossless, but only possible when the file type can hold those codecs.
+_Avoid_: convert, transcode, re-encode
+
+**Quick download**:
+Starting a download straight from a saved profile, skipping the wizard steps. Every link, one at a time or a batch from Bulk URLs, prepares in the background as a placeholder row in Downloads, so several can prepare at once and nothing waits on the window.
+_Avoid_: instant download, one-click download
+
+**Placeholder row**:
+The row a quick download puts in Downloads the moment a link is taken in, before its probe has answered. It has no job yet and never starts by itself; once the probe answers it becomes the queued items, a probe-error row, or a row that needs your choice. Cancelling it simply removes it. Its probe may wait for a **probe slot** first; the row stays Fetching details meanwhile, and says so when it waits out its site's rate-limit cooldown. Quitting stops its probe and keeps the row; the next launch probes it again, in the order the rows were placed.
+_Avoid_: pending row, stub row, ghost row
+
+**Probe-error row**:
+A placeholder row whose probe failed. It carries the same guidance as any failed probe and is resolved from the row: retry, enable cookies and retry, open cookie settings, or sign in in Explore.
+_Avoid_: failed download (nothing downloaded), broken row
+
+**Needs your choice**:
+A placeholder row waiting for a decision only the user can make. Mostly it is the one its probe raised: how much of a loaded list to take. It always offers All and Review, and the first N only when the list ran past the load limit. It asks for a list nobody counted in advance: a list link past the load limit, or a link whose URL intent did not say list but which loaded as one (another site's list). A row placed with a count already chosen never asks. Review opens the playlist picker, not the wizard's single-video Review screen. A Bulk URLs link naming a video and a list asks first, before anything is probed: This video, the list in the background (which may then ask how many), or Pick from it (the picker). It keeps waiting across a restart.
+_Avoid_: pending decision, blocked row, needs review
+
+**List offer**:
+What a video the global hotkey took from a mixed URL keeps on its Downloads row: a quiet "From a playlist · Get the whole playlist" line, named by the kind of list, that undoes the hotkey's guess when the list was wanted. It loads nothing until taken; taking it places the list as its own row, as if the list's link had been pasted, and that row leaves the video out of every answer (All, First N, Review), whatever became of the video's own row. It is not in needs attention, and stays until taken, dismissed or the row is removed, across a restart.
+_Avoid_: playlist suggestion, list prompt, upsell
+
+**Needs attention**:
+A row only the user can move on — a probe-error row or one that needs your choice. The Downloads tab counts them.
+_Avoid_: alerts, problems, warnings
+
+**Selection parity**:
+The rule that the Format screen pre-selects exactly the streams a queued download of the same profile downloads. Both read the profile's yt-dlp selection; a check against yt-dlp itself, over recorded probes, holds them together.
+_Avoid_: pick sync, format consistency
+
+### Subtitles
+
+**Sidecar subtitles**:
+Subtitles saved as a separate file alongside the video.
+_Avoid_: external subtitles
+
+**Embedded subtitles**:
+Subtitles muxed into the video file as a selectable track.
+_Avoid_: burned-in, hardcoded, baked-in subtitles
+
+**Manual subtitles**:
+Subtitles the uploader provided. Shown without a badge.
+_Avoid_: original subtitles, human subtitles
+
+**Automatic captions**:
+Subtitles the site generated from the speech. On YouTube only the caption in the spoken language is offered; the site's machine translations are left out. Shown with the Auto badge, under the language's plain name.
+_Avoid_: auto-subs, "(Original)" in labels
+
+**Subtitle track**:
+One subtitle file a video offers: a language, either uploaded (manual subtitles) or generated (an automatic caption). A profile asks for languages and a subtitle source; the Format screen picks tracks.
+_Avoid_: subtitle language (when one track is meant), caption key
+
+**Subtitle source**:
+Which of a language's tracks a profile or subtitles-only batch fetches: manual first (automatic captions only where no manual subtitles exist), manual and auto (both, side by side), manual only, or auto only. A video's own picks are saved as manual and auto when they hold both for one language.
+_Avoid_: subtitle type, caption mode
+
+### Binaries and runtime
+
+**Dependency**:
+One of the external programs Arroxy drives to do its work — the downloader and the media tools it relies on.
+_Avoid_: binary, tool, executable
+
+**Download engine**:
+What the user sees the downloader called. On-screen copy says "Arroxy" when it describes what the app did, and "the download engine" only for the updatable part underneath. The tool's real name appears only where the user needs it: installing it by hand, searching an error, or a link to its own pages.
+_Avoid_: naming the downloader in on-screen copy elsewhere
+
+**Binary manifest**:
+The versioned list that tells Arroxy which managed binary build to fetch for the current platform.
+_Avoid_: index, build list
+
+**Managed binary**:
+A dependency Arroxy downloads and caches itself, as opposed to one found already installed on the system. Release builds bundle no dependency; both the downloader and the media tools are managed.
+_Avoid_: downloaded binary, fetched binary
+
+**FFmpeg package**:
+The one approved download that holds the media tools and every library they need, installed once per machine and kept across app updates until a different package is approved.
+_Avoid_: FFmpeg bundle, FFmpeg zip, embedded FFmpeg
+
+**Remux matrix**:
+The check an FFmpeg build must pass before it is approved: every media tools command a download can run (merging, cutting a time range, embedding metadata, chapters, a thumbnail or subtitles), tried on small stand-ins for each kind of stream the video platform serves, in each file type that can hold them.
+_Avoid_: ffmpeg test suite, codec matrix, smoke test
+
+**Diagnostics file**:
+The single file a user saves from Settings to attach to a bug report: a snapshot of the session context followed by the current and previous log, with user folder names and URL secrets removed.
+_Avoid_: log bundle, crash report, support dump
+
+**Warmup**:
+The readiness check that verifies the dependencies are present and working — fetching any that are missing — and runs at startup and again on demand from the repair flow. The media dependencies (the downloader and the media tools) gate downloads; the token warm-up is best-effort and never blocks. Verification means actually running each dependency; a passing verdict is remembered for several days, as long as the file it was checked against hasn't changed.
+_Avoid_: bootstrap, init, preflight
+
+**Quality limit**:
+A download that finished below both the quality its profile asked for and the HD floor because the video platform withheld the higher formats for that session, rather than because the video lacks them.
+_Avoid_: low quality, degraded download, SABR error
+
+**Cookieless retry**:
+Re-fetching a quality-limited download without the configured cookies, after the signed-in attempt is stopped as soon as formats are chosen. Its verdict (helps / does not help) is remembered for the rest of the app session.
+_Avoid_: cookie fallback, signed-out mode
+
+**Message site**:
+One place in the downloader's source that raises, reports or prints a message, recorded with its text as a template and where that text comes from. A site whose text is what the site said (an API's error message, a scraped page notice) relays it rather than wording it.
+_Avoid_: error string, known string
+
+**Message catalogue**:
+Every message site in the downloader build users run, each labelled with its failure kind, whether an account helps, and the user's way out, and with the rule (or human override) each label came from. Rebuilt for each pinned build, with a coverage report of what is labelled and what changed.
+_Avoid_: error database, string snapshot
+
+**Download smoke**:
+A headless run of the real download path for one link that stops as soon as the downloader has chosen formats, reporting which formats were picked and why — used to compare cookie, proxy, profile, and player-client variations one at a time.
+_Avoid_: dry run, format test, quality probe
+
+### Explore
+
+**Explore**:
+The in-app browser tab where the user browses the web and may sign in to sites. It opens on YouTube, searches the web with the search engine the user picks (DuckDuckGo unless another is chosen), sits beside the **Wizard** as a second way to find a video, and a page or link opened there can be handed to a download.
+_Avoid_: built-in browser, web view, browse tab
+
+**Explore session**:
+The persistent browsing identity behind Explore, owned by the app and kept separate from the user's own browser. Signing in to Explore signs in this identity; signing out of Explore clears it.
+_Avoid_: Explore account, browser profile
+
+**Sign-in page**:
+A page where an account provider signs the user in or checks a sign-in: a whole host such as Google's account pages, or only some paths on a host that also serves the site, such as Facebook's login and checkpoint pages. Explore's ad blocker never acts on a sign-in page, nor on what it loads.
+_Avoid_: login page, auth host
+
+**Idle unload**:
+Releasing the Explore page once the user has been away from the tab for a while, to free its memory. Off unless the user turns it on: coming back costs a reload. Only pages a reload cannot cost anything are released (the site's home and search results); coming back reloads the page at the same place in its history, in the same **Explore session**.
+_Avoid_: suspension, discard, hibernation, sleeping tab
+
+**Explore cookies**:
+The cookies read from the Explore session each time a download step needs them, used for that step and then discarded. A YouTube download gets YouTube's cookies only; a download from any other site gets every cookie but Google's and YouTube's account cookies.
+_Avoid_: session cookies (that term already means cookies that expire when a browser closes), saved login
+
+**Escalation**:
+Switching one download from anonymous to the Explore session after a failure that an account can fix, such as a private, members-only, or age-restricted video, or a bot check.
+_Avoid_: fallback, login retry, upgrade
+
+**Job auth**:
+The identity a job runs as, and why: anonymous, the Explore session by the site's default, or the Explore session after escalation. Only an escalated job stays on the Explore session for the rest of the job.
+_Avoid_: login state, credentials
+
+**Site sign-in**:
+Whether the Explore session is signed in to one site, read from that site's own sign-in cookie. Presence only: the site can still refuse it.
+_Avoid_: logged in, has cookies
+
+**Sign-in policy**:
+How an engine uses the Explore session on one site: never, when needed (**Escalation**), first, or required.
+_Avoid_: auth mode, cookie strategy
+
+**Start identity**:
+The identity a job's first launch uses. It is decided again if a redirect leads to another site.
+_Avoid_: initial auth, default login
+
+**Suspect sign-in**:
+A **Site sign-in** that downloads have shown to be in the way, through an account wall or items that only worked anonymously. Downloads stop using it until the user signs in again or says to use it again.
+_Avoid_: expired session, bad cookies
+
+### Heartbeat
+
+**Heartbeat**:
+The one anonymous signal an install sends per day, unless turned off: app version, OS, language, install channel, install age. It carries no identifier; the country is added where it is received. It only counts active and new installs. It shares its opt-out with the **Warmup report**.
+_Avoid_: telemetry, analytics event, usage ping, tracking
+
+**Install age**:
+How long ago an install sent its first heartbeat, as a coarse bucket (new, up to a week, a month, three months, older) shared by many installs. It is what tells new installs from returning ones without an identifier. An install whose first heartbeat finds binaries from an earlier version already on disk is not new; its age stays unknown.
+_Avoid_: install date, user age, cohort ID
+
+**Warmup report**:
+The anonymous note an install sends about a **Warmup** that had to fetch a managed binary: that it started, then how it ended (finished, failed, stopped, or the app quit) and roughly how long and how fast it was. It covers only that process and never carries crash reports, feature usage, links or anything about the user's downloads. On screen it is a setup report, after the splash's "First-time setup".
+_Avoid_: setup report outside on-screen copy (Setup is also the Windows installer), telemetry, crash report, install event
+
+### Appearance
+
+**Style**:
+The overall look of the app — how surfaces, edges and the background are painted. Aurora (glass over a moving sky) and Minimal (solid, quiet surfaces) are styles. Every style comes in both color schemes; switching style never moves anything or changes what the app does.
+_Avoid_: theme, skin, look, visual mode
+
+**Color scheme**:
+Light, dark, or following the system. Chosen independently of the style.
+_Avoid_: theme, mode, sky (sky is design-doc shorthand for one style in one scheme)
+
+### Outside control
+
+**Control API**:
+The one way programs outside the Arroxy window use the app: add a link, read the queue and download profiles, and pause, resume, cancel or retry. It is versioned, separate from the window's own private connection to the app, and never asks a question: anything that needs a decision, such as a row that needs your choice, becomes state the client reads and answers.
+_Avoid_: remote API, agent API, MCP (one way of speaking it), public IPC
+
+**Client**:
+A program outside the Arroxy window that the user has allowed to use the Control API, such as a paired phone, an AI agent or a script. Each one has its own identity, shows in the user's list of devices and apps, and stops working the moment it is removed.
+_Avoid_: integration, consumer, connected app, remote
+
+**Local client**:
+A client on the same computer as Arroxy, such as an AI agent or a script, that reaches it over the local connection. Local clients are kept in their own list, apart from paired phones; the list shows when each was first and last seen and whether it is connected now.
+_Avoid_: local app, desktop client, agent (one kind of local client)
+
+**Approval request**:
+What a program's first connection raises: the question, shown to the user under the name the program gave, whether it may become a local client. Allow makes it one, and can also let it read where downloaded files were saved; Deny records nothing. A request nobody answers lapses, and the program has to ask again.
+_Avoid_: pairing (phones pair), permission prompt, consent
+
+**Entry point**:
+A way work reaches Arroxy: inside the window (the link field, a copied link, Explore, the global hotkey) or from outside it (a phone, the local connection agents and scripts use, an `arroxy://` link). An outside entry point only checks who is calling and passes the Control API message on; it decides nothing itself.
+_Avoid_: adapter (a shell's answer to a port), endpoint, transport, integration
+
+**Intake handle**:
+What a client gets back the instant it hands Arroxy a link, before the probe has answered, to ask about that link later. It ends as queued items, a row that needs your choice, a failed probe, nothing new, or cancelled; it names the link's intake rather than a queue item, because one link can become many queue items or none. A mixed URL means its video unless the client asks for the playlist, as with the global hotkey.
+_Avoid_: job id (no job exists yet), ticket, request id
+
+### Architecture
+
+**Core**:
+The part of Arroxy that does the work — resolving a link, choosing a format, running a job, keeping the queue. It has no opinion about how a person reaches it.
+_Avoid_: engine, backend, daemon, domain layer
+
+**Shell**:
+The part that presents core to a person and supplies whatever the surrounding system provides — a window on a desktop, or a server on a network. Each way of reaching Arroxy has its own shell; core has none.
+_Avoid_: host, frontend, platform layer, wrapper
+
+**Port**:
+A capability core needs but refuses to know the details of, described only as what it must be able to do. Core is written against the port; a shell supplies the real thing.
+_Avoid_: interface, abstraction, contract, boundary
+
+**Adapter**:
+One shell's answer to a port — the real implementation, written in terms of what that shell actually has available.
+_Avoid_: provider, implementation, driver, binding
+
+**Composition root**:
+The single place in a shell where every part is constructed and wired together. Nothing else creates its own dependencies.
+_Avoid_: container, factory, bootstrap, entry point
+
+### Releases
+
+**Release flag**:
+A switch that keeps unfinished work out of what users install while it is built in small steps on the main line. It hides only the ways in, never the work behind them. It is on wherever the work is developed and tested and off in every release, until the work ships; one release later the switch is removed.
+_Avoid_: feature flag, feature toggle, experiment, kill switch
+
+**Release commit**:
+The one commit on the main line that turns pending work into a version: it sets the version number and writes that version's release notes. The release is cut from this commit, not from whatever the main line holds when publishing starts, so work merged after it waits for the next release.
+_Avoid_: release branch, version bump, tag commit
+
+**Translation sync**:
+The single change, made as the first step of every release, that brings every language up to date with the English text. Everyday changes write English only; a language shows English for new text until the next sync, and no release ships with a language left behind.
+_Avoid_: translation pass, locale update, i18n PR
+
+**Changelog fragment**:
+One change's own release-notes entry, written alongside the change and held apart until a release gathers every pending fragment into that version's notes. A change users cannot reach yet, because a release flag hides it, has none; the change that turns the flag on writes it.
+_Avoid_: changelog entry, release note, news item

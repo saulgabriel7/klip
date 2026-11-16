@@ -1,0 +1,285 @@
+import json
+import os
+from pathlib import Path
+import re
+import urllib.parse
+import urllib.request
+
+from yt_dlp.extractor.common import InfoExtractor
+from yt_dlp.extractor.youtube import YoutubeIE, YoutubeTabIE
+from yt_dlp.utils import ExtractorError
+
+
+def _fixture_catalog_path():
+    configured = os.environ.get('ARROXY_E2E_FIXTURE_CATALOG_PATH')
+    if configured:
+        return Path(configured)
+    return Path(__file__).resolve().parents[3] / 'fixture-media-catalog.json'
+
+
+def _fixture_catalog():
+    try:
+        with _fixture_catalog_path().open('r', encoding='utf-8') as handle:
+            return json.load(handle)
+    except Exception as err:
+        raise ExtractorError(f'Could not load Arroxy fixture media catalog: {err}')
+
+
+def _fixture_playlists(catalog):
+    # Plain playlists, a Mix (`RD…`) and a YouTube Music playlist (`RDCLAK…`):
+    # each served the same way, as a flat list.
+    return [catalog['playlist'], catalog['repeatedPlaylist'], catalog['overlapPlaylist'], catalog['mixPlaylist'], catalog['musicPlaylist']]
+
+
+def _fixture_playlist_id_pattern():
+    return '|'.join(re.escape(playlist['id']) for playlist in _fixture_playlists(_fixture_catalog()))
+
+
+def _fixture_video(catalog, video_id):
+    for video in catalog['videos']:
+        if video['id'] == video_id:
+            return video
+    raise ExtractorError(f'Unknown Arroxy fixture video id: {video_id}')
+
+
+def _english_track_key(video):
+    named = video.get('namedSubtitleTrack')
+    return f'en-{named}' if named else 'en'
+
+
+def _fixture_subtitles(catalog, video, base_url, video_id, kind):
+    # The catalog's tracks, as YouTube lists them: the original-language
+    # caption twice (bare and `-orig`, one file), every other automatic key a
+    # machine translation, never a planned track. yt-dlp keys an uploaded
+    # track by YouTube's vssId, so one uploaded with a name of its own
+    # carries an id after its language (`en-nP7-2PuUl7o`). An entry may add
+    # tracks of other shapes YouTube lists (regional, script, live chat).
+    entries = catalog['subtitleTracks'][kind] + video.get('extraSubtitleTracks', {}).get(kind, [])
+    tracks = {}
+    for entry in entries:
+        key = _english_track_key(video) if kind == 'subtitles' and entry['key'] == 'en' else entry['key']
+        ext = entry.get('ext', 'vtt')
+        tracks[key] = [{'url': f"{base_url}/subtitles/{video_id}/{entry['file']}.{ext}", 'ext': ext, 'name': entry['name']}]
+    return tracks
+
+
+def _fixture_title(catalog, video_id):
+    # A catalog entry may override its title to exercise names the filesystem
+    # makes hard: characters yt-dlp's sanitizer rewrites, multibyte text whose
+    # byte and UTF-16 lengths differ, and lengths that force truncation.
+    video = _fixture_video(catalog, video_id)
+    return video.get('title') or f"Fixture Video {video['number']}"
+
+
+def _parsed_extractor_args(extractor):
+    # What yt-dlp parsed from --extractor-args, read the way the real YouTube
+    # extractor reads it. Presence only for the token and visitor data: the
+    # harness proves the options reached yt-dlp, never what they held.
+    po_token = extractor._configuration_arg('po_token', ie_key='youtube', casesense=True)
+    visitor_data = extractor._configuration_arg('visitor_data', ie_key='youtube', casesense=True)
+    player_client = extractor._configuration_arg('player_client', None, ie_key='youtube')
+    query = {'poToken': '1' if po_token else '0', 'visitorData': '1' if visitor_data else '0'}
+    if player_client is not None:
+        query['playerClient'] = ','.join(player_client)
+    return query
+
+
+def _notify_extraction(extractor, base_url, item_id, query):
+    # Records the extraction with the fixture server and returns its scripted
+    # step for this attempt, if any: warnings to print, or an error to raise.
+    query = {**query, **_parsed_extractor_args(extractor)}
+    try:
+        request = urllib.request.Request(f'{base_url}/probe/{item_id}?{urllib.parse.urlencode(query)}', headers={'User-Agent': 'arroxy-fixture-e2e'})
+        with urllib.request.urlopen(request, timeout=60) as response:
+            body = response.read()
+    except Exception as err:
+        raise ExtractorError(f'Fixture metadata failed for {item_id}: {err}')
+    step = json.loads(body) if body else {}
+    for warning in step.get('warnings', []):
+        extractor.report_warning(warning, item_id)
+    if step.get('error'):
+        raise ExtractorError(step['error'], video_id=item_id, expected=True)
+
+
+def _session_limited(video, signed_in):
+    # `limitedWithCookiesOnly` mimics an account YouTube limits while the same
+    # video downloads at full quality signed out.
+    return not video.get('limitedWithCookiesOnly') or signed_in
+
+
+def _fixture_formats(catalog, base_url, video_id, signed_in):
+    video = _fixture_video(catalog, video_id)
+    # A catalog entry may withhold formats to mimic YouTube returning a format
+    # list without usable URLs for them (e.g. SABR-limited sessions).
+    withheld = set(video.get('withheldFormatIds', [])) if _session_limited(video, signed_in) else set()
+    formats = []
+    for descriptor in catalog['formatSets'][video['formatSet']]:
+        if descriptor['id'] in withheld:
+            continue
+        entry = {
+            'format_id': descriptor['id'],
+            'format_note': descriptor['note'],
+            'url': f"{base_url}/media/{video_id}/{descriptor['id']}.{descriptor['ext']}",
+            'ext': descriptor['ext'],
+            'protocol': 'http',
+            'filesize': descriptor['filesize'],
+            'vcodec': descriptor['vcodec'],
+            'acodec': descriptor['acodec'],
+        }
+        for key in ('width', 'height', 'fps', 'tbr', 'abr'):
+            if key in descriptor:
+                entry[key] = descriptor[key]
+        formats.append(entry)
+    return formats
+
+
+class ArroxyFixtureYoutubeIE(YoutubeIE, plugin_name='arroxyfixture'):
+    _VALID_URL = r'https?://(?:www\.)?youtube\.com/watch\?(?:[^#]+&)?v=(?P<id>ARX[0-9A-Z]{8})(?:[&#].*)?$'
+
+    def _fixture_base_url(self):
+        base_url = os.environ.get('ARROXY_E2E_FIXTURE_BASE_URL')
+        if not base_url:
+            raise ExtractorError('ARROXY_E2E_FIXTURE_BASE_URL is required for Arroxy fixture extraction')
+        return base_url.rstrip('/')
+
+    def _explore_marker(self):
+        # Only the seeded Explore session carries this cookie, so its presence
+        # tells an Explore-signed-in extraction from an anonymous one.
+        marker = self._get_cookies('https://www.youtube.com').get('ARROXY_FIXTURE_AUTH')
+        return marker.value if marker else None
+
+    def _cookie_domains(self):
+        # Domains only, never values: lets the harness prove which cookies reached yt-dlp.
+        return sorted({cookie.domain for cookie in self._downloader.cookiejar})
+
+    def _notify_fixture_probe(self, base_url, video_id, signed_in, marker):
+        query = {'domains': ','.join(self._cookie_domains())}
+        if signed_in:
+            query['signedIn'] = '1'
+        if marker:
+            query['marker'] = marker
+        _notify_extraction(self, base_url, video_id, query)
+
+    def _real_extract(self, url):
+        video_id = self._match_id(url)
+        catalog = _fixture_catalog()
+        _fixture_video(catalog, video_id)
+        base_url = self._fixture_base_url()
+        params = self._downloader.params
+        marker = self._explore_marker()
+        signed_in = bool(marker) or bool(params.get('cookiefile') or params.get('cookiesfrombrowser'))
+        # Recorded before the sign-in check so the harness also sees refused extractions.
+        self._notify_fixture_probe(base_url, video_id, signed_in, marker)
+        title = _fixture_title(catalog, video_id)
+        video = _fixture_video(catalog, video_id)
+        if video.get('requiresSignIn') and not marker:
+            raise ExtractorError('Sign in to confirm your age. This video may be inappropriate for some users.', expected=True)
+        # Catalog warnings are printed exactly as yt-dlp's YouTube extractor
+        # would print them, so output parsers see a realistic line.
+        if _session_limited(video, signed_in):
+            for warning in video.get('warnings', []):
+                self.report_warning(warning, video_id)
+
+        info = {
+            'id': video_id,
+            'title': title,
+            'description': f'Deterministic Arroxy E2E fixture for {video_id}',
+            # A chaptered entry states its real length, so a part of it can be cut.
+            'duration': video.get('duration', 42),
+            'uploader': 'Arroxy Fixtures',
+            'channel': 'Arroxy Fixtures',
+            'webpage_url': url,
+            'thumbnail': f'{base_url}/thumbnails/{video_id}.jpg',
+            'thumbnails': [
+                {
+                    'id': 'fixture',
+                    'url': f'{base_url}/thumbnails/{video_id}.jpg',
+                    'width': 320,
+                    'height': 180,
+                },
+            ],
+            'subtitles': _fixture_subtitles(catalog, video, base_url, video_id, 'subtitles'),
+            'automatic_captions': _fixture_subtitles(catalog, video, base_url, video_id, 'automaticCaptions'),
+            'formats': _fixture_formats(catalog, base_url, video_id, signed_in),
+        }
+        if video.get('chapters'):
+            info['chapters'] = video['chapters']
+        # What a music video carries on YouTube: a date, a category, and the
+        # track's credits. Kept to one entry so the others stay undated.
+        tags = video.get('mediaTags')
+        if tags:
+            info.update({
+                'upload_date': tags['uploadDate'],
+                'categories': tags['categories'],
+                'artist': tags['artist'],
+                'album': tags['album'],
+                'track': tags['track'],
+            })
+        return info
+
+
+def _fixture_playlist_result(extractor, playlist_id, url):
+    # A fixture playlist as yt-dlp's tab extractor returns one: flat entries.
+    catalog = _fixture_catalog()
+    playlist = next((candidate for candidate in _fixture_playlists(catalog) if candidate['id'] == playlist_id), None)
+    if playlist is None:
+        raise ExtractorError(f'Unknown Arroxy fixture playlist id: {playlist_id}')
+    base_url = os.environ.get('ARROXY_E2E_FIXTURE_BASE_URL', '').rstrip('/')
+    if not base_url:
+        raise ExtractorError('ARROXY_E2E_FIXTURE_BASE_URL is required for Arroxy fixture extraction')
+    # Recorded like a video extraction, under the playlist id, so the harness
+    # sees what a collection probe handed yt-dlp.
+    _notify_extraction(extractor, base_url, playlist_id, {})
+
+    entries = []
+    for index, video_id in enumerate(playlist['videoIds'], start=1):
+        entries.append({
+            '_type': 'url',
+            'ie_key': 'Youtube',
+            'id': video_id,
+            'title': _fixture_title(catalog, video_id),
+            'url': f'https://www.youtube.com/watch?v={video_id}',
+            'webpage_url': f'https://www.youtube.com/watch?v={video_id}',
+            'thumbnail': f'{base_url}/thumbnails/{video_id}.jpg',
+            'duration': 42,
+            'playlist_index': index,
+        })
+
+    return {
+        '_type': 'playlist',
+        'id': playlist_id,
+        'title': playlist['title'],
+        'playlist_id': playlist_id,
+        'playlist_title': playlist['title'],
+        'webpage_url': url,
+        'entries': entries,
+    }
+
+
+class ArroxyFixtureYoutubeTabIE(YoutubeTabIE, plugin_name='arroxyfixture'):
+    # Both a playlist page and a video opened inside one (`watch?v=…&list=…`):
+    # yt-dlp's YouTube video extractor declines any link with a list, so the
+    # tab extractor takes it, as it does on the real site.
+    _VALID_URL = rf'https?://(?:www\.)?youtube\.com/(?:playlist|watch)\?(?:[^#]+&)?list=(?P<id>{_fixture_playlist_id_pattern()})(?:[&#].*)?$'
+
+    def _real_extract(self, url):
+        playlist_id = self._match_id(url)
+        # The same split yt-dlp's tab extractor makes: --no-playlist keeps just
+        # the video, --yes-playlist (the default) loads its playlist.
+        video_id = urllib.parse.parse_qs(urllib.parse.urlparse(url).query).get('v', [None])[0]
+        if video_id:
+            if not self._yes_playlist(playlist_id, video_id):
+                return self.url_result(f'https://www.youtube.com/watch?v={video_id}', ArroxyFixtureYoutubeIE, video_id)
+            url = f'https://www.youtube.com/playlist?list={playlist_id}'
+        return _fixture_playlist_result(self, playlist_id, url)
+
+
+class ArroxyFixtureOtherSiteListIE(InfoExtractor):
+    # A list on a site other than YouTube: nothing in its link says it is a
+    # list, so Arroxy learns it only from the probe. It serves the fixture
+    # playlists, under a host that never resolves.
+    IE_NAME = 'arroxyfixture:othersitelist'
+    _VALID_URL = rf'https?://media\.arroxy-fixture\.test/lists/(?P<id>{_fixture_playlist_id_pattern()})(?:[?#].*)?$'
+
+    def _real_extract(self, url):
+        return _fixture_playlist_result(self, self._match_id(url), url)

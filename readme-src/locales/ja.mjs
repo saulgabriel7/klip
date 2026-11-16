@@ -1,0 +1,462 @@
+const TECH_CONTENT = `<details>
+<summary><strong>スタック</strong></summary>
+
+- **Electron** — クロスプラットフォームのデスクトップシェル
+- **React 19** + **TypeScript** — UI
+- **Tailwind CSS v4** — スタイリング
+- **Zustand** — 状態管理
+- **yt-dlp** + **ffmpeg** — ダウンロード・マルチプレクサエンジン（どちらも実行時に取得：yt-dlp は最新に保たれ、ffmpeg/ffprobe は一度だけインストールされアップデート後も維持）
+- **Vite** + **electron-vite** — ビルドツール
+- **Vitest** + **Playwright** — ユニットテスト・E2E テスト
+
+</details>
+
+<details>
+<summary><strong>ソースからビルド</strong></summary>
+
+### 前提条件 — 全プラットフォーム共通
+
+| ツール  | バージョン | インストール |
+| ------- | ------- | ------- |
+| Git     | 任意    | [git-scm.com](https://git-scm.com) |
+| Node.js | 24.21.0 | \`mise install\` または \`.node-version\` |
+| Bun     | 1.4.2  | \`mise install\` または \`package.json\` \`packageManager\` |
+
+推奨: \`mise\` をインストールし、checkout 内で \`mise install\` を実行します。mise を使わない場合は、\`bun run bootstrap\` の前に \`.node-version\` の Node.js と \`package.json\` の Bun を手動で有効化してください。
+
+### Windows
+
+\`\`\`powershell
+powershell -c "irm bun.sh/install.ps1 | iex"
+\`\`\`
+
+ネイティブ rebuild には Visual Studio Build Tools と Python が必要になる場合があります。
+
+### macOS
+
+\`\`\`bash
+brew install mise
+xcode-select --install
+\`\`\`
+
+clone 後、checkout 内で \`mise trust && mise install\` を実行してください。shell がすでに \`fnm\`、\`nvm\`、または Homebrew の Bun を使っている場合は、Arroxy が Node.js 24.21.0 と Bun 1.4.2 を使うように \`~/.zshrc\` で mise を有効化してください：
+
+\`\`\`bash
+printf '\n# mise\nif command -v mise >/dev/null 2>&1; then\n  eval "$(mise activate zsh)"\nfi\n' >> ~/.zshrc
+exec zsh
+\`\`\`
+
+### Linux（Ubuntu / Debian）
+
+\`\`\`bash
+curl -fsSL https://bun.sh/install | bash
+
+# ビルド + Electron ランタイム依存
+sudo apt install -y build-essential python3 tar libgtk-3-0 libnss3 libasound2t64
+
+# E2E テストのみ（Electron にはディスプレイが必要）
+sudo apt install -y xvfb
+\`\`\`
+
+### クローンして実行
+
+\`\`\`bash
+git clone https://github.com/antonio-orionus/Arroxy
+cd Arroxy
+mise trust
+mise install           # 推奨。固定バージョンのツールを手動で有効化済みならスキップ
+bun run bootstrap
+bun run doctor
+bun run dev            # Vite renderer に接続した Electron アプリ
+\`\`\`
+
+### 配布パッケージのビルド
+
+\`\`\`bash
+bun run build        # 型チェック + コンパイル
+bun run dist         # 現在の OS 向けパッケージ
+bun run dist:win     # 対応ホストで Windows ターゲットをパッケージ
+\`\`\`
+
+> \`bun run bootstrap\` は依存関係をインストールし、Electron アプリ依存を rebuild し、Electron を検証し、開発用の埋め込み ffmpeg/ffprobe を準備し、Playwright Chromium をインストールします。リリースビルドでは、yt-dlp・ffmpeg・ffprobe は実行時にアプリデータフォルダで管理され、いずれもインストーラーには含まれません。
+
+</details>`;
+
+export const ja = {
+  icon_alt: "Arroxy マスコット",
+  hero_image_alt: "リンクを貼り付けるか、そのままブラウズしてください。ダウンロード進行中の Arroxy の URL 画面と内蔵ブラウザー。",
+  hero_banner_line1: "リンクを貼り付けるか、",
+  hero_banner_line2: "そのままブラウズ。",
+  title: "ブラウザー内蔵の無料・オープンソースのダウンローダー。YouTube と 2000 以上のサイトに対応。Windows、macOS、Linux で使えます。",
+  hero_promise: "広告、利用制限、有料版への誘導はありません。",
+  intro_workflow_h2: "閲覧、サインイン、ダウンロード",
+  intro_workflow: "**リンクを貼り付けるか、アプリ内でサイトを閲覧できます。** 探索タブで表示中の動画、プレイリスト、チャンネルをダウンロードできます。リンクを右クリックしてダウンロードすることもできます。",
+  intro_signin: "サイトに一度サインインすれば、非公開動画、「後で見る」「高く評価した動画」のリストなど、そのアカウントでアクセスできるコンテンツをダウンロードできます。Cookie のエクスポートは不要です。[探索について詳しく](#why-explore)。",
+  dl_requirements: "**動作環境：** Windows 10/11 · macOS 13+（Intel または Apple Silicon）· Linux（AppImage、Flatpak、tar.gz）。",
+  chip_browser: "内蔵ブラウザー",
+  chip_signin: "自分のアカウントでサインイン",
+  chip_resolution: "最大 8K",
+  chip_framerate: "60fps",
+  chip_dolby: "Dolby 音声",
+  chip_clip: "動画の一部",
+  chip_playlists: "プレイリスト",
+  chip_subtitles: "字幕",
+  chip_sites: "2000 以上のサイト",
+  privacy_anonymous_reports: "**追跡はしません。** Arroxy が送信するのは、利用者数の把握や問題の修正に役立つ匿名のレポートだけです。リンク、動画、ファイル、アカウントは一切送信しません。レポートの送信は設定で管理できます。",
+  privacy_explore_sign_ins: "探索はブラウザーとは別にサインイン情報を保持し、サインインは常に各サイトのページ上で行います。ダウンロード時はそのサイトのサインイン情報だけを毎回読み取り、使用後にそのコピーを削除します。設定から探索をサインアウトすると、保存されたサインイン情報は削除されます。",
+  chip_browser_encoded: "%E5%86%85%E8%94%B5%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC",
+  chip_signin_encoded: "%E8%87%AA%E5%88%86%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%A7%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%B3",
+  chip_resolution_encoded: "%E6%9C%80%E5%A4%A7%208K",
+  chip_framerate_encoded: "60fps",
+  chip_dolby_encoded: "Dolby%20%E9%9F%B3%E5%A3%B0",
+  chip_clip_encoded: "%E5%8B%95%E7%94%BB%E3%81%AE%E4%B8%80%E9%83%A8",
+  chip_playlists_encoded: "%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88",
+  chip_subtitles_encoded: "%E5%AD%97%E5%B9%95",
+  chip_sites_encoded: "2000%20%E4%BB%A5%E4%B8%8A%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88",
+  read_in_label: "言語：",
+  badge_release_alt: "リリース",
+  badge_build_alt: "ビルド",
+  badge_license_alt: "ライセンス",
+  badge_i18n_alt: "対応言語",
+  discord_badge_text: "Discord コミュニティに参加",
+  discord_badge_encoded:
+    "Discord%20%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AB%E5%8F%82%E5%8A%A0",
+  cta_latest: "↓ Arroxy をインストール",
+  cta_website: "ウェブサイト",
+  website_url: "https://arroxy.com/",
+  star_cta:
+    "Arroxy が役に立ったなら、⭐ で他のユーザーへの周知を助けてください。",
+  ai_notice:
+    "> 🌐 これは AI 翻訳です。[英語版 README](README.md) が情報のソースです。誤りを見つけたら [PR を歓迎します](../../pulls)。",
+  last_updated: "最終更新：{{LAST_UPDATED}}。",
+  toc_heading: "目次",
+  why_h2: "なぜ Arroxy？",
+  features_h2: "機能",
+  dl_h2: "インストールと初回起動",
+  privacy_h2: "プライバシー",
+  faq_h2: "よくある質問",
+  roadmap_h2: "ロードマップ",
+  tech_h2: "技術詳細",
+  why_intro: "最もよく使われる代替手段との比較：",
+  why_r1: "無料、プレミアム層なし",
+  why_r2: "オープンソース",
+  why_r3: "ローカル処理のみ",
+  why_r5: "利用回数制限なし",
+  why_r6: "クロスプラットフォームのデスクトップアプリ",
+  why_r7: "字幕 + SponsorBlock",
+  why_r8: "ブラウザーを内蔵（閲覧・サインイン・ダウンロード）",
+  why_r9: "Cookie をエクスポートせずに、ご自身のアカウントで視聴できる動画に対応",
+  why_table_note:
+    "⚠️ = 一部のみ、または有料プランのみ。4K Video Downloader で非公開動画を扱うアプリ内サインインは有料機能です。無料の yt-dlp GUI の多くは、Cookie ファイルを受け付けるか、ウェブブラウザーの Cookie を読み取ることしかできません。",
+  why_summary:
+    "Arroxy はひとつのことのために作られています：URL を貼り付けても、Explore で動画を見つけても、クリーンなローカルファイルが手に入ること。アップセルなし、データ収集なし。",
+  why_explore_h3: "単なる yt-dlp ラッパーにはできないこと：Explore タブ",
+  why_explore_intro:
+    "無料の YouTube ダウンローダーの多くは、yt-dlp の上に URL 入力欄を載せただけのものです。Arroxy も yt-dlp を使いますが、YouTube やほかのサイトを開けるアプリ組み込みのブラウザー **探索** も備えています。探索は、URL 入力欄だけではできないことを加えます：",
+  why_explore_1:
+    "**Cookie をエクスポートせずに、アカウントで視聴できる動画を** — 非公開動画、「後で見る」や「高く評価した動画」のリスト、年齢確認済みアカウントでの年齢制限付き動画、サインインが必要なほかのサイトのページも。単なるラッパーでは cookies.txt をエクスポートするか、ウェブブラウザーの Cookie を読み取らせる必要があります。Arroxy なら探索で一度サインインするだけで、あとはおまかせです",
+  why_explore_4:
+    "**リンクのコピーは不要** — Explore で動画・プレイリスト・チャンネルを見つけてワンクリックでダウンロード。ページ上のリンクを右クリックしてもダウンロードできます",
+  why_explore_5: "**広告ブロックは必要なときに** — シールドをワンクリックすると、Explore は自身のページで広告とトラッカーをブロックします",
+  feat_explore_h3: "Explore：Arroxy の中でウェブを閲覧",
+  feat_explore_1:
+    "**Explore タブ** — Arroxy の中で YouTube やほかのサイトを閲覧し、見つけた動画をリンクをコピーせずにダウンロードできます。**ダウンロード · *プロファイル名*** は、表示中の動画・プレイリスト・チャンネルをキューに追加します。隣の矢印でプロファイルを切り替え、魔法の杖アイコンからは形式や字幕などを選べるステップ式のダウンロードを開けます",
+  feat_explore_6: "**右クリックでダウンロード** — Explore で動画・プレイリスト・チャンネルのリンクを右クリックすると、プロファイルでそのままダウンロードしたり、**プロファイルでダウンロード** から別のプロファイルを選んだり、ステップ式のダウンロードを開いたり、リンクをコピーしたりできます。動画を一つずつ開く必要はありません",
+  feat_explore_7: "**コンパクト表示** — Explore のツールバーでワンクリックすると、Arroxy のタブがそこに移り、ページを広く使えます",
+  feat_explore_2:
+    "**アドレスバー** — 入力して YouTube を検索するか、ウェブアドレスを入力してそのサイトを開きます",
+  feat_explore_3:
+    "**アカウントが必要なダウンロード** — 探索で一度サインインすれば、アカウントで視聴できる非公開動画、年齢確認済みアカウントなら年齢制限付き動画、「後で見る」や「高く評価した動画」のリストもダウンロードできます。ほかのサイトにもそこでサインインでき、必要なときはそのサイトのダウンロードにそのサインインが使われます。Arroxy はまずサインアウトの状態でダウンロードし、アカウントで解決できる理由でダウンロードに失敗したときだけ探索のサインインを使います",
+  feat_explore_4:
+    "**サブアカウントの利用を推奨** — Explore の最初の画面で理由を説明しています。アカウントを使ってダウンロードすると、そのアカウントが制限される恐れが多少あります。サインインをすべて消したいときは、設定から Explore をサインアウトしてください",
+  feat_explore_5:
+    "**広告ブロック** — 既定ではオフです。Explore のツールバーのシールドをワンクリックすると、そのページで広告とトラッカーをブロックします。ダウンロードには影響しません。サインイン済みアカウントでは、YouTube が広告ブロックに対抗してくることがあります",
+  feat_quality_h3: "画質・フォーマット",
+  feat_quality_1: "最大 **8K（4320p）**、4K UHD（2160p）、1440p、1080p、720p、480p、360p",
+  feat_quality_2: "**ハイフレームレートと HDR**をそのまま保存 — 60 fps、HDR10",
+  feat_quality_3:
+    "**音声** — 音声のみを MP3、M4A/AAC、Opus、WAV で書き出します。インタラクティブなダウンロードでは、利用可能な場合にソースのネイティブ サラウンド/Dolby トラック（AC-3、E-AC-3、5.1、DRC）を選択でき、グローバルな既定値 **サラウンド / Dolby を優先** を設定できます",
+  feat_quality_4:
+    "**目的別のプロファイル** — *最高画質*（AV1 · VP9）または *スマートTV*（MP4 · H.264）を、自動・MP4・MKV・WebM のいずれかで再エンコードなしに保存します。HDR は *自動*（画面が表示できる場合のみ）、*SDR*、*HDR* から選べます",
+  feat_quality_5:
+    "**すべての解像度ですべてのコーデック** — ステップ式のダウンロードでは解像度ごとに AV1、VP9、H.264 が並べて表示されるので、テレビや編集ソフトで再生できるものを選べます",
+  feat_quality_6:
+    "**ストリームの実態がわかる** — YouTube が AI でアップスケールしたサイズ、AI 吹き替えの音声言語、ビットレート強化版のストリーム、360° 動画、破損または透かし入りのコピーにはマークが付きます。プロファイルは、許可しない限り AI アップスケールのストリームをスキップします",
+  feat_privacy_h3: "プライバシー・制御",
+  feat_privacy_1:
+    "100% ローカル処理 — ダウンロードは YouTube から直接あなたのディスクへ",
+  feat_privacy_2: "ログインなし、Cookie なし、Google アカウント連携なし",
+  feat_privacy_3: "選択したフォルダに直接ファイルを保存",
+  feat_workflow_h3: "ワークフロー",
+  feat_workflow_12: "**グローバルダウンロードホットキー** — どのアプリでもリンクをコピーして `Ctrl+Shift+D`（macOS では `Cmd+Shift+D`）を押すだけ。Arroxy はウィンドウを開かずにアクティブなプロファイルでキューに追加し、通知で結果を知らせます。既定で有効、キー割り当ては変更可能",
+  feat_workflow_1:
+    "**柔軟な開始モード** — ガイド付き単体ダウンロード、プレイリスト/チャンネル選択、URL一括貼り付け、保存済み既定値での Quick Download、または Explore での閲覧とダウンロードを選べます",
+  feat_workflow_2:
+    "**中央ダウンロードキュー** — 単体、プレイリスト、一括、クイックの各ジョブが一か所に入り、進行状況、一時停止、再開、キャンセル、再試行、優先度を管理できます",
+  feat_workflow_3:
+    "**クリップボード監視** — 動画リンクをコピーすると、Arroxy に戻ったときに URL 欄に入力されます。意図しない場合は **元に戻す** で取り消せます。Arroxy が処理中のときは、「URL」タブに戻るまでリンクが待機します（設定でオフにできます）",
+  feat_workflow_4:
+    "**URL 自動クリーンアップ** — トラッキングパラメータ（`si`、`pp`、`utm_*`、`fbclid`、`gclid`）を除去し、`youtube.com/redirect` リンクを展開",
+  feat_workflow_5:
+    "**トレイモード** — ウィンドウを閉じてもダウンロードはバックグラウンドで継続",
+  feat_workflow_6:
+    "**{{LANG_COUNT}} 言語** — システム ロケールを自動検出し、いつでも切り替え可能",
+  feat_workflow_7:
+    "**プレイリスト同期** — ローカルフォルダーと照合してプレイリストを再スキャンし、ダウンロード済みの動画をスキップします。各動画のダウンロードに合わせて更新される `.m3u` プレイリストファイルも生成します",
+  feat_workflow_8:
+    "**速度とペーシング制御** — ダウンロード帯域を制限し、動画を同時に何分割で取得するかを設定し、プリセット（*オフ · バランス · 慎重 · カスタム*）でリクエスト間の待機を追加できます",
+  feat_workflow_9:
+    "**ファイル名テンプレート** — `{title}`、`{uploader}`、`{id}`、`{date}`、`{year}`、`{resolution}`、`{site}`、`{categories}`、`{artist}`、`{album}`、`{track}`、`{playlist_index}` を使って好きな名前を付けられます。全体にもダウンロードプロファイルごとにも設定可能",
+  feat_workflow_10:
+    "**同時ダウンロード数と自動再試行** — キューのダウンロードを同時に何件走らせるか選べます。ネットワークやサーバーの問題が起きたダウンロードは、試行ごとに待ち時間を延ばしながら Arroxy が再試行します",
+  feat_workflow_11:
+    "**プレイリストの動画ごとにプロフィールを指定** — リスト全体に同じ設定を使う代わりに、プレイリスト内の各動画に個別のダウンロードプロフィールを割り当てられます。一度の処理で一部を最高画質で保存し、残りを音声のみで保存できます",
+  feat_workflow_13:
+    "**Quick Download はバックグラウンドで動作** — リンクはすぐにダウンロードに表示されてそこで準備され、**表示**付きの通知で確認でき、URL 欄は次のリンクのために空になります。前のものを準備している間も、いくつでも開始できます",
+  feat_workflow_14:
+    "**対応が必要なものをダウンロードが知らせます** — Arroxy がリンクを読み取れないと、その行に理由と対処法（再試行、Cookie をオン、Explore でサインイン）が表示されます。Cookie がオフのときは、サインイン後に **Explore でサインイン** が自動で再試行します。読み込み上限を超えるプレイリストは、その行で待機し、全件・先頭の数件・確認のいずれかを選べます。ダウンロードタブには、対応待ちの行数が表示されます",
+  feat_workflow_15:
+    "**動画の一部だけをダウンロード** — 形式画面で開始と終了、またはチャプターを選ぶと、Arroxy はその範囲だけを保存し、動画 ID の後ろに範囲を付けた名前にします。カットは最も近いキーフレームで行われます。正確なカットをオンにすると、代わりに再エンコードします",
+  feat_workflow_16:
+    "**完了したダウンロードを自動で削除** — オプション：完了したダウンロードは 5 秒後にリストから消えます。ファイルはディスクに残り、失敗したダウンロードはリストに残ります",
+  feat_workflow_17:
+    "**ダウンロードの「サイズ」と「見つかりません」** — 並べ替えできる **サイズ** 列で各ダウンロードの容量が分かり、**見つかりません** は Arroxy の外で移動・削除されたファイルを示します",
+  feat_workflow_18:
+    "**オーロラかミニマル、ダークかライト** — 動く空の上にガラスのパネルを重ねるか、静かなソリッドの面か。フッターから切り替えられます。グラフィックスアクセラレーションのないコンピューターでは自動的にミニマルになります",
+  feat_workflow_19:
+    "**Mac のメニューバー** — macOS では、メニューバーから設定（`Cmd+,`）を開き、ダウンロード速度の上限を設定し、スタイルとテーマを切り替え、ログを開いたり診断ファイルを保存したりできます",
+  feat_workflow_20:
+    "**どのダウンロードからでもプロファイルを変更** — ダウンロードを調整してから、元になったプロファイルを更新する（変更点のプレビュー付き）か、その設定を新しいプロファイルとして保存できます。プロファイルを切り替えるときは、編集内容を残すかどうかを確認します",
+  feat_post_h3: "字幕・後処理",
+  feat_post_1:
+    "SRT、VTT、または ASS 形式の**字幕** — 手動または自動生成、利用可能な任意の言語",
+  feat_post_2:
+    "動画の隣に保存、`.mkv` に埋め込み、または `Subtitles/` サブフォルダに整理",
+  feat_post_3:
+    "**SponsorBlock** — スポンサー、イントロ、アウトロ、自己宣伝をスキップまたはチャプターマーク",
+  feat_post_4:
+    "**埋め込みメタデータ** — タイトル、アップロード日、チャンネル、説明、サムネイル、チャプターマーカーをファイルに書き込み",
+  feat_post_5:
+    "**字幕のみの一括処理** — URLリストを貼り付けるかプレイリストを開き、字幕を選ぶだけで、各動画の字幕ファイルだけを取得",
+  feat_sites_h3: "YouTube + 2000 サイト",
+  feat_sites_1:
+    "**YouTube、フル対応** — 動画・Shorts・チャンネル・プレイリスト・YouTube Music・ポッドキャストをファーストクラスのソースとして処理",
+  feat_sites_2:
+    "yt-dlp 経由で **2000 以上の他サイト** — Twitch、TikTok、Dailymotion、VK、SoundCloud、Bandcamp、archive.org、Streamable など多数",
+  feat_sites_3:
+    "**音声のみと字幕**は YouTube だけでなく、すべての対応サイトで機能します",
+  feat_sites_4:
+    "サイトが変更されても、yt-dlp は毎週修正をリリースし、Arroxy は起動時にバイナリを自動更新します",
+  shot1_cap:
+    "<b>クイックダウンロードのホーム</b><br/>URLを貼り付け、アクティブなプロファイルですぐにダウンロード",
+  shot2_cap:
+    "<b>再利用できるダウンロードプロファイル</b><br/>形式・画質・出力をプリセットとして保存——ダウンロードごとに再利用",
+  shot3_cap: "<b>多言語の音声トラック</b><br/>動画が持つ音声言語を正確に選択",
+  shot4_cap:
+    "<b>サラウンド / Dolby 音声</b><br/>5.1 と Dolby のトラックを検出して保持",
+  shot5_cap:
+    "<b>一括URLモード</b><br/>リストを貼り付け、自動で重複を除去し、まとめてキューに追加",
+  shot6_cap:
+    "<b>並列ダウンロードキュー</b><br/>複数のダウンロードを同時に、進捗をリアルタイム表示",
+  hotkey_fig_alt: "Arroxy のグローバルダウンロードホットキー — Windows と Linux では Ctrl+Shift+D、macOS では Cmd+Shift+D で、コピーしたリンクをそのままダウンロードキューへ送ります",
+  hotkey_fig_cap: "<b>グローバルダウンロードホットキー</b><br/>どこでもリンクをコピーして一度押すだけ——キューに入りダウンロードが始まります",
+  shot7_cap: "<b>プレイリストの動画ごとのプロフィール</b><br/>各動画に個別のプロフィールを指定——一部は4Kで保存し、残りは音声のみで保存",
+  shot8_cap:
+    "<b>Explore</b><br/>Arroxy の中で YouTube やほかのサイトを閲覧し、表示中のページをアクティブなプロファイルでダウンロード",
+  shot9_cap:
+    "<b>Explore の最初の画面</b><br/>Explore の簡単な紹介と、サブアカウントのほうが安全なサインインである理由",
+  shot10_cap:
+    "<b>対応が必要なものをダウンロードが知らせます</b><br/>リンクはバックグラウンドで準備され、失敗したものは対処法を提示し、長いプレイリストは選択を待ちます",
+  shot11_cap:
+    "<b>動画の一部だけをダウンロード</b><br/>開始と終了、またはチャプターを選ぶだけ — Arroxy はその範囲だけを保存します",
+  shot12_cap:
+    "<b>プロファイルエディター</b><br/>プロファイルを細かく調整：ファイル形式、解像度、字幕、保存先、ファイル名テンプレートなど",
+  shot13_cap:
+    "<b>ダークかライトか、ガラスかソリッドか</b><br/>選べる4つのデザイン：動く空に浮かぶガラスのパネル、または落ち着いたソリッドな画面。それぞれダークとライトに対応",
+  shot14_cap: "<b>8K HDR・60fps</b><br/>動画が提供するすべての解像度、コーデック、HDRストリームを並べて表示",
+  dl_platform_col: "プラットフォーム",
+  dl_format_col: "フォーマット",
+  dl_oneline_note:
+    "ビルドは x86_64 のみです。`curl` がない場合は `curl -fsSL` を `wget -qO-` に置き換えてください。",
+  dl_win_scoop:
+    "Scoop をお使いですか？ `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`",
+  dl_win_format: "インストーラ（NSIS）またはポータブル `.exe`",
+  dl_mac_format: "`.dmg`（Intel + Apple Silicon）",
+  dl_linux_format: "`.AppImage` または `.flatpak`（サンドボックス）",
+  dl_grab: "最新リリースを入手 →",
+  dl_pkg_h3: "パッケージマネージャー経由でインストール",
+  dl_channel_col: "チャンネル",
+  dl_command_col: "コマンド",
+  dl_win_h3: "Windows：インストーラ vs ポータブル",
+  dl_win_col_installer: "NSIS インストーラ",
+  dl_win_col_portable: "ポータブル `.exe`",
+  dl_win_r1: "インストール必要",
+  dl_win_r1_installer: "はい",
+  dl_win_r1_portable: "いいえ — どこからでも実行可能",
+  dl_win_r2: "自動アップデート",
+  dl_win_r2_installer: "✅ アプリ内",
+  dl_win_r2_portable: "❌ 手動ダウンロード",
+  dl_win_r3: "起動速度",
+  dl_win_r3_installer: "✅ 速い",
+  dl_win_r3_portable: "⚠️ コールドスタートが遅め",
+  dl_win_r4: "スタートメニューに追加",
+  dl_win_r5: "簡単アンインストール",
+  dl_win_r5_portable: "❌ ファイルを削除するだけ",
+  dl_win_rec:
+    "**おすすめ：** 自動アップデートと高速起動には NSIS インストーラを使用。インストール不要・レジストリ非変更のオプションにはポータブル `.exe` を使用。",
+  dl_win_smartscreen_h4: "Windows SmartScreen の警告",
+  dl_win_smartscreen_intro:
+    "初回起動時に **«Windows protected your PC»** または **«Unknown publisher»** が表示されることがあります。これは `Arroxy-win-x64-Setup.exe` と `Arroxy-win-x64-Portable.exe` の両方に該当します。Arroxy は無料のオープンソースソフトウェアであり、Windows ビルドには有料の証明書によるコード署名がないため、SmartScreen がフラグを立てます。これは Arroxy が危険であることを**自動的に**意味するわけではありません。続行するには：",
+  dl_win_smartscreen_step1: "**More info** をクリック。",
+  dl_win_smartscreen_step2: "**Run anyway** をクリック。",
+  dl_win_smartscreen_official:
+    "Arroxy は必ず公式の GitHub Releases ページからダウンロードしてください。他のウェブサイトから入手したファイルや、誰かから送られてきたファイルは削除し、公式ソースから新しいコピーをダウンロードしてください。ソースコードは公開されているため、ご自身で確認したり、Arroxy をビルドしたりすることも可能です。",
+  dl_macos_h3: "macOS の初回起動",
+  dl_macos_warning:
+    "Arroxy はまだコード署名されていないため、macOS Gatekeeper が初回起動時に damaged app の警告を表示することがあります。これは想定内であり、ファイルが実際に壊れているという意味ではありません。",
+  dl_macos_m1_h4: "Terminal を使う方法:",
+  dl_macos_step1: "マウントした DMG から `Arroxy.app` を `/Applications` にドラッグします。",
+  dl_macos_step2:
+    "Terminal を開き、`sudo xattr -dr com.apple.quarantine /Applications/Arroxy.app` を実行します。",
+  dl_macos_step3: "`open /Applications/Arroxy.app` を実行します。",
+  dl_macos_step4:
+    "アプリのパスが異なる場合は、`/Applications/Arroxy.app` を実際のインストール先に置き換えてください。",
+  dl_macos_step5:
+    "`sudo` が求めた場合は Mac のパスワードを入力します。",
+  dl_macos_after:
+    "quarantine を削除すると、Arroxy は通常どおり開きます。",
+  dl_macos_m2_h4: "Terminal を使う方法:",
+  dl_macos_note:
+    "macOS ビルドは Apple Silicon と Intel の CI ランナーで生成されます。問題が発生した場合は [issue を開いて](../../issues) ください — macOS ユーザーからのフィードバックが macOS のテストサイクルを積極的に形成します。",
+  dl_linux_h3: "Linux の初回起動",
+  dl_linux_intro:
+    "AppImage はインストール不要で直接実行できます。ファイルを実行可能としてマークするだけです。",
+  dl_linux_m1_text:
+    "**ファイルマネージャー：** `.AppImage` を右クリック → **プロパティ** → **権限** → **プログラムとして実行を許可** を有効化、ダブルクリックで起動。",
+  dl_linux_m2_h4: "ターミナル：",
+  dl_linux_fuse_text: "それでも起動しない場合は、マウントせずに実行してください。FUSE パッケージは不要です：",
+  dl_linux_targz_h4: "通常のアーカイブ（FUSE 不要、インストール不要）：",
+  dl_linux_targz_text: "`.tar.gz` 版は AppImage のラッパーを外した同じアプリです。好きな場所に展開して実行するだけで、インストーラーも FUSE パッケージも不要です。",
+  dl_linux_arch_note: "**リリースページの Linux ダウンロードは x86_64 のみです。** ARM64 マシン（Raspberry Pi、Asahi Linux）では Flatpak はインストールできますが、起動時に `bwrap: execvp ldconfig: Exec format error` で失敗します。",
+  dl_warning_h3: "警告が表示される理由",
+  dl_warning_p1:
+    "Arroxy はオープンソースで GPLv3 ライセンスのソフトウェアです。Windows および macOS のビルドは**コード署名されていません** — Apple Developer ID と Windows EV のコード署名証明書はそれぞれ年間数百ドルかかり、個人プロジェクトでは自己負担になります。署名がない場合、Windows SmartScreen と macOS Gatekeeper は初回起動時に警告を表示します。これらの警告は*OS が発行元を認識していない*ことを意味するものであり、Arroxy がマルウェアであることを示すものではありません。",
+  dl_warning_p2:
+    "自分で Arroxy を検証する 3 つの方法（厳密さの高い順）：\n\n- **ソースコードを読む。** すべての行は [GitHub](https://github.com/antonio-orionus/Arroxy) にあり、[ソースからビルド](#tech)することもできます。\n- **SHA256 を確認する。** ダウンロードしたファイルを公開済みの [`SHA256SUMS`](../../releases/latest) と照合してください — 下記の[ダウンロードの検証](#verify)を参照。\n- **サードパーティのスキャンを実行する。** [VirusTotal](https://www.virustotal.com) にファイルをアップロード。",
+
+  dl_win_first_h3: "Windows 初回起動",
+  shot_smartscreen_more_alt:
+    'SmartScreen "Windows protected your PC" dialog with the "More info" link highlighted',
+  shot_smartscreen_run_alt:
+    'SmartScreen dialog after expanding More info, showing the "Run anyway" button',
+  dl_win_defender_h4: "Windows Defender がファイルをフラグまたは削除した場合",
+  dl_win_defender_p:
+    "Defender のヒューリスティックは、署名されていない NSIS インストーラーや Electron のポータブル版を不審として検出することがあります。Defender が `Arroxy-win-x64-Setup.exe` または `Arroxy-win-x64-Portable.exe` を隔離した場合は、**Windows Security → Virus & threat protection → Protection history** から復元し、**Manage settings → Add or remove exclusions** で Arroxy の実行ファイルを許可リストに追加してください。SmartScreen と同様に、トリガーとなるのは発行元署名の欠如であり、マルウェアの検出ではありません。",
+
+  dl_macos_first_h3: "macOS 初回起動",
+  dl_macos_intro:
+    "Arroxy はまだ macOS 向けにコード署名されていないため、DMG からインストールした後に Gatekeeper が *\"Arroxy.app is damaged and can't be opened\"* という怖いダイアログを表示することがあります。これは macOS が未署名アプリを quarantine したという意味で、アプリのファイルが実際に壊れているわけではありません。現在の macOS では Terminal を使う方法が確実です:",
+  dl_macos_sequoia_h4: "現在の macOS 向け Terminal 修正",
+  dl_macos_sequoia_intro:
+    "Arroxy を Applications にコピーしたあと Terminal を使います:",
+  dl_macos_sequoia_step1:
+    "マウントした DMG から `Arroxy.app` を `/Applications` にドラッグ。",
+  dl_macos_sequoia_step2:
+    "Terminal を開き、次の 2 つのコマンドを実行します:",
+  dl_macos_sequoia_step3:
+    "Arroxy を起動するには `open /Applications/Arroxy.app` を実行します。",
+  dl_macos_sequoia_step4:
+    "アプリのパスが異なる場合は、`/Applications/Arroxy.app` を実際のインストール先に置き換えてください。",
+  dl_macos_sonoma_h4: "古い macOS 向け Terminal 修正",
+  dl_macos_sonoma_step1:
+    "マウントした DMG から `Arroxy.app` を `/Applications` にドラッグ。",
+  dl_macos_sonoma_step2:
+    "Terminal を開き、`/Applications/Arroxy.app` から quarantine を削除します。",
+  dl_macos_sonoma_step3:
+    "quarantine を削除したら、Terminal または Finder から Arroxy を起動します。",
+  dl_macos_damaged_h4:
+    "Gatekeeper quarantine の修正",
+  dl_macos_damaged_p:
+    "最初のコマンドは、インストール済みの Arroxy から quarantine 属性を削除します。2 つ目はアプリを起動します。`sudo` は Mac のパスワードを求めることがあります。Terminal は入力中の文字を表示しません。",
+  dl_macos_arch_note:
+    "**Apple Silicon vs Intel：** M シリーズ Mac（M1 / M2 / M3 / M4）では `arm64` DMG をダウンロード。Intel Mac では `x64` DMG をダウンロード。誤ったビルドも Rosetta 経由で動作しますが、速度は明らかに遅くなります。",
+
+  dl_linux_first_h3: "Linux 初回起動",
+  dl_linux_appimagelauncher:
+    "**省略可能なデスクトップ統合：** [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) を一度インストールしておくと、ダブルクリックした AppImage が自動的にランチャーメニューに登録されます — `.desktop` ファイルの手動作成は不要です。",
+
+  dl_verify_h3: "ダウンロードの検証（SHA256）",
+  dl_verify_intro:
+    "各リリースではバイナリと一緒に `SHA256SUMS` ファイルが公開されています。ダウンロードが転送中に破損または改ざんされていないことを確認するには、ファイルをローカルでハッシュ計算し、`SHA256SUMS` の該当行と照合してください。最新リリースページを開き → **Assets** → `SHA256SUMS` をダウンロード。",
+  dl_verify_win_label: "Windows (PowerShell or Command Prompt):",
+  dl_verify_mac_label: "macOS (Terminal):",
+  dl_verify_linux_label: "Linux (Terminal):",
+  dl_verify_vt_text:
+    "サードパーティのマルウェアスキャンを希望する場合は、[VirusTotal](https://www.virustotal.com) にファイルをアップロードしてください。マイナーなエンジンによる汎用ヒューリスティックの数件の検出は、署名されていない Electron アプリでは通常の範囲内です。主要エンジンによる広範な検出があれば、それは本物の懸念事項です。",
+
+  dl_pm_intro:
+    "パッケージマネージャーを使っている場合は、手動ダウンロードのステップを省略できます。",
+
+  privacy_p1:
+    "ダウンロードは [yt-dlp](https://github.com/yt-dlp/yt-dlp) 経由で YouTube から選択したフォルダへ直接取得されます — サードパーティのサーバーは経由しません。視聴履歴、ダウンロード履歴、URL、ファイルの内容はすべてあなたのデバイスに留まります。",
+  faq_q1: "本当に無料ですか？",
+  faq_a1: "はい — GPLv3 ライセンス、プレミアム層なし、機能ゲートなし。",
+  faq_q11: "Arroxy は他の yt-dlp GUI と何が違いますか？",
+  faq_a11:
+    "無料の yt-dlp GUI の多くは、リンクを受け取るだけのラッパーです。Arroxy には、YouTube やほかのサイトを開けるアプリ組み込みのブラウザー **探索** があります。リンクをコピーせずに閲覧しながらダウンロードでき、そこで一度サインインすれば、Cookie をエクスポートすることなく、非公開動画など、アカウントで視聴できる動画や、「後で見る」「高く評価した動画」のリストもダウンロードできます。詳しくは[なぜ Arroxy？](#why)をご覧ください。",
+  faq_q2: "どの動画品質をダウンロードできますか？",
+  faq_a2:
+    "YouTube が提供するすべて：8K（4320p）、4K UHD（2160p）、1440p、1080p、720p、480p、360p、音声のみ。60 fps と HDR ストリームはそのまま保存され、ステップ式のダウンロードでは解像度ごとに AV1、VP9、H.264 を選べます。",
+  faq_q3: "音声を MP3 として抽出できますか？",
+  faq_a3:
+    "はい。形式メニューで*音声のみ*を選び、MP3、M4A/AAC、Opus、WAV を選択できます。",
+  faq_q4: "YouTube アカウントが必要な動画はどうやってダウンロードしますか？",
+  faq_a4:
+    "「探索」タブで一度サインインしてください。すると Arroxy は、アカウントで視聴できる非公開動画、年齢確認済みアカウントなら年齢制限付き動画、「後で見る」や「高く評価した動画」のリストもダウンロードできます。サインインはアカウントで解決できる理由でダウンロードに失敗したときだけ使われ、それ以外は従来どおりダウンロードされます。これは Cookie 設定の **探索サインイン** で、先頭に表示され「おすすめ」と示されており、初めて探索を開いたときに Arroxy が自動で選択します。yt-dlp の wiki は [サインイン状態での自動化が Google アカウントにフラグを立てる可能性がある](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies) と注意しているため、サブアカウントの利用が安全です。",
+  faq_q5: "YouTube が変更したら使えなくなりますか？",
+  faq_a5:
+    "yt-dlp は起動時に自動更新され、YouTube に変更があれば Arroxy も迅速に修正をリリースします。ダウンロードにサインインが必要な場合は、探索でサインインしていれば Arroxy がそのサインインを使い、Cookie 設定ではファイルやブラウザーの Cookie も利用できます。",
+  faq_q6: "Arroxy は何言語に対応していますか？",
+  faq_a6:
+    "すぐに使える {{LANG_COUNT}} 言語: {{LANG_NAME_LIST}}。 Arroxy は初回起動時にオペレーティング システムの言語を自動検出し、ツールバーの言語ピッカーからいつでも切り替えられます。 Runtime locale JSON は src/shared/i18n/locales/ にあり、翻訳者向けの PO catalog は i18n/locales/ にあります。貢献するには GitHub で PR を開いてください。",
+  faq_q7: "他に何かインストールが必要ですか？",
+  faq_a7:
+    "いいえ。yt-dlp、ffmpeg、ffprobe は初回起動時に自動ダウンロードされ、マシンにキャッシュされます。それ以降は追加のセットアップ不要です。",
+  faq_q8: "プレイリストやチャンネル全体をダウンロードできますか？",
+  faq_a8:
+    "はい、どちらも対応しています。プレイリストまたはチャンネルのURL（例: `youtube.com/@handle`, `/channel/UC…`, `/c/Name`, `/user/Old`）を貼り付け、スキャンする件数を選んでから、リスト全体をキューに入れるか特定の動画を選べます。日付範囲フィルターは近日対応予定です。",
+  faq_q9: "macOS で「アプリが壊れている」と表示される — どうすれば？",
+  faq_a9:
+    "これは macOS Gatekeeper が未署名のアプリをブロックしているだけで、実際の破損ではありません。quarantine を削除して Arroxy を起動する Terminal コマンドは [macOS first launch](#macos-first-launch) を参照してください。",
+  faq_q10: "YouTube の動画をダウンロードするのは合法ですか？",
+  faq_a10:
+    "お住まいの国やダウンロードする内容によって異なります。ダウンロードしてよいのは、ご自身が権利を持つコンテンツ、ダウンロードが許諾されているコンテンツ、またはお住まいの国の法律で複製が認められているコンテンツだけです。YouTube の[利用規約](https://www.youtube.com/t/terms)およびお住まいの地域の著作権法を守る責任はご自身にあります。[利用規約](#terms)もご覧ください。",
+  plan_intro: "引き続き予定されている機能 — おおよその優先順位順：",
+  plan_col1: "機能",
+  plan_col2: "説明",
+  plan_r1_name: "**プレイリスト・チャンネルのフィルター**",
+  plan_r1_desc: "プレイリストまたはチャンネルの列挙時の日付範囲フィルター",
+  plan_r2_name: "**YouTube 音声トラックの優先設定**",
+  plan_r2_desc:
+    "YouTube が複数の音声トラックを提供する場合に、アプリ全体の優先言語トラックを設定し、プロファイルごとに上書き",
+  plan_r3_name: "**より強いリトライ復旧**",
+  plan_r3_desc:
+    "不安定または問題のあるインターネット接続で中断されたダウンロード向けの新しいリトライ経路",
+  plan_r4_name: "**本格的なダウンロードマネージャードロワー**",
+  plan_r4_desc:
+    "キュードロワーをより完全なマネージャーへ拡張し、キュー内アイテムの保存先フォルダー変更にも対応",
+  plan_r5_name: "**スケジュールダウンロード**",
+  plan_r5_desc: "設定した時刻にキューを開始（夜間実行など）",
+  plan_r9_name: "**AUR パッケージ**",
+  plan_r9_desc: "Arch Linux と Omarchy に `yay -S arroxy-bin` でインストール",
+  plan_cta:
+    "機能のアイデアがありますか？[リクエストを開いてください](../../issues) — コミュニティの意見が優先順位を決めます。",
+  tech_content: TECH_CONTENT,
+  support_h2: "Arroxy を支援する",
+  support_line: "Arroxy は無料で GPLv3 ライセンスです。広告もトラッキングも有料版もありません。時間の節約に役立っているなら、Bitcoin、Tron、または Ethereum で開発を支援できます。アドレスは [DONATE.md](DONATE.md) に記載しており、これが唯一の公式な情報源です。Arroxy がメールやダイレクトメッセージでアドレスをお送りすることは決してありません。リポジトリへのスター、バグ報告、翻訳の改善も同じくらい助けになります。",
+  tos_h2: "利用規約",
+  tos_note:
+    "Arroxy は個人的・私的利用のみを目的としたツールです。ダウンロードが YouTube の[利用規約](https://www.youtube.com/t/terms)およびあなたの法域の著作権法に準拠することはあなた自身の責任です。権利を持たないコンテンツのダウンロード・複製・配布に Arroxy を使用しないでください。開発者は誤用に対して一切の責任を負いません。",
+  footer_credit:
+    'GPLv3 ライセンス · <a href="https://x.com/OrionusAI">@OrionusAI</a> が心を込めて制作',
+};

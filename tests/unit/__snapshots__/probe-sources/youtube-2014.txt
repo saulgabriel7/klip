@@ -1,0 +1,35 @@
+youtube-2014: A 2014 music video: 1080p tops, low-fps storyboard-like streams
+Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars · 270 s · card says "1280x720" · 40 formats
+
+Video (picked for Balanced 720p •):
+       SDR AV1         SDR VP9                           SDR H.264
+1080p  AV1 50.2 MiB    VP9 [Enhanced bitrate] 115.5 MiB  H.264 150.9 MiB
+720p   AV1 27.8 MiB •  VP9 49.3 MiB                      H.264 56.8 MiB
+480p   AV1 15.5 MiB    VP9 26.7 MiB                      H.264 42.1 MiB
+360p   AV1 8.8 MiB     VP9 17.5 MiB                      H.264 25.7 MiB
+240p   AV1 4.2 MiB     VP9 7.5 MiB                       H.264 10.0 MiB
+144p   AV1 2.0 MiB     VP9 4.7 MiB                       H.264 5.4 MiB
+
+Audio:
+AAC: 129 kbps 4.1 MiB | 49 kbps 22.05 kHz 1.5 MiB
+Opus: 126 kbps 4.0 MiB • | 64 kbps 2.0 MiB | 49 kbps 1.5 MiB
+convert from: mp3 ← 251 re-encode · m4a ← 140 copy 129 kbps · opus ← 251 copy 126 kbps · wav ← 251 re-encode
+
+Profile picks:
+best-quality: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+best-2160: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"2160","picked":1080})
+best-1440: 616 (1920x1080, mp4) + audio 251 (audio only, webm) (notices: {"kind":"video-tier-fallback","wanted":"1440","picked":1080})
+hd-1080: 616 (1920x1080, mp4) + audio 251 (audio only, webm)
+balanced: 398 (1280x720, mp4) + audio 251 (audio only, webm)
+small-file: 397 (854x480, mp4) + audio 251 (audio only, webm)
+mp4-1080: 137 (1920x1080, mp4) + audio 140 (audio only, m4a)
+mp4-720: 136 (1280x720, mp4) + audio 140 (audio only, m4a)
+mp4-480: 135 (854x480, mp4) + audio 140 (audio only, m4a)
+audio-only: audio 251 (audio only, webm)
+low-240: 395 (426x240, mp4) + audio 251 (audio only, webm)
+low-144: 394 (256x144, mp4) + audio 251 (audio only, webm)
+
+Subtitles: en-nP7-2PuUl7o
+Auto captions: none
+Subtitle picks (manual-first | manual-and-auto):
+en: en-nP7-2PuUl7o | en-nP7-2PuUl7o

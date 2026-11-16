@@ -1,0 +1,191 @@
+import {useState, type ReactNode} from 'react'
+import {useShallow} from 'zustand/react/shallow'
+import {SlidersHorizontal} from 'lucide-react'
+import type {TFunction} from 'i18next'
+import {useTranslation} from 'react-i18next'
+import {playlistScopeSchema, PLAYLIST_PROBE_LIMIT_MAX, PLAYLIST_PROBE_LIMIT_MIN} from '@shared/schemas.js'
+import type {PlaylistScope} from '@shared/types.js'
+import {resolvePlaylistProbeLimit} from '@shared/networkPacing.js'
+import {useAppStore} from '../../store/useAppStore.js'
+import {Alert, AlertDescription} from '../ui/alert.js'
+import {Button} from '../ui/button.js'
+import {Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle} from '../ui/dialog.js'
+import {Field, FieldLabel} from '../ui/field.js'
+import {Input} from '../ui/input.js'
+import {ToggleGroup, ToggleGroupItem} from '../ui/toggle-group.js'
+import {SectionLabel} from '../shared/SectionLabel.js'
+
+type ItemMode = PlaylistScope['items']['kind']
+
+function isItemMode(value: string | undefined): value is ItemMode {
+	return value === 'app-limit' || value === 'first' || value === 'range'
+}
+
+interface PlaylistScopeControlProps {
+	onApplyScope?: (scope: PlaylistScope) => Promise<void> | void
+	applyLabel?: string
+	pendingLabel?: string
+	disabled?: boolean
+}
+
+function scopeSummary(scope: PlaylistScope, appLimit: number, t: TFunction): string {
+	return scope.items.kind === 'app-limit' ? t('wizard.url.playlistScope.summaryAppLimit', {count: appLimit}) : scope.items.kind === 'first' ? t('wizard.url.playlistScope.summaryFirst', {count: scope.items.count}) : t('wizard.url.playlistScope.summaryRange', {from: scope.items.from, to: scope.items.to})
+}
+
+function errorMessage(error: unknown): string {
+	if (error instanceof Error && error.message) return error.message
+	if (typeof error === 'string' && error.length > 0) return error
+	return 'Unknown error'
+}
+
+// react-doctor-disable-next-line react-doctor/prefer-useReducer -- independent dialog draft fields are clearer as local state than reducer actions here
+export function PlaylistScopeControl({onApplyScope, applyLabel, pendingLabel, disabled = false}: PlaylistScopeControlProps): ReactNode {
+	const {t} = useTranslation()
+	const {playlistScope, setPlaylistScope, settings} = useAppStore(useShallow(state => ({playlistScope: state.playlistScope, setPlaylistScope: state.setPlaylistScope, settings: state.settings})))
+	const appLimit = resolvePlaylistProbeLimit(settings?.common)
+	const [open, setOpen] = useState(false)
+	const [applying, setApplying] = useState(false)
+	const [mode, setMode] = useState<ItemMode>(playlistScope.items.kind)
+	const [firstDraft, setFirstDraft] = useState(playlistScope.items.kind === 'first' ? String(playlistScope.items.count) : String(appLimit))
+	const [fromDraft, setFromDraft] = useState(playlistScope.items.kind === 'range' ? String(playlistScope.items.from) : '1')
+	const [toDraft, setToDraft] = useState(playlistScope.items.kind === 'range' ? String(playlistScope.items.to) : String(appLimit))
+	const [applyError, setApplyError] = useState<string | null>(null)
+
+	function syncDraftsFromScope(): void {
+		setMode(playlistScope.items.kind)
+		setFirstDraft(playlistScope.items.kind === 'first' ? String(playlistScope.items.count) : String(appLimit))
+		setFromDraft(playlistScope.items.kind === 'range' ? String(playlistScope.items.from) : '1')
+		setToDraft(playlistScope.items.kind === 'range' ? String(playlistScope.items.to) : String(appLimit))
+		setApplyError(null)
+	}
+
+	function parseScope(): PlaylistScope | null {
+		const items = mode === 'app-limit' ? {kind: 'app-limit' as const} : mode === 'first' ? {kind: 'first' as const, count: Number(firstDraft)} : {kind: 'range' as const, from: Number(fromDraft), to: Number(toDraft)}
+		const candidate = {items}
+		const parsed = playlistScopeSchema.safeParse(candidate)
+		return parsed.success ? parsed.data : null
+	}
+
+	const parsedScope = parseScope()
+
+	function resetDrafts(): void {
+		setMode('app-limit')
+		setFirstDraft(String(appLimit))
+		setFromDraft('1')
+		setToDraft(String(appLimit))
+		setApplyError(null)
+	}
+
+	async function applyScope(): Promise<void> {
+		if (!parsedScope) return
+		setApplyError(null)
+		if (onApplyScope) {
+			setApplying(true)
+			try {
+				await onApplyScope(parsedScope)
+				setOpen(false)
+			} catch (error) {
+				setApplyError(t('wizard.url.playlistScope.applyError', {message: errorMessage(error)}))
+			} finally {
+				setApplying(false)
+			}
+			return
+		}
+		setPlaylistScope(parsedScope)
+		setOpen(false)
+	}
+
+	return (
+		<section className="rounded-md border border-border-strong bg-card/40 px-3 py-2.5" data-testid="playlist-scope-control">
+			<div className="flex items-center gap-3">
+				<div className="min-w-0 flex-1">
+					<SectionLabel>{t('wizard.url.playlistScope.label')}</SectionLabel>
+					<p className="mt-1 truncate text-xs text-foreground" data-testid="playlist-scope-summary">
+						{scopeSummary(playlistScope, appLimit, t)}
+					</p>
+				</div>
+				<Button
+					type="button"
+					size="sm"
+					variant="outline"
+					onClick={() => {
+						syncDraftsFromScope()
+						setOpen(true)
+					}}
+					data-testid="playlist-scope-change"
+					disabled={disabled || applying}
+				>
+					<SlidersHorizontal data-icon="inline-start" />
+					{t('wizard.url.playlistScope.change')}
+				</Button>
+			</div>
+
+			<Dialog open={open} onOpenChange={setOpen}>
+				<DialogContent className="sm:max-w-md" data-testid="playlist-scope-dialog">
+					<DialogHeader>
+						<DialogTitle>{t('wizard.url.playlistScope.dialogTitle')}</DialogTitle>
+						<DialogDescription>{t('wizard.url.playlistScope.dialogDescription')}</DialogDescription>
+					</DialogHeader>
+
+					<div className="flex flex-col gap-3">
+						<Field className="gap-1.5">
+							<FieldLabel size="sm">{t('wizard.url.playlistScope.itemsLabel')}</FieldLabel>
+							<ToggleGroup
+								size="sm"
+								value={[mode]}
+								onValueChange={values => {
+									const next = values[0]
+									if (isItemMode(next)) setMode(next)
+								}}
+								aria-label={t('wizard.url.playlistScope.itemsLabel')}
+								orientation="vertical"
+								spacing={1}
+								className="grid w-full items-stretch"
+							>
+								<ToggleGroupItem value="app-limit" className="justify-start">
+									{t('wizard.url.playlistScope.appLimit', {count: appLimit})}
+								</ToggleGroupItem>
+								<ToggleGroupItem value="first" className="justify-start">
+									{t('wizard.url.playlistScope.first')}
+								</ToggleGroupItem>
+								{mode === 'first' && <Input type="number" min={PLAYLIST_PROBE_LIMIT_MIN} max={PLAYLIST_PROBE_LIMIT_MAX} value={firstDraft} onChange={event => setFirstDraft(event.target.value)} className="h-8 font-mono" data-testid="playlist-scope-first-input" />}
+								<ToggleGroupItem value="range" className="justify-start">
+									{t('wizard.url.playlistScope.range')}
+								</ToggleGroupItem>
+								{mode === 'range' && (
+									<div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
+										<Input type="number" min={PLAYLIST_PROBE_LIMIT_MIN} max={PLAYLIST_PROBE_LIMIT_MAX} value={fromDraft} onChange={event => setFromDraft(event.target.value)} className="h-8 font-mono" data-testid="playlist-scope-range-from" />
+										<span className="text-caption text-subtle-foreground">{t('wizard.url.playlistScope.to')}</span>
+										<Input type="number" min={PLAYLIST_PROBE_LIMIT_MIN} max={PLAYLIST_PROBE_LIMIT_MAX} value={toDraft} onChange={event => setToDraft(event.target.value)} className="h-8 font-mono" data-testid="playlist-scope-range-to" />
+									</div>
+								)}
+							</ToggleGroup>
+						</Field>
+						{!parsedScope && (
+							<Alert variant="warning">
+								<AlertDescription>{t('wizard.url.playlistScope.invalid', {max: PLAYLIST_PROBE_LIMIT_MAX})}</AlertDescription>
+							</Alert>
+						)}
+						{applyError ? (
+							<Alert variant="warning" data-testid="playlist-scope-apply-error">
+								<AlertDescription>{applyError}</AlertDescription>
+							</Alert>
+						) : null}
+					</div>
+
+					<DialogFooter>
+						<Button type="button" variant="ghost" onClick={resetDrafts} data-testid="playlist-scope-reset">
+							{t('wizard.url.playlistScope.reset')}
+						</Button>
+						<Button type="button" variant="outline" onClick={() => setOpen(false)}>
+							{t('wizard.url.playlistScope.cancel')}
+						</Button>
+						<Button type="button" onClick={() => void applyScope()} disabled={!parsedScope || applying} data-testid="playlist-scope-apply">
+							{applying ? (pendingLabel ?? t('wizard.url.playlistScope.reloading')) : (applyLabel ?? t('wizard.url.playlistScope.apply'))}
+						</Button>
+					</DialogFooter>
+				</DialogContent>
+			</Dialog>
+		</section>
+	)
+}

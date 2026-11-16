@@ -1,0 +1,1868 @@
+{
+	"about": {
+		"button": "Apie",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Peržiūrėti trečiųjų šalių pranešimus",
+		"websiteLink": "Svetainė"
+	},
+	"aiUpscaled": {
+		"allow": "Leisti",
+		"allowedSummary": "DI išdidinti srautai leidžiami",
+		"description": "YouTube kai kuriuos senus vaizdo įrašus siūlo dydžiais, sukurtais naudojant dirbtinį intelektą. Pasirinkus „Praleisti“, paliekami originalūs srautai; išdidintą srautą vis tiek galite pasirinkti rankiniu būdu.",
+		"label": "DI išdidinti srautai",
+		"skip": "Praleisti"
+	},
+	"app": {
+		"feedback": "Atsiliepimai",
+		"feedbackNudge": "Patinka Klip? Norėčiau išgirsti jūsų nuomonę! 💬",
+		"logs": "Žurnalai",
+		"saveDiagnostics": "Įrašyti diagnostikos failą",
+		"saveDiagnosticsDescription": "Sudeda jūsų žurnalus ir programos informaciją į vieną failą aplanke „Atsisiuntimai“, kurį galite pridėti prie GitHub pranešimo apie problemą. Jūsų naudotojo aplanko pavadinimas pašalinamas; vaizdo įrašų nuorodos ir pavadinimai lieka.",
+		"styleHint": "Nauja: čia pasirinkite „Aurora“ arba „Minimalistinis“",
+		"theme": "Tema",
+		"zoomIn": "Padidinti",
+		"zoomOut": "Sumažinti"
+	},
+	"common": {
+		"back": "Atgal",
+		"cancel": "Atšaukti",
+		"close": "Uždaryti",
+		"continue": "Tęsti",
+		"loading": "Įkeliama",
+		"retry": "Bandyti dar kartą",
+		"startOver": "Pradėti iš naujo"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip toliau veiks ir užbaigs vykdomus atsisiuntimus. Tai galite pakeisti vėliau išplėstiniuose parametruose.",
+			"hide": "Slėpti į dėklą",
+			"message": "Uždarant paslėpti Klip sistemos dėkle?",
+			"quit": "Išeiti",
+			"remember": "Daugiau neklausti"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Jūsų eilė išsaugoma, o atsisiuntimai bus tęsiami nuo tos vietos, kur sustojo, kitą kartą atidarius Klip.",
+			"keep": "Tęsti atsisiuntimą",
+			"message_few": "Vykdomi {{count}} atsisiuntimai",
+			"message_many": "Vykdoma {{count}} atsisiuntimo",
+			"message_one": "Vykdomas {{count}} atsisiuntimas",
+			"message_other": "Vykdoma {{count}} atsisiuntimų",
+			"quit": "Išeiti"
+		},
+		"rendererCrashed": {
+			"detail": "Atvaizdavimo procesas sugedo ({{reason}}). Įkelkite iš naujo ir bandykite dar kartą.",
+			"message": "Klip susidūrė su problema",
+			"quit": "Išeiti",
+			"reload": "Įkelti iš naujo"
+		}
+	},
+	"donate": {
+		"copied": "Nukopijuota!",
+		"copyAddress": "Kopijuoti adresą",
+		"description": "Klip yra nemokama ir atvirojo kodo, be reklamų ir mokamo plano. Aukos neprivalomos ir nesuteikia įtakos plėtros planams.",
+		"footerLabel": "Paaukoti",
+		"footerTooltip": "Paremti Klip",
+		"qrAlt": "{{coin}} aukos adreso QR kodas",
+		"title": "Paremkite Klip",
+		"warning": "Kriptovaliutų mokėjimai negrįžtami. Siųskite tik nurodytu tinklu ir palyginkite visą adresą."
+	},
+	"errors": {
+		"noSubtitlesIn": "Šiame vaizdo įraše nėra subtitrų šiomis kalbomis: {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Šis vaizdo įrašas turi amžiaus apribojimą, todėl jo negalima atsisiųsti be prisijungusios paskyros.",
+			"botBlock": "Svetainės apsauga nuo robotų sustabdė šį atsisiuntimą. Šiek tiek palaukite ir bandykite dar kartą arba atsisiųskite vienu metu mažiau vaizdo įrašų. Jei vis tiek nepavyksta, tai gali būti laikinas svetainės pusės pakeitimas – Klip atnaujina atsisiuntimo variklį paleidžiant, todėl pataisa atsiras automatiškai, vos tik bus išleista.",
+			"chunkTransferFailure": "Serveris nuolat nutraukdavo atsisiuntimą pusiaukelėje, o Klip pasidavė po pakartotinių bandymų. Dažniausiai taip nutinka su didžiausiais vaizdo formatais (4K HDR / didelės bitų spartos VP9). Bandykite dar kartą, pakeiskite tinklą ar VPN arba pasirinkite mažesnės skiriamosios gebos formatą.",
+			"drmProtected": "Šis vaizdo įrašas apsaugotas DRM. Klip negali pašalinti DRM, todėl failo atsisiųsti neįmanoma.",
+			"formatUnavailable": "Šis vaizdo įrašas nebeturi jūsų pasirinkto formato. Dar kartą įklijuokite nuorodą ir pasirinkite iš formatų, kurie siūlomi dabar.",
+			"geoBlocked": "Šis vaizdo įrašas jūsų regione nepasiekiamas.",
+			"ipBlock": "Svetainė blokuoja šio ryšio užklausas. Bandykite dar kartą vėliau.",
+			"loginRequired": "Šiam vaizdo įrašui reikia prisijungusios paskyros.",
+			"missingDependency": "Klip nepavyko rasti FFmpeg arba FFprobe. Paleiskite sąranką dar kartą arba nurodykite FFmpeg vietą, tada bandykite atsisiųsti iš naujo.",
+			"network": "Tinklo klaida. Patikrinkite ryšį ir bandykite dar kartą.",
+			"noSubtitles": "Šiame vaizdo įraše nėra subtitrų prašomomis kalbomis.",
+			"outOfDiskSpace": "Nepakanka vietos diske. Atlaisvinkite vietos ir bandykite dar kartą.",
+			"outputNotWritable": "Klip negali rašyti į atsisiuntimų aplanką. Jis gali būti tik skaitomas, esantis užrakintame diske arba užblokuotas jūsų sistemos privatumo parametrų. Pasirinkite kitą aplanką arba leiskite prieigą, tada bandykite dar kartą.",
+			"parse": "Nepavyko išanalizuoti svetainės atsakymo. Galbūt svetainė pakeitė vaizdo įrašų pateikimo būdą. Klip atnaujina atsisiuntimo variklį paleidžiant – bandykite dar kartą po kelių minučių, kai pataisa bus išleista.",
+			"postprocessFailure": "Atsisiuntimas baigtas, bet paskesnis apdorojimas (sujungimas / maišymas / konvertavimas) nepavyko. Dažnai tai laikina ffmpeg problema – bandykite dar kartą, o jei kartojasi, išbandykite kitą formatų derinį.",
+			"rateLimit": "Svetainė riboja šio ryšio užklausų skaičių.",
+			"unavailable": "Šis vaizdo įrašas nepasiekiamas – jis gali būti privatus, ištrintas arba užblokuotas regione.",
+			"unknown": "Atsisiųsti nepavyko. Žr. neapdorotą išvestį žemiau.",
+			"unsupportedUrl": "Klip nepalaiko šio URL. Išbandykite kitos svetainės nuorodą."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Patikrinkite ryšį ir bandykite dar kartą.",
+			"loadTitle": "Šis puslapis neįsikėlė",
+			"openSettings": "Atverti parametrus",
+			"proxyBody": "Patikrinkite tarpinį serverį parametruose ir bandykite dar kartą.",
+			"proxyTitle": "Naršymas negali prisijungti per jūsų tarpinį serverį",
+			"retry": "Bandyti dar kartą"
+		},
+		"linkCallout": {
+			"body": "Dešiniuoju pelės mygtuku spustelėkite bet kurią puslapio vaizdo įrašo, grojaraščio ar kanalo nuorodą, kad atsisiųstumėte ją naudodami aktyvų profilį, pasirinktumėte kitą profilį arba atvertumėte žingsnis po žingsnio eigą.",
+			"title": "Spustelėkite nuorodą dešiniuoju mygtuku, kad ją atsisiųstumėte"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Atsisiųsti albumą fone",
+				"liked": "Atsisiųsti patikusius vaizdo įrašus fone",
+				"mix": "Atsisiųsti Mix fone",
+				"playlist": "Atsisiųsti grojaraštį fone",
+				"uploads": "Atsisiųsti įkėlimus fone",
+				"watchLater": "Atsisiųsti „Žiūrėti vėliau“ fone"
+			},
+			"copyLink": "Kopijuoti nuorodą",
+			"downloadFirst": "Atsisiųsti pirmuosius {{count}}",
+			"downloadThisVideo": "Atsisiųsti šį vaizdo įrašą · {{profileName}}",
+			"downloadWith": "Atsisiųsti naudojant",
+			"fromList": {
+				"album": "Iš šio albumo",
+				"liked": "Iš patikusių vaizdo įrašų",
+				"mix": "Iš šio Mix",
+				"playlist": "Iš šio grojaraščio",
+				"uploads": "Iš šio kanalo įkėlimų",
+				"watchLater": "Iš „Žiūrėti vėliau“"
+			},
+			"interactive": "Interaktyvus atsisiuntimas…",
+			"thisVideoWith": "Šis vaizdo įrašas su"
+		},
+		"newBadge": "Nauja",
+		"notice": {
+			"body": "Raskite vaizdo įrašą YouTube ar bet kurioje kitoje svetainėje ir atsisiųskite jį čia – nereikia kopijuoti nuorodų. Prisijunkite prie svetainės čia, kad atsisiųstumėte vaizdo įrašus, kuriems reikia paskyros.",
+			"continue": "Tęsti",
+			"riskBody": "Tokios svetainės kaip YouTube gali pažymėti – o kartais ir užblokuoti – paskyras, naudojamas su atsisiuntimo įrankiais, tokiais kaip Klip. Naudokite paskyrą, kurios nesigailėtumėte prarasti, o ne pagrindinę.",
+			"riskTitle": "Prisijunkite su antrine paskyra",
+			"title": "Naršykite internete tiesiai Klip"
+		},
+		"nudge": {
+			"browser": "Atsisiuntimams naudojami jūsų naršyklės slapukai, o ne prisijungimas per Naršymą.",
+			"file": "Atsisiuntimams naudojamas jūsų slapukų failas, o ne prisijungimas per Naršymą.",
+			"notNow": "Ne dabar",
+			"off": "Slapukai išjungti, todėl atsisiuntimams nenaudojamas jūsų prisijungimas per Naršymą.",
+			"useExplore": "Naudoti prisijungimą per Naršymą"
+		},
+		"settings": {
+			"description": "Naršykite YouTube ar bet kurią kitą svetainę Klip viduje ir prisijunkite, kad pasiektumėte vaizdo įrašus, kuriems reikia paskyros.",
+			"idleUnload": "Atlaisvinti atmintį, kai nenaudojama",
+			"idleUnloadDescription": "Praėjus 5 minutėms kitame skirtuke, uždaro YouTube pagrindinį arba paieškos puslapį. Grįžus jis įkeliamas iš naujo, o tai užtrunka kelias sekundes.",
+			"searchEngine": "Paieškos variklis",
+			"searchEngineDescription": "Kur ieškoma adreso juostoje įvestas tekstas. Nuorodos atveriamos tokios, kokios įvestos.",
+			"showTab": "Rodyti skirtuką „Naršymas“",
+			"showTabDescription": "Išjungus, atsisiuntimams taip pat nebenaudojamas jūsų prisijungimas per Naršymą.",
+			"signOut": "Atsijungti nuo Naršymo",
+			"signOutConfirm": "Atsijungti",
+			"signOutConfirmBody": "Tai išvalo jūsų prisijungimus ir naršymo duomenis Naršyme visose svetainėse. Atsisiuntimai, kuriems reikia paskyros, nepavyks, kol vėl neprisijungsite.",
+			"signOutConfirmTitle": "Atsijungti nuo Naršymo?",
+			"signOutDescription": "Išvalo jūsų prisijungimus ir naršymo duomenis Naršyme visose svetainėse.",
+			"title": "Naršymas"
+		},
+		"tabLabel": "Naršymas",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube gali priešintis skelbimų blokavimui prisijungusiose paskyrose.",
+				"aria": "Skelbimų blokatorius",
+				"off": "Skelbimų blokatorius: išjungtas – spustelėkite, kad įjungtumėte",
+				"on": "Skelbimų blokatorius: įjungtas – spustelėkite, kad išjungtumėte",
+				"starting": "Skelbimų blokatorius: paleidžiamas – spustelėkite, kad išjungtumėte",
+				"unavailable": "Skelbimų blokatorius: nepasiekiamas, nepavyko atsisiųsti jo filtrų sąrašų – spustelėkite, kad išjungtumėte"
+			},
+			"addressAria": "Adresas",
+			"addressPlaceholder": "Ieškokite {{engine}} arba atverkite bet kurią svetainę (Vimeo, Instagram…)",
+			"aria": "Naršymo valdikliai",
+			"back": "Atgal",
+			"compactLayout": "Kompaktiškas išdėstymas",
+			"download": "Atsisiųsti",
+			"downloadWithProfile": "Atsisiųsti · {{profileName}}",
+			"forward": "Pirmyn",
+			"fullLayout": "Rodyti visą išdėstymą",
+			"grabUnavailable": "Atverkite vaizdo įrašą, grojaraštį ar kanalą, kad jį atsisiųstumėte",
+			"home": "YouTube pagrindinis",
+			"interactiveHint": "Interaktyvus atsisiuntimas: pasirinkite formatą, subtitrus ir dar daugiau…",
+			"refusedHint": "Naršymas negali atverti to adreso.",
+			"reload": "Įkelti iš naujo",
+			"searchTooLong": "Ši paieška per ilga.",
+			"thisVideo": "Šis vaizdo įrašas",
+			"thisVideoHint": "Atsisiųsti tik šį vaizdo įrašą su {{profileName}}",
+			"zoom": {
+				"hint": "Puslapio mastelis: {{percent}} %",
+				"in": "Padidinti",
+				"label": "Puslapio mastelis",
+				"out": "Sumažinti",
+				"percent": "Mastelio procentai",
+				"reset": "Atkurti 100 % mastelį"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Automatinis",
+		"autoValue": "Automatinis (.{{ext}})",
+		"description": {
+			"auto": "Failo tipą nulemia pasirinkti srautai.",
+			"mkv": "Gali talpinti bet kurį kodeką. Kai kurie televizoriai ir telefonai jo neatveria.",
+			"mp4": "Atkuriamas beveik visur. VP9 MP4 faile QuickTime neatkurs vaizdo.",
+			"webm": "Atvirasis formatas naršyklėms. Talpina tik VP9 arba AV1 su Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 MP4 faile QuickTime atkurti reikia naujesnio Mac. H.264 atkuriamas visur.",
+		"mp4CaveatVp9": "VP9 MP4 faile QuickTime neatkurs vaizdo. H.264 atkuriamas visur.",
+		"profileMark": "Profilis",
+		"smartTvNoWebm": "WebM nesiūlomas su Smart TV: jis negali talpinti H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM negali talpinti {{codec}}. Pasirinkite MKV arba MP4."
+	},
+	"filenameTemplate": {
+		"description": "Pasirinkite, kaip pavadinami atsisiųsti failai. Spustelėkite žymę, kad ją įterptumėte. Naudokite /, kad atsisiuntimus išrikiuotumėte į aplankus.",
+		"error": {
+			"empty": "Įveskite failo pavadinimo šabloną.",
+			"empty-segment": "Pašalinkite nereikalingą / – kiekvienas aplankas turi turėti pavadinimą.",
+			"forbidden-char": "Pašalinkite simbolius, kurių negalima naudoti failų pavadinimuose: \\ : * ? \" < > |",
+			"invalid-segment": "Šis aplanko pavadinimas neleidžiamas. Venkite . ir .. bei rezervuotų pavadinimų, pvz., CON.",
+			"no-unique-token": "Įtraukite {title} arba {id} į failo pavadinimą, kad kiekvienas atsisiuntimas gautų savo pavadinimą.",
+			"resolution-in-dir": "{resolution} negali būti aplanko pavadinimas – kokybė nežinoma, kol neprasideda atsisiuntimas.",
+			"stray-brace": "Nesuporuotas { arba } – žymes, pvz., {title}, apgaubkite skliaustais.",
+			"too-long": "Šablonas per ilgas.",
+			"unknown-token": "Nežinoma žymė {{token}}."
+		},
+		"idEndingWarning": "Pabaigoje pridėkite [{id}], kad Klip galėtų aptikti jau atsisiųstus grojaraščio elementus ir kurti .m3u grojaraščius.",
+		"label": "Failo pavadinimo šablonas",
+		"m3uDisabledIdEnding": "Nepasiekiama, nes jūsų failo pavadinimo šablonas arba nesibaigia [{id}], arba rūšiuoja atsisiuntimus į aplankus.",
+		"previewPlaylist": "Grojaraštyje",
+		"previewSingle": "Vienas vaizdo įrašas",
+		"profileOverrideDescription": "Palikite tuščią, kad būtų paveldėtas bendrasis šablonas.",
+		"profileOverrideLabel": "Failo pavadinimo šablonas"
+	},
+	"formatLabel": {
+		"audioFallback": "Garsas",
+		"audioOnlyDot": "Tik garsas · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Automatinis",
+		"description": "Automatinis režimas pasirenka HDR, kai šis ekranas jį gali rodyti, kitu atveju – SDR. Įprastuose ekranuose HDR atrodo išblukęs.",
+		"hdr": "HDR",
+		"label": "HDR vaizdo įrašas",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Kalba"
+	},
+	"notifications": {
+		"exploreSignInRetrying_few": "Prisijungta per Naršymą – kartojama {{count}} nuorodos",
+		"exploreSignInRetrying_many": "Prisijungta per Naršymą – kartojama {{count}} nuorodos",
+		"exploreSignInRetrying_one": "Prisijungta per Naršymą – kartojama {{count}} nuoroda",
+		"exploreSignInRetrying_other": "Prisijungta per Naršymą – kartojama {{count}} nuorodų",
+		"exploreSignOutFailed": "Nepavyko atsijungti nuo Naršymo. Bandykite dar kartą.",
+		"filenameFolderTooDeep": "Šis aplankas jūsų sistemai per giliai. Atsisiuntimas vis tiek gali nepavykti – pasirinkite artimesnį aplanką.",
+		"filenameTemplateCannotFit": "Šio vaizdo įrašo pavadinimas netelpa į visas jūsų šablono dalis, todėl naudotas numatytasis pavadinimas.",
+		"folderSelectFailed": "Nepavyko atverti aplanko parinkiklio.",
+		"hotkey": {
+			"alreadyQueued": "Jau eilėje – kopija nepridėta",
+			"cookiesSetup": "Užbaikite slapukų sąranką Klip ir bandykite dar kartą",
+			"invalidClipboard": "Iškarpinėje nėra nuorodos – pirmiausia nukopijuokite",
+			"multipleUrls": "Nukopijuota kelios nuorodos – naudokite Klip skiltį „Kelios nuorodos“",
+			"needsReview": "Šiai nuorodai reikia jūsų pasirinkimo – žr. Atsisiuntimai Klip",
+			"queued": "Atsisiuntimas įtrauktas į eilę iš iškarpinės",
+			"submissionFailed": "Nepavyko pridėti tos nuorodos – bandykite dar kartą Klip"
+		},
+		"playlistFolderRejected": "Šio aplanko negalima naudoti šiam grojaraščiui.",
+		"queue": {
+			"skippedAlreadyQueued_few": "{{count}} vaizdo įrašai jau eilėje – praleista",
+			"skippedAlreadyQueued_many": "{{count}} vaizdo įrašo jau eilėje – praleista",
+			"skippedAlreadyQueued_one": "{{count}} vaizdo įrašas jau eilėje – praleista",
+			"skippedAlreadyQueued_other": "{{count}} vaizdo įrašų jau eilėje – praleista"
+		},
+		"quickDownload": {
+			"added": "Pridėta: {{title}}",
+			"alreadyQueued": "Jau eilėje",
+			"batchAdded_few": "Į Atsisiuntimus įtrauktos {{count}} nuorodos",
+			"batchAdded_many": "Į Atsisiuntimus įtraukta {{count}} nuorodos",
+			"batchAdded_one": "Į Atsisiuntimus įtraukta {{count}} nuoroda",
+			"batchAdded_other": "Į Atsisiuntimus įtraukta {{count}} nuorodų",
+			"batchAlreadyQueued_few": "{{count}} jau eilėje",
+			"batchAlreadyQueued_many": "{{count}} jau eilėje",
+			"batchAlreadyQueued_one": "{{count}} jau eilėje",
+			"batchAlreadyQueued_other": "{{count}} jau eilėje",
+			"batchNoneAdded_few": "Nepavyko įtraukti {{count}} nuorodų",
+			"batchNoneAdded_many": "Nepavyko įtraukti {{count}} nuorodos",
+			"batchNoneAdded_one": "Nepavyko įtraukti {{count}} nuorodos",
+			"batchNoneAdded_other": "Nepavyko įtraukti {{count}} nuorodų",
+			"batchNotAdded_few": "Nepavyko įtraukti: {{count}}",
+			"batchNotAdded_many": "Nepavyko įtraukti: {{count}}",
+			"batchNotAdded_one": "Nepavyko įtraukti: {{count}}",
+			"batchNotAdded_other": "Nepavyko įtraukti: {{count}}",
+			"chooseFromList_few": "Šiame sąraše yra {{count}} vaizdo įrašai – pasirinkite, ką atsisiųsti",
+			"chooseFromList_many": "Šiame sąraše yra {{count}} vaizdo įrašo – pasirinkite, ką atsisiųsti",
+			"chooseFromList_one": "Šiame sąraše yra {{count}} vaizdo įrašas – pasirinkite, ką atsisiųsti",
+			"chooseFromList_other": "Šiame sąraše yra {{count}} vaizdo įrašų – pasirinkite, ką atsisiųsti",
+			"chooseHowMany_few": "{{count}}+ vaizdo įrašai – pasirinkite, kiek",
+			"chooseHowMany_many": "{{count}}+ vaizdo įrašo – pasirinkite, kiek",
+			"chooseHowMany_one": "{{count}}+ vaizdo įrašas – pasirinkite, kiek",
+			"chooseHowMany_other": "{{count}}+ vaizdo įrašų – pasirinkite, kiek",
+			"failed": "Nepavyko paruošti: {{title}}",
+			"notAdded": "Nepavyko pridėti tos nuorodos – bandykite dar kartą",
+			"view": "Rodyti"
+		},
+		"settingsSaveFailed": "Nepavyko įrašyti jūsų parametrų.",
+		"shellActionFailed": "Nepavyko to atverti.",
+		"warmupFailed": "Sąranka nebaigta. Kai kurie atsisiuntimai gali nepavykti, kol ji nebus baigta."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Garsas (geriausias)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Garsas ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Originalus geriausias garsas, be perkodavimo",
+			"m4a": "Konvertuoti į M4A (AAC)",
+			"mp3": "Konvertuoti į MP3",
+			"opus": "Konvertuoti į Opus"
+		},
+		"mp4Cap": "H.264 aukštesnės nei 1080p raiškos YouTube nėra – automatiškai apribota iki 1080p",
+		"subtitles": {
+			"deliveryHeading": "Įrašyti kaip",
+			"deliveryLoose": "Tiesiai į įrašymo aplanką",
+			"languages": "Kalbos",
+			"languagesRequired": "Norėdami tęsti, pasirinkite bent vieną kalbą.",
+			"note": "Kiekvienam vaizdo įrašui įrašomi tik subtitrų failai – vaizdas ir garsas neatsisiunčiami.",
+			"source": "Šaltinis"
+		},
+		"tier": {
+			"144": "Iki 144p",
+			"240": "Iki 240p",
+			"360": "Iki 360p",
+			"480": "Iki 480p",
+			"720": "Iki 720p",
+			"1080": "Iki 1080p",
+			"1440": "Iki 1440p",
+			"2160": "Iki 4K",
+			"best": "Geriausia kokybė"
+		},
+		"tierDesc": {
+			"144": "Kuo mažesni failai",
+			"240": "Labai maži failai, žema kokybė",
+			"360": "Maži failai esant ribotam pralaidumui",
+			"480": "Mažas pralaidumas",
+			"720": "Mažesni failai, platus suderinamumas",
+			"1080": "Ribojama iki 1080p, jei reikia, kiekvienam elementui sumažinama",
+			"1440": "Ribojama iki 2K, jei reikia, kiekvienam elementui sumažinama",
+			"2160": "Ribojama iki 2160p, jei reikia, kiekvienam elementui sumažinama",
+			"best": "Geriausias galimas vaizdas ir garsas kiekvienam elementui"
+		},
+		"type": {
+			"audio": "Garsas",
+			"subtitles": "Subtitrai",
+			"video": "Vaizdo įrašas"
+		},
+		"videoFormat": {
+			"best": "Geriausias originalus",
+			"mp4": "H.264 MP4 Smart TV įrenginiams"
+		},
+		"videoFormatDesc": {
+			"best": "Geriausias galimas konteineris ir kodekai kiekvienam elementui",
+			"mp4": "Jei įmanoma, teikti pirmenybę H.264 vaizdui + AAC garsui MP4 faile"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Papildomas failas",
+			"description": "Aprašas",
+			"media": "Medija",
+			"missing": "Trūksta",
+			"subtitle": "Subtitrai",
+			"thumbnail": "Miniatiūra",
+			"unknown": "Artefaktas"
+		},
+		"attentionBadge_few": "Reikia jūsų dėmesio: {{count}} atsisiuntimai",
+		"attentionBadge_many": "Reikia jūsų dėmesio: {{count}} atsisiuntimo",
+		"attentionBadge_one": "Reikia jūsų dėmesio: {{count}} atsisiuntimas",
+		"attentionBadge_other": "Reikia jūsų dėmesio: {{count}} atsisiuntimų",
+		"autoRemoveCompleted": {
+			"hint": "Pašalinti kiekvieną atsisiuntimą iš sąrašo praėjus kelioms sekundėms po jo pabaigos. Failai lieka jūsų aplanke.",
+			"label": "Valyti baigtus"
+		},
+		"cancelAllTitle": "Atšaukti visus aktyvius ir laukiančius atsisiuntimus",
+		"choice": {
+			"all": "Visi vaizdo įrašai",
+			"cappedBody_few": "Šiame grojaraštyje daugiau nei {{count}} vaizdo įrašai. Atsisiųskite visus, pirmuosius {{count}} arba pasirinkite peržiūroje.",
+			"cappedBody_many": "Šiame grojaraštyje daugiau nei {{count}} vaizdo įrašo. Atsisiųskite visus, pirmuosius {{count}} arba pasirinkite peržiūroje.",
+			"cappedBody_one": "Šiame grojaraštyje daugiau nei {{count}} vaizdo įrašas. Atsisiųskite visus, pirmuosius {{count}} arba pasirinkite peržiūroje.",
+			"cappedBody_other": "Šiame grojaraštyje daugiau nei {{count}} vaizdo įrašų. Atsisiųskite visus, pirmuosius {{count}} arba pasirinkite peržiūroje.",
+			"first": "Pirmieji {{count}}",
+			"list": {
+				"album": "Albumas",
+				"liked": "Patikę vaizdo įrašai",
+				"mix": "Mix",
+				"playlist": "Grojaraštis",
+				"uploads": "Visi įkėlimai",
+				"watchLater": "Žiūrėti vėliau"
+			},
+			"pick": "Pasirinkti iš jo…",
+			"review": "Peržiūrėti",
+			"uncappedBody_few": "Ši nuoroda yra sąrašas, kuriame yra {{count}} vaizdo įrašai. Atsisiųskite visus arba pasirinkite peržiūroje.",
+			"uncappedBody_many": "Ši nuoroda yra sąrašas, kuriame yra {{count}} vaizdo įrašo. Atsisiųskite visus arba pasirinkite peržiūroje.",
+			"uncappedBody_one": "Ši nuoroda yra sąrašas, kuriame yra {{count}} vaizdo įrašas. Atsisiųskite jį arba pasirinkite peržiūroje.",
+			"uncappedBody_other": "Ši nuoroda yra sąrašas, kuriame yra {{count}} vaizdo įrašų. Atsisiųskite visus arba pasirinkite peržiūroje.",
+			"video": "Šis vaizdo įrašas",
+			"videoOrList": {
+				"album": "Ši nuoroda yra albumo vaizdo įrašas. Atsisiųsti tik vaizdo įrašą ar albumą?",
+				"liked": "Ši nuoroda yra vaizdo įrašas iš jūsų patikusių vaizdo įrašų. Atsisiųsti tik vaizdo įrašą ar visus jūsų patikusius vaizdo įrašus?",
+				"mix": "Ši nuoroda yra Mix vaizdo įrašas. Atsisiųsti tik vaizdo įrašą ar Mix?",
+				"playlist": "Ši nuoroda yra grojaraščio vaizdo įrašas. Atsisiųsti tik vaizdo įrašą ar grojaraštį?",
+				"uploads": "Ši nuoroda yra vaizdo įrašas iš kanalo įkėlimų. Atsisiųsti tik vaizdo įrašą ar visus įkėlimus?",
+				"watchLater": "Ši nuoroda yra vaizdo įrašas iš jūsų „Žiūrėti vėliau“ sąrašo. Atsisiųsti tik vaizdo įrašą ar visą sąrašą?"
+			}
+		},
+		"clearTitle": "Išvalyti baigtus atsisiuntimus",
+		"empty": "Eilėje esantys atsisiuntimai bus rodomi čia",
+		"filterAll": "Visi",
+		"filtersLabel": "Eilės būsenos filtrai",
+		"globalActionsLabel": "Visi elementai",
+		"header": "Atsisiuntimai",
+		"item": {
+			"audioKept": "Garsas nepašalintas",
+			"audioKeptSubtitlesFailed": "Garsas nepašalintas · kai kurių subtitrų nepavyko gauti",
+			"cancel": "Atšaukti",
+			"defaultError": "Atsisiųsti nepavyko",
+			"openDestinationFolder": "Atverti paskirties aplanką",
+			"pause": "Pristabdyti",
+			"pendingOnly": "Tik laukiantiems",
+			"pullNow": "Atsisiųsti dabar – praleisti eilę",
+			"qualityLimited": "Apribota iki {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Apribota iki {{height}}p · kai kurių subtitrų nepavyko gauti",
+			"remove": "Pašalinti",
+			"resume": "Tęsti",
+			"retry": "Bandyti dar kartą",
+			"retryingSoon": "automatiškai bandoma dar kartą ({{attempt}}-as bandymas)",
+			"setLocation": "Nustatyti vietą",
+			"setLocationHint": "Pasirinkite laukiančius elementus, kad nustatytumėte vietą.",
+			"statusCancelled": "Atšaukta",
+			"statusDone": "Baigta",
+			"statusError": "Klaida",
+			"statusHeld": "Sulaikyta",
+			"statusNeedsChoice": "Reikia jūsų pasirinkimo",
+			"statusPaused": "Pristabdyta",
+			"statusPending": "Laukiama",
+			"statusProbing": "Gaunama išsami informacija",
+			"statusRunning": "Atsisiunčiama",
+			"subtitleLanguagesMissing": "Nėra subtitrų šiomis kalbomis: {{languages}}",
+			"waitingForSite": "Laukia {{site}} iki {{time}}",
+			"waitingHint": "{{site}} riboja šio ryšio užklausų skaičių. Klip gaus šios nuorodos informaciją po {{time}}, kad apribojimas galėtų išnykti."
+		},
+		"listOffer": {
+			"dismiss": "Atmesti",
+			"from": {
+				"album": "Iš albumo",
+				"liked": "Iš patikusių vaizdo įrašų",
+				"mix": "Iš Mix",
+				"playlist": "Iš grojaraščio",
+				"uploads": "Iš kanalo įkėlimų",
+				"watchLater": "Iš „Žiūrėti vėliau“"
+			},
+			"get": {
+				"album": "Gauti visą albumą",
+				"liked": "Gauti visus patikusius vaizdo įrašus",
+				"mix": "Gauti visą Mix",
+				"playlist": "Gauti visą grojaraštį",
+				"uploads": "Gauti visus įkėlimus",
+				"watchLater": "Gauti visą „Žiūrėti vėliau“"
+			},
+			"hint": "Sąrašas įtraukiamas kaip atskira eilutė. Šis vaizdo įrašas praleidžiamas."
+		},
+		"pauseAllTitle": "Pristabdyti kiekvieną aktyvų atsisiuntimą ir neleisti pradėti naujų",
+		"pausedBanner": "Eilė pristabdyta – laukiantys elementai neprasidės, kol jos neatnaujinsite",
+		"resumeAllTitle": "Tęsti pristabdytus atsisiuntimus ir leisti eilei veikti toliau",
+		"resumeQueueAction": "Tęsti eilę",
+		"selectedActionsLabel": "Pasirinkti elementai",
+		"selectionSummary": "Pasirinkta {{selected}} · iš viso {{total}}",
+		"tabLabel": "Atsisiuntimai",
+		"tabTip": "Atsisiuntimai dabar rodomi skirtuke „Atsisiuntimai“ – atverkite jį bet kada, kad stebėtumėte eigą.",
+		"table": {
+			"added": "Pridėta",
+			"artifacts": "Artefaktai",
+			"columnDropped": "Stulpelis „{{column}}“ nuleistas.",
+			"columnMoveCancelled": "Stulpelio „{{column}}“ perkėlimas atšauktas.",
+			"columnMovedOver": "Stulpelis „{{column}}“ yra virš „{{target}}“.",
+			"columnPickedUp": "Stulpelis „{{column}}“ paimtas.",
+			"columns": "Stulpeliai",
+			"finished": "Baigta",
+			"format": "Formatas",
+			"hideArtifactsFor": "Slėpti artefaktus: {{title}}",
+			"movableColumn": "perkeliamas stulpelis",
+			"moveColumnInstructions": "Norėdami perkelti stulpelį, paspauskite tarpo klavišą arba „Enter“, perkelkite rodyklių klavišais, tada vėl paspauskite tarpo klavišą arba „Enter“, kad jį nuleistumėte. Paspauskite „Esc“, kad atšauktumėte.",
+			"notAvailable": "—",
+			"outputTarget": "Paskirties aplankas",
+			"progress": "Eiga",
+			"resetColumns": "Atkurti stulpelius",
+			"resizeColumn": "Keisti stulpelio „{{column}}“ plotį",
+			"showArtifactsFor": "Rodyti artefaktus: {{title}}",
+			"size": "Dydis",
+			"sortBy": "Rikiuoti pagal: {{label}}",
+			"status": "Būsena",
+			"title": "Pavadinimas"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Tęsti",
+		"description": "Ką tik atnaujinote programą. Štai svarbiausi pakeitimai.",
+		"fullNotes": "Visos laidos pastabos ↗",
+		"title": "Kas naujo Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Atšaukti",
+			"chooseExecutable": "Pasirinkti vykdomąjį failą",
+			"installWithHomebrew": "Diegti per Homebrew",
+			"installWithWinget": "Diegti per WinGet",
+			"openDependencyFolder": "Atverti priklausomybės aplanką",
+			"resetToDefault": "Atkurti numatytąjį",
+			"retrySetup": "Bandyti dar kartą",
+			"viewSetupLog": "Peržiūrėti sąrankos žurnalą"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Bandykite dar kartą. Jei vis tiek nepavyksta, žemiau pasirinkite veikiančią kopiją.",
+				"title": "Įrankis veikia netinkamai"
+			},
+			"blockedOrQuarantined": {
+				"body": "Leiskite Klip savo antivirusinėje programoje arba „SmartScreen“ ir bandykite dar kartą.",
+				"title": "Antivirusinė programa užblokavo įrankį"
+			},
+			"downloadFailed": {
+				"body": "Patikrinkite interneto ryšį ir bandykite dar kartą.",
+				"title": "Nepavyko atsisiųsti to, ko reikia Klip"
+			},
+			"extractFailed": {
+				"body": "Bandykite dar kartą, kad atsisiųstumėte iš naujo.",
+				"title": "Atsisiuntimas atkeliavo pažeistas"
+			},
+			"hashFailed": {
+				"body": "Bandykite dar kartą, kad atsisiųstumėte iš naujo.",
+				"title": "Atsisiuntimas nesutapo su savo kontroline suma"
+			},
+			"pairIncomplete": {
+				"body": "Žemiau pasirinkite abu arba atkurkite numatytuosius.",
+				"title": "FFmpeg ir FFprobe reikia nustatyti kartu"
+			},
+			"permissionDenied": {
+				"body": "Bandykite dar kartą. Jei vis tiek nepavyksta, žemiau pasirinkite kopiją, kuria pasitikite.",
+				"title": "Jūsų sistema neleidžia Klip paleisti įrankio"
+			},
+			"spawnFailed": {
+				"body": "Bandykite dar kartą. Jei vis tiek nepavyksta, žemiau pasirinkite veikiančią kopiją.",
+				"title": "Įrankio nėra arba jis nepasileidžia"
+			},
+			"timeout": {
+				"body": "Dažnai tai būna saugos tikrinimas pirmą kartą paleidus. Bandykite dar kartą.",
+				"title": "Įrankis per ilgai neatsakė"
+			},
+			"unknown": {
+				"body": "Bandykite dar kartą arba atverkite sąrankos žurnalą, kad sužinotumėte daugiau.",
+				"title": "Sąrankos metu kažkas nutiko"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Atsisiuntimo variklis",
+			"media": "Medijos įrankiai"
+		},
+		"installing": {
+			"homebrew": "Diegiama per Homebrew… Tai gali užtrukti kelias minutes.",
+			"winget": "Diegiama per WinGet… Tai gali užtrukti kelias minutes."
+		},
+		"manual": {
+			"intro": "Nurodykite Klip jau turimas kopijas arba įdiekite jas kitu būdu.",
+			"linuxHint": "Taip pat galite įdiegti yt-dlp ir ffmpeg per savo paketų tvarkyklę, tada spustelėti „Bandyti dar kartą“.",
+			"toggle": "Nustatyti rankiniu būdu"
+		},
+		"stopped": {
+			"body": "Bandykite dar kartą arba žemiau nurodykite Klip jau turimus įrankius.",
+			"title": "Sąranka sustojo"
+		},
+		"title": "Sąrankai reikia jūsų pagalbos"
+	},
+	"selectionOrder": {
+		"editorTitle": "Kaip šis profilis renkasi",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC garsas",
+				"reason": "tinka MP4 grotuvams"
+			},
+			"aacSmartTv": {
+				"label": "AAC garsas",
+				"reason": "atkuriamas visur"
+			},
+			"codec": {
+				"label": "AV1, tada VP9, tada H.264",
+				"reason": "ryškiausias esant tokiam dydžiui"
+			},
+			"codecH264First": {
+				"label": "H.264, tada VP9, tada AV1",
+				"reason": "šio profilio kodekas"
+			},
+			"codecVp9First": {
+				"label": "VP9, tada H.264, tada AV1",
+				"reason": "šio profilio kodekas"
+			},
+			"fps": {
+				"label": "Didžiausias kadrų dažnis",
+				"reason": "sklandesnis judesys"
+			},
+			"h264": {
+				"label": "H.264 vaizdas",
+				"reason": "atkuriamas kiekviename įrenginyje"
+			},
+			"hdrFirst": {
+				"label": "HDR prieš SDR",
+				"reason": "sodresnės spalvos HDR ekranuose",
+				"reasonScreen": "šis ekranas rodo HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR prieš HDR",
+				"reason": "tinkamai atrodo bet kuriame ekrane",
+				"reasonScreen": "šis ekranas nėra HDR"
+			},
+			"mp4Streams": {
+				"label": "MP4 srautai",
+				"reason": "paruošti MP4 failui"
+			},
+			"nativeCompatible": {
+				"label": "Stereo garsas"
+			},
+			"nativeSource": {
+				"profile": "šis profilis",
+				"settings": "iš parametrų"
+			},
+			"nativeSurround": {
+				"label": "Erdvinis garsas, kai siūlomas"
+			},
+			"opus": {
+				"label": "Opus garsas",
+				"reason": "tinka WebM"
+			},
+			"original": {
+				"label": "Originalūs srautai, ne DI išdidinti",
+				"reason": "išdidinta kopija didesnė, bet tikrų detalių nepridėdama"
+			},
+			"protocol": {
+				"label": "Tiesioginiai atsisiuntimai prieš srautines kopijas",
+				"reason": "tas pats vaizdas, atsisiunčiamas greičiau"
+			},
+			"resolution": {
+				"label": "Iki {{tier}}p",
+				"reason": "jūsų riba"
+			},
+			"resolutionBest": {
+				"label": "Didžiausia skiriamoji geba",
+				"reason": "riba nenustatyta"
+			},
+			"sitePreference": {
+				"label": "Srautai, kurių svetainė nepažymi kaip prastesnių",
+				"reason": "praleidžia pažeistas, su vandenženkliu ir atsargines kopijas"
+			},
+			"size": {
+				"label": "Didesnis failas",
+				"reason": "daugiau detalių esant tiems patiems parametrams"
+			},
+			"source": {
+				"label": "Pirmiausia padidintos spartos srautai",
+				"reason": "daugiau detalių esant tai pačiai skiriamajai gebai"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "failo tipas pagal srautus",
+				"explicit": "įrašoma kaip .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "geriausias vaizdas",
+				"smartTv": "atkuriamas bet kuriame įrenginyje"
+			}
+		},
+		"whyLabel": "Kodėl šis?",
+		"whyTitle": "Kodėl profilis pasirinko šį"
+	},
+	"share": {
+		"copied": "Nukopijuota!",
+		"copyLink": "Kopijuoti nuorodą",
+		"defaultMessage": "Klip – nemokama atvirojo kodo vaizdo įrašų atsisiuntimo programa, skirta Windows, macOS ir Linux. Veikia su YouTube, Vimeo, Twitch ir daugiau nei 2000 svetainių.\n4K · HDR · MP3 · Shorts · Subtitrai · SponsorBlock",
+		"description": "Klip yra nemokama ir atvirojo kodo. Dalydamiesi padedate jai pasiekti daugiau žmonių.",
+		"footerLabel": "Dalytis",
+		"footerTooltip": "Dalytis Klip",
+		"shareAction": "Dalytis Klip",
+		"title": "Pasidalykite Klip"
+	},
+	"splash": {
+		"cancel": "Kyla problemų? Nustatykite rankiniu būdu",
+		"greeting": "Sveiki sugrįžę!",
+		"setup": {
+			"left": {
+				"minutes_few": "liko apie {{count}} min.",
+				"minutes_many": "liko apie {{count}} min.",
+				"minutes_one": "liko apie {{count}} min.",
+				"minutes_other": "liko apie {{count}} min.",
+				"underMinute": "liko mažiau nei minutė"
+			},
+			"stage": {
+				"checking": "Tikrinama, ar viskas veikia",
+				"connecting": "Jungiamasi…",
+				"unpacking": "Išpakuojami medijos įrankiai",
+				"unpackingEngine": "Išpakuojamas atsisiuntimo variklis"
+			},
+			"title": {
+				"both": "Atnaujinami Klip įrankiai",
+				"engine": "Atnaujinamas atsisiuntimo variklis",
+				"firstRun": "Pirmojo karto sąranka",
+				"media": "Atnaujinami medijos įrankiai"
+			}
+		},
+		"verifyFirstCheck": "Pirmasis šios versijos tikrinimas – jis lėtas. Paprastai apie minutę.",
+		"verifying": "Tikrinama: {{binary}}…",
+		"warmup": "Ruošiami atsisiuntimai…",
+		"warmupFailedNoDiag": "Sąranka nepavyko. Išsamią informaciją rasite sąrankos žurnale."
+	},
+	"status": {
+		"audioKept": "Vaizdo įrašas įrašytas kartu su garsu – garso pašalinti nepavyko",
+		"audioKeptSubtitlesFailed": "Vaizdo įrašas įrašytas kartu su garsu – garso pašalinti nepavyko, o kai kurių subtitrų atsisiųsti nepavyko",
+		"cancelled": "Atsisiuntimas atšauktas",
+		"complete": "Atsisiuntimas baigtas",
+		"convertingVideo": "Konvertuojamas vaizdo įrašas…",
+		"diskSpaceInsufficient": "Nepakanka vietos diske – reikia {{required}}, yra tik {{free}}",
+		"downloadingBinary": "Atsisiunčiamas {{name}} vykdomasis failas…",
+		"downloadingMedia": "Atsisiunčiamas vaizdas ir garsas…",
+		"embeddingMetadata": "Įterpiami metaduomenys…",
+		"exploreSignedOut": "Atsijungta nuo Naršymo – prisijunkite iš naujo",
+		"extractingAudio": "Konvertuojamas garsas…",
+		"fetchingSponsorBlock": "Jungiamasi prie SponsorBlock…",
+		"fetchingSubtitles": "Gaunami subtitrai…",
+		"mergingFormats": "Sujungiamas garsas ir vaizdas…",
+		"mintingToken": "Ruošiamas YouTube atsisiuntimas…",
+		"movingFiles": "Perkeliami failai…",
+		"noSubtitles": "Nėra subtitrų šiomis kalbomis: {{languages}}",
+		"outputNotWritable": "Nepavyksta įrašyti į {{dir}} – Klip neleidžiama ten rašyti",
+		"preparingBinaries": "Ruošiami vykdomieji failai…",
+		"qualityLimited": "Išsaugota {{height}}p – YouTube šiam atsisiuntimui nepateikė aukštesnių kokybių. Gali padėti bandymas dar kartą vėliau.",
+		"qualityLimitedSubtitlesFailed": "Išsaugota {{height}}p – YouTube šiam atsisiuntimui nepateikė aukštesnių kokybių, be to, kai kurių subtitrų atsisiųsti nepavyko. Gali padėti bandymas dar kartą vėliau.",
+		"remintingToken": "Dar kartą ruošiamas YouTube atsisiuntimas…",
+		"retryingSponsorBlock": "SponsorBlock nepasiekiamas, bandoma dar kartą ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Ryšys užstrigo, bandoma dar kartą ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Prisijungiama naudojant jūsų Naršymo paskyrą…",
+		"sleepingBetweenRequests": "Laukiama {{seconds}} s, kad nebūtų viršytos užklausų ribos…",
+		"startingYtdlp": "Paleidžiamas atsisiuntimo variklis…",
+		"subtitleLanguagesMissing": "Šiame vaizdo įraše nėra subtitrų šiomis kalbomis: {{languages}}. Vaizdo įrašas išsaugotas be jų.",
+		"subtitleLanguagesMissingOthersSaved": "Šiame vaizdo įraše nėra subtitrų šiomis kalbomis: {{languages}}. Kitos kalbos buvo išsaugotos.",
+		"subtitlesFailed": "Vaizdo įrašas įrašytas – kai kurių subtitrų atsisiųsti nepavyko",
+		"unknownStartupFailure": "Nežinomas atsisiuntimo paleidimo sutrikimas",
+		"usedExtractorFallback": "Atsisiųsta naudojant supaprastintą ištraukiklį – nustatykite cookies.txt, kad atsisiuntimai būtų patikimesni",
+		"ytdlpExitCode": "Atsisiuntimo variklis baigė darbą su kodu {{code}}",
+		"ytdlpProcessError": "Atsisiuntimo variklio klaida: {{error}}"
+	},
+	"theme": {
+		"dark": "Tamsusis režimas",
+		"light": "Šviesusis režimas",
+		"system": "Sistemos numatytasis"
+	},
+	"titleBar": {
+		"close": "Uždaryti",
+		"maximize": "Išskleisti",
+		"minimize": "Sumažinti",
+		"restore": "Atkurti"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Atsisiųsti iš iškarpinės",
+			"statusActive_few": "Atsisiunčiama: {{count}} · {{percent}} %",
+			"statusActive_many": "Atsisiunčiama: {{count}} · {{percent}} %",
+			"statusActive_one": "Atsisiunčiama: {{count}} · {{percent}} %",
+			"statusActive_other": "Atsisiunčiama: {{count}} · {{percent}} %",
+			"statusIdle": "Neveikia"
+		}
+	},
+	"update": {
+		"copied": "Komanda nukopijuota į iškarpinę",
+		"copy": "Kopijuoti komandą į iškarpinę",
+		"dismiss": "Atmesti naujinimo juostą",
+		"download": "Atsisiųsti ↗",
+		"downloadDmg": "Atsisiųsti DMG ↗",
+		"downloading": "Atsisiunčiama…",
+		"install": "Įdiegti ir paleisti iš naujo",
+		"installFailed": "Naujinimas nepavyko",
+		"message": {
+			"generic": "Galima Klip {{version}} – jūs naudojate {{currentVersion}}.",
+			"homebrew": "Galima Klip {{version}} – atnaujinkite per Homebrew.",
+			"macosDirect": "Galima Klip {{version}} – atsisiųskite naują DMG.",
+			"macosDirectHomebrew": "Galima Klip {{version}} – atsisiųskite DMG arba pereikite prie Homebrew.",
+			"portable": "Galima Klip {{version}} – atsisiųskite naują versiją."
+		},
+		"retry": "Bandyti dar kartą",
+		"runAndRestart": "Vykdyti ir paleisti iš naujo",
+		"upgrading": "Atnaujinama…"
+	},
+	"videoCard": {
+		"chapters_few": "{{count}} skyriai",
+		"chapters_many": "{{count}} skyriaus",
+		"chapters_one": "{{count}} skyrius",
+		"chapters_other": "{{count}} skyrių",
+		"titlePlaceholder": "Įkeliama…"
+	},
+	"videoCodec": {
+		"h264": "Pirmiausia H.264",
+		"label": "Vaizdo kodekas",
+		"smartTv": "Smart TV visada renkasi H.264.",
+		"vp9": "Pirmiausia VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Paruošta",
+			"description": "Įklijuokite vaizdo įrašų, grojaraščių, kanalų, paieškos arba garso URL. Klip prieš įtraukdama į eilę pašalins pasikartojimus.",
+			"emptyPreview": "Įklijuokite vieną ar kelis URL, kad peržiūrėtumėte paketą.",
+			"ignoredCount": "Ignoruota",
+			"needsAtLeastOne": "Norėdami tęsti, pridėkite bent vieną palaikomą URL.",
+			"reject": {
+				"duplicate": "Pasikartoja"
+			},
+			"textareaLabel": "URL sąrašas",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "Kelios nuorodos"
+		},
+		"confirm": {
+			"addToQueue": "+ Eilė",
+			"addToQueueTooltip": "Įtraukia į eilę – prasidės, kai baigsis aktyvus atsisiuntimas",
+			"itemsValueAudio_few": "{{count}} iš {{total}} takelių",
+			"itemsValueAudio_many": "{{count}} iš {{total}} takelių",
+			"itemsValueAudio_one": "{{count}} iš {{total}} takelių",
+			"itemsValueAudio_other": "{{count}} iš {{total}} takelių",
+			"itemsValueBulk_few": "{{count}} iš {{total}} URL",
+			"itemsValueBulk_many": "{{count}} iš {{total}} URL",
+			"itemsValueBulk_one": "{{count}} iš {{total}} URL",
+			"itemsValueBulk_other": "{{count}} iš {{total}} URL",
+			"itemsValue_few": "{{count}} iš {{total}} vaizdo įrašų",
+			"itemsValue_many": "{{count}} iš {{total}} vaizdo įrašų",
+			"itemsValue_one": "{{count}} iš {{total}} vaizdo įrašų",
+			"itemsValue_other": "{{count}} iš {{total}} vaizdo įrašų",
+			"labelAudio": "Garsas",
+			"labelBulk": "Paketas",
+			"labelItems": "Elementai",
+			"labelPlaylist": "Grojaraštis",
+			"labelPreset": "Šablonas",
+			"labelSaveTo": "Įrašyti į",
+			"labelSize": "Dydis",
+			"labelSubtitles": "Subtitrai",
+			"labelVideo": "Vaizdas",
+			"landIn": "Jūsų failas bus įrašytas į",
+			"landInMultiProfile_few": "Jie bus įrašyti į {{count}} toliau nurodytas paskirtis",
+			"landInMultiProfile_many": "Jie bus įrašyti į {{count}} toliau nurodytas paskirtis",
+			"landInMultiProfile_one": "Jis bus įrašytas į toliau nurodytą paskirtį",
+			"landInMultiProfile_other": "Jie bus įrašyti į {{count}} toliau nurodytų paskirčių",
+			"nothingToDownload": "Aktyvus profilis „Tik subtitrai“, bet nepasirinkta jokia subtitrų kalba – nieko nebus atsisiųsta.",
+			"profileBreakdownCount_few": "{{count}} elementai",
+			"profileBreakdownCount_many": "{{count}} elemento",
+			"profileBreakdownCount_one": "{{count}} elementas",
+			"profileBreakdownCount_other": "{{count}} elementų",
+			"profileBreakdownHeading": "Šio paketo profiliai",
+			"pullIt": "Atsisiųsti! ↓",
+			"pullItTooltip": "Praleidžia eilę – prasideda dabar ir vykdomas kartu su kitais aktyviais atsisiuntimais",
+			"readyHeadline": "Viskas paruošta atsisiuntimui!",
+			"sizeUnknown": "Nežinoma",
+			"subtitleEmbedAudioOnly": "Subtitrų įterpimas pakeistas į atskirą failą – garso takeliai nepalaiko įterptų subtitrų srautų.",
+			"subtitleEmbedForcesMkv": "Vaizdo įraše įterptiems subtitrams reikia MKV failo, todėl šis atsisiuntimas įrašomas kaip .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Miniatiūros įterpimas praleistas – išvesties konteineris jo nepalaiko."
+		},
+		"folder": {
+			"custom": "Kitas…",
+			"desktop": "Darbalaukis",
+			"documents": "Dokumentai",
+			"downloads": "Atsisiuntimai",
+			"heading": "Įrašyti į",
+			"home": "Namai",
+			"music": "Muzika",
+			"pictures": "Paveikslėliai",
+			"subfolder": {
+				"invalid": "Aplanko pavadinime yra netinkamų simbolių",
+				"placeholder": "pvz., paskaitos",
+				"toggle": "Įrašyti į poaplankį"
+			},
+			"videos": "Filmai"
+		},
+		"formats": {
+			"audio": "Garsas",
+			"audioLanguage": "Garso kalba",
+			"audioLanguageCount_few": "{{count}} kalbos",
+			"audioLanguageCount_many": "{{count}} kalbos",
+			"audioLanguageCount_one": "{{count}} kalba",
+			"audioLanguageCount_other": "{{count}} kalbų",
+			"bitrateValue": "Sparta {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Slapukai sukonfigūruoti, bet išjungti. Įjunkite juos ir bandykite dar kartą, kad gautumėte visą sąrašą, arba pakeiskite tinklą ir bandykite dar kartą.",
+				"bodyEnabled": "Net ir su slapukais YouTube apribojo šį nuskaitymą. Bandykite vėliau arba pakeiskite tinklą.",
+				"bodyExplore": "YouTube apribojo šią užklausą. Bandykite vėliau arba pakeiskite tinklą.",
+				"bodyUnconfigured": "Formatų sąrašas gali būti nepilnas. Nustatykite slapukus išplėstiniuose parametruose arba pakeiskite tinklą ir bandykite dar kartą.",
+				"enableRetryCta": "Įjungti slapukus ir bandyti dar kartą",
+				"heading": "Nuskaitymas apribotas",
+				"retryCta": "Bandyti dar kartą"
+			},
+			"convert": {
+				"bitrate": "Sparta",
+				"bitrateCopyHint": "Šaltinis, kuris jau yra {{target}}, išlaiko savo srautą ir spartą: jis nukopijuojamas, o ne perkoduojamas.",
+				"copyLabel": "{{target}} {{bitrate}} kb/s, be perkodavimo",
+				"copyLabelNoBitrate": "{{target}}, be perkodavimo",
+				"copyNote": "{{kbps}} kb/s, kaip šaltinyje: srautas jau yra {{target}}, todėl jis nukopijuojamas, o ne perkoduojamas",
+				"copyNoteNoBitrate": "Kaip šaltinyje: srautas jau yra {{target}}, todėl jis nukopijuojamas, o ne perkoduojamas",
+				"label": "Konvertuoti",
+				"lossyLabel": "{{target}} {{bitrate}} kb/s",
+				"sourceKbps": "Šaltinio sparta {{kbps}} kb/s",
+				"wavLabel": "WAV (nesuglaudintas)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Naršyklė",
+				"currentModeExplore": "Prisijungimas per Naršymą",
+				"currentModeFile": "Failas",
+				"currentModeLabel": "Slapukų šaltinis",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp dokumentacija (problema #10927)",
+					"explanation": "Chrome 127 ir naujesnė versija užšifruoja slapukus taip, kad kitos „Windows“ programos jų nepaskaito. Išbandykite vieną iš toliau nurodytų sprendimų.",
+					"fixFileBody": "Eksportuokite slapukus iš Chrome naršyklės plėtiniu, tada perjunkite šią programą į režimą „Failas“ ir pasirinkite eksportuotą failą.",
+					"fixFileLabel": "Eksportuoti cookies.txt",
+					"fixFirefoxBody": "Firefox nenaudoja „App-Bound Encryption“. Atverkite slapukų parametrus ir naršyklių sąraše pasirinkite Firefox.",
+					"fixFirefoxLabel": "Pereiti prie Firefox",
+					"fixUnsafeBody": "Pridėkite --disable-features=LockProfileCookieDatabase prie Chrome paleidimo nuorodos. Įspėjimas: tai anuliuoja anksčiau užšifruotus slapukus, todėl būsite atjungti nuo visų svetainių ir turėsite prisijungti iš naujo.",
+					"fixUnsafeLabel": "Paleisti Chrome išjungus „App-Bound Encryption“",
+					"heading": "Chrome slapukus užblokavo Windows šifravimas"
+				},
+				"explanationBrowser": "Slapukai skaitomi tiesiai iš naršyklės. Jei naršyklė šiuo metu veikia, jos slapukų duomenų bazė gali būti užrakinta („Chromium“ šeima). Naršyklėje taip pat turi būti prisijungta prie YouTube. Pabandykite uždaryti naršyklę, pereiti prie kitos naršyklės, perjungti į režimą „Failas“ arba išjungti slapukus.",
+				"explanationFile": "Jūsų slapukų failas gali būti tuščias, pasenęs arba netinkamo formato (Klip reikia „Netscape“ formato cookies.txt failo). Pabandykite eksportuoti slapukus iš naujo, pasirinkti kitą failą, perjungti į režimą „Naršyklė“ arba išjungti slapukus.",
+				"exploreOffer": {
+					"body": "Prisijunkite per Naršymą ir Klip pabandys dar kartą.",
+					"cta": "Prisijungti per Naršymą",
+					"heading": "Šiam vaizdo įrašui gali reikėti YouTube paskyros"
+				},
+				"exploreRefused": {
+					"body": "Klip jau bandė prisijungusi per Naršymą, todėl dar kartą prisijungti nepadės. Svetainė gali turėti problemų arba ši paskyra negali to atverti. Bandykite vėliau.",
+					"heading": "Svetainė tai atmetė net su jūsų prisijungimu per Naršymą"
+				},
+				"exploreReuse": {
+					"body": "Esate prisijungę prie Naršymo, tačiau atsisiuntimai šiuo metu to prisijungimo nenaudoja.",
+					"cta": "Naudoti mano prisijungimą per Naršymą ir bandyti dar kartą",
+					"heading": "Šiam vaizdo įrašui gali reikėti YouTube paskyros"
+				},
+				"exploreSignIn": {
+					"body": "Jei šiam vaizdo įrašui reikia YouTube paskyros, prisijunkite per Naršymą ir bandykite dar kartą. Klip naudoja tą prisijungimą tik tada, kai to reikia atsisiuntimui.",
+					"cta": "Prisijungti per Naršymą",
+					"heading": "Šiam vaizdo įrašui gali reikėti YouTube paskyros"
+				},
+				"exploreSignedIn": {
+					"body": "Jei šiam vaizdo įrašui reikia paskyros, Klip automatiškai naudoja jūsų prisijungimą per Naršymą. Jis gali būti nepasiekiamas dėl kitos priežasties.",
+					"heading": "Prisijungta prie Naršymo"
+				},
+				"exploreSite": {
+					"heading": "Šiai nuorodai gali reikėti {{host}} paskyros",
+					"offerBody": "Prisijunkite prie {{host}} per Naršymą ir bandykite dar kartą.",
+					"signInBody": "Prisijunkite prie {{host}} Naršyme ir bandykite dar kartą. Klip naudoja tą prisijungimą tik tada, kai to reikia atsisiuntimui."
+				},
+				"heading": "Priežastis gali būti slapukai",
+				"needsCookies": {
+					"body": "Klip nepavyko pasiekti šio vaizdo įrašo be tapatybės nustatymo. Sukonfigūruokite slapukus išplėstiniuose parametruose – nukreipkite juos į naršyklę, kurioje jau esate prisijungę, arba importuokite cookies.txt failą.",
+					"heading": "Šiai svetainei reikia prisijungimo"
+				},
+				"openSettingsCta": "Atverti slapukų parametrus",
+				"otherCookiesCta": "Verčiau naudoti slapukų failą arba naršyklę…"
+			},
+			"drc": {
+				"description": "Nutildo garsias dalis ir sustiprina tylias – kalbėtuvams ir triukšmingoms patalpoms.",
+				"label": "Išlyginti garsumą (DRC)",
+				"tag": "Išlygintas garsumas"
+			},
+			"fit": {
+				"mp4Unavailable": "Jūsų profilis yra Smart TV (H.264). Šis vaizdo įrašas H.264 nesiūlo, todėl pasirinktas artimiausias srautas.",
+				"noVideo": "Šioje nuorodoje nėra vaizdo, todėl pasirinktas garsas.",
+				"subtitlesMissing": "Jūsų profilis prašo subtitrų šiomis kalbomis: {{languages}}. Šiame vaizdo įraše jų nėra.",
+				"tierAbove": "Jūsų profilis prašo {{wanted}}p. Šiame vaizdo įraše tokios mažos raiškos nėra, todėl pasirinkta {{picked}}p.",
+				"tierAbovePassedOver": "Jūsų profilis prašo {{wanted}}p. Mažesni šio vaizdo įrašo srautai netinka likusiai jūsų profilio daliai, todėl pasirinkta {{picked}}p.",
+				"tierBelowTakeable": "Jūsų profilis prašo {{wanted}}p. Šis vaizdo įrašas neturi tinkamos {{wanted}}p versijos, todėl pasirinkta {{picked}}p.",
+				"tierPassedOverAiUpscaled": "Jūsų profilis prašo {{wanted}}p. Šio vaizdo įrašo {{wanted}}p padidinta dirbtinio intelekto pagalba, todėl pasirinkta originali {{picked}}p.",
+				"tierPassedOverH264": "Jūsų profilis prašo {{wanted}}p su H.264. Šis vaizdo įrašas turi {{wanted}}p tik su kitais kodekais, todėl pasirinkta {{picked}}p su H.264.",
+				"tierPassedOverProfile": "Jūsų profilis prašo {{wanted}}p. Šio vaizdo įrašo {{wanted}}p netinka likusiai jūsų profilio daliai, todėl pasirinkta {{picked}}p.",
+				"webmUnavailable": "Jūsų profilis prašo WebM. Šio vaizdo įrašo pasirinktuose srautuose yra {{codec}}, kurio WebM negali talpinti, todėl failo tipas yra „Automatinis“."
+			},
+			"footer": {
+				"addToQueue": "Įtraukti į eilę nepradedant",
+				"download": "Atsisiųsti",
+				"moreActions": "Daugiau atsisiuntimo parinkčių",
+				"subtitlesRequired": "Pasirinkite bent vieną subtitrų kalbą."
+			},
+			"keepAudio": "Palikti kaip yra",
+			"keepAudioMeta": "Integruotas garsas",
+			"kind": {
+				"audio": "Tik garsas",
+				"label": "Ką atsisiųsti",
+				"subtitles": "Tik subtitrai",
+				"video": "Vaizdas + garsas",
+				"videoOnly": "Vaizdas be garso"
+			},
+			"loadingAria": "Įkeliami formatai",
+			"loadingHint": "Palaukite, kol baigsis nuskaitymas – grojaraščiai ir paieškos gali užtrukti.",
+			"marker": {
+				"aiDubbed": "DI įgarsinta",
+				"aiUpscaled": "DI išdidinta",
+				"audioDescription": "Garso aprašymas",
+				"damaged": "Pažeista",
+				"enhancedBitrate": "Padidinta sparta",
+				"original": "Originalus",
+				"spatialAudio": "Erdvinis garsas",
+				"vr": "360° / VR",
+				"watermarked": "Su vandenženkliu"
+			},
+			"noAudio": "Be garso",
+			"profile": {
+				"calloutBody": "Jūsų aktyvus profilis iš anksto pasirenka srautus už jus. Perjunkite profilius meniu arba naudokite pieštuką, kad pakoreguotumėte vieną neišeidami iš šio atsisiuntimo.",
+				"calloutTitle": "Formatai prasideda nuo jūsų profilio",
+				"closestTag": "Artimiausia profiliui",
+				"edit": "Redaguoti: {{name}}",
+				"keepEdits": "Palikti mano pakeitimus",
+				"menuDescription": "Tik šiam atsisiuntimui. Jūsų numatytasis profilis lieka nepakitęs.",
+				"preselected": "Iš anksto pasirinkta iš",
+				"resetAll": "Atkurti viską",
+				"switchBody": "Šiam atsisiuntimui pakeitėte: {{areas}}. Profilis „{{profile}}“ vaizdą ir garsą pasirenka bet kuriuo atveju. Palikti kitus jūsų pakeitimus ar viską atkurti pagal profilį?",
+				"switchTitle": "Perjungti profilį?",
+				"tag": "Profilis",
+				"updatedBody": "Šiam atsisiuntimui pakeitėte: {{areas}}. Atnaujintas profilis vaizdą ir garsą pasirenka bet kuriuo atveju. Palikti kitus jūsų pakeitimus ar viską atkurti pagal profilį?",
+				"updatedTitle": "Naudoti atnaujintą profilį?"
+			},
+			"quality": {
+				"high": "Aukšta kokybė",
+				"low": "Žema kokybė",
+				"medium": "Vidutinė kokybė"
+			},
+			"rateLimit": {
+				"heading": "{{site}} riboja šį ryšį",
+				"leadDegraded": "Formatų sąrašas gali būti nepilnas.",
+				"leadFailed": "{{site}} kol kas atmetė šią užklausą.",
+				"retryCta": "Bandyti dar kartą",
+				"sessionNote": "{{site}} šį apribojimą gali palaikyti iki valandos.",
+				"tryNowCta": "Bandyti dabar",
+				"waitOver": "Laukimas baigėsi, todėl galite bandyti dar kartą.",
+				"waitUntil": "Klip lauks iki {{time}}, prieš dar kartą kreipdamasi į {{site}}, kad apribojimas galėtų išnykti."
+			},
+			"resolutionUnknown": "Nežinoma skiriamoji geba",
+			"savesAs": {
+				"label": "Įrašoma kaip",
+				"reset": "WebM negali talpinti {{codec}}, todėl failo tipas grąžintas į „Automatinis“."
+			},
+			"sizeUnknown": "Dydis nežinomas",
+			"skipToConfirm": "Pereiti prie patvirtinimo",
+			"skipToConfirmTooltip": "Visuose likusiuose žingsniuose naudoja jūsų įrašytas nuostatas. Jei norite pakeisti parametrą, tęskite žingsnis po žingsnio – jūsų pasirinkimas bus įrašytas kitam kartui.",
+			"sniffing": "Ieškoma geriausių formatų jums…",
+			"total": "Iš viso",
+			"video": "Vaizdas",
+			"withAudio": "su garsu"
+		},
+		"listPrompt": {
+			"backgroundHint": "Su {{profileName}}. Jei joje yra daugiau nei {{count}} vaizdo įrašų, Atsisiuntimai paklaus, kiek jų atsisiųsti.",
+			"backgroundLabel": "Atsisiųsti fone",
+			"escOnly": "Esc atšaukia.",
+			"firstHint": "Tiksliai pirmieji {{count}}, su {{profileName}}.",
+			"firstLabel": "Atsisiųsti pirmuosius",
+			"interactiveHint": "Pasirinkite iš pirmųjų {{count}} vaizdo įrašų (arba pakeiskite skaičių kitame žingsnyje), tada nustatykite atsisiuntimą.",
+			"interactiveLabel": "Interaktyvus atsisiuntimas…",
+			"limitHint": "Kiek vaizdo įrašų imti iš sąrašo: pirmasis variantas klausia viršijus ribą, antrasis ima tiksliai tiek. Tas pats kaip Parametrai › Nuskaitomi grojaraščio elementai.",
+			"limitLabel": "Riba",
+			"mixNote": "Mix pasikeičia kaskart, kai jį atidarote.",
+			"pickLoadAfter": "vaizdo įrašų, iš kurių pasirinkti.",
+			"pickLoadBefore": "Įkelti pirmuosius",
+			"pickLoadNote": "Tai galite pakeisti kitame žingsnyje.",
+			"pickTitle": {
+				"album": "Pasirinkti iš šio albumo",
+				"liked": "Pasirinkti iš patikusių vaizdo įrašų",
+				"mix": "Pasirinkti iš šio Mix",
+				"playlist": "Pasirinkti iš šio grojaraščio",
+				"uploads": "Pasirinkti iš šio kanalo įkėlimų",
+				"watchLater": "Pasirinkti iš „Žiūrėti vėliau“"
+			},
+			"title": {
+				"album": "Atsisiuntimas iš šio albumo",
+				"liked": "Atsisiuntimas iš patikusių vaizdo įrašų",
+				"mix": "Atsisiuntimas iš šio Mix",
+				"playlist": "Atsisiuntimas iš šio grojaraščio",
+				"uploads": "Atsisiuntimas iš šio kanalo įkėlimų",
+				"watchLater": "Atsisiuntimas iš „Žiūrėti vėliau“"
+			},
+			"videoHint": "Tik atidarytas vaizdo įrašas, su {{profileName}}. Sąrašas neįkeliamas.",
+			"videoLabel": "Tik šį vaizdo įrašą",
+			"videoPickHint": "Nustatykite tik atidarytą vaizdo įrašą. Sąrašas neįkeliamas.",
+			"withProfile": "Profilis: {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Skyrių žymos, pasiekiamos bet kuriame šiuolaikiniame grotuve.",
+				"label": "Įterpti skyrius",
+				"short": "skyriai"
+			},
+			"embedMetadata": {
+				"description": "Pavadinimas, atlikėjas, aprašas ir įkėlimo data įrašomi į failą.",
+				"label": "Įterpti metaduomenis",
+				"short": "metaduomenys"
+			},
+			"embedThumbnail": {
+				"description": "Viršelio paveikslėlis failo viduje. WebM vaizdo įrašas bus perpakuotas į MKV; praleidžiama, kai įterpiami subtitrai.",
+				"label": "Įterpti miniatiūrą",
+				"short": "viršelis"
+			},
+			"writeDescription": {
+				"description": "Įrašo vaizdo įrašo aprašą kaip .description tekstinį failą šalia atsisiuntimo.",
+				"label": "Įrašyti aprašą",
+				"short": "aprašo failas"
+			},
+			"writeM3u": {
+				"description": "Įrašo .m3u grojaraštį kartu su vaizdo įrašais, kad jie atsidarytų eilės tvarka jūsų medijos grotuve.",
+				"label": "Sukurti .m3u grojaraščio failą"
+			},
+			"writeThumbnail": {
+				"description": "Įrašo miniatiūrą kaip .jpg paveikslėlio failą šalia atsisiuntimo.",
+				"label": "Įrašyti miniatiūrą",
+				"short": "miniatiūros failas"
+			}
+		},
+		"part": {
+			"calloutBody": "Vaizdo įrašo kortelėje perjunkite į „Dalis“, kad pasirinktumėte pradžią ir pabaigą arba skyrių ir atsisiųstumėte tik tą ruožą.",
+			"calloutTitle": "Atsisiųskite tik vaizdo įrašo dalį",
+			"chapterUntitled": "{{number}} skyrius",
+			"chapters": "Skyriai",
+			"connectionsNote": "Dalis atsisiunčiama per ffmpeg, todėl jai netaikomi jūsų atsisiuntimo jungčių ir tempo parametrai.",
+			"downloadBlocked": "Pirmiausia pataisykite dalies pradžią ir pabaigą.",
+			"end": "Pabaiga",
+			"error": {
+				"endBeyondDuration": "Vaizdo įrašas baigiasi ties {{duration}}.",
+				"endInvalid": "Pabaigą įveskite kaip h:mm:ss, m:ss arba sekundėmis.",
+				"startInvalid": "Pradžią įveskite kaip h:mm:ss, m:ss arba sekundėmis.",
+				"startNotBeforeEnd": "Pradžia turi būti ankstesnė už pabaigą."
+			},
+			"exactCut": {
+				"hint": "Išjungta: kiekvienas pjūvis pasirenka artimiausią pagrindinį kadrą, kuris gali skirtis keliomis sekundėmis nuo įvesto laiko.",
+				"label": "Tikslus pjūvis (perkoduoja, lėčiau)"
+			},
+			"length": "{{length}} iš {{duration}}",
+			"part": "Dalis",
+			"rangeLabel": "Vaizdo įrašo dalis",
+			"start": "Pradžia",
+			"subtitlesFullLength": "visas vaizdo įrašas",
+			"summary": "Dalis {{start}}–{{end}}",
+			"switchLabel": "Kiek vaizdo įrašo",
+			"timeHint": "h:mm:ss, m:ss arba sekundės",
+			"totalEstimate": "Dalis, apytiksliai",
+			"unavailableDuration": "Šis vaizdo įrašas nenurodo savo trukmės, todėl jį galima atsisiųsti tik visą.",
+			"unavailableSubtitles": "Subtitrai visada apima visą vaizdo įrašą.",
+			"urlStart": "Jūsų nuoroda prasideda ties {{time}}",
+			"useUrlStart": "Naudoti kaip pradžią",
+			"whole": "Visas vaizdo įrašas",
+			"wholeTrack": "Visas takelis"
+		},
+		"playlist": {
+			"allRemovedDescription": "Atkurkite juos, kad galėtumėte tęsti.",
+			"allRemovedTitle": "Pašalinti visi elementai",
+			"alreadyDownloaded": "Jau atsisiųsta",
+			"bulkCappedDesc_few": "Juose yra daugiau. Norėdami pasirinkti, kiek jų imti, įklijuokite kiekvieną nuorodą atskirai.",
+			"bulkCappedDesc_many": "Juose yra daugiau. Norėdami pasirinkti, kiek jų imti, įklijuokite kiekvieną nuorodą atskirai.",
+			"bulkCappedDesc_one": "Jame yra daugiau. Norėdami pasirinkti, kiek jų imti, įklijuokite jo nuorodą atskirai.",
+			"bulkCappedDesc_other": "Juose yra daugiau. Norėdami pasirinkti, kiek jų imti, įklijuokite kiekvieną nuorodą atskirai.",
+			"bulkCappedTitle_few": "Apkarpyti {{count}} sąrašai (iki {{limit}} vaizdo įrašų kiekvienas)",
+			"bulkCappedTitle_many": "Apkarpyta {{count}} sąrašo (iki {{limit}} vaizdo įrašų kiekvienas)",
+			"bulkCappedTitle_one": "„{{title}}“ apkarpytas iki {{limit}} vaizdo įrašų",
+			"bulkCappedTitle_other": "Apkarpyta {{count}} sąrašų (iki {{limit}} vaizdo įrašų kiekvienas)",
+			"bulkHeading": "Kelios nuorodos",
+			"bulkMetadataOptional": "Laukti nebūtina – dabar į eilę įtraukti failai vis tiek gaus tikruosius pavadinimus atsisiunčiant.",
+			"bulkMetadataResolving": "Gaunama vaizdo įrašų informacija… {{done}}/{{total}}",
+			"bulkRowFailed": "Informacija nepasiekiama",
+			"bulkRowResolving": "Gaunama informacija",
+			"bulkRowWaiting": "Laukiama",
+			"durationUnknown": "tiesioginis",
+			"heading": "Grojaraščio elementai",
+			"headingGeneric": "Atsisiunčiami vaizdo įrašai",
+			"itemCountAudio_few": "{{count}} takeliai",
+			"itemCountAudio_many": "{{count}} takelio",
+			"itemCountAudio_one": "{{count}} takelis",
+			"itemCountAudio_other": "{{count}} takelių",
+			"itemCountBulk_few": "{{count}} URL",
+			"itemCountBulk_many": "{{count}} URL",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCount_few": "{{count}} vaizdo įrašai",
+			"itemCount_many": "{{count}} vaizdo įrašo",
+			"itemCount_one": "{{count}} vaizdo įrašas",
+			"itemCount_other": "{{count}} vaizdo įrašų",
+			"loadingItems": "Gaunamas grojaraštis…",
+			"loadingItemsGeneric": "Gaunami vaizdo įrašai…",
+			"loadingLimitHint": "Apribota iki pirmųjų {{count}} elementų",
+			"loadingPagesFound_few": "Rasta puslapių: {{count}}",
+			"loadingPagesFound_many": "Rasta puslapių: {{count}}",
+			"loadingPagesFound_one": "Rasta puslapių: {{count}}",
+			"loadingPagesFound_other": "Rasta puslapių: {{count}}",
+			"loadingPhaseItems": "Renkami vaizdo įrašai",
+			"loadingPhasePages": "Nuskaitomi kanalo puslapiai",
+			"multiProfileEntry": "Priskirti profilius kiekvienam elementui",
+			"multiProfileEntryTooltip": "Praleidžia Kokybę, SponsorBlock, Išvestį ir Įrašymą – vietoj to priskirkite atsisiuntimo profilį kiekvienam elementui",
+			"nestedPlaylistBadge": "Grojaraštis",
+			"nestedPlaylistHint_few": "Iš jų {{count}} yra grojaraščiai, o ne vaizdo įrašai – įklijuokite jų nuorodas po vieną, kad juos atsisiųstumėte.",
+			"nestedPlaylistHint_many": "Iš jų {{count}} yra grojaraščiai, o ne vaizdo įrašai – įklijuokite jų nuorodas po vieną, kad juos atsisiųstumėte.",
+			"nestedPlaylistHint_one": "Iš jų {{count}} yra grojaraštis, o ne vaizdo įrašas – įklijuokite jo nuorodą atskirai, kad jį atsisiųstumėte.",
+			"nestedPlaylistHint_other": "Iš jų {{count}} yra grojaraščiai, o ne vaizdo įrašai – įklijuokite jų nuorodas po vieną, kad juos atsisiųstumėte.",
+			"noSelection": "Norėdami tęsti, pasirinkite bent vieną vaizdo įrašą",
+			"probeLimitAlertDesc": "Rodoma pirmųjų {{count}} elementų. Padidinkite įkėlimo ribą, kad pamatytumėte daugiau.",
+			"probeLimitAlertTitle": "Grojaraščio nuskaitymas apribotas",
+			"probeLimitAlertTitleGeneric": "Nuskaitymas apribotas",
+			"rangeApply": "Taikyti intervalą",
+			"rangeFrom": "Nuo",
+			"rangeTo": "Iki",
+			"removeFromListCount_few": "Pašalinti iš sąrašo: {{count}}",
+			"removeFromListCount_many": "Pašalinti iš sąrašo: {{count}}",
+			"removeFromListCount_one": "Pašalinti iš sąrašo: {{count}}",
+			"removeFromListCount_other": "Pašalinti iš sąrašo: {{count}}",
+			"removedCount_few": "Pašalinta: {{count}}",
+			"removedCount_many": "Pašalinta: {{count}}",
+			"removedCount_one": "Pašalinta: {{count}}",
+			"removedCount_other": "Pašalinta: {{count}}",
+			"restore": "Atkurti",
+			"selectAll": "Pasirinkti viską",
+			"selectNone": "Nepasirinkti nieko",
+			"selectedCount_few": "Pasirinkta: {{count}}",
+			"selectedCount_many": "Pasirinkta: {{count}}",
+			"selectedCount_one": "Pasirinkta: {{count}}",
+			"selectedCount_other": "Pasirinkta: {{count}}",
+			"sortApi": "Grojaraščio tvarka",
+			"sortFetchingDates": "Gaunamos įkėlimo datos…",
+			"sortLabel": "Rikiuoti",
+			"sortUploadAsc": "Seniausi pirmiausia",
+			"sortUploadDesc": "Naujausi pirmiausia",
+			"syncApply": "Taikyti sinchronizavimą",
+			"syncChange": "Keisti aplanką…",
+			"syncFoundDesc": "{{n}} iš šių vaizdo įrašų jau yra aplanke {{dir}}. Sinchronizuoti, kad būtų atsisiųsti tik nauji?",
+			"syncFoundTitle": "Jau yra aplanke",
+			"syncNoneDesc": "Aplanke {{dir}} šio grojaraščio vaizdo įrašų nerasta.",
+			"syncNoneDescGeneric": "Aplanke {{dir}} šio šaltinio vaizdo įrašų nerasta.",
+			"syncNoneTitle": "Dar nieko neatsisiųsta",
+			"syncScanning": "Tikrinamas aplankas…",
+			"thumbnailAlt": "Vaizdo įrašo miniatiūra"
+		},
+		"playlistPresets": {
+			"heading": "Pasirinkite paketo kokybę",
+			"itemCount_few": "{{count}} elementai",
+			"itemCount_many": "{{count}} elemento",
+			"itemCount_one": "{{count}} elementas",
+			"itemCount_other": "{{count}} elementų",
+			"subhead": "Kiekvienas vaizdo įrašas pasirinktą lygį pritaiko atskirai – įvairūs grojaraščiai veikia be netikėtumų."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Priskirti profilį",
+			"assignTrigger_few": "Priskirti {{count}} vaizdo įrašams",
+			"assignTrigger_many": "Priskirti {{count}} vaizdo įrašo",
+			"assignTrigger_one": "Priskirti {{count}} vaizdo įrašui",
+			"assignTrigger_other": "Priskirti {{count}} vaizdo įrašų",
+			"columnDuration": "Trukmė",
+			"columnProfile": "Profilis",
+			"editProfile": "Redaguoti: {{name}}",
+			"empty": "Šį filtrą atitinkančių elementų nėra",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profilių filtrai",
+			"heading": "Priskirti atsisiuntimo profilius",
+			"menuDescription_few": "Pasirinkite šių {{count}} vaizdo įrašų profilį.",
+			"menuDescription_many": "Pasirinkite šių {{count}} vaizdo įrašų profilį.",
+			"menuDescription_one": "Pasirinkite šio vaizdo įrašo profilį.",
+			"menuDescription_other": "Pasirinkite šių {{count}} vaizdo įrašų profilį.",
+			"selectedSummary": "Pasirinkta {{selected}} iš {{total}}"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Keisti bendrąjį",
+				"chooseFolder": "Pasirinkti paskirties aplanką",
+				"chooseIcon": "Pasirinkti profilio piktogramą",
+				"removeLanguage": "Pašalinti {{code}}",
+				"reset": "Atkurti profilį",
+				"resetDisabledHint": "Šis profilis jau naudoja integruotus parametrus",
+				"resetHint": "Atkurti integruoto profilio parametrus",
+				"save": "Įrašyti profilį",
+				"setOverride": "Nustatyti profilio pakeitimą",
+				"setOverrideShort": "Nustatyti pakeitimą",
+				"useGlobalDefault": "Naudoti bendrąjį numatytąjį",
+				"useLanguageCode": "Naudoti kalbos kodą „{{code}}“"
+			},
+			"advanced": "Išplėstiniai",
+			"appSetting": "Naudoti programos parametrą ({{value}})",
+			"audioFormat": {
+				"best": "Geriausias",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Iki 128K",
+				"192": "Iki 192K",
+				"320": "Iki 320K",
+				"best": "Geriausia kokybė"
+			},
+			"defaultName": "Naujas profilis",
+			"destination": {
+				"defaultFolder": "Numatytasis atsisiuntimų aplankas",
+				"defaultFolderWithSubfolder": "Numatytasis atsisiuntimų aplankas / {{subfolder}}",
+				"global": "Bendroji paskirtis",
+				"globalActive": "Aktyvi",
+				"globalInherited": "Paveldėta",
+				"override": "Profilio pakeitimas",
+				"overrideChoosing": "Pasirinkti aplanką",
+				"overrideNone": "Pakeitimas nenustatytas",
+				"overrideNoneNote": "Pakeitimas nenustatytas. Šis profilis naudoja aukščiau nurodytą bendrąją paskirtį.",
+				"overrideSet": "Pakeičia bendrąją",
+				"overrideSetNote": "Šis profilis įrašo į savo šakninį aplanką, prieš pridedant poaplankį.",
+				"resolved": "Galutinė paskirtis"
+			},
+			"dialogDescription": "Viena pakartotinai naudojama sąranka greitajam atsisiuntimui, kelioms nuorodoms ir grojaraščiams.",
+			"dialogTitle": "Atsisiuntimo profilis",
+			"error": {
+				"changeGlobalDestination": "Nepavyko pakeisti bendrosios paskirties.",
+				"folderPicker": "Nepavyko atverti aplanko parinkiklio. Įveskite kelią rankiniu būdu.",
+				"reset": "Nepavyko atkurti profilio parametrų.",
+				"save": "Nepavyko įrašyti profilio parametrų."
+			},
+			"field": {
+				"delivery": "Pateikimas",
+				"fileType": "Failo tipas",
+				"goal": "Optimizuoti pagal",
+				"icon": "Profilio piktograma",
+				"languages": "Kalbos",
+				"name": "Profilio pavadinimas",
+				"nameAndIcon": "Profilio pavadinimas ir piktograma",
+				"nativeAudio": "Originalus garsas",
+				"overridePath": "Profilio pakeitimo kelias",
+				"quality": "Kokybė",
+				"resolution": "Skiriamoji geba",
+				"source": "Šaltinis",
+				"subfolderName": "Poaplankio pavadinimas",
+				"subtitleDownloads": "Subtitrų atsisiuntimai",
+				"subtitleDownloadsDescription": "Profiliai prašo kalbų kodų; prieinamumas nustatomas kiekvienam URL."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Ryškiausias esant tokiam dydžiui. Senesni televizoriai, QuickTime ir kai kurios redagavimo programos jo neatkuria.",
+					"name": "Geriausias vaizdas",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Atkuriamas televizoriuose, telefonuose, WhatsApp, QuickTime ir vaizdo įrašų redagavimo programose. YouTube siūlo H.264 tik iki 1080p.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Archyvas",
+				"audio": "Garsas",
+				"captions": "Subtitrai",
+				"classes": "Pamokos",
+				"clip": "Klipas",
+				"controls": "Valdikliai",
+				"download": "Atsisiuntimas",
+				"music": "Muzika",
+				"podcast": "Tinklalaidė",
+				"video": "Vaizdo įrašas"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Muzika ar tinklalaidės"
+				},
+				"subtitlesOnly": {
+					"description": "Tik subtitrų failai"
+				},
+				"videoAudio": {
+					"description": "Įprasti vaizdo failai"
+				},
+				"videoOnly": {
+					"description": "Tik nebylus vaizdas"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Automatiniai subtitrai bus įrašyti SRT, o ne ASS formatu.",
+				"noLanguageMatches": "Atitinkančių kalbų nėra",
+				"noSubtitles": "Šiam profiliui nebus prašoma subtitrų failų ar įterptų subtitrų takelių.",
+				"searchLanguages": "Ieškokite pagal kalbos pavadinimą arba kodą",
+				"skippedForOutputType": "Šiam išvesties tipui praleidžiama.",
+				"subtitleLanguagesRequired": "Pasirinkite bent vieną kalbą.",
+				"subtitleLanguagesRequiredOrOff": "Pasirinkite bent vieną kalbą arba išjunkite subtitrų atsisiuntimus.",
+				"subtitlesOnly": "Šis profilis į eilę įtraukia tik subtitrų failus. Vaizdas, garsas, SponsorBlock ir medijos konvertavimas praleidžiami."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profiliai paveldi bendrąją paskirtį, nebent nustatysite profilio pakeitimą.",
+					"title": "Išplėstinės parinktys"
+				},
+				"downloadType": {
+					"description": "Pasirinkite pagrindinį atsisiuntimo būdą.",
+					"title": "Atsisiuntimo tipas"
+				},
+				"identity": {
+					"description": "Pavadinimas ir piktograma, rodomi greitajame atsisiuntime, keliose nuorodose ir profilių sąrašuose.",
+					"title": "Profilio tapatybė"
+				},
+				"output": {
+					"enabledCount_few": "Įjungta: {{count}}",
+					"enabledCount_many": "Įjungta: {{count}}",
+					"enabledCount_one": "Įjungta: {{count}}",
+					"enabledCount_other": "Įjungta: {{count}}",
+					"title": "Išvesties parinktys"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Pasirinkite šio profilio aplanką"
+			},
+			"skipped": "Praleista",
+			"sponsorBlockHint": {
+				"mark": "Pažymi rėmėjų segmentus kaip skyrius (nepažeidžiant).",
+				"off": "Be SponsorBlock – vaizdo įrašas atkuriamas toks, koks įkeltas.",
+				"remove": "Iškerpa rėmėjų segmentus iš vaizdo įrašo naudojant FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Tik automatiniai",
+				"manualAndAuto": "Rankiniai ir automatiniai",
+				"manualFirst": "Pirmiausia rankiniai, tada automatiniai",
+				"manualOnly": "Tik rankiniai"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "{{label}} žinynas"
+		},
+		"review": {
+			"areas": {
+				"extras": "papildai",
+				"fileName": "failo pavadinimas",
+				"format": "formatas",
+				"saveTo": "aplankas",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "subtitrai"
+			},
+			"callout": {
+				"body": "Subtitrai, SponsorBlock, papildai (pvz., miniatiūra), aplankas ir failo pavadinimas anksčiau buvo atskiri žingsniai. Spustelėkite eilutę, kad ją pakeistumėte.",
+				"title": "Visi kiti parametrai dabar šiame puslapyje"
+			},
+			"changeFormat": "Keisti formatą",
+			"changed": "Pakeista, palyginti su „{{profile}}“: {{areas}}. Taikoma tik šiam atsisiuntimui.",
+			"changedFrom": "Pakeista, palyginti su „{{profile}}“:",
+			"nextTime": {
+				"action": "Įrašyti kaip profilį",
+				"defaultName": "{{profile}} (redaguotas)",
+				"title": "Šiam atsisiuntimui naudoti pakeisti parametrai. Naudoti juos ir kitą kartą?"
+			},
+			"reset": "Atšaukti pakeitimus, grįžti į „{{profile}}“",
+			"rows": {
+				"extras": "Papildai",
+				"fileName": "Failo pavadinimas",
+				"saveTo": "Įrašyti į",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Subtitrai"
+			},
+			"rowsHeading": "Viskas kita",
+			"save": {
+				"action": "Įrašyti profilį",
+				"description": "Išsaugo šiuos parametrus kaip profilį, kurį galėsite pasirinkti kitą kartą. Jūsų greitojo atsisiuntimo profilis nepasikeičia.",
+				"failed": "Nepavyko įrašyti profilio.",
+				"nameLabel": "Profilio pavadinimas",
+				"saved": "Įrašyta kaip profilis „{{name}}“",
+				"title": "Įrašyti kaip profilį"
+			},
+			"saveAsProfile": "Įrašyti kaip naują profilį",
+			"update": {
+				"action": "Atnaujinti profilį",
+				"builtinNote": "Tai integruotas profilis. Pradinius jo parametrus galite atkurti skirtuke „Profiliai“.",
+				"description": "Nuo šiol kiekvienas atsisiuntimas su šiuo profiliu naudos naujus parametrus.",
+				"rows": {
+					"format": "Formatas"
+				},
+				"title": "Atnaujinti „{{profile}}“?",
+				"updated": "Profilis „{{name}}“ atnaujintas"
+			},
+			"updateProfile": "Atnaujinti „{{profile}}“ šiais pakeitimais",
+			"value": {
+				"extrasNone": "Nėra",
+				"sponsorBlockOff": "Išjungta",
+				"subtitlesOff": "Išjungta"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Užpildas",
+				"intro": "Įžanga",
+				"music_offtopic": "Muzika ne tema",
+				"outro": "Pabaiga",
+				"preview": "Peržiūra",
+				"selfpromo": "Savireklama",
+				"sponsor": "Rėmėjas"
+			},
+			"categoriesHeading": "Kategorijos",
+			"mode": {
+				"mark": "Pažymėti kaip skyrius",
+				"off": "Išjungta",
+				"remove": "Pašalinti segmentus"
+			},
+			"modeHeading": "Rėmėjų filtravimas",
+			"modeHint": {
+				"mark": "Pažymi rėmėjų segmentus kaip skyrius (nepažeidžiant).",
+				"off": "Be SponsorBlock – vaizdo įrašas atkuriamas toks, koks įkeltas.",
+				"remove": "Iškerpa rėmėjų segmentus iš vaizdo įrašo naudojant FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Patvirtinti",
+			"folder": "Įrašyti",
+			"formats": "Formatas",
+			"output": "Išvestis",
+			"playlistItems": "Grojaraštis",
+			"playlistItemsGeneric": "Vaizdo įrašai",
+			"playlistPresets": "Kokybė",
+			"playlistProfiles": "Profiliai",
+			"review": "Peržiūra",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Subtitrai",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Automatiniai subtitrai bus įrašyti SRT, o ne ASS formatu – YouTube vaizdo įrašų subtitrams pašalinamas slenkančių eilučių dubliavimasis, kurio mūsų ASS konverteris dar nemoka atkartoti.",
+			"autoBadge": "Auto",
+			"clearAll": "Išvalyti viską",
+			"embedNote": "Įterpimo režimu išvestis įrašoma kaip .mkv, kad subtitrų takeliai įsitvirtintų patikimai.",
+			"format": {
+				"heading": "Formatas"
+			},
+			"noLanguages": "Šiam vaizdo įrašui subtitrų nėra",
+			"noMatches": "Kalbų neatitinka",
+			"noSelected": "Subtitrų nepasirinkta",
+			"removeLanguage": "Pašalinti: {{name}}",
+			"saveMode": {
+				"embed": "Įterpti į vaizdo įrašą",
+				"heading": "Įrašyti kaip",
+				"sidecar": "Šalia vaizdo įrašo",
+				"sidecarNoVideo": "Atsisiuntimų aplanke",
+				"subfolder": "poaplankis subtitles/"
+			},
+			"searchPlaceholder": "Ieškoti kalbų…",
+			"sectionAuto": "Automatiniai",
+			"sectionManual": "Rankiniai"
+		},
+		"tabsNavAria": "Atsisiuntimo profilių naršymas",
+		"url": {
+			"advanced": "Išplėstiniai",
+			"autoRemoveCompleted": {
+				"description": "Praėjus kelioms sekundėms po pabaigos pašalina atsisiuntimą iš sąrašo „Atsisiuntimai“. Failai lieka jūsų aplanke; nepavykę ir atšaukti atsisiuntimai sąraše lieka.",
+				"label": "Šalinti baigtus atsisiuntimus"
+			},
+			"autoRetry": {
+				"description": "Automatiškai bando dar kartą po tinklo ar serverio trikdžio, kiekvieną kartą laukdama ilgiau. Svetainės užblokuoti atsisiuntimai automatiškai nekartojami.",
+				"label": "Kartoti nepavykusius atsisiuntimus",
+				"unit": "k."
+			},
+			"bulkButton": "Kelios nuorodos",
+			"bulkTooltip": "Pridėkite kelis URL ir įtraukite juos į eilę.",
+			"clearAria": "Išvalyti URL",
+			"clipboard": {
+				"autofilledLink": "Nuoroda pridėta iš iškarpinės",
+				"bulkHint": "Nukopijuota kelios nuorodos – pridėkite jas per „Kelios nuorodos“",
+				"dialog": {
+					"cancelButton": "Atšaukti"
+				},
+				"noLink": "Iškarpinėje nėra nuorodos",
+				"readFailed": "Nepavyko nuskaityti iškarpinės – įklijuokite nuorodą į lauką",
+				"replacedLink": "Pakeista nukopijuota nuoroda",
+				"toggle": "Stebėti iškarpinę",
+				"toggleDescription": "Automatiškai užpildyti URL lauką, kai nukopijuojate vaizdo įrašo nuorodą.",
+				"undo": "Anuliuoti"
+			},
+			"closeToTray": {
+				"toggle": "Uždarant slėpti į dėklą",
+				"toggleDescription": "Tęsti atsisiuntimus fone uždarius langą."
+			},
+			"concurrentDownloads": {
+				"description": "Kiek eilės elementų atsisiunčiama tuo pačiu metu. Daugiau vienu metu greičiau baigia ilgą eilę, bet padidina riziką, kad svetainė jus apribos.",
+				"label": "Atsisiuntimų vienu metu",
+				"unit": "atsisiuntimų"
+			},
+			"concurrentProbes": {
+				"description": "Kiek nuorodų informaciją Klip gauna vienu metu, prieš jas atsisiunčiant. Mažiau – švelniau svetainėms, kurios blokuoja užimtus ryšius. Nuoroda, kurią atidarote per Interaktyvų atsisiuntimą, visada vykdoma pirma.",
+				"label": "Vienu metu tikrinama nuorodų",
+				"unit": "nuorodų"
+			},
+			"cookies": {
+				"banWarning": "Tokios svetainės kaip YouTube gali pažymėti – o kartais ir užblokuoti – paskyras, kurių slapukus naudoja atsisiuntimo įrankiai, tokie kaip Klip. Jei įmanoma, naudokite vienkartinę paskyrą.",
+				"browserHelp": "Slapukus skaito tiesiai iš naršyklės. „Chromium“ šeimos naršyklės turi būti uždarytos.",
+				"browserLabel": "Naršyklė",
+				"browserPlaceholder": "Pasirinkite naršyklę…",
+				"choose": "Pasirinkti…",
+				"clear": "Išvalyti",
+				"enabledButNoBrowser": "Pasirinkite naršyklę, kad naudotumėte slapukus",
+				"enabledButNoFile": "Pasirinkite failą, kad naudotumėte slapukus",
+				"exploreDisabled": "Skirtukas „Naršymas“ išjungtas, todėl atsisiuntimai nenaudoja jūsų prisijungimo per Naršymą. Įjunkite jį žemiau skiltyje „Naršymas“.",
+				"extensionChrome": "„Get cookies.txt LOCALLY“ (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Slapukų failas",
+				"helpLink": "Kaip eksportuoti slapukus?",
+				"openExplore": "Atverti Naršymą",
+				"placeholder": "Failas nepasirinktas",
+				"recommended": "Rekomenduojama",
+				"risk": "Rizika: cookies.txt turi visas tos naršyklės prisijungusias sesijas – laikykite jį privatų.",
+				"sourceBrowser": "Naršyklė",
+				"sourceExplore": "Prisijungimas per Naršymą",
+				"sourceFile": "Failas",
+				"sourceLabel": "Slapukų šaltinis",
+				"sourceOff": "Išjungta",
+				"toggleDescription": "Padeda su vaizdo įrašais, kuriuos gali žiūrėti jūsų paskyra, pavyzdžiui, su jūsų privačiais vaizdo įrašais."
+			},
+			"downloadConnections": {
+				"description": "Pagreitina didelius atsisiuntimus gaudama kelias vaizdo įrašo dalis vienu metu. Didesnės reikšmės padidina riziką, kad svetainė jus apribos.",
+				"label": "Atsisiuntimo ryšiai",
+				"unit": "ryšių"
+			},
+			"downloadList": {
+				"album": "Atsisiųsti albumą…",
+				"liked": "Atsisiųsti patikusius vaizdo įrašus…",
+				"mix": "Atsisiųsti Mix…",
+				"playlist": "Atsisiųsti grojaraštį…",
+				"uploads": "Atsisiųsti įkėlimus…",
+				"watchLater": "Atsisiųsti „Žiūrėti vėliau“…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Tik garsas",
+					"subtitles": "Subtitrai"
+				},
+				"anySite": {
+					"heading": "2000+ svetainių",
+					"musicPlaylist": "Muzikos grojaraščiai",
+					"video": "Vaizdo įrašai",
+					"videoPlaylist": "Vaizdo įrašų grojaraščiai"
+				},
+				"heading": "Ką gali atsisiųsti Klip",
+				"youtube": {
+					"channel": "Kanalai",
+					"heading": "YouTube",
+					"music": "Muzika",
+					"playlist": "Grojaraščiai",
+					"podcast": "Tinklalaidės",
+					"short": "Shorts",
+					"video": "Vaizdo įrašai"
+				}
+			},
+			"fetchFormatsTooltip": "Žingsnis po žingsnio vedlys. Pasirinkite formatą, kokybę ir dar daugiau.",
+			"heading": "Atsisiųsti iš URL",
+			"hotkey": {
+				"changeShortcut": "Keisti spartųjį klavišą",
+				"conflict": "Šį spartųjį klavišą naudoja kita programa – pasirinkite kitą.",
+				"globalLabel": "Visuotinis spartusis klavišas",
+				"recording": "Paspauskite klavišus…",
+				"reset": "Atkurti numatytąjį",
+				"sectionDescription": "Atsisiųskite bet kokią nukopijuotą nuorodą iš bet kurios programos neatidarę Klip.",
+				"sectionTitle": "Visuotinis spartusis klavišas",
+				"test": "Išbandyti",
+				"toggle": "Įjungti visuotinį spartųjį klavišą",
+				"toggleDescriptionDetail": "Nukopijuokite vaizdo įrašo nuorodą bet kurioje programoje ir paspauskite spartųjį klavišą: Klip įtrauks ją į eilę su jūsų aktyviu profiliu, nekeisdama lango. Nuoroda į grojaraščio vaizdo įrašą atsisiunčia tą vaizdo įrašą."
+			},
+			"interactiveDownload": "Interaktyvus atsisiuntimas",
+			"interactiveDownloadAsks": "Interaktyvus atsisiuntimas…",
+			"limitRate": {
+				"activeWarning": "Aktyvūs atsisiuntimai išlaiko dabartinę ribą. Pristabdykite ir tęskite, kad pakeitimai įsigaliotų.",
+				"custom": "Kita…",
+				"customPlaceholder": "pvz., 750K arba 1.5M",
+				"description": "Riboja medijos atsisiuntimų pralaidumą. Užklausų tempas žemiau paprastai yra stipresnė apribojimo priemonė.",
+				"invalid": "Naudokite skaičių su K arba M (pvz., 500K, 1.5M)",
+				"label": "Atsisiuntimo greičio riba",
+				"off": "Išjungta"
+			},
+			"mascotBusy": "Atsisiunčiu fone… moku daryti kelis darbus 😎",
+			"mascotCollection": "Greitasis režimas į eilę įtraukia įkeltus elementus su profiliu {{profileName}}. Interaktyvus leidžia pirmiausia peržiūrėti ar pasirinkti elementus.",
+			"mascotIdle": "Įmeskite nuorodą ir leiskite Klip ją atsisiųsti ✨",
+			"mascotSingle": "Greitasis režimas pradeda vieną atsisiuntimą su profiliu {{profileName}}. Vienkartiniams pakeitimams naudokite interaktyvų.",
+			"mascotVideoInList": "Ši nuoroda nurodo vaizdo įrašą ir sąrašą, kuriame jis yra: atsisiųskite tik vaizdo įrašą arba sąrašą.",
+			"nativeAudioPreference": {
+				"compatible": "Suderinamas stereo",
+				"description": "Stereo ar erdvinis garsas, kai profilis renkasi originalų garsą. Profilis gali tai pakeisti.",
+				"label": "Originalaus garso nuostata",
+				"surround": "Teikti pirmenybę erdviniam / Dolby"
+			},
+			"networkPacing": {
+				"description": "Prideda nedidelių pauzių kiekvieno atsisiuntimo metu, kad Klip per agresyviai nenaudotų svetainės. Reikšmės sekundėmis.",
+				"fields": {
+					"maxSleepInterval": "Pauzė prieš pradedant mediją: daugiausia",
+					"sleepInterval": "Pauzė prieš pradedant mediją: mažiausia",
+					"sleepRequests": "Laukti tarp metaduomenų patikrų",
+					"sleepSubtitles": "Laukti prieš subtitrų failus"
+				},
+				"heading": "Švelnūs atsisiuntimai",
+				"presetLabel": "Kiek atsargi turėtų būti Klip?",
+				"presets": {
+					"balanced": "Subalansuota",
+					"careful": "Atsargi",
+					"custom": "Pasirinktinė",
+					"off": "Išjungta"
+				},
+				"summary": "Pauzės: {{requests}} tarp patikrų, {{downloads}} prieš pradedant mediją, {{subtitles}} prieš subtitrų failus.",
+				"tooltip": "Šios pauzės vyksta kiekvieno atsisiuntimo viduje. Kiek atsisiuntimų vykdoma vienu metu, nustatoma atskirai, skiltyje „Atsisiuntimų vienu metu“.",
+				"tooltips": {
+					"balanced": "Numatytoji. Prideda trumpas pauzes tarp užklausų ir prieš pradedant mediją.",
+					"careful": "Prideda ilgesnes pauzes dideliems grojaraščiams arba tinklams, kurie dažnai pasiekia ribas.",
+					"custom": "Patys sureguliuokite išplėstinius atskiro atsisiuntimo valdiklius.",
+					"off": "Naudoja tik nedideles bazines pauzes, kurias Klip palieka medijai ir subtitrams."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Nuoroda atidaryta programoje Klip",
+				"replaced": "Pakeista programoje Klip atidaryta nuoroda"
+			},
+			"pasteLink": "Įklijuoti nuorodą",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Dabartinė riba: {{count}} elementų",
+				"custom": "Kita…",
+				"customDialogCancel": "Atšaukti",
+				"customDialogDescription": "Naudokite sveikąjį skaičių nuo {{min}} iki {{max}}.",
+				"customDialogSave": "Įrašyti ribą",
+				"customDialogTitle": "Pasirinktinė grojaraščio nuskaitymo riba",
+				"customValue": "Pasirinktinė: {{count}} elementų",
+				"description": "Didžiausias įrašų skaičius, kurį Klip įkelia atvėrus grojaraštį, kanalą ar paieškos rezultatą.",
+				"invalid": "Naudokite sveikąjį skaičių nuo 1 iki 5000",
+				"label": "Nuskaitomi grojaraščio elementai",
+				"option": "{{count}} elementų"
+			},
+			"playlistScope": {
+				"appLimit": "Naudoti programos ribą: {{count}}",
+				"apply": "Taikyti",
+				"applyError": "Nepavyko pritaikyti grojaraščio apimties: {{message}}",
+				"applyReload": "Taikyti ir įkelti iš naujo",
+				"cancel": "Atšaukti",
+				"change": "Keisti",
+				"dialogDescription": "Pasirinkite, ką Klip įkelia šiam grojaraščiui.",
+				"dialogTitle": "Grojaraščio apimtis",
+				"emptyTitle": "Toje apimtyje vaizdo įrašų nėra",
+				"first": "Pirmieji",
+				"invalid": "Naudokite sveikuosius elementų numerius nuo 1 iki {{max}}, o pradžia neturi būti didesnė už pabaigą.",
+				"itemsLabel": "Įkeliami elementai",
+				"label": "Grojaraščio apimtis",
+				"range": "Intervalas",
+				"reloading": "Įkeliama iš naujo...",
+				"reset": "Atkurti",
+				"summaryAppLimit": "Įkelti pirmuosius elementus: {{count}}",
+				"summaryFirst": "Įkelti pirmuosius elementus: {{count}}",
+				"summaryRange": "Įkelti elementus {{from}}–{{to}}",
+				"to": "iki"
+			},
+			"profile": {
+				"activeLabel": "Aktyvus profilis",
+				"badgeBuiltIn": "Integruotas",
+				"badgeCustom": "Pasirinktinis",
+				"badgeDisabled": "Paslėptas",
+				"badgeModified": "Pakeistas",
+				"builtinName": {
+					"audio-only": "Tik garsas",
+					"balanced": "Subalansuotas 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Geriausia kokybė",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Žemiausia kokybė 144p",
+					"low-240": "Mažai duomenų 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Mažas failas 480p",
+					"subtitles-only": "Tik subtitrai"
+				},
+				"changeGlobalDestination": "Keisti bendrąją paskirtį",
+				"destinationDetail": {
+					"global": "Naudojama bendroji paskirtis",
+					"globalSubfolder": "Naudojama bendroji paskirtis + profilio poaplankis",
+					"override": "Naudojamas profilio pakeitimas",
+					"overrideSubfolder": "Naudojamas profilio pakeitimas + profilio poaplankis"
+				},
+				"destinationEditHint": "Norėdami pakeisti, kur išsaugoma, redaguokite profilį.",
+				"destinationFallback": "Paskirtis",
+				"edit": "Redaguoti",
+				"editActive": "Redaguoti aktyvų profilį",
+				"enableHint": "Paslėpti profiliai lieka čia, bet dingsta iš visų profilių parinkiklių.",
+				"enableToggleAria": "Rodyti profilį parinkikliuose: {{profileName}}",
+				"lastEnabledHint": "Palikite bent vieną profilį prieinamą.",
+				"manageProfiles": "Tvarkyti profilius",
+				"menuDescription": "Keiskite aktyvų profilį greitajam atsisiuntimui, kelioms nuorodoms ir grojaraščiams.",
+				"menuTitle": "Perjungti profilį",
+				"movableProfile": "perkeliamas profilis",
+				"moveCancelled": "Perkėlimas atšauktas. {{profileName}} lieka {{position}} vietoje iš {{count}}.",
+				"moveDropped": "{{profileName}} nuleistas {{position}} vietoje iš {{count}}.",
+				"moveHandleAria": "Perkelti {{profileName}}",
+				"moveInstructions": "Norėdami perkelti profilį, paspauskite tarpo klavišą arba „Enter“, perkelkite rodyklių klavišais, tada vėl paspauskite tarpo klavišą arba „Enter“, kad jį nuleistumėte. Paspauskite „Esc“, kad atšauktumėte.",
+				"moveOver": "{{profileName}} yra virš {{position}} vietos iš {{count}}.",
+				"movePickedUp": "Paimtas {{profileName}}. Jis yra {{position}} vietoje iš {{count}}.",
+				"newProfile": "Naujas profilis",
+				"outputMissing": "Šis profilis įrašo į aplanką, kuris nenustatytas. Pasirinkite aplanką profilyje arba grąžinkite numatytąjį.",
+				"panelDescription": "Kurkite, pasirinkite, redaguokite ar šalinkite pakartotinai naudojamas atsisiuntimo sąrankas.",
+				"panelTitle": "Atsisiuntimo profiliai",
+				"remove": "Pašalinti",
+				"reorderHint": "Vilkite profilį, kad jį perkeltumėte. Visi profilių parinkikliai laikosi šios tvarkos.",
+				"reset": "Atkurti",
+				"savesTo": "Išsaugoma į",
+				"switchAria": "Perjungti atsisiuntimo profilį: {{profileName}}",
+				"switchTitle": "Perjungti atsisiuntimo profilį"
+			},
+			"proxy": {
+				"clear": "Išvalyti",
+				"description": "Nukreipti srautą per tarpinį serverį.",
+				"label": "Tarpinio serverio URL",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Greitasis atsisiuntimas",
+			"quickDownloadTooltip": "Atsisiųs naudodama: {{profileName}}",
+			"quickFailed": "Nepavyko pridėti šio: {{error}}",
+			"quickPrepareFailed": "Nepavyko paruošti eilės elemento",
+			"quickPreparing": "Ruošiama",
+			"quickProbeFailed": "Nuskaitymas nepavyko",
+			"quickSingleOnly": "Norėdami pradėti, įklijuokite vaizdo įrašo, grojaraščio, kanalo ar paieškos URL.",
+			"reports": {
+				"toggle": "Siųsti anonimines veikimo ir sąrankos ataskaitas",
+				"toggleDescription": "Jokio sekimo. Kartą per dieną anoniminis veikimo signalas išsiunčia programos versiją, diegimo kanalą, OS, kalbą, šalį ir apytiksliai, prieš kiek laiko Klip buvo įdiegta, kad galėtume suskaičiuoti aktyvius ir naujus naudotojus. Kai Klip nustato arba atnaujina atsisiuntimo variklį ar medijos įrankius, ji taip pat praneša, ar tai pavyko ir apytiksliai kiek laiko užtruko. Jokių ID, URL, vaizdo įrašų pavadinimų ar failų pavadinimų."
+			},
+			"settings": {
+				"behaviorDescription": "Bendrasis elgesys, turintis įtakos ir pagal profilį vykdomiems atsisiuntimams.",
+				"behaviorHeading": "Atsisiuntimo elgesys",
+				"inputHeading": "Įvestis"
+			},
+			"style": {
+				"aurora": {
+					"description": "Stikliniai skydeliai virš judančio dangaus. Reikia grafikos spartinimo.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Vientisi, ramūs paviršiai. Lengvai veikia bet kuriame kompiuteryje.",
+					"label": "Minimalistinis"
+				},
+				"modeDescription": "Abu stiliai turi šviesųjį ir tamsųjį variantą.",
+				"modeLabel": "Stilius",
+				"panelDescription": "Kaip atrodo Klip. Šviesųjį ir tamsųjį režimą perjunkite poraštėje.",
+				"panelTitle": "Išvaizda",
+				"unavailableNotice": "{{style}} reikia grafikos spartinimo, kuris šiuo metu nepasiekiamas, todėl Klip rodo {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profiliai",
+				"settings": "Parametrai"
+			},
+			"thisVideo": "Šis vaizdo įrašas",
+			"thisVideoTooltip": "Atsisiunčia tik šį vaizdo įrašą su {{profileName}}"
+		}
+	}
+}

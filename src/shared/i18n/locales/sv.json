@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Om",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Visa meddelanden om tredjepartskod",
+		"websiteLink": "Webbplats"
+	},
+	"aiUpscaled": {
+		"allow": "Tillåt",
+		"allowedSummary": "AI-uppskalade strömmar tillåtna",
+		"description": "YouTube erbjuder vissa gamla videor i storlekar som skapats med AI. Hoppa över behåller originalströmmarna, och du kan fortfarande välja en uppskalad ström manuellt.",
+		"label": "AI-uppskalade strömmar",
+		"skip": "Hoppa över"
+	},
+	"app": {
+		"feedback": "Feedback",
+		"feedbackNudge": "Gillar du Klip? Jag vill gärna höra från dig! 💬",
+		"logs": "Loggar",
+		"saveDiagnostics": "Spara diagnostikfil",
+		"saveDiagnosticsDescription": "Samlar dina loggar och appinformation i en fil i Hämtade filer, redo att bifogas i ett GitHub-ärende. Namnet på din användarmapp tas bort, men videolänkar och titlar finns kvar.",
+		"styleHint": "Nytt: välj Aurora eller Minimal här",
+		"theme": "Tema",
+		"zoomIn": "Zooma in",
+		"zoomOut": "Zooma ut"
+	},
+	"common": {
+		"back": "Tillbaka",
+		"cancel": "Avbryt",
+		"close": "Stäng",
+		"continue": "Fortsätt",
+		"loading": "Läser in",
+		"retry": "Försök igen",
+		"startOver": "Börja om"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip fortsätter att köras och slutför pågående hämtningar. Du kan ändra detta senare i de avancerade inställningarna.",
+			"hide": "Dölj i systemfältet",
+			"message": "Dölja Klip i systemfältet när fönstret stängs?",
+			"quit": "Avsluta",
+			"remember": "Fråga inte igen"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Din kö sparas, och hämtningarna fortsätter där de slutade nästa gång du öppnar Klip.",
+			"keep": "Fortsätt hämta",
+			"message_one": "{{count}} hämtning pågår",
+			"message_other": "{{count}} hämtningar pågår",
+			"quit": "Avsluta"
+		},
+		"rendererCrashed": {
+			"detail": "Renderingsprocessen kraschade ({{reason}}). Läs in igen för att försöka på nytt.",
+			"message": "Klip stötte på ett problem",
+			"quit": "Avsluta",
+			"reload": "Läs in igen"
+		}
+	},
+	"donate": {
+		"copied": "Kopierad!",
+		"copyAddress": "Kopiera adress",
+		"description": "Klip är gratis och öppen källkod, utan reklam eller betalnivå. Donationer är frivilliga och ger inget inflytande över färdplanen.",
+		"footerLabel": "Donera",
+		"footerTooltip": "Stöd Klip",
+		"qrAlt": "QR-kod för donationsadressen ({{coin}})",
+		"title": "Stöd Klip",
+		"warning": "Kryptobetalningar kan inte ångras. Skicka bara i det nätverk som visas och jämför hela adressen."
+	},
+	"errors": {
+		"noSubtitlesIn": "Den här videon har inga undertexter på {{languages}}.",
+		"ytdlp": {
+			"ageRestricted": "Den här videon är åldersbegränsad och kan inte hämtas utan ett inloggat konto.",
+			"botBlock": "Webbplatsens botskydd stoppade den här hämtningen. Vänta en stund och försök igen, eller hämta färre videor åt gången. Om det fortsätter att misslyckas kan det vara en tillfällig ändring hos webbplatsen. Klip uppdaterar sin hämtningsmotor vid start, så åtgärden installeras automatiskt när den släpps.",
+			"chunkTransferFailure": "Servern fortsatte att avbryta hämtningen mitt i strömmen, och Klip gav upp efter flera försök. Det drabbar oftast de största videoformaten (4K HDR / VP9 med hög bithastighet). Försök igen, byt nätverk/VPN eller välj ett format med lägre upplösning.",
+			"drmProtected": "Den här videon är DRM-skyddad. Klip kan inte ta bort DRM, så filen kan inte hämtas.",
+			"formatUnavailable": "Den här videon erbjuder inte längre formatet du valde. Klistra in länken igen och välj bland de format den erbjuder nu.",
+			"geoBlocked": "Den här videon är inte tillgänglig i din region.",
+			"ipBlock": "Webbplatsen blockerar förfrågningar från den här anslutningen. Försök igen senare.",
+			"loginRequired": "Den här videon kräver ett inloggat konto.",
+			"missingDependency": "Klip hittade inte FFmpeg eller FFprobe. Kör installationen igen eller ange en FFmpeg-plats och försök sedan hämta igen.",
+			"network": "Nätverksfel. Kontrollera din anslutning och försök igen.",
+			"noSubtitles": "Den här videon har inga undertexter på de begärda språken.",
+			"outOfDiskSpace": "Det finns inte tillräckligt med diskutrymme. Frigör utrymme och försök igen.",
+			"outputNotWritable": "Klip kan inte skriva till hämtningsmappen. Den kan vara skrivskyddad, ligga på en låst enhet eller blockeras av systemets sekretessinställningar. Välj en annan mapp eller ge åtkomst och försök igen.",
+			"parse": "Det gick inte att tolka svaret från webbplatsen. Webbplatsen kan ha ändrat hur den levererar videor. Klip uppdaterar sin hämtningsmotor vid start. Försök igen om några minuter när åtgärden har släppts.",
+			"postprocessFailure": "Hämtningen slutfördes, men efterbearbetningen (sammanfogning / mux / konvertering) misslyckades. Ofta är det ett tillfälligt ffmpeg-problem. Försök igen, och om det kvarstår kan du prova en annan formatkombination.",
+			"rateLimit": "Webbplatsen begränsar antalet förfrågningar från den här anslutningen.",
+			"unavailable": "Den här videon är inte tillgänglig. Den kan vara privat, borttagen eller regionslåst.",
+			"unknown": "Hämtningen misslyckades. Se råa utdata nedan.",
+			"unsupportedUrl": "Klip stöder inte den här webbadressen. Prova en länk från en annan webbplats."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Kontrollera din anslutning och försök igen.",
+			"loadTitle": "Sidan lästes inte in",
+			"openSettings": "Öppna Inställningar",
+			"proxyBody": "Kontrollera proxyn i Inställningar och försök igen.",
+			"proxyTitle": "Utforska kan inte ansluta via din proxy",
+			"retry": "Försök igen"
+		},
+		"linkCallout": {
+			"body": "Högerklicka på en video-, spellist- eller kanallänk på sidan för att hämta den med din aktiva profil, välja en annan profil eller öppna stegvis hämtning.",
+			"title": "Högerklicka på en länk för att hämta den"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Hämta albumet i bakgrunden",
+				"liked": "Hämta dina gillade videor i bakgrunden",
+				"mix": "Hämta Mixen i bakgrunden",
+				"playlist": "Hämta spellistan i bakgrunden",
+				"uploads": "Hämta uppladdningarna i bakgrunden",
+				"watchLater": "Hämta Titta senare i bakgrunden"
+			},
+			"copyLink": "Kopiera länk",
+			"downloadFirst": "Hämta de första {{count}}",
+			"downloadThisVideo": "Hämta den här videon · {{profileName}}",
+			"downloadWith": "Hämta med",
+			"fromList": {
+				"album": "Från det här albumet",
+				"liked": "Från dina gillade videor",
+				"mix": "Från den här Mixen",
+				"playlist": "Från den här spellistan",
+				"uploads": "Från den här kanalens uppladdningar",
+				"watchLater": "Från Titta senare"
+			},
+			"interactive": "Interaktiv hämtning …",
+			"thisVideoWith": "Den här videon med"
+		},
+		"newBadge": "Ny",
+		"notice": {
+			"body": "Hitta en video på YouTube eller någon annan webbplats och hämta den härifrån, utan att kopiera länkar. Logga in på en webbplats här för att hämta videor som kräver ett konto.",
+			"continue": "Fortsätt",
+			"riskBody": "Webbplatser som YouTube kan flagga, och ibland spärra, konton som används med hämtningsverktyg som Klip. Använd ett konto du kan klara dig utan, inte ditt huvudkonto.",
+			"riskTitle": "Logga in med ett sekundärt konto",
+			"title": "Surfa på webben direkt i Klip"
+		},
+		"nudge": {
+			"browser": "Hämtningar använder webbläsarens cookies, inte din inloggning i Utforska.",
+			"file": "Hämtningar använder din cookiefil, inte din inloggning i Utforska.",
+			"notNow": "Inte nu",
+			"off": "Cookies är av, så hämtningar använder inte din inloggning i Utforska.",
+			"useExplore": "Använd inloggningen i Utforska"
+		},
+		"settings": {
+			"description": "Surfa på YouTube eller någon annan webbplats i Klip och logga in för videor som kräver ett konto.",
+			"idleUnload": "Frigör minne när du är borta",
+			"idleUnloadDescription": "Efter 5 minuter på en annan flik stängs YouTubes startsida eller sökresultat. När du kommer tillbaka läses sidan in igen, vilket tar några sekunder.",
+			"searchEngine": "Sökmotor",
+			"searchEngineDescription": "Var text som skrivs i adressfältet söks. Länkar öppnas som de skrivs.",
+			"showTab": "Visa fliken Utforska",
+			"showTabDescription": "Om du stänger av den slutar hämtningar också att använda din inloggning i Utforska.",
+			"signOut": "Logga ut från Utforska",
+			"signOutConfirm": "Logga ut",
+			"signOutConfirmBody": "Detta rensar dina inloggningar och din webbhistorik i Utforska, på alla webbplatser. Hämtningar som kräver ett konto misslyckas tills du loggar in igen.",
+			"signOutConfirmTitle": "Logga ut från Utforska?",
+			"signOutDescription": "Rensar dina inloggningar och din webbhistorik i Utforska, på alla webbplatser.",
+			"title": "Utforska"
+		},
+		"tabLabel": "Utforska",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube kan göra motstånd mot annonsblockerare för inloggade konton.",
+				"aria": "Annonsblockerare",
+				"off": "Annonsblockerare: av – klicka för att slå på",
+				"on": "Annonsblockerare: på – klicka för att stänga av",
+				"starting": "Annonsblockerare: startar – klicka för att stänga av",
+				"unavailable": "Annonsblockerare: otillgänglig, filterlistorna kunde inte hämtas – klicka för att stänga av"
+			},
+			"addressAria": "Adress",
+			"addressPlaceholder": "Sök på {{engine}} eller öppna valfri webbplats (Vimeo, Instagram …)",
+			"aria": "Webbläsarkontroller för Utforska",
+			"back": "Tillbaka",
+			"compactLayout": "Kompakt layout",
+			"download": "Hämta",
+			"downloadWithProfile": "Hämta · {{profileName}}",
+			"forward": "Framåt",
+			"fullLayout": "Visa full layout",
+			"grabUnavailable": "Öppna en video, spellista eller kanal för att hämta den",
+			"home": "YouTubes startsida",
+			"interactiveHint": "Interaktiv hämtning: välj format, undertexter med mera …",
+			"refusedHint": "Utforska kan inte öppna den adressen.",
+			"reload": "Läs in igen",
+			"searchTooLong": "Sökningen är för lång.",
+			"thisVideo": "Den här videon",
+			"thisVideoHint": "Hämta bara den här videon med {{profileName}}",
+			"zoom": {
+				"hint": "Sidzoom: {{percent}} %",
+				"in": "Zooma in",
+				"label": "Sidzoom",
+				"out": "Zooma ut",
+				"percent": "Zoomprocent",
+				"reset": "Återställ zoomen till 100 %"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Auto",
+		"autoValue": "Auto (.{{ext}})",
+		"description": {
+			"auto": "De valda strömmarna avgör filtypen.",
+			"mkv": "Rymmer alla codecs. Vissa tv-apparater och telefoner kan inte öppna den.",
+			"mp4": "Spelas upp nästan överallt. VP9 i en MP4 spelas inte upp som video i QuickTime.",
+			"webm": "Öppet format för webbläsare. Rymmer bara VP9 eller AV1 med Opus."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "AV1 i en MP4 kräver en ny Mac för uppspelning i QuickTime. H.264 spelas upp överallt.",
+		"mp4CaveatVp9": "VP9 i en MP4 spelas inte upp som video i QuickTime. H.264 spelas upp överallt.",
+		"profileMark": "Profil",
+		"smartTvNoWebm": "WebM erbjuds inte med Smart TV: det kan inte rymma H.264.",
+		"webm": "WebM",
+		"webmBlocked": "WebM kan inte rymma {{codec}}. Välj MKV eller MP4."
+	},
+	"filenameTemplate": {
+		"description": "Välj hur hämtade filer ska namnges. Klicka på en token för att infoga den. Använd / för att sortera hämtningar i mappar.",
+		"error": {
+			"empty": "Ange en filnamnsmall.",
+			"empty-segment": "Ta bort det extra / – varje mapp måste ha ett namn.",
+			"forbidden-char": "Ta bort tecken som inte är tillåtna i filnamn: \\ : * ? \" < > |",
+			"invalid-segment": "Det mappnamnet är inte tillåtet. Undvik . och .. samt reserverade namn som CON.",
+			"no-unique-token": "Lägg till {title} eller {id} i filnamnet så att varje hämtning får ett eget namn.",
+			"resolution-in-dir": "{resolution} kan inte namnge en mapp – kvaliteten är inte känd förrän hämtningen startar.",
+			"stray-brace": "Obalanserad { eller } – omslut tokens som {title}.",
+			"too-long": "Mallen är för lång.",
+			"unknown-token": "Okänd token {{token}}."
+		},
+		"idEndingWarning": "Låt namnet sluta med [{id}] så att Klip kan upptäcka redan hämtade spellisteobjekt och skapa .m3u-spellistor.",
+		"label": "Filnamnsmall",
+		"m3uDisabledIdEnding": "Inte tillgängligt eftersom din filnamnsmall antingen inte slutar med [{id}] eller sorterar hämtningar i mappar.",
+		"previewPlaylist": "I en spellista",
+		"previewSingle": "Enskild video",
+		"profileOverrideDescription": "Lämna tomt för att ärva den globala mallen.",
+		"profileOverrideLabel": "Filnamnsmall"
+	},
+	"formatLabel": {
+		"audioFallback": "Ljud",
+		"audioOnlyDot": "Endast ljud · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Auto",
+		"description": "Auto väljer HDR när den här skärmen kan visa det, annars SDR. HDR ser urblekt ut på vanliga skärmar.",
+		"hdr": "HDR",
+		"label": "HDR-video",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Språk"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Inloggad med Utforska – försöker igen med 1 länk",
+		"exploreSignInRetrying_other": "Inloggad med Utforska – försöker igen med {{count}} länkar",
+		"exploreSignOutFailed": "Det gick inte att logga ut från Utforska. Försök igen.",
+		"filenameFolderTooDeep": "Den här mappen ligger för djupt för ditt system. Hämtningen kan ändå misslyckas – välj en kortare mapp.",
+		"filenameTemplateCannotFit": "Videons namn rymmer inte alla delar av din mall, så standardnamnet användes.",
+		"folderSelectFailed": "Det gick inte att öppna mappväljaren.",
+		"hotkey": {
+			"alreadyQueued": "Finns redan i kön – ingen kopia lades till",
+			"cookiesSetup": "Slutför konfigureringen av cookies i Klip och försök sedan igen",
+			"invalidClipboard": "Ingen länk i Urklipp – kopiera en först",
+			"multipleUrls": "Flera länkar kopierades – använd Flera webbadresser i Klip",
+			"needsReview": "Den länken behöver ditt val – se Hämtningar i Klip",
+			"queued": "Hämtning köad från Urklipp",
+			"submissionFailed": "Det gick inte att lägga till länken – försök igen i Klip"
+		},
+		"playlistFolderRejected": "Den mappen kan inte användas för den här spellistan.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} video finns redan i kön – hoppades över",
+			"skippedAlreadyQueued_other": "{{count}} videor finns redan i kön – hoppades över"
+		},
+		"quickDownload": {
+			"added": "Tillagd: {{title}}",
+			"alreadyQueued": "Finns redan i kön",
+			"batchAdded_one": "{{count}} länk har lagts till i Hämtningar",
+			"batchAdded_other": "{{count}} länkar har lagts till i Hämtningar",
+			"batchAlreadyQueued_one": "{{count}} finns redan i kön",
+			"batchAlreadyQueued_other": "{{count}} finns redan i kön",
+			"batchNoneAdded_one": "{{count}} länk kunde inte läggas till",
+			"batchNoneAdded_other": "{{count}} länkar kunde inte läggas till",
+			"batchNotAdded_one": "{{count}} kunde inte läggas till",
+			"batchNotAdded_other": "{{count}} kunde inte läggas till",
+			"chooseFromList_one": "{{count}} video i den här listan – välj vad som ska hämtas",
+			"chooseFromList_other": "{{count}} videor i den här listan – välj vad som ska hämtas",
+			"chooseHowMany_one": "{{count}}+ video – välj hur många",
+			"chooseHowMany_other": "{{count}}+ videor – välj hur många",
+			"failed": "Det gick inte att förbereda {{title}}",
+			"notAdded": "Det gick inte att lägga till länken – försök igen",
+			"view": "Visa"
+		},
+		"settingsSaveFailed": "Det gick inte att spara dina inställningar.",
+		"shellActionFailed": "Det gick inte att öppna det.",
+		"warmupFailed": "Installationen slutfördes inte. Vissa hämtningar kan misslyckas tills den är klar."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Ljud (bästa)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Ljud ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Bästa originalljud, ingen omkodning",
+			"m4a": "Konvertera till M4A (AAC)",
+			"mp3": "Konvertera till MP3",
+			"opus": "Konvertera till Opus"
+		},
+		"mp4Cap": "H.264 över 1080p finns inte på YouTube – begränsas automatiskt till 1080p",
+		"subtitles": {
+			"deliveryHeading": "Spara som",
+			"deliveryLoose": "Direkt i sparmappen",
+			"languages": "Språk",
+			"languagesRequired": "Välj minst ett språk för att fortsätta.",
+			"note": "Bara undertextfiler sparas för varje video – ingen video eller inget ljud hämtas.",
+			"source": "Källa"
+		},
+		"tier": {
+			"144": "Upp till 144p",
+			"240": "Upp till 240p",
+			"360": "Upp till 360p",
+			"480": "Upp till 480p",
+			"720": "Upp till 720p",
+			"1080": "Upp till 1080p",
+			"1440": "Upp till 1440p",
+			"2160": "Upp till 4K",
+			"best": "Bästa kvalitet"
+		},
+		"tierDesc": {
+			"144": "Minsta möjliga filer",
+			"240": "Mycket små filer, låg kvalitet",
+			"360": "Små filer för begränsad bandbredd",
+			"480": "Låg bandbredd",
+			"720": "Mindre filer, bred kompatibilitet",
+			"1080": "Begränsas till 1080p, går ner till lägre per objekt",
+			"1440": "Begränsas till 2K, går ner till lägre per objekt",
+			"2160": "Begränsas till 2160p, går ner till lägre per objekt",
+			"best": "Högsta tillgängliga video + ljud per objekt"
+		},
+		"type": {
+			"audio": "Ljud",
+			"subtitles": "Undertexter",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "Bästa originalformat",
+			"mp4": "H.264 MP4 för Smart TV"
+		},
+		"videoFormatDesc": {
+			"best": "Bästa tillgängliga behållare och codecs per objekt",
+			"mp4": "Föredra H.264-video + AAC-ljud i MP4 när det är möjligt"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Följefil",
+			"description": "Beskrivning",
+			"media": "Media",
+			"missing": "Saknas",
+			"subtitle": "Undertext",
+			"thumbnail": "Miniatyr",
+			"unknown": "Artefakt"
+		},
+		"attentionBadge_one": "{{count}} hämtning behöver din uppmärksamhet",
+		"attentionBadge_other": "{{count}} hämtningar behöver din uppmärksamhet",
+		"autoRemoveCompleted": {
+			"hint": "Ta bort varje hämtning från listan några sekunder efter att den är klar. Filerna finns kvar i din mapp.",
+			"label": "Rensa klara automatiskt"
+		},
+		"cancelAllTitle": "Avbryt alla aktiva och väntande hämtningar",
+		"choice": {
+			"all": "Alla videor",
+			"cappedBody_one": "Fler än {{count}} video i den här spellistan. Hämta alla, de första {{count}} eller välj i en granskning.",
+			"cappedBody_other": "Fler än {{count}} videor i den här spellistan. Hämta alla, de första {{count}} eller välj i en granskning.",
+			"first": "Första {{count}}",
+			"list": {
+				"album": "Albumet",
+				"liked": "Gillade videor",
+				"mix": "Mixen",
+				"playlist": "Spellistan",
+				"uploads": "Alla uppladdningar",
+				"watchLater": "Titta senare"
+			},
+			"pick": "Välj bland dem …",
+			"review": "Granska",
+			"uncappedBody_one": "Den här länken är en lista med {{count}} video. Hämta den, eller välj i en granskning.",
+			"uncappedBody_other": "Den här länken är en lista med {{count}} videor. Hämta alla, eller välj i en granskning.",
+			"video": "Den här videon",
+			"videoOrList": {
+				"album": "Den här länken är en video i ett album. Hämta bara videon eller albumet?",
+				"liked": "Den här länken är en video bland dina gillade videor. Hämta bara videon eller alla dina gillade videor?",
+				"mix": "Den här länken är en video i en Mix. Hämta bara videon eller Mixen?",
+				"playlist": "Den här länken är en video i en spellista. Hämta bara videon eller spellistan?",
+				"uploads": "Den här länken är en video bland en kanals uppladdningar. Hämta bara videon eller alla uppladdningar?",
+				"watchLater": "Den här länken är en video i din lista Titta senare. Hämta bara videon eller hela listan?"
+			}
+		},
+		"clearTitle": "Rensa slutförda hämtningar",
+		"empty": "Köade hämtningar visas här",
+		"filterAll": "Alla",
+		"filtersLabel": "Statusfilter för kön",
+		"globalActionsLabel": "Alla objekt",
+		"header": "Hämtningar",
+		"item": {
+			"audioKept": "Ljudet togs inte bort",
+			"audioKeptSubtitlesFailed": "Ljudet togs inte bort · vissa undertexter misslyckades",
+			"cancel": "Avbryt",
+			"defaultError": "Hämtningen misslyckades",
+			"openDestinationFolder": "Öppna målmappen",
+			"pause": "Pausa",
+			"pendingOnly": "Endast väntande",
+			"pullNow": "Hämta nu – hoppa över kön",
+			"qualityLimited": "Begränsad till {{height}}p",
+			"qualityLimitedSubtitlesFailed": "Begränsad till {{height}}p · vissa undertexter misslyckades",
+			"remove": "Ta bort",
+			"resume": "Återuppta",
+			"retry": "Försök igen",
+			"retryingSoon": "försöker igen automatiskt (försök {{attempt}})",
+			"setLocation": "Ange plats",
+			"setLocationHint": "Markera väntande objekt för att ange plats.",
+			"statusCancelled": "Avbruten",
+			"statusDone": "Klar",
+			"statusError": "Fel",
+			"statusHeld": "Pausad i kön",
+			"statusNeedsChoice": "Behöver ditt val",
+			"statusPaused": "Pausad",
+			"statusPending": "Väntar",
+			"statusProbing": "Hämtar information",
+			"statusRunning": "Hämtar",
+			"subtitleLanguagesMissing": "Inga undertexter på {{languages}}",
+			"waitingForSite": "Väntar på {{site}} till {{time}}",
+			"waitingHint": "{{site}} begränsar den här anslutningen. Klip hämtar information om länken efter {{time}}, så att begränsningen hinner släppa."
+		},
+		"listOffer": {
+			"dismiss": "Stäng",
+			"from": {
+				"album": "Från ett album",
+				"liked": "Från dina gillade videor",
+				"mix": "Från en Mix",
+				"playlist": "Från en spellista",
+				"uploads": "Från en kanals uppladdningar",
+				"watchLater": "Från Titta senare"
+			},
+			"get": {
+				"album": "Hämta hela albumet",
+				"liked": "Hämta alla gillade videor",
+				"mix": "Hämta hela Mixen",
+				"playlist": "Hämta hela spellistan",
+				"uploads": "Hämta alla uppladdningar",
+				"watchLater": "Hämta allt i Titta senare"
+			},
+			"hint": "Lägger till listan som en egen rad. Den här videon utelämnas."
+		},
+		"pauseAllTitle": "Pausa alla aktiva hämtningar och hindra nya från att starta",
+		"pausedBanner": "Kön är pausad – väntande objekt startar inte förrän du återupptar den",
+		"resumeAllTitle": "Återuppta pausade hämtningar och låt kön fortsätta",
+		"resumeQueueAction": "Återuppta kön",
+		"selectedActionsLabel": "Markerade objekt",
+		"selectionSummary": "{{selected}} markerade · {{total}} totalt",
+		"tabLabel": "Hämtningar",
+		"tabTip": "Hämtningar finns nu på fliken Hämtningar – öppna den när som helst för att följa förloppet.",
+		"table": {
+			"added": "Tillagd",
+			"artifacts": "Artefakter",
+			"columnDropped": "Kolumnen {{column}} släpptes.",
+			"columnMoveCancelled": "Flyttningen av kolumnen {{column}} avbröts.",
+			"columnMovedOver": "Kolumnen {{column}} ligger över {{target}}.",
+			"columnPickedUp": "Kolumnen {{column}} plockades upp.",
+			"columns": "Kolumner",
+			"finished": "Slutförd",
+			"format": "Format",
+			"hideArtifactsFor": "Dölj artefakter för {{title}}",
+			"movableColumn": "flyttbar kolumn",
+			"moveColumnInstructions": "Om du vill flytta en kolumn trycker du på Blanksteg eller Retur, flyttar den med piltangenterna och trycker sedan på Blanksteg eller Retur för att släppa den. Tryck på Escape för att avbryta.",
+			"notAvailable": "—",
+			"outputTarget": "Utdatamål",
+			"progress": "Förlopp",
+			"resetColumns": "Återställ kolumner",
+			"resizeColumn": "Ändra storlek på kolumnen {{column}}",
+			"showArtifactsFor": "Visa artefakter för {{title}}",
+			"size": "Storlek",
+			"sortBy": "Sortera efter {{label}}",
+			"status": "Status",
+			"title": "Titel"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Fortsätt",
+		"description": "Du kör en ny uppdatering. Här är höjdpunkterna.",
+		"fullNotes": "Fullständiga versionsanteckningar ↗",
+		"title": "Nytt i Klip {{version}}"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "Avbryt",
+			"chooseExecutable": "Välj körbar fil",
+			"installWithHomebrew": "Installera med Homebrew",
+			"installWithWinget": "Installera med WinGet",
+			"openDependencyFolder": "Öppna beroendemappen",
+			"resetToDefault": "Återställ till standard",
+			"retrySetup": "Försök igen",
+			"viewSetupLog": "Visa installationsloggen"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Försök igen. Om det fortsätter att misslyckas väljer du en fungerande kopia nedan.",
+				"title": "Ett verktyg fungerar inte som det ska"
+			},
+			"blockedOrQuarantined": {
+				"body": "Tillåt Klip i ditt antivirusprogram eller SmartScreen och försök sedan igen.",
+				"title": "Ditt antivirusprogram blockerade ett verktyg"
+			},
+			"downloadFailed": {
+				"body": "Kontrollera din internetanslutning och försök igen.",
+				"title": "Det gick inte att hämta det Klip behöver"
+			},
+			"extractFailed": {
+				"body": "Försök igen för att hämta den på nytt.",
+				"title": "En hämtad fil var skadad"
+			},
+			"hashFailed": {
+				"body": "Försök igen för att hämta den på nytt.",
+				"title": "En hämtad fil matchade inte sin kontrollsumma"
+			},
+			"pairIncomplete": {
+				"body": "Välj båda nedan eller återställ dem till standard.",
+				"title": "FFmpeg och FFprobe måste anges tillsammans"
+			},
+			"permissionDenied": {
+				"body": "Försök igen. Om det fortsätter att misslyckas väljer du en kopia du litar på nedan.",
+				"title": "Ditt system låter inte Klip köra ett verktyg"
+			},
+			"spawnFailed": {
+				"body": "Försök igen. Om det fortsätter att misslyckas väljer du en fungerande kopia nedan.",
+				"title": "Ett verktyg saknas eller startar inte"
+			},
+			"timeout": {
+				"body": "Det här beror ofta på en säkerhetsskanning vid första körningen. Försök igen.",
+				"title": "Ett verktyg svarade inte i tid"
+			},
+			"unknown": {
+				"body": "Försök igen eller öppna installationsloggen för mer information.",
+				"title": "Något gick fel under installationen"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "Hämtningsmotor",
+			"media": "Mediaverktyg"
+		},
+		"installing": {
+			"homebrew": "Installerar med Homebrew … Det kan ta några minuter.",
+			"winget": "Installerar med WinGet … Det kan ta några minuter."
+		},
+		"manual": {
+			"intro": "Peka Klip mot kopior du redan har, eller installera dem på annat sätt.",
+			"linuxHint": "Du kan också installera yt-dlp och ffmpeg med pakethanteraren och sedan klicka på Försök igen.",
+			"toggle": "Konfigurera manuellt"
+		},
+		"stopped": {
+			"body": "Försök igen eller peka Klip mot verktyg du redan har nedan.",
+			"title": "Installationen stoppades"
+		},
+		"title": "Installationen behöver din hjälp"
+	},
+	"selectionOrder": {
+		"editorTitle": "Så väljer den här profilen",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC-ljud",
+				"reason": "passar MP4-spelare"
+			},
+			"aacSmartTv": {
+				"label": "AAC-ljud",
+				"reason": "spelas upp överallt"
+			},
+			"codec": {
+				"label": "AV1, sedan VP9, sedan H.264",
+				"reason": "skarpast vid en given storlek"
+			},
+			"codecH264First": {
+				"label": "H.264, sedan VP9, sedan AV1",
+				"reason": "den här profilens codec"
+			},
+			"codecVp9First": {
+				"label": "VP9, sedan H.264, sedan AV1",
+				"reason": "den här profilens codec"
+			},
+			"fps": {
+				"label": "Högsta bildfrekvens",
+				"reason": "mjukare rörelser"
+			},
+			"h264": {
+				"label": "H.264-video",
+				"reason": "spelas upp på alla enheter"
+			},
+			"hdrFirst": {
+				"label": "HDR före SDR",
+				"reason": "rikare färger på HDR-skärmar",
+				"reasonScreen": "den här skärmen visar HDR"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR före HDR",
+				"reason": "ser rätt ut på alla skärmar",
+				"reasonScreen": "den här skärmen är inte HDR"
+			},
+			"mp4Streams": {
+				"label": "MP4-strömmar",
+				"reason": "redo för en MP4-fil"
+			},
+			"nativeCompatible": {
+				"label": "Stereoljud"
+			},
+			"nativeSource": {
+				"profile": "den här profilen",
+				"settings": "från Inställningar"
+			},
+			"nativeSurround": {
+				"label": "Surroundljud när det erbjuds"
+			},
+			"opus": {
+				"label": "Opus-ljud",
+				"reason": "passar WebM"
+			},
+			"original": {
+				"label": "Originalströmmar, inte AI-uppskalade",
+				"reason": "en uppskalad kopia är högre men tillför ingen verklig detalj"
+			},
+			"protocol": {
+				"label": "Direkthämtningar före strömmade kopior",
+				"reason": "samma bild, hämtad snabbare"
+			},
+			"resolution": {
+				"label": "Upp till {{tier}}p",
+				"reason": "din gräns"
+			},
+			"resolutionBest": {
+				"label": "Högsta upplösning",
+				"reason": "ingen gräns angiven"
+			},
+			"sitePreference": {
+				"label": "Strömmar som webbplatsen inte nedgraderar",
+				"reason": "hoppar över skadade, vattenstämplade och reservkopior"
+			},
+			"size": {
+				"label": "Större fil",
+				"reason": "mer detaljer med samma inställningar"
+			},
+			"source": {
+				"label": "Strömmar med förbättrad bithastighet först",
+				"reason": "mer detaljer vid samma upplösning"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "filtyp från strömmarna",
+				"explicit": "sparas som .{{ext}}"
+			},
+			"goal": {
+				"bestPicture": "bästa bild",
+				"smartTv": "spelas upp på alla enheter"
+			}
+		},
+		"whyLabel": "Varför den här?",
+		"whyTitle": "Varför profilen valde den här"
+	},
+	"share": {
+		"copied": "Kopierad!",
+		"copyLink": "Kopiera länk",
+		"defaultMessage": "Klip – gratis hämtare med öppen källkod för video, för Windows, macOS och Linux. Fungerar med YouTube, Vimeo, Twitch och över 2 000 webbplatser.\n4K · HDR · MP3 · Shorts · Undertexter · SponsorBlock",
+		"description": "Klip är gratis och har öppen källkod. Genom att dela hjälper du fler att upptäcka det.",
+		"footerLabel": "Dela",
+		"footerTooltip": "Dela Klip",
+		"shareAction": "Dela Klip",
+		"title": "Dela Klip"
+	},
+	"splash": {
+		"cancel": "Problem? Konfigurera manuellt",
+		"greeting": "Hej, välkommen tillbaka!",
+		"setup": {
+			"left": {
+				"minutes_one": "ungefär {{count}} min kvar",
+				"minutes_other": "ungefär {{count}} min kvar",
+				"underMinute": "mindre än en minut kvar"
+			},
+			"stage": {
+				"checking": "Kontrollerar att allt fungerar",
+				"connecting": "Ansluter …",
+				"unpacking": "Packar upp mediaverktygen",
+				"unpackingEngine": "Packar upp hämtningsmotorn"
+			},
+			"title": {
+				"both": "Uppdaterar Klips verktyg",
+				"engine": "Uppdaterar hämtningsmotorn",
+				"firstRun": "Första konfigurationen",
+				"media": "Uppdaterar mediaverktygen"
+			}
+		},
+		"verifyFirstCheck": "Första kontrollen av den här versionen – den här tar lång tid. Vanligtvis ungefär en minut.",
+		"verifying": "Kontrollerar {{binary}} …",
+		"warmup": "Förbereder hämtningar …",
+		"warmupFailedNoDiag": "Installationen misslyckades. Öppna installationsloggen för mer information."
+	},
+	"status": {
+		"audioKept": "Videon sparades med ljud – ljudet kunde inte tas bort",
+		"audioKeptSubtitlesFailed": "Videon sparades med ljud – ljudet kunde inte tas bort, och vissa undertexter kunde inte hämtas",
+		"cancelled": "Hämtningen avbröts",
+		"complete": "Hämtningen är klar",
+		"convertingVideo": "Konverterar video …",
+		"diskSpaceInsufficient": "Inte tillräckligt med diskutrymme – {{required}} behövs, bara {{free}} är ledigt",
+		"downloadingBinary": "Hämtar binärfilen {{name}} …",
+		"downloadingMedia": "Hämtar video och ljud …",
+		"embeddingMetadata": "Bäddar in metadata …",
+		"exploreSignedOut": "Utloggad från Utforska – logga in igen",
+		"extractingAudio": "Konverterar ljud …",
+		"fetchingSponsorBlock": "Kontaktar SponsorBlock …",
+		"fetchingSubtitles": "Hämtar undertexter …",
+		"mergingFormats": "Sammanfogar ljud och video …",
+		"mintingToken": "Förbereder YouTube-hämtning …",
+		"movingFiles": "Flyttar filer …",
+		"noSubtitles": "Inga undertexter på {{languages}}",
+		"outputNotWritable": "Det går inte att spara i {{dir}} – Klip får inte skriva där",
+		"preparingBinaries": "Förbereder binärfiler …",
+		"qualityLimited": "Sparad i {{height}}p – YouTube höll inne högre kvaliteter för den här hämtningen. Det kan hjälpa att försöka igen senare.",
+		"qualityLimitedSubtitlesFailed": "Sparad i {{height}}p – YouTube höll inne högre kvaliteter för den här hämtningen, och vissa undertexter kunde inte hämtas. Det kan hjälpa att försöka igen senare.",
+		"remintingToken": "Förbereder YouTube-hämtning igen …",
+		"retryingSponsorBlock": "SponsorBlock är otillgängligt, försöker igen ({{attempt}}/{{total}}) …",
+		"retryingTransfer": "Anslutningen stannade av, försöker igen ({{attempt}}/{{total}}) …",
+		"signingInWithExplore": "Loggar in med ditt Utforska-konto …",
+		"sleepingBetweenRequests": "Väntar {{seconds}} s för att undvika begränsningar …",
+		"startingYtdlp": "Startar hämtningsmotorn …",
+		"subtitleLanguagesMissing": "Den här videon har inga undertexter på {{languages}}. Videon sparades utan dem.",
+		"subtitleLanguagesMissingOthersSaved": "Den här videon har inga undertexter på {{languages}}. De andra språken sparades.",
+		"subtitlesFailed": "Videon sparades – vissa undertexter kunde inte hämtas",
+		"unknownStartupFailure": "Okänt fel vid start av hämtningen",
+		"usedExtractorFallback": "Hämtades med lättad extraktor – konfigurera en cookies.txt för mer tillförlitliga hämtningar",
+		"ytdlpExitCode": "Hämtningsmotorn avslutades med koden {{code}}",
+		"ytdlpProcessError": "Fel i hämtningsmotorn: {{error}}"
+	},
+	"theme": {
+		"dark": "Mörkt läge",
+		"light": "Ljust läge",
+		"system": "Systemstandard"
+	},
+	"titleBar": {
+		"close": "Stäng",
+		"maximize": "Maximera",
+		"minimize": "Minimera",
+		"restore": "Återställ"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Hämta från Urklipp",
+			"statusActive_one": "1 hämtas · {{percent}} %",
+			"statusActive_other": "{{count}} hämtas · {{percent}} %",
+			"statusIdle": "Inaktiv"
+		}
+	},
+	"update": {
+		"copied": "Kommandot kopierades till Urklipp",
+		"copy": "Kopiera kommandot till Urklipp",
+		"dismiss": "Stäng uppdateringsbanderollen",
+		"download": "Hämta ↗",
+		"downloadDmg": "Hämta DMG ↗",
+		"downloading": "Hämtar …",
+		"install": "Installera och starta om",
+		"installFailed": "Uppdateringen misslyckades",
+		"message": {
+			"generic": "Klip {{version}} är tillgängligt – du har {{currentVersion}}.",
+			"homebrew": "Klip {{version}} är tillgängligt – uppdatera med Homebrew.",
+			"macosDirect": "Klip {{version}} är tillgängligt – hämta den nya DMG-filen.",
+			"macosDirectHomebrew": "Klip {{version}} är tillgängligt – hämta DMG-filen eller byt till Homebrew.",
+			"portable": "Klip {{version}} är tillgängligt – hämta den nya versionen."
+		},
+		"retry": "Försök igen",
+		"runAndRestart": "Kör och starta om",
+		"upgrading": "Uppgraderar …"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} kapitel",
+		"chapters_other": "{{count}} kapitel",
+		"titlePlaceholder": "Läser in …"
+	},
+	"videoCodec": {
+		"h264": "H.264 först",
+		"label": "Videocodec",
+		"smartTv": "Smart TV väljer alltid H.264.",
+		"vp9": "VP9 först"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Klara",
+			"description": "Klistra in webbadresser till videor, spellistor, kanaler, sökningar eller ljud. Klip rensar dubbletter innan de köas.",
+			"emptyPreview": "Klistra in en eller flera webbadresser för att förhandsgranska batchen.",
+			"ignoredCount": "Ignorerade",
+			"needsAtLeastOne": "Lägg till minst en webbadress som stöds för att fortsätta.",
+			"reject": {
+				"duplicate": "Dubblett"
+			},
+			"textareaLabel": "Lista över webbadresser",
+			"textareaPlaceholder": "https://video.example/one\nhttps://video.example/two\nhttps://video.example/three",
+			"title": "Flera webbadresser"
+		},
+		"confirm": {
+			"addToQueue": "+ Kö",
+			"addToQueueTooltip": "Lägger till i kön – startar när den aktiva hämtningen är klar",
+			"itemsValueAudio_one": "{{count}} av {{total}} spår",
+			"itemsValueAudio_other": "{{count}} av {{total}} spår",
+			"itemsValueBulk_one": "{{count}} av {{total}} webbadress",
+			"itemsValueBulk_other": "{{count}} av {{total}} webbadresser",
+			"itemsValue_one": "{{count}} av {{total}} video",
+			"itemsValue_other": "{{count}} av {{total}} videor",
+			"labelAudio": "Ljud",
+			"labelBulk": "Batch",
+			"labelItems": "Objekt",
+			"labelPlaylist": "Spellista",
+			"labelPreset": "Förinställning",
+			"labelSaveTo": "Spara i",
+			"labelSize": "Storlek",
+			"labelSubtitles": "Undertexter",
+			"labelVideo": "Video",
+			"landIn": "Din fil hamnar i",
+			"landInMultiProfile_one": "Den hamnar i målet nedan",
+			"landInMultiProfile_other": "De hamnar i de {{count}} målen nedan",
+			"nothingToDownload": "Profilen ”Endast undertexter” är aktiv, men inget undertextspråk är valt — ingenting hämtas.",
+			"profileBreakdownCount_one": "{{count}} objekt",
+			"profileBreakdownCount_other": "{{count}} objekt",
+			"profileBreakdownHeading": "Profiler i den här batchen",
+			"pullIt": "Hämta! ↓",
+			"pullItTooltip": "Hoppar över kön – startar nu och körs vid sidan av andra aktiva hämtningar",
+			"readyHeadline": "Redo att hämta!",
+			"sizeUnknown": "Okänd",
+			"subtitleEmbedAudioOnly": "Inbäddning av undertexter ändrades till separat fil – ljudspår stöder inte inbäddade undertextströmmar.",
+			"subtitleEmbedForcesMkv": "Undertexter i videon kräver en MKV-fil, så den här hämtningen sparas som .mkv.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Inbäddning av miniatyr hoppades över – utdatabehållaren stöder det inte."
+		},
+		"folder": {
+			"custom": "Anpassad …",
+			"desktop": "Skrivbord",
+			"documents": "Dokument",
+			"downloads": "Hämtade filer",
+			"heading": "Spara i",
+			"home": "Hem",
+			"music": "Musik",
+			"pictures": "Bilder",
+			"subfolder": {
+				"invalid": "Mappnamnet innehåller ogiltiga tecken",
+				"placeholder": "t.ex. föreläsningar",
+				"toggle": "Spara i undermapp"
+			},
+			"videos": "Filmer"
+		},
+		"formats": {
+			"audio": "Ljud",
+			"audioLanguage": "Ljudspråk",
+			"audioLanguageCount_one": "{{count}} språk",
+			"audioLanguageCount_other": "{{count}} språk",
+			"bitrateValue": "Bithastighet {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Cookies är konfigurerade men avstängda. Aktivera dem och försök igen för att få hela listan, eller byt nätverk och försök igen.",
+				"bodyEnabled": "Även med cookies begränsade YouTube den här analysen. Försök igen senare eller byt nätverk.",
+				"bodyExplore": "YouTube begränsade den här förfrågan. Försök igen senare eller byt nätverk.",
+				"bodyUnconfigured": "Formatlistan kan vara ofullständig. Konfigurera cookies i de avancerade inställningarna, eller byt nätverk och försök igen.",
+				"enableRetryCta": "Aktivera cookies och försök igen",
+				"heading": "Analysen begränsades",
+				"retryCta": "Försök igen"
+			},
+			"convert": {
+				"bitrate": "Bithastighet",
+				"bitrateCopyHint": "En källa som redan är {{target}} behåller sin egen ström och bithastighet: den kopieras, den kodas inte om.",
+				"copyLabel": "{{target}} {{bitrate}} kbit/s, ingen omkodning",
+				"copyLabelNoBitrate": "{{target}}, ingen omkodning",
+				"copyNote": "{{kbps}} kbit/s, som i källan: strömmen är redan {{target}}, så den kopieras, den kodas inte om",
+				"copyNoteNoBitrate": "Som i källan: strömmen är redan {{target}}, så den kopieras, den kodas inte om",
+				"label": "Konvertera",
+				"lossyLabel": "{{target}} {{bitrate}} kbit/s",
+				"sourceKbps": "Källan är {{kbps}} kbit/s",
+				"wavLabel": "WAV (okomprimerad)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Webbläsare",
+				"currentModeExplore": "Inloggning i Utforska",
+				"currentModeFile": "Fil",
+				"currentModeLabel": "Cookiekälla",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp-dokumentation (ärende #10927)",
+					"explanation": "Chrome 127 och senare krypterar cookies på ett sätt som andra appar inte kan läsa i Windows. Prova en av lösningarna nedan.",
+					"fixFileBody": "Exportera cookies från Chrome med ett webbläsartillägg, byt sedan den här appen till läget Fil och välj den exporterade filen.",
+					"fixFileLabel": "Exportera cookies.txt",
+					"fixFirefoxBody": "Firefox använder inte App-Bound Encryption. Öppna cookieinställningarna och välj Firefox i webbläsarlistan.",
+					"fixFirefoxLabel": "Byt till Firefox",
+					"fixUnsafeBody": "Lägg till --disable-features=LockProfileCookieDatabase i Chromes startgenväg. Varning: det gör tidigare krypterade cookies ogiltiga, så du loggas ut från alla webbplatser och måste logga in igen.",
+					"fixUnsafeLabel": "Starta Chrome med App-Bound Encryption avstängt",
+					"heading": "Chrome-cookies blockeras av Windows-kryptering"
+				},
+				"explanationBrowser": "Cookies läses direkt från webbläsaren. Om webbläsaren körs just nu kan dess cookiedatabas vara låst (Chromium-familjen). Webbläsaren måste också vara inloggad på YouTube. Prova att stänga webbläsaren, byta till en annan webbläsare, byta till läget Fil eller stänga av cookies.",
+				"explanationFile": "Din cookiefil kan vara tom, utgången eller ha fel format (Klip behöver en cookies.txt i Netscape-format). Prova att exportera cookies på nytt, välja en annan fil, byta till läget Webbläsare eller stänga av cookies.",
+				"exploreOffer": {
+					"body": "Logga in med Utforska så försöker Klip igen.",
+					"cta": "Logga in med Utforska",
+					"heading": "Den här videon kan kräva ett YouTube-konto"
+				},
+				"exploreRefused": {
+					"body": "Klip har redan försökt inloggad via Utforska, så det hjälper inte att logga in igen. Webbplatsen kan ha problem, eller så kan det här kontot inte öppna den. Försök igen senare.",
+					"heading": "Webbplatsen nekade detta även med din inloggning i Utforska"
+				},
+				"exploreReuse": {
+					"body": "Du är inloggad i Utforska, men hämtningar använder inte den inloggningen just nu.",
+					"cta": "Använd min inloggning i Utforska och försök igen",
+					"heading": "Den här videon kan kräva ett YouTube-konto"
+				},
+				"exploreSignIn": {
+					"body": "Om videon kräver ett YouTube-konto loggar du in i Utforska och försöker igen. Klip använder den inloggningen bara när en hämtning behöver den.",
+					"cta": "Logga in i Utforska",
+					"heading": "Den här videon kan kräva ett YouTube-konto"
+				},
+				"exploreSignedIn": {
+					"body": "Om videon kräver ett konto använder Klip automatiskt din inloggning i Utforska. Den kan vara otillgänglig av ett annat skäl.",
+					"heading": "Inloggad i Utforska"
+				},
+				"exploreSite": {
+					"heading": "Den här länken kan kräva ett konto på {{host}}",
+					"offerBody": "Logga in på {{host}} med Utforska och försök sedan igen.",
+					"signInBody": "Logga in på {{host}} i Utforska och försök sedan igen. Klip använder den inloggningen bara när en hämtning behöver den."
+				},
+				"heading": "Cookies kan vara orsaken",
+				"needsCookies": {
+					"body": "Klip kunde inte komma åt den här videon utan autentisering. Konfigurera cookies i de avancerade inställningarna – peka dem mot en webbläsare som du redan är inloggad i eller importera en cookies.txt-fil.",
+					"heading": "Den här webbplatsen kräver inloggning"
+				},
+				"openSettingsCta": "Öppna cookieinställningar",
+				"otherCookiesCta": "Använd en cookiefil eller webbläsare i stället …"
+			},
+			"drc": {
+				"description": "Dämpar höga partier och höjer låga, för högtalare och bullriga rum.",
+				"label": "Jämna ut ljudstyrkan (DRC)",
+				"tag": "Jämn ljudstyrka"
+			},
+			"fit": {
+				"mp4Unavailable": "Din profil är Smart TV (H.264). Den här videon erbjuder inte H.264, så den närmaste strömmen är vald.",
+				"noVideo": "Den här länken har ingen video, så ljud är valt.",
+				"subtitlesMissing": "Din profil begär undertexter på {{languages}}. Den här videon har inga.",
+				"tierAbove": "Din profil begär {{wanted}}p. Den här videon har inget så litet, så {{picked}}p är valt.",
+				"tierAbovePassedOver": "Din profil begär {{wanted}}p. De mindre strömmarna i den här videon passar inte resten av din profil, så {{picked}}p är valt.",
+				"tierBelowTakeable": "Din profil begär {{wanted}}p. Den här videon har ingen användbar {{wanted}}p, så {{picked}}p är valt.",
+				"tierPassedOverAiUpscaled": "Din profil begär {{wanted}}p. Videons {{wanted}}p är AI-uppskalad, så originalet i {{picked}}p är valt.",
+				"tierPassedOverH264": "Din profil begär {{wanted}}p i H.264. Den här videon har {{wanted}}p bara i andra codecs, så {{picked}}p i H.264 är valt.",
+				"tierPassedOverProfile": "Din profil begär {{wanted}}p. Videons {{wanted}}p passar inte resten av din profil, så {{picked}}p är valt.",
+				"webmUnavailable": "Din profil begär WebM. De valda strömmarna i den här videon innehåller {{codec}}, som WebM inte kan rymma, så filtypen är Auto."
+			},
+			"footer": {
+				"addToQueue": "Lägg till i kön utan att starta",
+				"download": "Hämta",
+				"moreActions": "Fler hämtningsalternativ",
+				"subtitlesRequired": "Välj minst ett undertextspråk."
+			},
+			"keepAudio": "Behåll som det är",
+			"keepAudioMeta": "Inbyggt ljud",
+			"kind": {
+				"audio": "Endast ljud",
+				"label": "Vad som ska hämtas",
+				"subtitles": "Endast undertexter",
+				"video": "Video + ljud",
+				"videoOnly": "Video, inget ljud"
+			},
+			"loadingAria": "Läser in format",
+			"loadingHint": "Vänta tills analysen är klar – spellistor och sökningar kan ta en stund.",
+			"marker": {
+				"aiDubbed": "AI-dubbad",
+				"aiUpscaled": "AI-uppskalad",
+				"audioDescription": "Syntolkning",
+				"damaged": "Skadad",
+				"enhancedBitrate": "Förbättrad bithastighet",
+				"original": "Original",
+				"spatialAudio": "Rumsligt ljud",
+				"vr": "360° / VR",
+				"watermarked": "Vattenstämplad"
+			},
+			"noAudio": "Inget ljud",
+			"profile": {
+				"calloutBody": "Din aktiva profil förväljer strömmarna åt dig. Byt profil från menyn, eller använd pennan för att justera en utan att lämna den här hämtningen.",
+				"calloutTitle": "Formaten utgår från din profil",
+				"closestTag": "Närmast profilen",
+				"edit": "Redigera {{name}}",
+				"keepEdits": "Behåll mina ändringar",
+				"menuDescription": "Endast för den här hämtningen. Din standardprofil förblir oförändrad.",
+				"preselected": "Förvald från",
+				"resetAll": "Återställ alla",
+				"switchBody": "Du ändrade {{areas}} för den här hämtningen. ”{{profile}}” väljer video och ljud oavsett. Vill du behålla dina andra ändringar eller återställa allt till profilen?",
+				"switchTitle": "Byta profil?",
+				"tag": "Profil",
+				"updatedBody": "Du ändrade {{areas}} för den här hämtningen. Den uppdaterade profilen väljer video och ljud oavsett. Vill du behålla dina andra ändringar eller återställa allt till profilen?",
+				"updatedTitle": "Använda den uppdaterade profilen?"
+			},
+			"quality": {
+				"high": "Hög kvalitet",
+				"low": "Låg kvalitet",
+				"medium": "Medelhög kvalitet"
+			},
+			"rateLimit": {
+				"heading": "{{site}} begränsar den här anslutningen",
+				"leadDegraded": "Formatlistan kan vara ofullständig.",
+				"leadFailed": "{{site}} avvisade den här förfrågan tills vidare.",
+				"retryCta": "Försök igen",
+				"sessionNote": "{{site}} kan behålla den här begränsningen i upp till en timme.",
+				"tryNowCta": "Försök nu",
+				"waitOver": "Väntetiden är över, så du kan försöka igen.",
+				"waitUntil": "Klip väntar till {{time}} innan {{site}} tillfrågas igen, så att begränsningen kan hävas."
+			},
+			"resolutionUnknown": "Okänd upplösning",
+			"savesAs": {
+				"label": "Sparas som",
+				"reset": "WebM kan inte rymma {{codec}}, så filtypen återgick till Auto."
+			},
+			"sizeUnknown": "Okänd storlek",
+			"skipToConfirm": "Hoppa till bekräftelse",
+			"skipToConfirmTooltip": "Använder dina sparade inställningar för alla återstående steg. Om du vill ändra en inställning fortsätter du steg för steg – ditt val sparas till nästa gång.",
+			"sniffing": "Letar upp de bästa formaten åt dig …",
+			"total": "Totalt",
+			"video": "Video",
+			"withAudio": "med ljud"
+		},
+		"listPrompt": {
+			"backgroundHint": "Med {{profileName}}. Har den fler än {{count}} videor frågar Hämtningar hur många.",
+			"backgroundLabel": "Hämta i bakgrunden",
+			"escOnly": "Esc avbryter.",
+			"firstHint": "Exakt de första {{count}}, med {{profileName}}.",
+			"firstLabel": "Hämta de första",
+			"interactiveHint": "Välj bland de första {{count}} videorna (eller ändra antalet i nästa steg) och ställ sedan in hämtningen.",
+			"interactiveLabel": "Interaktiv hämtning …",
+			"limitHint": "Hur många videor som tas från listan: det första alternativet frågar om listan är längre, det andra tar exakt så många. Samma som Inställningar › Spellisteobjekt att skanna.",
+			"limitLabel": "Gräns",
+			"mixNote": "En Mix ändras varje gång du öppnar den.",
+			"pickLoadAfter": "att välja bland.",
+			"pickLoadBefore": "Läs in de första",
+			"pickLoadNote": "Du kan ändra det i nästa steg.",
+			"pickTitle": {
+				"album": "Välj från det här albumet",
+				"liked": "Välj bland dina gillade videor",
+				"mix": "Välj från den här Mixen",
+				"playlist": "Välj från den här spellistan",
+				"uploads": "Välj från den här kanalens uppladdningar",
+				"watchLater": "Välj från Titta senare"
+			},
+			"title": {
+				"album": "Hämta från det här albumet",
+				"liked": "Hämta från dina gillade videor",
+				"mix": "Hämta från den här Mixen",
+				"playlist": "Hämta från den här spellistan",
+				"uploads": "Hämta från den här kanalens uppladdningar",
+				"watchLater": "Hämta från Titta senare"
+			},
+			"videoHint": "Bara videon du öppnade, med {{profileName}}. Listan läses inte in.",
+			"videoLabel": "Bara den här videon",
+			"videoPickHint": "Ställ bara in videon du öppnade. Listan läses inte in.",
+			"withProfile": "Med {{profileName}}"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Kapitelmarkeringar som går att navigera i alla moderna spelare.",
+				"label": "Bädda in kapitel",
+				"short": "kapitel"
+			},
+			"embedMetadata": {
+				"description": "Titel, artist, beskrivning och uppladdningsdatum skrivs in i filen.",
+				"label": "Bädda in metadata",
+				"short": "metadata"
+			},
+			"embedThumbnail": {
+				"description": "Omslagsbild inuti filen. WebM-video remuxas till MKV; hoppas över när undertexter bäddas in.",
+				"label": "Bädda in miniatyr",
+				"short": "omslagsbild"
+			},
+			"writeDescription": {
+				"description": "Sparar videons beskrivning som en .description-textfil bredvid hämtningen.",
+				"label": "Spara beskrivning",
+				"short": "beskrivningsfil"
+			},
+			"writeM3u": {
+				"description": "Spara en .m3u-spellista bredvid videorna så att de öppnas i ordning i din mediespelare.",
+				"label": "Skapa .m3u-spellistefil"
+			},
+			"writeThumbnail": {
+				"description": "Sparar miniatyren som en .jpg-bildfil bredvid hämtningen.",
+				"label": "Spara miniatyr",
+				"short": "miniatyrfil"
+			}
+		},
+		"part": {
+			"calloutBody": "Växla till Del på videokortet för att välja en start och ett slut, eller ett kapitel, och hämta bara den sträckan.",
+			"calloutTitle": "Hämta bara en del av en video",
+			"chapterUntitled": "Kapitel {{number}}",
+			"chapters": "Kapitel",
+			"connectionsNote": "En del hämtas via ffmpeg, så dina inställningar för hämtningsanslutningar och tempo gäller inte för den.",
+			"downloadBlocked": "Åtgärda först start och slut för delen.",
+			"end": "Slut",
+			"error": {
+				"endBeyondDuration": "Videon slutar vid {{duration}}.",
+				"endInvalid": "Ange slutet som h:mm:ss, m:ss eller sekunder.",
+				"startInvalid": "Ange starten som h:mm:ss, m:ss eller sekunder.",
+				"startNotBeforeEnd": "Starten måste komma före slutet."
+			},
+			"exactCut": {
+				"hint": "Av: varje klipp hamnar på närmaste nyckelbild, som kan ligga några sekunder från den tid du skrev.",
+				"label": "Exakt klipp (kodar om, långsammare)"
+			},
+			"length": "{{length}} av {{duration}}",
+			"part": "Del",
+			"rangeLabel": "Del av videon",
+			"start": "Start",
+			"subtitlesFullLength": "hela videon",
+			"summary": "Del {{start}}–{{end}}",
+			"switchLabel": "Hur mycket av videon",
+			"timeHint": "h:mm:ss, m:ss eller sekunder",
+			"totalEstimate": "Del, uppskattad",
+			"unavailableDuration": "Den här videon anger inte sin längd, så den kan bara hämtas i sin helhet.",
+			"unavailableSubtitles": "Undertexter omfattar alltid hela videon.",
+			"urlStart": "Din länk startar vid {{time}}",
+			"useUrlStart": "Använd som start",
+			"whole": "Hela videon",
+			"wholeTrack": "Hela spåret"
+		},
+		"playlist": {
+			"allRemovedDescription": "Återställ dem för att fortsätta.",
+			"allRemovedTitle": "Alla objekt togs bort",
+			"alreadyDownloaded": "Redan hämtad",
+			"bulkCappedDesc_one": "Den har fler. Klistra in dess länk separat för att välja hur många.",
+			"bulkCappedDesc_other": "De har fler. Klistra in varje länk separat för att välja hur många.",
+			"bulkCappedTitle_one": "”{{title}}” kapas vid {{limit}} videor",
+			"bulkCappedTitle_other": "{{count}} listor kapas vid {{limit}} videor vardera",
+			"bulkHeading": "Flera webbadresser",
+			"bulkMetadataOptional": "Du behöver inte vänta – filer som köas nu får ändå sina riktiga namn när de hämtas.",
+			"bulkMetadataResolving": "Hämtar videoinformation … {{done}}/{{total}}",
+			"bulkRowFailed": "Information otillgänglig",
+			"bulkRowResolving": "Hämtar information",
+			"bulkRowWaiting": "Väntar",
+			"durationUnknown": "live",
+			"heading": "Spellisteobjekt",
+			"headingGeneric": "Videor att hämta",
+			"itemCountAudio_one": "{{count}} spår",
+			"itemCountAudio_other": "{{count}} spår",
+			"itemCountBulk_one": "{{count}} webbadress",
+			"itemCountBulk_other": "{{count}} webbadresser",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} videor",
+			"loadingItems": "Hämtar spellista …",
+			"loadingItemsGeneric": "Hämtar videor …",
+			"loadingLimitHint": "Begränsad till de första {{count}} objekten",
+			"loadingPagesFound_one": "{{count}} sida hittades",
+			"loadingPagesFound_other": "{{count}} sidor hittades",
+			"loadingPhaseItems": "Samlar in videor",
+			"loadingPhasePages": "Skannar kanalsidor",
+			"multiProfileEntry": "Tilldela profiler per objekt",
+			"multiProfileEntryTooltip": "Hoppar över Kvalitet, SponsorBlock, Utdata och Spara – tilldela i stället en hämtningsprofil per objekt",
+			"nestedPlaylistBadge": "Spellista",
+			"nestedPlaylistHint_one": "{{count}} av dessa är en spellista, inte en video – klistra in dess länk separat för att hämta den.",
+			"nestedPlaylistHint_other": "{{count}} av dessa är spellistor, inte videor – klistra in deras länkar en i taget för att hämta dem.",
+			"noSelection": "Markera minst en video för att fortsätta",
+			"probeLimitAlertDesc": "Visar de första {{count}} objekten. Höj inläsningsgränsen för att se fler.",
+			"probeLimitAlertTitle": "Spellisteskanningen är begränsad",
+			"probeLimitAlertTitleGeneric": "Skanningen är begränsad",
+			"rangeApply": "Tillämpa intervall",
+			"rangeFrom": "Från",
+			"rangeTo": "Till",
+			"removeFromListCount_one": "Ta bort {{count}} från listan",
+			"removeFromListCount_other": "Ta bort {{count}} från listan",
+			"removedCount_one": "{{count}} borttagen",
+			"removedCount_other": "{{count}} borttagna",
+			"restore": "Återställ",
+			"selectAll": "Markera alla",
+			"selectNone": "Avmarkera alla",
+			"selectedCount_one": "{{count}} markerad",
+			"selectedCount_other": "{{count}} markerade",
+			"sortApi": "Spellistans ordning",
+			"sortFetchingDates": "Hämtar uppladdningsdatum …",
+			"sortLabel": "Sortera",
+			"sortUploadAsc": "Äldsta först",
+			"sortUploadDesc": "Nyaste först",
+			"syncApply": "Tillämpa synkronisering",
+			"syncChange": "Ändra mapp …",
+			"syncFoundDesc": "{{n}} av de här videorna finns redan i {{dir}}. Synkronisera för att bara hämta de nya?",
+			"syncFoundTitle": "Finns redan i mappen",
+			"syncNoneDesc": "Inga videor från den här spellistan hittades i {{dir}}.",
+			"syncNoneDescGeneric": "Inga videor från den här källan hittades i {{dir}}.",
+			"syncNoneTitle": "Inget hämtat ännu",
+			"syncScanning": "Kontrollerar mappen …",
+			"thumbnailAlt": "Videominiatyr"
+		},
+		"playlistPresets": {
+			"heading": "Välj kvalitet för batchen",
+			"itemCount_one": "{{count}} objekt",
+			"itemCount_other": "{{count}} objekt",
+			"subhead": "Varje video löser den valda nivån för sig – blandade spellistor fungerar utan överraskningar."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Tilldela profil",
+			"assignTrigger_one": "Tilldela {{count}} video",
+			"assignTrigger_other": "Tilldela {{count}} videor",
+			"columnDuration": "Längd",
+			"columnProfile": "Profil",
+			"editProfile": "Redigera {{name}}",
+			"empty": "Inga objekt matchar det här filtret",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profilfilter",
+			"heading": "Tilldela hämtningsprofiler",
+			"menuDescription_one": "Välj profil för den här videon.",
+			"menuDescription_other": "Välj profil för de här {{count}} videorna.",
+			"selectedSummary": "{{selected}} av {{total}} markerade"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Ändra globalt",
+				"chooseFolder": "Välj målmapp",
+				"chooseIcon": "Välj profilikon",
+				"removeLanguage": "Ta bort {{code}}",
+				"reset": "Återställ profil",
+				"resetDisabledHint": "Den här profilen använder redan de inbyggda inställningarna",
+				"resetHint": "Återställ profilens inbyggda inställningar",
+				"save": "Spara profil",
+				"setOverride": "Ange profilåsidosättning",
+				"setOverrideShort": "Ange åsidosättning",
+				"useGlobalDefault": "Använd globalt standardvärde",
+				"useLanguageCode": "Använd språkkoden ”{{code}}”"
+			},
+			"advanced": "Avancerat",
+			"appSetting": "Använd appinställningen ({{value}})",
+			"audioFormat": {
+				"best": "Bästa",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "Upp till 128K",
+				"192": "Upp till 192K",
+				"320": "Upp till 320K",
+				"best": "Bästa kvalitet"
+			},
+			"defaultName": "Ny profil",
+			"destination": {
+				"defaultFolder": "Standardmapp för hämtningar",
+				"defaultFolderWithSubfolder": "Standardmapp för hämtningar / {{subfolder}}",
+				"global": "Globalt mål",
+				"globalActive": "Aktivt",
+				"globalInherited": "Ärvt",
+				"override": "Profilåsidosättning",
+				"overrideChoosing": "Välj mapp",
+				"overrideNone": "Ingen åsidosättning angiven",
+				"overrideNoneNote": "Ingen åsidosättning angiven. Den här profilen använder det globala målet ovan.",
+				"overrideSet": "Åsidosätter globalt",
+				"overrideSetNote": "Den här profilen sparar i sin egen rotmapp innan undermappen läggs till.",
+				"resolved": "Slutligt mål"
+			},
+			"dialogDescription": "En återanvändbar konfiguration för snabbhämtning, flera webbadresser och spellistor.",
+			"dialogTitle": "Hämtningsprofil",
+			"error": {
+				"changeGlobalDestination": "Det gick inte att ändra det globala målet.",
+				"folderPicker": "Det gick inte att öppna mappväljaren. Ange en sökväg manuellt.",
+				"reset": "Det gick inte att återställa profilinställningarna.",
+				"save": "Det gick inte att spara profilinställningarna."
+			},
+			"field": {
+				"delivery": "Leverans",
+				"fileType": "Filtyp",
+				"goal": "Optimera för",
+				"icon": "Profilikon",
+				"languages": "Språk",
+				"name": "Profilnamn",
+				"nameAndIcon": "Profilnamn och ikon",
+				"nativeAudio": "Originalljud",
+				"overridePath": "Sökväg för profilåsidosättning",
+				"quality": "Kvalitet",
+				"resolution": "Upplösning",
+				"source": "Källa",
+				"subfolderName": "Undermappens namn",
+				"subtitleDownloads": "Undertextshämtningar",
+				"subtitleDownloadsDescription": "Profiler begär språkkoder; tillgängligheten avgörs för varje webbadress."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Skarpast vid en given storlek. Äldre tv-apparater, QuickTime och vissa redigeringsprogram kan inte spela upp den.",
+					"name": "Bästa bild",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "Spelas upp på tv-apparater, telefoner, WhatsApp, QuickTime och videoredigerare. YouTube erbjuder H.264 bara upp till 1080p.",
+					"name": "Smart TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Arkiv",
+				"audio": "Ljud",
+				"captions": "Textning",
+				"classes": "Lektioner",
+				"clip": "Klipp",
+				"controls": "Kontroller",
+				"download": "Hämta",
+				"music": "Musik",
+				"podcast": "Podcast",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Musik eller poddar"
+				},
+				"subtitlesOnly": {
+					"description": "Endast textningsfiler"
+				},
+				"videoAudio": {
+					"description": "Vanliga videofiler"
+				},
+				"videoOnly": {
+					"description": "Endast ljudlös video"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Automatisk textning sparas som SRT i stället för ASS.",
+				"noLanguageMatches": "Inga matchande språk",
+				"noSubtitles": "Inga undertextfiler eller inbäddade undertextspår begärs för den här profilen.",
+				"searchLanguages": "Sök efter språknamn eller kod",
+				"skippedForOutputType": "Hoppas över för den här utdatatypen.",
+				"subtitleLanguagesRequired": "Välj minst ett språk.",
+				"subtitleLanguagesRequiredOrOff": "Välj minst ett språk eller stäng av undertextshämtningar.",
+				"subtitlesOnly": "Den här profilen köar bara undertextfiler. Video, ljud, SponsorBlock och mediekonvertering hoppas över."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profiler ärver det globala målet om du inte anger en profilåsidosättning.",
+					"title": "Avancerade alternativ"
+				},
+				"downloadType": {
+					"description": "Välj det huvudsakliga sättet du vill hämta på.",
+					"title": "Hämtningstyp"
+				},
+				"identity": {
+					"description": "Namn och ikon som visas i snabbhämtning, flera webbadresser och profillistor.",
+					"title": "Profilidentitet"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} aktiverat",
+					"enabledCount_other": "{{count}} aktiverade",
+					"title": "Utdataalternativ"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Välj en mapp för den här profilen"
+			},
+			"skipped": "Hoppad över",
+			"sponsorBlockHint": {
+				"mark": "Markerar sponsorsegment som kapitel (icke-destruktivt).",
+				"off": "Ingen SponsorBlock – videon spelas som den laddades upp.",
+				"remove": "Klipper bort sponsorsegment från videon med FFmpeg."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Endast automatiskt genererade",
+				"manualAndAuto": "Manuella och automatiska",
+				"manualFirst": "Manuella först, sedan automatiska",
+				"manualOnly": "Endast manuella"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "Hjälp för {{label}}"
+		},
+		"review": {
+			"areas": {
+				"extras": "extrafunktioner",
+				"fileName": "filnamn",
+				"format": "format",
+				"saveTo": "mapp",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "undertexter"
+			},
+			"callout": {
+				"body": "Undertexter, SponsorBlock, extrafunktioner som miniatyr, mapp och filnamn var tidigare separata steg. Klicka på en rad för att ändra den.",
+				"title": "Alla andra inställningar finns nu på den här sidan"
+			},
+			"changeFormat": "Ändra format",
+			"changed": "Ändrat från {{profile}}: {{areas}}. Gäller bara den här hämtningen.",
+			"changedFrom": "Ändrat från {{profile}}:",
+			"nextTime": {
+				"action": "Spara som profil",
+				"defaultName": "{{profile}} (redigerad)",
+				"title": "Den här hämtningen använde redigerade inställningar. Använda dem nästa gång?"
+			},
+			"reset": "Ångra ändringar, tillbaka till ”{{profile}}”",
+			"rows": {
+				"extras": "Extrafunktioner",
+				"fileName": "Filnamn",
+				"saveTo": "Spara i",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Undertexter"
+			},
+			"rowsHeading": "Allt annat",
+			"save": {
+				"action": "Spara profil",
+				"description": "Behåller de här inställningarna som en profil du kan välja nästa gång. Din profil för snabbhämtning förblir oförändrad.",
+				"failed": "Det gick inte att spara profilen.",
+				"nameLabel": "Profilnamn",
+				"saved": "Sparad som profilen ”{{name}}”",
+				"title": "Spara som profil"
+			},
+			"saveAsProfile": "Spara som ny profil",
+			"update": {
+				"action": "Uppdatera profil",
+				"builtinNote": "Det här är en inbyggd profil. Du kan återställa dess ursprungliga inställningar på fliken Profiler.",
+				"description": "Från och med nu använder varje hämtning med den här profilen de nya inställningarna.",
+				"rows": {
+					"format": "Format"
+				},
+				"title": "Uppdatera ”{{profile}}”?",
+				"updated": "Profilen ”{{name}}” uppdaterades"
+			},
+			"updateProfile": "Uppdatera ”{{profile}}” med de här ändringarna",
+			"value": {
+				"extrasNone": "Inga",
+				"sponsorBlockOff": "Av",
+				"subtitlesOff": "Av"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Utfyllnad",
+				"intro": "Intro",
+				"music_offtopic": "Musik utanför ämnet",
+				"outro": "Outro",
+				"preview": "Förhandsvisning",
+				"selfpromo": "Egenreklam",
+				"sponsor": "Sponsor"
+			},
+			"categoriesHeading": "Kategorier",
+			"mode": {
+				"mark": "Markera som kapitel",
+				"off": "Av",
+				"remove": "Ta bort segment"
+			},
+			"modeHeading": "Sponsorfiltrering",
+			"modeHint": {
+				"mark": "Markerar sponsorsegment som kapitel (icke-destruktivt).",
+				"off": "Ingen SponsorBlock – videon spelas som den laddades upp.",
+				"remove": "Klipper bort sponsorsegment från videon med FFmpeg."
+			}
+		},
+		"steps": {
+			"confirm": "Bekräfta",
+			"folder": "Spara",
+			"formats": "Format",
+			"output": "Utdata",
+			"playlistItems": "Spellista",
+			"playlistItemsGeneric": "Videor",
+			"playlistPresets": "Kvalitet",
+			"playlistProfiles": "Profiler",
+			"review": "Granska",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Undertexter",
+			"url": "Webbadress"
+		},
+		"subtitles": {
+			"autoAssNote": "Automatisk textning sparas som SRT i stället för ASS – för YouTube-videor rensas den från dubbletter orsakade av rullande textrader, vilket vår ASS-konverterare inte kan göra än.",
+			"autoBadge": "Auto",
+			"clearAll": "Rensa alla",
+			"embedNote": "Inbäddningsläget sparar utdata som .mkv så att undertextspår bäddas in tillförlitligt.",
+			"format": {
+				"heading": "Format"
+			},
+			"noLanguages": "Inga undertexter finns för den här videon",
+			"noMatches": "Inga språk matchar",
+			"noSelected": "Inga undertexter valda",
+			"removeLanguage": "Ta bort {{name}}",
+			"saveMode": {
+				"embed": "Bädda in i videon",
+				"heading": "Spara som",
+				"sidecar": "Bredvid videon",
+				"sidecarNoVideo": "I hämtningsmappen",
+				"subfolder": "Undermappen subtitles/"
+			},
+			"searchPlaceholder": "Sök språk …",
+			"sectionAuto": "Automatiskt genererade",
+			"sectionManual": "Manuella"
+		},
+		"tabsNavAria": "Navigering för hämtningsprofiler",
+		"url": {
+			"advanced": "Avancerat",
+			"autoRemoveCompleted": {
+				"description": "Tar bort en hämtning från listan Hämtningar några sekunder efter att den är klar. Filerna finns kvar i din mapp; misslyckade och avbrutna hämtningar stannar kvar i listan.",
+				"label": "Ta bort slutförda hämtningar"
+			},
+			"autoRetry": {
+				"description": "Försöker automatiskt igen efter ett nätverks- eller serverhickup, med längre väntetid mellan varje försök. Hämtningar som webbplatsen blockerar försöks aldrig om automatiskt.",
+				"label": "Försök igen med misslyckade hämtningar",
+				"unit": "gånger"
+			},
+			"bulkButton": "Flera webbadresser",
+			"bulkTooltip": "Lägg till och köa flera webbadresser.",
+			"clearAria": "Rensa webbadress",
+			"clipboard": {
+				"autofilledLink": "Länk tillagd från Urklipp",
+				"bulkHint": "Flera länkar kopierades – använd Flera webbadresser för att lägga till dem",
+				"dialog": {
+					"cancelButton": "Avbryt"
+				},
+				"noLink": "Ingen länk i Urklipp",
+				"readFailed": "Det gick inte att läsa Urklipp – klistra in länken i fältet i stället",
+				"replacedLink": "Ersatt med kopierad länk",
+				"toggle": "Bevaka Urklipp",
+				"toggleDescription": "Fyll i webbadressfältet automatiskt när du kopierar en videolänk.",
+				"undo": "Ångra"
+			},
+			"closeToTray": {
+				"toggle": "Dölj i systemfältet vid stängning",
+				"toggleDescription": "Fortsätt hämta i bakgrunden efter att fönstret stängts."
+			},
+			"concurrentDownloads": {
+				"description": "Hur många köade objekt som hämtas samtidigt. Fler samtidiga gör att en lång kö blir klar snabbare, men ökar risken att en webbplats begränsar dig.",
+				"label": "Samtidiga hämtningar",
+				"unit": "hämtningar"
+			},
+			"concurrentProbes": {
+				"description": "Hur många länkar Klip hämtar information om samtidigt, innan de hämtas. Färre är skonsammare mot webbplatser som blockerar hårt belastade anslutningar. En länk du öppnar i Interaktiv hämtning går alltid först.",
+				"label": "Länkar som kontrolleras samtidigt",
+				"unit": "länkar"
+			},
+			"cookies": {
+				"banWarning": "Webbplatser som YouTube kan flagga, och ibland spärra, konton vars cookies används av hämtningsverktyg som Klip. Använd om möjligt ett engångskonto.",
+				"browserHelp": "Läser cookies direkt från webbläsaren. Webbläsaren måste vara stängd för Chromium-baserade webbläsare.",
+				"browserLabel": "Webbläsare",
+				"browserPlaceholder": "Välj en webbläsare …",
+				"choose": "Välj …",
+				"clear": "Rensa",
+				"enabledButNoBrowser": "Välj en webbläsare för att använda cookies",
+				"enabledButNoFile": "Välj en fil för att använda cookies",
+				"exploreDisabled": "Fliken Utforska är avstängd, så hämtningar använder inte din inloggning i Utforska. Slå på den under Utforska nedan.",
+				"extensionChrome": "Hämta cookies.txt LOKALT (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Cookiefil",
+				"helpLink": "Hur exporterar jag cookies?",
+				"openExplore": "Öppna Utforska",
+				"placeholder": "Ingen fil vald",
+				"recommended": "Rekommenderas",
+				"risk": "Risk: en cookies.txt innehåller alla inloggade sessioner för den webbläsaren – håll den privat.",
+				"sourceBrowser": "Webbläsare",
+				"sourceExplore": "Inloggning i Utforska",
+				"sourceFile": "Fil",
+				"sourceLabel": "Cookiekälla",
+				"sourceOff": "Av",
+				"toggleDescription": "Hjälper med videor som ditt eget konto kan se, till exempel dina privata videor."
+			},
+			"downloadConnections": {
+				"description": "Snabbar upp stora hämtningar genom att hämta flera delar av en video samtidigt. Högre värden ökar risken att en webbplats begränsar dig.",
+				"label": "Hämtningsanslutningar",
+				"unit": "anslutningar"
+			},
+			"downloadList": {
+				"album": "Hämta album …",
+				"liked": "Hämta gillade videor …",
+				"mix": "Hämta Mix …",
+				"playlist": "Hämta spellista …",
+				"uploads": "Hämta uppladdningar …",
+				"watchLater": "Hämta Titta senare …"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Endast ljud",
+					"subtitles": "Undertexter"
+				},
+				"anySite": {
+					"heading": "Över 2 000 webbplatser",
+					"musicPlaylist": "Musikspellistor",
+					"video": "Videor",
+					"videoPlaylist": "Videospellistor"
+				},
+				"heading": "Vad Klip kan hämta",
+				"youtube": {
+					"channel": "Kanaler",
+					"heading": "YouTube",
+					"music": "Musik",
+					"playlist": "Spellistor",
+					"podcast": "Poddar",
+					"short": "Shorts",
+					"video": "Videor"
+				}
+			},
+			"fetchFormatsTooltip": "Stegvis guide. Välj format, kvalitet och mer.",
+			"heading": "Hämta från webbadress",
+			"hotkey": {
+				"changeShortcut": "Ändra kortkommando",
+				"conflict": "Det här kortkommandot används av en annan app – välj ett annat.",
+				"globalLabel": "Globalt kortkommando",
+				"recording": "Tryck på tangenter …",
+				"reset": "Återställ till standard",
+				"sectionDescription": "Hämta vilken länk du än kopierar, från vilken app som helst, utan att öppna Klip.",
+				"sectionTitle": "Globalt kortkommando",
+				"test": "Testa",
+				"toggle": "Aktivera globalt kortkommando",
+				"toggleDescriptionDetail": "Kopiera en videolänk i valfri app och tryck på kortkommandot: Klip köar den med din aktiva profil utan att byta fönster. En länk till en video i en spellista hämtar videon."
+			},
+			"interactiveDownload": "Interaktiv hämtning",
+			"interactiveDownloadAsks": "Interaktiv hämtning …",
+			"limitRate": {
+				"activeWarning": "Aktiva hämtningar behåller sin nuvarande gräns. Pausa och återuppta för att tillämpa ändringar.",
+				"custom": "Anpassad …",
+				"customPlaceholder": "t.ex. 750K eller 1,5M",
+				"description": "Begränsa bandbredden för mediehämtningar. Tempot för förfrågningar nedan är oftast det starkare spaket mot begränsningar.",
+				"invalid": "Använd ett tal följt av K eller M (t.ex. 500K, 1,5M)",
+				"label": "Hastighetsgräns för hämtning",
+				"off": "Av"
+			},
+			"mascotBusy": "Hämtar i bakgrunden … jag kan göra flera saker samtidigt 😎",
+			"mascotCollection": "Snabbhämtning köar inlästa objekt med {{profileName}}. Interaktiv hämtning låter dig granska eller markera objekt först.",
+			"mascotIdle": "Släpp en länk så hämtar Klip den ✨",
+			"mascotSingle": "Snabbhämtning startar en hämtning med {{profileName}}. Använd Interaktiv hämtning för engångsändringar.",
+			"mascotVideoInList": "Den här länken pekar ut en video och listan den ligger i: hämta bara videon, eller listan.",
+			"nativeAudioPreference": {
+				"compatible": "Kompatibelt stereoljud",
+				"description": "Stereo eller surround när en profil väljer originalljud. En profil kan åsidosätta det.",
+				"label": "Inställning för originalljud",
+				"surround": "Föredra surround / Dolby"
+			},
+			"networkPacing": {
+				"description": "Lägg till små pauser under varje hämtning så att Klip inte belastar webbplatsen för hårt. Värdena anges i sekunder.",
+				"fields": {
+					"maxSleepInterval": "Paus innan media startar: max",
+					"sleepInterval": "Paus innan media startar: min",
+					"sleepRequests": "Vänta mellan metadatakontroller",
+					"sleepSubtitles": "Vänta före undertextfiler"
+				},
+				"heading": "Skonsamma hämtningar",
+				"presetLabel": "Hur försiktig ska Klip vara?",
+				"presets": {
+					"balanced": "Balanserad",
+					"careful": "Försiktig",
+					"custom": "Anpassad",
+					"off": "Av"
+				},
+				"summary": "Pauser: {{requests}} mellan kontroller, {{downloads}} innan media startar, {{subtitles}} före undertextfiler.",
+				"tooltip": "De här pauserna sker inom varje hämtning. Hur många hämtningar som körs samtidigt anges separat, under Samtidiga hämtningar.",
+				"tooltips": {
+					"balanced": "Standard. Lägger till korta pauser mellan förfrågningar och innan media startar.",
+					"careful": "Lägger till längre pauser för stora spellistor eller nätverk som ofta når gränser.",
+					"custom": "Justera de avancerade kontrollerna per hämtning själv.",
+					"off": "Använder bara de små grundpauser som Klip behåller för media och undertexter."
+				},
+				"units": {
+					"seconds": "s"
+				}
+			},
+			"openedLink": {
+				"added": "Länk öppnad i Klip",
+				"replaced": "Ersatt med länken som öppnades i Klip"
+			},
+			"pasteLink": "Klistra in länk",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Aktuell gräns: {{count}} objekt",
+				"custom": "Anpassad …",
+				"customDialogCancel": "Avbryt",
+				"customDialogDescription": "Använd ett heltal från {{min}} till {{max}}.",
+				"customDialogSave": "Spara gräns",
+				"customDialogTitle": "Anpassad gräns för spellisteskanning",
+				"customValue": "Anpassad: {{count}} objekt",
+				"description": "Maximalt antal poster som Klip läser in när en spellista, kanal eller ett sökresultat öppnas.",
+				"invalid": "Använd ett heltal från 1 till 5000",
+				"label": "Spellisteobjekt att skanna",
+				"option": "{{count}} objekt"
+			},
+			"playlistScope": {
+				"appLimit": "Använd appens gräns: {{count}}",
+				"apply": "Tillämpa",
+				"applyError": "Det gick inte att tillämpa det spellisteomfånget: {{message}}",
+				"applyReload": "Tillämpa och läs in igen",
+				"cancel": "Avbryt",
+				"change": "Ändra",
+				"dialogDescription": "Välj vad Klip läser in för den här spellistan.",
+				"dialogTitle": "Spellisteomfång",
+				"emptyTitle": "Inga videor i det omfånget",
+				"first": "Första",
+				"invalid": "Använd hela objektnummer från 1 till {{max}}, där starten inte är högre än slutet.",
+				"itemsLabel": "Objekt att läsa in",
+				"label": "Spellisteomfång",
+				"range": "Intervall",
+				"reloading": "Läser in igen ...",
+				"reset": "Återställ",
+				"summaryAppLimit": "Läs in de första objekten: {{count}}",
+				"summaryFirst": "Läs in de första objekten: {{count}}",
+				"summaryRange": "Läs in objekt {{from}}–{{to}}",
+				"to": "till"
+			},
+			"profile": {
+				"activeLabel": "Aktiv profil",
+				"badgeBuiltIn": "Inbyggd",
+				"badgeCustom": "Anpassad",
+				"badgeDisabled": "Dold",
+				"badgeModified": "Ändrad",
+				"builtinName": {
+					"audio-only": "Endast ljud",
+					"balanced": "Balanserad 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "Bästa kvalitet",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "Lägsta kvalitet 144p",
+					"low-240": "Lite data 240p",
+					"mp4-1080": "Smart TV 1080p",
+					"mp4-480": "Smart TV 480p",
+					"mp4-720": "Smart TV 720p",
+					"small-file": "Liten fil 480p",
+					"subtitles-only": "Endast undertexter"
+				},
+				"changeGlobalDestination": "Ändra globalt mål",
+				"destinationDetail": {
+					"global": "Använder globalt mål",
+					"globalSubfolder": "Använder globalt mål + profilens undermapp",
+					"override": "Använder profilåsidosättning",
+					"overrideSubfolder": "Använder profilåsidosättning + profilens undermapp"
+				},
+				"destinationEditHint": "Redigera profilen för att ändra var den sparar.",
+				"destinationFallback": "Mål",
+				"edit": "Redigera",
+				"editActive": "Redigera aktiv profil",
+				"enableHint": "Dolda profiler finns kvar här men försvinner från alla profilväljare.",
+				"enableToggleAria": "Visa profil i väljare: {{profileName}}",
+				"lastEnabledHint": "Behåll minst en profil tillgänglig.",
+				"manageProfiles": "Hantera profiler",
+				"menuDescription": "Ändra den aktiva profilen för snabbhämtning, flera webbadresser och spellistor.",
+				"menuTitle": "Byt profil",
+				"movableProfile": "flyttbar profil",
+				"moveCancelled": "Flyttningen avbröts. {{profileName}} stannar på plats {{position}} av {{count}}.",
+				"moveDropped": "{{profileName}} släpptes på plats {{position}} av {{count}}.",
+				"moveHandleAria": "Flytta {{profileName}}",
+				"moveInstructions": "Om du vill flytta en profil trycker du på Blanksteg eller Retur, flyttar den med piltangenterna och trycker sedan på Blanksteg eller Retur för att släppa den. Tryck på Escape för att avbryta.",
+				"moveOver": "{{profileName}} ligger över plats {{position}} av {{count}}.",
+				"movePickedUp": "{{profileName}} plockades upp. Den ligger på plats {{position}} av {{count}}.",
+				"newProfile": "Ny profil",
+				"outputMissing": "Den här profilen sparar i en mapp som inte är angiven. Välj en mapp i profilen eller återställ den till standard.",
+				"panelDescription": "Skapa, välj, redigera eller ta bort återanvändbara hämtningskonfigurationer.",
+				"panelTitle": "Hämtningsprofiler",
+				"remove": "Ta bort",
+				"reorderHint": "Dra en profil för att flytta den. Alla profilväljare följer den här ordningen.",
+				"reset": "Återställ",
+				"savesTo": "Sparar i",
+				"switchAria": "Byt hämtningsprofil: {{profileName}}",
+				"switchTitle": "Byt hämtningsprofil"
+			},
+			"proxy": {
+				"clear": "Rensa",
+				"description": "Skicka trafik via en proxyserver.",
+				"label": "Proxyadress",
+				"placeholder": "http://värd:port"
+			},
+			"quickDownload": "Snabbhämtning",
+			"quickDownloadTooltip": "Hämtar med: {{profileName}}",
+			"quickFailed": "Det gick inte att lägga till den här: {{error}}",
+			"quickPrepareFailed": "Köobjektet kunde inte förberedas",
+			"quickPreparing": "Förbereder",
+			"quickProbeFailed": "Analysen misslyckades",
+			"quickSingleOnly": "Klistra in en webbadress till en video, spellista, kanal eller sökning för att komma igång.",
+			"reports": {
+				"toggle": "Skicka anonyma hjärtslags- och konfigurationsrapporter",
+				"toggleDescription": "Ingen spårning. En gång om dagen skickar en anonym hjärtslagssignal appversion, installationskanal, operativsystem, språk, land och ungefär hur länge sedan Klip installerades, så att vi kan räkna aktiva och nya användare. När Klip konfigurerar eller uppdaterar sin hämtningsmotor eller sina mediaverktyg rapporterar den också om det lyckades och ungefär hur lång tid det tog. Inga ID:n, webbadresser, videotitlar eller filnamn."
+			},
+			"settings": {
+				"behaviorDescription": "Globalt beteende som även påverkar profilstyrda hämtningar.",
+				"behaviorHeading": "Hämtningsbeteende",
+				"inputHeading": "Inmatning"
+			},
+			"style": {
+				"aurora": {
+					"description": "Glaspaneler över en rörlig himmel. Kräver grafikacceleration.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Solida, lugna ytor. Går lätt på alla datorer.",
+					"label": "Minimal"
+				},
+				"modeDescription": "Båda stilarna finns i ljust och mörkt läge.",
+				"modeLabel": "Stil",
+				"panelDescription": "Hur Klip ser ut. Växla mellan ljust och mörkt i sidfoten.",
+				"panelTitle": "Utseende",
+				"unavailableNotice": "{{style}} kräver grafikacceleration, som inte är tillgänglig just nu, så Klip visar {{fallback}}."
+			},
+			"tabs": {
+				"profiles": "Profiler",
+				"settings": "Inställningar"
+			},
+			"thisVideo": "Den här videon",
+			"thisVideoTooltip": "Hämtar bara den här videon med {{profileName}}"
+		}
+	}
+}

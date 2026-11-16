@@ -1,0 +1,1798 @@
+{
+	"about": {
+		"button": "Hakkında",
+		"githubLink": "GitHub",
+		"thirdPartyNotices": "Üçüncü taraf bildirimlerini görüntüle",
+		"websiteLink": "Web sitesi"
+	},
+	"aiUpscaled": {
+		"allow": "İzin ver",
+		"allowedSummary": "YZ ile büyütülenlere izin verildi",
+		"description": "YouTube bazı eski videoları yapay zekâyla oluşturduğu boyutlarda sunar. Atla, orijinal akışları korur; büyütülmüş bir akışı yine de elle seçebilirsiniz.",
+		"label": "YZ ile büyütülmüş akışlar",
+		"skip": "Atla"
+	},
+	"app": {
+		"feedback": "Geri bildirim",
+		"feedbackNudge": "Klip hoşuna gidiyor mu? Senden haber almak isterim! 💬",
+		"logs": "Günlükler",
+		"saveDiagnostics": "Tanılama dosyasını kaydet",
+		"saveDiagnosticsDescription": "Günlükleri ve uygulama bilgilerini İndirilenler klasöründe tek bir dosyada toplar; dosya bir GitHub issue'suna eklenmeye hazırdır. Kullanıcı klasörünüzün adı kaldırılır; video bağlantıları ve başlıkları korunur.",
+		"styleHint": "Yeni: Aurora veya Minimal'i buradan seçin",
+		"theme": "Tema",
+		"zoomIn": "Yakınlaştır",
+		"zoomOut": "Uzaklaştır"
+	},
+	"common": {
+		"back": "Geri",
+		"cancel": "İptal",
+		"close": "Kapat",
+		"continue": "Devam et",
+		"loading": "Yükleniyor…",
+		"retry": "Tekrar dene",
+		"startOver": "Baştan başla"
+	},
+	"dialogs": {
+		"closeToTray": {
+			"detail": "Klip çalışmaya devam eder ve etkin indirmeleri bitirir. Bunu daha sonra Gelişmiş ayarlardan değiştirebilirsin.",
+			"hide": "Tepsiye gizle",
+			"message": "Kapatırken Klip sistem tepsisine gizlensin mi?",
+			"quit": "Çık",
+			"remember": "Bir daha sorma"
+		},
+		"quitWithActiveDownloads": {
+			"continueDetail": "Kuyruğun korunur; indirmeler, Klip’yi bir sonraki açışında kaldıkları yerden devam eder.",
+			"keep": "İndirmeye Devam Et",
+			"message_one": "{{count}} indirme sürüyor",
+			"message_other": "{{count}} indirme sürüyor",
+			"quit": "Çık"
+		},
+		"rendererCrashed": {
+			"detail": "Renderer süreci çöktü ({{reason}}). Tekrar denemek için yeniden yükle.",
+			"message": "Klip bir sorunla karşılaştı",
+			"quit": "Çık",
+			"reload": "Yeniden yükle"
+		}
+	},
+	"donate": {
+		"copied": "Kopyalandı!",
+		"copyAddress": "Adresi kopyala",
+		"description": "Klip ücretsiz ve açık kaynaklıdır; reklam ve ücretli plan yoktur. Bağışlar isteğe bağlıdır ve yol haritası üzerinde etki sağlamaz.",
+		"footerLabel": "Bağış yap",
+		"footerTooltip": "Klip'yi destekle",
+		"qrAlt": "{{coin}} bağış adresi QR kodu",
+		"title": "Klip'yi destekle",
+		"warning": "Kripto ödemeleri geri alınamaz. Yalnızca gösterilen ağ üzerinden gönderin ve adresin tamamını karşılaştırın."
+	},
+	"errors": {
+		"noSubtitlesIn": "Bu videoda {{languages}} altyazı yok.",
+		"ytdlp": {
+			"ageRestricted": "Bu video yaş kısıtlamalı ve oturum açılmış hesap olmadan indirilemez.",
+			"botBlock": "Sitenin bot koruması bu indirmeyi durdurdu. Bir süre bekleyip yeniden dene ya da aynı anda daha az video indir. Sorun sürerse bu geçici bir site tarafı değişikliği olabilir — Klip açılışta indirme motorunu günceller, bu yüzden düzeltme yayınlandığında çözüm otomatik gelir.",
+			"chunkTransferFailure": "Sunucu indirmeyi akış ortasında kesmeye devam etti ve Klip tekrar denemelerden sonra vazgeçti. Bu genelde en büyük video biçimlerinde görülür (4K HDR / yüksek bit hızlı VP9). Tekrar dene, ağı/VPN’i değiştir veya daha düşük çözünürlük seç.",
+			"drmProtected": "Bu video DRM korumalı. Klip DRM’i kaldıramaz, bu yüzden dosya indirilemez.",
+			"formatUnavailable": "Bu video artık seçtiğin biçimi sunmuyor. Bağlantıyı tekrar yapıştır ve şu anda sunulan biçimlerden birini seç.",
+			"geoBlocked": "Bu video bölgenizde kullanılamıyor.",
+			"ipBlock": "Site bu bağlantıdan gelen istekleri engelliyor. Daha sonra yeniden dene.",
+			"loginRequired": "Bu video, oturum açılmış bir hesap gerektiriyor.",
+			"missingDependency": "Klip, FFmpeg veya FFprobe’u bulamadı. Kurulumu yeniden çalıştır ya da bir FFmpeg konumu belirle, ardından indirmeyi tekrar dene.",
+			"network": "Ağ hatası. Bağlantını kontrol edip tekrar dene.",
+			"noSubtitles": "Bu videoda istenen dillerde altyazı yok.",
+			"outOfDiskSpace": "Yeterli disk alanı yok. Yer açıp tekrar dene.",
+			"outputNotWritable": "Klip indirme klasörüne yazamıyor. Klasör salt okunur olabilir, kilitli bir sürücüde olabilir ya da sisteminin gizlilik ayarları tarafından engelleniyor olabilir. Başka bir klasör seç veya erişime izin ver, sonra tekrar dene.",
+			"parse": "Siteden gelen yanıt ayrıştırılamadı. Site videoları sunma biçimini değiştirmiş olabilir. Klip açılışta indirme motorunu günceller — düzeltme yayınlandıktan birkaç dakika sonra tekrar dene.",
+			"postprocessFailure": "İndirme tamamlandı ama son işleme (birleştirme / mux / dönüştürme) başarısız oldu. Çoğu zaman geçici bir ffmpeg sorunudur — tekrar dene; sürerse farklı bir biçim kombinasyonu dene.",
+			"rateLimit": "Site bu bağlantıdan gelen istekleri sınırlıyor.",
+			"unavailable": "Bu video kullanılamıyor — özel, silinmiş veya bölge kilitli olabilir.",
+			"unknown": "İndirme başarısız oldu. Aşağıdaki ham çıktıya bak.",
+			"unsupportedUrl": "Klip bu URL’yi desteklemiyor. Farklı bir siteden bir bağlantı dene."
+		}
+	},
+	"explore": {
+		"error": {
+			"loadBody": "Bağlantını kontrol et, sonra tekrar dene.",
+			"loadTitle": "Bu sayfa yüklenmedi",
+			"openSettings": "Ayarları aç",
+			"proxyBody": "Ayarlar'daki proxy'yi kontrol et, sonra tekrar dene.",
+			"proxyTitle": "Keşfet, proxy'n üzerinden bağlanamıyor",
+			"retry": "Tekrar dene"
+		},
+		"linkCallout": {
+			"body": "Sayfadaki herhangi bir video, oynatma listesi veya kanal bağlantısına sağ tıklayarak etkin profilinle indirebilir, başka bir profil seçebilir veya Etkileşimli İndirme'yi açabilirsin.",
+			"title": "İndirmek için bir bağlantıya sağ tıkla"
+		},
+		"linkMenu": {
+			"background": {
+				"album": "Albümü arka planda indir",
+				"liked": "Beğendiğin videoları arka planda indir",
+				"mix": "Mix’i arka planda indir",
+				"playlist": "Oynatma listesini arka planda indir",
+				"uploads": "Yüklemeleri arka planda indir",
+				"watchLater": "“Daha sonra izle”yi arka planda indir"
+			},
+			"copyLink": "Bağlantıyı kopyala",
+			"downloadFirst": "İlk {{count}} öğeyi indir",
+			"downloadThisVideo": "Bu videoyu indir · {{profileName}}",
+			"downloadWith": "Profille indir",
+			"fromList": {
+				"album": "Bu albümden",
+				"liked": "Beğendiğin videolardan",
+				"mix": "Bu Mix’ten",
+				"playlist": "Bu oynatma listesinden",
+				"uploads": "Bu kanalın yüklemelerinden",
+				"watchLater": "“Daha sonra izle”den"
+			},
+			"interactive": "Etkileşimli İndirme…",
+			"thisVideoWith": "Bu videoyu profille indir"
+		},
+		"newBadge": "Yeni",
+		"notice": {
+			"body": "YouTube'da veya başka herhangi bir sitede bir video bul ve buradan indir — bağlantı kopyalamadan. Hesap gerektiren videoları indirmek için burada bir sitede oturum aç.",
+			"continue": "Devam et",
+			"riskBody": "YouTube gibi siteler, Klip gibi indirme araçlarıyla kullanılan hesapları işaretleyebilir ve bazen yasaklayabilir. Ana hesabını değil, kaybetmeyi göze alabileceğin bir hesap kullan.",
+			"riskTitle": "İkincil bir hesapla oturum aç",
+			"title": "Web'de doğrudan Klip içinde gez"
+		},
+		"nudge": {
+			"browser": "İndirmeler Keşfet oturumunu değil, tarayıcının çerezlerini kullanır.",
+			"file": "İndirmeler Keşfet oturumunu değil, çerez dosyanı kullanır.",
+			"notNow": "Şimdi değil",
+			"off": "Çerezler kapalı, bu yüzden indirmeler Keşfet oturumunu kullanmaz.",
+			"useExplore": "Keşfet oturumunu kullan"
+		},
+		"settings": {
+			"description": "YouTube'da veya başka herhangi bir sitede Klip içinde gez ve hesap gerektiren videolar için oturum aç.",
+			"idleUnload": "Uzaktayken belleği boşalt",
+			"idleUnloadDescription": "Başka bir sekmede 5 dakika geçince YouTube ana sayfasını veya arama sayfasını kapatır. Geri döndüğünde yeniden yüklenir, bu birkaç saniye sürer.",
+			"searchEngine": "Arama motoru",
+			"searchEngineDescription": "Adres çubuğuna yazılan metin bu arama motorunda aranır. Bağlantılar yazıldığı gibi açılır.",
+			"showTab": "Keşfet sekmesini göster",
+			"showTabDescription": "Kapatmak, indirmelerin Keşfet oturumunu kullanmasını da durdurur.",
+			"signOut": "Keşfet'ten çıkış yap",
+			"signOutConfirm": "Çıkış yap",
+			"signOutConfirmBody": "Bu, Keşfet'teki oturumlarını ve gezinme verilerini her sitede temizler. Hesap gerektiren indirmeler, yeniden oturum açana kadar başarısız olur.",
+			"signOutConfirmTitle": "Keşfet'ten çıkış yapılsın mı?",
+			"signOutDescription": "Keşfet'teki oturumlarını ve gezinme verilerini her sitede temizler.",
+			"title": "Keşfet"
+		},
+		"tabLabel": "Keşfet",
+		"toolbar": {
+			"adBlock": {
+				"accountNote": "YouTube, giriş yapılmış hesaplarda reklam engelleyicilere karşı önlem alabilir.",
+				"aria": "Reklam engelleyici",
+				"off": "Reklam engelleyici: kapalı — açmak için tıkla",
+				"on": "Reklam engelleyici: açık — kapatmak için tıkla",
+				"starting": "Reklam engelleyici: başlıyor — kapatmak için tıkla",
+				"unavailable": "Reklam engelleyici: kullanılamıyor, filtre listeleri indirilemedi — kapatmak için tıkla"
+			},
+			"addressAria": "Adres",
+			"addressPlaceholder": "{{engine}} ile ara veya herhangi bir siteyi aç (Vimeo, Instagram…)",
+			"aria": "Keşfet tarayıcı denetimleri",
+			"back": "Geri",
+			"compactLayout": "Kompakt düzen",
+			"download": "İndir",
+			"downloadWithProfile": "İndir · {{profileName}}",
+			"forward": "İleri",
+			"fullLayout": "Tam düzeni göster",
+			"grabUnavailable": "İndirmek için bir video, oynatma listesi veya kanal aç",
+			"home": "YouTube ana sayfası",
+			"interactiveHint": "Etkileşimli İndirme: biçim, altyazı ve daha fazlasını seç…",
+			"refusedHint": "Keşfet bu adresi açamıyor.",
+			"reload": "Yeniden yükle",
+			"searchTooLong": "Bu arama çok uzun.",
+			"thisVideo": "Bu video",
+			"thisVideoHint": "Yalnızca bu videoyu {{profileName}} ile indir",
+			"zoom": {
+				"hint": "Sayfa yakınlaştırma: {{percent}}%",
+				"in": "Yakınlaştır",
+				"label": "Sayfa yakınlaştırma",
+				"out": "Uzaklaştır",
+				"percent": "Yakınlaştırma yüzdesi",
+				"reset": "Yakınlaştırmayı %100'e sıfırla"
+			}
+		}
+	},
+	"fileType": {
+		"auto": "Otomatik",
+		"autoValue": "Otomatik (.{{ext}})",
+		"description": {
+			"auto": "Dosya türünü seçilen akışlar belirler.",
+			"mkv": "Her kodeği barındırır. Bazı TV’ler ve telefonlar açamaz.",
+			"mp4": "Neredeyse her yerde oynatılır. MP4 içindeki VP9, QuickTime’da görüntü oynatmaz.",
+			"webm": "Tarayıcılar için açık biçim. Yalnızca VP9 veya AV1 ile Opus barındırır."
+		},
+		"mkv": "MKV",
+		"mp4": "MP4",
+		"mp4CaveatAv1": "MP4 içindeki AV1’i QuickTime’da oynatmak için yeni bir Mac gerekir. H.264 her yerde oynatılır.",
+		"mp4CaveatVp9": "MP4 içindeki VP9, QuickTime’da görüntü oynatmaz. H.264 her yerde oynatılır.",
+		"profileMark": "Profil",
+		"smartTvNoWebm": "WebM, Akıllı TV ile sunulmaz: H.264’ü barındıramaz.",
+		"webm": "WebM",
+		"webmBlocked": "WebM, {{codec}} barındıramaz. MKV veya MP4 seçin."
+	},
+	"filenameTemplate": {
+		"description": "İndirilen dosyaların nasıl adlandırılacağını seç. Eklemek için bir simgeye tıkla. İndirmeleri klasörlere ayırmak için / kullan.",
+		"error": {
+			"empty": "Bir dosya adı şablonu girin.",
+			"empty-segment": "Fazladan / işaretini kaldır — her klasörün bir adı olmalı.",
+			"forbidden-char": "Dosya adlarında izin verilmeyen karakterleri kaldır: \\ : * ? \" < > |",
+			"invalid-segment": "Bu klasör adına izin verilmiyor. . ve .. ile CON gibi ayrılmış adlardan kaçın.",
+			"no-unique-token": "Her indirmenin kendi adı olması için dosya adına {title} veya {id} ekle.",
+			"resolution-in-dir": "{resolution} bir klasöre ad olamaz — kalite ancak indirme başlayınca belli olur.",
+			"stray-brace": "Eşleşmeyen { veya } — belirteçleri {title} gibi yazın.",
+			"too-long": "Şablon çok uzun.",
+			"unknown-token": "Bilinmeyen belirteç {{token}}."
+		},
+		"idEndingWarning": "Klip’nin daha önce indirilmiş oynatma listesi öğelerini algılayıp .m3u oynatma listeleri oluşturabilmesi için adı [{id}] ile bitir.",
+		"label": "Dosya adı şablonu",
+		"m3uDisabledIdEnding": "Kullanılamıyor çünkü dosya adı şablonun [{id}] ile bitmiyor ya da indirmeleri klasörlere ayırıyor.",
+		"previewPlaylist": "Oynatma listesinde",
+		"previewSingle": "Tek video",
+		"profileOverrideDescription": "Genel şablonu kullanmak için boş bırakın.",
+		"profileOverrideLabel": "Dosya adı şablonu"
+	},
+	"formatLabel": {
+		"audioFallback": "Ses",
+		"audioOnlyDot": "Yalnızca ses · {{audio}}",
+		"videoDot": "{{resolution}} · {{audio}}"
+	},
+	"hdrPreference": {
+		"auto": "Otomatik",
+		"description": "Otomatik, bu ekran HDR gösterebiliyorsa HDR’yi, değilse SDR’yi seçer. HDR, normal ekranlarda soluk görünür.",
+		"hdr": "HDR",
+		"label": "HDR video",
+		"sdr": "SDR"
+	},
+	"language": {
+		"label": "Dil"
+	},
+	"notifications": {
+		"exploreSignInRetrying_one": "Keşfet ile oturum açıldı — 1 bağlantı yeniden deneniyor",
+		"exploreSignInRetrying_other": "Keşfet ile oturum açıldı — {{count}} bağlantı yeniden deneniyor",
+		"exploreSignOutFailed": "Keşfet'ten çıkış yapılamadı. Tekrar dene.",
+		"filenameFolderTooDeep": "Bu klasör sisteminiz için çok derin. İndirme yine de başarısız olabilir — daha kısa bir klasör seçin.",
+		"filenameTemplateCannotFit": "Bu videonun adı şablonunuzun her parçasına sığmıyor, bu yüzden varsayılan ad kullanıldı.",
+		"folderSelectFailed": "Klasör seçici açılamadı.",
+		"hotkey": {
+			"alreadyQueued": "Zaten kuyrukta — kopya eklenmedi",
+			"cookiesSetup": "Klip'de çerez kurulumunu bitir, sonra yeniden dene",
+			"invalidClipboard": "Panoda bağlantı yok — önce bir tane kopyalayın",
+			"multipleUrls": "Birden fazla bağlantı kopyalandı — Klip'de Toplu URL'leri kullanın",
+			"needsReview": "Bu bağlantı için seçim yapman gerekiyor — Klip'de İndirmeler'e bak",
+			"queued": "İndirme panodan eklendi",
+			"submissionFailed": "Bu bağlantı eklenemedi — Klip'de yeniden deneyin"
+		},
+		"playlistFolderRejected": "Bu klasör bu oynatma listesi için kullanılamaz.",
+		"queue": {
+			"skippedAlreadyQueued_one": "{{count}} video zaten kuyrukta — atlandı",
+			"skippedAlreadyQueued_other": "{{count}} video zaten kuyrukta — atlandı"
+		},
+		"quickDownload": {
+			"added": "Eklendi: {{title}}",
+			"alreadyQueued": "Zaten kuyrukta",
+			"batchAdded_one": "{{count}} bağlantı İndirmeler’e eklendi",
+			"batchAdded_other": "{{count}} bağlantı İndirmeler’e eklendi",
+			"batchAlreadyQueued_one": "{{count}} zaten kuyrukta",
+			"batchAlreadyQueued_other": "{{count}} zaten kuyrukta",
+			"batchNoneAdded_one": "{{count}} bağlantı eklenemedi",
+			"batchNoneAdded_other": "{{count}} bağlantı eklenemedi",
+			"batchNotAdded_one": "{{count}} eklenemedi",
+			"batchNotAdded_other": "{{count}} eklenemedi",
+			"chooseFromList_one": "Bu listede {{count}} video var — neyi indireceğini seç",
+			"chooseFromList_other": "Bu listede {{count}} video var — neyi indireceğini seç",
+			"chooseHowMany_one": "{{count}}+ video — kaç tane olacağını seç",
+			"chooseHowMany_other": "{{count}}+ video — kaç tane olacağını seç",
+			"failed": "{{title}} hazırlanamadı",
+			"notAdded": "Bu bağlantı eklenemedi — yeniden dene",
+			"view": "Görüntüle"
+		},
+		"settingsSaveFailed": "Ayarların kaydedilemedi.",
+		"shellActionFailed": "Bu açılamadı.",
+		"warmupFailed": "Kurulum tamamlanmadı. Tamamlanana kadar bazı indirmeler başarısız olabilir."
+	},
+	"playlistPresets": {
+		"audioFormat": {
+			"best": "Ses (en iyi)",
+			"m4a": "M4A",
+			"mp3": "MP3",
+			"opus": "Opus"
+		},
+		"audioFormatBitrate": "Ses ({{format}} {{kbps}}K)",
+		"audioFormatDesc": {
+			"best": "Yerel en iyi ses, yeniden kodlama yok",
+			"m4a": "M4A’ya (AAC) dönüştür",
+			"mp3": "MP3’e dönüştür",
+			"opus": "Opus’a dönüştür"
+		},
+		"mp4Cap": "YouTube’da 1080p üzeri H.264 kullanılamaz — otomatik olarak 1080p ile sınırlanır",
+		"subtitles": {
+			"deliveryHeading": "Kaydetme biçimi",
+			"deliveryLoose": "Doğrudan kayıt klasörüne",
+			"languages": "Diller",
+			"languagesRequired": "Devam etmek için en az bir dil seçin.",
+			"note": "Her video için yalnızca altyazı dosyaları kaydedilir — video veya ses indirilmez.",
+			"source": "Kaynak"
+		},
+		"tier": {
+			"144": "144p’ye kadar",
+			"240": "240p’ye kadar",
+			"360": "360p’ye kadar",
+			"480": "480p’ye kadar",
+			"720": "720p’ye kadar",
+			"1080": "1080p’ye kadar",
+			"1440": "1440p’ye kadar",
+			"2160": "4K’ya kadar",
+			"best": "En iyi kalite"
+		},
+		"tierDesc": {
+			"144": "Mümkün olan en küçük dosyalar",
+			"240": "Çok küçük dosyalar, düşük kalite",
+			"360": "Kısıtlı bant genişliği için küçük dosyalar",
+			"480": "Düşük bant genişliği",
+			"720": "Daha küçük dosyalar, geniş uyumluluk",
+			"1080": "1080p ile sınırlı, her öğede daha düşüğe düşebilir",
+			"1440": "2K ile sınırlı, her öğede daha düşüğe düşebilir",
+			"2160": "2160p ile sınırlı, her öğede daha düşüğe düşebilir",
+			"best": "Her öğe için en yüksek kullanılabilir video + ses"
+		},
+		"type": {
+			"audio": "Ses",
+			"subtitles": "Altyazılar",
+			"video": "Video"
+		},
+		"videoFormat": {
+			"best": "En iyi yerel",
+			"mp4": "Akıllı TV H.264 MP4"
+		},
+		"videoFormatDesc": {
+			"best": "Her öğe için en iyi kullanılabilir kapsayıcı ve kodekler",
+			"mp4": "Mümkün olduğunda MP4 içinde H.264 video + AAC ses tercih et"
+		}
+	},
+	"queue": {
+		"artifact": {
+			"companion": "Eşlikçi",
+			"description": "Açıklama",
+			"media": "Medya",
+			"missing": "Eksik",
+			"subtitle": "Altyazı",
+			"thumbnail": "Küçük resim",
+			"unknown": "Çıktı"
+		},
+		"attentionBadge_one": "{{count}} indirme dikkatini bekliyor",
+		"attentionBadge_other": "{{count}} indirme dikkatini bekliyor",
+		"autoRemoveCompleted": {
+			"hint": "Her indirmeyi bittikten birkaç saniye sonra listeden kaldırır. Dosyalar klasörünüzde kalır.",
+			"label": "Bitenleri otomatik temizle"
+		},
+		"cancelAllTitle": "Tüm etkin ve bekleyen indirmeleri iptal et",
+		"choice": {
+			"all": "Tüm videolar",
+			"cappedBody_one": "Bu oynatma listesinde {{count}} videodan fazlası var. Hepsini, ilk {{count}} videoyu indir ya da bir inceleme ile seç.",
+			"cappedBody_other": "Bu oynatma listesinde {{count}} videodan fazlası var. Hepsini, ilk {{count}} videoyu indir ya da bir inceleme ile seç.",
+			"first": "İlk {{count}}",
+			"list": {
+				"album": "Albüm",
+				"liked": "Beğenilen videolar",
+				"mix": "Mix",
+				"playlist": "Oynatma listesi",
+				"uploads": "Tüm yüklemeler",
+				"watchLater": "“Daha sonra izle”"
+			},
+			"pick": "Aralarından seç…",
+			"review": "Gözden geçir",
+			"uncappedBody_one": "Bu bağlantı {{count}} videoluk bir liste. İndir ya da bir inceleme ile seç.",
+			"uncappedBody_other": "Bu bağlantı {{count}} videoluk bir liste. Hepsini indir ya da bir inceleme ile seç.",
+			"video": "Bu video",
+			"videoOrList": {
+				"album": "Bu bağlantı bir albümdeki bir video. Yalnızca videoyu mu indirelim, albümü mü?",
+				"liked": "Bu bağlantı, beğendiğin videolar arasındaki bir video. Yalnızca videoyu mu indirelim, beğendiğin tüm videoları mı?",
+				"mix": "Bu bağlantı bir Mix’teki bir video. Yalnızca videoyu mu indirelim, Mix’i mi?",
+				"playlist": "Bu bağlantı bir oynatma listesindeki bir video. Yalnızca videoyu mu indirelim, oynatma listesini mi?",
+				"uploads": "Bu bağlantı bir kanalın yüklemelerindeki bir video. Yalnızca videoyu mu indirelim, tüm yüklemeleri mi?",
+				"watchLater": "Bu bağlantı “Daha sonra izle” listendeki bir video. Yalnızca videoyu mu indirelim, listenin tamamını mı?"
+			}
+		},
+		"clearTitle": "Tamamlanan indirmeleri temizle",
+		"empty": "Kuyruktaki indirmeler burada görünecek",
+		"filterAll": "Tümü",
+		"filtersLabel": "Kuyruk durumu filtreleri",
+		"globalActionsLabel": "Tüm öğeler",
+		"header": "İndirmeler",
+		"item": {
+			"audioKept": "Ses kaldırılamadı",
+			"audioKeptSubtitlesFailed": "Ses kaldırılamadı · bazı altyazılar indirilemedi",
+			"cancel": "İptal",
+			"defaultError": "İndirme başarısız oldu",
+			"openDestinationFolder": "Hedef klasörü aç",
+			"pause": "Duraklat",
+			"pendingOnly": "Yalnızca bekleyenler",
+			"pullNow": "Şimdi çek — kuyruğu atla",
+			"qualityLimited": "{{height}}p ile sınırlı",
+			"qualityLimitedSubtitlesFailed": "{{height}}p ile sınırlı · bazı altyazılar indirilemedi",
+			"remove": "Kaldır",
+			"resume": "Sürdür",
+			"retry": "Tekrar dene",
+			"retryingSoon": "otomatik yeniden deneniyor (deneme {{attempt}})",
+			"setLocation": "Konum ayarla",
+			"setLocationHint": "Konum ayarlamak için bekleyen öğeleri seç.",
+			"statusCancelled": "İptal edildi",
+			"statusDone": "Tamamlandı",
+			"statusError": "Hata",
+			"statusHeld": "Bekletildi",
+			"statusNeedsChoice": "Seçimini bekliyor",
+			"statusPaused": "Duraklatıldı",
+			"statusPending": "Bekliyor",
+			"statusProbing": "Ayrıntılar alınıyor",
+			"statusRunning": "İndiriliyor",
+			"subtitleLanguagesMissing": "{{languages}} altyazı yok",
+			"waitingForSite": "{{site}} için {{time}} saatine kadar bekliyor",
+			"waitingHint": "{{site}} bu bağlantıdan gelen istekleri sınırlıyor. Sınırın kalkabilmesi için Klip bu bağlantının ayrıntılarını {{time}} sonrasında alır."
+		},
+		"listOffer": {
+			"dismiss": "Kapat",
+			"from": {
+				"album": "Bir albümden",
+				"liked": "Beğendiğin videolardan",
+				"mix": "Bir Mix’ten",
+				"playlist": "Bir oynatma listesinden",
+				"uploads": "Bir kanalın yüklemelerinden",
+				"watchLater": "“Daha sonra izle”den"
+			},
+			"get": {
+				"album": "Albümün tamamını al",
+				"liked": "Beğenilen tüm videoları al",
+				"mix": "Mix’in tamamını al",
+				"playlist": "Oynatma listesinin tamamını al",
+				"uploads": "Tüm yüklemeleri al",
+				"watchLater": "“Daha sonra izle”nin tamamını al"
+			},
+			"hint": "Listeyi ayrı bir satır olarak ekler. Bu video dışarıda kalır."
+		},
+		"pauseAllTitle": "Tüm etkin indirmeleri duraklat ve yenilerinin başlamasını durdur",
+		"pausedBanner": "Kuyruk duraklatıldı — bekleyen indirmeler, kuyruğu sürdürene kadar başlamaz",
+		"resumeAllTitle": "Duraklatılan indirmeleri sürdür ve kuyruğun devam etmesine izin ver",
+		"resumeQueueAction": "Kuyruğu sürdür",
+		"selectedActionsLabel": "Seçili öğeler",
+		"selectionSummary": "{{selected}} seçili · {{total}} toplam",
+		"tabLabel": "İndirmeler",
+		"tabTip": "İndirmeler artık İndirmeler sekmesinde — ilerlemeyi izlemek için istediğin zaman aç.",
+		"table": {
+			"added": "Eklendi",
+			"artifacts": "Çıktılar",
+			"columnDropped": "{{column}} sütunu bırakıldı.",
+			"columnMoveCancelled": "{{column}} sütununu taşıma iptal edildi.",
+			"columnMovedOver": "{{column}} sütunu {{target}} sütununun üzerinde.",
+			"columnPickedUp": "{{column}} sütunu alındı.",
+			"columns": "Sütunlar",
+			"finished": "Bitti",
+			"format": "Biçim",
+			"hideArtifactsFor": "{{title}} için çıktıları gizle",
+			"movableColumn": "taşınabilir sütun",
+			"moveColumnInstructions": "Bir sütunu taşımak için Boşluk veya Enter tuşuna basın, ok tuşlarıyla taşıyın, ardından bırakmak için tekrar Boşluk veya Enter tuşuna basın. İptal etmek için Esc tuşuna basın.",
+			"notAvailable": "—",
+			"outputTarget": "Çıktı hedefi",
+			"progress": "İlerleme",
+			"resetColumns": "Sütunları sıfırla",
+			"resizeColumn": "{{column}} sütununu yeniden boyutlandır",
+			"showArtifactsFor": "{{title}} için çıktıları göster",
+			"size": "Boyut",
+			"sortBy": "{{label}} ile sırala",
+			"status": "Durum",
+			"title": "Başlık"
+		}
+	},
+	"releaseNotes": {
+		"continue": "Devam et",
+		"description": "Yeni bir güncelleme kullanıyorsun. Öne çıkanlar burada.",
+		"fullNotes": "Tam sürüm notları ↗",
+		"title": "Klip {{version}} sürümündeki yenilikler"
+	},
+	"repair": {
+		"actions": {
+			"cancel": "İptal",
+			"chooseExecutable": "Yürütülebilir dosya seç",
+			"installWithHomebrew": "Homebrew ile yükle",
+			"installWithWinget": "WinGet ile yükle",
+			"openDependencyFolder": "Bağımlılık klasörünü aç",
+			"resetToDefault": "Varsayılana sıfırla",
+			"retrySetup": "Tekrar dene",
+			"viewSetupLog": "Kurulum günlüğünü görüntüle"
+		},
+		"causes": {
+			"badExitCode": {
+				"body": "Tekrar deneyin. Yine olmazsa aşağıdan çalışan bir kopya seçin.",
+				"title": "Bir araç düzgün çalışmıyor"
+			},
+			"blockedOrQuarantined": {
+				"body": "Virüsten koruma yazılımınızda veya SmartScreen'de Klip'ye izin verin, ardından tekrar deneyin.",
+				"title": "Virüsten koruma yazılımınız bir aracı engelledi"
+			},
+			"downloadFailed": {
+				"body": "İnternet bağlantınızı kontrol edin, ardından tekrar deneyin.",
+				"title": "Klip'nin ihtiyacı olanlar indirilemedi"
+			},
+			"extractFailed": {
+				"body": "Yeniden indirmek için tekrar deneyin.",
+				"title": "Bir indirme bozuk geldi"
+			},
+			"hashFailed": {
+				"body": "Yeniden indirmek için tekrar deneyin.",
+				"title": "Bir indirme sağlama toplamıyla eşleşmedi"
+			},
+			"pairIncomplete": {
+				"body": "Aşağıdan ikisini de seçin veya varsayılana sıfırlayın.",
+				"title": "FFmpeg ve FFprobe birlikte ayarlanmalı"
+			},
+			"permissionDenied": {
+				"body": "Tekrar deneyin. Yine olmazsa aşağıdan güvendiğiniz bir kopya seçin.",
+				"title": "Sisteminiz Klip'nin bir aracı çalıştırmasına izin vermiyor"
+			},
+			"spawnFailed": {
+				"body": "Tekrar deneyin. Yine olmazsa aşağıdan çalışan bir kopya seçin.",
+				"title": "Bir araç eksik ya da başlamıyor"
+			},
+			"timeout": {
+				"body": "Bu genellikle ilk çalıştırmadaki bir güvenlik taramasından kaynaklanır. Tekrar deneyin.",
+				"title": "Bir aracın yanıt vermesi çok uzun sürdü"
+			},
+			"unknown": {
+				"body": "Tekrar deneyin veya ayrıntılar için kurulum günlüğünü açın.",
+				"title": "Kurulum sırasında bir şeyler ters gitti"
+			}
+		},
+		"deps": {
+			"ffmpeg": "FFmpeg",
+			"ffprobe": "FFprobe",
+			"ytDlp": "yt-dlp"
+		},
+		"groups": {
+			"engine": "İndirme motoru",
+			"media": "Medya araçları"
+		},
+		"installing": {
+			"homebrew": "Homebrew ile kuruluyor… Bu birkaç dakika sürebilir.",
+			"winget": "WinGet ile kuruluyor… Bu birkaç dakika sürebilir."
+		},
+		"manual": {
+			"intro": "Klip'yi zaten sahip olduğunuz kopyalara yönlendirin veya başka bir yolla kurun.",
+			"linuxHint": "yt-dlp ve ffmpeg'i paket yöneticinizle de kurabilir, ardından Tekrar dene'ye tıklayabilirsiniz.",
+			"toggle": "Elle kur"
+		},
+		"stopped": {
+			"body": "Tekrar deneyin veya aşağıdan Klip'yi zaten sahip olduğunuz araçlara yönlendirin.",
+			"title": "Kurulum durduruldu"
+		},
+		"title": "Kurulum yardımına ihtiyaç duyuyor"
+	},
+	"selectionOrder": {
+		"editorTitle": "Bu profil nasıl seçer",
+		"rank": {
+			"aacFileType": {
+				"label": "AAC ses",
+				"reason": "MP4 oynatıcılara uyar"
+			},
+			"aacSmartTv": {
+				"label": "AAC ses",
+				"reason": "her yerde oynar"
+			},
+			"codec": {
+				"label": "AV1, sonra VP9, sonra H.264",
+				"reason": "aynı boyutta en net"
+			},
+			"codecH264First": {
+				"label": "H.264, sonra VP9, sonra AV1",
+				"reason": "bu profilin kodeği"
+			},
+			"codecVp9First": {
+				"label": "VP9, sonra H.264, sonra AV1",
+				"reason": "bu profilin kodeği"
+			},
+			"fps": {
+				"label": "En yüksek kare hızı",
+				"reason": "daha akıcı hareket"
+			},
+			"h264": {
+				"label": "H.264 video",
+				"reason": "her cihazda oynar"
+			},
+			"hdrFirst": {
+				"label": "HDR, SDR’den önce",
+				"reason": "HDR ekranlarda daha zengin renkler",
+				"reasonScreen": "bu ekran HDR gösteriyor"
+			},
+			"hdrSdrFirst": {
+				"label": "SDR, HDR’den önce",
+				"reason": "her ekranda doğru görünür",
+				"reasonScreen": "bu ekran HDR göstermiyor"
+			},
+			"mp4Streams": {
+				"label": "MP4 akışları",
+				"reason": "MP4 dosyasına hazır"
+			},
+			"nativeCompatible": {
+				"label": "Stereo ses"
+			},
+			"nativeSource": {
+				"profile": "bu profil",
+				"settings": "Ayarlar’dan"
+			},
+			"nativeSurround": {
+				"label": "Varsa surround ses"
+			},
+			"opus": {
+				"label": "Opus ses",
+				"reason": "WebM’e uyar"
+			},
+			"original": {
+				"label": "YZ ile büyütülmüş değil, orijinal akışlar",
+				"reason": "büyütülmüş kopya daha yüksektir ama gerçek ayrıntı eklemez"
+			},
+			"protocol": {
+				"label": "Doğrudan indirmeler akış kopyalarından önce",
+				"reason": "aynı görüntü, daha hızlı iner"
+			},
+			"resolution": {
+				"label": "{{tier}}p’ye kadar",
+				"reason": "sınırınız"
+			},
+			"resolutionBest": {
+				"label": "En yüksek çözünürlük",
+				"reason": "sınır yok"
+			},
+			"sitePreference": {
+				"label": "Sitenin geri plana atmadığı akışlar",
+				"reason": "hasarlı, filigranlı ve yedek kopyaları atlar"
+			},
+			"size": {
+				"label": "Daha büyük dosya",
+				"reason": "aynı ayarlarda daha fazla ayrıntı"
+			},
+			"source": {
+				"label": "Gelişmiş bit hızlı akışlar önce",
+				"reason": "aynı çözünürlükte daha fazla ayrıntı"
+			}
+		},
+		"summary": {
+			"fileType": {
+				"auto": "akışlardan dosya türü",
+				"explicit": ".{{ext}} olarak kaydeder"
+			},
+			"goal": {
+				"bestPicture": "en iyi görüntü",
+				"smartTv": "her cihazda oynar"
+			}
+		},
+		"whyLabel": "Neden bu?",
+		"whyTitle": "Profil bunu neden seçti"
+	},
+	"share": {
+		"copied": "Kopyalandı!",
+		"copyLink": "Bağlantıyı kopyala",
+		"defaultMessage": "Klip — Windows, macOS ve Linux için ücretsiz, açık kaynaklı video indirici. YouTube, Vimeo, Twitch ve 2000+ siteyle çalışır.\n4K · HDR · MP3 · Shorts · Altyazılar · SponsorBlock",
+		"description": "Klip ücretsiz ve açık kaynaklıdır. Paylaşmak daha fazla kişinin keşfetmesine yardımcı olur.",
+		"footerLabel": "Paylaş",
+		"footerTooltip": "Klip’yi paylaş",
+		"shareAction": "Klip’yi paylaş",
+		"title": "Klip’yi paylaş"
+	},
+	"splash": {
+		"cancel": "Sorun mu var? Elle kurun",
+		"greeting": "Selam, tekrar hoş geldin!",
+		"setup": {
+			"left": {
+				"minutes_one": "yaklaşık {{count}} dk kaldı",
+				"minutes_other": "yaklaşık {{count}} dk kaldı",
+				"underMinute": "bir dakikadan az kaldı"
+			},
+			"stage": {
+				"checking": "Her şeyin çalıştığı kontrol ediliyor",
+				"connecting": "Bağlanılıyor…",
+				"unpacking": "Medya araçları açılıyor",
+				"unpackingEngine": "İndirme motoru açılıyor"
+			},
+			"title": {
+				"both": "Klip’nin araçları güncelleniyor",
+				"engine": "İndirme motoru güncelleniyor",
+				"firstRun": "İlk kurulum",
+				"media": "Medya araçları güncelleniyor"
+			}
+		},
+		"verifyFirstCheck": "Bu sürümün ilk denetimi — bu yavaş ilerler. Genellikle bir dakika kadar sürer.",
+		"verifying": "{{binary}} denetleniyor…",
+		"warmup": "İndirmeler hazırlanıyor…",
+		"warmupFailedNoDiag": "Kurulum başarısız oldu. Ayrıntılar için kurulum günlüğünü aç."
+	},
+	"status": {
+		"audioKept": "Video sesiyle birlikte kaydedildi — ses kaldırılamadı",
+		"audioKeptSubtitlesFailed": "Video sesiyle birlikte kaydedildi — ses kaldırılamadı ve bazı altyazılar indirilemedi",
+		"cancelled": "İndirme iptal edildi",
+		"complete": "İndirme tamamlandı",
+		"convertingVideo": "Video dönüştürülüyor…",
+		"diskSpaceInsufficient": "Yeterli disk alanı yok — {{required}} gerekiyor, yalnızca {{free}} kullanılabilir",
+		"downloadingBinary": "{{name}} ikili dosyası indiriliyor…",
+		"downloadingMedia": "Video ve ses indiriliyor…",
+		"embeddingMetadata": "Meta veriler gömülüyor…",
+		"exploreSignedOut": "Keşfet oturumu kapandı — yeniden oturum aç",
+		"extractingAudio": "Ses dönüştürülüyor…",
+		"fetchingSponsorBlock": "SponsorBlock ile iletişim kuruluyor…",
+		"fetchingSubtitles": "Altyazılar alınıyor…",
+		"mergingFormats": "Ses ve video birleştiriliyor…",
+		"mintingToken": "YouTube indirmesi hazırlanıyor…",
+		"movingFiles": "Dosyalar taşınıyor…",
+		"noSubtitles": "{{languages}} altyazı yok",
+		"outputNotWritable": "{{dir}} konumuna kaydedilemiyor — Klip'nin oraya yazma izni yok",
+		"preparingBinaries": "İkili dosyalar hazırlanıyor…",
+		"qualityLimited": "{{height}}p olarak kaydedildi — YouTube bu indirme için daha yüksek kaliteleri vermedi. Daha sonra yeniden denemek işe yarayabilir.",
+		"qualityLimitedSubtitlesFailed": "{{height}}p olarak kaydedildi — YouTube bu indirme için daha yüksek kaliteleri vermedi ve bazı altyazılar indirilemedi. Daha sonra yeniden denemek işe yarayabilir.",
+		"remintingToken": "YouTube indirmesi yeniden hazırlanıyor…",
+		"retryingSponsorBlock": "SponsorBlock kullanılamıyor, tekrar deneniyor ({{attempt}}/{{total}})…",
+		"retryingTransfer": "Bağlantı takıldı, yeniden deneniyor ({{attempt}}/{{total}})…",
+		"signingInWithExplore": "Keşfet hesabınla oturum açılıyor…",
+		"sleepingBetweenRequests": "Hız sınırlarından kaçınmak için {{seconds}} sn bekleniyor…",
+		"startingYtdlp": "İndirme motoru başlatılıyor…",
+		"subtitleLanguagesMissing": "Bu videoda {{languages}} altyazı yok. Video bunlar olmadan kaydedildi.",
+		"subtitleLanguagesMissingOthersSaved": "Bu videoda {{languages}} altyazı yok. Diğer diller kaydedildi.",
+		"subtitlesFailed": "Video kaydedildi — bazı altyazılar indirilemedi",
+		"unknownStartupFailure": "Bilinmeyen indirme başlatma hatası",
+		"usedExtractorFallback": "Gevşetilmiş çıkarıcıyla indirildi — daha güvenilir indirmeler için cookies.txt kur",
+		"ytdlpExitCode": "İndirme motoru {{code}} koduyla çıktı",
+		"ytdlpProcessError": "İndirme motoru hatası: {{error}}"
+	},
+	"theme": {
+		"dark": "Koyu mod",
+		"light": "Açık mod",
+		"system": "Sistem varsayılanı"
+	},
+	"titleBar": {
+		"close": "Kapat",
+		"maximize": "Büyüt",
+		"minimize": "Simge durumuna küçült",
+		"restore": "Geri yükle"
+	},
+	"tray": {
+		"menu": {
+			"downloadFromClipboard": "Panodan indir",
+			"statusActive_one": "1 indiriliyor · {{percent}}%",
+			"statusActive_other": "{{count}} indiriliyor · {{percent}}%",
+			"statusIdle": "Boşta"
+		}
+	},
+	"update": {
+		"copied": "Komut panoya kopyalandı",
+		"copy": "Komutu panoya kopyala",
+		"dismiss": "Güncelleme bandını kapat",
+		"download": "İndir ↗",
+		"downloadDmg": "DMG indir ↗",
+		"downloading": "İndiriliyor…",
+		"install": "Yükle ve Yeniden Başlat",
+		"installFailed": "Güncelleme başarısız oldu",
+		"message": {
+			"generic": "Klip {{version}} kullanılabilir — sende {{currentVersion}} var.",
+			"homebrew": "Klip {{version}} kullanılabilir — Homebrew ile güncelle.",
+			"macosDirect": "Klip {{version}} kullanılabilir — yeni DMG’yi indir.",
+			"macosDirectHomebrew": "Klip {{version}} kullanılabilir — DMG’yi indir veya Homebrew’a geç.",
+			"portable": "Klip {{version}} kullanılabilir — yeni derlemeyi indir."
+		},
+		"retry": "Tekrar dene",
+		"runAndRestart": "Çalıştır ve Yeniden Başlat",
+		"upgrading": "Yükseltiliyor…"
+	},
+	"videoCard": {
+		"chapters_one": "{{count}} bölüm",
+		"chapters_other": "{{count}} bölüm",
+		"titlePlaceholder": "Yükleniyor…"
+	},
+	"videoCodec": {
+		"h264": "Önce H.264",
+		"label": "Video kodeği",
+		"smartTv": "Akıllı TV her zaman H.264 alır.",
+		"vp9": "Önce VP9"
+	},
+	"wizard": {
+		"bulk": {
+			"acceptedCount": "Hazır",
+			"description": "Video, oynatma listesi, kanal, arama veya ses URL’leri yapıştır. Klip kuyruğa almadan önce yinelenenleri temizler.",
+			"emptyPreview": "Toplu listeyi önizlemek için bir veya daha fazla URL yapıştır.",
+			"ignoredCount": "Yoksayıldı",
+			"needsAtLeastOne": "Devam etmek için en az bir desteklenen URL ekle.",
+			"reject": {
+				"duplicate": "Yinelenen"
+			},
+			"textareaLabel": "URL listesi",
+			"textareaPlaceholder": "https://ornek.com/video-1\nhttps://ornek.com/video-2\nhttps://ornek.com/video-3",
+			"title": "Toplu URL’ler"
+		},
+		"confirm": {
+			"addToQueue": "+ Kuyruk",
+			"addToQueueTooltip": "Kuyruğa ekler — etkin indirme bittiğinde başlar",
+			"itemsValueAudio_one": "{{total}} parçadan {{count}} tanesi",
+			"itemsValueAudio_other": "{{total}} parçadan {{count}} tanesi",
+			"itemsValueBulk_one": "{{total}} URL’den {{count}} tanesi",
+			"itemsValueBulk_other": "{{total}} URL’den {{count}} tanesi",
+			"itemsValue_one": "{{total}} videodan {{count}} tanesi",
+			"itemsValue_other": "{{total}} videodan {{count}} tanesi",
+			"labelAudio": "Ses",
+			"labelBulk": "Toplu",
+			"labelItems": "Öğeler",
+			"labelPlaylist": "Oynatma listesi",
+			"labelPreset": "Ön ayar",
+			"labelSaveTo": "Şuraya kaydet",
+			"labelSize": "Boyut",
+			"labelSubtitles": "Altyazılar",
+			"labelVideo": "Video",
+			"landIn": "Dosyan şuraya düşecek",
+			"landInMultiProfile_one": "Aşağıdaki hedefe inecek",
+			"landInMultiProfile_other": "Aşağıdaki {{count}} hedefe inecek",
+			"nothingToDownload": "Yalnızca altyazı profili etkin ama altyazı dili seçilmedi — indirilecek bir şey yok.",
+			"profileBreakdownCount_one": "{{count}} öğe",
+			"profileBreakdownCount_other": "{{count}} öğe",
+			"profileBreakdownHeading": "Bu gruptaki profiller",
+			"pullIt": "Çek! ↓",
+			"pullItTooltip": "Kuyruğu atlar — şimdi başlar, diğer etkin indirmelerle birlikte çalışır",
+			"readyHeadline": "Çekmeye hazır!",
+			"sizeUnknown": "Bilinmiyor",
+			"subtitleEmbedAudioOnly": "Altyazı gömme yan dosyaya çevrildi — ses parçaları gömülü altyazı akışlarını desteklemez.",
+			"subtitleEmbedForcesMkv": "Video içindeki altyazılar MKV dosyası gerektirir, bu yüzden bu indirme .mkv olarak kaydedilir.",
+			"subtitlesNone": "—",
+			"thumbnailEmbedNotSupported": "Küçük resim gömme atlandı — çıktı kapsayıcısı bunu desteklemiyor."
+		},
+		"folder": {
+			"custom": "Özel…",
+			"desktop": "Masaüstü",
+			"documents": "Belgeler",
+			"downloads": "İndirilenler",
+			"heading": "Şuraya kaydet",
+			"home": "Ev",
+			"music": "Müzik",
+			"pictures": "Resimler",
+			"subfolder": {
+				"invalid": "Klasör adında geçersiz karakterler var",
+				"placeholder": "ör. dersler",
+				"toggle": "Alt klasör içine kaydet"
+			},
+			"videos": "Filmler"
+		},
+		"formats": {
+			"audio": "Ses",
+			"audioLanguage": "Ses dili",
+			"audioLanguageCount_one": "{{count}} dil",
+			"audioLanguageCount_other": "{{count}} dil",
+			"bitrateValue": "Bit hızı {{bitrate}}",
+			"botWall": {
+				"bodyDisabled": "Çerezler yapılandırılmış ama kapalı. Tam listeyi almak için etkinleştirip tekrar dene ya da ağı değiştirip tekrar dene.",
+				"bodyEnabled": "Çerezlerle bile YouTube bu denetimi sınırladı. Daha sonra tekrar dene veya ağı değiştir.",
+				"bodyExplore": "YouTube bu isteği sınırladı. Daha sonra tekrar dene veya ağı değiştir.",
+				"bodyUnconfigured": "Biçim listesi eksik olabilir. Gelişmiş ayarlarda çerezleri kur veya ağı değiştirip tekrar dene.",
+				"enableRetryCta": "Çerezleri etkinleştir ve tekrar dene",
+				"heading": "Denetim sınırlandı",
+				"retryCta": "Tekrar dene"
+			},
+			"convert": {
+				"bitrate": "Bit hızı",
+				"bitrateCopyHint": "Zaten {{target}} olan bir kaynak kendi akışını ve bit hızını korur: yeniden kodlanmaz, kopyalanır.",
+				"copyLabel": "{{target}} {{bitrate}} kb/sn, yeniden kodlama yok",
+				"copyLabelNoBitrate": "{{target}}, yeniden kodlama yok",
+				"copyNote": "{{kbps}} kb/sn, kaynaktaki gibi: akış zaten {{target}}, bu yüzden yeniden kodlanmadan kopyalanır",
+				"copyNoteNoBitrate": "Kaynaktaki gibi: akış zaten {{target}}, bu yüzden yeniden kodlanmadan kopyalanır",
+				"label": "Dönüştür",
+				"lossyLabel": "{{target}} {{bitrate}} kb/sn",
+				"sourceKbps": "Kaynak {{kbps}} kbps",
+				"wavLabel": "WAV (sıkıştırılmamış)"
+			},
+			"cookiesError": {
+				"currentModeBrowser": "Tarayıcı",
+				"currentModeExplore": "Keşfet oturumu",
+				"currentModeFile": "Dosya",
+				"currentModeLabel": "Çerez kaynağı",
+				"dpapi": {
+					"docsLinkLabel": "yt-dlp belgeleri (issue #10927)",
+					"explanation": "Chrome 127 ve daha yenisi çerezleri Windows’ta diğer uygulamaların okuyamayacağı şekilde şifreler. Aşağıdaki geçici çözümlerden birini dene.",
+					"fixFileBody": "Chrome’dan bir tarayıcı uzantısıyla çerezleri dışa aktar, sonra bu uygulamayı Dosya moduna geçirip dışa aktarılan dosyayı seç.",
+					"fixFileLabel": "cookies.txt dışa aktar",
+					"fixFirefoxBody": "Firefox App-Bound Encryption kullanmaz. Çerez ayarlarını aç ve tarayıcı listesinden Firefox’u seç.",
+					"fixFirefoxLabel": "Firefox’a geç",
+					"fixUnsafeBody": "Chrome başlatma kısayoluna --disable-features=LockProfileCookieDatabase ekle. Uyarı: bu, daha önce şifrelenmiş çerezleri geçersiz kılar; tüm sitelerden çıkış yapılır ve yeniden giriş yapman gerekir.",
+					"fixUnsafeLabel": "Chrome’u App-Bound Encryption devre dışı başlat",
+					"heading": "Chrome çerezleri Windows şifrelemesi tarafından engellendi"
+				},
+				"explanationBrowser": "Çerezler doğrudan tarayıcıdan okunur. Tarayıcı şu anda çalışıyorsa çerez veritabanı kilitli olabilir (Chromium ailesi). Tarayıcıda YouTube oturumu da açık olmalıdır. Tarayıcıyı kapatmayı, farklı bir tarayıcıya geçmeyi, Dosya moduna geçmeyi veya çerezleri kapatmayı dene.",
+				"explanationFile": "Çerez dosyan boş, süresi dolmuş veya yanlış biçimde olabilir (Klip bir Netscape cookies.txt dosyasına ihtiyaç duyar). Çerezleri yeniden dışa aktarmayı, farklı bir dosya seçmeyi, Tarayıcı moduna geçmeyi veya çerezleri kapatmayı dene.",
+				"exploreOffer": {
+					"body": "Keşfet'te oturum aç, Klip yeniden denesin.",
+					"cta": "Keşfet'te oturum aç",
+					"heading": "Bu video bir YouTube hesabı gerektirebilir"
+				},
+				"exploreRefused": {
+					"body": "Klip bunu Keşfet üzerinden oturum açmış halde zaten denedi, bu yüzden tekrar oturum açmak işe yaramaz. Sitede sorun olabilir ya da bu hesap içeriği açamıyor olabilir. Daha sonra tekrar dene.",
+					"heading": "Site, Keşfet'teki oturumunla bile bunu reddetti"
+				},
+				"exploreReuse": {
+					"body": "Keşfet'te oturum açtın ama indirmeler şu anda bu oturumu kullanmıyor.",
+					"cta": "Keşfet oturumumu kullan ve yeniden dene",
+					"heading": "Bu video bir YouTube hesabı gerektirebilir"
+				},
+				"exploreSignIn": {
+					"body": "Bu video bir YouTube hesabı gerektiriyorsa Keşfet'te oturum aç ve tekrar dene. Klip bu oturumu yalnızca bir indirme gerektirdiğinde kullanır.",
+					"cta": "Keşfet'te oturum aç",
+					"heading": "Bu video bir YouTube hesabı gerektirebilir"
+				},
+				"exploreSignedIn": {
+					"body": "Bu video hesap gerektiriyorsa Klip, Keşfet oturumunu otomatik olarak kullanır. Başka bir nedenle kullanılamıyor olabilir.",
+					"heading": "Keşfet'te oturum açıldı"
+				},
+				"exploreSite": {
+					"heading": "Bu bağlantı {{host}} sitesinde bir hesap gerektirebilir",
+					"offerBody": "Keşfet'te {{host}} sitesinde oturum aç ve tekrar dene.",
+					"signInBody": "Keşfet'te {{host}} sitesinde oturum aç ve tekrar dene. Klip bu oturumu yalnızca bir indirme gerektirdiğinde kullanır."
+				},
+				"heading": "Neden çerezler olabilir",
+				"needsCookies": {
+					"body": "Klip bu videoya kimlik doğrulaması olmadan erişemedi. Gelişmiş ayarlarda çerezleri yapılandır — zaten oturum açtığın bir tarayıcıyı göster veya bir cookies.txt dosyası içe aktar.",
+					"heading": "Bu site oturum açmayı gerektiriyor"
+				},
+				"openSettingsCta": "Çerez ayarlarını aç",
+				"otherCookiesCta": "Bunun yerine bir çerez dosyası veya tarayıcı kullan…"
+			},
+			"drc": {
+				"description": "Yüksek yerleri kısar, alçak yerleri açar; hoparlörler ve gürültülü ortamlar için.",
+				"label": "Ses düzeyini eşitle (DRC)",
+				"tag": "Eşit ses"
+			},
+			"fit": {
+				"mp4Unavailable": "Profiliniz Akıllı TV (H.264). Bu videoda H.264 yok, bu yüzden en yakın akış seçildi.",
+				"noVideo": "Bu bağlantıda video yok, bu yüzden ses seçildi.",
+				"subtitlesMissing": "Profiliniz şu dillerde altyazı istiyor: {{languages}}. Bu videoda bunlar yok.",
+				"tierAbove": "Profiliniz {{wanted}}p istiyor. Bu videoda bu kadar düşük çözünürlük yok, bu yüzden {{picked}}p seçildi.",
+				"tierAbovePassedOver": "Profiliniz {{wanted}}p istiyor. Bu videodaki daha küçük akışlar profilinizin geri kalanına uymuyor, bu yüzden {{picked}}p seçildi.",
+				"tierBelowTakeable": "Profiliniz {{wanted}}p istiyor. Bu videoda alınabilecek bir {{wanted}}p yok, bu yüzden {{picked}}p seçildi.",
+				"tierPassedOverAiUpscaled": "Profiliniz {{wanted}}p istiyor. Bu videonun {{wanted}}p akışı yapay zekâyla yükseltilmiş, bu yüzden orijinal {{picked}}p seçildi.",
+				"tierPassedOverH264": "Profiliniz H.264 ile {{wanted}}p istiyor. Bu videoda {{wanted}}p yalnızca başka kodeklerde var, bu yüzden H.264 ile {{picked}}p seçildi.",
+				"tierPassedOverProfile": "Profiliniz {{wanted}}p istiyor. Bu videonun {{wanted}}p akışı profilinizin geri kalanına uymuyor, bu yüzden {{picked}}p seçildi.",
+				"webmUnavailable": "Profiliniz WebM istiyor. Bu videoda seçilen akışlar WebM’in barındıramadığı {{codec}} içeriyor, bu yüzden dosya türü Otomatik."
+			},
+			"footer": {
+				"addToQueue": "Başlatmadan kuyruğa ekle",
+				"download": "İndir",
+				"moreActions": "Diğer indirme seçenekleri",
+				"subtitlesRequired": "En az bir altyazı dili seçin."
+			},
+			"keepAudio": "Olduğu gibi tut",
+			"keepAudioMeta": "Yerleşik ses",
+			"kind": {
+				"audio": "Yalnızca ses",
+				"label": "Ne indirilsin",
+				"subtitles": "Yalnızca altyazılar",
+				"video": "Video + ses",
+				"videoOnly": "Video, sessiz"
+			},
+			"loadingAria": "Biçimler yükleniyor",
+			"loadingHint": "Lütfen denetim bitene kadar bekle — oynatma listeleri ve aramalar biraz sürebilir.",
+			"marker": {
+				"aiDubbed": "YZ dublajı",
+				"aiUpscaled": "YZ ile büyütüldü",
+				"audioDescription": "Sesli betimleme",
+				"damaged": "Hasarlı",
+				"enhancedBitrate": "Gelişmiş bit hızı",
+				"original": "Orijinal",
+				"spatialAudio": "Uzamsal ses",
+				"vr": "360° / VR",
+				"watermarked": "Filigranlı"
+			},
+			"noAudio": "Ses yok",
+			"profile": {
+				"calloutBody": "Etkin profilin akışları senin için önceden seçer. Profilleri menüden değiştir ya da bu indirmeden çıkmadan bir profili ayarlamak için kalemi kullan.",
+				"calloutTitle": "Biçimler profilinle başlar",
+				"closestTag": "Profile en yakın",
+				"edit": "Düzenle: {{name}}",
+				"keepEdits": "Değişikliklerimi koru",
+				"menuDescription": "Yalnızca bu indirme için. Varsayılan profiliniz olduğu gibi kalır.",
+				"preselected": "Şuradan önceden seçildi:",
+				"resetAll": "Tümünü sıfırla",
+				"switchBody": "Bu indirme için değiştirdikleriniz: {{areas}}. “{{profile}}” her durumda videoyu ve sesi seçer. Diğer değişiklikleriniz korunsun mu, yoksa her şey profile göre sıfırlansın mı?",
+				"switchTitle": "Profil değiştirilsin mi?",
+				"tag": "Profil",
+				"updatedBody": "Bu indirme için değiştirdikleriniz: {{areas}}. Güncellenen profil her durumda videoyu ve sesi seçer. Diğer değişiklikleriniz korunsun mu, yoksa her şey profile göre sıfırlansın mı?",
+				"updatedTitle": "Güncellenen profil kullanılsın mı?"
+			},
+			"quality": {
+				"high": "Yüksek kalite",
+				"low": "Düşük kalite",
+				"medium": "Orta kalite"
+			},
+			"rateLimit": {
+				"heading": "{{site}} bu bağlantıyı sınırlıyor",
+				"leadDegraded": "Biçim listesi eksik olabilir.",
+				"leadFailed": "{{site}} bu isteği şimdilik geri çevirdi.",
+				"retryCta": "Tekrar dene",
+				"sessionNote": "{{site}} bu sınırı bir saate kadar sürdürebilir.",
+				"tryNowCta": "Şimdi dene",
+				"waitOver": "Bekleme bitti, yeniden deneyebilirsin.",
+				"waitUntil": "Klip, sınırın kalkması için {{site}} sitesine yeniden sormadan önce {{time}} saatine kadar bekler."
+			},
+			"resolutionUnknown": "Boyut bilinmiyor",
+			"savesAs": {
+				"label": "Şu olarak kaydedilir",
+				"reset": "WebM, {{codec}} barındıramadığı için dosya türü Otomatik’e döndü."
+			},
+			"sizeUnknown": "Boyut bilinmiyor",
+			"skipToConfirm": "Onaya atla",
+			"skipToConfirmTooltip": "Kalan tüm adımlar için kayıtlı tercihlerini kullanır. Bir ayarı değiştirmek için adım adım devam et — seçimin bir sonraki sefer için kaydedilir.",
+			"sniffing": "Senin için en iyi biçimler aranıyor…",
+			"total": "Toplam",
+			"video": "Video",
+			"withAudio": "sesli"
+		},
+		"listPrompt": {
+			"backgroundHint": "{{profileName}} ile. {{count}} videodan fazlası varsa İndirmeler kaç tanesini alacağını sorar.",
+			"backgroundLabel": "Arka planda indir",
+			"escOnly": "Esc iptal eder.",
+			"firstHint": "Tam olarak ilk {{count}}, {{profileName}} ile.",
+			"firstLabel": "İndir: ilk",
+			"interactiveHint": "İlk {{count}} videodan seç (ya da sayıyı sonraki adımda değiştir), sonra indirmeyi ayarla.",
+			"interactiveLabel": "Etkileşimli İndirme…",
+			"limitHint": "Listeden kaç video alınacağı: ilk seçenek bu sayıdan sonrasını sorar, ikincisi tam olarak o kadarını alır. Ayarlar’daki Taranacak oynatma listesi öğeleri ile aynıdır.",
+			"limitLabel": "Sınır",
+			"mixNote": "Mix her açıldığında değişir.",
+			"pickLoadAfter": "öğeyi seçim için yükle.",
+			"pickLoadBefore": "İlk",
+			"pickLoadNote": "Bunu sonraki adımda değiştirebilirsin.",
+			"pickTitle": {
+				"album": "Bu albümden seç",
+				"liked": "Beğendiğin videolardan seç",
+				"mix": "Bu Mix’ten seç",
+				"playlist": "Bu oynatma listesinden seç",
+				"uploads": "Bu kanalın yüklemelerinden seç",
+				"watchLater": "“Daha sonra izle”den seç"
+			},
+			"title": {
+				"album": "Bu albümden indir",
+				"liked": "Beğendiğin videolardan indir",
+				"mix": "Bu Mix’ten indir",
+				"playlist": "Bu oynatma listesinden indir",
+				"uploads": "Bu kanalın yüklemelerinden indir",
+				"watchLater": "“Daha sonra izle”den indir"
+			},
+			"videoHint": "Yalnızca açtığın video, {{profileName}} ile. Liste yüklenmez.",
+			"videoLabel": "Yalnızca bu video",
+			"videoPickHint": "Yalnızca açtığın videoyu ayarla. Liste yüklenmez.",
+			"withProfile": "{{profileName}} ile"
+		},
+		"output": {
+			"embedChapters": {
+				"description": "Her modern oynatıcıda gezilebilir bölüm işaretleri.",
+				"label": "Bölümleri göm",
+				"short": "Bölümler"
+			},
+			"embedMetadata": {
+				"description": "Başlık, sanatçı, açıklama ve yükleme tarihi dosyaya yazılır.",
+				"label": "Meta verileri göm",
+				"short": "Meta veriler"
+			},
+			"embedThumbnail": {
+				"description": "Dosyanın içinde kapak görseli. WebM video MKV’ye yeniden paketlenir; altyazılar gömülüyse atlanır.",
+				"label": "Küçük resmi göm",
+				"short": "Kapak resmi"
+			},
+			"writeDescription": {
+				"description": "Video açıklamasını indirmenin yanına .description metin dosyası olarak kaydeder.",
+				"label": "Açıklamayı kaydet",
+				"short": "Açıklama dosyası"
+			},
+			"writeM3u": {
+				"description": "Videoların medya oynatıcında sırayla açılması için yanlarına bir .m3u oynatma listesi kaydet.",
+				"label": ".m3u oynatma listesi dosyası oluştur"
+			},
+			"writeThumbnail": {
+				"description": "Küçük resmi indirmenin yanına .jpg görüntü dosyası olarak kaydeder.",
+				"label": "Küçük resmi kaydet",
+				"short": "Küçük resim dosyası"
+			}
+		},
+		"part": {
+			"calloutBody": "Video kartında «Kısım»a geçin, bir başlangıç ve bitiş ya da bir bölüm seçin ve yalnızca o aralığı indirin.",
+			"calloutTitle": "Videonun yalnızca bir kısmını indirin",
+			"chapterUntitled": "Bölüm {{number}}",
+			"chapters": "Bölümler",
+			"connectionsNote": "Bir kısım ffmpeg ile indirilir, bu yüzden indirme bağlantıların ve hız ayarların ona uygulanmaz.",
+			"downloadBlocked": "Önce kısmın başlangıç ve bitişini düzelt.",
+			"end": "Bitiş",
+			"error": {
+				"endBeyondDuration": "Video {{duration}} noktasında bitiyor.",
+				"endInvalid": "Bitişi h:mm:ss, m:ss veya saniye olarak gir.",
+				"startInvalid": "Başlangıcı h:mm:ss, m:ss veya saniye olarak gir.",
+				"startNotBeforeEnd": "Başlangıç, bitişten önce olmalı."
+			},
+			"exactCut": {
+				"hint": "Kapalı: her kesim en yakın anahtar kareye denk gelir; bu, yazdığın zamandan birkaç saniye farklı olabilir.",
+				"label": "Tam kesim (yeniden kodlar, daha yavaş)"
+			},
+			"length": "{{duration}} içinden {{length}}",
+			"part": "Kısım",
+			"rangeLabel": "Videonun bir kısmı",
+			"start": "Başlangıç",
+			"subtitlesFullLength": "tüm video",
+			"summary": "Kısım {{start}}–{{end}}",
+			"switchLabel": "Videonun ne kadarı",
+			"timeHint": "h:mm:ss, m:ss veya saniye",
+			"totalEstimate": "Kısım, tahmini",
+			"unavailableDuration": "Bu video süresini bildirmiyor, bu yüzden yalnızca tamamı indirilebilir.",
+			"unavailableSubtitles": "Altyazılar her zaman videonun tamamını kapsar.",
+			"urlStart": "Bağlantın {{time}} noktasında başlıyor",
+			"useUrlStart": "Başlangıç olarak kullan",
+			"whole": "Tüm video",
+			"wholeTrack": "Tüm parça"
+		},
+		"playlist": {
+			"allRemovedDescription": "Devam etmek için onları geri yükleyin.",
+			"allRemovedTitle": "Tüm öğeler kaldırıldı",
+			"alreadyDownloaded": "Zaten indirildi",
+			"bulkCappedDesc_one": "Daha fazlası var. Kaç tane alacağını seçmek için bağlantısını tek başına yapıştır.",
+			"bulkCappedDesc_other": "Bunların daha fazlası var. Kaç tane alacağını seçmek için her bağlantıyı tek başına yapıştır.",
+			"bulkCappedTitle_one": "“{{title}}” {{limit}} videoda kesildi",
+			"bulkCappedTitle_other": "{{count}} liste, her biri {{limit}} videoda kesildi",
+			"bulkHeading": "Toplu URL’ler",
+			"bulkMetadataOptional": "Beklemenize gerek yok — şimdi kuyruğa eklenen dosyalar indirilirken yine de gerçek adlarını alır.",
+			"bulkMetadataResolving": "Video ayrıntıları alınıyor… {{done}}/{{total}}",
+			"bulkRowFailed": "Ayrıntılar kullanılamıyor",
+			"bulkRowResolving": "Ayrıntılar alınıyor",
+			"bulkRowWaiting": "Bekliyor",
+			"durationUnknown": "canlı",
+			"heading": "Oynatma listesi öğeleri",
+			"headingGeneric": "İndirilecek videolar",
+			"itemCountAudio_one": "{{count}} parça",
+			"itemCountAudio_other": "{{count}} parça",
+			"itemCountBulk_one": "{{count}} URL",
+			"itemCountBulk_other": "{{count}} URL",
+			"itemCount_one": "{{count}} video",
+			"itemCount_other": "{{count}} video",
+			"loadingItems": "Oynatma listesi alınıyor…",
+			"loadingItemsGeneric": "Videolar alınıyor…",
+			"loadingLimitHint": "İlk {{count}} öğeyle sınırlandı",
+			"loadingPagesFound_one": "{{count}} sayfa bulundu",
+			"loadingPagesFound_other": "{{count}} sayfa bulundu",
+			"loadingPhaseItems": "Videolar toplanıyor",
+			"loadingPhasePages": "Kanal sayfaları taranıyor",
+			"multiProfileEntry": "Öğe başına profil ata",
+			"multiProfileEntryTooltip": "Kalite, SponsorBlock, Çıktı ve Kaydet adımlarını atlar — bunun yerine öğe başına bir indirme profili atar",
+			"nestedPlaylistBadge": "Oynatma listesi",
+			"nestedPlaylistHint_one": "Bunlardan {{count}} tanesi video değil, oynatma listesi — indirmek için bağlantısını tek başına yapıştırın.",
+			"nestedPlaylistHint_other": "Bunlardan {{count}} tanesi video değil, oynatma listesi — indirmek için bağlantılarını teker teker yapıştırın.",
+			"noSelection": "Devam etmek için en az bir video seç",
+			"probeLimitAlertDesc": "İlk {{count}} öğe gösteriliyor. Daha fazlasını görmek için yükleme sınırını artır.",
+			"probeLimitAlertTitle": "Oynatma listesi taraması sınırlandı",
+			"probeLimitAlertTitleGeneric": "Tarama sınırlandı",
+			"rangeApply": "Aralığı uygula",
+			"rangeFrom": "Başlangıç",
+			"rangeTo": "Bitiş",
+			"removeFromListCount_one": "Listeden {{count}} öğe kaldır",
+			"removeFromListCount_other": "Listeden {{count}} öğe kaldır",
+			"removedCount_one": "{{count}} kaldırıldı",
+			"removedCount_other": "{{count}} kaldırıldı",
+			"restore": "Geri yükle",
+			"selectAll": "Tümünü seç",
+			"selectNone": "Hiçbirini seçme",
+			"selectedCount_one": "{{count}} seçildi",
+			"selectedCount_other": "{{count}} seçildi",
+			"sortApi": "Oynatma listesi sırası",
+			"sortFetchingDates": "Yükleme tarihleri alınıyor…",
+			"sortLabel": "Sıralama",
+			"sortUploadAsc": "Önce en eskiler",
+			"sortUploadDesc": "Önce en yeniler",
+			"syncApply": "Eşitlemeyi uygula",
+			"syncChange": "Klasörü değiştir…",
+			"syncFoundDesc": "Bu videolardan {{n}} tanesi zaten {{dir}} içinde. Yalnızca yenileri indirmek için eşitlensin mi?",
+			"syncFoundTitle": "Zaten klasörde",
+			"syncNoneDesc": "{{dir}} içinde bu oynatma listesinden video bulunamadı.",
+			"syncNoneDescGeneric": "{{dir}} içinde bu kaynaktan video bulunamadı.",
+			"syncNoneTitle": "Henüz indirilmiş bir şey yok",
+			"syncScanning": "Klasör kontrol ediliyor…",
+			"thumbnailAlt": "Video küçük resmi"
+		},
+		"playlistPresets": {
+			"heading": "Toplu indirme için kalite seç",
+			"itemCount_one": "{{count}} öğe",
+			"itemCount_other": "{{count}} öğe",
+			"subhead": "Her video seçilen kalite düzeyini bağımsız çözer — karışık oynatma listeleri sorunsuz çalışır."
+		},
+		"playlistProfiles": {
+			"assignTriggerEmpty": "Profil ata",
+			"assignTrigger_one": "{{count}} videoya ata",
+			"assignTrigger_other": "{{count}} videoya ata",
+			"columnDuration": "Süre",
+			"columnProfile": "Profil",
+			"editProfile": "{{name}} düzenle",
+			"empty": "Bu filtreyle eşleşen öğe yok",
+			"filterChip": "{{name}} · {{count}}",
+			"filtersLabel": "Profil filtreleri",
+			"heading": "İndirme profillerini ata",
+			"menuDescription_one": "Bu video için profili seçin.",
+			"menuDescription_other": "Bu {{count}} video için profili seçin.",
+			"selectedSummary": "{{total}} öğeden {{selected}} tanesi seçildi"
+		},
+		"profileEditor": {
+			"action": {
+				"changeGlobalShort": "Geneli değiştir",
+				"chooseFolder": "Hedef klasörü seç",
+				"chooseIcon": "Profil simgesini seç",
+				"removeLanguage": "{{code}} kaldır",
+				"reset": "Profili sıfırla",
+				"resetDisabledHint": "Bu profil zaten yerleşik ayarları kullanıyor",
+				"resetHint": "Yerleşik profil ayarlarını geri yükle",
+				"save": "Profili kaydet",
+				"setOverride": "Profil geçersiz kılmasını ayarla",
+				"setOverrideShort": "Geçersiz kılmayı ayarla",
+				"useGlobalDefault": "Genel varsayılanı kullan",
+				"useLanguageCode": "“{{code}}” dil kodunu kullan"
+			},
+			"advanced": "Gelişmiş",
+			"appSetting": "Uygulama ayarını kullan ({{value}})",
+			"audioFormat": {
+				"best": "En iyi",
+				"wav": "WAV"
+			},
+			"audioQuality": {
+				"128": "128K'ya kadar",
+				"192": "192K'ya kadar",
+				"320": "320K'ya kadar",
+				"best": "En iyi kalite"
+			},
+			"defaultName": "Yeni profil",
+			"destination": {
+				"defaultFolder": "Varsayılan indirme klasörü",
+				"defaultFolderWithSubfolder": "Varsayılan indirme klasörü / {{subfolder}}",
+				"global": "Genel hedef",
+				"globalActive": "Etkin",
+				"globalInherited": "Devralındı",
+				"override": "Profil geçersiz kılma",
+				"overrideChoosing": "Klasör seç",
+				"overrideNone": "Geçersiz kılma yok",
+				"overrideNoneNote": "Geçersiz kılma ayarlanmadı. Bu profil yukarıdaki genel hedefi kullanır.",
+				"overrideSet": "Genel hedefi geçersiz kılar",
+				"overrideSetNote": "Bu profil, alt klasör eklenmeden önce kendi kök klasörüne kaydeder.",
+				"resolved": "Sonuçlanan hedef"
+			},
+			"dialogDescription": "Hızlı İndirme, Toplu URL ve oynatma listeleri için yeniden kullanılabilir tek bir yapılandırma.",
+			"dialogTitle": "İndirme profili",
+			"error": {
+				"changeGlobalDestination": "Genel hedef değiştirilemedi.",
+				"folderPicker": "Klasör seçici açılamadı. Yolu elle girin.",
+				"reset": "Profil ayarları sıfırlanamadı.",
+				"save": "Profil ayarları kaydedilemedi."
+			},
+			"field": {
+				"delivery": "Kaydetme biçimi",
+				"fileType": "Dosya türü",
+				"goal": "Şunun için optimize et",
+				"icon": "Profil simgesi",
+				"languages": "Diller",
+				"name": "Profil adı",
+				"nameAndIcon": "Profil adı ve simgesi",
+				"nativeAudio": "Yerel ses",
+				"overridePath": "Profil geçersiz kılma yolu",
+				"quality": "Kalite",
+				"resolution": "Çözünürlük",
+				"source": "Kaynak",
+				"subfolderName": "Alt klasör adı",
+				"subtitleDownloads": "Altyazı indirmeleri",
+				"subtitleDownloadsDescription": "Profiller dil kodları ister; kullanılabilirlik her URL için ayrı belirlenir."
+			},
+			"goal": {
+				"bestPicture": {
+					"description": "Aynı boyutta en net olanı. Eski TV’ler, QuickTime ve bazı düzenleyiciler oynatamaz.",
+					"name": "En iyi görüntü",
+					"tag": "AV1 · VP9"
+				},
+				"smartTv": {
+					"description": "TV’lerde, telefonlarda, WhatsApp’ta, QuickTime’da ve video düzenleyicilerde oynar. YouTube H.264’ü yalnızca 1080p’ye kadar sunar.",
+					"name": "Akıllı TV",
+					"tag": "MP4 · H.264"
+				}
+			},
+			"icon": {
+				"archive": "Arşiv",
+				"audio": "Ses",
+				"captions": "Altyazı",
+				"classes": "Dersler",
+				"clip": "Klip",
+				"controls": "Denetimler",
+				"download": "İndirme",
+				"music": "Müzik",
+				"podcast": "Podcast",
+				"video": "Video"
+			},
+			"mediaMode": {
+				"audioOnly": {
+					"description": "Müzik veya podcast"
+				},
+				"subtitlesOnly": {
+					"description": "Yalnızca altyazı dosyaları"
+				},
+				"videoAudio": {
+					"description": "Normal video dosyaları"
+				},
+				"videoOnly": {
+					"description": "Yalnızca sessiz video"
+				}
+			},
+			"note": {
+				"autoCaptionsSrt": "Otomatik altyazılar ASS yerine SRT olarak kaydedilecek.",
+				"noLanguageMatches": "Eşleşen dil yok",
+				"noSubtitles": "Bu profil için altyazı dosyası veya gömülü altyazı izi istenmeyecek.",
+				"searchLanguages": "Dil adı veya koduna göre ara",
+				"skippedForOutputType": "Bu çıktı türü için atlandı.",
+				"subtitleLanguagesRequired": "En az bir dil seçin.",
+				"subtitleLanguagesRequiredOrOff": "En az bir dil seçin veya altyazı indirmelerini kapatın.",
+				"subtitlesOnly": "Bu profil yalnızca altyazı dosyalarını kuyruğa alır. Video, ses, SponsorBlock ve medya dönüştürme atlanır."
+			},
+			"panel": {
+				"advanced": {
+					"description": "Profil için bir geçersiz kılma ayarlamadığınız sürece profiller genel hedefi devralır.",
+					"title": "Gelişmiş seçenekler"
+				},
+				"downloadType": {
+					"description": "Öncelikli olarak nasıl indirmek istediğinizi seçin.",
+					"title": "İndirme türü"
+				},
+				"identity": {
+					"description": "Hızlı İndirme, Toplu URL ve profil listelerinde görünen ad ve simge.",
+					"title": "Profil kimliği"
+				},
+				"output": {
+					"enabledCount_one": "{{count}} etkin",
+					"enabledCount_other": "{{count}} etkin",
+					"title": "Çıktı seçenekleri"
+				},
+				"sponsorBlock": {
+					"title": "SponsorBlock"
+				}
+			},
+			"placeholder": {
+				"folder": "Bu profil için bir klasör seçin"
+			},
+			"skipped": "Atlandı",
+			"sponsorBlockHint": {
+				"mark": "Sponsor bölümlerini bölüm olarak işaretler (dosyayı değiştirmez).",
+				"off": "SponsorBlock yok — video yüklendiği gibi oynatılır.",
+				"remove": "Sponsor bölümlerini FFmpeg ile videodan keser."
+			},
+			"subtitleFormat": {
+				"ass": "ASS",
+				"srt": "SRT",
+				"vtt": "VTT"
+			},
+			"subtitleSource": {
+				"autoOnly": "Yalnızca otomatik oluşturulan",
+				"manualAndAuto": "Elle ve otomatik",
+				"manualFirst": "Önce elle, sonra otomatik",
+				"manualOnly": "Yalnızca elle"
+			}
+		},
+		"profileSwitchRow": {
+			"helpAria": "{{label}} yardımı"
+		},
+		"review": {
+			"areas": {
+				"extras": "ekstralar",
+				"fileName": "dosya adı",
+				"format": "biçim",
+				"saveTo": "klasör",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "altyazılar"
+			},
+			"callout": {
+				"body": "Altyazılar, SponsorBlock, küçük resim gibi ekstralar, klasör ve dosya adı eskiden ayrı adımlardı. Değiştirmek için bir satıra tıklayın.",
+				"title": "Diğer tüm ayarlar artık bu sayfada"
+			},
+			"changeFormat": "Biçimi değiştir",
+			"changed": "Değişenler ({{profile}} profiline göre): {{areas}}. Yalnızca bu indirme için geçerli.",
+			"changedFrom": "Değişenler ({{profile}} profiline göre):",
+			"nextTime": {
+				"action": "Profil olarak kaydet",
+				"defaultName": "{{profile}} (düzenlendi)",
+				"title": "Bu indirme düzenlenmiş ayarları kullandı. Bir dahaki sefere de kullanılsın mı?"
+			},
+			"reset": "Değişiklikleri geri al, “{{profile}}” profiline dön",
+			"rows": {
+				"extras": "Ekstralar",
+				"fileName": "Dosya adı",
+				"saveTo": "Şuraya kaydet",
+				"sponsorBlock": "SponsorBlock",
+				"subtitles": "Altyazılar"
+			},
+			"rowsHeading": "Diğer her şey",
+			"save": {
+				"action": "Profili kaydet",
+				"description": "Bu ayarları bir dahaki sefere seçebileceğiniz bir profil olarak kaydeder. Hızlı İndirme profiliniz aynı kalır.",
+				"failed": "Profil kaydedilemedi.",
+				"nameLabel": "Profil adı",
+				"saved": "“{{name}}” profili olarak kaydedildi",
+				"title": "Profil olarak kaydet"
+			},
+			"saveAsProfile": "Yeni profil olarak kaydet",
+			"update": {
+				"action": "Profili güncelle",
+				"builtinNote": "Bu yerleşik bir profil. Orijinal ayarlarını Profiller sekmesinden geri yükleyebilirsiniz.",
+				"description": "Bundan sonra bu profille yapılan her indirme yeni ayarları kullanır.",
+				"rows": {
+					"format": "Biçim"
+				},
+				"title": "“{{profile}}” güncellensin mi?",
+				"updated": "“{{name}}” profili güncellendi"
+			},
+			"updateProfile": "“{{profile}}” profilini bu değişikliklerle güncelle",
+			"value": {
+				"extrasNone": "Yok",
+				"sponsorBlockOff": "Kapalı",
+				"subtitlesOff": "Kapalı"
+			}
+		},
+		"sponsorblock": {
+			"cat": {
+				"filler": "Dolgu",
+				"intro": "Giriş",
+				"music_offtopic": "Konu dışı müzik",
+				"outro": "Çıkış",
+				"preview": "Önizleme",
+				"selfpromo": "Öz tanıtım",
+				"sponsor": "Sponsor"
+			},
+			"categoriesHeading": "Kategoriler",
+			"mode": {
+				"mark": "Bölüm olarak işaretle",
+				"off": "Kapalı",
+				"remove": "Segmentleri kaldır"
+			},
+			"modeHeading": "Sponsor filtreleme",
+			"modeHint": {
+				"mark": "Sponsor segmentlerini bölüm olarak işaretler (yıkıcı değildir).",
+				"off": "SponsorBlock yok — video yüklendiği gibi oynar.",
+				"remove": "FFmpeg kullanarak sponsor segmentlerini videodan keser."
+			}
+		},
+		"steps": {
+			"confirm": "Onayla",
+			"folder": "Kaydet",
+			"formats": "Biçim",
+			"output": "Çıktı",
+			"playlistItems": "Oynatma listesi",
+			"playlistItemsGeneric": "Videolar",
+			"playlistPresets": "Kalite",
+			"playlistProfiles": "Profiller",
+			"review": "Gözden geçir",
+			"sponsorblock": "SponsorBlock",
+			"subtitles": "Altyazılar",
+			"url": "URL"
+		},
+		"subtitles": {
+			"autoAssNote": "Otomatik altyazılar ASS yerine SRT olarak kaydedilecek — YouTube videolarında kayan ipucu yinelemeleri temizlenir; ASS dönüştürücümüz bunu henüz aynı şekilde yapamıyor.",
+			"autoBadge": "Otomatik",
+			"clearAll": "Tümünü temizle",
+			"embedNote": "Gömme modu çıktıyı .mkv olarak kaydeder, böylece altyazı parçaları güvenilir şekilde gömülür.",
+			"format": {
+				"heading": "Biçim"
+			},
+			"noLanguages": "Bu video için altyazı yok",
+			"noMatches": "Eşleşen dil yok",
+			"noSelected": "Altyazı seçilmedi",
+			"removeLanguage": "{{name}} kaldır",
+			"saveMode": {
+				"embed": "Videoya göm",
+				"heading": "Kaydetme biçimi",
+				"sidecar": "Videonun yanına",
+				"sidecarNoVideo": "İndirme klasöründe",
+				"subfolder": "subtitles/ alt klasörü"
+			},
+			"searchPlaceholder": "Dillerde ara…",
+			"sectionAuto": "Otomatik oluşturulan",
+			"sectionManual": "Manuel"
+		},
+		"tabsNavAria": "İndirme profili gezinmesi",
+		"url": {
+			"advanced": "Gelişmiş",
+			"autoRemoveCompleted": {
+				"description": "Bir indirmeyi bittikten birkaç saniye sonra İndirmeler listesinden kaldırır. Dosyalar klasörünüzde kalır; başarısız ve iptal edilen indirmeler listede kalır.",
+				"label": "Biten indirmeleri otomatik kaldır"
+			},
+			"autoRetry": {
+				"description": "Ağ veya sunucu kaynaklı bir aksaklıktan sonra otomatik olarak yeniden dener ve her denemeden önce daha uzun bekler. Sitenin engellediği indirmeler asla otomatik olarak yeniden denenmez.",
+				"label": "Başarısız indirmeleri yeniden dene",
+				"unit": "kez"
+			},
+			"bulkButton": "Toplu URL’ler",
+			"bulkTooltip": "Birden fazla URL ekle ve kuyruğa al.",
+			"clearAria": "URL’yi temizle",
+			"clipboard": {
+				"autofilledLink": "Bağlantı panodan eklendi",
+				"bulkHint": "Birden fazla bağlantı kopyalandı — eklemek için Toplu URL’leri kullanın",
+				"dialog": {
+					"cancelButton": "İptal"
+				},
+				"noLink": "Panoda bağlantı yok",
+				"readFailed": "Pano okunamadı — bunun yerine bağlantıyı alana yapıştır",
+				"replacedLink": "Kopyalanan bağlantıyla değiştirildi",
+				"toggle": "Panoyu izle",
+				"toggleDescription": "Bir video bağlantısı kopyaladığında URL alanını otomatik doldur.",
+				"undo": "Geri al"
+			},
+			"closeToTray": {
+				"toggle": "Kapatınca tepsiye gizle",
+				"toggleDescription": "Pencere kapandıktan sonra indirmeleri arka planda sürdür."
+			},
+			"concurrentDownloads": {
+				"description": "Kuyruktaki kaç öğenin aynı anda indirileceği. Aynı anda daha fazlası uzun bir kuyruğu daha çabuk bitirir, ancak sitenin sizi sınırlama ihtimalini artırır.",
+				"label": "Aynı anda indirme",
+				"unit": "indirme"
+			},
+			"concurrentProbes": {
+				"description": "Klip’nin indirmeden önce aynı anda kaç bağlantının ayrıntılarını aldığı. Daha az olması, yoğun bağlantıları engelleyen sitelere karşı daha nazik. Etkileşimli İndirme’de açtığın bağlantı her zaman öne geçer.",
+				"label": "Aynı anda kontrol edilen bağlantı",
+				"unit": "bağlantı"
+			},
+			"cookies": {
+				"banWarning": "YouTube gibi siteler, çerezleri Klip gibi indirme araçları tarafından kullanılan hesapları işaretleyebilir ve bazen yasaklayabilir. Mümkünse geçici bir hesap kullan.",
+				"browserHelp": "Çerezleri doğrudan tarayıcıdan okur. Chromium ailesi tarayıcılar için tarayıcı kapalı olmalıdır.",
+				"browserLabel": "Tarayıcı",
+				"browserPlaceholder": "Bir tarayıcı seç…",
+				"choose": "Seç…",
+				"clear": "Temizle",
+				"enabledButNoBrowser": "Çerezleri kullanmak için bir tarayıcı seç",
+				"enabledButNoFile": "Çerezleri kullanmak için bir dosya seç",
+				"exploreDisabled": "Keşfet sekmesi kapalı, bu yüzden indirmeler Keşfet oturumunu kullanmaz. Aşağıdaki Keşfet bölümünden aç.",
+				"extensionChrome": "cookies.txt dosyasını YEREL olarak al (Chrome)",
+				"extensionFirefox": "cookies.txt (Firefox)",
+				"fileLabel": "Çerez dosyası",
+				"helpLink": "Çerezleri nasıl dışa aktarırım?",
+				"openExplore": "Keşfet'i aç",
+				"placeholder": "Dosya seçilmedi",
+				"recommended": "Önerilen",
+				"risk": "Risk: cookies.txt, o tarayıcıdaki tüm oturum açmış oturumları içerir — gizli tut.",
+				"sourceBrowser": "Tarayıcı",
+				"sourceExplore": "Keşfet oturumu",
+				"sourceFile": "Dosya",
+				"sourceLabel": "Çerez kaynağı",
+				"sourceOff": "Kapalı",
+				"toggleDescription": "Hesabının izleyebildiği videolarda, örneğin özel videolarında işe yarar."
+			},
+			"downloadConnections": {
+				"description": "Bir videonun birkaç parçasını aynı anda alarak büyük indirmeleri hızlandırır. Yüksek değerler sitenin sizi sınırlama ihtimalini artırır.",
+				"label": "İndirme bağlantıları",
+				"unit": "bağlantı"
+			},
+			"downloadList": {
+				"album": "Albümü indir…",
+				"liked": "Beğenilen videoları indir…",
+				"mix": "Mix’i indir…",
+				"playlist": "Oynatma listesini indir…",
+				"uploads": "Yüklemeleri indir…",
+				"watchLater": "“Daha sonra izle”yi indir…"
+			},
+			"features": {
+				"always": {
+					"audioOnly": "Yalnızca ses",
+					"subtitles": "Altyazılar"
+				},
+				"anySite": {
+					"heading": "2000+ site",
+					"musicPlaylist": "Müzik oynatma listeleri",
+					"video": "Videolar",
+					"videoPlaylist": "Video oynatma listeleri"
+				},
+				"heading": "Klip neleri çekebilir",
+				"youtube": {
+					"channel": "Kanallar",
+					"heading": "YouTube",
+					"music": "Music",
+					"playlist": "Oynatma listeleri",
+					"podcast": "Podcast’ler",
+					"short": "Shorts",
+					"video": "Videolar"
+				}
+			},
+			"fetchFormatsTooltip": "Adım adım sihirbaz. Biçimi, kaliteyi ve daha fazlasını seç.",
+			"heading": "URL’den indir",
+			"hotkey": {
+				"changeShortcut": "Kısayolu değiştir",
+				"conflict": "Bu kısayol başka bir uygulamada kullanılıyor — başka bir tane seçin.",
+				"globalLabel": "Genel kısayol",
+				"recording": "Tuşlara basın…",
+				"reset": "Varsayılana sıfırla",
+				"sectionDescription": "Kopyaladığınız bağlantıyı, Klip’yi açmadan herhangi bir uygulamadan indirin.",
+				"sectionTitle": "Genel kısayol",
+				"test": "Test et",
+				"toggle": "Genel kısayolu etkinleştir",
+				"toggleDescriptionDetail": "Herhangi bir uygulamada bir video bağlantısı kopyalayın ve kısayola basın: Klip onu etkin profilinizle kuyruğa ekler, pencere değiştirmeniz gerekmez. Bir oynatma listesindeki videonun bağlantısı videoyu indirir."
+			},
+			"interactiveDownload": "Etkileşimli İndirme",
+			"interactiveDownloadAsks": "Etkileşimli İndirme…",
+			"limitRate": {
+				"activeWarning": "Etkin indirmeler mevcut sınırını korur. Değişiklikleri uygulamak için Duraklat + Sürdür.",
+				"custom": "Özel…",
+				"customPlaceholder": "örn. 750K veya 1.5M",
+				"description": "Medya indirmeleri için bant genişliğini sınırla. Aşağıdaki istek aralığı genelde daha güçlü hız sınırlama aracıdır.",
+				"invalid": "K veya M ile biten bir sayı kullan (örn. 500K, 1.5M)",
+				"label": "İndirme hızı sınırı",
+				"off": "Kapalı"
+			},
+			"mascotBusy": "Arka planda indiriliyor… Aynı anda birkaç işi halledebilirim 😎",
+			"mascotCollection": "Hızlı İndirme, yüklenen öğeleri {{profileName}} profiliyle kuyruğa ekler. Etkileşimli İndirme ise öğeleri önce incelemeni veya seçmeni sağlar.",
+			"mascotIdle": "Bir bağlantı bırak, Klip onu çeksin ✨",
+			"mascotSingle": "Hızlı İndirme, {{profileName}} profiliyle tek bir indirme başlatır. Tek seferlik değişiklikler için Etkileşimli İndirme'yi kullan.",
+			"mascotVideoInList": "Bu bağlantı hem bir videoyu hem de içinde olduğu listeyi belirtiyor: yalnızca videoyu indir ya da listeyi.",
+			"nativeAudioPreference": {
+				"compatible": "Uyumlu stereo",
+				"description": "Profil yerel sesi seçtiğinde stereo veya surround. Profil bunu değiştirebilir.",
+				"label": "Yerel ses tercihi",
+				"surround": "Surround / Dolby tercih et"
+			},
+			"networkPacing": {
+				"description": "Klip’nin siteye fazla agresif davranmaması için her indirme sırasında küçük beklemeler ekle. Değerler saniye cinsindendir.",
+				"fields": {
+					"maxSleepInterval": "Medya başlamadan önce duraklama: maks",
+					"sleepInterval": "Medya başlamadan önce duraklama: min",
+					"sleepRequests": "Meta veri kontrolleri arasında bekle",
+					"sleepSubtitles": "Altyazı dosyalarından önce bekle"
+				},
+				"heading": "Nazik indirmeler",
+				"presetLabel": "Klip ne kadar temkinli olsun?",
+				"presets": {
+					"balanced": "Dengeli",
+					"careful": "Temkinli",
+					"custom": "Özel",
+					"off": "Kapalı"
+				},
+				"summary": "Beklemeler: kontroller arasında {{requests}}, medya başlamadan önce {{downloads}}, altyazı dosyalarından önce {{subtitles}}.",
+				"tooltip": "Bu beklemeler her indirmenin içinde gerçekleşir. Aynı anda kaç indirmenin çalışacağı ayrı olarak «Aynı anda indirme» altında ayarlanır.",
+				"tooltips": {
+					"balanced": "Varsayılan. İstekler arasında ve medya başlamadan önce kısa duraklamalar ekler.",
+					"careful": "Büyük oynatma listeleri veya sık sınırla karşılaşan ağlar için daha uzun duraklamalar ekler.",
+					"custom": "Gelişmiş indirme başına kontrolleri kendin ayarla.",
+					"off": "Klip’nin medya ve altyazılar için tuttuğu küçük temel duraklamaları kullanır."
+				},
+				"units": {
+					"seconds": "sn"
+				}
+			},
+			"openedLink": {
+				"added": "Bağlantı Klip’de açıldı",
+				"replaced": "Klip’de açılan bağlantıyla değiştirildi"
+			},
+			"pasteLink": "Bağlantıyı yapıştır",
+			"placeholder": "https://...",
+			"playlistProbeLimit": {
+				"current": "Geçerli sınır: {{count}} öğe",
+				"custom": "Özel…",
+				"customDialogCancel": "İptal",
+				"customDialogDescription": "{{min}} ile {{max}} arasında bir tam sayı kullan.",
+				"customDialogSave": "Sınırı kaydet",
+				"customDialogTitle": "Özel oynatma listesi tarama sınırı",
+				"customValue": "Özel: {{count}} öğe",
+				"description": "Bir oynatma listesi, kanal veya arama sonucu açıldığında Klip’nin yükleyeceği en fazla kayıt sayısı.",
+				"invalid": "1 ile 5000 arasında bir tam sayı kullan",
+				"label": "Taranacak oynatma listesi öğeleri",
+				"option": "{{count}} öğe"
+			},
+			"playlistScope": {
+				"appLimit": "Uygulama sınırını kullan: {{count}}",
+				"apply": "Uygula",
+				"applyError": "Bu oynatma listesi kapsamı uygulanamadı: {{message}}",
+				"applyReload": "Uygula ve yeniden yükle",
+				"cancel": "İptal",
+				"change": "Değiştir",
+				"dialogDescription": "Klip’nin bu oynatma listesi için neyi yükleyeceğini seç.",
+				"dialogTitle": "Oynatma listesi kapsamı",
+				"emptyTitle": "Bu kapsamda video yok",
+				"first": "İlk",
+				"invalid": "1 ile {{max}} arasında tam sayı öğe numaraları kullan; başlangıç bitişten büyük olmasın.",
+				"itemsLabel": "Yüklenecek öğeler",
+				"label": "Oynatma listesi kapsamı",
+				"range": "Aralık",
+				"reloading": "Yeniden yükleniyor...",
+				"reset": "Sıfırla",
+				"summaryAppLimit": "İlk {{count}} öğeyi yükle",
+				"summaryFirst": "İlk {{count}} öğeyi yükle",
+				"summaryRange": "{{from}}-{{to}} arası öğeleri yükle",
+				"to": "ile"
+			},
+			"profile": {
+				"activeLabel": "Etkin profil",
+				"badgeBuiltIn": "Yerleşik",
+				"badgeCustom": "Özel",
+				"badgeDisabled": "Gizli",
+				"badgeModified": "Değiştirildi",
+				"builtinName": {
+					"audio-only": "Yalnızca ses",
+					"balanced": "Dengeli 720p",
+					"best-1440": "QHD 1440p",
+					"best-2160": "4K UHD 2160p",
+					"best-quality": "En iyi kalite",
+					"hd-1080": "Full HD 1080p",
+					"low-144": "En düşük kalite 144p",
+					"low-240": "Düşük veri 240p",
+					"mp4-1080": "Akıllı TV 1080p",
+					"mp4-480": "Akıllı TV 480p",
+					"mp4-720": "Akıllı TV 720p",
+					"small-file": "Küçük dosya 480p",
+					"subtitles-only": "Yalnızca altyazılar"
+				},
+				"changeGlobalDestination": "Genel hedefi değiştir",
+				"destinationDetail": {
+					"global": "Genel hedef kullanılıyor",
+					"globalSubfolder": "Genel hedef + profil alt klasörü kullanılıyor",
+					"override": "Profil geçersiz kılması kullanılıyor",
+					"overrideSubfolder": "Profil geçersiz kılması + profil alt klasörü kullanılıyor"
+				},
+				"destinationEditHint": "Kaydedildiği yeri değiştirmek için profili düzenle.",
+				"destinationFallback": "Hedef",
+				"edit": "Düzenle",
+				"editActive": "Etkin profili düzenle",
+				"enableHint": "Gizli profiller burada kalır, ancak tüm seçicilerden kaybolur.",
+				"enableToggleAria": "Profili seçicilerde göster: {{profileName}}",
+				"lastEnabledHint": "En az bir profili kullanılabilir tut.",
+				"manageProfiles": "Profilleri yönet",
+				"menuDescription": "Hızlı İndirme, Toplu URL’ler ve oynatma listeleri için etkin profili değiştir.",
+				"menuTitle": "Profili değiştir",
+				"movableProfile": "taşınabilir profil",
+				"moveCancelled": "Taşıma iptal edildi. {{profileName}} profili {{count}} içinde {{position}}. sırada kalıyor.",
+				"moveDropped": "{{profileName}} profili {{count}} içinde {{position}}. sıraya bırakıldı.",
+				"moveHandleAria": "{{profileName}} profilini taşı",
+				"moveInstructions": "Bir profili taşımak için Boşluk veya Enter tuşuna basın, ok tuşlarıyla taşıyın, ardından bırakmak için tekrar Boşluk veya Enter tuşuna basın. İptal etmek için Esc tuşuna basın.",
+				"moveOver": "{{profileName}} profili {{count}} içinde {{position}}. sıranın üzerinde.",
+				"movePickedUp": "{{profileName}} profili alındı. {{count}} içinde {{position}}. sırada.",
+				"newProfile": "Yeni profil",
+				"outputMissing": "Bu profil, ayarlanmamış bir klasöre kaydediyor. Profilde bir klasör seç ya da varsayılana döndür.",
+				"panelDescription": "Yeniden kullanılabilir indirme kurulumları oluştur, seç, düzenle veya kaldır.",
+				"panelTitle": "İndirme Profilleri",
+				"remove": "Kaldır",
+				"reorderHint": "Bir profili taşımak için sürükleyin. Tüm profil seçiciler bu sırayı izler.",
+				"reset": "Sıfırla",
+				"savesTo": "Kaydedildiği yer",
+				"switchAria": "İndirme profilini değiştir: {{profileName}}",
+				"switchTitle": "İndirme profilini değiştir"
+			},
+			"proxy": {
+				"clear": "Temizle",
+				"description": "Trafiği bir proxy sunucusu üzerinden yönlendir.",
+				"label": "Proxy URL’si",
+				"placeholder": "http://host:port"
+			},
+			"quickDownload": "Hızlı İndirme",
+			"quickDownloadTooltip": "Şununla indirilecek: {{profileName}}",
+			"quickFailed": "Bu öğe eklenemedi: {{error}}",
+			"quickPrepareFailed": "Kuyruk öğesi hazırlanamadı",
+			"quickPreparing": "Hazırlanıyor",
+			"quickProbeFailed": "Denetim başarısız oldu",
+			"quickSingleOnly": "Başlamak için bir video, oynatma listesi, kanal veya arama URL’si yapıştır.",
+			"reports": {
+				"toggle": "Anonim sinyal ve kurulum raporları gönder",
+				"toggleDescription": "Takip yok. Günde bir kez anonim bir sinyal, uygulama sürümünü, kurulum kanalını, işletim sistemini, dili, ülkeyi ve Klip’nin yaklaşık ne kadar önce kurulduğunu gönderir; böylece etkin ve yeni kullanıcıları sayabiliriz. Klip indirme motorunu veya medya araçlarını kurduğunda ya da güncellediğinde bunun işe yarayıp yaramadığını ve yaklaşık ne kadar sürdüğünü de bildirir. Kimlik, URL, video başlığı veya dosya adı gönderilmez."
+			},
+			"settings": {
+				"behaviorDescription": "Profil kaynaklı indirmeleri de etkileyen genel davranış.",
+				"behaviorHeading": "İndirme davranışı",
+				"inputHeading": "Giriş"
+			},
+			"style": {
+				"aurora": {
+					"description": "Hareket eden bir gökyüzünün üzerinde cam paneller. Grafik hızlandırma gerekir.",
+					"label": "Aurora"
+				},
+				"minimal": {
+					"description": "Düz, sakin yüzeyler. Her bilgisayarda hafif çalışır.",
+					"label": "Minimal"
+				},
+				"modeDescription": "İki stil de açık ve koyu modda gelir.",
+				"modeLabel": "Stil",
+				"panelDescription": "Klip'nin görünümü. Açık ve koyu mod arasında alt bilgi alanından geçiş yapabilirsiniz.",
+				"panelTitle": "Görünüm",
+				"unavailableNotice": "{{style}} grafik hızlandırma gerektirir, ama şu an kullanılamıyor; bu yüzden Klip {{fallback}} gösteriyor."
+			},
+			"tabs": {
+				"profiles": "Profiller",
+				"settings": "Ayarlar"
+			},
+			"thisVideo": "Bu video",
+			"thisVideoTooltip": "Yalnızca bu videoyu {{profileName}} ile indirir"
+		}
+	}
+}

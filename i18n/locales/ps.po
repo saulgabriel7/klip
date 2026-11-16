@@ -1,0 +1,5452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arroxy\n"
+"Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ps\n"
+
+msgctxt "about.button"
+msgid "About"
+msgstr "د اړوند"
+
+msgctxt "about.githubLink"
+msgid "GitHub"
+msgstr "GitHub"
+
+msgctxt "about.licenseLine"
+msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgstr ""
+
+msgctxt "about.openTitle"
+msgid "About Klip"
+msgstr ""
+
+msgctxt "about.tagline"
+msgid "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux."
+msgstr ""
+
+msgctxt "about.thirdPartyNotices"
+msgid "View third-party notices"
+msgstr "د دریم ډلې خبرتیاوې وګورئ"
+
+msgctxt "about.websiteLink"
+msgid "Website"
+msgstr "ویب پاڼه"
+
+msgctxt "aiUpscaled.allow"
+msgid "Allow"
+msgstr "اجازه ورکړئ"
+
+msgctxt "aiUpscaled.allowedSummary"
+msgid "AI-upscaled allowed"
+msgstr "د AI په مرسته لوی شوي سټریمونه اجازه شوي دي"
+
+msgctxt "aiUpscaled.description"
+msgid "YouTube offers some old videos in sizes it made with AI. Skip keeps the original streams; you can still pick an upscaled one by hand."
+msgstr "YouTube ځینې زاړه ویډیوګانې په داسې اندازو وړاندې کوي چې د مصنوعي ځیرکتیا (AI) په مرسته یې جوړې کړې دي. “پرېښودل” اصلي سټریمونه ساتي؛ تاسو لا هم کولی شئ یو لوی شوی سټریم په لاس غوره کړئ."
+
+msgctxt "aiUpscaled.label"
+msgid "AI-upscaled streams"
+msgstr "د AI په مرسته لوی شوي سټریمونه"
+
+msgctxt "aiUpscaled.skip"
+msgid "Skip"
+msgstr "پرېښودل"
+
+msgctxt "app.feedback"
+msgid "Feedback"
+msgstr "نظر"
+
+msgctxt "app.feedbackNudge"
+msgid "Enjoying Klip? I'd love to hear from you! 💬"
+msgstr "ایا Klip خوند درکوي؟ ستاسو د اورولو شوق لرم! 💬"
+
+msgctxt "app.logs"
+msgid "Logs"
+msgstr "لاګونه"
+
+msgctxt "app.saveDiagnostics"
+msgid "Save diagnostics file"
+msgstr "د تشخیص فایل خوندي کړئ"
+
+msgctxt "app.saveDiagnosticsDescription"
+msgid "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay."
+msgstr "ستاسو لاګونه او د اپ جزئیات د Downloads په فولډر کې په یوه فایل کې راټولوي، چې GitHub issue ته د ضمیمه کولو لپاره چمتو وي. ستاسو د کارن فولډر نوم لرې کیږي؛ د ویډیو لینکونه او سرلیکونه پاتې کیږي."
+
+msgctxt "app.styleHint"
+msgid "New: choose Aurora or Minimal here"
+msgstr "نوی: دلته اورورا یا ساده غوره کړئ"
+
+msgctxt "app.theme"
+msgid "Theme"
+msgstr "تم"
+
+msgctxt "app.zoomIn"
+msgid "Zoom in"
+msgstr "لویول"
+
+msgctxt "app.zoomOut"
+msgid "Zoom out"
+msgstr "کوچنیول"
+
+msgctxt "common.back"
+msgid "Back"
+msgstr "شاته"
+
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgctxt "common.close"
+msgid "Close"
+msgstr "تړل"
+
+msgctxt "common.continue"
+msgid "Continue"
+msgstr "دوام ورکړه"
+
+msgctxt "common.loading"
+msgid "Loading"
+msgstr "بارول…"
+
+msgctxt "common.retry"
+msgid "Retry"
+msgstr "بیا هڅه وکړه"
+
+msgctxt "common.startOver"
+msgid "Start over"
+msgstr "له سره پیل کړه"
+
+msgctxt "dialogs.closeToTray.detail"
+msgid "Klip keeps running and finishes active downloads. Change this later in Advanced settings."
+msgstr "Klip کار کوي او فعال ډاونلوډونه بشپړوي. دا وروسته د پرمختللو تنظیماتو کې بدل کړئ."
+
+msgctxt "dialogs.closeToTray.hide"
+msgid "Hide to tray"
+msgstr "ټرې ته پټول"
+
+msgctxt "dialogs.closeToTray.message"
+msgid "Hide Klip to the system tray when closing?"
+msgstr "ایا د تړولو پر وخت Klip سیسټم ټرې ته پټ کړو؟"
+
+msgctxt "dialogs.closeToTray.quit"
+msgid "Quit"
+msgstr "وتل"
+
+msgctxt "dialogs.closeToTray.remember"
+msgid "Don't ask again"
+msgstr "بیا مه پوښتئ"
+
+msgctxt "dialogs.quitWithActiveDownloads.continueDetail"
+msgid "Your queue is kept, and downloads pick up where they stopped the next time you open Klip."
+msgstr "ستاسو قطار ساتل کیږي، او ډاونلوډونه بله ځل چې Klip پرانیزئ هلته له سره پیلیږي چېرته چې ودرېدل."
+
+msgctxt "dialogs.quitWithActiveDownloads.keep"
+msgid "Keep Downloading"
+msgstr "ډاونلوډ دوام کړه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "dialogs.quitWithActiveDownloads.message_one"
+msgid "{{count}} download in progress"
+msgstr "{{count}} ډاونلوډ روان دی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "dialogs.quitWithActiveDownloads.message_other"
+msgid "{{count}} downloads in progress"
+msgstr "{{count}} ډاونلوډونه روان دي"
+
+msgctxt "dialogs.quitWithActiveDownloads.quit"
+msgid "Quit"
+msgstr "وتل"
+
+msgctxt "dialogs.rendererCrashed.detail"
+msgid "The renderer process crashed ({{reason}}). Reload to try again."
+msgstr "د رینډرر پروسه کریش شوه ({{reason}}). بیا هڅه کولو لپاره بیا بار کړئ."
+
+msgctxt "dialogs.rendererCrashed.message"
+msgid "Klip encountered a problem"
+msgstr "Klip ستونزې سره مخ شو"
+
+msgctxt "dialogs.rendererCrashed.quit"
+msgid "Quit"
+msgstr "وتل"
+
+msgctxt "dialogs.rendererCrashed.reload"
+msgid "Reload"
+msgstr "بیا بار کړئ"
+
+msgctxt "donate.copied"
+msgid "Copied!"
+msgstr "کاپي شو!"
+
+msgctxt "donate.copyAddress"
+msgid "Copy address"
+msgstr "پته کاپي کړئ"
+
+msgctxt "donate.description"
+msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
+msgstr "Klip وړیا او خلاص‌سرچینه دی، بې اعلانونو او بې د پیسو پلان. مرستې اختیاري دي او د پرمختګ پلان باندې اغېز نه لري."
+
+msgctxt "donate.footerLabel"
+msgid "Donate"
+msgstr "مرسته"
+
+msgctxt "donate.footerTooltip"
+msgid "Support Klip"
+msgstr "له Klip ملاتړ وکړئ"
+
+msgctxt "donate.qrAlt"
+msgid "{{coin}} donation address QR code"
+msgstr "د {{coin}} د مرستې پتې QR کوډ"
+
+msgctxt "donate.title"
+msgid "Support Klip"
+msgstr "له Klip ملاتړ وکړئ"
+
+msgctxt "donate.warning"
+msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
+msgstr "د کریپټو تادیې بیرته نه راګرځي. یوازې د ښودل شوې شبکې له لارې ولېږئ او ټوله پته پرتله کړئ."
+
+msgctxt "errors.noSubtitlesIn"
+msgid "This video has no subtitles in {{languages}}."
+msgstr "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري."
+
+msgctxt "errors.ytdlp.ageRestricted"
+msgid "This video is age-restricted and cannot be downloaded without a signed-in account."
+msgstr "دا ویډیو د عمر محدودیت لري او پرته د ننوتلي حساب نه شي ډاونلوډ کیدی."
+
+msgctxt "errors.ytdlp.botBlock"
+msgid "The site's bot protection stopped this download. Wait a while and try again, or download fewer videos at once. If it keeps failing, this may be a temporary site-side change — Klip updates its download engine on launch, so the fix lands automatically once it ships."
+msgstr "د سایټ د bot ساتنې دا ډاونلوډ ودراوه. یو څه انتظار وکړئ او بیا هڅه وکړئ، یا په یو وخت کې لږ ویډیوګانې ډاونلوډ کړئ. که بیا هم ناکام شو، ښایي د سایټ له لوري موقتي بدلون وي — Klip د پیل پر مهال خپل د ډاونلوډ انجن تازه کوي، نو اصلاح چې خپره شي په اتوماتیک ډول رارسیږي."
+
+msgctxt "errors.ytdlp.chunkTransferFailure"
+msgid "The server kept cutting the download mid-stream, and Klip gave up after retrying. This usually hits the largest video formats (4K HDR / high-bitrate VP9). Retry, switch network/VPN, or pick a lower-resolution format."
+msgstr "سرور د ډاونلوډ پرمهال وصل کول پرې کاوه او Klip د بیا هڅولو وروسته پریښود. دا معمولاً د ترټولو لوی ویډیو فارمیټونو (4K HDR / لوړ بیټ ریټ VP9) سره پیښیږي. بیا هڅه وکړئ، شبکه/VPN بدل کړئ، یا ټیټ ریزولوشن فارمیټ غوره کړئ."
+
+msgctxt "errors.ytdlp.drmProtected"
+msgid "This video is DRM-protected. Klip can't remove DRM, so the file can't be downloaded."
+msgstr "دا ویډیو د DRM لخوا خوندي ده. Klip نشي کولی DRM لیرې کړي، نو فایل نشي ډاونلوډ کیدی."
+
+msgctxt "errors.ytdlp.formatUnavailable"
+msgid "This video no longer offers the format you picked. Paste the link again and pick from the formats it offers now."
+msgstr "دا ویډیو نور هغه بڼه نه وړاندې کوي چې تاسو غوره کړې وه. لینک بیا ونښلوئ او له هغو بڼو څخه یوه غوره کړئ چې اوس وړاندې کیږي."
+
+msgctxt "errors.ytdlp.geoBlocked"
+msgid "This video is not available in your region."
+msgstr "دا ویډیو ستاسو سیمه کې شتون نلري."
+
+msgctxt "errors.ytdlp.ipBlock"
+msgid "The site is blocking requests from this connection. Try again later."
+msgstr "سایټ د دې اتصال غوښتنې بندوي. وروسته بیا هڅه وکړئ."
+
+msgctxt "errors.ytdlp.loginRequired"
+msgid "This video needs a signed-in account."
+msgstr "دا ویډیو ننوتي اکاونټ ته اړتیا لري."
+
+msgctxt "errors.ytdlp.missingDependency"
+msgid "Klip could not find FFmpeg or FFprobe. Run setup again or set an FFmpeg location, then retry the download."
+msgstr "Klip FFmpeg یا FFprobe ونه موند. نصب بیا چل کړئ یا د FFmpeg ځای وټاکئ، بیا ډاونلوډ بیا وازمایئ."
+
+msgctxt "errors.ytdlp.network"
+msgid "Network error. Check your connection and retry."
+msgstr "د شبکې تېروتنه. خپله اړیکه وګورئ او بیا هڅه وکړئ."
+
+msgctxt "errors.ytdlp.noSubtitles"
+msgid "This video has no subtitles in the requested languages."
+msgstr "دا ویډیو په غوښتل شویو ژبو کې ژباړلیکونه نه لري."
+
+msgctxt "errors.ytdlp.outOfDiskSpace"
+msgid "Not enough disk space. Free up space and retry."
+msgstr "د ډیسک کافي ځای نشته. ځای خالي کړئ او بیا هڅه وکړئ."
+
+msgctxt "errors.ytdlp.outputNotWritable"
+msgid "Klip can't write to the download folder. It may be read-only, on a locked drive, or blocked by your system's privacy settings. Choose another folder or allow access, then retry."
+msgstr "Klip د ډاونلوډ فولډر ته نشي لیکلی. کېدای شي یوازې د لوستلو وړ وي، په تړل شوي ډرایو کې وي، یا ستاسو د سیسټم د محرمیت تنظیماتو بند کړی وي. بل فولډر وټاکئ یا لاسرسی ورکړئ، بیا هڅه وکړئ."
+
+msgctxt "errors.ytdlp.parse"
+msgid "Couldn't parse the response from the site. The site may have changed how it serves videos. Klip updates its download engine on launch — retry in a few minutes once the fix ships."
+msgstr "د سایټ ځواب پارس نه شو. سایټ ممکن د ویډیوګانو د وړاندې کولو طریقه بدله کړې وي. Klip په پیلیدو سره خپل د ډاونلوډ انجن تازه کوي — څو دقیقې وروسته بیا هڅه وکړئ کله چې اصلاح راشي."
+
+msgctxt "errors.ytdlp.postprocessFailure"
+msgid "The download finished, but post-processing (merge / mux / convert) failed. Often this is a transient ffmpeg issue — retry, and if it persists try a different format combination."
+msgstr "ډاونلوډ بشپړ شو، خو وروستی پروسس (یوځای کول / mux / بدلون) ناکام شو. ډیری وختونه دا د ffmpeg لنډمهاله ستونزه ده — بیا هڅه وکړئ، او که دوام ولري، بل فارمیټ ترکیب وازمویئ."
+
+msgctxt "errors.ytdlp.rateLimit"
+msgid "The site is rate-limiting requests from this connection."
+msgstr "سایټ د دې اتصال غوښتنې محدودوي."
+
+msgctxt "errors.ytdlp.unavailable"
+msgid "This video is unavailable — it may be private, deleted, or region-locked."
+msgstr "دا ویډیو شتون نلري — ممکن شخصي، حذف شوې، یا سیمه بنده وي."
+
+msgctxt "errors.ytdlp.unknown"
+msgid "Download failed. See the raw output below."
+msgstr "ډاونلوډ ناکام شو. لاندې خام محصول وګورئ."
+
+msgctxt "errors.ytdlp.unsupportedUrl"
+msgid "Klip doesn't support this URL. Try a link from a different site."
+msgstr "Klip دا URL نه ملاتړ کوي. د بل سایټ لینک وازمویئ."
+
+msgctxt "explore.error.loadBody"
+msgid "Check your connection, then try again."
+msgstr "خپل اتصال وګورئ، ورپسې بیا هڅه وکړئ."
+
+msgctxt "explore.error.loadTitle"
+msgid "This page didn't load"
+msgstr "دا پاڼه بار نه شوه"
+
+msgctxt "explore.error.openSettings"
+msgid "Open Settings"
+msgstr "امستنې پرانیزئ"
+
+msgctxt "explore.error.proxyBody"
+msgid "Check the proxy in Settings, then try again."
+msgstr "په امستنو کې پراکسي وګورئ، ورپسې بیا هڅه وکړئ."
+
+msgctxt "explore.error.proxyTitle"
+msgid "Explore can't connect through your proxy"
+msgstr "سپړنه ستاسو د پراکسي له لارې نه شي نښلېدای"
+
+msgctxt "explore.error.retry"
+msgid "Retry"
+msgstr "بیا هڅه وکړه"
+
+msgctxt "explore.linkCallout.body"
+msgid "Right-click any video, playlist or channel link on the page to download it with your active profile, pick another profile, or open the step-by-step flow."
+msgstr "په پاڼه کې د هر ویډیو، پلې‌لېست یا چینل پر لینک ښي کلیک وکړئ ترڅو د فعال پروفایل سره یې ډاونلوډ کړئ، بل پروفایل وټاکئ یا تعاملي ډاونلوډ پرانیزئ."
+
+msgctxt "explore.linkCallout.title"
+msgid "Right-click a link to download it"
+msgstr "د ډاونلوډ لپاره پر لینک ښي کلیک وکړئ"
+
+msgctxt "explore.linkMenu.background.album"
+msgid "Download the album in the background"
+msgstr "البم په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.background.liked"
+msgid "Download your liked videos in the background"
+msgstr "ستاسو د خوښې ویډیوګانې په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.background.mix"
+msgid "Download the Mix in the background"
+msgstr "Mix په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.background.playlist"
+msgid "Download the playlist in the background"
+msgstr "پلې‌لېست په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.background.uploads"
+msgid "Download the uploads in the background"
+msgstr "پورته شوې ویډیوګانې په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.background.watchLater"
+msgid "Download Watch later in the background"
+msgstr "“وروسته کتل” په شاتهپرده کې ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.copyLink"
+msgid "Copy link"
+msgstr "لینک کاپي کړئ"
+
+msgctxt "explore.linkMenu.downloadFirst"
+msgid "Download the first {{count}}"
+msgstr "لومړني {{count}} ډاونلوډ کړئ"
+
+msgctxt "explore.linkMenu.downloadThisVideo"
+msgid "Download this video · {{profileName}}"
+msgstr "دا ویډیو ډاونلوډ کړئ · {{profileName}}"
+
+msgctxt "explore.linkMenu.downloadWith"
+msgid "Download with"
+msgstr "په پروفایل ډاونلوډ"
+
+msgctxt "explore.linkMenu.fromList.album"
+msgid "From this album"
+msgstr "له دې البم څخه"
+
+msgctxt "explore.linkMenu.fromList.liked"
+msgid "From your liked videos"
+msgstr "ستاسو د خوښې ویډیوګانو څخه"
+
+msgctxt "explore.linkMenu.fromList.mix"
+msgid "From this Mix"
+msgstr "له دې Mix څخه"
+
+msgctxt "explore.linkMenu.fromList.playlist"
+msgid "From this playlist"
+msgstr "له دې پلې‌لېست څخه"
+
+msgctxt "explore.linkMenu.fromList.uploads"
+msgid "From this channel’s uploads"
+msgstr "د دې چینل له پورته شویو ویډیوګانو څخه"
+
+msgctxt "explore.linkMenu.fromList.watchLater"
+msgid "From Watch later"
+msgstr "له “وروسته کتل” څخه"
+
+msgctxt "explore.linkMenu.interactive"
+msgid "Interactive Download…"
+msgstr "تعاملي ډاونلوډ…"
+
+msgctxt "explore.linkMenu.thisVideoWith"
+msgid "This video with"
+msgstr "دا ویډیو له پروفایل سره"
+
+msgctxt "explore.newBadge"
+msgid "New"
+msgstr "نوی"
+
+msgctxt "explore.notice.body"
+msgid "Find a video on YouTube or any other site and download it from here — no copying links. Sign in to a site here to download videos that need an account."
+msgstr "په YouTube یا بل هر سایټ کې یو ویډیو ومومئ او له همدې ځایه یې ښکته کړئ — پرته له لینک کاپي کولو. هغه ویډیوګانې ښکته کولو لپاره چې حساب غواړي دلته په یو سایټ کې ننوځئ."
+
+msgctxt "explore.notice.continue"
+msgid "Continue"
+msgstr "دوام ورکړه"
+
+msgctxt "explore.notice.riskBody"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts used with download tools like Klip. Use an account you can afford to lose, not your main one."
+msgstr "YouTube غوندې سایټونه ممکن هغه حسابونه چې د Klip غوندې د ښکته کولو وسیلو سره کارول کیږي نښه کړي او ځینې وختونه بنده کړي. هغه حساب وکاروئ چې له لاسه ورکول یې مهم نه وي، نه خپل اصلي حساب."
+
+msgctxt "explore.notice.riskTitle"
+msgid "Sign in with a secondary account"
+msgstr "په دویم حساب ننوځئ"
+
+msgctxt "explore.notice.title"
+msgid "Browse the web right inside Klip"
+msgstr "ویب د Klip دننه وګورئ"
+
+msgctxt "explore.nudge.browser"
+msgid "Downloads use your browser's cookies, not your Explore sign-in."
+msgstr "ښکته کول ستاسو د براوزر کوکیز کاروي، نه ستاسو د سپړنې ننوتل."
+
+msgctxt "explore.nudge.file"
+msgid "Downloads use your cookies file, not your Explore sign-in."
+msgstr "ښکته کول ستاسو د کوکیز فایل کاروي، نه ستاسو د سپړنې ننوتل."
+
+msgctxt "explore.nudge.notNow"
+msgid "Not now"
+msgstr "اوس نه"
+
+msgctxt "explore.nudge.off"
+msgid "Cookies are off, so downloads don't use your Explore sign-in."
+msgstr "کوکیز بند دي، نو ښکته کول ستاسو د سپړنې ننوتل نه کاروي."
+
+msgctxt "explore.nudge.useExplore"
+msgid "Use Explore sign-in"
+msgstr "د سپړنې ننوتل وکاروئ"
+
+msgctxt "explore.settings.description"
+msgid "Browse YouTube or any other site inside Klip, and sign in for videos that need an account."
+msgstr "YouTube یا بل هر سایټ د Klip دننه وګورئ او هغو ویډیوګانو لپاره ننوځئ چې حساب غواړي."
+
+msgctxt "explore.settings.idleUnload"
+msgid "Free memory while away"
+msgstr "د نشتوالي پر مهال حافظه آزاده کړئ"
+
+msgctxt "explore.settings.idleUnloadDescription"
+msgid "After 5 minutes on another tab, closes the YouTube home or search page. Coming back reloads it, which takes a few seconds."
+msgstr "په بل ټب کې له ۵ دقیقو وروسته، د YouTube کور یا لټون پاڼه بندوي. د بېرته راتګ پر مهال بیا پورته کېږي، چې څو ثانیې وخت نیسي."
+
+msgctxt "explore.settings.searchEngine"
+msgid "Search engine"
+msgstr "د لټون انجن"
+
+msgctxt "explore.settings.searchEngineDescription"
+msgid "Where text typed in the address bar is searched. Links open as typed."
+msgstr "هغه ځای چې په پته بار کې لیکل شوی متن پکې لټول کېږي. لینکونه لکه څنګه چې لیکل شوي، همداسې پرانیستل کېږي."
+
+msgctxt "explore.settings.showTab"
+msgid "Show the Explore tab"
+msgstr "د سپړنې ټب ښکاره کړئ"
+
+msgctxt "explore.settings.showTabDescription"
+msgid "Turning it off also stops downloads from using your Explore sign-in."
+msgstr "که یې بند کړئ، ښکته کول به هم ستاسو د سپړنې ننوتل ونه کاروي."
+
+msgctxt "explore.settings.signOut"
+msgid "Sign out of Explore"
+msgstr "له سپړنې څخه وتل"
+
+msgctxt "explore.settings.signOutConfirm"
+msgid "Sign out"
+msgstr "وتل"
+
+msgctxt "explore.settings.signOutConfirmBody"
+msgid "This clears your sign-ins and browsing data in Explore, on every site. Downloads that need an account will fail until you sign in again."
+msgstr "دا په سپړنه کې په ټولو سایټونو کې ستاسو ننوتل او د کتلو معلومات پاکوي. هغه ښکته کول چې حساب غواړي به تر بیا ننوتلو ناکام وي."
+
+msgctxt "explore.settings.signOutConfirmTitle"
+msgid "Sign out of Explore?"
+msgstr "له سپړنې څخه وځئ؟"
+
+msgctxt "explore.settings.signOutDescription"
+msgid "Clears your sign-ins and browsing data in Explore, on every site."
+msgstr "په سپړنه کې په ټولو سایټونو کې ستاسو ننوتل او د کتلو معلومات پاکوي."
+
+msgctxt "explore.settings.title"
+msgid "Explore"
+msgstr "سپړنه"
+
+msgctxt "explore.tabLabel"
+msgid "Explore"
+msgstr "سپړنه"
+
+msgctxt "explore.toolbar.adBlock.accountNote"
+msgid "YouTube may push back on ad blockers for signed-in accounts."
+msgstr "YouTube کېدای شي د ننوتلو اکاونټونو لپاره د اعلان بلاکرونو پروړاندې مقاومت وکړي."
+
+msgctxt "explore.toolbar.adBlock.aria"
+msgid "Ad blocker"
+msgstr "د اعلان بلاکر"
+
+msgctxt "explore.toolbar.adBlock.off"
+msgid "Ad blocker: off — click to turn on"
+msgstr "د اعلان بلاکر: بند — د چالانولو لپاره کلیک وکړئ"
+
+msgctxt "explore.toolbar.adBlock.on"
+msgid "Ad blocker: on — click to turn off"
+msgstr "د اعلان بلاکر: چالان — د بندولو لپاره کلیک وکړئ"
+
+msgctxt "explore.toolbar.adBlock.starting"
+msgid "Ad blocker: starting — click to turn off"
+msgstr "د اعلان بلاکر: پیلېږي — د بندولو لپاره کلیک وکړئ"
+
+msgctxt "explore.toolbar.adBlock.unavailable"
+msgid "Ad blocker: unavailable, its filter lists couldn't be downloaded — click to turn off"
+msgstr "د اعلان بلاکر: شتون نلري، د دې د فلټر لیستونه ډاونلوډ نشول — د بندولو لپاره کلیک وکړئ"
+
+msgctxt "explore.toolbar.addressAria"
+msgid "Address"
+msgstr "پته"
+
+msgctxt "explore.toolbar.addressPlaceholder"
+msgid "Search {{engine}} or open any site (Vimeo, Instagram…)"
+msgstr "په {{engine}} کې وپلټئ یا هر سایټ پرانیزئ (Vimeo, Instagram…)"
+
+msgctxt "explore.toolbar.aria"
+msgid "Explore browser controls"
+msgstr "د سپړنې د براوزر کنټرولونه"
+
+msgctxt "explore.toolbar.back"
+msgid "Back"
+msgstr "شاته"
+
+msgctxt "explore.toolbar.compactLayout"
+msgid "Compact layout"
+msgstr "کمپیکټ ترتیب"
+
+msgctxt "explore.toolbar.download"
+msgid "Download"
+msgstr "ډاونلوډ"
+
+msgctxt "explore.toolbar.downloadWithProfile"
+msgid "Download · {{profileName}}"
+msgstr "ډاونلوډ · {{profileName}}"
+
+msgctxt "explore.toolbar.forward"
+msgid "Forward"
+msgstr "مخکې"
+
+msgctxt "explore.toolbar.fullLayout"
+msgid "Show full layout"
+msgstr "بشپړ ترتیب ښکاره کړئ"
+
+msgctxt "explore.toolbar.grabUnavailable"
+msgid "Open a video, playlist, or channel to download it"
+msgstr "د ښکته کولو لپاره یو ویډیو، پلې‌لېست یا چینل پرانیزئ"
+
+msgctxt "explore.toolbar.home"
+msgid "YouTube home"
+msgstr "د YouTube کور"
+
+msgctxt "explore.toolbar.interactiveHint"
+msgid "Interactive Download: choose format, subtitles and more…"
+msgstr "تعاملي ډاونلوډ: فارمټ، ساب ټایټلونه او نور وټاکئ…"
+
+msgctxt "explore.toolbar.refusedHint"
+msgid "Explore can't open that address."
+msgstr "سپړنه دغه پته نه شي پرانیستلای."
+
+msgctxt "explore.toolbar.reload"
+msgid "Reload"
+msgstr "بیا بار کړئ"
+
+msgctxt "explore.toolbar.searchTooLong"
+msgid "That search is too long."
+msgstr "دا لټون ډېر اوږد دی."
+
+msgctxt "explore.toolbar.thisVideo"
+msgid "This video"
+msgstr "یوازې دا ویډیو"
+
+msgctxt "explore.toolbar.thisVideoHint"
+msgid "Download just this video with {{profileName}}"
+msgstr "یوازې دا ویډیو د {{profileName}} سره ډاونلوډ کړئ"
+
+msgctxt "explore.toolbar.zoom.hint"
+msgid "Page zoom: {{percent}}%"
+msgstr "د پاڼې لویول: {{percent}}%"
+
+msgctxt "explore.toolbar.zoom.in"
+msgid "Zoom in"
+msgstr "لویول"
+
+msgctxt "explore.toolbar.zoom.label"
+msgid "Page zoom"
+msgstr "د پاڼې لویول"
+
+msgctxt "explore.toolbar.zoom.out"
+msgid "Zoom out"
+msgstr "کوچنیول"
+
+msgctxt "explore.toolbar.zoom.percent"
+msgid "Zoom percent"
+msgstr "د لویولو سلنه"
+
+msgctxt "explore.toolbar.zoom.reset"
+msgid "Reset zoom to 100%"
+msgstr "لویول بیرته 100% ته تنظیم کړه"
+
+msgctxt "filenameTemplate.description"
+msgid "Choose how downloaded files are named. Click a token to insert it. Use / to sort downloads into folders."
+msgstr "وټاکئ چې ښکته شوې فایلونه څنګه نومول کیږي. د ننوتلو لپاره یوه ټوکن کلیک کړئ. د ډاونلوډونو د پوښیو په بڼه ترتیبولو لپاره / وکاروئ."
+
+msgctxt "filenameTemplate.error.empty"
+msgid "Enter a filename template."
+msgstr "د دوتنې نوم بېلګه ولیکئ."
+
+msgctxt "filenameTemplate.error.empty-segment"
+msgid "Remove the extra / — every folder needs a name."
+msgstr "اضافي / لرې کړئ — هر پوښۍ ته نوم پکار دی."
+
+msgctxt "filenameTemplate.error.forbidden-char"
+msgid "Remove characters that aren't allowed in filenames: \\ : * ? \" < > |"
+msgstr "هغه توري لرې کړئ چې د فایل په نوم کې اجازه نلري: \\ : * ? \" < > |"
+
+msgctxt "filenameTemplate.error.invalid-segment"
+msgid "That folder name isn't allowed. Avoid . and .. and reserved names like CON."
+msgstr "دا د پوښۍ نوم اجازه نلري. له . او .. او د CON په څېر خوندي نومونو ډډه وکړئ."
+
+msgctxt "filenameTemplate.error.no-unique-token"
+msgid "Add {title} or {id} to the filename so each download gets its own name."
+msgstr "د فایل نوم ته {title} یا {id} ورزیات کړئ ترڅو هر ډاونلوډ خپل نوم ولري."
+
+msgctxt "filenameTemplate.error.resolution-in-dir"
+msgid "{resolution} can't name a folder — the quality isn't known until the download starts."
+msgstr "{resolution} د پوښۍ نوم نشي کېدای — کیفیت یوازې د ډاونلوډ په پیل معلومیږي."
+
+msgctxt "filenameTemplate.error.stray-brace"
+msgid "Unmatched { or } — wrap tokens like {title}."
+msgstr "نه تړل شوې { یا } — نښې لکه {title} ولیکئ."
+
+msgctxt "filenameTemplate.error.too-long"
+msgid "Template is too long."
+msgstr "بېلګه ډېره اوږده ده."
+
+msgctxt "filenameTemplate.error.unknown-token"
+msgid "Unknown token {{token}}."
+msgstr "ناڅرګنده نښه {{token}}."
+
+msgctxt "filenameTemplate.idEndingWarning"
+msgid "End the name with [{id}] so Klip can detect already-downloaded playlist items and generate .m3u playlists."
+msgstr "نوم په [{id}] پای ته ورسوئ ترڅو Klip مخکې ډاونلوډ شوي د پلې‌لېست توکي وپیژني او .m3u پلې‌لېستونه جوړ کړي."
+
+msgctxt "filenameTemplate.label"
+msgid "Filename template"
+msgstr "د دوتنې نوم بېلګه"
+
+msgctxt "filenameTemplate.m3uDisabledIdEnding"
+msgid "Unavailable because your filename template either doesn't end with [{id}] or sorts downloads into folders."
+msgstr "شتون نلري ځکه ستاسو د فایل نوم بېلګه په [{id}] نه پای ته رسیږي یا ډاونلوډونه په پوښو کې ترتیبوي."
+
+msgctxt "filenameTemplate.previewPlaylist"
+msgid "In a playlist"
+msgstr "په پلی لیست کې"
+
+msgctxt "filenameTemplate.previewSingle"
+msgid "Single video"
+msgstr "یوازینی ویډیو"
+
+msgctxt "filenameTemplate.profileOverrideDescription"
+msgid "Leave empty to inherit the global template."
+msgstr "خالي یې پرېږدئ چې ټولیزه بېلګه وکارول شي."
+
+msgctxt "filenameTemplate.profileOverrideLabel"
+msgid "Filename template"
+msgstr "د دوتنې نوم بېلګه"
+
+msgctxt "fileType.auto"
+msgid "Auto"
+msgstr "اتوماتیک"
+
+msgctxt "fileType.autoValue"
+msgid "Auto (.{{ext}})"
+msgstr "اتوماتیک (.{{ext}})"
+
+msgctxt "fileType.description.auto"
+msgid "The picked streams decide the file type."
+msgstr "غوره شوي سټریمونه د فایل ډول ټاکي."
+
+msgctxt "fileType.description.mkv"
+msgid "Holds any codec. Some TVs and phones can't open it."
+msgstr "هر codec ساتلی شي. ځینې تلویزیونونه او تلیفونونه یې نشي پرانیستلی."
+
+msgctxt "fileType.description.mp4"
+msgid "Plays almost everywhere. VP9 in an MP4 won't play video in QuickTime."
+msgstr "نږدې هر ځای چلیږي. په MP4 کې VP9 په QuickTime کې ویډیو نه ښيي."
+
+msgctxt "fileType.description.webm"
+msgid "Open format for browsers. Holds only VP9 or AV1 with Opus."
+msgstr "د براوزرونو لپاره خلاص فارمټ. یوازې VP9 یا AV1 له Opus سره ساتي."
+
+msgctxt "fileType.mkv"
+msgid "MKV"
+msgstr "MKV"
+
+msgctxt "fileType.mp4"
+msgid "MP4"
+msgstr "MP4"
+
+msgctxt "fileType.mp4CaveatAv1"
+msgid "AV1 in an MP4 needs a recent Mac to play in QuickTime. H.264 plays everywhere."
+msgstr "په MP4 کې AV1 په QuickTime کې د چلولو لپاره نوی Mac ته اړتیا لري. H.264 هر ځای چلیږي."
+
+msgctxt "fileType.mp4CaveatVp9"
+msgid "VP9 in an MP4 won't play video in QuickTime. H.264 plays everywhere."
+msgstr "په MP4 کې VP9 په QuickTime کې ویډیو نه ښيي. H.264 هر ځای چلیږي."
+
+msgctxt "fileType.profileMark"
+msgid "Profile"
+msgstr "پروفایل"
+
+msgctxt "fileType.smartTvNoWebm"
+msgid "WebM isn't offered with Smart TV: it can't hold H.264."
+msgstr "WebM له سمارټ TV سره نه وړاندې کیږي: H.264 نشي ساتلی."
+
+msgctxt "fileType.webm"
+msgid "WebM"
+msgstr "WebM"
+
+msgctxt "fileType.webmBlocked"
+msgid "WebM can't hold {{codec}}. Choose MKV or MP4."
+msgstr "WebM نشي کولی {{codec}} وساتي. MKV یا MP4 غوره کړئ."
+
+msgctxt "formatLabel.audioFallback"
+msgid "Audio"
+msgstr "غږ"
+
+msgctxt "formatLabel.audioOnlyDot"
+msgid "Audio only · {{audio}}"
+msgstr "یوازې غږ · {{audio}}"
+
+msgctxt "formatLabel.videoDot"
+msgid "{{resolution}} · {{audio}}"
+msgstr "{{resolution}} · {{audio}}"
+
+msgctxt "hdrPreference.auto"
+msgid "Auto"
+msgstr "اتوماتیک"
+
+msgctxt "hdrPreference.description"
+msgid "Auto picks HDR when this screen can show it, otherwise SDR. HDR looks washed out on regular screens."
+msgstr "اتوماتیک HDR غوره کوي کله چې دا سکرین یې ښودلی شي، که نه نو SDR. HDR په عادي سکرینونو کې کمرنګه ښکاري."
+
+msgctxt "hdrPreference.hdr"
+msgid "HDR"
+msgstr "HDR"
+
+msgctxt "hdrPreference.label"
+msgid "HDR video"
+msgstr "HDR ویډیو"
+
+msgctxt "hdrPreference.sdr"
+msgid "SDR"
+msgstr "SDR"
+
+msgctxt "language.label"
+msgid "Language"
+msgstr "ژبه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.exploreSignInRetrying_one"
+msgid "Signed in with Explore — retrying 1 link"
+msgstr "د سپړنې له لارې ننوتل بریالی شو — 1 لینک بیا هڅول کېږي"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.exploreSignInRetrying_other"
+msgid "Signed in with Explore — retrying {{count}} links"
+msgstr "د سپړنې له لارې ننوتل بریالی شو — {{count}} لینکونه بیا هڅول کېږي"
+
+msgctxt "notifications.exploreSignOutFailed"
+msgid "Could not sign out of Explore. Try again."
+msgstr "له سپړنې څخه نه شوای وتلی. بیا هڅه وکړئ."
+
+msgctxt "notifications.filenameFolderTooDeep"
+msgid "This folder is too deep for your system. The download may still fail — pick a shorter folder."
+msgstr "دا پوښۍ ستاسو د سیسټم لپاره ډېره ژوره ده. ښکته کول بیا هم ناکام کېدی شي — لنډه پوښۍ وټاکئ."
+
+msgctxt "notifications.filenameTemplateCannotFit"
+msgid "This video's name can't fit every part of your template, so the default name was used."
+msgstr "د دې ویډیو نوم ستاسو د بېلګې په هره برخه کې نه ځایېږي، نو ځکه اصلي نوم وکارول شو."
+
+msgctxt "notifications.folderSelectFailed"
+msgid "Could not open the folder picker."
+msgstr "د پوښۍ ټاکونکی نه شو پرانیستل کېدی."
+
+msgctxt "notifications.hotkey.alreadyQueued"
+msgid "Already in the queue — no copy added"
+msgstr "لا دمخې کې شته — کاپي نه ده اضافه شوې"
+
+msgctxt "notifications.hotkey.cookiesSetup"
+msgid "Finish setting up cookies in Klip, then try again"
+msgstr "په Klip کې د کوکیزو تنظیم بشپړ کړئ، بیا هڅه وکړئ"
+
+msgctxt "notifications.hotkey.invalidClipboard"
+msgid "No link on your clipboard — copy one first"
+msgstr "په کاپي بورد کې لینک نشته — لومړی یو کاپي کړئ"
+
+msgctxt "notifications.hotkey.multipleUrls"
+msgid "Multiple links copied — use Bulk URLs in Klip"
+msgstr "ډېر لینکونه کاپي شوي دي — په Klip کې «ډېر URLونه» وکاروئ"
+
+msgctxt "notifications.hotkey.needsReview"
+msgid "That link needs your choice — see Downloads in Klip"
+msgstr "دا لینک ستاسو ټاکنې ته اړتیا لري — په Klip کې «ډاونلوډونه» وګورئ"
+
+msgctxt "notifications.hotkey.queued"
+msgid "Download queued from clipboard"
+msgstr "له کاپي بورد څخه ډاونلوډ اضافه شو"
+
+msgctxt "notifications.hotkey.submissionFailed"
+msgid "Could not add that link — try again in Klip"
+msgstr "دا لینک اضافه نشو کیدی — په Klip کې بیا هڅه وکړئ"
+
+msgctxt "notifications.playlistFolderRejected"
+msgid "That folder can't be used for this playlist."
+msgstr "هغه پوښۍ د دې غږیز لړ لپاره نه شي کارېدی."
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.queue.skippedAlreadyQueued_one"
+msgid "{{count}} video is already in the queue — skipped"
+msgstr "{{count}} ویډیو لا دمخې په قطار کې دی — پرېښودل شو"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.queue.skippedAlreadyQueued_other"
+msgid "{{count}} videos are already in the queue — skipped"
+msgstr "{{count}} ویډیوګانې لا دمخې په قطار کې دي — پرېښودل شوې"
+
+msgctxt "notifications.quickDownload.added"
+msgid "Added: {{title}}"
+msgstr "اضافه شو: {{title}}"
+
+msgctxt "notifications.quickDownload.alreadyQueued"
+msgid "Already in the queue"
+msgstr "لا دمخې په قطار کې دی"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAdded_one"
+msgid "Added {{count}} link to Downloads"
+msgstr "{{count}} لینک ډاونلوډونو ته اضافه شو"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAdded_other"
+msgid "Added {{count}} links to Downloads"
+msgstr "{{count}} لینکونه ډاونلوډونو ته اضافه شول"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_one"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} لا دمخې په قطار کې دی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchAlreadyQueued_other"
+msgid "{{count}} already in the queue"
+msgstr "{{count}} لا دمخې په قطار کې دي"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNoneAdded_one"
+msgid "{{count}} link couldn't be added"
+msgstr "{{count}} لینک اضافه نشو کیدی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNoneAdded_other"
+msgid "{{count}} links couldn't be added"
+msgstr "{{count}} لینکونه اضافه نشول کیدی"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.batchNotAdded_one"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} اضافه نشو کیدی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.batchNotAdded_other"
+msgid "{{count}} couldn't be added"
+msgstr "{{count}} اضافه نشول کیدی"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseFromList_one"
+msgid "{{count}} video in this list — choose what to download"
+msgstr "په دې لیست کې {{count}} ویډیو — وټاکئ څه ډاونلوډ کړئ"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseFromList_other"
+msgid "{{count}} videos in this list — choose what to download"
+msgstr "په دې لیست کې {{count}} ویډیوګانې — وټاکئ څه ډاونلوډ کړئ"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "notifications.quickDownload.chooseHowMany_one"
+msgid "{{count}}+ video — choose how many"
+msgstr "{{count}}+ ویډیو — وټاکئ څومره"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "notifications.quickDownload.chooseHowMany_other"
+msgid "{{count}}+ videos — choose how many"
+msgstr "{{count}}+ ویډیوګانې — وټاکئ څومره"
+
+msgctxt "notifications.quickDownload.failed"
+msgid "Couldn't prepare {{title}}"
+msgstr "د {{title}} چمتو کول ناکام شول"
+
+msgctxt "notifications.quickDownload.notAdded"
+msgid "Couldn't add that link — try again"
+msgstr "دا لینک اضافه نشو کیدی — بیا هڅه وکړئ"
+
+msgctxt "notifications.quickDownload.view"
+msgid "View"
+msgstr "کتل"
+
+msgctxt "notifications.settingsSaveFailed"
+msgid "Could not save your settings."
+msgstr "ستاسو تنظیمات نه شول خوندي کېدی."
+
+msgctxt "notifications.shellActionFailed"
+msgid "Could not open that."
+msgstr "هغه نه شو پرانیستل کېدی."
+
+msgctxt "notifications.warmupFailed"
+msgid "Setup did not finish. Some downloads may fail until it does."
+msgstr "چمتووالی نه دی بشپړ شوی. تر هغه پورې ځینې ښکته کول ناکام کېدی شي."
+
+msgctxt "playlistPresets.audioFormat.best"
+msgid "Audio (best)"
+msgstr "غږ (غوره)"
+
+msgctxt "playlistPresets.audioFormat.m4a"
+msgid "M4A"
+msgstr "M4A"
+
+msgctxt "playlistPresets.audioFormat.mp3"
+msgid "MP3"
+msgstr "MP3"
+
+msgctxt "playlistPresets.audioFormat.opus"
+msgid "Opus"
+msgstr "Opus"
+
+msgctxt "playlistPresets.audioFormatBitrate"
+msgid "Audio ({{format}} {{kbps}}K)"
+msgstr "غږ ({{format}} {{kbps}}K)"
+
+msgctxt "playlistPresets.audioFormatDesc.best"
+msgid "Native best audio, no re-encode"
+msgstr "غوره اصلي غږ، بیا کوډ نه کېږي"
+
+msgctxt "playlistPresets.audioFormatDesc.m4a"
+msgid "Convert to M4A (AAC)"
+msgstr "M4A (AAC) ته بدلول"
+
+msgctxt "playlistPresets.audioFormatDesc.mp3"
+msgid "Convert to MP3"
+msgstr "MP3 ته بدلول"
+
+msgctxt "playlistPresets.audioFormatDesc.opus"
+msgid "Convert to Opus"
+msgstr "Opus ته بدلول"
+
+msgctxt "playlistPresets.mp4Cap"
+msgid "H.264 above 1080p is not available on YouTube — capped to 1080p automatically"
+msgstr "په YouTube کې له 1080p پورته H.264 نشته — په اتومات ډول 1080p ته محدودېږي"
+
+msgctxt "playlistPresets.subtitles.deliveryHeading"
+msgid "Save as"
+msgstr "د خوندي کولو بڼه"
+
+msgctxt "playlistPresets.subtitles.deliveryLoose"
+msgid "Directly in the save folder"
+msgstr "مستقیم د خوندي کولو فولډر کې"
+
+msgctxt "playlistPresets.subtitles.languages"
+msgid "Languages"
+msgstr "ژبې"
+
+msgctxt "playlistPresets.subtitles.languagesRequired"
+msgid "Choose at least one language to continue."
+msgstr "د دوام لپاره لږ تر لږه یوه ژبه غوره کړئ."
+
+msgctxt "playlistPresets.subtitles.note"
+msgid "Only subtitle files are saved for each video — no video or audio is downloaded."
+msgstr "د هرې ویډیو لپاره یوازې د ژباړلیک فایلونه خوندي کیږي — هیڅ ویډیو یا غږ نه ډاونلوډیږي."
+
+msgctxt "playlistPresets.subtitles.source"
+msgid "Source"
+msgstr "سرچینه"
+
+msgctxt "playlistPresets.tier.1080"
+msgid "Up to 1080p"
+msgstr "تر 1080p پورې"
+
+msgctxt "playlistPresets.tier.144"
+msgid "Up to 144p"
+msgstr "تر 144p پورې"
+
+msgctxt "playlistPresets.tier.1440"
+msgid "Up to 1440p"
+msgstr "تر 1440p پورې"
+
+msgctxt "playlistPresets.tier.2160"
+msgid "Up to 4K"
+msgstr "تر 4K پورې"
+
+msgctxt "playlistPresets.tier.240"
+msgid "Up to 240p"
+msgstr "تر 240p پورې"
+
+msgctxt "playlistPresets.tier.360"
+msgid "Up to 360p"
+msgstr "تر 360p پورې"
+
+msgctxt "playlistPresets.tier.480"
+msgid "Up to 480p"
+msgstr "تر 480p پورې"
+
+msgctxt "playlistPresets.tier.720"
+msgid "Up to 720p"
+msgstr "تر 720p پورې"
+
+msgctxt "playlistPresets.tier.best"
+msgid "Best quality"
+msgstr "غوره کیفیت"
+
+msgctxt "playlistPresets.tierDesc.1080"
+msgid "Capped at 1080p, falls back to lower per item"
+msgstr "تر 1080p محدود، د هر توکي لپاره ښکته راځي"
+
+msgctxt "playlistPresets.tierDesc.144"
+msgid "Smallest possible files"
+msgstr "تر ټولو کوچني ممکن فایلونه"
+
+msgctxt "playlistPresets.tierDesc.1440"
+msgid "Capped at 2K, falls back to lower per item"
+msgstr "تر 2K محدود، د هر توکي لپاره ښکته راځي"
+
+msgctxt "playlistPresets.tierDesc.2160"
+msgid "Capped at 2160p, falls back to lower per item"
+msgstr "تر 2160p محدود، د هر توکي لپاره ښکته راځي"
+
+msgctxt "playlistPresets.tierDesc.240"
+msgid "Very small files, low quality"
+msgstr "ډېر کوچني فایلونه، ټیټ کیفیت"
+
+msgctxt "playlistPresets.tierDesc.360"
+msgid "Small files for tight bandwidth"
+msgstr "د محدود بینډوډت لپاره کوچني فایلونه"
+
+msgctxt "playlistPresets.tierDesc.480"
+msgid "Low bandwidth"
+msgstr "ټیټ بینډوډت"
+
+msgctxt "playlistPresets.tierDesc.720"
+msgid "Smaller files, broad compatibility"
+msgstr "کوچني فایلونه، پراخه سازګاري"
+
+msgctxt "playlistPresets.tierDesc.best"
+msgid "Highest available video + audio per item"
+msgstr "د هر توکي لپاره غوره ویډیو + غږ"
+
+msgctxt "playlistPresets.type.audio"
+msgid "Audio"
+msgstr "غږ"
+
+msgctxt "playlistPresets.type.subtitles"
+msgid "Subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "playlistPresets.type.video"
+msgid "Video"
+msgstr "ویډیو"
+
+msgctxt "playlistPresets.videoFormat.best"
+msgid "Best native"
+msgstr "غوره اصلي"
+
+msgctxt "playlistPresets.videoFormat.mp4"
+msgid "Smart TV H.264 MP4"
+msgstr "سمارټ TV H.264 MP4"
+
+msgctxt "playlistPresets.videoFormatDesc.best"
+msgid "Best available container and codecs per item"
+msgstr "د هر توکي لپاره تر ټولو لوړ موجود codec"
+
+msgctxt "playlistPresets.videoFormatDesc.mp4"
+msgid "Prefer H.264 video + AAC audio in MP4 when possible"
+msgstr "H.264 + AAC غوره، MP4 کانتینر · تر وسه ښه"
+
+msgctxt "queue.artifact.companion"
+msgid "Companion"
+msgstr "ملګری فایل"
+
+msgctxt "queue.artifact.description"
+msgid "Description"
+msgstr "تفصیل"
+
+msgctxt "queue.artifact.media"
+msgid "Media"
+msgstr "رسنۍ"
+
+msgctxt "queue.artifact.missing"
+msgid "Missing"
+msgstr "ورک"
+
+msgctxt "queue.artifact.subtitle"
+msgid "Subtitle"
+msgstr "ژباړلیک"
+
+msgctxt "queue.artifact.thumbnail"
+msgid "Thumbnail"
+msgstr "وړه انځور"
+
+msgctxt "queue.artifact.unknown"
+msgid "Artifact"
+msgstr "فایل"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "queue.attentionBadge_one"
+msgid "{{count}} download needs your attention"
+msgstr "{{count}} ډاونلوډ ستاسو پاملرنې ته اړتیا لري"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.attentionBadge_other"
+msgid "{{count}} downloads need your attention"
+msgstr "{{count}} ډاونلوډونه ستاسو پاملرنې ته اړتیا لري"
+
+msgctxt "queue.autoRemoveCompleted.hint"
+msgid "Remove each download from the list a few seconds after it finishes. Files stay in your folder."
+msgstr "هر ډاونلوډ د بشپړېدو څو ثانیې وروسته له لېست څخه لرې کوي. فایلونه ستاسو په فولډر کې پاتې کېږي."
+
+msgctxt "queue.autoRemoveCompleted.label"
+msgid "Auto-clear done"
+msgstr "د بشپړېدو پر مهال اتوماتيک پاکول"
+
+msgctxt "queue.cancelAllTitle"
+msgid "Cancel all active and pending downloads"
+msgstr "ټول فعال او انتظار کې ډاونلوډونه لغوه کړئ"
+
+msgctxt "queue.choice.all"
+msgid "All videos"
+msgstr "ټولې ویډیوګانې"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "queue.choice.cappedBody_one"
+msgid "More than {{count}} video in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "په دې پلې‌لېست کې له {{count}} ډېر ویډیو دي. ټول ډاونلوډ کړئ، لومړي {{count}}، یا په بیاکتنه کې وټاکئ."
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.cappedBody_other"
+msgid "More than {{count}} videos in this playlist. Download them all, the first {{count}}, or pick in a review."
+msgstr "په دې پلې‌لېست کې له {{count}} ډېر ویډیوګانې دي. ټولې ډاونلوډ کړئ، لومړي {{count}}، یا په بیاکتنه کې وټاکئ."
+
+msgctxt "queue.choice.first"
+msgid "First {{count}}"
+msgstr "لومړي {{count}}"
+
+msgctxt "queue.choice.list.album"
+msgid "The album"
+msgstr "البم"
+
+msgctxt "queue.choice.list.liked"
+msgid "Liked videos"
+msgstr "خوښې ویډیوګانې"
+
+msgctxt "queue.choice.list.mix"
+msgid "The Mix"
+msgstr "دا Mix"
+
+msgctxt "queue.choice.list.playlist"
+msgid "The playlist"
+msgstr "پلې‌لېست"
+
+msgctxt "queue.choice.list.uploads"
+msgid "All the uploads"
+msgstr "ټولې پورته شوې ویډیوګانې"
+
+msgctxt "queue.choice.list.watchLater"
+msgid "Watch later"
+msgstr "وروسته کتل"
+
+msgctxt "queue.choice.pick"
+msgid "Pick from it…"
+msgstr "له هغې غوره کړئ…"
+
+msgctxt "queue.choice.review"
+msgid "Review"
+msgstr "بیاکتنه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "queue.choice.uncappedBody_one"
+msgid "This link is a list of {{count}} video. Download it, or pick in a review."
+msgstr "دا لینک د {{count}} ویډیو لیست دی. ډاونلوډ یې کړئ، یا په بیاکتنه کې غوره کړئ."
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "queue.choice.uncappedBody_other"
+msgid "This link is a list of {{count}} videos. Download them all, or pick in a review."
+msgstr "دا لینک د {{count}} ویډیوګانو لیست دی. ټولې ډاونلوډ کړئ، یا په بیاکتنه کې غوره کړئ."
+
+msgctxt "queue.choice.video"
+msgid "This video"
+msgstr "دا ویډیو"
+
+msgctxt "queue.choice.videoOrList.album"
+msgid "This link is a video in an album. Download just the video, or the album?"
+msgstr "دا لینک د یو البم یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که البم؟"
+
+msgctxt "queue.choice.videoOrList.liked"
+msgid "This link is a video in your liked videos. Download just the video, or all your liked videos?"
+msgstr "دا لینک ستاسو د خوښې ویډیوګانو یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ستاسو ټولې خوښې ویډیوګانې؟"
+
+msgctxt "queue.choice.videoOrList.mix"
+msgid "This link is a video in a Mix. Download just the video, or the Mix?"
+msgstr "دا لینک د Mix یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که Mix؟"
+
+msgctxt "queue.choice.videoOrList.playlist"
+msgid "This link is a video in a playlist. Download just the video, or the playlist?"
+msgstr "دا لینک د پلې‌لېست یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که پلې‌لېست؟"
+
+msgctxt "queue.choice.videoOrList.uploads"
+msgid "This link is a video in a channel's uploads. Download just the video, or all the uploads?"
+msgstr "دا لینک د یو چینل د پورته شویو ویډیوګانو یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ټولې پورته شوې ویډیوګانې؟"
+
+msgctxt "queue.choice.videoOrList.watchLater"
+msgid "This link is a video in your Watch later list. Download just the video, or the whole list?"
+msgstr "دا لینک ستاسو د “وروسته کتل” لیست یوه ویډیو ده. یوازې ویډیو ډاونلوډ کړئ، که ټول لیست؟"
+
+msgctxt "queue.clearTitle"
+msgid "Clear completed downloads"
+msgstr "بشپړ شوي ډاونلوډونه پاکول"
+
+msgctxt "queue.empty"
+msgid "Queued downloads will appear here"
+msgstr "په کتار کې ډاونلوډونه به دلته ښکاره شي"
+
+msgctxt "queue.filterAll"
+msgid "All"
+msgstr "ټول"
+
+msgctxt "queue.filtersLabel"
+msgid "Queue status filters"
+msgstr "د کتار حالت چاڼګرونه"
+
+msgctxt "queue.globalActionsLabel"
+msgid "All items"
+msgstr "ټول توکي"
+
+msgctxt "queue.header"
+msgid "Downloads"
+msgstr "ډاونلوډونه"
+
+msgctxt "queue.item.audioKept"
+msgid "Sound not removed"
+msgstr "غږ نه دی لرې شوی"
+
+msgctxt "queue.item.audioKeptSubtitlesFailed"
+msgid "Sound not removed · some subtitles failed"
+msgstr "غږ نه دی لرې شوی · ځینې ژباړلیکونه ناکام شول"
+
+msgctxt "queue.item.cancel"
+msgid "Cancel"
+msgstr "لغوه کول"
+
+msgctxt "queue.item.defaultError"
+msgid "Download failed"
+msgstr "ډاونلوډ ناکام شو"
+
+msgctxt "queue.item.openDestinationFolder"
+msgid "Open destination folder"
+msgstr "د مقصد پوښۍ پرانیزئ"
+
+msgctxt "queue.item.pause"
+msgid "Pause"
+msgstr "درول"
+
+msgctxt "queue.item.pendingOnly"
+msgid "Pending only"
+msgstr "یوازې پاتې"
+
+msgctxt "queue.item.pullNow"
+msgid "Pull now — skip the queue"
+msgstr "اوس ډاونلوډ — قطار پرېږدئ"
+
+msgctxt "queue.item.qualityLimited"
+msgid "Limited to {{height}}p"
+msgstr "په {{height}}p پورې محدود"
+
+msgctxt "queue.item.qualityLimitedSubtitlesFailed"
+msgid "Limited to {{height}}p · some subtitles failed"
+msgstr "په {{height}}p پورې محدود · ځینې ژباړلیکونه ناکام شول"
+
+msgctxt "queue.item.remove"
+msgid "Remove"
+msgstr "لیرې کول"
+
+msgctxt "queue.item.resume"
+msgid "Resume"
+msgstr "دوام"
+
+msgctxt "queue.item.retry"
+msgid "Retry"
+msgstr "بیا هڅه وکړئ"
+
+msgctxt "queue.item.retryingSoon"
+msgid "retrying automatically (attempt {{attempt}})"
+msgstr "په اتوماتيک ډول بیا هڅه کیږي (هڅه {{attempt}})"
+
+msgctxt "queue.item.setLocation"
+msgid "Set location"
+msgstr "ځای وټاکئ"
+
+msgctxt "queue.item.setLocationHint"
+msgid "Select pending items to set location."
+msgstr "د ځای ټاکلو لپاره په تمه توکي وټاکئ."
+
+msgctxt "queue.item.statusCancelled"
+msgid "Cancelled"
+msgstr "لغوه شوی"
+
+msgctxt "queue.item.statusDone"
+msgid "Done"
+msgstr "بشپړ"
+
+msgctxt "queue.item.statusError"
+msgid "Error"
+msgstr "تېروتنه"
+
+msgctxt "queue.item.statusHeld"
+msgid "Held"
+msgstr "ساتل شوی"
+
+msgctxt "queue.item.statusNeedsChoice"
+msgid "Needs your choice"
+msgstr "ستاسو ټاکنې ته اړتیا ده"
+
+msgctxt "queue.item.statusPaused"
+msgid "Paused"
+msgstr "درول شوی"
+
+msgctxt "queue.item.statusPending"
+msgid "Waiting"
+msgstr "په تمه"
+
+msgctxt "queue.item.statusProbing"
+msgid "Fetching details"
+msgstr "جزییات راوړل کېږي"
+
+msgctxt "queue.item.statusRunning"
+msgid "Downloading"
+msgstr "ډاونلوډ کېږي"
+
+msgctxt "queue.item.subtitleLanguagesMissing"
+msgid "No subtitles in {{languages}}"
+msgstr "په {{languages}} ژبو کې ژباړلیکونه نشته"
+
+msgctxt "queue.item.waitingForSite"
+msgid "Waits for {{site}} until {{time}}"
+msgstr "د {{site}} انتظار تر {{time}} پورې"
+
+msgctxt "queue.item.waitingHint"
+msgid "{{site}} is rate-limiting this connection. Klip fetches this link's details after {{time}}, so the limit can clear."
+msgstr "{{site}} د دې اتصال سرعت محدودوي. Klip د دې لینک جزییات د {{time}} وروسته راوړي ترڅو محدودیت لرې شي."
+
+msgctxt "queue.item.waitingHintDownload"
+msgid "{{site}} is rate-limiting this connection. Klip starts no download from {{site}} before {{time}}, so the limit can clear."
+msgstr ""
+
+msgctxt "queue.listOffer.dismiss"
+msgid "Dismiss"
+msgstr "بندول"
+
+msgctxt "queue.listOffer.from.album"
+msgid "From an album"
+msgstr "له یو البم څخه"
+
+msgctxt "queue.listOffer.from.liked"
+msgid "From your liked videos"
+msgstr "ستاسو د خوښې ویډیوګانو څخه"
+
+msgctxt "queue.listOffer.from.mix"
+msgid "From a Mix"
+msgstr "له یو Mix څخه"
+
+msgctxt "queue.listOffer.from.playlist"
+msgid "From a playlist"
+msgstr "له یو پلې‌لېست څخه"
+
+msgctxt "queue.listOffer.from.uploads"
+msgid "From a channel's uploads"
+msgstr "د یو چینل له پورته شویو ویډیوګانو څخه"
+
+msgctxt "queue.listOffer.from.watchLater"
+msgid "From Watch later"
+msgstr "له “وروسته کتل” څخه"
+
+msgctxt "queue.listOffer.get.album"
+msgid "Get the whole album"
+msgstr "ټول البم ترلاسه کړئ"
+
+msgctxt "queue.listOffer.get.liked"
+msgid "Get all liked videos"
+msgstr "ټولې خوښې ویډیوګانې ترلاسه کړئ"
+
+msgctxt "queue.listOffer.get.mix"
+msgid "Get the whole Mix"
+msgstr "ټول Mix ترلاسه کړئ"
+
+msgctxt "queue.listOffer.get.playlist"
+msgid "Get the whole playlist"
+msgstr "ټول پلې‌لېست ترلاسه کړئ"
+
+msgctxt "queue.listOffer.get.uploads"
+msgid "Get all uploads"
+msgstr "ټولې پورته شوې ویډیوګانې ترلاسه کړئ"
+
+msgctxt "queue.listOffer.get.watchLater"
+msgid "Get all of Watch later"
+msgstr "د “وروسته کتل” ټول ترلاسه کړئ"
+
+msgctxt "queue.listOffer.hint"
+msgid "Adds the list as its own row. This video is left out."
+msgstr "لیست د جلا ننوتنې په توګه زیاتوي. دا ویډیو پرېښودل کیږي."
+
+msgctxt "queue.pauseAllTitle"
+msgid "Pause every active download and stop new ones from starting"
+msgstr "ټول فعال ډاونلوډونه ودروئ"
+
+msgctxt "queue.pausedBanner"
+msgid "The queue is paused — waiting items won't start until you resume it"
+msgstr "قطار ودروې دی — انتظار کوونکي ډاونلوډونه تر هغه چې قطار بیا پیل نه شي، نه پیلېږي"
+
+msgctxt "queue.resumeAllTitle"
+msgid "Resume paused downloads and let the queue keep going"
+msgstr "درول شوي ډاونلوډونه دوام کړئ او قطار روان پرېږدئ"
+
+msgctxt "queue.resumeQueueAction"
+msgid "Resume queue"
+msgstr "قطار بیا پیل کړه"
+
+msgctxt "queue.selectedActionsLabel"
+msgid "Selected items"
+msgstr "ټاکل شوي توکي"
+
+msgctxt "queue.selectionSummary"
+msgid "{{selected}} selected · {{total}} total"
+msgstr "{{selected}} ټاکل شوي · ټول {{total}}"
+
+msgctxt "queue.tabLabel"
+msgid "Downloads"
+msgstr "ډاونلوډونه"
+
+msgctxt "queue.table.added"
+msgid "Added"
+msgstr "زیات شو"
+
+msgctxt "queue.table.artifacts"
+msgid "Artifacts"
+msgstr "وتلې فایلونه"
+
+msgctxt "queue.table.columnDropped"
+msgid "Dropped the {{column}} column."
+msgstr "د {{column}} ستنه پرېښودل شوه."
+
+msgctxt "queue.table.columnMoveCancelled"
+msgid "Moving the {{column}} column was cancelled."
+msgstr "د {{column}} ستنې خوځول لغوه شول."
+
+msgctxt "queue.table.columnMovedOver"
+msgid "The {{column}} column is over {{target}}."
+msgstr "د {{column}} ستنه د {{target}} پر سر ده."
+
+msgctxt "queue.table.columnPickedUp"
+msgid "Picked up the {{column}} column."
+msgstr "د {{column}} ستنه پورته شوه."
+
+msgctxt "queue.table.columns"
+msgid "Columns"
+msgstr "ستنې"
+
+msgctxt "queue.table.finished"
+msgid "Finished"
+msgstr "بشپړ شو"
+
+msgctxt "queue.table.format"
+msgid "Format"
+msgstr "بڼه"
+
+msgctxt "queue.table.hideArtifactsFor"
+msgid "Hide artifacts for {{title}}"
+msgstr "د {{title}} فایلونه پټ کړه"
+
+msgctxt "queue.table.movableColumn"
+msgid "movable column"
+msgstr "د حرکت وړ ستنه"
+
+msgctxt "queue.table.moveColumnInstructions"
+msgid "To move a column, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "د ستنې د خوځولو لپاره Space یا Enter کېکاږئ، بیا یې د غشو کیلیدونو سره وخوځوئ، او د پرېښودو لپاره بیا Space یا Enter کېکاږئ. د لغوه کولو لپاره Escape کېکاږئ."
+
+msgctxt "queue.table.notAvailable"
+msgid "—"
+msgstr "—"
+
+msgctxt "queue.table.outputTarget"
+msgid "Output target"
+msgstr "د وتلو هدف"
+
+msgctxt "queue.table.progress"
+msgid "Progress"
+msgstr "پرمختګ"
+
+msgctxt "queue.table.resetColumns"
+msgid "Reset columns"
+msgstr "ستنې بیا تنظیمول"
+
+msgctxt "queue.table.resizeColumn"
+msgid "Resize {{column}} column"
+msgstr "د {{column}} ستنې اندازه بدله کړئ"
+
+msgctxt "queue.table.showArtifactsFor"
+msgid "Show artifacts for {{title}}"
+msgstr "د {{title}} فایلونه وښیه"
+
+msgctxt "queue.table.size"
+msgid "Size"
+msgstr "اندازه"
+
+msgctxt "queue.table.sortBy"
+msgid "Sort by {{label}}"
+msgstr "د {{label}} له مخې ترتیب کړه"
+
+msgctxt "queue.table.status"
+msgid "Status"
+msgstr "حالت"
+
+msgctxt "queue.table.title"
+msgid "Title"
+msgstr "سرلیک"
+
+msgctxt "queue.tabTip"
+msgid "Downloads live in the Downloads tab now — open it anytime to track progress."
+msgstr "ډاونلوډونه اوس د ډاونلوډونو ټب کې دي — د پرمختګ د کتلو لپاره یې هر وخت پرانیزئ."
+
+msgctxt "releaseNotes.continue"
+msgid "Continue"
+msgstr "دوام ورکړه"
+
+msgctxt "releaseNotes.description"
+msgid "You're running a fresh update. Here are the highlights."
+msgstr "تاسو تازه اوسمهال کاروئ. دلته مهم ټکي دي."
+
+msgctxt "releaseNotes.fullNotes"
+msgid "Full release notes ↗"
+msgstr "بشپړ د خپرونې یادښتونه ↗"
+
+msgctxt "releaseNotes.title"
+msgid "What's new in Klip {{version}}"
+msgstr "په Klip {{version}} کې څه نوي دي"
+
+msgctxt "repair.actions.cancel"
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgctxt "repair.actions.chooseExecutable"
+msgid "Choose executable"
+msgstr "د اجرا وړ فایل غوره کړئ"
+
+msgctxt "repair.actions.installWithHomebrew"
+msgid "Install with Homebrew"
+msgstr "په Homebrew نصب کړئ"
+
+msgctxt "repair.actions.installWithWinget"
+msgid "Install with WinGet"
+msgstr "په WinGet نصب کړئ"
+
+msgctxt "repair.actions.openDependencyFolder"
+msgid "Open dependency folder"
+msgstr "د dependency فولډر خلاص کړئ"
+
+msgctxt "repair.actions.resetToDefault"
+msgid "Reset to default"
+msgstr "ډیفالټ ته بیرته شئ"
+
+msgctxt "repair.actions.retrySetup"
+msgid "Try again"
+msgstr "بیا هڅه وکړئ"
+
+msgctxt "repair.actions.viewSetupLog"
+msgid "View setup log"
+msgstr "د نصب لاګ وګورئ"
+
+msgctxt "repair.causes.badExitCode.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه سمه کاپي وټاکئ."
+
+msgctxt "repair.causes.badExitCode.title"
+msgid "A tool isn't working right"
+msgstr "یوه وسیله سمه کار نه کوي"
+
+msgctxt "repair.causes.blockedOrQuarantined.body"
+msgid "Allow Klip in your antivirus or SmartScreen, then try again."
+msgstr "په خپل انټي ویروس یا SmartScreen کې Klip ته اجازه ورکړئ، بیا بیا هڅه وکړئ."
+
+msgctxt "repair.causes.blockedOrQuarantined.title"
+msgid "Your antivirus blocked a tool"
+msgstr "ستاسو انټي ویروس یوه وسیله بنده کړه"
+
+msgctxt "repair.causes.downloadFailed.body"
+msgid "Check your internet connection, then try again."
+msgstr "خپل انټرنټ اړیکه وګورئ، بیا بیا هڅه وکړئ."
+
+msgctxt "repair.causes.downloadFailed.title"
+msgid "Couldn't download what Klip needs"
+msgstr "هغه څه ډاونلوډ نه شول چې Klip ورته اړتیا لري"
+
+msgctxt "repair.causes.downloadStalled.body"
+msgid "Your connection to the download server is too slow or keeps dropping. Try again."
+msgstr ""
+
+msgctxt "repair.causes.downloadStalled.title"
+msgid "The download stopped moving"
+msgstr ""
+
+msgctxt "repair.causes.extractFailed.body"
+msgid "Try again to download it fresh."
+msgstr "د نوي ډاونلوډ لپاره بیا هڅه وکړئ."
+
+msgctxt "repair.causes.extractFailed.title"
+msgid "A download arrived damaged"
+msgstr "یو ډاونلوډ خراب راغی"
+
+msgctxt "repair.causes.hashFailed.body"
+msgid "Try again to download it fresh."
+msgstr "د نوي ډاونلوډ لپاره بیا هڅه وکړئ."
+
+msgctxt "repair.causes.hashFailed.title"
+msgid "A download didn't match its checksum"
+msgstr "یو ډاونلوډ د خپل چیکسم سره سمون نه خوړ"
+
+msgctxt "repair.causes.pairIncomplete.body"
+msgid "Choose both below, or reset them to default."
+msgstr "لاندې دواړه وټاکئ، یا یې ډیفالټ ته بیرته کړئ."
+
+msgctxt "repair.causes.pairIncomplete.title"
+msgid "FFmpeg and FFprobe have to be set together"
+msgstr "FFmpeg او FFprobe باید یو ځای وټاکل شي"
+
+msgctxt "repair.causes.permissionDenied.body"
+msgid "Try again. If it keeps failing, choose a copy you trust below."
+msgstr "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه باوري کاپي وټاکئ."
+
+msgctxt "repair.causes.permissionDenied.title"
+msgid "Your system won't let Klip run a tool"
+msgstr "ستاسو سیسټم Klip ته د یوې وسیلې چلولو اجازه نه ورکوي"
+
+msgctxt "repair.causes.spawnFailed.body"
+msgid "Try again. If it keeps failing, choose a working copy below."
+msgstr "بیا هڅه وکړئ. که بیا هم ناکام شو، لاندې یوه سمه کاپي وټاکئ."
+
+msgctxt "repair.causes.spawnFailed.title"
+msgid "A tool is missing or won't start"
+msgstr "یوه وسیله نشته یا نه پیلیږي"
+
+msgctxt "repair.causes.timeout.body"
+msgid "This is often a security scan on first run. Try again."
+msgstr "دا ډیری وخت په لومړي ځل چلولو کې د امنیتي سکین له امله وي. بیا هڅه وکړئ."
+
+msgctxt "repair.causes.timeout.title"
+msgid "A tool took too long to respond"
+msgstr "یوې وسیلې د ځواب ورکولو لپاره ډیر وخت ونیو"
+
+msgctxt "repair.causes.unknown.body"
+msgid "Try again, or open the setup log for details."
+msgstr "بیا هڅه وکړئ، یا د توضیحاتو لپاره د نصب لاګ خلاص کړئ."
+
+msgctxt "repair.causes.unknown.title"
+msgid "Something went wrong during setup"
+msgstr "د نصب پر مهال یوه ستونزه رامنځته شوه"
+
+msgctxt "repair.deps.ffmpeg"
+msgid "FFmpeg"
+msgstr "FFmpeg"
+
+msgctxt "repair.deps.ffprobe"
+msgid "FFprobe"
+msgstr "FFprobe"
+
+msgctxt "repair.deps.ytDlp"
+msgid "yt-dlp"
+msgstr "yt-dlp"
+
+msgctxt "repair.groups.engine"
+msgid "Download engine"
+msgstr "د ډاونلوډ انجن"
+
+msgctxt "repair.groups.media"
+msgid "Media tools"
+msgstr "د رسنۍ وسیلې"
+
+msgctxt "repair.installing.homebrew"
+msgid "Installing with Homebrew… This can take a few minutes."
+msgstr "د Homebrew په مرسته نصب کیږي… دا ښایي څو دقیقې ونیسي."
+
+msgctxt "repair.installing.winget"
+msgid "Installing with WinGet… This can take a few minutes."
+msgstr "د WinGet په مرسته نصب کیږي… دا ښایي څو دقیقې ونیسي."
+
+msgctxt "repair.manual.intro"
+msgid "Point Klip at copies you already have, or install them another way."
+msgstr "Klip هغو کاپیو ته وروښیاست چې تاسو یې لرئ، یا یې په بل ډول نصب کړئ."
+
+msgctxt "repair.manual.linuxHint"
+msgid "You can also install yt-dlp and ffmpeg with your package manager, then click Try again."
+msgstr "تاسو کولای شئ yt-dlp او ffmpeg د خپل پکیج مدیر په مرسته هم نصب کړئ، بیا «بیا هڅه وکړئ» کلیک کړئ."
+
+msgctxt "repair.manual.toggle"
+msgid "Set it up manually"
+msgstr "په لاس سره نصب کړئ"
+
+msgctxt "repair.stopped.body"
+msgid "Try again, or point Klip at tools you already have below."
+msgstr "بیا هڅه وکړئ، یا لاندې Klip هغو وسیلو ته وروښیاست چې تاسو یې لرئ."
+
+msgctxt "repair.stopped.title"
+msgid "Setup stopped"
+msgstr "نصب ودرول شو"
+
+msgctxt "repair.title"
+msgid "Setup needs your help"
+msgstr "نصب ستاسو مرستې ته اړتیا لري"
+
+msgctxt "selectionOrder.editorTitle"
+msgid "How this profile picks"
+msgstr "دا پروفایل څنګه غوره کوي"
+
+msgctxt "selectionOrder.rank.aacFileType.label"
+msgid "AAC audio"
+msgstr "AAC غږ"
+
+msgctxt "selectionOrder.rank.aacFileType.reason"
+msgid "fits MP4 players"
+msgstr "د MP4 پلیرونو سره برابر"
+
+msgctxt "selectionOrder.rank.aacSmartTv.label"
+msgid "AAC audio"
+msgstr "AAC غږ"
+
+msgctxt "selectionOrder.rank.aacSmartTv.reason"
+msgid "plays everywhere"
+msgstr "هر ځای چلیږي"
+
+msgctxt "selectionOrder.rank.codec.label"
+msgid "AV1, then VP9, then H.264"
+msgstr "AV1، بیا VP9، بیا H.264"
+
+msgctxt "selectionOrder.rank.codec.reason"
+msgid "sharpest at a given size"
+msgstr "په ورته اندازه تر ټولو روښانه"
+
+msgctxt "selectionOrder.rank.codecH264First.label"
+msgid "H.264, then VP9, then AV1"
+msgstr "H.264، بیا VP9، بیا AV1"
+
+msgctxt "selectionOrder.rank.codecH264First.reason"
+msgid "this profile's codec"
+msgstr "د دې پروفایل کوډک"
+
+msgctxt "selectionOrder.rank.codecVp9First.label"
+msgid "VP9, then H.264, then AV1"
+msgstr "VP9، بیا H.264، بیا AV1"
+
+msgctxt "selectionOrder.rank.codecVp9First.reason"
+msgid "this profile's codec"
+msgstr "د دې پروفایل کوډک"
+
+msgctxt "selectionOrder.rank.fps.label"
+msgid "Highest frame rate"
+msgstr "تر ټولو لوړ فریم ریټ"
+
+msgctxt "selectionOrder.rank.fps.reason"
+msgid "smoother motion"
+msgstr "نرم حرکت"
+
+msgctxt "selectionOrder.rank.h264.label"
+msgid "H.264 video"
+msgstr "H.264 ویډیو"
+
+msgctxt "selectionOrder.rank.h264.reason"
+msgid "plays on every device"
+msgstr "په هره وسیله چلیږي"
+
+msgctxt "selectionOrder.rank.hdrFirst.label"
+msgid "HDR before SDR"
+msgstr "HDR تر SDR مخکې"
+
+msgctxt "selectionOrder.rank.hdrFirst.reason"
+msgid "richer colour on HDR screens"
+msgstr "په HDR سکرینونو کې بډایه رنګونه"
+
+msgctxt "selectionOrder.rank.hdrFirst.reasonScreen"
+msgid "this screen shows HDR"
+msgstr "دا سکرین HDR ښیي"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.label"
+msgid "SDR before HDR"
+msgstr "SDR تر HDR مخکې"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reason"
+msgid "looks right on any screen"
+msgstr "په هره سکرین کې سم ښکاري"
+
+msgctxt "selectionOrder.rank.hdrSdrFirst.reasonScreen"
+msgid "this screen isn't HDR"
+msgstr "دا سکرین HDR نه ښیي"
+
+msgctxt "selectionOrder.rank.mp4Streams.label"
+msgid "MP4 streams"
+msgstr "MP4 سټریمونه"
+
+msgctxt "selectionOrder.rank.mp4Streams.reason"
+msgid "ready for an MP4 file"
+msgstr "د MP4 فایل لپاره چمتو"
+
+msgctxt "selectionOrder.rank.nativeCompatible.label"
+msgid "Stereo audio"
+msgstr "سټېریو غږ"
+
+msgctxt "selectionOrder.rank.nativeSource.profile"
+msgid "this profile"
+msgstr "دا پروفایل"
+
+msgctxt "selectionOrder.rank.nativeSource.settings"
+msgid "from Settings"
+msgstr "له امستنو"
+
+msgctxt "selectionOrder.rank.nativeSurround.label"
+msgid "Surround audio when offered"
+msgstr "surround غږ کله چې موجود وي"
+
+msgctxt "selectionOrder.rank.opus.label"
+msgid "Opus audio"
+msgstr "Opus غږ"
+
+msgctxt "selectionOrder.rank.opus.reason"
+msgid "fits WebM"
+msgstr "له WebM سره برابر"
+
+msgctxt "selectionOrder.rank.original.label"
+msgid "Original streams, not AI-upscaled ones"
+msgstr "اصلي سټریمونه، نه د AI لوی شوي"
+
+msgctxt "selectionOrder.rank.original.reason"
+msgid "an upscaled copy is taller but adds no real detail"
+msgstr "لوی شوې کاپي لوړه ده خو ریښتیني جزئیات نه زیاتوي"
+
+msgctxt "selectionOrder.rank.protocol.label"
+msgid "Direct downloads before streamed copies"
+msgstr "مستقیم ډاونلوډونه د سټریم شویو کاپيو څخه مخکې"
+
+msgctxt "selectionOrder.rank.protocol.reason"
+msgid "the same picture, downloaded faster"
+msgstr "ورته انځور، ګړندی ډاونلوډ"
+
+msgctxt "selectionOrder.rank.resolution.label"
+msgid "Up to {{tier}}p"
+msgstr "تر {{tier}}p پورې"
+
+msgctxt "selectionOrder.rank.resolution.reason"
+msgid "your limit"
+msgstr "ستاسو حد"
+
+msgctxt "selectionOrder.rank.resolutionBest.label"
+msgid "Highest resolution"
+msgstr "تر ټولو لوړ ریزولوشن"
+
+msgctxt "selectionOrder.rank.resolutionBest.reason"
+msgid "no limit set"
+msgstr "هیڅ حد نه دی ټاکل شوی"
+
+msgctxt "selectionOrder.rank.sitePreference.label"
+msgid "Streams the site does not mark down"
+msgstr "هغه سټریمونه چې سایټ یې ټیټ نه ګڼي"
+
+msgctxt "selectionOrder.rank.sitePreference.reason"
+msgid "skips damaged, watermarked and fallback copies"
+msgstr "زیانمنې، واټرمارک لرونکې او بدیلې کاپۍ پرېږدي"
+
+msgctxt "selectionOrder.rank.size.label"
+msgid "Larger file"
+msgstr "لوی فایل"
+
+msgctxt "selectionOrder.rank.size.reason"
+msgid "more detail at the same settings"
+msgstr "په ورته امستنو کې ډېر جزئیات"
+
+msgctxt "selectionOrder.rank.source.label"
+msgid "Enhanced-bitrate streams first"
+msgstr "لومړی ښه شوی بټ ریټ سټریمونه"
+
+msgctxt "selectionOrder.rank.source.reason"
+msgid "more detail at the same resolution"
+msgstr "په ورته ریزولوشن کې ډېر جزئیات"
+
+msgctxt "selectionOrder.summary.fileType.auto"
+msgid "file type from the streams"
+msgstr "د فایل ډول له سټریمونو"
+
+msgctxt "selectionOrder.summary.fileType.explicit"
+msgid "saves as .{{ext}}"
+msgstr "د .{{ext}} په توګه خوندي کیږي"
+
+msgctxt "selectionOrder.summary.goal.bestPicture"
+msgid "best picture"
+msgstr "غوره انځور"
+
+msgctxt "selectionOrder.summary.goal.smartTv"
+msgid "plays on any device"
+msgstr "په هره وسیله چلیږي"
+
+msgctxt "selectionOrder.whyLabel"
+msgid "Why this one?"
+msgstr "ولې دا؟"
+
+msgctxt "selectionOrder.whyTitle"
+msgid "Why the profile picked this"
+msgstr "پروفایل ولې دا غوره کړ"
+
+msgctxt "share.copied"
+msgid "Copied!"
+msgstr "کاپي شو!"
+
+msgctxt "share.copyLink"
+msgid "Copy link"
+msgstr "لینک کاپي کړئ"
+
+msgctxt "share.defaultMessage"
+msgid ""
+"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+msgstr ""
+"Klip — د Windows، macOS او Linux لپاره وړیا او خلاص-سرچینه ویډیو ډاونلوډر. له YouTube، Vimeo، Twitch او 2000+ سایټونو سره کار کوي.\n"
+"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
+
+msgctxt "share.description"
+msgid "Klip is free and open-source. Sharing helps more people discover it."
+msgstr "Klip وړیا او خلاص سرچینه دی. شریکول نورو خلکو سره مرسته کوي چې ومومي."
+
+msgctxt "share.footerLabel"
+msgid "Share"
+msgstr "شریک کړئ"
+
+msgctxt "share.footerTooltip"
+msgid "Share Klip"
+msgstr "Klip شریک کړئ"
+
+msgctxt "share.shareAction"
+msgid "Share Klip"
+msgstr "Klip شریک کړئ"
+
+msgctxt "share.title"
+msgid "Share Klip"
+msgstr "Klip شریک کړئ"
+
+msgctxt "splash.cancel"
+msgid "Having trouble? Set it up manually"
+msgstr "ستونزه لرئ؟ په لاسي ډول یې تنظیم کړئ"
+
+msgctxt "splash.greeting"
+msgid "Hey, welcome back!"
+msgstr "سلام، ښه راغلاست!"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "splash.setup.left.minutes_one"
+msgid "about {{count}} min left"
+msgstr "نږدې {{count}} دقیقه پاتې ده"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "splash.setup.left.minutes_other"
+msgid "about {{count}} min left"
+msgstr "نږدې {{count}} دقیقې پاتې دي"
+
+msgctxt "splash.setup.left.underMinute"
+msgid "less than a minute left"
+msgstr "له یوې دقیقې کم پاتې دي"
+
+msgctxt "splash.setup.stage.checking"
+msgid "Checking everything works"
+msgstr "کتل کیږي چې هرڅه کار کوي"
+
+msgctxt "splash.setup.stage.connecting"
+msgid "Connecting…"
+msgstr "نښلول کیږي…"
+
+msgctxt "splash.setup.stage.unpacking"
+msgid "Unpacking the media tools"
+msgstr "د رسنۍ وسیلې خلاصیږي"
+
+msgctxt "splash.setup.stage.unpackingEngine"
+msgid "Unpacking the download engine"
+msgstr "د ډاونلوډ انجن خلاصیږي"
+
+msgctxt "splash.setup.title.both"
+msgid "Updating Klip's tools"
+msgstr "د Klip وسایل تازه کیږي"
+
+msgctxt "splash.setup.title.engine"
+msgid "Updating the download engine"
+msgstr "د ډاونلوډ انجن تازه کیږي"
+
+msgctxt "splash.setup.title.firstRun"
+msgid "First-time setup"
+msgstr "د لومړي ځل نصب"
+
+msgctxt "splash.setup.title.media"
+msgid "Updating the media tools"
+msgstr "د رسنۍ وسیلې تازه کیږي"
+
+msgctxt "splash.verifyFirstCheck"
+msgid "First check of this version — this one is slow. Usually about a minute."
+msgstr "د دې نسخې لومړنۍ کتنه — دا یوه ورو ده. معمولاً شاوخوا یوه دقیقه نیسي."
+
+msgctxt "splash.verifying"
+msgid "Checking {{binary}}…"
+msgstr "{{binary}} چیک کیږي…"
+
+msgctxt "splash.warmup"
+msgid "Preparing downloads…"
+msgstr "ډاونلوډونه چمتو کېږي…"
+
+msgctxt "splash.warmupFailedNoDiag"
+msgid "Setup failed. Open the setup log for details."
+msgstr "نصب ناکام شو. د توضیحاتو لپاره د نصب لاګ خلاص کړئ."
+
+msgctxt "status.audioKept"
+msgid "Video saved with its sound — the audio could not be removed"
+msgstr "ویډیو له غږ سره خوندي شوه — غږ لرې نه شو"
+
+msgctxt "status.audioKeptSubtitlesFailed"
+msgid "Video saved with its sound — the audio could not be removed, and some subtitles could not be downloaded"
+msgstr "ویډیو له غږ سره خوندي شوه — غږ لرې نه شو، او ځینې ژباړلیکونه ډاونلوډ نه شول"
+
+msgctxt "status.cancelled"
+msgid "Download cancelled"
+msgstr "ډاونلوډ لغوه شو"
+
+msgctxt "status.complete"
+msgid "Download complete"
+msgstr "ډاونلوډ بشپړ شو"
+
+msgctxt "status.convertingVideo"
+msgid "Converting video…"
+msgstr "ویډیو بدلیږي…"
+
+msgctxt "status.diskSpaceInsufficient"
+msgid "Not enough disk space — need {{required}}, only {{free}} available"
+msgstr "د ډیسک ځای کافي نه دی — {{required}} ته اړتیا ده، یوازې {{free}} شتون لري"
+
+msgctxt "status.downloadingBinary"
+msgid "Downloading {{name}} binary…"
+msgstr "{{name}} بائنري ډاونلوډیږي…"
+
+msgctxt "status.downloadingMedia"
+msgid "Downloading video & audio…"
+msgstr "ویډیو او غږ ډاونلوډیږي…"
+
+msgctxt "status.embeddingMetadata"
+msgid "Embedding metadata…"
+msgstr "میټاډیټا ځای پر ځای کیږي…"
+
+msgctxt "status.exploreSignedOut"
+msgid "Signed out of Explore — sign in again"
+msgstr "له سپړنې څخه وتلي یاست — بیا ننوځئ"
+
+msgctxt "status.extractingAudio"
+msgid "Converting audio…"
+msgstr "غږ بدلیږي…"
+
+msgctxt "status.fetchingSponsorBlock"
+msgid "Contacting SponsorBlock…"
+msgstr "SponsorBlock سره اړیکه نیول کیږي…"
+
+msgctxt "status.fetchingSubtitles"
+msgid "Fetching subtitles…"
+msgstr "ژباړلیکونه ترلاسه کیږي…"
+
+msgctxt "status.mergingFormats"
+msgid "Merging audio and video…"
+msgstr "غږ او ویډیو یوځای کیږي…"
+
+msgctxt "status.mintingToken"
+msgid "Preparing YouTube download…"
+msgstr "د YouTube ډاونلوډ چمتو کېږي…"
+
+msgctxt "status.movingFiles"
+msgid "Moving files…"
+msgstr "فایلونه لیږدول کیږي…"
+
+msgctxt "status.noSubtitles"
+msgid "No subtitles in {{languages}}"
+msgstr "په {{languages}} ژبو کې ژباړلیکونه نشته"
+
+msgctxt "status.outputNotWritable"
+msgid "Can't save to {{dir}} — Klip isn't allowed to write there"
+msgstr "په {{dir}} کې خوندي کول ممکن نه دي — Klip ته هلته د لیکلو اجازه نشته"
+
+msgctxt "status.preparingBinaries"
+msgid "Preparing binaries…"
+msgstr "بائنري فایلونه چمتو کیږي…"
+
+msgctxt "status.qualityLimited"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download. Trying again later may help."
+msgstr "په {{height}}p خوندي شو — YouTube د دې ډاونلوډ لپاره لوړې کیفیتونه ودرول. وروسته بیا هڅه کولی شي مرسته وکړي."
+
+msgctxt "status.qualityLimitedSubtitlesFailed"
+msgid "Saved at {{height}}p — YouTube withheld higher qualities for this download, and some subtitles could not be downloaded. Trying again later may help."
+msgstr "په {{height}}p خوندي شو — YouTube د دې ډاونلوډ لپاره لوړې کیفیتونه ودرول، او ځینې ژباړلیکونه ډاونلوډ نشول. وروسته بیا هڅه کولی شي مرسته وکړي."
+
+msgctxt "status.remintingToken"
+msgid "Preparing YouTube download again…"
+msgstr "د YouTube ډاونلوډ بیا چمتو کېږي…"
+
+msgctxt "status.retryingSponsorBlock"
+msgid "SponsorBlock unavailable, retrying ({{attempt}}/{{total}})…"
+msgstr "SponsorBlock شتون نلري، بیا هڅه کیږي ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingTransfer"
+msgid "Connection stalled, retrying ({{attempt}}/{{total}})…"
+msgstr "اړیکه بنده شوه، بیا هڅه کیږي ({{attempt}}/{{total}})…"
+
+msgctxt "status.retryingWithoutSignIn"
+msgid "Trying again without your Explore sign-in…"
+msgstr ""
+
+msgctxt "status.signingInWithExplore"
+msgid "Signing in with your Explore account…"
+msgstr "ستاسو د سپړنې حساب سره ننوتل روان دي…"
+
+msgctxt "status.sleepingBetweenRequests"
+msgid "Waiting {{seconds}}s to avoid rate limits…"
+msgstr "د نرخ محدودیتونو مخنیوي لپاره {{seconds}} ثانیې انتظار…"
+
+msgctxt "status.startingYtdlp"
+msgid "Starting the download engine…"
+msgstr "د ډاونلوډ انجن پیلیږي…"
+
+msgctxt "status.subtitleLanguagesMissing"
+msgid "This video has no subtitles in {{languages}}. The video was saved without them."
+msgstr "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري. ویډیو پرته له دوی خوندي شو."
+
+msgctxt "status.subtitleLanguagesMissingOthersSaved"
+msgid "This video has no subtitles in {{languages}}. The other languages were saved."
+msgstr "دا ویډیو په {{languages}} ژبو کې ژباړلیکونه نه لري. نورې ژبې خوندي شوې."
+
+msgctxt "status.subtitlesFailed"
+msgid "Video saved — some subtitles could not be downloaded"
+msgstr "ویډیو خوندي شوه — ځینې ژباړلیکونه ډاونلوډ نه شول"
+
+msgctxt "status.unknownStartupFailure"
+msgid "Unknown download startup failure"
+msgstr "نامعلومه د پیل ناکامي"
+
+msgctxt "status.usedExtractorFallback"
+msgid "Downloaded with relaxed extractor — set up a cookies.txt for more reliable downloads"
+msgstr "د آزاد ایکسټریکټر سره ډاونلوډ شو — د باوري ډاونلوډونو لپاره cookies.txt تنظیم کړئ"
+
+msgctxt "status.ytdlpExitCode"
+msgid "The download engine exited with code {{code}}"
+msgstr "د ډاونلوډ انجن د {{code}} کوډ سره ووت"
+
+msgctxt "status.ytdlpProcessError"
+msgid "Download engine error: {{error}}"
+msgstr "د ډاونلوډ انجن تېروتنه: {{error}}"
+
+msgctxt "theme.dark"
+msgid "Dark mode"
+msgstr "تیاره حالت"
+
+msgctxt "theme.light"
+msgid "Light mode"
+msgstr "رڼا حالت"
+
+msgctxt "theme.system"
+msgid "System default"
+msgstr "د سیسټم ډیفالټ"
+
+msgctxt "titleBar.close"
+msgid "Close"
+msgstr "تړل"
+
+msgctxt "titleBar.maximize"
+msgid "Maximize"
+msgstr "لوی کول"
+
+msgctxt "titleBar.minimize"
+msgid "Minimize"
+msgstr "کوچنی کول"
+
+msgctxt "titleBar.restore"
+msgid "Restore"
+msgstr "بیرته راوستل"
+
+msgctxt "tray.menu.downloadFromClipboard"
+msgid "Download from clipboard"
+msgstr "له کاپي بورد څخه ډاونلوډ"
+
+msgctxt "tray.menu.open"
+msgid "Open Klip"
+msgstr ""
+
+msgctxt "tray.menu.quit"
+msgid "Quit Klip"
+msgstr ""
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "tray.menu.statusActive_one"
+msgid "1 downloading · {{percent}}%"
+msgstr "1 ډاونلوډیږي · {{percent}}%"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "tray.menu.statusActive_other"
+msgid "{{count}} downloading · {{percent}}%"
+msgstr "{{count}} ډاونلوډیږي · {{percent}}%"
+
+msgctxt "tray.menu.statusIdle"
+msgid "Idle"
+msgstr "بیکار"
+
+msgctxt "tray.tooltip"
+msgid "Klip"
+msgstr ""
+
+msgctxt "update.copied"
+msgid "Copied command to clipboard"
+msgstr "امر کلیپبورډ ته کاپي شو"
+
+msgctxt "update.copy"
+msgid "Copy command to clipboard"
+msgstr "امر کلیپبورډ ته کاپي کړئ"
+
+msgctxt "update.dismiss"
+msgid "Dismiss update banner"
+msgstr "د تازه کولو بنر وتړئ"
+
+msgctxt "update.download"
+msgid "Download ↗"
+msgstr "ډاونلوډ ↗"
+
+msgctxt "update.downloadDmg"
+msgid "Download DMG ↗"
+msgstr "DMG ډاونلوډ کړئ ↗"
+
+msgctxt "update.downloading"
+msgid "Downloading…"
+msgstr "ډاونلوډیږي…"
+
+msgctxt "update.install"
+msgid "Install & Restart"
+msgstr "نصب کړه او بیا پیل کړه"
+
+msgctxt "update.installFailed"
+msgid "Update failed"
+msgstr "تازه کول ناکام شو"
+
+msgctxt "update.message.generic"
+msgid "Klip {{version}} is available — you have {{currentVersion}}."
+msgstr "Klip {{version}} شته — تاسو {{currentVersion}} لرئ."
+
+msgctxt "update.message.homebrew"
+msgid "Klip {{version}} is available — update with Homebrew."
+msgstr "Klip {{version}} شته — د Homebrew له لارې يې تازه کړئ."
+
+msgctxt "update.message.macosDirect"
+msgid "Klip {{version}} is available — download the new DMG."
+msgstr "Klip {{version}} شته — نوی DMG ډاونلوډ کړئ."
+
+msgctxt "update.message.macosDirectHomebrew"
+msgid "Klip {{version}} is available — download the DMG or switch to Homebrew."
+msgstr "Klip {{version}} شته — DMG ډاونلوډ کړئ یا Homebrew ته واوړئ."
+
+msgctxt "update.message.portable"
+msgid "Klip {{version}} is available — download the new build."
+msgstr "Klip {{version}} شته — نوې build ډاونلوډ کړئ."
+
+msgctxt "update.retry"
+msgid "Retry"
+msgstr "بیا هڅه وکړئ"
+
+msgctxt "update.runAndRestart"
+msgid "Run & Restart"
+msgstr "چلوه او بیا پیل کړه"
+
+msgctxt "update.upgrading"
+msgid "Upgrading…"
+msgstr "تازه کېږي…"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "videoCard.chapters_one"
+msgid "{{count}} chapter"
+msgstr "{{count}} فصل"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "videoCard.chapters_other"
+msgid "{{count}} chapters"
+msgstr "{{count}} فصلونه"
+
+msgctxt "videoCard.titlePlaceholder"
+msgid "Loading…"
+msgstr "بارول…"
+
+msgctxt "videoCodec.auto"
+msgid "Auto (AV1 first)"
+msgstr ""
+
+msgctxt "videoCodec.description"
+msgid "Which codec to take first among streams of the same height. Auto keeps Klip's order: AV1 first, the smallest files, then VP9; H.264 plays on older TVs and phones."
+msgstr ""
+
+msgctxt "videoCodec.h264"
+msgid "H.264 first"
+msgstr "لومړی H.264"
+
+msgctxt "videoCodec.label"
+msgid "Video codec"
+msgstr "ویډیو کوډک"
+
+msgctxt "videoCodec.smartTv"
+msgid "Smart TV always takes H.264."
+msgstr "سمارټ TV تل H.264 اخلي."
+
+msgctxt "videoCodec.vp9"
+msgid "VP9 first"
+msgstr "لومړی VP9"
+
+msgctxt "wizard.bulk.acceptedCount"
+msgid "Ready"
+msgstr "چمتو"
+
+msgctxt "wizard.bulk.description"
+msgid "Paste video, playlist, channel, search, or audio URLs. Klip will clean duplicates before queueing."
+msgstr "د ویډیو، playlist، channel، لټون، یا غږ URLونه پیسټ کړئ. Klip به تر قطار ته کولو مخکې تکراري لینکونه پاک کړي."
+
+msgctxt "wizard.bulk.emptyPreview"
+msgid "Paste one or more URLs to preview the batch."
+msgstr "د ډلې د کتلو لپاره یو یا زیات URLونه ونښلوئ."
+
+msgctxt "wizard.bulk.ignoredCount"
+msgid "Ignored"
+msgstr "له پامه غورځول شوي"
+
+msgctxt "wizard.bulk.needsAtLeastOne"
+msgid "Add at least one supported URL to continue."
+msgstr "د دوام لپاره لږ تر لږه یو ملاتړ شوی URL زیات کړئ."
+
+msgctxt "wizard.bulk.reject.duplicate"
+msgid "Duplicate"
+msgstr "تکراري"
+
+msgctxt "wizard.bulk.textareaLabel"
+msgid "URL list"
+msgstr "د URL لست"
+
+msgctxt "wizard.bulk.textareaPlaceholder"
+msgid ""
+"https://example.com/video-1\n"
+"https://example.com/video-2\n"
+"https://example.com/video-3"
+msgstr ""
+"https://video.example/one\n"
+"https://video.example/two\n"
+"https://video.example/three"
+
+msgctxt "wizard.bulk.title"
+msgid "Bulk URLs"
+msgstr "ډېر URLونه"
+
+msgctxt "wizard.confirm.addToQueue"
+msgid "+ Queue"
+msgstr "+ قطار"
+
+msgctxt "wizard.confirm.addToQueueTooltip"
+msgid "Adds to the queue — starts when the active download finishes"
+msgstr "کله چې نور ډاونلوډونه پای ته ورسیږي پیل کیږي — بشپړ بینډوډت ترلاسه کوي"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.confirm.itemsValue_one"
+msgid "{{count}} of {{total}} video"
+msgstr "{{count}} له {{total}} ویډیو"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValue_other"
+msgid "{{count}} of {{total}} videos"
+msgstr "{{count}} له {{total}} ویډیوګانې"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueAudio_one"
+msgid "{{count}} of {{total}} track"
+msgstr "{{count}} له {{total}} ټریک"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueAudio_other"
+msgid "{{count}} of {{total}} tracks"
+msgstr "{{count}} له {{total}} ټریکونه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.confirm.itemsValueBulk_one"
+msgid "{{count}} of {{total}} URL"
+msgstr "{{count}} له {{total}} URL"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.itemsValueBulk_other"
+msgid "{{count}} of {{total}} URLs"
+msgstr "{{count}} له {{total}} URLونو"
+
+msgctxt "wizard.confirm.labelAudio"
+msgid "Audio"
+msgstr "غږ"
+
+msgctxt "wizard.confirm.labelBulk"
+msgid "Batch"
+msgstr "ډېر URLونه"
+
+msgctxt "wizard.confirm.labelItems"
+msgid "Items"
+msgstr "توکي"
+
+msgctxt "wizard.confirm.labelPlaylist"
+msgid "Playlist"
+msgstr "د غږولو لړليک"
+
+msgctxt "wizard.confirm.labelPreset"
+msgid "Preset"
+msgstr "مخکې تنظیم"
+
+msgctxt "wizard.confirm.labelSaveTo"
+msgid "Save to"
+msgstr "خوندي کولو ځای"
+
+msgctxt "wizard.confirm.labelSize"
+msgid "Size"
+msgstr "اندازه"
+
+msgctxt "wizard.confirm.labelSubtitles"
+msgid "Subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "wizard.confirm.labelVideo"
+msgid "Video"
+msgstr "ویډیو"
+
+msgctxt "wizard.confirm.landIn"
+msgid "Your file will land in"
+msgstr "ستاسو فایل به دلته ځای پر ځای شي"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.confirm.landInMultiProfile_one"
+msgid "It'll land in the destination below"
+msgstr "دا به لاندې ځای ته ورسیږي"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.landInMultiProfile_other"
+msgid "They'll land in the {{count}} destinations below"
+msgstr "دا به لاندې {{count}} ځایونو ته ورسیږي"
+
+msgctxt "wizard.confirm.nothingToDownload"
+msgid "The Subtitles only profile is active but no subtitle language is selected — nothing will be downloaded."
+msgstr "د “یوازې ژباړلیکونه” پروفایل فعال دی، خو د ژباړلیک هېڅ ژبه نه ده غوره شوې — هېڅ شی به ډاونلوډ نه شي."
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.confirm.profileBreakdownCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} توکی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.confirm.profileBreakdownCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} توکي"
+
+msgctxt "wizard.confirm.profileBreakdownHeading"
+msgid "Profiles in this batch"
+msgstr "په دې ډله کې پروفایلونه"
+
+msgctxt "wizard.confirm.pullIt"
+msgid "Pull it! ↓"
+msgstr "راکش یې کړه! ↓"
+
+msgctxt "wizard.confirm.pullItTooltip"
+msgid "Skips the queue — starts now, runs alongside other active downloads"
+msgstr "سمدلاسه پیل کیږي — د نورو فعالو ډاونلوډونو سره یوځای چلیږي"
+
+msgctxt "wizard.confirm.readyHeadline"
+msgid "Ready to pull it in!"
+msgstr "د راکشولو لپاره چمتو!"
+
+msgctxt "wizard.confirm.sizeUnknown"
+msgid "Unknown"
+msgstr "نامعلومه"
+
+msgctxt "wizard.confirm.subtitleEmbedAudioOnly"
+msgid "Subtitle embed changed to sidecar — audio tracks do not support embedded subtitle streams."
+msgstr "د ژباړلیک embed sidecar ته بدل شو — د غږ ټریکونه د embed شوو ژباړلیک سټریمونو ملاتړ نه کوي."
+
+msgctxt "wizard.confirm.subtitleEmbedForcesMkv"
+msgid "Subtitles inside the video need an MKV file, so this download saves as .mkv."
+msgstr "په ویډیو کې دننه ژباړلیکونه MKV فایل ته اړتیا لري، نو دا ډاونلوډ د .mkv په توګه خوندي کیږي."
+
+msgctxt "wizard.confirm.subtitlesNone"
+msgid "—"
+msgstr "—"
+
+msgctxt "wizard.confirm.thumbnailEmbedNotSupported"
+msgid "Thumbnail embed skipped — output container does not support it."
+msgstr "د Thumbnail embed پریښودل شو — د محصول container یې نه ملاتړي."
+
+msgctxt "wizard.folder.custom"
+msgid "Custom…"
+msgstr "دودیز…"
+
+msgctxt "wizard.folder.desktop"
+msgid "Desktop"
+msgstr "ډیسکټاپ"
+
+msgctxt "wizard.folder.documents"
+msgid "Documents"
+msgstr "سندونه"
+
+msgctxt "wizard.folder.downloads"
+msgid "Downloads"
+msgstr "ډاونلوډونه"
+
+msgctxt "wizard.folder.heading"
+msgid "Save to"
+msgstr "خوندي کولو ځای"
+
+msgctxt "wizard.folder.home"
+msgid "Home"
+msgstr "کور"
+
+msgctxt "wizard.folder.music"
+msgid "Music"
+msgstr "موسیقي"
+
+msgctxt "wizard.folder.pictures"
+msgid "Pictures"
+msgstr "انځورونه"
+
+msgctxt "wizard.folder.subfolder.invalid"
+msgid "Folder name has invalid characters"
+msgstr "د فولډر نوم کې غلط حروف شتون لري"
+
+msgctxt "wizard.folder.subfolder.placeholder"
+msgid "e.g. lectures"
+msgstr "د بېلګې په توګه لیکچرونه"
+
+msgctxt "wizard.folder.subfolder.toggle"
+msgid "Save inside subfolder"
+msgstr "فرعي فولډر کې خوندي کړه"
+
+msgctxt "wizard.folder.videos"
+msgid "Movies"
+msgstr "فلمونه"
+
+msgctxt "wizard.formats.audio"
+msgid "Audio"
+msgstr "غږ"
+
+msgctxt "wizard.formats.audioLanguage"
+msgid "Audio language"
+msgstr "د غږ ژبه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.formats.audioLanguageCount_one"
+msgid "{{count}} language"
+msgstr "{{count}} ژبه"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.formats.audioLanguageCount_other"
+msgid "{{count}} languages"
+msgstr "{{count}} ژبې"
+
+msgctxt "wizard.formats.bitrateValue"
+msgid "Bitrate {{bitrate}}"
+msgstr "بټ ریټ {{bitrate}}"
+
+msgctxt "wizard.formats.botWall.bodyDisabled"
+msgid "Cookies are configured but turned off. Enable them and retry to get the full list, or change network and retry."
+msgstr "کوکیز تنظیم شوي خو بند دي. د بشپړ لیست لپاره کوکیز فعال کړئ او بیا هڅه وکړئ، یا شبکه بدله کړئ او بیا هڅه وکړئ."
+
+msgctxt "wizard.formats.botWall.bodyEnabled"
+msgid "Even with cookies, YouTube limited this probe. Try again later or switch network."
+msgstr "حتی د کوکیزو سره، YouTube دا پلټنه محدوده کړه. وروسته بیا هڅه وکړئ یا شبکه بدله کړئ."
+
+msgctxt "wizard.formats.botWall.bodyExplore"
+msgid "YouTube limited this request. Try again later or switch network."
+msgstr "YouTube دا غوښتنه محدوده کړه. وروسته بیا هڅه وکړئ یا شبکه بدله کړئ."
+
+msgctxt "wizard.formats.botWall.bodyUnconfigured"
+msgid "The format list may be incomplete. Set up cookies in advanced settings, or change network and retry."
+msgstr "د بڼو لیست ممکن نامکمل وي. د پرمختللو تنظیماتو کې کوکیز تنظیم کړئ، یا شبکه بدله کړئ او بیا هڅه وکړئ."
+
+msgctxt "wizard.formats.botWall.enableRetryCta"
+msgid "Enable cookies and retry"
+msgstr "کوکیز فعال کړئ او بیا هڅه وکړئ"
+
+msgctxt "wizard.formats.botWall.heading"
+msgid "Probe was limited"
+msgstr "YouTube دا پلټنه محدوده کړه"
+
+msgctxt "wizard.formats.botWall.retryCta"
+msgid "Retry"
+msgstr "بیا هڅه وکړئ"
+
+msgctxt "wizard.formats.codecFilter.all"
+msgid "All"
+msgstr ""
+
+msgctxt "wizard.formats.codecFilter.label"
+msgid "Show one codec"
+msgstr ""
+
+msgctxt "wizard.formats.convert.bitrate"
+msgid "Bitrate"
+msgstr "بټ ریټ"
+
+msgctxt "wizard.formats.convert.bitrateCopyHint"
+msgid "A source that is already {{target}} keeps its own stream and bitrate: it is copied, not re-encoded."
+msgstr "هغه سرچینه چې لا دمخه {{target}} وي خپل جریان او بټ ریټ ساتي: کاپي کېږي، بیا کوډ نه کېږي."
+
+msgctxt "wizard.formats.convert.copyLabel"
+msgid "{{target}} {{bitrate}} kbps, no re-encode"
+msgstr "{{target}} {{bitrate}} kbps، بیا کوډ نه کېږي"
+
+msgctxt "wizard.formats.convert.copyLabelNoBitrate"
+msgid "{{target}}, no re-encode"
+msgstr "{{target}}، بیا کوډ نه کېږي"
+
+msgctxt "wizard.formats.convert.copyNote"
+msgid "{{kbps}} kbps, as the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "{{kbps}} kbps، لکه په سرچینه کې: جریان لا دمخه {{target}} دی، نو کاپي کېږي، بیا کوډ نه کېږي"
+
+msgctxt "wizard.formats.convert.copyNoteNoBitrate"
+msgid "As the source has it: the stream is already {{target}}, so it is copied, not re-encoded"
+msgstr "لکه په سرچینه کې: جریان لا دمخه {{target}} دی، نو کاپي کېږي، بیا کوډ نه کېږي"
+
+msgctxt "wizard.formats.convert.label"
+msgid "Convert"
+msgstr "بدلول"
+
+msgctxt "wizard.formats.convert.lossyLabel"
+msgid "{{target}} {{bitrate}} kbps"
+msgstr "{{target}} {{bitrate}} kbps"
+
+msgctxt "wizard.formats.convert.sourceKbps"
+msgid "Source is {{kbps}} kbps"
+msgstr "سرچینه {{kbps}} kbps ده"
+
+msgctxt "wizard.formats.convert.wavLabel"
+msgid "WAV (uncompressed)"
+msgstr "WAV (بې فشارولو)"
+
+msgctxt "wizard.formats.cookiesError.currentModeBrowser"
+msgid "Browser"
+msgstr "براوزر"
+
+msgctxt "wizard.formats.cookiesError.currentModeExplore"
+msgid "Explore sign-in"
+msgstr "د سپړنې ننوتل"
+
+msgctxt "wizard.formats.cookiesError.currentModeFile"
+msgid "File"
+msgstr "فایل"
+
+msgctxt "wizard.formats.cookiesError.currentModeLabel"
+msgid "Cookies source"
+msgstr "د کوکیزو سرچینه"
+
+msgctxt "wizard.formats.cookiesError.dpapi.docsLinkLabel"
+msgid "yt-dlp docs (issue #10927)"
+msgstr "yt-dlp اسناد (مسئله #10927)"
+
+msgctxt "wizard.formats.cookiesError.dpapi.explanation"
+msgid "Chrome 127 and newer encrypts cookies in a way other apps can't read on Windows. Try one of the workarounds below."
+msgstr "Chrome 127 او نوي نسخې کوکیز داسې کوډ کوي چې نور اپلیکیشنونه یې د Windows کې لوستلی نشي. لاندې یو له حلونو هڅه وکړئ."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileBody"
+msgid "Export cookies from Chrome with a browser extension, then switch this app to File mode and pick the exported file."
+msgstr "د براوزر د توسیع سره له Chrome نه کوکیز صادر کړئ، بیا دا اپلیکیشن د فایل حالت ته بدل کړئ او صادر شوی فایل غوره کړئ."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFileLabel"
+msgid "Export cookies.txt"
+msgstr "cookies.txt صادر کړئ"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxBody"
+msgid "Firefox doesn't use App-Bound Encryption. Open cookies settings and pick Firefox from the browser list."
+msgstr "Firefox د App-Bound Encryption نه کاروي. د کوکیزو تنظیمات پرانیستل او د براوزر له لیست نه Firefox غوره کړئ."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixFirefoxLabel"
+msgid "Switch to Firefox"
+msgstr "Firefox ته بدل شئ"
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeBody"
+msgid "Add --disable-features=LockProfileCookieDatabase to Chrome's launch shortcut. Warning: this invalidates previously encrypted cookies, so you'll be signed out of every site and need to log in again."
+msgstr "د Chrome د پیل شارټ کټ کې --disable-features=LockProfileCookieDatabase اضافه کړئ. خبرداری: دا مخکې کوډ شوي کوکیز باطلوي، نو تاسو به له هر سایټ وتلئ او بیا ننوتل ضروري دي."
+
+msgctxt "wizard.formats.cookiesError.dpapi.fixUnsafeLabel"
+msgid "Launch Chrome with App-Bound Encryption disabled"
+msgstr "Chrome د App-Bound Encryption غیر فعاله سره پیل کړئ"
+
+msgctxt "wizard.formats.cookiesError.dpapi.heading"
+msgid "Chrome cookies blocked by Windows encryption"
+msgstr "Chrome کوکیز د Windows د کوډ کولو لخوا بند شوي"
+
+msgctxt "wizard.formats.cookiesError.explanationBrowser"
+msgid "Cookies are read directly from the browser. If the browser is currently running, its cookie database may be locked (Chromium-family). The browser must also be signed in to YouTube. Try closing the browser, switching to a different browser, switching to File mode, or turning cookies off."
+msgstr "کوکیز مستقیم له براوزر نه لوستل کیږي. که براوزر اوس مهال چلیږي، د کوکیزو ډیټابیس ممکن بند وي (Chromium کورنۍ). براوزر باید YouTube ته ننوتلی وي. هڅه وکړئ براوزر وتړئ، بل براوزر ته بدل شئ، د فایل حالت ته بدل شئ، یا کوکیز بند کړئ."
+
+msgctxt "wizard.formats.cookiesError.explanationFile"
+msgid "Your cookies file might be empty, expired, or in the wrong format (Klip needs a Netscape cookies.txt file). Try re-exporting cookies, picking a different file, switching to Browser mode, or turning cookies off."
+msgstr "ستاسو د کوکیزو فایل ممکن خالي، پخوانی، یا د غلط بڼې وي (Klip Netscape cookies.txt فایل ته اړتیا لري). هڅه وکړئ کوکیز بیا صادر کړئ، بل فایل غوره کړئ، د براوزر حالت ته بدل شئ، یا کوکیز بند کړئ."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.body"
+msgid "Sign in with Explore and Klip will retry it."
+msgstr "د سپړنې په مرسته ننوځئ او Klip به بیا هڅه وکړي."
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.cta"
+msgid "Sign in with Explore"
+msgstr "د سپړنې په مرسته ننوځئ"
+
+msgctxt "wizard.formats.cookiesError.exploreOffer.heading"
+msgid "This video may need a YouTube account"
+msgstr "کېدای شي دا ویډیو د YouTube اکاونټ ته اړتیا ولري"
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.body"
+msgid "Klip already tried it signed in through Explore, so signing in again won't help. The site may be having trouble, or this account can't open it. Try again later."
+msgstr "Klip مخکې د سپړنې له ننوتلو سره هڅه کړې ده، نو بیا ننوتل به مرسته ونه کړي. شاید سایټ ستونزه ولري، یا دا حساب یې نشي خلاصولی. وروسته بیا هڅه وکړئ."
+
+msgctxt "wizard.formats.cookiesError.exploreRefused.heading"
+msgid "The site refused this even with your Explore sign-in"
+msgstr "سایټ دا رد کړ، حتی د سپړنې له ننوتلو سره هم"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.body"
+msgid "You're signed in to Explore, but downloads aren't using that sign-in right now."
+msgstr "تاسو په سپړنه کې ننوتلي یاست، خو ډاونلوډونه همدا اوس دا ننوتل نه کاروي."
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.cta"
+msgid "Use my Explore sign-in and retry"
+msgstr "د سپړنې ننوتل وکاروئ او بیا هڅه وکړئ"
+
+msgctxt "wizard.formats.cookiesError.exploreReuse.heading"
+msgid "This video may need a YouTube account"
+msgstr "کېدای شي دا ویډیو د YouTube اکاونټ ته اړتیا ولري"
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.body"
+msgid "If this video needs an account, Klip uses your Explore sign-in automatically. It may be unavailable for another reason."
+msgstr "که دا ویډیو حساب غواړي، Klip ستاسو د سپړنې ننوتل په اتومات ډول کاروي. ښايي د بل دلیل له امله شتون ونه لري."
+
+msgctxt "wizard.formats.cookiesError.exploreSignedIn.heading"
+msgid "Signed in to Explore"
+msgstr "په سپړنه کې ننوتلي یاست"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.body"
+msgid "If this video needs a YouTube account, sign in in Explore and retry. Klip uses that sign-in only when a download needs it."
+msgstr "که دا ویډیو د YouTube حساب غواړي، په سپړنه کې ننوځئ او بیا هڅه وکړئ. Klip دا ننوتل یوازې هغه وخت کاروي چې ښکته کول ورته اړتیا ولري."
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.cta"
+msgid "Sign in in Explore"
+msgstr "په سپړنه کې ننوځئ"
+
+msgctxt "wizard.formats.cookiesError.exploreSignIn.heading"
+msgid "This video may need a YouTube account"
+msgstr "دا ویډیو ښايي د YouTube حساب وغواړي"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.heading"
+msgid "This link may need an account on {{host}}"
+msgstr "کېدای شي دا لینک د {{host}} حساب ته اړتیا ولري"
+
+msgctxt "wizard.formats.cookiesError.exploreSite.offerBody"
+msgid "Sign in to {{host}} with Explore, then try again."
+msgstr "د سپړنې په مرسته د {{host}} حساب ته ننوځئ او بیا هڅه وکړئ."
+
+msgctxt "wizard.formats.cookiesError.exploreSite.signInBody"
+msgid "Sign in to {{host}} in Explore, then try again. Klip uses that sign-in only when a download needs it."
+msgstr "په سپړنه کې د {{host}} حساب ته ننوځئ او بیا هڅه وکړئ. Klip دا ننوتل یوازې هغه وخت کاروي چې ښکته کول ورته اړتیا ولري."
+
+msgctxt "wizard.formats.cookiesError.heading"
+msgid "Cookies might be the cause"
+msgstr "کوکیز ممکن لامل وي"
+
+msgctxt "wizard.formats.cookiesError.needsCookies.body"
+msgid "Klip couldn't access this video without authentication. Configure cookies in advanced settings — point them at a browser you're already signed in to, or import a cookies.txt file."
+msgstr "Klip پرته له تصدیق نه شو کولی دې ویډیو ته لاسرسی ومومي. د پرمختللو تنظیماتو کې کوکیز تنظیم کړئ — هغه براوزر ته اشاره وکړئ چې مو ورسره ننوتلي یئ، یا یو cookies.txt فایل واردوئ."
+
+msgctxt "wizard.formats.cookiesError.needsCookies.heading"
+msgid "This site requires sign-in"
+msgstr "دا سایټ ننوتل ته اړتیا لري"
+
+msgctxt "wizard.formats.cookiesError.openSettingsCta"
+msgid "Open cookies settings"
+msgstr "د کوکیزو تنظیمات پرانیستل"
+
+msgctxt "wizard.formats.cookiesError.otherCookiesCta"
+msgid "Use a cookies file or browser instead…"
+msgstr "پرځای یې د کوکیزو فایل یا براوزر وکاروئ…"
+
+msgctxt "wizard.formats.drc.description"
+msgid "Quieter loud parts and louder quiet ones, for speakers and noisy rooms."
+msgstr "لوړې برخې ورو او ورو برخې لوړې کوي، د سپیکرونو او شور لرونکو ځایونو لپاره."
+
+msgctxt "wizard.formats.drc.label"
+msgid "Even out loudness (DRC)"
+msgstr "د غږ کچه برابره کړئ (DRC)"
+
+msgctxt "wizard.formats.drc.tag"
+msgid "Even loudness"
+msgstr "برابر غږ"
+
+msgctxt "wizard.formats.fit.mp4Unavailable"
+msgid "Your profile is Smart TV (H.264). This video doesn't offer H.264, so the closest stream is selected."
+msgstr "ستاسو پروفایل سمارټ TV (H.264) دی. دا ویډیو H.264 نه وړاندې کوي، نو تر ټولو نږدې سټریم غوره شوی."
+
+msgctxt "wizard.formats.fit.noVideo"
+msgid "This link has no video, so audio is selected."
+msgstr "دا لینک ویډیو نلري، نو غږ غوره شو."
+
+msgctxt "wizard.formats.fit.subtitlesMissing"
+msgid "Your profile asks for subtitles in {{languages}}. This video doesn't have them."
+msgstr "ستاسو پروفایل په {{languages}} کې ژباړلیکونه غواړي. دا ویډیو یې نلري."
+
+msgctxt "wizard.formats.fit.tierAbove"
+msgid "Your profile asks for {{wanted}}p. This video has nothing that small, so {{picked}}p is selected."
+msgstr "ستاسو پروفایل {{wanted}}p غواړي. دا ویډیو دومره کوچنی څه نلري، نو {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.tierAbovePassedOver"
+msgid "Your profile asks for {{wanted}}p. The smaller streams this video has don't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "ستاسو پروفایل {{wanted}}p غواړي. هغه کوچني سټریمونه چې دا ویډیو یې لري ستاسو د پروفایل له پاتې برخې سره نه ښه کیږي، نو {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.tierBelowTakeable"
+msgid "Your profile asks for {{wanted}}p. This video has no {{wanted}}p it can take, so {{picked}}p is selected."
+msgstr "ستاسو پروفایل {{wanted}}p غواړي. دا ویډیو هیڅ {{wanted}}p نلري چې واخیستل شي، نو {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.tierPassedOverAiUpscaled"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p is AI-upscaled, so the original {{picked}}p is selected."
+msgstr "ستاسو پروفایل {{wanted}}p غواړي. د دې ویډیو {{wanted}}p د AI له لارې لوړ شوی دی، نو اصلي {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.tierPassedOverH264"
+msgid "Your profile asks for {{wanted}}p in H.264. This video has {{wanted}}p only in other codecs, so {{picked}}p in H.264 is selected."
+msgstr "ستاسو پروفایل په H.264 کې {{wanted}}p غواړي. دا ویډیو {{wanted}}p یوازې په نورو کوډیکونو کې لري، نو په H.264 کې {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.tierPassedOverProfile"
+msgid "Your profile asks for {{wanted}}p. This video's {{wanted}}p doesn't fit the rest of your profile, so {{picked}}p is selected."
+msgstr "ستاسو پروفایل {{wanted}}p غواړي. د دې ویډیو {{wanted}}p ستاسو د پروفایل له پاتې برخې سره نه ښه کیږي، نو {{picked}}p غوره شو."
+
+msgctxt "wizard.formats.fit.webmUnavailable"
+msgid "Your profile asks for WebM. This video's picked streams include {{codec}}, which WebM can't hold, so the file type is Auto."
+msgstr "ستاسو پروفایل WebM غواړي. د دې ویډیو غوره شوي سټریمونه {{codec}} لري، چې WebM یې نشي ساتلی، نو د فایل ډول اتوماتیک دی."
+
+msgctxt "wizard.formats.footer.addToQueue"
+msgid "Add to queue without starting"
+msgstr "پرته له پیل کولو قطار ته زیاتول"
+
+msgctxt "wizard.formats.footer.download"
+msgid "Download"
+msgstr "ښکته کول"
+
+msgctxt "wizard.formats.footer.moreActions"
+msgid "More download options"
+msgstr "نور د ښکته کولو انتخابونه"
+
+msgctxt "wizard.formats.footer.subtitlesRequired"
+msgid "Choose at least one subtitle language."
+msgstr "لږ تر لږه یوه د ژباړلیک ژبه غوره کړئ."
+
+msgctxt "wizard.formats.keepAudio"
+msgid "Keep as-is"
+msgstr "لکه چې دی وساتئ"
+
+msgctxt "wizard.formats.keepAudioMeta"
+msgid "Built-in audio"
+msgstr "ورته غږ"
+
+msgctxt "wizard.formats.kind.audio"
+msgid "Audio only"
+msgstr "یوازې غږ"
+
+msgctxt "wizard.formats.kind.label"
+msgid "What to download"
+msgstr "څه ښکته کړو"
+
+msgctxt "wizard.formats.kind.subtitles"
+msgid "Subtitles only"
+msgstr "یوازې ژباړلیکونه"
+
+msgctxt "wizard.formats.kind.video"
+msgid "Video + audio"
+msgstr "ویډیو + غږ"
+
+msgctxt "wizard.formats.kind.videoOnly"
+msgid "Video, no audio"
+msgstr "ویډیو، پرته له غږه"
+
+msgctxt "wizard.formats.loadingAria"
+msgid "Loading formats"
+msgstr "بڼې بارول"
+
+msgctxt "wizard.formats.loadingHint"
+msgid "Please wait until probing finishes — playlists and searches can take a while."
+msgstr "مهرباني وکړئ انتظار وکړئ تر پلټنه پای ته ورسیږي — Playlistونه او لټونونه ممکن یو څه وخت ونیسي."
+
+msgctxt "wizard.formats.marker.aiDubbed"
+msgid "AI dubbed"
+msgstr "AI ډوب شوی"
+
+msgctxt "wizard.formats.marker.aiUpscaled"
+msgid "AI upscaled"
+msgstr "AI لوی شوی"
+
+msgctxt "wizard.formats.marker.audioDescription"
+msgid "Audio description"
+msgstr "غږیز تشریح"
+
+msgctxt "wizard.formats.marker.damaged"
+msgid "Damaged"
+msgstr "زیانمن"
+
+msgctxt "wizard.formats.marker.enhancedBitrate"
+msgid "Enhanced bitrate"
+msgstr "ښه شوی بټ ریټ"
+
+msgctxt "wizard.formats.marker.original"
+msgid "Original"
+msgstr "اصلي"
+
+msgctxt "wizard.formats.marker.spatialAudio"
+msgid "Spatial audio"
+msgstr "فضايي غږ"
+
+msgctxt "wizard.formats.marker.vr"
+msgid "360° / VR"
+msgstr "360° / VR"
+
+msgctxt "wizard.formats.marker.watermarked"
+msgid "Watermarked"
+msgstr "واټرمارک لري"
+
+msgctxt "wizard.formats.noAudio"
+msgid "No audio"
+msgstr "غږ نشته"
+
+msgctxt "wizard.formats.profile.calloutBody"
+msgid "Your active profile pre-selects the streams for you. Switch profiles from the menu, or use the pencil to tune one without leaving this download."
+msgstr "ستاسو فعال پروفایل ستاسو لپاره سټریمونه مخکې غوره کوي. له مېنو څخه پروفایل بدل کړئ، یا د دې ډاونلوډ پرېښودو پرته د پنسل په کارولو سره یو تنظیم کړئ."
+
+msgctxt "wizard.formats.profile.calloutTitle"
+msgid "Formats start from your profile"
+msgstr "بڼې ستاسو له پروفایل پیل کیږي"
+
+msgctxt "wizard.formats.profile.closestTag"
+msgid "Closest to profile"
+msgstr "پروفایل ته نږدې"
+
+msgctxt "wizard.formats.profile.edit"
+msgid "Edit {{name}}"
+msgstr "{{name}} سمول"
+
+msgctxt "wizard.formats.profile.keepEdits"
+msgid "Keep my changes"
+msgstr "زما بدلونونه وساتئ"
+
+msgctxt "wizard.formats.profile.menuDescription"
+msgid "For this download only. Your default profile stays as it is."
+msgstr "یوازې د دې ښکته کولو لپاره. ستاسو اصلي پروفایل همداسې پاتې کیږي."
+
+msgctxt "wizard.formats.profile.preselected"
+msgid "Pre-selected from"
+msgstr "مخکې غوره شوی، سرچینه:"
+
+msgctxt "wizard.formats.profile.resetAll"
+msgid "Reset all"
+msgstr "ټول بیا تنظیمول"
+
+msgctxt "wizard.formats.profile.switchBody"
+msgid "You changed {{areas}} for this download. “{{profile}}” picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "تاسو د دې ښکته کولو لپاره {{areas}} بدل کړل. “{{profile}}” په هر حال ویډیو او غږ غوره کوي. خپل نور بدلونونه ساتئ، که هر څه پروفایل ته بیا تنظیموئ؟"
+
+msgctxt "wizard.formats.profile.switchTitle"
+msgid "Switch profile?"
+msgstr "پروفایل بدل کړو؟"
+
+msgctxt "wizard.formats.profile.tag"
+msgid "Profile"
+msgstr "پروفایل"
+
+msgctxt "wizard.formats.profile.updatedBody"
+msgid "You changed {{areas}} for this download. The updated profile picks the video and audio either way. Keep your other changes, or reset everything to the profile?"
+msgstr "تاسو د دې ښکته کولو لپاره {{areas}} بدل کړل. تازه شوی پروفایل په هر حال ویډیو او غږ غوره کوي. خپل نور بدلونونه ساتئ، که هر څه پروفایل ته بیا تنظیموئ؟"
+
+msgctxt "wizard.formats.profile.updatedTitle"
+msgid "Use the updated profile?"
+msgstr "تازه شوی پروفایل وکاروئ؟"
+
+msgctxt "wizard.formats.quality.high"
+msgid "High quality"
+msgstr "لوړ کیفیت"
+
+msgctxt "wizard.formats.quality.low"
+msgid "Low quality"
+msgstr "ټیټ کیفیت"
+
+msgctxt "wizard.formats.quality.medium"
+msgid "Medium quality"
+msgstr "منځنی کیفیت"
+
+msgctxt "wizard.formats.rateLimit.heading"
+msgid "{{site}} is rate-limiting this connection"
+msgstr "{{site}} د دې اتصال غوښتنې محدودوي"
+
+msgctxt "wizard.formats.rateLimit.leadDegraded"
+msgid "The format list may be incomplete."
+msgstr "د بڼو لړلیک ښايي بشپړ نه وي."
+
+msgctxt "wizard.formats.rateLimit.leadFailed"
+msgid "{{site}} turned this request away for now."
+msgstr "{{site}} دا غوښتنه اوس مهال رد کړه."
+
+msgctxt "wizard.formats.rateLimit.retryCta"
+msgid "Retry"
+msgstr "بیا هڅه وکړئ"
+
+msgctxt "wizard.formats.rateLimit.sessionNote"
+msgid "{{site}} can keep this limit for up to an hour."
+msgstr "{{site}} کولی شي دا محدودیت تر یو ساعت پورې وساتي."
+
+msgctxt "wizard.formats.rateLimit.tryNowCta"
+msgid "Try now"
+msgstr "اوس یې وازمایه"
+
+msgctxt "wizard.formats.rateLimit.waitOver"
+msgid "The wait is over, so you can try again."
+msgstr "انتظار پای ته ورسید، اوس بیا هڅه کولی شئ."
+
+msgctxt "wizard.formats.rateLimit.waitUntil"
+msgid "Klip waits until {{time}} before asking {{site}} again, so the limit can clear."
+msgstr "Klip تر {{time}} پورې انتظار کوي او بیا له {{site}} څخه غوښتنه کوي، څو محدودیت لرې شي."
+
+msgctxt "wizard.formats.resolutionUnknown"
+msgid "Unknown resolution"
+msgstr "ریزولوشن نامعلوم"
+
+msgctxt "wizard.formats.savesAs.label"
+msgid "Saves as"
+msgstr "د خوندي کولو بڼه"
+
+msgctxt "wizard.formats.savesAs.reset"
+msgid "WebM can't hold {{codec}}, so the file type went back to Auto."
+msgstr "WebM نشي کولی {{codec}} وساتي، نو د فایل ډول بېرته اتوماتیک ته واوښت."
+
+msgctxt "wizard.formats.sizeUnknown"
+msgid "Size unknown"
+msgstr "اندازه نامعلومه"
+
+msgctxt "wizard.formats.skipToConfirm"
+msgid "Skip to confirm"
+msgstr "تایید ته پریږدئ"
+
+msgctxt "wizard.formats.skipToConfirmTooltip"
+msgid "Uses your saved preferences for all remaining steps. To change a setting, continue step by step instead — your choice will be saved for next time."
+msgstr "ستاسو خوندي کړل شوي غوره توبونه د ټولو پاتې مرحلو لپاره کاروي. د ترتیب بدلولو لپاره، پرځای یې ګام پر ګام دوام وکړئ — ستاسو انتخاب به د راتلونکي ځل لپاره خوندي شي."
+
+msgctxt "wizard.formats.sniffing"
+msgid "Sniffing out the best formats for you…"
+msgstr "ستاسو لپاره غوره بڼې لټوم…"
+
+msgctxt "wizard.formats.total"
+msgid "Total"
+msgstr "ټول"
+
+msgctxt "wizard.formats.video"
+msgid "Video"
+msgstr "ویډیو"
+
+msgctxt "wizard.formats.withAudio"
+msgid "with audio"
+msgstr "له غږ سره"
+
+msgctxt "wizard.listPrompt.backgroundHint"
+msgid "With {{profileName}}. If it has more than {{count}} videos, Downloads asks how many."
+msgstr "د {{profileName}} سره. که له {{count}} ډېر ویډیوګانې ولري، ډاونلوډونه پوښتي څومره."
+
+msgctxt "wizard.listPrompt.backgroundLabel"
+msgid "Download in the background"
+msgstr "په شاتهپرده کې ډاونلوډ"
+
+msgctxt "wizard.listPrompt.escOnly"
+msgid "Esc cancels."
+msgstr "Esc لغوه کوي."
+
+msgctxt "wizard.listPrompt.firstHint"
+msgid "Exactly the first {{count}}, with {{profileName}}."
+msgstr "دقیقاً لومړني {{count}}، د {{profileName}} سره."
+
+msgctxt "wizard.listPrompt.firstLabel"
+msgid "Download the first"
+msgstr "لومړني ډاونلوډ کړئ"
+
+msgctxt "wizard.listPrompt.interactiveHint"
+msgid "Pick from the first {{count}} videos (or change the count on the next step), then set up the download."
+msgstr "له لومړنیو {{count}} ویډیوګانو غوره کړئ (یا په راتلونکي ګام کې شمېر بدل کړئ)، بیا ډاونلوډ تنظیم کړئ."
+
+msgctxt "wizard.listPrompt.interactiveLabel"
+msgid "Interactive download…"
+msgstr "تعاملي ډاونلوډ…"
+
+msgctxt "wizard.listPrompt.limitHint"
+msgid "How many videos to take from the list: the first option asks past it, the second takes exactly that many. The same as Settings › Playlist items to scan."
+msgstr "له لیست څخه څومره ویډیوګانې واخیستل شي: لومړی انتخاب له هغه وروسته پوښتي، دوهم دقیقاً همدومره اخلي. دا د تنظیماتو «د سکین لپاره د Playlist توکي» په څېر دی."
+
+msgctxt "wizard.listPrompt.limitLabel"
+msgid "Limit"
+msgstr "حد"
+
+msgctxt "wizard.listPrompt.mixNote"
+msgid "A Mix changes every time you open it."
+msgstr "Mix هر ځل چې یې پرانیزئ بدلیږي."
+
+msgctxt "wizard.listPrompt.pickLoadAfter"
+msgid "to pick from."
+msgstr "توکي د غوره کولو لپاره بار کړئ."
+
+msgctxt "wizard.listPrompt.pickLoadBefore"
+msgid "Load the first"
+msgstr "لومړني"
+
+msgctxt "wizard.listPrompt.pickLoadNote"
+msgid "You can change it on the next step."
+msgstr "تاسو یې په راتلونکي ګام کې بدلولی شئ."
+
+msgctxt "wizard.listPrompt.pickTitle.album"
+msgid "Pick from this album"
+msgstr "له دې البم څخه غوره کړئ"
+
+msgctxt "wizard.listPrompt.pickTitle.liked"
+msgid "Pick from your liked videos"
+msgstr "ستاسو له خوښې ویډیوګانو غوره کړئ"
+
+msgctxt "wizard.listPrompt.pickTitle.mix"
+msgid "Pick from this Mix"
+msgstr "له دې Mix څخه غوره کړئ"
+
+msgctxt "wizard.listPrompt.pickTitle.playlist"
+msgid "Pick from this playlist"
+msgstr "له دې پلې‌لېست څخه غوره کړئ"
+
+msgctxt "wizard.listPrompt.pickTitle.uploads"
+msgid "Pick from this channel’s uploads"
+msgstr "د دې چینل له پورته شویو ویډیوګانو غوره کړئ"
+
+msgctxt "wizard.listPrompt.pickTitle.watchLater"
+msgid "Pick from Watch later"
+msgstr "له “وروسته کتل” غوره کړئ"
+
+msgctxt "wizard.listPrompt.title.album"
+msgid "Download from this album"
+msgstr "له دې البم څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.title.liked"
+msgid "Download from your liked videos"
+msgstr "ستاسو د خوښې ویډیوګانو څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.title.mix"
+msgid "Download from this Mix"
+msgstr "له دې Mix څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.title.playlist"
+msgid "Download from this playlist"
+msgstr "له دې د غږولو لړليک څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.title.uploads"
+msgid "Download from this channel's uploads"
+msgstr "د دې چینل له پورته شویو ویډیوګانو څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.title.watchLater"
+msgid "Download from Watch later"
+msgstr "له “وروسته کتل” څخه ډاونلوډ"
+
+msgctxt "wizard.listPrompt.videoHint"
+msgid "Only the video you opened, with {{profileName}}. The list isn't loaded."
+msgstr "یوازې هغه ویډیو چې تاسو پرانیسته، د {{profileName}} سره. لیست نه بارېږي."
+
+msgctxt "wizard.listPrompt.videoLabel"
+msgid "Just this video"
+msgstr "یوازې دا ویډیو"
+
+msgctxt "wizard.listPrompt.videoPickHint"
+msgid "Set up only the video you opened. The list isn't loaded."
+msgstr "یوازې هغه ویډیو تنظیم کړئ چې تاسو پرانیسته. لیست نه بارېږي."
+
+msgctxt "wizard.listPrompt.withProfile"
+msgid "With {{profileName}}"
+msgstr "د {{profileName}} سره"
+
+msgctxt "wizard.output.embedChapters.description"
+msgid "Chapter markers navigable in any modern player."
+msgstr "د هر عصري پلیر کې د ناوي وړ فصل نښانکیان."
+
+msgctxt "wizard.output.embedChapters.label"
+msgid "Embed chapters"
+msgstr "فصلونه ځای پر ځای کړه"
+
+msgctxt "wizard.output.embedChapters.short"
+msgid "Chapters"
+msgstr "فصلونه"
+
+msgctxt "wizard.output.embedMetadata.description"
+msgid "Title, artist, description, and upload date written into the file."
+msgstr "سرلیک، هنرمند، توضیحات، او د اپلوډ نیټه فایل کې لیکل کیږي."
+
+msgctxt "wizard.output.embedMetadata.label"
+msgid "Embed metadata"
+msgstr "میټاډیټا ځای پر ځای کړه"
+
+msgctxt "wizard.output.embedMetadata.short"
+msgid "Metadata"
+msgstr "میټاډیټا"
+
+msgctxt "wizard.output.embedThumbnail.description"
+msgid "Cover art inside the file. WebM video will be remuxed to MKV; skipped when subtitles are embedded."
+msgstr "د فایل دننه د پوښ انځور. د WebM ویډیو به MKV ته بیا بسته شي؛ کله چې ژباړلیکونه ځای پر ځای شوي وي، پرېښودل کیږي."
+
+msgctxt "wizard.output.embedThumbnail.label"
+msgid "Embed thumbnail"
+msgstr "تھمبنیل ځای پر ځای کړه"
+
+msgctxt "wizard.output.embedThumbnail.short"
+msgid "Cover art"
+msgstr "د پوښ انځور"
+
+msgctxt "wizard.output.writeDescription.description"
+msgid "Saves the video description as a .description text file next to the download."
+msgstr "د ویډیو توضیح د ډاونلوډ سره یوځای د .description متن فایل بڼه کې خوندي کوي."
+
+msgctxt "wizard.output.writeDescription.label"
+msgid "Save description"
+msgstr "توضیح خوندي کړه"
+
+msgctxt "wizard.output.writeDescription.short"
+msgid "Description file"
+msgstr "د توضیح فایل"
+
+msgctxt "wizard.output.writeM3u.description"
+msgid "Save an .m3u playlist alongside the videos so they open in order in your media player."
+msgstr "د ویډیوګانو ترڅنګ .m3u پلی‌لېسټ ساتي چې په میډیا پلیر کې په ترتیب خلاص شي."
+
+msgctxt "wizard.output.writeM3u.label"
+msgid "Generate .m3u playlist file"
+msgstr "د .m3u پلی‌لېسټ فایل جوړول"
+
+msgctxt "wizard.output.writeThumbnail.description"
+msgid "Saves the thumbnail as a .jpg image file next to the download."
+msgstr "تھمبنیل د ډاونلوډ سره یوځای د .jpg انځور فایل بڼه کې خوندي کوي."
+
+msgctxt "wizard.output.writeThumbnail.label"
+msgid "Save thumbnail"
+msgstr "تھمبنیل خوندي کړه"
+
+msgctxt "wizard.output.writeThumbnail.short"
+msgid "Thumbnail file"
+msgstr "د تھمبنیل فایل"
+
+msgctxt "wizard.part.calloutBody"
+msgid "Switch to Part on the video card to pick a start and end, or a chapter, and download only that stretch."
+msgstr "د ویډیو په کارت کې «برخه» ته واړوئ، پیل او پای یا یو څپرکی وټاکئ، او یوازې همدا برخه ډاونلوډ کړئ."
+
+msgctxt "wizard.part.calloutTitle"
+msgid "Download just part of a video"
+msgstr "د ویډیو یوازې یوه برخه ډاونلوډ کړئ"
+
+msgctxt "wizard.part.chapters"
+msgid "Chapters"
+msgstr "فصلونه"
+
+msgctxt "wizard.part.chapterUntitled"
+msgid "Chapter {{number}}"
+msgstr "فصل {{number}}"
+
+msgctxt "wizard.part.connectionsNote"
+msgid "A part downloads through ffmpeg, so your download connections and pacing settings don't apply to it."
+msgstr "یوه برخه د ffmpeg له لارې ډاونلوډېږي، نو ستاسو د ډاونلوډ ارتباطات او د سرعت تنظیمات پرې نه تطبیقېږي."
+
+msgctxt "wizard.part.downloadBlocked"
+msgid "Fix the start and end of the part first."
+msgstr "لومړی د برخې پیل او پای سم کړئ."
+
+msgctxt "wizard.part.end"
+msgid "End"
+msgstr "پای"
+
+msgctxt "wizard.part.error.endBeyondDuration"
+msgid "The video ends at {{duration}}."
+msgstr "ویډیو په {{duration}} کې پای ته رسېږي."
+
+msgctxt "wizard.part.error.endInvalid"
+msgid "Enter the end as h:mm:ss, m:ss or seconds."
+msgstr "پای د h:mm:ss، m:ss یا ثانیو په بڼه ولیکئ."
+
+msgctxt "wizard.part.error.startInvalid"
+msgid "Enter the start as h:mm:ss, m:ss or seconds."
+msgstr "پیل د h:mm:ss، m:ss یا ثانیو په بڼه ولیکئ."
+
+msgctxt "wizard.part.error.startNotBeforeEnd"
+msgid "The start must come before the end."
+msgstr "پیل باید له پای مخکې وي."
+
+msgctxt "wizard.part.exactCut.hint"
+msgid "Off: each cut lands on the nearest keyframe, which can be a few seconds from the time you typed."
+msgstr "بند: هر پرې کول نږدې کیفریم ته رسېږي، چې ممکن له هغه وخت څخه څو ثانیې لرې وي چې تاسو لیکلی."
+
+msgctxt "wizard.part.exactCut.label"
+msgid "Exact cut (re-encodes, slower)"
+msgstr "دقیق پرې کول (بیا کوډ کوي، ورو)"
+
+msgctxt "wizard.part.length"
+msgid "{{length}} of {{duration}}"
+msgstr "{{length}} له {{duration}} څخه"
+
+msgctxt "wizard.part.part"
+msgid "Part"
+msgstr "برخه"
+
+msgctxt "wizard.part.rangeLabel"
+msgid "Part of the video"
+msgstr "د ویډیو برخه"
+
+msgctxt "wizard.part.start"
+msgid "Start"
+msgstr "پیل"
+
+msgctxt "wizard.part.subtitlesFullLength"
+msgid "whole video"
+msgstr "ټوله ویډیو"
+
+msgctxt "wizard.part.summary"
+msgid "Part {{start}}–{{end}}"
+msgstr "برخه {{start}}–{{end}}"
+
+msgctxt "wizard.part.switchLabel"
+msgid "How much of the video"
+msgstr "د ویډیو څومره برخه"
+
+msgctxt "wizard.part.timeHint"
+msgid "h:mm:ss, m:ss or seconds"
+msgstr "h:mm:ss، m:ss یا ثانیې"
+
+msgctxt "wizard.part.totalEstimate"
+msgid "Part, estimated"
+msgstr "برخه، اټکل شوی"
+
+msgctxt "wizard.part.unavailableDuration"
+msgid "This video doesn't report its length, so it can only be downloaded whole."
+msgstr "دا ویډیو خپل اوږدوالی نه راپور کوي، نو یوازې ټوله ډاونلوډ کېدی شي."
+
+msgctxt "wizard.part.unavailableSubtitles"
+msgid "Subtitles always cover the whole video."
+msgstr "ژباړلیکونه تل ټوله ویډیو پوښي."
+
+msgctxt "wizard.part.urlStart"
+msgid "Your link starts at {{time}}"
+msgstr "ستاسو لینک په {{time}} پیلېږي"
+
+msgctxt "wizard.part.useUrlStart"
+msgid "Use as start"
+msgstr "د پیل په توګه یې وکاروه"
+
+msgctxt "wizard.part.whole"
+msgid "Whole video"
+msgstr "ټوله ویډیو"
+
+msgctxt "wizard.part.wholeTrack"
+msgid "Whole track"
+msgstr "ټول ټریک"
+
+msgctxt "wizard.playlist.allRemovedDescription"
+msgid "Restore them to continue."
+msgstr "د دوام لپاره یې بیرته راولئ."
+
+msgctxt "wizard.playlist.allRemovedTitle"
+msgid "Every item was removed"
+msgstr "ټول توکي لرې شوي"
+
+msgctxt "wizard.playlist.alreadyDownloaded"
+msgid "Already downloaded"
+msgstr "مخکې ډاونلوډ شوی"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedDesc_one"
+msgid "It has more. To choose how many, paste its link on its own."
+msgstr "نور هم لري. د شمېر ټاکلو لپاره یې لینک جلا پیسټ کړئ."
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedDesc_other"
+msgid "They have more. To choose how many, paste each link on its own."
+msgstr "نور هم لري. د شمېر ټاکلو لپاره د هر یو لینک جلا پیسټ کړئ."
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.bulkCappedTitle_one"
+msgid "“{{title}}” is cut at {{limit}} videos"
+msgstr "“{{title}}” په {{limit}} ویډیوګانو پرې شوی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.bulkCappedTitle_other"
+msgid "{{count}} lists are cut at {{limit}} videos each"
+msgstr "{{count}} لیستونه هر یو په {{limit}} ویډیوګانو پرې شوي"
+
+msgctxt "wizard.playlist.bulkHeading"
+msgid "Bulk URLs"
+msgstr "ډېر URLونه"
+
+msgctxt "wizard.playlist.bulkMetadataOptional"
+msgid "No need to wait — files queued now still get their real names when they download."
+msgstr "انتظار ته اړتیا نشته — هغه فایلونه چې اوس کتار ته اچوئ، د ښکته کولو پر مهال به خپل اصلي نومونه ترلاسه کړي."
+
+msgctxt "wizard.playlist.bulkMetadataResolving"
+msgid "Fetching video details… {{done}}/{{total}}"
+msgstr "د ویډیو جزییات راوړل کېږي… {{done}}/{{total}}"
+
+msgctxt "wizard.playlist.bulkRowFailed"
+msgid "Details unavailable"
+msgstr "جزییات نشته"
+
+msgctxt "wizard.playlist.bulkRowResolving"
+msgid "Fetching details"
+msgstr "جزییات راوړل کېږي"
+
+msgctxt "wizard.playlist.bulkRowWaiting"
+msgid "Waiting"
+msgstr "انتظار"
+
+msgctxt "wizard.playlist.durationUnknown"
+msgid "live"
+msgstr "ژوندی"
+
+msgctxt "wizard.playlist.heading"
+msgid "Playlist items"
+msgstr "د Playlist توکي"
+
+msgctxt "wizard.playlist.headingGeneric"
+msgid "Videos to download"
+msgstr "د ډاونلوډ لپاره ویډیوګانې"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.itemCount_one"
+msgid "{{count}} video"
+msgstr "{{count}} ویډیو"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCount_other"
+msgid "{{count}} videos"
+msgstr "{{count}} ویډیوګانې"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.itemCountAudio_one"
+msgid "{{count}} track"
+msgstr "{{count}} ټریک"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountAudio_other"
+msgid "{{count}} tracks"
+msgstr "{{count}} ټریکونه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.itemCountBulk_one"
+msgid "{{count}} URL"
+msgstr "{{count}} لینک"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.itemCountBulk_other"
+msgid "{{count}} URLs"
+msgstr "{{count}} URLونه"
+
+msgctxt "wizard.playlist.loadingItems"
+msgid "Fetching playlist…"
+msgstr "Playlist ترلاسه کیږي…"
+
+msgctxt "wizard.playlist.loadingItemsGeneric"
+msgid "Fetching videos…"
+msgstr "ویډیوګانې راوړل کېږي…"
+
+msgctxt "wizard.playlist.loadingLimitHint"
+msgid "Limited to first {{count}} items"
+msgstr "یوازې لومړیو {{count}} توکو ته محدود"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.loadingPagesFound_one"
+msgid "{{count}} page found"
+msgstr "{{count}} پاڼه وموندل شوه"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.loadingPagesFound_other"
+msgid "{{count}} pages found"
+msgstr "{{count}} پاڼې وموندل شوې"
+
+msgctxt "wizard.playlist.loadingPhaseItems"
+msgid "Collecting videos"
+msgstr "ویډیوګانې راټولېږي"
+
+msgctxt "wizard.playlist.loadingPhasePages"
+msgid "Scanning channel pages"
+msgstr "د چینل پاڼې کتل کېږي"
+
+msgctxt "wizard.playlist.multiProfileEntry"
+msgid "Assign profiles per item"
+msgstr "د هرې توکي لپاره پروفایلونه وټاکئ"
+
+msgctxt "wizard.playlist.multiProfileEntryTooltip"
+msgid "Skips Quality, SponsorBlock, Output, and Save — assign a download profile per item instead"
+msgstr "کیفیت, SponsorBlock, محصول، او خوندي کول پریږدي — پرځای یې د هرې توکي لپاره د ډاونلوډ پروفایل وټاکئ"
+
+msgctxt "wizard.playlist.nestedPlaylistBadge"
+msgid "Playlist"
+msgstr "د غږولو لړليک"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.nestedPlaylistHint_one"
+msgid "{{count}} of these is a playlist, not a video — paste its link on its own to download it."
+msgstr "له دې څخه {{count}} د غږولو لړليک دی، ویډیو نه — د ښکته کولو لپاره یې لینک په جلا توګه پیسټ کړئ."
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.nestedPlaylistHint_other"
+msgid "{{count}} of these are playlists, not videos — paste their links one at a time to download them."
+msgstr "له دې څخه {{count}} د غږولو لړليکونه دي، ویډیوګانې نه — د ښکته کولو لپاره یې لینکونه یو په یو پیسټ کړئ."
+
+msgctxt "wizard.playlist.noSelection"
+msgid "Select at least one video to continue"
+msgstr "دوام کولو لپاره لږترلږه یو ویډیو غوره کړئ"
+
+msgctxt "wizard.playlist.probeLimitAlertDesc"
+msgid "Showing first {{count}} items. Increase the load limit to see more."
+msgstr "Klip له {{count}} څخه زیات توکي وموندل، نو اوسنی سکین حد پاتې توکي پټوي."
+
+msgctxt "wizard.playlist.probeLimitAlertTitle"
+msgid "Playlist scan is capped"
+msgstr "د Playlist سکین محدود دی"
+
+msgctxt "wizard.playlist.probeLimitAlertTitleGeneric"
+msgid "Scan is capped"
+msgstr "سکن محدود دی"
+
+msgctxt "wizard.playlist.rangeApply"
+msgid "Apply range"
+msgstr "سلسله پلي کړئ"
+
+msgctxt "wizard.playlist.rangeFrom"
+msgid "From"
+msgstr "له"
+
+msgctxt "wizard.playlist.rangeTo"
+msgid "To"
+msgstr "تر"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.removedCount_one"
+msgid "{{count}} removed"
+msgstr "{{count}} لرې شوي"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removedCount_other"
+msgid "{{count}} removed"
+msgstr "{{count}} لرې شوي"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.removeFromListCount_one"
+msgid "Remove {{count}} from list"
+msgstr "{{count}} له لیستې لیرې کړئ"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.removeFromListCount_other"
+msgid "Remove {{count}} from list"
+msgstr "{{count}} له لیستې لیرې کړئ"
+
+msgctxt "wizard.playlist.restore"
+msgid "Restore"
+msgstr "بیرته راوستل"
+
+msgctxt "wizard.playlist.selectAll"
+msgid "Select all"
+msgstr "ټول غوره کړئ"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlist.selectedCount_one"
+msgid "{{count}} selected"
+msgstr "{{count}} غوره شوی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlist.selectedCount_other"
+msgid "{{count}} selected"
+msgstr "{{count}} غوره شوي"
+
+msgctxt "wizard.playlist.selectNone"
+msgid "Select none"
+msgstr "هیڅ غوره مه کوئ"
+
+msgctxt "wizard.playlist.sortApi"
+msgid "Playlist order"
+msgstr "د غږولو لړليک ترتیب"
+
+msgctxt "wizard.playlist.sortFetchingDates"
+msgid "Fetching upload dates…"
+msgstr "د اپلوډ نېټې ترلاسه کیږي…"
+
+msgctxt "wizard.playlist.sortLabel"
+msgid "Sort"
+msgstr "ترتیب"
+
+msgctxt "wizard.playlist.sortUploadAsc"
+msgid "Oldest first"
+msgstr "تر ټولو زاړه لومړی"
+
+msgctxt "wizard.playlist.sortUploadDesc"
+msgid "Newest first"
+msgstr "تر ټولو نوي لومړی"
+
+msgctxt "wizard.playlist.syncApply"
+msgid "Apply sync"
+msgstr "همغږي پلي کړه"
+
+msgctxt "wizard.playlist.syncChange"
+msgid "Change folder…"
+msgstr "فولډر بدل کړه…"
+
+msgctxt "wizard.playlist.syncFoundDesc"
+msgid "{{n}} of these videos are already in {{dir}}. Sync to download only the new ones?"
+msgstr "له دې ویډیوګانو څخه {{n}} مخکې په {{dir}} کې شته. یوازې نوي ډاونلوډولو لپاره همغږي کوې؟"
+
+msgctxt "wizard.playlist.syncFoundTitle"
+msgid "Already in folder"
+msgstr "مخکې په فولډر کې شته"
+
+msgctxt "wizard.playlist.syncNoneDesc"
+msgid "No videos from this playlist were found in {{dir}}."
+msgstr "د دې پلی‌لېست هېڅ ویډیو په {{dir}} کې ونه موندل شوه."
+
+msgctxt "wizard.playlist.syncNoneDescGeneric"
+msgid "No videos from this source were found in {{dir}}."
+msgstr "په {{dir}} کې له دې سرچینې څخه ویډیوګانې ونه موندل شوې."
+
+msgctxt "wizard.playlist.syncNoneTitle"
+msgid "Nothing downloaded yet"
+msgstr "تر اوسه هېڅ نه دي ډاونلوډ شوي"
+
+msgctxt "wizard.playlist.syncScanning"
+msgid "Checking folder…"
+msgstr "فولډر کتل کېږي…"
+
+msgctxt "wizard.playlist.thumbnailAlt"
+msgid "Video thumbnail"
+msgstr "د ویډیو تھمبنیل"
+
+msgctxt "wizard.playlistPresets.heading"
+msgid "Pick quality for the batch"
+msgstr "د بیچ لپاره کیفیت وټاکئ"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlistPresets.itemCount_one"
+msgid "{{count}} item"
+msgstr "{{count}} توکی"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistPresets.itemCount_other"
+msgid "{{count}} items"
+msgstr "{{count}} توکي"
+
+msgctxt "wizard.playlistPresets.subhead"
+msgid "Each video resolves the chosen tier independently — heterogeneous playlists work without surprises."
+msgstr "هر ویډیو خپلواکه د غوره شوي کچې سره حل کوي — مخلوط Playlist ونه بیا پرته له مشکل کار کوي."
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlistProfiles.assignTrigger_one"
+msgid "Assign to {{count}} video"
+msgstr "{{count}} ویډیو ته وټاکئ"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.assignTrigger_other"
+msgid "Assign to {{count}} videos"
+msgstr "{{count}} ویډیوګانو ته وټاکئ"
+
+msgctxt "wizard.playlistProfiles.assignTriggerEmpty"
+msgid "Assign profile"
+msgstr "پروفایل وټاکئ"
+
+msgctxt "wizard.playlistProfiles.columnDuration"
+msgid "Duration"
+msgstr "موده"
+
+msgctxt "wizard.playlistProfiles.columnProfile"
+msgid "Profile"
+msgstr "پروفایل"
+
+msgctxt "wizard.playlistProfiles.editProfile"
+msgid "Edit {{name}}"
+msgstr "{{name}} سمول"
+
+msgctxt "wizard.playlistProfiles.empty"
+msgid "No items match this filter"
+msgstr "هیڅ توکی له دې فلټر سره سمون نه خوري"
+
+msgctxt "wizard.playlistProfiles.filterChip"
+msgid "{{name}} · {{count}}"
+msgstr "{{name}} · {{count}}"
+
+msgctxt "wizard.playlistProfiles.filtersLabel"
+msgid "Profile filters"
+msgstr "د پروفایل فلټرونه"
+
+msgctxt "wizard.playlistProfiles.heading"
+msgid "Assign download profiles"
+msgstr "د ډاونلوډ پروفایلونه وټاکئ"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.playlistProfiles.menuDescription_one"
+msgid "Pick the profile for this video."
+msgstr "د دې ویډیو لپاره پروفایل غوره کړئ."
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.playlistProfiles.menuDescription_other"
+msgid "Pick the profile for these {{count}} videos."
+msgstr "د دې {{count}} ویډیوګانو لپاره پروفایل غوره کړئ."
+
+msgctxt "wizard.playlistProfiles.selectedSummary"
+msgid "{{selected}} of {{total}} selected"
+msgstr "{{selected}} د {{total}} څخه غوره شوي"
+
+msgctxt "wizard.profileEditor.action.changeGlobalShort"
+msgid "Change global"
+msgstr "ټولیز بدلول"
+
+msgctxt "wizard.profileEditor.action.chooseFolder"
+msgid "Choose destination folder"
+msgstr "د موخې پوښۍ وټاکئ"
+
+msgctxt "wizard.profileEditor.action.chooseIcon"
+msgid "Choose profile icon"
+msgstr "د پروفایل نښه وټاکئ"
+
+msgctxt "wizard.profileEditor.action.removeLanguage"
+msgid "Remove {{code}}"
+msgstr "{{code}} لرې کړئ"
+
+msgctxt "wizard.profileEditor.action.reset"
+msgid "Reset profile"
+msgstr "پروفایل بیا تنظیمول"
+
+msgctxt "wizard.profileEditor.action.resetDisabledHint"
+msgid "This profile already uses built-in settings"
+msgstr "دا پروفایل دمخه دننه جوړې ترتیبات کاروي"
+
+msgctxt "wizard.profileEditor.action.resetHint"
+msgid "Restore the built-in profile settings"
+msgstr "د پروفایل دننه جوړې ترتیبات بیرته راوګرځوئ"
+
+msgctxt "wizard.profileEditor.action.save"
+msgid "Save profile"
+msgstr "پروفایل خوندي کول"
+
+msgctxt "wizard.profileEditor.action.setOverride"
+msgid "Set profile override"
+msgstr "د پروفایل بدیل وټاکئ"
+
+msgctxt "wizard.profileEditor.action.setOverrideShort"
+msgid "Set override"
+msgstr "بدیل وټاکئ"
+
+msgctxt "wizard.profileEditor.action.useGlobalDefault"
+msgid "Use global default"
+msgstr "ټولیزه اصلي ارزښت وکاروئ"
+
+msgctxt "wizard.profileEditor.action.useLanguageCode"
+msgid "Use language code “{{code}}”"
+msgstr "د ژبې کوډ “{{code}}” وکاروئ"
+
+msgctxt "wizard.profileEditor.advanced"
+msgid "Advanced"
+msgstr "پرمختللي"
+
+msgctxt "wizard.profileEditor.appSetting"
+msgid "Use app setting ({{value}})"
+msgstr "د اپ امستنه وکاروئ ({{value}})"
+
+msgctxt "wizard.profileEditor.audioFormat.best"
+msgid "Best"
+msgstr "غوره"
+
+msgctxt "wizard.profileEditor.audioFormat.wav"
+msgid "WAV"
+msgstr "WAV"
+
+msgctxt "wizard.profileEditor.audioQuality.128"
+msgid "Up to 128K"
+msgstr "تر ۱۲۸K پورې"
+
+msgctxt "wizard.profileEditor.audioQuality.192"
+msgid "Up to 192K"
+msgstr "تر ۱۹۲K پورې"
+
+msgctxt "wizard.profileEditor.audioQuality.320"
+msgid "Up to 320K"
+msgstr "تر ۳۲۰K پورې"
+
+msgctxt "wizard.profileEditor.audioQuality.best"
+msgid "Best quality"
+msgstr "غوره کیفیت"
+
+msgctxt "wizard.profileEditor.defaultName"
+msgid "New profile"
+msgstr "نوی پروفایل"
+
+msgctxt "wizard.profileEditor.destination.defaultFolder"
+msgid "Default downloads folder"
+msgstr "د ډاونلوډ اصلي پوښۍ"
+
+msgctxt "wizard.profileEditor.destination.defaultFolderWithSubfolder"
+msgid "Default downloads folder / {{subfolder}}"
+msgstr "د ډاونلوډ اصلي پوښۍ / {{subfolder}}"
+
+msgctxt "wizard.profileEditor.destination.global"
+msgid "Global destination"
+msgstr "ټولیزه موخه"
+
+msgctxt "wizard.profileEditor.destination.globalActive"
+msgid "Active"
+msgstr "فعاله"
+
+msgctxt "wizard.profileEditor.destination.globalInherited"
+msgid "Inherited"
+msgstr "میراثي"
+
+msgctxt "wizard.profileEditor.destination.override"
+msgid "Profile override"
+msgstr "د پروفایل بدیل"
+
+msgctxt "wizard.profileEditor.destination.overrideChoosing"
+msgid "Choose folder"
+msgstr "پوښۍ وټاکئ"
+
+msgctxt "wizard.profileEditor.destination.overrideNone"
+msgid "No override set"
+msgstr "هېڅ بدیل نه دی ټاکل شوی"
+
+msgctxt "wizard.profileEditor.destination.overrideNoneNote"
+msgid "No override set. This profile uses the global destination above."
+msgstr "هېڅ بدیل نه دی ټاکل شوی. دا پروفایل پورتنۍ ټولیزه موخه کاروي."
+
+msgctxt "wizard.profileEditor.destination.overrideSet"
+msgid "Overrides global"
+msgstr "ټولیز بدلوي"
+
+msgctxt "wizard.profileEditor.destination.overrideSetNote"
+msgid "This profile saves to its own root before the subfolder is added."
+msgstr "دا پروفایل د فرعي پوښۍ له اضافه کېدو مخکې خپلې ریښې پوښۍ ته ساتي."
+
+msgctxt "wizard.profileEditor.destination.resolved"
+msgid "Resolved destination"
+msgstr "وروستۍ موخه"
+
+msgctxt "wizard.profileEditor.dialogDescription"
+msgid "One reusable setup for Quick Download, Bulk URLs, and playlists."
+msgstr "د چټک ښکته کولو، ډله ییزو پتو او لړونو لپاره یو بیا کارېدونکی تنظیم."
+
+msgctxt "wizard.profileEditor.dialogTitle"
+msgid "Download Profile"
+msgstr "د ښکته کولو پروفایل"
+
+msgctxt "wizard.profileEditor.error.changeGlobalDestination"
+msgid "Could not change global destination."
+msgstr "ټولیزه موخه بدله نه شوه."
+
+msgctxt "wizard.profileEditor.error.folderPicker"
+msgid "Could not open folder picker. Enter a path manually."
+msgstr "د پوښۍ ټاکونکی نه شو پرانیستل کېدی. لاره په لاس ولیکئ."
+
+msgctxt "wizard.profileEditor.error.reset"
+msgid "Could not reset profile settings."
+msgstr "د پروفایل تنظیمات بیا تنظیم نه شول."
+
+msgctxt "wizard.profileEditor.error.save"
+msgid "Could not save profile settings."
+msgstr "د پروفایل تنظیمات خوندي نه شول."
+
+msgctxt "wizard.profileEditor.field.delivery"
+msgid "Delivery"
+msgstr "د خوندي کولو لاره"
+
+msgctxt "wizard.profileEditor.field.fileType"
+msgid "File type"
+msgstr "د فایل ډول"
+
+msgctxt "wizard.profileEditor.field.goal"
+msgid "Optimize for"
+msgstr "لومړیتوب"
+
+msgctxt "wizard.profileEditor.field.icon"
+msgid "Profile icon"
+msgstr "د پروفایل نښه"
+
+msgctxt "wizard.profileEditor.field.languages"
+msgid "Languages"
+msgstr "ژبې"
+
+msgctxt "wizard.profileEditor.field.name"
+msgid "Profile name"
+msgstr "د پروفایل نوم"
+
+msgctxt "wizard.profileEditor.field.nameAndIcon"
+msgid "Profile name and icon"
+msgstr "د پروفایل نوم او نښه"
+
+msgctxt "wizard.profileEditor.field.nativeAudio"
+msgid "Native audio"
+msgstr "اصلي آډیو"
+
+msgctxt "wizard.profileEditor.field.overridePath"
+msgid "Profile override path"
+msgstr "د پروفایل د بدیل لاره"
+
+msgctxt "wizard.profileEditor.field.quality"
+msgid "Quality"
+msgstr "کیفیت"
+
+msgctxt "wizard.profileEditor.field.resolution"
+msgid "Resolution"
+msgstr "ریزولوشن"
+
+msgctxt "wizard.profileEditor.field.source"
+msgid "Source"
+msgstr "سرچینه"
+
+msgctxt "wizard.profileEditor.field.subfolderName"
+msgid "Subfolder name"
+msgstr "د فرعي پوښۍ نوم"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloads"
+msgid "Subtitle downloads"
+msgstr "د سرلیکونو ښکته کول"
+
+msgctxt "wizard.profileEditor.field.subtitleDownloadsDescription"
+msgid "Profiles request language codes; availability is resolved for each URL."
+msgstr "پروفایلونه د ژبې کوډونه غواړي؛ شتون یې د هر URL لپاره جلا ټاکل کېږي."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.description"
+msgid "Sharpest at a given size. Older TVs, QuickTime and some editors can't play it."
+msgstr "په ورته اندازه تر ټولو روښانه. زاړه تلویزیونونه، QuickTime او ځینې اډیټرونه یې نشي چلولی."
+
+msgctxt "wizard.profileEditor.goal.bestPicture.name"
+msgid "Best picture"
+msgstr "غوره انځور"
+
+msgctxt "wizard.profileEditor.goal.bestPicture.tag"
+msgid "AV1 · VP9"
+msgstr "AV1 · VP9"
+
+msgctxt "wizard.profileEditor.goal.smartTv.description"
+msgid "Plays on TVs, phones, WhatsApp, QuickTime and video editors. YouTube offers H.264 only up to 1080p."
+msgstr "په تلویزیونونو، تلیفونونو، WhatsApp، QuickTime او ویډیو اډیټرونو کې چلیږي. YouTube یوازې تر 1080p پورې H.264 وړاندې کوي."
+
+msgctxt "wizard.profileEditor.goal.smartTv.name"
+msgid "Smart TV"
+msgstr "سمارټ TV"
+
+msgctxt "wizard.profileEditor.goal.smartTv.tag"
+msgid "MP4 · H.264"
+msgstr "MP4 · H.264"
+
+msgctxt "wizard.profileEditor.icon.archive"
+msgid "Archive"
+msgstr "آرشیف"
+
+msgctxt "wizard.profileEditor.icon.audio"
+msgid "Audio"
+msgstr "غږ"
+
+msgctxt "wizard.profileEditor.icon.captions"
+msgid "Captions"
+msgstr "سرلیکونه"
+
+msgctxt "wizard.profileEditor.icon.classes"
+msgid "Classes"
+msgstr "ټولګي"
+
+msgctxt "wizard.profileEditor.icon.clip"
+msgid "Clip"
+msgstr "ټوټه"
+
+msgctxt "wizard.profileEditor.icon.controls"
+msgid "Controls"
+msgstr "کنټرولونه"
+
+msgctxt "wizard.profileEditor.icon.download"
+msgid "Download"
+msgstr "ښکته کول"
+
+msgctxt "wizard.profileEditor.icon.music"
+msgid "Music"
+msgstr "موسیقي"
+
+msgctxt "wizard.profileEditor.icon.podcast"
+msgid "Podcast"
+msgstr "پډکاست"
+
+msgctxt "wizard.profileEditor.icon.video"
+msgid "Video"
+msgstr "ویډیو"
+
+msgctxt "wizard.profileEditor.mediaMode.audioOnly.description"
+msgid "Music or podcasts"
+msgstr "موسیقي یا پډکاست"
+
+msgctxt "wizard.profileEditor.mediaMode.subtitlesOnly.description"
+msgid "Caption files only"
+msgstr "یوازې د سرلیکونو دوتنې"
+
+msgctxt "wizard.profileEditor.mediaMode.videoAudio.description"
+msgid "Normal video files"
+msgstr "عادي ویډیو دوتنې"
+
+msgctxt "wizard.profileEditor.mediaMode.videoOnly.description"
+msgid "Silent video only"
+msgstr "یوازې بې غږه ویډیو"
+
+msgctxt "wizard.profileEditor.note.autoCaptionsSrt"
+msgid "Auto-captions will be saved as SRT instead of ASS."
+msgstr "خودکار سرلیکونه به د ASS پر ځای د SRT په توګه خوندي شي."
+
+msgctxt "wizard.profileEditor.note.noLanguageMatches"
+msgid "No matching languages"
+msgstr "هېڅ سمون لرونکې ژبه نشته"
+
+msgctxt "wizard.profileEditor.note.noSubtitles"
+msgid "No subtitle files or embedded subtitle tracks will be requested for this profile."
+msgstr "د دې پروفایل لپاره به نه د سرلیکونو دوتنې او نه ځای پر ځای شوي سرلیک لارې وغوښتل شي."
+
+msgctxt "wizard.profileEditor.note.searchLanguages"
+msgid "Search by language name or code"
+msgstr "د ژبې د نوم یا کوډ له مخې ولټوئ"
+
+msgctxt "wizard.profileEditor.note.skippedForOutputType"
+msgid "Skipped for this output type."
+msgstr "د دې وتنې ډول لپاره پرېښودل شوی."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequired"
+msgid "Choose at least one language."
+msgstr "لږ تر لږه یوه ژبه غوره کړئ."
+
+msgctxt "wizard.profileEditor.note.subtitleLanguagesRequiredOrOff"
+msgid "Choose at least one language, or turn subtitle downloads off."
+msgstr "لږ تر لږه یوه ژبه غوره کړئ، یا د سرلیکونو ښکته کول بند کړئ."
+
+msgctxt "wizard.profileEditor.note.subtitlesOnly"
+msgid "This profile queues subtitle files only. Video, audio, SponsorBlock, and media conversion are skipped."
+msgstr "دا پروفایل یوازې د سرلیکونو دوتنې په کتار کې اچوي. ویډیو، غږ، SponsorBlock او د رسنیو اړول پرېښودل کېږي."
+
+msgctxt "wizard.profileEditor.panel.advanced.description"
+msgid "Profiles inherit the global destination unless you set a profile override."
+msgstr "پروفایلونه ټولیزه موخه په میراث وړي، پرته له دې چې تاسو د پروفایل بدیل وټاکئ."
+
+msgctxt "wizard.profileEditor.panel.advanced.title"
+msgid "Advanced options"
+msgstr "پرمختللي انتخابونه"
+
+msgctxt "wizard.profileEditor.panel.downloadType.description"
+msgid "Choose the primary way you want to download."
+msgstr "وټاکئ چې تاسو په اصل کې څنګه ښکته کول غواړئ."
+
+msgctxt "wizard.profileEditor.panel.downloadType.title"
+msgid "Download type"
+msgstr "د ښکته کولو ډول"
+
+msgctxt "wizard.profileEditor.panel.identity.description"
+msgid "Name and icon shown in Quick Download, Bulk URLs, and profile lists."
+msgstr "هغه نوم او نښه چې په چټک ښکته کولو، ډله ییزو پتو او د پروفایلونو لیستونو کې ښکاري."
+
+msgctxt "wizard.profileEditor.panel.identity.title"
+msgid "Profile identity"
+msgstr "د پروفایل پېژندنه"
+
+#. Plural form "one" for ps: used for counts like 1.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_one"
+msgid "{{count}} enabled"
+msgstr "{{count}} فعال"
+
+#. Plural form "other" for ps: used for counts like 0, 2, 3, 4, 5, 6.
+msgctxt "wizard.profileEditor.panel.output.enabledCount_other"
+msgid "{{count}} enabled"
+msgstr "{{count}} فعال"
+
+msgctxt "wizard.profileEditor.panel.output.title"
+msgid "Output options"
+msgstr "د وتنې انتخابونه"
+
+msgctxt "wizard.profileEditor.panel.sponsorBlock.title"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.profileEditor.placeholder.folder"
+msgid "Choose a folder for this profile"
+msgstr "د دې پروفایل لپاره یوه پوښۍ وټاکئ"
+
+msgctxt "wizard.profileEditor.skipped"
+msgid "Skipped"
+msgstr "پرېښودل شوی"
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "سپانسر برخې د څپرکو په توګه په نښه کوي (دوتنه نه بدلوي)."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock نشته — ویډیو لکه څنګه چې پورته شوې همداسې غږېږي."
+
+msgctxt "wizard.profileEditor.sponsorBlockHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "د FFmpeg په مرسته سپانسر برخې له ویډیو څخه پرې کوي."
+
+msgctxt "wizard.profileEditor.subtitleFormat.ass"
+msgid "ASS"
+msgstr "ASS"
+
+msgctxt "wizard.profileEditor.subtitleFormat.srt"
+msgid "SRT"
+msgstr "SRT"
+
+msgctxt "wizard.profileEditor.subtitleFormat.vtt"
+msgid "VTT"
+msgstr "VTT"
+
+msgctxt "wizard.profileEditor.subtitleSource.autoOnly"
+msgid "Auto-generated only"
+msgstr "یوازې په خودکار ډول جوړ شوي"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualAndAuto"
+msgid "Manual and auto"
+msgstr "لاسي او خودکار"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualFirst"
+msgid "Manual first, then auto"
+msgstr "لومړی لاسي، بیا خودکار"
+
+msgctxt "wizard.profileEditor.subtitleSource.manualOnly"
+msgid "Manual only"
+msgstr "یوازې لاسي"
+
+msgctxt "wizard.profileSwitchRow.helpAria"
+msgid "{{label}} help"
+msgstr "{{label}} مرسته"
+
+msgctxt "wizard.review.areas.extras"
+msgid "extras"
+msgstr "اضافي"
+
+msgctxt "wizard.review.areas.fileName"
+msgid "file name"
+msgstr "د دوتنې نوم"
+
+msgctxt "wizard.review.areas.format"
+msgid "format"
+msgstr "بڼه"
+
+msgctxt "wizard.review.areas.saveTo"
+msgid "folder"
+msgstr "پوښۍ"
+
+msgctxt "wizard.review.areas.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.areas.subtitles"
+msgid "subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "wizard.review.callout.body"
+msgid "Subtitles, SponsorBlock, extras like the thumbnail, folder and file name used to be separate steps. Click a row to change it."
+msgstr "ژباړلیکونه، SponsorBlock، اضافي توکي لکه وړه انځور، پوښۍ او د دوتنې نوم پخوا جلا ګامونه وو. د بدلولو لپاره پر یوې کرښې کلیک وکړئ."
+
+msgctxt "wizard.review.callout.title"
+msgid "All the other settings are on this page now"
+msgstr "نور ټول تنظیمات اوس په همدې پاڼه کې دي"
+
+msgctxt "wizard.review.changed"
+msgid "Changed from {{profile}}: {{areas}}. Applies to this download only."
+msgstr "له {{profile}} څخه بدل شو: {{areas}}. یوازې پر دې ښکته کولو پلي کیږي."
+
+msgctxt "wizard.review.changedFrom"
+msgid "Changed from {{profile}}:"
+msgstr "له {{profile}} څخه بدل شو:"
+
+msgctxt "wizard.review.changeFormat"
+msgid "Change format"
+msgstr "بڼه بدله کړئ"
+
+msgctxt "wizard.review.nextTime.action"
+msgid "Save as profile"
+msgstr "د پروفایل په توګه خوندي کړئ"
+
+msgctxt "wizard.review.nextTime.defaultName"
+msgid "{{profile}} (edited)"
+msgstr "{{profile}} (ایډیټ شوی)"
+
+msgctxt "wizard.review.nextTime.title"
+msgid "This download used edited settings. Use them next time?"
+msgstr "دې ښکته کولو ایډیټ شوي تنظیمات کارول. بل ځل یې وکاروئ؟"
+
+msgctxt "wizard.review.reset"
+msgid "Undo changes, back to “{{profile}}”"
+msgstr "بدلونونه بېرته راګرځول، “{{profile}}” ته ستنېدل"
+
+msgctxt "wizard.review.rows.extras"
+msgid "Extras"
+msgstr "اضافي"
+
+msgctxt "wizard.review.rows.fileName"
+msgid "File name"
+msgstr "د دوتنې نوم"
+
+msgctxt "wizard.review.rows.saveTo"
+msgid "Save to"
+msgstr "خوندي کولو ځای"
+
+msgctxt "wizard.review.rows.sponsorBlock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.review.rows.subtitles"
+msgid "Subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "wizard.review.rowsHeading"
+msgid "Everything else"
+msgstr "نور هرڅه"
+
+msgctxt "wizard.review.save.action"
+msgid "Save profile"
+msgstr "پروفایل خوندي کول"
+
+msgctxt "wizard.review.save.description"
+msgid "Keeps these settings as a profile you can pick next time. Your Quick Download profile stays the same."
+msgstr "دا تنظیمات د پروفایل په توګه خوندي کوي چې بل ځل یې غوره کولی شئ. ستاسو د چټک ډاونلوډ پروفایل ورته پاتې کیږي."
+
+msgctxt "wizard.review.save.failed"
+msgid "Couldn't save the profile."
+msgstr "پروفایل خوندي نه شو."
+
+msgctxt "wizard.review.save.nameLabel"
+msgid "Profile name"
+msgstr "د پروفایل نوم"
+
+msgctxt "wizard.review.save.saved"
+msgid "Saved as profile “{{name}}”"
+msgstr "د پروفایل په توګه “{{name}}” خوندي شو"
+
+msgctxt "wizard.review.save.title"
+msgid "Save as profile"
+msgstr "د پروفایل په توګه خوندي کړئ"
+
+msgctxt "wizard.review.saveAsProfile"
+msgid "Save as a new profile"
+msgstr "د نوي پروفایل په توګه خوندي کړئ"
+
+msgctxt "wizard.review.update.action"
+msgid "Update profile"
+msgstr "پروفایل تازه کول"
+
+msgctxt "wizard.review.update.builtinNote"
+msgid "This is a built-in profile. You can restore its original settings in the Profiles tab."
+msgstr "دا یو جوړ شوی پروفایل دی. تاسو کولی شئ د هغه اصلي تنظیمات په “پروفایلونه” ټب کې بېرته راولئ."
+
+msgctxt "wizard.review.update.description"
+msgid "From now on, every download with this profile uses the new settings."
+msgstr "له اوس وروسته، د دې پروفایل هر ښکته کول نوي تنظیمات کاروي."
+
+msgctxt "wizard.review.update.rows.format"
+msgid "Format"
+msgstr "بڼه"
+
+msgctxt "wizard.review.update.title"
+msgid "Update “{{profile}}”?"
+msgstr "“{{profile}}” تازه کړو؟"
+
+msgctxt "wizard.review.update.updated"
+msgid "Updated profile “{{name}}”"
+msgstr "پروفایل “{{name}}” تازه شو"
+
+msgctxt "wizard.review.updateProfile"
+msgid "Update “{{profile}}” with these changes"
+msgstr "“{{profile}}” په دې بدلونونو تازه کړئ"
+
+msgctxt "wizard.review.value.extrasNone"
+msgid "None"
+msgstr "هیڅ"
+
+msgctxt "wizard.review.value.sponsorBlockOff"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.review.value.subtitlesOff"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.sponsorblock.cat.filler"
+msgid "Filler"
+msgstr "ډکول"
+
+msgctxt "wizard.sponsorblock.cat.intro"
+msgid "Intro"
+msgstr "پیژندنه"
+
+msgctxt "wizard.sponsorblock.cat.music_offtopic"
+msgid "Music off-topic"
+msgstr "له موضوع بهر موسیقي"
+
+msgctxt "wizard.sponsorblock.cat.outro"
+msgid "Outro"
+msgstr "پای"
+
+msgctxt "wizard.sponsorblock.cat.preview"
+msgid "Preview"
+msgstr "پریویو"
+
+msgctxt "wizard.sponsorblock.cat.selfpromo"
+msgid "Self-promo"
+msgstr "ځان پروموشن"
+
+msgctxt "wizard.sponsorblock.cat.sponsor"
+msgid "Sponsor"
+msgstr "سپانسر"
+
+msgctxt "wizard.sponsorblock.categoriesHeading"
+msgid "Categories"
+msgstr "کټګورۍ"
+
+msgctxt "wizard.sponsorblock.mode.mark"
+msgid "Mark as chapters"
+msgstr "د فصلونو په توګه نښه کړه"
+
+msgctxt "wizard.sponsorblock.mode.off"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.sponsorblock.mode.remove"
+msgid "Remove segments"
+msgstr "برخې لیرې کړه"
+
+msgctxt "wizard.sponsorblock.modeHeading"
+msgid "Sponsor filtering"
+msgstr "د سپانسر فلټر کول"
+
+msgctxt "wizard.sponsorblock.modeHint.mark"
+msgid "Marks sponsor segments as chapters (non-destructive)."
+msgstr "د سپانسر برخې د فصلونو (غیر ویجاړونکي) په توګه نښه کوي."
+
+msgctxt "wizard.sponsorblock.modeHint.off"
+msgid "No SponsorBlock — video plays as uploaded."
+msgstr "SponsorBlock نشته — ویډیو لکه اپلوډ شوي بیا کیږي."
+
+msgctxt "wizard.sponsorblock.modeHint.remove"
+msgid "Cuts sponsor segments from the video using FFmpeg."
+msgstr "FFmpeg سره د سپانسر برخې له ویډیو څخه غوڅوي."
+
+msgctxt "wizard.steps.confirm"
+msgid "Confirm"
+msgstr "تایید کړه"
+
+msgctxt "wizard.steps.folder"
+msgid "Save"
+msgstr "خوندي کړه"
+
+msgctxt "wizard.steps.formats"
+msgid "Format"
+msgstr "بڼه"
+
+msgctxt "wizard.steps.output"
+msgid "Output"
+msgstr "محصول"
+
+msgctxt "wizard.steps.playlistItems"
+msgid "Playlist"
+msgstr "د غږولو لړليک"
+
+msgctxt "wizard.steps.playlistItemsGeneric"
+msgid "Videos"
+msgstr "ویډیوګانې"
+
+msgctxt "wizard.steps.playlistPresets"
+msgid "Quality"
+msgstr "کیفیت"
+
+msgctxt "wizard.steps.playlistProfiles"
+msgid "Profiles"
+msgstr "پروفایلونه"
+
+msgctxt "wizard.steps.review"
+msgid "Review"
+msgstr "بیاکتنه"
+
+msgctxt "wizard.steps.sponsorblock"
+msgid "SponsorBlock"
+msgstr "SponsorBlock"
+
+msgctxt "wizard.steps.subtitles"
+msgid "Subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "wizard.steps.url"
+msgid "URL"
+msgstr "URL"
+
+msgctxt "wizard.subtitles.autoAssNote"
+msgid "Auto-captions will be saved as SRT instead of ASS — for YouTube videos they're cleaned of rolling-cue duplication, which our ASS converter can't replicate yet."
+msgstr "اتوماتیک کیپشنونه به د ASS پر ځای SRT بڼه کې خوندي شي — دوی تل د YouTube د رولینګ کیو تکرار پاکیږي، کوم چې زموږ ASS کنورتر لا نه شي تقلید کولی."
+
+msgctxt "wizard.subtitles.autoBadge"
+msgid "Auto"
+msgstr "اتوماتیک"
+
+msgctxt "wizard.subtitles.clearAll"
+msgid "Clear all"
+msgstr "ټول پاکول"
+
+msgctxt "wizard.subtitles.embedNote"
+msgid "Embed mode saves output as .mkv so subtitle tracks embed reliably."
+msgstr "د Embed حالت محصول د .mkv په توګه خوندي کوي ترڅو د ژباړلیکونو ټریکونه باوري طریقه سره ځای پر ځای شي."
+
+msgctxt "wizard.subtitles.format.heading"
+msgid "Format"
+msgstr "بڼه"
+
+msgctxt "wizard.subtitles.noLanguages"
+msgid "No subtitles available for this video"
+msgstr "د دې ویډیو لپاره هیڅ ژباړلیک شتون نلري"
+
+msgctxt "wizard.subtitles.noMatches"
+msgid "No languages match"
+msgstr "هیڅ ژبه سره برابره نه ده"
+
+msgctxt "wizard.subtitles.noSelected"
+msgid "No subtitles selected"
+msgstr "هیڅ ژباړلیک غوره نه دی شوی"
+
+msgctxt "wizard.subtitles.removeLanguage"
+msgid "Remove {{name}}"
+msgstr "{{name}} لرې کړئ"
+
+msgctxt "wizard.subtitles.saveMode.embed"
+msgid "Embed into video"
+msgstr "ویډیو کې ځای پر ځای کړه"
+
+msgctxt "wizard.subtitles.saveMode.heading"
+msgid "Save as"
+msgstr "د خوندي کولو بڼه"
+
+msgctxt "wizard.subtitles.saveMode.sidecar"
+msgid "Next to video"
+msgstr "د ویډیو سره یوځای"
+
+msgctxt "wizard.subtitles.saveMode.sidecarNoVideo"
+msgid "In the download folder"
+msgstr "د ډاونلوډ په پوښۍ کې"
+
+msgctxt "wizard.subtitles.saveMode.subfolder"
+msgid "subtitles/ subfolder"
+msgstr "subtitles/ فرعي فولډر"
+
+msgctxt "wizard.subtitles.searchPlaceholder"
+msgid "Search languages…"
+msgstr "ژبې لټول…"
+
+msgctxt "wizard.subtitles.sectionAuto"
+msgid "Auto-generated"
+msgstr "اتوماتیک جوړ شوی"
+
+msgctxt "wizard.subtitles.sectionManual"
+msgid "Manual"
+msgstr "لاسي"
+
+msgctxt "wizard.tabsNavAria"
+msgid "Download profile navigation"
+msgstr "د ښکته کولو پروفایل ناوېګیشن"
+
+msgctxt "wizard.url.advanced"
+msgid "Advanced"
+msgstr "پرمختللي"
+
+msgctxt "wizard.url.autoRemoveCompleted.description"
+msgid "Takes a download off the Downloads list a few seconds after it finishes. The files stay in your folder; failed and cancelled downloads stay in the list."
+msgstr "د بشپړېدو څو ثانیې وروسته ډاونلوډ د ډاونلوډونو له لېست څخه لرې کوي. فایلونه ستاسو په فولډر کې پاتې کېږي؛ ناکام او لغوه شوي ډاونلوډونه په لېست کې پاتې کېږي."
+
+msgctxt "wizard.url.autoRemoveCompleted.label"
+msgid "Remove finished downloads"
+msgstr "بشپړ شوي ډاونلوډونه په اتوماتيک ډول لرې کړئ"
+
+msgctxt "wizard.url.autoRetry.description"
+msgid "Automatically tries again after a network or server hiccup, waiting longer between each attempt. Downloads blocked by the site are never retried automatically."
+msgstr "د شبکې یا سرور ستونزې وروسته په اتوماتيک ډول بیا هڅه کوي، د هرې هڅې تر منځ اوږد انتظار کوي. هغه ډاونلوډونه چې سایټ یې بندوي هیڅکله په اتوماتيک ډول بیا نه هڅول کیږي."
+
+msgctxt "wizard.url.autoRetry.label"
+msgid "Retry failed downloads"
+msgstr "ناکام ډاونلوډونه بیا هڅه کړئ"
+
+msgctxt "wizard.url.autoRetry.unit"
+msgid "times"
+msgstr "ځله"
+
+msgctxt "wizard.url.bulkButton"
+msgid "Bulk URLs"
+msgstr "ډېر URLونه"
+
+msgctxt "wizard.url.bulkTooltip"
+msgid "Add and queue multiple URLs."
+msgstr "څو URLونه زیات او کتار ته یې واچوئ."
+
+msgctxt "wizard.url.clearAria"
+msgid "Clear URL"
+msgstr "URL پاکول"
+
+msgctxt "wizard.url.clipboard.autofilledLink"
+msgid "Link added from clipboard"
+msgstr "لینک له کلېپبورډه زیات شو"
+
+msgctxt "wizard.url.clipboard.bulkHint"
+msgid "Multiple links copied — use Bulk URLs to add them"
+msgstr "ډېر لینکونه کاپي شوي دي — د اضافه کولو لپاره «ډېر URLونه» وکاروئ"
+
+msgctxt "wizard.url.clipboard.dialog.cancelButton"
+msgid "Cancel"
+msgstr "لغوه کړه"
+
+msgctxt "wizard.url.clipboard.noLink"
+msgid "No link in the clipboard"
+msgstr "په کلیپبورډ کې لینک نشته"
+
+msgctxt "wizard.url.clipboard.readFailed"
+msgid "Couldn't read the clipboard — paste the link into the field instead"
+msgstr "کلیپبورډ ونه لوستل شو — لینک پر ځای یې په ساحه کې ونښلوئ"
+
+msgctxt "wizard.url.clipboard.replacedLink"
+msgid "Replaced with copied link"
+msgstr "په کاپي شوي لینک بدل شو"
+
+msgctxt "wizard.url.clipboard.toggle"
+msgid "Watch clipboard"
+msgstr "کلیپبورډ وګورئ"
+
+msgctxt "wizard.url.clipboard.toggleDescription"
+msgid "Auto-fill the URL field when you copy a video link."
+msgstr "کله چې تاسو یو YouTube لینک کاپي کړئ، د URL ساحه اتوماتیک ډکه کړئ."
+
+msgctxt "wizard.url.clipboard.undo"
+msgid "Undo"
+msgstr "بېرته راګرځول"
+
+msgctxt "wizard.url.closeToTray.toggle"
+msgid "Hide to tray on close"
+msgstr "د تړولو پر وخت ټرې ته پټ کړه"
+
+msgctxt "wizard.url.closeToTray.toggleDescription"
+msgid "Continue downloads in the background after closing the window."
+msgstr "د کړکۍ د تړولو وروسته شاتهپرده ډاونلوډونه دوام کړئ."
+
+msgctxt "wizard.url.concurrentDownloads.description"
+msgid "How many queued items download at the same time. More at once finishes a long queue sooner, but raises the chance a site limits you."
+msgstr "د کتار څو توکي په یو وخت کې ډاونلوډ شي. په یو وخت کې ډیر د اوږد کتار ژر پای ته رسوي، خو دا چانس زیاتوي چې سایټ مو محدود کړي."
+
+msgctxt "wizard.url.concurrentDownloads.label"
+msgid "Downloads at once"
+msgstr "یو ځای ډاونلوډونه"
+
+msgctxt "wizard.url.concurrentDownloads.unit"
+msgid "downloads"
+msgstr "ډاونلوډونه"
+
+msgctxt "wizard.url.concurrentProbes.description"
+msgid "How many links Klip fetches details for at the same time, before they download. Fewer is gentler on sites that block busy connections. A link you open in Interactive Download always goes first."
+msgstr "Klip له ډاونلوډ مخکې په یو وخت څو لینکونو جزییات راوړي. لږ شمېر د هغو سایټونو لپاره نرم دی چې بوخت اتصالونه بندوي. هغه لینک چې په تعاملي ډاونلوډ کې یې پرانیزئ تل لومړی ځي."
+
+msgctxt "wizard.url.concurrentProbes.label"
+msgid "Links checked at once"
+msgstr "په یو وخت کې چک شوي لینکونه"
+
+msgctxt "wizard.url.concurrentProbes.unit"
+msgid "links"
+msgstr "لینکونه"
+
+msgctxt "wizard.url.cookies.banWarning"
+msgid "Sites like YouTube may flag — and sometimes ban — accounts whose cookies are used by download tools like Klip. Use a throwaway account when possible."
+msgstr "YouTube غوندې سایټونه ممکن هغه حسابونه نښه کړي — او ځینې وختونه بنده — چې کوکیز یې د Klip غوندې د ښکته کولو وسیلو لخوا کارول کیږي. کله چې ممکنه وي یو لنډمهاله حساب وکاروئ."
+
+msgctxt "wizard.url.cookies.browserHelp"
+msgid "Reads cookies directly from the browser. The browser must be closed for Chromium-family browsers."
+msgstr "کوکیز مستقیم له براوزر نه لولي. د Chromium کورنۍ براوزرونو لپاره براوزر بند باید وي."
+
+msgctxt "wizard.url.cookies.browserLabel"
+msgid "Browser"
+msgstr "براوزر"
+
+msgctxt "wizard.url.cookies.browserPlaceholder"
+msgid "Pick a browser…"
+msgstr "براوزر غوره کړئ…"
+
+msgctxt "wizard.url.cookies.choose"
+msgid "Choose…"
+msgstr "غوره کړئ…"
+
+msgctxt "wizard.url.cookies.clear"
+msgid "Clear"
+msgstr "پاکول"
+
+msgctxt "wizard.url.cookies.enabledButNoBrowser"
+msgid "Pick a browser to use cookies"
+msgstr "د کوکیزو کارولو لپاره یو براوزر غوره کړئ"
+
+msgctxt "wizard.url.cookies.enabledButNoFile"
+msgid "Pick a file to use cookies"
+msgstr "د کوکیزو کارولو لپاره یو فایل غوره کړئ"
+
+msgctxt "wizard.url.cookies.exploreDisabled"
+msgid "The Explore tab is off, so downloads don't use your Explore sign-in. Turn it on under Explore below."
+msgstr "د سپړنې ټب بند دی، نو ښکته کول ستاسو د سپړنې ننوتل نه کاروي. لاندې د سپړنې په برخه کې یې چالان کړئ."
+
+msgctxt "wizard.url.cookies.extensionChrome"
+msgid "Get cookies.txt LOCALLY (Chrome)"
+msgstr "cookies.txt ځایی ترلاسه کړئ (Chrome)"
+
+msgctxt "wizard.url.cookies.extensionFirefox"
+msgid "cookies.txt (Firefox)"
+msgstr "cookies.txt (Firefox)"
+
+msgctxt "wizard.url.cookies.fileLabel"
+msgid "Cookies file"
+msgstr "کوکیز فایل"
+
+msgctxt "wizard.url.cookies.helpLink"
+msgid "How do I export cookies?"
+msgstr "کوکیز څنګه صادر کړم؟"
+
+msgctxt "wizard.url.cookies.openExplore"
+msgid "Open Explore"
+msgstr "سپړنه پرانیزئ"
+
+msgctxt "wizard.url.cookies.placeholder"
+msgid "No file selected"
+msgstr "هیڅ فایل غوره نه دی شوی"
+
+msgctxt "wizard.url.cookies.profileHelp"
+msgid "For a browser that isn't listed, like Floorp, Helium or Falkon, pick the one it's built on (Firefox or Chromium) and choose its profile folder. If you don't see the folder, type its path in the folder dialog."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileHiddenLinux"
+msgid "Profile folders are hidden: press Ctrl+H in the folder dialog to show them."
+msgstr ""
+
+msgctxt "wizard.url.cookies.profileLabel"
+msgid "Profile folder (optional)"
+msgstr ""
+
+msgctxt "wizard.url.cookies.profilePlaceholder"
+msgid "The browser's default profile"
+msgstr ""
+
+msgctxt "wizard.url.cookies.recommended"
+msgid "Recommended"
+msgstr "وړاندیز شوی"
+
+msgctxt "wizard.url.cookies.risk"
+msgid "Risk: a cookies.txt contains every logged-in session for that browser — keep it private."
+msgstr "خطر: cookies.txt د هغه براوزر هر ننوتلی سیشن لري — دا خصوصي وساتئ."
+
+msgctxt "wizard.url.cookies.signInStoppedWorking"
+msgid "{{site}} stopped working with your sign-in"
+msgstr ""
+
+msgctxt "wizard.url.cookies.signInStoppedWorkingDetail"
+msgid "Downloads from {{site}} now run signed out. Sign in to {{site}} again in <explore>Explore</explore>, and Klip will use it."
+msgstr ""
+
+msgctxt "wizard.url.cookies.sourceBrowser"
+msgid "Browser"
+msgstr "براوزر"
+
+msgctxt "wizard.url.cookies.sourceExplore"
+msgid "Explore sign-in"
+msgstr "د سپړنې ننوتل"
+
+msgctxt "wizard.url.cookies.sourceFile"
+msgid "File"
+msgstr "فایل"
+
+msgctxt "wizard.url.cookies.sourceLabel"
+msgid "Cookies source"
+msgstr "د کوکیزو سرچینه"
+
+msgctxt "wizard.url.cookies.sourceOff"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.url.cookies.toggleDescription"
+msgid "Helps with videos your own account can watch, like your private videos."
+msgstr "د هغو ویډیوګانو سره مرسته کوي چې ستاسو خپل اکاونټ یې لیدلی شي، لکه ستاسو شخصي ویډیوګانې."
+
+msgctxt "wizard.url.cookies.useSignInAgain"
+msgid "Use my sign-in again"
+msgstr ""
+
+msgctxt "wizard.url.downloadConnections.description"
+msgid "Speeds up large downloads by fetching several parts of a video at once. Higher values raise the chance a site limits you."
+msgstr "د ویډیو څو برخې په یو وخت کې راښکته کوي او لوی ډاونلوډونه ګړندي کوي. لوړ ارزښتونه دا چانس زیاتوي چې سایټ مو محدود کړي."
+
+msgctxt "wizard.url.downloadConnections.label"
+msgid "Download connections"
+msgstr "د ډاونلوډ اتصالونه"
+
+msgctxt "wizard.url.downloadConnections.unit"
+msgid "connections"
+msgstr "اتصالونه"
+
+msgctxt "wizard.url.downloadList.album"
+msgid "Download album…"
+msgstr "البم ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.downloadList.liked"
+msgid "Download liked videos…"
+msgstr "خوښې ویډیوګانې ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.downloadList.mix"
+msgid "Download Mix…"
+msgstr "Mix ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.downloadList.playlist"
+msgid "Download playlist…"
+msgstr "پلې‌لېست ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.downloadList.uploads"
+msgid "Download uploads…"
+msgstr "پورته شوې ویډیوګانې ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.downloadList.watchLater"
+msgid "Download Watch later…"
+msgstr "“وروسته کتل” ډاونلوډ کړئ…"
+
+msgctxt "wizard.url.features.always.audioOnly"
+msgid "Audio only"
+msgstr "یوازې غږونه"
+
+msgctxt "wizard.url.features.always.subtitles"
+msgid "Subtitles"
+msgstr "ژباړلیکونه"
+
+msgctxt "wizard.url.features.anySite.heading"
+msgid "2000+ sites"
+msgstr "2000+ سایټونه"
+
+msgctxt "wizard.url.features.anySite.musicPlaylist"
+msgid "Music playlists"
+msgstr "د موسیقۍ Playlistونه"
+
+msgctxt "wizard.url.features.anySite.video"
+msgid "Videos"
+msgstr "ویډیوګانې"
+
+msgctxt "wizard.url.features.anySite.videoPlaylist"
+msgid "Video playlists"
+msgstr "د ویډیو Playlistونه"
+
+msgctxt "wizard.url.features.heading"
+msgid "What Klip can pull"
+msgstr "Klip څه ډاونلوډ کولی شي"
+
+msgctxt "wizard.url.features.youtube.channel"
+msgid "Channels"
+msgstr "چینلونه"
+
+msgctxt "wizard.url.features.youtube.heading"
+msgid "YouTube"
+msgstr "YouTube"
+
+msgctxt "wizard.url.features.youtube.music"
+msgid "Music"
+msgstr "موسیقي"
+
+msgctxt "wizard.url.features.youtube.playlist"
+msgid "Playlists"
+msgstr "د غږولو لړليکونه"
+
+msgctxt "wizard.url.features.youtube.podcast"
+msgid "Podcasts"
+msgstr "Podcastونه"
+
+msgctxt "wizard.url.features.youtube.short"
+msgid "Shorts"
+msgstr "Shorts"
+
+msgctxt "wizard.url.features.youtube.video"
+msgid "Videos"
+msgstr "ویډیوګانې"
+
+msgctxt "wizard.url.fetchFormatsTooltip"
+msgid "Step-by-step wizard. Choose format, quality, and more."
+msgstr "ګام په ګام لارښود. بڼه، کیفیت او نور وټاکئ."
+
+msgctxt "wizard.url.heading"
+msgid "Download from URL"
+msgstr "له URL څخه ډاونلوډ"
+
+msgctxt "wizard.url.hotkey.changeShortcut"
+msgid "Change shortcut"
+msgstr "شارټکټ بدل کړئ"
+
+msgctxt "wizard.url.hotkey.conflict"
+msgid "This shortcut is taken by another app — pick another one."
+msgstr "دا شارټکټ بلې اپلیکیشن نیولی — بل یې وټاکه."
+
+msgctxt "wizard.url.hotkey.globalLabel"
+msgid "Global shortcut"
+msgstr "نړیوال هاټ کی"
+
+msgctxt "wizard.url.hotkey.recording"
+msgid "Press keys…"
+msgstr "کیليونه کېکاږئ…"
+
+msgctxt "wizard.url.hotkey.reset"
+msgid "Reset to default"
+msgstr "ډیفالټ ته بیرته شئ"
+
+msgctxt "wizard.url.hotkey.sectionDescription"
+msgid "Download whatever link you copy, from any app, without opening Klip."
+msgstr "هر کاپي شوی لینک له هرې اپلیکیشن څخه ډاونلوډ کړئ، پرته له دې چې Klip پرانیزئ."
+
+msgctxt "wizard.url.hotkey.sectionTitle"
+msgid "Global hotkey"
+msgstr "نړیوال هاټ کی"
+
+msgctxt "wizard.url.hotkey.test"
+msgid "Test"
+msgstr "ازمویل"
+
+msgctxt "wizard.url.hotkey.toggle"
+msgid "Enable global hotkey"
+msgstr "نړیوال هاټ کي فعاله کړئ"
+
+msgctxt "wizard.url.hotkey.toggleDescriptionDetail"
+msgid "Copy a video link in any app and press the shortcut: Klip queues it with your active profile, without switching windows. A link to a video in a playlist downloads the video."
+msgstr "په هر اپ کې د ویډیو لینک کاپي کړئ او شارټ کټ ټک کړئ: Klip یې ستاسو له فعال پروفایل سره، پرته له دې چې کړکۍ بدلې شي، قطار ته اچوي. په پلې‌لېست کې د ویډیو لینک یوازې همدا ویډیو ډاونلوډوي."
+
+msgctxt "wizard.url.interactiveDownload"
+msgid "Interactive Download"
+msgstr "تعاملي ډاونلوډ"
+
+msgctxt "wizard.url.interactiveDownloadAsks"
+msgid "Interactive Download…"
+msgstr "تعاملي ډاونلوډ…"
+
+msgctxt "wizard.url.limitRate.activeWarning"
+msgid "Active downloads keep their current limit. Pause + Resume to apply changes."
+msgstr "فعال ډاونلوډونه خپل اوسنی حد ساتي. د پلي کولو لپاره ودرول + دوام وکاروئ."
+
+msgctxt "wizard.url.limitRate.custom"
+msgid "Custom…"
+msgstr "ځانګړی…"
+
+msgctxt "wizard.url.limitRate.customPlaceholder"
+msgid "e.g. 750K or 1.5M"
+msgstr "لکه 750K یا 1.5M"
+
+msgctxt "wizard.url.limitRate.description"
+msgid "Cap bandwidth for media downloads. Request pacing below is usually the stronger rate-limit lever."
+msgstr "د رسنیو د ډاونلوډونو بینډوېډت محدودوي. لاندې د غوښتنو تمپو عموماً پیاوړی محدودوونکی دی."
+
+msgctxt "wizard.url.limitRate.invalid"
+msgid "Use a number followed by K or M (e.g. 500K, 1.5M)"
+msgstr "له K یا M سره عدد وکاروئ (لکه 500K، 1.5M)"
+
+msgctxt "wizard.url.limitRate.label"
+msgid "Download speed limit"
+msgstr "د ډاونلوډ سرعت حد"
+
+msgctxt "wizard.url.limitRate.off"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.url.mascotBusy"
+msgid "Downloading in the background… I can multitask 😎"
+msgstr "شاتهپرده ډاونلوډ کیږي… زه کولی شم له ډیرو کارونو سره معامله وکړم 😎"
+
+msgctxt "wizard.url.mascotCollection"
+msgid "Quick queues loaded items with {{profileName}}. Interactive lets you inspect or select items first."
+msgstr "چټک ډاونلوډ بار شوي توکي د {{profileName}} سره کتار ته اچوي. تعاملي ډاونلوډ تاسو ته اجازه درکوي چې لومړی توکي وګورئ یا وټاکئ."
+
+msgctxt "wizard.url.mascotIdle"
+msgid "Drop a link and let Klip pull it ✨"
+msgstr "لینک واچوئ او Klip پرېږدئ چې یې راکښته کړي ✨"
+
+msgctxt "wizard.url.mascotSingle"
+msgid "Quick starts one download with {{profileName}}. Use Interactive for one-off changes."
+msgstr "چټک ډاونلوډ د {{profileName}} سره یو ډاونلوډ پیلوي. د یو ځل بدلونونو لپاره تعاملي ډاونلوډ وکاروئ."
+
+msgctxt "wizard.url.mascotVideoInList"
+msgid "This link names a video and the list it’s in: download just the video, or the list."
+msgstr "دا لینک یوه ویډیو او هغه لیست چې پکې ده نوموي: یوازې ویډیو ډاونلوډ کړئ، که لیست."
+
+msgctxt "wizard.url.nativeAudioPreference.compatible"
+msgid "Compatible stereo"
+msgstr "سازګار سټېریو"
+
+msgctxt "wizard.url.nativeAudioPreference.description"
+msgid "Stereo or surround when a profile picks native audio. A profile can override it."
+msgstr "سټېریو یا surround کله چې یو پروفایل اصلي آډیو غوره کړي. پروفایل کولی شي دا بدل کړي."
+
+msgctxt "wizard.url.nativeAudioPreference.label"
+msgid "Native audio preference"
+msgstr "د اصلي آډیو غوره توب"
+
+msgctxt "wizard.url.nativeAudioPreference.surround"
+msgid "Prefer surround / Dolby"
+msgstr "surround / Dolby ته لومړیتوب ورکړئ"
+
+msgctxt "wizard.url.networkPacing.description"
+msgid "Add small waits during each download so Klip does not hit the site too aggressively. Values are in seconds."
+msgstr "د هر ډاونلوډ پرمهال کوچني انتظارونه اضافه کړئ ترڅو Klip سایټ ته ډیره زیاته فشار ونه وري. ارزښتونه په ثانیو کې دي."
+
+msgctxt "wizard.url.networkPacing.fields.maxSleepInterval"
+msgid "Pause before media starts: max"
+msgstr "د میډیا د پیلیدو دمخه وقفه: ډیره"
+
+msgctxt "wizard.url.networkPacing.fields.sleepInterval"
+msgid "Pause before media starts: min"
+msgstr "د میډیا د پیلیدو دمخه وقفه: لږه"
+
+msgctxt "wizard.url.networkPacing.fields.sleepRequests"
+msgid "Wait between metadata checks"
+msgstr "د میټاډیټا چکونو تر مینځ انتظار"
+
+msgctxt "wizard.url.networkPacing.fields.sleepSubtitles"
+msgid "Wait before subtitle files"
+msgstr "د ژباړلیک فایلونو دمخه انتظار"
+
+msgctxt "wizard.url.networkPacing.heading"
+msgid "Gentle downloads"
+msgstr "آرامه ډاونلوډونه"
+
+msgctxt "wizard.url.networkPacing.presetLabel"
+msgid "How cautious should Klip be?"
+msgstr "Klip باید څومره احتیاطي وي؟"
+
+msgctxt "wizard.url.networkPacing.presets.balanced"
+msgid "Balanced"
+msgstr "متوازن"
+
+msgctxt "wizard.url.networkPacing.presets.careful"
+msgid "Careful"
+msgstr "احتیاطي"
+
+msgctxt "wizard.url.networkPacing.presets.custom"
+msgid "Custom"
+msgstr "دودیز"
+
+msgctxt "wizard.url.networkPacing.presets.off"
+msgid "Off"
+msgstr "بند"
+
+msgctxt "wizard.url.networkPacing.summary"
+msgid "Waits: {{requests}} between checks, {{downloads}} before media starts, {{subtitles}} before subtitle files."
+msgstr "انتظارونه: {{requests}} د چکونو تر مینځ، {{downloads}} د میډیا د پیلیدو دمخه، {{subtitles}} د ژباړلیک فایلونو دمخه."
+
+msgctxt "wizard.url.networkPacing.tooltip"
+msgid "These waits happen inside each download. How many downloads run at the same time is set separately, under Downloads at once."
+msgstr "دا انتظارونه د هر ډاونلوډ دننه پیښیږي. دا چې څو ډاونلوډونه په یو وخت کې روان وي، په «یو ځای ډاونلوډونه» کې جلا ټاکل کیږي."
+
+msgctxt "wizard.url.networkPacing.tooltips.balanced"
+msgid "Default. Adds short pauses between requests and before media starts."
+msgstr "ډیفالټ. د غوښتنو ترمنځ او د میډیا له پیل دمخه لنډې وقفې اضافه کوي."
+
+msgctxt "wizard.url.networkPacing.tooltips.careful"
+msgid "Adds longer pauses for large playlists or networks that frequently hit limits."
+msgstr "د لویو Playlistونو یا هغو شبکو لپاره اوږده وقفې اضافه کوي چې ډیری وار محدودیتونو سره مخ کیږي."
+
+msgctxt "wizard.url.networkPacing.tooltips.custom"
+msgid "Tune the advanced per-download controls yourself."
+msgstr "د ډاونلوډ د پرمختللو کنټرولونو ترتیب پخپله وکړئ."
+
+msgctxt "wizard.url.networkPacing.tooltips.off"
+msgid "Uses only the small baseline pauses Klip keeps for media and subtitles."
+msgstr "یوازې هغه کوچني اساسي وقفې کاروي چې Klip د میډیا او ژباړلیکونو لپاره ساتي."
+
+msgctxt "wizard.url.networkPacing.units.seconds"
+msgid "sec"
+msgstr "ثا"
+
+msgctxt "wizard.url.openedLink.added"
+msgid "Link opened in Klip"
+msgstr "لینک په Klip کې پرانیستل شو"
+
+msgctxt "wizard.url.openedLink.replaced"
+msgid "Replaced with the link opened in Klip"
+msgstr "په Klip کې له پرانیستل شوي لینک سره بدل شو"
+
+msgctxt "wizard.url.pasteLink"
+msgid "Paste link"
+msgstr "لینک ونښلوئ"
+
+msgctxt "wizard.url.placeholder"
+msgid "https://..."
+msgstr "https://www.youtube.com/watch?v=..."
+
+msgctxt "wizard.url.playlistProbeLimit.current"
+msgid "Current limit: {{count}} items"
+msgstr "اوسنی حد: {{count}} توکي"
+
+msgctxt "wizard.url.playlistProbeLimit.custom"
+msgid "Custom…"
+msgstr "دودیز…"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogCancel"
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogDescription"
+msgid "Use a whole number from {{min}} to {{max}}."
+msgstr "د {{min}} نه تر {{max}} پورې بشپړ عدد وکاروئ."
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogSave"
+msgid "Save limit"
+msgstr "حد خوندي کړئ"
+
+msgctxt "wizard.url.playlistProbeLimit.customDialogTitle"
+msgid "Custom playlist scan limit"
+msgstr "دودیز د Playlist سکین حد"
+
+msgctxt "wizard.url.playlistProbeLimit.customValue"
+msgid "Custom: {{count}} items"
+msgstr "دودیز: {{count}} توکي"
+
+msgctxt "wizard.url.playlistProbeLimit.description"
+msgid "Maximum entries Klip loads when a playlist, channel, or search result is opened."
+msgstr "هغه اعظمي ننوتونه چې Klip د یوه playlist، چینل، یا د لټون پایله خلاصیدو پرمهال بارومه."
+
+msgctxt "wizard.url.playlistProbeLimit.invalid"
+msgid "Use a whole number from 1 to 5000"
+msgstr "د 1 نه تر 5000 پورې بشپړ عدد وکاروئ"
+
+msgctxt "wizard.url.playlistProbeLimit.label"
+msgid "Playlist items to scan"
+msgstr "د سکین لپاره د Playlist توکي"
+
+msgctxt "wizard.url.playlistProbeLimit.option"
+msgid "{{count}} items"
+msgstr "{{count}} توکي"
+
+msgctxt "wizard.url.playlistScope.appLimit"
+msgid "Use app limit: {{count}}"
+msgstr "د اپ حد وکاروئ: {{count}}"
+
+msgctxt "wizard.url.playlistScope.apply"
+msgid "Apply"
+msgstr "پلي کړئ"
+
+msgctxt "wizard.url.playlistScope.applyError"
+msgid "Could not apply that playlist scope: {{message}}"
+msgstr "د پلې‌لېست ساحه پلي نه شوه: {{message}}"
+
+msgctxt "wizard.url.playlistScope.applyReload"
+msgid "Apply and reload"
+msgstr "پلي کړئ او بیا بار کړئ"
+
+msgctxt "wizard.url.playlistScope.cancel"
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgctxt "wizard.url.playlistScope.change"
+msgid "Change"
+msgstr "بدل کړئ"
+
+msgctxt "wizard.url.playlistScope.dialogDescription"
+msgid "Choose what Klip loads for this playlist."
+msgstr "وټاکئ چې Klip د دې پلې‌لېست لپاره څه بار کړي."
+
+msgctxt "wizard.url.playlistScope.dialogTitle"
+msgid "Playlist scope"
+msgstr "د پلې‌لېست ساحه"
+
+msgctxt "wizard.url.playlistScope.emptyTitle"
+msgid "No videos in that scope"
+msgstr "په دې ساحه کې هیڅ ویډیو نشته"
+
+msgctxt "wizard.url.playlistScope.first"
+msgid "First"
+msgstr "لومړي"
+
+msgctxt "wizard.url.playlistScope.invalid"
+msgid "Use whole item numbers from 1 to {{max}}, with the start no higher than the end."
+msgstr "له 1 څخه تر {{max}} پورې بشپړې شمېرې وکاروئ، پیل باید له پای څخه لوی نه وي."
+
+msgctxt "wizard.url.playlistScope.itemsLabel"
+msgid "Items to load"
+msgstr "د بارولو توکي"
+
+msgctxt "wizard.url.playlistScope.label"
+msgid "Playlist scope"
+msgstr "د پلې‌لېست ساحه"
+
+msgctxt "wizard.url.playlistScope.range"
+msgid "Range"
+msgstr "ساحه"
+
+msgctxt "wizard.url.playlistScope.reloading"
+msgid "Reloading..."
+msgstr "بیا بارېږي..."
+
+msgctxt "wizard.url.playlistScope.reset"
+msgid "Reset"
+msgstr "بیا تنظیمول"
+
+msgctxt "wizard.url.playlistScope.summaryAppLimit"
+msgid "Load first items: {{count}}"
+msgstr "لومړي {{count}} توکي بارول"
+
+msgctxt "wizard.url.playlistScope.summaryFirst"
+msgid "Load first items: {{count}}"
+msgstr "لومړي {{count}} توکي بارول"
+
+msgctxt "wizard.url.playlistScope.summaryRange"
+msgid "Load items {{from}}-{{to}}"
+msgstr "توکي {{from}}-{{to}} بارول"
+
+msgctxt "wizard.url.playlistScope.to"
+msgid "to"
+msgstr "تر"
+
+msgctxt "wizard.url.profile.activeLabel"
+msgid "Active profile"
+msgstr "فعال پروفایل"
+
+msgctxt "wizard.url.profile.badgeBuiltIn"
+msgid "Built-in"
+msgstr "دننه جوړ"
+
+msgctxt "wizard.url.profile.badgeCustom"
+msgid "Custom"
+msgstr "دودیز"
+
+msgctxt "wizard.url.profile.badgeDisabled"
+msgid "Hidden"
+msgstr "پټ"
+
+msgctxt "wizard.url.profile.badgeModified"
+msgid "Modified"
+msgstr "بدل شوی"
+
+msgctxt "wizard.url.profile.builtinName.audio-only"
+msgid "Audio only"
+msgstr "یوازې غږ"
+
+msgctxt "wizard.url.profile.builtinName.balanced"
+msgid "Balanced 720p"
+msgstr "متوازن 720p"
+
+msgctxt "wizard.url.profile.builtinName.best-1440"
+msgid "QHD 1440p"
+msgstr "QHD 1440p"
+
+msgctxt "wizard.url.profile.builtinName.best-2160"
+msgid "4K UHD 2160p"
+msgstr "4K UHD 2160p"
+
+msgctxt "wizard.url.profile.builtinName.best-quality"
+msgid "Best available"
+msgstr "تر ټولو غوره کیفیت"
+
+msgctxt "wizard.url.profile.builtinName.hd-1080"
+msgid "Full HD 1080p"
+msgstr "Full HD 1080p"
+
+msgctxt "wizard.url.profile.builtinName.low-144"
+msgid "Lowest 144p"
+msgstr "تر ټولو ټیټ کیفیت 144p"
+
+msgctxt "wizard.url.profile.builtinName.low-240"
+msgid "Low data 240p"
+msgstr "لږ ډاټا 240p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-1080"
+msgid "Smart TV 1080p"
+msgstr "سمارټ TV 1080p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-480"
+msgid "Smart TV 480p"
+msgstr "سمارټ TV 480p"
+
+msgctxt "wizard.url.profile.builtinName.mp4-720"
+msgid "Smart TV 720p"
+msgstr "سمارټ TV 720p"
+
+msgctxt "wizard.url.profile.builtinName.small-file"
+msgid "Small file 480p"
+msgstr "کوچنی فایل 480p"
+
+msgctxt "wizard.url.profile.builtinName.subtitles-only"
+msgid "Subtitles only"
+msgstr "یوازې ژباړلیکونه"
+
+msgctxt "wizard.url.profile.changeGlobalDestination"
+msgid "Change global destination"
+msgstr "عمومي موخه بدله کړئ"
+
+msgctxt "wizard.url.profile.destinationDetail.global"
+msgid "Using global destination"
+msgstr "عمومي موخه کاروي"
+
+msgctxt "wizard.url.profile.destinationDetail.globalSubfolder"
+msgid "Using global destination + profile subfolder"
+msgstr "عمومي موخه + د پروفایل فرعي فولډر کاروي"
+
+msgctxt "wizard.url.profile.destinationDetail.override"
+msgid "Using profile override"
+msgstr "د پروفایل بدیل کاروي"
+
+msgctxt "wizard.url.profile.destinationDetail.overrideSubfolder"
+msgid "Using profile override + profile subfolder"
+msgstr "د پروفایل بدیل + د پروفایل فرعي فولډر کاروي"
+
+msgctxt "wizard.url.profile.destinationEditHint"
+msgid "To change where it saves, edit the profile."
+msgstr "د خوندي کولو ځای بدلولو لپاره، پروفایل سم کړئ."
+
+msgctxt "wizard.url.profile.destinationFallback"
+msgid "Destination"
+msgstr "موخه"
+
+msgctxt "wizard.url.profile.edit"
+msgid "Edit"
+msgstr "سمول"
+
+msgctxt "wizard.url.profile.editActive"
+msgid "Edit active profile"
+msgstr "فعال پروفایل سمول"
+
+msgctxt "wizard.url.profile.enableHint"
+msgid "Hidden profiles stay here but disappear from every profile picker."
+msgstr "پټ پروفایلونه دلته پاتې کېږي خو له هر غوره کوونکي څخه ورکېږي."
+
+msgctxt "wizard.url.profile.enableToggleAria"
+msgid "Show profile in pickers: {{profileName}}"
+msgstr "پروفایل په غوره کوونکو کې وښایاست: {{profileName}}"
+
+msgctxt "wizard.url.profile.lastEnabledHint"
+msgid "Keep at least one profile available."
+msgstr "لږ تر لږه یو پروفایل شتون ولرئ."
+
+msgctxt "wizard.url.profile.manageProfiles"
+msgid "Manage profiles"
+msgstr "پروفایلونه اداره کړئ"
+
+msgctxt "wizard.url.profile.menuDescription"
+msgid "Change the active profile for Quick Download, Bulk URLs, and playlists."
+msgstr "د چټک ډاونلوډ، ګڼو URLونو او پلی‌لیستونو لپاره فعال پروفایل بدل کړئ."
+
+msgctxt "wizard.url.profile.menuTitle"
+msgid "Switch profile"
+msgstr "پروفایل بدل کړئ"
+
+msgctxt "wizard.url.profile.movableProfile"
+msgid "movable profile"
+msgstr "د حرکت وړ پروفایل"
+
+msgctxt "wizard.url.profile.moveCancelled"
+msgid "Move cancelled. {{profileName}} stays in position {{position}} of {{count}}."
+msgstr "خوځول لغوه شول. {{profileName}} د {{count}} څخه په {{position}} موقعیت کې پاتې کېږي."
+
+msgctxt "wizard.url.profile.moveDropped"
+msgid "Dropped {{profileName}} in position {{position}} of {{count}}."
+msgstr "{{profileName}} د {{count}} څخه په {{position}} موقعیت کې پرېښودل شو."
+
+msgctxt "wizard.url.profile.moveHandleAria"
+msgid "Move {{profileName}}"
+msgstr "{{profileName}} وخوځوئ"
+
+msgctxt "wizard.url.profile.moveInstructions"
+msgid "To move a profile, press Space or Enter, move it with the arrow keys, then press Space or Enter to drop it. Press Escape to cancel."
+msgstr "د پروفایل د خوځولو لپاره Space یا Enter کېکاږئ، بیا یې د غشو کیلیدونو سره وخوځوئ، او د پرېښودو لپاره بیا Space یا Enter کېکاږئ. د لغوه کولو لپاره Escape کېکاږئ."
+
+msgctxt "wizard.url.profile.moveOver"
+msgid "{{profileName}} is over position {{position}} of {{count}}."
+msgstr "{{profileName}} د {{count}} څخه د {{position}} موقعیت پر سر دی."
+
+msgctxt "wizard.url.profile.movePickedUp"
+msgid "Picked up {{profileName}}. It is in position {{position}} of {{count}}."
+msgstr "{{profileName}} پورته شو. دا د {{count}} څخه په {{position}} موقعیت کې دی."
+
+msgctxt "wizard.url.profile.newProfile"
+msgid "New profile"
+msgstr "نوی پروفایل"
+
+msgctxt "wizard.url.profile.outputMissing"
+msgid "This profile saves to a folder that isn't set. Choose a folder in the profile, or set it back to the default."
+msgstr "دا پروفایل داسې پوښۍ ته خوندي کوي چې نه ده ټاکل شوې. په پروفایل کې یوه پوښۍ وټاکئ، یا یې بېرته اصلي ته راولئ."
+
+msgctxt "wizard.url.profile.panelDescription"
+msgid "Create, select, edit, or remove reusable download setups."
+msgstr "د بیا کارولو وړ د ډاونلوډ امستنې جوړې، غوره، سمې یا لرې کړئ."
+
+msgctxt "wizard.url.profile.panelTitle"
+msgid "Download Profiles"
+msgstr "د ډاونلوډ پروفایلونه"
+
+msgctxt "wizard.url.profile.remove"
+msgid "Remove"
+msgstr "لرې کول"
+
+msgctxt "wizard.url.profile.reorderHint"
+msgid "Drag a profile to move it. Every profile picker follows this order."
+msgstr "د خوځولو لپاره پروفایل راکاږئ. د پروفایل ټول غوره کوونکي دا ترتیب تعقیبوي."
+
+msgctxt "wizard.url.profile.reset"
+msgid "Reset"
+msgstr "بیا تنظیمول"
+
+msgctxt "wizard.url.profile.savesTo"
+msgid "Saves to"
+msgstr "خوندي کیږي په"
+
+msgctxt "wizard.url.profile.switchAria"
+msgid "Switch download profile: {{profileName}}"
+msgstr "د ډاونلوډ پروفایل بدل کړئ: {{profileName}}"
+
+msgctxt "wizard.url.profile.switchTitle"
+msgid "Switch download profile"
+msgstr "د ډاونلوډ پروفایل بدل کړئ"
+
+msgctxt "wizard.url.proxy.clear"
+msgid "Clear"
+msgstr "پاکول"
+
+msgctxt "wizard.url.proxy.description"
+msgid "Route traffic through a proxy server."
+msgstr "ټرافیک د پراکسي سرور له لارې لیږي."
+
+msgctxt "wizard.url.proxy.label"
+msgid "Proxy URL"
+msgstr "د پراکسي پته"
+
+msgctxt "wizard.url.proxy.placeholder"
+msgid "http://host:port"
+msgstr "http://host:port"
+
+msgctxt "wizard.url.quickDownload"
+msgid "Quick Download"
+msgstr "چټک ډاونلوډ"
+
+msgctxt "wizard.url.quickDownloadTooltip"
+msgid "Will download using: {{profileName}}"
+msgstr "د {{profileName}} په کارولو سره به ډاونلوډ شي"
+
+msgctxt "wizard.url.quickFailed"
+msgid "Couldn't add this one: {{error}}"
+msgstr "دا ونه زیاتېدل: {{error}}"
+
+msgctxt "wizard.url.quickPrepareFailed"
+msgid "Queue item could not be prepared"
+msgstr "د قطار توکی چمتو نه شو"
+
+msgctxt "wizard.url.quickPreparing"
+msgid "Preparing"
+msgstr "چمتو کېږي"
+
+msgctxt "wizard.url.quickProbeFailed"
+msgid "Probe failed"
+msgstr "کتنه ناکامه شوه"
+
+msgctxt "wizard.url.quickSingleOnly"
+msgid "Paste a video, playlist, channel, or search URL to get started."
+msgstr "د پیل لپاره د ویډیو، پلې‌لېست، چینل یا لټون URL ونښلوئ."
+
+msgctxt "wizard.url.reports.toggle"
+msgid "Send anonymous heartbeat and setup reports"
+msgstr "ناپیژندلی هارټ بیټ او د تنظیم راپورونه واستوئ"
+
+msgctxt "wizard.url.reports.toggleDescription"
+msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgstr "هیڅ تعقیب نشته. په ورځ کې یو ځل، یو ناپیژندلی هارټ بیټ د اپ نسخه، د نصب چینل، OS، ژبه، هېواد او تقریباً دا چې Klip څومره وخت مخکې نصب شوی لیږي، ترڅو موږ فعال او نوي کاروونکي وشمېرو. کله چې Klip خپل د ډاونلوډ انجن یا د رسنۍ وسایل تنظیموي یا تازه کوي، دا هم راپور ورکوي چې ایا بریالی شو او تقریباً څومره وخت یې ونیو. هیڅ ID، URL، د ویډیو سرلیک یا د فایل نوم نشته."
+
+msgctxt "wizard.url.settings.behaviorDescription"
+msgid "Global behavior that affects profile-driven downloads too."
+msgstr "عمومی سلوک چې د پروفایل له لارې رابېشتلي ډاونلوډ هم اغېزمن کوي."
+
+msgctxt "wizard.url.settings.behaviorHeading"
+msgid "Download behavior"
+msgstr "د ښوتنې (ډاونلوډ) چلند"
+
+msgctxt "wizard.url.settings.inputHeading"
+msgid "Input"
+msgstr "ورودی"
+
+msgctxt "wizard.url.style.aurora.description"
+msgid "Glass panels over a moving sky. Needs graphics acceleration."
+msgstr "د خوځېدونکي اسمان پر سر د شیشې پټې. د ګرافیک چټکتیا ته اړتیا لري."
+
+msgctxt "wizard.url.style.aurora.label"
+msgid "Aurora"
+msgstr "اورورا"
+
+msgctxt "wizard.url.style.minimal.description"
+msgid "Solid, quiet surfaces. Runs light on any computer."
+msgstr "جامد او آرامې سطحې. په هر کمپیوټر کې سپک چلېږي."
+
+msgctxt "wizard.url.style.minimal.label"
+msgid "Minimal"
+msgstr "ساده"
+
+msgctxt "wizard.url.style.modeDescription"
+msgid "Both styles come in light and dark."
+msgstr "دواړه ډولونه رڼا او تیاره حالت لري."
+
+msgctxt "wizard.url.style.modeLabel"
+msgid "Style"
+msgstr "ډول"
+
+msgctxt "wizard.url.style.panelDescription"
+msgid "How Klip looks. Switch between light and dark in the footer."
+msgstr "Klip څنګه ښکاري. رڼا او تیاره حالت د ښکتنۍ پټې په برخه کې بدل کړئ."
+
+msgctxt "wizard.url.style.panelTitle"
+msgid "Appearance"
+msgstr "بڼه"
+
+msgctxt "wizard.url.style.unavailableNotice"
+msgid "{{style}} needs graphics acceleration, which isn't available right now, so Klip is showing {{fallback}}."
+msgstr "{{style}} ته د ګرافیک چټکتیا اړینه ده، چې همدا اوس شتون نلري، نو Klip {{fallback}} ښیي."
+
+msgctxt "wizard.url.tabs.profiles"
+msgid "Profiles"
+msgstr "پروفایلونه"
+
+msgctxt "wizard.url.tabs.settings"
+msgid "Settings"
+msgstr "امستنې"
+
+msgctxt "wizard.url.thisVideo"
+msgid "This video"
+msgstr "دا ویډیو"
+
+msgctxt "wizard.url.thisVideoTooltip"
+msgid "Downloads just this video with {{profileName}}"
+msgstr "یوازې دا ویډیو د {{profileName}} سره ډاونلوډوي"
