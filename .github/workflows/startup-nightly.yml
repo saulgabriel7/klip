@@ -44,11 +44,11 @@ jobs:
         shell: bash
         run: |
           if [ "$RUNNER_OS" = "macOS" ]; then
-            exe=$(find dist -name "Arroxy" -path "*/MacOS/Arroxy" | head -1)
+            exe=$(find dist -name "Klip" -path "*/MacOS/Klip" | head -1)
           elif [ "$RUNNER_OS" = "Windows" ]; then
-            exe="dist/win-unpacked/Arroxy.exe"
+            exe="dist/win-unpacked/Klip.exe"
           else
-            exe="dist/linux-unpacked/arroxy"
+            exe="dist/linux-unpacked/klip"
           fi
           echo "PACKAGED_EXE=$GITHUB_WORKSPACE/$exe" >> "$GITHUB_ENV"
       - run: bunx playwright install chromium --with-deps

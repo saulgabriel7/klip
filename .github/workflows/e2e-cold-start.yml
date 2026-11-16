@@ -85,11 +85,11 @@ jobs:
         shell: bash
         run: |
           if [ "$RUNNER_OS" = "macOS" ]; then
-            exe=$(find dist -name "Arroxy" -path "*/MacOS/Arroxy" 2>/dev/null | head -1)
+            exe=$(find dist -name "Klip" -path "*/MacOS/Klip" 2>/dev/null | head -1)
           elif [ "$RUNNER_OS" = "Windows" ]; then
-            exe="dist/win-unpacked/Arroxy.exe"
+            exe="dist/win-unpacked/Klip.exe"
           else
-            exe="dist/linux-unpacked/arroxy"
+            exe="dist/linux-unpacked/klip"
           fi
           echo "PACKAGED_EXE=$GITHUB_WORKSPACE/$exe" >> "$GITHUB_ENV"
 
@@ -114,8 +114,8 @@ jobs:
         shell: bash
         env:
           ARROXY_RUNTIME_SMOKE: '1'
-          ELECTRON_USER_DATA: ${{ runner.temp }}/Arroxy Runtime Ω Cold
-          ARROXY_LOG_ARCHIVE: ${{ runner.temp }}/arroxy-cold-logs
+          ELECTRON_USER_DATA: ${{ runner.temp }}/Klip Runtime Ω Cold
+          ARROXY_LOG_ARCHIVE: ${{ runner.temp }}/klip-cold-logs
           ARROXY_BINARY_DOWNLOAD_MAX_MS: '120000'
         run: |
           mkdir -p "$ARROXY_LOG_ARCHIVE"
@@ -152,7 +152,7 @@ jobs:
           BTBN_GITHUB_TOKEN: ${{ github.token }}
           ARROXY_STARTUP_TIER: pr
           ARROXY_COLD_TMPDIR: ${{ runner.temp }}
-          ARROXY_LOG_ARCHIVE: ${{ runner.temp }}/arroxy-cold-logs
+          ARROXY_LOG_ARCHIVE: ${{ runner.temp }}/klip-cold-logs
           ARROXY_BINARY_DOWNLOAD_MAX_MS: '120000'
         run: |
           xvfb-run -a bun run verify:startup
@@ -162,7 +162,7 @@ jobs:
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
           name: cold-start-logs-${{ matrix.label }}
-          path: ${{ runner.temp }}/arroxy-cold-logs
+          path: ${{ runner.temp }}/klip-cold-logs
           if-no-files-found: error
           retention-days: 7
 

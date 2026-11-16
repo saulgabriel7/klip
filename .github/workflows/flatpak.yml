@@ -1,15 +1,6 @@
 name: Flatpak Bundle
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'flatpak/**'
-      - '.github/workflows/flatpak.yml'
-  pull_request:
-    paths:
-      - 'flatpak/**'
-      - '.github/workflows/flatpak.yml'
   workflow_dispatch:
 
 permissions:

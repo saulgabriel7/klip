@@ -112,11 +112,11 @@ jobs:
         shell: bash
         run: |
           if [ "$RUNNER_OS" = "macOS" ]; then
-            exe=$(find dist -name "Arroxy" -path "*/MacOS/Arroxy" | head -1)
+            exe=$(find dist -name "Klip" -path "*/MacOS/Klip" | head -1)
           elif [ "$RUNNER_OS" = "Windows" ]; then
-            exe="dist/win-unpacked/Arroxy.exe"
+            exe="dist/win-unpacked/Klip.exe"
           else
-            exe="dist/linux-unpacked/arroxy"
+            exe="dist/linux-unpacked/klip"
           fi
           echo "PACKAGED_EXE=$GITHUB_WORKSPACE/$exe" >> "$GITHUB_ENV"
       - run: bunx playwright install chromium --with-deps
@@ -207,15 +207,15 @@ jobs:
           if [ "$RUNNER_OS" = "macOS" ]; then
             arch="$(uname -m)"
             if [ "$arch" = "arm64" ]; then
-              exe=$(find dist -name "Arroxy" -path "*/mac-arm64/*.app/Contents/MacOS/Arroxy" 2>/dev/null | head -1)
+              exe=$(find dist -name "Klip" -path "*/mac-arm64/*.app/Contents/MacOS/Klip" 2>/dev/null | head -1)
             else
-              exe=$(find dist -name "Arroxy" -path "*/mac/*.app/Contents/MacOS/Arroxy" 2>/dev/null | head -1)
+              exe=$(find dist -name "Klip" -path "*/mac/*.app/Contents/MacOS/Klip" 2>/dev/null | head -1)
             fi
             if [ -z "${exe:-}" ]; then
-              exe=$(find dist -name "Arroxy" -path "*/Contents/MacOS/Arroxy" 2>/dev/null | head -1)
+              exe=$(find dist -name "Klip" -path "*/Contents/MacOS/Klip" 2>/dev/null | head -1)
             fi
           else
-            exe=$(find dist -maxdepth 1 \( -name "Arroxy-linux-x64.AppImage" -o -name "Arroxy-linux-x86_64.AppImage" \) -print | head -1)
+            exe=$(find dist -maxdepth 1 \( -name "Klip-linux-x64.AppImage" -o -name "Klip-linux-x86_64.AppImage" \) -print | head -1)
             if [ -n "${exe:-}" ]; then
               chmod +x "$exe"
             fi
@@ -331,9 +331,9 @@ jobs:
           DOWNLOAD_BADGES=$(cat <<EOF
           ## Install
 
-          [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-win-x64-Portable.exe)<br>
-          [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-mac-x64.dmg)<br>
-          [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Arroxy-linux-x64.tar.gz)<br>
+          [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-win-x64-Portable.exe)<br>
+          [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-mac-x64.dmg)<br>
+          [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/Klip-linux-x64.tar.gz)<br>
           [![SHA256](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${REPO}/releases/download/${REF_NAME}/SHA256SUMS)
           EOF
           )
@@ -363,8 +363,8 @@ jobs:
             assets=$(gh release view "${{ github.ref_name }}" \
               --repo "${{ github.repository }}" \
               --json assets --jq '.assets[].name' 2>/dev/null || echo "")
-            if echo "$assets" | grep -Fxq "Arroxy-win-x64-Setup.exe" \
-              && echo "$assets" | grep -Fxq "Arroxy-win-x64-Portable.exe"; then
+            if echo "$assets" | grep -Fxq "Klip-win-x64-Setup.exe" \
+              && echo "$assets" | grep -Fxq "Klip-win-x64-Portable.exe"; then
               echo "Windows artifacts present after ${i}0s"
               exit 0
             fi
@@ -383,8 +383,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          public_name="Arroxy-linux-x64.AppImage"
-          builder_name="Arroxy-linux-x86_64.AppImage"
+          public_name="Klip-linux-x64.AppImage"
+          builder_name="Klip-linux-x86_64.AppImage"
           tmpdir=$(mktemp -d)
           trap 'rm -rf "$tmpdir"' EXIT
 
@@ -440,22 +440,20 @@ jobs:
           gh release download "${GITHUB_REF_NAME}" \
             --repo "${GITHUB_REPOSITORY}" \
             --dir artifacts \
-            --pattern "Arroxy-win-x64-Setup.exe" \
-            --pattern "Arroxy-win-x64-Portable.exe" \
-            --pattern "Arroxy-mac-arm64.dmg" \
-            --pattern "Arroxy-mac-x64.dmg" \
-            --pattern "Arroxy-linux-x64.AppImage" \
-            --pattern "Arroxy-linux-x64.tar.gz" \
-            --pattern "Arroxy-linux-x64.flatpak"
+            --pattern "Klip-win-x64-Setup.exe" \
+            --pattern "Klip-win-x64-Portable.exe" \
+            --pattern "Klip-mac-arm64.dmg" \
+            --pattern "Klip-mac-x64.dmg" \
+            --pattern "Klip-linux-x64.AppImage" \
+            --pattern "Klip-linux-x64.tar.gz"
 
           required=(
-            "Arroxy-win-x64-Setup.exe"
-            "Arroxy-win-x64-Portable.exe"
-            "Arroxy-mac-arm64.dmg"
-            "Arroxy-mac-x64.dmg"
-            "Arroxy-linux-x64.AppImage"
-            "Arroxy-linux-x64.tar.gz"
-            "Arroxy-linux-x64.flatpak"
+            "Klip-win-x64-Setup.exe"
+            "Klip-win-x64-Portable.exe"
+            "Klip-mac-arm64.dmg"
+            "Klip-mac-x64.dmg"
+            "Klip-linux-x64.AppImage"
+            "Klip-linux-x64.tar.gz"
           )
           for file in "${required[@]}"; do
             if [ ! -f "artifacts/${file}" ]; then
