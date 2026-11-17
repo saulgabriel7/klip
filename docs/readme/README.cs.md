@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../../build/banners/cs-bb0fef881d.jpg" alt="Vložte odkaz nebo jen procházejte web. Obrazovka pro zadání URL a vestavěný prohlížeč aplikace Arroxy s probíhajícím stahováním." width="1200" />
+  <img src="../../build/banners/cs-6c05ded958.jpg" alt="Vložte odkaz nebo jen procházejte web. Obrazovka pro zadání URL a vestavěný prohlížeč aplikace Arroxy s probíhajícím stahováním." width="1200" />
 
 # Klip
 
@@ -27,20 +27,18 @@ Bezplatný stahovač s otevřeným zdrojovým kódem pro YouTube a více než 20
 
 [První spuštění ve Windows](#windows-first-launch) · [První spuštění v macOS](#macos-first-launch) · [První spuštění v Linuxu](#linux-first-launch)
 
-[![Vydání](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![Sestavení](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![Licence](https://img.shields.io/badge/license-GPLv3-blue) ![Jazyky](https://img.shields.io/badge/i18n-50_languages-blue)
+[![Vydání](https://img.shields.io/github/v/release/saulgabriel7/klip?label=Release&color=blueviolet)](https://github.com/saulgabriel7/klip/releases/latest) [![Sestavení](https://img.shields.io/github/actions/workflow/status/saulgabriel7/klip/ci.yml?label=Build)](https://github.com/saulgabriel7/klip/actions) ![Licence](https://img.shields.io/badge/license-GPLv3-blue) ![Jazyky](https://img.shields.io/badge/i18n-50_languages-blue)
 
 **Číst v jazyce:** [Afaan Oromoo](README.om.md) · [Bahasa Indonesia](README.id.md) · [Català](README.ca.md) · **Čeština** · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Eesti](README.et.md) · [English](../../README.md) · [Español](README.es.md) · [Euskara](README.eu.md) · [Français](README.fr.md) · [Galego](README.gl.md) · [Hrvatski](README.hr.md) · [Italiano](README.it.md) · [Kiswahili](README.sw.md) · [Latviešu](README.lv.md) · [Lietuvių](README.lt.md) · [Magyar](README.hu.md) · [Nederlands](README.nl.md) · [Norsk bokmål](README.nb.md) · [O'zbekcha](README.uz.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Română](README.ro.md) · [Slovenčina](README.sk.md) · [Slovenščina](README.sl.md) · [Suomi](README.fi.md) · [Svenska](README.sv.md) · [Tiếng Việt](README.vi.md) · [Türkçe](README.tr.md) · [አማርኛ](README.am.md) · [עברית](README.he.md) · [العربية](README.ar.md) · [اردو](README.ur.md) · [پښتو](README.ps.md) · [فارسی](README.fa.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [မြန်မာဘာသာ](README.my.md) · [ខ្មែរ](README.km.md) · [Ελληνικά](README.el.md) · [Български](README.bg.md) · [Русский](README.ru.md) · [Српски](README.sr.md) · [Українська](README.uk.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [繁體中文](README.zh-Hant.md)
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Main-screenshot.webp" alt="Klip — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
   </tr>
 </table>
 
 Bez reklam, limitů používání a vnucování placených verzí.
-
-[![Připojte se na Discord](https://img.shields.io/badge/P%C5%99ipojte%20se%20na%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
 
 Pokud vám Arroxy šetří čas, ⭐ pomůže ostatním ho najít.
 
@@ -52,7 +50,7 @@ Pokud vám Arroxy šetří čas, ⭐ pomůže ostatním ho najít.
 
 Přihlaste se jednou na každém webu a stahujte obsah, ke kterému má váš účet přístup, včetně soukromých videí a seznamů Podívat se později a Označeno „To se mi líbí“. Export cookies není potřeba. [Více o Procházení](#why-explore).
 
-_Poslední aktualizace: 2026-11-16._
+_Poslední aktualizace: 2026-11-17._
 
 > 🌐 Tento překlad vznikl za pomoci AI. [Anglické README](../../README.md) je nadřazeným zdrojem. Našli jste chybu? [Otevřete PR](../../../../pulls).
 
@@ -60,6 +58,7 @@ _Poslední aktualizace: 2026-11-16._
 
 ## Obsah
 
+- [🔄 What changed from Arroxy](#diff-arroxy)
 - [✨ Funkce](#features)
 - [📥 Instalace a první spuštění](#install)
   - [První spuštění ve Windows](#windows-first-launch)
@@ -77,45 +76,70 @@ _Poslední aktualizace: 2026-11-16._
 
 ---
 
+## <a id="diff-arroxy"></a>🔄 What changed from Arroxy
+
+Klip is a minimalist redesign and full rebranding based on the open-source architecture of [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Here is what changed:
+
+| Area | Original Arroxy | Klip |
+| --- | --- | --- |
+| **Brand & Logo** | Arroxy name, mascot character, and purple/blue branding | New geometric **Klip** mark (`K` frame-cut SVG/ICNS/ICO kit) and adaptive monochrome/tray icons |
+| **Visual Direction** | Aurora WebGL animated sky, heavy glassmorphism blur, and neon glow shadows | **Solid Zinc Minimalism** — Aurora removed; pure dark & light `shadcn/ui` surfaces with crisp `1px` borders |
+| **Typography & Hierarchy** | Layered translucent cards with decorative gradients | Flat panels (`bg-background`, `bg-card`), tight headings (`tracking-tight`), and `tabular-nums` for telemetry |
+| **Packaging & Metadata** | `com.arroxy.app` / `Arroxy.app` / `Arroxy.exe` | `com.saulgabriel.klip` / `klip.app` / `Klip.exe` distributed via personal GitHub Releases |
+| **Core Engine & i18n** | Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 languages | 100% preserved — same high-speed download engine, Explore browser, profiles, queue, and 50 locales |
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../branding/kit/klip-horizontal-white-1200.png" />
+    <source media="(prefers-color-scheme: light)" srcset="../../branding/kit/klip-horizontal-black-1200.png" />
+    <img src="../../branding/kit/klip-horizontal-black-1200.png" alt="Klip Brand Identity" width="360" />
+  </picture>
+  <br/><br/>
+  <img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc interface in Dark and Light modes" width="760" /><br/>
+  <sub><b>Tmavý nebo světlý, sklo nebo plocha</b><br/>Čtyři vzhledy k výběru: skleněné panely nad pohyblivou oblohou nebo klidné plné plochy, každý v tmavé i světlé variantě</sub>
+</div>
+
+---
+
 ## <a id="features"></a>✨ Funkce
 
 <table align="center" width="100%">
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Procházení</b><br/>Procházejte YouTube i jakýkoli jiný web přímo v Arroxy a stáhněte stránku, na které jste, se svým aktivním profilem</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><sub><b>Procházení</b><br/>Procházejte YouTube i jakýkoli jiný web přímo v Arroxy a stáhněte stránku, na které jste, se svým aktivním profilem</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>První obrazovka Procházení</b><br/>Stručný pohled na Procházení a proč je vedlejší účet bezpečnější volbou přihlášení</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Stahování vám řekne, co vás potřebuje</b><br/>Odkazy se připravují na pozadí; neúspěšný nabídne řešení, dlouhý playlist čeká na vaši volbu</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Explore-screenshot.webp" alt="Klip — Explore first-run screen recommending a secondary account" /><br/><sub><b>První obrazovka Procházení</b><br/>Stručný pohled na Procházení a proč je vedlejší účet bezpečnější volbou přihlášení</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Downloads-attention-screenshot.webp" alt="Klip — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><sub><b>Stahování vám řekne, co vás potřebuje</b><br/>Odkazy se připravují na pozadí; neúspěšný nabídne řešení, dlouhý playlist čeká na vaši volbu</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Stáhněte jen část videa</b><br/>Vyberte začátek a konec nebo kapitolu — Arroxy uloží jen tento úsek</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Part-of-video-screenshot.webp" alt="Klip — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><sub><b>Stáhněte jen část videa</b><br/>Vyberte začátek a konec nebo kapitolu — Arroxy uloží jen tento úsek</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>8K HDR při 60 fps</b><br/>Každé rozlišení, kodek a stream HDR, které video nabízí, vedle sebe</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/8K-HDR-video-screenshot.webp" alt="Klip — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><sub><b>8K HDR při 60 fps</b><br/>Každé rozlišení, kodek a stream HDR, které video nabízí, vedle sebe</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Editor profilu</b><br/>Doladěte profil: typ souboru, rozlišení, titulky, cíl, šablonu názvu souboru a další</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Profile-editor-screenshot.webp" alt="Klip — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><sub><b>Editor profilu</b><br/>Doladěte profil: typ souboru, rozlišení, titulky, cíl, šablonu názvu souboru a další</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub><b>Tmavý nebo světlý, sklo nebo plocha</b><br/>Čtyři vzhledy k výběru: skleněné panely nad pohyblivou oblohou nebo klidné plné plochy, každý v tmavé i světlé variantě</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc theme in dark and light modes" width="760" /><br/><sub><b>Tmavý nebo světlý, sklo nebo plocha</b><br/>Čtyři vzhledy k výběru: skleněné panely nad pohyblivou oblohou nebo klidné plné plochy, každý v tmavé i světlé variantě</sub></td>
   </tr>
   <tr>
     <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Globální klávesová zkratka pro stahování v Arroxy — Ctrl+Shift+D ve Windows a Linuxu, Cmd+Shift+D v macOS, zařadí zkopírovaný odkaz přímo do fronty stahování" width="760" /></picture><br/><sub><b>Globální klávesová zkratka pro stahování</b><br/>Zkopírujte odkaz kdekoli, stiskněte jednou — skončí ve frontě a začne se stahovat</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/cs/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub><b>Profily playlistu pro jednotlivé položky</b><br/>Dejte každému videu vlastní profil — některá archivujte ve 4K, zbytek uložte jen jako zvuk</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Per-item-playlist-profiles-screenshot.webp" alt="Klip — Per-item playlist profiles" width="760" /><br/><sub><b>Profily playlistu pro jednotlivé položky</b><br/>Dejte každému videu vlastní profil — některá archivujte ve 4K, zbytek uložte jen jako zvuk</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub><b>Domovská obrazovka Rychlého stahování</b><br/>Vložte URL a stáhněte ji okamžitě s aktivním profilem</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub><b>Opakovaně použitelné profily stahování</b><br/>Uložte předvolby formátu, kvality a výstupu — použijte je při každém stahování</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Main-screenshot.webp" alt="Klip — Quick Download home" /><br/><sub><b>Domovská obrazovka Rychlého stahování</b><br/>Vložte URL a stáhněte ji okamžitě s aktivním profilem</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Download-profiles-screenshot.webp" alt="Klip — Download profiles" /><br/><sub><b>Opakovaně použitelné profily stahování</b><br/>Uložte předvolby formátu, kvality a výstupu — použijte je při každém stahování</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub><b>Zvukové stopy ve více jazycích</b><br/>Vyberte přesný jazyk zvuku, ve kterém video vychází</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub><b>Prostorový zvuk / Dolby</b><br/>Stopy 5.1 a Dolby jsou rozpoznány a zachovány</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Multi-lang-audio-support-screenshot.webp" alt="Klip — Multi-language audio" /><br/><sub><b>Zvukové stopy ve více jazycích</b><br/>Vyberte přesný jazyk zvuku, ve kterém video vychází</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Dolby-audio-support-screenshot.webp" alt="Klip — Surround / Dolby audio" /><br/><sub><b>Prostorový zvuk / Dolby</b><br/>Stopy 5.1 a Dolby jsou rozpoznány a zachovány</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub><b>Režim Hromadné URL</b><br/>Vložte seznam, duplicity se odstraní automaticky, všechny najednou zařaďte do fronty</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub><b>Paralelní fronta stahování</b><br/>Několik stahování najednou s průběhem naživo</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Bulk-urls-mode-screenshot.webp" alt="Klip — Bulk URL mode" /><br/><sub><b>Režim Hromadné URL</b><br/>Vložte seznam, duplicity se odstraní automaticky, všechny najednou zařaďte do fronty</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/cs/Downloading-in-parallel-screenshot.webp" alt="Klip — Parallel download queue" /><br/><sub><b>Paralelní fronta stahování</b><br/>Několik stahování najednou s průběhem naživo</sub></td>
   </tr>
 </table>
 
@@ -206,42 +230,14 @@ _Poslední aktualizace: 2026-11-16._
 
 **Požadavky:** Windows 10/11 · macOS 13+ (Intel nebo Apple Silicon) · Linux (AppImage, Flatpak nebo tar.gz).
 
-**Windows**
-
-```bash
-winget install AntonioOrionus.Arroxy
-```
-
-**macOS**
-
-```bash
-brew install --cask antonio-orionus/arroxy/arroxy
-```
-
-**Linux**
-
-AppImage:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
-```
-
-Flatpak:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
-```
-
-Sestavení jsou pouze pro x86_64. Nemáte `curl`? Nahraďte `curl -fsSL` příkazem `wget -qO-`.
-
 | Platforma | Přímé stažení |
 | --- | --- |
-| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
-| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
-| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
-| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) |
 
-[**Všechny soubory vydání →**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+[**Všechny soubory vydání →**](https://github.com/saulgabriel7/klip/releases/latest)
 
 <details>
 <summary><strong><a id="windows-first-launch"></a>🪟 První spuštění ve Windows</strong></summary>
@@ -262,8 +258,6 @@ Heuristika Defenderu někdy označí nepodepsané instalátory NSIS a přenosné
 
 > Arroxy stahujte jen z oficiální stránky GitHub Releases. Pokud jste soubor získali z jiného webu nebo vám ho někdo poslal, smažte ho a stáhněte si čerstvou kopii z oficiálního zdroje. Zdrojový kód je veřejný, takže jej můžete zkontrolovat nebo si Arroxy sami sestavit.
 
-Dáváte přednost Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`
-
 </details>
 
 <details>
@@ -271,16 +265,12 @@ Dáváte přednost Scoop? `scoop bucket add arroxy https://github.com/antonio-or
 
 Sestavení Arroxy pro macOS jsou podepsána ad hoc, ale nejsou notarizována Applem, takže Gatekeeper při prvním spuštění zablokuje otevření hláškou *Aplikaci „Arroxy.app“ nelze otevřít — Apple nemohl ověřit, že „Arroxy.app“ neobsahuje malware*. To znamená, že macOS aplikaci nemůže ověřit u Applu, ne že by se soubory něco stalo. Instalace přes Homebrew se tomuto dialogu zcela vyhne. Pokud jste použili DMG, vyřeší to jeden příkaz v Terminálu:
 
-<div align="center">
-  <img src="../../build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
-</div>
-
 1. Přetáhněte `Arroxy.app` z připojeného DMG do `/Applications`.
 2. Otevřete Terminál a spusťte tyto dva příkazy:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Arroxy.app
-open /Applications/Arroxy.app
+xattr -cr /Applications/klip.app
+open /Applications/klip.app
 ```
 
 První příkaz odstraní atribut karantény, který macOS připojil při stažení souboru; druhý aplikaci spustí. `sudo` obvykle nepotřebujete, protože kopie v `/Applications` patří vám — přidejte jej jen při chybě oprávnění.
@@ -314,14 +304,14 @@ AppImage se spouští přímo — bez instalace. Stačí soubor označit jako sp
 **Terminál:**
 
 ```bash
-chmod +x Arroxy-linux-x64.AppImage
-./Arroxy-linux-x64.AppImage
+chmod +x Klip-linux-x64.AppImage
+./Klip-linux-x64.AppImage
 ```
 
 Pokud se spuštění stále nezdaří, spusťte jej bez připojení — není potřeba balíček FUSE:
 
 ```bash
-./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+./Klip-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 **Volitelná integrace do systému:** jednou nainstalujte [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) a každý AppImage, na který dvakrát kliknete, se automaticky zaregistruje do nabídky spouštěče — bez ručního souboru `.desktop`.
@@ -331,8 +321,8 @@ Pokud se spuštění stále nezdaří, spusťte jej bez připojení — není po
 Sestavení `.tar.gz` je stejná aplikace bez obalu AppImage — rozbalte jej kamkoli a spusťte. Není potřeba instalátor ani balíček FUSE.
 
 ```bash
-tar xzf Arroxy-linux-x64.tar.gz
-./Arroxy-linux-x64/arroxy
+tar xzf Klip-linux-x64.tar.gz
+./Klip-linux-x64/klip
 ```
 
 **Soubory pro Linux na stránce vydání jsou pouze pro x86_64.** Na počítačích ARM64 (Raspberry Pi, Asahi Linux) se Flatpak sice nainstaluje, ale při spuštění selže s chybou `bwrap: execvp ldconfig: Exec format error`.
@@ -347,19 +337,19 @@ Každé vydání zveřejňuje vedle binárních souborů soubor `SHA256SUMS`. Ch
 **Windows (PowerShell nebo Příkazový řádek):**
 
 ```powershell
-certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+certutil -hashfile Klip-win-x64-Setup.exe SHA256
 ```
 
 **macOS (Terminál):**
 
 ```bash
-shasum -a 256 Arroxy-mac-arm64.dmg
+shasum -a 256 Klip-mac-arm64.dmg
 ```
 
 **Linux (Terminál):**
 
 ```bash
-sha256sum Arroxy-linux-x64.AppImage
+sha256sum Klip-linux-x64.AppImage
 ```
 
 Chcete kontrolu malwaru třetí stranou? Nahrajte soubor na [VirusTotal](https://www.virustotal.com). Několik obecných heuristických upozornění od menších antivirových nástrojů je u nepodepsaných aplikací Electron normální; rozsáhlá zjištění od velkých nástrojů by byla skutečným důvodem k obavám.
@@ -387,7 +377,7 @@ Chcete kontrolu malwaru třetí stranou? Nahrajte soubor na [VirusTotal](https:/
 
 Srovnání s nejběžnějšími alternativami:
 
-|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+|            | Klip   | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
 | ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
 | Vestavěný prohlížeč (procházení, přihlášení, stahování) |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
 | Videa, která váš vlastní účet smí přehrát, bez exportu cookies |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
@@ -524,8 +514,6 @@ Máte nápad na funkci? [Otevřete požadavek](../../../../issues) — názory k
 
 Arroxy je zdarma a s licencí GPLv3 — bez reklam, bez sledování, bez placené verze. Pokud vám šetří čas, můžete vývoj podpořit Bitcoinem, Tronem nebo Ethereem: adresy jsou v [DONATE.md](../../DONATE.md), což je jediný oficiální zdroj. Arroxy vám adresu nikdy nepošle e-mailem ani přímou zprávou. Stejně tak pomáhá hvězdička u repozitáře, hlášení chyb a zlepšování překladů.
 
-<a href="../../DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
-
 ---
 
 ## <a id="tech"></a>🛠️ Vytvořeno pomocí
@@ -626,48 +614,44 @@ bun run dist:win     # package Windows targets when run on a supported host
 <details>
 <summary><strong>🖥️ App won't open / no window appears</strong></summary>
 
-The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+The Klip process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
 
 **1. Check the log.** It records startup, GPU info, and any crash. Path:
 
-| Platform | Path                             |
-| -------- | -------------------------------- |
-| Windows  | `%APPDATA%\arroxy\logs\main.log` |
-| macOS    | `~/Library/Logs/arroxy/main.log` |
-| Linux    | `~/.config/arroxy/logs/main.log` |
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\logs\main.log`                 |
+| macOS    | `~/Library/Application Support/Klip/logs/main.log` |
+| Linux    | `~/.config/klip/logs/main.log`                 |
 
 **2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
 
 ```bash
 # Windows (Portable) — PowerShell, run from the folder containing the exe
-.\Arroxy-win-x64-Portable.exe --disable-gpu
+.\Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Portable) — Command Prompt (cmd.exe), from the same folder
-Arroxy-win-x64-Portable.exe --disable-gpu
+Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Installed) — works in both PowerShell and cmd.exe
-"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+"%LOCALAPPDATA%\Programs\Klip\Klip.exe" --disable-gpu
 
 # macOS
-/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+/Applications/klip.app/Contents/MacOS/klip --disable-gpu
 
 # Linux (AppImage)
-./Arroxy-linux-x64.AppImage --disable-gpu
+./Klip-linux-x64.AppImage --disable-gpu
 ```
 
 If that works, the GPU/driver is the cause. Make the change permanent (next step).
 
 **3. Persist the flag via `argv.json`.** Create the file at:
 
-| Platform | Path                                             |
-| -------- | ------------------------------------------------ |
-| Windows  | `%APPDATA%\arroxy\argv.json`                     |
-| macOS    | `~/Library/Application Support/arroxy/argv.json` |
-| Linux    | `~/.config/arroxy/argv.json`                     |
-
-On Flatpak, both `main.log` and `argv.json` live under
-`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
-(for example `logs/main.log`).
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\argv.json`                     |
+| macOS    | `~/Library/Application Support/Klip/argv.json` |
+| Linux    | `~/.config/klip/argv.json`                     |
 
 With contents:
 
@@ -675,7 +659,7 @@ With contents:
 { "disable-hardware-acceleration": true }
 ```
 
-Arroxy reads this before opening any window, so it works even when the window never appeared.
+Klip reads this before opening any window, so it works even when the window never appeared.
 
 **4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
 
@@ -693,11 +677,11 @@ Arroxy je nástroj určený výhradně k osobnímu, soukromému použití. Sami 
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
  </picture>
 </a>
 

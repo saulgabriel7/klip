@@ -36,7 +36,7 @@ function read(path: string): string {
 }
 
 describe('release asset names', () => {
-	const stableAssets = ['Arroxy-win-x64-Setup.exe', 'Arroxy-win-x64-Portable.exe', 'Arroxy-mac-arm64.dmg', 'Arroxy-mac-x64.dmg', 'Arroxy-linux-x64.AppImage', 'Arroxy-linux-x64.tar.gz', 'Arroxy-linux-x64.flatpak']
+	const stableAssets = ['Klip-win-x64-Setup.exe', 'Klip-win-x64-Portable.exe', 'Klip-mac-arm64.dmg', 'Klip-mac-x64.dmg', 'Klip-linux-x64.AppImage', 'Klip-linux-x64.tar.gz']
 	const workflowText = () =>
 		readdirSync(join(root, '.github', 'workflows'))
 			.filter(file => file.endsWith('.yml') || file.endsWith('.yaml'))
@@ -171,7 +171,7 @@ describe('release asset names', () => {
 
 		expect(coldStart).toContain('Run packaged runtime smoke')
 		expect(coldStart).toContain("ARROXY_RUNTIME_SMOKE: '1'")
-		expect(coldStart).toContain('Arroxy Runtime Ω Cold')
+		expect(coldStart).toContain('Klip Runtime Ω Cold')
 		expect(coldStart).toContain('fake old node')
 		expect(coldStart).toContain('fake deno')
 		expect(coldStart).toContain('fake yt-dlp')
@@ -196,8 +196,8 @@ describe('release asset names', () => {
 		expect(installer).toContain('Run installed app runtime smoke')
 		expect(installer).toContain('Run portable app runtime smoke')
 		expect(installer).toContain('ARROXY_RUNTIME_SMOKE')
-		expect(installer).toContain('Arroxy Runtime Ω Installed')
-		expect(installer).toContain('Arroxy Portable Ω Path')
+		expect(installer).toContain('Klip Runtime Ω Installed')
+		expect(installer).toContain('Klip Portable Ω Path')
 		expect(installer).toContain('runtime-smoke-logs')
 	})
 
@@ -215,17 +215,13 @@ describe('release asset names', () => {
 	it('keeps release workflow consumers on the same stable filenames', () => {
 		const release = read('.github/workflows/release.yml')
 		const installer = read('.github/workflows/installer-smoke.yml')
-		const winget = read('.github/workflows/release_to_winget.yml')
-		const flatpak = read('.github/workflows/flatpak.yml')
 
 		for (const asset of stableAssets) {
-			expect([release, installer, winget, flatpak].join('\n')).toContain(asset)
+			expect([release, installer].join('\n')).toContain(asset)
 		}
 
-		expect(winget).toContain("installers-regex: '^Arroxy-win-x64-Setup\\.exe$'")
-		expect(release).not.toContain('Arroxy-Setup-${VERSION}.exe')
-		expect(release).not.toContain('Arroxy-${VERSION}-arm64.dmg')
-		expect(flatpak).not.toContain('Arroxy-${VERSION}.tar.gz')
+		expect(release).not.toContain('Klip-Setup-${VERSION}.exe')
+		expect(release).not.toContain('Klip-${VERSION}-arm64.dmg')
 	})
 
 	it('relies on immutable release attestations instead of workflow provenance attestations', () => {
@@ -290,8 +286,8 @@ describe('release asset names', () => {
 		const release = read('.github/workflows/release.yml')
 
 		expect(release).toContain('Normalize Linux AppImage asset name')
-		expect(release).toContain('Arroxy-linux-x86_64.AppImage')
-		expect(release).toContain('Arroxy-linux-x64.AppImage')
+		expect(release).toContain('Klip-linux-x86_64.AppImage')
+		expect(release).toContain('Klip-linux-x64.AppImage')
 		expect(release).toContain('latest-linux.yml')
 		expect(release).toContain('.apiUrl')
 		expect(release).toContain('${builder_api_url#https://api.github.com/}')
@@ -302,9 +298,9 @@ describe('release asset names', () => {
 
 		expect(template).toContain('## <a id="install"></a>📥 {{dl_h2}}')
 		for (const asset of stableAssets) {
-			expect(template).toContain(`https://github.com/antonio-orionus/Arroxy/releases/latest/download/${asset}`)
+			expect(template).toContain(`https://github.com/saulgabriel7/klip/releases/latest/download/${asset}`)
 		}
-		expect(template).toContain('https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS')
+		expect(template).toContain('https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS')
 		expect(template).toContain('img.shields.io/badge/Windows-Setup-0078D4')
 		expect(template).not.toContain('| 🪟 Windows')
 		expect(template).not.toContain('| 🍎 macOS')
@@ -318,8 +314,8 @@ describe('release asset names', () => {
 		for (const file of readmes) {
 			const content = read(file)
 
-			expect(content).not.toContain('Arroxy-Setup-*.exe')
-			expect(content).not.toContain('Arroxy-Portable-*.exe')
+			expect(content).not.toContain('Klip-Setup-*.exe')
+			expect(content).not.toContain('Klip-Portable-*.exe')
 		}
 	})
 })

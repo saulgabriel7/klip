@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../../build/banners/hu-ffe87df4b5.jpg" alt="Illesszen be egy hivatkozást, vagy egyszerűen böngésszen. Az Arroxy URL-képernyője és beépített böngészője, folyamatban lévő letöltéssel." width="1200" />
+  <img src="../../build/banners/hu-d4c0ba2163.jpg" alt="Illesszen be egy hivatkozást, vagy egyszerűen böngésszen. Az Arroxy URL-képernyője és beépített böngészője, folyamatban lévő letöltéssel." width="1200" />
 
 # Klip
 
@@ -27,20 +27,18 @@ Ingyenes, nyílt forráskódú letöltő a YouTube-hoz és több mint 2000 webhe
 
 [Első indítás Windowson](#windows-first-launch) · [Első indítás macOS-en](#macos-first-launch) · [Első indítás Linuxon](#linux-first-launch)
 
-[![Kiadás](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![Licenc](https://img.shields.io/badge/license-GPLv3-blue) ![Nyelvek](https://img.shields.io/badge/i18n-50_languages-blue)
+[![Kiadás](https://img.shields.io/github/v/release/saulgabriel7/klip?label=Release&color=blueviolet)](https://github.com/saulgabriel7/klip/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/saulgabriel7/klip/ci.yml?label=Build)](https://github.com/saulgabriel7/klip/actions) ![Licenc](https://img.shields.io/badge/license-GPLv3-blue) ![Nyelvek](https://img.shields.io/badge/i18n-50_languages-blue)
 
 **Olvassa el ezen a nyelven:** [Afaan Oromoo](README.om.md) · [Bahasa Indonesia](README.id.md) · [Català](README.ca.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Eesti](README.et.md) · [English](../../README.md) · [Español](README.es.md) · [Euskara](README.eu.md) · [Français](README.fr.md) · [Galego](README.gl.md) · [Hrvatski](README.hr.md) · [Italiano](README.it.md) · [Kiswahili](README.sw.md) · [Latviešu](README.lv.md) · [Lietuvių](README.lt.md) · **Magyar** · [Nederlands](README.nl.md) · [Norsk bokmål](README.nb.md) · [O'zbekcha](README.uz.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Română](README.ro.md) · [Slovenčina](README.sk.md) · [Slovenščina](README.sl.md) · [Suomi](README.fi.md) · [Svenska](README.sv.md) · [Tiếng Việt](README.vi.md) · [Türkçe](README.tr.md) · [አማርኛ](README.am.md) · [עברית](README.he.md) · [العربية](README.ar.md) · [اردو](README.ur.md) · [پښتو](README.ps.md) · [فارسی](README.fa.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [မြန်မာဘာသာ](README.my.md) · [ខ្មែរ](README.km.md) · [Ελληνικά](README.el.md) · [Български](README.bg.md) · [Русский](README.ru.md) · [Српски](README.sr.md) · [Українська](README.uk.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [繁體中文](README.zh-Hant.md)
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Main-screenshot.webp" alt="Klip — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
   </tr>
 </table>
 
 Reklámok, használati korlátok és kéretlen fizetős ajánlatok nélkül.
-
-[![Csatlakozzon a Discord--közösséghez](https://img.shields.io/badge/Csatlakozzon%20a%20Discord--k%C3%B6z%C3%B6ss%C3%A9ghez-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
 
 Ha az Arroxy időt spórol Önnek, egy ⭐ segít másoknak megtalálni.
 
@@ -52,7 +50,7 @@ Ha az Arroxy időt spórol Önnek, egy ⭐ segít másoknak megtalálni.
 
 Jelentkezzen be egyszer minden webhelyre, hogy letölthesse a fiókja számára hozzáférhető tartalmakat, köztük a privát videókat, a Megnézendő és a Kedvelt videók listáit. Nincs szükség a sütik exportálására. [További információ a Felfedezésről](#why-explore).
 
-_Utolsó frissítés: 2026-11-16._
+_Utolsó frissítés: 2026-11-17._
 
 > 🌐 Ez a fordítás MI támogatásával készült. Az [angol README](../../README.md) az irányadó forrás. Hibát talált? [Nyisson egy PR-t](../../../../pulls).
 
@@ -60,6 +58,7 @@ _Utolsó frissítés: 2026-11-16._
 
 ## Tartalom
 
+- [🔄 What changed from Arroxy](#diff-arroxy)
 - [✨ Funkciók](#features)
 - [📥 Telepítés és első indítás](#install)
   - [Első indítás Windowson](#windows-first-launch)
@@ -77,45 +76,70 @@ _Utolsó frissítés: 2026-11-16._
 
 ---
 
+## <a id="diff-arroxy"></a>🔄 What changed from Arroxy
+
+Klip is a minimalist redesign and full rebranding based on the open-source architecture of [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Here is what changed:
+
+| Area | Original Arroxy | Klip |
+| --- | --- | --- |
+| **Brand & Logo** | Arroxy name, mascot character, and purple/blue branding | New geometric **Klip** mark (`K` frame-cut SVG/ICNS/ICO kit) and adaptive monochrome/tray icons |
+| **Visual Direction** | Aurora WebGL animated sky, heavy glassmorphism blur, and neon glow shadows | **Solid Zinc Minimalism** — Aurora removed; pure dark & light `shadcn/ui` surfaces with crisp `1px` borders |
+| **Typography & Hierarchy** | Layered translucent cards with decorative gradients | Flat panels (`bg-background`, `bg-card`), tight headings (`tracking-tight`), and `tabular-nums` for telemetry |
+| **Packaging & Metadata** | `com.arroxy.app` / `Arroxy.app` / `Arroxy.exe` | `com.saulgabriel.klip` / `klip.app` / `Klip.exe` distributed via personal GitHub Releases |
+| **Core Engine & i18n** | Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 languages | 100% preserved — same high-speed download engine, Explore browser, profiles, queue, and 50 locales |
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../branding/kit/klip-horizontal-white-1200.png" />
+    <source media="(prefers-color-scheme: light)" srcset="../../branding/kit/klip-horizontal-black-1200.png" />
+    <img src="../../branding/kit/klip-horizontal-black-1200.png" alt="Klip Brand Identity" width="360" />
+  </picture>
+  <br/><br/>
+  <img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc interface in Dark and Light modes" width="760" /><br/>
+  <sub><b>Sötét vagy világos, üveg vagy tömör</b><br/>Négy megjelenés közül választhat: üvegpanelek mozgó égbolt fölött vagy nyugodt, tömör felületek, mindegyik sötét és világos változatban</sub>
+</div>
+
+---
+
 ## <a id="features"></a>✨ Funkciók
 
 <table align="center" width="100%">
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Felfedezés</b><br/>Böngésszen a YouTube-on vagy bármely más webhelyen az Arroxyban, és töltse le az éppen nézett oldalt az aktív profillal</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><sub><b>Felfedezés</b><br/>Böngésszen a YouTube-on vagy bármely más webhelyen az Arroxyban, és töltse le az éppen nézett oldalt az aktív profillal</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>A Felfedezés első képernyője</b><br/>Rövid bemutató a Felfedezésről, és arról, miért biztonságosabb a másodlagos fiókkal való bejelentkezés</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>A Letöltések megmondja, mi igényli Önt</b><br/>A hivatkozások a háttérben készülnek elő; a sikertelen felajánlja a javítást, a hosszú lejátszási lista a választására vár</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Explore-screenshot.webp" alt="Klip — Explore first-run screen recommending a secondary account" /><br/><sub><b>A Felfedezés első képernyője</b><br/>Rövid bemutató a Felfedezésről, és arról, miért biztonságosabb a másodlagos fiókkal való bejelentkezés</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Downloads-attention-screenshot.webp" alt="Klip — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><sub><b>A Letöltések megmondja, mi igényli Önt</b><br/>A hivatkozások a háttérben készülnek elő; a sikertelen felajánlja a javítást, a hosszú lejátszási lista a választására vár</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Csak a videó egy részének letöltése</b><br/>Válasszon kezdetet és véget vagy egy fejezetet — az Arroxy csak azt a tartományt menti</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Part-of-video-screenshot.webp" alt="Klip — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><sub><b>Csak a videó egy részének letöltése</b><br/>Válasszon kezdetet és véget vagy egy fejezetet — az Arroxy csak azt a tartományt menti</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>8K HDR 60 fps-sel</b><br/>A videó által kínált minden felbontás, kodek és HDR-adatfolyam egymás mellett</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/8K-HDR-video-screenshot.webp" alt="Klip — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><sub><b>8K HDR 60 fps-sel</b><br/>A videó által kínált minden felbontás, kodek és HDR-adatfolyam egymás mellett</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Profilszerkesztő</b><br/>Hangolja a profilt: fájltípus, felbontás, feliratok, célmappa, fájlnévsablon és egyebek</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Profile-editor-screenshot.webp" alt="Klip — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><sub><b>Profilszerkesztő</b><br/>Hangolja a profilt: fájltípus, felbontás, feliratok, célmappa, fájlnévsablon és egyebek</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub><b>Sötét vagy világos, üveg vagy tömör</b><br/>Négy megjelenés közül választhat: üvegpanelek mozgó égbolt fölött vagy nyugodt, tömör felületek, mindegyik sötét és világos változatban</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc theme in dark and light modes" width="760" /><br/><sub><b>Sötét vagy világos, üveg vagy tömör</b><br/>Négy megjelenés közül választhat: üvegpanelek mozgó égbolt fölött vagy nyugodt, tömör felületek, mindegyik sötét és világos változatban</sub></td>
   </tr>
   <tr>
     <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Az Arroxy globális letöltési gyorsbillentyűje — Ctrl+Shift+D Windowson és Linuxon, Cmd+Shift+D macOS-en, a kimásolt hivatkozást közvetlenül a letöltési sorba küldve" width="760" /></picture><br/><sub><b>Globális letöltési gyorsbillentyű</b><br/>Másoljon ki egy hivatkozást bárhol, nyomja meg egyszer — a sorba kerül, és elindul a letöltés</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/hu/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub><b>Lejátszásilista-elemenkénti profilok</b><br/>Adjon minden videónak saját profilt — egyeseket archiváljon 4K-ban, a többit mentse csak hangként</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Per-item-playlist-profiles-screenshot.webp" alt="Klip — Per-item playlist profiles" width="760" /><br/><sub><b>Lejátszásilista-elemenkénti profilok</b><br/>Adjon minden videónak saját profilt — egyeseket archiváljon 4K-ban, a többit mentse csak hangként</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub><b>Gyorsletöltés kezdőlap</b><br/>Illesszen be egy URL-t, és azonnal töltse le az aktív profillal</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub><b>Újrahasználható letöltési profilok</b><br/>Mentsen formátum-, minőség- és kimeneti előbeállításokat — használja újra letöltésenként</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Main-screenshot.webp" alt="Klip — Quick Download home" /><br/><sub><b>Gyorsletöltés kezdőlap</b><br/>Illesszen be egy URL-t, és azonnal töltse le az aktív profillal</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Download-profiles-screenshot.webp" alt="Klip — Download profiles" /><br/><sub><b>Újrahasználható letöltési profilok</b><br/>Mentsen formátum-, minőség- és kimeneti előbeállításokat — használja újra letöltésenként</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub><b>Többnyelvű hangsávok</b><br/>Válassza ki a videóhoz tartozó pontos hangnyelvet</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub><b>Térhatású / Dolby hang</b><br/>Az 5.1-es és a Dolby hangsávok felismerve és megőrizve</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Multi-lang-audio-support-screenshot.webp" alt="Klip — Multi-language audio" /><br/><sub><b>Többnyelvű hangsávok</b><br/>Válassza ki a videóhoz tartozó pontos hangnyelvet</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Dolby-audio-support-screenshot.webp" alt="Klip — Surround / Dolby audio" /><br/><sub><b>Térhatású / Dolby hang</b><br/>Az 5.1-es és a Dolby hangsávok felismerve és megőrizve</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub><b>Tömeges URL mód</b><br/>Illesszen be egy listát, automatikus ismétlődés-szűrés, és az összeset egyszerre sorba állíthatja</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub><b>Párhuzamos letöltési sor</b><br/>Több letöltés egyszerre, élő haladással</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Bulk-urls-mode-screenshot.webp" alt="Klip — Bulk URL mode" /><br/><sub><b>Tömeges URL mód</b><br/>Illesszen be egy listát, automatikus ismétlődés-szűrés, és az összeset egyszerre sorba állíthatja</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/hu/Downloading-in-parallel-screenshot.webp" alt="Klip — Parallel download queue" /><br/><sub><b>Párhuzamos letöltési sor</b><br/>Több letöltés egyszerre, élő haladással</sub></td>
   </tr>
 </table>
 
@@ -206,42 +230,14 @@ _Utolsó frissítés: 2026-11-16._
 
 **Követelmények:** Windows 10/11 · macOS 13+ (Intel vagy Apple Silicon) · Linux (AppImage, Flatpak vagy tar.gz).
 
-**Windows**
-
-```bash
-winget install AntonioOrionus.Arroxy
-```
-
-**macOS**
-
-```bash
-brew install --cask antonio-orionus/arroxy/arroxy
-```
-
-**Linux**
-
-AppImage:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
-```
-
-Flatpak:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
-```
-
-A buildek csak x86_64-esek. Nincs `curl`? Cserélje a `curl -fsSL` parancsot `wget -qO-`-ra.
-
 | Platform | Közvetlen letöltés |
 | --- | --- |
-| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
-| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
-| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
-| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) |
 
-[**Az összes kiadási fájl →**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+[**Az összes kiadási fájl →**](https://github.com/saulgabriel7/klip/releases/latest)
 
 <details>
 <summary><strong><a id="windows-first-launch"></a>🪟 Első indítás Windowson</strong></summary>
@@ -262,8 +258,6 @@ A Defender heurisztikái olykor gyanúsként jelölik az aláíratlan NSIS-telep
 
 > Az Arroxyt csak a hivatalos GitHub Releases oldalról töltse le. Ha a fájlt másik webhelyről szerezte, vagy valaki elküldte Önnek, törölje, és töltsön le egy friss példányt a hivatalos forrásból. A forráskód nyilvános, így megvizsgálhatja, vagy ha szeretné, maga is lefordíthatja az Arroxyt.
 
-Inkább a Scoopot szereti? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`
-
 </details>
 
 <details>
@@ -271,16 +265,12 @@ Inkább a Scoopot szereti? `scoop bucket add arroxy https://github.com/antonio-o
 
 Az Arroxy macOS-buildjei ad-hoc aláírtak, de az Apple nem hitelesítette őket, ezért a Gatekeeper az első indításkor blokkolja őket az *„Arroxy.app” nem nyitható meg — az Apple nem tudta ellenőrizni, hogy az „Arroxy.app” mentes a kártevőktől* üzenettel. Ez azt jelenti, hogy a macOS nem tudja az Apple-lel ellenőrizni az alkalmazást, nem azt, hogy a fájlokkal bármi gond lenne. A Homebrew-val való telepítés teljesen elkerüli ezt a párbeszédpanelt. Ha a DMG-t használta, egyetlen terminálparancs megoldja:
 
-<div align="center">
-  <img src="../../build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
-</div>
-
 1. Húzza az `Arroxy.app` fájlt a csatolt DMG-ből az `/Applications` mappába.
 2. Nyissa meg a Terminált, és futtassa ezt a két parancsot:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Arroxy.app
-open /Applications/Arroxy.app
+xattr -cr /Applications/klip.app
+open /Applications/klip.app
 ```
 
 Az első parancs eltávolítja a karanténattribútumot, amelyet a macOS a fájl letöltésekor csatolt hozzá; a második elindítja az alkalmazást. Általában nincs szükség a `sudo`-ra, mert az `/Applications` mappában lévő példány az Öné — csak akkor adja hozzá, ha jogosultsági hibát kap.
@@ -314,14 +304,14 @@ Az AppImage-ek közvetlenül futnak — telepítés nélkül. Csak futtathatók�
 **Terminál:**
 
 ```bash
-chmod +x Arroxy-linux-x64.AppImage
-./Arroxy-linux-x64.AppImage
+chmod +x Klip-linux-x64.AppImage
+./Klip-linux-x64.AppImage
 ```
 
 Ha az indítás még mindig sikertelen, futtassa csatolás nélkül — FUSE-csomag nem szükséges:
 
 ```bash
-./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+./Klip-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 **Opcionális asztali integráció:** telepítse egyszer az [AppImageLaunchert](https://github.com/TheAssassin/AppImageLauncher), és minden duplán kattintott AppImage automatikusan bekerül az indítómenübe — kézi `.desktop` fájl nélkül.
@@ -331,8 +321,8 @@ Ha az indítás még mindig sikertelen, futtassa csatolás nélkül — FUSE-cso
 A `.tar.gz` build ugyanaz az alkalmazás az AppImage-burkoló nélkül — bárhol kicsomagolhatja és futtathatja. Nincs szükség telepítőre és FUSE-csomagra.
 
 ```bash
-tar xzf Arroxy-linux-x64.tar.gz
-./Arroxy-linux-x64/arroxy
+tar xzf Klip-linux-x64.tar.gz
+./Klip-linux-x64/klip
 ```
 
 **A kiadási oldalon található Linux-letöltések csak x86_64-esek.** ARM64-es gépeken (Raspberry Pi, Asahi Linux) a Flatpak még települ, majd indításkor `bwrap: execvp ldconfig: Exec format error` hibával meghiúsul.
@@ -347,19 +337,19 @@ Minden kiadás a binárisok mellett közzétesz egy `SHA256SUMS` fájlt is. Anna
 **Windows (PowerShell vagy Parancssor):**
 
 ```powershell
-certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+certutil -hashfile Klip-win-x64-Setup.exe SHA256
 ```
 
 **macOS (Terminál):**
 
 ```bash
-shasum -a 256 Arroxy-mac-arm64.dmg
+shasum -a 256 Klip-mac-arm64.dmg
 ```
 
 **Linux (Terminál):**
 
 ```bash
-sha256sum Arroxy-linux-x64.AppImage
+sha256sum Klip-linux-x64.AppImage
 ```
 
 Külső kártevővizsgálatot szeretne? Töltse fel a fájlt a [VirusTotalra](https://www.virustotal.com). Néhány általános heurisztikus jelzés kisebb motoroktól normális az aláíratlan Electron-alkalmazásoknál; a nagy motorok széles körű észlelései viszont valódi aggodalomra adnának okot.
@@ -387,7 +377,7 @@ Külső kártevővizsgálatot szeretne? Töltse fel a fájlt a [VirusTotalra](ht
 
 Összehasonlítás a leggyakoribb alternatívákkal:
 
-|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+|            | Klip   | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
 | ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
 | Beépített böngésző (böngészés, bejelentkezés, letöltés) |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
 | Olyan videók, amelyeket a fiókja megnézhet, sütik exportálása nélkül |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
@@ -524,8 +514,6 @@ Van egy ötlete egy funkcióhoz? [Nyisson egy kérést](../../../../issues) — 
 
 Az Arroxy ingyenes és GPLv3 licenc alatt áll — nincs reklám, nincs követés, nincs fizetős szint. Ha időt spórol Önnek, támogathatja a fejlesztést Bitcoinnal, Tronnal vagy Ethereummal: a címek a [DONATE.md](../../DONATE.md) fájlban találhatók, amely az egyetlen hivatalos forrásuk. Az Arroxy soha nem küld Önnek címet e-mailben vagy közvetlen üzenetben. A tároló csillagozása, a hibák jelentése és a fordítások javítása ugyanilyen sokat segít.
 
-<a href="../../DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
-
 ---
 
 ## <a id="tech"></a>🛠️ Ezzel készült
@@ -626,48 +614,44 @@ bun run dist:win     # Windows-célok csomagolása támogatott gépen futtatva
 <details>
 <summary><strong>🖥️ App won't open / no window appears</strong></summary>
 
-The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+The Klip process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
 
 **1. Check the log.** It records startup, GPU info, and any crash. Path:
 
-| Platform | Path                             |
-| -------- | -------------------------------- |
-| Windows  | `%APPDATA%\arroxy\logs\main.log` |
-| macOS    | `~/Library/Logs/arroxy/main.log` |
-| Linux    | `~/.config/arroxy/logs/main.log` |
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\logs\main.log`                 |
+| macOS    | `~/Library/Application Support/Klip/logs/main.log` |
+| Linux    | `~/.config/klip/logs/main.log`                 |
 
 **2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
 
 ```bash
 # Windows (Portable) — PowerShell, run from the folder containing the exe
-.\Arroxy-win-x64-Portable.exe --disable-gpu
+.\Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Portable) — Command Prompt (cmd.exe), from the same folder
-Arroxy-win-x64-Portable.exe --disable-gpu
+Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Installed) — works in both PowerShell and cmd.exe
-"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+"%LOCALAPPDATA%\Programs\Klip\Klip.exe" --disable-gpu
 
 # macOS
-/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+/Applications/klip.app/Contents/MacOS/klip --disable-gpu
 
 # Linux (AppImage)
-./Arroxy-linux-x64.AppImage --disable-gpu
+./Klip-linux-x64.AppImage --disable-gpu
 ```
 
 If that works, the GPU/driver is the cause. Make the change permanent (next step).
 
 **3. Persist the flag via `argv.json`.** Create the file at:
 
-| Platform | Path                                             |
-| -------- | ------------------------------------------------ |
-| Windows  | `%APPDATA%\arroxy\argv.json`                     |
-| macOS    | `~/Library/Application Support/arroxy/argv.json` |
-| Linux    | `~/.config/arroxy/argv.json`                     |
-
-On Flatpak, both `main.log` and `argv.json` live under
-`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
-(for example `logs/main.log`).
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\argv.json`                     |
+| macOS    | `~/Library/Application Support/Klip/argv.json` |
+| Linux    | `~/.config/klip/argv.json`                     |
 
 With contents:
 
@@ -675,7 +659,7 @@ With contents:
 { "disable-hardware-acceleration": true }
 ```
 
-Arroxy reads this before opening any window, so it works even when the window never appeared.
+Klip reads this before opening any window, so it works even when the window never appeared.
 
 **4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
 
@@ -693,11 +677,11 @@ Az Arroxy kizárólag személyes, privát használatra szánt eszköz. Kizáról
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
  </picture>
 </a>
 

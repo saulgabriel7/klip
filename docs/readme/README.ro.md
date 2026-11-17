@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../../build/banners/ro-48b4af1324.jpg" alt="Lipiți un link sau pur și simplu navigați. Ecranul URL și browserul încorporat din Arroxy, cu o descărcare în curs." width="1200" />
+  <img src="../../build/banners/ro-924a9c9e35.jpg" alt="Lipiți un link sau pur și simplu navigați. Ecranul URL și browserul încorporat din Arroxy, cu o descărcare în curs." width="1200" />
 
 # Klip
 
@@ -27,20 +27,18 @@ Program gratuit și cu sursă deschisă pentru descărcări de pe YouTube și pe
 
 [Prima pornire în Windows](#windows-first-launch) · [Prima pornire în macOS](#macos-first-launch) · [Prima pornire în Linux](#linux-first-launch)
 
-[![Versiune](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![Licență](https://img.shields.io/badge/license-GPLv3-blue) ![Limbi](https://img.shields.io/badge/i18n-50_languages-blue)
+[![Versiune](https://img.shields.io/github/v/release/saulgabriel7/klip?label=Release&color=blueviolet)](https://github.com/saulgabriel7/klip/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/saulgabriel7/klip/ci.yml?label=Build)](https://github.com/saulgabriel7/klip/actions) ![Licență](https://img.shields.io/badge/license-GPLv3-blue) ![Limbi](https://img.shields.io/badge/i18n-50_languages-blue)
 
 **Citiți în:** [Afaan Oromoo](README.om.md) · [Bahasa Indonesia](README.id.md) · [Català](README.ca.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Eesti](README.et.md) · [English](../../README.md) · [Español](README.es.md) · [Euskara](README.eu.md) · [Français](README.fr.md) · [Galego](README.gl.md) · [Hrvatski](README.hr.md) · [Italiano](README.it.md) · [Kiswahili](README.sw.md) · [Latviešu](README.lv.md) · [Lietuvių](README.lt.md) · [Magyar](README.hu.md) · [Nederlands](README.nl.md) · [Norsk bokmål](README.nb.md) · [O'zbekcha](README.uz.md) · [Polski](README.pl.md) · [Português](README.pt.md) · **Română** · [Slovenčina](README.sk.md) · [Slovenščina](README.sl.md) · [Suomi](README.fi.md) · [Svenska](README.sv.md) · [Tiếng Việt](README.vi.md) · [Türkçe](README.tr.md) · [አማርኛ](README.am.md) · [עברית](README.he.md) · [العربية](README.ar.md) · [اردو](README.ur.md) · [پښتو](README.ps.md) · [فارسی](README.fa.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [မြန်မာဘာသာ](README.my.md) · [ខ្មែរ](README.km.md) · [Ελληνικά](README.el.md) · [Български](README.bg.md) · [Русский](README.ru.md) · [Српски](README.sr.md) · [Українська](README.uk.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [繁體中文](README.zh-Hant.md)
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Main-screenshot.webp" alt="Klip — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
   </tr>
 </table>
 
 Fără reclame, limite de utilizare sau oferte insistente de upgrade.
-
-[![Alăturați-vă comunității Discord](https://img.shields.io/badge/Al%C4%83tura%C8%9Bi-v%C4%83%20comunit%C4%83%C8%9Bii%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
 
 Dacă Arroxy vă economisește timp, un ⭐ îi ajută pe alții să-l găsească.
 
@@ -52,7 +50,7 @@ Dacă Arroxy vă economisește timp, un ⭐ îi ajută pe alții să-l găseasc�
 
 Conectați-vă o singură dată pe fiecare site pentru a descărca conținut la care contul dvs. are acces — inclusiv videoclipuri private și listele Redă mai târziu și Videoclipurile apreciate. Fără export de cookie-uri. [Mai multe despre Explorare](#why-explore).
 
-_Ultima actualizare: 2026-11-16._
+_Ultima actualizare: 2026-11-17._
 
 > 🌐 Această traducere a fost realizată cu sprijinul IA. [README-ul în engleză](../../README.md) este sursa de referință. Ați găsit o greșeală? [Deschideți un PR](../../../../pulls).
 
@@ -60,6 +58,7 @@ _Ultima actualizare: 2026-11-16._
 
 ## Cuprins
 
+- [🔄 What changed from Arroxy](#diff-arroxy)
 - [✨ Funcționalități](#features)
 - [📥 Instalare și prima pornire](#install)
   - [Prima pornire în Windows](#windows-first-launch)
@@ -77,45 +76,70 @@ _Ultima actualizare: 2026-11-16._
 
 ---
 
+## <a id="diff-arroxy"></a>🔄 What changed from Arroxy
+
+Klip is a minimalist redesign and full rebranding based on the open-source architecture of [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Here is what changed:
+
+| Area | Original Arroxy | Klip |
+| --- | --- | --- |
+| **Brand & Logo** | Arroxy name, mascot character, and purple/blue branding | New geometric **Klip** mark (`K` frame-cut SVG/ICNS/ICO kit) and adaptive monochrome/tray icons |
+| **Visual Direction** | Aurora WebGL animated sky, heavy glassmorphism blur, and neon glow shadows | **Solid Zinc Minimalism** — Aurora removed; pure dark & light `shadcn/ui` surfaces with crisp `1px` borders |
+| **Typography & Hierarchy** | Layered translucent cards with decorative gradients | Flat panels (`bg-background`, `bg-card`), tight headings (`tracking-tight`), and `tabular-nums` for telemetry |
+| **Packaging & Metadata** | `com.arroxy.app` / `Arroxy.app` / `Arroxy.exe` | `com.saulgabriel.klip` / `klip.app` / `Klip.exe` distributed via personal GitHub Releases |
+| **Core Engine & i18n** | Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 languages | 100% preserved — same high-speed download engine, Explore browser, profiles, queue, and 50 locales |
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../branding/kit/klip-horizontal-white-1200.png" />
+    <source media="(prefers-color-scheme: light)" srcset="../../branding/kit/klip-horizontal-black-1200.png" />
+    <img src="../../branding/kit/klip-horizontal-black-1200.png" alt="Klip Brand Identity" width="360" />
+  </picture>
+  <br/><br/>
+  <img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc interface in Dark and Light modes" width="760" /><br/>
+  <sub><b>Întunecat sau luminos, sticlă sau plin</b><br/>Patru aspecte la alegere: panouri de sticlă peste un cer în mișcare sau suprafețe pline, discrete, fiecare în variantă întunecată și luminoasă</sub>
+</div>
+
+---
+
 ## <a id="features"></a>✨ Funcționalități
 
 <table align="center" width="100%">
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Explorare</b><br/>Navigați pe YouTube sau pe orice alt site direct în Arroxy și descărcați pagina pe care o vizitați cu profilul activ</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><sub><b>Explorare</b><br/>Navigați pe YouTube sau pe orice alt site direct în Arroxy și descărcați pagina pe care o vizitați cu profilul activ</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Primul ecran din Explorare</b><br/>O privire rapidă asupra Explorării și motivul pentru care un cont secundar este o conectare mai sigură</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Descărcări vă spune ce are nevoie de dvs.</b><br/>Linkurile se pregătesc în fundal; unul eșuat oferă remedierea, o listă de redare lungă așteaptă alegerea dvs.</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Explore-screenshot.webp" alt="Klip — Explore first-run screen recommending a secondary account" /><br/><sub><b>Primul ecran din Explorare</b><br/>O privire rapidă asupra Explorării și motivul pentru care un cont secundar este o conectare mai sigură</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Downloads-attention-screenshot.webp" alt="Klip — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><sub><b>Descărcări vă spune ce are nevoie de dvs.</b><br/>Linkurile se pregătesc în fundal; unul eșuat oferă remedierea, o listă de redare lungă așteaptă alegerea dvs.</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Descărcați doar o parte dintr-un videoclip</b><br/>Alegeți un început și un sfârșit, sau un capitol — Arroxy salvează doar acel interval</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Part-of-video-screenshot.webp" alt="Klip — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><sub><b>Descărcați doar o parte dintr-un videoclip</b><br/>Alegeți un început și un sfârșit, sau un capitol — Arroxy salvează doar acel interval</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>8K HDR la 60 fps</b><br/>Fiecare rezoluție, codec și flux HDR pe care le oferă un videoclip, unul lângă altul</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/8K-HDR-video-screenshot.webp" alt="Klip — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><sub><b>8K HDR la 60 fps</b><br/>Fiecare rezoluție, codec și flux HDR pe care le oferă un videoclip, unul lângă altul</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Editorul de profil</b><br/>Reglați un profil: tipul de fișier, rezoluția, subtitrările, destinația, șablonul de nume de fișier și altele</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Profile-editor-screenshot.webp" alt="Klip — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><sub><b>Editorul de profil</b><br/>Reglați un profil: tipul de fișier, rezoluția, subtitrările, destinația, șablonul de nume de fișier și altele</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub><b>Întunecat sau luminos, sticlă sau plin</b><br/>Patru aspecte la alegere: panouri de sticlă peste un cer în mișcare sau suprafețe pline, discrete, fiecare în variantă întunecată și luminoasă</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc theme in dark and light modes" width="760" /><br/><sub><b>Întunecat sau luminos, sticlă sau plin</b><br/>Patru aspecte la alegere: panouri de sticlă peste un cer în mișcare sau suprafețe pline, discrete, fiecare în variantă întunecată și luminoasă</sub></td>
   </tr>
   <tr>
     <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Comanda rapidă globală de descărcare Arroxy — Ctrl+Shift+D în Windows și Linux, Cmd+Shift+D în macOS, trimițând linkul copiat direct în coada de descărcare" width="760" /></picture><br/><sub><b>Comandă rapidă globală de descărcare</b><br/>Copiați un link oriunde, apăsați o dată — ajunge în coadă și începe să se descarce</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/ro/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub><b>Profiluri pe element în listele de redare</b><br/>Dați fiecărui videoclip propriul profil — arhivați unele în 4K, salvați restul doar ca audio</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Per-item-playlist-profiles-screenshot.webp" alt="Klip — Per-item playlist profiles" width="760" /><br/><sub><b>Profiluri pe element în listele de redare</b><br/>Dați fiecărui videoclip propriul profil — arhivați unele în 4K, salvați restul doar ca audio</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub><b>Pagina Descărcare rapidă</b><br/>Lipiți un URL și descărcați-l instant cu profilul activ</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub><b>Profiluri de descărcare reutilizabile</b><br/>Salvați presetări de format, calitate și ieșire — reutilizați-le la fiecare descărcare</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Main-screenshot.webp" alt="Klip — Quick Download home" /><br/><sub><b>Pagina Descărcare rapidă</b><br/>Lipiți un URL și descărcați-l instant cu profilul activ</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Download-profiles-screenshot.webp" alt="Klip — Download profiles" /><br/><sub><b>Profiluri de descărcare reutilizabile</b><br/>Salvați presetări de format, calitate și ieșire — reutilizați-le la fiecare descărcare</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub><b>Piese audio în mai multe limbi</b><br/>Alegeți exact limba audio în care vine un videoclip</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub><b>Audio surround / Dolby</b><br/>Piste 5.1 și Dolby detectate și păstrate</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Multi-lang-audio-support-screenshot.webp" alt="Klip — Multi-language audio" /><br/><sub><b>Piese audio în mai multe limbi</b><br/>Alegeți exact limba audio în care vine un videoclip</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Dolby-audio-support-screenshot.webp" alt="Klip — Surround / Dolby audio" /><br/><sub><b>Audio surround / Dolby</b><br/>Piste 5.1 și Dolby detectate și păstrate</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub><b>Modul URL-uri în bloc</b><br/>Lipiți o listă, duplicatele se elimină automat, puneți-le pe toate în coadă deodată</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub><b>Coadă de descărcare paralelă</b><br/>Mai multe descărcări deodată, cu progres în timp real</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Bulk-urls-mode-screenshot.webp" alt="Klip — Bulk URL mode" /><br/><sub><b>Modul URL-uri în bloc</b><br/>Lipiți o listă, duplicatele se elimină automat, puneți-le pe toate în coadă deodată</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/ro/Downloading-in-parallel-screenshot.webp" alt="Klip — Parallel download queue" /><br/><sub><b>Coadă de descărcare paralelă</b><br/>Mai multe descărcări deodată, cu progres în timp real</sub></td>
   </tr>
 </table>
 
@@ -206,42 +230,14 @@ _Ultima actualizare: 2026-11-16._
 
 **Cerințe:** Windows 10/11 · macOS 13+ (Intel sau Apple Silicon) · Linux (AppImage, Flatpak sau tar.gz).
 
-**Windows**
-
-```bash
-winget install AntonioOrionus.Arroxy
-```
-
-**macOS**
-
-```bash
-brew install --cask antonio-orionus/arroxy/arroxy
-```
-
-**Linux**
-
-AppImage:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
-```
-
-Flatpak:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
-```
-
-Versiunile sunt doar x86_64. Nu aveți `curl`? Înlocuiți `curl -fsSL` cu `wget -qO-`.
-
 | Platformă | Descărcare directă |
 | --- | --- |
-| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
-| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
-| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
-| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) |
 
-[**Toate fișierele versiunii →**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+[**Toate fișierele versiunii →**](https://github.com/saulgabriel7/klip/releases/latest)
 
 <details>
 <summary><strong><a id="windows-first-launch"></a>🪟 Prima pornire în Windows</strong></summary>
@@ -262,8 +258,6 @@ Euristicile Defender semnalează uneori drept suspecte programele de instalare N
 
 > Descărcați Arroxy doar de pe pagina oficială GitHub Releases. Dacă ați primit fișierul de pe alt site sau vi l-a trimis cineva, ștergeți-l și descărcați o copie nouă din sursa oficială. Codul sursă este public, deci îl puteți inspecta sau puteți compila singur Arroxy, dacă preferați.
 
-Preferați Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`
-
 </details>
 
 <details>
@@ -271,16 +265,12 @@ Preferați Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/sc
 
 Versiunile Arroxy pentru macOS sunt semnate ad-hoc, dar nu sunt notarizate de Apple, deci Gatekeeper blochează prima pornire cu mesajul *„Arroxy.app” nu a fost deschis — Apple nu a putut verifica dacă „Arroxy.app” este lipsit de malware*. Asta înseamnă că macOS nu poate verifica aplicația cu Apple, nu că ar fi ceva în neregulă cu fișierele. Instalarea cu Homebrew evită complet această fereastră. Dacă ați folosit DMG-ul, o singură comandă în Terminal o rezolvă:
 
-<div align="center">
-  <img src="../../build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
-</div>
-
 1. Trageți `Arroxy.app` din DMG-ul montat în `/Applications`.
 2. Deschideți Terminal și rulați aceste două comenzi:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Arroxy.app
-open /Applications/Arroxy.app
+xattr -cr /Applications/klip.app
+open /Applications/klip.app
 ```
 
 Prima comandă elimină atributul de carantină atașat de macOS la descărcarea fișierului; a doua pornește aplicația. De obicei nu aveți nevoie de `sudo`, deoarece copia din `/Applications` vă aparține — adăugați-l doar dacă primiți o eroare de permisiuni.
@@ -314,14 +304,14 @@ AppImage-urile rulează direct — fără instalare. Trebuie doar să marcați f
 **Terminal:**
 
 ```bash
-chmod +x Arroxy-linux-x64.AppImage
-./Arroxy-linux-x64.AppImage
+chmod +x Klip-linux-x64.AppImage
+./Klip-linux-x64.AppImage
 ```
 
 Dacă pornirea tot eșuează, rulați-l fără montare — nu este nevoie de pachetul FUSE:
 
 ```bash
-./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+./Klip-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 **Integrare opțională în desktop:** instalați o dată [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), iar orice AppImage pe care faceți dublu clic este înregistrat automat în meniul de lansare — fără fișier `.desktop` manual.
@@ -331,8 +321,8 @@ Dacă pornirea tot eșuează, rulați-l fără montare — nu este nevoie de pac
 Versiunea `.tar.gz` este aceeași aplicație, fără învelișul AppImage — extrageți-o oriunde și rulați-o. Fără program de instalare și fără pachetul FUSE.
 
 ```bash
-tar xzf Arroxy-linux-x64.tar.gz
-./Arroxy-linux-x64/arroxy
+tar xzf Klip-linux-x64.tar.gz
+./Klip-linux-x64/klip
 ```
 
 **Descărcările pentru Linux de pe pagina versiunii sunt doar x86_64.** Pe mașinile ARM64 (Raspberry Pi, Asahi Linux), Flatpak se instalează totuși, apoi eșuează la pornire cu `bwrap: execvp ldconfig: Exec format error`.
@@ -347,19 +337,19 @@ Fiecare versiune publică un fișier `SHA256SUMS` alături de fișierele binare.
 **Windows (PowerShell sau Prompt de comandă):**
 
 ```powershell
-certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+certutil -hashfile Klip-win-x64-Setup.exe SHA256
 ```
 
 **macOS (Terminal):**
 
 ```bash
-shasum -a 256 Arroxy-mac-arm64.dmg
+shasum -a 256 Klip-mac-arm64.dmg
 ```
 
 **Linux (Terminal):**
 
 ```bash
-sha256sum Arroxy-linux-x64.AppImage
+sha256sum Klip-linux-x64.AppImage
 ```
 
 Doriți o scanare anti-malware terță? Încărcați fișierul pe [VirusTotal](https://www.virustotal.com). Câteva semnalări euristice generice din partea unor motoare minore sunt normale pentru aplicațiile Electron nesemnate; detecțiile răspândite din partea motoarelor majore ar fi o problemă reală.
@@ -387,7 +377,7 @@ Doriți o scanare anti-malware terță? Încărcați fișierul pe [VirusTotal](h
 
 O comparație directă cu cele mai comune alternative:
 
-|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+|            | Klip   | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
 | ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
 | Browser încorporat (navigare, conectare, descărcare) |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
 | Videoclipuri pe care propriul dvs. cont le poate viziona, fără export de cookie-uri |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
@@ -524,8 +514,6 @@ Aveți în minte o funcționalitate? [Deschideți o cerere](../../../../issues) 
 
 Arroxy este gratuit și are licență GPLv3 — fără reclame, fără urmărire, fără nivel plătit. Dacă vă economisește timp, puteți susține dezvoltarea cu Bitcoin, Tron sau Ethereum: adresele se găsesc în [DONATE.md](../../DONATE.md), singura sursă oficială pentru ele. Arroxy nu vă va trimite niciodată o adresă prin e-mail sau mesaj direct. Marcarea depozitului cu stea, raportarea erorilor și îmbunătățirea traducerilor ajută la fel de mult.
 
-<a href="../../DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
-
 ---
 
 ## <a id="tech"></a>🛠️ Construit cu
@@ -626,48 +614,44 @@ bun run dist:win     # package Windows targets when run on a supported host
 <details>
 <summary><strong>🖥️ App won't open / no window appears</strong></summary>
 
-The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+The Klip process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
 
 **1. Check the log.** It records startup, GPU info, and any crash. Path:
 
-| Platform | Path                             |
-| -------- | -------------------------------- |
-| Windows  | `%APPDATA%\arroxy\logs\main.log` |
-| macOS    | `~/Library/Logs/arroxy/main.log` |
-| Linux    | `~/.config/arroxy/logs/main.log` |
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\logs\main.log`                 |
+| macOS    | `~/Library/Application Support/Klip/logs/main.log` |
+| Linux    | `~/.config/klip/logs/main.log`                 |
 
 **2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
 
 ```bash
 # Windows (Portable) — PowerShell, run from the folder containing the exe
-.\Arroxy-win-x64-Portable.exe --disable-gpu
+.\Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Portable) — Command Prompt (cmd.exe), from the same folder
-Arroxy-win-x64-Portable.exe --disable-gpu
+Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Installed) — works in both PowerShell and cmd.exe
-"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+"%LOCALAPPDATA%\Programs\Klip\Klip.exe" --disable-gpu
 
 # macOS
-/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+/Applications/klip.app/Contents/MacOS/klip --disable-gpu
 
 # Linux (AppImage)
-./Arroxy-linux-x64.AppImage --disable-gpu
+./Klip-linux-x64.AppImage --disable-gpu
 ```
 
 If that works, the GPU/driver is the cause. Make the change permanent (next step).
 
 **3. Persist the flag via `argv.json`.** Create the file at:
 
-| Platform | Path                                             |
-| -------- | ------------------------------------------------ |
-| Windows  | `%APPDATA%\arroxy\argv.json`                     |
-| macOS    | `~/Library/Application Support/arroxy/argv.json` |
-| Linux    | `~/.config/arroxy/argv.json`                     |
-
-On Flatpak, both `main.log` and `argv.json` live under
-`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
-(for example `logs/main.log`).
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\argv.json`                     |
+| macOS    | `~/Library/Application Support/Klip/argv.json` |
+| Linux    | `~/.config/klip/argv.json`                     |
 
 With contents:
 
@@ -675,7 +659,7 @@ With contents:
 { "disable-hardware-acceleration": true }
 ```
 
-Arroxy reads this before opening any window, so it works even when the window never appeared.
+Klip reads this before opening any window, so it works even when the window never appeared.
 
 **4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
 
@@ -693,11 +677,11 @@ Arroxy este un instrument destinat exclusiv uzului personal, privat. Sunteți si
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
  </picture>
 </a>
 

@@ -1,12 +1,13 @@
 {
   "om": {
-    "image": "build/banners/om-c35dae91c5.jpg",
+    "image": "build/banners/om-44e4d79c3b.jpg",
     "slogan": "Geessituu maxxansi,<br>yookaan salphaatti daawwadhu.",
-    "sha256": "c35dae91c5c3790cbc6b5c9ba5d24c9f548cb96a12ac3c451bed7022520cce0d",
+    "sha256": "44e4d79c3b7750e1d2b3f3d02b776d8293b5ad0e52525c914bd0c33e1b48dd1c",
     "sources": {
-      "build/screenshots/om/Download-row.webp": "18b3ee972cc51d83b9204c138852012a2a116393198a7ed9cce9ff3fe93ea7dc",
-      "build/screenshots/om/Explore-browsing-screenshot.webp": "638b8e080c39bcc44f5131c4f7adc6d14760a3b6014a4643c16fa0b1a9c6bde6",
-      "build/screenshots/om/Main-screenshot.webp": "548ee2b2b54079446526029f979a491d8a9f454d1f672e4c1bfa4cf79555bf68",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/om/Download-row.webp": "fcf11a28b7a77e8483146195fdc76ba79d9b123bfa7c92984d8e130350b2ccea",
+      "build/screenshots/om/Explore-browsing-screenshot.webp": "88fe8b0a0fe7b5d4c0f3827eb2259a91894ecb470a5675e4fca1231ac997696f",
+      "build/screenshots/om/Main-screenshot.webp": "dc36fd29fdb7244549c9291817e842f758fc254d273b1b8f74e7f71bf97dadf8",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -56,19 +57,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "id": {
-    "image": "build/banners/id-ba8a9c5427.jpg",
+    "image": "build/banners/id-746328177e.jpg",
     "slogan": "Tempel tautan,<br>atau jelajahi saja.",
-    "sha256": "ba8a9c542703db7430d4bb7081f4a2a1c78e49e343c48e10cb146c5a3f60364b",
+    "sha256": "746328177ecad9add2ea419319d438dc585eb2f45036cd731efdfd6977fd604e",
     "sources": {
-      "build/screenshots/id/Download-row.webp": "d0669d1fca23f13f84089abb429426ddb6d3a6d24b60597578c4ffed0d61faa4",
-      "build/screenshots/id/Explore-browsing-screenshot.webp": "324080687dc6b51d7eb53974b20083c104118c88dd04e9f93ee354a6256b697b",
-      "build/screenshots/id/Main-screenshot.webp": "02c87788c004ae0bdb9fa4bfc13a413cff4919998bc1254a753e831db141c735",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/id/Download-row.webp": "f7f399df98044f1e350b29197a251f8674b4ad15181d9d6afdf3f0e748fdb38a",
+      "build/screenshots/id/Explore-browsing-screenshot.webp": "3e81673df8b7308b5c3b3475559349ed5c06ff275879cddad0a84dd00bbb3d2d",
+      "build/screenshots/id/Main-screenshot.webp": "87c01c523ee61c359f173081255690efbde2d8888a77107f9837b148dca76d10",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -118,19 +119,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ca": {
-    "image": "build/banners/ca-b28d32defa.jpg",
+    "image": "build/banners/ca-29c1411454.jpg",
     "slogan": "Enganxa un enllaç,<br>o simplement navega.",
-    "sha256": "b28d32defa13a69f47e951b64ce099fe605c355cbe5d604af22116514a9e8a49",
+    "sha256": "29c14114548569e39f09450647ad03ca0c76bb19006ee71418b4a8b31cfd2e1f",
     "sources": {
-      "build/screenshots/ca/Download-row.webp": "5f210e0cbc735f0d067256d1c18041c4575daa6ab518050110f9f6af9f225431",
-      "build/screenshots/ca/Explore-browsing-screenshot.webp": "6de3db88429c6e237ff64c59a3159574f878b174a1b812c5c9032480c7da9896",
-      "build/screenshots/ca/Main-screenshot.webp": "eedaa25e06dacf1796d7d1dd8dfd46a9d563ed8697197b3ec33bd0599ad3b96e",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ca/Download-row.webp": "55484e608fbd5d3750c9fe490d76586dbe303f343333a758427e9a0506738fe7",
+      "build/screenshots/ca/Explore-browsing-screenshot.webp": "3a580b04e6f33f0b1f0ceaf972f1557bb1c97dcb402526e19d5e0aac8a7cfdf3",
+      "build/screenshots/ca/Main-screenshot.webp": "906a4087044628d9693058050c55aed6db2de7171c5f686cacc960976b14db7c",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -180,19 +181,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "cs": {
-    "image": "build/banners/cs-bb0fef881d.jpg",
+    "image": "build/banners/cs-6c05ded958.jpg",
     "slogan": "Vložte odkaz,<br>nebo jen procházejte web.",
-    "sha256": "bb0fef881d8e31bc40515026168fe66654645a4f850df5f176914d365cfad2d6",
+    "sha256": "6c05ded958a60f0e6cee60bdb07ed3d4b764cb2dc9a57df177e3056603774e38",
     "sources": {
-      "build/screenshots/cs/Download-row.webp": "2b70d324da7fc15fe02ec82295c75b8ba8a47d5d44229f8a5c817422d961b6f7",
-      "build/screenshots/cs/Explore-browsing-screenshot.webp": "9472b097a68cf8d740796ad4b75b65bf4335da61542208ac25941d3967db5791",
-      "build/screenshots/cs/Main-screenshot.webp": "8a44b98e64b36b1c9012dc4bb5f03209a3cabfbaa9c33b1c7f12f22772dc59d6",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/cs/Download-row.webp": "25785f619e195070b4d3fd811aca500e64ab1f744f06808bf6b7ac12cd38b239",
+      "build/screenshots/cs/Explore-browsing-screenshot.webp": "0cbc325eb4f1190e8a24026f158f6f77bf336974b3c471d87e2f5890860a1771",
+      "build/screenshots/cs/Main-screenshot.webp": "50f2a3103f1c7060573640801d3b10615ad589844f7ccdc7613fd001f6ca2084",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -242,19 +243,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "da": {
-    "image": "build/banners/da-53c97b8362.jpg",
+    "image": "build/banners/da-efeb50dae4.jpg",
     "slogan": "Indsæt et link,<br>eller gå på opdagelse.",
-    "sha256": "53c97b83625ee94d1f8bc0246c3e2e693c665cf7863f438b7a3a918968ecf2f3",
+    "sha256": "efeb50dae4fd55ec690e21562e6f7b0fd98bc4527ae6a49048b4503991e9f35f",
     "sources": {
-      "build/screenshots/da/Download-row.webp": "58b5240eba5271ad08864d9fa69f156ebfa76eca42ca1385883504d440237c84",
-      "build/screenshots/da/Explore-browsing-screenshot.webp": "465810d1a6cb306af90044c619e9c9ef62e14d31e09dc932f7798a80ab05ab36",
-      "build/screenshots/da/Main-screenshot.webp": "3f029f90277fded98e3bf9f37b82c833815661fa33cbbf5cab35b49eda03f068",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/da/Download-row.webp": "8e660cffc114170d09408b5d9319804cf30a9f46b02cb0958f725c90f14cd413",
+      "build/screenshots/da/Explore-browsing-screenshot.webp": "e5363e2dc7f34bc5641f7357c73957da6c33abab3e3e4b6865d2ea029dd210fd",
+      "build/screenshots/da/Main-screenshot.webp": "01d48de8de4372056fb0cff2f6b475e33018abd396029dee557cbc56bb1c6581",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -304,19 +305,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "de": {
-    "image": "build/banners/de-bc0d835a15.jpg",
+    "image": "build/banners/de-34d39d63fb.jpg",
     "slogan": "Link einfügen<br>oder stöbern.",
-    "sha256": "bc0d835a151bdb54be388ecb486900f955bf7d9dd7d7aa0e2c78a21e8c2f628f",
+    "sha256": "34d39d63fb268a9fa6ca5c9b654b74e0ccdf7ff961d546cfafe97058565e39ee",
     "sources": {
-      "build/screenshots/de/Download-row.webp": "9def3113dffb5de6d21c76eae1ee21e268e0203e1c82512b677a3222c487ca67",
-      "build/screenshots/de/Explore-browsing-screenshot.webp": "8b2b5d715111b1754d6e4038ad67c6af9458998e788fbf638b27f41dd6b7e238",
-      "build/screenshots/de/Main-screenshot.webp": "744583e1a795b2a9dcf083bdc4228c825b3979ed772e8bf665c45f6b7d85ed6b",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/de/Download-row.webp": "a268f2bd3b6273789011bad5c896606e5b0b62433091bf91b4eef1dd07166bd4",
+      "build/screenshots/de/Explore-browsing-screenshot.webp": "716589889ea0492aa97bf87d8a57053e5df4e70022f7fb229691b6a108839673",
+      "build/screenshots/de/Main-screenshot.webp": "3f5a93f87d12b362b4e6cd579d527643d9c41c9adb7bcb6fbfc161c1acf17d94",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -366,19 +367,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "et": {
-    "image": "build/banners/et-19cae65a4b.jpg",
+    "image": "build/banners/et-be0613e4b6.jpg",
     "slogan": "Kleepige link,<br>või lihtsalt sirvige.",
-    "sha256": "19cae65a4bb2fc51d243b8d5e7cbb8d9c80bac90151250cced8cf6a975d40ffb",
+    "sha256": "be0613e4b6fe65cb2ec479af07c0206a6eeb8daa85d9ace909d59c513fbe1456",
     "sources": {
-      "build/screenshots/et/Download-row.webp": "4d4ceec5fa32f0dbf18e98b870dbf46d0c73a32b6b36f0ba209771621ea0461c",
-      "build/screenshots/et/Explore-browsing-screenshot.webp": "7215ceb0d760984b6c7e287a425e5731febb6be40b16bfea0000ce0c876f4f7e",
-      "build/screenshots/et/Main-screenshot.webp": "95d76a9f641c5c0f292cc40e81e98567d442f0be89903b66d4fb6060ac3ad3e1",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/et/Download-row.webp": "8d49931d6f1af5163ff33c967a29de276663cb0dca49c7119f4d60039c6b8893",
+      "build/screenshots/et/Explore-browsing-screenshot.webp": "d96b1d8c03aef1edb36e97427c1ffe05ad40420fbfa91c347c6f7725241d2d3e",
+      "build/screenshots/et/Main-screenshot.webp": "8570afd1d5267edacdc83806d035366c62f7354a5748a3cec47fee229746255a",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -428,19 +429,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "en": {
-    "image": "build/banners/en-3157248559.jpg",
+    "image": "build/banners/en-22224e15e1.jpg",
     "slogan": "Paste a link,<br>or just browse.",
-    "sha256": "315724855959c403573f8668f7474a659616f00469f8d41717b821615da57014",
+    "sha256": "22224e15e1e7f0b24176a7128cc0e3e75b00d02fcba7644f00a15e09c936f71e",
     "sources": {
-      "build/screenshots/en/Download-row.webp": "a565e94e38146336b43cd5e581c00226017d7868671b3ae40b3d3d7198b1094f",
-      "build/screenshots/en/Explore-browsing-screenshot.webp": "4584b8d5d821bb97db20cc17c3d1e9dd3f94814c25c0ebdcc5e8b7d7e530ff77",
-      "build/screenshots/en/Main-screenshot.webp": "29c4a66d52d582143f71cb991d8af96af17a860348e6b38af23d65e0ccacac76",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/en/Download-row.webp": "ddb6d7cc38751daeb08729a77891d0cf080fecc15c8bfe32914a830e94ac8b8a",
+      "build/screenshots/en/Explore-browsing-screenshot.webp": "c4f025970eecc538622fce79b4e25e69e5d843b360b4cab77247aa7ceb7076e6",
+      "build/screenshots/en/Main-screenshot.webp": "e0658bb9fd47a6b804041c365fcc34885dc97022f37ce85e15d3632c087ae906",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -490,19 +491,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "es": {
-    "image": "build/banners/es-ee92d458d1.jpg",
+    "image": "build/banners/es-d5dfcb11bf.jpg",
     "slogan": "Pega un enlace<br>o solo navega.",
-    "sha256": "ee92d458d15a41da75bffa51fec03b0a0dcc94a4a97f685e10476bea26a39bd4",
+    "sha256": "d5dfcb11bf1e8a36ff6d9e7fe025014f9dc2f099452f46e94cd0ac9d4cb246c2",
     "sources": {
-      "build/screenshots/es/Download-row.webp": "2208f259419bddea141d4a5a255e3ea7350c5a2dac23608768d44b6bae99f5d1",
-      "build/screenshots/es/Explore-browsing-screenshot.webp": "32cc3ae4d596f83fe28f1e13cc8166d6abd9efaee248ca17ea403b08f4907313",
-      "build/screenshots/es/Main-screenshot.webp": "7cedef3113a3707df165083d64b4fda89568fcccdc0ce66ef766732d69cad058",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/es/Download-row.webp": "7ffa38a7610e2155602ab7a40f8c1788b5fbe2cc57a48b10648537245fb8172e",
+      "build/screenshots/es/Explore-browsing-screenshot.webp": "e995585e691a0544d46599c2aa95c6f241392fd7cfb03eac1c0e7873ae2c71b8",
+      "build/screenshots/es/Main-screenshot.webp": "48fc4ba44d4990e9c8f2aff61e5b1adb48dbc262f56f8c11be51bc46166eb752",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -552,19 +553,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "eu": {
-    "image": "build/banners/eu-941da2c67f.jpg",
+    "image": "build/banners/eu-6961960868.jpg",
     "slogan": "Itsatsi esteka bat,<br>edo nabigatu besterik gabe.",
-    "sha256": "941da2c67ffebf7c38aba4717710f9899c9f80bfa899204c91b9aae20f3f39d5",
+    "sha256": "6961960868d144d50543bb7c45f7010d8ebd5de535682113e41292f661c462b5",
     "sources": {
-      "build/screenshots/eu/Download-row.webp": "e2189f54aa34bc62a10f57f03fd605c067267d2ee38f60e5d1d19b068f7b6e97",
-      "build/screenshots/eu/Explore-browsing-screenshot.webp": "9fe876ccc6bbbb8be49f98ed75431d99f02acb12f518e3a49df259deb8f51ba3",
-      "build/screenshots/eu/Main-screenshot.webp": "ecfaca09001b209aa0e2965b1fb92bd02f366f0217f6aff03e163dd40fb59c01",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/eu/Download-row.webp": "b2f8c3f1c4d3a61442bc1c2fe725faa37fe6ecb4c8f7dd706853fdf222b1f601",
+      "build/screenshots/eu/Explore-browsing-screenshot.webp": "edda4c31e5899c6277850a58521fd02f2d6c98ec25eac2819289928fbe7aeb3d",
+      "build/screenshots/eu/Main-screenshot.webp": "a9cccd44041388a1b824b7db87e286369ccae9f12d57d4bb7304687cf03160fc",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -614,19 +615,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "fr": {
-    "image": "build/banners/fr-631a5b7975.jpg",
+    "image": "build/banners/fr-1d2dbb2806.jpg",
     "slogan": "Collez un lien,<br>ou naviguez.",
-    "sha256": "631a5b797595d534a562b6d740243a2188068c23958c954d3d2a196173385f31",
+    "sha256": "1d2dbb28067d65a4f67c7e47e98135f888f1babbaf9219b87bcec450b1e0cb8f",
     "sources": {
-      "build/screenshots/fr/Download-row.webp": "180264e022155cdb249845da273ae11ce3f2ef434fc075f824d32b29159b6a9c",
-      "build/screenshots/fr/Explore-browsing-screenshot.webp": "9a715628703302f0ab56d14843023e47aab14bc97947bda72d27c2aefb308924",
-      "build/screenshots/fr/Main-screenshot.webp": "aab63fbe353e02409a577725dfaeedfbc76d7b7bb0703fcead3dd9f3b7fd85f2",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/fr/Download-row.webp": "329c8b9f8edd1b83145c910868d0704e1da5275a2ddb20e61c00ea92cc2d89a3",
+      "build/screenshots/fr/Explore-browsing-screenshot.webp": "467abce21783a5ceb765e464fbaf8f318eeecf74a6af1e2e571b3153769a4175",
+      "build/screenshots/fr/Main-screenshot.webp": "395fe65e10614772792f3aeb7e789cc647c0d66d4323498f3ff6f5b9f7de2b61",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -676,19 +677,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "gl": {
-    "image": "build/banners/gl-3e294307d0.jpg",
+    "image": "build/banners/gl-b16cd16ccc.jpg",
     "slogan": "Pega unha ligazón,<br>ou simplemente navega.",
-    "sha256": "3e294307d0c2b31714b683b96241ea287737f4d3d2ad49e411e23afbecc52e0b",
+    "sha256": "b16cd16ccca97325507e2558202f43bbdc84af49e488a6a7c83233e82d42d81e",
     "sources": {
-      "build/screenshots/gl/Download-row.webp": "d91b6ee897db578f9d284009c766040d2bdb2ebf2087b6b47523ba39b956cfbf",
-      "build/screenshots/gl/Explore-browsing-screenshot.webp": "5be973079ef202050b3242b27d8218b78c9ef4b33f236ff68056f0e8d86bfe71",
-      "build/screenshots/gl/Main-screenshot.webp": "bc96ee6be82f90f039e85bc53092ca4daedc4f546831f708fbf90049c687ae7e",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/gl/Download-row.webp": "fe91bfc11216752f391516cc0e88179f1c6fc8bc09e38b54cdffdaa568a86b58",
+      "build/screenshots/gl/Explore-browsing-screenshot.webp": "9b7b7289885a592a2a638e2825ed0f8635eede1d46aa4facbfa48fa7d319afb2",
+      "build/screenshots/gl/Main-screenshot.webp": "2ae682faecbcb0b2100b5a4ad9dc20970c4da6f8f754308b070a74e6fe32e5f2",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -738,19 +739,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "hr": {
-    "image": "build/banners/hr-dfb2ee63aa.jpg",
+    "image": "build/banners/hr-2a7ee752dd.jpg",
     "slogan": "Zalijepite poveznicu,<br>ili pregledavajte web.",
-    "sha256": "dfb2ee63aac4b0c91651d00cdb922e56e68738d46edce4a5e349a62a98c7056f",
+    "sha256": "2a7ee752dd75b25efc57014d38388581b5a3bc71bff4f60a4f943471d3bf9635",
     "sources": {
-      "build/screenshots/hr/Download-row.webp": "55255d263743cd983247586b02a5cd944e417311195b3e5a5e15341e1b212b44",
-      "build/screenshots/hr/Explore-browsing-screenshot.webp": "1851b4417fe318ea62b43d52246eb66c502c56eeee8f2f22bdf40a55bc52c67b",
-      "build/screenshots/hr/Main-screenshot.webp": "e36ce675302baa7828e72eec740060b430f519e7fe8301f908b1201b7ec895c2",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/hr/Download-row.webp": "1c7a032b8759312a95264b6ce70812896b3431b4a1c5524336d37feac9833c16",
+      "build/screenshots/hr/Explore-browsing-screenshot.webp": "19cf26dd0b4af8a62c990fa4cfaf481321730d213e63962a6716c5b10a0858ec",
+      "build/screenshots/hr/Main-screenshot.webp": "e85062bbce9bacf8428df248374f89bbfd20f0b634659888cfaf7caf6b280632",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -800,19 +801,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "it": {
-    "image": "build/banners/it-5eea3a7b6d.jpg",
+    "image": "build/banners/it-1ddab1814b.jpg",
     "slogan": "Incolla un link,<br>o naviga liberamente.",
-    "sha256": "5eea3a7b6d2c2453ba4c6bb0bc3c15da65acc33f0a437cabce000c0a8fa482b8",
+    "sha256": "1ddab1814b706c1ea7ca2e24b5348e250557e5388efc8bceb5a7916f10501956",
     "sources": {
-      "build/screenshots/it/Download-row.webp": "0b81ffcfa1bdbbb83c1fa07cfbb2fa75736708300680da488bb628248b168f07",
-      "build/screenshots/it/Explore-browsing-screenshot.webp": "9d1076b4da780ec6148e094290429cdefc68bc3159e9f5e6d7ef1a6b0afd08b9",
-      "build/screenshots/it/Main-screenshot.webp": "781bfeed824a5191bc5b3a7e9c88fde54523e698e5a51e3faa015f41f2b43ef1",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/it/Download-row.webp": "462193db31b7be1397a23c72de89c2eb7f2231c4bf4fca3686f76e88b41be4f3",
+      "build/screenshots/it/Explore-browsing-screenshot.webp": "b103e3f721628073f2cdf5f8f20e02aace6e3c63240a5eb8d75f5fb7d93b94c0",
+      "build/screenshots/it/Main-screenshot.webp": "a242755996fe3ae925f1cbcd3e1bbf4ac2bb231302cc82f1a9a87b8898522c82",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -862,19 +863,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "sw": {
-    "image": "build/banners/sw-a08dbea301.jpg",
+    "image": "build/banners/sw-81c4d8ef7f.jpg",
     "slogan": "Bandika kiungo,<br>au vinjari tu.",
-    "sha256": "a08dbea301ca830aafb7fec7a6c846568775b254a211f3c3ec79c185300f64ed",
+    "sha256": "81c4d8ef7fd95beb632905e1974fe842bbc777f12663b5efcf0fdf0d54a0d4fd",
     "sources": {
-      "build/screenshots/sw/Download-row.webp": "53217651ee6efbaa5ca1e0459653f7fa0599695d1404729bb17edeb78745ca9c",
-      "build/screenshots/sw/Explore-browsing-screenshot.webp": "27477209e0d8aeb1fed245cff84d59d07e8436a9048feacdadc1cf7f34288635",
-      "build/screenshots/sw/Main-screenshot.webp": "8c1fba0a8e13d20683b0a44be8add0fb455c044989472593123f3213ed019fe7",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/sw/Download-row.webp": "104cbb2f061f4f10dfa7a52d4e54401a31fc87ddc39d203b9b53e53a9c0c6c4a",
+      "build/screenshots/sw/Explore-browsing-screenshot.webp": "bbfa67d6e19168e92be9456e1955f30f80314ec0a5b9a9021d632cf14ea39ace",
+      "build/screenshots/sw/Main-screenshot.webp": "246845194b523fea7ee02dd86484920039984ce36462f4c1f12972c185f03203",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -924,19 +925,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "lv": {
-    "image": "build/banners/lv-378edb7d9e.jpg",
+    "image": "build/banners/lv-294f7d2af4.jpg",
     "slogan": "Ielīmējiet saiti,<br>vai vienkārši pārlūkojiet.",
-    "sha256": "378edb7d9ec4f6b02c08b66499b861986f31256c541481f2ec5e3e09d8470238",
+    "sha256": "294f7d2af439ffe70e0ffb533244ac82f7926f960498c92b74f276b287a1ba38",
     "sources": {
-      "build/screenshots/lv/Download-row.webp": "e5f02e1392a32e5e78de3c0941c5444cca4800ebf02588378c62bf6c2e1d5052",
-      "build/screenshots/lv/Explore-browsing-screenshot.webp": "6a6b142f72a92c3fe76fc8b1fc30e9c464875fee166e10cdfc404b08481e6e6e",
-      "build/screenshots/lv/Main-screenshot.webp": "27fbc0678c2e3c083df6d36fcc9b8c09e02857d7bbd5186a3ec4062cc28637b4",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/lv/Download-row.webp": "5d14fe7eb8810841824461b8c4b825d4a58ff1c29906f8eecb21261ca500b95b",
+      "build/screenshots/lv/Explore-browsing-screenshot.webp": "3ebaef0d46410d6ceafbe53217a61bd7c03e75813d9eb059c4cde52855ce021b",
+      "build/screenshots/lv/Main-screenshot.webp": "ee40a2c5778dc631fe21ed01fa8c78b4d9c882046ea3b128c3dd684afb1875f6",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -986,19 +987,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "lt": {
-    "image": "build/banners/lt-e35d9b11b0.jpg",
+    "image": "build/banners/lt-3e9e21099b.jpg",
     "slogan": "Įklijuokite nuorodą,<br>arba tiesiog naršykite.",
-    "sha256": "e35d9b11b033596f93acd819e8387cc3bd5f5ac16f32b2030d397f5db17eb05d",
+    "sha256": "3e9e21099b18b35a7fdcb4207cc05cb7d4c0537f90a9ebaee1e206a810914c24",
     "sources": {
-      "build/screenshots/lt/Download-row.webp": "2131b0781a27ea12e7afaaf4de7642915904d380837ee34ab0f457a96fb35a77",
-      "build/screenshots/lt/Explore-browsing-screenshot.webp": "e7cee8fb4dd46f6cf96bd9306f265ba67ae013db0539f97d438677f4a3a2e9f9",
-      "build/screenshots/lt/Main-screenshot.webp": "b1083c941c6feefad53db3cba637ebdebd3fef78f5f766a7068c286a87eb04bc",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/lt/Download-row.webp": "5d50977f735bf47c0692a9e453cf90717c2d87da06f045f054ca86419ffea7b4",
+      "build/screenshots/lt/Explore-browsing-screenshot.webp": "d613c4497cf6b75103939f52c8fccf937af1ce000750b9821a9d874d2a70258c",
+      "build/screenshots/lt/Main-screenshot.webp": "f6a5798853e7e39551a940b4e5ea6bcef877ac569e99ef64605d7e7e2bc6cb26",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1048,19 +1049,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "hu": {
-    "image": "build/banners/hu-ffe87df4b5.jpg",
+    "image": "build/banners/hu-d4c0ba2163.jpg",
     "slogan": "Illesszen be egy hivatkozást,<br>vagy csak böngésszen.",
-    "sha256": "ffe87df4b5101772dea9c82b9e8337e0b194e74b8545d3d03995e3b459f3cd84",
+    "sha256": "d4c0ba21632926cae28110b831a61359a023a07237c55310e176f6665a6628f9",
     "sources": {
-      "build/screenshots/hu/Download-row.webp": "66086e30922773f4422d4953fb3df468c8ad2ddc2fdaaec939c1c241e0e257e0",
-      "build/screenshots/hu/Explore-browsing-screenshot.webp": "03bbfbcc7d0e0bc1d2238ee4afd8773fdb7de53cd99ccf85ded84b033701c107",
-      "build/screenshots/hu/Main-screenshot.webp": "a0fb3928a87d53806441808e3b2b5799f9d7822f4c89765a0d1ab2898f09ed9f",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/hu/Download-row.webp": "fe20ecdfbe60c0e7a9c35976e55f0895adafe7cabc602625c0c97f8d8b21c28b",
+      "build/screenshots/hu/Explore-browsing-screenshot.webp": "5ed224f7a8146b47ad43d90f6e0c19a7a3d1bc66ec95a001d958101e564582cf",
+      "build/screenshots/hu/Main-screenshot.webp": "db0fb90b67eda4d0e3823bb1d6dd8061717eec17b58eb4dac7c927dab9e92ae1",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1110,19 +1111,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "nl": {
-    "image": "build/banners/nl-583d671578.jpg",
+    "image": "build/banners/nl-0c821d5d5b.jpg",
     "slogan": "Plak een link,<br>of surf gewoon rond.",
-    "sha256": "583d6715787f4f43d1b69d495a9a8d58d3db82a9c00e4ba6fddc5208f03e3d7a",
+    "sha256": "0c821d5d5b1f9f858a362f537352b6aa51640a025fcfa8016ffbe108eee19601",
     "sources": {
-      "build/screenshots/nl/Download-row.webp": "d3905a35d0d910a41a97f2255f36a77c593f40b3c0517a2560569bb7f9d27305",
-      "build/screenshots/nl/Explore-browsing-screenshot.webp": "3a22e671ffe4925683932d9a740b81f3aa425fd8eacbd547d3e7a7a4b876cc69",
-      "build/screenshots/nl/Main-screenshot.webp": "4367987c82170b13cbf7e228938a73489c68479ead1571e9a40d77f66d722fae",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/nl/Download-row.webp": "bd7dc3bc1fd7cf9661bad828451b9b7925fac959ee60d131a58d795642454609",
+      "build/screenshots/nl/Explore-browsing-screenshot.webp": "a6365a1f246675fe813aaeb50a5579962f87b94c23d626dad2e9faca50487c6d",
+      "build/screenshots/nl/Main-screenshot.webp": "3c48c5030a4f726b91210f3c8caf859e1201c9f6c740b3b4815555a694efec1e",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1172,19 +1173,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "nb": {
-    "image": "build/banners/nb-826bba9b46.jpg",
+    "image": "build/banners/nb-e4192fcfea.jpg",
     "slogan": "Lim inn en lenke,<br>eller bare surf.",
-    "sha256": "826bba9b46787a00be9e6e137bc6805fbfb7f8ffa9c39890f79d69ddda6f81ed",
+    "sha256": "e4192fcfeae26898842b148970b94e00ca13c485ed24934fe4b8fdbcfbbf2fd6",
     "sources": {
-      "build/screenshots/nb/Download-row.webp": "90a54862d6df3cdf24a3c3020ebaef6f45cba09ea83488621bec40c543fe8ea4",
-      "build/screenshots/nb/Explore-browsing-screenshot.webp": "d8413563026a9dbb145ee257de7549ea58185b7f5ab2f109b8b3d932e5c37c32",
-      "build/screenshots/nb/Main-screenshot.webp": "8495c64bf9336bd102cea46635b18f43463e68aee0c12b8bfc6567f3c3820ba7",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/nb/Download-row.webp": "c7f8a735d7e129f6980e345ae97d8b919317ddfb61d93ade293b1a3784501b07",
+      "build/screenshots/nb/Explore-browsing-screenshot.webp": "ca90192de4c6abc8634d8409d1de42d552b06fc0e002139bb2036fd35afa8712",
+      "build/screenshots/nb/Main-screenshot.webp": "0ac693896083b19f3ac7380eea8f55fa27088138acc0e5bcddb7697e9edcf2ed",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1234,19 +1235,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "uz": {
-    "image": "build/banners/uz-c867fbf6b7.jpg",
+    "image": "build/banners/uz-db067c8f6f.jpg",
     "slogan": "Havolani joylashtiring,<br>yoki shunchaki ko'rib chiqing.",
-    "sha256": "c867fbf6b757e526757402d971dc2d73084ea4fa2f9d7c3a1d2a12c900b84f67",
+    "sha256": "db067c8f6fa42cf0152da7871f2d4aeaf357800f3ee61edf79ac658c3b025bbf",
     "sources": {
-      "build/screenshots/uz/Download-row.webp": "e37875b33399582862533ff67493733a0760e2f80f409d4d92ed63843efcbb53",
-      "build/screenshots/uz/Explore-browsing-screenshot.webp": "b9ca6e468f70c17800fb448efebd24522ec6e94d4791ec983016b587615d22b6",
-      "build/screenshots/uz/Main-screenshot.webp": "d2bc29cbf8cdb39efe98d67cfec1f8ae53c4f6808f4c2385fea2e1ccb2d907ed",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/uz/Download-row.webp": "505ebb1aa35befe2314b1150b2dc53279640c3f08f1f739930e16f3198f5a885",
+      "build/screenshots/uz/Explore-browsing-screenshot.webp": "b78971cc5da41fc7cf70bf725e6d64d2bdf26acea88e6660c37c1ef734513a83",
+      "build/screenshots/uz/Main-screenshot.webp": "497c3fb9dc35f43bf05c84df1865d6cb9a63ee0897a25b1bdb7a3ecb5271a255",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1296,19 +1297,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "pl": {
-    "image": "build/banners/pl-dce6a98fbf.jpg",
+    "image": "build/banners/pl-bd306d0ae0.jpg",
     "slogan": "Wklej link,<br>lub po prostu przeglądaj.",
-    "sha256": "dce6a98fbfb9c75aba07c5ada78eb92328212342a153441341e59feb734fa818",
+    "sha256": "bd306d0ae0b1df988446fe15a5f9cc373824a3d4892e1ef969bdc75f8e263705",
     "sources": {
-      "build/screenshots/pl/Download-row.webp": "c6e1b46de564afa1732c1758ed73dbb5d432d3691864f986fb6ecfc65dd92de4",
-      "build/screenshots/pl/Explore-browsing-screenshot.webp": "9f8e580875d1e667fd78a379aec7c467d3b8726235f538f345a336ab923f8b46",
-      "build/screenshots/pl/Main-screenshot.webp": "0e04299200198a45a7dac4826db747ba97b4fe6709180173764b9f6dc4bf7a40",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/pl/Download-row.webp": "579628c0dc9f51a425a486211aec8a3158833dd85d18c7f6fa023fe1669c072f",
+      "build/screenshots/pl/Explore-browsing-screenshot.webp": "a582bef018a72767bf72ac6a9e7879540b1de94e818a65337079222627f1b902",
+      "build/screenshots/pl/Main-screenshot.webp": "9e5638628451ad9eba9464f52bddec1cfb08bb17413230121c00c86649db0dfc",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1358,19 +1359,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "pt": {
-    "image": "build/banners/pt-db959c89fc.jpg",
+    "image": "build/banners/pt-438e14891c.jpg",
     "slogan": "Cole um link<br>ou só navegue.",
-    "sha256": "db959c89fc161cee889d4a317cf48acfb8ec6de5190bf019756314d183a3cfbf",
+    "sha256": "438e14891c72699bc89126e4a6cff1b3a436b5e0a815f59268bea132d4774f45",
     "sources": {
-      "build/screenshots/pt/Download-row.webp": "faab43d1dffa502c922b36c0013b09f85737894b7efe1f8e7cf047d2cdc0c84c",
-      "build/screenshots/pt/Explore-browsing-screenshot.webp": "0ba71c7039f994d788e2fbdca550759de4f566fc61f5a8a0cd23a497de8c5d6e",
-      "build/screenshots/pt/Main-screenshot.webp": "c3cddfc63d5d62e91c8ad1595cc3cd4329a0166cd984ebbbd54be608acc0485a",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/pt/Download-row.webp": "6a9134271004b621382935610e34dc000e2c4bf328c67b85cfa96c65d95b2c7a",
+      "build/screenshots/pt/Explore-browsing-screenshot.webp": "0fdbee14a57b4ebc5b409815ad1b280b019d4e9b97b1c723170524473296f989",
+      "build/screenshots/pt/Main-screenshot.webp": "3cac125ac8f6140eeeb1a0dd72a498528dc7ee09d6f0933c3274ab271ee43e5b",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1420,19 +1421,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ro": {
-    "image": "build/banners/ro-48b4af1324.jpg",
+    "image": "build/banners/ro-924a9c9e35.jpg",
     "slogan": "Lipiți un link,<br>sau pur și simplu navigați.",
-    "sha256": "48b4af1324cb0a03dd3de28c15d6064c78b5015c9a2b4c216bb0864ed30ceca3",
+    "sha256": "924a9c9e354be2b4a7dd188ce944e4a99afac7c2ae7785ceb6a9c9f0e2b3a386",
     "sources": {
-      "build/screenshots/ro/Download-row.webp": "57f9c7de3d19effbbccececdd56743f87e7d7454f68c59c75ffa85ec9271335e",
-      "build/screenshots/ro/Explore-browsing-screenshot.webp": "ef5020cee5cb38f3f4cb7e063076653a5c3b1328a871316778576ec3f50c97fa",
-      "build/screenshots/ro/Main-screenshot.webp": "8aee3b0adc915e88380b42055866c2be0ac6a867ad57c4adab077a75496d3b60",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ro/Download-row.webp": "7188be15fddf4f058079047f0ad70ba06f90e02579cddf396a753becea463487",
+      "build/screenshots/ro/Explore-browsing-screenshot.webp": "eb05fb13b5441884cabed863ffae43d1806714e65c82a5e952564895d05cd4e2",
+      "build/screenshots/ro/Main-screenshot.webp": "ae0b0295d7565d8aad5d8ae1fa523239cd1e9cd4d1d6b5885d12ce030773d4e7",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1482,19 +1483,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "sk": {
-    "image": "build/banners/sk-3dc62afa42.jpg",
+    "image": "build/banners/sk-5b90125afd.jpg",
     "slogan": "Vložte odkaz,<br>alebo len prehliadajte web.",
-    "sha256": "3dc62afa4212c0afbf65aea3632cb7309af805781b4824cf9247ba499f163820",
+    "sha256": "5b90125afde47c397165b1bae62775314ec7b6f7eac09b900e3b3f30ff7d61ea",
     "sources": {
-      "build/screenshots/sk/Download-row.webp": "cba76eea20e74996279a6b9059d98b7f2cf0fac8a408daa306b596df3bb3aafa",
-      "build/screenshots/sk/Explore-browsing-screenshot.webp": "1db7411881749a439a2e7eeab946b8824cce0d15a92954c3d72539a098d508ce",
-      "build/screenshots/sk/Main-screenshot.webp": "bba037951aff5d52bafb5a81c6b4118545407950f331904250ff58d21d6264af",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/sk/Download-row.webp": "9241d0addaeecd9730346d3f07b73fe6d4f7d2dc5a1455cb3f5d6776c8f53309",
+      "build/screenshots/sk/Explore-browsing-screenshot.webp": "a9c3e9695d7ed6bc0164a59e82299009a40109eac58da0b58a307dbe95eac631",
+      "build/screenshots/sk/Main-screenshot.webp": "209634c5808d575737b404f823647c07367fd3613aef322c42f222c5b281e6b9",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1544,19 +1545,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "sl": {
-    "image": "build/banners/sl-c4cd59ae31.jpg",
+    "image": "build/banners/sl-f6fa7b2d60.jpg",
     "slogan": "Prilepite povezavo,<br>ali preprosto brskajte.",
-    "sha256": "c4cd59ae316f45c8918f1e393ce52cbb19d84a54c9e4542c026fd1a61f9a5e6f",
+    "sha256": "f6fa7b2d60dc9e199f802c756d4e25136f4cbfc2dc201db42f481a5fc6ca095b",
     "sources": {
-      "build/screenshots/sl/Download-row.webp": "298d4b5475b87250e793f96a8af6e238d6eb4478e86eb3feabe94feebb855ec8",
-      "build/screenshots/sl/Explore-browsing-screenshot.webp": "9e74ccf0e3ddfd25a2a091085f1234f580f847c00c906e10fc2320ae8fb9017f",
-      "build/screenshots/sl/Main-screenshot.webp": "2d6598bfdd489e5708d9864faa598d9c7d593dd346718053863844bd904fbc9f",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/sl/Download-row.webp": "efe5a246dda3dd4c49789f3ddb90e89a76373ab13ba6bf02315c6057f15251bf",
+      "build/screenshots/sl/Explore-browsing-screenshot.webp": "663b4a13d3c7ab8cd15321663c44a8763e5389fb5df29e623c46e9d7246f98f7",
+      "build/screenshots/sl/Main-screenshot.webp": "8a0abd6b1af9b20600ea528232415da9e529b8bc021b1bb32a61809ff0b23eac",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1606,19 +1607,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "fi": {
-    "image": "build/banners/fi-350eac30f2.jpg",
+    "image": "build/banners/fi-486811f4a3.jpg",
     "slogan": "Liitä linkki,<br>tai selaa vain.",
-    "sha256": "350eac30f206d3c6675a278befb63b300303f90b7bc469ee043719c944b19f8c",
+    "sha256": "486811f4a3119b92e0db2d321e4c5634371dbdbb8cb18ebfb4121417ddf18198",
     "sources": {
-      "build/screenshots/fi/Download-row.webp": "1fd68a400f3cbf3beb827baa61aeb354ff79cec7ba6be143a4c5c6cf00d587e0",
-      "build/screenshots/fi/Explore-browsing-screenshot.webp": "5e2a09ea3cc4e5c8c4d676656c7f498e5960961cdf7abaccabd60192551345be",
-      "build/screenshots/fi/Main-screenshot.webp": "adbce838789f9edd075eaec79ce8c1a31aca91d11ad8df5e9d01394c8d6e7c6a",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/fi/Download-row.webp": "2b20d5c5dc44dbf6ac6c4fb8c0485f43b01ee2f04610fcc0789aeac9cf6dcd23",
+      "build/screenshots/fi/Explore-browsing-screenshot.webp": "86e1a19ffdf4224a8132daa0efe7850c9cf3d7d695092d81f25b529daa999649",
+      "build/screenshots/fi/Main-screenshot.webp": "cdb4dae5a44d84527c44f158c62c309b7df68dace161d2708bb1dcbb1460b340",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1668,19 +1669,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "sv": {
-    "image": "build/banners/sv-85a30b5423.jpg",
+    "image": "build/banners/sv-55c036cf46.jpg",
     "slogan": "Klistra in en länk,<br>eller surfa bara.",
-    "sha256": "85a30b542322e392961711182a83015882d5c23d12172106333805f55149aa39",
+    "sha256": "55c036cf466e81a99b6b62f0e1bf4b7073b1db02f8347f3fff3d841b8eddc710",
     "sources": {
-      "build/screenshots/sv/Download-row.webp": "3d54b3fc7abcb5ad2b149ef693ea5a94b03a48eb7f03edafbfe51aaac5c2dd6a",
-      "build/screenshots/sv/Explore-browsing-screenshot.webp": "ee470b58336794e16bce9dbf96023e4b402174c06bd68a30a8e4b8ab0e1e5cec",
-      "build/screenshots/sv/Main-screenshot.webp": "5216817298f483e0e051373236584b2753055f91361835cbabd5a961c18a0da6",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/sv/Download-row.webp": "e0f1bf3509b7838797629dadf0a09aa238c9e8e43e99a7bc4297ff4976b9c6fe",
+      "build/screenshots/sv/Explore-browsing-screenshot.webp": "1fa8d69d448a0e146930f807202c84ee4388dc3d0fb0f5e661784abfd0081b58",
+      "build/screenshots/sv/Main-screenshot.webp": "b7e8687abd90ce9e43e45eb3ae6e8834e767c687f4481c5658351cb05b3c7024",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1730,19 +1731,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "vi": {
-    "image": "build/banners/vi-5d1cf918d9.jpg",
+    "image": "build/banners/vi-d20b65348f.jpg",
     "slogan": "Dán một liên kết,<br>hoặc chỉ cần duyệt web.",
-    "sha256": "5d1cf918d9d29eed197eab70954b63205ee0812ba677ad11484d9698b092d529",
+    "sha256": "d20b65348fa506d541de99a6ee90d58392041b8de74c0e1af145d968d5bba1f7",
     "sources": {
-      "build/screenshots/vi/Download-row.webp": "597874db809e1a8d4ec23035bc7a6f8b07762c414f9b8260c57250c3f7b0df24",
-      "build/screenshots/vi/Explore-browsing-screenshot.webp": "b157bc7cd7270f2f7ce74375a8f7f7daa68a9542dee20f462f905d6edc70f60d",
-      "build/screenshots/vi/Main-screenshot.webp": "e9df90a4c2bc3382f686057ee2e165e396a476807f2d6f24a5c10e66e6f256e0",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/vi/Download-row.webp": "53686d90b9892b7da8adb01e932c0592aa8fe4416e7acc1d59837b907a3a24f4",
+      "build/screenshots/vi/Explore-browsing-screenshot.webp": "faf1e58c64f4e5e3fe99de098b11c3de4e89f6b71ed31e8dca54fcd92dc21a7e",
+      "build/screenshots/vi/Main-screenshot.webp": "75161f3ed614fd4c651bb7dcc63817a8f9fa53162dd10d27e49bc99cf9a9cefa",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1792,19 +1793,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "tr": {
-    "image": "build/banners/tr-c34a6cda67.jpg",
+    "image": "build/banners/tr-a1ef857690.jpg",
     "slogan": "Bir bağlantı yapıştır,<br>ya da sadece göz at.",
-    "sha256": "c34a6cda67ddc649dcc72997a86b0d1319746a3cc30537ef71eb3435c005d0b6",
+    "sha256": "a1ef8576902d8507b7e28e6ea574725b8bf1aec75f81360b5f81e5ac900475a9",
     "sources": {
-      "build/screenshots/tr/Download-row.webp": "bc552f7bd4350a1a8eead0692f637398f2f1e43648d9d29881f31c27812737b4",
-      "build/screenshots/tr/Explore-browsing-screenshot.webp": "b99cdf195004a88bcc97fe43d805d7364fef1a96a153200fe04da0da45fd2205",
-      "build/screenshots/tr/Main-screenshot.webp": "be72fbc4c63cf4d0f6b74433ca1f8ba7b3699cc8a9f5d25c1e2c63690f6aca6e",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/tr/Download-row.webp": "3df6dbba985dbddc2a31a272928a22f38e61d2af9cb3568d514daf2daaf78bca",
+      "build/screenshots/tr/Explore-browsing-screenshot.webp": "a43cc555e152e31115c919164c012760689ae82b5030d4f238fb02b91bf7bd3f",
+      "build/screenshots/tr/Main-screenshot.webp": "e7a6e69cba8df00f39e772865329e5bc978c8b0372f1e4eefaef331b4a45ab04",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -1854,19 +1855,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "am": {
-    "image": "build/banners/am-d4fa25fe12.jpg",
+    "image": "build/banners/am-26b639c491.jpg",
     "slogan": "አገናኝ ይለጥፉ፣<br>ወይም በቀላሉ ያስሱ።",
-    "sha256": "d4fa25fe12bebdb85a6ded65b2d32e0a17b1f3ee2090d68f24c6686008ba8ea7",
+    "sha256": "26b639c491ff27f128e79b3eec9d7157267729927b6c3ecc949e7f35cb76b47d",
     "sources": {
-      "build/screenshots/am/Download-row.webp": "5a9eafe8c91b0911c940a801cee5c6a84b2bb2f9000d2e8fe26716921fccb88c",
-      "build/screenshots/am/Explore-browsing-screenshot.webp": "bd2581c8cb8257d7076af1f8b9fc532e82203f491c44abd87a0a741a8a5e449b",
-      "build/screenshots/am/Main-screenshot.webp": "5094d2e5f94ef3d1e9e92ad8d8539d81895322364084cd010bd8f0d25093df2f",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/am/Download-row.webp": "62d88c263b52448fdb3609249941421067a4612b49c0ac3ed7815ec75cc90d86",
+      "build/screenshots/am/Explore-browsing-screenshot.webp": "303cb79d13145955da25eef759624823db0f2e11a0c534ea8895fe7185d804d8",
+      "build/screenshots/am/Main-screenshot.webp": "2c780f290cc16c2c629c629fed0fa13bac5a577edd5b8af58812ba9ebd85c0e5",
       "node_modules/@fontsource/noto-sans-ethiopic/600.css": "31cdb2316e1c984bb32df9af67b6fd80cc703d660dea24c33820055fbf40afa4",
       "node_modules/@fontsource/noto-sans-ethiopic/700.css": "51177644583240890a59186699fcaa210586f3c045c6126fb5807f50e6a388e0",
       "node_modules/@fontsource/noto-sans-ethiopic/files/noto-sans-ethiopic-ethiopic-600-normal.woff": "989cd6403a51834f3c389ac6e610ac7778d4cf0cc8ca256716d8691e3da41fbf",
@@ -1896,19 +1897,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "he": {
-    "image": "build/banners/he-2514cef6f2.jpg",
+    "image": "build/banners/he-bfc5d69b76.jpg",
     "slogan": "הדביקו קישור,<br>או פשוט גלשו.",
-    "sha256": "2514cef6f2779150d359c1669ac1cac6f48f3ca8fc56c6e854cf707e64ab6975",
+    "sha256": "bfc5d69b76c7753bda22dcb2ea2b18bd818021baa1cb7bba06b989abdc8d6ce4",
     "sources": {
-      "build/screenshots/he/Download-row.webp": "80f95135679d8e861553b2287ebc1d552f4941a8bb0c8ed52de16ea92f559d2e",
-      "build/screenshots/he/Explore-browsing-screenshot.webp": "bd2541b6ef12438daa664dbd0436059c6686c454f5a9d77e78b46c605f9b8c0d",
-      "build/screenshots/he/Main-screenshot.webp": "8a456a421687e8fe2ffe21555f6ea9b8985455f55ff224716056d36bd249c038",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/he/Download-row.webp": "041b1809e45c42e5957b79e0ad20de00b5e1ade78c54e24f4afd79f698f75279",
+      "build/screenshots/he/Explore-browsing-screenshot.webp": "31c4bec0c42b7d6f2e48476f881b7db28dff925d79890db3d6f747bd57842a80",
+      "build/screenshots/he/Main-screenshot.webp": "1e380edad2d7868b4c3d349a9a1b87016a2489a3df28bc12d1717bd09afd6823",
       "node_modules/@fontsource/noto-sans-hebrew/600.css": "e114db72313fbe4547a542c8fa72f194113acc99a653db76207c308f96d1814d",
       "node_modules/@fontsource/noto-sans-hebrew/700.css": "d27509f0ff1208a61622522e44c0887d7541c030f57d57bfd550c83037a280db",
       "node_modules/@fontsource/noto-sans-hebrew/files/noto-sans-hebrew-cyrillic-ext-600-normal.woff": "49287c8ae1745bc49e8d4b4845bc7093dd98d924f7e17f6803c33a957b921eb2",
@@ -1946,19 +1947,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ar": {
-    "image": "build/banners/ar-af488166f6.jpg",
+    "image": "build/banners/ar-da5acaa711.jpg",
     "slogan": "ألصق رابطًا،<br>أو تصفّح مباشرةً.",
-    "sha256": "af488166f6b0deea04dad7f32101269b2afbb71a3828ae03b30ee8d9ee232f0a",
+    "sha256": "da5acaa711bed9313666bfe9abc5c0164b25fc6cea80d0b5ca9fcc024e6a2eba",
     "sources": {
-      "build/screenshots/ar/Download-row.webp": "08dad2219721dffa360f3bc8640d52db2966f63f488319699791dc30bd2cff3b",
-      "build/screenshots/ar/Explore-browsing-screenshot.webp": "c371aea3d1a4680774213c3d9c2d2eb865b22ab9313d088b2072fcdc8d79e734",
-      "build/screenshots/ar/Main-screenshot.webp": "32c82a73543c7e7459aaf15fe545db030a7fe07353cc6646f94f4cfb36ba00d0",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ar/Download-row.webp": "8bfa53971b83c34c8b9e93a9895d1811b8728bb9d0cea47255c4030b23f108bf",
+      "build/screenshots/ar/Explore-browsing-screenshot.webp": "711d756c5c0663597473fe7f37c74f7cf62601bcd04f41938f4ed0096e8faed7",
+      "build/screenshots/ar/Main-screenshot.webp": "51645d3a683bdc8eac630eeeb78288121816a19fa6c76646479c53f8928fd16a",
       "node_modules/@fontsource/noto-sans-arabic/600.css": "57a3d7eef4c22083e0761e6646a4ce0a9b19ddfeb4b1c0959318677daeb719ce",
       "node_modules/@fontsource/noto-sans-arabic/700.css": "9fa10799c9fee700e8a2960f97f778872c4f58accd8b2ad3a7384dae01bfdf7e",
       "node_modules/@fontsource/noto-sans-arabic/files/noto-sans-arabic-arabic-600-normal.woff": "4cd5ad759d5ee84c12fa9aa6aa8747fb9e2fca225b87292bf42628f67ab3e4db",
@@ -1996,19 +1997,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ur": {
-    "image": "build/banners/ur-c98639257c.jpg",
+    "image": "build/banners/ur-f1dafee9bc.jpg",
     "slogan": "لنک پیسٹ کریں،<br>یا براہِ راست براؤز کریں۔",
-    "sha256": "c98639257c1b3dd40331a87e1a84985f19029cb222f6efd19e2e3f8361b41e91",
+    "sha256": "f1dafee9bcfd38f6e9cfca7757818cd63286207c8e144a8094ac8966a5c15895",
     "sources": {
-      "build/screenshots/ur/Download-row.webp": "f0388685a59617d0b7a7acd81d2b8ce24ccd9647bd7e2c888da14a59fe7db4d8",
-      "build/screenshots/ur/Explore-browsing-screenshot.webp": "48f686c8d4dcf497825ae8902f7bf4df3877513e858401c39873c689b7ee3069",
-      "build/screenshots/ur/Main-screenshot.webp": "1b5a496195fe6ac5386ed142de55499715c611bec02dcb7c70b2add833fca9e5",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ur/Download-row.webp": "9adf9a12bb158bb490608fad4abdaf42f9692574141ed5e6122fd0b3c6bbf022",
+      "build/screenshots/ur/Explore-browsing-screenshot.webp": "c5a708795374fae7af5abce7a49f80bbb4c7573ee27e8839f442d2a1c69cd0b7",
+      "build/screenshots/ur/Main-screenshot.webp": "83ae7319d2be51865e9f2bba1521d5da88cd2f52d25af9dd9db88b20b176a3dc",
       "node_modules/@fontsource/noto-naskh-arabic/600.css": "43e0fc57b1f56ff7c7a094b284ed8f6cb21529f02d44cfeffe6292d84bf2502e",
       "node_modules/@fontsource/noto-naskh-arabic/700.css": "82adb0008a45104bff94f9d02d726c84f4c2725db2d544c3392dfe74d7222e8c",
       "node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-600-normal.woff": "e546b8ba70233b1a99388c6c9de90e48fb7d70f98b3cf06c2bf5caeae5f59e51",
@@ -2046,19 +2047,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ps": {
-    "image": "build/banners/ps-a75cc87f80.jpg",
+    "image": "build/banners/ps-6d0da9cc9c.jpg",
     "slogan": "یو لینک پیسټ کړئ،<br>یا یوازې لټون وکړئ.",
-    "sha256": "a75cc87f80baab539685b80f87063c80466d8073d93bdc23d882d66ec54b472a",
+    "sha256": "6d0da9cc9c90dad8c28c40d4cbec06f639d7715fe5a2e43e7f1ffac1a4b4c6da",
     "sources": {
-      "build/screenshots/ps/Download-row.webp": "fba65ff0f8442f62ea5ab4e7d0289a20de3b2e5db049e78b6986d4bff32cf138",
-      "build/screenshots/ps/Explore-browsing-screenshot.webp": "98327ee97d33b5a4f10cc5d92e7e12ce162752c00eea645abcd7ed490bba2122",
-      "build/screenshots/ps/Main-screenshot.webp": "27a0e8841c2f8c46cbc64d8ed73c818be3f6d4cd70975c823539bdff3bdc8a9f",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ps/Download-row.webp": "fbcb0ac9649cf9893f223a630911a4a32dd7d2725150344730d8e140fa7cb1fe",
+      "build/screenshots/ps/Explore-browsing-screenshot.webp": "1f985c70d4e3c1dbe49da9af358be2e17c960c8c1ef8496588378c29bef048cb",
+      "build/screenshots/ps/Main-screenshot.webp": "1e03091280c55afd9ec05f1dc0b5d141626c492fbb05938fb49d14c684523231",
       "node_modules/@fontsource/noto-naskh-arabic/600.css": "43e0fc57b1f56ff7c7a094b284ed8f6cb21529f02d44cfeffe6292d84bf2502e",
       "node_modules/@fontsource/noto-naskh-arabic/700.css": "82adb0008a45104bff94f9d02d726c84f4c2725db2d544c3392dfe74d7222e8c",
       "node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-600-normal.woff": "e546b8ba70233b1a99388c6c9de90e48fb7d70f98b3cf06c2bf5caeae5f59e51",
@@ -2096,19 +2097,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "fa": {
-    "image": "build/banners/fa-65420d282f.jpg",
+    "image": "build/banners/fa-a93f32cca7.jpg",
     "slogan": "پیوندی بچسبانید،<br>یا فقط مرور کنید.",
-    "sha256": "65420d282fd93a6fb15d9f4b2ae0695eb891bab2fea6414a7965ea46c1d002e5",
+    "sha256": "a93f32cca74018bc27623c2868b3fbce2b2e98e6e962972747215b44de83589f",
     "sources": {
-      "build/screenshots/fa/Download-row.webp": "7cb6f153008323d6c92a4f32a0cc45b76623cd9e61c501481d79069b38fc7d6b",
-      "build/screenshots/fa/Explore-browsing-screenshot.webp": "75cb0f2e328b3a571267d6ee09e4909c141be8ab7ff02033045ccff967eaf40f",
-      "build/screenshots/fa/Main-screenshot.webp": "87f6c8f79315173c3bddcc87bbcb6191afe4651da007523a6830cc313011ab31",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/fa/Download-row.webp": "58b7494c9a67f8be90805cddcc2db40bafb25098a0ba13b059060c305e8269ff",
+      "build/screenshots/fa/Explore-browsing-screenshot.webp": "83dba308980e1c4d403909f91ef98250bfa370eb7525ba8791327d6c90f1916a",
+      "build/screenshots/fa/Main-screenshot.webp": "fe7c126d2abc9dbd1dcd032893068371c9c77b3ac6323b1ed9507cff8f54e2b8",
       "node_modules/@fontsource/noto-sans-arabic/600.css": "57a3d7eef4c22083e0761e6646a4ce0a9b19ddfeb4b1c0959318677daeb719ce",
       "node_modules/@fontsource/noto-sans-arabic/700.css": "9fa10799c9fee700e8a2960f97f778872c4f58accd8b2ad3a7384dae01bfdf7e",
       "node_modules/@fontsource/noto-sans-arabic/files/noto-sans-arabic-arabic-600-normal.woff": "4cd5ad759d5ee84c12fa9aa6aa8747fb9e2fca225b87292bf42628f67ab3e4db",
@@ -2146,19 +2147,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "bn": {
-    "image": "build/banners/bn-76a3ff2741.jpg",
+    "image": "build/banners/bn-bbb23ea782.jpg",
     "slogan": "একটি লিংক পেস্ট করুন,<br>অথবা শুধু ব্রাউজ করুন।",
-    "sha256": "76a3ff274184d32a2da793515f8eb2713f0ee2c60d8558282432045e7b151ee2",
+    "sha256": "bbb23ea782ec1043c332b2fa016ba340c0e467857c0100b513f7d82ca47cae33",
     "sources": {
-      "build/screenshots/bn/Download-row.webp": "81470cb5464939015e329418ef3279700745027dd665f3830317cda5be544570",
-      "build/screenshots/bn/Explore-browsing-screenshot.webp": "f44339f9848d429f091ef4bf2db0aea29e0e7b7f08d42b07743c9de724931e93",
-      "build/screenshots/bn/Main-screenshot.webp": "dc9be87938984ae7daecdf5788ab32848162fe27c7a9d84a7e45e30a297e7121",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/bn/Download-row.webp": "a3e1f3728d1d919f44d776993130ff65e6f1d91dabe6d0250af77965b8d53437",
+      "build/screenshots/bn/Explore-browsing-screenshot.webp": "fa392fd4b5f624c33356baaba9f42344c2d26093b3a864fcc1114717cc9257b0",
+      "build/screenshots/bn/Main-screenshot.webp": "c9b26572dfb77e9c83b8a2832af5132da7ae735ba9c43e962e137619e8f908cb",
       "node_modules/@fontsource/noto-sans-bengali/600.css": "c54c2cfd575caf77ffe88219d4cc5927d01b57ecba23ed2ac48f7bf8314bd98b",
       "node_modules/@fontsource/noto-sans-bengali/700.css": "49fa244459b549aae2b94b8f395e87ce676a8175397f4ead61486bb910d60527",
       "node_modules/@fontsource/noto-sans-bengali/files/noto-sans-bengali-bengali-600-normal.woff": "575c3bd82f9b63e03fb0dd47017166b1a154ec861b3b5f8c708804a73efb69a1",
@@ -2188,19 +2189,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "hi": {
-    "image": "build/banners/hi-04b4517ce0.jpg",
+    "image": "build/banners/hi-0f13eb44ed.jpg",
     "slogan": "लिंक पेस्ट करें,<br>या सीधे ब्राउज़ करें।",
-    "sha256": "04b4517ce0f028feb166d914eb331b5fd11224d96724f874abaeb4219996e39c",
+    "sha256": "0f13eb44ed6245307688a96be95c7937482e76c0f959852e308f62e6ad2e1d5a",
     "sources": {
-      "build/screenshots/hi/Download-row.webp": "9d2cf626422f0a6f8d1790bf546ac7541c2c5a8552c6fc9688f51645024a3e98",
-      "build/screenshots/hi/Explore-browsing-screenshot.webp": "4cb4449d801fdd409e4b1fb8b8d615f692fea205cb7586aee06f9ec4dedfbc32",
-      "build/screenshots/hi/Main-screenshot.webp": "03521026f636f7aefb34d566dcaf4b0f9ede113a1584a8f41159e372858f335f",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/hi/Download-row.webp": "70b9e955adeea467495e14c080707e6571107db119b0fdefd107adcbcdc40f7d",
+      "build/screenshots/hi/Explore-browsing-screenshot.webp": "fbcac0e3cfaee200454868f846c4ec6a534b25781ffe2ef58324eae052cfe363",
+      "build/screenshots/hi/Main-screenshot.webp": "5c8e1626149e3d691c7fc5966b81a652e38830f5704793a6aa51e5e0ca3a484d",
       "node_modules/@fontsource/poppins/600.css": "d140e609dee8583f1f5e031fd69d840dfcdee443870a6f50a609ada390b21a81",
       "node_modules/@fontsource/poppins/700.css": "991d9c494b6c81899041daf97e2caf0227b87ce6d33715088372502ff3b2f7c6",
       "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff": "226fda066b0e88d5895eb21d574a1fb813977e3c078802b4f43f175fea1ea808",
@@ -2215,19 +2216,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "th": {
-    "image": "build/banners/th-cee85dc19d.jpg",
+    "image": "build/banners/th-ae7417bdd2.jpg",
     "slogan": "วางลิงก์<br>หรือเพียงแค่เรียกดู",
-    "sha256": "cee85dc19dd24cb11bd1072ec0b05dae6c2c2654d449c5384d2ae58ace1bff7c",
+    "sha256": "ae7417bdd2ae9ef0c79d3e35fb155463b2b54795834c7ecbe5589240cab1cf57",
     "sources": {
-      "build/screenshots/th/Download-row.webp": "12f197897948f6df15ff482b725821a1f1cd0a3ea72cc92e840748ac965c4243",
-      "build/screenshots/th/Explore-browsing-screenshot.webp": "845275c0b13b949ca06467820c98909590beadab24e2adf33a8ebe160e85e782",
-      "build/screenshots/th/Main-screenshot.webp": "2b340016053d2255751c67132e75ebb53a58429f1bf7f78a905f78d2f8adcc3e",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/th/Download-row.webp": "56c42f93afa9f63b02815530fe31c046e6de244b73a92aa736cc790df26a8140",
+      "build/screenshots/th/Explore-browsing-screenshot.webp": "41e8d2f7facd5dd92b6cd96aba6c7e3671ed37f3355228fd6709efb518aa4efd",
+      "build/screenshots/th/Main-screenshot.webp": "c750397808053327c627aa17c66549d5ded48dc769f114817abf7606657e7674",
       "node_modules/@fontsource/noto-sans-thai/600.css": "a3bd3d129a4f79fce9f9302b6df009776826cab251a17979beab73855d6b44bb",
       "node_modules/@fontsource/noto-sans-thai/700.css": "74d4ea33b35fbfa283d513273814bde8e06a263cc5b230b0bf558c3275c08fe9",
       "node_modules/@fontsource/noto-sans-thai/files/noto-sans-thai-latin-600-normal.woff": "9211a24c1abf883351f193612fb9a29574e3324ce1070ebd54b57aae01dd50d7",
@@ -2257,19 +2258,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "my": {
-    "image": "build/banners/my-7978bcc76c.jpg",
+    "image": "build/banners/my-a465fb8f49.jpg",
     "slogan": "လင့်ခ်တစ်ခုကို ကူးထည့်ပါ၊<br>သို့မဟုတ် ဝဘ်ဆိုက်များကိုသာ ကြည့်ရှုပါ။",
-    "sha256": "7978bcc76cd3ed600d94eb5d79dc0d7997fd3fb97164cebe9110e896ab97c11f",
+    "sha256": "a465fb8f49dec63ef5a6bdf0b4877fa3252024c85e01299b087ac343886c8353",
     "sources": {
-      "build/screenshots/my/Download-row.webp": "c9b6f6b3ce7dfe333e108c9384dca87b6aee1a66f5d5592185859dfd39e2c57c",
-      "build/screenshots/my/Explore-browsing-screenshot.webp": "a300e8e97db500bb0b9d9605c7c59dc5e0f36def70cd9a77a33140a8f37a2743",
-      "build/screenshots/my/Main-screenshot.webp": "a57eb0c81a4ebf0708ac92d04488a3405d51a0f1aef9b40207792a88340a3038",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/my/Download-row.webp": "ffabbad23aba98fd2cb4d2694b24c0f35a9887b0bf06c099ae1738b0017852b7",
+      "build/screenshots/my/Explore-browsing-screenshot.webp": "05df262d3b89804e41857620b1ee3818c6ec00519231b300d80ec9518beb2c94",
+      "build/screenshots/my/Main-screenshot.webp": "32e06968959c465e86d6eb03ea67835705c3dc11d62ca4d4b25c906b4c3fcfd5",
       "node_modules/@fontsource/noto-sans-myanmar/600.css": "9dbd84ebd1514e4656936d7d1658f4ea91f3165129f6d2ad46bfd0cba543090a",
       "node_modules/@fontsource/noto-sans-myanmar/700.css": "e12bd30fecd1d558438415d018176e1fa1a2c1a241adb8a40cc7fdec4c87a50b",
       "node_modules/@fontsource/noto-sans-myanmar/files/noto-sans-myanmar-latin-600-normal.woff": "fec3714f2f052cba357600874587d0cfd6118e082a3995b0910a8660e1a68305",
@@ -2299,19 +2300,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "km": {
-    "image": "build/banners/km-3ab0f753df.jpg",
+    "image": "build/banners/km-2256e3e8c2.jpg",
     "slogan": "បិទភ្ជាប់តំណ<br>ឬគ្រាន់តែរុករក។",
-    "sha256": "3ab0f753df3a7b07189aa5bd5f6c30e3f94710f35f945ad3e22235f26592cd23",
+    "sha256": "2256e3e8c27e8b47f0dfea591ef63ca14d67956d3dc876b3f0cd11f4d330e897",
     "sources": {
-      "build/screenshots/km/Download-row.webp": "134718b45f076aaead09a82febbd9c35cb6c06e7ec00a25349ed42bf8c96e9bd",
-      "build/screenshots/km/Explore-browsing-screenshot.webp": "21409269adaac85a87b378bc359efa55bce904bb89c4cdb2fa22aec25d14caa2",
-      "build/screenshots/km/Main-screenshot.webp": "0113f73749c5822ec4111060d453a7d80eb4abb1eaf002cdb9681651cc231f09",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/km/Download-row.webp": "89f2b1ebf38e060850383012fe58ffa9a9096f7e8e2bf9ac68570d01af0282a5",
+      "build/screenshots/km/Explore-browsing-screenshot.webp": "a6e62f62d517d4f29131893d6685d2d5f3e75ab94e764a589cddcb5de1674ded",
+      "build/screenshots/km/Main-screenshot.webp": "7839366d7b21fc31eb45e6230e6e85af4b2b8214f7fd29f0fa6574594d02f968",
       "node_modules/@fontsource/noto-sans-khmer/600.css": "5437da02c6f33f8921a21e4ab2fbc3afa0c1c78fd55d67434d824d8c2022b8dc",
       "node_modules/@fontsource/noto-sans-khmer/700.css": "d7ba9be735077f4d239b82063f8b7a9a6b0695c0f223062f3eedb7ca6b2fccef",
       "node_modules/@fontsource/noto-sans-khmer/files/noto-sans-khmer-khmer-600-normal.woff": "c579b5104836424d747f4d33aa12cfc3ec93a526884a36a3eea829aa6555e989",
@@ -2341,19 +2342,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "el": {
-    "image": "build/banners/el-ed373b525e.jpg",
+    "image": "build/banners/el-93d0324010.jpg",
     "slogan": "Επικόλλησε έναν σύνδεσμο,<br>ή απλώς περιηγήσου.",
-    "sha256": "ed373b525ecf3665341f31394a6d89a725c2d79db59b9c0d3e8e3a150f95b7c7",
+    "sha256": "93d0324010b57485be86c3223657ea167f106d8f10f34fd60046d6951f76b0e1",
     "sources": {
-      "build/screenshots/el/Download-row.webp": "3c1906b1f73fa010da2b55727bf0f86eb2aed868e837b2ba82d159130c5f47a7",
-      "build/screenshots/el/Explore-browsing-screenshot.webp": "0a55f57827b041ceb0d80c8d7c5d0f310f57c2383726f8d51c29e8bedadb9bb1",
-      "build/screenshots/el/Main-screenshot.webp": "464e9f9c1be32eae21a38303a8d5b0f1a5159820c5ac69c690ecab29ab61c2f8",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/el/Download-row.webp": "2cb24b344fa5f40c8155b43d92ea17d0ced2d882f5287949b6ca7b30fc90dd8b",
+      "build/screenshots/el/Explore-browsing-screenshot.webp": "ce36a7cf43153ecafd5c6c9451b7ac719f320c2fd9a82f7cd9977dc90ff53af3",
+      "build/screenshots/el/Main-screenshot.webp": "bf1bc662833e994ec07cac1828bc45732aab7c5cc47fc0f61e54de05da7ef1c9",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -2403,19 +2404,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "bg": {
-    "image": "build/banners/bg-d19ea6c7d7.jpg",
+    "image": "build/banners/bg-08ee402392.jpg",
     "slogan": "Поставете връзка,<br>или просто разглеждайте.",
-    "sha256": "d19ea6c7d785f4d112f83a95908e8ec9084bb812a52494e39ec30cef19099295",
+    "sha256": "08ee4023920fd88db5eec5c8eab697de68e4c30366a47cde32049d3b973ba86f",
     "sources": {
-      "build/screenshots/bg/Download-row.webp": "ce4debe8566cbd413a9d8a32ff28c365f2976e2890a661afddcb7ebb1dcacd8f",
-      "build/screenshots/bg/Explore-browsing-screenshot.webp": "360459f090722fd5446fab846b5b6d3f2448e2cb5e9db525e1e369a798f59cd7",
-      "build/screenshots/bg/Main-screenshot.webp": "848c24871cf390a6cb80c11b1b2ea43be9383a8756d18dbb8e9bb71b287a19b4",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/bg/Download-row.webp": "1a7cf1ee4da4009beac0c20e46872c432f9cc1304021169a5d1bb61dacfcce3f",
+      "build/screenshots/bg/Explore-browsing-screenshot.webp": "bfe3866e4cfd2343ad288e02f56c92d1170f5e9dc3d44c58694657e565f0891c",
+      "build/screenshots/bg/Main-screenshot.webp": "de7b4cd9ac48e8d9605e18d92f0c0ebe18b59b1efe35a00d7d5096667814c159",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -2465,19 +2466,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ru": {
-    "image": "build/banners/ru-3dd88e391c.jpg",
+    "image": "build/banners/ru-4f350c34f3.jpg",
     "slogan": "Вставьте ссылку<br>или просто листайте.",
-    "sha256": "3dd88e391c8e86bc721c07f520ef173f074dabffcdf2d8b33d45dce3051cdc4a",
+    "sha256": "4f350c34f3cd06188fc72bdca853f651d885ad0258c77f815e479b1b4b29217c",
     "sources": {
-      "build/screenshots/ru/Download-row.webp": "de033016503af05eb5a5a9a1a11575aa0e4ff5847358b7d8f92443be23ee3d3e",
-      "build/screenshots/ru/Explore-browsing-screenshot.webp": "66ef46d8407c8f8e06e44b0eae0f282c6954da53b9ca59a8738bb851e63c13c8",
-      "build/screenshots/ru/Main-screenshot.webp": "11d1c63ac17b8569b60fe72bd934846288a4699393b20592152fe153c637d5f8",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ru/Download-row.webp": "41f503daefafb3bb74283ac5db0d86c4f29051480359936af03dbfe16e2a35cd",
+      "build/screenshots/ru/Explore-browsing-screenshot.webp": "d43d73544bf466c46a1f82430c3085251be506d72f4136c9ebb668a9e6818a7b",
+      "build/screenshots/ru/Main-screenshot.webp": "2193a1fd15209c32a2f10aee9e47a909384ea743520218803c9f21db25c47155",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -2527,19 +2528,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "sr": {
-    "image": "build/banners/sr-3b81715975.jpg",
+    "image": "build/banners/sr-c47bda50d6.jpg",
     "slogan": "Налепи везу,<br>или једноставно прегледај сајтове.",
-    "sha256": "3b817159751bf41788defed9ba6d86f08080c397ccf688c2320ca974065ffc3f",
+    "sha256": "c47bda50d6ced7887b5a89141ea97a9c3ab3aad7dcb6183f654f966d89c2bc2d",
     "sources": {
-      "build/screenshots/sr/Download-row.webp": "7ec4f3e13b3569be3a8e50cde94f902fe8cc8199cb9896fa41657dd6f838e888",
-      "build/screenshots/sr/Explore-browsing-screenshot.webp": "08f41f64ee7c55cc2a0079d68132fde1e0a0229911b22574d896bb1e9c8115ab",
-      "build/screenshots/sr/Main-screenshot.webp": "8781335d6c6cced1d9a0c827a2850eb0df41f7b2750b09995b4d62ed30cdf47b",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/sr/Download-row.webp": "9add9ef36cb7e8f98351f44d8bf7d0f23e897de6b4d96cc7b379564dadf68641",
+      "build/screenshots/sr/Explore-browsing-screenshot.webp": "de446ffa46c977d9a03ba5b5e0d4af441c03331e34752ebe28f170e428063024",
+      "build/screenshots/sr/Main-screenshot.webp": "12a2f294b51dff265f7f43b2e58234fe5592218294cff6767225706599b35e77",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -2589,19 +2590,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "uk": {
-    "image": "build/banners/uk-e7826da4bb.jpg",
+    "image": "build/banners/uk-d94d6b7489.jpg",
     "slogan": "Встав посилання,<br>або просто переглядай сайти.",
-    "sha256": "e7826da4bb7c1ab50f9deebcf4f348047a4a7b913405cec8f9d066cbf250d60c",
+    "sha256": "d94d6b74892ff410c91d2fd6d024eeff6d2a92af48d62afeaccb040834810446",
     "sources": {
-      "build/screenshots/uk/Download-row.webp": "89840fc6e9682895f8105f50548acb3149537275ce32bb4df7333ad676b55cc3",
-      "build/screenshots/uk/Explore-browsing-screenshot.webp": "23464d306854395e7d2c6469abbd4af5da1b1ee0e0c940699a592eb9ced07ab0",
-      "build/screenshots/uk/Main-screenshot.webp": "cffc5036e965377dae76b38657bc9e7be79a55f6d8bd8e80e36b83e459fa4b6d",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/uk/Download-row.webp": "242a46586aab4a06df9caa3058732230d66d59b2e07f83313e1ab7c8ad9d1de6",
+      "build/screenshots/uk/Explore-browsing-screenshot.webp": "919d3fc1922b041450782e91812c32e2c09d5b6c4ad103f1addc0ec117c2a3ec",
+      "build/screenshots/uk/Main-screenshot.webp": "9d28d9fc33f179bb4814d3fc52587e3c51d26c0f1e5f2d096759ab9e57510f03",
       "node_modules/@fontsource/noto-sans/600.css": "d64f9d92c9779983e550d89363525138aa17c9f0ad62cb7e604e2dd14a10efd1",
       "node_modules/@fontsource/noto-sans/700.css": "124bbabb485215ee7a1ade5fb1327e819f54848ba690aa60351917819c951fcf",
       "node_modules/@fontsource/noto-sans/files/noto-sans-cyrillic-600-normal.woff": "a7394e7d9b68e97b080b41a85695bdc68c8dce519a265b189a6b8005bdc42aac",
@@ -2651,19 +2652,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "zh": {
-    "image": "build/banners/zh-474f4767da.jpg",
+    "image": "build/banners/zh-e7dcf431b2.jpg",
     "slogan": "粘贴链接，<br>或直接浏览。",
-    "sha256": "474f4767da3830a7f4c5884fde3f951e3edc92148ef88cb744c8dc751c46de94",
+    "sha256": "e7dcf431b218729fcee41cdad9c2d16bf5937bf7e7ef6f77c5c7aec92f12865f",
     "sources": {
-      "build/screenshots/zh/Download-row.webp": "66d4b6997d3f0f4fe84b6947e0bdc737fc7ddcbf9faa663bf7433484a8b8b921",
-      "build/screenshots/zh/Explore-browsing-screenshot.webp": "cbab355f337c04f7cec2c32b5d30f8a7396572fab19b37981240a399082cecb4",
-      "build/screenshots/zh/Main-screenshot.webp": "65d8099c1a225705daa418b6c64a9df6dd7713c497ae8c3709adfe55f61a4284",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/zh/Download-row.webp": "43d8929d74df0afb3e58fbf1f4dcdb9185ad01d4664fad52d8593d6dffe4f5d6",
+      "build/screenshots/zh/Explore-browsing-screenshot.webp": "1755c60c31f7a4800cc7585423b042af1cf8ad6aba32dbe96f529982dfc9b198",
+      "build/screenshots/zh/Main-screenshot.webp": "3a20d3f5221a5139318e026ac9f306ee8f0a11f5a0d5eaac450e44b07e877324",
       "node_modules/@fontsource/noto-sans-sc/600.css": "92ed315e6ff8e35e53f71b33d33faf6431bf8dfa75c41b6491d9a8707e73ae7b",
       "node_modules/@fontsource/noto-sans-sc/700.css": "feda0419464d19fcfc9971d6472a64e7e814df30657d405abb3bb343c52ff96f",
       "node_modules/@fontsource/noto-sans-sc/files/noto-sans-sc-100-600-normal.woff": "6cfd474f00843f7b1064932ee70c682cbb0dc37d1f285e640552aede622eedfd",
@@ -3085,19 +3086,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ja": {
-    "image": "build/banners/ja-2093ee7248.jpg",
+    "image": "build/banners/ja-42e6caa655.jpg",
     "slogan": "リンクを貼り付けるか、<br>そのままブラウズ。",
-    "sha256": "2093ee724887315390ec9019b897600ccaa27ed2c275175fd07197b308ce6481",
+    "sha256": "42e6caa655ea2ed71666dcc1dddc94961d1f38e6ab7488973927f36d45d830cb",
     "sources": {
-      "build/screenshots/ja/Download-row.webp": "44d40d3b24ea5b356d6cecae1c23c8d631e6f7e9f68650ae893d902853b10cc3",
-      "build/screenshots/ja/Explore-browsing-screenshot.webp": "60a43996264f79206663b30884d4f87dc62600b17d57c8fe2c222a7096dec78c",
-      "build/screenshots/ja/Main-screenshot.webp": "815348f71f445ca04406aef9f65f66f1c56b0475693e9b433f3e005863b08335",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ja/Download-row.webp": "b5880e4d94c219dee6af51f1ce2e85cc75e98c6e2e6d71359aed071d5d6e615f",
+      "build/screenshots/ja/Explore-browsing-screenshot.webp": "a795fd17fa674376c08280b3a02410550509a3724122d8536854476dffe68826",
+      "build/screenshots/ja/Main-screenshot.webp": "5247f51f9a50442059ced820e9cf36107185aa5aae4c2170a085a3d0a9b0add6",
       "node_modules/@fontsource/noto-sans-jp/600.css": "8c88c063251bcbe56cb3f123613b5659815a9cb6b8a391e6ca978b73d39bb544",
       "node_modules/@fontsource/noto-sans-jp/700.css": "cb78cd290384bb331c444dae8d90a947aaa09ba04a133d0cf62094906986fa01",
       "node_modules/@fontsource/noto-sans-jp/files/noto-sans-jp-0-600-normal.woff": "9cfdef613fece8834f6511f6b9f844c753b00a1a5c4e0053da7f60e966c9ba55",
@@ -3611,19 +3612,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "ko": {
-    "image": "build/banners/ko-a5e0c9e1f6.jpg",
+    "image": "build/banners/ko-bcf7b47e04.jpg",
     "slogan": "링크를 붙여넣거나,<br>자유롭게 둘러보세요.",
-    "sha256": "a5e0c9e1f65d6639def05a121ff38bc6f6ad6e71cad54eea0e3feb3b048ee4db",
+    "sha256": "bcf7b47e04276b53767937a219a30831cdd2ee5f6fa92d5b04d7c570fae916b6",
     "sources": {
-      "build/screenshots/ko/Download-row.webp": "226a6f5f299651fa062f9c942f6bf436bf5600331f6ae65beebb340e79ab640a",
-      "build/screenshots/ko/Explore-browsing-screenshot.webp": "901b1185f0354515956ff86a557975eb548c533f546f72e70bc84cc0055fecdb",
-      "build/screenshots/ko/Main-screenshot.webp": "ef726926cc5455fbab3990435f84af1b983097fdc70732427f5ec839919aa557",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/ko/Download-row.webp": "0f1ddac4a146b06c5f53be95afe52c147c4e1644c2d99a5f9667504fc4d76820",
+      "build/screenshots/ko/Explore-browsing-screenshot.webp": "f84c2cced50133ea9496d3bededcf081a0106e5e65d4483cb70c22c0b8cd45e4",
+      "build/screenshots/ko/Main-screenshot.webp": "d3b1a60a0ea661cd8e415b97645f7d75a5a0cee38866f8f8dcee149704112497",
       "node_modules/@fontsource/noto-sans-kr/600.css": "1a04e11423c62ae41b117761d75547d5c47120fb22ed2030c79c3eb0658b371a",
       "node_modules/@fontsource/noto-sans-kr/700.css": "61ae9bcbf869184fc67fef491c4981c4a5e0ff1a8480069a7b9158d6897105c9",
       "node_modules/@fontsource/noto-sans-kr/files/noto-sans-kr-0-600-normal.woff": "91f8926b2ec4d9d41531850541b7fdd54909c7db5e2c89be74f0fa0e95ed76d6",
@@ -4137,19 +4138,19 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   },
   "zh-Hant": {
-    "image": "build/banners/zh-Hant-9957aa862c.jpg",
+    "image": "build/banners/zh-Hant-6009baf12a.jpg",
     "slogan": "貼上連結，<br>或隨意瀏覽。",
-    "sha256": "9957aa862c240d12cafbf0067a6895f19c4f64bcdb734911cf8f88f6089304c6",
+    "sha256": "6009baf12aa749bb622e9204dc94c7ae8af6fcaac081ae874b51ecc96c005095",
     "sources": {
-      "build/screenshots/zh-Hant/Download-row.webp": "a351d49ab5759d66fea0ca46c6058cbefc03fa3ee7bfc5c6fb158ae537b255be",
-      "build/screenshots/zh-Hant/Explore-browsing-screenshot.webp": "e4de70c4519a78f85594aa52e46d0a8c3325ebb9252c07439dc8410a741ecaaa",
-      "build/screenshots/zh-Hant/Main-screenshot.webp": "cd6ebb220b001936fcbe5f831cb6a8fccce573b0c65e656bc34ab14b8acb8d35",
+      "branding/kit/klip-app-icon-512.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2",
+      "build/screenshots/zh-Hant/Download-row.webp": "4a84b2e7c6bb918acec0d2ce97357c9d931ac6ae47dedba2f516c9b9c40efcb4",
+      "build/screenshots/zh-Hant/Explore-browsing-screenshot.webp": "96d8e2c44e347d553026840270ec53d43cea1d905d94985223466a749eb54d3a",
+      "build/screenshots/zh-Hant/Main-screenshot.webp": "b6b37cc3a8381629aed484a8b4adfa78d8f12b9879736af7ffdd8a0c9b857b83",
       "node_modules/@fontsource/noto-sans-tc/600.css": "917f31c48c9b41ece956c3bd644bc25e044c1619f223c72ea865267501915d4f",
       "node_modules/@fontsource/noto-sans-tc/700.css": "672bb659d45732abc2dadbba7c9512c7cead9628b3f74f8b0ec2cf1610682437",
       "node_modules/@fontsource/noto-sans-tc/files/noto-sans-tc-0-600-normal.woff": "faca2e92ea74f37502baf582ba7329b4f54d8597ee6056a795584e6338beffe6",
@@ -4587,9 +4588,8 @@
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b",
       "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a",
-      "readme-src/banner.html": "1f2e160dadebb68f1adb817bc7791a14032ff42aacf9731b839573bc2bd07cdd",
-      "readme-src/banners.mjs": "b179266ea33d8003dc8f9b687e996b92406f7ed187becb6ec34eed3a85ef171f",
-      "src/renderer/src/assets/App-icon-HQ.png": "b2377fb156e1be1ec95777716b121e1bdc548f937908cc45f382b7b5ea6c35d2"
+      "readme-src/banner.html": "fd671063cb9cb902942c1922ae9172d7da43f6390f2e8fb3d0142cb824101d4d",
+      "readme-src/banners.mjs": "358cb27001df698b78980b9b2642e89c41cedb2a51903c646d9c4f829c41c390"
     }
   }
 }

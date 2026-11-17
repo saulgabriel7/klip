@@ -82,7 +82,7 @@ try {
   const context = await browser.newContext({viewport: {width: 1200, height: 630}, deviceScaleFactor: 1});
   const page = await context.newPage();
   for (const {code, strings} of LOCALES) {
-    const sources = new Set(['readme-src/banner.html', 'readme-src/banners.mjs', 'src/renderer/src/assets/App-icon-HQ.png']);
+    const sources = new Set(['readme-src/banner.html', 'readme-src/banners.mjs', 'branding/kit/klip-app-icon-512.png']);
     for (const name of ['Main', 'Explore-browsing']) {
       const file = `build/screenshots/${code}/${name}-screenshot.webp`;
       if (!existsSync(path.join(ROOT, file))) throw new Error(`${code}: missing ${file}; run screenshots:readme`);
@@ -97,7 +97,7 @@ try {
     if (!first || !second) throw new Error(`${code}: missing translated banner headline`);
     const html = template.replaceAll('{{LANG}}', code).replaceAll('{{DIR}}', RTL.has(code) ? 'rtl' : 'ltr')
       .replace('{{FONT_CSS}}', fontsFor(code, sources)).replace('{{FAMILY}}', `${SCRIPT_FONTS[code] ? `"${family}", Poppins` : `Poppins, "${family}"`}, sans-serif`)
-      .replace('{{MASCOT}}', url('src/renderer/src/assets/App-icon-HQ.png'))
+      .replace('{{MASCOT}}', url('branding/kit/klip-app-icon-512.png'))
       .replace('{{HEAD}}', `${escapeHtml(first)}<br><em>${escapeHtml(second)}</em>`)
       .replace('{{URL_SHOT}}', url(`build/screenshots/${code}/Main-screenshot.webp`))
       .replace('{{EXPLORE_SHOT}}', url(`build/screenshots/${code}/Explore-browsing-screenshot.webp`))

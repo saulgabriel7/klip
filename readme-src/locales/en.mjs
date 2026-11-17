@@ -39,7 +39,7 @@ brew install mise
 xcode-select --install
 \`\`\`
 
-After cloning, run \`mise trust && mise install\` from the checkout. If your shell already uses \`fnm\`, \`nvm\`, or a Homebrew Bun, activate mise in \`~/.zshrc\` so Arroxy gets Node.js 24.21.0 and Bun 1.4.2:
+After cloning, run \`mise trust && mise install\` from the checkout. If your shell already uses \`fnm\`, \`nvm\`, or a Homebrew Bun, activate mise in \`~/.zshrc\` so Klip gets Node.js 24.21.0 and Bun 1.4.2:
 
 \`\`\`bash
 printf '\n# mise\nif command -v mise >/dev/null 2>&1; then\n  eval "$(mise activate zsh)"\nfi\n' >> ~/.zshrc
@@ -61,8 +61,8 @@ sudo apt install -y xvfb
 ### Clone & run
 
 \`\`\`bash
-git clone https://github.com/antonio-orionus/Arroxy
-cd Arroxy
+git clone https://github.com/saulgabriel7/klip
+cd klip
 mise trust
 mise install           # recommended; skip if you manually activated the pinned tools
 bun run bootstrap
@@ -125,6 +125,26 @@ export const en = {
   ai_notice: "",
   last_updated: "Last updated: {{LAST_UPDATED}}.",
   toc_heading: "Contents",
+  diff_arroxy_h2: "What changed from Arroxy",
+  diff_arroxy_intro: "Klip is a minimalist redesign and full rebranding based on the open-source architecture of [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Here is what changed:",
+  diff_arroxy_col_area: "Area",
+  diff_arroxy_col_orig: "Original Arroxy",
+  diff_arroxy_col_klip: "Klip",
+  diff_arroxy_r1_area: "**Brand & Logo**",
+  diff_arroxy_r1_orig: "Arroxy name, mascot character, and purple/blue branding",
+  diff_arroxy_r1_klip: "New geometric **Klip** mark (`K` frame-cut SVG/ICNS/ICO kit) and adaptive monochrome/tray icons",
+  diff_arroxy_r2_area: "**Visual Direction**",
+  diff_arroxy_r2_orig: "Aurora WebGL animated sky, heavy glassmorphism blur, and neon glow shadows",
+  diff_arroxy_r2_klip: "**Solid Zinc Minimalism** — Aurora removed; pure dark & light `shadcn/ui` surfaces with crisp `1px` borders",
+  diff_arroxy_r3_area: "**Typography & Hierarchy**",
+  diff_arroxy_r3_orig: "Layered translucent cards with decorative gradients",
+  diff_arroxy_r3_klip: "Flat panels (`bg-background`, `bg-card`), tight headings (`tracking-tight`), and `tabular-nums` for telemetry",
+  diff_arroxy_r4_area: "**Packaging & Metadata**",
+  diff_arroxy_r4_orig: "`com.arroxy.app` / `Arroxy.app` / `Arroxy.exe`",
+  diff_arroxy_r4_klip: "`com.saulgabriel.klip` / `klip.app` / `Klip.exe` distributed via personal GitHub Releases",
+  diff_arroxy_r5_area: "**Core Engine & i18n**",
+  diff_arroxy_r5_orig: "Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 languages",
+  diff_arroxy_r5_klip: "100% preserved — same high-speed download engine, Explore browser, profiles, queue, and 50 locales",
   why_h2: "Why Klip",
   features_h2: "Features",
   dl_h2: "Install and first launch",
@@ -147,24 +167,24 @@ export const en = {
     "Klip is built with technical minimalism and high precision for one thing: a clean local file, whether you paste a URL or find the video in Explore. No upsells, no data collection.",
   why_explore_h3: "What a plain yt-dlp wrapper can't do: the Explore tab",
   why_explore_intro:
-    "Most free YouTube downloaders are a URL box on top of yt-dlp. Arroxy uses yt-dlp too, but it also has **Explore**, a browser built into the app that opens YouTube or any other site. Explore adds what a URL box can't:",
+    "Most free YouTube downloaders are a URL box on top of yt-dlp. Klip uses yt-dlp too, but it also has **Explore**, a browser built into the app that opens YouTube or any other site. Explore adds what a URL box can't:",
   why_explore_1:
-    "**Videos your account can watch, without exporting cookies** — your private videos, your Watch Later and Liked lists, age-restricted videos on an age-verified account, and pages on other sites that need your sign-in. A plain wrapper needs a cookies.txt export or reads your web browser's cookies. In Arroxy you sign in once in Explore and it does the rest",
+    "**Videos your account can watch, without exporting cookies** — your private videos, your Watch Later and Liked lists, age-restricted videos on an age-verified account, and pages on other sites that need your sign-in. A plain wrapper needs a cookies.txt export or reads your web browser's cookies. In Klip you sign in once in Explore and it does the rest",
   why_explore_4:
     "**No copying links** — find a video, playlist, or channel in Explore and download it with one click, or right-click any link on the page",
   why_explore_5:
     "**Ad blocker when you want it** — one click on the shield blocks ads and trackers on Explore's pages",
-  feat_explore_h3: "Explore: browse the web inside Arroxy",
+  feat_explore_h3: "Explore: browse the web inside Klip",
   feat_explore_1:
-    "**Explore tab** — browse YouTube or any other site inside Arroxy and download what you find without copying links. **Download · *your profile*** queues the video, playlist, or channel you're looking at; the arrow next to it switches profiles, and the wand opens the step-by-step download for picking formats, subtitles, and more",
+    "**Explore tab** — browse YouTube or any other site inside Klip and download what you find without copying links. **Download · *your profile*** queues the video, playlist, or channel you're looking at; the arrow next to it switches profiles, and the wand opens the step-by-step download for picking formats, subtitles, and more",
   feat_explore_6:
     "**Right-click to download** — right-click any video, playlist, or channel link in Explore to download it with your profile, pick another profile from **Download with**, open the step-by-step download, or copy the link. No need to open each video first",
   feat_explore_7:
-    "**Compact layout** — one click in Explore's toolbar moves Arroxy's tabs into it and gives the page more room",
+    "**Compact layout** — one click in Explore's toolbar moves Klip's tabs into it and gives the page more room",
   feat_explore_2:
     "**Address bar** — type to search YouTube, or enter any web address to open that site",
   feat_explore_3:
-    "**Downloads that need an account** — sign in once in Explore and Arroxy can download videos your account can watch: your private videos, age-restricted videos if the account is age-verified, and your Watch Later and Liked lists. Sign in to other sites there too, and their downloads use that sign-in when they need it. Arroxy still downloads signed out first and only uses your Explore sign-in when a download fails in a way an account can fix",
+    "**Downloads that need an account** — sign in once in Explore and Klip can download videos your account can watch: your private videos, age-restricted videos if the account is age-verified, and your Watch Later and Liked lists. Sign in to other sites there too, and their downloads use that sign-in when they need it. Klip still downloads signed out first and only uses your Explore sign-in when a download fails in a way an account can fix",
   feat_explore_4:
     "**Use a secondary account** — Explore's first screen explains why: downloading with an account carries some risk of that account being restricted. Sign out of Explore from Settings whenever you want to forget your sign-ins",
   feat_explore_5:
@@ -187,13 +207,13 @@ export const en = {
   feat_privacy_3: "Files saved straight to the folder you choose",
   feat_workflow_h3: "Workflow",
   feat_workflow_12:
-    "**Global download hotkey** — copy a link in any app and press `Ctrl+Shift+D` (`Cmd+Shift+D` on macOS); Arroxy queues it with your active profile without opening the window, and a notification confirms it. On by default, rebindable",
+    "**Global download hotkey** — copy a link in any app and press `Ctrl+Shift+D` (`Cmd+Shift+D` on macOS); Klip queues it with your active profile without opening the window, and a notification confirms it. On by default, rebindable",
   feat_workflow_1:
     "**Flexible start modes** — choose a guided single download, playlist/channel picker, bulk URL paste, Quick Download with saved defaults, or browse and download from Explore",
   feat_workflow_2:
     "**Central download queue** — every single, playlist, bulk, or quick job lands in one place for progress, pause, resume, cancel, retry, and priority control",
   feat_workflow_3:
-    "**Clipboard watch** — copy a video link and it fills the URL field when you come back to Arroxy, with **Undo** if you didn't mean it. While Arroxy is busy, the link waits until you are back on the URL tab (turn it off in Settings)",
+    "**Clipboard watch** — copy a video link and it fills the URL field when you come back to Klip, with **Undo** if you didn't mean it. While Klip is busy, the link waits until you are back on the URL tab (turn it off in Settings)",
   feat_workflow_4:
     "**Auto-clean URLs** — strips tracking params (`si`, `pp`, `utm_*`, `fbclid`, `gclid`) and unwraps `youtube.com/redirect` links",
   feat_workflow_5:
@@ -207,23 +227,23 @@ export const en = {
   feat_workflow_9:
     "**Filename templates** — name downloads your way with `{title}`, `{uploader}`, `{id}`, `{date}`, `{year}`, `{resolution}`, `{site}`, `{categories}`, `{artist}`, `{album}`, `{track}`, and `{playlist_index}`, globally or per download profile",
   feat_workflow_10:
-    "**Downloads at once and automatic retry** — choose how many queued downloads run at the same time, and let Arroxy retry a download that hit a network or server problem, waiting longer before each attempt",
+    "**Downloads at once and automatic retry** — choose how many queued downloads run at the same time, and let Klip retry a download that hit a network or server problem, waiting longer before each attempt",
   feat_workflow_11:
     "**Per-item playlist profiles** — assign each video in a playlist its own download profile instead of one setting for the whole list, so a single pass can archive some at full quality and save the rest as audio only",
   feat_workflow_13:
     "**Quick Download works in the background** — the link shows up in Downloads right away and prepares there, a note with **View** confirms it, and the URL field clears for the next link. Start as many as you like while earlier ones prepare",
   feat_workflow_14:
-    "**Downloads tells you what needs you** — if Arroxy can't read a link, its row says why and offers the fix: Retry, turn on cookies, or sign in in Explore. With cookies off, **Sign in with Explore** retries it for you once you're signed in. A playlist longer than your load limit waits on its row for you to pick all of it, the first ones, or a review. The Downloads tab counts the rows waiting for you",
+    "**Downloads tells you what needs you** — if Klip can't read a link, its row says why and offers the fix: Retry, turn on cookies, or sign in in Explore. With cookies off, **Sign in with Explore** retries it for you once you're signed in. A playlist longer than your load limit waits on its row for you to pick all of it, the first ones, or a review. The Downloads tab counts the rows waiting for you",
   feat_workflow_15:
-    "**Download just part of a video** — pick a start and end, or a chapter, on the Format screen and Arroxy saves only that range, named with the range after the video id. Cuts land on the nearest keyframe; turn on exact cut to re-encode instead",
+    "**Download just part of a video** — pick a start and end, or a chapter, on the Format screen and Klip saves only that range, named with the range after the video id. Cuts land on the nearest keyframe; turn on exact cut to re-encode instead",
   feat_workflow_16:
     "**Remove finished downloads** — optional: a finished download leaves the list 5 seconds later. Its files stay on disk, and failed downloads stay listed",
   feat_workflow_17:
-    "**Size and Missing in Downloads** — a sortable **Size** column shows how much space each download takes, and **Missing** flags files moved or deleted outside Arroxy",
+    "**Size and Missing in Downloads** — a sortable **Size** column shows how much space each download takes, and **Missing** flags files moved or deleted outside Klip",
   feat_workflow_18:
-    "**Aurora or Minimal, dark or light** — glass panels over a moving sky, or quiet solid surfaces; switch from the footer. Computers without graphics acceleration get Minimal automatically",
+    "**Minimal Solid Zinc, dark or light** — flat shadcn/ui cards, crisp 1px borders, and high contrast in both dark and light modes; switch from the footer",
   feat_workflow_19:
-    "**Mac menu bar** — on macOS, open Settings (`Cmd+,`), set the download speed limit, switch style and theme, and open logs or save a diagnostics file from the menu bar",
+    "**Mac menu bar** — on macOS, open Settings (`Cmd+,`), set the download speed limit, switch theme, and open logs or save a diagnostics file from the menu bar",
   feat_workflow_20:
     "**Change a profile from any download** — tweak a download, then update the profile it started from (with a preview of what changes) or save the settings as a new profile. Switching profile asks whether to keep your edits",
   feat_post_h3: "Subtitles & post-processing",
@@ -245,7 +265,7 @@ export const en = {
   feat_sites_3:
     "**Audio-only and subtitles** work across every supported site, not just YouTube",
   feat_sites_4:
-    "If a site changes, yt-dlp ships fixes weekly and Arroxy auto-updates the binary on launch",
+    "If a site changes, yt-dlp ships fixes weekly and Klip auto-updates the binary on launch",
   shot1_cap:
     "<b>Quick Download home</b><br/>Paste a URL and pull it instantly with your active profile",
   shot2_cap:
@@ -259,22 +279,22 @@ export const en = {
   shot6_cap:
     "<b>Parallel download queue</b><br/>Several downloads at once with live progress",
   hotkey_fig_alt:
-    "Arroxy global download hotkey — Ctrl+Shift+D on Windows and Linux, Cmd+Shift+D on macOS, sending the copied link straight into the download queue",
+    "Klip global download hotkey — Ctrl+Shift+D on Windows and Linux, Cmd+Shift+D on macOS, sending the copied link straight into the download queue",
   hotkey_fig_cap:
     "<b>Global download hotkey</b><br/>Copy a link anywhere, press once — it lands in the queue and starts downloading",
   shot7_cap: "<b>Per-item playlist profiles</b><br/>Give each video its own profile — archive some in 4K, save the rest as audio only",
   shot8_cap:
-    "<b>Explore</b><br/>Browse YouTube or any other site inside Arroxy and download the page you're on with your active profile",
+    "<b>Explore</b><br/>Browse YouTube or any other site inside Klip and download the page you're on with your active profile",
   shot9_cap:
     "<b>Explore's first screen</b><br/>A quick look at Explore, and why a secondary account is the safer sign-in",
   shot10_cap:
     "<b>Downloads tells you what needs you</b><br/>Links prepare in the background; a failed one offers its fix, a long playlist waits for your choice",
   shot11_cap:
-    "<b>Download just part of a video</b><br/>Pick a start and end, or a chapter — Arroxy saves only that range",
+    "<b>Download just part of a video</b><br/>Pick a start and end, or a chapter — Klip saves only that range",
   shot12_cap:
     "<b>Profile editor</b><br/>Tune a profile: file type, resolution, subtitles, destination, filename template and more",
   shot13_cap:
-    "<b>Dark or light, glass or solid</b><br/>Four looks to choose from: glass panels over a moving sky or quiet solid surfaces, each in dark and light",
+    "<b>Minimalist Solid Zinc — Dark & Light</b><br/>Clean flat surfaces, 1px borders, and high-precision typography across dark and light modes",
   shot14_cap:
     "<b>8K HDR at 60 fps</b><br/>Every resolution, codec and HDR stream a video offers, side by side",
   dl_platform_col: "Platform",
@@ -309,28 +329,28 @@ export const en = {
     "**Recommendation:** use the NSIS installer for auto-updates and faster startup. Use the portable `.exe` for a no-install, no-registry option.",
   dl_win_smartscreen_h4: "Windows SmartScreen warning",
   dl_win_smartscreen_intro:
-    'On first launch you may see **"Windows protected your PC"** or **"Unknown publisher."** This applies to both `Arroxy-win-x64-Setup.exe` and `Arroxy-win-x64-Portable.exe`. Arroxy is free and open-source and the Windows builds are not code-signed with a paid certificate, which is why SmartScreen flags them. It does **not** automatically mean Arroxy is unsafe. To continue:',
+    'On first launch you may see **"Windows protected your PC"** or **"Unknown publisher."** This applies to both `Klip-win-x64-Setup.exe` and `Klip-win-x64-Portable.exe`. Klip is free and open-source and the Windows builds are not code-signed with a paid certificate, which is why SmartScreen flags them. It does **not** automatically mean Klip is unsafe. To continue:',
   dl_win_smartscreen_step1: "Click **More info**.",
   dl_win_smartscreen_step2: "Click **Run anyway**.",
   dl_win_smartscreen_official:
-    "Only download Arroxy from the official GitHub Releases page. If you got the file from another website or someone sent it to you, delete it and download a fresh copy from the official source. The source code is public, so you can inspect it or build Arroxy yourself if you prefer.",
+    "Only download Klip from the official GitHub Releases page. If you got the file from another website or someone sent it to you, delete it and download a fresh copy from the official source. The source code is public, so you can inspect it or build Klip yourself if you prefer.",
   dl_macos_h3: "First-time launch on macOS",
   dl_macos_warning:
-    "Arroxy is not yet code-signed, so macOS Gatekeeper can show the damaged-app warning on first launch. This is expected — it's not a sign of actual file damage.",
+    "Klip is not yet code-signed, so macOS Gatekeeper can show a warning on first launch. This is expected — it's not a sign of actual file damage.",
   dl_macos_m1_h4: "Terminal method:",
-  dl_macos_step1: "Drag `Arroxy.app` from the mounted DMG into `/Applications`.",
+  dl_macos_step1: "Drag `klip.app` from the mounted DMG into `/Applications`.",
   dl_macos_step2:
-    "Open Terminal and run `sudo xattr -dr com.apple.quarantine /Applications/Arroxy.app`.",
-  dl_macos_step3: "Run `open /Applications/Arroxy.app`.",
+    "Open Terminal and run `xattr -cr /Applications/klip.app`.",
+  dl_macos_step3: "Run `open /Applications/klip.app`.",
   dl_macos_step4:
-    "If the app path is different, replace `/Applications/Arroxy.app` with the path you installed.",
+    "If the app path is different, replace `/Applications/klip.app` with the path you installed.",
   dl_macos_step5:
     "Enter your Mac password if `sudo` asks for it.",
   dl_macos_after:
-    "After quarantine is removed, Arroxy opens normally.",
+    "After quarantine is removed, Klip opens normally.",
   dl_macos_m2_h4: "Terminal method:",
   dl_macos_note:
-    "macOS builds are produced via CI on Apple Silicon and Intel runners. If you hit issues, please [open an issue](../../issues) — feedback from macOS users actively shapes the macOS testing cycle.",
+    "macOS builds are produced on Apple Silicon and Intel runners. If you hit issues, please [open an issue](../../issues).",
   dl_linux_h3: "First-time launch on Linux",
   dl_linux_intro:
     "AppImages run directly — no installation. You just need to mark the file as executable.",
@@ -340,12 +360,12 @@ export const en = {
   dl_linux_fuse_text: "If launch still fails, run it without mounting — no FUSE package needed:",
   dl_linux_targz_h4: "Plain tarball (no FUSE, no install):",
   dl_linux_targz_text: "The `.tar.gz` build is the same app without the AppImage wrapper — extract it anywhere and run it. No installer and no FUSE package needed.",
-  dl_linux_arch_note: "**The Linux downloads on the release page are x86_64 only.** On ARM64 machines (Raspberry Pi, Asahi Linux) the Flatpak still installs, then fails at launch with `bwrap: execvp ldconfig: Exec format error`.",
+  dl_linux_arch_note: "**The Linux downloads on the release page are x86_64 only.**",
   dl_warning_h3: "Why you may see a warning",
   dl_warning_p1:
-    "Arroxy is open-source and GPLv3-licensed. The Windows and macOS builds are **not code-signed** — Apple Developer ID and Windows EV code-signing certificates each cost hundreds of dollars per year, which an indie project pays out of pocket. Without those signatures, Windows SmartScreen and macOS Gatekeeper will warn you on first launch. The warnings mean *your OS doesn't recognize the publisher* — they don't mean Arroxy is malware.",
+    "Klip is open-source and GPLv3-licensed. The Windows and macOS builds are **not code-signed** — Apple Developer ID and Windows EV code-signing certificates each cost hundreds of dollars per year. Without those signatures, Windows SmartScreen and macOS Gatekeeper will warn you on first launch. The warnings mean *your OS doesn't recognize the publisher* — they don't mean Klip is malware.",
   dl_warning_p2:
-    "Three ways to verify Arroxy yourself, in increasing rigor:\n\n- **Read the source.** Every line is on [GitHub](https://github.com/antonio-orionus/Arroxy) and you can [build it from source](#tech).\n- **Check the SHA256.** Match your file against the published [`SHA256SUMS`](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) — see [Verify your download](#verify) below.\n- **Run a third-party scan.** Upload the file to [VirusTotal](https://www.virustotal.com).",
+    "Three ways to verify Klip yourself, in increasing rigor:\n\n- **Read the source.** Every line is on [GitHub](https://github.com/saulgabriel7/klip) and you can [build it from source](#tech).\n- **Check the SHA256.** Match your file against the published [`SHA256SUMS`](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) — see [Verify your download](#verify) below.\n- **Run a third-party scan.** Upload the file to [VirusTotal](https://www.virustotal.com).",
 
   dl_win_first_h3: "Windows first launch",
   shot_smartscreen_more_alt:
@@ -354,35 +374,35 @@ export const en = {
     'SmartScreen dialog after expanding More info, showing the "Run anyway" button',
   dl_win_defender_h4: "If Windows Defender flags or removes the file",
   dl_win_defender_p:
-    "Defender heuristics sometimes flag unsigned NSIS installers and Electron portables as suspicious. If Defender quarantines `Arroxy-win-x64-Setup.exe` or `Arroxy-win-x64-Portable.exe`, restore it from **Windows Security → Virus & threat protection → Protection history**, then add the Arroxy executable as an allowed item under **Manage settings → Add or remove exclusions**. As with SmartScreen, the trigger is the missing publisher signature, not detected malware.",
+    "Defender heuristics sometimes flag unsigned NSIS installers and Electron portables as suspicious. If Defender quarantines `Klip-win-x64-Setup.exe` or `Klip-win-x64-Portable.exe`, restore it from **Windows Security → Virus & threat protection → Protection history**, then add the Klip executable as an allowed item under **Manage settings → Add or remove exclusions**. As with SmartScreen, the trigger is the missing publisher signature, not detected malware.",
 
   dl_macos_first_h3: "macOS first launch",
   dl_macos_intro:
-    "Arroxy's macOS builds are ad-hoc signed but not notarized by Apple, so Gatekeeper blocks the first launch with *\"Arroxy.app\" Not Opened — Apple could not verify \"Arroxy.app\" is free of malware*. That means macOS cannot check the app with Apple, not that anything is wrong with the files. Installing with Homebrew avoids this dialog entirely. If you used the DMG, one Terminal command clears it:",
+    "Klip's macOS builds are ad-hoc signed but not notarized by Apple, so Gatekeeper blocks the first launch with *\"Klip\" Not Opened — Apple could not verify \"Klip\" is free of malware*. That means macOS cannot check the app with Apple, not that anything is wrong with the files. You can allow it in **System Settings → Privacy & Security → Open Anyway**, or run one Terminal command:",
   dl_macos_sequoia_h4: "Terminal fix for current macOS",
   dl_macos_sequoia_intro:
-    "Use Terminal after copying Arroxy to Applications:",
+    "Use Terminal after copying Klip to Applications:",
   dl_macos_sequoia_step1:
-    "Drag `Arroxy.app` from the mounted DMG into `/Applications`.",
+    "Drag `klip.app` from the mounted DMG into `/Applications`.",
   dl_macos_sequoia_step2:
     "Open Terminal and run these two commands:",
   dl_macos_sequoia_step3:
-    "Run `open /Applications/Arroxy.app` to launch Arroxy.",
+    "Run `open /Applications/klip.app` to launch Klip.",
   dl_macos_sequoia_step4:
-    "If the app path is different, replace `/Applications/Arroxy.app` with the path you installed.",
+    "If the app path is different, replace `/Applications/klip.app` with the path you installed.",
   dl_macos_sonoma_h4: "Terminal fix for older macOS",
   dl_macos_sonoma_step1:
-    "Drag `Arroxy.app` from the mounted DMG into `/Applications`.",
+    "Drag `klip.app` from the mounted DMG into `/Applications`.",
   dl_macos_sonoma_step2:
-    "Open Terminal and remove quarantine from `/Applications/Arroxy.app`.",
+    "Open Terminal and remove quarantine from `/Applications/klip.app`.",
   dl_macos_sonoma_step3:
-    "Launch Arroxy from Terminal or Finder after quarantine is removed.",
+    "Launch Klip from Terminal or Finder after quarantine is removed.",
   dl_macos_damaged_h4:
     "Gatekeeper quarantine fix",
   dl_macos_damaged_p:
-    "The first command removes the quarantine attribute macOS attached when the file was downloaded; the second launches the app. You normally do not need `sudo`, because the copy in `/Applications` belongs to you — add it only if you get a permissions error.",
+    "The first command removes the quarantine attribute macOS attached when the file was downloaded; the second launches the app. You normally do not need `sudo`, because the copy in `/Applications` belongs to you.",
   dl_macos_arch_note:
-    "**Apple Silicon vs Intel:** on an M-series Mac (M1 / M2 / M3 / M4), download the `arm64` DMG. On Intel Macs, download the `x64` DMG. Running the wrong build still works via Rosetta but is noticeably slower.",
+    "**Apple Silicon vs Intel:** on an M-series Mac (M1 / M2 / M3 / M4), download the `arm64` DMG. On Intel Macs, download the `x64` DMG.",
 
   dl_linux_first_h3: "Linux first launch",
   dl_linux_appimagelauncher:
@@ -403,14 +423,14 @@ export const en = {
   privacy_p1:
     "Downloads are fetched directly via [yt-dlp](https://github.com/yt-dlp/yt-dlp) from YouTube to the folder you pick — nothing routed through a third-party server. Watch history, download history, URLs, and file contents stay on your device.",
   privacy_anonymous_reports:
-    "**No tracking.** Arroxy sends only anonymous reports that help us count users and fix problems — never your links, videos, files or accounts. You control them in Settings.",
+    "**No tracking.** Klip never collects personal links, videos, files or accounts. Diagnostic preferences are controlled in Settings.",
   privacy_explore_sign_ins:
     "Explore keeps its own sign-ins, separate from your browser, and you always sign in on the site's own page. A download uses a sign-in only for that site, reads it fresh and deletes its copy afterwards. Signing out of Explore in Settings forgets them.",
   faq_q1: "Is it really free?",
   faq_a1: "Yes — GPLv3 licensed, no premium tier, no feature gating.",
-  faq_q11: "How is Arroxy different from other yt-dlp GUIs?",
+  faq_q11: "How is Klip different from other yt-dlp GUIs and from Arroxy?",
   faq_a11:
-    "Most free yt-dlp GUIs are wrappers that only take a link. Arroxy adds **Explore**, a browser built into the app that opens YouTube or any other site: you browse and download without copying links, and you sign in there once to download videos your account can watch, like your private videos and your Watch Later and Liked lists, with no cookie export. See [Why Arroxy](#why).",
+    "Most free yt-dlp GUIs are wrappers that only take a link. Klip is a personal open-source redesign of [Arroxy](https://github.com/antonio-orionus/Arroxy) featuring a custom geometric brand identity and a clean **Minimalist Solid Zinc (`shadcn/ui`)** UI with zero visual bloat, while preserving **Explore** (built-in browser), reusable profiles, and high-speed downloads. See [What changed from Arroxy](#diff-arroxy) and [Why Klip](#why).",
   faq_q2: "What video qualities can I download?",
   faq_a2:
     "Anything YouTube serves: 8K (4320p), 4K UHD (2160p), 1440p, 1080p, 720p, 480p, 360p, plus audio-only. 60 fps and HDR streams are preserved as-is, and the step-by-step download lets you pick AV1, VP9 or H.264 at each resolution.",
@@ -419,22 +439,22 @@ export const en = {
     "Yes. Pick *audio-only* in the format menu and choose MP3, M4A/AAC, Opus, or WAV.",
   faq_q4: "How do I download videos that need a YouTube account?",
   faq_a4:
-    "Sign in once in the Explore tab. Arroxy can then download videos your account can watch: your private videos, age-restricted videos if the account is age-verified, and your Watch Later and Liked lists. It uses the sign-in only when a download fails in a way an account can fix; everything else downloads as before. This is the **Explore sign-in** choice, listed first and marked Recommended in the cookie settings, and Arroxy picks it for you the first time you open Explore. yt-dlp's wiki notes that [signed-in automation can flag a Google account](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies), so a secondary account is the safer choice.",
+    "Sign in once in the Explore tab. Klip can then download videos your account can watch: your private videos, age-restricted videos if the account is age-verified, and your Watch Later and Liked lists. It uses the sign-in only when a download fails in a way an account can fix; everything else downloads as before. This is the **Explore sign-in** choice, listed first and marked Recommended in the cookie settings, and Klip picks it for you the first time you open Explore. yt-dlp's wiki notes that [signed-in automation can flag a Google account](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies), so a secondary account is the safer choice.",
   faq_q5: "Will it keep working when YouTube changes something?",
   faq_a5:
-    "yt-dlp is updated automatically on launch, and Arroxy ships fixes promptly when YouTube changes something. When a download needs a sign-in, Arroxy uses your Explore sign-in if you've signed in there, and cookies from a file or your browser are available in the cookie settings.",
-  faq_q6: "What languages is Arroxy available in?",
+    "yt-dlp is updated automatically on launch. When a download needs a sign-in, Klip uses your Explore sign-in if you've signed in there, and cookies from a file or your browser are available in the cookie settings.",
+  faq_q6: "What languages is Klip available in?",
   faq_a6:
-    "{{LANG_COUNT}} languages, out of the box: {{LANG_NAME_LIST}}. Arroxy auto-detects your operating system's language on first launch and you can switch at any time from the language picker in the toolbar. Runtime locale JSON lives in src/shared/i18n/locales/, and translator-facing PO catalogs live in i18n/locales/ — open a PR on GitHub to contribute.",
+    "{{LANG_COUNT}} languages, out of the box: {{LANG_NAME_LIST}}. Klip auto-detects your operating system's language on first launch and you can switch at any time from the language picker in the toolbar. Runtime locale JSON lives in src/shared/i18n/locales/, and translator-facing PO catalogs live in i18n/locales/ — open a PR on GitHub to contribute.",
   faq_q7: "Do I need to install anything else?",
   faq_a7:
     "No. yt-dlp, ffmpeg and ffprobe are downloaded automatically on first launch and cached on your machine. After that, no extra setup is needed.",
   faq_q8: "Can I download playlists or whole channels?",
   faq_a8:
     "Yes — both. Paste a playlist URL or a channel URL (e.g. `youtube.com/@handle`, `/channel/UC…`, `/c/Name`, `/user/Old`); choose how many entries to scan, then queue the whole list or pick specific videos. Date-range filters are coming soon.",
-  faq_q9: 'macOS says "the app is damaged" — what do I do?',
+  faq_q9: 'macOS says "the app was not opened / damaged" — what do I do?',
   faq_a9:
-    'That\'s macOS Gatekeeper blocking an unsigned app, not actual damage. See [macOS first launch](#macos-first-launch) for the Terminal commands that clear quarantine and launch Arroxy.',
+    'That\'s macOS Gatekeeper blocking an unsigned app, not actual damage. See [macOS first launch](#macos-first-launch) for the System Settings or Terminal commands (`xattr -cr /Applications/klip.app`) that launch Klip.',
   faq_q10: "Is downloading YouTube videos legal?",
   faq_a10:
     "It depends on your country and on what you download. Download only content you own, content that is licensed for download, or content the law in your country lets you copy. You are responsible for complying with YouTube's [Terms of Service](https://www.youtube.com/t/terms) and your local copyright laws. See [Terms of use](#terms).",
@@ -454,13 +474,13 @@ export const en = {
     "Turn the queue drawer into a fuller manager, including changing destination folders for queued items",
   plan_r5_name: "**Scheduled downloads**",
   plan_r5_desc: "Start a queue at a set time (overnight runs)",
-  plan_r9_name: "**AUR package**",
-  plan_r9_desc: "Install on Arch Linux and Omarchy with `yay -S arroxy-bin`",
+  plan_r9_name: "**Cross-platform binary releases**",
+  plan_r9_desc: "Automated signed or direct installer packages via GitHub Actions",
   plan_cta:
     "Have a feature in mind? [Open a request](../../issues) — community input shapes priority.",
   tech_content: TECH_CONTENT,
   support_h2: "Support",
-  support_line: "Klip is a personal open-source project by Saul Gabriel, licensed under GNU GPL v3.0.",
+  support_line: "Klip is a personal open-source project by Saul Gabriel, licensed under GNU GPL v3.0. Star the repository or open an issue on [GitHub](https://github.com/saulgabriel7/klip).",
   tos_h2: "Terms of use",
   tos_note:
     "Klip is a tool for personal, private use only. You are solely responsible for ensuring your downloads comply with YouTube's [Terms of Service](https://www.youtube.com/t/terms) and the copyright laws of your jurisdiction.",

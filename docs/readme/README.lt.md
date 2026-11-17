@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../../build/banners/lt-e35d9b11b0.jpg" alt="Įklijuokite nuorodą arba tiesiog naršykite. Arroxy URL ekranas ir integruota naršyklė su vykstančiu atsisiuntimu." width="1200" />
+  <img src="../../build/banners/lt-3e9e21099b.jpg" alt="Įklijuokite nuorodą arba tiesiog naršykite. Arroxy URL ekranas ir integruota naršyklė su vykstančiu atsisiuntimu." width="1200" />
 
 # Klip
 
@@ -27,20 +27,18 @@ Nemokama atvirojo kodo atsisiuntimo programa YouTube ir daugiau nei 2000 svetain
 
 [Pirmasis paleidimas Windows sistemoje](#windows-first-launch) · [Pirmasis paleidimas macOS sistemoje](#macos-first-launch) · [Pirmasis paleidimas Linux sistemoje](#linux-first-launch)
 
-[![Laida](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![Kūrinys](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![Licencija](https://img.shields.io/badge/license-GPLv3-blue) ![Kalbos](https://img.shields.io/badge/i18n-50_languages-blue)
+[![Laida](https://img.shields.io/github/v/release/saulgabriel7/klip?label=Release&color=blueviolet)](https://github.com/saulgabriel7/klip/releases/latest) [![Kūrinys](https://img.shields.io/github/actions/workflow/status/saulgabriel7/klip/ci.yml?label=Build)](https://github.com/saulgabriel7/klip/actions) ![Licencija](https://img.shields.io/badge/license-GPLv3-blue) ![Kalbos](https://img.shields.io/badge/i18n-50_languages-blue)
 
 **Skaityti kalba:** [Afaan Oromoo](README.om.md) · [Bahasa Indonesia](README.id.md) · [Català](README.ca.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Eesti](README.et.md) · [English](../../README.md) · [Español](README.es.md) · [Euskara](README.eu.md) · [Français](README.fr.md) · [Galego](README.gl.md) · [Hrvatski](README.hr.md) · [Italiano](README.it.md) · [Kiswahili](README.sw.md) · [Latviešu](README.lv.md) · **Lietuvių** · [Magyar](README.hu.md) · [Nederlands](README.nl.md) · [Norsk bokmål](README.nb.md) · [O'zbekcha](README.uz.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Română](README.ro.md) · [Slovenčina](README.sk.md) · [Slovenščina](README.sl.md) · [Suomi](README.fi.md) · [Svenska](README.sv.md) · [Tiếng Việt](README.vi.md) · [Türkçe](README.tr.md) · [አማርኛ](README.am.md) · [עברית](README.he.md) · [العربية](README.ar.md) · [اردو](README.ur.md) · [پښتو](README.ps.md) · [فارسی](README.fa.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [မြန်မာဘာသာ](README.my.md) · [ខ្មែរ](README.km.md) · [Ελληνικά](README.el.md) · [Български](README.bg.md) · [Русский](README.ru.md) · [Српски](README.sr.md) · [Українська](README.uk.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [繁體中文](README.zh-Hant.md)
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Main-screenshot.webp" alt="Klip — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
   </tr>
 </table>
 
 Be reklamų, naudojimo apribojimų ir siūlymų mokėti daugiau.
-
-[![Prisijunkite prie Discord bendruomenės](https://img.shields.io/badge/Prisijunkite%20prie%20Discord%20bendruomen%C4%97s-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
 
 Jei Arroxy taupo jūsų laiką, ⭐ padės kitiems ją rasti.
 
@@ -52,7 +50,7 @@ Jei Arroxy taupo jūsų laiką, ⭐ padės kitiems ją rasti.
 
 Vieną kartą prisijunkite prie kiekvienos svetainės, kad atsisiųstumėte paskyrai prieinamą turinį, įskaitant privačius vaizdo įrašus ir sąrašus „Žiūrėti vėliau“ bei „Patikę vaizdo įrašai“. Slapukų eksportuoti nereikia. [Daugiau apie Naršymą](#why-explore).
 
-_Paskutinį kartą atnaujinta: 2026-11-16._
+_Paskutinį kartą atnaujinta: 2026-11-17._
 
 > 🌐 Šis vertimas parengtas padedant DI. [Angliškas README](../../README.md) yra pagrindinis šaltinis. Radote klaidą? [Atverkite PR](../../../../pulls).
 
@@ -60,6 +58,7 @@ _Paskutinį kartą atnaujinta: 2026-11-16._
 
 ## Turinys
 
+- [🔄 What changed from Arroxy](#diff-arroxy)
 - [✨ Funkcijos](#features)
 - [📥 Diegimas ir pirmasis paleidimas](#install)
   - [Pirmasis paleidimas Windows sistemoje](#windows-first-launch)
@@ -77,45 +76,70 @@ _Paskutinį kartą atnaujinta: 2026-11-16._
 
 ---
 
+## <a id="diff-arroxy"></a>🔄 What changed from Arroxy
+
+Klip is a minimalist redesign and full rebranding based on the open-source architecture of [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Here is what changed:
+
+| Area | Original Arroxy | Klip |
+| --- | --- | --- |
+| **Brand & Logo** | Arroxy name, mascot character, and purple/blue branding | New geometric **Klip** mark (`K` frame-cut SVG/ICNS/ICO kit) and adaptive monochrome/tray icons |
+| **Visual Direction** | Aurora WebGL animated sky, heavy glassmorphism blur, and neon glow shadows | **Solid Zinc Minimalism** — Aurora removed; pure dark & light `shadcn/ui` surfaces with crisp `1px` borders |
+| **Typography & Hierarchy** | Layered translucent cards with decorative gradients | Flat panels (`bg-background`, `bg-card`), tight headings (`tracking-tight`), and `tabular-nums` for telemetry |
+| **Packaging & Metadata** | `com.arroxy.app` / `Arroxy.app` / `Arroxy.exe` | `com.saulgabriel.klip` / `klip.app` / `Klip.exe` distributed via personal GitHub Releases |
+| **Core Engine & i18n** | Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 languages | 100% preserved — same high-speed download engine, Explore browser, profiles, queue, and 50 locales |
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../branding/kit/klip-horizontal-white-1200.png" />
+    <source media="(prefers-color-scheme: light)" srcset="../../branding/kit/klip-horizontal-black-1200.png" />
+    <img src="../../branding/kit/klip-horizontal-black-1200.png" alt="Klip Brand Identity" width="360" />
+  </picture>
+  <br/><br/>
+  <img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc interface in Dark and Light modes" width="760" /><br/>
+  <sub><b>Tamsus ar šviesus, stiklinis ar vientisas</b><br/>Keturi stiliai: stikliniai skydeliai virš judančio dangaus arba ramūs vientisi paviršiai, kiekvienas tamsus ir šviesus</sub>
+</div>
+
+---
+
 ## <a id="features"></a>✨ Funkcijos
 
 <table align="center" width="100%">
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Naršymas</b><br/>Naršykite YouTube ar bet kurią kitą svetainę Arroxy viduje ir atsisiųskite puslapį, kuriame esate, su savo aktyviu profiliu</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><sub><b>Naršymas</b><br/>Naršykite YouTube ar bet kurią kitą svetainę Arroxy viduje ir atsisiųskite puslapį, kuriame esate, su savo aktyviu profiliu</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Pirmasis Naršymo ekranas</b><br/>Trumpa Naršymo apžvalga ir paaiškinimas, kodėl antrinė paskyra yra saugesnis prisijungimas</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Atsisiuntimai parodo, ko iš jūsų reikia</b><br/>Nuorodos ruošiamos fone; nepavykusi pasiūlo sprendimą, ilgas grojaraštis laukia jūsų pasirinkimo</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Explore-screenshot.webp" alt="Klip — Explore first-run screen recommending a secondary account" /><br/><sub><b>Pirmasis Naršymo ekranas</b><br/>Trumpa Naršymo apžvalga ir paaiškinimas, kodėl antrinė paskyra yra saugesnis prisijungimas</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Downloads-attention-screenshot.webp" alt="Klip — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><sub><b>Atsisiuntimai parodo, ko iš jūsų reikia</b><br/>Nuorodos ruošiamos fone; nepavykusi pasiūlo sprendimą, ilgas grojaraštis laukia jūsų pasirinkimo</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Atsisiųskite tik vaizdo įrašo dalį</b><br/>Pasirinkite pradžią ir pabaigą arba skyrių — Arroxy įrašo tik tą intervalą</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Part-of-video-screenshot.webp" alt="Klip — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><sub><b>Atsisiųskite tik vaizdo įrašo dalį</b><br/>Pasirinkite pradžią ir pabaigą arba skyrių — Arroxy įrašo tik tą intervalą</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>8K HDR esant 60 kadrų/s</b><br/>Kiekviena skiriamoji geba, kodekas ir HDR srautas, kurį siūlo vaizdo įrašas, greta</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/8K-HDR-video-screenshot.webp" alt="Klip — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><sub><b>8K HDR esant 60 kadrų/s</b><br/>Kiekviena skiriamoji geba, kodekas ir HDR srautas, kurį siūlo vaizdo įrašas, greta</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Profilio redaktorius</b><br/>Sureguliuokite profilį: failo tipą, skiriamąją gebą, subtitrus, paskirtį, failo pavadinimo šabloną ir dar daugiau</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Profile-editor-screenshot.webp" alt="Klip — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><sub><b>Profilio redaktorius</b><br/>Sureguliuokite profilį: failo tipą, skiriamąją gebą, subtitrus, paskirtį, failo pavadinimo šabloną ir dar daugiau</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub><b>Tamsus ar šviesus, stiklinis ar vientisas</b><br/>Keturi stiliai: stikliniai skydeliai virš judančio dangaus arba ramūs vientisi paviršiai, kiekvienas tamsus ir šviesus</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc theme in dark and light modes" width="760" /><br/><sub><b>Tamsus ar šviesus, stiklinis ar vientisas</b><br/>Keturi stiliai: stikliniai skydeliai virš judančio dangaus arba ramūs vientisi paviršiai, kiekvienas tamsus ir šviesus</sub></td>
   </tr>
   <tr>
     <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Arroxy visuotinis atsisiuntimo spartusis klavišas — Ctrl+Shift+D Windows ir Linux, Cmd+Shift+D macOS sistemoje, nukopijuotą nuorodą siunčia tiesiai į atsisiuntimų eilę" width="760" /></picture><br/><sub><b>Visuotinis atsisiuntimo spartusis klavišas</b><br/>Nukopijuokite nuorodą bet kur, paspauskite vieną kartą — ji patenka į eilę ir pradedama atsisiųsti</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/lt/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub><b>Kiekvieno grojaraščio elemento profiliai</b><br/>Suteikite kiekvienam vaizdo įrašui savo profilį — kai kuriuos užarchyvuokite 4K, likusius išsaugokite tik kaip garsą</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/en/Per-item-playlist-profiles-screenshot.webp" alt="Klip — Per-item playlist profiles" width="760" /><br/><sub><b>Kiekvieno grojaraščio elemento profiliai</b><br/>Suteikite kiekvienam vaizdo įrašui savo profilį — kai kuriuos užarchyvuokite 4K, likusius išsaugokite tik kaip garsą</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub><b>Greitojo atsisiuntimo pradžia</b><br/>Įklijuokite URL ir iškart atsisiųskite su aktyviu profiliu</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub><b>Pakartotinai naudojami atsisiuntimo profiliai</b><br/>Įrašykite formato, kokybės ir išvesties šablonus — naudokite kiekvienam atsisiuntimui</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Main-screenshot.webp" alt="Klip — Quick Download home" /><br/><sub><b>Greitojo atsisiuntimo pradžia</b><br/>Įklijuokite URL ir iškart atsisiųskite su aktyviu profiliu</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Download-profiles-screenshot.webp" alt="Klip — Download profiles" /><br/><sub><b>Pakartotinai naudojami atsisiuntimo profiliai</b><br/>Įrašykite formato, kokybės ir išvesties šablonus — naudokite kiekvienam atsisiuntimui</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub><b>Kelių kalbų garso takeliai</b><br/>Pasirinkite tikslią vaizdo įrašo garso kalbą</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub><b>Erdvinis / Dolby garsas</b><br/>5.1 ir Dolby takeliai aptinkami ir išsaugomi</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Multi-lang-audio-support-screenshot.webp" alt="Klip — Multi-language audio" /><br/><sub><b>Kelių kalbų garso takeliai</b><br/>Pasirinkite tikslią vaizdo įrašo garso kalbą</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Dolby-audio-support-screenshot.webp" alt="Klip — Surround / Dolby audio" /><br/><sub><b>Erdvinis / Dolby garsas</b><br/>5.1 ir Dolby takeliai aptinkami ir išsaugomi</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub><b>Kelių URL režimas</b><br/>Įklijuokite sąrašą, automatiškai pašalinkite dublikatus, įtraukite viską į eilę vienu metu</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub><b>Lygiagreti atsisiuntimų eilė</b><br/>Keli atsisiuntimai vienu metu su gyva eiga</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/en/Bulk-urls-mode-screenshot.webp" alt="Klip — Bulk URL mode" /><br/><sub><b>Kelių URL režimas</b><br/>Įklijuokite sąrašą, automatiškai pašalinkite dublikatus, įtraukite viską į eilę vienu metu</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/lt/Downloading-in-parallel-screenshot.webp" alt="Klip — Parallel download queue" /><br/><sub><b>Lygiagreti atsisiuntimų eilė</b><br/>Keli atsisiuntimai vienu metu su gyva eiga</sub></td>
   </tr>
 </table>
 
@@ -206,42 +230,14 @@ _Paskutinį kartą atnaujinta: 2026-11-16._
 
 **Reikalavimai:** Windows 10/11 · macOS 13+ (Intel arba Apple Silicon) · Linux (AppImage, Flatpak arba tar.gz).
 
-**Windows**
-
-```bash
-winget install AntonioOrionus.Arroxy
-```
-
-**macOS**
-
-```bash
-brew install --cask antonio-orionus/arroxy/arroxy
-```
-
-**Linux**
-
-AppImage:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
-```
-
-Flatpak:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
-```
-
-Versijos tik x86_64. Neturite `curl`? Pakeiskite `curl -fsSL` į `wget -qO-`.
-
 | Platforma | Tiesioginis atsisiuntimas |
 | --- | --- |
-| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
-| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
-| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
-| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) |
 
-[**Visi laidos failai →**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+[**Visi laidos failai →**](https://github.com/saulgabriel7/klip/releases/latest)
 
 <details>
 <summary><strong><a id="windows-first-launch"></a>🪟 Pirmasis paleidimas Windows sistemoje</strong></summary>
@@ -262,8 +258,6 @@ Defender euristika kartais pažymi nepasirašytas NSIS diegimo programas ir Elec
 
 > Atsisiųskite Arroxy tik iš oficialaus GitHub Releases puslapio. Jei failą gavote iš kitos svetainės arba jį kas nors atsiuntė, ištrinkite jį ir atsisiųskite šviežią kopiją iš oficialaus šaltinio. Šaltinio kodas viešas, todėl galite jį patikrinti arba, jei norite, patys sukompiliuoti Arroxy.
 
-Mėgstate Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`
-
 </details>
 
 <details>
@@ -271,16 +265,12 @@ Mėgstate Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/sco
 
 Arroxy macOS versijos pasirašytos ad hoc, bet Apple jų nepatvirtino (notarizavo), todėl Gatekeeper užblokuoja pirmąjį paleidimą pranešimu *„Arroxy.app“ neatidaryta — „Apple“ negalėjo patikrinti, ar „Arroxy.app“ be kenkėjiškos programinės įrangos*. Tai reiškia, kad macOS negali patikrinti programos per Apple, o ne kad su failais kas nors negerai. Diegiant per Homebrew šio dialogo išvengiama visiškai. Jei naudojote DMG, vienos Terminalo komandos pakanka jam pašalinti:
 
-<div align="center">
-  <img src="../../build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
-</div>
-
 1. Nuvilkite `Arroxy.app` iš prijungto DMG į `/Applications`.
 2. Atverkite Terminalą ir paleiskite šias dvi komandas:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Arroxy.app
-open /Applications/Arroxy.app
+xattr -cr /Applications/klip.app
+open /Applications/klip.app
 ```
 
 Pirmoji komanda pašalina karantino atributą, kurį macOS pridėjo atsisiuntus failą; antroji paleidžia programą. Paprastai `sudo` nereikia, nes kopija `/Applications` priklauso jums — pridėkite jį tik jei gaunate leidimų klaidą.
@@ -314,14 +304,14 @@ AppImage paleidžiami tiesiogiai — be diegimo. Tereikia failą pažymėti kaip
 **Terminalas:**
 
 ```bash
-chmod +x Arroxy-linux-x64.AppImage
-./Arroxy-linux-x64.AppImage
+chmod +x Klip-linux-x64.AppImage
+./Klip-linux-x64.AppImage
 ```
 
 Jei paleisti vis tiek nepavyksta, paleiskite nemontuodami — FUSE paketo nereikia:
 
 ```bash
-./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+./Klip-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 **Neprivaloma integracija su darbalaukiu:** vieną kartą įdiekite [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), ir kiekvienas dukart spustelėtas AppImage bus automatiškai užregistruotas jūsų paleidiklio meniu — `.desktop` failo kurti rankiniu būdu nereikia.
@@ -331,8 +321,8 @@ Jei paleisti vis tiek nepavyksta, paleiskite nemontuodami — FUSE paketo nereik
 `.tar.gz` versija yra ta pati programa be AppImage apvalkalo — išskleiskite ją bet kur ir paleiskite. Diegimo programos ir FUSE paketo nereikia.
 
 ```bash
-tar xzf Arroxy-linux-x64.tar.gz
-./Arroxy-linux-x64/arroxy
+tar xzf Klip-linux-x64.tar.gz
+./Klip-linux-x64/klip
 ```
 
 **Linux atsisiuntimai laidos puslapyje yra tik x86_64.** ARM64 kompiuteriuose (Raspberry Pi, Asahi Linux) Flatpak vis tiek įsidiegia, bet paleidžiant nepavyksta su `bwrap: execvp ldconfig: Exec format error`.
@@ -347,19 +337,19 @@ Kiekviena laida kartu su vykdomaisiais failais paskelbia `SHA256SUMS` failą. No
 **Windows (PowerShell arba komandų eilutė):**
 
 ```powershell
-certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+certutil -hashfile Klip-win-x64-Setup.exe SHA256
 ```
 
 **macOS (Terminalas):**
 
 ```bash
-shasum -a 256 Arroxy-mac-arm64.dmg
+shasum -a 256 Klip-mac-arm64.dmg
 ```
 
 **Linux (Terminalas):**
 
 ```bash
-sha256sum Arroxy-linux-x64.AppImage
+sha256sum Klip-linux-x64.AppImage
 ```
 
 Norite trečiosios šalies kenkėjiškų programų patikros? Įkelkite failą į [VirusTotal](https://www.virustotal.com). Keli bendrosios euristikos pažymėjimai iš nedidelių variklių nepasirašytoms Electron programoms yra normalu; plačiai paplitę didžiųjų variklių aptikimai būtų tikras rūpestis.
@@ -387,7 +377,7 @@ Norite trečiosios šalies kenkėjiškų programų patikros? Įkelkite failą į
 
 Palyginimas su dažniausiai pasitaikančiomis alternatyvomis:
 
-|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+|            | Klip   | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
 | ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
 | Integruota naršyklė (naršymas, prisijungimas, atsisiuntimas) |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
 | Vaizdo įrašai, kuriuos gali žiūrėti jūsų pačių paskyra, be slapukų eksportavimo |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
@@ -524,8 +514,6 @@ Turite funkcijos idėją? [Pateikite prašymą](../../../../issues) — bendruom
 
 Arroxy yra nemokama ir licencijuota pagal GPLv3 — be reklamų, be sekimo, be mokamo plano. Jei ji taupo jūsų laiką, kūrimą galite paremti Bitcoin, Tron ar Ethereum: adresai yra [DONATE.md](../../DONATE.md), kuris yra vienintelis oficialus jų šaltinis. Arroxy niekada nesiųs jums adreso el. paštu ar tiesioginiu pranešimu. Saugyklos pažymėjimas žvaigždute, klaidų pranešimas ir vertimų gerinimas padeda ne mažiau.
 
-<a href="../../DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
-
 ---
 
 ## <a id="tech"></a>🛠️ Technologijos
@@ -626,48 +614,44 @@ bun run dist:win     # Windows paketai palaikomame kompiuteryje
 <details>
 <summary><strong>🖥️ App won't open / no window appears</strong></summary>
 
-The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+The Klip process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
 
 **1. Check the log.** It records startup, GPU info, and any crash. Path:
 
-| Platform | Path                             |
-| -------- | -------------------------------- |
-| Windows  | `%APPDATA%\arroxy\logs\main.log` |
-| macOS    | `~/Library/Logs/arroxy/main.log` |
-| Linux    | `~/.config/arroxy/logs/main.log` |
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\logs\main.log`                 |
+| macOS    | `~/Library/Application Support/Klip/logs/main.log` |
+| Linux    | `~/.config/klip/logs/main.log`                 |
 
 **2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
 
 ```bash
 # Windows (Portable) — PowerShell, run from the folder containing the exe
-.\Arroxy-win-x64-Portable.exe --disable-gpu
+.\Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Portable) — Command Prompt (cmd.exe), from the same folder
-Arroxy-win-x64-Portable.exe --disable-gpu
+Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Installed) — works in both PowerShell and cmd.exe
-"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+"%LOCALAPPDATA%\Programs\Klip\Klip.exe" --disable-gpu
 
 # macOS
-/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+/Applications/klip.app/Contents/MacOS/klip --disable-gpu
 
 # Linux (AppImage)
-./Arroxy-linux-x64.AppImage --disable-gpu
+./Klip-linux-x64.AppImage --disable-gpu
 ```
 
 If that works, the GPU/driver is the cause. Make the change permanent (next step).
 
 **3. Persist the flag via `argv.json`.** Create the file at:
 
-| Platform | Path                                             |
-| -------- | ------------------------------------------------ |
-| Windows  | `%APPDATA%\arroxy\argv.json`                     |
-| macOS    | `~/Library/Application Support/arroxy/argv.json` |
-| Linux    | `~/.config/arroxy/argv.json`                     |
-
-On Flatpak, both `main.log` and `argv.json` live under
-`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
-(for example `logs/main.log`).
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\argv.json`                     |
+| macOS    | `~/Library/Application Support/Klip/argv.json` |
+| Linux    | `~/.config/klip/argv.json`                     |
 
 With contents:
 
@@ -675,7 +659,7 @@ With contents:
 { "disable-hardware-acceleration": true }
 ```
 
-Arroxy reads this before opening any window, so it works even when the window never appeared.
+Klip reads this before opening any window, so it works even when the window never appeared.
 
 **4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
 
@@ -693,11 +677,11 @@ Arroxy yra įrankis tik asmeniniam, privačiam naudojimui. Esate vienintelis ats
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
  </picture>
 </a>
 

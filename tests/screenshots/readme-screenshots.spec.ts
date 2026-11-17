@@ -149,26 +149,12 @@ function titled(name: string, locale: SupportedLang): string {
 	return locale === 'en' ? name : `${name} [${locale}]`
 }
 
-const BACKDROP_ATTEMPTS = 3
-
 // Opens a scenario with showcase content and waits until it has settled.
-async function settle(page: Page, query: string, ready: string, options: {locale: SupportedLang; theme?: 'dark' | 'light'; style?: 'aurora' | 'minimal'; prepare?: Shot['prepare']}): Promise<void> {
-	const {locale, theme = 'dark', style, prepare} = options
-	const url = `/?${query}&locale=${locale}&theme=${theme}${style ? `&style=${style}` : ''}&showcase=1&backdropSoftware=1`
-	// Minimal draws no backdrop, so only Aurora has a WebGL scene to wait for. With
-	// several pages rendering at once, the backdrop's start-up timing can judge
-	// software WebGL too slow and fall back to the CSS look; a fresh load retries it.
-	for (let attempt = 1; ; attempt++) {
-		await page.goto(url)
-		await page.waitForSelector('[data-testid="app-root"]')
-		if (style === 'minimal') break
-		const webgl = await page
-			.waitForSelector('body.backdrop-webgl-active', {state: 'attached', timeout: 10_000})
-			.then(() => true)
-			.catch(() => false)
-		if (webgl) break
-		if (attempt === BACKDROP_ATTEMPTS) throw new Error(`The WebGL backdrop did not start after ${BACKDROP_ATTEMPTS} loads: ${url}`)
-	}
+async function settle(page: Page, query: string, ready: string, options: {locale: SupportedLang; theme?: 'dark' | 'light'; style?: 'minimal'; prepare?: Shot['prepare']}): Promise<void> {
+	const {locale, theme = 'dark', style = 'minimal', prepare} = options
+	const url = `/?${query}&locale=${locale}&theme=${theme}&style=${style}&showcase=1`
+	await page.goto(url)
+	await page.waitForSelector('[data-testid="app-root"]')
 	await page.addStyleTag({content: `${HIDE.join(',')}{display:none!important}`})
 	if (prepare) {
 		// Probe scenarios land on their step only after the mock's probe delay.
@@ -216,20 +202,10 @@ async function spotlight(page: Page, selectors: readonly string[]): Promise<void
 	}, area)
 }
 
-// Opens the page and takes the shot. The backdrop rechecks its speed about two
-// seconds after it starts and may fall back to the CSS look then, so an Aurora
-// shot counts only when WebGL was still on both before and after the capture.
-async function capture(page: Page, open: () => Promise<void>, take: () => Promise<Buffer>, webgl: boolean): Promise<Buffer> {
-	const webglOn = (): Promise<boolean> => page.evaluate(() => document.body.classList.contains('backdrop-webgl-active'))
-	for (let attempt = 1; ; attempt++) {
-		await open()
-		if (!webgl) return take()
-		if (await webglOn()) {
-			const image = await take()
-			if (await webglOn()) return image
-		}
-		if (attempt === BACKDROP_ATTEMPTS) throw new Error(`The WebGL backdrop fell back during ${BACKDROP_ATTEMPTS} captures: ${page.url()}`)
-	}
+// Opens the page and takes the shot.
+async function capture(open: () => Promise<void>, take: () => Promise<Buffer>): Promise<Buffer> {
+	await open()
+	return take()
 }
 
 for (const locale of LOCALES) {
@@ -240,7 +216,7 @@ for (const locale of LOCALES) {
 				await settle(page, shot.query, shot.ready, {locale, prepare: shot.prepare})
 				if (shot.spotlight) await spotlight(page, shot.spotlight)
 			}
-			const image = await capture(page, open, () => page.screenshot(), true)
+			const image = await capture(open, () => page.screenshot())
 			await save(locale, shot.file, image, shot.appstream)
 			if (shot.file === 'Downloading-in-parallel-screenshot') {
 				// Capture the actual row: translated toolbars can wrap and move it vertically.
@@ -259,11 +235,9 @@ for (const locale of LOCALES) {
 	}
 }
 
-// The main screen in both themes and both styles, captured one by one and laid out as a 2x2 grid:
-// Aurora on the top row, Minimal below; dark on the left, light on the right.
+// The main screen in both Solid Zinc themes, captured one by one and laid out side by side:
+// Dark on the left, Light on the right.
 const LOOKS = [
-	{style: 'aurora', theme: 'dark'},
-	{style: 'aurora', theme: 'light'},
 	{style: 'minimal', theme: 'dark'},
 	{style: 'minimal', theme: 'light'}
 ] as const
@@ -273,11 +247,11 @@ for (const locale of LOCALES) {
 		const frames: string[] = []
 		for (const look of LOOKS) {
 			const open = (): Promise<void> => settle(page, 'scenario=profiles-home-clipboard-single', '[data-testid="profiles-quick-download"]:not([aria-disabled="true"])', {...look, locale})
-			const image = await capture(page, open, () => page.screenshot({omitBackground: true}), look.style === 'aurora')
+			const image = await capture(open, () => page.screenshot({omitBackground: true}))
 			frames.push(image.toString('base64'))
 		}
 		const grid = await context.newPage()
-		await grid.setViewportSize({width: 1000, height: 800})
+		await grid.setViewportSize({width: 1000, height: 420})
 		await grid.setContent(`<body style="margin:0;display:grid;grid-template-columns:repeat(2,480px);gap:20px;width:max-content;background:transparent">${frames.map(frame => `<img src="data:image/png;base64,${frame}" style="width:480px;display:block;border-radius:14px">`).join('')}</body>`)
 		await grid.waitForFunction(() => [...document.images].every(image => image.complete))
 		await save(locale, 'Themes-and-styles-screenshot', await grid.locator('body').screenshot({omitBackground: true}))

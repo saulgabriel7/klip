@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="../../build/banners/pt-db959c89fc.jpg" alt="Cole um link ou simplesmente navegue. A tela de URL e o navegador integrado do Arroxy, com um download em andamento." width="1200" />
+  <img src="../../build/banners/pt-438e14891c.jpg" alt="Cole um link ou simplesmente navegue. A tela de URL e o navegador integrado do Klip, com um download em andamento." width="1200" />
 
 # Klip
 
-Baixador gratuito e de código aberto para YouTube e mais de 2000 sites, com navegador integrado. Para Windows, macOS e Linux.
+Downloader desktop open-source minimalista de alta precisão para vídeos e áudios em macOS, Windows e Linux.
 
 > **Atribuição / Attribution:** Baseado na arquitetura open-source do projeto [Arroxy (antonio-orionus/Arroxy)](https://github.com/antonio-orionus/Arroxy) sob licença GNU GPL v3.0.
 
@@ -23,43 +23,40 @@ Baixador gratuito e de código aberto para YouTube e mais de 2000 sites, com nav
   <img src="https://img.shields.io/badge/%2B2000%20sites-30363d?style=flat" alt="+2000 sites" height="22" />
 </p>
 
-[**↓ Instalar Arroxy**](#install) &nbsp;·&nbsp; [**Site**](https://arroxy.com/pt/)
+[**↓ Instalar Klip**](#install) &nbsp;·&nbsp; [**Licença (GPL-3.0)**](../../LICENSE)
 
 [Primeira execução no Windows](#windows-first-launch) · [Primeira execução no macOS](#macos-first-launch) · [Primeira execução no Linux](#linux-first-launch)
 
-[![Versão](https://img.shields.io/github/v/release/antonio-orionus/Arroxy?label=Release&color=blueviolet)](https://github.com/antonio-orionus/Arroxy/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/antonio-orionus/Arroxy/release.yml?label=Build)](https://github.com/antonio-orionus/Arroxy/actions/workflows/release.yml) ![Licença](https://img.shields.io/badge/license-GPLv3-blue) ![Idiomas](https://img.shields.io/badge/i18n-50_languages-blue)
+[![Versão](https://img.shields.io/github/v/release/saulgabriel7/klip?label=Release&color=blueviolet)](https://github.com/saulgabriel7/klip/releases/latest) [![Build](https://img.shields.io/github/actions/workflow/status/saulgabriel7/klip/ci.yml?label=Build)](https://github.com/saulgabriel7/klip/actions) ![Licença](https://img.shields.io/badge/license-GPLv3-blue) ![Idiomas](https://img.shields.io/badge/i18n-50_languages-blue)
 
 **Leia em:** [Afaan Oromoo](README.om.md) · [Bahasa Indonesia](README.id.md) · [Català](README.ca.md) · [Čeština](README.cs.md) · [Dansk](README.da.md) · [Deutsch](README.de.md) · [Eesti](README.et.md) · [English](../../README.md) · [Español](README.es.md) · [Euskara](README.eu.md) · [Français](README.fr.md) · [Galego](README.gl.md) · [Hrvatski](README.hr.md) · [Italiano](README.it.md) · [Kiswahili](README.sw.md) · [Latviešu](README.lv.md) · [Lietuvių](README.lt.md) · [Magyar](README.hu.md) · [Nederlands](README.nl.md) · [Norsk bokmål](README.nb.md) · [O'zbekcha](README.uz.md) · [Polski](README.pl.md) · **Português** · [Română](README.ro.md) · [Slovenčina](README.sk.md) · [Slovenščina](README.sl.md) · [Suomi](README.fi.md) · [Svenska](README.sv.md) · [Tiếng Việt](README.vi.md) · [Türkçe](README.tr.md) · [አማርኛ](README.am.md) · [עברית](README.he.md) · [العربية](README.ar.md) · [اردو](README.ur.md) · [پښتو](README.ps.md) · [فارسی](README.fa.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [ไทย](README.th.md) · [မြန်မာဘာသာ](README.my.md) · [ខ្មែរ](README.km.md) · [Ελληνικά](README.el.md) · [Български](README.bg.md) · [Русский](README.ru.md) · [Српски](README.sr.md) · [Українська](README.uk.md) · [中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [繁體中文](README.zh-Hant.md)
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Main-screenshot.webp" alt="Arroxy — Quick Download home" /></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Main-screenshot.webp" alt="Klip — Quick Download home" /></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing YouTube, with the Download button for the active profile" /></td>
   </tr>
 </table>
 
-Sem anúncios, limites de uso ou ofertas para pagar mais.
+Sem anúncios, limites de uso ou assinaturas.
 
-[![Entre na comunidade do Discord](https://img.shields.io/badge/Entre%20na%20comunidade%20do%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ueGvXwQH8y)
-
-Se o Arroxy economiza seu tempo, uma ⭐ ajuda outras pessoas a encontrá-lo.
+Projeto pessoal open-source por Saul Gabriel. Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0.
 
 </div>
 
 ## Navegue, entre na conta, baixe
 
-**Cole um link ou navegue dentro do app.** Use a aba Explorar para baixar o vídeo, a playlist ou o canal que você está vendo, ou clique com o botão direito em um link para baixar.
+**Cole um link ou navegue dentro do app.** Use a aba Explore para baixar o vídeo, a playlist ou o canal que você está vendo, ou clique com o botão direito em um link para baixar.
 
-Entre uma vez na sua conta em cada site para baixar conteúdo ao qual ela tem acesso — incluindo vídeos privados e as listas Assistir mais tarde e Vídeos curtidos. Sem precisar exportar cookies. [Mais sobre Explorar](#why-explore).
+Entre uma vez na sua conta em cada site para baixar conteúdo ao qual ela tem acesso — incluindo vídeos privados e as listas Assistir mais tarde e Vídeos curtidos. Sem precisar exportar cookies. [Mais sobre Explore](#why-explore).
 
-_Última atualização: 2026-11-16._
-
-> 🌐 Esta é uma tradução assistida por IA. O [README em inglês](../../README.md) é a fonte da verdade. Encontrou algum erro? [PRs são bem-vindos](../../../../pulls).
+_Última atualização: 2026-11-17._
 
 ---
 
 ## Conteúdo
 
+- [🔄 O que mudou em relação ao Arroxy original](#diff-arroxy)
 - [✨ Recursos](#features)
 - [📥 Instalação e primeira execução](#install)
   - [Primeira execução no Windows](#windows-first-launch)
@@ -67,13 +64,38 @@ _Última atualização: 2026-11-16._
   - [Por que você pode ver um aviso](#why-warning)
   - [Primeira execução no Linux](#linux-first-launch)
   - [Verifique o seu download (SHA256)](#verify)
-- [⚖️ Por que o Arroxy](#why)
+- [⚖️ Por que o Klip](#why)
 - [🔒 Privacidade](#privacy)
 - [❓ Perguntas frequentes](#faq)
 - [🗺️ Planejamento](#roadmap)
-- [💖 Apoie o Arroxy](#support)
+- [💖 Suporte](#support)
 - [🛠️ Feito com](#tech)
 - [📜 Termos de uso](#terms)
+
+---
+
+## <a id="diff-arroxy"></a>🔄 O que mudou em relação ao Arroxy original
+
+O Klip é um redesign minimalista e rebranding completo baseado na arquitetura open-source do [Arroxy](https://github.com/antonio-orionus/Arroxy) (GNU GPL v3.0). Veja o que foi alterado:
+
+| Área | Arroxy Original | Klip |
+| --- | --- | --- |
+| **Marca & Logotipo** | Nome Arroxy, mascote ilustrado e identidade visual roxo/azul | Novo símbolo geométrico **Klip** (`K` construído por recorte de frame em SVG/ICNS/ICO) e ícones monocromáticos para barra de menus/tray |
+| **Direção Visual** | Céu animado WebGL (Aurora), glassmorphism com excesso de blur e brilhos neon | **Minimalismo Solid Zinc** — modo Aurora removido; superfícies sólidas em Dark & Light com `shadcn/ui` e bordas precisas de `1px` |
+| **Tipografia & Hierarquia** | Cartões translúcidos em camadas e gradientes decorativos | Painéis planos (`bg-background`, `bg-card`), títulos enxutos (`tracking-tight`) e `tabular-nums` para telemetria |
+| **Empacotamento & Metadados** | `com.arroxy.app` / `Arroxy.app` / `Arroxy.exe` | `com.saulgabriel.klip` / `klip.app` / `Klip.exe` distribuído via GitHub Releases pessoais |
+| **Motor & Idiomas** | Electron + React 19 + Zustand + `yt-dlp` + `ffmpeg` + Explore + 50 idiomas | 100% preservado — mesmo motor ultrarrápido de downloads, navegador Explore, perfis, fila paralela e suporte a 50 idiomas |
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../branding/kit/klip-horizontal-white-1200.png" />
+    <source media="(prefers-color-scheme: light)" srcset="../../branding/kit/klip-horizontal-black-1200.png" />
+    <img src="../../branding/kit/klip-horizontal-black-1200.png" alt="Klip Brand Identity" width="360" />
+  </picture>
+  <br/><br/>
+  <img src="../../build/screenshots/pt/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc interface in Dark and Light modes" width="760" /><br/>
+  <sub><b>Minimalista Solid Zinc — Escuro e Claro</b><br/>Superfícies planas, bordas de 1px e tipografia enxuta tanto no modo escuro quanto no modo claro</sub>
+</div>
 
 ---
 
@@ -81,52 +103,52 @@ _Última atualização: 2026-11-16._
 
 <table align="center" width="100%">
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-browsing-screenshot.webp" alt="Arroxy — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Explore</b><br/>Navegue pelo YouTube ou por qualquer outro site dentro do Arroxy e baixe a página em que você está com o seu perfil ativo</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-browsing-screenshot.webp" alt="Klip — Explore tab browsing a video page, with the Download button for the active profile" width="760" /><br/><sub><b>Explore</b><br/>Navegue pelo YouTube ou por qualquer outro site dentro do Klip e baixe a página em que você está com o seu perfil ativo</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-screenshot.webp" alt="Arroxy — Explore first-run screen recommending a secondary account" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>A primeira tela do Explore</b><br/>Uma olhada rápida no Explore e por que uma conta secundária é o login mais seguro</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Downloads-attention-screenshot.webp" alt="Arroxy — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Downloads mostra o que precisa de você</b><br/>Os links são preparados em segundo plano; um que falha oferece a solução, uma playlist longa espera a sua escolha</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Explore-screenshot.webp" alt="Klip — Explore first-run screen recommending a secondary account" /><br/><sub><b>A primeira tela do Explore</b><br/>Uma olhada rápida no Explore e por que uma conta secundária é o login mais seguro</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Downloads-attention-screenshot.webp" alt="Klip — Downloads with a link preparing, a failed link offering Sign in in Explore, and a playlist waiting for a choice" /><br/><sub><b>Downloads mostra o que precisa de você</b><br/>Os links são preparados em segundo plano; um que falha oferece a solução, uma playlist longa espera a sua escolha</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Part-of-video-screenshot.webp" alt="Arroxy — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Baixe só uma parte do vídeo</b><br/>Escolha um início e um fim, ou um capítulo — o Arroxy salva apenas esse trecho</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Part-of-video-screenshot.webp" alt="Klip — Part of a video: a range bar with start and end times, chapter chips and an exact-cut option" width="560" /><br/><sub><b>Baixe só uma parte do vídeo</b><br/>Escolha um início e um fim, ou um capítulo — o Klip salva apenas esse trecho</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/8K-HDR-video-screenshot.webp" alt="Arroxy — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>8K HDR a 60 fps</b><br/>Cada resolução, codec e stream HDR que um vídeo oferece, lado a lado</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/8K-HDR-video-screenshot.webp" alt="Klip — Format screen for an 8K HDR 60 fps video: AV1 and VP9 in HDR10 and SDR, H.264 up to 1080p, Dolby, AAC and Opus audio" width="560" /><br/><sub><b>8K HDR a 60 fps</b><br/>Cada resolução, codec e stream HDR que um vídeo oferece, lado a lado</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Profile-editor-screenshot.webp" alt="Arroxy — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><img src="https://img.shields.io/badge/NEW-blueviolet?style=flat-square" alt="New" /> <sub><b>Editor de perfis</b><br/>Ajuste um perfil: tipo de arquivo, resolução, legendas, destino, modelo de nome de arquivo e mais</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Profile-editor-screenshot.webp" alt="Klip — Profile editor with file type, resolution, subtitles, destination, filename template and output options" width="680" /><br/><sub><b>Editor de perfis</b><br/>Ajuste um perfil: tipo de arquivo, resolução, legendas, destino, modelo de nome de arquivo e mais</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Themes-and-styles-screenshot.webp" alt="Arroxy — the main screen in dark and light, with the Aurora glass style on top and the Minimal solid style below" width="760" /><br/><sub><b>Escuro ou claro, vidro ou sólido</b><br/>Quatro visuais à escolha: painéis de vidro sobre um céu em movimento ou superfícies sólidas e tranquilas, cada um em escuro e claro</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Themes-and-styles-screenshot.webp" alt="Klip — Minimalist Solid Zinc theme in dark and light modes" width="760" /><br/><sub><b>Minimalista Solid Zinc — Escuro e Claro</b><br/>Superfícies planas, bordas de 1px e tipografia enxuta tanto no modo escuro quanto no modo claro</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Atalho global de download do Arroxy — Ctrl+Shift+D no Windows e Linux, Cmd+Shift+D no macOS, enviando o link copiado direto para a fila de downloads" width="760" /></picture><br/><sub><b>Atalho global de download</b><br/>Copie um link em qualquer lugar, pressione uma vez — ele entra na fila e começa a baixar</sub></td>
+    <td colspan="2" valign="top" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="../../build/Global-hotkey-dark.png" /><img src="../../build/Global-hotkey.png" alt="Atalho global de download do Klip — Ctrl+Shift+D no Windows e Linux, Cmd+Shift+D no macOS, enviando o link copiado direto para a fila de downloads" width="760" /></picture><br/><sub><b>Atalho global de download</b><br/>Copie um link em qualquer lugar, pressione uma vez — ele entra na fila e começa a baixar</sub></td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Per-item-playlist-profiles-screenshot.webp" alt="Arroxy — Per-item playlist profiles" width="760" /><br/><sub><b>Perfis por item da playlist</b><br/>Dê a cada vídeo o seu próprio perfil — arquive alguns em 4K e salve o restante somente como áudio</sub></td>
+    <td colspan="2" valign="top" align="center"><img src="../../build/screenshots/pt/Per-item-playlist-profiles-screenshot.webp" alt="Klip — Per-item playlist profiles" width="760" /><br/><sub><b>Perfis por item da playlist</b><br/>Dê a cada vídeo o seu próprio perfil — arquive alguns em 4K e salve o restante somente como áudio</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Main-screenshot.webp" alt="Arroxy — Quick Download home" /><br/><sub><b>Tela inicial do Quick Download</b><br/>Cole uma URL e baixe na hora com o seu perfil ativo</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Download-profiles-screenshot.webp" alt="Arroxy — Download profiles" /><br/><sub><b>Perfis de download reutilizáveis</b><br/>Salve predefinições de formato, qualidade e saída — reutilize a cada download</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Main-screenshot.webp" alt="Klip — Quick Download home" /><br/><sub><b>Tela inicial do Quick Download</b><br/>Cole uma URL e baixe na hora com o seu perfil ativo</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Download-profiles-screenshot.webp" alt="Klip — Download profiles" /><br/><sub><b>Perfis de download reutilizáveis</b><br/>Salve predefinições de formato, qualidade e saída — reutilize a cada download</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Multi-lang-audio-support-screenshot.webp" alt="Arroxy — Multi-language audio" /><br/><sub><b>Faixas de áudio em vários idiomas</b><br/>Escolha exatamente o idioma do áudio que o vídeo oferece</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Dolby-audio-support-screenshot.webp" alt="Arroxy — Surround / Dolby audio" /><br/><sub><b>Áudio surround / Dolby</b><br/>Faixas 5.1 e Dolby detectadas e preservadas</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Multi-lang-audio-support-screenshot.webp" alt="Klip — Multi-language audio" /><br/><sub><b>Faixas de áudio em vários idiomas</b><br/>Escolha exatamente o idioma do áudio que o vídeo oferece</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Dolby-audio-support-screenshot.webp" alt="Klip — Surround / Dolby audio" /><br/><sub><b>Áudio surround / Dolby</b><br/>Faixas 5.1 e Dolby detectadas e preservadas</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Bulk-urls-mode-screenshot.webp" alt="Arroxy — Bulk URL mode" /><br/><sub><b>Modo de URLs em massa</b><br/>Cole uma lista, remova duplicatas automaticamente e enfileire tudo de uma vez</sub></td>
-    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Downloading-in-parallel-screenshot.webp" alt="Arroxy — Parallel download queue" /><br/><sub><b>Fila de downloads paralelos</b><br/>Vários downloads ao mesmo tempo com progresso ao vivo</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Bulk-urls-mode-screenshot.webp" alt="Klip — Bulk URL mode" /><br/><sub><b>Modo de URLs em massa</b><br/>Cole uma lista, remova duplicatas automaticamente e enfileire tudo de uma vez</sub></td>
+    <td width="50%" valign="top" align="center"><img src="../../build/screenshots/pt/Downloading-in-parallel-screenshot.webp" alt="Klip — Parallel download queue" /><br/><sub><b>Fila de downloads paralelos</b><br/>Vários downloads ao mesmo tempo com progresso ao vivo</sub></td>
   </tr>
 </table>
 
 <details open>
-<summary><strong>🧭 Explore: navegue pela web dentro do Arroxy</strong></summary>
+<summary><strong>🧭 Explore: navegue pela web dentro do Klip</strong></summary>
 
-- **Aba Explore** — navegue pelo YouTube ou por qualquer outro site dentro do Arroxy e baixe o que encontrar sem copiar links. **Baixar · *seu perfil*** coloca na fila o vídeo, a playlist ou o canal que você está vendo; a seta ao lado troca de perfil, e a varinha abre o download passo a passo para escolher formatos, legendas e mais
+- **Aba Explore** — navegue pelo YouTube ou por qualquer outro site dentro do Klip e baixe o que encontrar sem copiar links. **Baixar · *seu perfil*** coloca na fila o vídeo, a playlist ou o canal que você está vendo; a seta ao lado troca de perfil, e a varinha abre o download passo a passo para escolher formatos, legendas e mais
 - **Clique direito para baixar** — clique com o botão direito em qualquer link de vídeo, playlist ou canal no Explore para baixá-lo com seu perfil, escolher outro perfil em **Baixar com**, abrir o download passo a passo ou copiar o link. Não é preciso abrir cada vídeo antes
-- **Layout compacto** — um clique na barra de ferramentas do Explore move as abas do Arroxy para dentro dela e dá mais espaço à página
+- **Layout compacto** — um clique na barra de ferramentas do Explore move as abas do Klip para dentro dela e dá mais espaço à página
 - **Barra de endereço** — digite para pesquisar no YouTube ou informe qualquer endereço da web para abrir esse site
-- **Downloads que precisam de uma conta** — entre uma vez no Explore e o Arroxy poderá baixar vídeos que a sua conta consiga assistir: seus vídeos privados, vídeos com restrição de idade se a idade da conta for verificada, e as suas listas Assistir mais tarde e Curtidos. Entre também em outros sites ali, e os downloads deles usam esse login quando precisarem. O Arroxy continua baixando primeiro sem login e só usa o seu login do Explore quando um download falha de um jeito que uma conta pode resolver
+- **Downloads que precisam de uma conta** — entre uma vez no Explore e o Klip poderá baixar vídeos que a sua conta consiga assistir: seus vídeos privados, vídeos com restrição de idade se a idade da conta for verificada, e as suas listas Assistir mais tarde e Curtidos. Entre também em outros sites ali, e os downloads deles usam esse login quando precisarem. O Klip continua baixando primeiro sem login e só usa o seu login do Explore quando um download falha de um jeito que uma conta pode resolver
 - **Use uma conta secundária** — a primeira tela do Explore explica o motivo: baixar com uma conta traz algum risco de essa conta ser restringida. Saia do Explore pelas configurações sempre que quiser esquecer os seus logins
 - **Bloqueador de anúncios** — desativado por padrão. Um clique no escudo da barra de ferramentas do Explore bloqueia anúncios e rastreadores nas páginas dele, sem afetar os downloads. O YouTube pode dificultar o uso de bloqueadores de anúncios em contas conectadas
 
@@ -156,26 +178,26 @@ _Última atualização: 2026-11-16._
 <details>
 <summary><strong>⚡ Fluxo de trabalho</strong></summary>
 
-- **Atalho global de download** — copie um link em qualquer app e pressione `Ctrl+Shift+D` (`Cmd+Shift+D` no macOS); o Arroxy o coloca na fila com o seu perfil ativo sem abrir a janela, e uma notificação confirma. Ativo por padrão e reconfigurável
+- **Atalho global de download** — copie um link em qualquer app e pressione `Ctrl+Shift+D` (`Cmd+Shift+D` no macOS); o Klip o coloca na fila com o seu perfil ativo sem abrir a janela, e uma notificação confirma. Ativo por padrão e reconfigurável
 - **Modos de início flexíveis** — escolha um download individual guiado, o seletor de playlist/canal, a colagem de URLs em massa, o Quick Download com os seus padrões salvos ou navegue e baixe pelo Explore
 - **Fila central de downloads** — todo trabalho individual, de playlist, em massa ou rápido chega a um só lugar, com progresso, pausa, retomada, cancelamento, nova tentativa e controle de prioridade
-- **Monitoramento da área de transferência** — copie um link de vídeo e ele preenche o campo de URL quando você volta para o Arroxy, com **Desfazer** se não era isso que você queria. Enquanto o Arroxy estiver ocupado, o link espera até você voltar para a aba URL (desative nas Configurações)
+- **Monitoramento da área de transferência** — copie um link de vídeo e ele preenche o campo de URL quando você volta para o Klip, com **Desfazer** se não era isso que você queria. Enquanto o Klip estiver ocupado, o link espera até você voltar para a aba URL (desative nas Configurações)
 - **Limpeza automática de URLs** — remove parâmetros de rastreamento (`si`, `pp`, `utm_*`, `fbclid`, `gclid`) e desempacota links `youtube.com/redirect`
 - **Modo bandeja** — fechar a janela mantém os downloads rodando em segundo plano
 - **50 idiomas** — detecta automaticamente o idioma do sistema e pode ser trocado a qualquer momento
 - **Sincronização de playlists** — reanalise uma playlist comparando com uma pasta local para pular vídeos já baixados; gera um arquivo de playlist `.m3u` que é atualizado a cada vídeo baixado
 - **Controles de velocidade e ritmo** — limite a banda de download, defina quantas partes de um vídeo são baixadas ao mesmo tempo e adicione atrasos entre requisições com predefinições (*Desligado · Equilibrado · Cuidadoso · Personalizado*)
 - **Modelos de nome de arquivo** — nomeie os downloads do seu jeito com `{title}`, `{uploader}`, `{id}`, `{date}`, `{year}`, `{resolution}`, `{site}`, `{categories}`, `{artist}`, `{album}`, `{track}` e `{playlist_index}`, de forma global ou por perfil de download
-- **Downloads simultâneos e nova tentativa automática** — escolha quantos downloads da fila rodam ao mesmo tempo e deixe o Arroxy tentar de novo um download que esbarrou em um problema de rede ou de servidor, esperando mais tempo a cada tentativa
+- **Downloads simultâneos e nova tentativa automática** — escolha quantos downloads da fila rodam ao mesmo tempo e deixe o Klip tentar de novo um download que esbarrou em um problema de rede ou de servidor, esperando mais tempo a cada tentativa
 - **Perfis por item da playlist** — atribua a cada vídeo de uma playlist o seu próprio perfil de download, em vez de uma única configuração para a lista inteira, para arquivar alguns em qualidade máxima e salvar o restante somente como áudio em uma só passada
 - **O Quick Download funciona em segundo plano** — o link aparece na hora em Downloads e é preparado ali, uma nota com **Ver** confirma, e o campo de URL é limpo para o próximo link. Inicie quantos quiser enquanto os anteriores são preparados
-- **Downloads mostra o que precisa de você** — se o Arroxy não consegue ler um link, a linha dele diz o motivo e oferece a solução: Tentar novamente, ativar os cookies ou entrar no Explore. Com os cookies desativados, **Entrar com o Explore** tenta de novo por você assim que você entrar. Uma playlist maior que o seu limite de carregamento espera na própria linha até você escolher toda ela, os primeiros vídeos ou uma revisão. A aba Downloads conta as linhas que esperam por você
-- **Baixe apenas um trecho do vídeo** — escolha um início e um fim, ou um capítulo, na tela Formato e o Arroxy salva só esse intervalo, com o intervalo no nome depois do id do vídeo. Os cortes caem no keyframe mais próximo; ative o corte exato para recodificar em vez disso
+- **Downloads mostra o que precisa de você** — se o Klip não consegue ler um link, a linha dele diz o motivo e oferece a solução: Tentar novamente, ativar os cookies ou entrar no Explore. Com os cookies desativados, **Entrar com o Explore** tenta de novo por você assim que você entrar. Uma playlist maior que o seu limite de carregamento espera na própria linha até você escolher toda ela, os primeiros vídeos ou uma revisão. A aba Downloads conta as linhas que esperam por você
+- **Baixe apenas um trecho do vídeo** — escolha um início e um fim, ou um capítulo, na tela Formato e o Klip salva só esse intervalo, com o intervalo no nome depois do id do vídeo. Os cortes caem no keyframe mais próximo; ative o corte exato para recodificar em vez disso
 - **Remover downloads concluídos automaticamente** — opcional: um download concluído sai da lista 5 segundos depois. Os arquivos continuam no disco, e downloads com falha continuam na lista
-- **Tamanho e Ausente em Downloads** — uma coluna **Tamanho** ordenável mostra quanto espaço cada download ocupa, e **Ausente** sinaliza arquivos movidos ou excluídos fora do Arroxy
-- **Aurora ou Minimalista, escuro ou claro** — painéis de vidro sobre um céu em movimento, ou superfícies sólidas e discretas; alterne pelo rodapé. Computadores sem aceleração gráfica recebem Minimalista automaticamente
-- **Barra de menus do Mac** — no macOS, abra as Configurações (`Cmd+,`), defina o limite de velocidade de download, alterne estilo e tema e abra os logs ou salve um arquivo de diagnóstico pela barra de menus
-- **Altere um perfil a partir de qualquer download** — ajuste um download e depois atualize o perfil de onde ele partiu (com uma prévia do que muda) ou salve as configurações como um novo perfil. Ao trocar de perfil, o Arroxy pergunta se você quer manter suas edições
+- **Tamanho e Ausente em Downloads** — uma coluna **Tamanho** ordenável mostra quanto espaço cada download ocupa, e **Ausente** sinaliza arquivos movidos ou excluídos fora do Klip
+- **Minimalista Solid Zinc, escuro ou claro** — cartões planos com `shadcn/ui`, bordas de `1px` e alto contraste tanto no modo escuro quanto no modo claro; alterne pelo rodapé
+- **Barra de menus do Mac** — no macOS, abra as Configurações (`Cmd+,`), defina o limite de velocidade de download, alterne o tema e abra os logs ou salve um arquivo de diagnóstico pela barra de menus
+- **Altere um perfil a partir de qualquer download** — ajuste um download e depois atualize o perfil de onde ele partiu (com uma prévia do que muda) ou salve as configurações como um novo perfil. Ao trocar de perfil, o Klip pergunta se você quer manter suas edições
 
 </details>
 
@@ -196,7 +218,7 @@ _Última atualização: 2026-11-16._
 - **YouTube completo** — vídeos, Shorts, canais, playlists, YouTube Music e podcasts tratados como fontes de primeira classe
 - **Mais de 2000 outros sites** via yt-dlp — Twitch, TikTok, Dailymotion, VK, SoundCloud, Bandcamp, archive.org, Streamable e muitos outros
 - **Apenas áudio e legendas** funcionam em todos os sites compatíveis, não só no YouTube
-- Se um site mudar, o yt-dlp lança correções toda semana e o Arroxy atualiza o binário automaticamente na inicialização
+- Se um site mudar, o yt-dlp lança correções toda semana e o Klip atualiza o binário automaticamente na inicialização
 
 </details>
 
@@ -206,47 +228,19 @@ _Última atualização: 2026-11-16._
 
 **Requisitos:** Windows 10/11 · macOS 13+ (Intel ou Apple Silicon) · Linux (AppImage, Flatpak ou tar.gz).
 
-**Windows**
-
-```bash
-winget install AntonioOrionus.Arroxy
-```
-
-**macOS**
-
-```bash
-brew install --cask antonio-orionus/arroxy/arroxy
-```
-
-**Linux**
-
-AppImage:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --appimage
-```
-
-Flatpak:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/antonio-orionus/Arroxy/main/scripts/install.sh | sh -s -- --flatpak
-```
-
-As versões são apenas x86_64. Sem `curl`? Troque `curl -fsSL` por `wget -qO-`.
-
 | Plataforma | Download direto |
 | --- | --- |
-| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-win-x64-Portable.exe) |
-| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-mac-x64.dmg) |
-| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.AppImage) [![Linux Flatpak](https://img.shields.io/badge/Linux-Flatpak-4A90D9?style=for-the-badge&logo=flathub&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.flatpak) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/Arroxy-linux-x64.tar.gz) |
-| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) |
+| Windows | [![Windows Setup](https://img.shields.io/badge/Windows-Setup-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Setup.exe) [![Windows Portable](https://img.shields.io/badge/Windows-Portable-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-win-x64-Portable.exe) |
+| macOS | [![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-arm64.dmg) [![macOS Intel](https://img.shields.io/badge/macOS-Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-mac-x64.dmg) |
+| Linux | [![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.AppImage) [![Linux tar.gz](https://img.shields.io/badge/Linux-tar.gz-6B7280?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/Klip-linux-x64.tar.gz) |
+| Verify | [![SHA256 Checksums](https://img.shields.io/badge/SHA256-Checksums-4B5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) |
 
-[**Todos os arquivos da versão →**](https://github.com/antonio-orionus/Arroxy/releases/latest)
+[**Todos os arquivos da versão →**](https://github.com/saulgabriel7/klip/releases/latest)
 
 <details>
 <summary><strong><a id="windows-first-launch"></a>🪟 Primeira execução no Windows</strong></summary>
 
-Na primeira execução você pode ver **"O Windows protegeu o seu PC"** ou **"Editor desconhecido"**. Isso vale tanto para o `Arroxy-win-x64-Setup.exe` quanto para o `Arroxy-win-x64-Portable.exe`. O Arroxy é gratuito e de código aberto, e as builds para Windows não são assinadas com um certificado pago — é por isso que o SmartScreen as sinaliza. Isso **não** significa automaticamente que o Arroxy seja inseguro. Para continuar:
+Na primeira execução você pode ver **"O Windows protegeu o seu PC"** ou **"Editor desconhecido"**. Isso vale tanto para o `Klip-win-x64-Setup.exe` quanto para o `Klip-win-x64-Portable.exe`. O Klip é gratuito e de código aberto, e as builds para Windows não são assinadas com um certificado pago — é por isso que o SmartScreen as sinaliza. Isso **não** significa automaticamente que o Klip seja inseguro. Para continuar:
 
 <div align="center">
   <img src="../../build/win-smartscreen-more-info.png" width="46%" alt="Caixa de diálogo do SmartScreen "O Windows protegeu o seu PC" com o link "Mais informações" destacado" />
@@ -258,48 +252,42 @@ Na primeira execução você pode ver **"O Windows protegeu o seu PC"** ou **"Ed
 
 #### Se o Windows Defender sinalizar ou remover o arquivo
 
-As heurísticas do Defender às vezes sinalizam como suspeitos instaladores NSIS e executáveis portáteis do Electron sem assinatura. Se o Defender colocar o `Arroxy-win-x64-Setup.exe` ou o `Arroxy-win-x64-Portable.exe` em quarentena, restaure-o em **Segurança do Windows → Proteção contra vírus e ameaças → Histórico de proteção** e depois adicione o executável do Arroxy como item permitido em **Gerenciar configurações → Adicionar ou remover exclusões**. Assim como no SmartScreen, o gatilho é a falta da assinatura do publicador, não a detecção de malware.
+As heurísticas do Defender às vezes sinalizam como suspeitos instaladores NSIS e executáveis portáteis do Electron sem assinatura. Se o Defender colocar o `Klip-win-x64-Setup.exe` ou o `Klip-win-x64-Portable.exe` em quarentena, restaure-o em **Segurança do Windows → Proteção contra vírus e ameaças → Histórico de proteção** e depois adicione o executável do Klip como item permitido em **Gerenciar configurações → Adicionar ou remover exclusões**. Assim como no SmartScreen, o gatilho é a falta da assinatura do publicador, não a detecção de malware.
 
-> Baixe o Arroxy apenas pela página oficial de releases do GitHub. Se você recebeu o arquivo de outro site ou de alguém, apague-o e baixe uma cópia nova na fonte oficial. O código-fonte é público, então você pode inspecioná-lo ou compilar o Arroxy por conta própria se preferir.
-
-Prefere o Scoop? `scoop bucket add arroxy https://github.com/antonio-orionus/scoop-bucket && scoop install arroxy`
+> Baixe o Klip apenas pela página oficial de releases do GitHub. Se você recebeu o arquivo de outro site ou de alguém, apague-o e baixe uma cópia nova na fonte oficial. O código-fonte é público, então você pode inspecioná-lo ou compilar o Klip por conta própria se preferir.
 
 </details>
 
 <details>
 <summary><strong><a id="macos-first-launch"></a>🍎 Primeira execução no macOS</strong></summary>
 
-O Arroxy ainda não é assinado digitalmente para macOS, então o Gatekeeper pode mostrar a assustadora mensagem *"O Arroxy.app está danificado e não pode ser aberto"* depois que você o instala pelo DMG. Essa mensagem quer dizer que o macOS colocou em quarentena um app sem assinatura; não quer dizer que os arquivos do app estejam realmente danificados. Nas versões atuais do macOS, a solução confiável é pelo Terminal:
+O Klip ainda não é assinado digitalmente com certificado pago da Apple, então o Gatekeeper exibe o aviso *"O Item Klip Não Foi Aberto"* depois que você o instala pelo DMG. Isso quer dizer apenas que o macOS não verificou a notarização online; você pode liberar em **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**, ou via Terminal:
 
-<div align="center">
-  <img src="../../build/macOS-warning-Arroxy-is-damaged.png" width="42%" alt="macOS dialog saying Arroxy.app is damaged and cannot be opened" />
-</div>
-
-1. Arraste o `Arroxy.app` do DMG montado para a pasta `/Applications`.
+1. Arraste o `klip.app` do DMG montado para a pasta `/Applications`.
 2. Abra o Terminal e rode estes dois comandos:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Arroxy.app
-open /Applications/Arroxy.app
+xattr -cr /Applications/klip.app
+open /Applications/klip.app
 ```
 
-O primeiro comando remove o atributo de quarentena da sua cópia instalada do Arroxy. O segundo abre o app. O `sudo` pode pedir a senha do seu Mac; o Terminal não mostra os caracteres enquanto você digita.
+O primeiro comando remove o atributo de quarentena da sua cópia instalada do Klip. O segundo abre o app.
 
-**Apple Silicon x Intel:** em um Mac com chip M (M1 / M2 / M3 / M4), baixe o DMG `arm64`. Em Macs Intel, baixe o DMG `x64`. A build errada ainda funciona via Rosetta, mas fica visivelmente mais lenta.
+**Apple Silicon x Intel:** em um Mac com chip M (M1 / M2 / M3 / M4), baixe o DMG `arm64`. Em Macs Intel, baixe o DMG `x64`.
 
-> As builds para macOS são geradas por CI em runners Apple Silicon e Intel. Se você encontrar problemas, [abra uma issue](../../../../issues) — o retorno de quem usa macOS orienta ativamente o ciclo de testes nessa plataforma.
+> As builds para macOS são geradas em runners Apple Silicon e Intel. Se você encontrar problemas, [abra uma issue](../../../../issues).
 
 </details>
 
 <details>
 <summary><strong><a id="why-warning"></a>⚠️ Por que você pode ver um aviso</strong></summary>
 
-O Arroxy é de código aberto e licenciado sob GPLv3. As builds para Windows e macOS **não são assinadas digitalmente** — os certificados Apple Developer ID e de assinatura EV do Windows custam centenas de dólares por ano cada um, e um projeto independente paga isso do próprio bolso. Sem essas assinaturas, o SmartScreen do Windows e o Gatekeeper do macOS avisam na primeira execução. Os avisos dizem que *o seu sistema não reconhece o publicador* — não que o Arroxy seja malware.
+O Klip é de código aberto e licenciado sob GPLv3. As builds para Windows e macOS **não são assinadas digitalmente** — os certificados Apple Developer ID e de assinatura EV do Windows custam centenas de dólares por ano cada um. Sem essas assinaturas, o SmartScreen do Windows e o Gatekeeper do macOS avisam na primeira execução. Os avisos dizem que *o seu sistema não reconhece o publicador* — não que o Klip seja malware.
 
-Três formas de verificar o Arroxy por conta própria, em ordem crescente de rigor:
+Três formas de verificar o Klip por conta própria, em ordem crescente de rigor:
 
-- **Leia o código-fonte.** Cada linha está no [GitHub](https://github.com/antonio-orionus/Arroxy) e você pode [compilar a partir do código](#tech).
-- **Confira o SHA256.** Compare o seu arquivo com o [`SHA256SUMS`](https://github.com/antonio-orionus/Arroxy/releases/latest/download/SHA256SUMS) publicado — veja [Verifique o seu download](#verify) abaixo.
+- **Leia o código-fonte.** Cada linha está no [GitHub](https://github.com/saulgabriel7/klip) e você pode [compilar a partir do código](#tech).
+- **Confira o SHA256.** Compare o seu arquivo com o [`SHA256SUMS`](https://github.com/saulgabriel7/klip/releases/latest/download/SHA256SUMS) publicado — veja [Verifique o seu download](#verify) abaixo.
 - **Rode uma varredura de terceiros.** Envie o arquivo para o [VirusTotal](https://www.virustotal.com).
 
 </details>
@@ -314,14 +302,14 @@ AppImages rodam direto — sem instalação. Você só precisa marcar o arquivo 
 **Terminal:**
 
 ```bash
-chmod +x Arroxy-linux-x64.AppImage
-./Arroxy-linux-x64.AppImage
+chmod +x Klip-linux-x64.AppImage
+./Klip-linux-x64.AppImage
 ```
 
 Se mesmo assim não abrir, execute sem montagem — não precisa do pacote FUSE:
 
 ```bash
-./Arroxy-linux-x64.AppImage --appimage-extract-and-run
+./Klip-linux-x64.AppImage --appimage-extract-and-run
 ```
 
 **Integração opcional com o desktop:** instale o [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) uma vez e qualquer AppImage em que você der dois cliques é registrado automaticamente no menu de aplicativos — sem precisar criar um arquivo `.desktop` na mão.
@@ -331,11 +319,11 @@ Se mesmo assim não abrir, execute sem montagem — não precisa do pacote FUSE:
 A versão `.tar.gz` é o mesmo app sem o invólucro AppImage — extraia em qualquer lugar e execute. Sem instalador e sem pacote FUSE.
 
 ```bash
-tar xzf Arroxy-linux-x64.tar.gz
-./Arroxy-linux-x64/arroxy
+tar xzf Klip-linux-x64.tar.gz
+./Klip-linux-x64/klip
 ```
 
-**Os downloads de Linux na página de versões são apenas x86_64.** Em máquinas ARM64 (Raspberry Pi, Asahi Linux) o Flatpak instala, mas falha ao iniciar com `bwrap: execvp ldconfig: Exec format error`.
+**Os downloads de Linux na página de versões são apenas x86_64.**
 
 </details>
 
@@ -347,19 +335,19 @@ Toda release publica um arquivo `SHA256SUMS` junto com os binários. Para confer
 **Windows (PowerShell ou Prompt de Comando):**
 
 ```powershell
-certutil -hashfile Arroxy-win-x64-Setup.exe SHA256
+certutil -hashfile Klip-win-x64-Setup.exe SHA256
 ```
 
 **macOS (Terminal):**
 
 ```bash
-shasum -a 256 Arroxy-mac-arm64.dmg
+shasum -a 256 Klip-mac-arm64.dmg
 ```
 
 **Linux (Terminal):**
 
 ```bash
-sha256sum Arroxy-linux-x64.AppImage
+sha256sum Klip-linux-x64.AppImage
 ```
 
 Quer uma varredura antimalware de terceiros? Envie o arquivo para o [VirusTotal](https://www.virustotal.com). Alguns poucos alertas de heurística genérica vindos de motores menores são normais em apps Electron sem assinatura; detecções generalizadas nos principais motores seriam motivo real de preocupação.
@@ -383,11 +371,11 @@ Quer uma varredura antimalware de terceiros? Envie o arquivo para o [VirusTotal]
 
 ---
 
-## <a id="why"></a>⚖️ Por que o Arroxy
+## <a id="why"></a>⚖️ Por que o Klip
 
 Uma comparação lado a lado com as alternativas mais comuns:
 
-|            | Arroxy | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
+|            | Klip   | Typical free yt-dlp GUI | 4K Video Downloader | JDownloader |     Online converters      | Browser extensions |
 | ---------- | :----: | :---------------------: | :-----------------: | :---------: | :------------------------: | :----------------: |
 | Navegador integrado (navegar, entrar, baixar) |   ✅   |           ❌            |         ⚠️          |     ❌      |             ❌             |        N/A         |
 | Vídeos que a sua própria conta consegue assistir, sem exportar cookies |   ✅   |           ⚠️            |         ⚠️          |     ⚠️      |             ❌             |         ⚠️         |
@@ -400,13 +388,13 @@ Uma comparação lado a lado com as alternativas mais comuns:
 
 ⚠️ = em parte, ou só em um plano pago. No 4K Video Downloader, o login dentro do app para vídeos privados é um recurso pago; a maioria das GUIs gratuitas do yt-dlp só aceita um arquivo de cookies ou lê os cookies do seu navegador.
 
-O Arroxy foi feito para uma coisa só: um arquivo local limpo, seja colando uma URL ou encontrando o vídeo no Explore. Sem vendas empurradas, sem coleta de dados.
+O Klip foi projetado com minimalismo técnico e alta precisão para uma coisa só: um arquivo local limpo, seja colando uma URL ou encontrando o vídeo no Explore. Sem vendas empurradas, sem coleta de dados.
 
 ### <a id="why-explore"></a>🧭 O que um simples wrapper do yt-dlp não consegue fazer: a aba Explore
 
-A maioria dos baixadores gratuitos do YouTube é só um campo de URL em cima do yt-dlp. O Arroxy também usa o yt-dlp, mas tem ainda o **Explore**, um navegador integrado ao app que abre o YouTube ou qualquer outro site. O Explore acrescenta o que um campo de URL não consegue:
+A maioria dos baixadores gratuitos do YouTube é só um campo de URL em cima do yt-dlp. O Klip também usa o yt-dlp, mas tem ainda o **Explore**, um navegador integrado ao app que abre o YouTube ou qualquer outro site. O Explore acrescenta o que um campo de URL não consegue:
 
-- **Vídeos que a sua conta consegue assistir, sem exportar cookies** — seus vídeos privados, suas listas Assistir mais tarde e Curtidos, vídeos com restrição de idade em uma conta com idade verificada e páginas de outros sites que exigem o seu login. Um simples wrapper precisa de um cookies.txt exportado ou lê os cookies do seu navegador. No Arroxy você entra uma vez no Explore e ele cuida do resto
+- **Vídeos que a sua conta consegue assistir, sem exportar cookies** — seus vídeos privados, suas listas Assistir mais tarde e Curtidos, vídeos com restrição de idade em uma conta com idade verificada e páginas de outros sites que exigem o seu login. Um simples wrapper precisa de um cookies.txt exportado ou lê os cookies do seu navegador. No Klip você entra uma vez no Explore e ele cuida do resto
 - **Sem copiar links** — encontre um vídeo, uma playlist ou um canal no Explore e baixe com um clique, ou clique com o botão direito em qualquer link da página
 - **Bloqueador de anúncios quando você quiser** — um clique no escudo bloqueia anúncios e rastreadores nas páginas do Explore
 
@@ -416,9 +404,9 @@ A maioria dos baixadores gratuitos do YouTube é só um campo de URL em cima do 
 
 Os downloads são feitos direto pelo [yt-dlp](https://github.com/yt-dlp/yt-dlp), do YouTube para a pasta que você escolher — nada passa por um servidor de terceiros. Histórico de vídeos, histórico de downloads, URLs e o conteúdo dos arquivos ficam no seu dispositivo.
 
-**Sem rastreamento.** O Arroxy envia apenas relatórios anônimos que nos ajudam a contar usuários e corrigir problemas — nunca seus links, vídeos, arquivos ou dados de contas. Você controla esses relatórios nas Configurações.
+**Sem rastreamento.** O Klip não coleta links, vídeos, arquivos ou contas pessoais. Você controla as preferências de diagnóstico nas Configurações.
 
-A aba Explorar mantém seus próprios logins, separados do seu navegador, e você sempre entra na página do próprio site. Cada download usa um login apenas para aquele site, lê os dados novamente e apaga sua cópia ao terminar. Sair das contas do Explorar nas Configurações apaga esses logins.
+A aba Explore mantém seus próprios logins, separados do seu navegador, e você sempre entra na página do próprio site. Cada download usa um login apenas para aquele site, lê os dados novamente e apaga sua cópia ao terminar. Sair das contas do Explore nas Configurações apaga esses logins.
 
 ---
 
@@ -432,9 +420,9 @@ Sim — licença GPLv3, sem plano premium, sem recursos bloqueados.
 </details>
 
 <details>
-<summary><strong>Qual a diferença entre o Arroxy e outras GUIs do yt-dlp?</strong></summary>
+<summary><strong>Qual a diferença entre o Klip, outras GUIs do yt-dlp e o Arroxy original?</strong></summary>
 
-A maioria das GUIs gratuitas do yt-dlp são wrappers que só aceitam um link. O Arroxy adiciona o **Explore**, um navegador integrado ao app que abre o YouTube ou qualquer outro site: você navega e baixa sem copiar links, e entra ali uma vez para baixar vídeos que a sua conta consegue assistir, como seus vídeos privados e as listas Assistir mais tarde e Curtidos, sem exportar cookies. Veja [Por que o Arroxy](#why).
+A maioria das GUIs gratuitas do yt-dlp são wrappers que só aceitam um link. O Klip é um redesign minimalista e rebranding pessoal baseado no [Arroxy](https://github.com/antonio-orionus/Arroxy), adotando uma nova identidade visual geométrica e interface **Minimalista Solid Zinc (`shadcn/ui`)**, mantendo o navegador integrado **Explore**, perfis reutilizáveis e downloads paralelos de alta velocidade. Veja [O que mudou em relação ao Arroxy](#diff-arroxy) e [Por que o Klip](#why).
 
 </details>
 
@@ -455,21 +443,21 @@ Sim. Escolha *apenas áudio* no menu de formatos e selecione MP3, M4A/AAC, Opus 
 <details>
 <summary><strong>Como baixo vídeos que exigem uma conta do YouTube?</strong></summary>
 
-Entre uma vez na aba Explore. O Arroxy poderá então baixar vídeos que a sua conta consiga assistir: seus vídeos privados, vídeos com restrição de idade se a idade da conta for verificada, e as suas listas Assistir mais tarde e Curtidos. Ele só usa o login quando um download falha de um jeito que uma conta pode resolver; todo o resto é baixado como antes. É a opção **Login do Explore**, listada primeiro e marcada como Recomendada nas configurações de cookies, e o Arroxy a seleciona para você na primeira vez que abrir o Explore. A wiki do yt-dlp alerta que [a automação com login pode marcar uma conta Google](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies), então uma conta secundária é a opção mais segura.
+Entre uma vez na aba Explore. O Klip poderá então baixar vídeos que a sua conta consiga assistir: seus vídeos privados, vídeos com restrição de idade se a idade da conta for verificada, e as suas listas Assistir mais tarde e Curtidos. Ele só usa o login quando um download falha de um jeito que uma conta pode resolver; todo o resto é baixado como antes. É a opção **Login do Explore**, listada primeiro e marcada como Recomendada nas configurações de cookies, e o Klip a seleciona para você na primeira vez que abrir o Explore. A wiki do yt-dlp alerta que [a automação com login pode marcar uma conta Google](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies), então uma conta secundária é a opção mais segura.
 
 </details>
 
 <details>
 <summary><strong>Vai continuar funcionando quando o YouTube mudar alguma coisa?</strong></summary>
 
-O yt-dlp é atualizado automaticamente na inicialização, e o Arroxy lança correções rapidamente quando o YouTube muda algo. Quando um download precisa de login, o Arroxy usa o seu login do Explore, se você entrou lá, e os cookies de um arquivo ou do seu navegador estão disponíveis nas configurações de cookies.
+O yt-dlp é atualizado automaticamente na inicialização. Quando um download precisa de login, o Klip usa o seu login do Explore, se você entrou lá, e os cookies de um arquivo ou do seu navegador estão disponíveis nas configurações de cookies.
 
 </details>
 
 <details>
-<summary><strong>Em quais idiomas o Arroxy está disponível?</strong></summary>
+<summary><strong>Em quais idiomas o Klip está disponível?</strong></summary>
 
-50 idiomas, prontos para uso: Afaan Oromoo · Bahasa Indonesia · Català · Čeština · Dansk · Deutsch · Eesti · English · Español · Euskara · Français · Galego · Hrvatski · Italiano · Kiswahili · Latviešu · Lietuvių · Magyar · Nederlands · Norsk bokmål · O'zbekcha · Polski · Português · Română · Slovenčina · Slovenščina · Suomi · Svenska · Tiếng Việt · Türkçe · አማርኛ · עברית · العربية · اردو · پښتو · فارسی · বাংলা · हिन्दी · ไทย · မြန်မာဘာသာ · ខ្មែរ · Ελληνικά · Български · Русский · Српски · Українська · 中文 · 日本語 · 한국어 · 繁體中文. O Arroxy detecta automaticamente o idioma do seu sistema operacional na primeira execução, e você pode trocar quando quiser pelo seletor de idiomas na barra de ferramentas. Os JSON de idioma usados em runtime ficam em src/shared/i18n/locales/, e os catálogos PO para tradutores ficam em i18n/locales/ — abra um PR no GitHub para contribuir.
+50 idiomas, prontos para uso: Afaan Oromoo · Bahasa Indonesia · Català · Čeština · Dansk · Deutsch · Eesti · English · Español · Euskara · Français · Galego · Hrvatski · Italiano · Kiswahili · Latviešu · Lietuvių · Magyar · Nederlands · Norsk bokmål · O'zbekcha · Polski · Português · Română · Slovenčina · Slovenščina · Suomi · Svenska · Tiếng Việt · Türkçe · አማርኛ · עברית · العربية · اردو · پښتو · فارسی · বাংলা · हिन्दी · ไทย · မြန်မာဘာသာ · ខ្មែរ · Ελληνικά · Български · Русский · Српски · Українська · 中文 · 日本語 · 한국어 · 繁體中文. O Klip detecta automaticamente o idioma do seu sistema operacional na primeira execução, e você pode trocar quando quiser pelo seletor de idiomas na barra de ferramentas. Os JSON de idioma usados em runtime ficam em src/shared/i18n/locales/, e os catálogos PO para tradutores ficam em i18n/locales/ — abra um PR no GitHub para contribuir.
 
 </details>
 
@@ -488,9 +476,9 @@ Sim — os dois. Cole a URL de uma playlist ou de um canal (por exemplo `youtube
 </details>
 
 <details>
-<summary><strong>O macOS diz que "o app está danificado" — o que eu faço?</strong></summary>
+<summary><strong>O macOS diz que "o item Klip não foi aberto" — o que eu faço?</strong></summary>
 
-É o Gatekeeper do macOS bloqueando um app sem assinatura, não um dano real. Veja [Primeira execução no macOS](#macos-first-launch) para os comandos de Terminal que removem a quarentena e abrem o Arroxy.
+É o Gatekeeper do macOS bloqueando um app sem notarização paga da Apple, não um dano real. Veja [Primeira execução no macOS](#macos-first-launch) para liberar em Ajustes do Sistema ou via Terminal (`xattr -cr /Applications/klip.app`).
 
 </details>
 
@@ -514,17 +502,15 @@ Ainda planejado — mais ou menos em ordem de prioridade:
 | **Recuperação de tentativas mais robusta** | Um novo caminho de nova tentativa para downloads interrompidos por conexões instáveis ou problemáticas |
 | **Gaveta completa de gerenciamento de downloads** | Transformar a gaveta da fila em um gerenciador mais completo, incluindo a troca da pasta de destino dos itens enfileirados |
 | **Downloads agendados** | Iniciar uma fila em um horário definido (execuções durante a madrugada) |
-| **Pacote AUR** | Instalação no Arch Linux e no Omarchy com `yay -S arroxy-bin` |
+| **Releases multiplataforma** | Pacotes instaladores gerados via GitHub Releases |
 
 Tem um recurso em mente? [Abra um pedido](../../../../issues) — a participação da comunidade define as prioridades.
 
 ---
 
-## <a id="support"></a>💖 Apoie o Arroxy
+## <a id="support"></a>💖 Suporte
 
-O Arroxy é gratuito e licenciado sob GPLv3 — sem anúncios, sem rastreamento, sem plano pago. Se ele economiza o seu tempo, você pode apoiar o desenvolvimento com Bitcoin, Tron ou Ethereum: os endereços estão no [DONATE.md](../../DONATE.md), que é a única fonte oficial deles. O Arroxy nunca vai te enviar um endereço por e-mail ou mensagem direta. Dar uma estrela ao repositório, relatar bugs e melhorar as traduções ajuda tanto quanto.
-
-<a href="../../DONATE.md"><img src="https://img.shields.io/badge/Bitcoin-DONATE.md-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Bitcoin donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Tron-DONATE.md-EF0027?style=for-the-badge&logo=tron&logoColor=white" alt="Tron donation address" /></a> <a href="../../DONATE.md"><img src="https://img.shields.io/badge/Ethereum-DONATE.md-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethereum donation address" /></a>
+O Klip é um projeto pessoal open-source por Saul Gabriel, licenciado sob GNU GPL v3.0. Deixe uma estrela ou abra uma issue no [GitHub](https://github.com/saulgabriel7/klip).
 
 ---
 
@@ -571,7 +557,7 @@ brew install mise
 xcode-select --install
 ```
 
-Depois de clonar, rode `mise trust && mise install` no checkout. Se o seu shell já usa `fnm`, `nvm` ou um Bun do Homebrew, ative o mise no `~/.zshrc` para que o Arroxy use o Node.js 24.21.0 e o Bun 1.4.2:
+Depois de clonar, rode `mise trust && mise install` no checkout. Se o seu shell já usa `fnm`, `nvm` ou um Bun do Homebrew, ative o mise no `~/.zshrc` para que o Klip use o Node.js 24.21.0 e o Bun 1.4.2:
 
 ```bash
 printf '
@@ -598,8 +584,8 @@ sudo apt install -y xvfb
 ### Clonar e executar
 
 ```bash
-git clone https://github.com/antonio-orionus/Arroxy
-cd Arroxy
+git clone https://github.com/saulgabriel7/klip
+cd klip
 mise trust
 mise install           # recomendado; pule se você já ativou manualmente as versões fixadas
 bun run bootstrap
@@ -626,48 +612,44 @@ bun run dist:win     # empacota os alvos Windows quando executado em um host com
 <details>
 <summary><strong>🖥️ App won't open / no window appears</strong></summary>
 
-The Arroxy process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
+The Klip process starts but no window shows up. Most often this is a GPU driver hang during startup. Try, in order:
 
 **1. Check the log.** It records startup, GPU info, and any crash. Path:
 
-| Platform | Path                             |
-| -------- | -------------------------------- |
-| Windows  | `%APPDATA%\arroxy\logs\main.log` |
-| macOS    | `~/Library/Logs/arroxy/main.log` |
-| Linux    | `~/.config/arroxy/logs/main.log` |
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\logs\main.log`                 |
+| macOS    | `~/Library/Application Support/Klip/logs/main.log` |
+| Linux    | `~/.config/klip/logs/main.log`                 |
 
 **2. Launch with hardware acceleration disabled.** Open a terminal / Command Prompt and run the executable with a flag:
 
 ```bash
 # Windows (Portable) — PowerShell, run from the folder containing the exe
-.\Arroxy-win-x64-Portable.exe --disable-gpu
+.\Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Portable) — Command Prompt (cmd.exe), from the same folder
-Arroxy-win-x64-Portable.exe --disable-gpu
+Klip-win-x64-Portable.exe --disable-gpu
 
 # Windows (Installed) — works in both PowerShell and cmd.exe
-"%LOCALAPPDATA%\Programs\Arroxy\Arroxy.exe" --disable-gpu
+"%LOCALAPPDATA%\Programs\Klip\Klip.exe" --disable-gpu
 
 # macOS
-/Applications/Arroxy.app/Contents/MacOS/Arroxy --disable-gpu
+/Applications/klip.app/Contents/MacOS/klip --disable-gpu
 
 # Linux (AppImage)
-./Arroxy-linux-x64.AppImage --disable-gpu
+./Klip-linux-x64.AppImage --disable-gpu
 ```
 
 If that works, the GPU/driver is the cause. Make the change permanent (next step).
 
 **3. Persist the flag via `argv.json`.** Create the file at:
 
-| Platform | Path                                             |
-| -------- | ------------------------------------------------ |
-| Windows  | `%APPDATA%\arroxy\argv.json`                     |
-| macOS    | `~/Library/Application Support/arroxy/argv.json` |
-| Linux    | `~/.config/arroxy/argv.json`                     |
-
-On Flatpak, both `main.log` and `argv.json` live under
-`~/.var/app/io.github.antonio_orionus.Arroxy/config/arroxy/`
-(for example `logs/main.log`).
+| Platform | Path                                           |
+| -------- | ---------------------------------------------- |
+| Windows  | `%APPDATA%\klip\argv.json`                     |
+| macOS    | `~/Library/Application Support/Klip/argv.json` |
+| Linux    | `~/.config/klip/argv.json`                     |
 
 With contents:
 
@@ -675,7 +657,7 @@ With contents:
 { "disable-hardware-acceleration": true }
 ```
 
-Arroxy reads this before opening any window, so it works even when the window never appeared.
+Klip reads this before opening any window, so it works even when the window never appeared.
 
 **4. Other flags worth trying** (combine if needed): `--disable-software-rasterizer`, `--disable-gpu-sandbox`, `--in-process-gpu`.
 
@@ -689,20 +671,20 @@ Arroxy reads this before opening any window, so it works even when the window ne
 
 ## <a id="terms"></a>📜 Termos de uso
 
-O Arroxy é uma ferramenta para uso pessoal e privado apenas. Você é o único responsável por garantir que os seus downloads cumpram os [Termos de Serviço](https://www.youtube.com/t/terms) do YouTube e as leis de direito autoral da sua jurisdição. Não use o Arroxy para baixar, reproduzir ou distribuir conteúdo que você não tem o direito de usar. Os desenvolvedores não se responsabilizam por qualquer uso indevido.
+O Klip é uma ferramenta para uso pessoal e privado apenas. Você é o único responsável por garantir que os seus downloads cumpram os [Termos de Serviço](https://www.youtube.com/t/terms) do YouTube e as leis de direito autoral da sua jurisdição.
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=antonio-orionus%2FArroxy&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=antonio-orionus/Arroxy&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
  </picture>
 </a>
 
 <div align="center">
-  <sub>Licença GPLv3 · Feito com cuidado por <a href="https://x.com/OrionusAI">@OrionusAI</a></sub>
+  <sub>GNU GPL v3.0 · Klip por Saul Gabriel</sub>
   <br/>
   <sub>Baseado na arquitetura open-source do projeto <a href="https://github.com/antonio-orionus/Arroxy">Arroxy (antonio-orionus/Arroxy)</a> sob licença GNU GPL v3.0.</sub>
 </div>
