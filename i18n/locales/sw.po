@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sw\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "Tazama notisi za wengine"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "Tovuti"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "Mikondo iliyokuzwa kwa AI"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "Ruka"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "Maoni"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "Unafurahia Klip? Ningependa kusikia kutoka kwako! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -176,38 +164,6 @@ msgstr "Toka"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "Pakia upya"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "Imenakiliwa!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "Nakili anwani"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip ni bure na chanzo huria, bila matangazo wala mpango wa kulipia. Michango ni ya hiari na haitoi ushawishi wowote kwenye ramani ya maendeleo."
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "Changia"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "Saidia Klip"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "Msimbo wa QR wa anwani ya mchango ya {{coin}}"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "Saidia Klip"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "Malipo ya kripto hayawezi kurudishwa. Tuma kwa mtandao ulioonyeshwa pekee na linganisha anwani nzima."
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1931,41 +1887,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "Kwa nini wasifu ulichagua hii"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "Imenakiliwa!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "Nakili kiungo"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — Kipakuzi cha video cha chanzo wazi cha bure kwa Windows, macOS na Linux. Hufanya kazi na YouTube, Vimeo, Twitch na tovuti 2000+.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip ni ya bure na chanzo wazi. Kushiriki husaidia watu wengi zaidi kuigundua."
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "Shiriki"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Shiriki Klip"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Shiriki Klip"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Shiriki Klip"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5379,25 +5303,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "Bandika URL ya video, orodha ya kucheza, kituo au utafutaji ili kuanza."
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "Tuma ishara isiyo na jina na ripoti za usanidi"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "Hakuna ufuatiliaji. Mara moja kwa siku, ishara isiyo na jina hutuma toleo la programu, njia ya usakinishaji, mfumo wa uendeshaji, lugha, nchi na takriban muda uliopita tangu Klip iliposakinishwa, ili tuweze kuhesabu watumiaji hai na wapya. Klip inaposanidi au kusasisha injini yake ya upakuaji au zana za midia, pia huripoti kama ilifanikiwa na takriban ilichukua muda gani. Hakuna vitambulisho, URL, majina ya video wala majina ya faili."
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "Hali ya juu"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "Tabia ya jumla inayothibiti pia upakuaji unaotumia wasifu."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "Tabia ya kupakua"
+msgid "Download & media"
+msgstr "Upakuaji umeshindwa"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "Ingizo"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

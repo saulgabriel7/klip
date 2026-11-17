@@ -2,11 +2,10 @@
 	"about": {
 		"button": "About",
 		"githubLink": "GitHub",
-		"licenseLine": "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0",
+		"licenseLine": "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0",
 		"openTitle": "About Klip",
 		"tagline": "Minimalist, high-precision open-source media downloader for macOS, Windows, and Linux.",
-		"thirdPartyNotices": "View third-party notices",
-		"websiteLink": "Website"
+		"thirdPartyNotices": "View third-party notices"
 	},
 	"aiUpscaled": {
 		"allow": "Allow",
@@ -16,8 +15,6 @@
 		"skip": "Skip"
 	},
 	"app": {
-		"feedback": "Feedback",
-		"feedbackNudge": "Enjoying Klip? I'd love to hear from you! 💬",
 		"logs": "Logs",
 		"saveDiagnostics": "Save diagnostics file",
 		"saveDiagnosticsDescription": "Puts your logs and app details into one file in Downloads, ready to attach to a GitHub issue. Your user folder name is removed; video links and titles stay.",
@@ -56,16 +53,6 @@
 			"quit": "Quit",
 			"reload": "Reload"
 		}
-	},
-	"donate": {
-		"copied": "Copied!",
-		"copyAddress": "Copy address",
-		"description": "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap.",
-		"footerLabel": "Donate",
-		"footerTooltip": "Support Klip",
-		"qrAlt": "{{coin}} donation address QR code",
-		"title": "Support Klip",
-		"warning": "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
 	},
 	"errors": {
 		"noSubtitlesIn": "This video has no subtitles in {{languages}}.",
@@ -675,14 +662,7 @@
 		"whyTitle": "Why the profile picked this"
 	},
 	"share": {
-		"copied": "Copied!",
-		"copyLink": "Copy link",
-		"defaultMessage": "Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock",
-		"description": "Klip is free and open-source. Sharing helps more people discover it.",
-		"footerLabel": "Share",
-		"footerTooltip": "Share Klip",
-		"shareAction": "Share Klip",
-		"title": "Share Klip"
+		"copyLink": "Copy link"
 	},
 	"splash": {
 		"cancel": "Having trouble? Set it up manually",
@@ -1788,14 +1768,13 @@
 			"quickPreparing": "Preparing",
 			"quickProbeFailed": "Probe failed",
 			"quickSingleOnly": "Paste a video, playlist, channel, or search URL to get started.",
-			"reports": {
-				"toggle": "Send anonymous heartbeat and setup reports",
-				"toggleDescription": "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-			},
 			"settings": {
-				"behaviorDescription": "Global behavior that affects profile-driven downloads too.",
-				"behaviorHeading": "Download behavior",
-				"inputHeading": "Input"
+				"advancedDescription": "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs.",
+				"advancedHeading": "Advanced",
+				"behaviorDescription": "Global defaults for concurrency, pacing, media formats and logs.",
+				"behaviorHeading": "Download & media",
+				"generalDescription": "Daily download essentials.",
+				"generalHeading": "General"
 			},
 			"style": {
 				"aurora": {

@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "তৃতীয়-পক্ষ নোটিশ দেখুন"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "ওয়েবসাইট"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "AI দিয়ে আপস্কেল করা স্ট্রিম
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "বাদ দিন"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "মতামত"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "Klip পছন্দ হচ্ছে? আপনার মতামত জানাতে চাই! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -176,38 +164,6 @@ msgstr "বন্ধ করুন"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "পুনরায় লোড করুন"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "কপি হয়েছে!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "ঠিকানা কপি করুন"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip বিনামূল্যের ও ওপেন-সোর্স, কোনো বিজ্ঞাপন বা পেইড প্ল্যান নেই। দান ঐচ্ছিক এবং রোডম্যাপে কোনো প্রভাব দেয় না।"
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "দান করুন"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "Klip-কে সমর্থন করুন"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "{{coin}} দানের ঠিকানার QR কোড"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "Klip-কে সমর্থন করুন"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "ক্রিপ্টো পেমেন্ট ফেরত নেওয়া যায় না। শুধু দেখানো নেটওয়ার্কে পাঠান এবং পুরো ঠিকানা মিলিয়ে নিন।"
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1931,41 +1887,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "প্রোফাইল কেন এটি বেছে নিল"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "কপি হয়েছে!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "লিঙ্ক কপি করুন"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — Windows, macOS ও Linux-এর জন্য বিনামূল্যের ওপেন-সোর্স ভিডিও ডাউনলোডার। YouTube, Vimeo, Twitch এবং 2000+ সাইটের সাথে কাজ করে।\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip বিনামূল্যে এবং ওপেন-সোর্স। শেয়ার করলে আরও বেশি মানুষ এটি আবিষ্কার করতে পারবেন।"
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "শেয়ার"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Klip শেয়ার করুন"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Klip শেয়ার করুন"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Klip শেয়ার করুন"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5379,25 +5303,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "শুরু করতে ভিডিও, প্লেলিস্ট, চ্যানেল বা সার্চ URL পেস্ট করুন।"
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "বেনামী হার্টবিট ও সেটআপ রিপোর্ট পাঠান"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "কোনো ট্র্যাকিং নেই। দিনে একবার একটি বেনামী হার্টবিট অ্যাপের সংস্করণ, ইনস্টল চ্যানেল, OS, ভাষা, দেশ এবং Klip প্রায় কত আগে ইনস্টল হয়েছে তা পাঠায়, যাতে আমরা সক্রিয় ও নতুন ব্যবহারকারী গুনতে পারি। Klip ডাউনলোড ইঞ্জিন বা মিডিয়া টুল সেটআপ বা আপডেট করলে সেটি সফল হয়েছে কি না এবং প্রায় কতক্ষণ লেগেছে, তাও জানায়। কোনো ID, URL, ভিডিও শিরোনাম বা ফাইলের নাম নেই।"
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "উন্নত"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "গ্লোবাল আচরণ যা প্রোফাইল-চালিত ডাউনলোডকেও প্রভাবিত করে।"
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "ডাউনলোড আচরণ"
+msgid "Download & media"
+msgstr "ডাউনলোড ব্যর্থ"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "ইনপুট"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

@@ -52,7 +52,7 @@ describe('installAge', () => {
 
 describe('buildHeartbeatPageview', () => {
 	it('maps the snapshot onto Counterscale path, UTM and referrer fields with no identifier', () => {
-		expect(buildHeartbeatPageview(SNAPSHOT, 'new')).toEqual({url: '/0.5.1', hostname: 'desktop.arroxy', referrer: 'new', utmSource: 'homebrew', utmMedium: 'darwin-arm64', utmCampaign: 'macos-26', utmTerm: 'uk', utmContent: 'en-US'})
+		expect(buildHeartbeatPageview(SNAPSHOT, 'new')).toEqual({url: '/0.5.1', hostname: 'desktop.klip', referrer: 'new', utmSource: 'homebrew', utmMedium: 'darwin-arm64', utmCampaign: 'macos-26', utmTerm: 'uk', utmContent: 'en-US'})
 	})
 })
 
@@ -221,9 +221,10 @@ describe('createHeartbeat failure handling', () => {
 })
 
 describe('heartbeatUrl', () => {
-	it('uses the production collector only in release builds', () => {
-		expect(heartbeatUrl({isPackaged: true, isDev: false, envUrl: undefined})).toBe(HEARTBEAT_URL)
+	it('disables the default external collector even in release builds', () => {
+		expect(heartbeatUrl({isPackaged: true, isDev: false, envUrl: undefined})).toBeUndefined()
 		expect(heartbeatUrl({isPackaged: true, isDev: true, envUrl: undefined})).toBeUndefined()
+		expect(HEARTBEAT_URL).toBe('')
 	})
 
 	// `bun run preview` and a hand-run `electron out/main/index.js` start no dev
@@ -256,8 +257,8 @@ describe('heartbeatUrl', () => {
 		expect(HEARTBEAT_OFF).toBe('off')
 	})
 
-	it('treats an empty override as unset', () => {
-		expect(heartbeatUrl({isPackaged: true, isDev: false, envUrl: ''})).toBe(HEARTBEAT_URL)
+	it('treats an empty override as unset (and stays disabled without an explicit URL)', () => {
+		expect(heartbeatUrl({isPackaged: true, isDev: false, envUrl: ''})).toBeUndefined()
 		expect(heartbeatUrl({isPackaged: true, isDev: true, envUrl: ''})).toBeUndefined()
 	})
 })
@@ -271,13 +272,13 @@ describe('counterscaleSender', () => {
 		const fetchMock = vi.fn(async () => new Response(''))
 		vi.stubGlobal('fetch', fetchMock)
 
-		await counterscaleSender('https://stats.example.test/collect', 'arroxy')(buildHeartbeatPageview(SNAPSHOT, 'new'))
+		await counterscaleSender('https://stats.example.test/collect', 'klip')(buildHeartbeatPageview(SNAPSHOT, 'new'))
 
 		expect(fetchMock).toHaveBeenCalledTimes(1)
 		const [requestUrl, init] = fetchMock.mock.calls[0] as unknown as [string, RequestInit]
 		const url = new URL(requestUrl)
 		expect(url.origin + url.pathname).toBe('https://stats.example.test/collect')
-		expect(Object.fromEntries(url.searchParams)).toEqual({sid: 'arroxy', h: 'https://desktop.arroxy', p: '/0.5.1', r: 'new', ht: '1', us: 'homebrew', um: 'darwin-arm64', uc: 'macos-26', ut: 'uk', uco: 'en-US'})
+		expect(Object.fromEntries(url.searchParams)).toEqual({sid: 'klip', h: 'https://desktop.klip', p: '/0.5.1', r: 'new', ht: '1', us: 'homebrew', um: 'darwin-arm64', uc: 'macos-26', ut: 'uk', uco: 'en-US'})
 		expect(init.method).toBe('GET')
 	})
 
@@ -288,6 +289,6 @@ describe('counterscaleSender', () => {
 				throw new TypeError('fetch failed')
 			})
 		)
-		await expect(counterscaleSender('https://stats.example.test/collect', 'arroxy')(buildHeartbeatPageview(SNAPSHOT, 'new'))).resolves.toBeUndefined()
+		await expect(counterscaleSender('https://stats.example.test/collect', 'klip')(buildHeartbeatPageview(SNAPSHOT, 'new'))).resolves.toBeUndefined()
 	})
 })

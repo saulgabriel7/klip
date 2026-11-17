@@ -1,14 +1,17 @@
 import {useEffect, type ReactNode} from 'react'
 import {useShallow} from 'zustand/react/shallow'
 import {useTranslation} from 'react-i18next'
-import {AlertTriangle} from 'lucide-react'
+import {AlertTriangle, ChevronDown} from 'lucide-react'
 import {UI_STYLES, uiStyleSchema} from '@shared/schemas.js'
 import {BASE_STYLE, STYLES} from '../../styles/registry.js'
 import {selectBackdropAvailability} from '../../store/uiSlice.js'
 import {useAppStore} from '../../store/useAppStore.js'
 import type {AdvancedSettingsTarget} from '../../store/types.js'
+import {cn} from '../../lib/utils.js'
 import {Alert, AlertDescription} from '../ui/alert.js'
+import {Button} from '../ui/button.js'
 import {Card} from '../ui/card.js'
+import {Collapsible, CollapsibleContent, CollapsibleTrigger} from '../ui/collapsible.js'
 import {Field, FieldContent, FieldDescription, FieldGroup, FieldLabel, FieldTitle} from '../ui/field.js'
 import {InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput} from '../ui/input-group.js'
 import {ToggleGroup} from '../ui/toggle-group.js'
@@ -18,35 +21,18 @@ import {OptionCard} from '../shared/OptionCard.js'
 import {HotkeySettingsSection} from './HotkeySettingsSection.js'
 import {PlaylistProbeLimitSelector} from './PlaylistProbeLimitSelector.js'
 import {ExploreSettingsPanel} from '../explore/ExploreSettingsPanel.js'
-import {BehaviorSettingsPanel} from './BehaviorSettingsPanel.js'
+import {BehaviorSettingsPanel, EssentialDownloadFields} from './BehaviorSettingsPanel.js'
 import {CookiesSettingsFields} from './CookiesSettingsFields.js'
 
 const ADVANCED_SETTINGS_TARGET_TEST_IDS: Record<AdvancedSettingsTarget, string> = {cookies: 'cookies-source', network: 'network-pacing-section', hotkey: 'hotkey-section'}
 
 export function DownloadProfilesSettingsTab(): ReactNode {
 	const {t} = useTranslation()
-	useAdvancedSettingsAutoScroll()
-	return (
-		<Card variant="glass" className="mx-auto w-full max-w-2xl gap-4 px-4" data-testid="profiles-settings-tab">
-			<InputSettingsPanel />
-
-			<ExploreSettingsPanel />
-
-			<Panel testId="hotkey-section" title={t('wizard.url.hotkey.sectionTitle')} description={t('wizard.url.hotkey.sectionDescription')}>
-				<HotkeySettingsSection />
-			</Panel>
-
-			<BehaviorSettingsPanel />
-
-			{import.meta.env.MODE === 'test' ? <StyleSettingsPanel /> : null}
-		</Card>
+	const hasBrokenCookies = useAppStore(state => state.notWorkingSignIns.length > 0)
+	const {advancedAutoOpen, advancedAutoTarget, settingsAdvancedExpanded, setAdvancedAutoOpen, setSettingsAdvancedExpanded} = useAppStore(
+		useShallow(state => ({advancedAutoOpen: state.advancedAutoOpen, advancedAutoTarget: state.advancedAutoTarget, settingsAdvancedExpanded: state.settingsAdvancedExpanded, setAdvancedAutoOpen: state.setAdvancedAutoOpen, setSettingsAdvancedExpanded: state.setSettingsAdvancedExpanded}))
 	)
-}
-
-// A request to open the advanced settings at a target scrolls that section into
-// view once the tab has rendered, then clears the request.
-function useAdvancedSettingsAutoScroll(): void {
-	const {advancedAutoOpen, advancedAutoTarget, setAdvancedAutoOpen} = useAppStore(useShallow(state => ({advancedAutoOpen: state.advancedAutoOpen, advancedAutoTarget: state.advancedAutoTarget, setAdvancedAutoOpen: state.setAdvancedAutoOpen})))
+	const advancedOpen = settingsAdvancedExpanded || advancedAutoOpen || hasBrokenCookies
 
 	useEffect(() => {
 		if (!advancedAutoOpen) return
@@ -57,16 +43,59 @@ function useAdvancedSettingsAutoScroll(): void {
 		}
 		setAdvancedAutoOpen(false, advancedAutoTarget)
 	}, [advancedAutoOpen, advancedAutoTarget, setAdvancedAutoOpen])
+
+	return (
+		<Card variant="glass" className="mx-auto w-full max-w-2xl gap-4 px-4" data-testid="profiles-settings-tab">
+			<GeneralSettingsPanel />
+
+			<ExploreSettingsPanel />
+
+			<Collapsible open={advancedOpen} onOpenChange={setSettingsAdvancedExpanded} className="rounded-xl border border-border-subtle/80 bg-background/25 p-3">
+				<CollapsibleTrigger
+					render={
+						<Button type="button" variant="ghost" className="h-auto w-full justify-between gap-3 px-0 py-0 text-left whitespace-normal hover:bg-transparent" data-testid="settings-advanced-toggle">
+							<span className="flex flex-col gap-0.5">
+								<span className="text-sm font-medium text-foreground">{t('wizard.url.settings.advancedHeading')}</span>
+								<span className="text-xs font-normal text-subtle-foreground">{t('wizard.url.settings.advancedDescription')}</span>
+							</span>
+							<ChevronDown className={cn('size-4 shrink-0 text-subtle-foreground transition-transform', advancedOpen ? 'rotate-180' : '')} aria-hidden />
+						</Button>
+					}
+				/>
+				<CollapsibleContent className="flex flex-col gap-4 pt-4">
+					<AdvancedInputPanel />
+
+					<Panel testId="hotkey-section" title={t('wizard.url.hotkey.sectionTitle')} description={t('wizard.url.hotkey.sectionDescription')}>
+						<HotkeySettingsSection />
+					</Panel>
+
+					<BehaviorSettingsPanel />
+				</CollapsibleContent>
+			</Collapsible>
+
+			{import.meta.env.MODE === 'test' ? <StyleSettingsPanel /> : null}
+		</Card>
+	)
 }
 
-function InputSettingsPanel(): ReactNode {
+function GeneralSettingsPanel(): ReactNode {
 	const {t} = useTranslation()
 	const {settings, setClipboardWatchEnabled} = useAppStore(useShallow(state => ({settings: state.settings, setClipboardWatchEnabled: state.setClipboardWatchEnabled})))
 	return (
-		<Panel title={t('wizard.url.settings.inputHeading')} description={t('wizard.url.advanced')}>
+		<Panel title={t('wizard.url.settings.generalHeading')} description={t('wizard.url.settings.generalDescription')}>
 			<FieldGroup className="gap-4">
 				<SettingSwitch id="profiles-settings-clipboard" label={t('wizard.url.clipboard.toggle')} description={t('wizard.url.clipboard.toggleDescription')} checked={settings?.common?.clipboardWatchEnabled ?? false} onCheckedChange={checked => void setClipboardWatchEnabled(checked)} />
+				<EssentialDownloadFields />
+			</FieldGroup>
+		</Panel>
+	)
+}
 
+function AdvancedInputPanel(): ReactNode {
+	const {t} = useTranslation()
+	return (
+		<Panel title={t('wizard.url.advanced')}>
+			<FieldGroup className="gap-4">
 				<CookiesSettingsFields />
 
 				<ProxyUrlField />

@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "Προβολή ανακοινώσεων τρίτων"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "Ιστότοπος"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "Ροές με αναβάθμιση ΤΝ"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "Παράλειψη"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "Σχόλια"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "Σου αρέσει το Klip; Θα χαρώ να ακούσω τη γνώμη σου! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -176,38 +164,6 @@ msgstr "Έξοδος"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "Ανανέωση"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "Αντιγράφηκε!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "Αντιγραφή διεύθυνσης"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Το Klip είναι δωρεάν και ανοιχτού κώδικα, χωρίς διαφημίσεις ή επί πληρωμή πακέτο. Οι δωρεές είναι προαιρετικές και δεν δίνουν επιρροή στον οδικό χάρτη."
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "Δωρεά"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "Υποστηρίξτε το Klip"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "Κωδικός QR της διεύθυνσης δωρεάς {{coin}}"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "Υποστηρίξτε το Klip"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "Οι πληρωμές κρυπτονομισμάτων είναι μη αναστρέψιμες. Στείλτε μόνο μέσω του δικτύου που εμφανίζεται και συγκρίνετε ολόκληρη τη διεύθυνση."
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1931,41 +1887,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "Γιατί το προφίλ επέλεξε αυτό"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "Αντιγράφηκε!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "Αντιγραφή συνδέσμου"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — Δωρεάν πρόγραμμα λήψης βίντεο ανοιχτού κώδικα για Windows, macOS & Linux. Λειτουργεί με YouTube, Vimeo, Twitch και 2000+ ιστοτόπους.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Το Klip είναι δωρεάν και ανοιχτού κώδικα. Η κοινοποίηση βοηθά περισσότερους να το ανακαλύψουν."
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "Κοινή χρήση"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Κοινή χρήση Klip"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Κοινή χρήση Klip"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Μοιράσου το Klip"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5379,25 +5303,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "Επικόλλησε URL βίντεο, playlist, καναλιού ή αναζήτησης για να ξεκινήσεις."
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "Αποστολή ανώνυμου σήματος και αναφορών ρύθμισης"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "Χωρίς παρακολούθηση. Μία φορά την ημέρα, ένα ανώνυμο σήμα στέλνει την έκδοση της εφαρμογής, το κανάλι εγκατάστασης, το λειτουργικό σύστημα, τη γλώσσα, τη χώρα και περίπου πόσο καιρό πριν εγκαταστάθηκε το Klip, για να μετράμε τους ενεργούς και τους νέους χρήστες. Όταν το Klip ρυθμίζει ή ενημερώνει τη μηχανή λήψης ή τα εργαλεία πολυμέσων, αναφέρει επίσης αν τα κατάφερε και περίπου πόσο χρόνο πήρε. Χωρίς αναγνωριστικά, URL, τίτλους βίντεο ή ονόματα αρχείων."
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "Για προχωρημένους"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "Γενική συμπεριφορά που επηρεάζει και τις λήψεις που ελέγχονται από προφίλ."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "Συμπεριφορά λήψης"
+msgid "Download & media"
+msgstr "Αποτυχία λήψης"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "Είσοδος"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

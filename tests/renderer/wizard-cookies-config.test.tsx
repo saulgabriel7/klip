@@ -92,7 +92,9 @@ beforeEach(() => {
 })
 
 function openSettingsTab(): void {
+	useAppStore.setState({settingsAdvancedExpanded: false, advancedAutoOpen: false})
 	fireEvent.click(screen.getByRole('tab', {name: 'Settings'}))
+	fireEvent.click(screen.getByTestId('settings-advanced-toggle'))
 }
 
 function enterUrlAndStartInteractiveDownload(): void {

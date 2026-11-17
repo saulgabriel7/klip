@@ -2,23 +2,10 @@ import type {SubtitleMode, SubtitleFormat, SponsorBlockMode, SponsorBlockCategor
 import type {AppSettings} from './types.js'
 import {DEFAULT_FILENAME_TEMPLATE} from './filenameTemplate.js'
 
-export const DISCORD_URL = 'https://discord.gg/ueGvXwQH8y'
-
-// Public landing site. Links in earlier releases point at orionus.dev/arroxy/
-// (or the older arroxy.orionus.dev), which keep forwarding visitors.
-export const WEBSITE_URL = 'https://arroxy.com/'
+export const WEBSITE_URL = 'https://github.com/saulgabriel7/klip'
 
 // GitHub Releases; one release's page is `${RELEASES_URL}/tag/v<version>`.
-export const RELEASES_URL = 'https://github.com/antonio-orionus/Arroxy/releases'
-
-// Donation addresses. DONATE.md is the canonical source and
-// scripts/check-donation-addresses.mjs pins them in CI: a changed character
-// silently redirects real money, so edit all three together or not at all.
-export const DONATION_ADDRESSES = [
-	{id: 'btc', label: 'Bitcoin', network: 'Bitcoin mainnet', address: 'bc1qe9yt5tfxam76duht6zu4nlurhhrpt0u5gfxglu'},
-	{id: 'usdt-trc20', label: 'USDT / TRX', network: 'Tron (TRC-20)', address: 'TCigPD799TZmGuvZx5p1DcifGDL4ML7XKA'},
-	{id: 'eth', label: 'Ethereum', network: 'Ethereum mainnet', address: '0x3bDD7Cbf171AF6600c35Fb75Ce4f06B28b094387'}
-] as const
+export const RELEASES_URL = 'https://github.com/saulgabriel7/klip/releases'
 
 // The cask lives in Arroxy's own tap, not in Homebrew's official one. The fully
 // qualified name lets `brew install` tap it on the fly; the short name `arroxy`
@@ -94,7 +81,7 @@ export function defaultAppSettings(downloadsDir: string): AppSettings {
 			clipboardWatchEnabled: true,
 			hotkeyEnabled: DEFAULTS.hotkeyEnabled,
 			hotkeyAccelerator: DEFAULTS.hotkeyAccelerator,
-			analyticsEnabled: true,
+			analyticsEnabled: false,
 			filenameTemplate: DEFAULTS.filenameTemplate,
 			uiStyle: DEFAULTS.uiStyle,
 			nativeAudioPreference: DEFAULTS.nativeAudioPreference,

@@ -1,5 +1,5 @@
-import {app, Menu, shell, type BrowserWindow} from 'electron'
-import {DEFAULTS, DISCORD_URL} from '@shared/constants.js'
+import {app, Menu, type BrowserWindow} from 'electron'
+import {DEFAULTS} from '@shared/constants.js'
 import {IPC_CHANNELS} from '@shared/ipc.js'
 import type {SupportedLang} from '@shared/i18n/types.js'
 import type {MenuAction} from '@shared/schemas.js'
@@ -29,7 +29,7 @@ export function installAppMenu({settingsStore, languageRef, getWindow}: AppMenuI
 	function refresh(): void {
 		if (process.platform !== 'darwin') return
 		const {common} = settingsStore.getSync()
-		const template = buildAppMenuTemplate({appName: app.getName(), t: key => mainT(languageRef.current, key), language: languageRef.current, style: common.uiStyle ?? DEFAULTS.uiStyle, theme: common.uiTheme ?? DEFAULTS.uiTheme, limitRate: common.limitRate, send, openDiscord: () => void shell.openExternal(DISCORD_URL)})
+		const template = buildAppMenuTemplate({appName: app.getName(), t: key => mainT(languageRef.current, key), language: languageRef.current, style: common.uiStyle ?? DEFAULTS.uiStyle, theme: common.uiTheme ?? DEFAULTS.uiTheme, limitRate: common.limitRate, send})
 		Menu.setApplicationMenu(Menu.buildFromTemplate(template))
 	}
 

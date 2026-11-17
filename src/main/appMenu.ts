@@ -12,7 +12,6 @@ export interface AppMenuDeps {
 	// The saved speed limit (`500K`, `1.5M`); blank or absent means no limit.
 	limitRate: string | undefined
 	send: (action: MenuAction) => void
-	openDiscord: () => void
 }
 
 const STYLE_LABEL_KEYS = {aurora: 'wizard.url.style.aurora.label', minimal: 'wizard.url.style.minimal.label'} as const satisfies Record<UiStyle, string>
@@ -23,7 +22,7 @@ const THEME_ORDER = ['light', 'system', 'dark'] as const satisfies readonly UiTh
 // The macOS application menu: the standard Edit and Window menus around the
 // app's own commands. The footer stays the source of truth on every platform;
 // this is the same set of controls where a Mac user looks first.
-export function buildAppMenuTemplate({appName, t, language, style: _style, theme, limitRate, send, openDiscord}: AppMenuDeps): MenuItemConstructorOptions[] {
+export function buildAppMenuTemplate({appName, t, language, style: _style, theme, limitRate, send}: AppMenuDeps): MenuItemConstructorOptions[] {
 	void STYLE_LABEL_KEYS
 	const trimmedLimit = limitRate?.trim()
 	const activeLimit = trimmedLimit === undefined || trimmedLimit === '' ? undefined : trimmedLimit
@@ -78,10 +77,6 @@ export function buildAppMenuTemplate({appName, t, language, style: _style, theme
 			label: 'Help',
 			role: 'help',
 			submenu: [
-				{label: 'Discord', click: openDiscord},
-				{label: t('app.feedback'), click: () => send({kind: 'feedback'})},
-				{label: t('share.footerTooltip'), click: () => send({kind: 'share'})},
-				{type: 'separator'},
 				{label: t('app.logs'), click: () => send({kind: 'logs'})},
 				{label: t('app.saveDiagnostics'), click: () => send({kind: 'diagnostics'})}
 			]

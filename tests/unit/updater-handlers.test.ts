@@ -146,7 +146,7 @@ describe('registerUpdaterHandlers', () => {
 
 	it('reads releases from GitHub by default', () => {
 		registerUpdaterHandlers(makeWindow(), noQuitGate)
-		expect(autoUpdater.setFeedURL).toHaveBeenCalledWith({provider: 'github', owner: 'antonio-orionus', repo: 'Arroxy', channel: 'latest'})
+		expect(autoUpdater.setFeedURL).toHaveBeenCalledWith({provider: 'github', owner: 'saulgabriel7', repo: 'klip', channel: 'latest'})
 	})
 
 	it('reads releases from a loopback ARROXY_UPDATE_FEED_URL', () => {
@@ -165,7 +165,7 @@ describe('registerUpdaterHandlers', () => {
 		const warn = vi.spyOn(log, 'warn').mockImplementation(() => {})
 		try {
 			registerUpdaterHandlers(makeWindow(), noQuitGate)
-			expect(autoUpdater.setFeedURL).toHaveBeenCalledWith({provider: 'github', owner: 'antonio-orionus', repo: 'Arroxy', channel: 'latest'})
+			expect(autoUpdater.setFeedURL).toHaveBeenCalledWith({provider: 'github', owner: 'saulgabriel7', repo: 'klip', channel: 'latest'})
 			expect(warn).toHaveBeenCalledWith(expect.stringContaining('ARROXY_UPDATE_FEED_URL'))
 			expect(JSON.stringify(warn.mock.calls)).not.toContain('s3cret')
 		} finally {

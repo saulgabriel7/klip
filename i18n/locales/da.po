@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "Vis tredjepartsmeddelelser"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "Websted"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "AI-opskalerede streams"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "Spring over"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "Feedback"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "Kan du lide Klip? Jeg vil meget gerne høre fra dig! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -176,38 +164,6 @@ msgstr "Afslut"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "Genindlæs"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "Kopieret!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "Kopiér adresse"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip er gratis og open source, uden reklamer og uden betalt niveau. Donationer er frivillige og giver ingen indflydelse på køreplanen."
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "Donér"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "Støt Klip"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "QR-kode til {{coin}}-donationsadressen"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "Støt Klip"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "Kryptobetalinger kan ikke fortrydes. Send kun på det viste netværk, og sammenlign hele adressen."
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1931,41 +1887,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "Hvorfor profilen valgte denne"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "Kopieret!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "Kopiér link"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — gratis og open source videodownloader til Windows, macOS og Linux. Virker med YouTube, Vimeo, Twitch og 2000+ websteder.\n"
-"4K · HDR · MP3 · Shorts · Undertekster · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip er gratis og open source. Når du deler den, hjælper du flere med at finde den."
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "Del"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Del Klip"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Del Klip"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Del Klip"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5379,25 +5303,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "Indsæt en URL til en video, afspilningsliste, kanal eller søgning for at komme i gang."
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "Send anonyme livstegn og opsætningsrapporter"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "Ingen sporing. Én gang om dagen sender et anonymt livstegn appversion, installationskanal, operativsystem, sprog, land og omtrent hvor længe siden Klip blev installeret, så vi kan tælle aktive og nye brugere. Når Klip opsætter eller opdaterer sin download-motor eller sine medieværktøjer, rapporterer den også, om det lykkedes, og omtrent hvor lang tid det tog. Ingen id'er, URL'er, videotitler eller filnavne."
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "Avanceret"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "Global adfærd, der også påvirker profilstyrede downloads."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "Downloadadfærd"
+msgid "Download & media"
+msgstr "Downloadet mislykkedes"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "Input"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

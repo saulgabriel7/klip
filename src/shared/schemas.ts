@@ -653,8 +653,6 @@ export const limitRateSchema = z.string().regex(/^(|\s*|\d+(\.\d+)?[KM])$/i, 'Us
 // as the footer controls. A speed limit left out means no limit.
 export const menuActionSchema = z.discriminatedUnion('kind', [
 	z.object({kind: z.literal('about')}),
-	z.object({kind: z.literal('share')}),
-	z.object({kind: z.literal('feedback')}),
 	z.object({kind: z.literal('settings')}),
 	z.object({kind: z.literal('logs')}),
 	z.object({kind: z.literal('diagnostics')}),

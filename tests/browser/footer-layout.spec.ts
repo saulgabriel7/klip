@@ -65,19 +65,9 @@ test('the footer labels come back when the window widens', async ({page}) => {
 	expect(await clippedSettings(page)).toEqual([])
 })
 
-// Icon-only, every action still names itself on hover.
-test('each footer action shows its name on hover once its label gives way', async ({page}) => {
+// Minimal footer keeps About visible and in bounds across window sizes.
+test('each footer action fits without clipping', async ({page}) => {
 	await openFooter(page, 'en', MIN_WINDOW)
-	await expect.poll(() => hiddenLabels(page)).not.toEqual([])
-	for (const [id, name] of [
-		['btn-share', 'Share'],
-		['btn-discord', 'Discord'],
-		['btn-feedback', 'Feedback']
-	] as const) {
-		const tip = page.locator('[data-slot="tooltip-content"]:not([data-testid="style-hint"])')
-		await page.getByTestId(id).hover()
-		await expect(tip).toContainText(name)
-		await page.mouse.move(0, 0)
-		await expect(tip).toHaveCount(0)
-	}
+	await expect(page.getByTestId('btn-about')).toBeVisible()
+	expect(await clippedSettings(page)).toEqual([])
 })

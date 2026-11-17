@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "Prikaži obavijesti o softveru trećih strana"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "Web-mjesto"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "Tokovi povećani pomoću AI-ja"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "Preskoči"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "Povratne informacije"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "Sviđa vam se Klip? Rado bismo čuli vaše mišljenje! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -181,38 +169,6 @@ msgstr "Izađi"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "Ponovno učitaj"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "Kopirano!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "Kopiraj adresu"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip je besplatan i otvorenog koda, bez oglasa i plaćene razine. Donacije su dobrovoljne i ne daju utjecaj na plan razvoja."
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "Doniraj"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "Podržite Klip"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "QR kod adrese za donaciju ({{coin}})"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "Podržite Klip"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "Plaćanja kriptovalutama su nepovratna. Šaljite samo na prikazanoj mreži i usporedite cijelu adresu."
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1991,41 +1947,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "Zašto je profil odabrao ovo"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "Kopirano!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "Kopiraj poveznicu"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — besplatan program otvorenog koda za preuzimanje videozapisa za Windows, macOS i Linux. Radi s YouTubeom, Vimeom, Twitchem i više od 2000 web-mjesta.\n"
-"4K · HDR · MP3 · Shorts · Titlovi · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip je besplatan i otvorenog koda. Dijeljenjem ga može otkriti više ljudi."
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "Podijeli"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Podijelite Klip"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Podijelite Klip"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Podijelite Klip"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5554,25 +5478,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "Zalijepite URL videozapisa, popisa za reprodukciju, kanala ili pretrage za početak."
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "Šalji anonimne signale aktivnosti i izvješća o postavljanju"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "Bez praćenja. Jednom dnevno anonimni signal aktivnosti šalje verziju aplikacije, kanal instalacije, OS, jezik, državu i otprilike koliko je prošlo od instalacije Klipja, kako bismo mogli brojati aktivne i nove korisnike. Kad Klip postavlja ili ažurira svoj mehanizam za preuzimanje ili medijske alate, također javlja je li uspjelo i otprilike koliko je trajalo. Bez ID-ova, URL-ova, naslova videozapisa ili naziva datoteka."
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "Napredno"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "Globalno ponašanje koje utječe i na preuzimanja vođena profilom."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "Ponašanje preuzimanja"
+msgid "Download & media"
+msgstr "Preuzimanje nije uspjelo"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "Unos"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

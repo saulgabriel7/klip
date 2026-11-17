@@ -30,7 +30,7 @@ const VIEWPORTS = [
 
 const SCREENS: readonly Screen[] = [
 	{name: 'profile-editor', query: 'scenario=profiles-editor', hash: '', ready: '[data-testid="profiles-editor-name"]'},
-	{name: 'settings', query: '', hash: 'settings', ready: '[data-testid="native-audio-preference"]'},
+	{name: 'settings', query: '', hash: 'settings', ready: '[data-testid="settings-advanced-toggle"]', open: {trigger: '[data-testid="settings-advanced-toggle"]', wait: '[data-testid="native-audio-preference"]'}},
 	{name: 'settings-limit-rate', query: '', hash: 'settings', ready: '[data-testid="profiles-settings-limit-rate-trigger"]', open: {trigger: '[data-testid="profiles-settings-limit-rate-trigger"]', wait: '[data-testid="limit-rate-picker"]'}},
 	{name: 'wizard-formats', query: 'scenario=single-normal&mockStep=formats', hash: '', ready: '[data-testid="step-formats"]'},
 	{name: 'wizard-formats-multilingual-audio', query: 'scenario=probe-audio-multilingual', hash: '', ready: '[data-testid="step-formats"]'},

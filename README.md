@@ -669,6 +669,20 @@ Klip reads this before opening any window, so it works even when the window neve
 
 ---
 
+## <a id="terms"></a>📜 Terms of use
+
+Klip is a tool for personal, private use only. You are solely responsible for ensuring your downloads comply with YouTube's [Terms of Service](https://www.youtube.com/t/terms) and the copyright laws of your jurisdiction.
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=saulgabriel7%2Fklip&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=saulgabriel7/klip&type=timeline&legend=top-left" />
+ </picture>
+</a>
+
 <div align="center">
   <sub>GNU GPL v3.0 · Klip by Saul Gabriel</sub>
   <br/>

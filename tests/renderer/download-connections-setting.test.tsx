@@ -22,7 +22,7 @@ function mount(common: Partial<AppSettings['common']> = {}): void {
 	mockApi = buildMockAppApi()
 	mockApi.settings.update = vi.fn().mockResolvedValue(ok(settings))
 	Object.defineProperty(window, 'appApi', {writable: true, value: mockApi})
-	useAppStore.setState({initialized: true, initializing: false, settings})
+	useAppStore.setState({initialized: true, initializing: false, settings, settingsAdvancedExpanded: true})
 	render(
 		<TooltipProvider>
 			<DownloadProfilesSettingsTab />

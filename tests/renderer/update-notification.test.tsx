@@ -213,7 +213,7 @@ describe('UpdateBanner integration in App', () => {
 			fireEvent.click(screen.getByRole('button', {name: 'Download DMG ↗'}))
 		})
 
-		expect(openExternal).toHaveBeenCalledWith('https://arroxy.com/')
+		expect(openExternal).toHaveBeenCalledWith('https://github.com/saulgabriel7/klip')
 	})
 
 	it('Download DMG ↗ dismisses the banner after clicking', async () => {

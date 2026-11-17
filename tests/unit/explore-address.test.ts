@@ -55,13 +55,11 @@ describe('classifyExploreAddress', () => {
 		['c++ tutorial & tips', 'https://duckduckgo.com/?q=c%2B%2B+tutorial+%26+tips'],
 		['lofi:beats', 'https://duckduckgo.com/?q=lofi%3Abeats'],
 		['3.5 mm jack', 'https://duckduckgo.com/?q=3.5+mm+jack'],
-		// A dotted single token with no scheme, no www. and no path is a search,
-		// unless it is a YouTube host (above).
+		// Dotted code/version tokens remain search queries.
 		['node.js', 'https://duckduckgo.com/?q=node.js'],
 		['vue.js', 'https://duckduckgo.com/?q=vue.js'],
 		['e.g.', 'https://duckduckgo.com/?q=e.g.'],
 		['v1.2', 'https://duckduckgo.com/?q=v1.2'],
-		['example.com', 'https://duckduckgo.com/?q=example.com'],
 		['example.com:8080', 'https://duckduckgo.com/?q=example.com%3A8080']
 	])('plain text %j searches DuckDuckGo', (input, url) => {
 		expect(classify(input)).toEqual({kind: 'search', url})
@@ -73,6 +71,9 @@ describe('classifyExploreAddress', () => {
 
 	it.each([
 		['https://vimeo.com/123', 'https://vimeo.com/123'],
+		['example.com', 'https://example.com/'],
+		['twitch.tv', 'https://twitch.tv/'],
+		['tiktok.com', 'https://tiktok.com/'],
 		['example.com/video', 'https://example.com/video'],
 		['vimeo.com/123', 'https://vimeo.com/123'],
 		['www.example.com', 'https://www.example.com/'],

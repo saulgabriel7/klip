@@ -81,8 +81,8 @@ describe('resolveDownloadUrl', () => {
 	// The release page of the announced version, not /releases/latest: GitHub
 	// resolves that to the newest stable, which is older than a beta's update.
 	it('sends a tarball install to the GitHub release of the announced version', () => {
-		expect(resolveDownloadUrl(makeInfo({installChannel: 'tarball', version: '0.7.0'}))).toBe('https://github.com/antonio-orionus/Arroxy/releases/tag/v0.7.0')
-		expect(resolveDownloadUrl(makeInfo({installChannel: 'tarball', version: '0.7.0-beta.2'}))).toBe('https://github.com/antonio-orionus/Arroxy/releases/tag/v0.7.0-beta.2')
+		expect(resolveDownloadUrl(makeInfo({installChannel: 'tarball', version: '0.7.0'}))).toBe('https://github.com/saulgabriel7/klip/releases/tag/v0.7.0')
+		expect(resolveDownloadUrl(makeInfo({installChannel: 'tarball', version: '0.7.0-beta.2'}))).toBe('https://github.com/saulgabriel7/klip/releases/tag/v0.7.0-beta.2')
 	})
 
 	it('sends every other download to the website', () => {
@@ -110,7 +110,7 @@ describe('useUpdateChannel', () => {
 
 		act(() => result.current.download())
 
-		expect(api.openExternal).toHaveBeenCalledWith('https://github.com/antonio-orionus/Arroxy/releases/tag/v0.7.0')
+		expect(api.openExternal).toHaveBeenCalledWith('https://github.com/saulgabriel7/klip/releases/tag/v0.7.0')
 		expect(result.current.info).toBeNull()
 	})
 

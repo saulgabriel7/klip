@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh-Hant\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "檢視第三方聲明"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "網站"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "AI 放大的串流"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "略過"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "意見回饋"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "喜歡 Klip 嗎？很期待聽聽你的想法！💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -171,38 +159,6 @@ msgstr "結束"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "重新載入"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "已複製！"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "複製地址"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip 免費開源，沒有廣告，也沒有付費方案。捐贈完全自願，不會換取對產品路線圖的任何影響。"
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "捐贈"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "支持 Klip"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "{{coin}} 捐贈地址 QR 碼"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "支持 Klip"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "加密貨幣轉帳無法撤銷。請僅透過所示網路傳送，並核對完整地址。"
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1871,41 +1827,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "設定檔為什麼選了這個"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "已複製！"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "複製連結"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip——適用於 Windows、macOS 與 Linux 的免費開放原始碼影片下載器。支援 YouTube、Vimeo、Twitch 與 2000 多個網站。\n"
-"4K · HDR · MP3 · Shorts · 字幕 · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip 免費且開放原始碼。分享它能讓更多人發現這款應用程式。"
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "分享"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "分享 Klip"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "分享 Klip"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "分享 Klip"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5204,25 +5128,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "貼上影片、播放清單、頻道或搜尋 URL 以開始。"
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "傳送匿名心跳訊號和設定報告"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "不追蹤。每天一次，匿名心跳訊號會傳送應用程式版本、安裝管道、作業系統、語言、國家/地區，以及 Klip 大約是多久前安裝的，用來統計活躍使用者和新使用者。Klip 設定或更新其下載引擎或媒體工具時，也會回報是否成功以及大約耗時。不包含 ID、URL、影片標題或檔名。"
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "進階"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "也會影響設定檔下載的全域行為。"
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "下載行為"
+msgid "Download & media"
+msgstr "下載失敗"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "輸入"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

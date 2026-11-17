@@ -18,7 +18,7 @@ let stateListener: ((state: ExploreViewState) => void) | null = null
 
 function seed(common: Partial<AppSettings['common']>, exploreView: ExploreViewState | null = SIGNED_OUT): void {
 	const base = defaultAppSettings('/tmp')
-	useAppStore.setState({initialized: true, initializing: false, settings: {...base, common: {...base.common, ...common}}, exploreView})
+	useAppStore.setState({initialized: true, initializing: false, settings: {...base, common: {...base.common, ...common}}, exploreView, settingsAdvancedExpanded: true})
 }
 
 function mount(common: Partial<AppSettings['common']> = {}, exploreView: ExploreViewState | null = SIGNED_OUT): void {

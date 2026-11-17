@@ -9,13 +9,13 @@ import type {InstallChannel} from '@shared/types.js'
 // returning ones, so each heartbeat names its own install age instead. Country
 // comes from Cloudflare at the collect endpoint; the heartbeat itself carries no
 // identifier.
-export const HEARTBEAT_URL = 'https://stats.orionus.dev/collect'
-export const HEARTBEAT_SITE_ID = 'arroxy'
+export const HEARTBEAT_URL = ''
+export const HEARTBEAT_SITE_ID = 'klip'
 
 // Counterscale is built for websites, so the app's fields ride in the slots its
 // dashboard already breaks down: the path holds the version, the referrer the
 // install age, the UTM fields the rest.
-const PAGEVIEW_HOSTNAME = 'desktop.arroxy'
+const PAGEVIEW_HOSTNAME = 'desktop.klip'
 const SEND_TIMEOUT_MS = 5_000
 
 export interface HeartbeatSnapshot {
@@ -68,10 +68,10 @@ export const HEARTBEAT_OFF = 'off'
 // Only a packaged release build reports to the production collector. Dev, mock,
 // smoke and E2E sessions, and any unpackaged build (`electron-vite preview`
 // starts no dev server), report nowhere unless a collector is named explicitly.
-export function heartbeatUrl({isPackaged, isDev, envUrl}: {isPackaged: boolean; isDev: boolean; envUrl: string | undefined}): string | undefined {
+export function heartbeatUrl({isPackaged: _isPackaged, isDev: _isDev, envUrl}: {isPackaged: boolean; isDev: boolean; envUrl: string | undefined}): string | undefined {
 	if (envUrl === HEARTBEAT_OFF) return undefined
 	if (envUrl) return isAllowedCollector(envUrl) ? envUrl : undefined
-	return isPackaged && !isDev ? HEARTBEAT_URL : undefined
+	return undefined
 }
 
 const LOOPBACK_HOSTS = new Set(['localhost', '127.0.0.1', '[::1]'])

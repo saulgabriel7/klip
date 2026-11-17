@@ -15,7 +15,7 @@ msgid "GitHub"
 msgstr ""
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -28,10 +28,6 @@ msgstr ""
 
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
-msgstr ""
-
-msgctxt "about.websiteLink"
-msgid "Website"
 msgstr ""
 
 msgctxt "aiUpscaled.allow"
@@ -52,14 +48,6 @@ msgstr ""
 
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
-msgstr ""
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr ""
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
 msgstr ""
 
 msgctxt "app.logs"
@@ -172,38 +160,6 @@ msgstr ""
 
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
-msgstr ""
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr ""
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr ""
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr ""
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr ""
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr ""
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr ""
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr ""
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
 msgstr ""
 
 msgctxt "errors.noSubtitlesIn"
@@ -1906,38 +1862,8 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr ""
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr ""
-
 msgctxt "share.copyLink"
 msgid "Copy link"
-msgstr ""
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr ""
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr ""
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr ""
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr ""
-
-msgctxt "share.title"
-msgid "Share Klip"
 msgstr ""
 
 msgctxt "splash.cancel"
@@ -5303,24 +5229,28 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr ""
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
 msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
 msgstr ""
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
 msgstr ""
 
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
+msgid "Download & media"
 msgstr ""
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
 msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"

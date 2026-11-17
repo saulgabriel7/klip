@@ -5,8 +5,7 @@
 		"licenseLine": "GPLv3 · Projeto pessoal por Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0",
 		"openTitle": "Sobre o Klip",
 		"tagline": "Downloader desktop open-source minimalista e de alta precisão para vídeos e áudios.",
-		"thirdPartyNotices": "Ver avisos de terceiros",
-		"websiteLink": "Site"
+		"thirdPartyNotices": "Ver avisos de terceiros"
 	},
 	"aiUpscaled": {
 		"allow": "Permitir",
@@ -16,8 +15,6 @@
 		"skip": "Pular"
 	},
 	"app": {
-		"feedback": "Feedback",
-		"feedbackNudge": "Gostando do Klip? Adoraria ouvir sua opinião! 💬",
 		"logs": "Logs",
 		"saveDiagnostics": "Salvar arquivo de diagnóstico",
 		"saveDiagnosticsDescription": "Reúne os logs e os detalhes do app em um único arquivo na pasta Downloads, pronto para anexar a uma issue no GitHub. O nome da pasta de usuário é removido; os links e títulos dos vídeos são mantidos.",
@@ -57,16 +54,6 @@
 			"quit": "Sair",
 			"reload": "Recarregar"
 		}
-	},
-	"donate": {
-		"copied": "Copiado!",
-		"copyAddress": "Copiar endereço",
-		"description": "O Klip é gratuito e de código aberto, sem anúncios nem plano pago. As doações são opcionais e não dão nenhuma influência sobre o roteiro.",
-		"footerLabel": "Doar",
-		"footerTooltip": "Apoie o Klip",
-		"qrAlt": "QR code do endereço de doação em {{coin}}",
-		"title": "Apoie o Klip",
-		"warning": "Pagamentos em cripto são irreversíveis. Envie somente pela rede indicada e compare o endereço inteiro."
 	},
 	"errors": {
 		"noSubtitlesIn": "Este vídeo não tem legendas em {{languages}}.",
@@ -682,14 +669,7 @@
 		"whyTitle": "Por que o perfil escolheu isto"
 	},
 	"share": {
-		"copied": "Copiado!",
-		"copyLink": "Copiar link",
-		"defaultMessage": "Klip — baixador de vídeos gratuito e open-source para Windows, macOS e Linux. Compatível com YouTube, Vimeo, Twitch e mais de 2000 sites.\n4K · HDR · MP3 · Shorts · Legendas · SponsorBlock",
-		"description": "O Klip é gratuito e de código aberto. Compartilhar ajuda mais pessoas a descobri-lo.",
-		"footerLabel": "Compartilhar",
-		"footerTooltip": "Compartilhar o Klip",
-		"shareAction": "Compartilhar o Klip",
-		"title": "Compartilhar o Klip"
+		"copyLink": "Copiar link"
 	},
 	"splash": {
 		"cancel": "Problemas? Configure manualmente",
@@ -1804,14 +1784,13 @@
 			"quickPreparing": "Preparando",
 			"quickProbeFailed": "Falha na análise",
 			"quickSingleOnly": "Cole a URL de um vídeo, playlist, canal ou busca para começar.",
-			"reports": {
-				"toggle": "Enviar sinal anônimo e relatórios de configuração",
-				"toggleDescription": "Sem rastreamento. Uma vez por dia, um sinal anônimo envia a versão do app, o canal de instalação, o sistema operacional, o idioma, o país e há quanto tempo, aproximadamente, o Klip foi instalado, para contarmos os usuários ativos e novos. Quando o Klip configura ou atualiza o mecanismo de download ou as ferramentas de mídia, ele também informa se funcionou e quanto tempo levou, aproximadamente. Sem IDs, URLs, títulos de vídeo ou nomes de arquivo."
-			},
 			"settings": {
-				"behaviorDescription": "Comportamento global que também afeta downloads gerenciados por perfis.",
-				"behaviorHeading": "Comportamento de download",
-				"inputHeading": "Entrada"
+				"advancedDescription": "Cookies, proxy, rede, áudio/HDR, modelo de nome, atalho global e logs.",
+				"advancedHeading": "Avançado",
+				"behaviorDescription": "Padrões globais de concorrência, rede, mídia e logs.",
+				"behaviorHeading": "Download e mídia",
+				"generalDescription": "Opções essenciais do dia a dia.",
+				"generalHeading": "Geral"
 			},
 			"style": {
 				"aurora": {

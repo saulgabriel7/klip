@@ -179,6 +179,7 @@ test('a sign-in from signed in, through a checkpoint and a fresh sign-in, to sig
 		await expectRow(page, first, 'done')
 		expect(markers(fixtureServer, first).every(marker => marker === MARKER)).toBe(true)
 		await openSettings(page)
+		await page.getByTestId('settings-advanced-toggle').click()
 		await expect(page.getByTestId('cookies-source')).toBeVisible()
 		await expect(notWorking(page)).toHaveCount(0)
 

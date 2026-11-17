@@ -10,9 +10,8 @@ function ok<T>(data: T) {
 
 const mockOpenExternal = vi.fn().mockResolvedValue(ok({opened: true}))
 const mockOpenLogsDir = vi.fn().mockResolvedValue(ok({opened: true}))
-const mockSaveDiagnostics = vi.fn().mockResolvedValue(ok({path: '/Users/me/Downloads/arroxy-diagnostics-20260914-102030.txt'}))
+const mockSaveDiagnostics = vi.fn().mockResolvedValue(ok({path: '/Users/me/Downloads/klip-diagnostics-20260914-102030.txt'}))
 const mockUploadFeedbackDiagnostic = vi.fn(async ({reportId}: {reportId: string}) => ok({reportId, diagnosticUrl: null, rawBytes: 42, compressedBytes: 31, truncated: false, sha256: 'a'.repeat(64)}))
-const mockTallyOpenPopup = vi.fn()
 
 const mockAppApi = {
 	app: {
@@ -116,7 +115,9 @@ function resetStore() {
 		wizardError: null,
 		wizardErrorOrigin: null,
 		queue: [],
-		language: 'en'
+		language: 'en',
+		settingsAdvancedExpanded: false,
+		advancedAutoOpen: false
 	})
 }
 
@@ -127,23 +128,24 @@ describe('Footer feedback controls', () => {
 		window.appVersion = '1.2.3'
 		window.platform = 'linux'
 		window.runtimeInfo = {arch: 'arm64', osVersion: '7.0.0-38-generic', installChannel: 'flatpak', systemLanguage: 'en'}
-		;(window as unknown as {Tally?: {openPopup: typeof mockTallyOpenPopup}}).Tally = {openPopup: mockTallyOpenPopup}
 		vi.clearAllMocks()
 	})
 
 	afterEach(() => {
 		vi.useRealTimers()
-		delete (window as unknown as {Tally?: unknown}).Tally
 	})
 
-	it('renders footer utility buttons', async () => {
+	it('renders minimalist Klip footer without external Arroxy promo links', async () => {
 		render(<App />)
 		await screen.findByTestId('app-footer')
 		expect(screen.queryByTestId('btn-debug')).not.toBeInTheDocument()
 		expect(screen.queryByTestId('btn-about-version')).not.toBeInTheDocument()
-		expect(screen.getByTestId('btn-discord')).toBeInTheDocument()
-		expect(screen.getByTestId('btn-feedback')).toBeInTheDocument()
+		expect(screen.queryByTestId('btn-share')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('btn-donate')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('btn-discord')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('btn-feedback')).not.toBeInTheDocument()
 		expect(screen.queryByTestId('btn-logs')).not.toBeInTheDocument()
+		expect(screen.getByTestId('btn-about')).toBeInTheDocument()
 	})
 
 	it('goes compact while Explore is browsing in compact layout', async () => {
@@ -157,13 +159,12 @@ describe('Footer feedback controls', () => {
 		})
 
 		expect(footer).toHaveAttribute('data-compact', 'true')
-		expect(screen.getByTestId('btn-feedback-label')).toHaveClass('sr-only')
 
 		act(() => useAppStore.setState({exploreBrowsing: false}))
 		expect(footer).not.toHaveAttribute('data-compact')
 	})
 
-	it('uses compact footer classes so mobile widths do not clip utility actions', async () => {
+	it('uses compact footer classes so mobile widths do not clip controls', async () => {
 		render(<App />)
 
 		const footer = await screen.findByTestId('app-footer')
@@ -173,96 +174,36 @@ describe('Footer feedback controls', () => {
 		expect(screen.getByTestId('footer-left-controls').className).toContain('min-w-0')
 		expect(screen.getByTestId('footer-language-picker').className).toContain('[&_[data-slot=select-trigger]]:max-w-[6rem]')
 		expect(screen.getByTestId('footer-actions').className).toContain('shrink-0')
-		expect(screen.getByTestId('btn-about').className).toContain('max-sm:hidden')
-		expect(screen.getByTestId('btn-share-label').className).toContain('max-sm:sr-only')
-		expect(screen.getByTestId('btn-discord-label').className).toContain('max-sm:sr-only')
-		expect(screen.getByTestId('btn-feedback-label').className).toContain('max-sm:sr-only')
-		expect(screen.getByTestId('btn-feedback').querySelector('[data-icon="inline-start"]')).toBeInTheDocument()
+		expect(screen.getByTestId('btn-about').className).toContain('max-sm:px-0')
 	})
 
-	it('Discord footer button opens the community invite', async () => {
-		render(<App />)
-		fireEvent.click(await screen.findByTestId('btn-discord'))
-
-		await waitFor(() => {
-			expect(mockOpenExternal).toHaveBeenCalledWith('https://discord.gg/ueGvXwQH8y')
-		})
-	})
-
-	it('About dialog links to the Discord community', async () => {
+	it('About dialog opens Klip repository on GitHub and omits Arroxy links', async () => {
 		render(<App />)
 		fireEvent.click(await screen.findByTestId('btn-about'))
-		fireEvent.click(await screen.findByTestId('about-link-discord'))
+		expect(screen.queryByTestId('about-link-website')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('about-link-discord')).not.toBeInTheDocument()
+		expect(screen.queryByTestId('about-link-share')).not.toBeInTheDocument()
+		fireEvent.click(await screen.findByTestId('about-link-github'))
 
 		await waitFor(() => {
-			expect(mockOpenExternal).toHaveBeenCalledWith('https://discord.gg/ueGvXwQH8y')
+			expect(mockOpenExternal).toHaveBeenCalledWith('https://github.com/saulgabriel7/klip')
 		})
 	})
 
-	it('Feedback button opens Tally immediately with context and no GitHub navigation', async () => {
-		render(<App />)
-		fireEvent.click(await screen.findByTestId('btn-feedback'))
-
-		await waitFor(() => {
-			expect(mockTallyOpenPopup).toHaveBeenCalledOnce()
-		})
-		expect(mockOpenExternal).not.toHaveBeenCalled()
-		expect(mockUploadFeedbackDiagnostic).not.toHaveBeenCalled()
-		expect(mockTallyOpenPopup).toHaveBeenCalledWith(
-			'Ek6M8B',
-			expect.objectContaining({
-				key: expect.stringMatching(/^arroxy-feedback-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/),
-				autoClose: 3000,
-				hiddenFields: expect.objectContaining({
-					app_version: '1.2.3',
-					platform: 'linux',
-					app_locale: 'en',
-					extractor: 'none',
-					yt_dlp_error_kind: 'none',
-					error_code: 'none',
-					source: 'app-footer',
-					architecture: 'arm64',
-					system_version: '7.0.0-38-generic',
-					install_channel: 'flatpak',
-					report_id: expect.stringMatching(/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/)
-				})
-			})
-		)
-		const hiddenFields = mockTallyOpenPopup.mock.calls[0][1].hiddenFields as Record<string, string>
-		expect(Object.values(hiddenFields)).not.toContain('')
-		expect(hiddenFields).not.toHaveProperty('diagnostic_mode')
-		expect(hiddenFields).not.toHaveProperty('diagnostic_upload_status')
-		expect(hiddenFields).not.toHaveProperty('diagnostic_raw_bytes')
-	})
-
-	it('uploads the diagnostic log after Tally submission using the same report id', async () => {
-		render(<App />)
-		fireEvent.click(await screen.findByTestId('btn-feedback'))
-
-		await waitFor(() => {
-			expect(mockTallyOpenPopup).toHaveBeenCalledOnce()
-		})
-		const options = mockTallyOpenPopup.mock.calls[0][1] as {hiddenFields: Record<string, string>; onSubmit: () => void}
-		const reportId = options.hiddenFields.report_id
-		options.onSubmit()
-
-		await waitFor(() => {
-			expect(mockUploadFeedbackDiagnostic).toHaveBeenCalledWith({reportId})
-		})
-	})
-
-	it('Settings Logs button opens the log directory', async () => {
+	it('Settings Logs button inside Advanced opens the log directory', async () => {
 		render(<App />)
 		fireEvent.click(await screen.findByText('Settings'))
+		fireEvent.click(await screen.findByTestId('settings-advanced-toggle'))
 		fireEvent.click(await screen.findByTestId('btn-logs'))
 		await waitFor(() => {
 			expect(mockOpenLogsDir).toHaveBeenCalledOnce()
 		})
 	})
 
-	it('Settings Save diagnostics file button writes the diagnostics file', async () => {
+	it('Settings Save diagnostics file button inside Advanced writes the diagnostics file', async () => {
 		render(<App />)
 		fireEvent.click(await screen.findByText('Settings'))
+		fireEvent.click(await screen.findByTestId('settings-advanced-toggle'))
 		const button = await screen.findByTestId('btn-save-diagnostics')
 		expect(button).toHaveTextContent('Save diagnostics file')
 

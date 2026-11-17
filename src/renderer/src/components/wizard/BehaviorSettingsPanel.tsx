@@ -26,18 +26,41 @@ const NATIVE_AUDIO_LABEL_KEYS = {compatible: 'wizard.url.nativeAudioPreference.c
 
 const HDR_LABEL_KEYS = {auto: 'hdrPreference.auto', sdr: 'hdrPreference.sdr', hdr: 'hdrPreference.hdr'} as const satisfies Record<HdrSetting, string>
 
+export function EssentialDownloadFields(): ReactNode {
+	const {t} = useTranslation()
+	const {settings, setAutoRemoveCompleted, setCloseBehavior} = useAppStore(useShallow(state => ({settings: state.settings, setAutoRemoveCompleted: state.setAutoRemoveCompleted, setCloseBehavior: state.setCloseBehavior})))
+	const common = settings?.common
+	return (
+		<>
+			<LimitRateField />
+
+			<SettingSwitch
+				id="profiles-settings-auto-remove-completed"
+				label={t('wizard.url.autoRemoveCompleted.label')}
+				description={t('wizard.url.autoRemoveCompleted.description')}
+				checked={common?.autoRemoveCompleted ?? false}
+				onCheckedChange={checked => void setAutoRemoveCompleted(checked)}
+				testId="auto-remove-completed-switch"
+			/>
+
+			{window.platform !== 'darwin' ? (
+				<SettingSwitch id="profiles-settings-close-tray" label={t('wizard.url.closeToTray.toggle')} description={t('wizard.url.closeToTray.toggleDescription')} checked={common?.closeBehavior === 'tray'} onCheckedChange={checked => void setCloseBehavior(checked ? 'tray' : 'quit')} />
+			) : null}
+		</>
+	)
+}
+
 export function BehaviorSettingsPanel(): ReactNode {
 	const {t} = useTranslation()
 	return (
 		<Panel title={t('wizard.url.settings.behaviorHeading')} description={t('wizard.url.settings.behaviorDescription')}>
 			<FieldGroup className="gap-4">
-				<LimitRateField />
 				<DownloadTransferFields />
 				<NetworkPacingSettings />
 				<NativeAudioPreferenceField />
 				<HdrPreferenceField />
 				<FilenameTemplateSetting />
-				<AppBehaviorFields />
+				<DiagnosticsFields />
 			</FieldGroup>
 		</Panel>
 	)
@@ -129,8 +152,8 @@ function LimitRateField(): ReactNode {
 
 function DownloadTransferFields(): ReactNode {
 	const {t} = useTranslation()
-	const {settings, setConcurrentDownloads, setConcurrentProbes, setAutoRetryAttempts, setAutoRemoveCompleted, setDownloadConnections} = useAppStore(
-		useShallow(state => ({settings: state.settings, setConcurrentDownloads: state.setConcurrentDownloads, setConcurrentProbes: state.setConcurrentProbes, setAutoRetryAttempts: state.setAutoRetryAttempts, setAutoRemoveCompleted: state.setAutoRemoveCompleted, setDownloadConnections: state.setDownloadConnections}))
+	const {settings, setConcurrentDownloads, setConcurrentProbes, setAutoRetryAttempts, setDownloadConnections} = useAppStore(
+		useShallow(state => ({settings: state.settings, setConcurrentDownloads: state.setConcurrentDownloads, setConcurrentProbes: state.setConcurrentProbes, setAutoRetryAttempts: state.setAutoRetryAttempts, setDownloadConnections: state.setDownloadConnections}))
 	)
 	const common = settings?.common
 	return (
@@ -175,15 +198,6 @@ function DownloadTransferFields(): ReactNode {
 				schema={autoRetryAttemptsSchema}
 				onCommit={value => void setAutoRetryAttempts(value)}
 				testId="auto-retry-input"
-			/>
-
-			<SettingSwitch
-				id="profiles-settings-auto-remove-completed"
-				label={t('wizard.url.autoRemoveCompleted.label')}
-				description={t('wizard.url.autoRemoveCompleted.description')}
-				checked={common?.autoRemoveCompleted ?? false}
-				onCheckedChange={checked => void setAutoRemoveCompleted(checked)}
-				testId="auto-remove-completed-switch"
 			/>
 
 			<NumericSettingRow
@@ -274,32 +288,22 @@ function FilenameTemplateSetting(): ReactNode {
 	return <FilenameTemplateField value={filenameTemplate} onChange={value => void setFilenameTemplate(value)} error={filenameTemplateError} label={t('filenameTemplate.label')} description={t('filenameTemplate.description')} placeholder={DEFAULTS.filenameTemplate} testId="filename-template-input" />
 }
 
-function AppBehaviorFields(): ReactNode {
+function DiagnosticsFields(): ReactNode {
 	const {t} = useTranslation()
-	const {settings, setCloseBehavior, setAnalyticsEnabled, openLogs, saveDiagnostics} = useAppStore(useShallow(state => ({settings: state.settings, setCloseBehavior: state.setCloseBehavior, setAnalyticsEnabled: state.setAnalyticsEnabled, openLogs: state.openLogs, saveDiagnostics: state.saveDiagnostics})))
-	const common = settings?.common
+	const {openLogs, saveDiagnostics} = useAppStore(useShallow(state => ({openLogs: state.openLogs, saveDiagnostics: state.saveDiagnostics})))
 	return (
-		<>
-			{window.platform !== 'darwin' ? (
-				<SettingSwitch id="profiles-settings-close-tray" label={t('wizard.url.closeToTray.toggle')} description={t('wizard.url.closeToTray.toggleDescription')} checked={common?.closeBehavior === 'tray'} onCheckedChange={checked => void setCloseBehavior(checked ? 'tray' : 'quit')} />
-			) : null}
-
-			<SettingSwitch id="profiles-settings-analytics" label={t('wizard.url.reports.toggle')} description={t('wizard.url.reports.toggleDescription')} checked={common?.analyticsEnabled ?? true} onCheckedChange={checked => void setAnalyticsEnabled(checked)} />
-
-			<Field>
+		<Field className="gap-2">
+			<div className="flex flex-wrap items-center gap-2">
 				<Button type="button" variant="outline" size="sm" className="w-fit" onClick={() => void openLogs()} data-testid="btn-logs">
 					<FileText data-icon="inline-start" aria-hidden />
 					{t('app.logs')}
 				</Button>
-			</Field>
-
-			<Field>
 				<Button type="button" variant="outline" size="sm" className="w-fit" onClick={() => void saveDiagnostics()} data-testid="btn-save-diagnostics">
 					<FileArchive data-icon="inline-start" aria-hidden />
 					{t('app.saveDiagnostics')}
 				</Button>
-				<FieldDescription>{t('app.saveDiagnosticsDescription')}</FieldDescription>
-			</Field>
-		</>
+			</div>
+			<FieldDescription>{t('app.saveDiagnosticsDescription')}</FieldDescription>
+		</Field>
 	)
 }

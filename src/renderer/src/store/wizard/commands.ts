@@ -107,6 +107,7 @@ export const RESET_WIZARD_STATE = {
 	// dialogs
 	advancedAutoOpen: false,
 	advancedAutoTarget: 'cookies' as const,
+	settingsAdvancedExpanded: false,
 	mixedUrlPromptOpen: false,
 	mixedUrlPending: null as string | null,
 	mixedUrlPromptSource: null,

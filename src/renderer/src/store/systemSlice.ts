@@ -25,18 +25,8 @@ let unbindExplorePointer: (() => void) | null = null
 let exploreViewBinding = 0
 let hotkeyStatusRequest = 0
 
-const SHARE_MILESTONES: readonly number[] = [3, 25, 100]
-const SHARE_MILESTONE_SET = new Set(SHARE_MILESTONES)
-
 function handleCompletedDownloadMilestones(doneIncrements: number, prevMilestoneCount: number, get: GetState, set: SetState): void {
-	const nextCount = prevMilestoneCount + doneIncrements
-	commonPatch(get, set, {successfulDownloadCount: nextCount})
-	for (let c = prevMilestoneCount + 1; c <= nextCount; c++) {
-		if (SHARE_MILESTONE_SET.has(c)) {
-			set({shareDialogOpen: true})
-			break
-		}
-	}
+	commonPatch(get, set, {successfulDownloadCount: prevMilestoneCount + doneIncrements})
 }
 
 // Every settings write goes through one queue. Writes used to run concurrently
@@ -209,7 +199,6 @@ export function createSystemSlice(set: SetState, get: GetState): SystemSlice {
 		// initialize() reassigns from settingsResult.common.language when one is saved.
 		language: systemLanguage(),
 		commonPaths: undefined,
-		shareDialogOpen: false,
 		exploreView: null,
 		explorePointerEntries: 0,
 
@@ -678,14 +667,6 @@ export function createSystemSlice(set: SetState, get: GetState): SystemSlice {
 		moveDownloadProfile: async (id: string, targetId: string) => {
 			const profiles = moveProfileInPrefs(currentProfiles(get().settings), id, targetId)
 			await applyProfilesPatchAsync(get, set, 'downloadProfile.order', profiles)
-		},
-
-		openShareDialog: () => {
-			set({shareDialogOpen: true})
-		},
-
-		closeShareDialog: () => {
-			set({shareDialogOpen: false})
 		},
 
 		setShareInlineCardDismissed: async () => {

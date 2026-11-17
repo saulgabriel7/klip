@@ -396,9 +396,11 @@ export interface WizardDialogsSlice {
 	// and clears the flag so it doesn't re-fire on re-render.
 	advancedAutoOpen: boolean
 	advancedAutoTarget: AdvancedSettingsTarget
+	settingsAdvancedExpanded: boolean
 	cookiesConfigDialogIssue: IncompleteCookiesConfigIssue | null
 
 	setAdvancedAutoOpen: (open: boolean, target?: AdvancedSettingsTarget) => void
+	setSettingsAdvancedExpanded: (open: boolean) => void
 	cancelMixedPrompt: () => void
 	dismissCookiesConfigDialog: () => void
 	openSettings: () => void
@@ -468,7 +470,6 @@ export interface UiSlice {
 	// a style that needs it renders as the base style until restart.
 	backdropFailed: boolean
 	aboutDialogOpen: boolean
-	donateDialogOpen: boolean
 	exploreAddressHint: ExploreAddressHint | null
 	// The Explore browser is on screen (its tab is active, past the first-run notice).
 	exploreBrowsing: boolean
@@ -481,7 +482,6 @@ export interface UiSlice {
 	setUiStyle: (style: UiStyle) => void
 	setBackdropFailed: (failed: boolean) => void
 	setAboutDialogOpen: (open: boolean) => void
-	setDonateDialogOpen: (open: boolean) => void
 	setExploreAddressHint: (hint: ExploreAddressHint | null) => void
 	setExploreBrowsing: (browsing: boolean) => void
 	takeExplorePendingAddress: () => string | null
@@ -510,7 +510,6 @@ export interface SystemSlice {
 	graphicsPolicy: GraphicsPolicy | null
 	language: SupportedLang
 	commonPaths: AppSettings['common']['commonPaths']
-	shareDialogOpen: boolean
 	// The Explore view as main last reported it (no cookies); null until main first answers.
 	exploreView: ExploreViewState | null
 	// Counts the pointer's entries into the native view; a toolbar tooltip opened before the latest one is closed.
@@ -569,8 +568,6 @@ export interface SystemSlice {
 	removeDownloadProfile: (id: string) => Promise<boolean>
 	setDownloadProfileEnabled: (id: string, enabled: boolean) => Promise<void>
 	moveDownloadProfile: (id: string, targetId: string) => Promise<void>
-	openShareDialog: () => void
-	closeShareDialog: () => void
 	setShareInlineCardDismissed: () => Promise<void>
 	setShareHighValueBannerDismissed: () => Promise<void>
 	dismissStyleHint: () => Promise<void>

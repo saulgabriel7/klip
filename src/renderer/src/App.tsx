@@ -1,10 +1,7 @@
-import {lazy, Suspense, useEffect, useLayoutEffect, useRef, useState, type ComponentType, type Dispatch, type ReactNode, type SetStateAction} from 'react'
-import log from 'electron-log/renderer.js'
-import {Heart, Info, MessageCircle, Share2} from 'lucide-react'
-import IconDiscord from '~icons/simple-icons/discord'
+import {lazy, Suspense, useEffect, useLayoutEffect, useRef, useState, type ComponentType, type ReactNode} from 'react'
+import {Info} from 'lucide-react'
 import {useTranslation} from 'react-i18next'
 import {useShallow} from 'zustand/react/shallow'
-import {DISCORD_URL} from '@shared/constants.js'
 import {ZOOM_MIN, ZOOM_MAX, ZOOM_STEP, type UiTheme} from '@shared/schemas.js'
 import {useAppStore} from './store/useAppStore.js'
 import {subscribeMenuActions} from './lib/menuAction.js'
@@ -13,7 +10,6 @@ import type {BackdropColorScheme, BackdropScene} from './components/layout/backg
 import {TitleBar} from './components/layout/TitleBar.js'
 import {WizardPanel} from './components/layout/WizardPanel.js'
 import {WarmupSplash} from './components/system/WarmupSplash.js'
-import {FeedbackNudge} from './components/system/FeedbackNudge.js'
 import {UpdateBanner} from './components/system/UpdateBanner.js'
 import {Toaster} from './components/ui/sonner.js'
 import {useToastSink} from './lib/toastSink.js'
@@ -21,8 +17,6 @@ import {ThemeToggle} from './components/system/ThemeToggle.js'
 import {StyleToggle} from './components/system/StyleToggle.js'
 import {LanguagePicker} from './components/system/LanguagePicker.js'
 import {AboutDialog} from './components/system/AboutDialog.js'
-import {DonateDialog} from './components/system/DonateDialog.js'
-import {FeedbackDialog} from './components/system/FeedbackDialog.js'
 import {useUpdateChannel} from './components/system/useUpdateChannel.js'
 import {WhatsNewDialog} from './components/system/WhatsNewDialog.js'
 import {useWhatsNewDialog} from './components/system/useWhatsNewDialog.js'
@@ -38,15 +32,11 @@ import {Hint} from './components/shared/Hint.js'
 import {useOverflowCollapse} from './components/shared/useOverflowCollapse.js'
 
 const SHOW_SCENARIO_GALLERY = import.meta.env.MODE === 'browser-mock'
-const ShareDialog = lazy(() => import('./components/system/ShareDialog.js').then(module => ({default: module.ShareDialog})))
 // Dev-only screens: gating the dynamic import itself lets Vite drop their chunks
 // from production builds instead of shipping them unreachable.
 const ScenarioGallery = SHOW_SCENARIO_GALLERY ? lazy(() => import('./dev/ScenarioGallery.js').then(module => ({default: module.ScenarioGallery}))) : null
 const UiKit = import.meta.env.MODE === 'browser-mock' ? lazy(() => import('./dev/UiKit.js').then(module => ({default: module.UiKit}))) : null
 const FOOTER_ACTION_BUTTON_CLASS = 'footer-action-button h-6 rounded-md px-1.5 text-sm text-muted-foreground max-sm:size-6 max-sm:px-0'
-const FOOTER_COMPACT_LABEL_CLASS = 'max-sm:sr-only'
-const feedbackLogger = log.scope('feedback')
-const DEFAULT_FEEDBACK_NUDGE_DELAY_MS = 45_000
 
 // Design-system sheet (browser-mock only): every primitive in every variant. Reach it via `?kit`.
 function isUiKitStage(): boolean {
@@ -67,10 +57,6 @@ function resolveColorScheme(uiTheme: UiTheme, systemPrefersDark: boolean): Backd
 	return uiTheme === 'dark' || (uiTheme === 'system' && systemPrefersDark) ? 'dark' : 'light'
 }
 
-function openDiscord(): void {
-	void window.appApi.shell.openExternal(DISCORD_URL)
-}
-
 function exitBackdropStage(): void {
 	const url = new URL(window.location.href)
 	url.searchParams.delete('backdrop')
@@ -80,10 +66,6 @@ function exitBackdropStage(): void {
 function shouldRenderStartupSplash(): boolean {
 	if (import.meta.env.MODE !== 'browser-mock') return true
 	return window.__arroxyBrowserMockShowStartupSplash === true
-}
-
-function resolveFeedbackNudgeDelay(injectedDelay: number | undefined): number {
-	return typeof injectedDelay === 'number' && Number.isFinite(injectedDelay) && injectedDelay >= 0 ? injectedDelay : DEFAULT_FEEDBACK_NUDGE_DELAY_MS
 }
 
 interface AppBackdropConfig {
@@ -125,39 +107,10 @@ function useDocumentColorScheme(uiTheme: UiTheme): BackdropColorScheme {
 	return colorScheme
 }
 
-// The feedback nudge appears once after a delay and hides itself again after a few seconds.
-function useFeedbackNudge(): {showNudge: boolean; hideNudge: () => void} {
-	const [showNudge, setShowNudge] = useState(false)
-
-	useEffect(() => {
-		const delay = resolveFeedbackNudgeDelay(window.__NUDGE_DELAY_MS)
-		const t = setTimeout(() => setShowNudge(true), delay)
-		return () => clearTimeout(t)
-	}, [])
-
-	useEffect(() => {
-		if (!showNudge) return
-		const t = setTimeout(() => setShowNudge(false), 8_000)
-		return () => clearTimeout(t)
-	}, [showNudge])
-
-	return {showNudge, hideNudge: () => setShowNudge(false)}
-}
-
-// The native application menu (macOS) asks for the same things the footer does.
-function useNativeMenuActions(setFeedbackDialogOpen: Dispatch<SetStateAction<boolean>>): void {
-	const {setAboutDialogOpen, openShareDialog, setUiStyle, setUiTheme, setLanguage, openLogs, saveDiagnostics, setLimitRate, openSettings} = useAppStore(
-		useShallow(state => ({
-			setAboutDialogOpen: state.setAboutDialogOpen,
-			openShareDialog: state.openShareDialog,
-			setUiStyle: state.setUiStyle,
-			setUiTheme: state.setUiTheme,
-			setLanguage: state.setLanguage,
-			openLogs: state.openLogs,
-			saveDiagnostics: state.saveDiagnostics,
-			setLimitRate: state.setLimitRate,
-			openSettings: state.openSettings
-		}))
+// The native application menu (macOS) dispatches settings, theme, language, logs and diagnostics.
+function useNativeMenuActions(): void {
+	const {setAboutDialogOpen, setUiStyle, setUiTheme, setLanguage, openLogs, saveDiagnostics, setLimitRate, openSettings} = useAppStore(
+		useShallow(state => ({setAboutDialogOpen: state.setAboutDialogOpen, setUiStyle: state.setUiStyle, setUiTheme: state.setUiTheme, setLanguage: state.setLanguage, openLogs: state.openLogs, saveDiagnostics: state.saveDiagnostics, setLimitRate: state.setLimitRate, openSettings: state.openSettings}))
 	)
 
 	useEffect(
@@ -166,12 +119,6 @@ function useNativeMenuActions(setFeedbackDialogOpen: Dispatch<SetStateAction<boo
 				switch (action.kind) {
 					case 'about':
 						setAboutDialogOpen(true)
-						break
-					case 'share':
-						openShareDialog()
-						break
-					case 'feedback':
-						setFeedbackDialogOpen(true)
 						break
 					case 'settings':
 						openSettings()
@@ -196,7 +143,7 @@ function useNativeMenuActions(setFeedbackDialogOpen: Dispatch<SetStateAction<boo
 						break
 				}
 			}),
-		[setAboutDialogOpen, openShareDialog, setUiStyle, setUiTheme, setLanguage, openLogs, saveDiagnostics, setLimitRate, openSettings, setFeedbackDialogOpen]
+		[setAboutDialogOpen, setUiStyle, setUiTheme, setLanguage, openLogs, saveDiagnostics, setLimitRate, openSettings]
 	)
 }
 
@@ -229,9 +176,9 @@ function BackdropStage({colorScheme, onUnavailable}: {colorScheme: BackdropColor
 	)
 }
 
-function AppFooter({showNudge, styleHintReady, onFeedback}: {showNudge: boolean; styleHintReady: boolean; onFeedback: () => void}): ReactNode {
+function AppFooter({styleHintReady}: {styleHintReady: boolean}): ReactNode {
 	const {t} = useTranslation()
-	const {uiZoom, setUiZoom, setAboutDialogOpen, setDonateDialogOpen, openShareDialog} = useAppStore(useShallow(state => ({uiZoom: state.uiZoom, setUiZoom: state.setUiZoom, setAboutDialogOpen: state.setAboutDialogOpen, setDonateDialogOpen: state.setDonateDialogOpen, openShareDialog: state.openShareDialog})))
+	const {uiZoom, setUiZoom, setAboutDialogOpen} = useAppStore(useShallow(state => ({uiZoom: state.uiZoom, setUiZoom: state.setUiZoom, setAboutDialogOpen: state.setAboutDialogOpen})))
 	// While browsing in Explore's compact layout the footer drops its labels and slims down.
 	const compactChrome = useAppStore(selectCompactChrome)
 	const language = useAppStore(state => state.language)
@@ -240,7 +187,6 @@ function AppFooter({showNudge, styleHintReady, onFeedback}: {showNudge: boolean;
 	const leftControlsRef = useRef<HTMLDivElement>(null)
 	const labelsCollapsed = useOverflowCollapse(footerRef, leftControlsRef, `${language}:${compactChrome}`)
 	const iconsOnly = compactChrome || labelsCollapsed
-	const footerLabelClass = iconsOnly ? 'sr-only' : FOOTER_COMPACT_LABEL_CLASS
 	const footerActionClass = cn(FOOTER_ACTION_BUTTON_CLASS, iconsOnly && 'size-6 px-0')
 
 	return (
@@ -263,49 +209,13 @@ function AppFooter({showNudge, styleHintReady, onFeedback}: {showNudge: boolean;
 					<LanguagePicker />
 				</div>
 			</div>
-			<div className="flex shrink-0 items-center gap-0.5 sm:gap-1" data-testid="footer-actions">
+			<div className="flex shrink-0 items-center gap-1" data-testid="footer-actions">
 				<Hint label={t('about.openTitle')}>
-					<Button type="button" variant="ghost" size="xs" className={cn(footerActionClass, 'max-sm:hidden')} onClick={() => setAboutDialogOpen(true)} data-testid="btn-about">
+					<Button type="button" variant="ghost" size="xs" className={footerActionClass} onClick={() => setAboutDialogOpen(true)} data-testid="btn-about">
 						<Info data-icon="inline-start" aria-hidden />
 						<span className={cn(iconsOnly && 'sr-only')}>{t('about.button')}</span>
 					</Button>
 				</Hint>
-				<Hint label={t('share.footerTooltip')}>
-					<Button type="button" variant="ghost" size="xs" className={footerActionClass} onClick={() => openShareDialog()} data-testid="btn-share">
-						<Share2 data-icon="inline-start" aria-hidden />
-						<span className={footerLabelClass} data-testid="btn-share-label">
-							{t('share.footerLabel')}
-						</span>
-					</Button>
-				</Hint>
-				<Hint label={t('donate.footerTooltip')}>
-					<Button type="button" variant="ghost" size="xs" className={footerActionClass} onClick={() => setDonateDialogOpen(true)} data-testid="btn-donate">
-						<Heart data-icon="inline-start" aria-hidden />
-						<span className={footerLabelClass} data-testid="btn-donate-label">
-							{t('donate.footerLabel')}
-						</span>
-					</Button>
-				</Hint>
-				<Hint label="Discord">
-					<Button type="button" variant="ghost" size="xs" className={footerActionClass} onClick={openDiscord} aria-label="Discord" data-testid="btn-discord">
-						<IconDiscord data-icon="inline-start" aria-hidden />
-						<span className={footerLabelClass} data-testid="btn-discord-label">
-							Discord
-						</span>
-					</Button>
-				</Hint>
-				<div className="relative inline-flex h-6 items-center">
-					<FeedbackNudge visible={showNudge} message={t('app.feedbackNudge')} />
-					{/* No hint while the nudge is up: it would open over the nudge's message. */}
-					<Hint label={showNudge ? '' : t('app.feedback')}>
-						<Button type="button" variant="ghost" size="xs" className={cn(footerActionClass, showNudge && 'feedback-btn-nudging')} onClick={onFeedback} aria-label={t('app.feedback')} data-testid="btn-feedback">
-							<MessageCircle data-icon="inline-start" aria-hidden />
-							<span className={footerLabelClass} data-testid="btn-feedback-label">
-								{t('app.feedback')}
-							</span>
-						</Button>
-					</Hint>
-				</div>
 			</div>
 		</footer>
 	)
@@ -326,11 +236,10 @@ export function App(): ReactNode {
 			settings: state.settings
 		}))
 	)
-	const {uiZoom, uiTheme, shareDialogOpen} = useAppStore(useShallow(state => ({uiZoom: state.uiZoom, uiTheme: state.uiTheme, shareDialogOpen: state.shareDialogOpen})))
+	const {uiZoom, uiTheme} = useAppStore(useShallow(state => ({uiZoom: state.uiZoom, uiTheme: state.uiTheme})))
 	const update = useUpdateChannel()
 	// Routes notify.ts to the toast surface for as long as the app is mounted.
 	useToastSink()
-	const [feedbackDialogOpen, setFeedbackDialogOpen] = useState(false)
 	const showStartupSplash = shouldRenderStartupSplash()
 	const startupReady = !showStartupSplash || splashDismissed
 	const whatsNew = useWhatsNewDialog(changelogText, {startupReady})
@@ -347,14 +256,7 @@ export function App(): ReactNode {
 	}, [initialize])
 
 	const colorScheme = useDocumentColorScheme(uiTheme)
-	const {showNudge, hideNudge} = useFeedbackNudge()
-	useNativeMenuActions(setFeedbackDialogOpen)
-
-	function openFeedbackFromFooter(): void {
-		feedbackLogger.info('Feedback button clicked', {source: 'footer', nudgeVisible: showNudge})
-		hideNudge()
-		setFeedbackDialogOpen(true)
-	}
+	useNativeMenuActions()
 
 	if (UiKit && isUiKitStage()) return <UiKitStage kit={UiKit} backdrop={backdrop} colorScheme={colorScheme} />
 
@@ -376,19 +278,12 @@ export function App(): ReactNode {
 					</div>
 				</div>
 
-				<AppFooter showNudge={showNudge} styleHintReady={startupReady && !whatsNew.open} onFeedback={openFeedbackFromFooter} />
+				<AppFooter styleHintReady={startupReady && !whatsNew.open} />
 
 				{showStartupSplash && (
 					<WarmupSplash initialized={initialized} warmupBlocking={warmupBlocking} warmupDiagnostics={warmupDiagnostics} warmupProgress={warmupProgress} warmupDownloads={warmupDownloads} showGreeting={shouldShowSplashGreeting(settings)} onDismissed={() => setSplashDismissed(true)} onCancel={cancelWarmup} />
 				)}
 				<AboutDialog />
-				<DonateDialog />
-				{shareDialogOpen ? (
-					<Suspense fallback={null}>
-						<ShareDialog />
-					</Suspense>
-				) : null}
-				<FeedbackDialog open={feedbackDialogOpen} onOpenChange={setFeedbackDialogOpen} />
 				<WhatsNewDialog open={whatsNew.open} digest={whatsNew.digest} onClose={whatsNew.close} onOpenFullNotes={whatsNew.openFullNotes} />
 				{ScenarioGallery ? (
 					<Suspense fallback={null}>

@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Arroxy\n"
 "Report-Msgid-Bugs-To: https://github.com/antonio-orionus/Arroxy/issues\n"
-"mime-version: 1.0\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ps\n"
 
 msgctxt "about.button"
 msgid "About"
@@ -16,7 +16,7 @@ msgid "GitHub"
 msgstr "GitHub"
 
 msgctxt "about.licenseLine"
-msgid "GPLv3 · Personal project by Saul Gabriel · Baseado na arquitetura open-source do projeto Arroxy (antonio-orionus/Arroxy) sob licença GNU GPL v3.0"
+msgid "GPLv3 · Personal project by Saul Gabriel · Based on the open-source architecture of Arroxy (antonio-orionus/Arroxy) under GNU GPL v3.0"
 msgstr ""
 
 msgctxt "about.openTitle"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "about.thirdPartyNotices"
 msgid "View third-party notices"
 msgstr "د دریم ډلې خبرتیاوې وګورئ"
-
-msgctxt "about.websiteLink"
-msgid "Website"
-msgstr "ویب پاڼه"
 
 msgctxt "aiUpscaled.allow"
 msgid "Allow"
@@ -54,14 +50,6 @@ msgstr "د AI په مرسته لوی شوي سټریمونه"
 msgctxt "aiUpscaled.skip"
 msgid "Skip"
 msgstr "پرېښودل"
-
-msgctxt "app.feedback"
-msgid "Feedback"
-msgstr "نظر"
-
-msgctxt "app.feedbackNudge"
-msgid "Enjoying Klip? I'd love to hear from you! 💬"
-msgstr "ایا Klip خوند درکوي؟ ستاسو د اورولو شوق لرم! 💬"
 
 msgctxt "app.logs"
 msgid "Logs"
@@ -176,38 +164,6 @@ msgstr "وتل"
 msgctxt "dialogs.rendererCrashed.reload"
 msgid "Reload"
 msgstr "بیا بار کړئ"
-
-msgctxt "donate.copied"
-msgid "Copied!"
-msgstr "کاپي شو!"
-
-msgctxt "donate.copyAddress"
-msgid "Copy address"
-msgstr "پته کاپي کړئ"
-
-msgctxt "donate.description"
-msgid "Klip is free and open-source, with no ads or paid tier. Donations are optional and buy no influence over the roadmap."
-msgstr "Klip وړیا او خلاص‌سرچینه دی، بې اعلانونو او بې د پیسو پلان. مرستې اختیاري دي او د پرمختګ پلان باندې اغېز نه لري."
-
-msgctxt "donate.footerLabel"
-msgid "Donate"
-msgstr "مرسته"
-
-msgctxt "donate.footerTooltip"
-msgid "Support Klip"
-msgstr "له Klip ملاتړ وکړئ"
-
-msgctxt "donate.qrAlt"
-msgid "{{coin}} donation address QR code"
-msgstr "د {{coin}} د مرستې پتې QR کوډ"
-
-msgctxt "donate.title"
-msgid "Support Klip"
-msgstr "له Klip ملاتړ وکړئ"
-
-msgctxt "donate.warning"
-msgid "Crypto payments are irreversible. Send only on the network shown, and compare the whole address."
-msgstr "د کریپټو تادیې بیرته نه راګرځي. یوازې د ښودل شوې شبکې له لارې ولېږئ او ټوله پته پرتله کړئ."
 
 msgctxt "errors.noSubtitlesIn"
 msgid "This video has no subtitles in {{languages}}."
@@ -1931,41 +1887,9 @@ msgctxt "selectionOrder.whyTitle"
 msgid "Why the profile picked this"
 msgstr "پروفایل ولې دا غوره کړ"
 
-msgctxt "share.copied"
-msgid "Copied!"
-msgstr "کاپي شو!"
-
 msgctxt "share.copyLink"
 msgid "Copy link"
 msgstr "لینک کاپي کړئ"
-
-msgctxt "share.defaultMessage"
-msgid ""
-"Klip — free, open-source video downloader for Windows, macOS & Linux. Works with YouTube, Vimeo, Twitch, and 2000+ sites.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-msgstr ""
-"Klip — د Windows، macOS او Linux لپاره وړیا او خلاص-سرچینه ویډیو ډاونلوډر. له YouTube، Vimeo، Twitch او 2000+ سایټونو سره کار کوي.\n"
-"4K · HDR · MP3 · Shorts · Subtitles · SponsorBlock"
-
-msgctxt "share.description"
-msgid "Klip is free and open-source. Sharing helps more people discover it."
-msgstr "Klip وړیا او خلاص سرچینه دی. شریکول نورو خلکو سره مرسته کوي چې ومومي."
-
-msgctxt "share.footerLabel"
-msgid "Share"
-msgstr "شریک کړئ"
-
-msgctxt "share.footerTooltip"
-msgid "Share Klip"
-msgstr "Klip شریک کړئ"
-
-msgctxt "share.shareAction"
-msgid "Share Klip"
-msgstr "Klip شریک کړئ"
-
-msgctxt "share.title"
-msgid "Share Klip"
-msgstr "Klip شریک کړئ"
 
 msgctxt "splash.cancel"
 msgid "Having trouble? Set it up manually"
@@ -5379,25 +5303,35 @@ msgctxt "wizard.url.quickSingleOnly"
 msgid "Paste a video, playlist, channel, or search URL to get started."
 msgstr "د پیل لپاره د ویډیو، پلې‌لېست، چینل یا لټون URL ونښلوئ."
 
-msgctxt "wizard.url.reports.toggle"
-msgid "Send anonymous heartbeat and setup reports"
-msgstr "ناپیژندلی هارټ بیټ او د تنظیم راپورونه واستوئ"
+msgctxt "wizard.url.settings.advancedDescription"
+msgid "Cookies, proxy, network pacing, audio/HDR, filename template, shortcuts and logs."
+msgstr ""
 
-msgctxt "wizard.url.reports.toggleDescription"
-msgid "No tracking. Once a day, an anonymous heartbeat sends the app version, install channel, OS, language, country and roughly how long ago Klip was installed, so we can count active and new users. When Klip sets up or updates its download engine or media tools, it also reports whether that worked and roughly how long it took. No IDs, URLs, video titles or filenames."
-msgstr "هیڅ تعقیب نشته. په ورځ کې یو ځل، یو ناپیژندلی هارټ بیټ د اپ نسخه، د نصب چینل، OS، ژبه، هېواد او تقریباً دا چې Klip څومره وخت مخکې نصب شوی لیږي، ترڅو موږ فعال او نوي کاروونکي وشمېرو. کله چې Klip خپل د ډاونلوډ انجن یا د رسنۍ وسایل تنظیموي یا تازه کوي، دا هم راپور ورکوي چې ایا بریالی شو او تقریباً څومره وخت یې ونیو. هیڅ ID، URL، د ویډیو سرلیک یا د فایل نوم نشته."
+#, fuzzy
+#| msgctxt "wizard.profileEditor.advanced"
+#| msgid "Advanced"
+msgctxt "wizard.url.settings.advancedHeading"
+msgid "Advanced"
+msgstr "پرمختللي"
 
 msgctxt "wizard.url.settings.behaviorDescription"
-msgid "Global behavior that affects profile-driven downloads too."
-msgstr "عمومی سلوک چې د پروفایل له لارې رابېشتلي ډاونلوډ هم اغېزمن کوي."
+msgid "Global defaults for concurrency, pacing, media formats and logs."
+msgstr ""
 
+#, fuzzy
+#| msgctxt "queue.item.defaultError"
+#| msgid "Download failed"
 msgctxt "wizard.url.settings.behaviorHeading"
-msgid "Download behavior"
-msgstr "د ښوتنې (ډاونلوډ) چلند"
+msgid "Download & media"
+msgstr "ډاونلوډ ناکام شو"
 
-msgctxt "wizard.url.settings.inputHeading"
-msgid "Input"
-msgstr "ورودی"
+msgctxt "wizard.url.settings.generalDescription"
+msgid "Daily download essentials."
+msgstr ""
+
+msgctxt "wizard.url.settings.generalHeading"
+msgid "General"
+msgstr ""
 
 msgctxt "wizard.url.style.aurora.description"
 msgid "Glass panels over a moving sky. Needs graphics acceleration."

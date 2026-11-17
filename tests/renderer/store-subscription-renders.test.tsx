@@ -6,7 +6,6 @@ import {useAppStore} from '@renderer/store/useAppStore.js'
 import {applyQueueProjectionBatch} from '@renderer/store/queueProjection.js'
 import {TooltipProvider} from '@renderer/components/ui/tooltip.js'
 import {AboutDialog} from '@renderer/components/system/AboutDialog.js'
-import {DonateDialog} from '@renderer/components/system/DonateDialog.js'
 import {ThemeToggle} from '@renderer/components/system/ThemeToggle.js'
 import {BehaviorSettingsPanel} from '@renderer/components/wizard/BehaviorSettingsPanel.js'
 import {CookiesSettingsFields} from '@renderer/components/wizard/CookiesSettingsFields.js'
@@ -39,7 +38,6 @@ import {buildAppSettings} from '../shared/settingsFixtures.js'
 
 const SCREENS: readonly [string, () => ReactNode][] = [
 	['AboutDialog', () => <AboutDialog />],
-	['DonateDialog', () => <DonateDialog />],
 	['ThemeToggle', () => <ThemeToggle />],
 	['BehaviorSettingsPanel', () => <BehaviorSettingsPanel />],
 	['CookiesSettingsFields', () => <CookiesSettingsFields />],
