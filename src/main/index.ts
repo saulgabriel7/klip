@@ -291,8 +291,15 @@ if (hasSingleInstanceLock) {
 
 	void app.whenReady().then(async () => {
 		lifecyclePhase = 'ready'
-		if (process.platform === 'darwin' && !isHeadlessWindowRequested(process.env)) {
-			app.dock?.setIcon(path.join(import.meta.dirname, '../../build/icon.png'))
+		if (process.platform === 'darwin' && !isHeadlessWindowRequested(process.env) && !app.isPackaged) {
+			const devIconPath = path.join(import.meta.dirname, '../../build/icon.png')
+			if (fs.existsSync(devIconPath)) {
+				try {
+					app.dock?.setIcon(devIconPath)
+				} catch {
+					// In case of any dock error in dev
+				}
+			}
 		}
 		gpuInfoReadiness?.startBudget(GPU_INFO_BUDGET_MS)
 		log.info('Session started', sessionContext())
